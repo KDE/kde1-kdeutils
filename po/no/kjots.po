@@ -177,6 +177,3 @@ msgstr "Velg"
 #: confdialog.cpp:133
 msgid "Dolor Ipse"
 msgstr "Dolor Ipse"
-
-#~ msgid "Exit"
-#~ msgstr "Avslutt"

@@ -116,6 +116,3 @@ msgstr "&Om"
 #: toplevelwidget.cc:190
 msgid "About Qt"
 msgstr "Om Qt"
-
-#~ msgid "kab 0.8, August 1998"
-#~ msgstr "kab 0.8, august 1998"

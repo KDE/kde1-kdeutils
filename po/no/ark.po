@@ -164,6 +164,3 @@ msgstr "Arkivmappe eksisterer ikke."
 #: arkwidget.cc:418
 msgid "Archive Directory"
 msgstr "Arkivmappe"
-
-#~ msgid "Ok"
-#~ msgstr "Ok"

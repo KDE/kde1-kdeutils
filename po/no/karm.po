@@ -129,12 +129,3 @@ msgstr "Rediger oppgave"
 #: top.cpp:149
 msgid "clock active"
 msgstr "ur aktivt"
-
-#~ msgid "&About"
-#~ msgstr "&Om"
-
-#~ msgid "About "
-#~ msgstr "Om "
-
-#~ msgid "&Contents"
-#~ msgstr "&Innhold"

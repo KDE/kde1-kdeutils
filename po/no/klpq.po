@@ -142,27 +142,3 @@ msgstr ""
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"
 msgstr "Stil til spolekommandoer:"
-
-#~ msgid "Ok"
-#~ msgstr "OK"
-
-#~ msgid "Quit"
-#~ msgstr "Gå ut"
-
-#~ msgid "Files"
-#~ msgstr "Filer"
-
-#~ msgid "Remove"
-#~ msgstr "Fjern"
-
-#~ msgid "&Quit"
-#~ msgstr "&Gå ut"
-
-#~ msgid "&File"
-#~ msgstr "&Fil"
-
-#~ msgid "&Help"
-#~ msgstr "&Hjelp"
-
-#~ msgid "Cancel"
-#~ msgstr "Avbryt"
