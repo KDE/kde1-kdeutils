@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"POT-Creation-Date: 1999-03-13 01:55+0100\n"
 "PO-Revision-Date:  1998-12-29 22:00+0100\n"
 "Last-Translator: Karl Backström <backstrom@kde.org>\n"
 "Language-Team: Swedish\n"
@@ -63,6 +63,7 @@ msgid "KDE Floppy Formatter"
 msgstr "KDE Diskettformaterare"
 
 #: floppy.cpp:168 floppy.cpp:222 floppy.cpp:240 floppy.cpp:255 floppy.cpp:273
+#: floppy.cpp:1016
 msgid "HD"
 msgstr "HD"
 

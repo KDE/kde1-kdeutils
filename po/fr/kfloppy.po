@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kfloppy\n"
-"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"POT-Creation-Date: 1999-03-13 01:55+0100\n"
 "PO-Revision-Date: Mon May 18 1998 12:57:11+0200Translator: Serge 'sergio' "
 "Tellène <tells@mygale.org>Last-Translator: Francois-Xavier DURANCEAU "
 "<Francois-Xavier.Duranceau@loria.fr>Language-Team: French<fr@li.org> "
@@ -67,6 +67,7 @@ msgid "KDE Floppy Formatter"
 msgstr "Formatteur de Disquette KDE"
 
 #: floppy.cpp:168 floppy.cpp:222 floppy.cpp:240 floppy.cpp:255 floppy.cpp:273
+#: floppy.cpp:1016
 msgid "HD"
 msgstr "HD"
 
