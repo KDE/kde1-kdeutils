@@ -138,6 +138,7 @@ protected:
   int readFile(QString name);
   int writeFile( QString name);
   void writeEntry( QTextStream &st, TextEntry *entry );
+  void saveProperties(KConfig*);
 
   QGridLayout   *top2bottom;
   QBoxLayout    *bg_bot_layout;

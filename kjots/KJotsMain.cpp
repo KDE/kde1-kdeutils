@@ -2,7 +2,7 @@
 //  kjots
 //
 //  Copyright (C) 1997 Christoph Neerfeld
-//  email:  Christoph.Neerfeld@mail.bonn.netsurf.de
+//  email:  Christoph.Neerfeld@bonn.netsurf.de
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -234,6 +234,7 @@ KJotsMain::KJotsMain(const char* name)
   le_subject = new QLineEdit( f_labels, "le_subject" );
   le_subject->setMinimumSize( 56, 20 );
   le_subject->setText( "" );
+  le_subject->setFocusPolicy(QWidget::ClickFocus);
   
   bg_top = new MyButtonGroup( f_main, "ButtonGroup_2" );
   bg_top->setMinimumSize( 452, 32 );
@@ -242,9 +243,7 @@ KJotsMain::KJotsMain(const char* name)
   bg_top->setAlignment( 1 );
   bg_top->lower();
   
-  //this->resize(600, 478);
   this->setMinimumSize(500, 211);
-  //f_main->setGeometry( 0, 28, this->size().width(), this->size().height() - 28 );
   
   KConfig *config = KApplication::getKApplication()->getConfig();
   config->setGroup("kjots");
@@ -293,7 +292,7 @@ KJotsMain::KJotsMain(const char* name)
   s_bar->setSteps(1,1);
 
   bg_top->setExclusive(TRUE);
-  me_text->setFocusPolicy(QWidget::ClickFocus);
+  me_text->setFocusPolicy(QWidget::StrongFocus);
 
   // read hotlist
   readListConf( config, "Hotlist", hotlist );
@@ -312,6 +311,7 @@ KJotsMain::KJotsMain(const char* name)
       if( hotlist.contains(temp) )
 	{
 	  temp_button = new QPushButton(temp, bg_top);
+	  temp_button->setFocusPolicy(QWidget::ClickFocus);
 	  temp_button->setToggleButton(TRUE);
 	  temp_button->setFixedSize(BUTTON_WIDTH,24);
 	  bg_top->insert(temp_button, i);
@@ -405,6 +405,25 @@ KJotsMain::KJotsMain(const char* name)
 
 
 KJotsMain::~KJotsMain()
+{
+  saveProperties( (void *) 0 );
+  /*
+  KConfig *config = KApplication::getKApplication()->getConfig();
+  button_list.clear();
+  if( folderOpen )
+    {
+      QFileInfo fi(current_folder_name);
+      config->writeEntry("LastOpenFolder", fi.fileName());
+    }
+  saveFolder();
+  config->writeEntry("Width", width());
+  config->writeEntry("Height", height());
+  config->writeEntry("ToolBarPos", (int) toolbar->barPos() );
+  config->sync();
+  */
+}
+
+void KJotsMain::saveProperties(KConfig*)
 {
   KConfig *config = KApplication::getKApplication()->getConfig();
   button_list.clear();
@@ -768,6 +787,7 @@ void KJotsMain::addToHotlist()
   config->setGroup("kjots");
   writeListConf( config, "Hotlist", hotlist );
   config->sync();
+  but->setFocusPolicy(QWidget::ClickFocus);
   but->setToggleButton(TRUE);
   but->setFixedSize(BUTTON_WIDTH,24);
   but->show();

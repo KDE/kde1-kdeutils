@@ -109,6 +109,13 @@ int main( int argc, char **argv )
   config->sync();
   global_pix_loader = new KIconLoader();
   KJotsMain jots;
+  if( a.isRestored() )
+    {
+      if( KTopLevelWidget::canBeRestored(1) )
+	{
+          jots.restore(1);
+	}
+    }
   main_widget = &jots;
   a.setMainWidget( (QWidget *) &jots );
   a.setRootDropZone( new KDNDDropZone( (QWidget *) &jots, DndNotDnd ) );
