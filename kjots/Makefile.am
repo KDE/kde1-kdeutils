@@ -10,11 +10,9 @@ kjots_SOURCES = main.cpp\
 	SubjList.cpp\
 	ReadListConf.cpp\
 	cpopmenu.cpp\
-	confdialog.cpp\
-	$(BUILT_SOURCES)
+	confdialog.cpp
 
-BUILT_SOURCES = mKJotsMain.cpp mSubjList.cpp mcpopmenu.cpp mconfdialog.cpp
-DISTCLEANFILES = $(BUILT_SOURCES)
+METASOURCES = USE_AUTOMOC 
 
 SUBDIRS = icons doc
 
@@ -23,25 +21,4 @@ apps_DATA = Kjots.kdelnk
 
 messages:
 	$(XGETTEXT) -C -ktranslate -ki18n -x $(includedir)/kde.pot *.cpp && mv messages.po ../po/kjots.pot
-
-####### Meta objects
-
-mKJotsMain.cpp: KJotsMain.h
-	$(MOC) KJotsMain.h -o mKJotsMain.cpp
-
-mSubjList.cpp: SubjList.h
-	$(MOC) SubjList.h -o mSubjList.cpp
-
-mcpopmenu.cpp: cpopmenu.h
-	$(MOC) cpopmenu.h -o mcpopmenu.cpp
-
-mconfdialog.cpp: confdialog.h
-	$(MOC) confdialog.h -o mconfdialog.cpp
-
-
-
-
-
-
-
 

@@ -11,22 +11,12 @@ noinst_HEADERS = hexdata.h hexfile.h hexwidget.h
 khexdit_LDADD = $(LIB_KFILE)
 khexdit_LDFLAGS = $(all_libraries) $(KDE_RPATH)
 
-BUILTSOURCES = hexwidget.moc hexfile.moc
-DISTCLEANFILES = hexwidget.moc hexfile.moc
-
-hexwidget.cpp:hexwidget.moc
-hexwidget.moc: hexwidget.h
-	$(MOC) hexwidget.h -o hexwidget.moc
-
-hexfile.cpp:hexfile.moc
-hexfile.moc: hexfile.h
-	$(MOC) hexfile.h -o hexfile.moc
+METASOURCES = hexwidget.moc hexfile.moc
 
 appsdir = $(kde_appsdir)/Utilities
 apps_DATA = khexdit.kdelnk
 
-icondir = $(kde_icondir)
-icon_DATA = khexdit.xpm
+kde_icon_DATA = khexdit.xpm
 
 install-data-local: 
 	$(mkinstalldirs) $(kde_minidir)

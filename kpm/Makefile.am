@@ -49,14 +49,10 @@ noinst_HEADERS = dialogs.h infobar.h pstable.h svec.h wchan.h \
 		 buttongroup.h docked.h
 
 # just to make sure, automake makes them 
-BUILTSOURCES =	dialogs.moc infobar.moc pstable.moc svec.moc wchan.moc \
-		fieldsel.moc prefs.moc qps.moc ttystr.moc \
-		details.moc htable.moc proc.moc scheddlg.moc uidstr.moc \
+METASOURCES =	dialogs.moc infobar.moc pstable.moc \
+		fieldsel.moc prefs.moc qps.moc \
+		details.moc htable.moc scheddlg.moc \
 		docked.moc
-
-# if you "make distclean", this files get removed. If you want to remove
-# them while "make clean", use CLEANFILES
-DISTCLEANFILES = $(BUILTSOURCES)
 
 messages:
 	$(XGETTEXT) -C -ktranslate -kTRANS -ki18n -x $(includedir)/kde.pot $(kpm_SOURCES) && mv messages.po ../po/kpm.pot
@@ -80,39 +76,3 @@ uninstall-local:
 	-rm -f $(APPSDIR)/kpm.kdelnk
 	-rm -f $(kde_minidir)/kpm.xpm
 
-# add a dependency for every moc file to be full portable
-# I've added a key binding to emacs for this. 
-
-moc.C:  details.moc dialogs.moc fieldsel.moc htable.moc infobar.moc \
-	prefs.moc pstable.moc qps.moc scheddlg.moc
-
-details.moc: details.h
-	$(MOC) details.h -o details.moc
-
-dialogs.moc: dialogs.h
-	$(MOC) dialogs.h -o dialogs.moc
-
-fieldsel.moc: fieldsel.h
-	$(MOC) fieldsel.h -o fieldsel.moc
-
-htable.moc: htable.h
-	$(MOC) htable.h -o htable.moc
-
-infobar.moc: infobar.h
-	$(MOC) infobar.h -o infobar.moc
-
-prefs.moc: prefs.h
-	$(MOC) prefs.h -o prefs.moc
-
-pstable.moc: pstable.h
-	$(MOC) pstable.h -o pstable.moc
-
-qps.moc: qps.h
-	$(MOC) qps.h -o qps.moc
-
-scheddlg.moc: scheddlg.h
-	$(MOC) scheddlg.h -o scheddlg.moc
-
-docked.C: docked.moc
-docked.moc: docked.h
-	$(MOC) docked.h -o docked.moc
