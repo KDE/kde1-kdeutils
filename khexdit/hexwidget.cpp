@@ -279,7 +279,7 @@ void HexWidget::closeEvent ( QCloseEvent *e) {
   toolbar = 0L;
   delete menu;
   menu = 0L;
-  delete dropZone;
+//  delete dropZone;
   dropZone = 0L;
   if (windowList.isEmpty())
     kapp->quit();
@@ -341,10 +341,8 @@ int main(int argc, char **argv) {
 	      
 	      new HexWidget(f.data());
 	  }
-      } else {
-	  HexWidget *hw = new HexWidget();
-	  a.setMainWidget(hw);
-      }
+      } else 
+	  new HexWidget();
   
   return a.exec();
 }
