@@ -78,9 +78,8 @@ msgid "Vertical Selections On"
 msgstr "Seleções Verticais Ligadas"
 
 #: kwview.cpp:1057
-#, fuzzy
 msgid "Vertical Selections Off"
-msgstr "Seleções Verticais Ligadas"
+msgstr "Seleções Verticais Desligadas"
 
 #: kwview.cpp:1116
 msgid "The specified File does not exist"
