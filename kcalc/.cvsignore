@@ -1,4 +1,5 @@
 Makefile
+Makefile.in
 configdlg.moc
 configdlg.o
 dlabel.moc
