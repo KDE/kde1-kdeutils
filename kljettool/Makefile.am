@@ -29,6 +29,8 @@ appsdir = $(kde_appsdir)/Utilities/
 install-data-local:
 	$(mkinstalldirs) $(kde_minidir)
 	$(INSTALL_DATA) $(srcdir)/mini-kljettool.xpm $(kde_minidir)/kljettool.xpm
+	$(mkinstalldirs) $(kde_minidir)/../large
+	$(INSTALL_DATA) $(srcdir)/large-kljettool.xpm $(kde_minidir)/../large/kljettool.xpm
 	@echo ""
 	@echo ""
 	@echo "If you own a RedHat system or if you have trouble getting"

@@ -34,9 +34,12 @@ appsdir = $(kde_appsdir)/Utilities
 install-data-local: 
 	$(mkinstalldirs) $(kde_minidir)
 	$(INSTALL_DATA) $(srcdir)/mini-knotes.xpm $(kde_minidir)/knotes.xpm
+	$(mkinstalldirs) $(kde_minidir)/../large
+	$(INSTALL_DATA) $(srcdir)/large-knotes.xpm $(kde_minidir)/../large/knotes.xpm
 	
 uninstall-local:
 	rm -f $(kde_minidir)/knotes.xpm
+	rm -f $(kde_minidir)/../large/knotes.xpm
 
 messages:
 	$(XGETTEXT) -C -ktranslate -ki18n -x $(includedir)/kde.pot $(knotes_SOURCES) && mv messages.po ../po/knotes.pot

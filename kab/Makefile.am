@@ -55,8 +55,11 @@ picsdir = $(kde_datadir)/kab/pics
 install-data-local: 
 	$(mkinstalldirs) $(kde_minidir)
 	$(INSTALL_DATA) $(srcdir)/mini-kab.xpm $(kde_minidir)/kab.xpm
+	$(mkinstalldirs) $(kde_minidir)/../large
+	$(INSTALL_DATA) $(srcdir)/large-kab.xpm $(kde_minidir)/../large/kab.xpm
 
 # remove ALL you have installed in install-data-local or install-exec-local
 uninstall-local:
 	-rm -f $(kde_minidir)/kab.xpm
+	-rm -f $(kde_minidir)/../large/kab.xpm
 

@@ -28,10 +28,13 @@ install-data-local:
 	$(INSTALL_DATA) $(srcdir)/support/filedel.xpm $(kde_toolbardir)
 	$(mkinstalldirs) $(kde_minidir)
 	$(INSTALL_DATA) $(srcdir)/mini-karm.xpm $(kde_minidir)/karm.xpm
+	$(mkinstalldirs) $(kde_minidir)/../large
+	$(INSTALL_DATA) $(srcdir)/large-karm.xpm $(kde_minidir)/../large/karm.xpm
 
 uninstall-local:
 	rm -f $(kde_appsdir)/Utilities/KArm.kdelnk
 	rm -f $(kde_minidir)/karm.xpm
+	rm -f $(kde_minidir)/../large/karm.xpm
 	rm -f $(kde_toolbardir)/filedel.xpm
 	-rmdir -p $(kde_toolbardir)
 	-rmdir -p $(kde_minidir)
