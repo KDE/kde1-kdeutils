@@ -108,10 +108,11 @@ void FillDlg::checkit(){
   if (ok){
     accept();
   }
- 
+  else{
   QMessageBox::message(klocale->translate("Sorry"),
 		       klocale->translate("You must enter an integer."),
 		       klocale->translate("OK"));
+  }
 
 }
 
