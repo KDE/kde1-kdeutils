@@ -21,11 +21,11 @@ msgstr "Allarme Timer per: %s"
 
 #: alarm.cpp:72
 msgid "Unset"
-msgstr "Non settato"
+msgstr "Rimuovi"
 
 #: alarm.cpp:74
 msgid "Set"
-msgstr "settato"
+msgstr "Imposta"
 
 #: alarm.cpp:153
 msgid "I am afraid you already missed your appointment."

@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-01-28 09:54+0100\n"
+"PO-Revision-Date: 1998-02-03 15:00+0100\n"
+"Last-Translator: Rizzi Andrea <Bilibao@Ouverture.it>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: adddata.cpp:38
+msgid "Task Name"
+msgstr "Nome Task"
+
+#: adddata.cpp:44
+msgid "Accumutated time (in minutes)"
+msgstr "Tempo Accumulato (in minuti)"
+
+#: adddlg.cpp:26
+msgid "KArm: New Task"
+msgstr "KArm: Nuovo Task"
+
+#: karm.cpp:116
+msgid "Karm: Save error"
+msgstr "Karm: errore nel salvataggio"
+
+#: karm.cpp:117
+msgid ""
+"There was an error trying to save your data file.\n"
+"Time accumulated this session will NOT be saved!\n"
+msgstr ""
+"C'è stato un errore nel salvataggio dei dati.\n"
+"Il tempo accumulato in questa sessione non sarà salvato.\n"
+
+#: karm.cpp:119
+msgid "Oh No!"
+msgstr "Oh No!"
+
+#: karm.cpp:205
+msgid ": Add New Task"
+msgstr ":Aggiungi nuovo task"
+
+#: karm.cpp:216
+msgid "Karm::createNewTask called and there's no dialog!"
+msgstr "Karm::createNewTask chiamato e non ci sono Finestre di Dialogo"
+
+#: karm.cpp:243
+msgid ": Edit Task Entry"
+msgstr ":Modifica Voce Task"
+
+#: karm.cpp:256
+msgid "Karm::updateExistingTask called and there's no dlg!"
+msgstr "Karm::updateExistingTask chiamato e non ci sono finestre di dialogo! "
+
+#: karm.cpp:280
+msgid ": Deleting Task"
+msgstr ": Eliminazione Task"
+
+#: karm.cpp:281
+msgid "Are you sure you want to delete this task?"
+msgstr "Sei sicuro di voler eliminare questo Task ?"
+
+#: karm.cpp:283
+msgid "&Yes"
+msgstr "&Si"
+
+#: top.cpp:39 top.cpp:171
+msgid "clock inactive"
+msgstr "orologio inattivo"
+
+#: top.cpp:40
+msgid "This session:"
+msgstr "Questa Sessione:"
+
+#: top.cpp:56
+msgid "&Clock"
+msgstr "&Orologio"
+
+#: top.cpp:57
+msgid "&Start"
+msgstr "&Avvia"
+
+#: top.cpp:58
+msgid "S&top"
+msgstr "&Ferma"
+
+#: top.cpp:60
+msgid "&Task"
+msgstr "&Task"
+
+#: top.cpp:71
+msgid "&Contents"
+msgstr "&Contenuti"
+
+#: top.cpp:85
+msgid "Start Clock"
+msgstr "Avvia Orologio"
+
+#: top.cpp:90
+msgid "Stop Clock"
+msgstr "Ferma Orologio"
+
+#: top.cpp:97
+msgid "New Task"
+msgstr "Nuovo Task"
+
+#: top.cpp:102
+msgid "Delete Task"
+msgstr "Elimina Task"
+
+#: top.cpp:107
+msgid "Edit Task"
+msgstr "Modifica Task"
+
+#: top.cpp:145
+msgid "About "
+msgstr "Info su..."
+
+#: top.cpp:146
+msgid ""
+" 0.3 -- Sirtaj Singh Kang\n"
+"taj@kde.org, Oct 1997\n"
+"\n"
+"The K Desktop Environment"
+msgstr ""
+" 0.3 -- Sirtaj Singh Kang\n"
+"taj@kde.org, Oct 1997\n"
+"\n"
+"The K Desktop Environment"
+
+#: top.cpp:164
+msgid "clock active"
+msgstr "orologio attivo"
