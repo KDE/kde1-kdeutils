@@ -258,6 +258,8 @@ void HexFile::changeSide() {
 }
 
 void HexFile::mousePressEvent (QMouseEvent *e) {
+  if (hexdata.isNull())
+    return;
   int neux ,neuy, mx ,cx;
   neuy = e->pos().y() / metrics->height();
   neux = 0;
