@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-18 23:30+0200\n"
+"POT-Creation-Date: 1998-11-17 10:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,123 +61,123 @@ msgstr "barra de status"
 msgid "Socket Info Window"
 msgstr "Janela de informações de soquetes"
 
-#: qps.C:84 qps.C:122
+#: qps.C:89 qps.C:127
 msgid "Renice..."
 msgstr "Re-priorizar..."
 
-#: qps.C:87
+#: qps.C:92
 msgid "Change Scheduling..."
 msgstr "Mudar agendamento..."
 
-#: qps.C:91 qps.C:126
+#: qps.C:96 qps.C:131
 msgid "Socket Info"
 msgstr "Informações de soquete"
 
-#: qps.C:96
+#: qps.C:101
 msgid "Iconify"
 msgstr "Minimizar"
 
-#: qps.C:104 qps.C:128
+#: qps.C:109 qps.C:133
 msgid "Terminate"
 msgstr "Terminar"
 
-#: qps.C:107 qps.C:129
+#: qps.C:112 qps.C:134
 msgid "Hangup"
 msgstr "Suspender (Hangup)"
 
-#: qps.C:110 qps.C:130
+#: qps.C:115 qps.C:135
 msgid "Interrupt"
 msgstr "Interromper"
 
-#: qps.C:113 qps.C:132
+#: qps.C:118 qps.C:137
 msgid "Kill"
 msgstr "Matar"
 
-#: qps.C:116
+#: qps.C:121
 msgid "Other"
 msgstr "Outros"
 
-#: qps.C:123
+#: qps.C:128
 msgid "Scheduling..."
 msgstr "Agendando..."
 
-#: qps.C:133
+#: qps.C:138
 msgid "Other signals"
 msgstr "Outros sinais"
 
-#: qps.C:141
+#: qps.C:146
 msgid "Remove field"
 msgstr "Remover campo"
 
-#: qps.C:143
+#: qps.C:148
 msgid "Add field..."
 msgstr "Adicionar campo..."
 
-#: qps.C:147
+#: qps.C:152
 msgid "Help on field..."
 msgstr "Ajuda sobre o campo..."
 
-#: qps.C:152
+#: qps.C:157
 msgid "Refresh process list"
 msgstr "Renovar lista de processo"
 
-#: qps.C:155
+#: qps.C:160
 msgid "All Processes"
 msgstr "Todos os processos"
 
-#: qps.C:156
+#: qps.C:161
 msgid "Your Processes"
 msgstr "Seu processo"
 
-#: qps.C:157
+#: qps.C:162
 msgid "Non-Root Processes"
 msgstr "Processos não-root"
 
-#: qps.C:158
+#: qps.C:163
 msgid "Running Processes"
 msgstr "Processos rodando"
 
-#: qps.C:160
+#: qps.C:165
 msgid "User Fields"
 msgstr "Campos do usuário"
 
-#: qps.C:161
+#: qps.C:166
 msgid "Jobs Fields"
 msgstr "Campos dos serviços"
 
-#: qps.C:162
+#: qps.C:167
 msgid "Memory Fields"
 msgstr "Campos de memória"
 
-#: qps.C:164
+#: qps.C:169
 msgid "Select Fields..."
 msgstr "Selecionar campos..."
 
-#: qps.C:170
+#: qps.C:175
 msgid "Update Period..."
 msgstr "Período de atualização..."
 
-#: qps.C:175
+#: qps.C:180
 msgid "Show command path"
 msgstr "Mostrar caminho do comando"
 
-#: qps.C:177
+#: qps.C:182
 msgid "Show ressource info"
 msgstr "Mostrar informações de recursos"
 
-#: qps.C:179
+#: qps.C:184
 msgid "Show toolbar"
 msgstr "Mostrar barra de ferramentas"
 
-#: qps.C:183
+#: qps.C:188
 msgid "Preferences..."
 msgstr "Preferências..."
 
-#: qps.C:186
+#: qps.C:191
 msgid "Save Settings Now"
 msgstr "Mostrar configurações agora"
 
-#: qps.C:190
+#: qps.C:195
 #, c-format
 msgid ""
 "kpm %sk%s - A Visual Process Manager (KDE Version)\n"
@@ -209,170 +209,181 @@ msgstr ""
 "Este programa é publicado sob a Licença Geral Pública\n"
 "GNU. Veja o arquivo COPYING para maiores detalhes."
 
-#: qps.C:208
+#: qps.C:213
 msgid "&Window"
 msgstr "&Janela"
 
-#: qps.C:209
+#: qps.C:214
 msgid "&Process"
 msgstr "&Processo"
 
-#: qps.C:210
+#: qps.C:215
 msgid "&Signal"
 msgstr "&Sinal"
 
-#: qps.C:306
+#: qps.C:311
 msgid "SIGQUIT (quit)"
 msgstr "SIGQUIT (sair)"
 
-#: qps.C:307
+#: qps.C:312
 msgid "SIGILL (illegal instruction)"
 msgstr "SIGILL (instrução ilegal)"
 
-#: qps.C:308
+#: qps.C:313
 msgid "SIGABRT (abort)"
 msgstr "SIGABRT (abortar)"
 
-#: qps.C:309
+#: qps.C:314
 msgid "SIGFPE (floating point exception)"
 msgstr "SIGFPE (exceção de ponto flutuante)"
 
-#: qps.C:310
+#: qps.C:315
 msgid "SIGSEGV (segmentation violation)"
 msgstr "SIGSEGV (violação de acesso)"
 
-#: qps.C:311
+#: qps.C:316
 msgid "SIGPIPE (broken pipe)"
 msgstr "SIGPIPE (pipe quebrado)"
 
-#: qps.C:312
+#: qps.C:317
 msgid "SIGALRM (timer signal)"
 msgstr "SIGALRM (sinal do timer)"
 
-#: qps.C:313
+#: qps.C:318
 msgid "SIGUSR1 (user-defined 1)"
 msgstr "SIGUSR1 (definido pelo usuário 1)"
 
-#: qps.C:314
+#: qps.C:319
 msgid "SIGUSR2 (user-defined 2)"
 msgstr "SIGUSR2 (definido pelo usuário 2)"
 
-#: qps.C:315
+#: qps.C:320
 msgid "SIGCHLD (child death)"
 msgstr "SIGCHLD (morte do filho)"
 
-#: qps.C:316
+#: qps.C:321
 msgid "SIGCONT (continue)"
 msgstr "SIGCONT (continuar)"
 
-#: qps.C:317
+#: qps.C:322
 msgid "SIGSTOP (stop)"
 msgstr "SIGSTOP (parar)"
 
-#: qps.C:318
+#: qps.C:323
 msgid "SIGTSTP (stop from tty)"
 msgstr "SIGTSTP (parada do terminal)"
 
-#: qps.C:319
+#: qps.C:324
 msgid "SIGTTIN (tty input)"
 msgstr "SIGTTIN (entrada do terminal)"
 
-#: qps.C:320
+#: qps.C:325
 msgid "SIGTTOU (tty output)"
 msgstr "SIGTTOU (saída do terminal)"
 
-#: qps.C:620
+#: qps.C:625
 #, c-format
 msgid ""
 "You do not have permission to view the\n"
 "open sockets of process %d (%s).\n"
 "Only the owner of the process and the\n"
 "super-user may do that."
-msgstr "Você não tem permissão de ver os\n"
-       "soquetes abertos do processo %d (%s).\n"
-       "Somente o dono do processo e o\n"
-       "superusuário podem fazê-lo."
+msgstr ""
+"Você não tem permissão de ver os\n"
+"soquetes abertos do processo %d (%s).\n"
+"Somente o dono do processo e o\n"
+"superusuário podem fazê-lo."
 
-#: qps.C:625 qps.C:834 qps.C:876 qps.C:882 qps.C:905 qps.C:941 qps.C:985
+#: qps.C:630 qps.C:839 qps.C:881 qps.C:887 qps.C:910 qps.C:946 qps.C:990
 msgid "Permission denied"
 msgstr "Permissão negada"
 
-#: qps.C:698
+#: qps.C:703
 msgid "qps: change update period"
 msgstr "qps: mudar período de atualização"
 
-#: qps.C:699
+#: qps.C:704
 msgid "New update period:"
 msgstr "Novo período de atualização:"
 
-#: qps.C:714 qps.C:853
+#: qps.C:719 qps.C:858
 msgid "Invalid input"
 msgstr "Entrada inválida"
 
-#: qps.C:715
+#: qps.C:720
 msgid ""
 "The time between updates should be a number, optionally followed\n"
 "by a unit (ms, s or min). If no unit is given, seconds is assumed."
-msgstr "O tempo entre atualizações deve ser um número, opcionalmente seguido\n"
-       "por uma unidade (ms, s ou min). A unidade padrão é 's' (segundos)."
+msgstr ""
+"O tempo entre atualizações deve ser um número, opcionalmente seguido\n"
+"por uma unidade (ms, s ou min). A unidade padrão é 's' (segundos)."
 
-#: qps.C:829
+#: qps.C:834
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
 "selected process%s.\n"
 "Only the process owner and the super-user\n"
 "are allowed to do that."
-msgstr "Você não tem permissão de re-priorizar o\n"
-       "processo selecionado %s.\n"
-       "Somente o dono do processo e o superusuário\n"
-       "podem fazê-lo."
+msgstr ""
+"Você não tem permissão de re-priorizar o\n"
+"processo selecionado %s.\n"
+"Somente o dono do processo e o superusuário\n"
+"podem fazê-lo."
 
-#: qps.C:843
+#: qps.C:848
 msgid "qps: renice process"
 msgstr "qps: re-priorizar processo"
 
-#: qps.C:844
+#: qps.C:849
 msgid "New nice value:"
 msgstr "Novo valor de prioridade:"
 
-#: qps.C:854
+#: qps.C:859
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
-msgstr "A prioridade deve estar\nentre -20 e 20."
+msgstr ""
+"A prioridade deve estar\n"
+"entre -20 e 20."
 
-#: qps.C:871
+#: qps.C:876
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
 "Only the process owner and the super-user are allowed to do that."
-msgstr "Você não tem permissão de repriorizar o processo %d (%s).\n"
-       "Somente o dono do processo e o superusuário podem fazê-lo."
+msgstr ""
+"Você não tem permissão de repriorizar o processo %d (%s).\n"
+"Somente o dono do processo e o superusuário podem fazê-lo."
 
-#: qps.C:883
+#: qps.C:888
 msgid "Only the super-user may lower the nice value of a process."
 msgstr "Somente o superusuário pode aumentar a prioridade de um processo."
 
-#: qps.C:906
+#: qps.C:911
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
-msgstr "Somente o superusuári pode mudar a\npolítica de agendamento e a prioridade estática."
+msgstr ""
+"Somente o superusuári pode mudar a\n"
+"política de agendamento e a prioridade estática."
 
-#: qps.C:936
+#: qps.C:941
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
 "scheduling and/or priority of process %d (%s).\n"
 "Only the super-user may do that."
-msgstr "Você não tem permissão de mudar o\nagendamento e/ou prioridade do"
-       "processo %d (%s).\nSomente o superusuário pode fazer isso."
+msgstr ""
+"Você não tem permissão de mudar o\n"
+"agendamento e/ou prioridade doprocesso %d (%s).\n"
+"Somente o superusuário pode fazer isso."
 
-#: qps.C:980
+#: qps.C:985
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"
 "Only the super-user and the owner of the process may send signals to it."
-msgstr "Você não tem permissão de mandar um sinal para o processo %d (%s).\n"
-       "Somente o superusuário e o dono do processo podem mandar sinais a ele."
+msgstr ""
+"Você não tem permissão de mandar um sinal para o processo %d (%s).\n"
+"Somente o superusuário e o dono do processo podem mandar sinais a ele."
