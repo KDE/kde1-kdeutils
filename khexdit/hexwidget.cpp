@@ -12,7 +12,6 @@
 #include "hexwidget.moc"
 
 QList<HexWidget> HexWidget::windowList;
-KApplication *a;
 
 int HexWidget::initMenu() {
   
@@ -56,24 +55,24 @@ int HexWidget::initMenu() {
   
   KToolBar *toolbar = new KToolBar(this);
   pixmap.load(PIXDIR + "filenew.xpm");
-  toolbar->insertItem(pixmap,ID_FILE_NEWWIN, TRUE, "New Window");
+  toolbar->insertButton(pixmap,ID_FILE_NEWWIN, TRUE, "New Window");
   pixmap.load(PIXDIR + "fileopen.xpm");
-  toolbar->insertItem(pixmap,ID_FILE_OPEN, TRUE, "Open a file");
+  toolbar->insertButton(pixmap,ID_FILE_OPEN, TRUE, "Open a file");
   pixmap.load(PIXDIR + "filefloppy.xpm");
-  toolbar->insertItem(pixmap,ID_FILE_SAVE, TRUE, "Save the file");
+  toolbar->insertButton(pixmap,ID_FILE_SAVE, TRUE, "Save the file");
   toolbar->insertSeparator();
   pixmap.load(PIXDIR + "page.xpm");
-  toolbar->insertItem(pixmap,ID_EDIT_CUT, FALSE, "Not Implemented");
+  toolbar->insertButton(pixmap,ID_EDIT_CUT, FALSE, "Not Implemented");
   pixmap.load(PIXDIR + "contents.xpm");
-  toolbar->insertItem(pixmap,ID_EDIT_COPY, FALSE, "Not Implemented");
+  toolbar->insertButton(pixmap,ID_EDIT_COPY, FALSE, "Not Implemented");
   pixmap.load(PIXDIR + "devious.xpm");
-  toolbar->insertItem(pixmap,ID_EDIT_PASTE, FALSE, "Not Implemented");
+  toolbar->insertButton(pixmap,ID_EDIT_PASTE, FALSE, "Not Implemented");
   toolbar->insertSeparator();
   pixmap.load(PIXDIR + "fileprint.xpm");
-  toolbar->insertItem(pixmap,ID_FILE_PRINT, FALSE, "Not Implemendted");
+  toolbar->insertButton(pixmap,ID_FILE_PRINT, FALSE, "Not Implemendted");
   toolbar->insertSeparator();
   pixmap.load(PIXDIR + "help.xpm");
-  toolbar->insertItem(pixmap,ID_HELP_ABOUT, TRUE, "About Hex Editor");
+  toolbar->insertButton(pixmap,ID_HELP_ABOUT, TRUE, "About Hex Editor");
 
   addToolBar(toolbar);
   toolbar->setPos(KToolBar::Top);
@@ -227,22 +226,22 @@ void HexWidget::openURL(const char *_url, KIND_OF_OPEN _mode) {
 HexWidget::HexWidget() {
   initMenu();
   setCaption("Hex Editor");
-};
+}
 
 HexWidget::HexWidget(const char* file) {
   initMenu();
   openURL(file,READWRITE);
-};
+}
 
 HexWidget::~HexWidget() {
-};
+}
 
 void HexWidget::closeEvent ( QCloseEvent *e) {
   windowList.remove(this);
   if (windowList.isEmpty())
     kapp->quit();
   e->accept();
-};
+}
 
 void HexWidget::slotDropEvent( KDNDDropZone * _dropZone ) {
   QStrList & list = _dropZone->getURLList();
@@ -274,7 +273,7 @@ void HexWidget::slotDropEvent( KDNDDropZone * _dropZone ) {
 }
 
 int main(int argc, char **argv) {
-  a = new KApplication(argc,argv);
+  KApplication a(argc,argv,"khexdit");
   
   if (argc>1) {
     for (int i=1; i < argc; i++) {
@@ -291,10 +290,13 @@ int main(int argc, char **argv) {
 	}
       
       new HexWidget(f.data());
-    };
-  } else
-    new HexWidget();
-  return a->exec();
+    }
+  } else {
+    HexWidget *hw = new HexWidget();
+    a.setMainWidget(hw);
+  }
+  
+  return a.exec();
 };
 
 
