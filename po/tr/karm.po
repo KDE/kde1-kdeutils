@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE 1.0\n"
-"POT-Creation-Date: 1999-01-09 01:54+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: 1998-06-29 11:00+0200\n"
 "Last-Translator: Cevat TOPCU <bbm817@hun.edu.tr>\n"
 "Language-Team: Hacettepe Linux Users Group <hacettepe@linux.org.tr>\n"
@@ -106,9 +106,17 @@ msgid "Preferences"
 msgstr ""
 
 #: top.cpp:194
-#, c-format
-msgid "%s "
+#, fuzzy, c-format
+msgid ""
+"%s %s -- Sirtaj Singh Kang\n"
+"taj@kde.org, Oct 1997\n"
+"\n"
+"The K Desktop Environment"
 msgstr ""
+" 0.3 -- Sirtaj Singh Kang\n"
+"taj@kde.org, Ocak 1997\n"
+"\n"
+"KDE Ortamý"
 
 #: top.cpp:200
 msgid "&Clock"
@@ -118,29 +126,17 @@ msgstr "&Saat"
 msgid "&Task"
 msgstr "&Görev"
 
-#: top.cpp:206
+#: top.cpp:209
 msgid "&Preferences..."
 msgstr ""
 
-#: top.cpp:220
+#: top.cpp:223
 msgid "S&top"
 msgstr "D&ur"
 
-#: top.cpp:226
+#: top.cpp:229
 msgid "&New"
 msgstr ""
-
-#, fuzzy
-#~ msgid ""
-#~ "%s 0.3 -- Sirtaj Singh Kang\n"
-#~ "taj@kde.org, Oct 1997\n"
-#~ "\n"
-#~ "The K Desktop Environment"
-#~ msgstr ""
-#~ " 0.3 -- Sirtaj Singh Kang\n"
-#~ "taj@kde.org, Ocak 1997\n"
-#~ "\n"
-#~ "KDE Ortamý"
 
 #, fuzzy
 #~ msgid "&About"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klpq\n"
-"POT-Creation-Date: 1999-01-05 02:02+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: 1998-11-14 20:56+0100\n"
 "Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 "Language-Team: German <kde-n18i@kde.org>\n"
@@ -14,15 +14,15 @@ msgstr ""
 "Content-Transfer-Encoding: iso-8859-1\n"
 "Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
 
-#: main.cpp:176
+#: main.cpp:178
 msgid "Sorry, can't open your printcap file."
 msgstr "printcap-Datei kann nicht gelesen werden."
 
-#: main.cpp:181
+#: main.cpp:183
 msgid "Sorry, unable to parse your printcap."
 msgstr "printcap kann nicht analysiert werden."
 
-#: main.cpp:182
+#: main.cpp:184
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
 msgstr "Bitte mailen Sie Ihre printcap an Christoph.Neerfeld@home.ivm.de"
 

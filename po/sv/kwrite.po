@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
-"POT-Creation-Date: 1999-01-09 01:54+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: 1999-01-06 16:44+01:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
@@ -72,6 +72,11 @@ msgstr "Stil"
 #: highlight.cpp:2000
 msgid "Item Font"
 msgstr "Typsnitt"
+
+#: kwview.cpp:1057
+#, fuzzy
+msgid "Vertical Selections On"
+msgstr "&Vertikala markeringar"
 
 #: kwview.cpp:1116
 msgid "The specified File does not exist"
@@ -449,6 +454,15 @@ msgstr "Visa s&tatusrad"
 #: toplevel.cpp:236
 msgid "Save Config"
 msgstr "Spara inställningar"
+
+#: toplevel.cpp:249
+msgid ""
+"KWrite 0.98\n"
+"\n"
+"Copyright 1998\n"
+"Jochen Wilhelmy\n"
+"digisnap@cs.tu-berlin.de"
+msgstr ""
 
 #: toplevel.cpp:272
 msgid "&Bookmarks"

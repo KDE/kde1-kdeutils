@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kab 0.8\n"
-"POT-Creation-Date: 1998-11-23 01:47+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: 1998-12-30 13:32+01:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
@@ -36,6 +36,10 @@ msgstr ""
 #: AddressBookAbout.cpp:44
 msgid "written and maintained by"
 msgstr "skriven och underhålls av"
+
+#: AddressBookAboutData.cpp:61
+msgid "kab 0.9.5, December 1998"
+msgstr ""
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"

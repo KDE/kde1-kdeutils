@@ -4,13 +4,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kljettool\n"
-"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: 1998-11-08 23:23+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=koi8-r\n"
 "Content-Transfer-Encoding: 8-bit\n"
+
+#: main.cpp:49
+#, fuzzy
+msgid "Ljet Tool"
+msgstr "KLjetTool"
 
 #: main.cpp:69
 msgid "Paper"
@@ -140,5 +145,14 @@ msgid "KLjetTool"
 msgstr "KLjetTool"
 
 #: about.cpp:52
-msgid "Version "
-msgstr "версии "
+#, c-format
+msgid ""
+"Version %s\n"
+"\n"
+"Copyright (c) 1997\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
+msgstr ""
+
+#~ msgid "Version "
+#~ msgstr "версии "

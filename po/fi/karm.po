@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KARM\n"
-"POT-Creation-Date: 1999-01-09 01:54+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,9 +107,17 @@ msgid "Preferences"
 msgstr ""
 
 #: top.cpp:194
-#, c-format
-msgid "%s "
+#, fuzzy, c-format
+msgid ""
+"%s %s -- Sirtaj Singh Kang\n"
+"taj@kde.org, Oct 1997\n"
+"\n"
+"The K Desktop Environment"
 msgstr ""
+"%s 0.3 -- Sirtaj Singh Kang\n"
+"taj@kde.org, Oct 1997\n"
+"\n"
+"The K Desktop Environment"
 
 #: top.cpp:200
 msgid "&Clock"
@@ -119,28 +127,17 @@ msgstr "&Kello"
 msgid "&Task"
 msgstr "&Tehtävä"
 
-#: top.cpp:206
+#: top.cpp:209
 msgid "&Preferences..."
 msgstr ""
 
-#: top.cpp:220
+#: top.cpp:223
 msgid "S&top"
 msgstr "&Pysäytä"
 
-#: top.cpp:226
+#: top.cpp:229
 msgid "&New"
 msgstr "&Uusi"
-
-#~ msgid ""
-#~ "%s 0.3 -- Sirtaj Singh Kang\n"
-#~ "taj@kde.org, Oct 1997\n"
-#~ "\n"
-#~ "The K Desktop Environment"
-#~ msgstr ""
-#~ "%s 0.3 -- Sirtaj Singh Kang\n"
-#~ "taj@kde.org, Oct 1997\n"
-#~ "\n"
-#~ "The K Desktop Environment"
 
 #~ msgid "&About"
 #~ msgstr "&Tietoja "

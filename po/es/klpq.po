@@ -1,19 +1,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdenonbeta\n"
-"POT-Creation-Date: 1999-01-05 02:02+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: 1998-06-17 21:45+0200\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
-#: main.cpp:176
+#: main.cpp:178
 msgid "Sorry, can't open your printcap file."
 msgstr "Lo siento, no se puede abrir el archivo printcap"
 
-#: main.cpp:181
+#: main.cpp:183
 msgid "Sorry, unable to parse your printcap."
 msgstr "Lo siento, no se puede analizar su printcap."
 
-#: main.cpp:182
+#: main.cpp:184
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
 msgstr ""
 "Por favor mande un email con su printcap a Christoph.Neerfeld@home.ivm.de"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kljettool\n"
-"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: 1998-11-14 10:25+0100\n"
 "Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 "Language-Team: German <de@li.org>\n"
@@ -15,6 +15,11 @@ msgstr ""
 "Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
 "Files: Data.cpp Fonts.cpp FontsData.cpp Misc.cpp MiscData.cpp Paper.cpp "
 "PaperData.cpp Printer.cpp PrinterData.cpp about.cpp main.cpp\n"
+
+#: main.cpp:49
+#, fuzzy
+msgid "Ljet Tool"
+msgstr "KLjetTool"
 
 #: main.cpp:69
 msgid "Paper"
@@ -142,5 +147,14 @@ msgid "KLjetTool"
 msgstr "KLjetTool"
 
 #: about.cpp:52
-msgid "Version "
-msgstr "Version "
+#, c-format
+msgid ""
+"Version %s\n"
+"\n"
+"Copyright (c) 1997\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
+msgstr ""
+
+#~ msgid "Version "
+#~ msgstr "Version "

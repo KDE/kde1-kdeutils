@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-09 01:54+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Elvis Pfützenreuter <epx@netville.com.br>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,11 @@ msgstr "Estilo de Item"
 #: highlight.cpp:2000
 msgid "Item Font"
 msgstr "Tipo de letra de Item"
+
+#: kwview.cpp:1057
+#, fuzzy
+msgid "Vertical Selections On"
+msgstr "Seleções Ver&ticais"
 
 #: kwview.cpp:1116
 msgid "The specified File does not exist"
@@ -448,6 +453,15 @@ msgstr "Mostrar barra de &status"
 #: toplevel.cpp:236
 msgid "Save Config"
 msgstr "Salvar Configuração"
+
+#: toplevel.cpp:249
+msgid ""
+"KWrite 0.98\n"
+"\n"
+"Copyright 1998\n"
+"Jochen Wilhelmy\n"
+"digisnap@cs.tu-berlin.de"
+msgstr ""
 
 #: toplevel.cpp:272
 msgid "&Bookmarks"

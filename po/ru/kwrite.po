@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
-"POT-Creation-Date: 1999-01-09 01:54+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: 1998-12-21 00:00+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -71,6 +71,11 @@ msgstr "Стиль элемента"
 #: highlight.cpp:2000
 msgid "Item Font"
 msgstr "Шрифт элемента"
+
+#: kwview.cpp:1057
+#, fuzzy
+msgid "Vertical Selections On"
+msgstr "Вертикальное выделение"
 
 #: kwview.cpp:1116
 msgid "The specified File does not exist"
@@ -447,6 +452,15 @@ msgstr "Показать строку статуса"
 #: toplevel.cpp:236
 msgid "Save Config"
 msgstr "Сохранить настройки"
+
+#: toplevel.cpp:249
+msgid ""
+"KWrite 0.98\n"
+"\n"
+"Copyright 1998\n"
+"Jochen Wilhelmy\n"
+"digisnap@cs.tu-berlin.de"
+msgstr ""
 
 #: toplevel.cpp:272
 msgid "&Bookmarks"

@@ -5,13 +5,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kljettool\n"
-"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: 1998-05-12 23:10+0100\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: main.cpp:49
+#, fuzzy
+msgid "Ljet Tool"
+msgstr "KLjetTool"
 
 #: main.cpp:69
 msgid "Paper"
@@ -139,5 +144,14 @@ msgid "KLjetTool"
 msgstr "KLjetTool"
 
 #: about.cpp:52
-msgid "Version "
-msgstr "Versjon "
+#, c-format
+msgid ""
+"Version %s\n"
+"\n"
+"Copyright (c) 1997\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
+msgstr ""
+
+#~ msgid "Version "
+#~ msgstr "Versjon "

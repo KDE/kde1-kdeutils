@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karm 0.3\n"
-"POT-Creation-Date: 1999-01-09 01:54+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: 1999-01-09 02:00+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -105,9 +105,17 @@ msgid "Preferences"
 msgstr "Настройки"
 
 #: top.cpp:194
-#, c-format
-msgid "%s "
-msgstr "%s "
+#, fuzzy, c-format
+msgid ""
+"%s %s -- Sirtaj Singh Kang\n"
+"taj@kde.org, Oct 1997\n"
+"\n"
+"The K Desktop Environment"
+msgstr ""
+" 0.3 -- Сиртадж Синг Кан\n"
+"taj@kde.org, октябрь 1997\n"
+"\n"
+"KDE"
 
 #: top.cpp:200
 msgid "&Clock"
@@ -117,28 +125,20 @@ msgstr "&Часы"
 msgid "&Task"
 msgstr "&Задача"
 
-#: top.cpp:206
+#: top.cpp:209
 msgid "&Preferences..."
 msgstr "Настройки..."
 
-#: top.cpp:220
+#: top.cpp:223
 msgid "S&top"
 msgstr "Остановить"
 
-#: top.cpp:226
+#: top.cpp:229
 msgid "&New"
 msgstr "Новый"
 
-#~ msgid ""
-#~ "%s 0.3 -- Sirtaj Singh Kang\n"
-#~ "taj@kde.org, Oct 1997\n"
-#~ "\n"
-#~ "The K Desktop Environment"
-#~ msgstr ""
-#~ " 0.3 -- Сиртадж Синг Кан\n"
-#~ "taj@kde.org, октябрь 1997\n"
-#~ "\n"
-#~ "KDE"
+#~ msgid "%s "
+#~ msgstr "%s "
 
 #~ msgid "&About"
 #~ msgstr "О программе"

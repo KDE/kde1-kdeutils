@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karm revision 1.3\n"
-"POT-Creation-Date: 1999-01-09 01:54+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -102,9 +102,17 @@ msgid "Preferences"
 msgstr ""
 
 #: top.cpp:194
-#, c-format
-msgid "%s "
+#, fuzzy, c-format
+msgid ""
+"%s %s -- Sirtaj Singh Kang\n"
+"taj@kde.org, Oct 1997\n"
+"\n"
+"The K Desktop Environment"
 msgstr ""
+"%s 0.3 -- Sirtaj Singh Kang\n"
+"taj@kde.org, Oct 1997\n"
+"\n"
+"The K Desktop Environment"
 
 #: top.cpp:200
 msgid "&Clock"
@@ -114,28 +122,17 @@ msgstr "&Klocka"
 msgid "&Task"
 msgstr "&Aktivitet"
 
-#: top.cpp:206
+#: top.cpp:209
 msgid "&Preferences..."
 msgstr ""
 
-#: top.cpp:220
+#: top.cpp:223
 msgid "S&top"
 msgstr "S&tanna"
 
-#: top.cpp:226
+#: top.cpp:229
 msgid "&New"
 msgstr "&Ny"
-
-#~ msgid ""
-#~ "%s 0.3 -- Sirtaj Singh Kang\n"
-#~ "taj@kde.org, Oct 1997\n"
-#~ "\n"
-#~ "The K Desktop Environment"
-#~ msgstr ""
-#~ "%s 0.3 -- Sirtaj Singh Kang\n"
-#~ "taj@kde.org, Oct 1997\n"
-#~ "\n"
-#~ "The K Desktop Environment"
 
 #, fuzzy
 #~ msgid "&About"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kedit\n"
-"POT-Creation-Date: 1998-12-18 02:05+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: 1998-12-15 22:25 CET\n"
 "Last-Translator: Francois-Xavier DURANCEAU "
 "<Francois-Xavier.Duranceau@loria.fr>\n"
@@ -14,19 +14,19 @@ msgstr ""
 "Content-Type: text/plain; \n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: kedit.cpp:85 kedit.cpp:1092
+#: kedit.cpp:85 kedit.cpp:1091
 msgid "Show &Tool Bar"
 msgstr "Afficher la barre d'&outils"
 
-#: kedit.cpp:87 kedit.cpp:1085
+#: kedit.cpp:87 kedit.cpp:1084
 msgid "Hide &Tool Bar"
 msgstr "Cacher la barre d'&outils"
 
-#: kedit.cpp:90 kedit.cpp:1072
+#: kedit.cpp:90 kedit.cpp:1071
 msgid "Show &Status Bar"
 msgstr "Afficher la barre d'é&tat"
 
-#: kedit.cpp:92 kedit.cpp:1065
+#: kedit.cpp:92 kedit.cpp:1064
 msgid "Hide &Status Bar"
 msgstr "Cacher la barre d'é&tat"
 
@@ -122,44 +122,54 @@ msgstr "Barre d'é&tat"
 msgid "Save Options"
 msgstr "&Enregistrer les options"
 
-#: kedit.cpp:333
+#: kedit.cpp:304
+#, c-format
+msgid ""
+"KEdit %s\n"
+"\n"
+"Copyright 1997-98\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
+msgstr ""
+
+#: kedit.cpp:332
 msgid "New Document"
 msgstr "Nouveau document"
 
-#: kedit.cpp:339
+#: kedit.cpp:338
 msgid "Open Document"
 msgstr "Ouvrir un document"
 
-#: kedit.cpp:344
+#: kedit.cpp:343
 msgid "Save Document"
 msgstr "Enregistrer le document"
 
-#: kedit.cpp:369 print.cpp:91
+#: kedit.cpp:368 print.cpp:91
 msgid "Print Document"
 msgstr "Imprimer le document"
 
-#: kedit.cpp:374
+#: kedit.cpp:373
 msgid "Mail Document"
 msgstr "Expédier le document"
 
-#: kedit.cpp:494 kedit.cpp:582 kedit.cpp:1534 keditcl2.cpp:697
+#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:697
 #: keditcl2.cpp:804
 msgid "Done"
 msgstr "Fermer"
 
-#: kedit.cpp:607
+#: kedit.cpp:606
 msgid "Open Location:"
 msgstr "Ouvrir l'URL :"
 
-#: kedit.cpp:621
+#: kedit.cpp:620
 msgid "Save to Location:"
 msgstr "Enregistrer sous l'URL :"
 
-#: kedit.cpp:647 kedit.cpp:710 kedit.cpp:739 kedit.cpp:802 kedit.cpp:1200
+#: kedit.cpp:646 kedit.cpp:709 kedit.cpp:738 kedit.cpp:801 kedit.cpp:1199
 msgid "Message"
 msgstr "Message"
 
-#: kedit.cpp:648 kedit.cpp:803
+#: kedit.cpp:647 kedit.cpp:802
 msgid ""
 "This Document has been modified.\n"
 "Would you like to save it?"
@@ -167,7 +177,7 @@ msgstr ""
 "Ce document à été modifié.\n"
 "Désirez-vous l'enregistrer ?"
 
-#: kedit.cpp:665 kedit.cpp:820
+#: kedit.cpp:664 kedit.cpp:819
 msgid ""
 "Could not save the file.\n"
 "Exit anyways?"
@@ -175,7 +185,7 @@ msgstr ""
 "Impossible d'enregistrer le fichier.\n"
 "Désirez-vous quand même quitter ?"
 
-#: kedit.cpp:711
+#: kedit.cpp:710
 msgid ""
 "There are windows with modified content open.\n"
 "If you exit now, you will loose those changes\n"
@@ -185,7 +195,7 @@ msgstr ""
 "Si vous quittez maintenant l'application, ces modifications seront perdues.\n"
 "Désirez-vous quand même quitter ?"
 
-#: kedit.cpp:740
+#: kedit.cpp:739
 msgid ""
 "The current document has been modified.\n"
 "Continue anyways ?"
@@ -193,21 +203,21 @@ msgstr ""
 "Le document en cours a été modifié.\n"
 "Désirez-vous quand même continuer?"
 
-#: kedit.cpp:881
+#: kedit.cpp:880
 #, c-format
 msgid "Wrote: %s"
 msgstr "Ecrit : %s"
 
-#: kedit.cpp:887
+#: kedit.cpp:886
 msgid "No changes need to be saved"
 msgstr "Aucun changement n'a besoin d'être enregistré"
 
-#: kedit.cpp:906
+#: kedit.cpp:905
 #, c-format
 msgid "Saved as: %s"
 msgstr "Enregistré sous : %s"
 
-#: kedit.cpp:939
+#: kedit.cpp:938
 #, c-format
 msgid ""
 "Could not pipe the contentsof this Document into:\n"
@@ -216,24 +226,24 @@ msgstr ""
 "Impossible de rediriger ce document vers :\n"
 " %s"
 
-#: kedit.cpp:1033
+#: kedit.cpp:1032
 msgid "Auto Indent Mode: On"
 msgstr "Indentation automatique : active"
 
-#: kedit.cpp:1035
+#: kedit.cpp:1034
 msgid "Auto Indent Mode: Off"
 msgstr "Indentation automatique : inactive"
 
-#: kedit.cpp:1131
+#: kedit.cpp:1130
 #, c-format
 msgid "Line: %d Col: %d"
 msgstr "Ligne : %d, Col : %d"
 
-#: filldlg.cpp:31 kedit.cpp:1148
+#: filldlg.cpp:31 kedit.cpp:1147
 msgid "KEdit Options"
 msgstr "Options de KEdit"
 
-#: kedit.cpp:1201
+#: kedit.cpp:1200
 msgid ""
 "The current document has been modified.\n"
 "Would you like to save the changes before \n"
@@ -243,7 +253,7 @@ msgstr ""
 "Désirez-vous enregistrer les modifications avant\n"
 "de l'imprimer ?"
 
-#: kedit.cpp:1219
+#: kedit.cpp:1218
 msgid ""
 "Could not save the file.\n"
 "Print anyways?"
@@ -251,35 +261,35 @@ msgstr ""
 "Impossible d'enregistrer le fichier.\n"
 "Désirez-vous quand même l'imprimer ?"
 
-#: kedit.cpp:1312
+#: kedit.cpp:1311
 #, c-format
 msgid "Printing: %s Untitled (Selection)"
 msgstr "Impression : %s sans nom (sélection)"
 
-#: kedit.cpp:1315
+#: kedit.cpp:1314
 #, c-format
 msgid "Printing: %s Untitled"
 msgstr "Impression : %s sans nom"
 
-#: kedit.cpp:1353
+#: kedit.cpp:1352
 #, c-format
 msgid "Printing: %s"
 msgstr "Impression : %s"
 
-#: kedit.cpp:1363
+#: kedit.cpp:1362
 #, c-format
 msgid "Printing: %s %s (Selection)"
 msgstr "Impression : %s %s (sélection)"
 
-#: kedit.cpp:1387
+#: kedit.cpp:1386
 msgid "Saving ..."
 msgstr "Enregistrement en cours..."
 
-#: kedit.cpp:1394
+#: kedit.cpp:1393
 msgid "Loading ..."
 msgstr "Chargement en cours..."
 
-#: kedit.cpp:1428 kedit.cpp:1521
+#: kedit.cpp:1427 kedit.cpp:1520
 msgid ""
 "KEdit is already waiting\n"
 "for an internet job to finish\n"
@@ -291,11 +301,11 @@ msgstr ""
 "Veuillez attendre la fin de cette tâche\n"
 "ou annulez-la manuellement."
 
-#: kedit.cpp:1445 kedit.cpp:1540
+#: kedit.cpp:1444 kedit.cpp:1539
 msgid "Could not start or find KFM"
 msgstr "Impossible de trouver ou de lancer KFM"
 
-#: kedit.cpp:1487
+#: kedit.cpp:1486
 #, c-format
 msgid ""
 "Malformed URL\n"
@@ -304,45 +314,45 @@ msgstr ""
 "URL mal écrite\n"
 "%s"
 
-#: kedit.cpp:1507
+#: kedit.cpp:1506
 #, c-format
 msgid "Loading '%s'"
 msgstr "Chargement de '%s'"
 
-#: kedit.cpp:1531
+#: kedit.cpp:1530
 msgid "Calling KFM"
 msgstr "Appel de KFM"
 
-#: kedit.cpp:1550
+#: kedit.cpp:1549
 msgid "Starting Job"
 msgstr "Lancement de la tâche"
 
-#: kedit.cpp:1553
+#: kedit.cpp:1552
 msgid "Connected"
 msgstr "Connecté"
 
-#: kedit.cpp:1555
+#: kedit.cpp:1554
 msgid "Waiting..."
 msgstr "En attente..."
 
-#: kedit.cpp:1563
+#: kedit.cpp:1562
 #, c-format
 msgid "Finished '%s'"
 msgstr "Fin de '%s'"
 
-#: kedit.cpp:1604
+#: kedit.cpp:1603
 msgid "New Window"
 msgstr "Nouvelle fenêtre"
 
-#: kedit.cpp:1608
+#: kedit.cpp:1607
 msgid "New Window Created"
 msgstr "Nouvelle fenêtre créée"
 
-#: kedit.cpp:1614
+#: kedit.cpp:1613
 msgid "Load Command Done"
 msgstr "Lecture du fichier effectuée"
 
-#: kedit.cpp:2035
+#: kedit.cpp:2034
 #, c-format
 msgid ""
 "Can not create:\n"
@@ -351,7 +361,7 @@ msgstr ""
 "Impossible de créer :\n"
 "%s"
 
-#: kedit.cpp:2074
+#: kedit.cpp:2073
 msgid "Spellchecker Options"
 msgstr "Options du vérificateur d'orthographe"
 

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
-"POT-Creation-Date: 1999-01-09 01:54+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: 1998-12-26 20:00+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt\n"
@@ -68,6 +68,11 @@ msgstr "Estilo do Item"
 #: highlight.cpp:2000
 msgid "Item Font"
 msgstr "Fonte do Item"
+
+#: kwview.cpp:1057
+#, fuzzy
+msgid "Vertical Selections On"
+msgstr "Selecções Ver&ticais"
 
 #: kwview.cpp:1116
 msgid "The specified File does not exist"
@@ -445,6 +450,15 @@ msgstr "Mostrar Barra de &Status"
 #: toplevel.cpp:236
 msgid "Save Config"
 msgstr "Salvar Configuração"
+
+#: toplevel.cpp:249
+msgid ""
+"KWrite 0.98\n"
+"\n"
+"Copyright 1998\n"
+"Jochen Wilhelmy\n"
+"digisnap@cs.tu-berlin.de"
+msgstr ""
 
 #: toplevel.cpp:272
 msgid "&Bookmarks"

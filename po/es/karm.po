@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-01-09 01:54+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: 1998-10-18 13:25+0200\n"
 "First-Translator: Santiago Fernández and Jorge ValenciaFirst-Translator: "
 "<jorgev@est.unileon.es>\n"
@@ -98,9 +98,17 @@ msgid "Preferences"
 msgstr ""
 
 #: top.cpp:194
-#, c-format
-msgid "%s "
+#, fuzzy, c-format
+msgid ""
+"%s %s -- Sirtaj Singh Kang\n"
+"taj@kde.org, Oct 1997\n"
+"\n"
+"The K Desktop Environment"
 msgstr ""
+"%s 0.3 -- Sirtaj Singh Kang\n"
+"taj@kde.org, Oct 1997\n"
+"\n"
+"El Entorno de Escritorio K"
 
 #: top.cpp:200
 msgid "&Clock"
@@ -110,28 +118,17 @@ msgstr "&Reloj"
 msgid "&Task"
 msgstr "&Tarea"
 
-#: top.cpp:206
+#: top.cpp:209
 msgid "&Preferences..."
 msgstr ""
 
-#: top.cpp:220
+#: top.cpp:223
 msgid "S&top"
 msgstr "S&top"
 
-#: top.cpp:226
+#: top.cpp:229
 msgid "&New"
 msgstr "&Nuevo"
-
-#~ msgid ""
-#~ "%s 0.3 -- Sirtaj Singh Kang\n"
-#~ "taj@kde.org, Oct 1997\n"
-#~ "\n"
-#~ "The K Desktop Environment"
-#~ msgstr ""
-#~ "%s 0.3 -- Sirtaj Singh Kang\n"
-#~ "taj@kde.org, Oct 1997\n"
-#~ "\n"
-#~ "El Entorno de Escritorio K"
 
 #~ msgid "&About"
 #~ msgstr "&Sobre"

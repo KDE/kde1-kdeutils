@@ -1,8 +1,13 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: 1998-12-07 19:12+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
+
+#: main.cpp:49
+#, fuzzy
+msgid "Ljet Tool"
+msgstr "KLJetTool"
 
 #: main.cpp:69
 msgid "Paper"
@@ -130,5 +135,14 @@ msgid "KLjetTool"
 msgstr "KLJetTool"
 
 #: about.cpp:52
-msgid "Version "
-msgstr "Versión "
+#, c-format
+msgid ""
+"Version %s\n"
+"\n"
+"Copyright (c) 1997\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
+msgstr ""
+
+#~ msgid "Version "
+#~ msgstr "Versión "

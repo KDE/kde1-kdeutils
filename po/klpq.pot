@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-05 02:02+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,15 +14,15 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: main.cpp:176
+#: main.cpp:178
 msgid "Sorry, can't open your printcap file."
 msgstr ""
 
-#: main.cpp:181
+#: main.cpp:183
 msgid "Sorry, unable to parse your printcap."
 msgstr ""
 
-#: main.cpp:182
+#: main.cpp:184
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
 msgstr ""
 

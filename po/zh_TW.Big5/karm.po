@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
-"POT-Creation-Date: 1999-01-09 01:54+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: 1998-02-21 05:58+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -107,7 +107,11 @@ msgstr ""
 
 #: top.cpp:194
 #, c-format
-msgid "%s "
+msgid ""
+"%s %s -- Sirtaj Singh Kang\n"
+"taj@kde.org, Oct 1997\n"
+"\n"
+"The K Desktop Environment"
 msgstr ""
 
 #: top.cpp:200
@@ -118,15 +122,15 @@ msgstr "計時器[&C]"
 msgid "&Task"
 msgstr "工作[&T]"
 
-#: top.cpp:206
+#: top.cpp:209
 msgid "&Preferences..."
 msgstr ""
 
-#: top.cpp:220
+#: top.cpp:223
 msgid "S&top"
 msgstr "停止[&S]"
 
-#: top.cpp:226
+#: top.cpp:229
 msgid "&New"
 msgstr ""
 

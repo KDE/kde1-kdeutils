@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KWRITE\n"
-"POT-Creation-Date: 1999-01-09 01:54+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,6 +73,11 @@ msgstr "Tyypin tyyli"
 #: highlight.cpp:2000
 msgid "Item Font"
 msgstr "Tyypin kirjasin"
+
+#: kwview.cpp:1057
+#, fuzzy
+msgid "Vertical Selections On"
+msgstr "P&ystyvalinnat"
 
 #: kwview.cpp:1116
 msgid "The specified File does not exist"
@@ -449,6 +454,15 @@ msgstr "Näytä t&ilarivi"
 #: toplevel.cpp:236
 msgid "Save Config"
 msgstr "Tallenna asetukset"
+
+#: toplevel.cpp:249
+msgid ""
+"KWrite 0.98\n"
+"\n"
+"Copyright 1998\n"
+"Jochen Wilhelmy\n"
+"digisnap@cs.tu-berlin.de"
+msgstr ""
 
 #: toplevel.cpp:272
 msgid "&Bookmarks"

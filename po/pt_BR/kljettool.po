@@ -1,9 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kuser\n"
-"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: 1998-03-23 00:00+0100\n"
 "Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
+
+#: main.cpp:49
+#, fuzzy
+msgid "Ljet Tool"
+msgstr "KLjetTool"
 
 #: main.cpp:69
 msgid "Paper"
@@ -131,8 +136,17 @@ msgid "KLjetTool"
 msgstr "KLjetTool"
 
 #: about.cpp:52
-msgid "Version "
-msgstr "Versão "
+#, c-format
+msgid ""
+"Version %s\n"
+"\n"
+"Copyright (c) 1997\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
+msgstr ""
+
+#~ msgid "Version "
+#~ msgstr "Versão "
 
 #~ msgid "Fonts"
 #~ msgstr "Fontes"
