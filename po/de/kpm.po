@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpm\n"
-"POT-Creation-Date: 1999-01-18 01:54+0100\n"
+"POT-Creation-Date: 1999-01-26 01:48+0100\n"
 "PO-Revision-Date: 1998-11-17 10:07+0100\n"
 "Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 "Language-Team: de <LL@li.org>\n"
@@ -176,10 +176,10 @@ msgstr "Einstellungen..."
 msgid "Save Settings Now"
 msgstr "Einstellungen speichern"
 
-#: qps.C:195
-#, c-format
+#: qps.C:196
+#, fuzzy
 msgid ""
-"kpm %sk%s - A Visual Process Manager (KDE Version)\n"
+" - A Visual Process Manager (KDE Version)\n"
 "\n"
 "© 1997 Mattias Engdegård (f91-men@nada.kth.se)\n"
 "© 1998 Mario Weilguni (mweilguni@kde.org)\n"
@@ -209,79 +209,79 @@ msgstr ""
 "veröffentlicht (GNU GPL). Bitte beachten Sie die Datei COPYING,\n"
 "um Details darüber zu erfahren."
 
-#: qps.C:213
+#: qps.C:211
 msgid "&Window"
 msgstr "&Fenster"
 
-#: qps.C:214
+#: qps.C:212
 msgid "&Process"
 msgstr "&Prozeß"
 
-#: qps.C:215
+#: qps.C:213
 msgid "&Signal"
 msgstr "&Signal"
 
-#: qps.C:311
+#: qps.C:309
 msgid "SIGQUIT (quit)"
 msgstr "SIGQUIT (verlassen)"
 
-#: qps.C:312
+#: qps.C:310
 msgid "SIGILL (illegal instruction)"
 msgstr "SIGILL (unzulässige Anweisung)"
 
-#: qps.C:313
+#: qps.C:311
 msgid "SIGABRT (abort)"
 msgstr "SIGABRT (abbrechen)"
 
-#: qps.C:314
+#: qps.C:312
 msgid "SIGFPE (floating point exception)"
 msgstr "SIGFPE (Floating Point Ausnahme)"
 
-#: qps.C:315
+#: qps.C:313
 msgid "SIGSEGV (segmentation violation)"
 msgstr "SIGSEGV (Segmentation-Verletzung)"
 
-#: qps.C:316
+#: qps.C:314
 msgid "SIGPIPE (broken pipe)"
 msgstr "SIGPIPE (gebrochene Pipe)"
 
-#: qps.C:317
+#: qps.C:315
 msgid "SIGALRM (timer signal)"
 msgstr "SIGALRM (Timer-Signal)"
 
-#: qps.C:318
+#: qps.C:316
 msgid "SIGUSR1 (user-defined 1)"
 msgstr "SIGUSR1 (benutzerdefiniert 1)"
 
-#: qps.C:319
+#: qps.C:317
 msgid "SIGUSR2 (user-defined 2)"
 msgstr "SIGUSR2 (benutzerdefiniert 2)"
 
-#: qps.C:320
+#: qps.C:318
 msgid "SIGCHLD (child death)"
 msgstr "SIGCHLD (Tod des Child-Prozeß)"
 
-#: qps.C:321
+#: qps.C:319
 msgid "SIGCONT (continue)"
 msgstr "SIGCONT (fortsetzen)"
 
-#: qps.C:322
+#: qps.C:320
 msgid "SIGSTOP (stop)"
 msgstr "SIGSTOP (stoppen)"
 
-#: qps.C:323
+#: qps.C:321
 msgid "SIGTSTP (stop from tty)"
 msgstr "SIGTSTP (Stop vom tty)"
 
-#: qps.C:324
+#: qps.C:322
 msgid "SIGTTIN (tty input)"
 msgstr "SIGTTIN (tty-Eingabe)"
 
-#: qps.C:325
+#: qps.C:323
 msgid "SIGTTOU (tty output)"
 msgstr "SIGTTOU (tty-Ausgabe)"
 
-#: qps.C:625
+#: qps.C:623
 #, c-format
 msgid ""
 "You do not have permission to view the\n"
@@ -294,23 +294,23 @@ msgstr ""
 "Nur der Eigentümer des Prozesses und der\n"
 "Systemadministrator haben dieses Recht."
 
-#: qps.C:630 qps.C:839 qps.C:881 qps.C:887 qps.C:910 qps.C:946 qps.C:990
+#: qps.C:628 qps.C:837 qps.C:879 qps.C:885 qps.C:908 qps.C:944 qps.C:988
 msgid "Permission denied"
 msgstr "Berechtigung verweigert"
 
-#: qps.C:703
+#: qps.C:701
 msgid "qps: change update period"
 msgstr "qps: ändere Update-Intervall"
 
-#: qps.C:704
+#: qps.C:702
 msgid "New update period:"
 msgstr "Neues Update-Intervall:"
 
-#: qps.C:719 qps.C:858 scheddlg.C:113
+#: qps.C:717 qps.C:856 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Ungültige Eingabe"
 
-#: qps.C:720
+#: qps.C:718
 msgid ""
 "The time between updates should be a number, optionally followed\n"
 "by a unit (ms, s or min). If no unit is given, seconds is assumed."
@@ -319,7 +319,7 @@ msgstr ""
 "einer Einheit (ms, s or min). Wenn keine Einheit angegeben wird, gelten "
 "Sekunden."
 
-#: qps.C:834
+#: qps.C:832
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
@@ -332,15 +332,15 @@ msgstr ""
 "Nur der Prozeß-Eigentümer und der Systemadministrator\n"
 "haben dieses Recht."
 
-#: qps.C:848
+#: qps.C:846
 msgid "qps: renice process"
 msgstr "qps: Ändere Priorität für Prozeß"
 
-#: qps.C:849
+#: qps.C:847
 msgid "New nice value:"
 msgstr "Neuer Prioritätswert:"
 
-#: qps.C:859
+#: qps.C:857
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
@@ -348,7 +348,7 @@ msgstr ""
 "Der Prioritätswert sollte im Bereich\n"
 "zwischen -20 und 20 liegen."
 
-#: qps.C:876
+#: qps.C:874
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
@@ -357,13 +357,13 @@ msgstr ""
 "Sie haben keine Berechtigung, die Priorität zu ändern für Prozeß %d (%s).\n"
 "Nur der Prozeß-Eigentümer und der Systemadministrator können das."
 
-#: qps.C:888
+#: qps.C:886
 msgid "Only the super-user may lower the nice value of a process."
 msgstr ""
 "Nur der Systemadministrator kann den Prioritätswert eines Prozesse "
 "herabsetzen."
 
-#: qps.C:911
+#: qps.C:909
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
@@ -371,7 +371,7 @@ msgstr ""
 "Nur der Systemadministrator kann die Ablaufplanung\n"
 "(Scheduling) und die festgelegte Priorität ändern."
 
-#: qps.C:941
+#: qps.C:939
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
@@ -382,7 +382,7 @@ msgstr ""
 "(Scheduling) und/oder der Priorität von Prozeß %d (%s).\n"
 "Nur der Systemadministrator hat dieses Recht."
 
-#: qps.C:985
+#: qps.C:983
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"

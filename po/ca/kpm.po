@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpm\n"
-"POT-Creation-Date: 1999-01-18 01:54+0100\n"
+"POT-Creation-Date: 1999-01-26 01:48+0100\n"
 "PO-Revision-Date: 1998-12-24 00:22+0100\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
@@ -177,10 +177,10 @@ msgstr "Preferències..."
 msgid "Save Settings Now"
 msgstr "Desa l'arranjament ara"
 
-#: qps.C:195
-#, c-format
+#: qps.C:196
+#, fuzzy
 msgid ""
-"kpm %sk%s - A Visual Process Manager (KDE Version)\n"
+" - A Visual Process Manager (KDE Version)\n"
 "\n"
 "© 1997 Mattias Engdegård (f91-men@nada.kth.se)\n"
 "© 1998 Mario Weilguni (mweilguni@kde.org)\n"
@@ -210,79 +210,79 @@ msgstr ""
 "Public License (GNU GPL). Veieu el fitxer COPYING\n"
 "amb els detalls."
 
-#: qps.C:213
+#: qps.C:211
 msgid "&Window"
 msgstr "&Finestra"
 
-#: qps.C:214
+#: qps.C:212
 msgid "&Process"
 msgstr "&Procés"
 
-#: qps.C:215
+#: qps.C:213
 msgid "&Signal"
 msgstr "&Senyal"
 
-#: qps.C:311
+#: qps.C:309
 msgid "SIGQUIT (quit)"
 msgstr "SIGQUIT (sortida)"
 
-#: qps.C:312
+#: qps.C:310
 msgid "SIGILL (illegal instruction)"
 msgstr "SIGILL (instrucció il·legal)"
 
-#: qps.C:313
+#: qps.C:311
 msgid "SIGABRT (abort)"
 msgstr "SIGABRT (acaba)"
 
-#: qps.C:314
+#: qps.C:312
 msgid "SIGFPE (floating point exception)"
 msgstr "SIGFPE (excepció de coma flotant)"
 
-#: qps.C:315
+#: qps.C:313
 msgid "SIGSEGV (segmentation violation)"
 msgstr "SIGSEGV (violació de segmentació)"
 
-#: qps.C:316
+#: qps.C:314
 msgid "SIGPIPE (broken pipe)"
 msgstr "SIGPIPE (tub trencat)"
 
-#: qps.C:317
+#: qps.C:315
 msgid "SIGALRM (timer signal)"
 msgstr "SIGALRM (senyal d'alarma)"
 
-#: qps.C:318
+#: qps.C:316
 msgid "SIGUSR1 (user-defined 1)"
 msgstr "SIGUSR1 (definida per l'usuari 1)"
 
-#: qps.C:319
+#: qps.C:317
 msgid "SIGUSR2 (user-defined 2)"
 msgstr "SIGUSR2 (definida per l'usuari 2)"
 
-#: qps.C:320
+#: qps.C:318
 msgid "SIGCHLD (child death)"
 msgstr "SIGCHLD (mort d'un procés fill)"
 
-#: qps.C:321
+#: qps.C:319
 msgid "SIGCONT (continue)"
 msgstr "SIGCONT (continua)"
 
-#: qps.C:322
+#: qps.C:320
 msgid "SIGSTOP (stop)"
 msgstr "SIGSTOP (atura)"
 
-#: qps.C:323
+#: qps.C:321
 msgid "SIGTSTP (stop from tty)"
 msgstr "SIGTSTP (atura des de tty)"
 
-#: qps.C:324
+#: qps.C:322
 msgid "SIGTTIN (tty input)"
 msgstr "SIGTTIN (entrada tty)"
 
-#: qps.C:325
+#: qps.C:323
 msgid "SIGTTOU (tty output)"
 msgstr "SIGTTOU (sortida tty)"
 
-#: qps.C:625
+#: qps.C:623
 #, c-format
 msgid ""
 "You do not have permission to view the\n"
@@ -295,23 +295,23 @@ msgstr ""
 "Només el propietari del procés i el\n"
 "super usuari poden fer-ho."
 
-#: qps.C:630 qps.C:839 qps.C:881 qps.C:887 qps.C:910 qps.C:946 qps.C:990
+#: qps.C:628 qps.C:837 qps.C:879 qps.C:885 qps.C:908 qps.C:944 qps.C:988
 msgid "Permission denied"
 msgstr "S'ha denegat el permís"
 
-#: qps.C:703
+#: qps.C:701
 msgid "qps: change update period"
 msgstr "qps: canvia el període d'actualització"
 
-#: qps.C:704
+#: qps.C:702
 msgid "New update period:"
 msgstr "Nou període d'actualització:"
 
-#: qps.C:719 qps.C:858 scheddlg.C:113
+#: qps.C:717 qps.C:856 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Entrada no vàlida"
 
-#: qps.C:720
+#: qps.C:718
 msgid ""
 "The time between updates should be a number, optionally followed\n"
 "by a unit (ms, s or min). If no unit is given, seconds is assumed."
@@ -319,7 +319,7 @@ msgstr ""
 "El temps entre actualitzacions ha d'ésser un numero, seguit opcionalment\n"
 "per una unitat (ms, s o min). Si no es dóna cap unitat, s'usen segons."
 
-#: qps.C:834
+#: qps.C:832
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
@@ -332,15 +332,15 @@ msgstr ""
 "Només el propietari del procés i el\n"
 "super usuari poden fer-ho."
 
-#: qps.C:848
+#: qps.C:846
 msgid "qps: renice process"
 msgstr "qps: canvia la prioritat del procés"
 
-#: qps.C:849
+#: qps.C:847
 msgid "New nice value:"
 msgstr "Nou valor nice:"
 
-#: qps.C:859
+#: qps.C:857
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
@@ -348,7 +348,7 @@ msgstr ""
 "El valor nice ha d'estar\n"
 "dins del rang -20 fins a 20."
 
-#: qps.C:876
+#: qps.C:874
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
@@ -357,11 +357,11 @@ msgstr ""
 "No teniu permís per canviar la prioritat del procés %d (%s).\n"
 "Només poden fer-ho el propietari del procés i el super usuari."
 
-#: qps.C:888
+#: qps.C:886
 msgid "Only the super-user may lower the nice value of a process."
 msgstr "Només el super usuari pot rebaixar el valor nice d'un procés."
 
-#: qps.C:911
+#: qps.C:909
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
@@ -369,7 +369,7 @@ msgstr ""
 "Només el super usuari pot canviar\n"
 "la política de planificació i la prioritat estàtica."
 
-#: qps.C:941
+#: qps.C:939
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
@@ -380,7 +380,7 @@ msgstr ""
 "i/o la prioritat del procés %d (%s).\n"
 "Només ho pot fer el super usuari."
 
-#: qps.C:985
+#: qps.C:983
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"

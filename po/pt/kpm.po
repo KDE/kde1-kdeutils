@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpm\n"
-"POT-Creation-Date: 1999-01-18 01:54+0100\n"
+"POT-Creation-Date: 1999-01-26 01:48+0100\n"
 "PO-Revision-Date: 1998-11-02 00:00+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt\n"
@@ -173,10 +173,10 @@ msgstr "Preferências..."
 msgid "Save Settings Now"
 msgstr "Gravar Configuração Agora"
 
-#: qps.C:195
-#, c-format
+#: qps.C:196
+#, fuzzy
 msgid ""
-"kpm %sk%s - A Visual Process Manager (KDE Version)\n"
+" - A Visual Process Manager (KDE Version)\n"
 "\n"
 "© 1997 Mattias Engdegård (f91-men@nada.kth.se)\n"
 "© 1998 Mario Weilguni (mweilguni@kde.org)\n"
@@ -206,79 +206,79 @@ msgstr ""
 "Pública GNU (GNU GPL). Veja o ficheiro COPYING\n"
 "para mais detalhes."
 
-#: qps.C:213
+#: qps.C:211
 msgid "&Window"
 msgstr "&Janela"
 
-#: qps.C:214
+#: qps.C:212
 msgid "&Process"
 msgstr "&Processo"
 
-#: qps.C:215
+#: qps.C:213
 msgid "&Signal"
 msgstr "&Sinal"
 
-#: qps.C:311
+#: qps.C:309
 msgid "SIGQUIT (quit)"
 msgstr "SIGQUIT (sair)"
 
-#: qps.C:312
+#: qps.C:310
 msgid "SIGILL (illegal instruction)"
 msgstr "SIGILL (instrução ilegal)"
 
-#: qps.C:313
+#: qps.C:311
 msgid "SIGABRT (abort)"
 msgstr "SIGABRT (abortar)"
 
-#: qps.C:314
+#: qps.C:312
 msgid "SIGFPE (floating point exception)"
 msgstr "SIGFPE (excepção de virgula flutuante)"
 
-#: qps.C:315
+#: qps.C:313
 msgid "SIGSEGV (segmentation violation)"
 msgstr "SIGSEGV (violação de segmentação)"
 
-#: qps.C:316
+#: qps.C:314
 msgid "SIGPIPE (broken pipe)"
 msgstr "SIGPIPE (canal quebrado)"
 
-#: qps.C:317
+#: qps.C:315
 msgid "SIGALRM (timer signal)"
 msgstr "SIGALRM (sinal de relógio)"
 
-#: qps.C:318
+#: qps.C:316
 msgid "SIGUSR1 (user-defined 1)"
 msgstr "SIGUSR1 (definido pelo utilizador 1)"
 
-#: qps.C:319
+#: qps.C:317
 msgid "SIGUSR2 (user-defined 2)"
 msgstr "SIGUSR2 (definido pelo utilizador 2)"
 
-#: qps.C:320
+#: qps.C:318
 msgid "SIGCHLD (child death)"
 msgstr "SIGCHLD (morte de um filho)"
 
-#: qps.C:321
+#: qps.C:319
 msgid "SIGCONT (continue)"
 msgstr "SIGCONT (continuar)"
 
-#: qps.C:322
+#: qps.C:320
 msgid "SIGSTOP (stop)"
 msgstr "SIGSTOP (parar)"
 
-#: qps.C:323
+#: qps.C:321
 msgid "SIGTSTP (stop from tty)"
 msgstr "SIGTSTP (parar do tty)"
 
-#: qps.C:324
+#: qps.C:322
 msgid "SIGTTIN (tty input)"
 msgstr "SIGTTIN (entrada do tty)"
 
-#: qps.C:325
+#: qps.C:323
 msgid "SIGTTOU (tty output)"
 msgstr "SIGTTOU (saída para o tty)"
 
-#: qps.C:625
+#: qps.C:623
 #, c-format
 msgid ""
 "You do not have permission to view the\n"
@@ -291,23 +291,23 @@ msgstr ""
 "Apenas o dono do processo e o\n"
 "super utilizador o podem fazer."
 
-#: qps.C:630 qps.C:839 qps.C:881 qps.C:887 qps.C:910 qps.C:946 qps.C:990
+#: qps.C:628 qps.C:837 qps.C:879 qps.C:885 qps.C:908 qps.C:944 qps.C:988
 msgid "Permission denied"
 msgstr "Permissão recusada"
 
-#: qps.C:703
+#: qps.C:701
 msgid "qps: change update period"
 msgstr "Actualizações"
 
-#: qps.C:704
+#: qps.C:702
 msgid "New update period:"
 msgstr "Novo periodo:"
 
-#: qps.C:719 qps.C:858 scheddlg.C:113
+#: qps.C:717 qps.C:856 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Valor inválido"
 
-#: qps.C:720
+#: qps.C:718
 msgid ""
 "The time between updates should be a number, optionally followed\n"
 "by a unit (ms, s or min). If no unit is given, seconds is assumed."
@@ -316,7 +316,7 @@ msgstr ""
 "seguido de uma unidade (ms, s, ou min). Se não inserir a unidade\n"
 "serão utilizados segundos"
 
-#: qps.C:834
+#: qps.C:832
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
@@ -329,15 +329,15 @@ msgstr ""
 "Apenas o dono do processo e o\n"
 "super utilizador o podem fazer."
 
-#: qps.C:848
+#: qps.C:846
 msgid "qps: renice process"
 msgstr "Mudar valor de nice"
 
-#: qps.C:849
+#: qps.C:847
 msgid "New nice value:"
 msgstr "Novo nice:"
 
-#: qps.C:859
+#: qps.C:857
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
@@ -345,7 +345,7 @@ msgstr ""
 "O valor de nice deve estar\n"
 "entre -20 e 20."
 
-#: qps.C:876
+#: qps.C:874
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
@@ -354,11 +354,11 @@ msgstr ""
 "Não têm permissões para mudar o valor de nice do processo %s (%s).\n"
 "Apenas o dono do processo e o super utilizador o podem fazer."
 
-#: qps.C:888
+#: qps.C:886
 msgid "Only the super-user may lower the nice value of a process."
 msgstr "Apenas o super utilizador pode baixar o valor de nice de um processo."
 
-#: qps.C:911
+#: qps.C:909
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
@@ -366,7 +366,7 @@ msgstr ""
 "Apenas o super utilizador pode mudar a política\n"
 "de escalonamento e prioridade estática."
 
-#: qps.C:941
+#: qps.C:939
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
@@ -377,7 +377,7 @@ msgstr ""
 "e/ou prioridade do processo %d (%s).\n"
 "Apenas o super utilizador o pode fazer."
 
-#: qps.C:985
+#: qps.C:983
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"
