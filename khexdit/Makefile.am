@@ -8,8 +8,8 @@ MOC	= @MOC@
 ####### Files
 
 bin_PROGRAMS = 	khexdit
-khexdit_SOURCES	= hexwidget.cpp hexfile.cpp libintl.c translater.cpp
-noinst_HEADERS = libintlP.h hexfile.h hexwidget.h translater.h
+khexdit_SOURCES	= hexwidget.cpp hexfile.cpp libintl.c klocale.cpp
+noinst_HEADERS = libintlP.h hexfile.h hexwidget.h klocale.h
 khexdit_LDADD 	= @all_libraries@ -lkfm -lkdeui -lkdecore -lqt -lX11 -lXext @LIBSOCKET@ 
 BUILTSOURCES =	hexwidget.moc hexfile.moc
 

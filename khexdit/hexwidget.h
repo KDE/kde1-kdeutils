@@ -9,7 +9,7 @@
 #include <kfm.h>
 #include <kapp.h>
 #include <kurl.h>
-#include "translater.h"
+#include <klocale.h>
 
 #define ID_FILE_OPEN 1
 #define ID_FILE_OPEN_URL 2
@@ -54,38 +54,38 @@ public:
   void slotDropEvent( KDNDDropZone * _dropZone );
   
 private:
-  QList<HexFile> files;
-  HexFile *CurrentFile;
-  int winID;
-  QString netFile;
-  KTranslater trans;
-  KToolBar *toolbar; 
-  KMenuBar *menu;
-  /**
-    Only one KFM connection should be opened at once. Otherwise kedit could get
-    confused. If this is 0L, you may create a new connection to kfm.
+    QList<HexFile> files;
+    HexFile *CurrentFile;
+    int winID;
+    QString netFile;
+    KLocale trans;
+    KToolBar *toolbar; 
+    KMenuBar *menu;
+    /**
+       Only one KFM connection should be opened at once. Otherwise kedit could get
+       confused. If this is 0L, you may create a new connection to kfm.
     */
-  KFM * kfm;
-  
-  /**
-    If KEdit is waiting for some internet task to finish, this is the
-    file that is involved. Mention that it is a complete URL like
-    "file:/tmp/mist.txt".
+    KFM * kfm;
+    
+    /**
+       If KEdit is waiting for some internet task to finish, this is the
+       file that is involved. Mention that it is a complete URL like
+       "file:/tmp/mist.txt".
     */
-  QString tmpFile;
-  /**
-    If this is for example GET, then KFM loads a file from the net
-    to the local file system.
+    QString tmpFile;
+    /**
+       If this is for example GET, then KFM loads a file from the net
+       to the local file system.
     */
-  action kfmAction; 
-
+    action kfmAction; 
+    
 protected:
-  static QList<HexWidget> windowList;
-  int initMenu();
-  //void paintEvent(QPaintEvent *pa);
-  void closeEvent ( QCloseEvent *e);
-  int scrollVWidth,scrollHHeight;
-  void initGeometry();
+    static QList<HexWidget> windowList;
+    int initMenu();
+    //void paintEvent(QPaintEvent *pa);
+    void closeEvent ( QCloseEvent *e);
+    int scrollVWidth,scrollHHeight;
+    void initGeometry();
 };
 
 #endif

@@ -3,7 +3,7 @@
 
 #include <qapp.h>
 #include <qscrbar.h> 
-#include <translater.h>
+#include <klocale.h>
 
 class HexFile : public QWidget {
   Q_OBJECT
@@ -44,7 +44,7 @@ private:
   bool UseBig;
   QScrollBar *scrollV;
   QScrollBar *scrollH;
-  KTranslater trans;
+  KLocale trans;
 
 protected:
   void paintEvent(QPaintEvent*);

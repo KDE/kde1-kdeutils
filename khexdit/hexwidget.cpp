@@ -9,8 +9,7 @@
 #include <ktopwidget.h>
 #include <ktoolbar.h>
 #include "hexwidget.h"
-#include "translater.h"
-#include <iostream.h>
+#include "klocale.h"
 
 QList<HexWidget> HexWidget::windowList;
 
@@ -112,8 +111,8 @@ void HexWidget::menuCallback(int item) {
   case ID_FILE_OPEN: {
     if (CurrentFile->isModified()) 
       if (QMessageBox::query(trans.translate("Warning"), 
-			     trans.translate("The current file has been modified.\n\rDo you want to save it ?")))
-	 CurrentFile->save();
+			     trans.translate("_Changed","The current file has been modified.\n\rDo you want to save it ?")))
+	  CurrentFile->save();
     
     QFileDialog *log=new QFileDialog;
     QString fileName = log->getOpenFileName();
