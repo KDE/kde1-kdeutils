@@ -370,11 +370,11 @@ msgstr ""
 "Vælg venligst et andet navn!"
 
 #: docking.cpp:48
-#, fuzzy, c-format
+#, c-format
 msgid "Could not load %s !"
 msgstr ""
 "Kunne ikke indlæse:\n"
-"%s"
+"%s !"
 
 #: docking.cpp:68
 msgid "Change Defaults"
