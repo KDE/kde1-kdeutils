@@ -92,17 +92,27 @@ void MyRowTable::insertItem( QString row )
 
   row     = row.simplifyWhiteSpace();
   i       = row.find(' ');
+  if( i == -1 )
+    return;
   rank    = row.left(i);
   row     = row.right(row.length() - i - 1);
   i       = row.find(' ');
+  if( i == -1 )
+    return;
   owner   = row.left(i);
   row     = row.right(row.length() - i - 1);
   i       = row.find(' ');
+  if( i == -1 )
+    return;
   job_str = row.left(i);
   job     = job_str.toInt();
   row     = row.right(row.length() - i - 1);
   y       = row.findRev(' ');
+  if( y == -1 )
+    return;
   x       = row.findRev(' ', y - 1);
+  if( x == -1 )
+    return;
   size    = row.mid(x + 1, y - x - 1);
   files   = row.left(x);
 
