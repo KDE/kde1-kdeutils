@@ -27,9 +27,8 @@ msgid "Only Add Newer Files"
 msgstr "Lis‰‰ vain uudet"
 
 #: extractdlg.cc:14
-#, fuzzy
 msgid "Extract"
-msgstr "P&ura..."
+msgstr "Pura"
 
 #: extractdlg.cc:28
 msgid "Destination"
@@ -60,9 +59,8 @@ msgid "Pattern"
 msgstr "Kuvio"
 
 #: extractdlg.cc:190
-#, fuzzy
 msgid "Extract To"
-msgstr "&Pura kohteeseen..."
+msgstr "Pura kohteeseen"
 
 #: arkwidget.cc:71
 msgid "&New..."
@@ -78,12 +76,11 @@ msgstr "P&ura..."
 
 #: arkwidget.cc:80
 msgid "&View file"
-msgstr ""
+msgstr "&N‰yt‰ tiedosto"
 
 #: arkwidget.cc:82
-#, fuzzy
 msgid "&Delete file"
-msgstr "Valittu tiedosto"
+msgstr "&Tuhoa tiedosto"
 
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
@@ -98,42 +95,36 @@ msgid "&File Adding Options..."
 msgstr "&Tiedostonlis‰yksen asetukset..."
 
 #: arkwidget.cc:97
-#, fuzzy
 msgid "File Operations"
-msgstr "Tiedostonlis‰yksen asetukset"
+msgstr "Tiedostontoiminteet"
 
 #: arkwidget.cc:99
-#, fuzzy
 msgid "Extract..."
-msgstr "P&ura..."
+msgstr "Pura..."
 
 #: arkwidget.cc:100
 msgid "View file"
-msgstr ""
+msgstr "N‰yt‰ tiedosto"
 
 #: arkwidget.cc:102
-#, fuzzy
 msgid "Delete file"
-msgstr "Valittu tiedosto"
+msgstr "Tuhoa tiedosto"
 
 #: arkwidget.cc:114
-#, fuzzy
 msgid "Goto Archive Dir..."
-msgstr "&Aseta arkiston hakemisto..."
+msgstr "Siirry arkiston hakemistoon..."
 
 #: arkwidget.cc:117
-#, fuzzy
 msgid "Extract To.."
-msgstr "&Pura kohteeseen..."
+msgstr "Pura kohteeseen.."
 
 #: arkwidget.cc:121
 msgid "Exit"
-msgstr ""
+msgstr "Lopeta"
 
 #: arkwidget.cc:128
-#, fuzzy
 msgid "Welcome to ark..."
-msgstr "Tervetuloa KZipiin"
+msgstr "Tervetuloa arkkiin..."
 
 #: arkwidget.cc:235
 msgid "Can't create archive of that type"
@@ -152,9 +143,8 @@ msgid "Error saving to archive"
 msgstr "Virhe pakettiin tallennettaessa"
 
 #: arkwidget.cc:312
-#, fuzzy
 msgid "Archive Dir"
-msgstr "Arkiston hakemisto:"
+msgstr "Arkiston hakemisto"
 
 #: arkwidget.cc:325
 msgid "What runs GNU tar:"

@@ -95,14 +95,14 @@ msgid "&New"
 msgstr "&Uusi"
 
 #: top.cpp:71
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
 msgstr ""
-" 0.3 -- Sirtaj Singh Kang\n"
+"%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"

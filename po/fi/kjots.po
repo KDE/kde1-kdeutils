@@ -108,26 +108,23 @@ msgstr " "
 
 #: KJotsMain.cpp:427
 msgid "New"
-msgstr ""
+msgstr "Uusi"
 
 #: KJotsMain.cpp:433
-#, fuzzy
 msgid "Previous"
-msgstr "Edellinen sivu"
+msgstr "Edellinen"
 
 #: KJotsMain.cpp:436
-#, fuzzy
 msgid "Next"
-msgstr "Seuraava sivu"
+msgstr "Seuraava"
 
 #: KJotsMain.cpp:440
-#, fuzzy
 msgid "Subject List"
-msgstr "Näytä otsikkolista"
+msgstr "Otsikkolista"
 
 #: KJotsMain.cpp:444
 msgid "Exit"
-msgstr ""
+msgstr "Lopeta"
 
 #: KJotsMain.cpp:616
 msgid "A book with this name already exists."

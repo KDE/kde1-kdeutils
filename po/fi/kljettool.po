@@ -23,31 +23,31 @@ msgstr "Tapahtumat"
 
 #: PaperData.cpp:59
 msgid "Format"
-msgstr ""
+msgstr "Formaatti"
 
 #: PaperData.cpp:65
 msgid "Copies"
-msgstr ""
+msgstr "Kopioita"
 
 #: PaperData.cpp:80
 msgid "Lines"
-msgstr ""
+msgstr "Rivejä"
 
 #: PaperData.cpp:102
 msgid "Portrait"
-msgstr ""
+msgstr "Pystysivu"
 
 #: PaperData.cpp:111
 msgid "Landscape"
-msgstr ""
+msgstr "Vaakasivu"
 
 #: PaperData.cpp:127
 msgid "Manual Feed"
-msgstr ""
+msgstr "Käsisyöttö"
 
 #: PaperData.cpp:136
 msgid "Auto Continue"
-msgstr ""
+msgstr "Automaattijatka"
 
 #: FontsData.cpp:38
 msgid "Language"
