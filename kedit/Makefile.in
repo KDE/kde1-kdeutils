@@ -42,13 +42,13 @@ DEFS = #-DDOCS_PATH=\"$(DOCSDIR)/\"
 ########## Files #####################
 
 SOURCES =	kedit.cpp  KEdit.cpp  print.cpp\
-		filldlg.cpp mail.cpp
+		filldlg.cpp mail.cpp about.cpp
 HEADERS =	kedit.h  KEdit.h  print.h\
-		filldlg.h  version.h mail.h 
+		filldlg.h  version.h mail.h about.h
 OBJECTS =	kedit.o  KEdit.o print.o\
-		filldlg.o mail.o
+		filldlg.o mail.o about.o
 SRCMETA =	kedit.moc  KEdit.moc  print.moc\
-		filldlg.moc mail.moc
+		filldlg.moc mail.moc about.moc
 TARGET	=	kedit
 
 
@@ -87,6 +87,7 @@ install: all
 	$(INSTALL_DATA) pixmaps/send.xpm $(TOOLPICSDIR)
 	$(INSTALL_DIR) $(PICSDIR)
 	$(INSTALL_DATA) kedit.xpm  $(PICSDIR)
+	$(INSTALL_DATA) keditlogo.xpm  $(PICSDIR)
 
 
 uninstall:

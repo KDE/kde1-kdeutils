@@ -38,6 +38,7 @@
 #include "kcolordlg.h"
 #include "mail.h"
 #include "KEdit.h"
+#include "about.h"
 
 #include "kedit.moc"
 
@@ -81,7 +82,8 @@ TopLevel::TopLevel (QWidget *, const char *name)
   else
     options->changeItem( "Hide &Status Bar", statusID );
 
-  setCaption("KEdit 0.5");
+  /*  setCaption(mykapp->getCaption());*/ /* doesn't work yet*/
+      setCaption("KEdit "KEDITVERSION);
 
   KDNDDropZone * dropZone = new KDNDDropZone( this , DndURL);
   connect( dropZone, SIGNAL( dropAction( KDNDDropZone *) ), 
@@ -669,11 +671,9 @@ void TopLevel::fancyprint(){
 
 void TopLevel::about(){
 
-  QMessageBox::message ("About KEdit", "KEdit Version "KEDITVERSION"\n"\
-			"Copyright 1997\nBernd Johannes Wuebben\n"\
-			"wuebben@math.cornell.edu\n"\
-			"wuebben@kde.org\n","Ok");
-
+  QDialog *dlg = new About(0);
+  dlg->exec();
+  delete dlg;
 }
 
 void TopLevel::helpselected(){
@@ -786,7 +786,8 @@ void TopLevel::search_again(){
 
 void TopLevel::setFileCaption(){
 
-  QString string("KEdit ");
+  QString string;
+  /*  string = mykapp->getCaption() + " ";*/
   string += eframe->getName();
   setCaption(string);
 }
