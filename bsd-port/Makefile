@@ -44,4 +44,8 @@ do-fetch:
 pre-clean:
                 cd $(WRKSRC);$(GMAKE) clean   
 
+# We need to go through Makefile.cvs before anything else.
+pre-configure:
+		cd $(WRKSRC);$(GMAKE) -f Makefile.cvs
+
 .include <bsd.port.mk>
