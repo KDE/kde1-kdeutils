@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-02 01:45+0200\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -9,10 +9,6 @@ msgstr ""
 #: adddlg.cc:11
 msgid "Add File Options"
 msgstr "添加文件选项"
-
-#: adddlg.cc:15 extractdlg.cc:72
-msgid "Ok"
-msgstr ""
 
 #: adddlg.cc:22
 msgid "Store Full Path"

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kzip \n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-02 01:45+0200\n"
 "PO-Revision-Date: 1998-08-07 23:22+0200\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -12,10 +12,6 @@ msgstr ""
 #: adddlg.cc:11
 msgid "Add File Options"
 msgstr "Opcje plików"
-
-#: adddlg.cc:15 extractdlg.cc:72
-msgid "Ok"
-msgstr ""
 
 #: adddlg.cc:22
 msgid "Store Full Path"

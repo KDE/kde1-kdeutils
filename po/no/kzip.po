@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kzip\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-02 01:45+0200\n"
 "PO-Revision-Date: 1998-03-02 20:48+0100\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -16,10 +16,6 @@ msgstr ""
 #: adddlg.cc:11
 msgid "Add File Options"
 msgstr "Legg til filvalg"
-
-#: adddlg.cc:15 extractdlg.cc:72
-msgid "Ok"
-msgstr "Ok"
 
 #: adddlg.cc:22
 msgid "Store Full Path"
@@ -120,3 +116,6 @@ msgstr "Arkivmappe eksisterer ikke."
 #: kzip.cc:411
 msgid "Archive Directory"
 msgstr "Arkivmappe"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"

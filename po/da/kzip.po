@@ -1,17 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kzip\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-02 01:45+0200\n"
 "PO-Revision-Date: 1998-02-02 20:55+MET\n"
 "Last-Translator: Thomas Tanghus <tanghus@earthling.net>\n"
 
 #: adddlg.cc:11
 msgid "Add File Options"
 msgstr "Tilføj filindstillinger"
-
-#: adddlg.cc:15 extractdlg.cc:72
-msgid "Ok"
-msgstr ""
 
 #: adddlg.cc:22
 msgid "Store Full Path"

@@ -4,7 +4,7 @@
 #     
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-02 01:45+0200\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-10-09 11:06:57-0400\n"
 "From: Robert Palmbos <robertp@pbnjelly>\n"
@@ -16,10 +16,6 @@ msgstr ""
 #: adddlg.cc:11
 msgid "Add File Options"
 msgstr "Pode¹avanja za dodavanje  datoteka"
-
-#: adddlg.cc:15 extractdlg.cc:72
-msgid "Ok"
-msgstr ""
 
 #: adddlg.cc:22
 msgid "Store Full Path"

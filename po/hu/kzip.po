@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-02 01:45+0200\n"
 "PO-Revision-Date: 1997-11-13 12:20+0100\n"
 "Last-Translator: John Zero <johnzero@telnet.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -17,10 +17,6 @@ msgstr ""
 #: adddlg.cc:11
 msgid "Add File Options"
 msgstr "Beállítások a hozzáadáshoz"
-
-#: adddlg.cc:15 extractdlg.cc:72
-msgid "Ok"
-msgstr ""
 
 #: adddlg.cc:22
 msgid "Store Full Path"
