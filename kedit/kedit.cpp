@@ -300,14 +300,13 @@ void TopLevel::setupMenuBar(){
   menubar->insertItem (i18n("&Options"), options);
   menubar->insertSeparator(-1);
 
-  help = mykapp->getHelpMenu(TRUE,
-		"\n"\
-		"KEdit "\
- 	         KEDITVERSION "\n\n"\
-		"Copyright 1997-98\n"\
-                "Bernd Johannes Wuebben\n"\
-                "wuebben@kde.org"
-		);
+  QString about;
+  about.sprintf(i18n("KEdit %s\n\n"
+                     "Copyright 1997-98\n"
+                     "Bernd Johannes Wuebben\n"
+                     "wuebben@kde.org"),
+		KEDITVERSION);
+  help = mykapp->getHelpMenu(TRUE, about);
 
 
   menubar->insertItem(i18n("&Help"), help);
