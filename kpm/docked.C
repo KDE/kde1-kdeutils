@@ -21,7 +21,7 @@ QString FQFN(const char *fn) {
   // check for full path
   if(s[0] == '/')
     return s;
-  
+
   // check path
   char buf[1024];
   if(getenv("PATH")) {
@@ -71,7 +71,7 @@ Sysload::Sysload() : KTMainWindow() {
 	  this, SLOT(updateCPULoad()));
   t1->start(1000);
 
-  // make popup menu  
+  // make popup menu
   menu = new QPopupMenu;
   options = new QPopupMenu;
   options->setCheckable(true);
@@ -122,7 +122,7 @@ void Sysload::mousePressEvent(QMouseEvent *e) {
     s.sprintf("<+><bold>Load average</b><-><br><i+>Last minute: %0.2f"
 	      "<br>Last 5 minutes: %0.2f<br>Last 15 minutes: %0.2f<i->"
 	      "<br><br><+><b>CPU load:</b> %0.0f%%<->",
-	      av1, av2, av3, 100.0*cpuload <= 100 ? 100*cpuload : 100); 
+	      av1, av2, av3, 100.0*cpuload <= 100 ? 100*cpuload : 100);
 
     qh->popup(s.data(), p.x(), p.y());
   }
@@ -140,7 +140,7 @@ void Sysload::doUpdate() {
   sysload(&av1, &av2, &av3);
 
   idx = (idx+1) % ICONWIDTH;
-  
+
   if(conf->readNumEntry("ShowSysLoad", 1))
     history[idx] = av1;
   else if(conf->readNumEntry("ShowCPULoad", 0))
@@ -151,7 +151,7 @@ void Sysload::doUpdate() {
   for(int i = 1; i < idx; i++)
     if(max_load < history[i])
       max_load = history[i];
-  
+
   // round toward nearest integer
   if(max_load < 1)
     max_load = 1;
@@ -168,7 +168,7 @@ void Sysload::doUpdate() {
   p.drawLine(0, ICONHEIGHT-1, ICONWIDTH, ICONHEIGHT-1);
 
   // draw graph
-  p.setPen(red); 
+  p.setPen(red);
   int midx = idx;
   for(int i = 0; i < ICONWIDTH; i++) {
     midx = (midx+1) % ICONWIDTH;
@@ -191,7 +191,7 @@ bool Sysload::sysload(float *av1, float *av2, float *av3) {
   FILE *f = fopen(PROCFILE, "r");
 
   if(f) {
-    char buf[128];    
+    char buf[128];
     fgets(buf, sizeof(buf), f);
     fclose(f);
     buf[sizeof(buf)-1] = 0;
@@ -220,7 +220,7 @@ void Sysload::updateCPULoad() {
   } else
     cpuload = 0;
 }
- 
+
 
 void Sysload::menuCallback(int id) {
   switch(id) {
@@ -270,9 +270,10 @@ int main(int argc, char **argv) {
   }
 
   Sysload sl;
+
+  kapp->setTopWidget(new QWidget);
   kapp->enableSessionManagement(true);
   kapp->setWmCommand(FQFN(argv[0]));
-  kapp->setTopWidget(&sl);
 
 #ifdef DEBUGGING
   FILE *f = fopen("/home/mario/x.log", "a");
@@ -282,7 +283,7 @@ int main(int argc, char **argv) {
   fprintf(f, "\n\n%s\tSTARTED AS %s, FQ=%s\n", asctime(tm), argv[0], FQFN(argv[0]).data());
   fclose(f);
 #endif
- 
+
   return a.exec();
 #else
     QMessageBox::warning(0,
