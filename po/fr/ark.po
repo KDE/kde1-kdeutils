@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: ark\n"
 "POT-Creation-Date: 1998-11-05 01:55+0100\n"
 "PO-Revision-Date: 1998-02-04 HO:MI+ZONE\n"
-"Last-Translator: David Faure <David.Faure@insa-lyon.fr>\n"
+"Last-Translator: David Faure <faure@kde.org>\n"
 "Language-Team: FRENCH <kde-i18n@kde.org>\n"
 "Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
 
@@ -22,9 +22,8 @@ msgid "Only Add Newer Files"
 msgstr "Ajouter uniquement les fichiers plus récents"
 
 #: extractdlg.cc:14
-#, fuzzy
 msgid "Extract"
-msgstr "E&xtraire..."
+msgstr "Extraire"
 
 #: extractdlg.cc:28
 msgid "Destination"
@@ -55,9 +54,8 @@ msgid "Pattern"
 msgstr "Motif"
 
 #: extractdlg.cc:190
-#, fuzzy
 msgid "Extract To"
-msgstr "&Extraire dans..."
+msgstr "Extraire dans"
 
 #: arkwidget.cc:71
 msgid "&New..."
@@ -84,33 +82,28 @@ msgid "&File Adding Options..."
 msgstr "Options d'ajout de &fichier..."
 
 #: arkwidget.cc:97
-#, fuzzy
 msgid "File Operations"
-msgstr "Options d'ajout de fichier"
+msgstr "Opérations sur fichier"
 
 #: arkwidget.cc:99
-#, fuzzy
 msgid "Extract..."
-msgstr "E&xtraire..."
+msgstr "Extraire..."
 
 #: arkwidget.cc:114
-#, fuzzy
 msgid "Goto Archive Dir..."
-msgstr "&Spécifier le répertoire des archives"
+msgstr "Aller au répertoire des archives"
 
 #: arkwidget.cc:117
-#, fuzzy
 msgid "Extract To.."
-msgstr "&Extraire dans..."
+msgstr "Extraire dans..."
 
 #: arkwidget.cc:121
 msgid "Exit"
-msgstr ""
+msgstr "Quitter"
 
 #: arkwidget.cc:128
-#, fuzzy
 msgid "Welcome to ark..."
-msgstr "Bienvenue dans KZip..."
+msgstr "Bienvenue dans ark..."
 
 #: arkwidget.cc:235
 msgid "Can't create archive of that type"
@@ -129,9 +122,8 @@ msgid "Error saving to archive"
 msgstr "Erreur lors de la sauvegarde dans l'archive"
 
 #: arkwidget.cc:312
-#, fuzzy
 msgid "Archive Dir"
-msgstr "Répertoire des archives :"
+msgstr "Répertoire des archives"
 
 #: arkwidget.cc:325
 msgid "What runs GNU tar:"
@@ -153,5 +145,3 @@ msgstr "Le répertoire des archives n'existe pas."
 msgid "Archive Directory"
 msgstr "Répertoire de l'archive"
 
-#~ msgid "Files"
-#~ msgstr "Fichiers"
