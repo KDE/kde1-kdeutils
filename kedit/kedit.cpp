@@ -1885,6 +1885,7 @@ void TopLevel::toggle_overwrite(){
 int main (int argc, char **argv)
 {
 
+  bool have_top_window = false;
   mykapp = new KApplication (argc, argv, "kedit");
 
   if ( mykapp->isRestored() ) {
@@ -1896,11 +1897,13 @@ int main (int argc, char **argv)
 	  tl->restore(n);
 	  TopLevel::windowList.append( tl );
           n++;
+	  have_top_window = true;
       }
 
   } 
   else{
 
+    have_top_window = false;
     if (argc > 1) {
 
     /*
@@ -1912,12 +1915,15 @@ int main (int argc, char **argv)
 
 	  bool ok = true;
 	  
-	  if (*argv[i] == '-')	/* ignore options */
+	  if (*argv[i] == '-'){
+	    fprintf(stderr,"%s: %s -- no such option\n",argv[0],argv[i]);
 	    continue;
+	  }
 	    
 	    TopLevel *t = new TopLevel ();
 	    t->show ();
 	    TopLevel::windowList.append( t );
+	    have_top_window = true;
 
 	    QString f = argv[i];
 	    
@@ -1959,13 +1965,15 @@ int main (int argc, char **argv)
 	    }
         }
     }
-    else
-    {
-	TopLevel *t = new TopLevel ();
-	t->show ();
-	TopLevel::windowList.append( t );
+
+    if(!have_top_window){
+      TopLevel *t = new TopLevel ();
+      t->show ();
+      TopLevel::windowList.append( t );
     }
   }
-    return mykapp->exec ();
+
+  return mykapp->exec ();
 }
+
 
