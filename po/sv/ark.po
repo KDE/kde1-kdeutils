@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfm\n"
 "POT-Creation-Date: 1998-11-14 02:05+0100\n"
-"PO-Revision-Date: 1998-12-31 01:59+01:00\n"
+"PO-Revision-Date: 1998-12-31 02:15+01:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -112,7 +112,7 @@ msgstr "Radera fil"
 
 #: arkwidget.cc:114
 msgid "Goto Archive Dir..."
-msgstr "Gå til arkivkatalogen..."
+msgstr "Gå till arkivkatalogen..."
 
 #: arkwidget.cc:117
 msgid "Extract To.."

@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Anders Widell <d95-awi@nada.kth.se>, 1998.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: klpq\n"
+"POT-Creation-Date: 1998-12-08 02:02+0100\n"
+"PO-Revision-Date: 1999-01-01 20:32+01:00\n"
+"Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
+"Language-Team: Swedish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8BIT\n"
+
+#: main.cpp:176
+msgid "Sorry, can't open your printcap file."
+msgstr "Tyvärr, kan inte öppna din printcap-fil."
+
+#: main.cpp:181
+msgid "Sorry, unable to parse your printcap."
+msgstr "Tyvärr, kan inte tyda din printcap-fil."
+
+#: main.cpp:182
+msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
+msgstr "Var god mejla din printcap till Christoph.Neerfeld@home.ivm.de"
+
+#: klpq.cpp:89
+msgid "Printer"
+msgstr "Skrivare"
+
+#: klpq.cpp:93
+msgid "Queuing"
+msgstr "Köar"
+
+#: klpq.cpp:97
+msgid "Printing"
+msgstr "Skriver"
+
+#: klpq.cpp:101
+msgid "Update"
+msgstr "Uppdatera"
+
+#: klpq.cpp:119
+msgid "Rank"
+msgstr "Rang"
+
+#: klpq.cpp:120
+msgid "Owner"
+msgstr "Ägare"
+
+#: klpq.cpp:121
+msgid "Job"
+msgstr "Jobb"
+
+#: klpq.cpp:123
+msgid "Size"
+msgstr "Storlek"
+
+#: klpq.cpp:143 klpq.cpp:218
+msgid "Make Top"
+msgstr "Överst"
+
+#: klpq.cpp:152
+msgid "Auto"
+msgstr "Auto"
+
+#: klpq.cpp:195
+msgid "&Auto update"
+msgstr "&Automatisk uppdatering"
+
+#: klpq.cpp:196
+msgid "&Spooler"
+msgstr "&Spooler"
+
+#: klpq.cpp:203
+msgid "&Config"
+msgstr "&Inställningar"
+
+#: klpq.cpp:389
+#, c-format
+msgid "Do you really want to remove job No %d"
+msgstr "Vill du verkligen ta bort jobb nr. %d"
+
+#: klpq.cpp:409
+#, c-format
+msgid ""
+"Do you really want to move job No\n"
+"%d\n"
+"on top of queue"
+msgstr ""
+"Vill du verkligen flytta jobb nr.\n"
+"%d\n"
+"till toppen av kön"
+
+#: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
+msgid "Permission denied"
+msgstr "Åtkomst nekades"
+
+#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
+msgid ""
+"This is a privileged command\n"
+"and you do not have permission to execute it."
+msgstr ""
+"Det här är ett privilegierat kommando\n"
+"och du har inte rätt att köra det."
+
+#: ConfAutoUpdate.cpp:10
+msgid "Configure Auto Update"
+msgstr "Anpassa auto-uppdatering"
+
+#: ConfAutoUpdateData.cpp:17
+msgid "Update frequency in seconds:"
+msgstr "Uppdateringsfrekvens i sekunder:"
+
+#: klpqspooler.cpp:197 klpqspooler.cpp:267
+msgid "Can't find your lpc program !"
+msgstr "Kan inte hitta dittt lpc-program !"
+
+#: klpqspooler.cpp:198 klpqspooler.cpp:268
+msgid ""
+"Sorry, I can't find your lpc program.\n"
+"Please check the configuration under Config->Spooler."
+msgstr ""
+"Tyvärr, jag kan inte hitta ditt lpc-program.\n"
+"Var god kontrollera inställningen under Inställningar->Spooler."
+
+#: FirstStart.cpp:21 SpoolerConfig.cpp:21 SpoolerConfigData.cpp:151
+msgid "Select your spooling system"
+msgstr "Ange ditt spool-system"
+
+#: FirstStartData.cpp:42
+msgid ""
+"Please select the spooling system you use. Most systems use the BSD spooler. "
+"So if you don't know which spooler is installed on your system, BSD is "
+"probably a good choice."
+msgstr "Var god välj det spool-system du använder. De flesta system använder BSD-spooler. Så om du inte vet vilken spooler som är installerad i ditt system är BSD förmodligen ett bra val."
+
+#: SpoolerConfigData.cpp:99
+msgid "Paths of spooling commands:"
+msgstr "Sökvägar till spool-kommandon:"
