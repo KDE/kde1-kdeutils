@@ -1,7 +1,6 @@
 # KDE Config File 
 [KDE Desktop Entry]
 Name=Hex Editor
-Name[br]=Aozer c'hwezekvel
 Name[ca]=Editor hexadecimal
 Name[cs]=Hexa editor
 Name[da]=Hex skriver
@@ -26,7 +25,6 @@ Icon=khexdit.xpm
 Type=Application
 DocPath=khexdit/index.html
 Comment=A simple Hex editor
-Comment[br]=Un aozer c'hwezekvel eeun
 Comment[ca]=Un editor hexadecimal senzill
 Comment[cs]=Jednoduchý hexadecimální editor
 Comment[da]=En enkel hex-skriver

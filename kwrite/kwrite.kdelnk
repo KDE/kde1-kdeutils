@@ -1,7 +1,6 @@
 # KDE Config File
 [KDE Desktop Entry]
 Comment=A powerful text editor
-Comment[br]=Un aozer skrid galloudus
 Comment[ca]=Un editor de textos potent
 Comment[cs]=Mocnı textovı editor
 Comment[da]=En kraftig tekstbehandler
@@ -23,7 +22,6 @@ Comment[sl]=Zmogljiv urejevalnik besedil
 Comment[sv]=En kraftfull texteditor
 BinaryPattern=
 Name=Advanced Editor
-Name[br]=Aozer araokaet
 Name[cs]=Pokroèilı editor
 Name[da]=Avanceret tekstbehandling
 Name[de]=KWrite: Erweiterter Editor
@@ -38,6 +36,7 @@ Name[no]=Avansert redigerer
 Name[pl]=Zaawansowany Edytor
 Name[pt]=Editor Avançado
 Name[pt_BR]=Editor Avançado
+Name[ro]=Editor avansat
 Name[ru]=òÁÓÛÉÒÅÎÎÙÊ ÒÅÄÁËÔÏÒ
 Name[sk]=Pokroèilı editor
 Name[sv]=Avancerad editor

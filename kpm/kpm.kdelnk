@@ -1,7 +1,6 @@
 # KDE Config File
 [KDE Desktop Entry]
 Name=Process management
-Name[br]=Merañ an argerzhoù
 Name[ca]=Gestió de processos
 Name[cs]=Správce procesù
 Name[da]=Proces-behandler
@@ -23,7 +22,6 @@ Name[sk]=Správa procesov
 Name[sl]=Upravljanje s procesi
 Name[sv]=Processhantering
 Comment=Process management tool
-Comment[br]=Benveg merañ an argerzhoù
 Comment[ca]=Eina de gestió de processos
 Comment[cs]=Nástroj pro správu procesù
 Comment[da]=Procesbehandlingsværktøj

@@ -3,7 +3,6 @@
 BinaryPattern=karm;
 Protocols=
 Name=Personal Time Tracker
-Name[br]=Dispenner amzer hiniennel
 Name[ca]=Agenda personal
 Name[cs]=KArm
 Name[da]=personlig tidlogger
@@ -26,7 +25,6 @@ Name[sl]=Iskalec osebnih imen
 Name[sv]=Personlig tidmätare
 Name[zh_CN.GB2312]=KArm
 Comment=Personal Time Tracker
-Comment[br]=Dispenner amzer hiniennel
 Comment[ca]=Agenda personal
 Comment[cs]=Obobní mìøiè èasu
 Comment[da]=Personlig tidsoversigt
