@@ -48,6 +48,40 @@ AC_PATH_PROG(MOC, moc, /usr/bin/moc,
  $PATH:/usr/bin:/usr/X11R6/bin:$QTDIR/bin:/usr/lib/qt/bin:/usr/local/qt/bin)
 ])
 
+
+AC_DEFUN(AC_CREATE_KFSSTND,
+[
+
+kde_htmldir="\$(prefix)/share/doc/HTML"
+AC_SUBST(kde_htmldir)
+kde_appsdir="\$(prefix)/share/applnk"
+AC_SUBST(kde_appsdir)
+kde_icondir="\$(prefix)/share/icons"
+AC_SUBST(kde_icondir)
+kde_minidir="\$(prefix)/share/icons/mini"
+AC_SUBST(kde_minidir)
+kde_datadir="\$(prefix)/share/apps"
+AC_SUBST(kde_datadir)
+kde_locale="\$(prefix)/share/locale"
+AC_SUBST(kde_locale)
+kde_cgidir="\$(exec_prefix)/cgi-bin"
+AC_SUBST(kde_cgidir)
+kde_confdir="\$(prefix)/share/config"
+AC_SUBST(kde_confdir)
+kde_mimedir="\$(prefix)/share/mimelnk"
+AC_SUBST(kde_mimedir)
+kde_toolbardir="\$(prefix)/share/toolbar"
+AC_SUBST(kde_toolbardir)
+kde_wallpaperdir="\$(prefix)/share/wallpapers"
+AC_SUBST(kde_wallpaperdir)
+kde_kccmodules="\$(prefix)/lib/kcc/modules"
+AC_SUBST(kde_kccmodules)
+kde_bindir=\"$(exec_prefix)/bin"
+AC_SUBST(kde_bindir)
+kde_partsdir=\"$(exec_prefix)/parts"
+AC_SUBST(kde_partsdir)
+])
+
 ## ------------------------------------------------------------------------
 ## Find the header files and libraries for X-Windows. Extended the 
 ## macro AC_PATH_X
@@ -109,11 +143,11 @@ all_includes=$X_INCLUDES
 ## and $(QT_INCLUDES) will be -Iqthdrlocation (if needed)
 ## ------------------------------------------------------------------------
 ##
-AC_DEFUN(AC_PATH_QT_1_2,
+AC_DEFUN(AC_PATH_QT_1_3,
 [
 AC_REQUIRE([K_PATH_X])
 
-AC_MSG_CHECKING([for QT])
+AC_MSG_CHECKING([for QT-1.30])
 ac_qt_includes=NO ac_qt_libraries=NO
 qt_libraries=""
 qt_includes=""
@@ -142,12 +176,12 @@ AC_PATH_QT_DIRECT
 
 qt_incdirs="/usr/lib/qt/include /usr/local/qt/include /usr/include/qt /usr/include /usr/X11R6/include/X11/qt $x_includes $QTINC"
 test -n "$QTDIR" && qt_incdirs="$QTDIR/include $QTDIR $qt_incdirs"
-AC_FIND_FILE(qslider.h, $qt_incdirs, qt_incdir)
+AC_FIND_FILE(qmovie.h, $qt_incdirs, qt_incdir)
 ac_qt_includes=$qt_incdir
 
 qt_libdirs="/usr/lib/qt/lib /usr/local/qt/lib /usr/lib/qt /usr/lib $x_libraries $QTLIB"
 test -n "$QTDIR" && qt_libdirs="$QTDIR/lib $QTDIR $qt_libdirs"
-AC_FIND_FILE(libqt.so libqt.so.1.3 libqt.so.1.2 libqt.a libqt.sl, $qt_libdirs, qt_libdir)
+AC_FIND_FILE(libqt.so libqt.so.1.30 libqt.so.1 libqt.a libqt.sl, $qt_libdirs, qt_libdir)
 ac_qt_libraries=$qt_libdir
 
 ac_cxxflags_safe=$CXXFLAGS
@@ -160,10 +194,10 @@ LIBS="-lqt -lXext -lX11 $LIBSOCKET"
 AC_LANG_CPLUSPLUS
 cat > conftest.$ac_ext <<EOF
 #include "confdefs.h"
-#include <qslider.h>
+#include <qmovie.h>
 int main() {
-  QSlider s;
-  s.addStep();
+  QMovie m;
+  m.setSpeed(20);
   return 0;
 };
 EOF
@@ -193,7 +227,7 @@ if test "$ac_qt_includes" = NO || test "$ac_qt_libraries" = NO; then
     ac_qt_notfound="(libraries)";
   fi
 
-  AC_MSG_ERROR([QT $ac_qt_notfound not found. Please check your installation! ]);
+  AC_MSG_ERROR([QT-1.30 $ac_qt_notfound not found. Please check your installation! ]);
 else
   have_qt="yes"
 fi
@@ -238,43 +272,7 @@ AC_PATH_QT_MOC
 
 AC_DEFUN(AC_PATH_QT,
 [
-AC_PATH_QT_1_2
-AC_MSG_CHECKING([if QT is QT1.3])
-ac_cxxflags_safe=$CXXFLAGS
-ac_ldflags_safe=$LDFLAGS
-ac_libs_safe=$LIBS
-CXXFLAGS="$CXXFLAGS -I$qt_incdir"
-LDFLAGS="-L$qt_libdir $X_LDFLAGS"
-LIBS="-lqt -lXext -lX11 $LIBSOCKET"
-
-AC_LANG_CPLUSPLUS
-cat > conftest.$ac_ext <<EOF
-#include "confdefs.h"
-#include <qmovie.h>
-int main() {
-  QMovie m;
-  m.setSpeed(20);
-  return 0;
-};
-EOF
-
-if AC_TRY_EVAL(ac_link) && test -s conftest; then
-  rm -f conftest*
-  ac_have_qt_1_3="yes"
-else
-  echo "configure: failed program was:" >&AC_FD_CC
-  cat conftest.$ac_ext >&AC_FD_CC
-  ac_have_qt_1_3="no"
-fi
-rm -f conftest*
-CXXFLAGS=$ac_cxxflags_safe
-LDFLAGS=$ac_ldflags_safe
-LIBS=$ac_libs_safe	
-
-AC_MSG_RESULT($ac_have_qt_1_3)
-if test "$ac_have_qt_1_3" = "no"; then
-  AC_MSG_WARN([you should update your QT version to 1.3])
-fi
+AC_PATH_QT_1_3
 ])
 
 ## ------------------------------------------------------------------------
@@ -359,7 +357,7 @@ AC_SUBST(KDE_LDFLAGS)
 AC_SUBST(KDE_INCLUDES)
 AC_SUBST(all_includes)
 AC_SUBST(all_libraries)
-
+AC_CREATE_KFSSTND
 ])
 
 dnl slightly changed version of AC_CHECK_FUNC(setenv)
@@ -500,6 +498,27 @@ AC_DEFUN(AC_CHECK_BOOL,
         if test "$ac_cv_have_bool" = "yes"; then
         	AC_DEFINE(HAVE_BOOL) 
         fi 
+])
+
+AC_DEFUN(AC_CHECK_GNU_EXTENSIONS,
+[
+AC_MSG_CHECKING(if you need GNU extensions)
+cat > conftest.c << EOF
+#include <features.h>
+
+#ifdef __GNU_LIBRARY__
+yes
+#endif
+EOF
+
+if (eval "$ac_cpp conftest.c") 2>&5 |
+  egrep "yes" >/dev/null 2>&1; then
+  rm -rf conftest*
+  AC_DEFINE_UNQUOTED(_GNU_SOURCE)
+  AC_MSG_RESULT(yes)
+else
+  AC_MSG_RESULT(no)
+fi
 ])
 
 AC_DEFUN(AC_CHECK_WITH_GCC,
@@ -712,7 +731,6 @@ AC_DEFUN(AM_KDE_GNU_GETTEXT,
    AC_REQUIRE([AC_ISC_POSIX])dnl
    AC_REQUIRE([AC_PROG_RANLIB])dnl
    AC_REQUIRE([AC_HEADER_STDC])dnl
-   AC_REQUIRE([AC_C_CONST])dnl
    AC_REQUIRE([AC_C_INLINE])dnl
    AC_REQUIRE([AC_TYPE_OFF_T])dnl
    AC_REQUIRE([AC_TYPE_SIZE_T])dnl
