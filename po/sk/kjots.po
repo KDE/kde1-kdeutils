@@ -107,26 +107,23 @@ msgstr "podµa"
 
 #: KJotsMain.cpp:427
 msgid "New"
-msgstr ""
+msgstr "Nový"
 
 #: KJotsMain.cpp:433
-#, fuzzy
 msgid "Previous"
 msgstr "PredchádzajúcaStrana"
 
 #: KJotsMain.cpp:436
-#, fuzzy
 msgid "Next"
-msgstr "NasledujúcaStrana"
+msgstr "Nasledujúci"
 
 #: KJotsMain.cpp:440
-#, fuzzy
 msgid "Subject List"
-msgstr "Uká¾ZoznamPredmetov"
+msgstr "Zoznam predmetov"
 
 #: KJotsMain.cpp:444
 msgid "Exit"
-msgstr ""
+msgstr "Koniec"
 
 #: KJotsMain.cpp:616
 msgid "A book with this name already exists."
