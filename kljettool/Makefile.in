@@ -66,6 +66,7 @@ install: all
 	$(INSTALL) $(TARGET) $(BINDIR)
 	$(INSTALL_DIR) $(DOCSDIR)
 	$(INSTALL_DATA) ./docs/k* $(DOCSDIR)
+	$(INSTALL_DATA) ./docs/logotp3.gif $(DOCSDIR)	
 	$(INSTALL_DATA) ./support/magic $(DOCSDIR)
 	$(INSTALL_DATA) ./support/filter $(DOCSDIR)	
 	$(INSTALL_DATA) ./support/README $(DOCSDIR)		

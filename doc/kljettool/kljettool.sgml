@@ -79,7 +79,8 @@ This will cause KLJetTool to malfunction.
 
 <p>
 This section describes the steps necessary to get LJetTool to 
-work on a RedHat Linux system. I assume similar steps might
+work on pre 5.0  RedHat Linux systems (KLJetTool should work out of the
+box on RedHat linux 5.0 based distributions ). I assume similar steps might
 be necessary on other systems. However, the steps which need
 to be undertaken are not difficult. All that needs to be done is
 to make sure that the printing subsystem sends PJL files
