@@ -14,8 +14,10 @@ public:
 
 private:
     static void read_devs();
+#if !defined(__GLIBC__) || __GLIBC__ < 2 || (__GLIBC__ == 2 && __GLIBC_MINOR__ < 1)
     static int minor(int dev) { return dev & 0xff; };
     static int major(int dev) { return dev >> 8; };
+#endif
     static int major_index(int major);
     static char *tabstr(int devnr);
 
