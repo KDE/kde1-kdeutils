@@ -232,7 +232,7 @@ msgstr "Imposta Font di default"
 
 #: fontdlg.cpp:54
 msgid "Family:"
-msgstr ""
+msgstr "Famiglia:"
 
 #: fontdlg.cpp:64
 msgid "Point Size:"
@@ -240,12 +240,12 @@ msgstr "Dimensioni punto:"
 
 #: fontdlg.cpp:75
 msgid "Style:"
-msgstr ""
+msgstr "Stile:"
 
 #: fontdlg.cpp:87
-#, fuzzy
+#
 msgid "Weight:"
-msgstr "Altezza:"
+msgstr "Spessore:"
 
 #: fontdlg.cpp:93 fontdlg.cpp:117 fontdlg.cpp:150
 msgid "Bold"

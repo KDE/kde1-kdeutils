@@ -1,0 +1,359 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator:Andrea Rizzi <rizzi@kde.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: prefs.C:33
+msgid "Graphic Load Display"
+msgstr "Display Grafico Carico"
+
+#: prefs.C:34
+msgid "Graphic CPU Display"
+msgstr "Display Grafico CPU"
+
+#: prefs.C:35
+msgid "Graphic Memory Display"
+msgstr "Display Grafico Memoria"
+
+#: prefs.C:36
+msgid "Graphic Swap Display"
+msgstr "Display Grafico Swap"
+
+#: prefs.C:37
+msgid "Load Graph in Icon"
+msgstr ""
+
+#: prefs.C:38
+msgid "Dock into kpanel"
+msgstr "Aggiungi al pannello"
+
+#: prefs.C:43
+msgid "Green/Black Load Graph"
+msgstr "Grafico carico Verde/Nero"
+
+#: prefs.C:45
+msgid "Solid filled graph"
+msgstr "Grafico Pieno"
+
+#: prefs.C:50
+msgid "Host Name Lookup"
+msgstr ""
+
+#: prefs.C:55
+msgid "Auto Save Settings on Exit"
+msgstr "Salva Impostazioni in Uscita"
+
+#: prefs.C:67
+msgid "Status Bar"
+msgstr "Barra di Stato"
+
+#: prefs.C:69
+msgid "Socket Info Window"
+msgstr "Finestra informazioni Socket"
+
+#: qps.C:89 qps.C:127
+msgid "Renice..."
+msgstr "Cambia valore di nice..."
+
+#: qps.C:92
+msgid "Change Scheduling..."
+msgstr ""
+
+#: qps.C:96 qps.C:131
+msgid "Socket Info"
+msgstr "Informazioni Socket"
+
+#: qps.C:101
+msgid "Iconify"
+msgstr "Iconifica"
+
+#: qps.C:109 qps.C:133
+msgid "Terminate"
+msgstr "Termina"
+
+#: qps.C:112 qps.C:134
+msgid "Hangup"
+msgstr ""
+
+#: qps.C:115 qps.C:135
+msgid "Interrupt"
+msgstr "Interrupt"
+
+#: qps.C:118 qps.C:137
+msgid "Kill"
+msgstr "Uccidi"
+
+#: qps.C:121
+msgid "Other"
+msgstr "Altro"
+
+#: qps.C:128
+msgid "Scheduling..."
+msgstr ""
+
+#: qps.C:138
+msgid "Other signals"
+msgstr "Altri segnali"
+
+#: qps.C:146
+msgid "Remove field"
+msgstr "Rimuovi campo"
+
+#: qps.C:148
+msgid "Add field..."
+msgstr "Aggiungi campo..."
+
+#: qps.C:152
+msgid "Help on field..."
+msgstr "Aiuto su campo..."
+
+#: qps.C:157
+msgid "Refresh process list"
+msgstr "Aggiorna lista processi"
+
+#: qps.C:160
+msgid "All Processes"
+msgstr "Tutti i processi"
+
+#: qps.C:161
+msgid "Your Processes"
+msgstr "I Tuoi Processi"
+
+#: qps.C:162
+msgid "Non-Root Processes"
+msgstr "Processi non-root"
+
+#: qps.C:163
+msgid "Running Processes"
+msgstr "Processi attivi"
+
+#: qps.C:165
+msgid "User Fields"
+msgstr "Campi Utente"
+
+#: qps.C:166
+msgid "Jobs Fields"
+msgstr "Campi Job"
+
+#: qps.C:167
+msgid "Memory Fields"
+msgstr "Campi Memoria"
+
+#: qps.C:169
+msgid "Select Fields..."
+msgstr "Scelta Campi..."
+
+#: qps.C:175
+msgid "Update Period..."
+msgstr "Periodo aggiornamento..."
+
+#: qps.C:180
+msgid "Show command path"
+msgstr "Mostra path comando"
+
+#: qps.C:182
+msgid "Show ressource info"
+msgstr "Mostra informazioni risorse"
+
+#: qps.C:184
+msgid "Show toolbar"
+msgstr "Mostra toolbar"
+
+#: qps.C:188
+msgid "Preferences..."
+msgstr "Preferenze..."
+
+#: qps.C:191
+msgid "Save Settings Now"
+msgstr "Salva Impostazioni Ora"
+
+#: qps.C:195
+#, c-format
+msgid ""
+"kpm %sk%s - A Visual Process Manager (KDE Version)\n"
+"\n"
+"© 1997 Mattias Engdegård (f91-men@nada.kth.se)\n"
+"© 1998 Mario Weilguni (mweilguni@kde.org)\n"
+"\n"
+"kpm is the KDE version of qps, written by Matthias\n"
+"Engdegård. The port to KDE was done by Mario\n"
+"Weilguni. If you are interested on the original\n"
+"qps, you can find it at the following location:\n"
+"    ftp://sunsite.unc.edu/pub/linux/system/status\n"
+"\n"
+"This program is published under the GNU General\n"
+"Public License (GNU GPL). See the file COPYING\n"
+"for details about this."
+msgstr ""
+
+#: qps.C:213
+msgid "&Window"
+msgstr "&Finestra"
+
+#: qps.C:214
+msgid "&Process"
+msgstr "&Processo"
+
+#: qps.C:215
+msgid "&Signal"
+msgstr "&Segnale"
+
+#: qps.C:311
+msgid "SIGQUIT (quit)"
+msgstr "SIGQUIT (uscita)"
+
+#: qps.C:312
+msgid "SIGILL (illegal instruction)"
+msgstr "SIGILL (istruzione illegale)"
+
+#: qps.C:313
+msgid "SIGABRT (abort)"
+msgstr "SIGABRT (abort)"
+
+#: qps.C:314
+msgid "SIGFPE (floating point exception)"
+msgstr "SIGFPE (eccezione virgola mobile)"
+
+#: qps.C:315
+msgid "SIGSEGV (segmentation violation)"
+msgstr "SIGSEGV (segmentation violation)"
+
+#: qps.C:316
+msgid "SIGPIPE (broken pipe)"
+msgstr "SIGPIPE (broken pipe)"
+
+#: qps.C:317
+msgid "SIGALRM (timer signal)"
+msgstr "SIGALRM (segnale timer)"
+
+#: qps.C:318
+msgid "SIGUSR1 (user-defined 1)"
+msgstr "SIGUSR1 (definito dall'utente 1)"
+
+#: qps.C:319
+msgid "SIGUSR2 (user-defined 2)"
+msgstr "SIGUSR2 (definito dall'utente 2)"
+
+
+#: qps.C:320
+msgid "SIGCHLD (child death)"
+msgstr "SIGCHLD (morte figlio)"
+
+#: qps.C:321
+msgid "SIGCONT (continue)"
+msgstr "SIGCONT (continua)"
+
+#: qps.C:322
+msgid "SIGSTOP (stop)"
+msgstr "SIGSTOP (stop)"
+
+#: qps.C:323
+msgid "SIGTSTP (stop from tty)"
+msgstr "SIGTSTP (stop da tty)"
+
+#: qps.C:324
+msgid "SIGTTIN (tty input)"
+msgstr "SIGTTIN (tty input)"
+
+#: qps.C:325
+msgid "SIGTTOU (tty output)"
+msgstr "SIGTTOU (tty output)"
+
+#: qps.C:625
+#, c-format
+msgid ""
+"You do not have permission to view the\n"
+"open sockets of process %d (%s).\n"
+"Only the owner of the process and the\n"
+"super-user may do that."
+msgstr ""
+
+#: qps.C:630 qps.C:839 qps.C:881 qps.C:887 qps.C:910 qps.C:946 qps.C:990
+msgid "Permission denied"
+msgstr "Permesso negato"
+
+#: qps.C:703
+msgid "qps: change update period"
+msgstr ""
+
+#: qps.C:704
+msgid "New update period:"
+msgstr "Nuovo periodo di aggiornamento:"
+
+#: qps.C:719 qps.C:858
+msgid "Invalid input"
+msgstr "Input non valido"
+
+#: qps.C:720
+msgid ""
+"The time between updates should be a number, optionally followed\n"
+"by a unit (ms, s or min). If no unit is given, seconds is assumed."
+msgstr ""
+
+#: qps.C:834
+#, c-format
+msgid ""
+"You do not have permission to renice the\n"
+"selected process%s.\n"
+"Only the process owner and the super-user\n"
+"are allowed to do that."
+msgstr ""
+
+#: qps.C:848
+msgid "qps: renice process"
+msgstr ""
+
+#: qps.C:849
+msgid "New nice value:"
+msgstr "Nuovo valore nice:"
+
+#: qps.C:859
+msgid ""
+"The nice value should be\n"
+"in the range -20 to 20."
+msgstr ""
+"Il valore nice deve essere \n"
+"compreso tra -20 e 20."
+
+#: qps.C:876
+#, c-format
+msgid ""
+"You do not have permission to renice process %d (%s).\n"
+"Only the process owner and the super-user are allowed to do that."
+msgstr ""
+
+#: qps.C:888
+msgid "Only the super-user may lower the nice value of a process."
+msgstr ""
+
+#: qps.C:911
+msgid ""
+"Only the super-user may change the\n"
+"scheduling policy and static priority."
+msgstr ""
+
+#: qps.C:941
+#, c-format
+msgid ""
+"You do not have permission to change the\n"
+"scheduling and/or priority of process %d (%s).\n"
+"Only the super-user may do that."
+msgstr ""
+
+#: qps.C:985
+#, c-format
+msgid ""
+"You do not have permission to send a signal to process %d (%s).\n"
+"Only the super-user and the owner of the process may send signals to it."
+msgstr ""

@@ -87,20 +87,20 @@ msgstr "&Task"
 
 #: top.cpp:61
 msgid "&New"
-msgstr ""
+msgstr "&Nuovo"
 
 #: top.cpp:71
-#, fuzzy, c-format
+#, , c-format
 msgid ""
 "%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
 msgstr ""
-" 0.3 -- Sirtaj Singh Kang\n"
-"taj@kde.org, Oct 1997\n"
+"%s 0.3 -- Sirtaj Singh Kang\n"
+"taj@kde.org, Ott 1997\n"
 "\n"
-"The K Desktop Environment"
+"Il K Desktop Environment"
 
 #: top.cpp:86
 msgid "Start Clock"
@@ -126,7 +126,7 @@ msgstr "Modifica Task"
 msgid "clock active"
 msgstr "orologio attivo"
 
-#, fuzzy
+#, zzy
 #~ msgid "&About"
 #~ msgstr "Info su..."
 
