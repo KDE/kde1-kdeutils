@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klpq 1.0\n"
-"POT-Creation-Date: 1998-11-16 02:46+0100\n"
+"POT-Creation-Date: 1998-12-08 02:02+0100\n"
 "PO-Revision-Date: 1998-12-10 23:15 CET\n"
 "Last-Translator: Francois-Xavier DURANCEAU "
 "<Francois-Xavier.Duranceau@loria.fr>\n"
@@ -14,73 +14,76 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: main.cpp:208
+#: main.cpp:176
 msgid "Sorry, can't open your printcap file."
 msgstr "Désolé, impossible d'ouvrir votre fichier printcap."
 
-#: main.cpp:213
+#: main.cpp:181
 msgid "Sorry, unable to parse your printcap."
 msgstr "Désolé, impossible de comprendre votre fichier printcap."
 
-#: main.cpp:214
+#: main.cpp:182
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
 msgstr ""
 "Pourriez-vous envoyer votre fichier printcap a Christoph.Neerfeld@home.ivm.de"
 
-#: klpq.cpp:97
+#: klpq.cpp:89
 msgid "Printer"
 msgstr "Imprimante"
 
-#: klpq.cpp:101
+#: klpq.cpp:93
 msgid "Queuing"
 msgstr "File d'impression"
 
-#: klpq.cpp:105
+#: klpq.cpp:97
 msgid "Printing"
 msgstr "Impression"
 
-#: klpq.cpp:109
+#: klpq.cpp:101
 msgid "Update"
 msgstr "Rafraîchir"
 
-#: klpq.cpp:127
+#: klpq.cpp:119
 msgid "Rank"
 msgstr "Rang"
 
-#: klpq.cpp:128
+#: klpq.cpp:120
 msgid "Owner"
 msgstr "Propriétaire"
 
-#: klpq.cpp:129
+#: klpq.cpp:121
 msgid "Job"
 msgstr "Job"
 
-#: klpq.cpp:131
+#: klpq.cpp:123
 msgid "Size"
 msgstr "Taille"
 
-#: klpq.cpp:151 klpq.cpp:226
+#: klpq.cpp:143 klpq.cpp:218
 msgid "Make Top"
 msgstr "Au sommet"
 
-#: klpq.cpp:160
+#: klpq.cpp:152
 msgid "Auto"
 msgstr "Auto"
 
-#: klpq.cpp:203
-msgid "&Auto update..."
+#: klpq.cpp:195
+#, fuzzy
+msgid "&Auto update"
 msgstr "&Rafraîchissement..."
 
-#: klpq.cpp:204
-msgid "&Spooler..."
+#: klpq.cpp:196
+#, fuzzy
+msgid "&Spooler"
 msgstr "&Spooler..."
 
-#: klpq.cpp:211
+#: klpq.cpp:203
 msgid "&Config"
 msgstr "&Configuration"
 
-#: klpq.cpp:391
-msgid "Do you really want to remove job No %d "
+#: klpq.cpp:389
+#, fuzzy, c-format
+msgid "Do you really want to remove job No %d"
 msgstr "Voulez-vous réellement effacer le job N° %d "
 
 #: klpq.cpp:409
@@ -94,12 +97,11 @@ msgstr ""
 "%d\n"
 "au sommet de la file ?"
 
-
-#: klpq.cpp:594 klpq.cpp:620 klpq.cpp:646
+#: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
 msgid "Permission denied"
 msgstr "Permission refusée"
 
-#: klpq.cpp:595 klpq.cpp:621 klpq.cpp:647
+#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
 msgid ""
 "This is a privileged command\n"
 "and you do not have permission to execute it."
@@ -115,11 +117,11 @@ msgstr "Configuration du rafraîchissement"
 msgid "Update frequency in seconds:"
 msgstr "Fréquence de rafraîchissement en secondes :"
 
-#: klpqspooler.cpp:120 klpqspooler.cpp:190
+#: klpqspooler.cpp:197 klpqspooler.cpp:267
 msgid "Can't find your lpc program !"
 msgstr "Impossible de trouver le programme lpc !"
 
-#: klpqspooler.cpp:121 klpqspooler.cpp:191
+#: klpqspooler.cpp:198 klpqspooler.cpp:268
 msgid ""
 "Sorry, I can't find your lpc program.\n"
 "Please check the configuration under Config->Spooler."
@@ -144,7 +146,6 @@ msgstr ""
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"
 msgstr "Chemins d'accès aux commandes de spooling :"
-
 
 #~ msgid "Ok"
 #~ msgstr "Ok"
