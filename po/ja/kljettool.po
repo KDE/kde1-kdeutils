@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-18 01:54+0100\n"
+"POT-Creation-Date: 1999-08-11 01:54+0100\n"
 "PO-Revision-Date: Sun Jul 11 1999 18:47:06+0200\n"
 "Last-Translator: 井村 竜一郎 <imura@cs.titech.ac.jp>\n"
 "Language-Team: japanese <kde-jp@albert.nikkeibp.co.jp>\n"
@@ -23,7 +23,7 @@ msgstr "Ljet Tool"
 
 #: main.cpp:69
 msgid "Paper"
-msgstr "ページャー"
+msgstr "用紙"
 
 #: PrinterData.cpp:93 main.cpp:70
 msgid "Printer"

@@ -75,7 +75,7 @@ msgstr "中くらいの更新"
 
 #: MainMenu.cpp:67
 msgid "Fast Refresh"
-msgstr "はやい更新"
+msgstr "早い更新"
 
 #: MainMenu.cpp:79
 msgid "&Refresh Rate"
@@ -252,7 +252,7 @@ msgstr "時間"
 
 #: ProcessList.cpp:702
 msgid "Nice"
-msgstr "よい"
+msgstr "Nice"
 
 #: ProcessList.cpp:703
 msgid "Status"
