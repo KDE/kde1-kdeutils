@@ -113,7 +113,7 @@ AC_LANG_C
 # kfloppy is not good for this system. It doesn't do anything, but enough
 # to fail ;)
 if test -r kfloppy/kmkdosfs.c; then
-  cp kfloppy/kmkdosfs.c conftest.c
+  cat kfloppy/kmkdosfs.c > conftest.c
 fi
 
 if AC_TRY_EVAL(ac_compile); then
