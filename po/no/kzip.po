@@ -111,7 +111,6 @@ msgid "Unknown archive format"
 msgstr "Ukjent arkivformat"
 
 #: kzip.cc:392
-#, fuzzy
 msgid "Archive directory does not exist."
 msgstr "Arkivmappe eksisterer ikke."
 

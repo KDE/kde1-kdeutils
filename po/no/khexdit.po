@@ -25,7 +25,7 @@ msgstr "Lagre &som..."
 
 #: hexwidget.cpp:91
 msgid "&Toggle Toolbar"
-msgstr "&Toggle verktøylinje"
+msgstr "V&is/skjul verktøylinje"
 
 #: hexwidget.cpp:94
 msgid "Hex Editor"
