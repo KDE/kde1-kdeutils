@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1997-12-28 13:51+0100\n"
+"POT-Creation-Date: 1997-12-28 14:25+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-11-16 21:27:00+0100\n"
 "From: didier Belot <dib@avo.fr>\n"
@@ -203,7 +203,7 @@ msgstr ""
 msgid "Could not save KNote Alarms\n"
 msgstr "Impossible d'enregistrer l'alarme KNote\n"
 
-#: knotes.cpp:515
+#: knotes.cpp:515 knotes.cpp:608
 #, c-format
 msgid ""
 "Could not pipe the contents of this KNote into:\n"
@@ -212,18 +212,10 @@ msgstr ""
 "Impossible de rediriger le contenu de cette KNote vers:\n"
 " %s"
 
-#: knotes.cpp:608
-#, c-format
-msgid ""
-"Could not pipe the contents of this KNotes into:\n"
-" %s"
-msgstr ""
-"Impossible de rediriger le contenu de ces KNotes vers:\n"
-" %s"
-
 #: knotes.cpp:664
+#, fuzzy
 msgid ""
-"You have exeeded the arbitrary and unjustly setlimit of 50 knotes.\n"
+"You have exeeded the arbitrary and unjustly set limit of 50 knotes.\n"
 " Please complain to the author."
 msgstr ""
 "Vous avez atteint la limite arbitraire et injustement fixée à 50 knotes.\n"
@@ -330,6 +322,13 @@ msgid ""
 msgstr ""
 "Il existe déjà une KNote avec ce nom\n"
 "SVP, choisissez un nom différent"
+
+#~ msgid ""
+#~ "Could not pipe the contents of this KNotes into:\n"
+#~ " %s"
+#~ msgstr ""
+#~ "Impossible de rediriger le contenu de ces KNotes vers:\n"
+#~ " %s"
 
 #~ msgid "Mail:"
 #~ msgstr "Cmd. e-mail:"

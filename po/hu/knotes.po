@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-12-28 13:51+0100\n"
+"POT-Creation-Date: 1997-12-28 14:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -211,7 +211,7 @@ msgstr ""
 msgid "Could not save KNote Alarms\n"
 msgstr "Nem tudtam elmenteni a cetlik elõjelzését\n"
 
-#: knotes.cpp:515
+#: knotes.cpp:515 knotes.cpp:608
 #, c-format
 msgid ""
 "Could not pipe the contents of this KNote into:\n"
@@ -220,18 +220,10 @@ msgstr ""
 "Nem tudtam a cetli tartalmat belepumpalni a\n"
 " %s-be."
 
-#: knotes.cpp:608
-#, c-format
-msgid ""
-"Could not pipe the contents of this KNotes into:\n"
-" %s"
-msgstr ""
-"Nem tudtam belepumpálni a cetlik tartalmát a\n"
-"%s-be"
-
 #: knotes.cpp:664
+#, fuzzy
 msgid ""
-"You have exeeded the arbitrary and unjustly setlimit of 50 knotes.\n"
+"You have exeeded the arbitrary and unjustly set limit of 50 knotes.\n"
 " Please complain to the author."
 msgstr ""
 "Túllépted a fixen beállított 50 darabos cetli-limitet.\n"
@@ -333,6 +325,13 @@ msgid ""
 msgstr ""
 "Jajj, de hisz ilyen nevû cetli már van!\n"
 "Légyszives valami más nevet válassz"
+
+#~ msgid ""
+#~ "Could not pipe the contents of this KNotes into:\n"
+#~ " %s"
+#~ msgstr ""
+#~ "Nem tudtam belepumpálni a cetlik tartalmát a\n"
+#~ "%s-be"
 
 #~ msgid "You can't delete the last KNote."
 #~ msgstr "Az legeslegutolsó cetlit nem lehet törölni."
