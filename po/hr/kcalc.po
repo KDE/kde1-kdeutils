@@ -58,9 +58,9 @@ msgid ""
 "recompile KCalc with 'long double' precision enabled. See the README for "
 "details."
 msgstr ""
-"Radi 'slomljenog' glibca, moram smanjiti KCalcovu toènost sa 'long double' u "
+"Radi 'slomljenog' glibca, prislijen sam smanjiti KCalcovu toènost sa 'long double' u "
 "'double'. Vlasnici sistema sa ispravnim libcom trebaju prekompajlirati KCalc "
-"sa ukljuèenom 'long double' toèno¹æu. Proèitajte README za vi¹e informacija."
+"sa ukljuèenom 'long double' toèno¹æu. Proèitajte README za detalje."
 
 #: configdlg.cpp:56 kcalc.cpp:1592
 msgid "Defaults"
@@ -68,7 +68,7 @@ msgstr "Uobièajene vrijednosti"
 
 #: kcalc.cpp:1593
 msgid "Display Font"
-msgstr "Pismo za prikazivanje"
+msgstr "Pismo"
 
 #: kcalc.cpp:1909
 #, c-format
@@ -121,7 +121,7 @@ msgstr "Toènost:"
 
 #: configdlg.cpp:116
 msgid "Set Fixed Precision at:"
-msgstr "Namjesti toènost na:"
+msgstr "Fiksna toènost:"
 
 #: configdlg.cpp:145
 msgid "Beep on Error"
@@ -129,11 +129,11 @@ msgstr "Pipni kod gre¹ke"
 
 #: configdlg.cpp:153
 msgid "Trigonometry Mode"
-msgstr "Trigonometrijski naèin"
+msgstr "Trigonometrijske funkcije"
 
 #: configdlg.cpp:158
 msgid "Statistical Mode"
-msgstr "Statistièki naèin"
+msgstr "Statistièke funkcije"
 
 #: fontdlg.cpp:44
 msgid "Set Default Font"
