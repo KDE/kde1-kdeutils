@@ -1,0 +1,323 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Knotes revision 1.10\n"
+"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
+"Language-Team: SWEDISH <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: alarm.cpp:58
+#, c-format
+msgid "Alarm Timer for: %s"
+msgstr "Alarmtid för: %s"
+
+#: alarm.cpp:72
+msgid "Unset"
+msgstr "Inte satt"
+
+#: alarm.cpp:74
+msgid "Set"
+msgstr "Sätt"
+
+#: alarm.cpp:153
+msgid "I am afraid you already missed your appointment."
+msgstr "Jag är rädd att du redan är för sen till ditt möte."
+
+#: bwdatetime.cpp:44
+msgid "Day:"
+msgstr "Dag:"
+
+#: bwdatetime.cpp:50
+msgid "Month:"
+msgstr "Månad:"
+
+#: bwdatetime.cpp:57
+msgid "Year:"
+msgstr "År:"
+
+#: bwdatetime.cpp:72
+msgid "Time:"
+msgstr "Tid:"
+
+#: bwdatetime.cpp:161
+msgid "The Time you selected is invalid"
+msgstr "Tiden du har valt  är ogiltig"
+
+#: bwdatetime.cpp:176
+msgid "The Date you selected is invalid"
+msgstr "Datumet du har valt är ogiltigt"
+
+#: configdlg.cpp:50
+msgid "Text Color:"
+msgstr "Text färg:"
+
+#: configdlg.cpp:64
+msgid "Background Color:"
+msgstr "Bakgrundsfärg:"
+
+#: configdlg.cpp:83
+msgid "Width:"
+msgstr "Bredd:"
+
+#: configdlg.cpp:93
+msgid "Height:"
+msgstr "Höjd:"
+
+#: configdlg.cpp:104
+msgid "Print Command:"
+msgstr "Utskriftskommando:"
+
+#: configdlg.cpp:112
+msgid "Mail Command:"
+msgstr "Postningskommando:"
+
+#: configdlg.cpp:123
+msgid "3d Frame"
+msgstr "3d-ram"
+
+#: configdlg.cpp:128 knotes.cpp:330
+msgid "Auto Indent"
+msgstr "Autoindentering"
+
+#: docking.cpp:71
+msgid "Change Defaults"
+msgstr "Ändra standardvärden ..."
+
+#: docking.cpp:76
+msgid "Exit Knotes"
+msgstr "Avsluta Knotes"
+
+#: docking.cpp:95
+msgid "New Knote"
+msgstr "Ny Knote"
+
+#: fontdlg.cpp:45
+msgid "Set Default Font"
+msgstr "Sätt standard font"
+
+#: fontdlg.cpp:64
+msgid "Point Size:"
+msgstr "Punkt storlek:"
+
+#: knotes.cpp:300
+msgid "Text Color..."
+msgstr "Text färg..."
+
+#: knotes.cpp:301
+msgid "Background Color..."
+msgstr "Bakgrundsfärg..."
+
+#: knotes.cpp:307
+msgid "New Note"
+msgstr "Ny Note"
+
+#: knotes.cpp:309
+msgid "Delete Note"
+msgstr "Radera Note"
+
+#: knotes.cpp:311
+msgid "Rename Note..."
+msgstr "Ge Note ett nytt namn..."
+
+#: knotes.cpp:313
+msgid "Alarm ..."
+msgstr "Alarm ..."
+
+#: knotes.cpp:316
+msgid "Calendar"
+msgstr "Kalender"
+
+#: knotes.cpp:318
+msgid "Mail Note ..."
+msgstr "Posta Note ..."
+
+#: knotes.cpp:320
+msgid "Print Note"
+msgstr "Skriv ut Note"
+
+#: knotes.cpp:323
+msgid "Save Notes"
+msgstr "Spara Notes"
+
+#: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
+msgid "3D Frame"
+msgstr "3D Ram"
+
+#: knotes.cpp:332
+msgid "Font..."
+msgstr "Typsnitt..."
+
+#: knotes.cpp:333
+msgid "Colors"
+msgstr "Färger"
+
+#: knotes.cpp:335
+msgid "Change Defaults ..."
+msgstr "Ändra standardvärden ..."
+
+#: knotes.cpp:363
+msgid "Insert Date"
+msgstr "Infoga datum"
+
+#: knotes.cpp:366
+msgid "Operations"
+msgstr "Operationer"
+
+#: knotes.cpp:404 knotes.cpp:1278
+msgid "No Frame"
+msgstr "Ingen ram"
+
+#: knotes.cpp:437 knotes.cpp:441 knotes.cpp:635 knotes.cpp:863 knotes.cpp:867
+#: timer.cpp:87 timer.cpp:110
+msgid "Note: "
+msgstr "Note: "
+
+#: knotes.cpp:494
+msgid ""
+"Could not save a KNote.\n"
+"Quit anyways?"
+msgstr ""
+"Kunde inte spara en KNote.\n"
+"Avsluta ändå?"
+
+#: knotes.cpp:512
+msgid "Could not save KNote Alarms\n"
+msgstr "Kunde inte spara KNote alarm\n"
+
+#: knotes.cpp:573 knotes.cpp:678
+#, c-format
+msgid ""
+"Could not pipe the contents of this KNote into:\n"
+" %s"
+msgstr ""
+"Kunde inte \"pipe\"(a) innehållet i denna KNote till:\n"
+"  %s "
+
+#: knotes.cpp:734
+msgid ""
+"You have exeeded the arbitrary and unjustly set limit of 50 knotes.\n"
+" Please complain to the author."
+msgstr ""
+"Du har överskridit den godtyckliga och väl tilltagna gränsen på 50\n"
+"KNotes. Var vänlig och klaga hos skaparen av detta program."
+
+#: knotes.cpp:901
+msgid "Question"
+msgstr "Frågor"
+
+#: knotes.cpp:902
+msgid ""
+"Are you sure you want to delete this\n"
+"note permanently?"
+msgstr ""
+"Är du säker på att du vill radera denna\n"
+"Note permanent?"
+
+#: knotes.cpp:1078
+#, c-format
+msgid ""
+"Could not load:\n"
+" %s"
+msgstr ""
+"Kunde inte ladda:\n"
+" %s"
+
+#: knotes.cpp:1329
+msgid "KNotes Configuraton"
+msgstr "KNotes konfiguration"
+
+#: knotes.cpp:1370
+msgid "Defaults"
+msgstr "Standardvärden"
+
+#: knotes.cpp:1371
+msgid "More ..."
+msgstr "Mer ..."
+
+#: knotes.cpp:1530
+msgid ""
+"KNotes is already waiting\n"
+"for an internet job to finish\n"
+"Please wait until it has finished\n"
+"Alternatively stop the running one."
+msgstr ""
+"KNotes väntar redan på att ett internet-jobb\n"
+"ska avslutas. Var vänlig och vänta tills detta\n"
+"jobb har avslutats. Alternativt stoppa pågående\n"
+"jobb. "
+
+#: knotes.cpp:1544
+msgid "Could not start or find KFM"
+msgstr "Kunde inte hitta eller starta KFM"
+
+#: knotes.cpp:1566
+msgid ""
+"Could not save the KNotes.\n"
+"Close anyways?"
+msgstr ""
+"Kunde inte spara KNotes.\n"
+"Stäng ändå?"
+
+#: knotes.cpp:1678
+#, c-format
+msgid ""
+"Found an alarm to which the underlying\n"
+"KNotes file:\n"
+"%s\n"
+" no longer exists.\n"
+"\n"
+"I will correct the Problem for you."
+msgstr ""
+"Fann ett alarm till vilken underliggande\n"
+"KNote fil:\n"
+"%s\n"
+"inte längre existerar.\n"
+"\n"
+"Jag kommer att fixa detta problem åt dig."
+
+#: knotes.cpp:1686
+msgid "Inconsistency"
+msgstr "Inkonsekvent"
+
+#: mail.cpp:40
+msgid "Mail Note to:"
+msgstr "Posta Note till:"
+
+#: mail.cpp:49
+msgid "Subject:"
+msgstr "Ärende:"
+
+#: mail.cpp:51
+msgid "Mail"
+msgstr "Posta"
+
+#: mail.cpp:92
+msgid "You must specify a Recipient"
+msgstr "Du måste ange en mottagare"
+
+#: renamedlg.cpp:39
+msgid "Rename this note to"
+msgstr "Ge denna Note namnet:"
+
+#: renamedlg.cpp:44
+msgid "Rename"
+msgstr "Byt namn"
+
+#: renamedlg.cpp:79
+msgid ""
+"The name \"xyalarms\" is reserved for internal usage.\n"
+"Please choose a different name"
+msgstr ""
+"Namnet \"xyalarms\" är redan reserverat för internt\n"
+"bruk. Var vänlig och välj ett annat namn"
+
+#: renamedlg.cpp:92
+msgid ""
+"A KNotes note with this name already exists\n"
+"Please choose a different name"
+msgstr ""
+"En KNote med detta namn existerar redan.\n"
+"Var vänlig och välj ett annat namn"
