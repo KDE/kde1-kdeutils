@@ -47,7 +47,7 @@ msgstr "Padrão"
 
 #: kzip.cc:70
 msgid "&New..."
-msgstr ""
+msgstr "&Novo..."
 
 #: kzip.cc:73
 msgid "&Extract To..."

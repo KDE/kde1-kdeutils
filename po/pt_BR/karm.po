@@ -83,7 +83,7 @@ msgstr "&Tarefa"
 
 #: top.cpp:61
 msgid "&New"
-msgstr ""
+msgstr "&Novo"
 
 #: top.cpp:74
 msgid "&About"

@@ -2,13 +2,12 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Elvis Pfützenreuter <epx@netville.com.br>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
@@ -16,101 +15,101 @@ msgstr ""
 
 #: AddressBookAbout.cpp:33
 msgid "About addressbook"
-msgstr ""
+msgstr "Sobre o Livro de Endereços"
 
 #: AddressBookAbout.cpp:43
 msgid "Image load failure"
-msgstr ""
+msgstr "Falha durante carga da imagem"
 
 #: AddressBookAbout.cpp:44
 msgid "Could not load addressbook logo image!"
-msgstr ""
+msgstr "Não foi possível carregar a imagem de logotipo do Livro de Endereços."
 
 #: AddressBookAbout.cpp:46
 msgid ""
 "Here you would see\n"
 "the addressbook logo."
-msgstr ""
+msgstr "Aqui você veria\n o logotipo do programa."
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
-msgstr ""
+msgstr "Falha na iniciação"
 
 #: toplevelwidget.cc:37
 msgid "The programs menubar could not be constructed."
-msgstr ""
+msgstr "A barra de menu do programa não pôde ser construída."
 
 #: toplevelwidget.cc:45
 msgid "The programs statusbar could not be constructed."
-msgstr ""
+msgstr "A barra de status do programa não pôde ser construída."
 
 #: toplevelwidget.cc:58
 msgid "KDE addressbook."
-msgstr ""
+msgstr "Livro de Endereços do KDE."
 
 #: toplevelwidget.cc:76
 msgid "HTML table"
-msgstr ""
+msgstr "Tabela HTML"
 
 #: toplevelwidget.cc:85
 msgid "Export"
-msgstr ""
+msgstr "Exportar"
 
 #: toplevelwidget.cc:87
 msgid "Search &entries"
-msgstr ""
+msgstr "Procurar &registros"
 
 #: toplevelwidget.cc:89
 msgid "&Print"
-msgstr ""
+msgstr "&Imprimir"
 
 #: toplevelwidget.cc:101
 msgid "&Add entry"
-msgstr ""
+msgstr "&Adicionar registro"
 
 #: toplevelwidget.cc:103
 msgid "&Edit entry"
-msgstr ""
+msgstr "&Editar registro"
 
 #: toplevelwidget.cc:105
 msgid "&Remove entry"
-msgstr ""
+msgstr "&Remover registro"
 
 #: toplevelwidget.cc:117
 msgid "&Mail"
-msgstr ""
+msgstr "&Correio"
 
 #: toplevelwidget.cc:119
 msgid "&Talk"
-msgstr ""
+msgstr "&Talk"
 
 #: toplevelwidget.cc:121
 msgid "&Browse"
-msgstr ""
+msgstr "&Navegar"
 
 #: toplevelwidget.cc:126
 msgid "Help on Addressbook"
-msgstr ""
+msgstr "Ajuda para o Livro de Endereços"
 
 #: toplevelwidget.cc:131
 msgid "About Addressbook"
-msgstr ""
+msgstr "Sobre o Livro de Endereços"
 
 #: toplevelwidget.cc:133
 msgid "About &Qt"
-msgstr ""
+msgstr "Sobre o &Qt"
 
 #: toplevelwidget.cc:134
 msgid "About &KDE"
-msgstr ""
+msgstr "Sobre o &KDE"
 
 #: toplevelwidget.cc:141
 msgid "&About"
-msgstr ""
+msgstr "&Sobre"
 
 #: toplevelwidget.cc:192
 msgid "About Qt"
-msgstr ""
+msgstr "Sobre o Qt"
 
 #~ msgid "boo"
 #~ msgstr "búú"
