@@ -5,31 +5,31 @@
  * QFileDialog. So don't remove this class with the idea in mind to
  * link against kdeui.
  * Bernd
-  * 
+  *
   $Id$
- 
+
   KEdit, a simple text editor for the KDE project
-  
-  Copyright (C) 1997 Bernd Johannes Wuebben   
+
+  Copyright (C) 1997 Bernd Johannes Wuebben
   wuebben@math.cornell.edu
- 
+
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
   the Free Software Foundation; either version 2 of the License, or
   (at your option) any later version.
-  
+
   This program is distributed in the hope that it will be useful,
   but WITHOUT ANY WARRANTY; without even the implied warranty of
   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   GNU General Public License for more details.
-  
+
   You should have received a copy of the GNU General Public License
   along with this program; if not, write to the Free Software
   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
-  
-  KEdit, simple editor class, hacked version of the original by 
 
- 
+  KEdit, simple editor class, hacked version of the original by
+
+
   */
 
 #include "keditcl.h"
@@ -39,7 +39,7 @@
 
 #include "keditcl.moc"
 
-KEdit::KEdit(KApplication *a, QWidget *parent, const char *name, 
+KEdit::KEdit(KApplication *a, QWidget *parent, const char *name,
 	     const char *fname) : QMultiLineEdit(parent, name){
 
 
@@ -61,8 +61,8 @@ KEdit::KEdit(KApplication *a, QWidget *parent, const char *name,
     current_directory = QDir::currentDirPath();
 
     make_backup_copies = TRUE;
-    
-    installEventFilter( this );     
+
+    installEventFilter( this );
 
     srchdialog = NULL;
     replace_dialog= NULL;
@@ -109,7 +109,7 @@ void  KEdit::setWordWrap(bool flag ){
 
   word_wrap_is_set = flag;
 }
-    
+
 bool  KEdit::FillColumnMode(){
 
   return fill_column_is_set;
@@ -195,8 +195,8 @@ int KEdit::loadFile(QString name, int mode){
 
         default:
             QMessageBox::warning(
-		  this, 
-		  klocale->translate("Sorry"),				 
+		  this,
+		  klocale->translate("Sorry"),				
 		  klocale->translate("An Error occured while trying to open this Document"),
                   klocale->translate("OK"),
 		  "",
@@ -206,7 +206,7 @@ int KEdit::loadFile(QString name, int mode){
             return KEDIT_OS_ERROR;
         }
     }
-    
+
     emit loading();
     mykapp->processEvents();
 
@@ -219,23 +219,23 @@ int KEdit::loadFile(QString name, int mode){
 
 // The following is a horrible hack that we need to put up with until
 // Qt 1.3 comes along. The problem is that QMultiLineEdit::setText(char*)
-// is O(n^2) which makes loading larger files very slow. We resort here to 
+// is O(n^2) which makes loading larger files very slow. We resort here to
 // a workaroud which load the file line by line. I use a memmap construction
 // but probably a QTextStream is just about as fast.
 
     if(mode & OPEN_INSERT) {
-      
+
       register long int  i;
       char *beginning_of_line;
       beginning_of_line = addr;
       int line, col;
-      
+
       char c = '\n';
 
       if(s.st_size != 0){
 	c = *(addr + s.st_size - 1 ); // save the last character of the file
       }
-      
+
       // this boolean will indicate whether we already have inserted the first line.
       bool past_first_line = false;
 
@@ -273,7 +273,7 @@ int KEdit::loadFile(QString name, int mode){
       // This routine could be avoided if I knew for sure that I could
       // memmap a file into a block of memory larger than the file size.
       // In that case I would simply put a zero after the last char in the file.
-      // and the above would go through almost unmodified. Well, I don't, so 
+      // and the above would go through almost unmodified. Well, I don't, so
       // here we go:
 
       if( c != '\n'){ // we're in here if s.st_size != 0 and last char != '\n'
@@ -284,7 +284,7 @@ int KEdit::loadFile(QString name, int mode){
 	append(buf);
 
 	free(buf);
-      
+
       }
       // restore the initial Curosor Position
       setCursorPosition(save_line,save_col);
@@ -322,23 +322,27 @@ int KEdit::loadFile(QString name, int mode){
 	append(buf);
 
 	free(buf);
-      
+
       }
     }
 
     setAutoUpdate(TRUE);
+#if QT_VERSION < 142
     repaint();
+#else
+    repaint( FALSE );
+#endif
 
-    connect(this, SIGNAL(textChanged()), this, SLOT(setModified()));    
+    connect(this, SIGNAL(textChanged()), this, SLOT(setModified()));
 
     munmap(addr, s.st_size);
-        
+
     if ( mode == OPEN_INSERT)
       toggleModified(TRUE);
     else
       toggleModified(FALSE);
-    
-    
+
+
     if(!(mode == OPEN_INSERT)){
         filename = name;
 	filename.detach();
@@ -348,7 +352,7 @@ int KEdit::loadFile(QString name, int mode){
       this->setReadOnly(TRUE);
     else
       this->setReadOnly(FALSE);
-    
+
 
     emit(fileChanged());
     setFocus();
@@ -373,12 +377,12 @@ int KEdit::insertFile(){
 
     file_to_insert = KFileDialog::getOpenFileName(d.data(),"*");
     file_to_insert.detach();
-    
+
     if (file_to_insert.isEmpty()) {
       return KEDIT_USER_CANCEL;
     }
-    
-    
+
+
     int result = loadFile(file_to_insert, OPEN_INSERT);
 
     if (result == KEDIT_OK )
@@ -396,8 +400,8 @@ int KEdit::openFile(int mode)
 
   int result;
 
-    if( isModified() ) {           
-      switch( QMessageBox::warning( 
+    if( isModified() ) {
+      switch( QMessageBox::warning(
 			 this,
 			 klocale->translate("Warning:"), 	
 			 klocale->translate("The current Document has been modified.\n"\
@@ -405,7 +409,7 @@ int KEdit::openFile(int mode)
 			 klocale->translate("Yes"),
 			 klocale->translate("No"),
 			 klocale->translate("Cancel"),
-                                  0, 2 
+                                  0, 2
 			 )
 	      )
 	{
@@ -420,9 +424,9 @@ int KEdit::openFile(int mode)
 
 	  switch(QMessageBox::warning(
 			   this,
-			   klocale->translate("Sorry:"), 
+			   klocale->translate("Sorry:"),
 			   klocale->translate("Could not save the document.\n"\
-                                              "Open a new document anyways?"), 
+                                              "Open a new document anyways?"),
 			   klocale->translate("Yes"),
                            klocale->translate("No"),
 			       "",
@@ -442,7 +446,7 @@ int KEdit::openFile(int mode)
 
         break;
 
-	case 1: // No 
+	case 1: // No
 
 	  break;
 	case 2: // cancel
@@ -461,28 +465,28 @@ int KEdit::openFile(int mode)
 
     fname = KFileDialog::getOpenFileName(d.data(),"*");
     fname.detach();
-    
+
     if (fname.isEmpty()) {
       return KEDIT_USER_CANCEL;
     }
 
-    
+
     int result2 =  loadFile(fname, mode);
-    
+
     if ( result2 == KEDIT_OK )
       toggleModified(FALSE);
-    
+
     return result2;
 	
-        
+
 }
 
 int KEdit::newFile(){
 
   int result;
 
-    if( isModified() ) {           
-      switch( QMessageBox::warning( 
+    if( isModified() ) {
+      switch( QMessageBox::warning(
 			 this,
 			 klocale->translate("Warning:"), 	
 			 klocale->translate("The current Document has been modified.\n"\
@@ -504,9 +508,9 @@ int KEdit::newFile(){
 	  if (result != KEDIT_OK){
 
 	    switch(QMessageBox::warning(this,
-			   klocale->translate("Sorry:"), 
+			   klocale->translate("Sorry:"),
 			   klocale->translate("Could not save the document.\n"\
-                                              "Create a new document anyways?"), 
+                                              "Create a new document anyways?"),
 			   klocale->translate("Yes"),
                            klocale->translate("No"),
 			       "",
@@ -524,7 +528,7 @@ int KEdit::newFile(){
 
         break;
 
-      case 1: // No 
+      case 1: // No
 
         break;
       case 2: // cancel
@@ -533,7 +537,7 @@ int KEdit::newFile(){
 
       }
     }
-    
+
 
     this->clear();
     toggleModified(FALSE);
@@ -541,13 +545,13 @@ int KEdit::newFile(){
     setFocus();
 
     filename = klocale->translate("Untitled");
-       
+
     computePosition();
     emit(fileChanged());
 
     return KEDIT_OK;
-            
-        
+
+
 }
 
 
@@ -565,7 +569,7 @@ void KEdit::computePosition(){
   // whereas getCursorPosition will return 3 if the cursors is on the character c.
   // Therefore we need to compute the screen position from the character position.
   // That's what all the following trouble is all about:
-  
+
   coltemp  = 	col;
   int pos  = 	0;
   int find = 	0;
@@ -589,7 +593,7 @@ void KEdit::computePosition(){
   pos = pos + coltemp - mem ;  // add the number of characters behind the
                                // last tab on the line.
 
-  if (found_one){	       
+  if (found_one){	
     pos = pos - 1;
   }
 
@@ -689,11 +693,11 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
 
 	if(!did_format)
 	  return;
-    
+
 	int num_of_rows = 0;
 	QString newpar;
 
-	int cursorline = upperbound; //Matthias 
+	int cursorline = upperbound; //Matthias
 	int cursorcol = 0; //Matthias
 	bool cursor_found = false; //Matthias
 	for( int k = 0; k < (int)par.count(); k++){
@@ -716,14 +720,18 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
 	newpar = "";
 	num_of_rows = par.count();
 	par.clear();
-    
+
 	setAutoUpdate(true);
 
 	// setCursorPosition(templine,tempcol); Matthias: do the next line instead
 	setCursorPosition(cursorline, cursorcol); //Matthias
 
+#if QT_VERSION < 142
 	repaint();
-    
+#else
+	repaint( FALSE );
+#endif
+
 	computePosition();
 	setModified();
 	emit CursorPositionChanged();
@@ -732,14 +740,14 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
     }
   }
 
-  
+
   if(fill_column_is_set && word_wrap_is_set ){
 
     // word break algorithm
-    if(isprint(e->ascii()) || e->key() == Key_Tab || e->key() == Key_Return || 
+    if(isprint(e->ascii()) || e->key() == Key_Tab || e->key() == Key_Return ||
        e->key() == Key_Enter){
 
-	if (e->key() == Key_Return || e->key() == Key_Enter){ 
+	if (e->key() == Key_Return || e->key() == Key_Enter){
 	  mynewLine();
 	}
 	else{
@@ -749,12 +757,12 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
 	    QMultiLineEdit::insertChar((char)'\t');
 	  }
 	  else{
-	    QMultiLineEdit::keyPressEvent(e); 
+	    QMultiLineEdit::keyPressEvent(e);
 	  }
 	}
 
 	int templine,tempcol;
-	getCursorPosition(&templine,&tempcol);     
+	getCursorPosition(&templine,&tempcol);
 
 	//	printf("GETCURSOR %d %d\n",templine,tempcol);
 	
@@ -815,34 +823,36 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
 	// printf("NUMOFROWS %d\n",num_of_rows);
 
 	if(did_break){
-	  int y1  = -1;
-	  int y2  = -1;
+#if QT_VERSION < 142
+ 	  int y1  = -1;
+ 	  int y2  = -1;
 
-	  rowYPos(templine,&y1);
-	  rowYPos(templine + num_of_rows ,&y2);
+ 	  rowYPos(templine,&y1);
+ 	  rowYPos(templine + num_of_rows ,&y2);
 
-	  if(y1 == -1)
-	    y1 = 0;
+ 	  if(y1 == -1)
+ 	    y1 = 0;
+ 	  //	  if(y2 == -1)
+	  y2 = this->height();
 
-	  //	  if(y2 == -1)
-	    y2 = this->height();
-
-	  repaint(0,y1,this->width(),y2);
+ 	  repaint(0,y1,this->width(),y2);
+#else
+	  repaint( FALSE );
+#endif		
 	}
-
 	computePosition();
 	setModified();
 	emit CursorPositionChanged();
 	return;
     }
-    
-    QMultiLineEdit::keyPressEvent(e); 
+
+    QMultiLineEdit::keyPressEvent(e);
     computePosition();
     emit CursorPositionChanged();
     return;
 
   } // end do_wordbreak && fillcolumn_set
-  
+
 
   // fillcolumn but no wordbreak
 
@@ -857,7 +867,7 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
     }
 
     if(e->key() == Key_Return || e->key() == Key_Enter){
-    
+
       mynewLine();
       emit CursorPositionChanged();
       return;
@@ -865,8 +875,8 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
     }
 
     if(isprint(e->ascii())){
-    
-      if( col_pos >= fill_column_value ){ 
+
+      if( col_pos >= fill_column_value ){
 	  mynewLine();
       }
 
@@ -880,7 +890,7 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
 
   // default action
   if(e->key() == Key_Return || e->key() == Key_Enter){
-    
+
     mynewLine();
     emit CursorPositionChanged();
     return;
@@ -921,7 +931,7 @@ bool KEdit::format(QStrList& par){
   int k = 0;
 
   for( k = 0, l = 0; k < (int) mstring.length() && l <= fill_column_value; k++){
-    
+
     if(mstring.data()[k] == '\t')
       l +=8 - l%8;
     else
@@ -955,13 +965,13 @@ bool KEdit::format(QStrList& par){
       break;*/
     space_pos = -1; //Matthias
     for( k = 0, l = 0; k < (int) pstring.length() /* && l <= fill_column_value */; k++){//Matthias: commented out
-    
+
       if(pstring.data()[k] == '\t')
         l +=8 - l%8;
       else
 	l ++;
 
-      if ((!space_pos||l<=fill_column_value) && 
+      if ((!space_pos||l<=fill_column_value) &&
 	  (pstring.data()[k]==' '||pstring.data()[k]=='\t')) //Matthias
 	space_pos = k;
 
@@ -978,8 +988,8 @@ bool KEdit::format(QStrList& par){
 //           space_pos = mstring.findRev( "\t", -1, TRUE );//Matthias no longer needed
 
     right = col_pos - space_pos - 1;
-  
-    if( space_pos == -1 ){ 
+
+    if( space_pos == -1 ){
       /* Matthias: commented it out. Was broken, unfortunately
 
       // no space to be found on line, just break, what else could we do?
@@ -1014,10 +1024,10 @@ bool KEdit::format(QStrList& par){
       */
     }
     else{
-    
+
       par.remove(i);
       par.insert(i,pstring.left(space_pos));
-      
+
 
       if(i < (int)par.count() - 1){
 	QString temp1 = par.at(i+1);
@@ -1045,7 +1055,7 @@ bool KEdit::format(QStrList& par){
 	//	printf("CURSOROFFSET2 %d\n",cursor_offset);
       }
     }
-    
+
   }
 
   return true;
@@ -1055,7 +1065,7 @@ bool KEdit::format(QStrList& par){
 
 void KEdit::getpar(int line,QStrList& par){
 
-  
+
   int templine,tempcol; //Matthias
   getCursorPosition(&templine,&tempcol);//Matthias
 
@@ -1099,7 +1109,7 @@ bool KEdit::format2(QStrList& par, int& upperbound){
   int last_ok = 0;
 
   for( k = 0, l = 0; k < (int) prefix.length(); k++){
-    
+
     if(prefix.data()[k] == '\t')
       l +=8 - l%8;
     else
@@ -1116,7 +1126,7 @@ bool KEdit::format2(QStrList& par, int& upperbound){
     fill_column_value = fill_column;
     return false;
   }
-  
+
   /*
    printf("PASS 1\n");	
    for ( int i = 0 ; i < (int)par.count() ; i ++){
@@ -1135,13 +1145,13 @@ bool KEdit::format2(QStrList& par, int& upperbound){
 
     space_pos = -1; //Matthias
     for( k = 0, l = 0; k < (int) pstring.length() /* && l <= fill_column_value */; k++){ //Matthias: commented out
-    
+
       if(pstring.data()[k] == '\t')
         l +=8 - l%8;
       else
 	l ++;
 
-      if ((!space_pos||l<=fill_column_value) && 
+      if ((!space_pos||l<=fill_column_value) &&
 	  (pstring.data()[k]==' '||pstring.data()[k]=='\t')) //Matthias
 	space_pos = k;
 
@@ -1158,8 +1168,8 @@ bool KEdit::format2(QStrList& par, int& upperbound){
 //           space_pos = mstring.findRev( "\t", -1, TRUE );// Matthias: no longer needed
 
     right = col_pos - space_pos - 1;
-  
-    if( space_pos == -1 ){ 
+
+    if( space_pos == -1 ){
       /* Matthias: commented it out. Was broken, unfortunately
       // no space to be found on line, just break, what else could we do?
       par.remove(i);
@@ -1195,7 +1205,7 @@ bool KEdit::format2(QStrList& par, int& upperbound){
       */
     }
     else{
-    
+
       par.remove(i);
       par.insert(i,pstring.left(space_pos));
 
@@ -1225,7 +1235,7 @@ bool KEdit::format2(QStrList& par, int& upperbound){
 	//	printf("CURSOROFFSET2 %d\n",cursor_offset);
       }
     }
-    
+
   }
 
   // Second Pass let's see whether we can fill each line more
@@ -1247,7 +1257,7 @@ bool KEdit::format2(QStrList& par, int& upperbound){
     // printf("LENGTH of line %d = %d\n",i,pstring.length());
 
     for( k = 0, l = 0; k < (int) pstring.length() && l <= fill_column_value; k++){
-    
+
       if(pstring.data()[k] == '\t')
         l +=8 - l%8;
       else
@@ -1266,7 +1276,7 @@ bool KEdit::format2(QStrList& par, int& upperbound){
     mstring = par.at(i+1);
 
     for( k = 0, l = 0; k < (int) mstring.length() && l <= fill_column_value; k++){
-    
+
       if(mstring.data()[k] == '\t')
         l +=8 - l%8;
       else
@@ -1277,7 +1287,7 @@ bool KEdit::format2(QStrList& par, int& upperbound){
     }
 
     if( (int) l <= free){
-      
+
       pstring = pstring + QString(" ") + mstring;
       par.remove(i);
       par.insert(i,pstring);
@@ -1293,7 +1303,7 @@ bool KEdit::format2(QStrList& par, int& upperbound){
 
       if(space_pos == -1)
 	continue; // can't find a word to add to the previous line
-    
+
       pstring = pstring + QString(" ") + mstring.left(space_pos );
       //printf("adding: %s %d\n",mstring.left(space_pos).data(),space_pos);
       par.remove(i);
@@ -1302,7 +1312,7 @@ bool KEdit::format2(QStrList& par, int& upperbound){
       par.remove(i+1);
       par.insert(i+1,mstring);
     }
-    
+
   }
 
   /*   printf("PASS 3\n");	
@@ -1430,9 +1440,9 @@ void KEdit::mynewLine(){
 
     line --;
   }
-      
+
   // string will now contain those whitespace characters that I need to insert
-  // on the next line. 
+  // on the next line.
 
   if(found_one){
     newLine();
@@ -1451,12 +1461,12 @@ void KEdit::setAutoIndentMode(bool mode){
 
 
 QString KEdit::prefixString(QString string){
-  
+
   // This routine return the whitespace before the first non white space
   // character in string. This is  used in mynewLine() for indent mode.
   // It is assumed that string contains at least one non whitespace character
   // ie \n \r \t \v \f and space
-  
+
   //  printf(":%s\n",string.data());
 
   int size = string.size();
@@ -1473,7 +1483,7 @@ QString KEdit::prefixString(QString string){
   buffer[i] = '\0';
 
   QString returnstring = buffer;
-  
+
   free(buffer);
 
   //  printf(":%s:\n",returnstring.data());
@@ -1483,7 +1493,7 @@ QString KEdit::prefixString(QString string){
 
 void KEdit::mousePressEvent (QMouseEvent* e){
 
-  
+
   QMultiLineEdit::mousePressEvent(e);
   emit CursorPositionChanged();
 
@@ -1493,7 +1503,7 @@ void KEdit::mouseMoveEvent (QMouseEvent* e){
 
   QMultiLineEdit::mouseMoveEvent(e);
   emit CursorPositionChanged();
-  
+
 
 }
 
@@ -1506,7 +1516,7 @@ void KEdit::installRBPopup(QPopupMenu* p){
 
 void KEdit::mouseReleaseEvent (QMouseEvent* e){
 
-  
+
   QMultiLineEdit::mouseReleaseEvent(e);
   emit CursorPositionChanged();
 
@@ -1557,21 +1567,21 @@ int KEdit::saveFile(){
 
     emit saving();
     mykapp->processEvents();
-      
+
     QTextStream t(&file);
-    
+
     int line_count = numLines();
 
     for(int i = 0 ; i < line_count ; i++){
 	t << textLine(i) << '\n';
     }
 
-    modified = FALSE;    
+    modified = FALSE;
     file.close();
 
     if(exists_already)
       chmod(filename.data(),st.st_mode);// preseve filepermissions
-    
+
     return KEDIT_OK;
 
 }
@@ -1598,7 +1608,7 @@ void KEdit::saveasfile(char* name){
 
 
 int KEdit::saveAs(){
-    
+
 
   QFileInfo info;
   QString tmpfilename;
@@ -1606,7 +1616,7 @@ int KEdit::saveAs(){
   QString d;
 
   int result;
-  
+
 
 try_again:
 
@@ -1618,16 +1628,16 @@ try_again:
 
     tmpfilename2 = KFileDialog::getSaveFileName(d.data(),"*");
     tmpfilename2.detach();
-    
+
     if (tmpfilename2.isEmpty()) {
       return KEDIT_USER_CANCEL;
     }
 
   info.setFile(tmpfilename2.data());
-  
+
   if(info.exists()){
 
-    switch( QMessageBox::warning( 
+    switch( QMessageBox::warning(
 			   this,
 			   klocale->translate("Warning:"), 	
 			   klocale->translate("A Document with this Name exists already\n"\
@@ -1645,23 +1655,23 @@ try_again:
         break;
     }
   }
-  
-  
+
+
   tmpfilename = filename;
-  
+
   filename = tmpfilename2;
   filename.detach();
-  
+
   // we need this for saveFile();
-  modified = TRUE; 
-  
+  modified = TRUE;
+
   result =  saveFile();
-  
+
   if( result != KEDIT_OK)
     filename = tmpfilename; // revert filename
-  
+
   return result;
-      
+
 }
 
 
@@ -1669,9 +1679,9 @@ try_again:
 int KEdit::doSave()
 {
 
-    
+
   int result = 0;
-    
+
     if(filename == "Untitled") {
       result = saveAs();
 
@@ -1687,7 +1697,7 @@ int KEdit::doSave()
 
       QMessageBox::warning(
 			   this,
-			   klocale->translate("Sorry:"), 
+			   klocale->translate("Sorry:"),
 			   klocale->translate("You do not have write permission "\
 					      "to this file.\n"),
 			   klocale->translate("OK"),
@@ -1698,7 +1708,7 @@ int KEdit::doSave()
 
       return KEDIT_NOPERMISSIONS;
     }
-    
+
 
     result =  saveFile();
     return result;
@@ -1738,7 +1748,7 @@ void KEdit::saveBackupCopy(bool par){
 
 }
 void KEdit::selectFont(){
- 
+
   QFont font = this->font();
   KFontDialog::getFont(font);
   this->setFont(font);
@@ -1788,18 +1798,18 @@ bool KEdit::eventFilter(QObject *o, QEvent *ev){
 			replace_dialog->raise();
 	}
 
-  
 
-  if(ev->type() != Event_MouseButtonPress) 
+
+  if(ev->type() != Event_MouseButtonPress)
     return FALSE;
-    
+
   QMouseEvent *e = (QMouseEvent *)ev;
-  
-  if(e->button() != RightButton) 
+
+  if(e->button() != RightButton)
     return FALSE;
 
   tmp_point = QCursor::pos();
-  
+
   if(rb_popup)
     rb_popup->popup(tmp_point);
 
