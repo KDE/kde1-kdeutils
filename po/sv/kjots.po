@@ -106,17 +106,14 @@ msgid "New"
 msgstr "Ny"
 
 #: KJotsMain.cpp:433
-#, fuzzy
 msgid "Previous"
-msgstr "Föregående sida"
+msgstr "Föregående"
 
 #: KJotsMain.cpp:436
-#, fuzzy
 msgid "Next"
-msgstr "Nästa sida"
+msgstr "Nästa"
 
 #: KJotsMain.cpp:440
-#, fuzzy
 msgid "Subject List"
 msgstr "Visa ämneslista"
 

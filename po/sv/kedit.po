@@ -2,7 +2,6 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -35,9 +34,8 @@ msgid "Select All"
 msgstr "Markera alla"
 
 #: kedit.cpp:157
-#, fuzzy
 msgid "Font..."
-msgstr "&Typsnitt"
+msgstr "Typsnitt..."
 
 #: kedit.cpp:201
 msgid "Ne&w..."
@@ -89,21 +87,19 @@ msgstr "&Byt ut"
 
 #: kedit.cpp:268
 msgid "Spellcheck..."
-msgstr ""
+msgstr "Rättstavning..."
 
 #: kedit.cpp:273
 msgid "&Goto Line..."
 msgstr "&Gå till rad..."
 
 #: kedit.cpp:277
-#, fuzzy
 msgid "&Font..."
-msgstr "&Typsnitt"
+msgstr "&Typsnitt..."
 
 #: kedit.cpp:279
-#, fuzzy
 msgid "&Colors"
-msgstr "Färger"
+msgstr "&Färger"
 
 #: kedit.cpp:284
 msgid "KEdit &Options..."
@@ -356,9 +352,8 @@ msgstr ""
 "%s"
 
 #: kedit.cpp:2074
-#, fuzzy
 msgid "Spellchecker Options"
-msgstr "Spara inställningar"
+msgstr "Rättstavnings inställningar"
 
 #: keditcl1.cpp:149
 msgid "The specified File does not exist"
@@ -393,22 +388,20 @@ msgstr ""
 "Vill du spara det?"
 
 #: keditcl1.cpp:439
-#, fuzzy
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
 "Kunde inte spara filen.\n"
-"Avsluta ändå?"
+"Öppna ett nytt dokument ändå?"
 
 #: keditcl1.cpp:522
-#, fuzzy
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
 msgstr ""
 "Kunde inte spara filen.\n"
-"Avsluta ändå?"
+"Skapa ett nytt dokument ändå?"
 
 #: keditcl1.cpp:1569
 msgid "Could not save the document\n"
@@ -423,7 +416,6 @@ msgstr ""
 "Vill du skriva över det?"
 
 #: keditcl1.cpp:1709
-#, fuzzy
 msgid "You do not have write permission to this file.\n"
 msgstr "Du har inte skrivrättigheter till den angivna filen.\n"
 
@@ -497,13 +489,12 @@ msgid "Set Fill-Column at:"
 msgstr "Sätt fyllningskolumn vid:"
 
 #: filldlg.cpp:40
-#, fuzzy
 msgid "Word Wrap"
 msgstr "Bryt rader"
 
 #: filldlg.cpp:42
 msgid "Backup Copies"
-msgstr ""
+msgstr "Backupkopior"
 
 #: filldlg.cpp:46
 msgid "Mail Command:"
@@ -528,109 +519,3 @@ msgstr "Posta"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Du måste ange en mottagare"
-
-#~ msgid "&About..."
-#~ msgstr "&Om..."
-
-#~ msgid "Select Document to Insert"
-#~ msgstr "Välg dokument att infoga"
-
-#~ msgid "Select Document to Open"
-#~ msgstr "Väl dokument att öppna"
-
-#~ msgid "Save Document As"
-#~ msgstr "Spara dokument som"
-
-#~ msgid "Replace"
-#~ msgstr "Ersätt"
-
-#~ msgid "&Open..."
-#~ msgstr "&Öppna"
-
-#~ msgid "Open..."
-#~ msgstr "Öppna..."
-
-#~ msgid "Save as..."
-#~ msgstr "Spara som..."
-
-#~ msgid "Copy"
-#~ msgstr "Kopiera"
-
-#~ msgid "Paste"
-#~ msgstr "Klistra in"
-
-#~ msgid "Cut"
-#~ msgstr "Klipp ur"
-
-#~ msgid "&Foreground Color"
-#~ msgstr "&Förgrundsfärg"
-
-#~ msgid "&Background Color"
-#~ msgstr "&Bakgrundsfärg"
-
-#~ msgid "&Help"
-#~ msgstr "&Hjälp"
-
-#~ msgid "&Save"
-#~ msgstr "&Spara"
-
-#~ msgid "S&ave as..."
-#~ msgstr "Spara s&om..."
-
-#~ msgid "&Close"
-#~ msgstr "S&täng"
-
-#~ msgid "&Print..."
-#~ msgstr "S&kriv ut..."
-
-#~ msgid "E&xit"
-#~ msgstr "&Avsluta"
-
-#~ msgid "&Copy"
-#~ msgstr "&Kopiera"
-
-#~ msgid "&Paste"
-#~ msgstr "Klistra &in"
-
-#~ msgid "C&ut"
-#~ msgstr "Klipp &ur"
-
-#~ msgid "&File"
-#~ msgstr "&Arkiv"
-
-#~ msgid "&Edit"
-#~ msgstr "&Redigera"
-
-#~ msgid "&Options"
-#~ msgstr "&Inställningar"
-
-#~ msgid "Sorry"
-#~ msgstr "Tyvärr"
-
-#~ msgid "Could not Save the Changes\n"
-#~ msgstr "Kunde inte spare ändringarna\n"
-
-#~ msgid "Saved: %s"
-#~ msgstr "Sparade: %s"
-
-#~ msgid "Saved"
-#~ msgstr "Sparad"
-
-#~ msgid "Load file:"
-#~ msgstr "Ladda fil:"
-
-#~ msgid ""
-#~ "You have do not have Permission to \n"
-#~ "read this Document"
-#~ msgstr ""
-#~ "Du har inte tillstånd att läsa\n"
-#~ "det här dokumentet"
-
-#~ msgid "Could not Save the Document"
-#~ msgstr "Kunde inte spara dokumentet"
-
-#~ msgid "Miscellaneous Options"
-#~ msgstr "Övriga inställningar"
-
-#~ msgid "About KEdit"
-#~ msgstr "Om KEdit"

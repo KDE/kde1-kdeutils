@@ -238,7 +238,6 @@ msgid "Style:"
 msgstr "Stil:"
 
 #: fontdlg.cpp:87
-#, fuzzy
 msgid "Weight:"
 msgstr "Storlek:"
 
