@@ -16,11 +16,11 @@ msgstr ""
 
 #: prefs.C:33
 msgid "Graphic Load Display"
-msgstr "Graaginen kuormanäyttö"
+msgstr "Graafinen kuormanäyttö"
 
 #: prefs.C:34
 msgid "Graphic CPU Display"
-msgstr "Graafinen CPU näyttö"
+msgstr "Graafinen CPU -näyttö"
 
 #: prefs.C:35
 msgid "Graphic Memory Display"
@@ -375,31 +375,29 @@ msgstr ""
 "vain pääkäyttäjä sekä prosessin omistaja voivat lähettää sille signaaleja."
 
 #: scheddlg.C:22
-#, fuzzy
 msgid "Change scheduling"
-msgstr "Muuta skedulointia..."
+msgstr "Muuta skedulointia"
 
 #: scheddlg.C:28
-#, fuzzy
 msgid "Scheduling Policy"
-msgstr "Skedulointi..."
+msgstr "Skedulointipolitiikka"
 
 #: scheddlg.C:29
 msgid "SCHED_OTHER (time-sharing)"
-msgstr ""
+msgstr "SCHED_OTHER (ajanjako)"
 
 #: scheddlg.C:36
 msgid "SCHED_FIFO (real-time)"
-msgstr ""
+msgstr "SCHED_FIFO (reaaliaika)"
 
 #: scheddlg.C:42
 msgid "SCHED_RR (real-time)"
-msgstr ""
+msgstr "SCHED_RR (reaaliaika)"
 
 #: scheddlg.C:67
 msgid "Priority (1-99):"
-msgstr ""
+msgstr "Prioriteetti (1-99):"
 
 #: scheddlg.C:114
 msgid "The priority must be in the range 1..99"
-msgstr ""
+msgstr "Prioriteetin on oltava välillä 1..99"

@@ -79,9 +79,8 @@ msgid "Vertical Selections On"
 msgstr "Pystyvalinnat p‰‰ll‰"
 
 #: kwview.cpp:1057
-#, fuzzy
 msgid "Vertical Selections Off"
-msgstr "Pystyvalinnat p‰‰ll‰"
+msgstr "Pystyvalinnat pois p‰‰lt‰"
 
 #: kwview.cpp:1116
 msgid "The specified File does not exist"
