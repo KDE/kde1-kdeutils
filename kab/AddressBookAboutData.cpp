@@ -11,6 +11,7 @@
  *********************************************************************/
 
 #include "AddressBookAboutData.h"
+#include <kapp.h>
 
 #define Inherited QDialog
 
@@ -58,7 +59,7 @@ AddressBookAboutData::AddressBookAboutData
 		QPalette palette( normal, disabled, active );
 		labelVersion->setPalette( palette );
 	}
-	labelVersion->setText( "kab 0.8, August 1998" );
+	labelVersion->setText( i18n("kab 0.8, August 1998") );
 	labelVersion->setAlignment( 292 );
 	labelVersion->setMargin( -1 );
 
