@@ -22,6 +22,9 @@
     Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
   
     $Log$
+    Revision 1.9  1997/10/24 19:25:19  wuebben
+    Lot's of fixes and improvements. Kedit was pretty screwed up.
+
     Revision 1.8  1997/10/24 05:52:43  wuebben
     Bernd: Some major fix ups. Hopefully I didn't break too much. Qt 1.31
     is nice, but it also uglified kedit, so I had to fix that.
@@ -94,7 +97,7 @@ PrintDialog::PrintDialog( QWidget *parent, const char *name,  bool modal)
   bg1->setGeometry(10,115,385,80);
   
 
-  ok_button = new QPushButton(klocale->translate( "Ok"), this );
+  ok_button = new QPushButton(klocale->translate( "OK"), this );
   ok_button->setGeometry( 3*XOFFSET, 210, 80, BUTTONHEIGHT );
   ok_button->setFocus();
   connect( ok_button, SIGNAL( clicked() ), SLOT( accept() ) );	

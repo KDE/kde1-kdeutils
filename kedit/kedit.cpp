@@ -1400,7 +1400,7 @@ void TopLevel::saveNetFile( const char *_url )
     {
 	QMessageBox::message (klocale->translate("Sorry"), 
         klocale->translate("Malformed URL"), 
-	klocale->translate("Ok"));
+	klocale->translate("OK"));
 	return;
     }
 
@@ -1423,7 +1423,7 @@ void TopLevel::saveNetFile( const char *_url )
 						 "for an internet job to finish\n"\
 						 "Please wait until has finished\n"\
 						 "Alternatively stop the running one."), 
-			      klocale->translate("Ok"),
+			      klocale->translate("OK"),
 			      "",
 			      "",
 			      0,0);
@@ -1437,7 +1437,7 @@ void TopLevel::saveNetFile( const char *_url )
 			     this,
 			     klocale->translate("Sorry"), 
 			     klocale->translate("Could not start or find KFM"), 
-			     klocale->translate("Ok"),
+			     klocale->translate("OK"),
 			     "",
 			     "",
 			     0,0);
@@ -1483,7 +1483,7 @@ void TopLevel::openNetFile( const char *_url, int _mode )
   	  QMessageBox::warning(this,
 			       klocale->translate("Sorry"),
 			       string.data(),
-			       klocale->translate("Ok"),
+			       klocale->translate("OK"),
 			       "",
 			       "",
 			       0,0);
@@ -1516,7 +1516,7 @@ void TopLevel::openNetFile( const char *_url, int _mode )
 						    "for an internet job to finish\n"\
 						    "Please wait until has finished\n"\
 						    "Alternatively stop the running one."), 
-				 klocale->translate("Ok"),
+				 klocale->translate("OK"),
 				 "",
 				 "",
 				 0,0);
@@ -1532,7 +1532,7 @@ void TopLevel::openNetFile( const char *_url, int _mode )
 			     this,
 			     klocale->translate("Sorry"), 
 			     klocale->translate("Could not start or find KFM"),
-			     klocale->translate("Ok"),
+			     klocale->translate("OK"),
 			     "",
 			     "",
 			     0,0);
@@ -2021,7 +2021,7 @@ int main (int argc, char **argv)
 		  QMessageBox::warning(0,
 			     klocale->translate("Sorry"),
 			     string.data(),
-			     klocale->translate("Ok"),
+			     klocale->translate("OK"),
 			     0,0);
 		  ok = false;
 

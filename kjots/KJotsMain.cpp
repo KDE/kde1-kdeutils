@@ -75,7 +75,7 @@ AskFileName::AskFileName(QWidget* parent, const char* name)
   resize(300, 80);
   QLabel *l_name = new QLabel( klocale->translate("Book name:"), this );
   i_name = new QLineEdit( this );
-  QPushButton *b_ok = new QPushButton(klocale->translate("Ok"), this);
+  QPushButton *b_ok = new QPushButton(klocale->translate("OK"), this);
   QPushButton *b_cancel = new QPushButton(klocale->translate("Cancel"), this);
 
   l_name->setGeometry(10, 10, 80, 24);
@@ -613,7 +613,7 @@ void KJotsMain::createFolder()
     {
       QMessageBox::message(klocale->translate("Warning"), 
 			   klocale->translate("A book with this name already exists."), 
-			   klocale->translate("Ok"), this);
+			   klocale->translate("OK"), this);
       return;
     }
   saveFolder();

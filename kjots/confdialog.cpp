@@ -44,7 +44,7 @@ ConfDialog::ConfDialog ()
   QFrame *f_fonts = new QFrame(tabbar);
   tabbar->addTab(f_fonts, klocale->translate("Fonts"));
 
-  b_ok = new QPushButton(klocale->translate("Ok"), this);
+  b_ok = new QPushButton(klocale->translate("OK"), this);
   b_ok->setFixedSize(80, 24);
   b_apply = new QPushButton(klocale->translate("Apply"), this);
   b_apply->setFixedSize(80, 24);

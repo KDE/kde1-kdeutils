@@ -41,7 +41,7 @@ UrlDlg::UrlDlg( QWidget *parent,  const char* caption, const char* urltext)
 	this->setFocusPolicy( QWidget::StrongFocus );
 	connect(lineedit, SIGNAL(returnPressed()), this, SLOT(accept()));
 
-	ok = new QPushButton(klocale->translate("Ok"), this );
+	ok = new QPushButton(klocale->translate("OK"), this );
 	cancel = new QPushButton(klocale->translate("Cancel"), this ); 
 
 	connect(cancel, SIGNAL(clicked()), this, SLOT(reject()));

@@ -86,7 +86,7 @@ SchedDialog::SchedDialog(int policy, int prio)
 
     KButtonBox *bbox = new KButtonBox(this);
     bbox->addStretch(1);
-    QPushButton *ok = bbox->addButton(TRANS("Ok"));
+    QPushButton *ok = bbox->addButton(TRANS("OK"));
     ok->setDefault(TRUE);
     connect(ok, SIGNAL(clicked()), SLOT(done_dialog()));
     QPushButton *cancel = bbox->addButton(TRANS("Cancel"));

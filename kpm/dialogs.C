@@ -40,7 +40,7 @@ ValueDialog::ValueDialog(const char *caption, const char *msg,
 
     KButtonBox *bbox = new KButtonBox(this);
     bbox->addStretch(1);
-    ok = bbox->addButton("Ok");
+    ok = bbox->addButton("OK");
     ok->setDefault(TRUE);
     connect(ok, SIGNAL(clicked()), SLOT(done_dialog()));
 
@@ -209,7 +209,7 @@ SliderDialog::SliderDialog(const char *caption, const char *msg,
 
     KButtonBox *bbox = new KButtonBox(this);
     bbox->addStretch(1);
-    ok = bbox->addButton("Ok");
+    ok = bbox->addButton("OK");
     ok->setDefault(TRUE);
     connect(ok, SIGNAL(clicked()), SLOT(done_dialog()));
 
