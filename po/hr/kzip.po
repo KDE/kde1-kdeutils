@@ -164,7 +164,7 @@ msgstr "Otvori s: (program)"
 
 #: ar.h:24
 msgid "Permissions\tOwner/Group\tSize      \tTimeStamp         \tName\t"
-msgstr "Dozvole   \tVlasnik/Grupa\tVelièina    \tVrijeme         \tNaziv\t""
+msgstr "Dozvole   \tVlasnik/Grupa\tVelièina    \tVrijeme         \tNaziv\t"
 
 #: lha.h:24
 msgid "Permsissions\tOwner/Group\tPacked      \tSize         \tRatio\tCRC\tTimeStamp     \tName\t"

@@ -289,7 +289,7 @@ msgstr ""
 
 #: kedit.cpp:923
 msgid "Could not Save the Changes\n"
-msgstr "Ne mogu snimiti promjene\n""
+msgstr "Ne mogu snimiti promjene\n"
 
 #: kedit.cpp:928
 #, c-format
@@ -430,7 +430,7 @@ msgstr "Birajte dokument koji ¾elite otvoriti"
 
 #: KEdit.cpp:797
 msgid "Could not save the document\n"
-msgstr "Ne mogu snimiti dokument\n""
+msgstr "Ne mogu snimiti dokument\n"
 
 #: KEdit.cpp:844
 msgid "Save Document As"
