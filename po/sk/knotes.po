@@ -71,11 +71,11 @@ msgstr "Vý¹ka:"
 
 #: configdlg.cpp:104
 msgid "Print Command:"
-msgstr "Príkaz pre tlaè:"
+msgstr "Tlaè:"
 
 #: configdlg.cpp:112
 msgid "Mail Command:"
-msgstr "Príkaz pre po¹tu:"
+msgstr "Po¹ta:"
 
 #: configdlg.cpp:124
 msgid "3d Frame"
@@ -270,21 +270,20 @@ msgid "Inconsistency"
 msgstr "Poru¹ená následnos»"
 
 #: mail.cpp:40
-#, fuzzy
 msgid "Mail Note to:"
-msgstr "Posla» poznámku po¹tou ..."
+msgstr "Komu:"
 
 #: mail.cpp:49
 msgid "Subject:"
-msgstr ""
+msgstr "Vec:"
 
 #: mail.cpp:51
 msgid "Mail"
-msgstr ""
+msgstr "Posla»"
 
 #: mail.cpp:92
 msgid "You must specify a Recipient"
-msgstr ""
+msgstr "Musíte ¹pecifikova» adresáta"
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
