@@ -29,7 +29,7 @@ ConfAutoUpdateData::ConfAutoUpdateData
 
 	b_ok = new QPushButton( parent, "PushButton_1" );
 	b_ok->setGeometry( 32, 120, 80, 24 );
-	b_ok->setText( klocale->translate("Ok") );
+	b_ok->setText( klocale->translate("OK") );
 
 	b_cancel = new QPushButton( parent, "PushButton_2" );
 	b_cancel->setGeometry( 176, 120, 80, 24 );
