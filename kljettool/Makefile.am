@@ -32,7 +32,7 @@ picsdir = $(kde_icondir)
 apps_DATA = KLJetTool.kdelnk
 appsdir = $(kde_appsdir)/Utilities/
 
-install-local-data:
+install-data-local:
 	$(mkinstalldirs) $(kde_minidir)
 	$(INSTALL_DATA) mini-kljettool.xpm $(kde_minidir)/kljettool.xpm
 	@echo ""
