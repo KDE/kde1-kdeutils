@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kedit\n"
 "POT-Creation-Date: 1998-10-30 12:45+0100\n"
-"PO-Revision-Date: 1998-12-06 22:25 CET\n"
+"PO-Revision-Date: 1998-12-15 22:25 CET\n"
 "Last-Translator: Francois-Xavier DURANCEAU "
 "<Francois-Xavier.Duranceau@loria.fr>\n"
 "Language-Team: Français\n"
@@ -446,7 +446,7 @@ msgstr "Respecter la casse"
 
 #: keditcl2.cpp:692 keditcl2.cpp:792
 msgid "Find Backwards"
-msgstr ""
+msgstr "Recherche en arrière"
 
 #: keditcl2.cpp:777
 msgid "Find:"

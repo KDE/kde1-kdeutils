@@ -68,23 +68,21 @@ msgid "Auto"
 msgstr "Auto"
 
 #: klpq.cpp:195
-#, fuzzy
 msgid "&Auto update"
 msgstr "&Rafraîchissement..."
 
 #: klpq.cpp:196
-#, fuzzy
 msgid "&Spooler"
-msgstr "&Spooler..."
+msgstr "&Spooler"
 
 #: klpq.cpp:203
 msgid "&Config"
 msgstr "&Configuration"
 
 #: klpq.cpp:389
-#, fuzzy, c-format
+#, c-format
 msgid "Do you really want to remove job No %d"
-msgstr "Voulez-vous réellement effacer le job N° %d "
+msgstr "Voulez-vous réellement supprimer le job N° %d "
 
 #: klpq.cpp:409
 #, c-format
