@@ -1,9 +1,12 @@
+# KTranslator Generated File
+# Major part translated by Piotr Roszatycki <dexter@fnet.pl>
+# Minor latest updates by Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>
 msgid ""
 msgstr ""
 "Project-Id-Version: kedit \n"
 "POT-Creation-Date: 1998-05-30 17:49+0200\n"
-"PO-Revision-Date: 1998-01-05 17:47+0100\n"
-"Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
+"PO-Revision-Date: 1998-06-23 05:20+0100\n"
+"Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
 #: kedit.cpp:83 kedit.cpp:1019
@@ -164,7 +167,7 @@ msgid ""
 "If you exit now, you will loose those changes\n"
 "Quit anyways?"
 msgstr ""
-"Niektóre okna zawieraj± dokument ze zmienion± zawarto¶ci±.\n"
+"Niektóre okna zawieraj± dokumenty ze zmienion± zawarto¶ci±.\n"
 "Wy¶cie spowoduje utratê tych zmian\n"
 "Wyj¶æ, pomimo tego?"
 
@@ -174,7 +177,7 @@ msgid ""
 "Continue anyways ?"
 msgstr ""
 "Dokument zosta³ zmieniony.\n"
-"Czy chesz zachowaæ zmiany?"
+"Czy chcesz zachowaæ zmiany?"
 
 #: kedit.cpp:808
 #, c-format
@@ -210,7 +213,7 @@ msgstr "Tryb auto wciêcia: Wy³"
 #: kedit.cpp:1058
 #, c-format
 msgid "Line: %d Col: %d"
-msgstr "Lin: %d Kol: %d"
+msgstr "Linia: %d Kol: %d"
 
 #: kedit.cpp:1124
 msgid ""

@@ -1,0 +1,190 @@
+# KTranslator Generated File
+# Major part translated by Piotr Roszatycki <dexter@fnet.pl>
+# Minor latest updates by Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>
+msgid ""
+msgstr ""
+"Project-Id-Version: kfloppy \n"
+"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"PO-Revision-Date: 1998-06-23 06:30+0200\n"
+"Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+
+#: about.cpp:40
+msgid "About KDE Floppy Formater"
+msgstr "Informacje o KDE Formater dyskietek"
+
+#: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368
+#: floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721
+#: floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
+msgid "KFloppy"
+msgstr "KFloppy"
+
+#: about.cpp:54
+msgid "Version "
+msgstr "Wersja"
+
+#: floppy.cpp:56
+msgid "Floppy Drive:"
+msgstr "Napêd dyskietek:"
+
+#: floppy.cpp:65
+msgid "Density:"
+msgstr "Gêsto¶æ zapisu:"
+
+#: floppy.cpp:74
+msgid "File System:"
+msgstr "System plików:"
+
+#: floppy.cpp:108 floppy.cpp:408
+msgid "Format"
+msgstr "Formatu"
+
+#: floppy.cpp:131
+msgid "Quick Erase"
+msgstr "Szybkie formatowanie"
+
+#: floppy.cpp:136
+msgid "Full Format"
+msgstr "Pe³ne formatowanie"
+
+#: floppy.cpp:142
+msgid "Create Label:"
+msgstr "Utwórz etykietê:"
+
+#: floppy.cpp:148
+msgid "KDE FLoppy"
+msgstr "KDE Floppy"
+
+#: floppy.cpp:162
+msgid "KDE Floppy Formater"
+msgstr "KDE Formater dyskietek"
+
+#: floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267
+msgid "HD"
+msgstr "HD"
+
+#: floppy.cpp:286
+#, c-format
+msgid ""
+"Cannot access %s\n"
+"Make sure that the device exists and that\n"
+"you have write permission to it."
+msgstr ""
+"Brak dostêpu do %s\n"
+"Upewnij siê, ¿e urz±dzenie istnieje\n"
+"i masz do niego prawa zapisu."
+
+#: floppy.cpp:333
+msgid ""
+"Cannot find kfdformat\n"
+"kfdformat is part of the KFloppy distribution.\n"
+"Please install KFloppy properly."
+msgstr ""
+"Nie mo¿na znale¼æ kfdformat\n"
+"kfdformat jest czê¶ci± dystrybucji KFloppy.\n"
+"Zainstaluj poprawnie KFloppy."
+
+#: floppy.cpp:349
+msgid ""
+"Cannot find kmke2fs\n"
+"kmke2fs is part of the KFloppy distribution.\n"
+"Please install KFloppy properly."
+msgstr ""
+"Nie mo¿na znale¼æ kmke2fs\n"
+"kmke2fs jest czê¶ci± dystrybucji KFloppy.\n"
+"Zainstaluj poprawnie KFloppy."
+
+#: floppy.cpp:364
+msgid ""
+"Cannot find kmkdosfs\n"
+"kmkdosfs is part of the KFloppy distribution.\n"
+"Please install KFloppy properly."
+msgstr ""
+"Nie mo¿na znale¼æ kmkdosfs\n"
+"kmkdosfs jest czê¶ci± dystrybucji KFloppy.\n"
+"Zainstaluj poprawnie KFloppy."
+
+#: floppy.cpp:424
+msgid "Abort"
+msgstr "Przerwij"
+
+#: floppy.cpp:472
+msgid "Cannot start a new program: fork() failed."
+msgstr "Nie mo¿na uruchomiæ nowego programu: fork() nie powiód³ siê."
+
+#: floppy.cpp:572 floppy.cpp:700
+msgid ""
+"Cannot access floppy or floppy drive\n"
+"Please insert a floppy and make sure that you\n"
+"have selected a valid floppy drive.\n"
+msgstr ""
+"Brak dostêpu do dyskietki lub napêdu\n"
+"W³ó¿ dyskietkê do napêdu i upewnij siê,\n"
+"¿e wybra³e¶ poprawny napêd dyskietek.\n"
+
+#: floppy.cpp:587
+#, c-format
+msgid ""
+"Cannot format: %s\n"
+"%s"
+msgstr ""
+"Nie mo¿na sformatowaæ: %s\n"
+"%s"
+
+#: floppy.cpp:634
+#, c-format
+msgid "Block %d is bad. Continuing ..."
+msgstr "Blok %d jest uszkodzony. Kontynuujê ..."
+
+#: floppy.cpp:717
+#, c-format
+msgid ""
+"Cannot create a filesystem on: %s\n"
+"%s"
+msgstr ""
+"Nie mo¿na utworzyæ systemu plików: %s\n"
+"%s"
+
+#: floppy.cpp:753
+#, c-format
+msgid ""
+"The floppy was sucessfully formatted.\n"
+"Blocks marked bad: %d\n"
+"Raw Capacity: %d\n"
+msgstr ""
+"Dyskietka zosta³a sformatowana.\n"
+"Bloki uszkodzone: %d\n"
+"Ca³kowita pojemno¶æ: %d\n"
+
+#: floppy.cpp:774
+msgid "All files were sucessfully erased."
+msgstr "Wszystkie pliki zosta³y skasowane."
+
+#: floppy.cpp:832
+msgid "Creating Filesystem ..."
+msgstr "Tworzenie systemu plików ..."
+
+#: floppy.cpp:836
+msgid "Verifying ..."
+msgstr "Weryfikacja ..."
+
+#: floppy.cpp:881
+msgid ""
+"Cannot start a new program\n"
+"fork() failed."
+msgstr ""
+"Nie mo¿na uruchomiæ nowego programu\n"
+"fork() nie powiód³ siê."
+
+#: floppy.cpp:907
+msgid "Error while trying to determine whether floppy is mounted\n"
+msgstr "Wyst±pi³ b³±d podczas sprawdzania, czy dyskietka jest zamontowana\n"
+
+#: floppy.cpp:924
+#, c-format
+msgid ""
+"%s is mounted.\n"
+"Please unmount the floppy first."
+msgstr ""
+"%s jest zamontowany.\n"
+"Odmontuj wpierw dyskietkê."

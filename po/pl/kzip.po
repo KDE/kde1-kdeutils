@@ -1,9 +1,12 @@
+# KTranslator Generated File
+# Major part translated by Piotr Roszatycki <dexter@fnet.pl>
+# Minor latest updates by Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>
 msgid ""
 msgstr ""
 "Project-Id-Version: kzip \n"
 "POT-Creation-Date: 1998-06-16 14:24+0200\n"
-"PO-Revision-Date: 1998-01-03 19:17+0100\n"
-"Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
+"PO-Revision-Date: 1998-06-23 06:15+0200\n"
+"Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
 #: adddlg.cc:11
@@ -60,7 +63,7 @@ msgstr "Wybierz &katalog archiwum..."
 
 #: kzip.cc:81
 msgid "Set &Tar Executable..."
-msgstr ""
+msgstr "Wska¿ program &tar"
 
 #: kzip.cc:82
 msgid "&File Adding Options..."
@@ -76,7 +79,7 @@ msgstr "Nie mo¿na utworzyæ archiwum tego typu"
 
 #: kzip.cc:257
 msgid "Create or open an archive first"
-msgstr "Wpierw utwórz lub otwórz archiwum"
+msgstr "Najpierw utwórz lub otwórz archiwum"
 
 #: kzip.cc:300
 msgid "Can't add directories with this archive type"
@@ -92,7 +95,7 @@ msgstr "Katalog archiwum:"
 
 #: kzip.cc:329
 msgid "What runs GNU tar:"
-msgstr ""
+msgstr "Zgodny z GNU tar"
 
 #: kzip.cc:366 kzip.cc:568
 msgid "Unknown archive format"
