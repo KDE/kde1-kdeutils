@@ -790,23 +790,33 @@ void TopLevel::file_close(){
 
 void TopLevel::file_save(){
 
-  int result =KEdit::KEDIT_OK;
-
-  if ( eframe->isModified() ){
-    result =  eframe->doSave(); // error messages are handled by ::KEdit
-
-    if ( result == KEdit::KEDIT_OK ){
-      setFileCaption();
-      QString string;
-      string.sprintf(klocale->translate("Wrote: %s"),eframe->getName().data());
-      setGeneralStatusField(string);
-    }
+  if ( eframe->isModified() )
+  {
+      KURL u( eframe->getName() );
+      if ( !u.isMalformed() && strcmp( u.protocol(), "file" ) != 0L )
+      {
+	  
+	  url_location = eframe->getName();
+	  saveNetFile( url_location );
+	  statusbar_slot();
+	  return;
+      }
+      
+      int result = KEdit::KEDIT_OK;
+      
+      result =  eframe->doSave(); // error messages are handled by ::KEdit
+      
+      if ( result == KEdit::KEDIT_OK ){
+	  setFileCaption();
+	  QString string;
+	  string.sprintf(klocale->translate("Wrote: %s"),eframe->getName().data());
+	  setGeneralStatusField(string);
+      }
   }
-  else{
-       setGeneralStatusField(klocale->translate("No changes need to be saved"));
+  else
+  {
+      setGeneralStatusField(klocale->translate("No changes need to be saved"));
   }
-
-
 }
 
 void TopLevel::setGeneralStatusField(QString text){

@@ -4,7 +4,7 @@ static char *kedit[] = {
 "    32    32       22            1",
 /* colors */
 ". c #000000",
-"# c #800000",
+"# c None",
 "a c #000080",
 "b c #c0c0c0",
 "c c #fff0d4",
