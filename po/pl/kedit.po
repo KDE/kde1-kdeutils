@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kedit \n"
-"POT-Creation-Date: 1999-03-16 01:50+0100\n"
+"POT-Creation-Date: 1999-04-09 02:19+0200\n"
 "PO-Revision-Date: 1999-01-24 15:57+0100\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -152,8 +152,8 @@ msgstr "Drukuj dokument"
 msgid "Mail Document"
 msgstr "Wy¶lij dokument poczt±"
 
-#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:720
-#: keditcl2.cpp:856
+#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:721
+#: keditcl2.cpp:857
 msgid "Done"
 msgstr "Gotowe"
 
@@ -430,7 +430,7 @@ msgid "You do not have write permission to this file.\n"
 msgstr "Nie masz prawa zapisu do tego pliku.\n"
 
 #: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
-#: keditcl2.cpp:688 keditcl2.cpp:713 keditcl2.cpp:837
+#: keditcl2.cpp:688 keditcl2.cpp:714 keditcl2.cpp:838
 msgid "Find"
 msgstr "Szukaj"
 
@@ -450,31 +450,31 @@ msgstr ""
 "Osi±gniêto pocz±tek dokumentu.\n"
 "Kontynuowaæ od koñca?"
 
-#: keditcl2.cpp:701 keditcl2.cpp:821
+#: keditcl2.cpp:702 keditcl2.cpp:822
 msgid "Case Sensitive"
 msgstr "Rozró¿niaj ma³e i wielkie litery"
 
-#: keditcl2.cpp:704 keditcl2.cpp:826
+#: keditcl2.cpp:705 keditcl2.cpp:827
 msgid "Find Backwards"
 msgstr "Szukaj do ty³u"
 
-#: keditcl2.cpp:796
+#: keditcl2.cpp:797
 msgid "Find:"
 msgstr "Szukaj:"
 
-#: keditcl2.cpp:808
+#: keditcl2.cpp:809
 msgid "Replace with:"
 msgstr "Zamieñ na:"
 
-#: keditcl2.cpp:850
+#: keditcl2.cpp:851
 msgid "Replace All"
 msgstr "Zamieñ wszystkie"
 
-#: keditcl2.cpp:931
+#: keditcl2.cpp:932
 msgid "Goto Line"
 msgstr "Id¼ do linii"
 
-#: keditcl2.cpp:936
+#: keditcl2.cpp:937
 msgid "Go"
 msgstr "Id¼"
 
