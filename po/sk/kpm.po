@@ -1,0 +1,390 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kpm\n"
+"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"PO-Revision-Date: 1999-01-01 16:15+0001\n"
+"Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
+"Language-Team: Slovak <sk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: iso-8859-2\n"
+
+#: prefs.C:33
+msgid "Graphic Load Display"
+msgstr "Zobrazi» za»a¾enie"
+
+#: prefs.C:34
+msgid "Graphic CPU Display"
+msgstr "Zobrazi» zá»a¾ procesora"
+
+#: prefs.C:35
+msgid "Graphic Memory Display"
+msgstr "Zobrazi» pamä»"
+
+#: prefs.C:36
+msgid "Graphic Swap Display"
+msgstr "Zobrazi» swap"
+
+#: prefs.C:37
+msgid "Load Graph in Icon"
+msgstr "Naèíta» graf v ikonke"
+
+#: prefs.C:38
+msgid "Dock into kpanel"
+msgstr "Vsunú» do panela"
+
+#: prefs.C:43
+msgid "Green/Black Load Graph"
+msgstr "Zelený/Èierny graf za»a¾enia"
+
+#: prefs.C:45
+msgid "Solid filled graph"
+msgstr "Jednoducho vyplnený graf"
+
+#: prefs.C:50
+msgid "Host Name Lookup"
+msgstr "Rezolúcia mena hostiteµa"
+
+#: prefs.C:55
+msgid "Auto Save Settings on Exit"
+msgstr "Automaticky ulo¾i» nast. pri ukonèení"
+
+#: prefs.C:67
+msgid "Status Bar"
+msgstr "Zobrazenie stav. riadku"
+
+#: prefs.C:69
+msgid "Socket Info Window"
+msgstr "Informácie o sockete"
+
+#: qps.C:89 qps.C:127
+msgid "Renice..."
+msgstr "Renice..."
+
+#: qps.C:92
+msgid "Change Scheduling..."
+msgstr "Zmeni» scheduling..."
+
+#: qps.C:96 qps.C:131
+msgid "Socket Info"
+msgstr "Info o socketoch"
+
+#: qps.C:101
+msgid "Iconify"
+msgstr "Ikonifikova»"
+
+#: qps.C:109 qps.C:133
+msgid "Terminate"
+msgstr "Ukonèi»"
+
+#: qps.C:112 qps.C:134
+msgid "Hangup"
+msgstr "Hangup"
+
+#: qps.C:115 qps.C:135
+msgid "Interrupt"
+msgstr "Preru¹i»"
+
+#: qps.C:118 qps.C:137
+msgid "Kill"
+msgstr "Zabi»"
+
+#: qps.C:121
+msgid "Other"
+msgstr "Ostatné"
+
+#: qps.C:128
+msgid "Scheduling..."
+msgstr "Scheduling..."
+
+#: qps.C:138
+msgid "Other signals"
+msgstr "Ostatné signály"
+
+#: qps.C:146
+msgid "Remove field"
+msgstr "Odstráni» polo¾ku"
+
+#: qps.C:148
+msgid "Add field..."
+msgstr "Prida» polo¾ku..."
+
+#: qps.C:152
+msgid "Help on field..."
+msgstr "Info o polo¾ke..."
+
+#: qps.C:157
+msgid "Refresh process list"
+msgstr "Obnovi» zoznam procesov"
+
+#: qps.C:160
+msgid "All Processes"
+msgstr "V¹etky procesy"
+
+#: qps.C:161
+msgid "Your Processes"
+msgstr "Va¹e procesy"
+
+#: qps.C:162
+msgid "Non-Root Processes"
+msgstr "Nerootovské procesy"
+
+#: qps.C:163
+msgid "Running Processes"
+msgstr "Be¾iace procesy"
+
+#: qps.C:165
+msgid "User Fields"
+msgstr "U¾ívateµské polo¾ky"
+
+#: qps.C:166
+msgid "Jobs Fields"
+msgstr "Polo¾ky úloh"
+
+#: qps.C:167
+msgid "Memory Fields"
+msgstr "Polo¾ky pamäte"
+
+#: qps.C:169
+msgid "Select Fields..."
+msgstr "Zvoli» polo¾ky..."
+
+#: qps.C:175
+msgid "Update Period..."
+msgstr "Perióda obnovenia..."
+
+#: qps.C:180
+msgid "Show command path"
+msgstr "Ukáza» cestu k príkazu"
+
+#: qps.C:182
+msgid "Show ressource info"
+msgstr "Ukáza» informácie o zdrojoch"
+
+#: qps.C:184
+msgid "Show toolbar"
+msgstr "Ukáza» panel nástrojov"
+
+#: qps.C:188
+msgid "Preferences..."
+msgstr "Nastavenie..."
+
+#: qps.C:191
+msgid "Save Settings Now"
+msgstr "Ulo¾i» nastavenie"
+
+#: qps.C:195
+#, c-format
+msgid ""
+"kpm %sk%s - A Visual Process Manager (KDE Version)\n"
+"\n"
+"© 1997 Mattias Engdegård (f91-men@nada.kth.se)\n"
+"© 1998 Mario Weilguni (mweilguni@kde.org)\n"
+"\n"
+"kpm is the KDE version of qps, written by Matthias\n"
+"Engdegård. The port to KDE was done by Mario\n"
+"Weilguni. If you are interested on the original\n"
+"qps, you can find it at the following location:\n"
+"    ftp://sunsite.unc.edu/pub/linux/system/status\n"
+"\n"
+"This program is published under the GNU General\n"
+"Public License (GNU GPL). See the file COPYING\n"
+"for details about this."
+msgstr ""
+"kpm %sk%s - Vizuálny mana¾ér procesov (KDE Verzia)\n"
+"\n"
+"(c) 1997 Mattias Engdegård (f91-men@nada.kth.se)\n"
+"(c) 1998 Mario Weilguni (mweilguni@kde.org)\n"
+"\n"
+"kpm je KDE verzia programu qps, ktorý napísal Matthias\n"
+"Engdegård. Port pre KDE spravil Mario Weilguni.\n"
+"Ak vás zaujíma originálny qps, mô¾ete\n"
+"ho nájs» na tomto mieste:\n"
+"    ftp://sunsite.unc.edu/pub/linux/system/status\n"
+"\n"
+"Tento program je publikovaný pod GNU General\n"
+"Public License (GNU GPL). Pozrite súbor COPYING\n"
+"pre detaily o tejto licencii."
+
+#: qps.C:213
+msgid "&Window"
+msgstr "&Okno"
+
+#: qps.C:214
+msgid "&Process"
+msgstr "&Proces"
+
+#: qps.C:215
+msgid "&Signal"
+msgstr "&Signál"
+
+#: qps.C:311
+msgid "SIGQUIT (quit)"
+msgstr "SIGQUIT (koniec)"
+
+#: qps.C:312
+msgid "SIGILL (illegal instruction)"
+msgstr "SIGILL (nesprávna in¹trukcia)"
+
+#: qps.C:313
+msgid "SIGABRT (abort)"
+msgstr "SIGABRT (zlyhanie)"
+
+#: qps.C:314
+msgid "SIGFPE (floating point exception)"
+msgstr "SIGFPE (chyba pohyb. rád. èiarky)"
+
+#: qps.C:315
+msgid "SIGSEGV (segmentation violation)"
+msgstr "SIGSEGV (chyba segmentácie)"
+
+#: qps.C:316
+msgid "SIGPIPE (broken pipe)"
+msgstr "SIGPIPE (pretrhnutá rúra)"
+
+#: qps.C:317
+msgid "SIGALRM (timer signal)"
+msgstr "SIGALRM (signál èasovaèa)"
+
+#: qps.C:318
+msgid "SIGUSR1 (user-defined 1)"
+msgstr "SIGUSR1 (u¾ívateµsky-definovaný 1)"
+
+#: qps.C:319
+msgid "SIGUSR2 (user-defined 2)"
+msgstr "SIGUSR2 (u¾ívateµsky definovaný 2)"
+
+#: qps.C:320
+msgid "SIGCHLD (child death)"
+msgstr "SIGCHLD (potomok skonèil)"
+
+#: qps.C:321
+msgid "SIGCONT (continue)"
+msgstr "SIGCONT (pokraèova»)"
+
+#: qps.C:322
+msgid "SIGSTOP (stop)"
+msgstr "SIGSTOP (zastavi»)"
+
+#: qps.C:323
+msgid "SIGTSTP (stop from tty)"
+msgstr "SIGTSTP (zastavi» z tty)"
+
+#: qps.C:324
+msgid "SIGTTIN (tty input)"
+msgstr "SIGTTIN (vstup z tty)"
+
+#: qps.C:325
+msgid "SIGTTOU (tty output)"
+msgstr "SIGTTOU (výstup z tty)"
+
+#: qps.C:625
+#, c-format
+msgid ""
+"You do not have permission to view the\n"
+"open sockets of process %d (%s).\n"
+"Only the owner of the process and the\n"
+"super-user may do that."
+msgstr ""
+"Nemáte práva pozrie» otvorené sockety\n"
+"procesu %d (%s).\n"
+"Iba vlastník procesu a super-u¾ívateµ\n"
+"to mô¾u urobi»."
+
+#: qps.C:630 qps.C:839 qps.C:881 qps.C:887 qps.C:910 qps.C:946 qps.C:990
+msgid "Permission denied"
+msgstr "Povolenie odmietnuté"
+
+#: qps.C:703
+msgid "qps: change update period"
+msgstr "qps: zmeni» periódu obnovy"
+
+#: qps.C:704
+msgid "New update period:"
+msgstr "Nová perióda:"
+
+#: qps.C:719 qps.C:858
+msgid "Invalid input"
+msgstr "Nesprávny vstup"
+
+#: qps.C:720
+msgid ""
+"The time between updates should be a number, optionally followed\n"
+"by a unit (ms, s or min). If no unit is given, seconds is assumed."
+msgstr ""
+"Èas medzi obnova by mal by» èíslo, voliteµne nasledované\n"
+"jednotkou (ms, s alebo min). Ak nie je daná jednotka, pou¾ijú sa sekundy."
+
+#: qps.C:834
+#, c-format
+msgid ""
+"You do not have permission to renice the\n"
+"selected process%s.\n"
+"Only the process owner and the super-user\n"
+"are allowed to do that."
+msgstr ""
+"Nemáte práva na renice zvoleného procesu\n"
+"%s.\n"
+"Iba vlastník procesu a super-u¾ívateµ\n"
+"to mô¾u spravi»."
+
+#: qps.C:848
+msgid "qps: renice process"
+msgstr "qps: renice procesu"
+
+#: qps.C:849
+msgid "New nice value:"
+msgstr "Nová hodnota nice:"
+
+#: qps.C:859
+msgid ""
+"The nice value should be\n"
+"in the range -20 to 20."
+msgstr ""
+"Hodnota nice by mala by»\n"
+"v rozmedzí -20 a¾ 20."
+
+#: qps.C:876
+#, c-format
+msgid ""
+"You do not have permission to renice process %d (%s).\n"
+"Only the process owner and the super-user are allowed to do that."
+msgstr ""
+"Nemáte práva na renice procesu %d (%s).\n"
+"Iba vlastník procesu a super-u¾ívateµ to mô¾u spravi»."
+
+#: qps.C:888
+msgid "Only the super-user may lower the nice value of a process."
+msgstr "Iba superu¾ívateµ mô¾e zní¾i» nice hodnotu procesu."
+
+#: qps.C:911
+msgid ""
+"Only the super-user may change the\n"
+"scheduling policy and static priority."
+msgstr ""
+"Iba super-u¾ívateµ mô¾e zmeni»\n"
+"stratégiu schedulingu a statickú prioritu."
+
+#: qps.C:941
+#, c-format
+msgid ""
+"You do not have permission to change the\n"
+"scheduling and/or priority of process %d (%s).\n"
+"Only the super-user may do that."
+msgstr ""
+"Nemáte práva zmeni» scheduling a/alebo\n"
+"prioritu procesu %d (%s).\n"
+"To mô¾e iba superu¾ívateµ."
+
+#: qps.C:985
+#, c-format
+msgid ""
+"You do not have permission to send a signal to process %d (%s).\n"
+"Only the super-user and the owner of the process may send signals to it."
+msgstr ""
+"Nemáte právo posla» signál procesu %d (%s).\n"
+"Iba superu¾ívateµ a jeho vlastník mu mô¾e posiela» signály."
