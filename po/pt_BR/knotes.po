@@ -1,9 +1,13 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: kuser\n"
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
-"PO-Revision-Date: 1998-03-23 00:00+0100\n"
-"Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
+msgstr "Project-Id-Version: knotes\n"
+       "POT-Creation-Date: 1998-03-21 18:32+0300\n"
+       "PO-Revision-Date: 1998-06-23 09:00-0300\n"
+       "Last-Translator: Elvis Pfützenreuter<epx@netville.com.br>\n"
 
 #: alarm.cpp:58
 #, c-format
@@ -135,9 +139,8 @@ msgid "Print Note"
 msgstr "Imprimir Nota"
 
 #: knotes.cpp:323
-#, fuzzy
 msgid "Save Notes"
-msgstr "Nova Nota"
+msgstr "Salvar Notas"
 
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"
@@ -176,9 +179,8 @@ msgstr "Nota: "
 msgid ""
 "Could not save a KNote.\n"
 "Quit anyways?"
-msgstr ""
-"Não consegui gravar uma Nota.\n"
-"Sair da mesma forma?"
+msgstr "Não consegui gravar uma Nota.\n"
+       "Sair da mesma forma?"
 
 #: knotes.cpp:512
 msgid "Could not save KNote Alarms\n"
@@ -189,17 +191,15 @@ msgstr "Não consegui gravar Alarmes\n"
 msgid ""
 "Could not pipe the contents of this KNote into:\n"
 " %s"
-msgstr ""
-"Não foi possível passar os conteúdos deste KNote para:\n"
-" %s"
+msgstr "Não foi possível passar os conteúdos deste KNote para:\n"
+       " %s"
 
 #: knotes.cpp:734
 msgid ""
 "You have exeeded the arbitrary and unjustly set limit of 50 knotes.\n"
 " Please complain to the author."
-msgstr ""
-"Excedeu o limite arbitrário de 50 knotes.\n"
-" Queixe-se ao autor."
+msgstr "Excedeu o limite arbitrário de 50 knotes.\n"
+       " Queixe-se ao autor."
 
 #: knotes.cpp:901
 msgid "Question"
@@ -209,18 +209,16 @@ msgstr "Pergunta"
 msgid ""
 "Are you sure you want to delete this\n"
 "note permanently?"
-msgstr ""
-"Tem certeza que quer apagar esta\n"
-"nota permanentemente?"
+msgstr "Tem certeza que quer apagar esta\n"
+       "nota permanentemente?"
 
 #: knotes.cpp:1078
 #, c-format
 msgid ""
 "Could not load:\n"
 " %s"
-msgstr ""
-"Não conseguir carregar:\n"
-" %s"
+msgstr "Não conseguir carregar:\n"
+       " %s"
 
 #: knotes.cpp:1329
 msgid "KNotes Configuraton"
@@ -240,11 +238,10 @@ msgid ""
 "for an internet job to finish\n"
 "Please wait until it has finished\n"
 "Alternatively stop the running one."
-msgstr ""
-"KNotes já está à espera\n"
-"que um trabalho na internet acabe\n"
-"Por favor espere que esteja terminado\n"
-"Opcionalmente termine o que está sendo executado."
+msgstr "KNotes já está à espera\n"
+       "que um trabalho na internet acabe\n"
+       "Por favor espere que esteja terminado\n"
+       "Opcionalmente termine o que está sendo executado."
 
 #: knotes.cpp:1544
 msgid "Could not start or find KFM"
@@ -254,9 +251,8 @@ msgstr "Não foi possível iniciar ou encontrar o KFM"
 msgid ""
 "Could not save the KNotes.\n"
 "Close anyways?"
-msgstr ""
-"Não consegui gravar KNotes.\n"
-"Fechar de qualquer modo?"
+msgstr "Não consegui gravar KNotes.\n"
+       "Fechar de qualquer modo?"
 
 #: knotes.cpp:1678
 #, c-format
@@ -267,13 +263,12 @@ msgid ""
 " no longer exists.\n"
 "\n"
 "I will correct the Problem for you."
-msgstr ""
-"Encontrei um alarme para o qual o\n"
-"arquivo KNotes:\n"
-"%s\n"
-" já não existe.\n"
-"\n"
-"Vou corrigir o problema."
+msgstr "Encontrei um alarme para o qual o\n"
+       "arquivo KNotes:\n"
+       "%s\n"
+       " já não existe.\n"
+       "\n"
+       "Vou corrigir o problema."
 
 #: knotes.cpp:1686
 msgid "Inconsistency"
@@ -307,14 +302,12 @@ msgstr "Renomear"
 msgid ""
 "The name \"xyalarms\" is reserved for internal usage.\n"
 "Please choose a different name"
-msgstr ""
-"O nome \"xyalarms\" está reservado para utilização interna.\n"
-"Por favor escolha um nome diferente"
+msgstr "O nome \"xyalarms\" está reservado para utilização interna.\n"
+       "Por favor escolha um nome diferente"
 
 #: renamedlg.cpp:92
 msgid ""
 "A KNotes note with this name already exists\n"
 "Please choose a different name"
-msgstr ""
-"Uma nota com este nome já existe\n"
-"Por favor escolha um nome diferente"
+msgstr "Uma nota com este nome já existe\n"
+       "Por favor escolha um nome diferente"

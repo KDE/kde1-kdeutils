@@ -1,9 +1,13 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: kuser\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
-"PO-Revision-Date: 1998-03-23 00:00+0100\n"
-"Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
+msgstr "Project-Id-Version: kcalc\n"
+       "POT-Creation-Date: 1998-03-21 18:32+0300\n"
+       "PO-Revision-Date: 1998-06-23 09:00-0300\n"
+       "Last-Translator: Elvis Pfützenreuter <epx@netville.com.br>\n"
 
 #: configdlg.cpp:56 kcalc.cpp:1591
 msgid "Defaults"
@@ -59,7 +63,7 @@ msgstr "Base"
 
 #: kcalc.cpp:1524
 msgid "KCalc Configuraton"
-msgstr ""
+msgstr "Configuração do KCalc"
 
 #: kcalc.cpp:1550
 msgid "Base type: long double\n"
@@ -72,10 +76,10 @@ msgid ""
 "recompile KCalc with 'long double' precision enabled. See the README for "
 "details."
 msgstr ""
-"Por conta de glibc's problemáticas, tive de reduzir a precisão do KCalc de "
-"'long double' para 'double'. Quem tiver sistemas com uma libc funcional deve "
-"recompilar KCalc com precisão 'long double' ativada. Veja o README para mais "
-"detalhes."
+       "Por conta de glibc's problemáticas, tive de reduzir a precisão do KCalc de "
+       "'long double' para 'double'. Quem tiver sistemas com uma libc funcional deve "
+       "recompilar KCalc com precisão 'long double' ativada. Veja o README para "
+       "mais detalhes."
 
 #: kcalc.cpp:1592
 msgid "Display Font"
