@@ -4,6 +4,7 @@ Name=Hex Editor
 Name[de]=Hexeditor
 Exec=khexdit
 Icon=edit.xpm
+Type=Application
 DocPath=khexdit/khexdit.html
 Info=A simple Hex editor
 Info[de]=Ein Editor für binäre Dateien
