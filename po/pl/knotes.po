@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes \n"
 "POT-Creation-Date: 1998-05-30 17:50+0200\n"
-"PO-Revision-Date: 1998-06-23 06:00+0200\n"
+"PO-Revision-Date: 1998-08-07 23:22+0200\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
@@ -83,16 +83,14 @@ msgid "Auto Indent"
 msgstr "Autowciêcie"
 
 #: docking.cpp:71
-#, fuzzy
 msgid "Change Defaults"
-msgstr "Ustawienia domy¶lne..."
+msgstr "Ustawienia domy¶lne"
 
 #: docking.cpp:76
 msgid "Exit Knotes"
 msgstr "Wyj¶cie"
 
 #: docking.cpp:95
-#, fuzzy
 msgid "New Knote"
 msgstr "Nowa notatka"
 
@@ -141,9 +139,8 @@ msgid "Print Note"
 msgstr "Wydrukuj notatkê"
 
 #: knotes.cpp:323
-#, fuzzy
 msgid "Save Notes"
-msgstr "Nowa notatka"
+msgstr "Zapisz notatkê"
 
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"
@@ -286,9 +283,8 @@ msgid "Inconsistency"
 msgstr "Nie¶cis³o¶æ"
 
 #: mail.cpp:40
-#, fuzzy
 msgid "Mail Note to:"
-msgstr "Wy¶lij poczt± notatkê do..."
+msgstr "Wy¶lij poczt± do:"
 
 #: mail.cpp:49
 msgid "Subject:"
@@ -325,6 +321,3 @@ msgid ""
 msgstr ""
 "Ta nazwa notatki ju¿ istnieje\n"
 "Proszê wybraæ inn± nazwê"
-
-#~ msgid "Hide Note"
-#~ msgstr "Schowaj notatkê"
