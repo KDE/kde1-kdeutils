@@ -440,8 +440,6 @@ KJotsMain::KJotsMain(const char* name)
 		      SLOT(toggleSubjList()), TRUE, i18n("Subject List"));
   toolbar->insertSeparator();
   temp_pix = global_pix_loader->loadIcon("exit.xpm");
-  toolbar->insertButton(temp_pix, 5, SIGNAL(clicked()), qApp,
-		      SLOT(quit()), TRUE, i18n("Exit"));
   toolbar->setBarPos( (KToolBar::BarPosition) config->readNumEntry("ToolBarPos") );
   addToolBar(toolbar);
   setView(f_main, FALSE);
