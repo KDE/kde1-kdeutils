@@ -229,35 +229,35 @@ void TopLevel::setupToolBar(){
   QPixmap pixmap;
   
   pixmap.load(pixdir+"filenew2.xpm");
-  toolbar->insertItem(pixmap, 0,
+  toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
 		      SLOT(file_new()), TRUE, "New Document");
 
 
   pixmap.load(pixdir+"fileopen.xpm");
-  toolbar->insertItem(pixmap, 0,
+  toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
 		      SLOT(file_open()), TRUE, "Open Document");
 
   pixmap.load(pixdir+"filefloppy.xpm");
-  toolbar->insertItem(pixmap, 0,
+  toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
 		      SLOT(file_save()), TRUE, "Save Document");
 
   toolbar->insertSeparator();
 
   pixmap.load(pixdir+"editcopy.xpm");
-  toolbar->insertItem(pixmap, 0,
+  toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
 		      SLOT(copy()), TRUE, "Copy");
 
   pixmap.load(pixdir+"editpaste.xpm");
-  toolbar->insertItem(pixmap, 0,
+  toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
 		      SLOT(paste()), TRUE, "Paste");
 
   pixmap.load(pixdir+"editcut.xpm");
-  toolbar->insertItem(pixmap, 0,
+  toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
 		      SLOT(cut()), TRUE, "Cut");
 
@@ -265,19 +265,19 @@ void TopLevel::setupToolBar(){
 
 
   pixmap.load(pixdir+"fileprint.xpm");
-  toolbar->insertItem(pixmap, 0,
+  toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
 		      SLOT(print()), TRUE, "Print Document");
 
   pixmap.load(pixdir+"send.xpm");
-  toolbar->insertItem(pixmap, 0,
+  toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
 		      SLOT(mail()), TRUE, "Mail Document");
 
 
   toolbar->insertSeparator();
   pixmap.load(pixdir+"help.xpm");
-  toolbar->insertItem(pixmap, 0,
+  toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
 		      SLOT(helpselected()), TRUE, "Help");
 
@@ -606,7 +606,7 @@ void TopLevel::mail(){
   cmd = cmd.sprintf(mailcmd.data(),
 		    maildlg->getSubject().data(),maildlg->getRecipient().data());
 
-  printf("%s\n",cmd.data());
+  /*  printf("%s\n",cmd.data());*/
 
   delete maildlg;
 
@@ -1458,11 +1458,11 @@ void TopLevel::writeSettings(){
 	config->writeEntry( "BackColor", string );
 	
 	string="";
-	if ( toolbar->Pos() == KToolBar::Left )
+	if ( toolbar->pos() == KToolBar::Left )
 		string.sprintf("Left");
-	else if ( toolbar->Pos() == KToolBar::Right )
+	else if ( toolbar->pos() == KToolBar::Right )
 		string.sprintf("Right");
-	else if ( toolbar->Pos() == KToolBar::Bottom )
+	else if ( toolbar->pos() == KToolBar::Bottom )
 		string.sprintf("Bottom");
 	else
 		string.sprintf("Top");

@@ -1,3 +1,7 @@
+Thu Jul 24 20:13:53 1997  Bernd Johannes Wuebben  <wuebben@petit.cornell.edu>
+
+	* kedit.cpp: made kedit work with the new libs
+
 Mon Jul 21 22:43:07 1997  Bernd Johannes Wuebben  <wuebben@petit.cornell.edu>
 
 	* kedit.cpp: implemented mailing
