@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "POT-Creation-Date: 1999-01-18 01:54+0100\n"
-"PO-Revision-Date: 1998-01-25 22:07 CET\n"
-"Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
+"PO-Revision-Date: 1999-01-31 22:07 CET\n"
+"Last-Translator: Francois-Xavier Duranceau <Francois-Xavier.Duranceau@loria.fr>\n"
 "Language-Team: Français\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; \n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: knotes.cpp:263
 msgid "Hello"
-msgstr ""
+msgstr "Salut"
 
 #: knotes.cpp:301
 msgid "Text Color..."
@@ -55,15 +55,15 @@ msgstr "Imprimer la note"
 
 #: knotes.cpp:324
 msgid "Save Notes"
-msgstr "Sauvegarder les notes"
+msgstr "Enregistrer les notes"
 
 #: knotes.cpp:330 knotes.cpp:401 knotes.cpp:1291
 msgid "3D Frame"
-msgstr "Cadre en 3 dimensions"
+msgstr "Cadre en 3D"
 
 #: configdlg.cpp:128 knotes.cpp:331
 msgid "Auto Indent"
-msgstr "Indentation automatique"
+msgstr "Indentation auto"
 
 #: knotes.cpp:333
 msgid "Font..."
@@ -162,6 +162,16 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
+"KNotes %s\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@math.cornell.edu\n"
+"wuebben@kde.org\n"
+"Copyright (C) 1997\n"
+"\n"
+"Avec la contribution de :\n"
+"Matthias Ettrich <ettrich@kde.org>\n"
+"\n"
+"\n"
 
 #: configdlg.cpp:46 knotes.cpp:1376
 msgid "Defaults"
@@ -234,11 +244,11 @@ msgstr "Hauteur :"
 
 #: configdlg.cpp:104
 msgid "Print Command:"
-msgstr "Commande d'impression :"
+msgstr "Impression :"
 
 #: configdlg.cpp:112
 msgid "Mail Command:"
-msgstr "Commande d'émission de messages :"
+msgstr "Commande mail :"
 
 #: configdlg.cpp:123
 msgid "3d Frame"
@@ -363,15 +373,13 @@ msgstr ""
 
 #: docking.cpp:71
 msgid "Change Defaults"
-msgstr "Configurer..."
+msgstr "Configuration par défaut"
 
 #: docking.cpp:76
 msgid "Exit Knotes"
-msgstr "Sortir de Knotes"
+msgstr "Quitter Knotes"
 
 #: docking.cpp:95
 msgid "New Knote"
 msgstr "Nouvelle note"
 
-#~ msgid "Hide Note"
-#~ msgstr "Cacher la note"

@@ -60,7 +60,7 @@ msgid ""
 "recompile KCalc with 'long double' precision enabled. See the README for "
 "details."
 msgstr ""
-"A cause de problème avec glibc, j'ai du réduire la précision de KCalc de "
+"A cause de problèmes avec glibc, j'ai du réduire la précision de KCalc de "
 "'long double' à 'double'. Les posseseurs d'un système avec une libc qui "
 "fonctionne peuvent recompiler KCalc avec la précision 'long double'. "
 "Consulter le fichier README pour des détails."
@@ -84,11 +84,11 @@ msgstr ""
 
 #: kcalc_core.cpp:1111
 msgid "Last stat item erased"
-msgstr ""
+msgstr "Dernier élément stat écrasé"
 
 #: kcalc_core.cpp:1151
 msgid "Stat Mem cleared"
-msgstr "Mem Stat Effacée"
+msgstr "Mem Stat effacée"
 
 #: kcalc_core.cpp:1627
 msgid "Stack processing error - right_op"
