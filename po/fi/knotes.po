@@ -272,21 +272,20 @@ msgid "Inconsistency"
 msgstr "epäjohdonmukaisuutta"
 
 #: mail.cpp:40
-#, fuzzy
 msgid "Mail Note to:"
-msgstr "Lähetä viesti..."
+msgstr "Lähetä viesti:"
 
 #: mail.cpp:49
 msgid "Subject:"
-msgstr ""
+msgstr "Aihe:"
 
 #: mail.cpp:51
 msgid "Mail"
-msgstr ""
+msgstr "Posti"
 
 #: mail.cpp:92
 msgid "You must specify a Recipient"
-msgstr ""
+msgstr "Sinun on annettava vastaanottaja"
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
