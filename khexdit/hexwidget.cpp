@@ -155,15 +155,13 @@ void HexWidget::menuCallback(int item) {
 				    	klocale->translate("Yes"))) 
 		return;
 	}
-	windowList.remove(this);
-	if (windowList.isEmpty())
-	    kapp->quit();
-	else
-	    delete this;
-	break;
+        close();
+        break;
     }
     case ID_FILE_QUIT: {
-	kapp->quit();
+        for (HexWidget *w = windowList.first(); w ; w = windowList.next())
+           w->close();
+        kapp->exit();
 	break;
     }
     
