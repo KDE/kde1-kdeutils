@@ -79,7 +79,7 @@ msgstr "&Substituir"
 
 #: kedit.cpp:243
 msgid "&Goto Line..."
-msgstr "&Ir Para Linha..."
+msgstr "&Ir para a Linha..."
 
 #: kedit.cpp:247
 msgid "&Font"
@@ -91,7 +91,7 @@ msgstr "Cores"
 
 #: kedit.cpp:251
 msgid "KEdit &Options..."
-msgstr "&Opções do KEdit..."
+msgstr "&Opções do Editor..."
 
 #: kedit.cpp:253
 msgid "Auto &Indent"
@@ -339,7 +339,7 @@ msgstr "Imprimir directamente usando lpr"
 
 #: print.cpp:75
 msgid "Print using Command:"
-msgstr "Imprimir utilizando Comando:"
+msgstr "Imprimir utilizando:"
 
 #: print.cpp:93
 msgid "Print Selection"
@@ -359,7 +359,7 @@ msgstr "Mudança de Linha"
 
 #: filldlg.cpp:44
 msgid "Mail Command:"
-msgstr "Comando de Correio:"
+msgstr "Comando Mail:"
 
 #: filldlg.cpp:135
 msgid "You must enter an integer."

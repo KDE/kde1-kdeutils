@@ -12,15 +12,15 @@ msgstr ""
 
 #: adddlg.cc:11
 msgid "Add File Options"
-msgstr "Opções de Adicionar Ficheiros"
+msgstr "Opções de Adição de Ficheiros"
 
 #: adddlg.cc:22
 msgid "Store Full Path"
-msgstr "Armazenar Caminho Total"
+msgstr "Armazenar Caminho"
 
 #: adddlg.cc:25
 msgid "Only Add Newer Files"
-msgstr "Apenas Adicionar Ficheiros Recentes"
+msgstr "Apenas Recentes"
 
 #: extractdlg.cc:9
 msgid "Files"
@@ -40,15 +40,15 @@ msgstr "Preservar Permissões"
 
 #: extractdlg.cc:36
 msgid "Filenames to Lowercase"
-msgstr "Nome de Ficheiros para Minúsculas"
+msgstr "Nome dos Ficheiros para Minúsculas"
 
 #: extractdlg.cc:39
 msgid "All Files"
-msgstr "Todos os Ficheiros"
+msgstr "Todos"
 
 #: extractdlg.cc:42
 msgid "Selected File"
-msgstr "Ficheiro Seleccionado"
+msgstr "Seleccionado"
 
 #: extractdlg.cc:45
 msgid "Pattern"

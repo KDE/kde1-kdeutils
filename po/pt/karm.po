@@ -11,7 +11,7 @@ msgstr "Nome da Tarefa"
 
 #: adddata.cpp:44
 msgid "Accumutated time (in minutes)"
-msgstr "Tempo acumulado (em minutos)"
+msgstr "Minutos acumulados"
 
 #: adddlg.cpp:26
 msgid "KArm: New Task"
@@ -111,7 +111,7 @@ msgstr "Editar Tarefa"
 
 #: top.cpp:145
 msgid "About "
-msgstr "Acerca "
+msgstr "Acerca do "
 
 #: top.cpp:146
 msgid ""
