@@ -554,6 +554,8 @@ void HexFile::fillPixmap() {
 
 void HexFile::paintEvent(QPaintEvent *p) {
     static unsigned int count = 0;
+    bool use_backmapping = false;
+
     debug("paintEvent %d %d %d %d %u",p->rect().left(), p->rect().top(), 
 	  p->rect().width(), p->rect().height(), count++);
 
@@ -563,21 +565,29 @@ void HexFile::paintEvent(QPaintEvent *p) {
     if (p->rect().intersects(QRect(0,0,width()-scrollV->width(), 
 				   height() - scrollH->height()))) {
 
-	QPixmap pixmap(*datamap);
-	QPainter painter(&pixmap);
-	paintCursor(&painter);
-
 	int width = p->rect().width();
-	if (width + p->rect().left() > pixmap.width() + horoff)
-	    width = pixmap.width() - p->rect().left();
+	if (width + p->rect().left() > datamap->width() + horoff)
+	    width = datamap->width() - p->rect().left();
+	
+	if (use_backmapping) {
+	    QPixmap pixmap(*datamap);
+	    QPainter painter(&pixmap);
+	    paintCursor(&painter);
+	    
+	    bitBlt(this, p->rect().left(), p->rect().top(),
+		   &pixmap, 
+		   p->rect().left() + horoff, p->rect().top(),
+		   width, p->rect().height(), CopyROP);
+	} else {
+	    bitBlt(this, p->rect().left(), p->rect().top(),
+		   datamap, 
+		   p->rect().left() + horoff, p->rect().top(),
+		   width, p->rect().height(), CopyROP);
 
-	bitBlt(this, p->rect().left(), p->rect().top(),
-	       &pixmap, 
-	       p->rect().left() + horoff, p->rect().top(),
-	       width, p->rect().height(), CopyROP);
-
+	    QPainter painter(this);
+	    paintCursor(&painter);
+	}
     }
-
 }
 
 void HexFile::resizeEvent(QResizeEvent *) {
