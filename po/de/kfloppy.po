@@ -1,10 +1,5 @@
 msgid ""
 msgstr ""
-"Date: 1998-03-06 22:13:59-0500\n"
-"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, <root@petit.cornell.edu>\n"
-"Content-Type: text/plain; charset=\n"
-"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
-"Files: about.cpp floppy.cpp main.cpp\n"
 "Project-Id-Version: kfloppy\n"
 "PO-Revision-Date: 1998-05-02 10:25+0100\n"
 "Last-Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
@@ -12,12 +7,19 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: ISO-8859-1\n"
+"Date: 1998-03-06 22:13:59-0500\n"
+"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
+"<root@petit.cornell.edu>\n"
+"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
+"Files: about.cpp floppy.cpp main.cpp\n"
 
 #: about.cpp:40
 msgid "About KDE Floppy Formater"
 msgstr "Über den KDE Floppy Formatierer"
 
-#: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368 floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721 floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
+#: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368
+#: floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721
+#: floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
 msgid "KFloppy"
 msgstr "KFloppy"
 
@@ -104,7 +106,6 @@ msgstr ""
 "kmkdosfs kann nicht gefunden werden\n"
 "kmkdosfs ist Teil des KFloppy-Paketes.\n"
 "Bitte installieren Sie KFloppy richtig."
-
 
 #: floppy.cpp:424
 msgid "Abort"
