@@ -96,7 +96,7 @@ msgstr "&Tiedostonlisäyksen asetukset..."
 
 #: arkwidget.cc:97
 msgid "File Operations"
-msgstr "Tiedostontoiminteet"
+msgstr "Tiedostotoiminteet"
 
 #: arkwidget.cc:99
 msgid "Extract..."
@@ -152,7 +152,7 @@ msgstr "Mikä suorittaa GNU tarrin:"
 
 #: arkwidget.cc:376 arkwidget.cc:578
 msgid "Unknown archive format"
-msgstr "Tuntematon pakkausformaatti"
+msgstr "Tuntematon pakkausmuoto"
 
 #: arkwidget.cc:396
 msgid "Size"

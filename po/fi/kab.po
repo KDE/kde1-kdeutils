@@ -40,7 +40,7 @@ msgstr "tekijä ja ylläpitäjä"
 
 #: AddressBookAboutData.cpp:62
 msgid "kab 1.0, May 1999"
-msgstr ""
+msgstr "kab 1.0, Maaliskuu 1999"
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
@@ -121,9 +121,3 @@ msgstr "&Tietoja"
 #: toplevelwidget.cc:190
 msgid "About Qt"
 msgstr "Tietoja Qt:ta"
-
-#~ msgid "kab 0.9.5, December 1998"
-#~ msgstr "kab 0.9.5, Joulukuu 1998"
-
-#~ msgid "kab 0.8, August 1998"
-#~ msgstr "kab 0.8, Syyskuu 1998"

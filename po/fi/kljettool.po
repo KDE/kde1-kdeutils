@@ -38,9 +38,8 @@ msgid "Lines"
 msgstr "Rivejä"
 
 #: PaperData.cpp:96
-#, fuzzy
 msgid "Orientation"
-msgstr "Esitys"
+msgstr "Paperisuunta"
 
 #: PaperData.cpp:102
 msgid "Portrait"

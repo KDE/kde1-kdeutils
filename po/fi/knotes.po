@@ -80,7 +80,7 @@ msgstr "Muuta oletusasetuksia..."
 
 #: knotes.cpp:340
 msgid "Dock in panel"
-msgstr ""
+msgstr "Nielaise paneeliin"
 
 #: knotes.cpp:368
 msgid "Insert Date"
@@ -216,7 +216,7 @@ msgid ""
 "\n"
 "I will correct the Problem for you."
 msgstr ""
-"Löysiin hälytyksen johon allaoleva\n"
+"Löysin hälytyksen jolle allaoleva\n"
 "KNotes tiedosto:\n"
 "%s\n"
 " ei enää ole olemassa.\n"
@@ -225,7 +225,7 @@ msgstr ""
 
 #: knotes.cpp:1691
 msgid "Inconsistency"
-msgstr "epäjohdonmukaisuutta"
+msgstr "Epäjohdonmukaisuus"
 
 #: configdlg.cpp:50
 msgid "Text Color:"
@@ -373,11 +373,9 @@ msgstr ""
 "Valitse toinen nimi"
 
 #: docking.cpp:48
-#, fuzzy, c-format
+#, c-format
 msgid "Could not load %s !"
-msgstr ""
-"En saanut ladattua:\n"
-" %s"
+msgstr "En saanut ladattua %s:ää!"
 
 #: docking.cpp:68
 msgid "Change Defaults"
@@ -390,6 +388,3 @@ msgstr "Lopeta"
 #: docking.cpp:92
 msgid "New Knote"
 msgstr "Uusi viesti"
-
-#~ msgid "No Frame"
-#~ msgstr "Ei kehystä"

@@ -138,12 +138,3 @@ msgstr "&Pysäytä"
 #: top.cpp:229
 msgid "&New"
 msgstr "&Uusi"
-
-#~ msgid "&About"
-#~ msgstr "&Tietoja "
-
-#~ msgid "About "
-#~ msgstr "Tietoja "
-
-#~ msgid "&Contents"
-#~ msgstr "&Sisältö"

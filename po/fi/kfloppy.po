@@ -36,7 +36,7 @@ msgstr "Tiedostojärjestelmä:"
 
 #: floppy.cpp:108 floppy.cpp:414
 msgid "Format"
-msgstr "Formatoi"
+msgstr "Alusta"
 
 #: floppy.cpp:131
 msgid "Quick Erase"

@@ -64,7 +64,7 @@ msgstr "Tiedostop‰‰tteet:"
 
 #: highlight.cpp:1984
 msgid "Mime Types:"
-msgstr "Mime tyypit:"
+msgstr "Mime -tyypit:"
 
 #: highlight.cpp:1991
 msgid "Item Style"
@@ -80,7 +80,7 @@ msgstr "Pystyvalinnat p‰‰ll‰"
 
 #: kwview.cpp:1065
 msgid "Vertical Selections Off"
-msgstr "Pystyvalinnat pois p‰‰lt‰"
+msgstr "Pystyvalinnat poissa"
 
 #: kwview.cpp:1124
 msgid "The specified File does not exist"
@@ -211,7 +211,7 @@ msgstr "&Korvaa:"
 
 #: kwdialog.cpp:57
 msgid "&Case Sensitive"
-msgstr "K&irjasintasoherkk‰"
+msgstr "K&irjasinkokoherkk‰"
 
 #: kwdialog.cpp:61
 msgid "&Whole Words Only"
