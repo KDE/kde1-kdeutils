@@ -16,7 +16,8 @@ msgstr "Nie mo¿na przeanalizowaæ pliku /etc/printcap"
 
 #: main.cpp:184
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
-msgstr "Proszê wys³aæ plik /etc/printcap na adres Christoph.Neerfeld@home.ivm.de"
+msgstr ""
+"Proszê wys³aæ plik /etc/printcap na adres Christoph.Neerfeld@home.ivm.de"
 
 #: klpq.cpp:89
 msgid "Printer"
@@ -92,7 +93,7 @@ msgid ""
 "Do you really want to move job No\n"
 "%d\n"
 "on top of queue"
-msgstr 
+msgstr ""
 "Czy chcesz przesun±æ zadanie %d\n"
 "na pocz±tek kolejki?"
 
@@ -104,8 +105,7 @@ msgstr "Brak praw dostêpu!"
 msgid ""
 "This is a privileged command\n"
 "and you do not have permission to execute it."
-msgstr ""
-"Brak praw do wykonania polecenia"
+msgstr "Brak praw do wykonania polecenia"
 
 #: ConfAutoUpdate.cpp:10
 msgid "Configure Auto Update"
@@ -138,8 +138,8 @@ msgid ""
 "probably a good choice."
 msgstr ""
 "Proszê wybraæ system obs³ugi drukowania. Wiêkszo¶æ systemów jest obs³ugiwana "
-"przez BSD spooler. Je¿eli nie ma pewno¶ci co do zainstalowanego systemu drukowania, "
-"najpewniej bêdzie to BSD."
+"przez BSD spooler. Je¿eli nie ma pewno¶ci co do zainstalowanego systemu "
+"drukowania, najpewniej bêdzie to BSD."
 
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"

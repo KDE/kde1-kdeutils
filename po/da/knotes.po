@@ -189,8 +189,7 @@ msgid ""
 "Alternatively stop the running one."
 msgstr ""
 "KNotes er allerede igang med et internet job.\n"
-"Vent venligst til det er slut,"
-"eller afslut jobbet først!"
+"Vent venligst til det er slut,eller afslut jobbet først!"
 
 #: knotes.cpp:1550
 msgid "Could not start or find KFM"

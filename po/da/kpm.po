@@ -15,7 +15,7 @@ msgstr ""
 
 #: prefs.C:33
 msgid "Graphic Load Display"
-msgstr "Viser belastning grafisk" 
+msgstr "Viser belastning grafisk"
 
 #: prefs.C:34
 msgid "Graphic CPU Display"
