@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-11-26 01:48+0100\n"
 "PO-Revision-Date: 1998-02-21 06:19+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -54,7 +54,7 @@ msgstr "列印 Note"
 msgid "Save Notes"
 msgstr "新的 Note"
 
-#: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
+#: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1290
 msgid "3D Frame"
 msgstr "3D 外框"
 
@@ -82,7 +82,7 @@ msgstr "插入日期"
 msgid "Operations"
 msgstr "操作命令"
 
-#: knotes.cpp:404 knotes.cpp:1278
+#: knotes.cpp:404 knotes.cpp:1280
 msgid "No Frame"
 msgstr "沒有外框"
 
@@ -118,17 +118,17 @@ msgid ""
 " Please complain to the author."
 msgstr ""
 
-#: knotes.cpp:901
+#: knotes.cpp:902
 msgid "Question"
 msgstr "問題"
 
-#: knotes.cpp:902
+#: knotes.cpp:903
 msgid ""
 "Are you sure you want to delete this\n"
 "note permanently?"
 msgstr "確定要永久的刪除這份 Note?"
 
-#: knotes.cpp:1078
+#: knotes.cpp:1079
 #, c-format
 msgid ""
 "Could not load:\n"
@@ -137,19 +137,19 @@ msgstr ""
 "無法載入:\n"
 " %s"
 
-#: knotes.cpp:1329
+#: knotes.cpp:1331
 msgid "KNotes Configuraton"
 msgstr "KNotes 設定"
 
-#: knotes.cpp:1370
+#: knotes.cpp:1374
 msgid "Defaults"
 msgstr "預設值"
 
-#: knotes.cpp:1371
+#: knotes.cpp:1375
 msgid "More ..."
 msgstr "更多 ..."
 
-#: knotes.cpp:1530
+#: knotes.cpp:1534
 msgid ""
 "KNotes is already waiting\n"
 "for an internet job to finish\n"
@@ -157,11 +157,11 @@ msgid ""
 "Alternatively stop the running one."
 msgstr ""
 
-#: knotes.cpp:1544
+#: knotes.cpp:1548
 msgid "Could not start or find KFM"
 msgstr "無法開啟或找不到 KFM"
 
-#: knotes.cpp:1566
+#: knotes.cpp:1570
 msgid ""
 "Could not save the KNotes.\n"
 "Close anyways?"
@@ -169,7 +169,7 @@ msgstr ""
 "無法儲存此份 KNotes.\n"
 "直接關閉嗎?"
 
-#: knotes.cpp:1678
+#: knotes.cpp:1682
 #, c-format
 msgid ""
 "Found an alarm to which the underlying\n"
@@ -180,7 +180,7 @@ msgid ""
 "I will correct the Problem for you."
 msgstr ""
 
-#: knotes.cpp:1686
+#: knotes.cpp:1690
 msgid "Inconsistency"
 msgstr "不一致"
 

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdebase\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-11-26 01:48+0100\n"
 "PO-Revision-Date: 1998-10-15 15:00-0500\n"
 "Last-Translator: Radoslav Dejanovic <rdejanov@public.srce.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -55,7 +55,7 @@ msgstr "Ispi¹i bilje¹ku"
 msgid "Save Notes"
 msgstr "Spremi bilje¹ke"
 
-#: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
+#: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1290
 msgid "3D Frame"
 msgstr "3D Okvir"
 
@@ -83,7 +83,7 @@ msgstr "Umetni datum"
 msgid "Operations"
 msgstr "Operacije"
 
-#: knotes.cpp:404 knotes.cpp:1278
+#: knotes.cpp:404 knotes.cpp:1280
 msgid "No Frame"
 msgstr "Bez okvira"
 
@@ -121,11 +121,11 @@ msgstr ""
 "Prema¹ili ste odoka i nepravedno odreðeni maksimum od 50 knotes bilje¹ki.\n"
 " Molim, ¾alite se autoru."
 
-#: knotes.cpp:901
+#: knotes.cpp:902
 msgid "Question"
 msgstr "Pitanje"
 
-#: knotes.cpp:902
+#: knotes.cpp:903
 msgid ""
 "Are you sure you want to delete this\n"
 "note permanently?"
@@ -133,7 +133,7 @@ msgstr ""
 "Jeste li sigurni da ¾elite nepovratno obrisati\n"
 "ovu bilje¹ku?"
 
-#: knotes.cpp:1078
+#: knotes.cpp:1079
 #, c-format
 msgid ""
 "Could not load:\n"
@@ -142,19 +142,19 @@ msgstr ""
 "Ne mogu uèitati:\n"
 " %s"
 
-#: knotes.cpp:1329
+#: knotes.cpp:1331
 msgid "KNotes Configuraton"
 msgstr "KNotes Konfiguracija"
 
-#: knotes.cpp:1370
+#: knotes.cpp:1374
 msgid "Defaults"
 msgstr "Podrazumijevano"
 
-#: knotes.cpp:1371
+#: knotes.cpp:1375
 msgid "More ..."
 msgstr "Jo¹ ..."
 
-#: knotes.cpp:1530
+#: knotes.cpp:1534
 msgid ""
 "KNotes is already waiting\n"
 "for an internet job to finish\n"
@@ -166,11 +166,11 @@ msgstr ""
 "Molim prièekajte njegov kraj\n"
 "Ili prekinite trenutni zadatak."
 
-#: knotes.cpp:1544
+#: knotes.cpp:1548
 msgid "Could not start or find KFM"
 msgstr "Ne mogu pokrenuti ili pronaæi KFM"
 
-#: knotes.cpp:1566
+#: knotes.cpp:1570
 msgid ""
 "Could not save the KNotes.\n"
 "Close anyways?"
@@ -178,7 +178,7 @@ msgstr ""
 "Ne mogu spremiti KNotes.\n"
 "Da svejedno zatvorim?"
 
-#: knotes.cpp:1678
+#: knotes.cpp:1682
 #, c-format
 msgid ""
 "Found an alarm to which the underlying\n"
@@ -195,7 +195,7 @@ msgstr ""
 "\n"
 "Ispravit æu taj problem umjesto vas."
 
-#: knotes.cpp:1686
+#: knotes.cpp:1690
 msgid "Inconsistency"
 msgstr "Nedosljednost"
 

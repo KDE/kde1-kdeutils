@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-11-26 01:48+0100\n"
 "PO-Revision-Date: 1998-06-30 22:55+0100\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgstr "Imprimir nota"
 msgid "Save Notes"
 msgstr "Desar notes"
 
-#: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
+#: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1290
 msgid "3D Frame"
 msgstr "Marc 3D"
 
@@ -81,7 +81,7 @@ msgstr "Insertar data"
 msgid "Operations"
 msgstr "Operacions"
 
-#: knotes.cpp:404 knotes.cpp:1278
+#: knotes.cpp:404 knotes.cpp:1280
 msgid "No Frame"
 msgstr "Sense marc"
 
@@ -119,11 +119,11 @@ msgstr ""
 "Heu excedit el límit arbitrari i injustament establert de 50 notes.\n"
 " Si us plau, queixeu-vos a l'autor."
 
-#: knotes.cpp:901
+#: knotes.cpp:902
 msgid "Question"
 msgstr "Pregunta"
 
-#: knotes.cpp:902
+#: knotes.cpp:903
 msgid ""
 "Are you sure you want to delete this\n"
 "note permanently?"
@@ -131,7 +131,7 @@ msgstr ""
 "De veres voleu esborrar aquesta nota\n"
 "permanentment?"
 
-#: knotes.cpp:1078
+#: knotes.cpp:1079
 #, c-format
 msgid ""
 "Could not load:\n"
@@ -140,19 +140,19 @@ msgstr ""
 "No s'ha pogut carregar:\n"
 " %s"
 
-#: knotes.cpp:1329
+#: knotes.cpp:1331
 msgid "KNotes Configuraton"
 msgstr "Configurador de KNotes"
 
-#: knotes.cpp:1370
+#: knotes.cpp:1374
 msgid "Defaults"
 msgstr "Omissió"
 
-#: knotes.cpp:1371
+#: knotes.cpp:1375
 msgid "More ..."
 msgstr "Més ..."
 
-#: knotes.cpp:1530
+#: knotes.cpp:1534
 msgid ""
 "KNotes is already waiting\n"
 "for an internet job to finish\n"
@@ -164,11 +164,11 @@ msgstr ""
 "Si us plau, espereu a que acabi.\n"
 "O bé atureu-lo."
 
-#: knotes.cpp:1544
+#: knotes.cpp:1548
 msgid "Could not start or find KFM"
 msgstr "No s'ha pogut engegar o trobar KFM"
 
-#: knotes.cpp:1566
+#: knotes.cpp:1570
 msgid ""
 "Could not save the KNotes.\n"
 "Close anyways?"
@@ -176,7 +176,7 @@ msgstr ""
 "No s'han pogut desar les notes.\n"
 "Cal tancar?"
 
-#: knotes.cpp:1678
+#: knotes.cpp:1682
 #, c-format
 msgid ""
 "Found an alarm to which the underlying\n"
@@ -192,7 +192,7 @@ msgstr ""
 "\n"
 "Esmenaré el problema en nom vostre."
 
-#: knotes.cpp:1686
+#: knotes.cpp:1690
 msgid "Inconsistency"
 msgstr "Inconsistència"
 
