@@ -852,8 +852,16 @@ bool KEdit::format(QStrList& par){
 
   getpar(templine,par);
 
-  for ( int i = 0 ; i < (int)par.count() ; i ++){
+  /*
+    printf("\n");
+    for ( int i = 0 ; i < (int)par.count() ; i ++){
+       printf("%s\n",par.at(i));
+    }
+    printf("\n");
+    */
 
+  for ( int i = 0 ; i < (int)par.count() ; i ++){
+    //    printf("par.count %d line %d\n",par.count(),i);
     k = 0;
     l = 0;
     int last_ok = 0;
@@ -891,10 +899,12 @@ bool KEdit::format(QStrList& par){
 
       if(i < (int)par.count() - 1){
 	QString temp1 = par.at(i+1);
+	QString temp2;
 	if(autoIndentMode){
 	  temp1 = temp1.mid(prefixString(temp1).length(),temp1.length());
 	}
-	temp1 = pstring.mid(last_ok +1,pstring.length()) + (QString) " " + temp1;
+	temp2 = pstring.mid(last_ok +1,pstring.length()) + (QString) " " + temp1;
+	temp1 = temp2.copy();
 	if(autoIndentMode)
 	  temp1 = prefixString(pstring) + temp1;
 	par.remove(i+1);
@@ -921,10 +931,12 @@ bool KEdit::format(QStrList& par){
 
       if(i < (int)par.count() - 1){
 	QString temp1 = par.at(i+1);
+	QString temp2;
 	if(autoIndentMode){
 	  temp1 = temp1.mid(prefixString(temp1).length(),temp1.length());
 	}
-	temp1 = pstring.mid(space_pos +1,pstring.length()) + (QString) " " + temp1;
+	temp2 = pstring.mid(space_pos +1,pstring.length()) + (QString) " " + temp1;
+	temp1 = temp2.copy();
 	if(autoIndentMode)
 	  temp1 = prefixString(pstring) + temp1;
 	par.remove(i+1);
@@ -956,8 +968,8 @@ void KEdit::getpar(int line,QStrList& par){
   QString linestr;
 
   par.clear();
-      
-  for(int i = line ; i < numLines() ; i++){
+  int num = numLines();
+  for(int i = line ; i < num ; i++){
     linestr = textLine(line);
     if(linestr.isEmpty())
       break;
