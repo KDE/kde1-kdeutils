@@ -30,9 +30,8 @@ msgid "Hide &Status Bar"
 msgstr "Vypni &statusbar"
 
 #: kedit.cpp:151
-#, fuzzy
 msgid "Select All"
-msgstr "Nahraï v¹e"
+msgstr "Vybrat v¹e"
 
 #: kedit.cpp:180
 msgid "&About..."
@@ -43,9 +42,8 @@ msgid "Ne&w..."
 msgstr "&Nový..."
 
 #: kedit.cpp:189
-#, fuzzy
 msgid "Open Recen&t..."
-msgstr "Otevøi &URL..."
+msgstr "Otevøi Ne&dávný ..."
 
 #: kedit.cpp:201
 msgid "Open &URL..."
@@ -64,18 +62,16 @@ msgid "New &Window"
 msgstr "No&vé okno"
 
 #: kedit.cpp:227
-#, fuzzy
 msgid "&Select All"
-msgstr "Nahraï v¹e"
+msgstr "Vy&brat v¹e"
 
 #: kedit.cpp:230
-#, fuzzy
 msgid "&Insert File"
-msgstr "Vlo¾ &Soubor"
+msgstr "Vlo¾it &soubor"
 
 #: kedit.cpp:232
 msgid "Insert &Date"
-msgstr "Vlo¾ &Datum"
+msgstr "Vlo¾it &datum"
 
 #: kedit.cpp:235
 msgid "&Find..."
@@ -102,9 +98,8 @@ msgid "Colors"
 msgstr "Barvy"
 
 #: kedit.cpp:250
-#, fuzzy
 msgid "KEdit &Options..."
-msgstr "Rùzné &mo¾nosti"
+msgstr "Nas&tavení KEditu ..."
 
 #: kedit.cpp:252
 msgid "Auto &Indent"
@@ -181,13 +176,12 @@ msgstr ""
 "Stále chcete ukonèit?"
 
 #: kedit.cpp:666
-#, fuzzy
 msgid ""
 "The current document has been modified.\n"
 "Continue anyways ?"
 msgstr ""
 "Souèasný dokument byl modifikován.\n"
-"Pøejete si ho ulo¾it?"
+"Pøejete si pokraèovat?"
 
 #: kedit.cpp:807
 #, c-format
@@ -235,13 +229,12 @@ msgstr ""
 "Pøejete si ulo¾it zmìny pøed vytisknutím dokumentu?"
 
 #: kedit.cpp:1141
-#, fuzzy
 msgid ""
 "Could not save the file.\n"
 "Print anyways?"
 msgstr ""
 "Nebylo mo¾né ulo¾it soubor.\n"
-"Stále chcete ukonèit?"
+"Stále jej chcete vytisknout?"
 
 #: kedit.cpp:1234
 #, c-format
@@ -291,6 +284,8 @@ msgid ""
 "Malformed URL\n"
 "%s"
 msgstr ""
+"Chybný formát URL\n"
+"%s"
 
 #: kedit.cpp:1429
 #, c-format
@@ -336,6 +331,8 @@ msgid ""
 "Can not create:\n"
 "%s"
 msgstr ""
+"Není mo¾né vytvoøit:\n"
+"%s"
 
 #: print.cpp:66
 msgid "Print Dialog"
@@ -354,9 +351,8 @@ msgid "Print Selection"
 msgstr "Tiskni výbìr"
 
 #: filldlg.cpp:31
-#, fuzzy
 msgid "KEdit Options"
-msgstr "&Mo¾nosti"
+msgstr "Nastavení KEditu"
 
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"
@@ -389,203 +385,3 @@ msgstr "Ode¹li"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Musíte urèit pøíjemce"
-
-#~ msgid "The specified File does not exist"
-#~ msgstr "Zadaný soubor neexistuje"
-
-#~ msgid "Sorry:"
-#~ msgstr "Sorry:"
-
-#~ msgid "You have specificated a directory"
-#~ msgstr "Zadali jste adresáø"
-
-#~ msgid "You do not have read permission to this file."
-#~ msgstr "Nemáte pøístupová práva k tomuto souboru"
-
-#~ msgid "An Error occured while trying to open this Document"
-#~ msgstr "NAstala chyba pøipokusu otevøít tento dokument"
-
-#~ msgid "Select Document to Insert"
-#~ msgstr "Vyber dokument pro vkládání"
-
-#~ msgid "Warning:"
-#~ msgstr "Varování"
-
-#~ msgid ""
-#~ "The current Document has been modified.\n"
-#~ "Would you like to save it?"
-#~ msgstr ""
-#~ "Souèasný dokument byl modifikován.\n"
-#~ "Pøejete si ho ulo¾it?"
-
-#, fuzzy
-#~ msgid ""
-#~ "Could not save the document.\n"
-#~ "Open a new document anyways?"
-#~ msgstr ""
-#~ "Nebylo mo¾né ulo¾it soubor.\n"
-#~ "Stále chcete ukonèit?"
-
-#~ msgid "Select Document to Open"
-#~ msgstr "Vyber dokument k otevøení"
-
-#, fuzzy
-#~ msgid ""
-#~ "Could not save the document.\n"
-#~ "Create a new document anyways?"
-#~ msgstr ""
-#~ "Nebylo mo¾né ulo¾it soubor.\n"
-#~ "Stále chcete ukonèit?"
-
-#~ msgid "Could not save the document\n"
-#~ msgstr "Není mo¾né ulo¾it dokument\n"
-
-#~ msgid "Save Document As"
-#~ msgstr "Ulo¾ dokument jako"
-
-#~ msgid ""
-#~ "A Document with this Name exists already\n"
-#~ "Do you want to overwrite it ?"
-#~ msgstr ""
-#~ "Dokument s tímto jménem ji¾ existuje\n"
-#~ "Pøejete si ho pøepsat?"
-
-#, fuzzy
-#~ msgid "You do not have write permission to this file.\n"
-#~ msgstr "Nemáte právo k zápisu do tohoto dokumentu.\n"
-
-#~ msgid "Find"
-#~ msgstr "Hledej"
-
-#~ msgid ""
-#~ "End of document reached.\n"
-#~ "Continue from the beginning?"
-#~ msgstr ""
-#~ "Dosa¾eno konce dokumentu.\n"
-#~ "Zaèít od zaèátku dokumentu?"
-
-#~ msgid ""
-#~ "Beginning of document reached.\n"
-#~ "Continue from the end?"
-#~ msgstr ""
-#~ "Dosa¾eno zaèátku dokumentu.\n"
-#~ "Zaèít od konce dokumentu?"
-
-#~ msgid "Replace"
-#~ msgstr "Nahraï"
-
-#~ msgid "Find Backwards"
-#~ msgstr "Hledej odzadu"
-
-#~ msgid "Find:"
-#~ msgstr "Nalezni:"
-
-#~ msgid "Replace with:"
-#~ msgstr "Nahraï:"
-
-#~ msgid "Replace All"
-#~ msgstr "Nahraï v¹e"
-
-#~ msgid "Goto Line"
-#~ msgstr "Jdi na øádek"
-
-#~ msgid "Go"
-#~ msgstr "Jdi"
-
-#~ msgid "&Open..."
-#~ msgstr "&Otevøít..."
-
-#~ msgid "Open..."
-#~ msgstr "Otevøít..."
-
-#~ msgid "Save as..."
-#~ msgstr "Ulo¾it jako..."
-
-#~ msgid "Copy"
-#~ msgstr "Kopírovat"
-
-#~ msgid "Paste"
-#~ msgstr "Vlo¾it"
-
-#~ msgid "Cut"
-#~ msgstr "Vyjmout"
-
-#, fuzzy
-#~ msgid "Font"
-#~ msgstr "&Znaková sada"
-
-#~ msgid "&Foreground Color"
-#~ msgstr "Barva &textu"
-
-#~ msgid "&Background Color"
-#~ msgstr "Barva &pozadí"
-
-#~ msgid "&Help"
-#~ msgstr "&Nápovìda"
-
-#~ msgid "&Save"
-#~ msgstr "U&lo¾it"
-
-#~ msgid "S&ave as..."
-#~ msgstr "Ulo¾it &jako..."
-
-#~ msgid "&Close"
-#~ msgstr "U&zavøít"
-
-#~ msgid "&Print..."
-#~ msgstr "&Tiskni"
-
-#~ msgid "E&xit"
-#~ msgstr "U&konèit"
-
-#~ msgid "&Copy"
-#~ msgstr "&Kopírovat"
-
-#~ msgid "&Paste"
-#~ msgstr "&Vlo¾it"
-
-#~ msgid "C&ut"
-#~ msgstr "Vyjmou&t"
-
-#~ msgid "&File"
-#~ msgstr "&Soubor"
-
-#~ msgid "&Edit"
-#~ msgstr "Úp&ravy"
-
-#~ msgid "&Options"
-#~ msgstr "&Mo¾nosti"
-
-#~ msgid "Done"
-#~ msgstr "Hotovo"
-
-#~ msgid "Sorry"
-#~ msgstr "Sorry"
-
-#~ msgid "Could not Save the Changes\n"
-#~ msgstr "Není mo¾né ulo¾it zmìny\n"
-
-#~ msgid "Saved: %s"
-#~ msgstr "%s ulo¾en"
-
-#~ msgid "Saved"
-#~ msgstr "Ulo¾en"
-
-#~ msgid "Load file:"
-#~ msgstr "Otevøi soubor:"
-
-#~ msgid ""
-#~ "You have do not have Permission to \n"
-#~ "read this Document"
-#~ msgstr ""
-#~ "Nemáte pøístupová práva \n"
-#~ "ke ètení tohoto dokumentu"
-
-#~ msgid "Could not Save the Document"
-#~ msgstr "Není mo¾né ulo¾it dokument"
-
-#~ msgid "Miscellaneous Options"
-#~ msgstr "Rùzné mo¾nosti"
-
-#~ msgid "About KEdit"
-#~ msgstr "Informace o KEditu"

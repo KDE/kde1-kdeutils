@@ -20,17 +20,15 @@ msgstr "Chyba pøi otevírání %s"
 
 #: hexwidget.cpp:79
 msgid "Save &As..."
-msgstr ""
+msgstr "Ulo¾it &jako ..."
 
 #: hexwidget.cpp:90
-#, fuzzy
 msgid "&Toggle Toolbar"
-msgstr "Nástojovou li¹tu zapnout/vypnout"
+msgstr "Nás&tojovou li¹tu zapnout/vypnout"
 
 #: hexwidget.cpp:93
-#, fuzzy
 msgid "Hex Editor"
-msgstr "Informace o Hex Editoru"
+msgstr "Hexa Editor"
 
 #: hexwidget.cpp:93
 msgid ""
@@ -52,24 +50,20 @@ msgid "Not implemented"
 msgstr "Není implementováno"
 
 #: hexwidget.cpp:158
-#, fuzzy
 msgid ""
 "The current file has been modified.\n"
 "Do you want to save it?"
 msgstr ""
-"Souèasný soubor byl modifikován..\n"
-"\n"
+"Souèasný soubor byl modifikován.\n"
 "Pøejete si ho ulo¾it?"
 
 #: hexwidget.cpp:184
-#, fuzzy
 msgid ""
 "The current file has been modified.\n"
 "Discard your changes?"
 msgstr ""
-"Souèasný soubor byl modifikován..\n"
-"\n"
-"Pøejete si ho ulo¾it?"
+"Souèasný soubor byl modifikován.\n"
+"Pøejete si zru¹it v¹echny zmìny?"
 
 #: hexwidget.cpp:265
 msgid ""
@@ -88,35 +82,3 @@ msgstr ""
 #: hexwidget.cpp:273
 msgid "Could not start KFM"
 msgstr "Nemohu spustit KFM"
-
-#, fuzzy
-#~ msgid "&New Window..."
-#~ msgstr "Nové okno"
-
-#~ msgid "&View"
-#~ msgstr "&Pohled"
-
-#, fuzzy
-#~ msgid ""
-#~ "Hex Editor 0.5 \n"
-#~ "\n"
-#~ "by Stephan Kulow  (coolo@itm.mu-luebeck.de)"
-#~ msgstr ""
-#~ "Hex Editor 0.4 \n"
-#~ "\n"
-#~ "od Stephana Kulowa  (coolo@itm.mu-luebeck.de)"
-
-#~ msgid "&File"
-#~ msgstr "&Soubor"
-
-#~ msgid "&Help"
-#~ msgstr "&Nápovìda"
-
-#~ msgid "File changed"
-#~ msgstr "Soubor zmìnìn"
-
-#~ msgid "Discard your changes?"
-#~ msgstr "Zru¹it va¹e zmìny?"
-
-#~ msgid "Ok"
-#~ msgstr "Ok"

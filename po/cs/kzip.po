@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-01-02 21:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: adddlg.cc:11
+msgid "Add File Options"
+msgstr "Parametry pro pøidání souboru"
+
+#: adddlg.cc:22
+msgid "Store Full Path"
+msgstr "Ulo¾it s celou cestou"
+
+#: adddlg.cc:25
+msgid "Only Add Newer Files"
+msgstr "Pøidávat pouze novìj¹í soubory"
+
+#: extractdlg.cc:9
+msgid "Files"
+msgstr "Soubory"
+
+#: extractdlg.cc:13
+msgid "Extract Options"
+msgstr "Parametry extrakce"
+
+#: extractdlg.cc:17
+msgid "Destination"
+msgstr "Cílové místo"
+
+#: extractdlg.cc:33
+msgid "Preserve Permissions"
+msgstr "Zachovat pøístupová práva"
+
+#: extractdlg.cc:36
+msgid "Filenames to Lowercase"
+msgstr "Pøevést na malá písmena"
+
+#: extractdlg.cc:39
+msgid "All Files"
+msgstr "V¹echny soubory"
+
+#: extractdlg.cc:42
+msgid "Selected File"
+msgstr "Vybrané soubory"
+
+#: extractdlg.cc:45
+msgid "Pattern"
+msgstr "Maska"
+
+#: kzip.cc:65
+msgid "&Extract To..."
+msgstr "&Extrahovat do ..."
+
+#: kzip.cc:70
+msgid "E&xtract..."
+msgstr "E&xtrahovat ..."
+
+#: kzip.cc:75
+msgid "&Set Archive Directory..."
+msgstr "Na&stavit adresáø archivu ..."
+
+#: kzip.cc:76
+msgid "&File Adding Options..."
+msgstr "Parametry pøidání &souboru ..."
+
+#: kzip.cc:122
+msgid "Welcome to KZip..."
+msgstr "Vítejte v KZipu ..."
+
+#: kzip.cc:228
+msgid "Can't create archive of that type"
+msgstr "Nemohu vytvoøit  archive tohoto typu"
+
+#: kzip.cc:249 kzip.cc:286 kzip.cc:294
+msgid "Create or open an archive first"
+msgstr "Nejprve vytvoøte nebo otevøete archiv"
+
+#: kzip.cc:273
+msgid "Can't add directories with this archive type"
+msgstr "Nemohu pøidat adresáøe s tímto typem archivu"
+
+#: kzip.cc:275
+msgid "Error saving to archive"
+msgstr "Chyba pøi ukládání do archivu"
+
+#: kzip.cc:305
+msgid "Archive Dir:"
+msgstr "Adresáø archivu:"
+
+#: kzip.cc:342 kzip.cc:534
+msgid "Unknown archive format"
+msgstr "Neznámý formát archivu"
+
+#: kzip.cc:378
+msgid "Archive Directory"
+msgstr "Adresáø archivu"
