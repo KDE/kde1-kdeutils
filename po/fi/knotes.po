@@ -88,16 +88,14 @@ msgid "Auto Indent"
 msgstr "Automaattinen keskitys"
 
 #: docking.cpp:71
-#, fuzzy
 msgid "Change Defaults"
-msgstr "Muuta oletusasetuksia..."
+msgstr "Muuta oletusasetuksia"
 
 #: docking.cpp:76
 msgid "Exit Knotes"
-msgstr ""
+msgstr "Lopeta"
 
 #: docking.cpp:95
-#, fuzzy
 msgid "New Knote"
 msgstr "Uusi viesti"
 
@@ -146,7 +144,6 @@ msgid "Print Note"
 msgstr "Tulosta viesti..."
 
 #: knotes.cpp:323
-#, fuzzy
 msgid "Save Notes"
 msgstr "Uusi viesti"
 
@@ -329,6 +326,3 @@ msgid ""
 msgstr ""
 "KNotesin viesti samalla nimellä on jo olemassa\n"
 "Valitse toinen nimi"
-
-#~ msgid "Hide Note"
-#~ msgstr "Piilota viesti"

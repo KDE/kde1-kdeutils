@@ -72,7 +72,7 @@ msgstr "&Aseta paketin hakemisto..."
 
 #: kzip.cc:81
 msgid "Set &Tar Executable..."
-msgstr ""
+msgstr "Aseta &Tar ohjelma..."
 
 #: kzip.cc:82
 msgid "&File Adding Options..."
@@ -104,16 +104,15 @@ msgstr "Paketin hakemisto:"
 
 #: kzip.cc:329
 msgid "What runs GNU tar:"
-msgstr ""
+msgstr "Mikä suorittaa GNU tarrin:"
 
 #: kzip.cc:366 kzip.cc:568
 msgid "Unknown archive format"
 msgstr "Tuntematon pakkausformaatti"
 
 #: kzip.cc:392
-#, fuzzy
 msgid "Archive directory does not exist."
-msgstr "Paketin hakemisto"
+msgstr "Paketin hakemistoa ei ole olemassa."
 
 #: kzip.cc:408
 msgid "Archive Directory"

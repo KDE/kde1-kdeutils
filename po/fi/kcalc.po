@@ -63,7 +63,7 @@ msgstr "Kanta"
 
 #: kcalc.cpp:1524
 msgid "KCalc Configuraton"
-msgstr ""
+msgstr "KCalc asetukset"
 
 #: kcalc.cpp:1550
 msgid "Base type: long double\n"
@@ -76,6 +76,10 @@ msgid ""
 "recompile KCalc with 'long double' precision enabled. See the README for "
 "details."
 msgstr ""
+"Johtuen rikkin‰isit‰ glibc kirjastoista, KCalc:n tarkkuus on laskettu "
+"'long double':ta 'double':n. K‰ytt‰j‰t joilla on toimiva libc voivat "
+"voivat k‰‰nt‰‰ kcalcin 'long double' tarkkuudella. Lue README tiedostosta "
+"yksityiskohtaista tietoa."
 
 #: kcalc.cpp:1592
 msgid "Display Font"
