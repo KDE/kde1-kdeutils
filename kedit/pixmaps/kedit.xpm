@@ -1,25 +1,25 @@
 /* XPM */
-/* Drawn  by Nico Shirwing for the K Desktop Environment */
+/* Drawn for the K Desktop Environment */
 /* See http://www.kde.org */
 static char*kedit[]={
 "32 32 17 1",
-"# c #000000",
-"j c #c0c0c0",
-"k c #ffffff",
 "n c #808080",
-"o c #585858",
-"a c #008000",
-"l c #000080",
-"g c #808000",
-"b c #00c000",
-"m c #0000ff",
-"d c #ffffc0",
 "e c #ff8000",
-"c c #ffa858",
-"i c #404000",
-"f c #004000",
-"h c #004040",
+"a c #008000",
 ". c None",
+"h c #004040",
+"l c #000080",
+"d c #ffffc0",
+"j c #c0c0c0",
+"g c #808000",
+"o c #585858",
+"b c #00c000",
+"# c #000000",
+"c c #ffa858",
+"m c #0000ff",
+"f c #004000",
+"i c #404000",
+"k c #ffffff",
 "..................###...........",
 "................##ab#...........",
 "..............##baba#...........",
@@ -52,4 +52,3 @@ static char*kedit[]={
 "..........##aaoooff##...........",
 "............##aaa##.............",
 "..............###..............."};
-
