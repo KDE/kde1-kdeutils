@@ -165,10 +165,8 @@ void HexWidget::menuCallback(int item) {
 				     i18n("No")))
 		CurrentFile->save();
 	
-	QFileDialog *log=new QFileDialog;
-	QString fileName = log->getOpenFileName();
-	
-	open((const char*)fileName, READWRITE);
+	QString fileName = QFileDialog::getOpenFileName(QDir::currentDirPath() + "test.txt");
+	open(fileName, READWRITE);
 	break;
     }
     case ID_FILE_SAVE:
@@ -176,8 +174,7 @@ void HexWidget::menuCallback(int item) {
 	    CurrentFile->save();
 	break;
     case ID_FILE_SAVEAS: {
-	QFileDialog *log = new QFileDialog;
-	QString fileName = log->getSaveFileName();
+	QString fileName = QFileDialog::getSaveFileName();
 	
 	CurrentFile->setFileName(fileName.data());
 	CurrentFile->save();

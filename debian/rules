@@ -9,7 +9,6 @@ build:
 	  DO_NOT_COMPILE=kfloppy \
 	  ./configure --with-install-root=`pwd`/debian/tmp \
 	  --enable-debug --disable-rpath )
-	  sed -e "s-#define HAVE_LONG_DOUBLE 1-#undef HAVE_LONG_DOUBLE-" config.h > config.h.new && mv config.h.new config.h
  
 	make 
 
