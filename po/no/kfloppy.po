@@ -89,7 +89,7 @@ msgid ""
 "Please install KFloppy properly."
 msgstr ""
 "Kan ikke finne kfdformat\n"
-"kfdformat er en del av KFloppy programmet. \n"
+"kfdformat er en del av KFloppy-programmet. \n"
 "Vennligst sørg for at KFloppy er komplett installert."
 
 #: floppy.cpp:355
@@ -99,7 +99,7 @@ msgid ""
 "Please install KFloppy properly."
 msgstr ""
 "Kan ikke finne kmke2fs\n"
-"kmke2fs er en del av KFloppy programmet. \n"
+"kmke2fs er en del av KFloppy-programmet. \n"
 "Vennligst sørg for at KFloppy er komplett installert. "
 
 #: floppy.cpp:370
@@ -109,7 +109,7 @@ msgid ""
 "Please install KFloppy properly."
 msgstr ""
 "Kan ikke finne kmkdosfs\n"
-"kmkdosfs er en del av KFloppy programmet. \n"
+"kmkdosfs er en del av KFloppy-programmet. \n"
 "Vennligst sørg for at KFloppy er komplett installert. "
 
 #: floppy.cpp:430
