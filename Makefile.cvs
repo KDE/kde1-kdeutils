@@ -18,6 +18,7 @@ all:
 	touch stamp-h.in
 	rm -f ./SUBDIRS 
 	files=`ls -1`; \
+	( cd kfloppy/e2fs && autoconf )
 	dirs=`for i in $$files; do if test -d $$i; then echo $$i; fi; done`; \
 	for i in $$dirs; do \
 	echo $$i >> ./SUBDIRS; \
