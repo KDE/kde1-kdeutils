@@ -1,16 +1,17 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1998 Matthias Kalle Dalheimer
+# Danish translations for KDE Utils, karm
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Thomas Tanghus <tanghus@earthling.net>, 1998.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: karm 0.3\n"
+"Project-Id-Version: KDE UTILS/karm\n"
 "POT-Creation-Date: 1999-01-11 01:57+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Thomas Tanghus <tanghus@earthling.net>\n"
-"Language-Team: da <kde-i18n@kde.org>\n"
+"PO-Revision-Date: 1999-01-26 14:42+0100\n"
+"Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
+"Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
-"Content-Transfer-Encoding: iso-8859-1\n"
+"Content-Type: text/plain; charset=ISO_8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: adddata.cpp:38
 msgid "Task Name"
@@ -38,7 +39,7 @@ msgstr ""
 
 #: karm.cpp:119
 msgid "Oh No!"
-msgstr "Oh nej!"
+msgstr "Åh nej!"
 
 #: karm.cpp:205
 msgid ": Add New Task"
@@ -102,10 +103,10 @@ msgstr "Ur startet"
 
 #: top.cpp:150
 msgid "Preferences"
-msgstr ""
+msgstr "Præferencer"
 
 #: top.cpp:194
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s %s -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
@@ -115,7 +116,7 @@ msgstr ""
 " 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Okt. 1997\n"
 "\n"
-"The K Desktop Environment"
+"K Desktop Miljøet"
 
 #: top.cpp:200
 msgid "&Clock"
@@ -127,7 +128,7 @@ msgstr "&Projekt"
 
 #: top.cpp:209
 msgid "&Preferences..."
-msgstr ""
+msgstr "&Præferencer..."
 
 #: top.cpp:223
 msgid "S&top"
@@ -135,17 +136,4 @@ msgstr "S&top"
 
 #: top.cpp:229
 msgid "&New"
-msgstr ""
-
-#, fuzzy
-#~ msgid "&About"
-#~ msgstr "Om "
-
-#~ msgid "About "
-#~ msgstr "Om "
-
-#~ msgid "&Contents"
-#~ msgstr "&Indhold"
-
-#~ msgid "&Start"
-#~ msgstr "&Start"
+msgstr "&Ny"

@@ -1,0 +1,155 @@
+# Danish translations for KDE Utils, klpq
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Erik Kjær Pedersen <erik@binghamton.edu>, 1998.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: KDE UTILS/klpq\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"PO-Revision-Date: 1999-01-28 14:42+0100\n"
+"Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
+"Language-Team: da <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO_8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main.cpp:178
+msgid "Sorry, can't open your printcap file."
+msgstr "Beklager, kan ikke åbne din printcap-fil."
+
+#: main.cpp:183
+msgid "Sorry, unable to parse your printcap."
+msgstr "Beklager, kan ikke tolke din printcap."
+
+#: main.cpp:184
+msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
+msgstr "E-post venligst din printcap til Christoph.Neerfeld@home.ivm.de"
+
+#: klpq.cpp:89
+msgid "Printer"
+msgstr "Skriver"
+
+#: klpq.cpp:93
+msgid "Queuing"
+msgstr "I kø"
+
+#: klpq.cpp:97
+msgid "Printing"
+msgstr "Udskriver"
+
+#: klpq.cpp:101
+msgid "Update"
+msgstr "Opdater"
+
+#: klpq.cpp:119
+msgid "Rank"
+msgstr "Rangering"
+
+#: klpq.cpp:120
+msgid "Owner"
+msgstr "Ejer"
+
+#: klpq.cpp:121
+msgid "Job"
+msgstr "Job"
+
+#: klpq.cpp:123
+msgid "Size"
+msgstr "Størrelse"
+
+#: klpq.cpp:143 klpq.cpp:219
+msgid "Make Top"
+msgstr "Lav top"
+
+#: klpq.cpp:152
+msgid "Auto"
+msgstr "Auto"
+
+#: klpq.cpp:195
+msgid "&Auto update"
+msgstr "&Auto-opdater"
+
+#: klpq.cpp:196
+msgid "&Spooler"
+msgstr "&Spole"
+
+#: klpq.cpp:199
+#, c-format
+msgid ""
+"Klpq %s\n"
+"(C) by Christoph Neerfeld\n"
+"chris@kde.org"
+msgstr ""
+"Klpq %s\n"
+"(C) af Christoph Neerfeld\n"
+"chris@kde.org"
+
+#: klpq.cpp:204
+msgid "&Config"
+msgstr "&Indstil"
+
+#: klpq.cpp:390
+#, c-format
+msgid "Do you really want to remove job No %d"
+msgstr "Vil du virkelig fjerne job nr. %d"
+
+#: klpq.cpp:410
+#, c-format
+msgid ""
+"Do you really want to move job No\n"
+"%d\n"
+"on top of queue"
+msgstr ""
+"Vil du virkelig flytte job nr.\n"
+"%d\n"
+"hen først i køen"
+
+#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
+msgid "Permission denied"
+msgstr "Tilladelse nægtet"
+
+#: klpq.cpp:559 klpq.cpp:565 klpq.cpp:580
+msgid ""
+"This is a privileged command\n"
+"and you do not have permission to execute it."
+msgstr ""
+"Dette er en priviligert kommando\n"
+"og du har ikke ret til at udføre den."
+
+#: ConfAutoUpdate.cpp:10
+msgid "Configure Auto Update"
+msgstr "Indstil auto-opdater"
+
+#: ConfAutoUpdateData.cpp:17
+msgid "Update frequency in seconds:"
+msgstr "Opdateringsfrekvens i sekunder:"
+
+#: klpqspooler.cpp:197 klpqspooler.cpp:267
+msgid "Can't find your lpc program !"
+msgstr "Kan ikke finde dit lpc-program !"
+
+#: klpqspooler.cpp:198 klpqspooler.cpp:268
+msgid ""
+"Sorry, I can't find your lpc program.\n"
+"Please check the configuration under Config->Spooler."
+msgstr ""
+"Beklager, jeg kan ikke finde dit lpc-program.\n"
+"Undersøg venligst dine indstillinger under Indstil->Spole."
+
+#: FirstStart.cpp:21 SpoolerConfig.cpp:21 SpoolerConfigData.cpp:151
+msgid "Select your spooling system"
+msgstr "Vælg dit spolesystem"
+
+#: FirstStartData.cpp:42
+msgid ""
+"Please select the spooling system you use. Most systems use the BSD spooler. "
+"So if you don't know which spooler is installed on your system, BSD is "
+"probably a good choice."
+msgstr ""
+"Vælg venligst det spolesystem dit system bruger. De fleste systemer bruger "
+"BSD-spolen. BSD er formodentlig et godt valg hvis du ikke ved hvad slags "
+"spole som er installeret."
+
+#: SpoolerConfigData.cpp:99
+msgid "Paths of spooling commands:"
+msgstr "Sti til spolekommandoer:"

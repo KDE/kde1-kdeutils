@@ -1,9 +1,17 @@
+# Danish translations for KDE Utils, khexedit
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Thomas Tanghus <tanghus@earthling.net>, 1998.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: knotes\n"
+"Project-Id-Version: KDE UTILS/khexedit\n"
 "POT-Creation-Date: 1998-11-13 02:01+0100\n"
-"PO-Revision-Date: 1998-02-02 19:17+01\n"
-"Last-Translator: Thomas Tanghus <tanghus@earthling.net>\n"
+"PO-Revision-Date: 1999-01-28 14:42+0100\n"
+"Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
+"Language-Team: da <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO_8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: hexdata.cpp:39
 #, c-format
