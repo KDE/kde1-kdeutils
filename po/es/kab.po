@@ -1,0 +1,106 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"PO-Revision-Date: 1998-10-18 18:37+0200\n"
+"Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
+"First-Translator: Alonso Lara <jlaram@nexo.es>\n"
+
+#: AddressBookAbout.cpp:33
+msgid "About addressbook"
+msgstr "Sobre addressbook"
+
+#: AddressBookAbout.cpp:43
+msgid "Image load failure"
+msgstr "Fallo en la carga de la imagen"
+
+#: AddressBookAbout.cpp:44
+msgid "Could not load addressbook logo image!"
+msgstr "No se pudo cargar el logo de addressbook!"
+
+#: AddressBookAbout.cpp:46
+msgid ""
+"Here you would see\n"
+"the addressbook logo."
+msgstr ""
+"Aquí debería ver el\n"
+"logo de Addressbook."
+
+#: toplevelwidget.cc:35 toplevelwidget.cc:43
+msgid "Initialization failure"
+msgstr "Fallo de inicialización"
+
+#: toplevelwidget.cc:37
+msgid "The programs menubar could not be constructed."
+msgstr "La barra de menú de programas no pudo ser construida."
+
+#: toplevelwidget.cc:45
+msgid "The programs statusbar could not be constructed."
+msgstr "La barra de estado de programas no pudo ser construida."
+
+#: toplevelwidget.cc:58
+msgid "KDE addressbook."
+msgstr "KDE addressbook."
+
+#: toplevelwidget.cc:76
+msgid "HTML table"
+msgstr "Tabla HTML"
+
+#: toplevelwidget.cc:85
+msgid "Export"
+msgstr "Exportar"
+
+#: toplevelwidget.cc:87
+msgid "Search &entries"
+msgstr "Buscar &entradas"
+
+#: toplevelwidget.cc:89
+msgid "&Print"
+msgstr "Im&primir"
+
+#: toplevelwidget.cc:101
+msgid "&Add entry"
+msgstr "&Añadir entrada"
+
+#: toplevelwidget.cc:103
+msgid "&Edit entry"
+msgstr "&Editar entrada"
+
+#: toplevelwidget.cc:105
+msgid "&Remove entry"
+msgstr "&Suprimir entrada"
+
+#: toplevelwidget.cc:117
+msgid "&Mail"
+msgstr "&Correo"
+
+#: toplevelwidget.cc:119
+msgid "&Talk"
+msgstr "C&harlar"
+
+#: toplevelwidget.cc:121
+msgid "&Browse"
+msgstr "&Navegar"
+
+#: toplevelwidget.cc:126
+msgid "Help on Addressbook"
+msgstr "Ayuda en Addressbook"
+
+#: toplevelwidget.cc:131
+msgid "About Addressbook"
+msgstr "Sobre Addressbook"
+
+#: toplevelwidget.cc:133
+msgid "About &Qt"
+msgstr "Sobre &Qt"
+
+#: toplevelwidget.cc:134
+msgid "About &KDE"
+msgstr "Sobre &KDE"
+
+#: toplevelwidget.cc:141
+msgid "&About"
+msgstr "&Sobre"
+
+#: toplevelwidget.cc:192
+msgid "About Qt"
+msgstr "Sobre Qt"
