@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kuser\n"
+"POT-Creation-Date: 1998-06-16 14:24+0200\n"
+"PO-Revision-Date: 1998-03-23 00:00+0100\n"
+"Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
+
+#: adddlg.cc:11
+msgid "Add File Options"
+msgstr "Opções de Adição de Arquivos"
+
+#: adddlg.cc:22
+msgid "Store Full Path"
+msgstr "Armazenar Caminho Completo"
+
+#: adddlg.cc:25
+msgid "Only Add Newer Files"
+msgstr "Somente arquivos adicionados recentemente"
+
+#: extractdlg.cc:13
+msgid "Extract Options"
+msgstr "Opções de Extração"
+
+#: extractdlg.cc:17
+msgid "Destination"
+msgstr "Destino"
+
+#: extractdlg.cc:33
+msgid "Preserve Permissions"
+msgstr "Preservar Permissões"
+
+#: extractdlg.cc:36
+msgid "Filenames to Lowercase"
+msgstr "Nome dos Arquivos para Minúsculas"
+
+#: extractdlg.cc:39
+msgid "All Files"
+msgstr "Todos"
+
+#: extractdlg.cc:42
+msgid "Selected File"
+msgstr "Selecionado"
+
+#: extractdlg.cc:45
+msgid "Pattern"
+msgstr "Padrão"
+
+#: kzip.cc:70
+msgid "&Extract To..."
+msgstr "&Extrair Para..."
+
+#: kzip.cc:75
+msgid "E&xtract..."
+msgstr "E&xtrair"
+
+#: kzip.cc:80
+msgid "&Set Archive Directory..."
+msgstr "&Definir Diretório de Arquivo..."
+
+#: kzip.cc:81
+msgid "Set &Tar Executable..."
+msgstr "Definir Executável &Tar ..."
+
+#: kzip.cc:82
+msgid "&File Adding Options..."
+msgstr "Opções de Adição de &Arquivos"
+
+#: kzip.cc:128
+msgid "Welcome to KZip..."
+msgstr "Bem-vindo ao KZip..."
+
+#: kzip.cc:235
+msgid "Can't create archive of that type"
+msgstr "Não foi possível criar arquivo desse tipo"
+
+#: kzip.cc:257
+msgid "Create or open an archive first"
+msgstr "Crie ou abra um arquivo primeiro"
+
+#: kzip.cc:300
+msgid "Can't add directories with this archive type"
+msgstr "Impossível adicionar diretórios com este tipo de arquivo"
+
+#: kzip.cc:302
+msgid "Error saving to archive"
+msgstr "Erro ao gravar para o arquivo"
+
+#: kzip.cc:312
+msgid "Archive Dir:"
+msgstr "Diretório de Arquivo:"
+
+#: kzip.cc:329
+msgid "What runs GNU tar:"
+msgstr "O que roda o GNU tar:"
+
+#: kzip.cc:366 kzip.cc:568
+msgid "Unknown archive format"
+msgstr "Formato de arquivo desconhecido"
+
+#: kzip.cc:392
+msgid "Archive directory does not exist."
+msgstr "Diretório do arquivo não existe."
+
+#: kzip.cc:408
+msgid "Archive Directory"
+msgstr "Diretório de Arquivo"
+
+#~ msgid "Files"
+#~ msgstr "Arquivos"
