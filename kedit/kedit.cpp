@@ -28,8 +28,8 @@
 #include <qpainter.h>
 #include <qdir.h>
 
-#include "urldlg.h"
 #include "kedit.h"
+#include "urldlg.h"
 #include "filldlg.h"
 #include "kcolordlg.h"
 #include "mail.h"
