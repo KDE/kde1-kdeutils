@@ -1,12 +1,10 @@
 /*
   $Id$
  
-  kedit, a simple text editor for the KDE project
+  KEdit, a simple text editor for the KDE project
 
   Copyright (C) 1996 Bernd Johannes Wuebben   
                      wuebben@math.cornell.edu
-  
-  Parts: Alexander Sanda <alex@darkstar.ping.at>
   
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -416,6 +414,9 @@ public:
 
     void       saveasfile(char* name);
 
+    bool 	format(QStrList& );
+    void 	getpar(int line,QStrList& par);
+
 signals:
 
     /// This signal is emitted when the document in the textwidget has changed
@@ -449,6 +450,7 @@ signals:
 	     He can do so by pressing the "Insert" Button on a PC keyboard.
 	     */
     void 	toggle_overwrite_signal();
+
 
 
 
@@ -511,6 +513,7 @@ private:
     QPopupMenu  *rb_popup;
     KApplication* mykapp;
     QFileDialog *file_dialog;
+    QStrList	par;
 
     QString 	filename;
     QString     pattern;
@@ -522,7 +525,7 @@ private:
     bool	killing;
     bool 	killtrue;
     bool 	lastwasanewline;
-
+    int		cursor_offset;
     int 	edit_mode;
     int 	last_search;
     int 	last_replace;

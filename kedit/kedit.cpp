@@ -1,16 +1,9 @@
     /*
 
     $Id$
-
-    Requires the Qt widget libraries, available at no cost at 
-    http://www.troll.no
        
     Copyright (C) 1997 Bernd Johannes Wuebben   
                        wuebben@math.cornell.edu
-
-    Parts
-    Copyright (C) 1997 Alexander Sanda (alex@darkstar.ping.at)
-
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -181,10 +174,12 @@ void TopLevel::setupMenuBar(){
   colors->insertItem(klocale->translate("&Background Color"),
 		     this, SLOT(set_background_color()));
 
-  help->insertItem (klocale->translate("&About..."),
-		    this, 	SLOT(about()));
   help->insertItem (klocale->translate("&Help"),
 		    this, 	SLOT(helpselected()));
+  help->insertSeparator();
+  help->insertItem (klocale->translate("&About..."),
+		    this, 	SLOT(about()));
+
   
   file->insertItem (klocale->translate("Ne&w..."),
 		    this, 	SLOT(file_new()));
@@ -252,7 +247,7 @@ void TopLevel::setupMenuBar(){
 		      this,	SLOT(font()));
   options->insertItem(klocale->translate("Colors"), colors);
   options->insertSeparator(-1);
-  options->insertItem(klocale->translate("Misc &Options..."),
+  options->insertItem(klocale->translate("KEdit &Options..."),
 		      this, 	SLOT(fill_column_slot()));
   indentID = options->insertItem(klocale->translate("Auto &Indent"), 
 				 this, SLOT(toggle_indent_mode()));

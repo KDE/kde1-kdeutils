@@ -3,16 +3,10 @@
   $Id$
  
   kedit, a simple text editor for the KDE project
-
-  Requires the Qt widget libraries, available at no cost at 
-  http://www.troll.no
   
   Copyright (C) 1997 Bernd Johannes Wuebben   
   wuebben@math.cornell.edu
 
-  parts:
-  Alexander Sanda <alex@darkstar.ping.at>  
- 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
   the Free Software Foundation; either version 2 of the License, or
@@ -36,7 +30,7 @@
 #include <klocale.h>
 #include <kapp.h>
 
-#include "keditcl.moc"
+
 
 
 //////////////////////////////////////////////////////////////////////////

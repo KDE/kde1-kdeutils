@@ -2,16 +2,10 @@
 
   $Id$
  
-  kedit, a simple text editor for the KDE project
-
-  Requires the Qt widget libraries, available at no cost at 
-  http://www.troll.no
+  KEdit, a simple text editor for the KDE project
   
   Copyright (C) 1997 Bernd Johannes Wuebben   
   wuebben@math.cornell.edu
-
-  parts:
-  Alexander Sanda <alex@darkstar.ping.at>  
  
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -38,6 +32,7 @@
 #include <kapp.h>
 
 
+#include "keditcl.moc"
 
 KEdit::KEdit(KApplication *a, QWidget *parent, const char *name, 
 	     const char *fname) : QMultiLineEdit(parent, name){
@@ -135,7 +130,7 @@ int KEdit::loadFile(QString name, int mode){
     if(!info.exists()){
       QMessageBox::warning(
 		  this,
-		  klocale->translate("Sorry:"),
+		  klocale->translate("Sorry"),
 		  klocale->translate("The specified File does not exist"),
 		  klocale->translate("OK"),
 		  "",
@@ -599,7 +594,6 @@ void KEdit::computePosition(){
 
 void KEdit::keyPressEvent ( QKeyEvent *e){
 
-  QString* pstring;
 
   if ((e->state() & ControlButton ) && (e->key() == Key_K) ){
 
@@ -669,108 +663,120 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
 
   killing = false;
 
-  if (e->key() == Key_Tab){
-    if (isReadOnly())
-      return;
-    QMultiLineEdit::insertChar((char)'\t');
-    setModified();
-    emit CursorPositionChanged();
-    return;
-  }
-
-
   if (e->key() == Key_Insert){
     this->setOverwriteMode(!this->isOverwriteMode());
     emit toggle_overwrite_signal();
     return;
   }
-  
-  //printf("fill %d word %d value %d\n", fill_column_is_set,
-  //   word_wrap_is_set,fill_column_value);
 
   if(fill_column_is_set && word_wrap_is_set ){
 
     // word break algorithm
-    if(isprint(e->ascii())){
- 
-      // printf("col_pos %d\n",col_pos);
-      if( col_pos +1 > fill_column_value - 1){ 
+    if(isprint(e->ascii()) || e->key() == Key_Tab || e->key() == Key_Return || 
+       e->key() == Key_Enter){
 
-	if (e->ascii() == 32 ){ // a space we can just break here
+	if (e->key() == Key_Return || e->key() == Key_Enter){ 
 	  mynewLine();
-	  //  setModified();
-	  emit CursorPositionChanged();
-	  return;	 
-	}
-
-	pstring = getString(line_pos);
-
-	// find a space to break at
-	int space_pos = pstring->findRev(" ", -1,TRUE);
-
-	if( space_pos == -1 ){ 
-	  
-	  // no space to be found on line, just break, what else could we do?
-	  mynewLine();
-	  computePosition();  
-
 	}
 	else{
-
-	  // Can't use insertAt('\n'...) due to a bug in Qt 1.2, and must resort
-	  // to the following work around:
-
-	  // go back to the space
-
-	  focusOutEvent(&QFocusEvent(Event_FocusOut));
-
-	  for(uint i = 0; i < (pstring->length() - space_pos -1 ); i++){
-	    cursorLeft();
+	  if (e->key() == Key_Tab){
+	    if (isReadOnly())
+	      return;
+	    QMultiLineEdit::insertChar((char)'\t');
 	  }
-	  
-	  // insert a newline there
-
-	  mynewLine();
-	  end(FALSE);
-
-	  focusOutEvent(&QFocusEvent(Event_FocusIn));
-
-	  computePosition();
+	  else{
+	    QMultiLineEdit::keyPressEvent(e); 
+	  }
 	}
-      }
 
-      QMultiLineEdit::keyPressEvent(e);
-      // setModified();
-      emit CursorPositionChanged();
-      return;
-    }
-    else{ // not isprint that is some control character or some such
-  
-      if(e->key() == Key_Return || e->key() == Key_Enter){
-    
-	mynewLine();
-	//setModified();
+	int templine,tempcol;
+	getCursorPosition(&templine,&tempcol);	
+	//	printf("GETCURSOR %d %d\n",templine,tempcol);
+	
+	computePosition();
+	//	printf("LINEPOS %d\n",col_pos);
+	setAutoUpdate(false);
+	
+	bool did_break = format(par);
+	int num_of_rows = 0;
+
+	if(did_break){
+
+	  QString newpar;
+
+	  for( int k = 0; k < (int)par.count(); k++){
+	    newpar += par.at(k);
+	    if(k != (int)par.count() -1 )
+	      newpar += '\n';
+	  }
+	  insertLine(newpar,templine);
+	  //printf("%s\n",newpar.data());
+	  newpar = "";
+	  num_of_rows = par.count();
+	  par.clear();
+
+
+	  if(col_pos +1 > fill_column_value){
+	    setCursorPosition(templine+1,cursor_offset);
+	    //	    printf("SETCURSOR1 %d %d\n",templine +1,cursor_offset);
+	  }
+	  else{
+	    setCursorPosition(templine,tempcol);
+	    //	    printf("SETCURSOR2 %d %d\n",templine ,tempcol);
+
+	  }
+	}
+
+	setAutoUpdate(true);
+
+	// Let's try to reduce flicker by updating only what we need to update
+	// printf("NUMOFROWS %d\n",num_of_rows);
+
+	if(did_break){
+	  int y1  = -1;
+	  int y2  = -1;
+
+	  rowYPos(templine,&y1);
+	  rowYPos(templine + num_of_rows -1,&y2);
+
+	  if(y1 == -1)
+	    y1 = 0;
+
+	  if(y2 == -1)
+	    y2 = this->height();
+
+	  repaint(0,y1,this->width(),y2);
+	}
+
+	computePosition();
+	setModified();
 	emit CursorPositionChanged();
 	return;
-      }
-
-      QMultiLineEdit::keyPressEvent(e);
-      // setModified();
-      emit CursorPositionChanged();
-      return;
-
     }
+    
+    QMultiLineEdit::keyPressEvent(e); 
+    computePosition();
+    emit CursorPositionChanged();
+    return;
+
   } // end do_wordbreak && fillcolumn_set
- 
+  
 
   // fillcolumn but no wordbreak
 
   if (fill_column_is_set){
 
+    if (e->key() == Key_Tab){
+      if (isReadOnly())
+	return;
+      QMultiLineEdit::insertChar((char)'\t');
+      emit CursorPositionChanged();
+      return;
+    }
+
     if(e->key() == Key_Return || e->key() == Key_Enter){
     
       mynewLine();
-      // setModified();
       emit CursorPositionChanged();
       return;
 
@@ -778,15 +784,13 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
 
     if(isprint(e->ascii())){
     
-      if( col_pos +1> fill_column_value - 1){ 
+      if( col_pos >= fill_column_value ){ 
 	  mynewLine();
-	  //  setModified();
       }
 
     }
 
     QMultiLineEdit::keyPressEvent(e);
-    //setModified();
     emit CursorPositionChanged();
     return;
 
@@ -796,20 +800,175 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
   if(e->key() == Key_Return || e->key() == Key_Enter){
     
     mynewLine();
-    //setModified();
     emit CursorPositionChanged();
     return;
 
   }
 
+  if (e->key() == Key_Tab){
+    if (isReadOnly())
+      return;
+    QMultiLineEdit::insertChar((char)'\t');
+    emit CursorPositionChanged();
+    return;
+  }
+
   QMultiLineEdit::keyPressEvent(e);
-  //setModified();
   emit CursorPositionChanged();
 
 }
 
 
+bool KEdit::format(QStrList& par){
+
+  QString mstring;
+  QString pstring;
+
+  int space_pos;
+  int right; /* char to right of space */
+
+  int templine,tempcol;
+
+  getCursorPosition(&templine,&tempcol);
+  mstring = textLine(templine);
+
+  /*  if((int)mstring.length() <= fill_column_value)
+    return false;*/
+
+  int l = 0;
+  int k = 0;
+
+  for( k = 0, l = 0; k < (int) mstring.length() && l <= fill_column_value; k++){
+    
+    if(mstring.data()[k] == '\t')
+      l +=8 - l%8;
+    else
+      l ++;
+
+  }
+
+  if( l <= fill_column_value)
+    return false;
+
+  getpar(templine,par);
+
+  for ( int i = 0 ; i < (int)par.count() ; i ++){
+
+    k = 0;
+    l = 0;
+    int last_ok = 0;
+    pstring = par.at(i);
+
+    /*    if((int)pstring.length() <= fill_column_value)
+      break;*/
+
+    for( k = 0, l = 0; k < (int) pstring.length() && l <= fill_column_value; k++){
+    
+      if(pstring.data()[k] == '\t')
+        l +=8 - l%8;
+      else
+	l ++;
+
+      if( l <= fill_column_value )
+	last_ok = k;
+    }
+
+    if( l <= fill_column_value)
+      break;
+
+    mstring = pstring.left( k );
+    space_pos = mstring.findRev( " ", -1, TRUE );
+    if(space_pos == -1) // well let try to find a TAB then ..
+          space_pos = mstring.findRev( "\t", -1, TRUE );
+
+    right = col_pos - space_pos - 1;
+  
+    if( space_pos == -1 ){ 
+
+      // no space to be found on line, just break, what else could we do?
+      par.remove(i);
+      par.insert(i,pstring.left(last_ok+1));
+
+      if(i < (int)par.count() - 1){
+	QString temp1 = par.at(i+1);
+	if(autoIndentMode){
+	  temp1 = temp1.mid(prefixString(temp1).length(),temp1.length());
+	}
+	temp1 = pstring.mid(last_ok +1,pstring.length()) + (QString) " " + temp1;
+	if(autoIndentMode)
+	  temp1 = prefixString(pstring) + temp1;
+	par.remove(i+1);
+	par.insert(i+1,temp1);
+
+      }
+      else{
+	if(autoIndentMode)
+	  par.append(prefixString(pstring) + pstring.mid(last_ok + 1,pstring.length()));
+	else
+	  par.append(pstring.mid(last_ok +1,pstring.length()));
+      }
+      if(i==0){
+	cursor_offset = pstring.length() - last_ok -1;
+	if(autoIndentMode)
+	  cursor_offset += prefixString(pstring).length();
+	//printf("CURSOROFFSET1 %d\n",cursor_offset);
+      }
+    }
+    else{
+    
+      par.remove(i);
+      par.insert(i,pstring.left(space_pos));
+
+      if(i < (int)par.count() - 1){
+	QString temp1 = par.at(i+1);
+	if(autoIndentMode){
+	  temp1 = temp1.mid(prefixString(temp1).length(),temp1.length());
+	}
+	temp1 = pstring.mid(space_pos +1,pstring.length()) + (QString) " " + temp1;
+	if(autoIndentMode)
+	  temp1 = prefixString(pstring) + temp1;
+	par.remove(i+1);
+	par.insert(i+1,temp1);
+      }
+      else{
+	if(autoIndentMode)
+	  par.append(prefixString(pstring) + pstring.mid(space_pos + 1,pstring.length()));
+	else
+	  par.append(pstring.mid(space_pos+1,pstring.length()));
+      }
+      if(i==0){
+	cursor_offset = pstring.length() - space_pos -1;
+	if(autoIndentMode)
+	  cursor_offset += prefixString(pstring).length();
+	//	printf("CURSOROFFSET2 %d\n",cursor_offset);
+      }
+    }
+    
+  }
+
+  return true;
+
+}
+
+
+void KEdit::getpar(int line,QStrList& par){
+
+  QString linestr;
+
+  par.clear();
+      
+  for(int i = line ; i < numLines() ; i++){
+    linestr = textLine(line);
+    if(linestr.isEmpty())
+      break;
+    par.append(linestr);
+    removeLine(line);
+  }
+
+}
+
 void KEdit::mynewLine(){
+
 
   if (isReadOnly())
     return;
@@ -821,11 +980,12 @@ void KEdit::mynewLine(){
     return;
   }
 
-  int line,col;
+  int line,col, line2;
   bool found_one = false;
 
   getCursorPosition(&line,&col);
-  
+  line2 = line;
+
   QString string, string2;
 
   while(line >= 0){
@@ -846,23 +1006,8 @@ void KEdit::mynewLine(){
   // on the next line. 
 
   if(found_one){
-
-    // don't ask my why I programmed it this way. I am quite sick of the Qt 1.2
-    // MultiLineWidget -- It is anoyingly buggy. 
-    // I have to put in obscure workarounds all over the place. 
-
-    focusOutEvent(&QFocusEvent(Event_FocusOut));
     newLine();
-    
-    for(uint i = 0; i < string.length();i++){
-      insertChar(string.data()[i]);
-    }
-
-    // this f***king doesn't work.
-    // insertAt(string.data(),line + 1,0);
-
-    focusInEvent(&QFocusEvent(Event_FocusIn));
-
+    insertAt(string.data(),line2 + 1,0);
   }
   else{
     newLine();

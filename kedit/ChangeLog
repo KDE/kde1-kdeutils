@@ -1,5 +1,14 @@
 Sat Dec  6 03:17:49 1997  Bernd Johannes Wuebben  <wuebben@petit.cornell.edu>
 
+	* Finally implemented word wrap correctly. Should work fine now
+	  under both auto-indent-mode and normal-mode. I expect the 	
+	  implementation
+	  to still have a little quirk here and there, but in general it should
+	  work now. It was quite a bit of work for only a few lines of code.
+	  Something is still amiss with the Qt mline widget -- it gave me lots
+	  of problems and most of the implemntation turned out to be an ugly
+	  trial and error procedure.
+
 	* keditcl1.cpp: implemented control-k control-y emacs like kill buffer
 	  threw out KEdit.cpp KEdit.h and introduced keditcl.h keditcl1.cpp
 	  keditcl2.cpp

@@ -1,15 +1,17 @@
+kedit 0.7
+=========
+
+	Fixed up word wrap in auto-indent and normal mode and implemented
+	emacs still ctrl-k ctrl-y kill-ring. KEdit should be quite usable
+	now.
+	
+
 kedit 0.5
 =========
 
 This is release 0.5 of KEdit.
 
-Notes:
-
-I managed to contact Alex, and we agreed that it is best if we 
-called kedit+ kedit. So from now on this editor goes under the
-name kedit.
-
-There were equally many internal as external changes. The biggest
+There are quite a number internal as external changes. The biggest
 problem were a number of bugs that the underlying QMultiLineWidget
 exhibits in Qt 1.2.  For anything I started, be it find, replace,
 word-wrap, indent-mode, loading, saving, I hit upon bugs in the
