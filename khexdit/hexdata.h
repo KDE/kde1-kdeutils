@@ -9,10 +9,10 @@ public:
     load(const char *filename);
     save(const char *filename);
 
-    uchar operator[] (unsigned long i) { return hexdata[i]; }
-    uchar byteAt(unsigned long i) { return hexdata[i]; }
+    uchar operator[] (unsigned long i) const { return hexdata[i]; }
+    uchar byteAt(unsigned long i) const;
 
-    ulong size() { return data_size; }
+    ulong size() const { return data_size; }
     void changeByte(ulong i, uchar value) { hexdata[i] = value; }
 		    
 		    

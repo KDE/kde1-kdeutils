@@ -18,6 +18,13 @@ int HexData::save(const char *filename) {
     return 0;
 }
 
+uchar HexData::byteAt(unsigned long i) const {
+    if (i < data_size)
+	return hexdata[i]; 
+    warning("HexData: index out of range");
+    return 0;
+}
+
 int HexData::load(const char *Filename) {
     QString fileString(Filename);
     QFile file(fileString);

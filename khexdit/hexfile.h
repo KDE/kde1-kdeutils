@@ -97,6 +97,7 @@ protected:
     void calcScrolls();
     void calcCurrentByte();
     QPoint translate(QPoint pos);
+    ulong indexOf(QPoint &p);
 
 public slots:
     void scrolled(int);

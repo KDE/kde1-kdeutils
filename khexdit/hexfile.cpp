@@ -437,12 +437,16 @@ void HexFile::mouseReleaseEvent (QMouseEvent *e) {
 }
 
 void HexFile::mousePressEvent (QMouseEvent *e) {
+
     startDrag = translate(e->pos());
+    if (indexOf(startDrag) > data->size()) 
+	startDrag = nullPoint;
+
     if (draging) {
 	draging = false;
 	fillPixmap();
 	repaint(false);
-	endDrag = QPoint(-1,-1);
+	endDrag = nullPoint;
     }
 }
 
@@ -456,6 +460,10 @@ inline int min(int i, int j) {
 
 void HexFile::mouseMoveEvent ( QMouseEvent *e ) {
     QPoint tmp = translate(e->pos());
+
+    if (indexOf(tmp) > data->size())
+	return;
+
     if (tmp == endDrag)
 	return;
 
@@ -681,11 +689,15 @@ void HexFile::paintEvent(QPaintEvent *p) {
     }
 }
 
+ulong HexFile::indexOf(QPoint &p) {
+    return lineoffset + 16 * p.y() + p.x();
+}
+
 void HexFile::copyClipBoard() {
     QString tmp;
     QClipboard *clp = QApplication::clipboard();
-    int start = lineoffset + 16 * minDrag->y() + minDrag->x();
-    int end = lineoffset + 16 * maxDrag->y() + maxDrag->x();
+    int start = indexOf(*minDrag);
+    int end = indexOf(*maxDrag);
     for (int i=start; i <= end; i+=2) {
 	char buffer[6];
 	sprintf(buffer, "%02x%02x ",data->byteAt(i), data->byteAt(i+1));
