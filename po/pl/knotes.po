@@ -5,8 +5,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes \n"
 "POT-Creation-Date: 1999-03-09 01:44+0100\n"
-"PO-Revision-Date: 1999-01-24 16:08+0100\n"
+"PO-Revision-Date: 1999-04-13 22:19+0200\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
+"Language-Team: Polish <pl@li.org>\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
 #: knotes.cpp:265
@@ -75,7 +77,7 @@ msgstr "Ustawienia domy¶lne..."
 
 #: knotes.cpp:340
 msgid "Dock in panel"
-msgstr ""
+msgstr "Dokuj w panelu"
 
 #: knotes.cpp:368
 msgid "Insert Date"
@@ -368,11 +370,9 @@ msgstr ""
 "Proszê wybraæ inn± nazwê"
 
 #: docking.cpp:48
-#, fuzzy, c-format
+#c-format
 msgid "Could not load %s !"
-msgstr ""
-"Nie mo¿na odczytaæ:\n"
-" %s"
+msgstr "Nie mo¿na za³adowaæ %s !"
 
 #: docking.cpp:68
 msgid "Change Defaults"

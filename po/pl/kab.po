@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kab\n"
 "POT-Creation-Date: 1999-03-24 02:39+0100\n"
-"PO-Revision-Date: 1999-01-18 23:26+0100\n"
+"PO-Revision-Date: 1999-04-13 22:14+0200\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr "napsany i utrzymywany przez"
 
 #: AddressBookAboutData.cpp:62
 msgid "kab 1.0, May 1999"
-msgstr ""
+msgstr "kab 1.0, Maj 1999"
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
