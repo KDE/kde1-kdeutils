@@ -2,7 +2,7 @@
  * This file implements the about-dialog.
  * 
  * the KDE addressbook.
- * copyright:  (C) Mirko Sucker, 1998
+ * copyright:  (C) Mirko Sucker, 1998, 1999
  * license:    GNU Public License, Version 2
  * mail to:    Mirko Sucker <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class,

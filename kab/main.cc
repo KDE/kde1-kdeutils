@@ -1,7 +1,7 @@
 /* The main-function for the addressbook application 
  *
- * the Configuration Database library
- * copyright:  (C) Mirko Sucker, 1998
+ * the KDE addressbook
+ * copyright:  (C) Mirko Sucker, 1998, 1999
  * license:    GNU Public License, Version 2
  * mail to:    Mirko Sucker <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class, Qt > 1.33,
@@ -45,7 +45,7 @@ int main(int argc, char** argv)
   register bool GUARD; GUARD=true;
   LG(GUARD, "addressbook main: starting.\n");
   // ########################################################  
-  KApplication app(argc, argv, "kab");
+  KApplication *app=new KApplication(argc, argv, "kab");
   int rc;
   // -----
   AuthorEmailAddress="mirko@kde.org"; // static, public
@@ -60,11 +60,11 @@ int main(int argc, char** argv)
   atexit(exit_handler);
   LG(GUARD, "addressbook main: creating addressbook.\n");
   ABTLWidget* db=new ABTLWidget;
-  app.setMainWidget(db);
+  app->setMainWidget(db);
   db->show();
   LG(GUARD, "addressbook main: executing X application.\n");
-  rc=app.exec();
-  delete db;
+  rc=app->exec();
+  // delete db;
   // -----
   return rc;
   // ########################################################

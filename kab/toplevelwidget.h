@@ -2,12 +2,11 @@
  * Qt widget for the addressbook example.
  * Declaration of the toplevel widget.
  *
- * the Configuration Database library
- * copyright:  (C) Mirko Sucker, 1998
+ * the KDE addressbook
+ * copyright:  (C) Mirko Sucker, 1998, 1999
  * license:    GNU Public License, Version 2
- * mail to:    Mirko Sucker <mirko.sucker@hamburg.netsurf.de>
- *                          <mirko.sucker@unibw-hamburg.de>
- * requires:   C++-compiler, STL, string class, NANA
+ * mail to:    Mirko Sucker <mirko.sucker@unibw-hamburg.de>
+ * requires:   C++-compiler, STL, string class
  * $Revision$
  */
 #ifndef ADDRESSBOOK_TLW_INCL
