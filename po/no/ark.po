@@ -77,7 +77,7 @@ msgstr "P&akk ut..."
 
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
-msgstr "&Sett arkiv mappe"
+msgstr "&Sett arkivmappe..."
 
 #: arkwidget.cc:85
 msgid "Set &Tar Executable..."
@@ -88,33 +88,28 @@ msgid "&File Adding Options..."
 msgstr "Valg for &filtillegging..."
 
 #: arkwidget.cc:97
-#, fuzzy
 msgid "File Operations"
-msgstr "Legg til filvalg"
+msgstr "Filoperasjoner"
 
 #: arkwidget.cc:99
-#, fuzzy
 msgid "Extract..."
-msgstr "P&akk ut..."
+msgstr "Pakk ut..."
 
 #: arkwidget.cc:114
-#, fuzzy
 msgid "Goto Archive Dir..."
-msgstr "&Sett arkiv mappe"
+msgstr "Gå til arkivmappe..."
 
 #: arkwidget.cc:117
-#, fuzzy
 msgid "Extract To.."
-msgstr "Pakk &ut til..."
+msgstr "Pakk ut til..."
 
 #: arkwidget.cc:121
 msgid "Exit"
-msgstr ""
+msgstr "Avslutt"
 
 #: arkwidget.cc:128
-#, fuzzy
 msgid "Welcome to ark..."
-msgstr "Velkommen til Kzip..."
+msgstr "Velkommen til ark..."
 
 #: arkwidget.cc:235
 msgid "Can't create archive of that type"

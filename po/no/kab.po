@@ -35,25 +35,23 @@ msgstr ""
 
 #: AddressBookAbout.cpp:44
 msgid "written and maintained by"
-msgstr ""
+msgstr "skrevet og vedlikehodt av"
 
 #: AddressBookAboutData.cpp:62
 msgid "kab 0.8, August 1998"
-msgstr ""
+msgstr "kab 0.8, august 1998"
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
 msgstr "Initialisering mislyktes"
 
 #: toplevelwidget.cc:37
-#, fuzzy
 msgid "The program's menubar could not be constructed."
-msgstr "Programmenes menylinje kunne ikke bli konstruert."
+msgstr "Programmets menylinje kunne ikke bli konstruert."
 
 #: toplevelwidget.cc:45
-#, fuzzy
 msgid "The program's statusbar could not be constructed."
-msgstr "Programmenes statuslinje kunne ikke bli konstruert."
+msgstr "Programmets statuslinje kunne ikke bli konstruert."
 
 #: toplevelwidget.cc:58
 msgid "KDE addressbook."

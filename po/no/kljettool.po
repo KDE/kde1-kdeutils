@@ -27,31 +27,31 @@ msgstr "Operasjoner"
 
 #: PaperData.cpp:59
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 #: PaperData.cpp:65
 msgid "Copies"
-msgstr ""
+msgstr "Kopier"
 
 #: PaperData.cpp:80
 msgid "Lines"
-msgstr ""
+msgstr "Linjer"
 
 #: PaperData.cpp:102
 msgid "Portrait"
-msgstr ""
+msgstr "Stående"
 
 #: PaperData.cpp:111
 msgid "Landscape"
-msgstr ""
+msgstr "Liggende"
 
 #: PaperData.cpp:127
 msgid "Manual Feed"
-msgstr ""
+msgstr "Manuell arkmating"
 
 #: PaperData.cpp:136
 msgid "Auto Continue"
-msgstr ""
+msgstr "Automatisk fortsettelse"
 
 #: FontsData.cpp:38
 msgid "Language"
