@@ -42,10 +42,10 @@ do-fetch:
 		@true
 # This should clean the KDE target pretty well
 pre-clean:
-                cd $(WRKSRC);$(GMAKE) clean   
+		cd $(WRKSRC);$(GMAKE) clean   
 
 # We need to go through Makefile.cvs before anything else.
 pre-configure:
-		cd $(WRKSRC);$(GMAKE) -f Makefile.cvs
+		cd $(WRKSRC);rm -f config.cache;$(GMAKE) -f Makefile.cvs
 
 .include <bsd.port.mk>
