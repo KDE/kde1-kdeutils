@@ -28,31 +28,31 @@ msgstr "Operácie"
 
 #: PaperData.cpp:59
 msgid "Format"
-msgstr ""
+msgstr "Formát"
 
 #: PaperData.cpp:65
 msgid "Copies"
-msgstr ""
+msgstr "Kópie"
 
 #: PaperData.cpp:80
 msgid "Lines"
-msgstr ""
+msgstr "Èiary"
 
 #: PaperData.cpp:102
 msgid "Portrait"
-msgstr ""
+msgstr "Na vý¹ku"
 
 #: PaperData.cpp:111
 msgid "Landscape"
-msgstr ""
+msgstr "Na ¹írku"
 
 #: PaperData.cpp:127
 msgid "Manual Feed"
-msgstr ""
+msgstr "Manuálne podávanie"
 
 #: PaperData.cpp:136
 msgid "Auto Continue"
-msgstr ""
+msgstr "Automaticky pokraèova»"
 
 #: FontsData.cpp:38
 msgid "Language"
