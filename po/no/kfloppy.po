@@ -1,15 +1,19 @@
+# Norwegian translations for KDE Utils, kfloppy
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Hans Petter Bieker <zerium@webindex.no>, 1998.
+#
+# $Id$
+#
 msgid ""
 msgstr ""
+"Project-Id-Version: KDE UTILS/kfloppy\n"
 "POT-Creation-Date: 1998-05-30 17:50+0200\n"
 "PO-Revision-Date:  1998-06-02 23:05+0100\n"
-"Last-Translator: Svein Olav Aasen <svein.aasen@caa.no / sooasen@online.no>\n"
-"Language-Team: no\n"
-"Content-Type: text/plain; charset=\n"
-"Date: 1998-03-06 22:13:59-0500\n"
-"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
-"<root@petit.cornell.edu>\n"
-"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
-"Files: about.cpp floppy.cpp main.cpp\n"
+"Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
+"Language-Team: no <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO_8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: about.cpp:40
 msgid "About KDE Floppy Formater"
