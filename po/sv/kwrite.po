@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
-"POT-Creation-Date: 1999-04-03 02:07+0200\n"
+"POT-Creation-Date: 1999-04-06 02:18+0200\n"
 "PO-Revision-Date: 1999-01-06 16:44+01:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
@@ -73,49 +73,49 @@ msgstr "Stil"
 msgid "Item Font"
 msgstr "Typsnitt"
 
-#: kwview.cpp:1057
+#: kwview.cpp:1065
 #, fuzzy
 msgid "Vertical Selections On"
 msgstr "&Vertikala markeringar"
 
-#: kwview.cpp:1057
+#: kwview.cpp:1065
 #, fuzzy
 msgid "Vertical Selections Off"
 msgstr "&Vertikala markeringar"
 
-#: kwview.cpp:1116
+#: kwview.cpp:1124
 msgid "The specified File does not exist"
 msgstr "Den angivna filen existerar inte"
 
-#: kwview.cpp:1126
+#: kwview.cpp:1134
 msgid "You have specified a directory"
 msgstr "Du har angett en katalog"
 
-#: kwview.cpp:1136
+#: kwview.cpp:1144
 msgid "You do not have read permission to this file"
 msgstr "Du har inte rättighet att läsa den här filen"
 
-#: kwview.cpp:1152 kwview.cpp:1182
+#: kwview.cpp:1160 kwview.cpp:1190
 msgid "An Error occured while trying to open this Document"
 msgstr "Ett fel inträffade när det här dokumentet skulle öppnas"
 
-#: kwview.cpp:1166
+#: kwview.cpp:1174
 msgid "You do not have write permission to this file"
 msgstr "Du har inte rättighet att skriva till den här filen"
 
-#: kwview.cpp:1219
+#: kwview.cpp:1227
 msgid "Loading..."
 msgstr "Laddar..."
 
-#: kwview.cpp:1227 kwview.cpp:1348
+#: kwview.cpp:1235 kwview.cpp:1356
 msgid "Inserted"
 msgstr "Infogade"
 
-#: kwview.cpp:1232 kwview.cpp:1357
+#: kwview.cpp:1240 kwview.cpp:1365
 msgid "Read"
 msgstr "Läste in"
 
-#: kwview.cpp:1241 kwview.cpp:1299
+#: kwview.cpp:1249 kwview.cpp:1307
 msgid ""
 "KWrite is already waiting\n"
 "for an internet job to finish\n"
@@ -127,23 +127,23 @@ msgstr ""
 "Var god vänta tills det är klart\n"
 "Alternativt avbryt det som körs."
 
-#: kwview.cpp:1249 kwview.cpp:1307
+#: kwview.cpp:1257 kwview.cpp:1315
 msgid "Waiting for KFM..."
 msgstr "Väntar på KFM..."
 
-#: kwview.cpp:1255 kwview.cpp:1320
+#: kwview.cpp:1263 kwview.cpp:1328
 msgid "Could not start or find KFM"
 msgstr "Kunde inte starta eller hitta KFM"
 
-#: kwview.cpp:1282
+#: kwview.cpp:1290
 msgid "Saving..."
 msgstr "Sparar..."
 
-#: kwview.cpp:1290 kwview.cpp:1367
+#: kwview.cpp:1298 kwview.cpp:1375
 msgid "Wrote"
 msgstr "Sparade"
 
-#: kwview.cpp:1396
+#: kwview.cpp:1404
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -151,7 +151,7 @@ msgstr ""
 "Det aktuella dokumentet har ändrats.\n"
 "Vill du spara det?"
 
-#: kwview.cpp:1407
+#: kwview.cpp:1415
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -159,11 +159,11 @@ msgstr ""
 "Kunde inte spara dokumentet.\n"
 "Öppna ett nytt dokument ändå?"
 
-#: kwview.cpp:1454
+#: kwview.cpp:1462
 msgid "No changes need to be saved"
 msgstr "Inga ändringar behöver sparas"
 
-#: kwview.cpp:1475
+#: kwview.cpp:1483
 msgid ""
 "A Document with this Name already exists.\n"
 "Do you want to overwrite it?"
@@ -171,35 +171,35 @@ msgstr ""
 "Ett dokument med det här namnet existerar redan.\n"
 "Vill du skriva över det?"
 
-#: kwview.cpp:1678 kwview.cpp:1866
+#: kwview.cpp:1686 kwview.cpp:1874
 msgid "End of document reached"
 msgstr "Dokumentets slut har nåtts"
 
-#: kwview.cpp:1679 kwview.cpp:1867
+#: kwview.cpp:1687 kwview.cpp:1875
 msgid "Continue from the beginning"
 msgstr "Fortsätta från början"
 
-#: kwview.cpp:1681 kwview.cpp:1692 kwview.cpp:1702
+#: kwview.cpp:1689 kwview.cpp:1700 kwview.cpp:1710
 msgid "Find"
 msgstr "Hitta"
 
-#: kwview.cpp:1689 kwview.cpp:1878
+#: kwview.cpp:1697 kwview.cpp:1886
 msgid "Beginning of document reached"
 msgstr "Dokumentets början har nåtts"
 
-#: kwview.cpp:1690 kwview.cpp:1879
+#: kwview.cpp:1698 kwview.cpp:1887
 msgid "Continue from the end"
 msgstr "Fortsätta från slutet"
 
-#: kwview.cpp:1703
+#: kwview.cpp:1711
 msgid "Search string not found!"
 msgstr "Söksträngen ej funnen!"
 
-#: kwview.cpp:1851 kwview.cpp:1865 kwview.cpp:1877
+#: kwview.cpp:1859 kwview.cpp:1873 kwview.cpp:1885
 msgid "replace(s) made"
 msgstr "ersättningar utfördes"
 
-#: kwview.cpp:1992 toplevel.cpp:475
+#: kwview.cpp:2000 toplevel.cpp:475
 msgid "Line"
 msgstr "Rad"
 
