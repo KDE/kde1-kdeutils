@@ -59,6 +59,7 @@ binary-arch2:
 	dh_shlibdeps
 	dh_gencontrol
 	dh_md5sums
+	perl -w debian/kderules update
 	dh_builddeb    
 
 # Below here is fairly generic really
