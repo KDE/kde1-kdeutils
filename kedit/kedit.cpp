@@ -95,7 +95,7 @@ TopLevel::TopLevel (QWidget *, const char *name)
   else
     options->changeItem( klocale->translate("Hide &Status Bar"), statusID );
 
-  setCaption("KEdit "KEDITVERSION);
+  //  setCaption("KEdit "KEDITVERSION);
 
   KDNDDropZone * dropZone = new KDNDDropZone( this , DndURL);
   connect( dropZone, SIGNAL( dropAction( KDNDDropZone *) ), 
