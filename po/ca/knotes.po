@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "POT-Creation-Date: 1998-11-26 01:48+0100\n"
-"PO-Revision-Date: 1998-06-30 22:55+0100\n"
+"PO-Revision-Date: 1998-12-13 13:04+0100\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -27,11 +27,11 @@ msgstr "Nota nova"
 
 #: knotes.cpp:309
 msgid "Delete Note"
-msgstr "Esborrar nota"
+msgstr "Esborra nota"
 
 #: knotes.cpp:311
 msgid "Rename Note..."
-msgstr "Renombrar nota..."
+msgstr "Renombra nota..."
 
 #: knotes.cpp:313
 msgid "Alarm ..."
@@ -43,15 +43,15 @@ msgstr "Calendari"
 
 #: knotes.cpp:318
 msgid "Mail Note ..."
-msgstr "Enviar nota ..."
+msgstr "Envia nota ..."
 
 #: knotes.cpp:320
 msgid "Print Note"
-msgstr "Imprimir nota"
+msgstr "Imprimeix nota"
 
 #: knotes.cpp:323
 msgid "Save Notes"
-msgstr "Desar notes"
+msgstr "Desa notes"
 
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1290
 msgid "3D Frame"
@@ -71,11 +71,11 @@ msgstr "Colors"
 
 #: knotes.cpp:335
 msgid "Change Defaults ..."
-msgstr "Canviar omissió ..."
+msgstr "Canvia omissió ..."
 
 #: knotes.cpp:363
 msgid "Insert Date"
-msgstr "Insertar data"
+msgstr "Inserta data"
 
 #: knotes.cpp:366
 msgid "Operations"
@@ -108,7 +108,7 @@ msgid ""
 "Could not pipe the contents of this KNote into:\n"
 " %s"
 msgstr ""
-"No s'ha pogut entubar el contingut d'aquest nota dins:\n"
+"No s'ha pogut enviar el contingut d'aquest nota a:\n"
 " %s"
 
 #: knotes.cpp:734
@@ -214,11 +214,11 @@ msgstr "Alt:"
 
 #: configdlg.cpp:104
 msgid "Print Command:"
-msgstr "Ordre d'impressió:"
+msgstr "Comanda d'impressió:"
 
 #: configdlg.cpp:112
 msgid "Mail Command:"
-msgstr "Ordre de correu:"
+msgstr "Comanda de correu:"
 
 #: configdlg.cpp:123
 msgid "3d Frame"
@@ -226,11 +226,11 @@ msgstr "Marc 3d"
 
 #: fontdlg.cpp:45
 msgid "Set Default Font"
-msgstr "Establir la font per omissió"
+msgstr "Estableix la font per omissió"
 
 #: fontdlg.cpp:54
 msgid "Family:"
-msgstr ""
+msgstr "Família:"
 
 #: fontdlg.cpp:64
 msgid "Point Size:"
@@ -238,20 +238,19 @@ msgstr "Cos:"
 
 #: fontdlg.cpp:75
 msgid "Style:"
-msgstr ""
+msgstr "Estil:"
 
 #: fontdlg.cpp:87
-#, fuzzy
 msgid "Weight:"
-msgstr "Alt:"
+msgstr "Gruix:"
 
 #: fontdlg.cpp:93 fontdlg.cpp:117 fontdlg.cpp:150
 msgid "Bold"
-msgstr ""
+msgstr "Negreta"
 
 #: fontdlg.cpp:95 fontdlg.cpp:119 fontdlg.cpp:152
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: mail.cpp:40
 msgid "Mail Note to:"
@@ -276,11 +275,11 @@ msgstr "Temporitzador d'alarma per: %s"
 
 #: alarm.cpp:72
 msgid "Unset"
-msgstr "Desarmar"
+msgstr "Desarma"
 
 #: alarm.cpp:74
 msgid "Set"
-msgstr "Armar"
+msgstr "Arma"
 
 #: alarm.cpp:153
 msgid "I am afraid you already missed your appointment."
@@ -304,19 +303,19 @@ msgstr "Hora:"
 
 #: bwdatetime.cpp:161
 msgid "The Time you selected is invalid"
-msgstr "L'hora que heu sel·leccionat no és vàlida"
+msgstr "L'hora que heu seleccionat no és vàlida"
 
 #: bwdatetime.cpp:176
 msgid "The Date you selected is invalid"
-msgstr "La data que heu sel·leccionat no és vàlida"
+msgstr "La data que heu seleccionat no és vàlida"
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
-msgstr "Renombrar aquesta nota a"
+msgstr "Renombra aquesta nota a"
 
 #: renamedlg.cpp:44
 msgid "Rename"
-msgstr "Renombrar"
+msgstr "Renombra"
 
 #: renamedlg.cpp:79
 msgid ""
@@ -336,7 +335,7 @@ msgstr ""
 
 #: docking.cpp:71
 msgid "Change Defaults"
-msgstr "Canviar omissió"
+msgstr "Canvia omissió"
 
 #: docking.cpp:76
 msgid "Exit Knotes"

@@ -1,4 +1,4 @@
-# KZIP CATALAN TRANSLATION
+# ARK CATALAN TRANSLATION
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Sebastià Pla <sastia@redestb.es>, 1998.
 #
@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "POT-Creation-Date: 1998-11-14 02:05+0100\n"
-"PO-Revision-Date: 1998-06-13 01:28+0100\n"
+"PO-Revision-Date: 1998-12-12 20:03+0100\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,16 +19,15 @@ msgstr "Opcions a l'afegir fitxer"
 
 #: adddlg.cc:21
 msgid "Store Full Path"
-msgstr "Guardar el camí complet"
+msgstr "Guarda el camí complet"
 
 #: adddlg.cc:24
 msgid "Only Add Newer Files"
-msgstr "Afegir només els fitxers més nous"
+msgstr "Afegeix només els fitxers més nous"
 
 #: extractdlg.cc:14
-#, fuzzy
 msgid "Extract"
-msgstr "E&xtreure..."
+msgstr "Extreu"
 
 #: extractdlg.cc:28
 msgid "Destination"
@@ -40,11 +39,11 @@ msgstr "Opcions a l'extreure"
 
 #: extractdlg.cc:52
 msgid "Preserve Permissions"
-msgstr "Preservar els permissos"
+msgstr "Preserva els permissos"
 
 #: extractdlg.cc:57
 msgid "Filenames to Lowercase"
-msgstr "Noms de fitxers a caixa baixa"
+msgstr "Noms de fitxers amb caixa baixa"
 
 #: extractdlg.cc:68
 msgid "All Files"
@@ -59,80 +58,72 @@ msgid "Pattern"
 msgstr "Patró"
 
 #: extractdlg.cc:190
-#, fuzzy
 msgid "Extract To"
-msgstr "&Extreure a..."
+msgstr "Extreu a"
 
 #: arkwidget.cc:71
 msgid "&New..."
-msgstr ""
+msgstr "&Nou..."
 
 #: arkwidget.cc:74
 msgid "&Extract To..."
-msgstr "&Extreure a..."
+msgstr "&Extreu a..."
 
 #: arkwidget.cc:79
 msgid "E&xtract..."
-msgstr "E&xtreure..."
+msgstr "E&xtreu..."
 
 #: arkwidget.cc:80
 msgid "&View file"
-msgstr ""
+msgstr "&Visualitza fitxer"
 
 #: arkwidget.cc:82
-#, fuzzy
 msgid "&Delete file"
-msgstr "Fitxer seleccionat"
+msgstr "Es&borra fitxer"
 
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
-msgstr "E&stablir el directori d'arxiu..."
+msgstr "E&stableix el directori d'arxiu..."
 
 #: arkwidget.cc:85
 msgid "Set &Tar Executable..."
-msgstr "Establir l'executable &Tar..."
+msgstr "Estableix l'executable &Tar..."
 
 #: arkwidget.cc:86
 msgid "&File Adding Options..."
 msgstr "Opcions a l'afegir &fitxer..."
 
 #: arkwidget.cc:97
-#, fuzzy
 msgid "File Operations"
-msgstr "Opcions a l'afegir fitxer"
+msgstr "Operacions de fitxer"
 
 #: arkwidget.cc:99
-#, fuzzy
 msgid "Extract..."
-msgstr "E&xtreure..."
+msgstr "Extreu..."
 
 #: arkwidget.cc:100
 msgid "View file"
-msgstr ""
+msgstr "Visualitza fitxer"
 
 #: arkwidget.cc:102
-#, fuzzy
 msgid "Delete file"
-msgstr "Fitxer seleccionat"
+msgstr "Esborra fitxer"
 
 #: arkwidget.cc:114
-#, fuzzy
 msgid "Goto Archive Dir..."
-msgstr "E&stablir el directori d'arxiu..."
+msgstr "Ves al directori d'arxiu..."
 
 #: arkwidget.cc:117
-#, fuzzy
 msgid "Extract To.."
-msgstr "&Extreure a..."
+msgstr "Extreu a..."
 
 #: arkwidget.cc:121
 msgid "Exit"
-msgstr ""
+msgstr "Sortida"
 
 #: arkwidget.cc:128
-#, fuzzy
 msgid "Welcome to ark..."
-msgstr "Benvingut a KZip..."
+msgstr "Benvingut a ark..."
 
 #: arkwidget.cc:235
 msgid "Can't create archive of that type"
@@ -151,9 +142,8 @@ msgid "Error saving to archive"
 msgstr "Error al desar a l'arxiu"
 
 #: arkwidget.cc:312
-#, fuzzy
 msgid "Archive Dir"
-msgstr "Directori d'arxiu:"
+msgstr "Directori d'arxiu"
 
 #: arkwidget.cc:325
 msgid "What runs GNU tar:"
@@ -165,7 +155,7 @@ msgstr "Format d'arxiu desconegut"
 
 #: arkwidget.cc:396
 msgid "Size"
-msgstr ""
+msgstr "Mida"
 
 #: arkwidget.cc:402
 msgid "Archive directory does not exist."

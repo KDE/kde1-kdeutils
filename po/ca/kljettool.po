@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kljettool\n"
 "POT-Creation-Date: 1998-11-03 10:06+0100\n"
-"PO-Revision-Date: 1998-06-25 23:55+0100\n"
+"PO-Revision-Date: 1998-12-13 12:59+0100\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -27,31 +27,31 @@ msgstr "Operacions"
 
 #: PaperData.cpp:59
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 #: PaperData.cpp:65
 msgid "Copies"
-msgstr ""
+msgstr "Còpies"
 
 #: PaperData.cpp:80
 msgid "Lines"
-msgstr ""
+msgstr "Línies"
 
 #: PaperData.cpp:102
 msgid "Portrait"
-msgstr ""
+msgstr "Vertical"
 
 #: PaperData.cpp:111
 msgid "Landscape"
-msgstr ""
+msgstr "Apaïsat"
 
 #: PaperData.cpp:127
 msgid "Manual Feed"
-msgstr ""
+msgstr "Alimentació manual"
 
 #: PaperData.cpp:136
 msgid "Auto Continue"
-msgstr ""
+msgstr "Continuació automàtica"
 
 #: FontsData.cpp:38
 msgid "Language"
@@ -111,15 +111,15 @@ msgstr "Temps d'estalvi d'energia"
 
 #: MiscData.cpp:99
 msgid "Eject"
-msgstr "Expulsar"
+msgstr "Expulsa"
 
 #: MiscData.cpp:106
 msgid "Reset"
-msgstr "Reajustar"
+msgstr "Reajusta"
 
 #: MiscData.cpp:113
 msgid "Initialize"
-msgstr "Inicialitzar"
+msgstr "Inicialitza"
 
 #: Data.cpp:123 Data.cpp:157 Data.cpp:193
 #, c-format
@@ -140,4 +140,4 @@ msgstr "KLjetTool"
 
 #: about.cpp:52
 msgid "Version "
-msgstr "Versió"
+msgstr "Versió "

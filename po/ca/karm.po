@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
 "POT-Creation-Date: 1998-11-18 14:09+0100\n"
-"PO-Revision-Date: 1998-06-25 23:00+0100\n"
+"PO-Revision-Date: 1998-12-12 20:11+0100\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "Oh No!"
 
 #: karm.cpp:205
 msgid ": Add New Task"
-msgstr ": Afegir tasca nova"
+msgstr ": Afegeix tasca nova"
 
 #: karm.cpp:216
 msgid "Karm::createNewTask called and there's no dialog!"
@@ -51,7 +51,7 @@ msgstr "S'ha cridat Karm::createNewTask i no hi és el diàleg!"
 
 #: karm.cpp:243
 msgid ": Edit Task Entry"
-msgstr ": Editar entrada de tasca"
+msgstr ": Edita entrada de tasca"
 
 #: karm.cpp:256
 msgid "Karm::updateExistingTask called and there's no dlg!"
@@ -83,7 +83,7 @@ msgstr "&Rellotge"
 
 #: top.cpp:58
 msgid "S&top"
-msgstr "&Aturar"
+msgstr "&Atura"
 
 #: top.cpp:60
 msgid "&Task"
@@ -91,28 +91,27 @@ msgstr "&Tasca"
 
 #: top.cpp:61
 msgid "&New"
-msgstr ""
+msgstr "&Nou"
 
 #: top.cpp:71
-#, fuzzy, c-format
 msgid ""
 "%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
 msgstr ""
-" 0.3 -- Sirtaj Singh Kang\n"
+"%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
 
 #: top.cpp:86
 msgid "Start Clock"
-msgstr "Engegar el rellotge"
+msgstr "Engega el rellotge"
 
 #: top.cpp:90
 msgid "Stop Clock"
-msgstr "Aturar el rellotge"
+msgstr "Atura el rellotge"
 
 #: top.cpp:96
 msgid "New Task"
@@ -120,19 +119,12 @@ msgstr "Tasca nova"
 
 #: top.cpp:100
 msgid "Delete Task"
-msgstr "Esborrar tasca"
+msgstr "Esborra tasca"
 
 #: top.cpp:105
 msgid "Edit Task"
-msgstr "Editar tasca"
+msgstr "Edita tasca"
 
 #: top.cpp:149
 msgid "clock active"
 msgstr "rellotge actiu"
-
-#, fuzzy
-#~ msgid "&About"
-#~ msgstr "Quant a "
-
-#~ msgid "About "
-#~ msgstr "Quant a "

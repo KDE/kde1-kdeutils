@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khexedit\n"
 "POT-Creation-Date: 1998-11-13 02:01+0100\n"
-"PO-Revision-Date: 1998-06-13 00:59+0100\n"
+"PO-Revision-Date: 1998-12-13 12:54+0100\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -20,11 +20,11 @@ msgstr "Error al obrir %s"
 
 #: hexwidget.cpp:66
 msgid "Save &As..."
-msgstr "D&esar com..."
+msgstr "D&esa com..."
 
 #: hexwidget.cpp:77
 msgid "&Toggle Toolbar"
-msgstr "&Canviar Barra d'eines"
+msgstr "&Canvia barra d'eines"
 
 #: hexwidget.cpp:80
 msgid "Hex Editor"
@@ -46,11 +46,11 @@ msgstr "Finestra Nova"
 
 #: hexwidget.cpp:109
 msgid "Save the file"
-msgstr "Desar el fitxer"
+msgstr "Desa el fitxer"
 
 #: hexwidget.cpp:112 hexwidget.cpp:114 hexwidget.cpp:116 hexwidget.cpp:119
 msgid "Not implemented"
-msgstr "No implementat"
+msgstr "No s'ha implementat"
 
 #: hexwidget.cpp:150
 msgid ""
@@ -66,7 +66,7 @@ msgid ""
 "Discard your changes?"
 msgstr ""
 "El fitxer actual ha estat modificat.\n"
-"Llenço els canvis?"
+"Cal llençar els canvis?"
 
 #: hexwidget.cpp:254
 msgid ""
@@ -79,8 +79,8 @@ msgstr ""
 "KHexdit ja està esperant\n"
 "que acabi un treball internet\n"
 "\n"
-"Esperi fins que acabi\n"
-"o aturi el que s'està executant."
+"Espereu fins que acabi\n"
+"o atureu el que s'està executant."
 
 #: hexwidget.cpp:262
 msgid "Could not start KFM"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcalc\n"
 "POT-Creation-Date: 1998-11-17 10:55+0100\n"
-"PO-Revision-Date: 1998-06-25 23:25+0100\n"
+"PO-Revision-Date: 1998-12-12 20:13+0100\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr ""
 "Per causa de les glibc errònies a tot arreu, he hagut de reduïr la precisió "
 "de KCalc de 'long double' a 'double'. Si teniu un sistema amb una libc que "
 "funcioni, heu de recompilar KCalc amb la precisió 'long double' habilitada. "
-"Veieu el LLEGEIX-ME per a més detalls."
+"Veieu el README per a més detalls."
 
 #: configdlg.cpp:56 kcalc.cpp:1591
 msgid "Defaults"
@@ -75,7 +75,7 @@ msgstr "Precisió fixa a:"
 
 #: configdlg.cpp:145
 msgid "Beep on Error"
-msgstr "Fer bip pels errors"
+msgstr "Fes bip pels errors"
 
 #: configdlg.cpp:153
 msgid "Trigonometry Mode"
@@ -87,11 +87,11 @@ msgstr "Mode estadístic"
 
 #: fontdlg.cpp:44
 msgid "Set Default Font"
-msgstr "Establir la font per omissió"
+msgstr "Estableix la font per omissió"
 
 #: fontdlg.cpp:53
 msgid "Family:"
-msgstr ""
+msgstr "Família:"
 
 #: fontdlg.cpp:63
 msgid "Point Size:"
@@ -99,16 +99,16 @@ msgstr "Cos:"
 
 #: fontdlg.cpp:76
 msgid "Style:"
-msgstr ""
+msgstr "Estil:"
 
 #: fontdlg.cpp:91
 msgid "Weight:"
-msgstr ""
+msgstr "Gruix:"
 
 #: fontdlg.cpp:101 fontdlg.cpp:134
 msgid "Bold"
-msgstr ""
+msgstr "Negreta"
 
 #: fontdlg.cpp:103 fontdlg.cpp:136
 msgid "Normal"
-msgstr ""
+msgstr "Normal"

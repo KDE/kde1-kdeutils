@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfloppy\n"
 "POT-Creation-Date: 1998-11-17 10:55+0100\n"
-"PO-Revision-Date: 1998-06-29 23:47+0100\n"
+"PO-Revision-Date: 1998-12-13 12:51+0100\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -53,10 +53,9 @@ msgstr "Format senzer"
 
 #: floppy.cpp:142
 msgid "Create Label:"
-msgstr "Crear etiqueta:"
+msgstr "Crea etiqueta:"
 
 #: floppy.cpp:148
-#, fuzzy
 msgid "KDE Floppy"
 msgstr "Disquet KDE"
 
@@ -70,7 +69,7 @@ msgstr "HD"
 
 #: floppy.cpp:169
 msgid "DD"
-msgstr ""
+msgstr "DD"
 
 #: floppy.cpp:292
 #, c-format
@@ -115,7 +114,7 @@ msgstr ""
 
 #: floppy.cpp:430
 msgid "Abort"
-msgstr "Abortar"
+msgstr "Atura"
 
 #: floppy.cpp:478
 msgid "Cannot start a new program: fork() failed."
@@ -171,11 +170,11 @@ msgstr "Tots els fitxers s'han esborrat amb èxit."
 
 #: floppy.cpp:838
 msgid "Creating Filesystem ..."
-msgstr "Creant sistema de fitxers ..."
+msgstr "S'està creant el sistema de fitxers ..."
 
 #: floppy.cpp:842
 msgid "Verifying ..."
-msgstr "Verificant ..."
+msgstr "S'està verificant ..."
 
 #: floppy.cpp:887
 msgid ""
