@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kzip\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"PO-Revision-Date: 1998-04-21 05:01+0800\n"
+"Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: adddlg.cc:11
+msgid "Add File Options"
+msgstr "加入檔案 選項"
+
+#: adddlg.cc:22
+msgid "Store Full Path"
+msgstr "儲存完整路徑"
+
+#: adddlg.cc:25
+msgid "Only Add Newer Files"
+msgstr "只加入新的檔案"
+
+#: extractdlg.cc:9
+msgid "Files"
+msgstr "檔案"
+
+#: extractdlg.cc:13
+msgid "Extract Options"
+msgstr "解壓縮選項"
+
+#: extractdlg.cc:17
+msgid "Destination"
+msgstr "目的地"
+
+#: extractdlg.cc:33
+msgid "Preserve Permissions"
+msgstr "保留權限"
+
+#: extractdlg.cc:36
+msgid "Filenames to Lowercase"
+msgstr "檔案名稱改成小寫"
+
+#: extractdlg.cc:39
+msgid "All Files"
+msgstr "全部檔案"
+
+#: extractdlg.cc:42
+msgid "Selected File"
+msgstr "選擇的檔案"
+
+#: extractdlg.cc:45
+msgid "Pattern"
+msgstr "式樣"
+
+#: kzip.cc:65
+msgid "&Extract To..."
+msgstr "解壓縮至...[&E]"
+
+#: kzip.cc:70
+msgid "E&xtract..."
+msgstr "解壓縮...[&X]"
+
+#: kzip.cc:75
+msgid "&Set Archive Directory..."
+msgstr "設定壓縮檔目錄[&S]..."
+
+#: kzip.cc:76
+msgid "&File Adding Options..."
+msgstr "檔案增加 選項[&F]"
+
+#: kzip.cc:122
+msgid "Welcome to KZip..."
+msgstr "歡迎來到 KZip..."
+
+#: kzip.cc:228
+msgid "Can't create archive of that type"
+msgstr "沒辦法造出這種格式的壓縮檔"
+
+#: kzip.cc:249 kzip.cc:286 kzip.cc:294
+msgid "Create or open an archive first"
+msgstr "請先造出或開啟一個壓縮檔"
+
+#: kzip.cc:273
+msgid "Can't add directories with this archive type"
+msgstr "此種壓縮檔格式無法加入目錄"
+
+#: kzip.cc:275
+msgid "Error saving to archive"
+msgstr "儲存至壓縮檔時發生錯誤"
+
+#: kzip.cc:305
+msgid "Archive Dir:"
+msgstr "壓縮檔目錄:"
+
+#: kzip.cc:342 kzip.cc:534
+msgid "Unknown archive format"
+msgstr "未知的壓縮檔格式"
+
+#: kzip.cc:378
+msgid "Archive Directory"
+msgstr "壓縮檔目錄"
