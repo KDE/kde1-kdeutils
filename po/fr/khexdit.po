@@ -13,7 +13,7 @@ msgstr "Barre d'outils"
 
 #: hexwidget.cpp:46
 msgid "&File"
-msgstr "&ficher"
+msgstr "&Fichier"
 
 #: hexwidget.cpp:47
 msgid "&View"
