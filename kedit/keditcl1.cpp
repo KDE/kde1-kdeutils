@@ -345,6 +345,7 @@ int KEdit::loadFile(QString name, int mode){
 #else
     if (!repaintTimer->isActive())
 	repaintTimer->start(0,TRUE);
+    repaint();
 #endif
 
     connect(this, SIGNAL(textChanged()), this, SLOT(setModified()));
