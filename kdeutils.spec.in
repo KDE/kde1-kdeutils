@@ -26,7 +26,7 @@ khexedit: hex editor
 kjots: note taker
 kljettool: HP printer configuration tool
 knotes: post-it notes for the desktop
-kzip: archive handling tool
+ark: archive handling tool
 
 %prep
 rm -rf $RPM_BUILD_ROOT
