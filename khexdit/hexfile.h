@@ -44,7 +44,6 @@ private:
   bool UseBig;
   QScrollBar *scrollV;
   QScrollBar *scrollH;
-  KLocale trans;
 
 protected:
   void paintEvent(QPaintEvent*);

@@ -7,6 +7,7 @@
 #include <qpixmap.h>
 #include <qkeycode.h>
 #include <qmsgbox.h> 
+#include <kapp.h>
 
 #include "hexfile.moc"
 
@@ -23,7 +24,7 @@ HexFile::HexFile(const char *filename,QWidget *parent, const char* name) :
 HexFile::HexFile(QWidget *parent)  : QWidget(parent,"Nothing") {
   init();
   filename=new char[20];
-  strcpy(filename,trans.translate("Untitled"));
+  strcpy(filename,klocale->translate("Untitled"));
 }
 
 void HexFile::init() {
@@ -82,9 +83,9 @@ bool HexFile::open(const char *Filename) {
   QFile file(fileString);
   if (!file.open(IO_ReadOnly | IO_Raw)) {
     QString txt;
-    txt.sprintf(trans.translate("Error opening %s"),fileString.data());
-    QMessageBox::message(trans.translate("Error"),txt,
-			 trans.translate("Close"));
+    txt.sprintf(klocale->translate("Error opening %s"),fileString.data());
+    QMessageBox::message(klocale->translate("Error"),txt,
+			 klocale->translate("Close"));
     return false;
   }
   delete filename;

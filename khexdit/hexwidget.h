@@ -58,7 +58,6 @@ private:
     HexFile *CurrentFile;
     int winID;
     QString netFile;
-    KLocale trans;
     KToolBar *toolbar; 
     KMenuBar *menu;
     /**
