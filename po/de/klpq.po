@@ -96,7 +96,7 @@ msgstr ""
 
 #: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
 msgid "Permission denied"
-msgstr "Zugriff verweigtert"
+msgstr "Zugriff verweigert"
 
 #: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
 msgid ""
@@ -104,7 +104,7 @@ msgid ""
 "and you do not have permission to execute it."
 msgstr ""
 "Dies ist ein privilegierter Befehl,\n"
-"und Sie haben kein Recht ihn auszuführen."
+"und Sie haben kein Recht, ihn auszuführen."
 
 #: ConfAutoUpdate.cpp:10
 msgid "Configure Auto Update"
