@@ -1,0 +1,389 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: KDE 1.0\n"
+"POT-Creation-Date: 1998-02-25 18:08+0100\n"
+"PO-Revision-Date: 1998-06-29 11:00+0200\n"
+"Last-Translator: Cevat TOPCU <bbm817@hun.edu.tr>\n"
+"Language-Team: Hacettepe Linux Users Group <hacettepe@linux.org.tr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ISO 8859-9\n"
+
+#: kedit.cpp:83 kedit.cpp:1019
+msgid "Show &Tool Bar"
+msgstr "&Araç Çubuðunu Göster"
+
+#: kedit.cpp:85 kedit.cpp:1012
+msgid "Hide &Tool Bar"
+msgstr "&Araç Çubuðunu Gizle"
+
+#: kedit.cpp:88 kedit.cpp:999
+msgid "Show &Status Bar"
+msgstr "&Durum Çubuðunu Göster"
+
+#: kedit.cpp:90 kedit.cpp:992
+msgid "Hide &Status Bar"
+msgstr "&Durum Çubuðunu Gizle"
+
+#: kedit.cpp:152
+msgid "Select All"
+msgstr "Hepsini Seç"
+
+#: kedit.cpp:183
+msgid "&About..."
+msgstr "&Hakkýnda..."
+
+#: kedit.cpp:187
+msgid "Ne&w..."
+msgstr "&Yeni..."
+
+#: kedit.cpp:192
+msgid "Open Recen&t..."
+msgstr "Öncekilerden aç..."
+
+#: kedit.cpp:204
+msgid "Open &URL..."
+msgstr "&URL yi aç..."
+
+#: kedit.cpp:206
+msgid "Save to U&RL..."
+msgstr "U&RL ye sakla..."
+
+#: kedit.cpp:212
+msgid "&Mail..."
+msgstr "&Mail..."
+
+#: kedit.cpp:216
+msgid "New &Window"
+msgstr "Yeni &Pencere"
+
+#: kedit.cpp:228
+msgid "&Select All"
+msgstr "Hepsini &seç"
+
+#: kedit.cpp:231
+msgid "&Insert File"
+msgstr "Dosya Ekle"
+
+#: kedit.cpp:233
+msgid "Insert &Date"
+msgstr "Tarih Ekle"
+
+#: kedit.cpp:236
+msgid "&Find..."
+msgstr "&Bul..."
+
+#: kedit.cpp:238
+msgid "Find &Again"
+msgstr "&Tekrar Bul"
+
+#: kedit.cpp:240
+msgid "&Replace"
+msgstr "Deðiþtir"
+
+#: kedit.cpp:243
+msgid "&Goto Line..."
+msgstr "Satýra &Git"
+
+#: kedit.cpp:247
+msgid "&Font"
+msgstr "&Yazý Tipi"
+
+#: kedit.cpp:249
+msgid "Colors"
+msgstr "Renkler"
+
+#: kedit.cpp:251
+msgid "KEdit &Options..."
+msgstr "KEdit &Seçenekleri..."
+
+#: kedit.cpp:253
+msgid "Auto &Indent"
+msgstr "Üst Satýra Hizala"
+
+#: kedit.cpp:256
+msgid "&Tool Bar"
+msgstr "&Araç Çubuðu"
+
+#: kedit.cpp:258
+msgid "&Status Bar"
+msgstr "&Durum Çubuðu"
+
+#: kedit.cpp:261
+msgid "Save Options"
+msgstr "Seçenekleri Kaydet"
+
+#: kedit.cpp:289
+msgid "New Document"
+msgstr "Yeni Belge"
+
+#: kedit.cpp:295
+msgid "Open Document"
+msgstr "Belge Aç"
+
+#: kedit.cpp:300
+msgid "Save Document"
+msgstr "Belge Sakla"
+
+#: kedit.cpp:325 print.cpp:88
+msgid "Print Document"
+msgstr "Belge Yazdýr"
+
+#: kedit.cpp:330
+msgid "Mail Document"
+msgstr "Belgeyi Mail ile Gönder"
+
+#: kedit.cpp:534
+msgid "Open Location:"
+msgstr "URL:"
+
+#: kedit.cpp:548
+msgid "Save to Location:"
+msgstr "URL'e Sakla:"
+
+#: kedit.cpp:574 kedit.cpp:637 kedit.cpp:666 kedit.cpp:729 kedit.cpp:1123
+msgid "Message"
+msgstr "Ýleti"
+
+#: kedit.cpp:575 kedit.cpp:730
+msgid ""
+"This Document has been modified.\n"
+"Would you like to save it?"
+msgstr ""
+"Bu belge degiþikliðe uðradý.\n"
+"Bu deðiþikliði saklamak ister misiniz?"
+
+#: kedit.cpp:592 kedit.cpp:747
+msgid ""
+"Could not save the file.\n"
+"Exit anyways?"
+msgstr ""
+"Bu dosya saklanamadý.\n"
+"Yine de çýkayým mý?."
+
+#: kedit.cpp:638
+msgid ""
+"There are windows with modified content open.\n"
+"If you exit now, you will loose those changes\n"
+"Quit anyways?"
+msgstr ""
+"Ýçerikleri deðiþtirilmiþ açýk pencereler var.\n"
+"Eðer þimdi çýkarsanýz deðiþikleri kaybedeceksiniz.\n"
+"Yine de çýkayým mý?"
+
+#: kedit.cpp:667
+msgid ""
+"The current document has been modified.\n"
+"Continue anyways ?"
+msgstr ""
+"Þu anki belge deðiþtirilmiþ.\n "
+"Yine de çýkayým mý?"
+
+#: kedit.cpp:808
+#, c-format
+msgid "Wrote: %s"
+msgstr "%s e yaz"
+
+#: kedit.cpp:814
+msgid "No changes need to be saved"
+msgstr "Yapýlan deðiþikliklerin hiç birinin saklanmasýna gerek duyulmadý"
+
+#: kedit.cpp:833
+#, c-format
+msgid "Saved as: %s"
+msgstr "%s olarak sakla"
+
+#: kedit.cpp:866
+#, c-format
+msgid ""
+"Could not pipe the contentsof this Document into:\n"
+" %s"
+msgstr ""
+"Bu belgenin içeriði %s'ne yölendirilemedi"
+
+#: kedit.cpp:960
+msgid "Auto Indent Mode: On"
+msgstr "Üst Satýra Hizalama Kipi :Açýk"
+
+#: kedit.cpp:962
+msgid "Auto Indent Mode: Off"
+msgstr "Üst Satýra Hizalama Kipi :Kapalý"
+
+#: kedit.cpp:1058
+#, c-format
+msgid "Line: %d Col: %d"
+msgstr "Satýr:%d sütün:%d"
+
+#: kedit.cpp:1124
+msgid ""
+"The current document has been modified.\n"
+"Would you like to save the changes before \n"
+"printing this Document?"
+msgstr ""
+"Þu anki belge deðiþikliðe uðramýþ.\n"
+"Bu belgenin yazýcýdan çýktýsýný almadan\n"
+"deðiþiklikleri saklamak ister misiniz ?"
+
+#: kedit.cpp:1142
+msgid ""
+"Could not save the file.\n"
+"Print anyways?"
+msgstr ""
+"Bu dosya saklanamýyor.\n"
+"Yinede yazdýrayým mý ?"
+
+#: kedit.cpp:1235
+#, c-format
+msgid "Printing: %s Untitled (Selection)"
+msgstr "Yazdýrýlýyor: Ýsimsiz (Seçim)%s"
+
+#: kedit.cpp:1238
+#, c-format
+msgid "Printing: %s Untitled"
+msgstr "Yazdýrýlýyor: Ýsimsiz%s "
+
+#: kedit.cpp:1276
+#, c-format
+msgid "Printing: %s"
+msgstr "Yazdýrýlýyor: %s"
+
+#: kedit.cpp:1286
+#, c-format
+msgid "Printing: %s %s (Selection)"
+msgstr "Yazdýrýlýyor:%s %s (Seçim)"
+
+#: kedit.cpp:1310
+msgid "Saving ..."
+msgstr "Kaydediliyor"
+
+#: kedit.cpp:1317
+msgid "Loading ..."
+msgstr "Yükleniyor"
+
+#: kedit.cpp:1351 kedit.cpp:1444
+msgid ""
+"KEdit is already waiting\n"
+"for an internet job to finish\n"
+"Please wait until has finished\n"
+"Alternatively stop the running one."
+msgstr ""
+"KEdit zaten bir internet iþinin bitmesini\n"
+"bitmesini beklemekte\n"
+"Lütfen iþin sonuçlanmasýný bekleyiniz\n"
+"Veya sözkonusu iþi durdurun"
+
+#: kedit.cpp:1368 kedit.cpp:1463
+msgid "Could not start or find KFM"
+msgstr "KFM bulunamýyor ya da baþlatýlamýyor"
+
+#: kedit.cpp:1410
+#, c-format
+msgid ""
+"Malformed URL\n"
+"%s"
+msgstr ""
+"Yetersiz URL\n"
+"%s"
+
+#: kedit.cpp:1430
+#, c-format
+msgid "Loading '%s'"
+msgstr "'%s'yükleniyor"
+
+#: kedit.cpp:1454
+msgid "Calling KFM"
+msgstr "KFM yi çaðrýlýyor"
+
+#: kedit.cpp:1473
+msgid "Starting Job"
+msgstr "Ýþ Baþlatýlýyor"
+
+#: kedit.cpp:1476
+msgid "Connected"
+msgstr "Baðlandý"
+
+#: kedit.cpp:1478
+msgid "Waiting..."
+msgstr "Bekliyor..."
+
+#: kedit.cpp:1486
+#, c-format
+msgid "Finished '%s'"
+msgstr "Bitirildi"
+
+#: kedit.cpp:1527
+msgid "New Window"
+msgstr "Yeni Pencere"
+
+#: kedit.cpp:1531
+msgid "New Window Created"
+msgstr "Yeni Pencere Yaratýldý"
+
+#: kedit.cpp:1537
+msgid "Load Command Done"
+msgstr "Yükleme Komutu Uygulandý"
+
+#: kedit.cpp:1949
+#, c-format
+msgid ""
+"Can not create:\n"
+"%s"
+msgstr ""
+"Yaratýlamayan dosya ismi:\n"
+"%s"
+
+#: print.cpp:66
+msgid "Print Dialog"
+msgstr "Yazdýrma Penceresi"
+
+#: print.cpp:70
+msgid "Print directly using lpr"
+msgstr "lpr kullanarak doðrudan yaz"
+
+#: print.cpp:75
+msgid "Print using Command:"
+msgstr "Komut kullanarak yaz:"
+
+#: print.cpp:93
+msgid "Print Selection"
+msgstr "Seçimi Yazdýr"
+
+#: filldlg.cpp:31
+msgid "KEdit Options"
+msgstr "KEdit Seçenekleri"
+
+#: filldlg.cpp:36
+msgid "Set Fill-Column at:"
+msgstr "Sütun Doldurma:"
+
+#: filldlg.cpp:40
+msgid "Word Warp"
+msgstr "Kelime Çözgüsü"
+
+#: filldlg.cpp:44
+msgid "Mail Command:"
+msgstr "Mail Komutu:"
+
+#: filldlg.cpp:135
+msgid "You must enter an integer."
+msgstr "Bir tamsayý girmelisiniz."
+
+#: mail.cpp:37
+msgid "Mail Document to:"
+msgstr "Belgeyi Mail ile Gönder:"
+
+#: mail.cpp:55
+msgid "Subject:"
+msgstr "Konu:"
+
+#: mail.cpp:57
+msgid "Mail"
+msgstr "Mail"
+
+#: mail.cpp:96
+msgid "You must specify a Recipient"
+msgstr "Bir alýcý belirtmelisiniz"
