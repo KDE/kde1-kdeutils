@@ -2,13 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kljettool\n"
 "POT-Creation-Date: 1999-01-18 01:54+0100\n"
-"PO-Revision-Date: 1999-01-13 14:00+MET\n"
+"PO-Revision-Date: 1999-01-23 20:05+MET\n"
+"Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
 "Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
-"Content-Transfer-Encoding: ISO-8859-1\n"
-"Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
+"Content-Transfer-Encoding: 8bit\n"
+
 "Date: 1998-03-06 22:44:34-0500\n"
 "From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
 "<root@petit.cornell.edu>\n"
@@ -45,9 +46,8 @@ msgid "Lines"
 msgstr "Zeilen"
 
 #: PaperData.cpp:96
-#, fuzzy
 msgid "Orientation"
-msgstr "Präsentation"
+msgstr "Ausrichtung"
 
 #: PaperData.cpp:102
 msgid "Portrait"
