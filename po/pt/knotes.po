@@ -79,22 +79,20 @@ msgid "Auto Indent"
 msgstr "Auto Indentar"
 
 #: docking.cpp:71
-#, fuzzy
 msgid "Change Defaults"
-msgstr "Mudar Valores por Defeito ..."
+msgstr "Mudar Valores por Omissão"
 
 #: docking.cpp:76
 msgid "Exit Knotes"
-msgstr ""
+msgstr "Sair do Knotes"
 
 #: docking.cpp:95
-#, fuzzy
 msgid "New Knote"
 msgstr "Nova Nota"
 
 #: fontdlg.cpp:45
 msgid "Set Default Font"
-msgstr "Seleccionar Fonte por Defeito"
+msgstr "Seleccionar Fonte por Omissão"
 
 #: fontdlg.cpp:64
 msgid "Point Size:"
@@ -150,7 +148,7 @@ msgstr "Cores"
 
 #: knotes.cpp:330
 msgid "Change Defaults ..."
-msgstr "Mudar Valores por Defeito ..."
+msgstr "Mudar Valores por Omissão ..."
 
 #: knotes.cpp:358
 msgid "Insert Date"
@@ -225,7 +223,7 @@ msgstr "Configuração do KNotes"
 
 #: knotes.cpp:1352
 msgid "Defaults"
-msgstr "Valores por Defeito"
+msgstr "Valores por Omissão"
 
 #: knotes.cpp:1353
 msgid "More ..."
@@ -315,6 +313,3 @@ msgid ""
 msgstr ""
 "Uma nota com este nome já existe\n"
 "Por favor escolha um nome diferente"
-
-#~ msgid "Hide Note"
-#~ msgstr "Esconder Nota"

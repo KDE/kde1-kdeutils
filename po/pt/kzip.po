@@ -68,7 +68,7 @@ msgstr "&Definir Directoria de Arquivo..."
 
 #: kzip.cc:81
 msgid "Set &Tar Executable..."
-msgstr ""
+msgstr "Modificar Executavel do &Tar..."
 
 #: kzip.cc:82
 msgid "&File Adding Options..."
@@ -100,16 +100,15 @@ msgstr "Directoria de Arquivo:"
 
 #: kzip.cc:329
 msgid "What runs GNU tar:"
-msgstr ""
+msgstr "O que corre o GNU tar:"
 
 #: kzip.cc:366 kzip.cc:568
 msgid "Unknown archive format"
 msgstr "Formato de arquivo desconhecido"
 
 #: kzip.cc:392
-#, fuzzy
 msgid "Archive directory does not exist."
-msgstr "Directoria de Arquivo"
+msgstr "Directoria de arquivo não existe."
 
 #: kzip.cc:408
 msgid "Archive Directory"

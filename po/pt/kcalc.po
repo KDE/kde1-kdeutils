@@ -73,6 +73,10 @@ msgid ""
 "recompile KCalc with 'long double' precision enabled. See the README for "
 "details."
 msgstr ""
+"Por causa de glibc's estragadas, tive de reduzir a precisão do KCalc de "
+"'long double' para 'double'. Quem tiver sistemas com uma libc funcional "
+"deve recompilar KCalc com precisão 'long double' activada. Veja o README "
+"para mais detalhes."
 
 #: kcalc.cpp:1592
 msgid "Display Font"
@@ -81,6 +85,3 @@ msgstr "Fonte"
 #: kcalc_core.cpp:1138
 msgid "Stat Mem cleared"
 msgstr "Memória estatística limpa"
-
-#~ msgid "Base type: double\n"
-#~ msgstr "Tipo de base: double\n"
