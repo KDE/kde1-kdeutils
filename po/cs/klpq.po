@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klpq\n"
 "POT-Creation-Date: 1998-12-08 02:02+0100\n"
-"PO-Revision-Date: 1998-10-28 21:18 CET\n"
+"PO-Revision-Date: 1998-12-18 11:41+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <flidr@kky.zcu.cz>\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr "Poøadí"
 
 #: klpq.cpp:120
 msgid "Owner"
-msgstr ""
+msgstr "Vlastník"
 
 #: klpq.cpp:121
 msgid "Job"
@@ -55,7 +55,7 @@ msgstr "Èinnost/práce"
 
 #: klpq.cpp:123
 msgid "Size"
-msgstr ""
+msgstr "Velikost"
 
 #: klpq.cpp:143 klpq.cpp:218
 msgid "Make Top"

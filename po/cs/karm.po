@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
 "POT-Creation-Date: 1998-11-18 14:09+0100\n"
-"PO-Revision-Date: 1998-10-24 21:03 CEST\n"
+"PO-Revision-Date: 1998-12-18 11:52+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: adddata.cpp:38
 msgid "Task Name"
-msgstr "jméno úlohy"
+msgstr "Jméno úlohy"
 
 #: adddata.cpp:44
 msgid "Accumutated time (in minutes)"
@@ -94,14 +94,14 @@ msgid "&New"
 msgstr "&Nový"
 
 #: top.cpp:71
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
 msgstr ""
-" 0.3 -- Sirtaj Singh Kang\n"
+"%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Øíjen 1997\n"
 "\n"
 "The K Desktop Environment"
@@ -129,9 +129,3 @@ msgstr "Upravit úlohu"
 #: top.cpp:149
 msgid "clock active"
 msgstr "hodiny jsou aktivní"
-
-#~ msgid "&About"
-#~ msgstr "&Informace o aplikaci "
-
-#~ msgid "About "
-#~ msgstr "Informace "

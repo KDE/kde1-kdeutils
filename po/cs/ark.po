@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "POT-Creation-Date: 1998-11-14 02:05+0100\n"
-"PO-Revision-Date: 1998-11-05 07:52+01:00\n"
+"PO-Revision-Date: 1998-12-18 11:54+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -75,12 +75,11 @@ msgstr "E&xtrahovat ..."
 
 #: arkwidget.cc:80
 msgid "&View file"
-msgstr ""
+msgstr "&Zobrazit soubor"
 
 #: arkwidget.cc:82
-#, fuzzy
 msgid "&Delete file"
-msgstr "Vybrané"
+msgstr "&Smazat soubor"
 
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
@@ -104,12 +103,11 @@ msgstr "Extrahovat ..."
 
 #: arkwidget.cc:100
 msgid "View file"
-msgstr ""
+msgstr "Zobrazit soubor"
 
 #: arkwidget.cc:102
-#, fuzzy
 msgid "Delete file"
-msgstr "Vybrané"
+msgstr "Smazat soubor"
 
 #: arkwidget.cc:114
 msgid "Goto Archive Dir..."
