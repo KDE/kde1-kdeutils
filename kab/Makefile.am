@@ -54,12 +54,12 @@ picsdir = $(kde_datadir)/kab/pics
 # if you have more of them, create a subdirectory with an extra Makefile 
 install-data-local: 
 	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) $(srcdir)/mini-kab.xpm $(kde_minidir)/kab.xpm
-	$(mkinstalldirs) $(kde_minidir)/../large
-	$(INSTALL_DATA) $(srcdir)/large-kab.xpm $(kde_minidir)/../large/kab.xpm
+	$(INSTALL_DATA) $(srcdir)/mini-kab.xpm $(kde_icondir)b.xpm
+	$(mkinstalldirs) $(kde_icondir)/large
+	$(INSTALL_DATA) $(srcdir)/large-kab.xpm $(kde_icondir)/large/kab.xpm
 
 # remove ALL you have installed in install-data-local or install-exec-local
 uninstall-local:
-	-rm -f $(kde_minidir)/kab.xpm
-	-rm -f $(kde_minidir)/../large/kab.xpm
+	-rm -f $(kde_icondir)b.xpm
+	-rm -f $(kde_icondir)/large/kab.xpm
 

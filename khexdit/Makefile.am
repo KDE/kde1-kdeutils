@@ -20,13 +20,13 @@ kde_icon_DATA = khexdit.xpm
 
 install-data-local: 
 	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) $(srcdir)/mini-khexdit.xpm $(kde_minidir)/khexdit.xpm
-	$(mkinstalldirs) $(kde_minidir)/../large
-	$(INSTALL_DATA) $(srcdir)/large-khexdit.xpm $(kde_minidir)/../large/khexdit.xpm
+	$(INSTALL_DATA) $(srcdir)/mini-khexdit.xpm $(kde_icondir)exdit.xpm
+	$(mkinstalldirs) $(kde_icondir)/large
+	$(INSTALL_DATA) $(srcdir)/large-khexdit.xpm $(kde_icondir)/large/khexdit.xpm
 
 uninstall-local:
-	rm -f $(kde_minidir)/khexdit.xpm
-	rm -f $(kde_minidir)/../large/khexdit.xpm
+	rm -f $(kde_icondir)exdit.xpm
+	rm -f $(kde_icondir)/large/khexdit.xpm
 
 messages:
 	$(XGETTEXT) -C -ki18n -x $(includedir)/kde.pot $(khexdit_SOURCES) && mv messages.po ../po/khexdit.pot

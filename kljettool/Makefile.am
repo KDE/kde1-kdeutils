@@ -28,9 +28,9 @@ appsdir = $(kde_appsdir)/Utilities/
 
 install-data-local:
 	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) $(srcdir)/mini-kljettool.xpm $(kde_minidir)/kljettool.xpm
-	$(mkinstalldirs) $(kde_minidir)/../large
-	$(INSTALL_DATA) $(srcdir)/large-kljettool.xpm $(kde_minidir)/../large/kljettool.xpm
+	$(INSTALL_DATA) $(srcdir)/mini-kljettool.xpm $(kde_icondir)jettool.xpm
+	$(mkinstalldirs) $(kde_icondir)/large
+	$(INSTALL_DATA) $(srcdir)/large-kljettool.xpm $(kde_icondir)/large/kljettool.xpm
 	@echo ""
 	@echo ""
 	@echo "If you own a RedHat system or if you have trouble getting"
@@ -43,7 +43,7 @@ install-data-local:
 	@echo ""
 	
 uninstall-local:
-	rm -f $(kde_minidir)/kljettool.xpm
+	rm -f $(kde_icondir)jettool.xpm
 
 messages:
 	$(XGETTEXT) -C -ki18n -x $(includedir)/kde.pot $(kljettool_SOURCES) && mv messages.po ../po/kljettool.pot

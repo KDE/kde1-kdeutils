@@ -7,10 +7,10 @@ icondir = $(kde_icondir)
 
 install-data-local: 
 	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) $(srcdir)/mini-kjots.xpm $(kde_minidir)/kjots.xpm
-	$(mkinstalldirs) $(kde_minidir)/../large
-	$(INSTALL_DATA) $(srcdir)/large-kjots.xpm $(kde_minidir)/../large/kjots.xpm
+	$(INSTALL_DATA) $(srcdir)/mini-kjots.xpm $(kde_icondir)ots.xpm
+	$(mkinstalldirs) $(kde_icondir)/large
+	$(INSTALL_DATA) $(srcdir)/large-kjots.xpm $(kde_icondir)/large/kjots.xpm
 	
 uninstall-local:
-	rm -f $(kde_minidir)/kjots.xpm
-	rm -f $(kde_minidir)/../large/kjots.xpm
+	rm -f $(kde_icondir)ots.xpm
+	rm -f $(kde_icondir)/large/kjots.xpm
