@@ -6,7 +6,6 @@ msgstr ""
 "Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
 
 #: main.cpp:49
-#, fuzzy
 msgid "Ljet Tool"
 msgstr "KLjetTool"
 
@@ -144,9 +143,8 @@ msgid ""
 "Bernd Johannes Wuebben\n"
 "wuebben@kde.org"
 msgstr ""
-
-#~ msgid "Version "
-#~ msgstr "Versão "
-
-#~ msgid "Fonts"
-#~ msgstr "Fontes"
+"Versão %s\n"
+"\n"
+"Copyright (c) 1997\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
