@@ -2,7 +2,7 @@
 # Copyright (C) 1998 Bjarni R. Einarsson
 # Bjarni R. Einarsson, <bre@mmedia.is>, 1998
 #
-msgid ""
+msgid ""	
 msgstr ""
 "POT-Creation-Date: 1998-11-03 10:06+0100\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
@@ -62,7 +62,7 @@ msgstr ""
 
 #: FontsData.cpp:141
 msgid "Point Size"
-msgstr ""
+msgstr "Punktastærð"
 
 #: FontsData.cpp:156
 msgid "points"

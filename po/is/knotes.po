@@ -226,7 +226,7 @@ msgstr "Stilla sjálfgefið letur"
 
 #: fontdlg.cpp:54
 msgid "Family:"
-msgstr ""
+msgstr "Leturgerð:"
 
 #: fontdlg.cpp:64
 msgid "Point Size:"
@@ -234,19 +234,19 @@ msgstr "Leturstærð:"
 
 #: fontdlg.cpp:75
 msgid "Style:"
-msgstr ""
+msgstr "Stíll:"
 
 #: fontdlg.cpp:87
 msgid "Weight:"
-msgstr ""
+msgstr "Vægi:"
 
 #: fontdlg.cpp:93 fontdlg.cpp:117 fontdlg.cpp:150
 msgid "Bold"
-msgstr ""
+msgstr "Feitletrað"
 
 #: fontdlg.cpp:95 fontdlg.cpp:119 fontdlg.cpp:152
 msgid "Normal"
-msgstr ""
+msgstr "Venjulegt"
 
 #: mail.cpp:40
 msgid "Mail Note to:"

@@ -102,7 +102,7 @@ msgstr "eftir"
 
 #: KJotsMain.cpp:427
 msgid "New"
-msgstr ""
+msgstr "Nýtt"
 
 #: KJotsMain.cpp:433
 msgid "Previous"
@@ -118,7 +118,7 @@ msgstr "Listi Titla"
 
 #: KJotsMain.cpp:614
 msgid "A book with this name already exists."
-msgstr "Bók með þessu nafni er ti nú þegar."
+msgstr "Bók með þessu nafni er til nú þegar."
 
 #: KJotsMain.cpp:662
 msgid "Are you sure you want to delete the current book ?"
@@ -171,4 +171,4 @@ msgstr "Velja"
 
 #: confdialog.cpp:133
 msgid "Dolor Ipse"
-msgstr ""
+msgstr "Þýðingarmikið"
