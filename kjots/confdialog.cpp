@@ -151,7 +151,8 @@ void ConfDialog::readConfig()
   i_http->setText(config->readEntry("execHttp"));
   i_ftp->setText(config->readEntry("execFtp"));
   QFont font( config->readEntry("EFontFamily"), config->readNumEntry("EFontSize"),
-	      config->readNumEntry("EFontWeight"), config->readNumEntry("EFontItalic") );
+	      config->readNumEntry("EFontWeight"), config->readNumEntry("EFontItalic"),
+	      (QFont::CharSet) config->readNumEntry("EFontCharset") );
   l_ed_font->setFont(font);
 }
 
@@ -166,6 +167,7 @@ void ConfDialog::writeConfig()
   config->writeEntry("EFontSize", font.pointSize());
   config->writeEntry("EFontWeight", font.weight());
   config->writeEntry("EFontItalic", font.italic());
+  config->writeEntry("EFontCharset", font.charSet());
 }
 
 void ConfDialog::ok()

@@ -865,7 +865,8 @@ void KJotsMain::updateConfiguration()
   exec_http = config->readEntry("execHttp");
   exec_ftp = config->readEntry("execFtp");
   QFont font( config->readEntry("EFontFamily"), config->readNumEntry("EFontSize"),
-	      config->readNumEntry("EFontWeight"), config->readNumEntry("EFontItalic") );
+	      config->readNumEntry("EFontWeight"), config->readNumEntry("EFontItalic"),
+	      (QFont::CharSet) config->readNumEntry("EFontCharset") );
   me_text->setFont(font);
 }
 

@@ -102,6 +102,8 @@ int main( int argc, char **argv )
     config->writeEntry("EFontWeight", 0);
   if( !config->hasKey("EFontItalic") )
     config->writeEntry("EFontItalic", 0);
+  if( !config->hasKey("EFontCharset") )
+    config->writeEntry("EFontCharset", 0);
   config->sync();
   global_pix_loader = new KIconLoader();
   KJotsMain jots;
