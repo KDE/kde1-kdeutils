@@ -1,6 +1,7 @@
 #include "Data.h"
 #include "Data.moc"
-#include "kapp.h"
+#include <kapp.h>
+#include <klocale.h>
 
 extern KApplication *mykapp;
 
@@ -116,11 +117,11 @@ bool Data::initialize(){
   //  printf("%s\n",cmd.data());
 
   printpipe = popen(cmd.data(),"w");
-  
+
   if(printpipe == NULL){
     QString str;
-    str.sprintf("Unable to print with:\n %s",cmd.data());
-    QMessageBox::message("Sorry",str.data(),"OK");
+    str.sprintf(  i18n("Unable to print with:\n %s"),cmd.data());
+    QMessageBox::message(i18n("Sorry"),str.data(),i18n("OK"));
     return FALSE;
   }
   
@@ -153,8 +154,8 @@ bool Data::eject(){
   
   if(printpipe == NULL){
     QString str;
-    str.sprintf("Unable to print with:\n %s",cmd.data());
-    QMessageBox::message("Sorry",str.data(),"OK");
+    str.sprintf(i18n("Unable to print with:\n %s"),cmd.data());
+    QMessageBox::message(i18n("Sorry"),str.data(),i18n("OK"));
     return FALSE;
   }
   
@@ -189,8 +190,8 @@ bool Data::reset(){
   
   if(printpipe == NULL){
     QString str;
-    str.sprintf("Unable to print with:\n %s",cmd.data());
-    QMessageBox::message("Sorry",str.data(),"OK");
+    str.sprintf(i18n("Unable to print with:\n %s"),cmd.data());
+    QMessageBox::message(i18n("Sorry"),str.data(),i18n("OK"));
     return FALSE;
   }
   

@@ -33,6 +33,8 @@
 #include <qfile.h>
 #include <qtstream.h>
 #include "main.moc"
+#include <kapp.h>
+#include <klocale.h>
 
 KApplication* mykapp;
 
@@ -64,11 +66,11 @@ LJET::LJET(){
 	misc->setData(data);
 	misc->setWidgets();
 
-      	mainWindow->addTab( paper, "Paper" );
-	mainWindow->addTab( printer, "Printer");
-	mainWindow->addTab( misc, "Operations");
+      	mainWindow->addTab( paper, i18n("Paper") );
+	mainWindow->addTab( printer, i18n("Printer"));
+	mainWindow->addTab( misc, i18n("Operations"));
 
-      	mainWindow->addTab( fonts, "Fonts" );
+      	mainWindow->addTab( fonts, i18n("Fonts") );
 	mainWindow->resize(325,325);
 	mainWindow->setFixedSize(325,325);
 

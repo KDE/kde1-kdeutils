@@ -17,6 +17,9 @@
 #include <qbttngrp.h>
 #include <qframe.h>
 #include <qlabel.h>
+#include <kapp.h>
+#include <klocale.h>
+
 
 PrinterData::PrinterData
 (
@@ -35,13 +38,13 @@ PrinterData::PrinterData
 	EconomyButtonGroup = new QButtonGroup( this, "ButtonGroup_3" );
 	EconomyButtonGroup->setGeometry( 20, 20, 130, 95 );
 	EconomyButtonGroup->setFrameStyle( 49 );
-	EconomyButtonGroup->setTitle( "Mode" );
+	EconomyButtonGroup->setTitle(i18n( "Mode") );
 	EconomyButtonGroup->setAlignment( 1 );
 
 	EconomyButton = new QRadioButton( EconomyButtonGroup, "RadioButton_3" );
 	EconomyButton->move(15,25);
 	connect( EconomyButton, SIGNAL(clicked()), SLOT(EconomyButtonClicked()) );
-	EconomyButton->setText( "Economy" );
+	EconomyButton->setText(i18n( "Economy") );
 	EconomyButton->setAutoRepeat( FALSE );
 	EconomyButton->setAutoResize( TRUE );
 
@@ -50,7 +53,7 @@ PrinterData::PrinterData
 	connect( PresentationButton, SIGNAL(clicked()), 
 		 SLOT(PresentationButtonClicked()) );
 
-	PresentationButton->setText( "Presentation" );
+	PresentationButton->setText( i18n("Presentation") );
 	PresentationButton->setAutoRepeat( FALSE );
 	PresentationButton->setAutoResize( TRUE );
 	PresentationButton->setChecked( TRUE );
@@ -59,7 +62,7 @@ PrinterData::PrinterData
 	DpiButtonGroup = new QButtonGroup( this, "ButtonGroup_4" );
 	DpiButtonGroup->setGeometry( 165, 20, 125, 95 );
 	DpiButtonGroup->setFrameStyle( 49 );
-	DpiButtonGroup->setTitle( "Resolution" );
+	DpiButtonGroup->setTitle(i18n( "Resolution" ));
 	DpiButtonGroup->setAlignment( 1 );
 
 
@@ -81,19 +84,19 @@ PrinterData::PrinterData
 	QLabel* tmpQLabel;
 	tmpQLabel = new QLabel( this, "Label_11" );
 	tmpQLabel->setGeometry( 165, 125, 100, 20 );
-	tmpQLabel->setText( "Density" );
+	tmpQLabel->setText(i18n( "Density") );
 	tmpQLabel->setAlignment( 289 );
 	tmpQLabel->setMargin( -1 );
 
 	tmpQLabel = new QLabel( this, "Label_12" );
 	tmpQLabel->setGeometry( 35, 125, 100, 20 );
-	tmpQLabel->setText( "Printer" );
+	tmpQLabel->setText( i18n("Printer") );
 	tmpQLabel->setAlignment( 289 );
 	tmpQLabel->setMargin( -1 );
 
 	tmpQLabel = new QLabel( this, "Label_12" );
 	tmpQLabel->setGeometry( 165, 185, 115, 20 );
-	tmpQLabel->setText( "Resolution Enh." );
+	tmpQLabel->setText(i18n( "Resolution Enh.") );
 	tmpQLabel->setAlignment( 289 );
 	tmpQLabel->setMargin( -1 );
 

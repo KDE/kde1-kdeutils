@@ -35,7 +35,7 @@ extern KApplication *mykapp;
 MyAbout::MyAbout(QWidget *parent) : QDialog(parent, "About KLJetTool", TRUE) {
   resize(350, 250);
   setFixedSize(size());
-  setCaption("About KLJetTool");
+  setCaption(i18n("About KLJetTool"));
 
   QString pixdir = mykapp->kde_datadir() + QString("/kljettool/pics/");  
   QPixmap pm((pixdir + "kljetlogo.xpm").data());
@@ -44,12 +44,13 @@ MyAbout::MyAbout(QWidget *parent) : QDialog(parent, "About KLJetTool", TRUE) {
   logo->setGeometry(20, (height()-pm.height())/2 - 25, pm.width(), pm.height());
 
   QLabel *l;
-  l = new QLabel("KLjetTool", this);
+  l = new QLabel(i18n("KLjetTool"), this);
   l->setFont(QFont("Helvetica", 19, QFont::Bold));
   l->setGeometry(145,40,100,30);
 
   QString s;
-  s = "Version " KLJETVERSION \
+  s = i18n("Version ");
+  s += KLJETVERSION \
   "\n\nCopyright (c) 1997\nBernd Johannes Wuebben\n"\
   "wuebben@kde.org";
 

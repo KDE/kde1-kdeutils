@@ -18,6 +18,10 @@
 #include <qcombo.h>
 #include <qframe.h>
 #include <qlabel.h>
+#include <kapp.h>
+#include <klocale.h>
+
+
 
 PaperData::PaperData
 (
@@ -52,13 +56,13 @@ PaperData::PaperData
 	QLabel* tmpQLabel;
 	tmpQLabel = new QLabel( this, "FormatLabel" );
 	tmpQLabel->setGeometry( 25, 35, 100, 20 );
-	tmpQLabel->setText( "Format" );
+	tmpQLabel->setText( klocale->translate("Format") );
 	tmpQLabel->setAlignment( 289 );
 	tmpQLabel->setMargin( -1 );
 
 	tmpQLabel = new QLabel( this, "CopiesLabel" );
 	tmpQLabel->setGeometry( 25, 100, 100, 20 );
-	tmpQLabel->setText( "Copies" );
+	tmpQLabel->setText(klocale->translate( "Copies") );
 	tmpQLabel->setAlignment( 289 );
 	tmpQLabel->setMargin( -1 );
 
@@ -73,7 +77,7 @@ PaperData::PaperData
 
 	tmpQLabel = new QLabel( this, "LengthLabel" );
 	tmpQLabel->setGeometry( 25, 160, 100, 20 );
-	tmpQLabel->setText( "Lines" );
+	tmpQLabel->setText(klocale->translate( "Lines") );
 	tmpQLabel->setAlignment( 289 );
 	tmpQLabel->setMargin( -1 );
 
@@ -95,7 +99,7 @@ PaperData::PaperData
 	PortraitCheckBox = new QRadioButton( OrientButtonGroup, "RadioButton_1" );
 	PortraitCheckBox->move(15,25);
 	connect( PortraitCheckBox, SIGNAL(clicked()), SLOT(ProtraitCheckBoxClicked()) );
-	PortraitCheckBox->setText( "Portrait" );
+	PortraitCheckBox->setText( klocale->translate("Portrait") );
 	PortraitCheckBox->setAutoRepeat( FALSE );
 	PortraitCheckBox->setAutoResize( TRUE );
 	PortraitCheckBox->setChecked( TRUE );
@@ -104,7 +108,7 @@ PaperData::PaperData
 	LandscapeCheckBox = new QRadioButton( OrientButtonGroup, "LandscapeCheckBox" );
 	LandscapeCheckBox->move(15,55);
 	connect( LandscapeCheckBox, SIGNAL(clicked()), SLOT(LandscapeCheckBoxClicked()) );
-	LandscapeCheckBox->setText( "Landscape" );
+	LandscapeCheckBox->setText( klocale->translate("Landscape") );
 	LandscapeCheckBox->setAutoRepeat( FALSE );
 	LandscapeCheckBox->setAutoResize( TRUE );
 
@@ -112,7 +116,7 @@ PaperData::PaperData
 	MiscButtonGroup = new QButtonGroup( this, "Miscellaneous" );
 	MiscButtonGroup->setGeometry( 145, 135, 140, 80 );
 	MiscButtonGroup->setFrameStyle( 49 );
-	MiscButtonGroup->setTitle( "Miscellaneous" );
+	MiscButtonGroup->setTitle( klocale->translate("Miscellaneous") );
 	MiscButtonGroup->setAlignment( 1 );
 
 	ManualFeedCheckBox = new QCheckBox( MiscButtonGroup, "CheckBox_1" );
@@ -120,7 +124,7 @@ PaperData::PaperData
 	connect( ManualFeedCheckBox, SIGNAL(clicked()), 
 		 SLOT(ManaulFeedCheckBoxClicked()) );
 
-	ManualFeedCheckBox->setText( "Manual Feed" );
+	ManualFeedCheckBox->setText(klocale->translate( "Manual Feed") );
 	ManualFeedCheckBox->setAutoRepeat( FALSE );
 	ManualFeedCheckBox->setAutoResize( TRUE );
 
@@ -129,7 +133,7 @@ PaperData::PaperData
 	connect( AutoContinueCheckBox, SIGNAL(clicked()), 
 		 SLOT(AutoContinueCheckBoxClicked()) );
 
-	AutoContinueCheckBox->setText( "Auto Continue" );
+	AutoContinueCheckBox->setText( klocale->translate("Auto Continue") );
 	AutoContinueCheckBox->setAutoRepeat( FALSE );
 	AutoContinueCheckBox->setAutoResize( TRUE );
 

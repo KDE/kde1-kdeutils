@@ -19,7 +19,7 @@
 #include <qlabel.h>
 #include <kapp.h>
 #include <qdialog.h>
-
+#include <klocale.h>
 
 extern KApplication *mykapp;
 
@@ -40,7 +40,7 @@ MiscData::MiscData
 	ReturnButtonGroup = new QButtonGroup( this, "ButtonGroup_6" );
 	ReturnButtonGroup->setGeometry( 25, 40, 135, 100 );
 	ReturnButtonGroup->setFrameStyle( 49 );
-	ReturnButtonGroup->setTitle( "End of Line Mode" );
+	ReturnButtonGroup->setTitle( i18n("End of Line Mode") );
 	ReturnButtonGroup->setAlignment( 1 );
 
 
@@ -62,7 +62,7 @@ MiscData::MiscData
 	QLabel* tmpQLabel;
 	tmpQLabel = new QLabel( this, "Label_13" );
 	tmpQLabel->setGeometry( 180, 35, 100, 20 );
-	tmpQLabel->setText( "PageProtect" );
+	tmpQLabel->setText( i18n("PageProtect") );
 	tmpQLabel->setAlignment( 289 );
 	tmpQLabel->setMargin( -1 );
 
@@ -77,7 +77,7 @@ MiscData::MiscData
 
 	tmpQLabel = new QLabel( this, "Label_14" );
 	tmpQLabel->setGeometry( 180, 90, 100, 20 );
-	tmpQLabel->setText( "Powersave Time" );
+	tmpQLabel->setText( i18n("Powersave Time") );
 	tmpQLabel->setAlignment( 292 );
 	tmpQLabel->setMargin( -1 );
 
@@ -96,21 +96,21 @@ MiscData::MiscData
 	EjectButton = new QPushButton( this, "PushButton_1" );
 	EjectButton->setGeometry( 120, 165, 80, 25 );
 	connect( EjectButton, SIGNAL(clicked()), SLOT(EjectButtonClicked()) );
-	EjectButton->setText( "Eject" );
+	EjectButton->setText(i18n( "Eject") );
 	EjectButton->setAutoRepeat( FALSE );
 	EjectButton->setAutoResize( FALSE );
 
 	ResetButton = new QPushButton( this, "PushButton_2" );
 	ResetButton->setGeometry( 25, 165, 80, 25 );
 	connect( ResetButton, SIGNAL(clicked()), SLOT(ResetButtonClicked()) );
-	ResetButton->setText( "Reset" );
+	ResetButton->setText(i18n( "Reset") );
 	ResetButton->setAutoRepeat( FALSE );
 	ResetButton->setAutoResize( FALSE );
 
 	Initialize = new QPushButton( this, "PushButton_3" );
 	Initialize->setGeometry( 25, 205, 80, 25 );
 	connect( Initialize, SIGNAL(clicked()), SLOT(InitializeClicked()) );
-	Initialize->setText( "initialize" );
+	Initialize->setText(i18n( "initialize") );
 	Initialize->setAutoRepeat( FALSE );
 	Initialize->setAutoResize( FALSE );
 
@@ -118,7 +118,7 @@ MiscData::MiscData
 	Help = new QPushButton( this, "PushButton_4" );
 	Help->setGeometry( 120, 205, 80, 25 );
 	connect( Help, SIGNAL(clicked()), SLOT(HelpClicked()) );
-	Help->setText( "Help" );
+	Help->setText( i18n("Help") );
 	Help->setAutoRepeat( FALSE );
 	Help->setAutoResize( FALSE );
 
@@ -126,7 +126,7 @@ MiscData::MiscData
 	About = new QPushButton( this, "PushButton_4" );
 	About->setGeometry( 210, 205, 80, 25 );
 	connect( About, SIGNAL(clicked()), SLOT(AboutClicked()) );
-	About->setText( "About" );
+	About->setText( i18n("About") );
 	About->setAutoRepeat( FALSE );
 	About->setAutoResize( FALSE );
 

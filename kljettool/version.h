@@ -1,1 +1,1 @@
-#define KLJETVERSION "0.2.1"
+#define KLJETVERSION "0.3"

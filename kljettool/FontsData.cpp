@@ -16,6 +16,8 @@
 
 #include <qframe.h>
 #include <qlabel.h>
+#include <kapp.h>
+#include <klocale.h>
 
 FontsData::FontsData
 (
@@ -33,7 +35,7 @@ FontsData::FontsData
 	QLabel* tmpQLabel;
 	tmpQLabel = new QLabel( this, "LanguageLabel" );
 	tmpQLabel->setGeometry( 20, 30, 70, 20 );
-	tmpQLabel->setText( "Language" );
+	tmpQLabel->setText( i18n("Language") );
 	tmpQLabel->setAlignment( 290 );
 	tmpQLabel->setMargin( -1 );
 
@@ -52,7 +54,7 @@ FontsData::FontsData
 
 	tmpQLabel = new QLabel( this, "SymbolSetLabel" );
 	tmpQLabel->setGeometry( 20, 70, 70, 20 );
-	tmpQLabel->setText( "Symbol Set" );
+	tmpQLabel->setText( i18n("Symbol Set") );
 	tmpQLabel->setAlignment( 290 );
 	tmpQLabel->setMargin( -1 );
 
@@ -99,7 +101,7 @@ FontsData::FontsData
 
 	tmpQLabel = new QLabel( this, "Label_6" );
 	tmpQLabel->setGeometry( 25, 110, 65, 25 );
-	tmpQLabel->setText( "Font" );
+	tmpQLabel->setText(i18n( "Font") );
 	tmpQLabel->setAlignment( 290 );
 	tmpQLabel->setMargin( -1 );
 
@@ -120,7 +122,7 @@ FontsData::FontsData
 
 	tmpQLabel = new QLabel( this, "Label_8" );
 	tmpQLabel->setGeometry( 40, 150, 50, 30 );
-	tmpQLabel->setText( "Pitch" );
+	tmpQLabel->setText(i18n( "Pitch") );
 	tmpQLabel->setAlignment( 290 );
 	tmpQLabel->setMargin( -1 );
 
@@ -136,7 +138,7 @@ FontsData::FontsData
 
 	tmpQLabel = new QLabel( this, "Label_9" );
 	tmpQLabel->setGeometry( 20, 185, 70, 30 );
-	tmpQLabel->setText( "Point Size" );
+	tmpQLabel->setText(i18n( "Point Size") );
 	tmpQLabel->setAlignment( 290 );
 	tmpQLabel->setMargin( -1 );
 
@@ -151,7 +153,7 @@ FontsData::FontsData
 
 	tmpQLabel = new QLabel( this, "Label_10" );
 	tmpQLabel->setGeometry( 220, 185, 50, 30 );
-	tmpQLabel->setText( "points" );
+	tmpQLabel->setText(i18n( "points") );
 	tmpQLabel->setAlignment( 289 );
 	tmpQLabel->setMargin( -1 );
 
