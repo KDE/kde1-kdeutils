@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfloppy\n"
 "POT-Creation-Date: 1998-05-30 17:50+0200\n"
-"PO-Revision-Date: 1998-06-20 17:27 CEST\n"
+"PO-Revision-Date: 1998-07-01 08:24 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -53,7 +53,7 @@ msgstr "Úplné formátovaní"
 
 #: floppy.cpp:142
 msgid "Create Label:"
-msgstr "Vytoøit popis diskety"
+msgstr "Vytvoøit popis diskety"
 
 #: floppy.cpp:148
 msgid "KDE FLoppy"
