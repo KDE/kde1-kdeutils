@@ -42,7 +42,6 @@ Name[ro]=Editor avansat
 Name[ru]=Расширенный редактор
 Name[sk]=PokroХilЩ editor
 Name[sv]=Avancerad editor
-Name[ca]=Editor avanГat
 MimeType=
 Exec=kwrite -caption "%c" %i %m %f
 TerminalOptions=
