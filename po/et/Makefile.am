@@ -10,20 +10,17 @@ LANG = et
 localedir = $(kde_locale)
 
 GMSGFMT = @GMSGFMT@
-MSGFMT = @MSGFMT@
-DISTFILES = Makefile.am Makefile.in $(POFILES) $(GMOFILES)
+EXTRA_DIST = $(POFILES)
 
 all: all-@USE_NLS@
 install-data-local: install-@USE_NLS@
 
 SUFFIXES = .po .gmo
 
-.po.mo:
-	$(MSGFMT) -o $@ $<
-
 .po.gmo:
-	file=$(srcdir)/`echo $* | sed 's,.*/,,'`.gmo \
-	&& rm -f $$file && $(GMSGFMT) -o $$file $< 
+	@file=`echo $* | sed 's,.*/,,'`.gmo; \
+	echo $(GMSGFMT) -o $$file $< ;\
+	rm -f $$file && $(GMSGFMT) -o $$file $<
 
 all-yes: $(GMOFILES)
 all-no:
@@ -50,4 +47,7 @@ uninstall-local:
 	rm -f $$cat $$dir/$$name; \
 	echo "removing $$dir/$$name" ; \
 	done
+
+dist-hook: $(GMOFILES)
+	cp $(GMOFILES) $(distdir)
 
