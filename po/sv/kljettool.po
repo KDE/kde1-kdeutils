@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kljettool revision 1.3\n"
 "POT-Creation-Date: 1998-11-03 10:06+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 1998-11-21 HO:MI+ZONE\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -23,31 +23,31 @@ msgstr "Operationer"
 
 #: PaperData.cpp:59
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 #: PaperData.cpp:65
 msgid "Copies"
-msgstr ""
+msgstr "Kopior"
 
 #: PaperData.cpp:80
 msgid "Lines"
-msgstr ""
+msgstr "Linjer"
 
 #: PaperData.cpp:102
 msgid "Portrait"
-msgstr ""
+msgstr "Stående"
 
 #: PaperData.cpp:111
 msgid "Landscape"
-msgstr ""
+msgstr "Liggande"
 
 #: PaperData.cpp:127
 msgid "Manual Feed"
-msgstr ""
+msgstr "Manuell matning"
 
 #: PaperData.cpp:136
 msgid "Auto Continue"
-msgstr ""
+msgstr "Automatisk"
 
 #: FontsData.cpp:38
 msgid "Language"
@@ -63,7 +63,7 @@ msgstr "Avstånd"
 
 #: FontsData.cpp:141
 msgid "Point Size"
-msgstr "Punkt storlek"
+msgstr "Punktstorlek"
 
 #: FontsData.cpp:156
 msgid "points"
@@ -99,15 +99,15 @@ msgstr "Slut på rad-läge"
 
 #: MiscData.cpp:65
 msgid "PageProtect"
-msgstr "SidSkydda"
+msgstr "Sidskydd"
 
 #: MiscData.cpp:80
 msgid "Powersave Time"
-msgstr "Energispar tid"
+msgstr "Energispartid"
 
 #: MiscData.cpp:99
 msgid "Eject"
-msgstr "Pappersmatning"
+msgstr "Pappersmata"
 
 #: MiscData.cpp:106
 msgid "Reset"

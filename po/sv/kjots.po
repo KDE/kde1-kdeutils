@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kjots revision 1.1\n"
 "POT-Creation-Date: 1998-11-18 14:09+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 1998-11-21 HO:MI+ZONE\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 
 #: KJotsMain.cpp:76
 msgid "Book name:"
-msgstr "Bok namn:"
+msgstr "Boknamn:"
 
 #: KJotsMain.cpp:101
 msgid "Open URL"
@@ -23,27 +23,27 @@ msgstr "Ny bok"
 
 #: KJotsMain.cpp:354
 msgid "PreviousPage"
-msgstr "FöregåendeSida"
+msgstr "Föregående sida"
 
 #: KJotsMain.cpp:355
 msgid "NextPage"
-msgstr "NästaSida"
+msgstr "Nästa sida"
 
 #: KJotsMain.cpp:356
 msgid "ShowSubjectList"
-msgstr "VisaÄmnesLista"
+msgstr "Visa ämneslista"
 
 #: KJotsMain.cpp:357
 msgid "AddNewPage"
-msgstr "LäggTillNySida"
+msgstr "Läggtill ny sida"
 
 #: KJotsMain.cpp:358
 msgid "MoveFocus"
-msgstr "FlyttaFokus"
+msgstr "Flytta fokus"
 
 #: KJotsMain.cpp:359
 msgid "CopySelection"
-msgstr "KopieraMarkering"
+msgstr "Kopiera markering"
 
 #: KJotsMain.cpp:371
 msgid "&New Book"
@@ -55,11 +55,11 @@ msgstr "Spara den här boken"
 
 #: KJotsMain.cpp:377
 msgid "Save book to ascii file"
-msgstr "Spara bok till en ascii fil"
+msgstr "Spara bok till en ascii-fil"
 
 #: KJotsMain.cpp:378
 msgid "Save page to ascii file"
-msgstr "Spara sida till en ascii fil"
+msgstr "Spara sida till en ascii-fil"
 
 #: KJotsMain.cpp:380 KJotsMain.cpp:663
 msgid "Delete current book"
@@ -103,26 +103,26 @@ msgstr "av"
 
 #: KJotsMain.cpp:427
 msgid "New"
-msgstr ""
+msgstr "Ny"
 
 #: KJotsMain.cpp:433
 #, fuzzy
 msgid "Previous"
-msgstr "FöregåendeSida"
+msgstr "Föregående sida"
 
 #: KJotsMain.cpp:436
 #, fuzzy
 msgid "Next"
-msgstr "NästaSida"
+msgstr "Nästa sida"
 
 #: KJotsMain.cpp:440
 #, fuzzy
 msgid "Subject List"
-msgstr "VisaÄmnesLista"
+msgstr "Visa ämneslista"
 
 #: KJotsMain.cpp:444
 msgid "Exit"
-msgstr ""
+msgstr "Avsluta"
 
 #: KJotsMain.cpp:616
 msgid "A book with this name already exists."
@@ -179,4 +179,4 @@ msgstr "Välj"
 
 #: confdialog.cpp:133
 msgid "Dolor Ipse"
-msgstr ""
+msgstr "Bröder, gutår!"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark revision 1.6\n"
 "POT-Creation-Date: 1998-11-14 02:05+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 1998-11-21 HO:MI+ZONE\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgstr "Bevara rättigheter"
 
 #: extractdlg.cc:57
 msgid "Filenames to Lowercase"
-msgstr "Filnamn till Gemen"
+msgstr "Filnamn till gemen"
 
 #: extractdlg.cc:68
 msgid "All Files"
@@ -61,7 +61,7 @@ msgstr "&Packa upp till..."
 
 #: arkwidget.cc:71
 msgid "&New..."
-msgstr ""
+msgstr "&Ny..."
 
 #: arkwidget.cc:74
 msgid "&Extract To..."
@@ -73,16 +73,16 @@ msgstr "P&acka upp..."
 
 #: arkwidget.cc:80
 msgid "&View file"
-msgstr ""
+msgstr "&Visa fil"
 
 #: arkwidget.cc:82
 #, fuzzy
 msgid "&Delete file"
-msgstr "Valda filer"
+msgstr "R&adera fil"
 
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
-msgstr "&Välj arkiv katalog..."
+msgstr "&Välj arkivkatalog..."
 
 #: arkwidget.cc:85
 msgid "Set &Tar Executable..."
@@ -90,12 +90,12 @@ msgstr "Välj &Tar-program"
 
 #: arkwidget.cc:86
 msgid "&File Adding Options..."
-msgstr "&Lägg till fil Inställningar"
+msgstr "Inställningar för &Lägg till fil..."
 
 #: arkwidget.cc:97
 #, fuzzy
 msgid "File Operations"
-msgstr "Inställningar för Lägg till fil"
+msgstr "Filinställningar"
 
 #: arkwidget.cc:99
 #, fuzzy
@@ -104,17 +104,17 @@ msgstr "P&acka upp..."
 
 #: arkwidget.cc:100
 msgid "View file"
-msgstr ""
+msgstr "Visa fil"
 
 #: arkwidget.cc:102
 #, fuzzy
 msgid "Delete file"
-msgstr "Valda filer"
+msgstr "Radera fil"
 
 #: arkwidget.cc:114
 #, fuzzy
 msgid "Goto Archive Dir..."
-msgstr "&Välj arkiv katalog..."
+msgstr "&Välj arkivkatalog..."
 
 #: arkwidget.cc:117
 #, fuzzy
@@ -123,12 +123,12 @@ msgstr "&Packa upp till..."
 
 #: arkwidget.cc:121
 msgid "Exit"
-msgstr ""
+msgstr "Avsluta"
 
 #: arkwidget.cc:128
 #, fuzzy
 msgid "Welcome to ark..."
-msgstr "Välkommen till KZip..."
+msgstr "Välkommen till ark..."
 
 #: arkwidget.cc:235
 msgid "Can't create archive of that type"
@@ -140,7 +140,7 @@ msgstr "Skapa eller öppna ett arkiv först"
 
 #: arkwidget.cc:300
 msgid "Can't add directories with this archive type"
-msgstr "Kan inte lägga till kataloger med denna arkiv typ"
+msgstr "Kan inte lägga till kataloger med denna arkivtyp"
 
 #: arkwidget.cc:302
 msgid "Error saving to archive"
@@ -149,7 +149,7 @@ msgstr "Fel då arkivet sparades"
 #: arkwidget.cc:312
 #, fuzzy
 msgid "Archive Dir"
-msgstr "Arkiv katalog:"
+msgstr "Arkivkatalog"
 
 #: arkwidget.cc:325
 msgid "What runs GNU tar:"
@@ -157,16 +157,16 @@ msgstr "Vad kör GNU tar:"
 
 #: arkwidget.cc:376 arkwidget.cc:578
 msgid "Unknown archive format"
-msgstr "Okänt arkiv format"
+msgstr "Okänt arkivformat"
 
 #: arkwidget.cc:396
 msgid "Size"
-msgstr ""
+msgstr "Storlek"
 
 #: arkwidget.cc:402
 msgid "Archive directory does not exist."
-msgstr "Arkiv katalog existerar ej."
+msgstr "Arkivkatalog existerar ej."
 
 #: arkwidget.cc:418
 msgid "Archive Directory"
-msgstr "Arkiv katalog"
+msgstr "Arkivkatalog"
