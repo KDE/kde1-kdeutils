@@ -60,8 +60,10 @@ AC_HEADER_TIME
 
 dnl check if the compiler has bool
 AC_CHECK_BOOL
+AC_C_LONG_DOUBLE  
 
 dnl Checks for library functions. MISCOBJS is for kdecore
+AC_CHECK_FUNCS(socket fabsl strdup) 
 AC_CHECK_KSIZE_T
 AC_CHECK_SETENV
 
