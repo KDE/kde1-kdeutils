@@ -1,3 +1,11 @@
+1999-02-11  Harri Porten  <porten@kde.org>
+
+	* kedit.cpp: removed accelerator char ´&´ from tooltips.
+	* bug#87: attach all QMessageBoxes to their corresponding
+        dialog widget instead of 'this', ie. KEdit. This makes them always
+        stay on top and prevents screwed textcolors (reported and
+        solution provided by Alex Hayward <xelah@ferret.lmh.ox.ac.uk>)
+	
 1999-02-08  Harri Porten  <porten@kde.org>
 
 	* kedit.cpp: quote filename for printing

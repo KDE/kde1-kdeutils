@@ -39,11 +39,12 @@
 
 #include "keditcl.moc"
 
-KEdit::KEdit(KApplication *a, QWidget *parent, const char *name,
-	     const char *fname) : QMultiLineEdit(parent, name){
+KEdit::KEdit(KApplication *a, QWidget *_parent, const char *name,
+	     const char *fname) : QMultiLineEdit(_parent, name){
 
 
     mykapp = a;
+    parent = _parent;
     filename = fname;
     rb_popup =  0L;
     modified = FALSE;
@@ -144,7 +145,7 @@ int KEdit::loadFile(QString name, int mode){
 
     if(!info.exists()){
       QMessageBox::warning(
-		  this,
+		  parent,
 		  klocale->translate("Sorry"),
 		  klocale->translate("The specified File does not exist"),
 		  klocale->translate("OK"),
@@ -158,7 +159,7 @@ int KEdit::loadFile(QString name, int mode){
 
     if(info.isDir()){
       QMessageBox::warning(
-		   this,
+		   parent,
 		   klocale->translate("Sorry:"),
 		   klocale->translate("You have specificated a directory"),
 		   klocale->translate("OK"),
@@ -173,7 +174,7 @@ int KEdit::loadFile(QString name, int mode){
 
    if(!info.isReadable()){
       QMessageBox::warning(
-		  this,
+		  parent,
 		  klocale->translate("Sorry"),
                   klocale->translate("You do not have read permission to this file."),
                   klocale->translate("OK"),
@@ -194,7 +195,7 @@ int KEdit::loadFile(QString name, int mode){
         case EACCES:
 
 	  QMessageBox::warning(
-		  this,
+		  parent,
 		  klocale->translate("Sorry"),
                   klocale->translate("You do not have read permission to this file."),
                   klocale->translate("OK"),
@@ -207,7 +208,7 @@ int KEdit::loadFile(QString name, int mode){
 
         default:
             QMessageBox::warning(
-		  this,
+		  parent,
 		  klocale->translate("Sorry"),				
 		  klocale->translate("An Error occured while trying to open this Document"),
                   klocale->translate("OK"),
@@ -413,7 +414,7 @@ int KEdit::openFile(int mode)
 
     if( isModified() ) {
       switch( QMessageBox::warning(
-			 this,
+			 parent,
 			 klocale->translate("Warning:"), 	
 			 klocale->translate("The current Document has been modified.\n"\
 					    "Would you like to save it?"),
@@ -434,7 +435,7 @@ int KEdit::openFile(int mode)
 	if (result != KEDIT_OK){
 
 	  switch(QMessageBox::warning(
-			   this,
+			   parent,
 			   klocale->translate("Sorry:"),
 			   klocale->translate("Could not save the document.\n"\
                                               "Open a new document anyways?"),
@@ -497,7 +498,7 @@ int KEdit::newFile(){
 
     if( isModified() ) {
       switch( QMessageBox::warning(
-			 this,
+			 parent,
 			 klocale->translate("Warning:"), 	
 			 klocale->translate("The current Document has been modified.\n"\
 					    "Would you like to save it?"),
@@ -517,7 +518,7 @@ int KEdit::newFile(){
 
 	  if (result != KEDIT_OK){
 
-	    switch(QMessageBox::warning(this,
+	    switch(QMessageBox::warning(parent,
 			   klocale->translate("Sorry:"),
 			   klocale->translate("Could not save the document.\n"\
                                               "Create a new document anyways?"),
@@ -1564,7 +1565,7 @@ int KEdit::saveFile(){
       if(make_backup_copies)
         rename(backup_filename.data(),filename.data());
       QMessageBox::warning(
-			   this,
+			   parent,
 			   klocale->translate("Sorry"),
 			   klocale->translate("Could not save the document\n"),
 			   klocale->translate("OK"),
@@ -1646,7 +1647,7 @@ try_again:
   if(info.exists()){
 
     switch( QMessageBox::warning(
-			   this,
+			   parent,
 			   klocale->translate("Warning:"), 	
 			   klocale->translate("A Document with this Name exists already\n"\
 						     "Do you want to overwrite it ?"),
@@ -1704,7 +1705,7 @@ int KEdit::doSave()
     if(info.exists() && !info.isWritable()){
 
       QMessageBox::warning(
-			   this,
+			   parent,
 			   klocale->translate("Sorry:"),
 			   klocale->translate("You do not have write permission "\
 					      "to this file.\n"),

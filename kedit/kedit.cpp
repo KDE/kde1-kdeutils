@@ -347,17 +347,17 @@ void TopLevel::setupToolBar(){
   pixmap = loader->loadIcon("editcopy.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
-		      SLOT(copy()), TRUE, i18n("&Copy"));
+		      SLOT(copy()), TRUE, i18n("Copy"));
 
   pixmap = loader->loadIcon("editpaste.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
-		      SLOT(paste()), TRUE, i18n("&Paste"));
+		      SLOT(paste()), TRUE, i18n("Paste"));
 
   pixmap = loader->loadIcon("editcut.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
-		      SLOT(cut()), TRUE, i18n("C&ut"));
+		      SLOT(cut()), TRUE, i18n("Cut"));
 
   toolbar->insertSeparator();
 

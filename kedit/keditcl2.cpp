@@ -108,7 +108,7 @@ again:
     if(!srchdialog->get_direction()){ // forward search
     
       int query = QMessageBox::information(
-					   this,
+					   srchdialog,
 					   klocale->translate("Find"), 
 					   klocale->translate("End of document reached.\n"\
 							      "Continue from the beginning?"), 
@@ -125,7 +125,7 @@ again:
     else{ //backward search
       
       int query = QMessageBox::information(
-					   this,
+					   srchdialog,
 					   klocale->translate("Find"), 
 					   klocale->translate("Beginning of document reached.\n"\
 							      "Continue from the end?"), 
@@ -365,7 +365,7 @@ again:
   if(!replace_dialog->get_direction()){ // forward search
     
     int query = QMessageBox::information(
-				   this,
+				   replace_dialog,
 				   klocale->translate("Find"), 
 				   klocale->translate("End of document reached.\n"\
 						      "Continue from the beginning?"), 
@@ -382,7 +382,7 @@ again:
   else{ //backward search
     
     int query = QMessageBox::information(
-				   this,
+				   replace_dialog,
 				   klocale->translate("Find"), 
 				   klocale->translate("Beginning of document reached.\n"\
 						      "Continue from the end?"), 
@@ -428,7 +428,7 @@ void KEdit::replace_search_slot(){
       else{
 
 	int query = QMessageBox::information(
-			 this,
+			 replace_dialog,
 			 klocale->translate("Replace"), 
 			 klocale->translate("Beginning of document reached.\n"\
 					    "Continue from the end?"), 
@@ -458,7 +458,7 @@ again:
     if(!replace_dialog->get_direction()){ // forward search
     
       int query = QMessageBox::information(
-				     this,
+				     replace_dialog,
 				     klocale->translate("Replace"), 
 				     klocale->translate("End of document reached.\n"\
 							"Continue from the beginning?"), 
@@ -475,7 +475,7 @@ again:
     else{ //backward search
       
       int query = QMessageBox::information(
-					   this,
+					   replace_dialog,
 					   klocale->translate("Replace"), 
 					   klocale->translate("Beginning of document reached.\n"\
 							      "Continue from the end?"), 
@@ -980,7 +980,8 @@ void KEdit::spellcheck2(KSpell *)
 void KEdit::misspelling (char *word, QStrList *, unsigned pos)
 {
 
-  int l, cnt=0;
+  int l;
+  unsigned int cnt=0;
 
   for (l=0;l<numLines() && cnt<=pos;l++)
     cnt+=strlen (textLine(l))+1;
@@ -1012,7 +1013,8 @@ void KEdit::corrected (char *originalword, char *newword, unsigned pos)
   //we'll reselect the original word in case the user has played with
   //the selection in eframe or the word was auto-replaced
 
-  int line, cnt=0, l;
+  int line, l;
+  unsigned int cnt=0;
 
   if( (QString) newword != (QString) originalword)
     {

@@ -220,7 +220,7 @@ class KEdit : public QMultiLineEdit
 
 public:
 
-    KEdit (KApplication *a=NULL,QWidget *parent=NULL, const char *name=NULL,
+    KEdit (KApplication *a=NULL,QWidget *_parent=NULL, const char *name=NULL,
 	   const char *filename=NULL);
 
     ~KEdit();
@@ -563,7 +563,7 @@ private:
 
 
     QString	killbufferstring;
-    QWidget     *p_parent;
+    QWidget     *parent;
     KFileDialog *fbox;
     KEdSrch 	*srchdialog;
     KEdReplace 	*replace_dialog;
