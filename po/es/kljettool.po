@@ -26,7 +26,7 @@ msgstr "Copias"
 
 #: PaperData.cpp:80
 msgid "Lines"
-msgstr "Lineas"
+msgstr "Líneas"
 
 #: PaperData.cpp:102
 msgid "Portrait"
@@ -90,7 +90,7 @@ msgstr "Resolución Max."
 
 #: MiscData.cpp:43
 msgid "End of Line Mode"
-msgstr "Modo Fín de Linea"
+msgstr "Modo Fín de Línea"
 
 #: MiscData.cpp:65
 msgid "PageProtect"
