@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-05-10 21:43+0200\n"
 "PO-Revision-Date: 1998-01-25 22:07 CET\n"
 "Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
 "Language-Team: Français\n"
@@ -144,7 +144,7 @@ msgstr "Expédier la note ..."
 msgid "Print Note"
 msgstr "Imprimer la note"
 
-#: knotes.cpp:324 knotes.cpp:395
+#: knotes.cpp:324 knotes.cpp:395 knotes.cpp:1271
 msgid "3D Frame"
 msgstr "Cadre en 3 dimensions"
 
@@ -168,7 +168,7 @@ msgstr "Insérer la date"
 msgid "Operations"
 msgstr "Opérations"
 
-#: knotes.cpp:399
+#: knotes.cpp:399 knotes.cpp:1261
 msgid "No Frame"
 msgstr "Sans cadre"
 

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-05-10 21:43+0200\n"
 "PO-Revision-Date: 1998-03-18 23:35+0100\n"
 "Last-Translator: Svein Olav Aasen <svein.aasen@caa.no / soaasen@online.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -145,7 +145,7 @@ msgstr "Post Note ..."
 msgid "Print Note"
 msgstr "Skriv ut Note"
 
-#: knotes.cpp:324 knotes.cpp:395
+#: knotes.cpp:324 knotes.cpp:395 knotes.cpp:1271
 msgid "3D Frame"
 msgstr "3D ramme"
 
@@ -169,7 +169,7 @@ msgstr "Sett inn dato"
 msgid "Operations"
 msgstr "Operasjoner"
 
-#: knotes.cpp:399
+#: knotes.cpp:399 knotes.cpp:1261
 msgid "No Frame"
 msgstr "Ingen ramme"
 

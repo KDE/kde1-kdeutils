@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-05-10 21:43+0200\n"
 "PO-Revision-Date: 1998-05-07 18:31+0100\n"
 "Last-Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
 "Language-Team: German <kde-i18n@kde.org>\n"
@@ -139,7 +139,7 @@ msgstr "Notiz mailen..."
 msgid "Print Note"
 msgstr "Notiz drucken"
 
-#: knotes.cpp:324 knotes.cpp:395
+#: knotes.cpp:324 knotes.cpp:395 knotes.cpp:1271
 msgid "3D Frame"
 msgstr "3D Rahmen"
 
@@ -163,7 +163,7 @@ msgstr "Datum einfügen"
 msgid "Operations"
 msgstr "Operationen"
 
-#: knotes.cpp:399
+#: knotes.cpp:399 knotes.cpp:1261
 msgid "No Frame"
 msgstr "Keinen Rahmen"
 

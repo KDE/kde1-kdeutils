@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-05-10 21:43+0200\n"
 "PO-Revision-Date: 1998-02-02 19:17+01\n"
 "Last-Translator: Thomas Tanghus <tanghus@earthling.net>\n"
 
@@ -136,7 +136,7 @@ msgstr "Send note..."
 msgid "Print Note"
 msgstr "Udskriv note"
 
-#: knotes.cpp:324 knotes.cpp:395
+#: knotes.cpp:324 knotes.cpp:395 knotes.cpp:1271
 msgid "3D Frame"
 msgstr "3D Rammer"
 
@@ -160,7 +160,7 @@ msgstr "Indsæt dato"
 msgid "Operations"
 msgstr "Funktioner"
 
-#: knotes.cpp:399
+#: knotes.cpp:399 knotes.cpp:1261
 msgid "No Frame"
 msgstr "Ingen rammer"
 

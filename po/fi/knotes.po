@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-05-10 21:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,7 +145,7 @@ msgstr "L‰het‰ viesti..."
 msgid "Print Note"
 msgstr "Tulosta viesti..."
 
-#: knotes.cpp:324 knotes.cpp:395
+#: knotes.cpp:324 knotes.cpp:395 knotes.cpp:1271
 msgid "3D Frame"
 msgstr "3D kehys"
 
@@ -169,7 +169,7 @@ msgstr "Lis‰‰ p‰iv‰"
 msgid "Operations"
 msgstr "Tapahtumat"
 
-#: knotes.cpp:399
+#: knotes.cpp:399 knotes.cpp:1261
 msgid "No Frame"
 msgstr "Ei kehyst‰"
 

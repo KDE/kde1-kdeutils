@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes 0.3\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-05-10 21:43+0200\n"
 "PO-Revision-Date: 1998-01-17 22:36+0600\n"
 "Last-Translator: Denis Yu. Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -146,7 +146,7 @@ msgstr "Памятка по почте..."
 msgid "Print Note"
 msgstr "Напечатать памятку..."
 
-#: knotes.cpp:324 knotes.cpp:395
+#: knotes.cpp:324 knotes.cpp:395 knotes.cpp:1271
 msgid "3D Frame"
 msgstr "3-ая рамка"
 
@@ -171,7 +171,7 @@ msgstr "Втавить дату"
 msgid "Operations"
 msgstr "Операции"
 
-#: knotes.cpp:399
+#: knotes.cpp:399 knotes.cpp:1261
 msgid "No Frame"
 msgstr "Без рамки"
 
