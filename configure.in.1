@@ -96,7 +96,7 @@ case "$host" in
   *) kpm_compile=no
 esac
 AC_MSG_RESULT($kpm_compile)
-if test "kpm_compile" = "no"; then
+if test "$kpm_compile" = "no"; then
   DO_NOT_COMPILE="$DO_NOT_COMPILE kpm"
 fi
 
