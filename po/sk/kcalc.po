@@ -35,7 +35,7 @@ msgstr "Pípnu» pri chybe"
 
 #: configdlg.cpp:153
 msgid "Trigonometry Mode"
-msgstr "Trojuhoµníkový re¾im"
+msgstr "Trigonometrický re¾im"
 
 #: configdlg.cpp:158
 msgid "Statistical Mode"
