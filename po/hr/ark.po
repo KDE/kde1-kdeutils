@@ -99,7 +99,7 @@ msgstr "Pode¹avanja dodavanja &datoteka"
 
 #: arkwidget.cc:97
 msgid "File Operations"
-msgstr ""
+msgstr "Operacije na datotekama"
 
 #: arkwidget.cc:99
 msgid "Extract..."
@@ -146,9 +146,8 @@ msgid "Error saving to archive"
 msgstr "Gre¹ka prilikom snimanja u arhivu"
 
 #: arkwidget.cc:312
-#, fuzzy
 msgid "Archive Dir"
-msgstr "Direktorij arhive:"
+msgstr "Dir. arhive"
 
 #: arkwidget.cc:325
 msgid "What runs GNU tar:"

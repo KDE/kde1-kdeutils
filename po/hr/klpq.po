@@ -31,7 +31,7 @@ msgstr "Pisaè"
 
 #: klpq.cpp:93
 msgid "Queuing"
-msgstr "Stavljam u red"
+msgstr "Dodajem"
 
 #: klpq.cpp:97
 msgid "Printing"
@@ -66,14 +66,12 @@ msgid "Auto"
 msgstr "Auto"
 
 #: klpq.cpp:195
-#, fuzzy
 msgid "&Auto update"
-msgstr "Osvje¾i &automatski..."
+msgstr "Osvje¾i &automatski"
 
 #: klpq.cpp:196
-#, fuzzy
 msgid "&Spooler"
-msgstr "&Posrednik..."
+msgstr "&Posrednik"
 
 #: klpq.cpp:199
 #, c-format
@@ -82,23 +80,29 @@ msgid ""
 "(C) by Christoph Neerfeld\n"
 "chris@kde.org"
 msgstr ""
+"Klpq %s\n"
+"(C) Christoph Neerfeld\n"
+"chris@kde.org"
 
 #: klpq.cpp:204
 msgid "&Config"
 msgstr "&Postava"
 
 #: klpq.cpp:390
-#, fuzzy, c-format
+#, c-format
 msgid "Do you really want to remove job No %d"
-msgstr "Da li ¾elis ukloniti posao br.  "
+msgstr "Da li ste sigurni da ¾elite ukloniti posao br.  %d"
 
 #: klpq.cpp:410
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Do you really want to move job No\n"
 "%d\n"
 "on top of queue"
-msgstr "Da li ¾elis pomaknuti posao br.\n"
+msgstr ""
+"Da li ste sigurni da ¾elite pomaknuti posao br.\n"
+"%d\n"
+"na poèetak reda"
 
 #: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
 msgid "Permission denied"
@@ -142,17 +146,10 @@ msgid ""
 "So if you don't know which spooler is installed on your system, BSD is "
 "probably a good choice."
 msgstr ""
-"Izaberi posrednièki sustav koji koristi¹. Veæina sustava koristi BSD "
-"posrednika. Ako ne zna¹ koji posrednik ima¹ instaliran BSD je vjerojatno "
+"Izaberi posrednièki sustav koji koristite. Veæina sustava koristi BSD "
+"posrednik. Ako niste sigurni koji posrednik koristite BSD je vjerojatno "
 "dobar izbor."
 
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"
 msgstr "Putevi posrednièkih komandi:"
-
-#~ msgid ""
-#~ "\n"
-#~ "on top of queue"
-#~ msgstr ""
-#~ "\n"
-#~ "na vrh reda"

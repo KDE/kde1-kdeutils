@@ -102,20 +102,20 @@ msgstr "sat aktivan"
 
 #: top.cpp:150
 msgid "Preferences"
-msgstr ""
+msgstr "Postavke"
 
 #: top.cpp:194
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s %s -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
 msgstr ""
-" 0.3 -- Sirtaj Singh Kang\n"
+"%s %s -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
-"The K Desktop Environment"
+"K Desktop Environment"
 
 #: top.cpp:200
 msgid "&Clock"
@@ -127,7 +127,7 @@ msgstr "&Zadatak"
 
 #: top.cpp:209
 msgid "&Preferences..."
-msgstr ""
+msgstr "&Postavke..."
 
 #: top.cpp:223
 msgid "S&top"
