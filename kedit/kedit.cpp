@@ -718,6 +718,14 @@ void TopLevel::fancyprint(){
 void TopLevel::about(){
 
   QDialog *dlg = new About(0);
+
+  QPoint point = this->mapToGlobal (QPoint (0,0));
+
+  QRect pos = this->geometry();
+  dlg->setGeometry(point.x() + pos.width()/2  - dlg->width()/2,
+		   point.y() + pos.height()/2 - dlg->height()/2, 
+		   dlg->width(),dlg->height());
+
   dlg->exec();
   delete dlg;
 }

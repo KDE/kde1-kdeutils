@@ -84,8 +84,8 @@ install: all
 	$(INSTALL_DATA) pixmaps/send.xpm $(TOOLPICSDIR)
 	$(INSTALL_DIR) $(PICSDIR)
 	$(INSTALL_DIR) $(ICONDIR)
-	$(INSTALL_DATA) kedit.xpm  $(ICONDIR)
-	$(INSTALL_DATA) keditlogo.xpm  $(PICSDIR)
+	$(INSTALL_DATA) pixmaps/kedit.xpm  $(ICONDIR)
+	$(INSTALL_DATA) pixmaps/keditlogo.xpm  $(PICSDIR)
 
 
 uninstall:

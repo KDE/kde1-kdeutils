@@ -87,6 +87,7 @@ int KEdit::currentLine(){
 
 };
 
+
 int KEdit::currentColumn(){
 
   computePosition();
@@ -900,7 +901,7 @@ int KEdit::doSave()
     }
 
     QFileInfo info(filename);
-    if(!info.isWritable()){
+    if(info.exists() && !info.isWritable()){
       QMessageBox::message(klocale->translate("Sorry:"), 
       klocale->translate("You do not have write permission to this file.\n"),
 			   klocale->translate("OK"));
@@ -985,6 +986,19 @@ bool KEdit::eventFilter(QObject *o, QEvent *ev){
 
   (void) o;
 
+  if (ev->type() == Event_Paint)
+	{
+	if (srchdialog)
+		if (srchdialog->isVisible())
+			srchdialog->raise();
+
+	if (replace_dialog)
+		if (replace_dialog->isVisible())
+			replace_dialog->raise();
+	}
+
+  
+
   if(ev->type() != Event_MouseButtonPress) 
     return FALSE;
     
@@ -1032,10 +1046,14 @@ void KEdit::doGotoLine() {
 //
  
 void KEdit::Search(){
+
+  if (replace_dialog)
+	if (replace_dialog->isVisible())
+		replace_dialog->hide();
   
 
   if(!srchdialog){
-    srchdialog = new KEdSrch(this, "searchdialog");
+    srchdialog = new KEdSrch(0, "searchdialog");
     connect(srchdialog,SIGNAL(search_signal()),this,SLOT(search_slot()));
     connect(srchdialog,SIGNAL(search_done_signal()),this,SLOT(searchdone_slot()));
   }
@@ -1052,6 +1070,15 @@ void KEdit::Search(){
   last_search = NONE;
 
   this->clearFocus();
+
+  QPoint point = this->mapToGlobal (QPoint (0,0));
+
+  QRect pos = this->geometry();
+  srchdialog->setGeometry(point.x() + pos.width()/2  - srchdialog->width()/2,
+			   point.y() + pos.height()/2 - srchdialog->height()/2, 
+			   srchdialog->width(),
+			   srchdialog->height());
+   
   srchdialog->show();
   srchdialog->result();
 }
@@ -1226,11 +1253,15 @@ int KEdit::repeatSearch() {
 
 
 void KEdit::Replace(){
+
+  if (srchdialog)
+	if (srchdialog->isVisible())
+		srchdialog->hide();
   
 
-  if(!replace_dialog){
+  if (!replace_dialog){
     
-    replace_dialog = new KEdReplace(this, "replace_dialog");
+    replace_dialog = new KEdReplace(0, "replace_dialog");
     connect(replace_dialog,SIGNAL(find_signal()),this,SLOT(replace_search_slot()));
     connect(replace_dialog,SIGNAL(replace_signal()),this,SLOT(replace_slot()));
     connect(replace_dialog,SIGNAL(replace_all_signal()),this,SLOT(replace_all_slot()));
@@ -1248,8 +1279,14 @@ void KEdit::Replace(){
   last_replace = NONE;
 
   this->clearFocus();
-  //  replace_dialog->setFocus();
-  //  replace_dialog->exec();
+
+  QPoint point = this->mapToGlobal (QPoint (0,0));
+
+  QRect pos = this->geometry();
+  replace_dialog->setGeometry(point.x() + pos.width()/2  - replace_dialog->width()/2,
+			   point.y() + pos.height()/2 - replace_dialog->height()/2, 
+			   replace_dialog->width(),
+			   replace_dialog->height());
   replace_dialog->show();
   replace_dialog->result();
 }
@@ -1613,7 +1650,7 @@ int KEdit::doReplace(QString s_pattern, bool case_sensitive,
 
 
 KEdSrch::KEdSrch(QWidget *parent, const char *name)
-    : QDialog(parent, name,TRUE){
+    : QDialog(parent, name,FALSE){
 
     this->setFocusPolicy(QWidget::StrongFocus);
     frame1 = new QGroupBox(klocale->translate("Find"), this, "frame1");
@@ -1703,7 +1740,7 @@ void KEdSrch::resizeEvent(QResizeEvent *){
 
 
 KEdReplace::KEdReplace(QWidget *parent, const char *name)
-    : QDialog(parent, name,TRUE){
+    : QDialog(parent, name,FALSE){
 
 
     this->setFocusPolicy(QWidget::StrongFocus);

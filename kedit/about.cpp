@@ -28,19 +28,15 @@
 #include <qpixmap.h>
 #include <kapp.h>
 
-#include <klocale.h>
-#include <kiconloader.h>
-
 extern KApplication *mykapp;
 
-
-About::About(QWidget *parent) : QDialog(parent,
-					klocale->translate("About KEdit"), TRUE) {
-  resize(450, 320);
+About::About(QWidget *parent) : QDialog(parent, "About KEdit", TRUE) {
+  resize(350, 250);
   setFixedSize(size());
-  setCaption(klocale->translate("About KEdit"));
+  setCaption("About KEdit");
 
-  QPixmap pm = kapp->getIconLoader()->loadIcon("keditlogo.xpm");
+  QString pixdir = mykapp->kdedir() + QString("/share/apps/kedit/pics/");  
+  QPixmap pm((pixdir + "keditlogo.xpm").data());
   QLabel *logo = new QLabel(this);
   logo->setPixmap(pm);
   logo->setGeometry(20, (height()-pm.height())/2 - 20, pm.width(), pm.height());
@@ -54,14 +50,12 @@ About::About(QWidget *parent) : QDialog(parent,
 
   QString s;
   s = "Version " KEDITVERSION \
-  "\n(c) 1997 Bernd Johannes Wuebben\n\nwuebben@kde.org\nwuebben@math.cornell.edu\n\n" \
-  "This program is free software; you can redistribute it and/or modify "\
-  "it under the terms of the GNU General Public License. See the help documentation for "\
-  "details.";
+  "\n\nCopyright (c) 1997\nBernd Johannes Wuebben\n"\
+  "wuebben@math.cornell.edu";
 
 
   l = new QLabel(s.data(), this);
-  l->setGeometry(170, 70, 240, 220);
+  l->setGeometry(145, 70, 230, 200);
   l->setAlignment(AlignLeft|WordBreak|ExpandTabs);
 
   QPushButton *b_ok = new QPushButton("Ok", this);

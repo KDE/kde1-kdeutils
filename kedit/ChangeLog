@@ -1,3 +1,9 @@
+Thu Sep 25 22:37:22 1997  Bernd Johannes Wuebben  <wuebben@petit.cornell.edu>
+
+	* non-modal search and replace dialogs
+	* centered about, search and replace dialogs
+	* bug fixes
+
 Sat Aug 30 23:27:51 1997  Teilnehmer 8  <wuebben@kray.dinet.de (Teilnehmer 8)>
 
 	* added Klocale support
