@@ -26,7 +26,6 @@ msgid "Only Add Newer Files"
 msgstr "Pridáva» len nov¹ie súbory"
 
 #: extractdlg.cc:14
-#, fuzzy
 msgid "Extract"
 msgstr "R&ozbali» ..."
 
@@ -59,9 +58,8 @@ msgid "Pattern"
 msgstr "Maska"
 
 #: extractdlg.cc:190
-#, fuzzy
 msgid "Extract To"
-msgstr "&Rozbali» do ..."
+msgstr "Rozbali» do"
 
 #: arkwidget.cc:71
 msgid "&New..."
@@ -77,12 +75,11 @@ msgstr "R&ozbali» ..."
 
 #: arkwidget.cc:80
 msgid "&View file"
-msgstr ""
+msgstr "&Prezrie» súbor"
 
 #: arkwidget.cc:82
-#, fuzzy
 msgid "&Delete file"
-msgstr "Vybrané súbory"
+msgstr "Zma&za» súbor"
 
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
@@ -97,42 +94,36 @@ msgid "&File Adding Options..."
 msgstr "Voµby pridania &súboru ..."
 
 #: arkwidget.cc:97
-#, fuzzy
 msgid "File Operations"
-msgstr "Voµby pre pridanie súboru"
+msgstr "Operácie so súbormi"
 
 #: arkwidget.cc:99
-#, fuzzy
 msgid "Extract..."
-msgstr "R&ozbali» ..."
+msgstr "Rozbali» ..."
 
 #: arkwidget.cc:100
 msgid "View file"
-msgstr ""
+msgstr "Prezrie» súbor"
 
 #: arkwidget.cc:102
-#, fuzzy
 msgid "Delete file"
-msgstr "Vybrané súbory"
+msgstr "Zmaza» súbor"
 
 #: arkwidget.cc:114
-#, fuzzy
 msgid "Goto Archive Dir..."
-msgstr "Na&stavi» prieèinok archívu ..."
+msgstr "Do prieèinka archívu ..."
 
 #: arkwidget.cc:117
-#, fuzzy
 msgid "Extract To.."
-msgstr "&Rozbali» do ..."
+msgstr "Rozbali» do ..."
 
 #: arkwidget.cc:121
 msgid "Exit"
-msgstr ""
+msgstr "Koniec"
 
 #: arkwidget.cc:128
-#, fuzzy
 msgid "Welcome to ark..."
-msgstr "Vitajte v KZipe ..."
+msgstr "Vitajte v arku ..."
 
 #: arkwidget.cc:235
 msgid "Can't create archive of that type"
@@ -151,9 +142,8 @@ msgid "Error saving to archive"
 msgstr "Chyba pri ukladaní do archívu"
 
 #: arkwidget.cc:312
-#, fuzzy
 msgid "Archive Dir"
-msgstr "Prieèinok archívu:"
+msgstr "Prieèinok archívu"
 
 #: arkwidget.cc:325
 msgid "What runs GNU tar:"
