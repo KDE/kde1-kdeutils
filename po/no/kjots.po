@@ -107,26 +107,23 @@ msgstr "av"
 
 #: KJotsMain.cpp:427
 msgid "New"
-msgstr ""
+msgstr "Ny"
 
 #: KJotsMain.cpp:433
-#, fuzzy
 msgid "Previous"
-msgstr "Forrige side"
+msgstr "Forrige"
 
 #: KJotsMain.cpp:436
-#, fuzzy
 msgid "Next"
-msgstr "Neste side"
+msgstr "Neste"
 
 #: KJotsMain.cpp:440
-#, fuzzy
 msgid "Subject List"
-msgstr "Vis emneliste"
+msgstr "Emneliste"
 
 #: KJotsMain.cpp:444
 msgid "Exit"
-msgstr ""
+msgstr "Avslutt"
 
 #: KJotsMain.cpp:616
 msgid "A book with this name already exists."
