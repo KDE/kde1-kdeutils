@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdebase\n"
-"POT-Creation-Date: 1999-01-12 01:57+0100\n"
+"POT-Creation-Date: 1999-01-13 01:49+0100\n"
 "PO-Revision-Date: 1998-10-15 15:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -28,11 +28,23 @@ msgstr "Baza"
 msgid "KCalc Configuraton"
 msgstr "KCalc Postava"
 
-#: kcalc.cpp:1550
+#: kcalc.cpp:1542
+#, c-format
+msgid ""
+"KCalc %s\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@math.cornell.edu\n"
+"wuebben@kde.org\n"
+"Copyright (C) 1996-98\n"
+"\n"
+"\n"
+msgstr ""
+
+#: kcalc.cpp:1551
 msgid "Base type: long double\n"
 msgstr "Tip baze: long double\n"
 
-#: kcalc.cpp:1552
+#: kcalc.cpp:1553
 msgid ""
 "Due to broken glibc's everywhere, I had to reduce KCalc's precision from "
 "'long double' to 'double'. Owners of systems with a working libc should "
@@ -43,17 +55,48 @@ msgstr ""
 "'double'. Vlasnici sistema sa ispravnim libcom trebaju prekompajlirati KCalc "
 "sa ukljuèenom 'long double' toèno¹æu. Proèitajte README za vi¹e informacija."
 
-#: configdlg.cpp:56 kcalc.cpp:1591
+#: configdlg.cpp:56 kcalc.cpp:1592
 msgid "Defaults"
 msgstr "Uobièajene vrijednosti"
 
-#: kcalc.cpp:1592
+#: kcalc.cpp:1593
 msgid "Display Font"
 msgstr "Pismo za prikazivanje"
+
+#: kcalc.cpp:1909
+#, c-format
+msgid ""
+"KCalc %s\n"
+"Copyright 1997 Bernd Johannes Wuebben <wuebben@kde.org>\n"
+msgstr ""
+
+#: kcalc_core.cpp:1111
+msgid "Last stat item erased"
+msgstr ""
 
 #: kcalc_core.cpp:1151
 msgid "Stat Mem cleared"
 msgstr "Stat Mem ispra¾njen"
+
+#: kcalc_core.cpp:1627
+msgid "Stack processing error - right_op"
+msgstr ""
+
+#: kcalc_core.cpp:1635
+msgid "Stack processing error - function"
+msgstr ""
+
+#: kcalc_core.cpp:1644
+msgid "Stack processing error - left_op"
+msgstr ""
+
+#: kcalc_core.cpp:1948 kcalc_core.cpp:1956
+msgid "Emergency"
+msgstr ""
+
+#: kcalc_core.cpp:1948 kcalc_core.cpp:1956
+msgid "Stack Error!"
+msgstr ""
 
 #: configdlg.cpp:61
 msgid "Foreground Color:"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-12 10:23+0100\n"
+"POT-Creation-Date: 1999-01-13 01:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,7 +62,7 @@ msgstr ""
 msgid "Display Font"
 msgstr ""
 
-#: kcalc.cpp:1908
+#: kcalc.cpp:1909
 #, c-format
 msgid ""
 "KCalc %s\n"
