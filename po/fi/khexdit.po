@@ -17,7 +17,7 @@ msgstr ""
 #: hexdata.cpp:33
 #, c-format
 msgid "Error opening %s"
-msgstr "Virhe avattaessa %s"
+msgstr "Virhe %s:n avauksessa"
 
 #: hexwidget.cpp:80
 msgid "Save &As..."
@@ -29,7 +29,7 @@ msgstr "Piilota/Näytä työkalupalkki"
 
 #: hexwidget.cpp:94
 msgid "Hex Editor"
-msgstr "Heksadesimaali Editori"
+msgstr "Heksaeditori"
 
 #: hexwidget.cpp:96
 msgid ""
@@ -80,7 +80,7 @@ msgid ""
 "or stop the running one."
 msgstr ""
 "KHexdit odottaa jo\n"
-"Internet tehtävän loppumista.\n"
+"Internet-tehtävän loppumista.\n"
 "\n"
 "Odota kunnes tämä on valmis\n"
 "tai keskeytä tehtävä."

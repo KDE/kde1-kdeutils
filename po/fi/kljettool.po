@@ -15,7 +15,7 @@ msgid ""
 "Unable to print with:\n"
 " %s"
 msgstr ""
-"En voi tulostaa laitteella:\n"
+"En voi tulostaa laitteelle:\n"
 " %s"
 
 #: FontsData.cpp:38
@@ -68,7 +68,7 @@ msgstr "Tila"
 
 #: PrinterData.cpp:47
 msgid "Economy"
-msgstr "Econotila"
+msgstr "Säästötila"
 
 #: PrinterData.cpp:56
 msgid "Presentation"
@@ -109,6 +109,3 @@ msgstr "Paperi"
 #: main.cpp:71
 msgid "Operations"
 msgstr "Tapahtumat"
-
-#~ msgid "Fonts"
-#~ msgstr "Kirjasimet"

@@ -32,7 +32,7 @@ msgstr "Tiheys:"
 
 #: floppy.cpp:74
 msgid "File System:"
-msgstr "Tyyppi:"
+msgstr "Tiedostojärjestelmä:"
 
 #: floppy.cpp:108 floppy.cpp:408
 msgid "Format"
@@ -79,8 +79,8 @@ msgid ""
 "kfdformat is part of the KFloppy distribution.\n"
 "Please install KFloppy properly."
 msgstr ""
-"En löydä kfdformat ohjelmaa\n"
-"kfdformat on osa KLevyke ohjelmaa.\n"
+"En löydä kfdformat-ohjelmaa\n"
+"kfdformat on osa Klevyke-ohjelmaa.\n"
 "Asenna KLevyke kunnolla."
 
 #: floppy.cpp:349
@@ -89,8 +89,8 @@ msgid ""
 "kmke2fs is part of the KFloppy distribution.\n"
 "Please install KFloppy properly."
 msgstr ""
-"En löydä kmke2fs ohjelmaa\n"
-"kmke2fs on osa KLevyke ohjelmaa.\n"
+"En löydä kmke2fs-ohjelmaa\n"
+"kmke2fs on osa Klevyke-ohjelmaa.\n"
 "Asenna KLevyke kunnolla."
 
 #: floppy.cpp:364
@@ -99,8 +99,8 @@ msgid ""
 "kmkdosfs is part of the KFloppy distribution.\n"
 "Please install KFloppy properly."
 msgstr ""
-"En löydä kmkdosfs ohjelmaa\n"
-"kmkdosfs  on osa KLevyke ohjelmaa.\n"
+"En löydä kmkdosfs-ohjelmaa\n"
+"kmkdosfs on osa Klevyke-ohjelmaa.\n"
 "Asenna KLevyke kunnolla."
 
 #: floppy.cpp:424
@@ -118,7 +118,7 @@ msgid ""
 "have selected a valid floppy drive.\n"
 msgstr ""
 "En voi käyttää levykeasemaa.\n"
-"Aseta levyke asemaan ja varmista\n"
+"Aseta levyke asemaan ja varmista,\n"
 "että olet valinnut olemassaolevan levykeaseman.\n"
 
 #: floppy.cpp:587

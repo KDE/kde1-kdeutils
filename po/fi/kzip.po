@@ -64,11 +64,11 @@ msgstr "P&ura..."
 
 #: kzip.cc:80
 msgid "&Set Archive Directory..."
-msgstr "&Aseta paketin hakemisto..."
+msgstr "&Aseta arkiston hakemisto..."
 
 #: kzip.cc:81
 msgid "Set &Tar Executable..."
-msgstr "Aseta &Tar ohjelma..."
+msgstr "Aseta &Tar-ohjelma..."
 
 #: kzip.cc:82
 msgid "&File Adding Options..."
@@ -76,11 +76,11 @@ msgstr "&Tiedostonlisäyksen asetukset..."
 
 #: kzip.cc:128
 msgid "Welcome to KZip..."
-msgstr "Tervetuloa KZip:n"
+msgstr "Tervetuloa KZipiin"
 
 #: kzip.cc:235
 msgid "Can't create archive of that type"
-msgstr "En voi luoda tämäntyyppistä pakettia"
+msgstr "En voi luoda tämäntyyppistä arkistoa"
 
 #: kzip.cc:257
 msgid "Create or open an archive first"
@@ -88,7 +88,7 @@ msgstr "Luo tai avaa paketti ensin"
 
 #: kzip.cc:300
 msgid "Can't add directories with this archive type"
-msgstr "En voi lisätä hakemistoja tähän pakkaustyyppiin"
+msgstr "En voi lisätä hakemistoja tähän arkistotyyppiin"
 
 #: kzip.cc:302
 msgid "Error saving to archive"
@@ -96,7 +96,7 @@ msgstr "Virhe pakettiin tallennettaessa"
 
 #: kzip.cc:312
 msgid "Archive Dir:"
-msgstr "Paketin hakemisto:"
+msgstr "Arkiston hakemisto:"
 
 #: kzip.cc:329
 msgid "What runs GNU tar:"
@@ -108,11 +108,8 @@ msgstr "Tuntematon pakkausformaatti"
 
 #: kzip.cc:392
 msgid "Archive directory does not exist."
-msgstr "Paketin hakemistoa ei ole olemassa."
+msgstr "Arkiston hakemistoa ei ole olemassa."
 
 #: kzip.cc:408
 msgid "Archive Directory"
-msgstr "Paketin hakemisto"
-
-#~ msgid "Files"
-#~ msgstr "Tiedostot"
+msgstr "Arkiston hakemisto"

@@ -48,7 +48,7 @@ msgstr ": Lisää tehtävä"
 
 #: karm.cpp:216
 msgid "Karm::createNewTask called and there's no dialog!"
-msgstr "Karm::createNewTask kutsuttu mutta ei ole dialogia!"
+msgstr "Karm::createNewTask kutsuttu, mutta ei ole dialogia!"
 
 #: karm.cpp:243
 msgid ": Edit Task Entry"
@@ -56,7 +56,7 @@ msgstr ": Muokkaa tehtävää"
 
 #: karm.cpp:256
 msgid "Karm::updateExistingTask called and there's no dlg!"
-msgstr "Karm::updateExistingTask kutsuttu mutta ei ole dialogia!"
+msgstr "Karm::updateExistingTask kutsuttu, mutta ei ole dialogia!"
 
 #: karm.cpp:280
 msgid ": Deleting Task"
@@ -64,7 +64,7 @@ msgstr ": Poista tehtävä"
 
 #: karm.cpp:281
 msgid "Are you sure you want to delete this task?"
-msgstr "Oletko varma että haluat poistaa tehtävän?"
+msgstr "Oletko varma, että haluat poistaa tehtävän?"
 
 #: karm.cpp:283
 msgid "&Yes"
@@ -129,9 +129,3 @@ msgstr ""
 #: top.cpp:161
 msgid "clock active"
 msgstr "kello käynnissä"
-
-#~ msgid "&Start"
-#~ msgstr "&Käynnistä"
-
-#~ msgid "&Contents"
-#~ msgstr "&Sisältö"
