@@ -1,171 +1,180 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
-"Content-Type: text/plain; charset=\n"
 "Date: 1997-10-09 11:06:57-0400\n"
 "From: Robert Palmbos <robertp@pbnjelly>\n"
+"Content-Type: text/plain; charset=\n"
 "Xgettext-Options: --keyword=translate -C\n"
-"Files: adddlg.cc ar.cc arch.cc extractdlg.cc karch.cc kfdird.cc "
-"ktablistbox.cc kzip.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h "
-"extractdlg.h karch.h kfdird.h ktablistbox.h kzip.h lha.h tar.h text.h zip.h\n"
+"Files: adddlg.cc ar.cc arch.cc extractdlg.cc karch.cc kfdird.cc ktablistbox.cc kzip.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h extractdlg.h karch.h kfdird.h ktablistbox.h kzip.h lha.h tar.h text.h zip.h\n"
 
-#: adddlg.cc:11
+#: adddlg.cc:9
 msgid "Add File Options"
 msgstr "Pode¹avanja za dodavanje  datoteka"
 
-#: adddlg.cc:22
+#: adddlg.cc:13 extractdlg.cc:69
+msgid "Ok"
+msgstr "U redu"
+
+#: adddlg.cc:16 arch.cc:33 extractdlg.cc:73
+msgid "Cancel"
+msgstr "Odustani"
+
+#: adddlg.cc:20
 msgid "Store Full Path"
 msgstr "Spremi cijelu stazu"
 
-#: adddlg.cc:25
+#: adddlg.cc:23
 msgid "Only Add Newer Files"
 msgstr "Samo dodaj novije datoteke"
 
-#: extractdlg.cc:9
+#: extractdlg.cc:7
 msgid "Files"
 msgstr "Datoteke"
 
-#: extractdlg.cc:13
+#: extractdlg.cc:11
 msgid "Extract Options"
 msgstr "Pode¹avanja za raspakiranje"
 
-#: extractdlg.cc:17
+#: extractdlg.cc:15
 msgid "Destination"
 msgstr "Odredi¹te"
 
-#: extractdlg.cc:33
+#: extractdlg.cc:23
+msgid "Browse..."
+msgstr "Potra¾i..."
+
+#: extractdlg.cc:30
 msgid "Preserve Permissions"
 msgstr "Saèuvaj dozvole"
 
-#: extractdlg.cc:36
+#: extractdlg.cc:33
 msgid "Filenames to Lowercase"
 msgstr "Imena malim slovima"
 
-#: extractdlg.cc:39
+#: extractdlg.cc:36
 msgid "All Files"
 msgstr "Sve datoteke"
 
-#: extractdlg.cc:42
+#: extractdlg.cc:39
 msgid "Selected File"
 msgstr "Izabrana datoteka"
 
-#: extractdlg.cc:45
+#: extractdlg.cc:42
 msgid "Pattern"
 msgstr "Uzorak"
 
-#: kzip.cc:65
+#: kzip.cc:36
+msgid "&New"
+msgstr "&Novi"
+
+#: kzip.cc:37
+msgid "&Open..."
+msgstr "&Otvori..."
+
+#: kzip.cc:39
 msgid "&Extract To..."
 msgstr "&Raspakiraj u..."
 
-#: kzip.cc:70
+#: kzip.cc:41
+msgid "&Close"
+msgstr "Za&tvori"
+
+#: kzip.cc:42
+msgid "E&xit"
+msgstr "&Zavr¹i"
+
+#: kzip.cc:44
 msgid "E&xtract..."
 msgstr "&Raspakiraj..."
 
-#: kzip.cc:75
+#: kzip.cc:45
+msgid "&View"
+msgstr "Po&gledaj"
+
+#: kzip.cc:47
+msgid "&Delete"
+msgstr "O&bri¹i"
+
+#: kzip.cc:49
 msgid "&Set Archive Directory..."
 msgstr "Pos&tavi direktorij arhive..."
 
-#: kzip.cc:76
+#: kzip.cc:50
 msgid "&File Adding Options..."
 msgstr "Pode¹avanja dodavanja &datoteka"
 
-#: kzip.cc:122
+#: kzip.cc:52
+msgid "&Help..."
+msgstr "&Pomoæ..."
+
+#: kzip.cc:54
+msgid "&About..."
+msgstr "&O programu..."
+
+#: kzip.cc:56
+msgid "&File"
+msgstr "&Datoteka"
+
+#: kzip.cc:57
+msgid "&Edit"
+msgstr "&Urednik"
+
+#: kzip.cc:58
+msgid "&Options"
+msgstr "P&ode¹avanja"
+
+#: kzip.cc:60
+msgid "&Help"
+msgstr "&Pomoæ"
+
+#: kzip.cc:87
 msgid "Welcome to KZip..."
 msgstr "Dobrodo¹li u KZip..."
 
-#: kzip.cc:228
+#: kzip.cc:139
 msgid "Can't create archive of that type"
 msgstr "Ne mogu naèiniti arhivu te vrste"
 
-#: kzip.cc:249 kzip.cc:286 kzip.cc:294
+#: kzip.cc:160 kzip.cc:194 kzip.cc:201
 msgid "Create or open an archive first"
 msgstr "Prvo naèinite ili otvorite arhivu"
 
-#: kzip.cc:273
-msgid "Can't add directories with this archive type"
-msgstr ""
-
-#: kzip.cc:275
+#: kzip.cc:183
 msgid "Error saving to archive"
 msgstr "Gre¹ka prilikom snimanja u arhivu"
 
-#: kzip.cc:305
+#: kzip.cc:212
 msgid "Archive Dir:"
 msgstr "Direktorij arhive:"
 
-#: kzip.cc:342 kzip.cc:534
+#: kzip.cc:251 kzip.cc:422
 msgid "Unknown archive format"
 msgstr "Nepoznata vrsta arhive"
 
-#: kzip.cc:378
+#: kzip.cc:286
 msgid "Archive Directory"
 msgstr "Direktorij arhive:"
 
-#~ msgid "Ok"
-#~ msgstr "U redu"
+#: kzip.cc:327
+msgid "None"
+msgstr "Ni¹ta"
 
-#~ msgid "Cancel"
-#~ msgstr "Odustani"
+#: kzip.cc:362
+msgid "Open With: (program)"
+msgstr "Otvori s: (program)"
 
-#~ msgid "Browse..."
-#~ msgstr "Potra¾i..."
+#: ar.h:24
+msgid "Permissions\tOwner/Group\tSize      \tTimeStamp         \tName\t"
+msgstr "Dozvole   \tVlasnik/Grupa\tVelièina    \tVrijeme         \tNaziv\t"
 
-#~ msgid "&New"
-#~ msgstr "&Novi"
+#: lha.h:24
+msgid "Permsissions\tOwner/Group\tPacked      \tSize         \tRatio\tCRC\tTimeStamp     \tName\t"
+msgstr "Dozvole    \tVlasnik/Grupa\tPakirano  \tVelièina     \tOmjer\tCRC\tVrijeme       \tNaziv\t "
 
-#~ msgid "&Open..."
-#~ msgstr "&Otvori..."
+#: tar.h:22
+msgid "Permissions\tOwner/Group\tSize        \tTimeStamp\tName\t"
+msgstr "Dozvole   \tVlasnik/Grupa\tVelièina  \tVrijeme  \tNaziv\t"
 
-#~ msgid "&Close"
-#~ msgstr "Za&tvori"
+#: zip.h:24
+msgid "Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
+msgstr "Duljina   \tNaèin \tVelièina     \tOmjer\tDatum    \tVrijeme\tCRC-32\tNaziv\t"
 
-#~ msgid "E&xit"
-#~ msgstr "&Zavr¹i"
-
-#~ msgid "&View"
-#~ msgstr "Po&gledaj"
-
-#~ msgid "&Delete"
-#~ msgstr "O&bri¹i"
-
-#~ msgid "&Help..."
-#~ msgstr "&Pomoæ..."
-
-#~ msgid "&About..."
-#~ msgstr "&O programu..."
-
-#~ msgid "&File"
-#~ msgstr "&Datoteka"
-
-#~ msgid "&Edit"
-#~ msgstr "&Urednik"
-
-#~ msgid "&Options"
-#~ msgstr "P&ode¹avanja"
-
-#~ msgid "&Help"
-#~ msgstr "&Pomoæ"
-
-#~ msgid "None"
-#~ msgstr "Ni¹ta"
-
-#~ msgid "Open With: (program)"
-#~ msgstr "Otvori s: (program)"
-
-#~ msgid "Permissions\tOwner/Group\tSize      \tTimeStamp         \tName\t"
-#~ msgstr "Dozvole   \tVlasnik/Grupa\tVelièina    \tVrijeme         \tNaziv\t"
-
-#~ msgid ""
-#~ "Permsissions\tOwner/Group\tPacked      \tSize         "
-#~ "\tRatio\tCRC\tTimeStamp     \tName\t"
-#~ msgstr ""
-#~ "Dozvole    \tVlasnik/Grupa\tPakirano  \tVelièina     \tOmjer\tCRC\tVrijeme   "
-#~ "    \tNaziv\t "
-
-#~ msgid "Permissions\tOwner/Group\tSize        \tTimeStamp\tName\t"
-#~ msgstr "Dozvole   \tVlasnik/Grupa\tVelièina  \tVrijeme  \tNaziv\t"
-
-#~ msgid ""
-#~ "Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
-#~ msgstr ""
-#~ "Duljina   \tNaèin \tVelièina     \tOmjer\tDatum    \tVrijeme\tCRC-32\tNaziv\t"
