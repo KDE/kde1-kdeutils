@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Ktop 0.9.7\n"
-"POT-Creation-Date: 1999-03-12 14:27+0100\n"
+"POT-Creation-Date: 1999-03-16 01:50+0100\n"
 "PO-Revision-Date: 1999-03-13 15:00 CET\n"
 "Last-Translator: Francois-Xavier DURANCEAU "
 "<Francois-Xavier.Duranceau@loria.fr>\n"
@@ -194,6 +194,10 @@ msgstr "&Ressources"
 #: ProcListPage.cpp:42
 msgid "Running Processes"
 msgstr "Processus en cours d'exécution"
+
+#: ProcListPage.cpp:49
+msgid "Show Tree"
+msgstr ""
 
 #: ProcListPage.cpp:60
 msgid "All processes"
@@ -456,4 +460,3 @@ msgstr ""
 "nombre est petit, plus la priorité est élevée.\n"
 "\n"
 "Entrez la valeur de gentillesse désirée :"
-
