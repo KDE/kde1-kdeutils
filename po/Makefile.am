@@ -1,5 +1,5 @@
 
-SUBDIRS = de da fr cs nl sv es ru hu it pl pt fi hr el ro no zh sk
+SUBDIRS = de da fr cs nl sv es ru hu it pl pt fi hr el ro no zh_TW_Big5 sk
 
 # this is a general list for merging!
 APPS = kedit khexdit kzip knotes karm kljettool kcalc kfloppy

@@ -11,58 +11,74 @@ msgstr ""
 "Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
 "Files: about.cpp floppy.cpp main.cpp\n"
 
+# about.cpp:40
 #: about.cpp:40
 msgid "About KDE Floppy Formater"
 msgstr "O KDE programu za formatiranje"
 
-#: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368 floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721 floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
+# about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368 floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721 floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
+#: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368
+#: floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721
+#: floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
 msgid "KFloppy"
 msgstr "KFloppy"
 
+# about.cpp:54
 #: about.cpp:54
 msgid "Version "
 msgstr "Inaèica"
 
+# floppy.cpp:56
 #: floppy.cpp:56
 msgid "Floppy Drive:"
 msgstr "Floppy Drive:"
 
+# floppy.cpp:65
 #: floppy.cpp:65
 msgid "Density:"
 msgstr "Gustoæa:"
 
+# floppy.cpp:74
 #: floppy.cpp:74
 msgid "File System:"
 msgstr "Datoteèni sistem:"
 
+# floppy.cpp:108 floppy.cpp:408
 #: floppy.cpp:108 floppy.cpp:408
 msgid "Format"
 msgstr "Format"
 
+# floppy.cpp:131
 #: floppy.cpp:131
 msgid "Quick Erase"
 msgstr "Brzo Obri¹i"
 
+# floppy.cpp:136
 #: floppy.cpp:136
 msgid "Full Format"
 msgstr "Puni Format"
 
+# floppy.cpp:142
 #: floppy.cpp:142
 msgid "Create Label:"
 msgstr "Naèini Oznaku:"
 
+# floppy.cpp:148
 #: floppy.cpp:148
 msgid "KDE FLoppy"
 msgstr "KDE Floppy"
 
+# floppy.cpp:162
 #: floppy.cpp:162
 msgid "KDE Floppy Formater"
 msgstr "KDE program za formatiranje disketa"
 
+# floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267
 #: floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267
 msgid "HD"
 msgstr "HD"
 
+# floppy.cpp:286
 #: floppy.cpp:286
 msgid ""
 "Cannot access %s\n"
@@ -73,6 +89,7 @@ msgstr ""
 "Provjerite da ureðaj postoji i da na njemu\n"
 "imate privilegije za pisanje."
 
+# floppy.cpp:333
 #: floppy.cpp:333
 msgid ""
 "Cannot find kfdformat\n"
@@ -83,6 +100,7 @@ msgstr ""
 "kfdformat je dio KFloppy distribucije.\n"
 "Morate ispravno instalirati KFloppy."
 
+# floppy.cpp:349
 #: floppy.cpp:349
 msgid ""
 "Cannot find kmke2fs\n"
@@ -93,6 +111,7 @@ msgstr ""
 "kmke2fs je dio KFloppy distribucije.\n"
 "Morate ispravno instalirati KFloppy."
 
+# floppy.cpp:364
 #: floppy.cpp:364
 msgid ""
 "Cannot find kmkdosfs\n"
@@ -103,14 +122,17 @@ msgstr ""
 "kmkdosfs je dio KFloppy distribucije.\n"
 "Morate ispravno instalirati KFloppy."
 
+# floppy.cpp:424
 #: floppy.cpp:424
 msgid "Abort"
 msgstr "Prekini"
 
+# floppy.cpp:472
 #: floppy.cpp:472
 msgid "Cannot start a new program: fork() failed."
 msgstr "Ne mogu pokrenuti novi program: fork() nije uspio."
 
+# floppy.cpp:572 floppy.cpp:700
 #: floppy.cpp:572 floppy.cpp:700
 msgid ""
 "Cannot access floppy or floppy drive\n"
@@ -121,6 +143,7 @@ msgstr ""
 "Molim umetnite disketu i provjerite da ste\n"
 "izabrali ispravnu disketu.\n"
 
+# floppy.cpp:587
 #: floppy.cpp:587
 msgid ""
 "Cannot format: %s\n"
@@ -129,10 +152,12 @@ msgstr ""
 "Ne mogu formatirati: %s\n"
 "%s"
 
+# floppy.cpp:634
 #: floppy.cpp:634
 msgid "Block %d is bad. Continuing ..."
 msgstr "Block %d je lo¹. Nastavljam ..."
 
+# floppy.cpp:717
 #: floppy.cpp:717
 msgid ""
 "Cannot create a filesystem on: %s\n"
@@ -141,6 +166,7 @@ msgstr ""
 "Ne mogu naèiniti datoteèni sistem na: %s\n"
 "%s"
 
+# floppy.cpp:753
 #: floppy.cpp:753
 msgid ""
 "The floppy was sucessfully formatted.\n"
@@ -151,19 +177,22 @@ msgstr ""
 "Oznaèeni lo¹i blokovi: %d\n"
 "Sirovi Kapacitet: %d\n"
 
-
+# floppy.cpp:774
 #: floppy.cpp:774
 msgid "All files were sucessfully erased."
 msgstr "Sve datoteke su obrisane uspje¹no."
 
+# floppy.cpp:832
 #: floppy.cpp:832
 msgid "Creating Filesystem ..."
 msgstr "Kreiram datoteèni sistem ..."
 
+# floppy.cpp:836
 #: floppy.cpp:836
 msgid "Verifying ..."
 msgstr "Provjeravam ..."
 
+# floppy.cpp:881
 #: floppy.cpp:881
 msgid ""
 "Cannot start a new program\n"
@@ -172,11 +201,12 @@ msgstr ""
 "Ne mogu pokrenuti novi program\n"
 "fork() nije uspio."
 
-
+# floppy.cpp:907
 #: floppy.cpp:907
 msgid "Error while trying to determine whether floppy is mounted\n"
 msgstr "Gre¹ka prilikom poku¹aja da utvrdim da li je disk namontiran\n"
 
+# floppy.cpp:924
 #: floppy.cpp:924
 msgid ""
 "%s is mounted.\n"
