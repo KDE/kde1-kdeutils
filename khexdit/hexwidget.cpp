@@ -41,7 +41,7 @@ int HexWidget::initMenu() {
   connect (help, SIGNAL (activated (int)), SLOT (menuCallback (int)));
   connect (view, SIGNAL (activated (int)), SLOT (menuCallback (int)));
 
-  QMenuBar *menu = new QMenuBar( this );
+  KMenuBar *menu = new KMenuBar( this );
   CHECK_PTR( menu );
   menu->insertItem( "&File", file );
   menu->insertItem( "&View", view );
@@ -54,7 +54,7 @@ int HexWidget::initMenu() {
   PIXDIR += "/lib/pics/toolbar/";
   KPixmap pixmap;
   
-  KToolbar *toolbar = new KToolbar(this);
+  KToolBar *toolbar = new KToolBar(this);
   pixmap.load(PIXDIR + "filenew.xpm");
   toolbar->insertItem(pixmap,ID_FILE_NEWWIN, TRUE, "New Window");
   pixmap.load(PIXDIR + "fileopen.xpm");
@@ -76,7 +76,7 @@ int HexWidget::initMenu() {
   toolbar->insertItem(pixmap,ID_HELP_ABOUT, TRUE, "About Hexdit");
 
   addToolbar(toolbar);
-  toolbar->setPos(KToolbar::Top);
+  toolbar->setPos(KToolBar::Top);
   toolbar->show();
   connect(toolbar, SIGNAL(clicked(int)), this, SLOT(menuCallback(int)));
 
@@ -141,11 +141,11 @@ void HexWidget::menuCallback(int item) {
   };
 
   case ID_VIEW_TOOLBAR: 
-    enableToolBar(Toggle);
+    enableToolBar();
     break;
     
   case ID_VIEW_STATUSBAR:
-    enableStatusBar(Toggle);
+    enableStatusBar();
     break;
 
   case ID_HELP_HELP: {
