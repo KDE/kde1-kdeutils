@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
 "POT-Creation-Date: 1999-03-24 02:39+0100\n"
-"PO-Revision-Date: 1999-02-06 18:37+0100\n"
+"PO-Revision-Date: 1999-04-03 21:37+0100\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "Language-Team: Spanish <kde-es@kyb.uni-stuttgart.de>\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr "escrito y mantenido por"
 
 #: AddressBookAboutData.cpp:62
 msgid "kab 1.0, May 1999"
-msgstr ""
+msgstr "kab 1.0, Mayo 1999"
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"

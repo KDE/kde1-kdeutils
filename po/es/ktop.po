@@ -8,37 +8,35 @@ msgstr ""
 "Files: ktop.cpp memory.cpp settings.cpp cpu.cpp widgets.cpp\n"
 
 #: ktop.cpp:66
-#, fuzzy
 msgid "88888 Processes"
-msgstr "Incluir todos los procesos"
+msgstr "88888 Procesos"
 
 #: ktop.cpp:67
 msgid "Memory: 888888 kB used, 888888 kB free"
-msgstr ""
+msgstr "Memoria: 888888 kB usados, 888888 kB libres"
 
 #: ktop.cpp:69
 msgid "Swap: 888888 kB used, 888888 kB free"
-msgstr ""
+msgstr "Swap: 888888 kB usados, 888888 kB libres"
 
 #: ktop.cpp:76
-#, fuzzy
 msgid "KDE Task Manager"
-msgstr "Administrador de tareas de KDE"
+msgstr "Gestor de Tareas de KDE"
 
 #: ktop.cpp:137
-#, fuzzy, c-format
+#, c-format
 msgid "%d Processes"
-msgstr "Incluir todos los procesos"
+msgstr "%d Procesos"
 
 #: ktop.cpp:142
 #, c-format
 msgid "Memory: %d kB used, %d kB free"
-msgstr ""
+msgstr "Memoria: %d kB usados, %d kB libres"
 
 #: ktop.cpp:147
 #, c-format
 msgid "Swap: %d kB used, %d kB free"
-msgstr ""
+msgstr "Swap: %d kB usados, %d kB libres"
 
 #: MainMenu.cpp:51
 #, c-format
@@ -52,105 +50,108 @@ msgid ""
 "1998 : Nicolas Leclercq <nicknet@planete.net>\n"
 "1999 : Chris Schlaeger <cs@kde.org>\n"
 msgstr ""
+"Gestor de Tareas KDE (KTop) Versión %s\n"
+"\n"
+"Copyright:\n"
+"1996 : A. Sanda <alex@darkstar.ping.at>\n"
+"1997 : Ralf Mueller <ralf@bj-ig.de>\n"
+"1997-98 : Bernd Johannes Wuebben <wuebben@kde.org>\n"
+"1998 : Nicolas Leclercq <nicknet@planete.net>\n"
+"1999 : Chris Schlaeger <cs@kde.org>\n"
 
 #: MainMenu.cpp:64
 msgid "Manual Refresh"
-msgstr ""
+msgstr "Refresco Manual"
 
 #: MainMenu.cpp:65
-#, fuzzy
 msgid "Slow Refresh"
-msgstr "Refrescar"
+msgstr "Refresco Lento"
 
 #: MainMenu.cpp:66
 msgid "Medium Refresh"
-msgstr ""
+msgstr "Refresco Medio"
 
 #: MainMenu.cpp:67
-#, fuzzy
 msgid "Fast Refresh"
-msgstr "Refrescar"
+msgstr "Refresco Rápido"
 
 #: MainMenu.cpp:79
-#, fuzzy
 msgid "&Refresh Rate"
-msgstr "Refrescar"
+msgstr "&Ratio de Refresco"
 
 #: MainMenu.cpp:80
-#, fuzzy
 msgid "&Process"
-msgstr "Procesos en ejecución"
+msgstr "&Procesos"
 
 #: ProcessMenu.cpp:44
 msgid "Renice Task..."
-msgstr ""
+msgstr "Repriorizar Tarea..."
 
 #: ProcessMenu.cpp:47
 msgid "send SIGINT\t(ctrl-c)"
-msgstr ""
+msgstr "enviar SIGINT\t(ctrl-c)"
 
 #: ProcessMenu.cpp:48
 msgid "send SIGQUIT\t(core)"
-msgstr ""
+msgstr "enviar SIGQUIT\t(core)"
 
 #: ProcessMenu.cpp:49
 msgid "send SIGTERM\t(term.)"
-msgstr ""
+msgstr "enviar SIGTERM\t(term.)"
 
 #: ProcessMenu.cpp:50
 msgid "send SIGKILL\t(term.)"
-msgstr ""
+msgstr "enviar SIGKILL\t(term.)"
 
 #: ProcessMenu.cpp:52
 msgid "send SIGUSR1\t(user1)"
-msgstr ""
+msgstr "enviar SIGUSR1\t(user1)"
 
 #: ProcessMenu.cpp:53
 msgid "send SIGUSR2\t(user2)"
-msgstr ""
+msgstr "enviar SIGUSR2\t(user2)"
 
 #: ProcessMenu.cpp:74 ProcessMenu.cpp:86 ProcessMenu.cpp:150
 #: ProcessMenu.cpp:158 ProcessMenu.cpp:176
-#, fuzzy
 msgid "Task Manager"
-msgstr "Administrador de tareas de KDE"
+msgstr "Gestor de Tareas"
 
 #: ProcessMenu.cpp:75
 msgid "You need to select a process first!"
-msgstr ""
+msgstr "Necesita seleccionar primero un proceso!"
 
 #: ProcessMenu.cpp:85 ProcessMenu.cpp:149
 #, c-format
 msgid "The process %d is no longer persistent."
-msgstr ""
+msgstr "El proceso %d no persistirá más."
 
 #: ProcessMenu.cpp:98
 msgid "SIGINT"
-msgstr ""
+msgstr "SIGINT"
 
 #: ProcessMenu.cpp:101
 msgid "SIGQUIT"
-msgstr ""
+msgstr "SIGQUIT"
 
 #: ProcessMenu.cpp:104
 msgid "SIGTERM"
-msgstr ""
+msgstr "SIGTERM"
 
 #: ProcessMenu.cpp:107
 msgid "SIGKILL"
-msgstr ""
+msgstr "SIGKILL"
 
 #: ProcessMenu.cpp:110
 msgid "SIGUSR1"
-msgstr ""
+msgstr "SIGUSR1"
 
 #: ProcessMenu.cpp:113
 msgid "SIGUSR2"
-msgstr ""
+msgstr "SIGUSR2"
 
 #: ProcessMenu.cpp:116
 msgid "Unkown Signal"
-msgstr ""
+msgstr "Señal Desconocida"
 
 #: ProcessMenu.cpp:122
 #, c-format
@@ -158,10 +159,12 @@ msgid ""
 "Send signal %s to process %d?\n"
 "(Process name: %s  Owner: %s)\n"
 msgstr ""
+"¿Enviar señal %s al proceso %d?\n"
+"(Nombre Proceso: %s  Dueño: %s)\n"
 
 #: ProcessMenu.cpp:126
 msgid "Abort"
-msgstr ""
+msgstr "Abortar"
 
 #: ProcessMenu.cpp:159 ProcessMenu.cpp:177
 msgid ""
@@ -169,49 +172,45 @@ msgid ""
 "Specified process does not exist\n"
 "or permission denied."
 msgstr ""
+"Error al Priorizar...\n"
+"El proceso especificado no existe\n"
+"o permiso denegado."
 
 #: TaskMan.cpp:80
-#, fuzzy
 msgid "Processes &List"
-msgstr "Procesos"
+msgstr "&Listado de Procesos"
 
 #: TaskMan.cpp:81
-#, fuzzy
 msgid "Performance &Meter"
-msgstr "Rendimiento"
+msgstr "&Medidor de Rendimiento"
 
 #: ProcListPage.cpp:42
-#, fuzzy
 msgid "Running Processes"
 msgstr "Procesos en ejecución"
 
 #: ProcListPage.cpp:49
 msgid "Show Tree"
-msgstr ""
+msgstr "Mostrar Arbol"
 
 #: ProcListPage.cpp:60
-#, fuzzy
 msgid "All processes"
-msgstr "Incluir todos los procesos"
+msgstr "Todos los procesos"
 
 #: ProcListPage.cpp:61
 msgid "System processes"
-msgstr ""
+msgstr "Procesos del sistema"
 
 #: ProcListPage.cpp:62
-#, fuzzy
 msgid "User processes"
-msgstr "Incluir todos los procesos"
+msgstr "Procesos del usuario"
 
 #: ProcListPage.cpp:63
-#, fuzzy
 msgid "Own processes"
-msgstr "Procesos en ejecución"
+msgstr "Procesos propios"
 
 #: ProcListPage.cpp:79
-#, fuzzy
 msgid "Refresh Now"
-msgstr "Refrescar"
+msgstr "Refrescar Ahora"
 
 #: ProcListPage.cpp:85
 msgid "Kill task"
@@ -219,15 +218,15 @@ msgstr "Matar tarea"
 
 #: ProcessList.cpp:227
 msgid "Remove Column"
-msgstr ""
+msgstr "Suprimir Columna"
 
 #: ProcessList.cpp:228
 msgid "Add Column"
-msgstr ""
+msgstr "Añadir Columna"
 
 #: ProcessList.cpp:229
 msgid "Help on Column"
-msgstr ""
+msgstr "Ayuda en Columna"
 
 #: ProcessList.cpp:691 ProcessList.cpp:692
 msgid "Name"
@@ -235,27 +234,27 @@ msgstr "Nombre"
 
 #: ProcessList.cpp:695 ProcessList.cpp:696
 msgid "PID"
-msgstr ""
+msgstr "PID"
 
 #: ProcessList.cpp:699
 msgid "User ID"
-msgstr ""
+msgstr "ID Usuario"
 
 #: ProcessList.cpp:700
 msgid "CPU"
-msgstr ""
+msgstr "CPU"
 
 #: ProcessList.cpp:701
 msgid "Time"
-msgstr ""
+msgstr "Tiempo"
 
 #: ProcessList.cpp:702
 msgid "Nice"
-msgstr ""
+msgstr "Prioridad"
 
 #: ProcessList.cpp:703
 msgid "Status"
-msgstr ""
+msgstr "Estado"
 
 #: ProcessList.cpp:704
 msgid "Memory"
@@ -263,15 +262,15 @@ msgstr "Memoria"
 
 #: ProcessList.cpp:705
 msgid "Resident"
-msgstr ""
+msgstr "Residente"
 
 #: ProcessList.cpp:706
 msgid "Shared"
-msgstr ""
+msgstr "Compartido"
 
 #: ProcessList.cpp:707
 msgid "Command line"
-msgstr ""
+msgstr "Línea de Comando"
 
 #: OSProcessList.cpp:76 OSProcessList.cpp:104
 msgid ""
@@ -279,102 +278,101 @@ msgid ""
 "The kernel needs to be compiled with support\n"
 "for /proc filesystem enabled!"
 msgstr ""
+"No se puede abrir el directorio '/proc'!\n"
+"El kernel necesita estar compilado con soporte\n"
+"para el sistema de archivos /proc activado!"
 
 #: OSProcessList.cpp:266
 msgid "Cannot read status of processes\n"
-msgstr ""
+msgstr "No se puede leer el estado de los procesos\n"
 
 #: OSProcessList.cpp:367
 msgid "Your OS is not supported yet.  Sorry"
-msgstr ""
+msgstr "Su SO no esá soportado aún. Lo siento"
 
 #: OSProcess.cpp:123 OSProcess.cpp:154 OSProcess.cpp:171
 #, c-format
 msgid "Cannot open %s!\n"
-msgstr ""
+msgstr "No se puede abrir %s!\n"
 
 #: OSProcess.cpp:183
 msgid "Run"
-msgstr ""
+msgstr "Ejecutar"
 
 #: OSProcess.cpp:186
 msgid "Sleep"
-msgstr ""
+msgstr "Detener"
 
 #: OSProcess.cpp:189
 msgid "Disk"
-msgstr ""
+msgstr "Disco"
 
 #: OSProcess.cpp:192
 msgid "Zombie"
-msgstr ""
+msgstr "Zombie"
 
 #: OSProcess.cpp:198
 msgid "Swap"
-msgstr ""
+msgstr "Swap"
 
 #: OSProcess.cpp:201
 msgid "????"
-msgstr ""
+msgstr "????"
 
 #: OSProcess.cpp:320
 #, c-format
 msgid "Could not set new nice level for process %d"
-msgstr ""
+msgstr "No se puede fijar un nuevo nivel de prioridad para el proceso %d"
 
 #: OSProcess.cpp:334
 #, c-format
 msgid "Cound not send signal %d to process %d"
-msgstr ""
+msgstr "No se pudo enviar la señal %d al proceso %d"
 
 #: PerfMonPage.cpp:49
-#, fuzzy
 msgid "CPU Load History"
-msgstr "Historial de carga de CPU"
+msgstr "Historial de Carga de la CPU"
 
 #: PerfMonPage.cpp:52
-#, fuzzy
 msgid "System Load History"
-msgstr "Historial de carga de CPU"
+msgstr "Historial de Carga del Sistema"
 
 #: PerfMonPage.cpp:55 PerfMonPage.cpp:113
 msgid "User (%)"
-msgstr ""
+msgstr "Usuario (%)"
 
 #: PerfMonPage.cpp:56 PerfMonPage.cpp:114
 msgid "Nice (%)"
-msgstr ""
+msgstr "Nice (%)"
 
 #: PerfMonPage.cpp:57 PerfMonPage.cpp:115
 msgid "System (%)"
-msgstr ""
+msgstr "Sistema (%)"
 
 #: PerfMonPage.cpp:64
-#, fuzzy
 msgid "Memory Usage History"
-msgstr "Historial del uso de memoria"
+msgstr "Historial de Uso de la Memoria"
 
 #: PerfMonPage.cpp:66
 msgid "Program (kB)"
-msgstr ""
+msgstr "Programa (kB)"
 
 #: PerfMonPage.cpp:67
 msgid "Buffer (kB)"
-msgstr ""
+msgstr "Buffer (kB)"
 
 #: PerfMonPage.cpp:68
-#, fuzzy
 msgid "Cache (kB)"
-msgstr "Cancelar"
+msgstr "Caché (kB)"
 
 #: PerfMonPage.cpp:69
 msgid "Swap (kB)"
-msgstr ""
+msgstr "Swap (kB)"
 
 #: PerfMonPage.cpp:109
-#, fuzzy, c-format
+#, c-format
 msgid "CPU%d Load History"
-msgstr "Historial de carga de CPU"
+msgstr "Historial de carga de la CPU%d"
 
 #: OSStatus.cpp:98
 msgid ""
@@ -382,6 +380,9 @@ msgid ""
 "The kernel needs to be compiled with support\n"
 "for /proc filesystem enabled!"
 msgstr ""
+"No se puede abrir el archivo '/proc/stat'!\n"
+"El kernel necesita estar compilado con soporte\n"
+"para el sistema de archivos /proc activado!"
 
 #: OSStatus.cpp:120 OSStatus.cpp:303 OSStatus.cpp:378
 msgid ""
@@ -389,10 +390,13 @@ msgid ""
 "The kernel needs to be compiled with support\n"
 "for /proc filesystem enabled!"
 msgstr ""
+"No se puede abrir el archivo '/proc/meminfo'!\n"
+"El kernel necesita estar compilado con soporte\n"
+"para el sistema de archivos /proc activado!"
 
 #: OSStatus.cpp:311
 msgid "Cannot read memory info file '/proc/meminfo'!\n"
-msgstr ""
+msgstr "No se puede leer el archivo de información de memoria '/proc/meminfo'!\n"
 
 #: OSStatus.cpp:354
 #, c-format
@@ -401,21 +405,25 @@ msgid ""
 "The kernel needs to be compiled with support\n"
 "for /proc filesystem enabled!"
 msgstr ""
+"No se puede leer información para %s desde el archivo '/proc/stat'!\n"
+"El kernel necesita estar compilado con soporte\n"
+"para el sistema de archivos /proc activado!"
 
 #: OSStatus.cpp:386
 msgid "Cannot read swap info from '/proc/meminfo'!\n"
-msgstr ""
+msgstr "No se puede leer información de la swap desde '/proc/meminfo'!\n"
 
 #: OSStatus.cpp:575 OSStatus.cpp:588 OSStatus.cpp:615 OSStatus.cpp:624
 msgid ""
 "Your system is not currently supported.\n"
 "Sorry"
 msgstr ""
+"Su sistema no está actualmente soportado.\n"
+"Lo siento"
 
 #: ReniceDlg.cpp:32
-#, fuzzy
 msgid "Renice Process"
-msgstr "Procesos en ejecución"
+msgstr "Repriorizar Proceso"
 
 #: ReniceDlg.cpp:39
 #, c-format
@@ -427,137 +435,10 @@ msgid ""
 "\n"
 "Please enter the desired nice level:"
 msgstr ""
+"Está  cambiando  la  prioridad  de  ejecución  del\n"
+"proceso %d. Debe saber que solo el Superuser (root)\n"
+"puede decrementar el nivel de ejecución de un proceso.\n"
+"Un número más pequeño es un nivel de prioridad mayor.\n"
+"\n"
+"Por favor introduzca el nivel de ejecución deseado:"
 
-#, fuzzy
-#~ msgid "Processes &Tree"
-#~ msgstr "Procesos"
-
-#, fuzzy
-#~ msgid "&Performance"
-#~ msgstr "Rendimiento"
-
-#, fuzzy
-#~ msgid "Refresh rate: Medium"
-#~ msgstr "Refrescar"
-
-#, fuzzy
-#~ msgid "Refresh rate: Fast"
-#~ msgstr "Refrescar"
-
-#, fuzzy
-#~ msgid "Kill Task"
-#~ msgstr "Matar tarea"
-
-#, fuzzy
-#~ msgid "Sort by ID"
-#~ msgstr "Método de ordenación"
-
-#, fuzzy
-#~ msgid "Sort by Name"
-#~ msgstr "Método de ordenación"
-
-#, fuzzy
-#~ msgid "Sort by Owner (UID)"
-#~ msgstr "Dueño (UID)"
-
-#~ msgid "CPU load"
-#~ msgstr "Carga de CPU"
-
-#, fuzzy
-#~ msgid "Swap history"
-#~ msgstr "Historial de carga de CPU"
-
-#, fuzzy
-#~ msgid "procID"
-#~ msgstr "ID del proceso"
-
-#, fuzzy
-#~ msgid "Processes List"
-#~ msgstr "Procesos"
-
-#, fuzzy
-#~ msgid "Processes Tree"
-#~ msgstr "Procesos"
-
-#, fuzzy
-#~ msgid "About..."
-#~ msgstr "Acerca de..."
-
-#~ msgid "Ok"
-#~ msgstr "Aceptar"
-
-#~ msgid "About Taskmanager"
-#~ msgstr "Sobre el Adminitrador de tareas"
-
-#~ msgid "Quit"
-#~ msgstr "Salir"
-
-#~ msgid "Help"
-#~ msgstr "Ayuda"
-
-#~ msgid "Process viewer settings..."
-#~ msgstr "Procesar la configuración del visor..."
-
-#~ msgid "File"
-#~ msgstr "Fichero"
-
-#~ msgid "Settings"
-#~ msgstr "Configuración"
-
-#~ msgid "Process viewer settings"
-#~ msgstr "Configuración del visor de procesos"
-
-#~ msgid "Update interval"
-#~ msgstr "Intervalo de actualización"
-
-#~ msgid "Slow"
-#~ msgstr "Lento"
-
-#~ msgid "Medium"
-#~ msgstr "Medio"
-
-#~ msgid "High"
-#~ msgstr "Alto"
-
-#~ msgid "Custom"
-#~ msgstr "Personalizado"
-
-#~ msgid "Load (%CPU)"
-#~ msgstr "Carga (%CPU)"
-
-#~ msgid "Misc settings"
-#~ msgstr "Configración varia"
-
-#~ msgid "Error"
-#~ msgstr "Error"
-
-#~ msgid "The update interval value mustbe greater than zero"
-#~ msgstr "El intervalo de actualización deber ser mayor que cero"
-
-#~ msgid "Warning"
-#~ msgstr "Atención"
-
-#~ msgid ""
-#~ "You have specified a very fast update ratio.\n"
-#~ "This may generate a noticeable load onyour system."
-#~ msgstr ""
-#~ "Ha especificado un ratio de actualización muy rápido.\n"
-#~ "Esto puede generar una importante carga en su sistema."
-
-#~ msgid "Performance monitor settings"
-#~ msgstr "Configuración del monitor de rendimiento"
-
-#~ msgid "Properties..."
-#~ msgstr "Propiedades..."
-
-#~ msgid "General"
-#~ msgstr "General"
-
-#~ msgid "Sorry"
-#~ msgstr "Lo siento"
-
-#~ msgid "Not yet implemented.\n"
-#~ msgstr "Aún no está implementado.\n"
-
-#~ msgid "Not implemented yet"
-#~ msgstr "Aún no está implementado."

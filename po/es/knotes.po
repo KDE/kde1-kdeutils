@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
 "POT-Creation-Date: 1999-03-09 01:44+0100\n"
-"PO-Revision-Date: 1999-02-06 18:32+0100\n"
+"PO-Revision-Date: 1999-04-03 21:32+0100\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "Language-Team: Spanish <kde-es@kyb.uni-stuttgart.de>\n"
 "MIME-Version: 1.0\n"
@@ -75,7 +75,7 @@ msgstr "Modificar Opciones..."
 
 #: knotes.cpp:340
 msgid "Dock in panel"
-msgstr ""
+msgstr "Empotrar en el panel"
 
 #: knotes.cpp:368
 msgid "Insert Date"
@@ -368,11 +368,9 @@ msgstr ""
 "Por favor elija un nombre distinto"
 
 #: docking.cpp:48
-#, fuzzy, c-format
+#, c-format
 msgid "Could not load %s !"
-msgstr ""
-"No se puede caargar:\n"
-" %s"
+msgstr "No se puede cargar %s !"
 
 #: docking.cpp:68
 msgid "Change Defaults"
