@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=\n"
+"Date: 1998-03-06 22:44:34-0500\n"
+"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
+"<root@petit.cornell.edu>\n"
+"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
+"Files: Data.cpp Fonts.cpp FontsData.cpp Misc.cpp MiscData.cpp Paper.cpp "
+"PaperData.cpp Printer.cpp PrinterData.cpp about.cpp main.cpp\n"
+
+#: Data.cpp:123 Data.cpp:157 Data.cpp:193
+msgid ""
+"Unable to print with:\n"
+" %s"
+msgstr ""
+"Niet in staat om af te drukken met:\n"
+" %s"
+
+#: FontsData.cpp:38
+msgid "Language"
+msgstr "Taal"
+
+#: FontsData.cpp:57
+msgid "Symbol Set"
+msgstr "Symbool Verzameling"
+
+#: FontsData.cpp:125
+msgid "Pitch"
+msgstr "Pitch"
+
+#: FontsData.cpp:141
+msgid "Point Size"
+msgstr "Punt Grootte"
+
+#: FontsData.cpp:156
+msgid "points"
+msgstr "punten"
+
+#: MiscData.cpp:43
+msgid "End of Line Mode"
+msgstr "Regeleinde Modus"
+
+#: MiscData.cpp:65
+msgid "PageProtect"
+msgstr "PaginaBescherming"
+
+#: MiscData.cpp:80
+msgid "Powersave Time"
+msgstr "Powersave Tijd"
+
+#: MiscData.cpp:99
+msgid "Eject"
+msgstr "Werp uit"
+
+#: MiscData.cpp:106
+msgid "Reset"
+msgstr "Herstel"
+
+#: MiscData.cpp:113
+msgid "initialize"
+msgstr "initialiseer"
+
+#: PrinterData.cpp:41
+msgid "Mode"
+msgstr "Modus"
+
+#: PrinterData.cpp:47
+msgid "Economy"
+msgstr "Economisch"
+
+#: PrinterData.cpp:56
+msgid "Presentation"
+msgstr "Presentatie"
+
+#: PrinterData.cpp:65
+msgid "Resolution"
+msgstr "Resolutie"
+
+#: PrinterData.cpp:87
+msgid "Density"
+msgstr "Dichtheid"
+
+#: PrinterData.cpp:93 main.cpp:70
+msgid "Printer"
+msgstr "Afdrukker"
+
+#: PrinterData.cpp:99
+msgid "Resolution Enh."
+msgstr "Resolution Vergroot."
+
+#: about.cpp:38
+msgid "About KLJetTool"
+msgstr "Over KLJetTool"
+
+#: about.cpp:47
+msgid "KLjetTool"
+msgstr "KLJetTool"
+
+#: about.cpp:52
+msgid "Version "
+msgstr "Versie"
+
+#: main.cpp:69
+msgid "Paper"
+msgstr "Papier"
+
+#: main.cpp:71
+msgid "Operations"
+msgstr "Opdrachten"
+
+#: main.cpp:73
+msgid "Fonts"
+msgstr "Lettertypen"

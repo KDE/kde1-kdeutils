@@ -297,6 +297,8 @@ msgid ""
 "Malformed URL\n"
 "%s"
 msgstr ""
+"Misvormde URL\n"
+"%s"
 
 #: kedit.cpp:1430
 #, c-format
@@ -309,7 +311,7 @@ msgstr "KFM aanroepen"
 
 #: kedit.cpp:1473
 msgid "Starting Job"
-msgstr ""
+msgstr "Taak wordt gestart"
 
 #: kedit.cpp:1476
 msgid "Connected"
@@ -342,6 +344,8 @@ msgid ""
 "Can not create:\n"
 "%s"
 msgstr ""
+"Kan niet aanmaken:\n"
+"%s"
 
 #: print.cpp:66
 msgid "Print Dialog"
@@ -371,7 +375,7 @@ msgstr "Rechter kantlijn op:"
 # FIXME
 #: filldlg.cpp:40
 msgid "Word Warp"
-msgstr ""
+msgstr "Woord Afbreken"
 
 #: filldlg.cpp:44
 msgid "Mail Command:"

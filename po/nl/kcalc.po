@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=\n"
+"Date: 1998-03-06 23:13:09-0500\n"
+"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
+"<root@petit.cornell.edu>\n"
+"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
+"Files: configdlg.cpp dlabel.cpp fontdlg.cpp kcalc.cpp kcalc_core.cpp "
+"stats.cpp\n"
+
+#: configdlg.cpp:48 kcalc.cpp:1567
+msgid "Defaults"
+msgstr "Standaardwaarden"
+
+#: configdlg.cpp:53
+msgid "Foreground Color:"
+msgstr "Voorgrond Kleur:"
+
+#: configdlg.cpp:70
+msgid "Background Color:"
+msgstr "Achtergrond Kleur:"
+
+#: configdlg.cpp:87
+msgid "Precision:"
+msgstr "Nauwkeurigheid:"
+
+#: configdlg.cpp:108
+msgid "Set Fixed Precision at:"
+msgstr "Zet vaste precisie op:"
+
+#: configdlg.cpp:137
+msgid "Beep on Error"
+msgstr "Biep bij een fout"
+
+#: configdlg.cpp:145
+msgid "Trigonometry Mode"
+msgstr "Trigonometrie Modus"
+
+#: configdlg.cpp:150
+msgid "Statistical Mode"
+msgstr "Statistische Modus"
+
+#: fontdlg.cpp:44
+msgid "Set Default Font"
+msgstr "Stel standaard lettertype in"
+
+#: fontdlg.cpp:63
+msgid "Point Size:"
+msgstr "Punt grootte:"
+
+#: kcalc.cpp:92
+msgid "KCalc Setup/Help"
+msgstr "KCacl Installatie/Help"
+
+#: kcalc.cpp:145
+msgid "Angle"
+msgstr "Hoek"
+
+#: kcalc.cpp:185
+msgid "Base"
+msgstr "Basis"
+
+#: kcalc.cpp:1534
+msgid "Base type: long double\n"
+msgstr "Basis type: long double\n"
+
+#: kcalc.cpp:1536
+msgid "Base type: double\n"
+msgstr "Basis type: double\n"
+
+#: kcalc.cpp:1568
+msgid "Display Font"
+msgstr "Display Lettertype"
+
+#: kcalc_core.cpp:1125
+msgid "Stat Mem cleared"
+msgstr "Stat Geheugen gewist"
