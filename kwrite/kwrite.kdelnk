@@ -3,14 +3,17 @@
 Comment=A powerful text editor
 Comment[cs]=Mocnı textovı editor
 Comment[de]=Ein leistungsfähiger Texteditor
+Comment[es]=Un potente editor de textos
 Comment[fi]=Tehokas tekstimuokkain
 Comment[is]=kwrite:  Öflugur textaritill
 Comment[no]=En kraftig tekstredigerer
 Comment[pt_BR]=Um poderoso editor de textos
 Comment[ru]=íÏİÎÙÊ ÔÅËÓÔÏ×ÙÊ ÒÅÄÁËÔÏÒ
+Comment[sk]=Silnı textovı procesor
 BinaryPattern=
 Name=KDE Editor
 Name[cs]=Editor pro KDE
+Name[es]=Editor de KDE
 Name[fi]=KDE -tekstimuokkain
 Name[is]=KDE ritill
 Name[no]=KDE Redigerer
