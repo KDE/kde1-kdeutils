@@ -1,3 +1,9 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
 "PO-Revision-Date: 1999-02-10 20:00-0300\n"
 "Last-Translator: Leonardo Costa Rodrigues<proud@sti.com.br>\n"
 
