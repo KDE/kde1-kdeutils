@@ -51,6 +51,7 @@ TableHead::TableHead(HeadedTable *parent)
 // set background colour according to appearance
 void TableHead::setBackground()
 {
+  return;
     switch(htable->appearance()) {
     case HeadedTable::macOS7:
 	setBackgroundColor(white);
@@ -63,8 +64,8 @@ void TableHead::setBackground()
     }
 }
 
-void drawMacPanel(QPainter *p, int x, int y, int w, int h,
-		  bool sunken)
+void TableHead::drawMacPanel(QPainter *p, int x, int y, int w, int h,
+			     bool sunken)
 {
     QColor nw1, se1, c1;
     QColor nw2, se2, c2;
@@ -78,6 +79,7 @@ void drawMacPanel(QPainter *p, int x, int y, int w, int h,
 	c2 = QColor(0x777777);
 	p->fillRect(x + 2, y + 2, w - 4, h - 4, QColor(0x888888));
     } else {
+        QColorGroup cg = colorGroup();
 	nw1 = QColor(0x606060);	// re-use some Qt colours
 	se1 = QColor(0x333333);
 	c1 = QColor(0x555555);
@@ -109,16 +111,16 @@ void TableHead::paintCell(QPainter *p, int, int col)
 {
     int gap = htable->leftGap(col);
     int w = cellWidth(col);
-    if(htable->appearance() == HeadedTable::macOS8) {
+    //    if(htable->appearance() == HeadedTable::macOS8) {
 	drawMacPanel(p, 0, 0, cellWidth(col), cellheight,
 		     col == htable->sorted_col);
 	p->setPen(black);
 	w -= 4;			// don't go too close to the border
-    }
-    if(htable->appearance() == HeadedTable::macOS7) {
-	titlefont.setUnderline(col == htable->sorted_col);
-	p->setFont(titlefont);
-    }
+	//    }
+//      if(htable->appearance() == HeadedTable::macOS7) {
+//  	titlefont.setUnderline(col == htable->sorted_col);
+//  	p->setFont(titlefont);
+//      }
     p->drawText(gap, 0, w - gap, height(),
 		AlignVCenter | htable->alignment(col),
 		htable->title(col));
@@ -189,18 +191,8 @@ TableBody::TableBody(HeadedTable *parent)
 // set background colour according to appearance
 void TableBody::setBackground()
 {
-    switch(htable->appearance()) {
-    case HeadedTable::macOS7:
-	background = white;
-	break;
-    case HeadedTable::macOS8:
-	background = QColor(0xeeeeee);
-	break;
-    default:
-	background = white;
-	break;
-    }
-    setBackgroundColor(background);
+  background = colorGroup().base();
+  setBackgroundColor(background);
 }
 
 void TableBody::paintCell(QPainter *p, int row, int col)
@@ -295,6 +287,8 @@ void TableBody::updateRow(int row)
 void TableBody::mousePressEvent(QMouseEvent *e)
 {
     int row = findRow(e->pos().y());
+    if(row==-1)
+       return;   
     if((htable->options & HTBL_ROW_SELECTION) && e->button() == LeftButton) {
 	if(row != -1) {
 	    if(!(e->state() & ShiftButton)
@@ -400,7 +394,7 @@ HeadedTable::HeadedTable(QWidget *parent, int opts)
     current_appearance = none;
     head = new TableHead(this);
     body = new TableBody(this);
-    setAppearance(macOS8, FALSE);
+    setAppearance(macOS7, true);
     sorted_col = -1;
     nrows = ncols = -1;
     nselected = 0;
