@@ -147,31 +147,3 @@ msgstr "Ok"
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"
 msgstr "Cesta príkazu na spooling:"
-
-#~ msgid "Quit"
-#~ msgstr "Koniec"
-
-#~ msgid "Files"
-#~ msgstr "Súbory"
-
-#~ msgid "Remove"
-#~ msgstr "Odstráni»"
-
-#~ msgid "&Quit"
-#~ msgstr "&Koniec"
-
-#~ msgid "&File"
-#~ msgstr "&Súbor"
-
-#~ msgid "&Help"
-#~ msgstr "Pomocník"
-
-#~ msgid ""
-#~ "\n"
-#~ "on top of queue"
-#~ msgstr ""
-#~ "\n"
-#~ "na zaèiatok fronty"
-
-#~ msgid "Cancel"
-#~ msgstr "Zru¹i»"
