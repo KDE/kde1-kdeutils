@@ -5,19 +5,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
-# KTranslator Generated File
-
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1999-04-17 02:13+0200\n"
-"PO-Revision-Date: Sun May 9 1999 12:16:07+0900\n"
+"PO-Revision-Date: Sun Jul 11 1999 19:15:45+0200\n"
 "Last-Translator: °æÂ¼ Îµ°ìÏº <imura@cs.titech.ac.jp>\n"
-"Language-Team: ÆüËÜ¸ì <kde-jp@albert.nikkeibp.co.jp>\n"
+"Language-Team: japanese <kde-jp@albert.nikkeibp.co.jp>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=euc-jp\n"
-"Content-Transfer-Encoding: 8bit"
-"X-Generator: KTranslator v 0.4.0"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"X-Generator: KTranslator v 0.5.0"
 
 #: prefs.C:33
 msgid "Graphic Load Display"
@@ -69,7 +67,7 @@ msgstr "¥½¥±¥Ã¥È¥¤¥ó¥Õ¥©¥¦¥£¥ó¥É¥¦"
 
 #: qps.C:88 qps.C:126
 msgid "Renice..."
-msgstr ""
+msgstr "Renice..."
 
 #: qps.C:91
 msgid "Change Scheduling..."
@@ -187,11 +185,11 @@ msgstr "¤¤¤Þ¤¹¤°ÀßÄê¤ò¥»¡¼¥Ö"
 msgid ""
 " - A Visual Process Manager (KDE Version)\n"
 "\n"
-") 1997 Mattias Engdegerd (f91-men@nada.kth.se)\n"
-") 1998 Mario Weilguni (mweilguni@kde.org)\n"
+"© 1997 Mattias Engdegård (f91-men@nada.kth.se)\n"
+"© 1998 Mario Weilguni (mweilguni@kde.org)\n"
 "\n"
 "kpm is the KDE version of qps, written by Matthias\n"
-"Engdegerd. The port to KDE was done by Mario\n"
+"Engdegård. The port to KDE was done by Mario\n"
 "Weilguni. If you are interested on the original\n"
 "qps, you can find it at the following location:\n"
 "    ftp://sunsite.unc.edu/pub/linux/system/status\n"
@@ -307,8 +305,7 @@ msgid ""
 "The time between updates should be a number, optionally followed\n"
 "by a unit (ms, s or min). If no unit is given, seconds is assumed."
 msgstr ""
-"¹¹¿·´Ö³Ö¤Ï¿ô»ú¤Ç¤Ê¤±¤ì¤Ð¤Ê¤ê¤Þ¤»¤ó¡£¥ª¥×¥·¥ç¥ó¤È¤·¤Æ"
-"Ã±°Ì(ms, s, min)¤¬¤Ä¤±¤é¤ì¤Þ¤¹¡£²¿¤â¤Ê¤±¤ì¤ÐÉÃ¤Ë¤Ê¤ê¤Þ¤¹¡£"
+"¹¹¿·´Ö³Ö¤Ï¿ô»ú¤Ç¤Ê¤±¤ì¤Ð¤Ê¤ê¤Þ¤»¤ó¡£¥ª¥×¥·¥ç¥ó¤È¤·¤ÆÃ±°Ì(ms, s, min)¤¬¤Ä¤±¤é¤ì¤Þ¤¹¡£²¿¤â¤Ê¤±¤ì¤ÐÉÃ¤Ë¤Ê¤ê¤Þ¤¹¡£"
 
 #: qps.C:831
 #, c-format

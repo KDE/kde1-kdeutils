@@ -7,32 +7,32 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: KTranslator 0.3.1\n"
-"POT-Creation-Date: 1998-04-27 19:21:33+0200\n"
-"PO-Revision-Date: Thu Jan 28 1999 15:44:08+0900\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1999-02-01 01:52+0100\n"
+"PO-Revision-Date: Sun Jul 11 1999 18:46:37+0200\n"
 "Last-Translator: 井村 竜一郎 <imura@cs.titech.ac.jp>\n"
-"Language-Team: 日本語 <kde-jp@albert.nikkeibp.co.jp>\n"
+"Language-Team: japanese <kde-jp@albert.nikkeibp.co.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
-"X-Generator: KTranslator v 0.4.0"
+"X-Generator: KTranslator v 0.5.0"
 
-#: toplevel.cpp:79
+#: toplevel.cpp:76
 msgid "Shortcut..."
-msgstr "ショートカット…"
+msgstr "ショートカット..."
 
-#: toplevel.cpp:80
+#: toplevel.cpp:77
 msgid "Popup at mouse position"
 msgstr "マウスの位置にポップアップする"
 
-#: toplevel.cpp:85
+#: toplevel.cpp:82
 msgid "Clipboard History"
 msgstr "クリップボード一覧"
 
-#: toplevel.cpp:89
+#: toplevel.cpp:86
 msgid "<empty clipboard>"
 msgstr "<何も登録されていません>"
 
-#: toplevel.cpp:101
+#: toplevel.cpp:98
 msgid "Select clipboard contents"
 msgstr "クリップボードから選ぶ時"

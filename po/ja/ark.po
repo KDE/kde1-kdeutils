@@ -7,15 +7,15 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: KTranslator 0.3.1\n"
-"POT-Creation-Date: 1998-04-27 19:21:33+0200\n"
-"PO-Revision-Date: Thu Jan 28 1999 15:44:08+0900\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-11-14 02:05+0100\n"
+"PO-Revision-Date: Sun Jul 11 1999 17:51:38+0200\n"
 "Last-Translator: 井村 竜一郎 <imura@cs.titech.ac.jp>\n"
-"Language-Team: 日本語 <kde-jp@albert.nikkeibp.co.jp>\n"
+"Language-Team: japanese <kde-jp@albert.nikkeibp.co.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
-"X-Generator: KTranslator v 0.4.0"
+"X-Generator: KTranslator v 0.5.0"
 
 #: adddlg.cc:11
 msgid "Add File Options"
@@ -47,7 +47,7 @@ msgstr "パーミッションを保持"
 
 #: extractdlg.cc:57
 msgid "Filenames to Lowercase"
-msgstr "Filenames to Lowercase"
+msgstr ""
 
 #: extractdlg.cc:68
 msgid "All Files"

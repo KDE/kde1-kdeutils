@@ -7,15 +7,15 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: KTranslator 0.3.1\n"
-"POT-Creation-Date: 1998-04-27 19:21:33+0200\n"
-"PO-Revision-Date: Thu Jan 28 1999 15:44:08+0900\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1999-03-05 01:58+0100\n"
+"PO-Revision-Date: Sun Jul 11 1999 18:26:19+0200\n"
 "Last-Translator: 井村 竜一郎 <imura@cs.titech.ac.jp>\n"
-"Language-Team: 日本語 <kde-jp@albert.nikkeibp.co.jp>\n"
+"Language-Team: japanese <kde-jp@albert.nikkeibp.co.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
-"X-Generator: KTranslator v 0.4.0"
+"X-Generator: KTranslator v 0.5.0"
 
 #: kcalc.cpp:99
 msgid "KCalc Setup/Help"
@@ -44,17 +44,10 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"KCalc %s\n"
-"Bernd Johannes Wuebben\n"
-"wuebben@math.cornell.edu\n"
-"wuebben@kde.org\n"
-"Copyright (C) 1996-98\n"
-"\n"
-""
 
 #: kcalc.cpp:1551
 msgid "Base type: long double\n"
-msgstr "ベースタイプ: 倍精度\n"
+msgstr "基本タイプ: 倍精度\n"
 
 #: kcalc.cpp:1553
 msgid ""
@@ -62,11 +55,10 @@ msgid ""
 "'long double' to 'double'. Owners of systems with a working libc should "
 "recompile KCalc with 'long double' precision enabled. See the README for "
 "details."
-msgstr ""
-"ぶっこわれたglibcがあちこちにあるため、\n"
-"KCalcの精度は'倍精度'から'単精度'と機能\n"
-"を落としてあります。libc が正常なシステムの\n"
-"オーナーは'倍精度'を有効にしてKCalkを\n"
+msgstr "ぶっこわれた glibc があちこちにあるため、\n"
+"KCalcの精度は '倍精度' から '単精度' と機能\n"
+"を落してあります。libc が正常なシステムの\n"
+"オーナーは '倍精度' を有効にしてKCalkを\n"
 "コンパイルしなおしてください。\n"
 "詳細は README をみてください。"
 
@@ -84,34 +76,32 @@ msgid ""
 "KCalc %s\n"
 "Copyright 1997 Bernd Johannes Wuebben <wuebben@kde.org>\n"
 msgstr ""
-"KCalc %s\n"
-"Copyright 1997 Bernd Johannes Wuebben <wuebben@kde.org>\n"
 
-#: kcalc_core.cpp:1111
+#: kcalc_core.cpp:1115
 msgid "Last stat item erased"
-msgstr "Last stat item erased"
+msgstr ""
 
-#: kcalc_core.cpp:1151
+#: kcalc_core.cpp:1155
 msgid "Stat Mem cleared"
-msgstr "Stat Mem cleared"
+msgstr ""
 
-#: kcalc_core.cpp:1627
+#: kcalc_core.cpp:1632
 msgid "Stack processing error - right_op"
 msgstr "スタックプロセスエラー - right_op"
 
-#: kcalc_core.cpp:1635
+#: kcalc_core.cpp:1640
 msgid "Stack processing error - function"
 msgstr "スタックプロセスエラー - function"
 
-#: kcalc_core.cpp:1644
+#: kcalc_core.cpp:1649
 msgid "Stack processing error - left_op"
 msgstr "スタックプロセスエラー - left_op"
 
-#: kcalc_core.cpp:1948 kcalc_core.cpp:1956
+#: kcalc_core.cpp:1953 kcalc_core.cpp:1961
 msgid "Emergency"
 msgstr "警告"
 
-#: kcalc_core.cpp:1948 kcalc_core.cpp:1956
+#: kcalc_core.cpp:1953 kcalc_core.cpp:1961
 msgid "Stack Error!"
 msgstr "スタックエラー！"
 

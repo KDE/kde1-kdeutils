@@ -7,15 +7,15 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: KTranslator 0.3.1\n"
-"POT-Creation-Date: 1998-04-27 19:21:33+0200\n"
-"PO-Revision-Date: Thu Jan 28 1999 15:44:08+0900\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-11-13 02:01+0100\n"
+"PO-Revision-Date: Sun Jul 11 1999 18:44:41+0200\n"
 "Last-Translator: °æÂ¼ Îµ°ìÏº <imura@cs.titech.ac.jp>\n"
-"Language-Team: ÆüËÜ¸ì <kde-jp@albert.nikkeibp.co.jp>\n"
+"Language-Team: japanese <kde-jp@albert.nikkeibp.co.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
-"X-Generator: KTranslator v 0.4.0"
+"X-Generator: KTranslator v 0.5.0"
 
 #: hexdata.cpp:39
 #, c-format
@@ -40,9 +40,6 @@ msgid ""
 "\n"
 "by Stephan Kulow"
 msgstr ""
-"\n"
-"\n"
-"by Stephan Kulow"
 
 #: hexwidget.cpp:105
 msgid "New Window"

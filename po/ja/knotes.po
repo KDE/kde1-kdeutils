@@ -9,13 +9,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1999-03-09 01:44+0100\n"
-"PO-Revision-Date: Sun May 9 1999 12:09:14+0900\n"
-"Last-Translator: 井村 竜一郎 <imura@cs.titech.ac.jp>\n"
-"Language-Team: 日本語 <kde-jp@albert.nikkeibp.co.jp>\n"
+"PO-Revision-Date: Sun Jul 11 1999 19:02:15+0200\n"
+"Last-Translator: 石倉 大基 <ishikura@math.titech.ac.jp>\n"
+"Language-Team: japanese <kde-jp@albert.nikkeibp.co.jp>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=euc-jp\n"
-"Content-Transfer-Encoding: 8bit"
-"X-Generator: KTranslator v 0.4.0"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"X-Generator: KTranslator v 0.5.0"
 
 #: knotes.cpp:265
 msgid "Hello"
@@ -108,7 +108,7 @@ msgstr ""
 
 #: knotes.cpp:495
 msgid "Could not save KNote Alarms\n"
-msgstr "KNote のアラームを保存できませんでした\n"
+msgstr "KNote アラームを保存できません\n"
 
 #: knotes.cpp:556 knotes.cpp:661
 #, c-format
@@ -171,7 +171,7 @@ msgstr "デフォルト"
 
 #: knotes.cpp:1376
 msgid "More ..."
-msgstr "もっともっと ..."
+msgstr "さらに ..."
 
 #: knotes.cpp:1535
 msgid ""
@@ -305,7 +305,7 @@ msgstr "設定する"
 
 #: alarm.cpp:153
 msgid "I am afraid you already missed your appointment."
-msgstr "遅いよ"
+msgstr "約束した時間はもう過ぎたんじゃないですか? (^^;"
 
 #: bwdatetime.cpp:44
 msgid "Day:"
@@ -351,8 +351,9 @@ msgstr "決定"
 msgid ""
 "The name \"xyalarms\" is reserved for internal usage.\n"
 "Please choose a different name"
-msgstr "\"xyalarms\" は内部で予約された名前です。\n"
-"ほかの名前を洗濯してください。"
+msgstr ""
+"\"xyalarms\" というのは内部で使われています。\n"
+"別の名前にしてください。"
 
 #: renamedlg.cpp:92
 msgid ""
