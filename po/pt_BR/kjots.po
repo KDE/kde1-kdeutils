@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-18 14:09+0100\n"
+"POT-Creation-Date: 1998-12-07 01:48+0100\n"
 "PO-Revision-Date: 1998-09-08 09:00\n"
 "Last-Translator: Sandro Nunes Henrique <sandro@conectiva.com.br>\n"
 "Language-Team: pt_BR <LL@li.org>\n"
@@ -66,7 +66,7 @@ msgstr "Salvar o livro para um arquivo ASCII"
 msgid "Save page to ascii file"
 msgstr "Salvar a página para um arquivo ASCII"
 
-#: KJotsMain.cpp:380 KJotsMain.cpp:663
+#: KJotsMain.cpp:380 KJotsMain.cpp:661
 msgid "Delete current book"
 msgstr "Apagar o livro corrente"
 
@@ -122,23 +122,19 @@ msgstr "Próxima"
 msgid "Subject List"
 msgstr "Lista de assuntos"
 
-#: KJotsMain.cpp:444
-msgid "Exit"
-msgstr "Sair"
-
-#: KJotsMain.cpp:616
+#: KJotsMain.cpp:614
 msgid "A book with this name already exists."
 msgstr "Já existe um livro com este nome"
 
-#: KJotsMain.cpp:664
+#: KJotsMain.cpp:662
 msgid "Are you sure you want to delete the current book ?"
 msgstr "Tem certeza que deseja apagar o livro atual?"
 
-#: KJotsMain.cpp:915 KJotsMain.cpp:944
+#: KJotsMain.cpp:913 KJotsMain.cpp:942
 msgid "File exists !"
 msgstr "O arquivo já existe!"
 
-#: KJotsMain.cpp:916 KJotsMain.cpp:945
+#: KJotsMain.cpp:914 KJotsMain.cpp:943
 msgid ""
 "File already exists. \n"
 " Do you want to overwrite it ?"
@@ -182,3 +178,6 @@ msgstr "Selecionar"
 #: confdialog.cpp:133
 msgid "Dolor Ipse"
 msgstr "Dolor Ipse"
+
+#~ msgid "Exit"
+#~ msgstr "Sair"

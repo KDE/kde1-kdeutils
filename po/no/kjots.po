@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kjots\n"
-"POT-Creation-Date: 1998-11-18 14:09+0100\n"
+"POT-Creation-Date: 1998-12-07 01:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -65,7 +65,7 @@ msgstr "Lagre bok til ascii-fil"
 msgid "Save page to ascii file"
 msgstr "Lagre side til ascii-fil"
 
-#: KJotsMain.cpp:380 KJotsMain.cpp:663
+#: KJotsMain.cpp:380 KJotsMain.cpp:661
 msgid "Delete current book"
 msgstr "Slett gjeldende bok"
 
@@ -121,23 +121,19 @@ msgstr "Neste"
 msgid "Subject List"
 msgstr "Emneliste"
 
-#: KJotsMain.cpp:444
-msgid "Exit"
-msgstr "Avslutt"
-
-#: KJotsMain.cpp:616
+#: KJotsMain.cpp:614
 msgid "A book with this name already exists."
 msgstr "En bok med dette navnet eksisterer allrede."
 
-#: KJotsMain.cpp:664
+#: KJotsMain.cpp:662
 msgid "Are you sure you want to delete the current book ?"
 msgstr "Er du sikker på at du ønsker å slette gjeldende bok?"
 
-#: KJotsMain.cpp:915 KJotsMain.cpp:944
+#: KJotsMain.cpp:913 KJotsMain.cpp:942
 msgid "File exists !"
 msgstr "Fil eksisterer!"
 
-#: KJotsMain.cpp:916 KJotsMain.cpp:945
+#: KJotsMain.cpp:914 KJotsMain.cpp:943
 msgid ""
 "File already exists. \n"
 " Do you want to overwrite it ?"
@@ -181,3 +177,6 @@ msgstr "Velg"
 #: confdialog.cpp:133
 msgid "Dolor Ipse"
 msgstr "Dolor Ipse"
+
+#~ msgid "Exit"
+#~ msgstr "Avslutt"
