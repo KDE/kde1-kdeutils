@@ -265,7 +265,7 @@ void HexWidget::openURL(const char *_url, KIND_OF_OPEN _mode)
 	return;
     }
     
-    tmpFile.sprintf( "file:/tmp/khexdit%i", time( 0L ) );
+    tmpFile.sprintf( "file:/tmp/khexdit%li", time( 0L ) );
     connect( kfm, SIGNAL( finished() ), SLOT( slotKFMFinished() ) );
   
     kfm->copy( netFile.data(), tmpFile.data() );

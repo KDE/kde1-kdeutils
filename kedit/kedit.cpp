@@ -1451,7 +1451,7 @@ void TopLevel::saveNetFile( const char *_url )
 	return;
     }
 
-    tmpFile.sprintf( "file:/tmp/kedit%i", time( 0L ) );
+    tmpFile.sprintf( "file:/tmp/kedit%li", time( 0L ) );
 
     eframe->toggleModified( TRUE );
     eframe->doSave( tmpFile.data() + 5 );
@@ -1547,7 +1547,7 @@ void TopLevel::openNetFile( const char *_url, int _mode )
     }
 
     setGeneralStatusField(i18n("Starting Job"));
-    tmpFile.sprintf( "file:/tmp/kedit%i", time( 0L ) );
+    tmpFile.sprintf( "file:/tmp/kedit%li", time( 0L ) );
     connect( kfm, SIGNAL( finished() ), this, SLOT( slotKFMFinished() ) );
     setGeneralStatusField(i18n("Connected"));
     kfm->copy( netFile.data(), tmpFile.data() );
