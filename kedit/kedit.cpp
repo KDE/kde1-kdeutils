@@ -187,8 +187,19 @@ void TopLevel::setupMenuBar(){
 		    this, 	SLOT(about()));
 		    */
   
-  file->insertItem (klocale->translate("Ne&w..."),
-		    this, 	SLOT(file_new()), keys.openNew());
+   // DO NOT use keys.openNew() here until we have actual key 
+   // management in KDE. keys.openNew() currently evalutates to
+   // CTRL N and that conflict with the emacs key bindings of
+   // the text widget that we all rely on so much.
+   // Bernd
+   
+   //  file->insertItem (klocale->translate("Ne&w..."),
+   //		    this, 	SLOT(file_new()), keys.openNew());
+   
+     file->insertItem (klocale->translate("Ne&w..."),
+		    this, 	SLOT(file_new()));
+   
+   
   file->insertItem (klocale->translate("&Open..."),
 		    this, 	SLOT(file_open()), keys.open());
 
@@ -209,8 +220,18 @@ void TopLevel::setupMenuBar(){
   file->insertItem (klocale->translate("Save to U&RL..."),	
 		    this,	SLOT(file_save_url()));
   file->insertSeparator (-1);
+   
+   // DO NOT use keys.print() here until we have actual key 
+   // management in KDE. keys.print() currently evalutates to
+   // CTRL P and that conflict with the emacs key bindings of
+   // the text widget that we all rely on so much.
+   // Bernd   
+   //  file->insertItem (klocale->translate("&Print..."),
+   //		    this,	SLOT(print()), keys.print());
+   
   file->insertItem (klocale->translate("&Print..."),
-		    this,	SLOT(print()), keys.print());
+		    this,	SLOT(print()));
+   
   file->insertSeparator (-1);
   file->insertItem (klocale->translate("&Mail..."),
 		    this,	SLOT(mail()) );
