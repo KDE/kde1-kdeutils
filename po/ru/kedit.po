@@ -1,12 +1,12 @@
 # Denis Pershin.
-# Copyright (C) 1998 Free Software Foundation, Inc.
-# Denis pershin <dyp@inetlab.com>, 1998.
+# Copyright (C) 1998, 1999 Free Software Foundation, Inc.
+# Denis pershin <dyp@inetlab.com>, 1998, 1999.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kedit\n"
 "POT-Creation-Date: 1999-01-11 01:57+0100\n"
-"PO-Revision-Date: 1998-11-08 01:50+0600\n"
+"PO-Revision-Date: 1999-02-09 01:50+0600\n"
 "Last-Translator: Denis pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -130,6 +130,11 @@ msgid ""
 "Bernd Johannes Wuebben\n"
 "wuebben@kde.org"
 msgstr ""
+"KEdit %s\n"
+"\n"
+"Copyright 1997-98\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
 
 #: kedit.cpp:332
 msgid "New Document"

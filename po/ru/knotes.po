@@ -1,11 +1,11 @@
 # Локализация для knotes.
-# Denis Pershin <dyp@inetlab.com>, 1997, 1998.
+# Denis Pershin <dyp@inetlab.com>, 1997, 1998, 1999.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes 0.3\n"
 "POT-Creation-Date: 1999-01-18 01:54+0100\n"
-"PO-Revision-Date: 1998-11-08 22:36+0600\n"
+"PO-Revision-Date: 1999-02-09 22:36+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 
 #: knotes.cpp:263
 msgid "Hello"
-msgstr ""
+msgstr "Привет"
 
 #
 #: knotes.cpp:301
@@ -166,6 +166,16 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
+"KNotes %s\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@math.cornell.edu\n"
+"wuebben@kde.org\n"
+"Copyright (C) 1997\n"
+"\n"
+"С участием:\n"
+"Matthias Ettrich <ettrich@kde.org>\n"
+"\n"
+"\n"
 
 #: configdlg.cpp:46 knotes.cpp:1376
 msgid "Defaults"
@@ -327,11 +337,11 @@ msgstr "Время:"
 
 #: bwdatetime.cpp:85
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #: bwdatetime.cpp:86
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: bwdatetime.cpp:161
 msgid "The Time you selected is invalid"

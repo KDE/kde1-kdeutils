@@ -1,11 +1,11 @@
 # Локализация для kpm.
-# Denis Pershin <dyp@inetlab.com>, 1997, 1998.
+# Denis Pershin <dyp@inetlab.com>, 1997, 1998, 1999.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kpm\n"
 "POT-Creation-Date: 1999-01-26 01:48+0100\n"
-"PO-Revision-Date: 1998-11-08 22:36+0600\n"
+"PO-Revision-Date: 1998-02-09 22:36+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -177,7 +177,6 @@ msgid "Save Settings Now"
 msgstr "Записать настройки"
 
 #: qps.C:196
-#, fuzzy
 msgid ""
 " - A Visual Process Manager (KDE Version)\n"
 "\n"
@@ -194,7 +193,7 @@ msgid ""
 "Public License (GNU GPL). See the file COPYING\n"
 "for details about this."
 msgstr ""
-"kpm %sk%s - Визуальный менеджер процессов (KDE Version)\n"
+" - Визуальный менеджер процессов (KDE Version)\n"
 "\n"
 "╘ 1997 Mattias EngdegЕrd (f91-men@nada.kth.se)\n"
 "╘ 1998 Mario Weilguni (mweilguni@kde.org)\n"
@@ -390,31 +389,29 @@ msgstr ""
 "Только владелец процесса и суперпользователь могут посылать ему сигналы."
 
 #: scheddlg.C:22
-#, fuzzy
 msgid "Change scheduling"
 msgstr "Изменить расписание..."
 
 #: scheddlg.C:28
-#, fuzzy
 msgid "Scheduling Policy"
-msgstr "Расписание..."
+msgstr "Расписание"
 
 #: scheddlg.C:29
 msgid "SCHED_OTHER (time-sharing)"
-msgstr ""
+msgstr "SCHED_OTHER (разделение времени)"
 
 #: scheddlg.C:36
 msgid "SCHED_FIFO (real-time)"
-msgstr ""
+msgstr "SCHED_FIFO (в реальном времени)"
 
 #: scheddlg.C:42
 msgid "SCHED_RR (real-time)"
-msgstr ""
+msgstr "SCHED_RR (в реальном времени)"
 
 #: scheddlg.C:67
 msgid "Priority (1-99):"
-msgstr ""
+msgstr "Приоритет (1-99)"
 
 #: scheddlg.C:114
 msgid "The priority must be in the range 1..99"
-msgstr ""
+msgstr "Приоритет должен быть в пределах 1..99"

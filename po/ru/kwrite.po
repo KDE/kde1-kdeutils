@@ -1,11 +1,11 @@
-# Перевод klipper.
-# Copyright (C) 1998 Free Software Foundation, Inc.
-# Denis Pershin <dyp@inetlab.com>, 1998.
+# Перевод kwrite.
+# Copyright (C) 1998, 1999 Free Software Foundation, Inc.
+# Denis Pershin <dyp@inetlab.com>, 1998, 1999.
 msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
 "POT-Creation-Date: 1999-01-14 01:57+0100\n"
-"PO-Revision-Date: 1998-12-21 00:00+0600\n"
+"PO-Revision-Date: 1999-02-09 00:00+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -73,14 +73,12 @@ msgid "Item Font"
 msgstr "Шрифт элемента"
 
 #: kwview.cpp:1057
-#, fuzzy
 msgid "Vertical Selections On"
-msgstr "Вертикальное выделение"
+msgstr "Вертикальное выделение включено"
 
 #: kwview.cpp:1057
-#, fuzzy
 msgid "Vertical Selections Off"
-msgstr "Вертикальное выделение"
+msgstr "Вертикальное выделение выключено"
 
 #: kwview.cpp:1116
 msgid "The specified File does not exist"
@@ -466,6 +464,11 @@ msgid ""
 "Jochen Wilhelmy\n"
 "digisnap@cs.tu-berlin.de"
 msgstr ""
+"KWrite 0.98\n"
+"\n"
+"Copyright 1998\n"
+"Jochen Wilhelmy\n"
+"digisnap@cs.tu-berlin.de"
 
 #: toplevel.cpp:272
 msgid "&Bookmarks"

@@ -1,11 +1,11 @@
 # Перевод kjettool.
-# Copyright (C) 1998 Free Software Foundation, Inc.
-# Denis Pershin <dyp@inetlab.com>, 1998.
+# Copyright (C) 1998, 1999 Free Software Foundation, Inc.
+# Denis Pershin <dyp@inetlab.com>, 1998, 1999.
 msgid ""
 msgstr ""
 "Project-Id-Version: kljettool\n"
 "POT-Creation-Date: 1999-01-18 01:54+0100\n"
-"PO-Revision-Date: 1998-11-08 23:23+0600\n"
+"PO-Revision-Date: 1999-02-09 23:23+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -13,9 +13,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 
 #: main.cpp:49
-#, fuzzy
 msgid "Ljet Tool"
-msgstr "KLjetTool"
+msgstr "Управление LaserJet"
 
 #: main.cpp:69
 msgid "Paper"
@@ -42,9 +41,8 @@ msgid "Lines"
 msgstr "Строк"
 
 #: PaperData.cpp:96
-#, fuzzy
 msgid "Orientation"
-msgstr "Представительский"
+msgstr "Ориентация"
 
 #: PaperData.cpp:102
 msgid "Portrait"
@@ -158,6 +156,11 @@ msgid ""
 "Bernd Johannes Wuebben\n"
 "wuebben@kde.org"
 msgstr ""
+"Версия %s\n"
+"\n"
+"Copyright (c) 1997\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
 
 #~ msgid "Version "
 #~ msgstr "версии "
