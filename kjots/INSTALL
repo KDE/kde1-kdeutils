@@ -1,0 +1,35 @@
+
+Kjots - note taker
+------------------
+
+NOTE:
+If you upgrade from a previous version:
+ Edit your .kjotsrc file and remove the last ',' at the
+ end of the lines:
+ Folders=item1, item2,
+                     ^ - remove it !
+ Hotlist=item1, item2,
+                     ^ - remove it !
+
+You need:
+- ktoolpics-0.2
+- qt 1.2
+- libkde-0.7.2
+
+do:
+
+- set KDEDIR and QTDIR
+- make 
+- make install
+
+this will install:
+
+$(KDEDIR)/bin/kjots
+$(KDEDIR)/doc/HTML/kjots/
+$(KDEDIR)/doc/HTML/kjots/kjots.html
+$(KDEDIR)/apps/Utilities/
+$(KDEDIR)/apps/Utilities/Kjots.kdelnk
+$(KDEDIR)/lib/pics/jots.xpm
+$(KDEDIR)/lib/pics/filedel.xpm
+$(KDEDIR)/lib/pics/OpenBook.xpm
+

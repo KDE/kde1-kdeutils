@@ -1,0 +1,100 @@
+
+
+CXXFLAGS  = @CXXFLAGS@ @all_includes@ -I.. -DHAVE_CONFIG_H 
+LDFLAGS   = @LDFLAGS@ @all_libraries@ -lkdecore -lqt -lXext -lX11
+CC	  = @CXX@
+MOC	  = @MOC@
+
+############# Install ##############
+
+install = @INSTALL@
+INSTALL = $(install) -m 0755
+INSTALL_SHELL = $(install) -m 0755
+INSTALL_DATA = $(install) -m 0644
+INSTALL_DIR = $(install) -d -m 0755
+INSTALL_DIR_PRIVATE = $(install) -d -m 0700
+
+prefix = @prefix@
+KDEINC = $(prefix)/include
+BINDIR = $(prefix)/bin
+LIBDIR = $(prefix)/lib
+PICSDIR = $(LIBDIR)/pics
+APPSDIR = $(prefix)/apps/Utilities
+DOCSDIR = $(prefix)/doc/HTML/kjots
+
+####### Files
+
+SOURCES = main.cpp\
+KJotsMain.cpp KJotsMainData.cpp\
+pixloader.cpp\
+SubjList.cpp\
+ReadListConf.cpp
+OBJECTS = main.o\
+KJotsMain.o KJotsMainData.o mKJotsMain.o\
+pixloader.o mpixloader.o\
+SubjList.o mSubjList.o\
+ReadListConf.o
+SRCMETA = mKJotsMain.cpp mpixloader.cpp mSubjList.cpp
+TARGET	= kjots
+
+####### Implicit rules
+
+.SUFFIXES: .cpp
+
+.cpp.o:
+	$(CXX) -c $(CXXFLAGS) $<
+
+####### Build rules
+
+all: $(TARGET)
+
+Makefile: Makefile.in
+	cd .. && CONFIG_FILES=kjots/$@ CONFIG_HEADERS= $(SHELL) ./config.status
+
+$(TARGET): $(SRCMETA) $(OBJECTS)
+	$(CXX) $(OBJECTS) -o $(TARGET) $(LDFLAGS) -lm
+
+depend:
+	@makedepend -I$(INCDIR) $(SOURCES) 2> /dev/null
+
+showfiles:
+	@echo $(HEADERS) $(SOURCES) Makefile
+
+clean:
+	rm -f *.o *.bak *~ *% #*
+	rm -f $(TARGET)
+	rm -f $(SRCMETA)
+
+install: all
+	$(INSTALL_DIR) $(BINDIR)
+	$(INSTALL) $(TARGET) $(BINDIR)
+	(cd icons && $(MAKE) install)
+	$(INSTALL_DIR) $(APPSDIR)
+	$(INSTALL_DATA) Kjots.kdelnk $(APPSDIR)
+	$(INSTALL_DIR) $(DOCSDIR)
+	$(INSTALL_DATA) ./doc/kjots.html $(DOCSDIR)
+
+uninstall:
+	rm -f $(BINDIR)/$(TARGET)
+	(cd icons && $(MAKE) uninstall)
+	rm -f $(APPSDIR)/Kjots.kdelnk
+	rm -f $(DOCSDIR)/kjots.html	
+
+####### Meta objects
+
+mKJotsMain.cpp: KJotsMain.h
+	$(MOC) KJotsMain.h -o mKJotsMain.cpp
+
+mpixloader.cpp: pixloader.h
+	$(MOC) pixloader.h -o mpixloader.cpp
+
+mSubjList.cpp: SubjList.h
+	$(MOC) SubjList.h -o mSubjList.cpp
+
+# DO NOT DELETE THIS LINE -- make depend depends on it.
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+[KDE Desktop Entry]
+WmCommand=
+MiniIcon=mini-doc.xpm
+Exec=kjots
+Icon=jots.xpm
+TerminalOptions=
+Path=
+Terminal=0

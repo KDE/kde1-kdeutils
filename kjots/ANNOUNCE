@@ -1,0 +1,24 @@
+Hi !
+
+I have just uploaded a new version (v0.2.2) of kjots to ftp.kde.org
+in /pub/kde/apps/Incoming. I expect it will move to /pub/kde/apps/utils.
+
+What is kjots
+-------------
+
+Name and idea for this program are taken from the jots program included
+in the tkgoodstuff package by Mark Crimmins (markcrim@umich.edu).
+
+Kjots helps you to write down some notes and maybe reduces the stack of
+paper lying on your desk.
+
+New in this version
+-------------------
+
+- some bug fixes
+- please use libkde-0.7.2
+- NOTE: please read the file INSTALL even if you upgrade !
+
+Regards.
+
+        Chris.

@@ -1,0 +1,24 @@
+INSTALL_DATA = @INSTALL@ -m 0644
+INSTALL_DIR = @INSTALL@ -d -m 0755
+PICS = `find . -type f \( -name "*.xpm" -o -name "*.jpg" -o -name "*.xbm" -o -name "*.ppm" -o -name "*.gif" \) -print`
+prefix = @prefix@
+libdir = $(prefix)/lib
+
+all:
+ 
+Makefile: Makefile.in
+	cd ../.. && CONFIG_FILES=kjots/icons/$@ CONFIG_HEADERS= $(SHELL) ./config.status
+clean:
+ 
+install:
+	$(INSTALL_DIR) $(libdir)/pics
+	@for i in $(PICS); do \
+	echo "$(INSTALL_DATA) $$i $(libdir)/pics/$$i"; \
+	$(INSTALL_DATA) "$$i" $(libdir)/pics/$$i; \
+	done
+ 
+uninstall:
+	for i in $(PICS); do \
+	rm -f $(libdir)/pics/"$$i" ; \
+	done
+
