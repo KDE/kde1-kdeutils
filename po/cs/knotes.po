@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "POT-Creation-Date: 1998-01-25 13:24+0100\n"
-"PO-Revision-Date: 1998-01-22 08:56 MET\n"
+"PO-Revision-Date: 1998-04-17 16:01 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -270,21 +270,20 @@ msgid "Inconsistency"
 msgstr "Nekonzistence"
 
 #: mail.cpp:40
-#, fuzzy
 msgid "Mail Note to:"
-msgstr "Poslat poznámku po¹tou ..."
+msgstr "Komu poslat poznámku:"
 
 #: mail.cpp:49
 msgid "Subject:"
-msgstr ""
+msgstr "Pøedmìt:"
 
 #: mail.cpp:51
 msgid "Mail"
-msgstr ""
+msgstr "Odeslat"
 
 #: mail.cpp:92
 msgid "You must specify a Recipient"
-msgstr ""
+msgstr "Je nutné specifikovat pøíjemce"
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
