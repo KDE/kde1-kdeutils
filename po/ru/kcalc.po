@@ -70,7 +70,7 @@ msgstr "Настройка KCalc'а"
 
 #: kcalc.cpp:1550
 msgid "Base type: long double\n"
-msgstr "Базовый тип: long double"
+msgstr "Базовый тип: long double\n"
 
 #: kcalc.cpp:1552
 msgid ""

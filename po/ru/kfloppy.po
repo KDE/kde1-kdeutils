@@ -1,0 +1,194 @@
+# Перевод kfloppy.
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Denis pershin <dyp@inetlab.com>, 1998.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kfloppy\n"
+"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"PO-Revision-Date: 1998-09-09 00:46+0600\n"
+"Last-Translator: Denis pershin <dyp@inetlab.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=koi8-r\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: about.cpp:40
+msgid "About KDE Floppy Formater"
+msgstr "О KDE Floppy Formater"
+
+#: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368
+#: floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721
+#: floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
+msgid "KFloppy"
+msgstr ""
+
+#: about.cpp:54
+msgid "Version "
+msgstr "Версии "
+
+#: floppy.cpp:56
+msgid "Floppy Drive:"
+msgstr "Дисковод:"
+
+#: floppy.cpp:65
+msgid "Density:"
+msgstr "Плотность:"
+
+#: floppy.cpp:74
+msgid "File System:"
+msgstr "Файловая система:"
+
+#: floppy.cpp:108 floppy.cpp:408
+msgid "Format"
+msgstr "Разметить"
+
+#: floppy.cpp:131
+msgid "Quick Erase"
+msgstr "Быстро очистить"
+
+#: floppy.cpp:136
+msgid "Full Format"
+msgstr "Полная разметка"
+
+#: floppy.cpp:142
+msgid "Create Label:"
+msgstr "Метка:"
+
+#: floppy.cpp:148
+msgid "KDE FLoppy"
+msgstr ""
+
+#: floppy.cpp:162
+msgid "KDE Floppy Formater"
+msgstr ""
+
+#: floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267
+msgid "HD"
+msgstr ""
+
+#: floppy.cpp:286
+#, c-format
+msgid ""
+"Cannot access %s\n"
+"Make sure that the device exists and that\n"
+"you have write permission to it."
+msgstr ""
+"Не могу получить доступ к %s\n"
+"Убедитесь, что устроиство существует и что\n"
+"вы имеете право записи на него."
+
+#: floppy.cpp:333
+msgid ""
+"Cannot find kfdformat\n"
+"kfdformat is part of the KFloppy distribution.\n"
+"Please install KFloppy properly."
+msgstr ""
+"Не могу найти kfdformat\n"
+"kfdformat - это часть KFloppy.\n"
+"Пожалуйста установите KFloppy корректно."
+
+#: floppy.cpp:349
+msgid ""
+"Cannot find kmke2fs\n"
+"kmke2fs is part of the KFloppy distribution.\n"
+"Please install KFloppy properly."
+msgstr ""
+"Не могу найти kmke2fs\n"
+"kmke2fs - это часть KFloppy.\n"
+"Пожалуйста установите KFloppy корректно."
+
+#: floppy.cpp:364
+msgid ""
+"Cannot find kmkdosfs\n"
+"kmkdosfs is part of the KFloppy distribution.\n"
+"Please install KFloppy properly."
+msgstr ""
+"Не могу найти kmkdosfs\n"
+"kmkdosfs - это часть KFloppy.\n"
+"Пожалуйста установите KFloppy корректно."
+
+#: floppy.cpp:424
+msgid "Abort"
+msgstr "Отмена"
+
+#: floppy.cpp:472
+msgid "Cannot start a new program: fork() failed."
+msgstr "Не могу запустить новую программу: fork() не удался."
+
+#: floppy.cpp:572 floppy.cpp:700
+msgid ""
+"Cannot access floppy or floppy drive\n"
+"Please insert a floppy and make sure that you\n"
+"have selected a valid floppy drive.\n"
+msgstr ""
+"Не могу получить доступ к дисководу или дискете\n"
+"пожайлуста вставьте дискету и убедитесь, что вы\n"
+"выбрали корректный дисковод.\n"
+
+#: floppy.cpp:587
+#, c-format
+msgid ""
+"Cannot format: %s\n"
+"%s"
+msgstr ""
+"Ошибка форматирования %s\n"
+"%s"
+
+#: floppy.cpp:634
+#, c-format
+msgid "Block %d is bad. Continuing ..."
+msgstr "Сбойный блок %d. Продолжаю ..."
+
+#: floppy.cpp:717
+#, c-format
+msgid ""
+"Cannot create a filesystem on: %s\n"
+"%s"
+msgstr ""
+"Ошибка создания файловой системы %s\n"
+"%s"
+
+#: floppy.cpp:753
+#, c-format
+msgid ""
+"The floppy was sucessfully formatted.\n"
+"Blocks marked bad: %d\n"
+"Raw Capacity: %d\n"
+msgstr ""
+"Дискета успешно размечена.\n"
+"Сбойных блоков: %d\n"
+"Полный объем: %d\n"
+
+#: floppy.cpp:774
+msgid "All files were sucessfully erased."
+msgstr "Все файлы успешно удалены."
+
+#: floppy.cpp:832
+msgid "Creating Filesystem ..."
+msgstr "Создаю файловую систему ..."
+
+#: floppy.cpp:836
+msgid "Verifying ..."
+msgstr "Проверяю ..."
+
+#: floppy.cpp:881
+msgid ""
+"Cannot start a new program\n"
+"fork() failed."
+msgstr ""
+"Не могу запустить новую программу\n"
+"fork() не удался."
+
+#: floppy.cpp:907
+msgid "Error while trying to determine whether floppy is mounted\n"
+msgstr "Ошибка во время определения замонтирована ли дискета\n"
+
+#: floppy.cpp:924
+#, c-format
+msgid ""
+"%s is mounted.\n"
+"Please unmount the floppy first."
+msgstr ""
+"%s замонтирован.\n"
+"Пожайлуста вначале размонтируйте."
