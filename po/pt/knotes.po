@@ -263,21 +263,20 @@ msgid "Inconsistency"
 msgstr "Inconsistência"
 
 #: mail.cpp:40
-#, fuzzy
 msgid "Mail Note to:"
-msgstr "Enviar Nota por Mail ..."
+msgstr "Enviar Nota por Mail para:"
 
 #: mail.cpp:49
 msgid "Subject:"
-msgstr ""
+msgstr "Assunto:"
 
 #: mail.cpp:51
 msgid "Mail"
-msgstr ""
+msgstr "Enviar"
 
 #: mail.cpp:92
 msgid "You must specify a Recipient"
-msgstr ""
+msgstr "Tem de especificar um Destinatário"
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
