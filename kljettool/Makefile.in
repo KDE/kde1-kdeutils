@@ -1,13 +1,11 @@
 # $Id$
 
 prefix  = @prefix@
-BINDIR  = $(prefix)/bin
-LIBDIR  = $(prefix)/lib
-DOCSDIR = $(prefix)/share/doc/HTML/en/kljettool
-APPSDIR = $(prefix)/share/applnk/Utilities/
-PICSDIR = $(prefix)/share/apps/kljettool/pics/
-
-
+install_root = @install_root@
+BINDIR  = @kde_bindir@
+DOCSDIR = @kde_htmldir@/en/kljettool
+APPSDIR = @kde_appsdir@/Utilities/
+PICSDIR = @kde_datadir@/kljettool/pics/
 
 install = @INSTALL@
 INSTALL = $(install) -m 0755
@@ -64,9 +62,7 @@ distclean: clean
 install: all
 	$(INSTALL_DIR) $(BINDIR)
 	$(INSTALL) $(TARGET) $(BINDIR)
-	$(INSTALL_DIR) $(DOCSDIR)
-	$(INSTALL_DATA) ./docs/k* $(DOCSDIR)
-	$(INSTALL_DATA) ./docs/logotp3.gif $(DOCSDIR)	
+	(cd docs && $(MAKE) install)
 	$(INSTALL_DATA) ./support/magic $(DOCSDIR)
 	$(INSTALL_DATA) ./support/filter $(DOCSDIR)	
 	$(INSTALL_DATA) ./support/README $(DOCSDIR)		
@@ -87,7 +83,12 @@ install: all
 
 uninstall:
 	rm -f $(BINDIR)/$(TARGET)
-
+	(cd docs && $(MAKE) uninstall)
+	rm -f $(PICSDIR)/kljetlogo.xpm
+	rm -f $(APPSDIR)/KLJetTool.kdelnk
+	rm -f $(DOCSDIR)/README
+	rm -f $(DOCSDIR)/filter
+	rm -f $(DOCSDIR)/magic
 
 ####### Explicit dependencies
 

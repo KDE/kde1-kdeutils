@@ -26,13 +26,14 @@ INSTALL_DATA = @INSTALL@ -m 0644
 INSTALL_DIR = @INSTALL@ -d -m 0755
 
 prefix = @prefix@
-BINDIR = $(prefix)/bin
-TOOLPICSDIR = $(prefix)/share/apps/kedit/toolbar
-ICONDIR = $(prefix)/share/icons
-MINIDIR = $(prefix)/share/icons/mini
-PICSDIR = $(prefix)/share/apps/kedit/pics
-DOCSDIR = $(prefix)/share/doc/HTML/en/kedit
-APPSDIR = $(prefix)/share/applnk/Applications
+install_root = @install_root@
+BINDIR = @kde_bindir@
+TOOLPICSDIR = @kde_datadir@/kedit/toolbar
+ICONDIR = @kde_icondir@
+MINIDIR = @kde_minidir@
+PICSDIR = @kde_datadir@/kedit/pics
+DOCSDIR = @kde_htmldir@/en/kedit
+APPSDIR = @kde_appsdir@/Applications
 
 ########### File Formats ###########
 
@@ -101,7 +102,7 @@ install: all
 uninstall:
 	rm -f $(BINDIR)/$(TARGET)
 	(cd docs && $(MAKE) uninstall)
-	rm -f $(APPSDIR)/KEdit.kdelnk
+	rm -f $(APPSDIR)/kedit.kdelnk
 	rm -f $(ICONDIR)/kedit.xpm
 	rm -f $(MINIDIR)/kedit.xpm
 	rm -f $(PICSDIR)/keditlogo.xpm

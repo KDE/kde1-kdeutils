@@ -21,11 +21,10 @@ INSTALL_DIR = $(install) -d -m 0755
 INSTALL_DIR_PRIVATE = $(install) -d -m 0700
 
 prefix = @prefix@
-KDEINC = $(prefix)/include
-BINDIR = $(prefix)/bin
-LIBDIR = $(prefix)/lib
-APPSDIR = $(prefix)/share/applnk/Utilities
-DOCSDIR = $(prefix)/share/doc/HTML/en/kjots
+install_root = @install_root@
+BINDIR = @kde_bindir@
+APPSDIR = @kde_appsdir@/Utilities
+DOCSDIR = @kde_htmldir@/en/kjots
 
 ####### Files
 
@@ -86,6 +85,7 @@ uninstall:
 	(cd icons && $(MAKE) uninstall)
 	rm -f $(APPSDIR)/Kjots.kdelnk
 	rm -f $(DOCSDIR)/kjots.html	
+	rm -f $(DOCSDIR)/index.html
 
 messages:
 
