@@ -44,9 +44,8 @@ BUILTSOURCES = 	toplevelwidget.moc \
 # CLEANFILES = $(BUILTSOURCES)
 # DISTCLEANFILES = $(BUILTSOURCES)
 
-# make messages.po. Move this one to ../po/ and "make merge" in po
 messages:
-	$(XGETTEXT) -C -ki18n $(kab_SOURCES)
+	$(XGETTEXT) -C -ki18n -x $(includedir)/kde.pot $(kab_SOURCES) && mv messages.po ../po/kab.pot
 
 # just install datas here. Use install-exec-data for scripts and etc.
 # the binary itself is already installed from automake

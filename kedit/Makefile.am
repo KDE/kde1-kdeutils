@@ -27,7 +27,7 @@ appsdir = $(kde_appsdir)/Applications
 EXTRA_DIST = $(apps_DATA)
 
 messages:
-	@XGETTEXT@ -C -ktranslate -x ../../kdelibs/po/kde.pot $(kedit_SOURCES) && mv messages.po ../po/kedit.pot
+	$(XGETTEXT) -C -ktranslate -ki18n -x $(includedir)/kde.pot $(kedit_SOURCES) && mv messages.po ../po/kedit.pot
 
 kedit.cpp:kedit.moc
 kedit.moc: kedit.h

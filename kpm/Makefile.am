@@ -54,9 +54,8 @@ BUILTSOURCES =	dialogs.moc infobar.moc pstable.moc svec.moc wchan.moc \
 # them while "make clean", use CLEANFILES
 DISTCLEANFILES = $(BUILTSOURCES)
 
-# make messages.po. Move this one to ../po/ and "make merge" in po
 messages:
-	$(XGETTEXT) -C -ktranslate -kTRANS -x../../kdelibs/po/kde.pot $(kpm_SOURCES) && mv messages.po ../po/kpm.pot
+	$(XGETTEXT) -C -ktranslate -kTRANS -ki18n -x $(includedir)/kde.pot $(kpm_SOURCES) && mv messages.po ../po/kpm.pot
 
 # just install datas here. Use install-exec-local for scripts and etc.
 # the binary itself is already installed from automake

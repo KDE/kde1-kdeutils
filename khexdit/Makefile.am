@@ -36,7 +36,7 @@ uninstall-local:
 	rm -f $(kde_minidir)/khexdit.xpm
 
 messages:
-	@XGETTEXT@ -C -ki18n *.cpp -x../../kdelibs/po/kde.pot && mv messages.po ../po/khexdit.pot
+	$(XGETTEXT) -C -ki18n -x $(includedir)/kde.pot $(khexdit_SOURCES) && mv messages.po ../po/khexdit.pot
 
 edit:
 	xemacs $(khexdit_SOURCES) $(noinst_HEADERS) &

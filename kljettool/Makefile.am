@@ -48,8 +48,9 @@ install-data-local:
 	
 uninstall-local:
 	rm -f $(kde_minidir)/kljettool.xpm
+
 messages:
-	@XGETTEXT@ -C -ki18n *.cpp -x../../kdelibs/po/kde.pot && mv messages.po ../po/kljettool.pot
+	$(XGETTEXT) -C -ki18n -x $(includedir)/kde.pot $(kljettool_SOURCES) && mv messages.po ../po/kljettool.pot
 
 ####### Meta objects
 
@@ -96,9 +97,3 @@ main.moc: main.h
 about.cpp: about.moc
 about.moc: about.h
 	$(MOC) about.h -o about.moc
-
-
-
-
-
-
