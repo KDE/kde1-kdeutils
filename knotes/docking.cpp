@@ -30,10 +30,6 @@
 #include "knotes.h"
 #include "docking.h"
 
-#define PMERROR(pm) \
-  tmp.sprintf(klocale->translate("Could not load %s !"), pm); \
-  QMessageBox::warning(this, klocale->translate("Error"), tmp);
-
 //extern QStrList  KPostit::PostitFilesList; // names of all postit files
 extern KApplication *mykapp;
 //extern QList<KPostit> 	  KPostit::PostitList;    
@@ -49,7 +45,8 @@ DockWidget::DockWidget(const char *name): QWidget(0, name, 0) {
 
 
   if (!picsmall_pixmap.load(pixdir + "knotes.xpm")){
-    PMERROR("knotes.xpm");
+    tmp.sprintf(i18n("Could not load %s !"), "knotes.xpm");
+    QMessageBox::warning(this, i18n("Error"), tmp);
   }
 
   //////////////////////////////////////////////////////////////////
