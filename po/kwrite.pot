@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-12-18 02:05+0100\n"
+"POT-Creation-Date: 1998-12-19 02:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,63 +14,63 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: highlight.cpp:1448
+#: highlight.cpp:1443
 msgid "Normal:"
 msgstr ""
 
-#: highlight.cpp:1458 kwdialog.cpp:416
+#: highlight.cpp:1453 kwdialog.cpp:416
 msgid "Selected:"
 msgstr ""
 
-#: highlight.cpp:1465
+#: highlight.cpp:1460
 msgid "Bold"
 msgstr ""
 
-#: highlight.cpp:1516
+#: highlight.cpp:1511
 msgid "Family:"
 msgstr ""
 
-#: highlight.cpp:1526
+#: highlight.cpp:1521
 msgid "Size:"
 msgstr ""
 
-#: highlight.cpp:1624
+#: highlight.cpp:1619
 msgid "Default Item Styles"
 msgstr ""
 
-#: highlight.cpp:1628 highlight.cpp:1699
+#: highlight.cpp:1623 highlight.cpp:1694
 msgid "Item:"
 msgstr ""
 
-#: highlight.cpp:1646
+#: highlight.cpp:1641
 msgid "Default Font"
 msgstr ""
 
-#: highlight.cpp:1683
+#: highlight.cpp:1678
 msgid "Config Select"
 msgstr ""
 
-#: highlight.cpp:1687
+#: highlight.cpp:1682
 msgid "Highlight:"
 msgstr ""
 
-#: highlight.cpp:1706
+#: highlight.cpp:1701
 msgid "Highlight Auto Select"
 msgstr ""
 
-#: highlight.cpp:1710
+#: highlight.cpp:1705
 msgid "File Extensions:"
 msgstr ""
 
-#: highlight.cpp:1717
+#: highlight.cpp:1712
 msgid "Mime Types:"
 msgstr ""
 
-#: highlight.cpp:1724
+#: highlight.cpp:1719
 msgid "Item Style"
 msgstr ""
 
-#: highlight.cpp:1733
+#: highlight.cpp:1728
 msgid "Item Font"
 msgstr ""
 
