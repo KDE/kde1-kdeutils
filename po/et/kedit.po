@@ -1,0 +1,521 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Hasso C. Tepper <heathcliff@iname.com>, 1999.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-12-18 02:05+0100\n"
+"PO-Revision-Date: 1999-01-13 HO:MI+ZONE\n"
+"Last-Translator: Hasso C. Tepper <heathcliff@iname.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: kedit.cpp:85 kedit.cpp:1092
+msgid "Show &Tool Bar"
+msgstr "Näita &tööriistariba"
+
+#: kedit.cpp:87 kedit.cpp:1085
+msgid "Hide &Tool Bar"
+msgstr "Peida &tööriistariba"
+
+#: kedit.cpp:90 kedit.cpp:1072
+msgid "Show &Status Bar"
+msgstr "Näita &olekuriba"
+
+#: kedit.cpp:92 kedit.cpp:1065
+msgid "Hide &Status Bar"
+msgstr "Peida &olekuriba"
+
+#: kedit.cpp:154
+msgid "Select All"
+msgstr "Vali kõik"
+
+#: kedit.cpp:157
+msgid "Font..."
+msgstr "Font..."
+
+#: kedit.cpp:201
+msgid "Ne&w..."
+msgstr "&Uus"
+
+#: kedit.cpp:208
+msgid "Open Recen&t..."
+msgstr "Ava H&iljutine..."
+
+#: kedit.cpp:220
+msgid "Open &URL..."
+msgstr "Ava &URL..."
+
+#: kedit.cpp:222
+msgid "Save to U&RL..."
+msgstr "Salvesta U&RL'ile..."
+
+#: kedit.cpp:238
+msgid "&Mail..."
+msgstr "&Mail..."
+
+#: kedit.cpp:242
+msgid "New &Window"
+msgstr "Uus &Aken"
+
+#: kedit.cpp:254
+msgid "&Select All"
+msgstr "&Vali kõik"
+
+#: kedit.cpp:257
+msgid "&Insert File"
+msgstr "&Lisa Fail"
+
+#: kedit.cpp:259
+msgid "Insert &Date"
+msgstr "Lisa &Kuupäev"
+
+#: kedit.cpp:262
+msgid "&Find..."
+msgstr "&Leia..."
+
+#: kedit.cpp:264
+msgid "Find &Again"
+msgstr "Leia &Uuesti"
+
+#: kedit.cpp:266
+msgid "&Replace"
+msgstr "&Asenda"
+
+#: kedit.cpp:268
+msgid "Spellcheck..."
+msgstr "Õigekiri..."
+
+#: kedit.cpp:273
+msgid "&Goto Line..."
+msgstr "&Mine reale..."
+
+#: kedit.cpp:277
+msgid "&Font..."
+msgstr "&Font..."
+
+#: kedit.cpp:279
+msgid "&Colors"
+msgstr "&Värvid"
+
+#: kedit.cpp:284
+msgid "KEdit &Options..."
+msgstr "KEdit &Valikud..."
+
+#: kedit.cpp:286
+msgid "Auto &Indent"
+msgstr "Automaatne &taandrida"
+
+#: kedit.cpp:289
+msgid "&Tool Bar"
+msgstr "&Tööriistariba"
+
+#: kedit.cpp:291
+msgid "&Status Bar"
+msgstr "&Olekuriba"
+
+#: kedit.cpp:294
+msgid "Save Options"
+msgstr "Salvesta valikud"
+
+#: kedit.cpp:333
+msgid "New Document"
+msgstr "Uus dokument"
+
+#: kedit.cpp:339
+msgid "Open Document"
+msgstr "Ava dokument"
+
+#: kedit.cpp:344
+msgid "Save Document"
+msgstr "Salvesta dokument"
+
+#: kedit.cpp:369 print.cpp:91
+msgid "Print Document"
+msgstr "Trüki dokument"
+
+#: kedit.cpp:374
+msgid "Mail Document"
+msgstr "Meili dokument"
+
+#: kedit.cpp:494 kedit.cpp:582 kedit.cpp:1534 keditcl2.cpp:697
+#: keditcl2.cpp:804
+msgid "Done"
+msgstr "Valmis"
+
+#: kedit.cpp:607
+msgid "Open Location:"
+msgstr "Ava asukoht:"
+
+#: kedit.cpp:621
+msgid "Save to Location:"
+msgstr "Salvesta asukohta:"
+
+#: kedit.cpp:647 kedit.cpp:710 kedit.cpp:739 kedit.cpp:802 kedit.cpp:1200
+msgid "Message"
+msgstr "Teade"
+
+#: kedit.cpp:648 kedit.cpp:803
+msgid ""
+"This Document has been modified.\n"
+"Would you like to save it?"
+msgstr ""
+"Seda dokumenti on muudetud.\n"
+"Soovid sa selle salvestada?"
+
+#: kedit.cpp:665 kedit.cpp:820
+msgid ""
+"Could not save the file.\n"
+"Exit anyways?"
+msgstr ""
+"Faili pole võimalik salvestada.\n"
+"Kas väljuda sellele vaatamata?"
+
+#: kedit.cpp:711
+msgid ""
+"There are windows with modified content open.\n"
+"If you exit now, you will loose those changes\n"
+"Quit anyways?"
+msgstr ""
+"Aknad, milles on midagi muudetud, on avatud.\n"
+"Kui nüüd väljud, siis kaotad need muudatused\n"
+"Kas väljuda sellele vaatamata?"
+
+#: kedit.cpp:740
+msgid ""
+"The current document has been modified.\n"
+"Continue anyways ?"
+msgstr ""
+"Käesolevat dokumenti on muudetud.\n"
+"Kas jätkata?"
+
+#: kedit.cpp:881
+#, c-format
+msgid "Wrote: %s"
+msgstr ""
+
+#: kedit.cpp:887
+msgid "No changes need to be saved"
+msgstr "Pole muudatusi, mida salvestada"
+
+#: kedit.cpp:906
+#, c-format
+msgid "Saved as: %s"
+msgstr "Salvesta kui: %s"
+
+#: kedit.cpp:939
+#, c-format
+msgid ""
+"Could not pipe the contentsof this Document into:\n"
+" %s"
+msgstr ""
+"Dokumendi sisu pole võimalik suunata\n"
+" %s -sse"
+ 
+#: kedit.cpp:1033
+msgid "Auto Indent Mode: On"
+msgstr "Automaatne taandrida: sees"
+
+#: kedit.cpp:1035
+msgid "Auto Indent Mode: Off"
+msgstr "Automaatne taandrida: väljas"
+
+#: kedit.cpp:1131
+#, c-format
+msgid "Line: %d Col: %d"
+msgstr "Rida: %d Veerg: %d"
+
+#: filldlg.cpp:31 kedit.cpp:1148
+msgid "KEdit Options"
+msgstr "KEdit'i valikud"
+
+#: kedit.cpp:1201
+msgid ""
+"The current document has been modified.\n"
+"Would you like to save the changes before \n"
+"printing this Document?"
+msgstr ""
+"Käesolevat dokumenti on muudetud.\n"
+"Soovid sa muudatused salvestada enne selle\n"
+"dokumendi trükkimist?"
+
+#: kedit.cpp:1219
+msgid ""
+"Could not save the file.\n"
+"Print anyways?"
+msgstr ""
+"Faili pole võimalik salvestada.\n"
+"Kas trükkida vaatamata sellele?"
+
+#: kedit.cpp:1312
+#, c-format
+msgid "Printing: %s Untitled (Selection)"
+msgstr "Trükkimine: %s Nimetu (valitud)"
+
+#: kedit.cpp:1315
+#, c-format
+msgid "Printing: %s Untitled"
+msgstr "Trükkimine: %s Nimetu"
+
+#: kedit.cpp:1353
+#, c-format
+msgid "Printing: %s"
+msgstr "Trükkimine: %s"
+
+#: kedit.cpp:1363
+#, c-format
+msgid "Printing: %s %s (Selection)"
+msgstr "Trükkimine: %s %s (valitud)"
+
+#: kedit.cpp:1387
+msgid "Saving ..."
+msgstr "Salvestamine..."
+
+#: kedit.cpp:1394
+msgid "Loading ..."
+msgstr "Laadimine..."
+
+#: kedit.cpp:1428 kedit.cpp:1521
+msgid ""
+"KEdit is already waiting\n"
+"for an internet job to finish\n"
+"Please wait until has finished\n"
+"Alternatively stop the running one."
+msgstr ""
+"KEdit juba ootab ühe töö taga,\n"
+"mis on vaja lõpetada.\n"
+"Palun oota kuni see on tehtud\n"
+"või peata see."
+
+#: kedit.cpp:1445 kedit.cpp:1540
+msgid "Could not start or find KFM"
+msgstr "KFM'i pole võimalik käivitada või leida"
+
+#: kedit.cpp:1487
+#, c-format
+msgid ""
+"Malformed URL\n"
+"%s"
+msgstr ""
+"Vigane URL\n"
+"%s"
+
+#: kedit.cpp:1507
+#, c-format
+msgid "Loading '%s'"
+msgstr "'%s' laadimine"
+
+#: kedit.cpp:1531
+msgid "Calling KFM"
+msgstr "Kutsung KFMile"
+
+#: kedit.cpp:1550
+msgid "Starting Job"
+msgstr "Käivitatud töö"
+
+#: kedit.cpp:1553
+msgid "Connected"
+msgstr "Ühendatud"
+
+#: kedit.cpp:1555
+msgid "Waiting..."
+msgstr "Ootamine..."
+
+#: kedit.cpp:1563
+#, c-format
+msgid "Finished '%s'"
+msgstr "'%s' lõpetatud"
+
+#: kedit.cpp:1604
+msgid "New Window"
+msgstr "Uus aken"
+
+#: kedit.cpp:1608
+msgid "New Window Created"
+msgstr "Uus aken loodud"
+
+#: kedit.cpp:1614
+msgid "Load Command Done"
+msgstr "Laadimise käsk valmis"
+
+#: kedit.cpp:2035
+#, c-format
+msgid ""
+"Can not create:\n"
+"%s"
+msgstr ""
+"Pole võimalik luua:\n"
+"%s"
+
+#: kedit.cpp:2074
+msgid "Spellchecker Options"
+msgstr "Õigekirja kontrolli valikud"
+
+#: keditcl1.cpp:149
+msgid "The specified File does not exist"
+msgstr "Kirjeldatud faili ei eksisteeri"
+
+#: keditcl1.cpp:162 keditcl1.cpp:438 keditcl1.cpp:521 keditcl1.cpp:1708
+msgid "Sorry:"
+msgstr "Vabandust:"
+
+#: keditcl1.cpp:163
+msgid "You have specificated a directory"
+msgstr "Sa oled kirjeldanud kataloogi"
+
+#: keditcl1.cpp:178 keditcl1.cpp:199
+msgid "You do not have read permission to this file."
+msgstr "Sul pole luba lugeda seda faili."
+
+#: keditcl1.cpp:212
+msgid "An Error occured while trying to open this Document"
+msgstr "Dokumendi avamisel ilmnes viga"
+
+#: keditcl1.cpp:417 keditcl1.cpp:501 keditcl1.cpp:1650
+msgid "Warning:"
+msgstr "Hoiatus:"
+
+#: keditcl1.cpp:418 keditcl1.cpp:502
+msgid ""
+"The current Document has been modified.\n"
+"Would you like to save it?"
+msgstr ""
+"Käesolevat dokumenti on muudetud.\n"
+"Sooviksid sa selle salvestada?"
+
+#: keditcl1.cpp:439
+msgid ""
+"Could not save the document.\n"
+"Open a new document anyways?"
+msgstr ""
+"Dokumenti pole võimalik salvestada.\n"
+"Kas avada vaatamata sellele uus dokument?"
+
+#: keditcl1.cpp:522
+msgid ""
+"Could not save the document.\n"
+"Create a new document anyways?"
+msgstr ""
+"Dokumenti pole võimalik salvestada.\n"
+"Kas luua vaatamata sellele uus dokument?"
+
+#: keditcl1.cpp:1569
+msgid "Could not save the document\n"
+msgstr "Dokumenti pole võimalik salvestada\n"
+
+#: keditcl1.cpp:1651
+msgid ""
+"A Document with this Name exists already\n"
+"Do you want to overwrite it ?"
+msgstr ""
+"Sellise nimega dokument eksisteerib juba\n"
+"Soovid sa selle üle kirjutada?"
+
+#: keditcl1.cpp:1709
+msgid "You do not have write permission to this file.\n"
+msgstr "Sul ei ole õigusi kirjutada sellesse faili.\n"
+
+#: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
+#: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
+msgid "Find"
+msgstr "Leia"
+
+#: keditcl2.cpp:113 keditcl2.cpp:370 keditcl2.cpp:463
+msgid ""
+"End of document reached.\n"
+"Continue from the beginning?"
+msgstr ""
+"Jõudsime dokumendi lõppu.\n"
+"Kas jätkata algusest?"
+
+#: keditcl2.cpp:130 keditcl2.cpp:387 keditcl2.cpp:433 keditcl2.cpp:480
+msgid ""
+"Beginning of document reached.\n"
+"Continue from the end?"
+msgstr ""
+"Jõudsime dokumendi algusesse.\n"
+"Kas jätkata lõpust?"
+
+#: keditcl2.cpp:691 keditcl2.cpp:789
+msgid "Case Sensitive"
+msgstr "Tõstutundlik"
+
+#: keditcl2.cpp:692 keditcl2.cpp:792
+msgid "Find Backwards"
+msgstr "Leia tagasisuunas"
+
+#: keditcl2.cpp:777
+msgid "Find:"
+msgstr "Leia:"
+
+#: keditcl2.cpp:787
+msgid "Replace with:"
+msgstr "Asenda järgnevaga:"
+
+#: keditcl2.cpp:801
+msgid "Replace All"
+msgstr "Asenda kõik"
+
+#: keditcl2.cpp:898
+msgid "Goto Line"
+msgstr "Mine reale"
+
+#: keditcl2.cpp:903
+msgid "Go"
+msgstr "Mine"
+
+#: print.cpp:69
+msgid "Print Dialog"
+msgstr "Trükkimise dialoog"
+
+#: print.cpp:73
+msgid "Print directly using lpr"
+msgstr "Trüki otse kasutades lpr"
+
+#: print.cpp:78
+msgid "Print using Command:"
+msgstr "Trüki kasutades käsku:"
+
+#: print.cpp:96
+msgid "Print Selection"
+msgstr "Trükkimise valik"
+
+#: filldlg.cpp:36
+msgid "Set Fill-Column at:"
+msgstr "Sea täisveeru laius:"
+
+#: filldlg.cpp:40
+msgid "Word Wrap"
+msgstr "Reamurdmine"
+
+#: filldlg.cpp:42
+msgid "Backup Copies"
+msgstr "Varukoopiad"
+
+#: filldlg.cpp:46
+msgid "Mail Command:"
+msgstr "Meili käsk:"
+
+#: filldlg.cpp:140
+msgid "You must enter an integer."
+msgstr "Sa pead sisestama täisarvu."
+
+#: mail.cpp:37
+msgid "Mail Document to:"
+msgstr "Meili dokument järgnevale:"
+
+#: mail.cpp:55
+msgid "Subject:"
+msgstr "Sisu:"
+
+#: mail.cpp:57
+msgid "Mail"
+msgstr "Meil"
+
+#: mail.cpp:96
+msgid "You must specify a Recipient"
+msgstr "Sa pead sisestama adressaadi"
+
