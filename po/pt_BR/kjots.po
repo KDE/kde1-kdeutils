@@ -89,15 +89,15 @@ msgstr "Configuração de &Teclado"
 
 #: KJotsMain.cpp:402
 msgid "Add current book to hotlist"
-msgstr "Adicionar o livro atual à lista dos mais interessantes"
+msgstr "Adicionar o livro atual à Lista"
 
 #: KJotsMain.cpp:404
 msgid "Remove current book from hotlist"
-msgstr "Remover o livro atual da lista dos mais interessantes"
+msgstr "Remover o livro atual da Lista"
 
 #: KJotsMain.cpp:409
 msgid "Hot&list"
-msgstr "Mais interessantes"
+msgstr "Lista"
 
 #: KJotsMain.cpp:411
 msgid "&Books"
