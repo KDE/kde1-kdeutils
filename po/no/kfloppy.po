@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-05-30 17:50+0200\n"
-"PO-Revision-Date:  1998-04-15 23:05+0100\n"
+"PO-Revision-Date:  1998-06-02 23:05+0100\n"
 "Last-Translator: Svein Olav Aasen <svein.aasen@caa.no / sooasen@online.no>\n"
 "Language-Team: no\n"
 "Content-Type: text/plain; charset=\n"
