@@ -230,7 +230,7 @@ msgstr "Nastavenie ¹tandardného fontu"
 
 #: fontdlg.cpp:54
 msgid "Family:"
-msgstr ""
+msgstr "Rodina:"
 
 #: fontdlg.cpp:64
 msgid "Point Size:"
@@ -238,20 +238,19 @@ msgstr "Veµkos»:"
 
 #: fontdlg.cpp:75
 msgid "Style:"
-msgstr ""
+msgstr "©týl:"
 
 #: fontdlg.cpp:87
-#, fuzzy
 msgid "Weight:"
-msgstr "Vý¹ka:"
+msgstr "Váha:"
 
 #: fontdlg.cpp:93 fontdlg.cpp:117 fontdlg.cpp:150
 msgid "Bold"
-msgstr ""
+msgstr "Tuèné"
 
 #: fontdlg.cpp:95 fontdlg.cpp:119 fontdlg.cpp:152
 msgid "Normal"
-msgstr ""
+msgstr "Normálne"
 
 #: mail.cpp:40
 msgid "Mail Note to:"

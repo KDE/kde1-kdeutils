@@ -160,4 +160,4 @@ msgstr "Zvoli»"
 
 #: confdialog.cpp:133
 msgid "Dolor Ipse"
-msgstr ""
+msgstr "Dolor Ipse"

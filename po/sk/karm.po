@@ -91,12 +91,11 @@ msgstr "Ú&loha"
 
 #: top.cpp:71
 msgid "&Contents"
-msgstr ""
+msgstr "&Obsah"
 
 #: top.cpp:74
-#, fuzzy
 msgid "&About"
-msgstr "Informácie..."
+msgstr "&Informácie..."
 
 #: top.cpp:85
 msgid "Start Clock"

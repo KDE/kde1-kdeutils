@@ -34,9 +34,8 @@ msgid "Select All"
 msgstr "Vybra» v¹etko"
 
 #: kedit.cpp:156
-#, fuzzy
 msgid "Font..."
-msgstr "&Nájs»..."
+msgstr "Písmo..."
 
 #: kedit.cpp:200
 msgid "Ne&w..."
@@ -88,21 +87,19 @@ msgstr "Nah&radi»"
 
 #: kedit.cpp:267
 msgid "Spellcheck..."
-msgstr ""
+msgstr "Kontrola pravopisu..."
 
 #: kedit.cpp:272
 msgid "&Goto Line..."
 msgstr "&Choï na riadok..."
 
 #: kedit.cpp:276
-#, fuzzy
 msgid "&Font..."
-msgstr "&Písmo"
+msgstr "&Písmo..."
 
 #: kedit.cpp:278
-#, fuzzy
 msgid "&Colors"
-msgstr "Farby"
+msgstr "&Farby"
 
 #: kedit.cpp:283
 msgid "KEdit &Options..."
@@ -346,36 +343,34 @@ msgstr ""
 "%s"
 
 #: kedit.cpp:2059
-#, fuzzy
 msgid "Spellchecker Options"
-msgstr "Ulo¾i» nastavenie"
+msgstr "Nastavenie kontroly pravopisu"
 
 #: keditcl1.cpp:137
 msgid "The specified File does not exist"
-msgstr ""
+msgstr "©pecifikovaný súbor neexistuje"
 
 #: keditcl1.cpp:150 keditcl1.cpp:423 keditcl1.cpp:507 keditcl1.cpp:1687
 msgid "Sorry:"
-msgstr ""
+msgstr "Je mi µúto:"
 
 #: keditcl1.cpp:151
 msgid "You have specificated a directory"
-msgstr ""
+msgstr "©pecifikovali ste prieèinok"
 
 #: keditcl1.cpp:166 keditcl1.cpp:187
 msgid "You do not have read permission to this file."
-msgstr ""
+msgstr "Nemáte právo na èítanie tohto súboru."
 
 #: keditcl1.cpp:200
 msgid "An Error occured while trying to open this Document"
-msgstr ""
+msgstr "Nastala chyba pri pokuse o otvorenie tohto dokumentu"
 
 #: keditcl1.cpp:402 keditcl1.cpp:487 keditcl1.cpp:1629
 msgid "Warning:"
-msgstr ""
+msgstr "Varovanie:"
 
 #: keditcl1.cpp:403 keditcl1.cpp:488
-#, fuzzy
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -384,89 +379,86 @@ msgstr ""
 "Prajete si ho ulo¾i»?"
 
 #: keditcl1.cpp:424
-#, fuzzy
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
 "Nebolo mo¾né ulo¾i» súbor.\n"
-"Stále ho chcete vytlaèi»?"
+"Otvori» nový dokument aj napriek tomu?"
 
 #: keditcl1.cpp:508
-#, fuzzy
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
 msgstr ""
 "Nebolo mo¾né ulo¾i» súbor.\n"
-"Stále ho chcete vytlaèi»?"
+"Vytvori» nový dokument aj napriek tomu?"
 
 #: keditcl1.cpp:1546
-#, fuzzy
 msgid "Could not save the document\n"
-msgstr ""
-"Nebolo mo¾né ulo¾i» súbor.\n"
-"Stále ho chcete vytlaèi»?"
+msgstr "Nebolo mo¾né ulo¾i» súbor.\n"
+
 
 #: keditcl1.cpp:1630
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
 msgstr ""
+"Dokument s týmto menom u¾ existuje\n"
+"Prajete si ho prepísa» ?"
 
 #: keditcl1.cpp:1688
 msgid "You do not have write permission to this file.\n"
-msgstr ""
+msgstr "Nemáte právo zapisova» do tohto súboru.\n"
 
 #: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
 #: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
-#, fuzzy
 msgid "Find"
-msgstr "&Nájs»..."
+msgstr "Hµada»"
 
 #: keditcl2.cpp:113 keditcl2.cpp:370 keditcl2.cpp:463
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
 msgstr ""
+"Dosiahol som koniec dokumentu.\n"
+"Zaèa» od zaèiatku ?"
 
 #: keditcl2.cpp:130 keditcl2.cpp:387 keditcl2.cpp:433 keditcl2.cpp:480
 msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
 msgstr ""
+"Dosiahol som zaèiatok dokumentu.\n"
+"Pokraèova» od konca?"
 
 #: keditcl2.cpp:691 keditcl2.cpp:789
 msgid "Case Sensitive"
-msgstr ""
+msgstr "Rozli¹ova» veµké/malé"
 
 #: keditcl2.cpp:692 keditcl2.cpp:792
 msgid "Find Backwards"
-msgstr ""
+msgstr "Hµada» odzadu"
 
 #: keditcl2.cpp:777
-#, fuzzy
 msgid "Find:"
-msgstr "&Nájs»..."
+msgstr "Hµada»:"
 
 #: keditcl2.cpp:787
-#, fuzzy
 msgid "Replace with:"
-msgstr "Nah&radi»"
+msgstr "Nahradi» s:"
 
 #: keditcl2.cpp:801
-#, fuzzy
 msgid "Replace All"
-msgstr "Nah&radi»"
+msgstr "Nahradi» v¹etky"
 
 #: keditcl2.cpp:898
-#, fuzzy
 msgid "Goto Line"
-msgstr "&Choï na riadok..."
+msgstr "Ís» na riadok"
 
 #: keditcl2.cpp:903
 msgid "Go"
-msgstr ""
+msgstr "Ís»"
 
 #: print.cpp:69
 msgid "Print Dialog"

@@ -107,7 +107,7 @@ msgstr "Neznámy formát archívu"
 
 #: kzip.cc:389
 msgid "Size"
-msgstr ""
+msgstr "Veµkos»"
 
 #: kzip.cc:395
 msgid "Archive directory does not exist."

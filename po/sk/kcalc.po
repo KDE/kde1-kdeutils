@@ -87,7 +87,7 @@ msgstr "Nastavi» ¹tandardné písmo"
 
 #: fontdlg.cpp:53
 msgid "Family:"
-msgstr ""
+msgstr "Rodina:"
 
 #: fontdlg.cpp:63
 msgid "Point Size:"
@@ -95,16 +95,16 @@ msgstr "Veµkos»:"
 
 #: fontdlg.cpp:76
 msgid "Style:"
-msgstr ""
+msgstr "©týl:"
 
 #: fontdlg.cpp:91
 msgid "Weight:"
-msgstr ""
+msgstr "Váha:"
 
 #: fontdlg.cpp:101 fontdlg.cpp:134
 msgid "Bold"
-msgstr ""
+msgstr "Tuèné"
 
 #: fontdlg.cpp:103 fontdlg.cpp:136
 msgid "Normal"
-msgstr ""
+msgstr "Normálne"
