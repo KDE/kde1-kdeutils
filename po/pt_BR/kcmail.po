@@ -2,7 +2,6 @@
 # Copyright (C) 1999 Free Software Foundation, Inc.
 # Rafael Muller <rafael.muller@linuxbr.com.br>, 1999.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
