@@ -48,26 +48,10 @@ messages:
 	(cd po && $(MAKE) -f Makefile.am merge)
 
 configure.in: configure.in.in subdirs
-	@mfs=`find . -name Makefile.am -print | sed -e "s#\.am##" | sed -e "s#\./##" | sort -r`; \
-	cp -f configure.in.in configure.in ;\
-	for i in $$mfs; do \
-	sed -e "s#AC_OUTPUT(#AC_OUTPUT($$i #" configure.in > configure.in.new \
-	 && mv configure.in.new configure.in ;\
-	done 
-	if test -d kfloppy; then \
-	  (cd kfloppy/e2fs && autoconf) \
-	fi
+	$(MAKE) -f admin/Makefile.common configure.in
+
 subdirs:
-	@files=`ls -1 | sort`; \
-	dirs=`for i in $$files; do if test -d $$i; then echo $$i; fi; done`; \
-	rm -f SUBDIRS ;\
-	for i in $$dirs; do \
-	echo $$i >> ./SUBDIRS; \
-	done
-	@if test -r subdirs && diff subdirs SUBDIRS > /dev/null; then \
-	  rm -f SUBDIRS.new; \
-	fi
-	@test -r SUBDIRS && mv SUBDIRS subdirs
+	$(MAKE) -f admin/Makefile.common subdirs
 
 acinclude.m4: $(top_srcdir)/admin/acinclude.m4.in $(top_srcdir)/admin/libtool.m4.in
 	@cd $(top_srcdir) && cat admin/acinclude.m4.in admin/libtool.m4.in > acinclude.m4 
