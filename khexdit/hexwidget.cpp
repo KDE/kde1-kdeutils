@@ -116,7 +116,7 @@ void HexWidget::menuCallback(int item) {
     break;
   case ID_FILE_SAVEAS: {
     QFileDialog *log = new QFileDialog;
-    QString fileName = log->getOpenFileName();
+    QString fileName = log->getSaveFileName();
     
     CurrentFile->setFileName(fileName.data());
     CurrentFile->save();
