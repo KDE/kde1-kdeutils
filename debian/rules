@@ -16,7 +16,7 @@ $(BUILDDIR)/build-stamp:
 	CFLAGS="-g -O2 -Wall" \
 	CXXFLAGS="$$CFLAGS" \
 	../configure --with-install-root=`pwd`/../debian/tmp \
-	  --enable-debug --disable-rpath 
+	  --enable-debug --disable-rpath --prefix=/usr
 	make -C $(BUILDDIR)
  
 	touch $(BUILDDIR)/build-stamp
