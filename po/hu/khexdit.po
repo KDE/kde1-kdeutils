@@ -95,15 +95,6 @@ msgstr "A KFM nem található"
 #~ msgid "&View"
 #~ msgstr "&Nézet"
 
-#, fuzzy
-#~ msgid ""
-#~ "Hex Editor 0.5 \n"
-#~ "\n"
-#~ "by Stephan Kulow  (coolo@itm.mu-luebeck.de)"
-#~ msgstr ""
-#~ "Hex Editor 0.4\n"
-#~ "Írta Stephan Kulow  (coolo@itm.mu-luebeck.de)"
-
 #~ msgid "&Help"
 #~ msgstr "&Segítség"
 
