@@ -65,7 +65,6 @@ msgid "Reset"
 msgstr "Zurücksetzen"
 
 #: MiscData.cpp:113
-#, fuzzy
 msgid "Initialize"
 msgstr "Initialisieren"
 
