@@ -389,31 +389,29 @@ msgstr ""
 "Bare super-bruker og eieren av prosessen kan sende signaler til den."
 
 #: scheddlg.C:22
-#, fuzzy
 msgid "Change scheduling"
-msgstr "Endre kjøreplan..."
+msgstr "Endre kjøreplan"
 
 #: scheddlg.C:28
-#, fuzzy
 msgid "Scheduling Policy"
-msgstr "Kjøreplan..."
+msgstr "Politikk for kjøreplan"
 
 #: scheddlg.C:29
 msgid "SCHED_OTHER (time-sharing)"
-msgstr ""
+msgstr "SCHED_OTHER (tidsdeling)"
 
 #: scheddlg.C:36
 msgid "SCHED_FIFO (real-time)"
-msgstr ""
+msgstr "SCHED_FIFO (reel tid)"
 
 #: scheddlg.C:42
 msgid "SCHED_RR (real-time)"
-msgstr ""
+msgstr "SCHED_RR (reel tid)"
 
 #: scheddlg.C:67
 msgid "Priority (1-99):"
-msgstr ""
+msgstr "Prioritet (1-99):"
 
 #: scheddlg.C:114
 msgid "The priority must be in the range 1..99"
-msgstr ""
+msgstr "Prioriteten må være i området 1..99"
