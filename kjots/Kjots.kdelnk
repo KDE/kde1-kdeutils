@@ -1,4 +1,5 @@
 [KDE Desktop Entry]
+Comment=Note taker
 WmCommand=
 MiniIcon=mini-doc.xpm
 Exec=kjots

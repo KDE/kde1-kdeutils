@@ -24,13 +24,13 @@ DOCSDIR = $(prefix)/doc/HTML/kjots
 ####### Files
 
 SOURCES = main.cpp\
-KJotsMain.cpp KJotsMainData.cpp\
+KJotsMain.cpp\
 SubjList.cpp\
 ReadListConf.cpp\
 cpopmenu.cpp\
 confdialog.cpp
 OBJECTS = main.o\
-KJotsMain.o KJotsMainData.o mKJotsMain.o\
+KJotsMain.o mKJotsMain.o\
 SubjList.o mSubjList.o\
 ReadListConf.o\
 cpopmenu.o mcpopmenu.o\

@@ -30,9 +30,17 @@
 #include <qdialog.h>
 #include <qmsgbox.h>
 #include <qmlined.h>
+#include <qfiledlg.h>
+#include <qtooltip.h>
+#include <qscrbar.h>
+#include <qobjcoll.h>
 
 #include <kapp.h>
 #include <ktabctl.h>
+#include <kmsgbox.h>
+#include <kmenubar.h>
+#include <ktoolbar.h>
+#include <kiconloader.h>
 
 extern "C" {
 #include <unistd.h>
@@ -49,6 +57,8 @@ const unsigned int BUTTON_WIDTH = 56;
 
 extern QString exec_http;
 extern QString exec_ftp;
+
+extern KIconLoader *global_pix_loader;
 
 //----------------------------------------------------------------------
 // ASKFILENAME
@@ -161,12 +171,81 @@ void MyMultiEdit::openUrl()
 }
 
 //----------------------------------------------------------------------
+// MYBUTTONGROUP
+//----------------------------------------------------------------------
+
+MyButtonGroup::MyButtonGroup (QWidget* parent=0, const char* name=0)
+  : QButtonGroup(parent, name)
+{
+  initMetaObject();
+}
+
+void MyButtonGroup::resizeEvent( QResizeEvent * )
+{
+  int x = width()-2;
+  QObjectList  *list = queryList( "QPushButton" );
+  QObjectListIt it( *list );
+  while ( it.current() ) {  
+    x -= (BUTTON_WIDTH+4);
+    ((QPushButton *) it.current())->move(x, 4);
+    ++it;
+  }
+  delete list;  
+}
+
+//----------------------------------------------------------------------
 // KJOTSMAIN
 //----------------------------------------------------------------------
 
-KJotsMain::KJotsMain(QWidget* parent, const char* name)
-  : QWidget( parent, name ), KJotsMainData( this )
+KJotsMain::KJotsMain(const char* name)
+  : KTopLevelWidget( name )
 {
+  //create widgets
+  f_main = new QFrame( this, "Frame_0" );
+  f_main->move(0, 28);
+  f_main->setMinimumSize( 500, 180 );
+  f_main->setFrameStyle( 0 );
+
+  f_text = new QFrame( f_main, "Frame_1" );
+  f_text->setGeometry( 8, 72, 452, 45 );
+  f_text->setFrameStyle( 50 );
+  
+  f_labels = new QFrame( f_main, "Frame_2" );
+  f_labels->setMinimumSize( 436, 24 );
+  f_labels->setFrameStyle( 0 );
+  
+  menubar = new KMenuBar( this, "MenuBar_1" );
+  menubar->setFrameStyle( 34 );
+  menubar->setLineWidth( 2 );
+
+  s_bar = new QScrollBar( f_main, "ScrollBar_1" );
+  s_bar->setMinimumSize( 452, 16 );
+  s_bar->setOrientation( QScrollBar::Horizontal );
+  
+  me_text = new MyMultiEdit( f_text, "MultiLineEdit_1" );
+  me_text->setMinimumSize( 436, 30 );
+  me_text->insertLine( "" );
+
+  l_folder = new QLabel( f_labels, "Label_4" );
+  l_folder->setMinimumSize( 68, 20 );
+  l_folder->setFrameStyle( QFrame::WinPanel | QFrame::Sunken );
+  l_folder->setText( "" );
+  
+  le_subject = new QLineEdit( f_labels, "le_subject" );
+  le_subject->setMinimumSize( 56, 20 );
+  le_subject->setText( "" );
+  
+  bg_top = new MyButtonGroup( f_main, "ButtonGroup_2" );
+  bg_top->setMinimumSize( 452, 32 );
+  bg_top->setFrameStyle( 49 ); 
+  bg_top->setTitle( "" );
+  bg_top->setAlignment( 1 );
+  bg_top->lower();
+  
+  //this->resize(600, 478);
+  this->setMinimumSize(500, 211);
+  //f_main->setGeometry( 0, 28, this->size().width(), this->size().height() - 28 );
+  
   KConfig *config = KApplication::getKApplication()->getConfig();
   config->setGroup("kjots");
   entrylist.setAutoDelete(TRUE);
@@ -184,38 +263,15 @@ KJotsMain::KJotsMain(QWidget* parent, const char* name)
   me_text->setEnabled(FALSE);
   le_subject->setEnabled(FALSE);
   current = 0;
-  connect( b_exit, SIGNAL(clicked()), qApp, SLOT(quit()) );
-  connect( b_new, SIGNAL(clicked()), this, SLOT(newEntry()) );
-  connect( b_delete, SIGNAL(clicked()), this, SLOT(deleteEntry()) );
-  connect( b_next, SIGNAL(clicked()), this, SLOT(nextEntry()) );
-  connect( b_prev, SIGNAL(clicked()), this, SLOT(prevEntry()) );
   connect( s_bar, SIGNAL(valueChanged(int)), this, SLOT(barMoved(int)) );
-  connect( b_list, SIGNAL(clicked()), this, SLOT(toggleSubjList()) ); 
-  connect( subj_list, SIGNAL(hidden()), b_list, SLOT(toggle()) );
-  
-  top2bottom = new QGridLayout( f_main, 5, 1, 4 );
-  top2bottom->addWidget( bg_bot, 0, 0, AlignCenter );
-  top2bottom->addWidget( f_text, 1, 0, AlignCenter );
-  top2bottom->setRowStretch( 1, 1 );
-  top2bottom->addWidget( s_bar, 2, 0, AlignCenter );
-  top2bottom->addWidget( bg_top, 3, 0, AlignCenter );
-  top2bottom->addWidget( f_labels, 4, 0, AlignCenter );
+ 
+  top2bottom = new QGridLayout( f_main, 4, 1, 4 );
+  top2bottom->addWidget( f_text, 0, 0, AlignCenter );
+  top2bottom->setRowStretch( 0, 1 );
+  top2bottom->addWidget( s_bar, 1, 0, AlignCenter );
+  top2bottom->addWidget( bg_top, 2, 0, AlignCenter );
+  top2bottom->addWidget( f_labels, 3, 0, AlignCenter );
   top2bottom->activate();
-  
-  bg_bot_layout = new QBoxLayout( bg_bot, QBoxLayout::LeftToRight, 4 );
-  bg_bot_layout->addWidget( b_new, 0, AlignCenter );
-  bg_bot_layout->addSpacing(2);
-  bg_bot_layout->addWidget( b_delete, 0, AlignCenter );
-  bg_bot_layout->addSpacing(2);
-  bg_bot_layout->addWidget( b_prev, 0, AlignCenter );
-  bg_bot_layout->addSpacing(2);
-  bg_bot_layout->addWidget( b_next, 0, AlignCenter );
-  bg_bot_layout->addSpacing(6);
-  bg_bot_layout->addWidget( b_list, 0, AlignCenter );
-  bg_bot_layout->addSpacing(6);
-  bg_bot_layout->addWidget( b_exit, 0, AlignCenter );
-  bg_bot_layout->addStretch(1);
-  bg_bot_layout->activate();
 
   labels_layout = new QGridLayout( f_labels, 1, 2, 0 );
   labels_layout->addWidget( l_folder, 0, 0, AlignVCenter | AlignLeft );
@@ -255,7 +311,7 @@ KJotsMain::KJotsMain(QWidget* parent, const char* name)
       folders->insertItem(temp, i); 
       if( hotlist.contains(temp) )
 	{
-	  temp_button = new QPushButton(temp, f_main);
+	  temp_button = new QPushButton(temp, bg_top);
 	  temp_button->setToggleButton(TRUE);
 	  temp_button->setFixedSize(BUTTON_WIDTH,24);
 	  bg_top->insert(temp_button, i);
@@ -265,12 +321,15 @@ KJotsMain::KJotsMain(QWidget* parent, const char* name)
   unique_id = i+1;
   connect( folders, SIGNAL(activated(int)), this, SLOT(openFolder(int)) );
   connect( bg_top, SIGNAL(clicked(int)), this, SLOT(openFolder(int)) );
+
+  // create menu
   QPopupMenu *file = new QPopupMenu;
   file->insertItem("Open Book", folders );
   file->insertItem("New Book", this, SLOT(createFolder()) );
   file->insertSeparator();
   file->insertItem("Save current book", this, SLOT(saveFolder()), CTRL+Key_S );
-  file->insertItem("Save to ascii file");
+  file->insertItem("Save book to ascii file", this, SLOT(writeBook()) );
+  file->insertItem("Save page to ascii file", this, SLOT(writePage()) );
   file->insertSeparator();
   file->insertItem("Delete current book", this, SLOT(deleteFolder()) );
   file->insertSeparator();
@@ -301,11 +360,39 @@ KJotsMain::KJotsMain(QWidget* parent, const char* name)
 
   updateConfiguration();
 
+  // create toolbar
+  toolbar = new KToolBar(this);
+  QPixmap temp_pix;
+  temp_pix = global_pix_loader->loadIcon("filenew.xpm");
+  toolbar->insertItem(temp_pix, 0, SIGNAL(clicked()), this,
+		      SLOT(newEntry()), TRUE, "New");
+  temp_pix = global_pix_loader->loadIcon("filedel.xpm");
+  toolbar->insertItem(temp_pix, 1, SIGNAL(clicked()), this,
+		      SLOT(deleteEntry()), TRUE, "Delete");
+  temp_pix = global_pix_loader->loadIcon("back.xpm");
+  toolbar->insertItem(temp_pix, 2, SIGNAL(clicked()), this,
+		      SLOT(prevEntry()), TRUE, "Previous");
+  temp_pix = global_pix_loader->loadIcon("forward.xpm");
+  toolbar->insertItem(temp_pix, 3, SIGNAL(clicked()), this,
+		      SLOT(nextEntry()), TRUE, "Next");
+  toolbar->insertSeparator();
+  temp_pix = global_pix_loader->loadIcon("OpenBook.xpm");
+  toolbar->insertItem(temp_pix, 4, SIGNAL(clicked()), this,
+		      SLOT(toggleSubjList()), TRUE, "Subject List");
+  toolbar->insertSeparator();
+  temp_pix = global_pix_loader->loadIcon("exit.xpm");
+  toolbar->insertItem(temp_pix, 5, SIGNAL(clicked()), qApp,
+		      SLOT(quit()), TRUE, "Exit");
+  toolbar->setPos( (KToolBar::Position) config->readNumEntry("ToolBarPos") );
+  addToolBar(toolbar);
+  setView(f_main, FALSE);
+  setMenu(menubar);
+  enableToolBar(KToolBar::Show);
+
   QString last_folder = config->readEntry("LastOpenFolder");
   int nr;
   if( (nr = folder_list.find(last_folder)) >= 0 )
     openFolder(nr);
-  button_font = b_new->font();
   int width, height;
   width = config->readNumEntry("Width");
   height = config->readNumEntry("Height");
@@ -329,25 +416,18 @@ KJotsMain::~KJotsMain()
   saveFolder();
   config->writeEntry("Width", width());
   config->writeEntry("Height", height());
+  config->writeEntry("ToolBarPos", (int) toolbar->Pos() );
   config->sync();
 }
 
 void KJotsMain::resizeEvent( QResizeEvent *e )
 {
-  f_main->setGeometry( 0, 28, size().width(), size().height() - 28 );
-  QPushButton *item;
-  int x = bg_top->x()+bg_top->width()-2;
-  int y = bg_top->y()+4;
-  for( item = button_list.first(); item != NULL; item = button_list.next() )
-    {
-      x -= (BUTTON_WIDTH+4);
-      item->move(x,y);
-    }
-  QWidget::resizeEvent( e );
+  KTopLevelWidget::resizeEvent( e );
 }
 
 int KJotsMain::readFile( QString name )
 {
+  int pos;
   QString buf, subj;
   TextEntry *entry;
   entrylist.clear();
@@ -373,6 +453,10 @@ int KJotsMain::readFile( QString name )
 	  entry->subject = subj.isNull() ? (QString) "" : (QString) subj;
 	  buf = st.readLine();
 	}
+      pos = 0;
+      while( (pos = buf.find( '\\', pos )) != -1 )
+	if( buf[++pos] == '\\' )
+	  buf.remove( pos, 1 );
       entry->text.append( buf );
       entry->text.append("\n");
     }
@@ -385,6 +469,7 @@ int KJotsMain::readFile( QString name )
 
 int KJotsMain::writeFile( QString name )
 {
+  int pos;
   TextEntry *entry;
   QString buf;
   QFile folder(name);
@@ -397,6 +482,13 @@ int KJotsMain::writeFile( QString name )
       st << entry->subject;
       st << "\n";
       buf = entry->text;
+      buf.detach();
+      pos = 0;
+      while( (pos = buf.find( '\\', pos )) != -1 )
+	{
+	  buf.insert( ++pos, '\\' );
+	  pos++;
+	}
       st << buf;
       if( buf.right(1) != "\n" )
 	st << '\n';
@@ -651,7 +743,7 @@ void KJotsMain::startHelp()
 void KJotsMain::about()
 {
   QMessageBox::message( "About", \
-                        "Kjots 0.2.4\n\r(c) by Christoph Neerfeld\n\rChristoph.Neerfeld@mail.bonn.netsurf.de", "Ok" );
+                        "Kjots 0.2.5\n\r(c) by Christoph Neerfeld\n\rChristoph.Neerfeld@mail.bonn.netsurf.de", "Ok" );
 }
 
 void KJotsMain::addToHotlist()
@@ -667,7 +759,7 @@ void KJotsMain::addToHotlist()
   if( index < 0 )
     return;
   int id = folders->idAt(index);
-  QPushButton *but = new QPushButton(name, f_main);
+  QPushButton *but = new QPushButton(name, bg_top);
   button_list.append(but);
   bg_top->insert(but, id);
   KConfig *config = KApplication::getKApplication()->getConfig();
@@ -705,13 +797,11 @@ void KJotsMain::toggleSubjList()
   if( subj_list->isVisible() )
     {
       subj_list->hide();
-      b_list->setOn(FALSE);
     }
   else
     {
       subj_list->resize(width() / 2, height() );
       subj_list->show();
-      b_list->setOn(TRUE);
     }
 }
 
@@ -743,3 +833,73 @@ void KJotsMain::updateConfiguration()
 	      config->readNumEntry("EFontWeight"), config->readNumEntry("EFontItalic") );
   me_text->setFont(font);
 }
+
+void KJotsMain::writeBook()
+{
+  saveFolder();
+  QString name;
+  while( name.isNull() )
+    {
+      name =  QFileDialog::getSaveFileName();
+      if ( name.isNull() )
+	return;
+      QFileInfo f_info(name);
+      if( f_info.exists() )
+	{
+	  if( KMsgBox::yesNo(this, "File exists !",
+			     "File already exists. \n Do you want to overwrite it ?") == 2 )
+	    name = NULL;
+	}
+    }
+  QFile ascii_file(name);
+  if( !ascii_file.open(IO_WriteOnly | IO_Truncate) )
+    return;
+  QTextStream st( (QIODevice *) &ascii_file);
+  TextEntry *entry;
+  for( entry = entrylist.first(); entry != NULL; entry = entrylist.next() )
+    {
+      writeEntry( st, entry );
+    }
+  ascii_file.close();
+}
+
+void KJotsMain::writePage()
+{
+  saveFolder();
+  QString name;
+  while( name.isNull() )
+    {
+      name =  QFileDialog::getSaveFileName();
+      if ( name.isNull() )
+	return;
+      QFileInfo f_info(name);
+      if( f_info.exists() )
+	{
+	  if( KMsgBox::yesNo(this, "File exists !",
+			     "File already exists. \n Do you want to overwrite it ?") == 2 )
+	    name = NULL;
+	}
+    }
+  QFile ascii_file(name);
+  if( !ascii_file.open(IO_WriteOnly | IO_Truncate) )
+    return;
+  QTextStream st( (QIODevice *) &ascii_file);
+  writeEntry( st, entrylist.at(current) );
+  ascii_file.close();
+}
+
+void KJotsMain::writeEntry( QTextStream &st, TextEntry *entry )
+{
+  QString line, buf;
+  line.fill('#', entry->subject.length()+2 );
+  st << line << '\n';
+  st << "# ";
+  st << entry->subject << '\n';
+  st << line << '\n';
+  buf = entry->text;
+  st << buf;
+  if( buf.right(1) != "\n" )
+    st << '\n';
+  st << '\n';
+}
+

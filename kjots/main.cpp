@@ -30,7 +30,6 @@
 #include <kiconloader.h>
 
 #include "KJotsMain.h"
-//#include "pixloader.h"
 
 KJotsMain *main_widget;
 KIconLoader *global_pix_loader;
@@ -88,6 +87,8 @@ int main( int argc, char **argv )
   jots.resize(jots.size());
   return a.exec();
 }
+
+
 
 
 

@@ -1,7 +1,7 @@
 Hi !
 
 New versions of kjots go directly into the kdeapps distribution.
-This is for version 0.2.4.
+This is for version 0.2.5.
 
 What is kjots
 -------------
@@ -15,11 +15,8 @@ paper lying on your desk.
 New in this version
 -------------------
 
-- uses kfontdialog to set the font of the editor widget
-- you may select an URL in your text and press the right mouse button
-  to execute a program with this URL. The program to execute is
-  configurable for http and ftp URLs.
-- some code cleanup
+- you may save books and pages to an ascii file
+- more kde conforming due to the use of KTopLevelWidget
 
 
 Regards.

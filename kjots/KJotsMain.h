@@ -33,13 +33,17 @@
 #include <qdialog.h>
 #include <qlined.h>
 #include <qbttngrp.h>
+#include <qmlined.h>
+#include <qpushbt.h>
 
-#include "KJotsMainData.h"
+#include <ktopwidget.h>
 
 class KJotsMain;
+class KToolBar;
 class SubjList;
 class CPopupMenu;
 class ConfDialog;
+class QTextStream;
 
 class TextEntry
 {
@@ -84,11 +88,21 @@ protected:
   QLineEdit *i_name;
 };
 
-class KJotsMain : public QWidget, private KJotsMainData
+class MyButtonGroup : public QButtonGroup
+{
+  Q_OBJECT;  
+public:
+  MyButtonGroup (QWidget* parent=0, const char* name=0);
+  ~MyButtonGroup () {}
+protected:
+  virtual void resizeEvent ( QResizeEvent *e );
+};
+
+class KJotsMain : public KTopLevelWidget
 {
   Q_OBJECT;
 public:
-  KJotsMain( QWidget* parent = NULL, const char* name = NULL );
+  KJotsMain( const char* name = NULL );
   virtual ~KJotsMain();
 
 signals:
@@ -116,11 +130,14 @@ protected slots:
   void configure();
   void configureHide();
   void updateConfiguration();
+  void writeBook();
+  void writePage();
   
 protected:
   virtual void resizeEvent ( QResizeEvent *e );
   int readFile(QString name);
   int writeFile( QString name);
+  void writeEntry( QTextStream &st, TextEntry *entry );
 
   QGridLayout   *top2bottom;
   QBoxLayout    *bg_bot_layout;
@@ -140,6 +157,17 @@ protected:
   int              unique_id;
   SubjList        *subj_list;
   ConfDialog      *confdiag;
+
+  KToolBar        *toolbar;
+  QFrame          *f_text;
+  QFrame          *f_labels;
+  QFrame          *f_main;
+  MyButtonGroup   *bg_top;
+  KMenuBar        *menubar;
+  QScrollBar      *s_bar;
+  QMultiLineEdit  *me_text;
+  QLabel          *l_folder;
+  QLineEdit       *le_subject;
 };
 #endif // KJotsMain_included
 
