@@ -3,9 +3,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: kdebase\n"
+"Project-Id-Version: kdeutils\n"
 "POT-Creation-Date: 1999-01-13 01:49+0100\n"
-"PO-Revision-Date: 1998-10-15 15:00-0500\n"
+"PO-Revision-Date: 1998-02-01 15:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -39,6 +39,13 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
+"KCalc %s\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@math.cornell.edu\n"
+"wuebben@kde.org\n"
+"Copyright (C) 1996-98\n"
+"\n"
+"\n"
 
 #: kcalc.cpp:1551
 msgid "Base type: long double\n"
@@ -69,10 +76,12 @@ msgid ""
 "KCalc %s\n"
 "Copyright 1997 Bernd Johannes Wuebben <wuebben@kde.org>\n"
 msgstr ""
+"KCalc %s\n"
+"Copyright 1997 Bernd Johannes Wuebben <wuebben@kde.org>\n"
 
 #: kcalc_core.cpp:1111
 msgid "Last stat item erased"
-msgstr ""
+msgstr "Zadnji stat unos je obrisan"
 
 #: kcalc_core.cpp:1151
 msgid "Stat Mem cleared"

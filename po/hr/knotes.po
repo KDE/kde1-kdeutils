@@ -17,7 +17,7 @@ msgstr ""
 
 #: knotes.cpp:263
 msgid "Hello"
-msgstr ""
+msgstr "Zdravo"
 
 #: knotes.cpp:301
 msgid "Text Color..."
@@ -164,10 +164,20 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
+"KNotes %s\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@math.cornell.edu\n"
+"wuebben@kde.org\n"
+"Copyright (C) 1997\n"
+"\n"
+"Doprinjeli su:\n"
+"Matthias Ettrich <ettrich@kde.org>\n"
+"\n"
+"\n"
 
 #: configdlg.cpp:46 knotes.cpp:1376
 msgid "Defaults"
-msgstr "Podrazumijevano"
+msgstr "Uobièajeno"
 
 #: knotes.cpp:1377
 msgid "More ..."
@@ -325,11 +335,11 @@ msgstr "Vrijeme:"
 
 #: bwdatetime.cpp:85
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #: bwdatetime.cpp:86
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: bwdatetime.cpp:161
 msgid "The Time you selected is invalid"
