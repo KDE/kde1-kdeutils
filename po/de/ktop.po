@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ktop\n"
-"POT-Creation-Date: 1999-03-12 14:27+0100\n"
+"POT-Creation-Date: 1999-03-16 01:50+0100\n"
 "PO-Revision-Date: 1999-02-05 10:20+MET\n"
 "Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 "Language-Team: German <kde-i18n@kde.org>\n"
@@ -200,6 +200,10 @@ msgstr "Leistungs&messer"
 #: ProcListPage.cpp:42
 msgid "Running Processes"
 msgstr "Laufende Prozesse"
+
+#: ProcListPage.cpp:49
+msgid "Show Tree"
+msgstr ""
 
 #: ProcListPage.cpp:60
 msgid "All processes"

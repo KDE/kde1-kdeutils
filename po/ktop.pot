@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-03-12 14:27+0100\n"
+"POT-Creation-Date: 1999-03-16 01:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -180,6 +180,10 @@ msgstr ""
 
 #: ProcListPage.cpp:42
 msgid "Running Processes"
+msgstr ""
+
+#: ProcListPage.cpp:49
+msgid "Show Tree"
 msgstr ""
 
 #: ProcListPage.cpp:60

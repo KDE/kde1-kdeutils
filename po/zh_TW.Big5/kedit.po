@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kedit\n"
-"POT-Creation-Date: 1999-03-05 01:58+0100\n"
+"POT-Creation-Date: 1999-03-16 01:50+0100\n"
 "PO-Revision-Date: 1998-02-21 05:28:+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -146,7 +146,7 @@ msgstr "開啟文件"
 msgid "Save Document"
 msgstr "儲存文件"
 
-#: kedit.cpp:368 print.cpp:91
+#: kedit.cpp:368 print.cpp:103
 msgid "Print Document"
 msgstr "列印文件"
 
@@ -154,8 +154,8 @@ msgstr "列印文件"
 msgid "Mail Document"
 msgstr "郵件文件"
 
-#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:697
-#: keditcl2.cpp:804
+#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:720
+#: keditcl2.cpp:856
 msgid "Done"
 msgstr ""
 
@@ -241,7 +241,7 @@ msgstr "自動換行模式: 關閉"
 msgid "Line: %d Col: %d"
 msgstr "行數: %d 列數: %d"
 
-#: filldlg.cpp:31 kedit.cpp:1147
+#: filldlg.cpp:35 kedit.cpp:1147
 msgid "KEdit Options"
 msgstr "KEdit 選項"
 
@@ -433,7 +433,7 @@ msgid "You do not have write permission to this file.\n"
 msgstr ""
 
 #: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
-#: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
+#: keditcl2.cpp:688 keditcl2.cpp:713 keditcl2.cpp:837
 #, fuzzy
 msgid "Find"
 msgstr "尋找...[&F]"
@@ -450,72 +450,72 @@ msgid ""
 "Continue from the end?"
 msgstr ""
 
-#: keditcl2.cpp:691 keditcl2.cpp:789
+#: keditcl2.cpp:701 keditcl2.cpp:821
 msgid "Case Sensitive"
 msgstr ""
 
-#: keditcl2.cpp:692 keditcl2.cpp:792
+#: keditcl2.cpp:704 keditcl2.cpp:826
 msgid "Find Backwards"
 msgstr ""
 
-#: keditcl2.cpp:777
+#: keditcl2.cpp:796
 #, fuzzy
 msgid "Find:"
 msgstr "尋找...[&F]"
 
-#: keditcl2.cpp:787
+#: keditcl2.cpp:808
 #, fuzzy
 msgid "Replace with:"
 msgstr "取代[&R]"
 
-#: keditcl2.cpp:801
+#: keditcl2.cpp:850
 #, fuzzy
 msgid "Replace All"
 msgstr "取代[&R]"
 
-#: keditcl2.cpp:898
+#: keditcl2.cpp:931
 #, fuzzy
 msgid "Goto Line"
 msgstr "跳至行數...[&G]"
 
-#: keditcl2.cpp:903
+#: keditcl2.cpp:936
 msgid "Go"
 msgstr ""
 
-#: print.cpp:69
+#: print.cpp:74
 msgid "Print Dialog"
 msgstr "列印對話框"
 
-#: print.cpp:73
+#: print.cpp:80
 msgid "Print directly using lpr"
 msgstr "直接使用 lpr 列印"
 
-#: print.cpp:78
+#: print.cpp:88
 msgid "Print using Command:"
 msgstr "使用命令列印"
 
-#: print.cpp:96
+#: print.cpp:109
 msgid "Print Selection"
 msgstr "列印選擇"
 
-#: filldlg.cpp:36
+#: filldlg.cpp:46
 msgid "Set Fill-Column at:"
 msgstr ""
 
-#: filldlg.cpp:40
+#: filldlg.cpp:57
 #, fuzzy
 msgid "Word Wrap"
 msgstr "字迴繞"
 
-#: filldlg.cpp:42
+#: filldlg.cpp:63
 msgid "Backup Copies"
 msgstr ""
 
-#: filldlg.cpp:46
+#: filldlg.cpp:75
 msgid "Mail Command:"
 msgstr "郵寄命令"
 
-#: filldlg.cpp:140
+#: filldlg.cpp:171
 msgid "You must enter an integer."
 msgstr "必須輸入一個整數 "
 

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-03-12 14:27+0100\n"
+"POT-Creation-Date: 1999-03-16 01:50+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-12-07 12:23:22-0500\n"
 "From: root,,, <root@petit>\n"
@@ -184,6 +184,10 @@ msgstr "Configurazione performance monitor"
 #, fuzzy
 msgid "Running Processes"
 msgstr "Processi attivi"
+
+#: ProcListPage.cpp:49
+msgid "Show Tree"
+msgstr ""
 
 #: ProcListPage.cpp:60
 #, fuzzy

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdenonbeta\n"
-"POT-Creation-Date: 1999-03-12 14:27+0100\n"
+"POT-Creation-Date: 1999-03-16 01:50+0100\n"
 "PO-Revision-Date: 1999-01-28 20:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -185,6 +185,10 @@ msgstr "&Uèinak"
 #: ProcListPage.cpp:42
 msgid "Running Processes"
 msgstr "Tekuæi procesi"
+
+#: ProcListPage.cpp:49
+msgid "Show Tree"
+msgstr ""
 
 #: ProcListPage.cpp:60
 msgid "All processes"

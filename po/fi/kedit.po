@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KEDIT\n"
-"POT-Creation-Date: 1999-03-05 01:58+0100\n"
+"POT-Creation-Date: 1999-03-16 01:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -149,7 +149,7 @@ msgstr "Avaa asiakirja"
 msgid "Save Document"
 msgstr "Tallenna asiakirja"
 
-#: kedit.cpp:368 print.cpp:91
+#: kedit.cpp:368 print.cpp:103
 msgid "Print Document"
 msgstr "Tulosta asiakirja"
 
@@ -157,8 +157,8 @@ msgstr "Tulosta asiakirja"
 msgid "Mail Document"
 msgstr "Lähetä asiakirja"
 
-#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:697
-#: keditcl2.cpp:804
+#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:720
+#: keditcl2.cpp:856
 msgid "Done"
 msgstr "Valmis"
 
@@ -244,7 +244,7 @@ msgstr "Automaattinen sisennys : Pois"
 msgid "Line: %d Col: %d"
 msgstr "Rivi: %d Sarake: %d"
 
-#: filldlg.cpp:31 kedit.cpp:1147
+#: filldlg.cpp:35 kedit.cpp:1147
 msgid "KEdit Options"
 msgstr "KEdit &Asetukset"
 
@@ -435,7 +435,7 @@ msgid "You do not have write permission to this file.\n"
 msgstr "Sinulla ei ole kirjoitusoikeuksia tiedostoon.\n"
 
 #: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
-#: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
+#: keditcl2.cpp:688 keditcl2.cpp:713 keditcl2.cpp:837
 msgid "Find"
 msgstr "Etsi"
 
@@ -455,67 +455,67 @@ msgstr ""
 "Asiakirjan alku tavoitettu.\n"
 "Jatka lopusta?"
 
-#: keditcl2.cpp:691 keditcl2.cpp:789
+#: keditcl2.cpp:701 keditcl2.cpp:821
 msgid "Case Sensitive"
 msgstr "Huomioi kirjasintaso"
 
-#: keditcl2.cpp:692 keditcl2.cpp:792
+#: keditcl2.cpp:704 keditcl2.cpp:826
 msgid "Find Backwards"
 msgstr "Etsi taaksepäin"
 
-#: keditcl2.cpp:777
+#: keditcl2.cpp:796
 msgid "Find:"
 msgstr "Etsi:"
 
-#: keditcl2.cpp:787
+#: keditcl2.cpp:808
 msgid "Replace with:"
 msgstr "Korvaa:"
 
-#: keditcl2.cpp:801
+#: keditcl2.cpp:850
 msgid "Replace All"
 msgstr "Korvaa kaikki"
 
-#: keditcl2.cpp:898
+#: keditcl2.cpp:931
 msgid "Goto Line"
 msgstr "Siirry riville"
 
-#: keditcl2.cpp:903
+#: keditcl2.cpp:936
 msgid "Go"
 msgstr "Siirry"
 
-#: print.cpp:69
+#: print.cpp:74
 msgid "Print Dialog"
 msgstr "Tulostusikkuna"
 
-#: print.cpp:73
+#: print.cpp:80
 msgid "Print directly using lpr"
 msgstr "Tulosta suoraan käyttäen lpr:ää"
 
-#: print.cpp:78
+#: print.cpp:88
 msgid "Print using Command:"
 msgstr "Tulosta komennolla:"
 
-#: print.cpp:96
+#: print.cpp:109
 msgid "Print Selection"
 msgstr "Tulosta valinta"
 
-#: filldlg.cpp:36
+#: filldlg.cpp:46
 msgid "Set Fill-Column at:"
 msgstr "Aseta sarakkeentäyttö:"
 
-#: filldlg.cpp:40
+#: filldlg.cpp:57
 msgid "Word Wrap"
 msgstr "Sanankierrätys"
 
-#: filldlg.cpp:42
+#: filldlg.cpp:63
 msgid "Backup Copies"
 msgstr "Varmuuskopiot"
 
-#: filldlg.cpp:46
+#: filldlg.cpp:75
 msgid "Mail Command:"
 msgstr "Lähetyskomento:"
 
-#: filldlg.cpp:140
+#: filldlg.cpp:171
 msgid "You must enter an integer."
 msgstr "Sinun pitää antaa kokonaisluku."
 

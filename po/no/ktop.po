@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-03-12 14:27+0100\n"
+"POT-Creation-Date: 1999-03-16 01:50+0100\n"
 "PO-Revision-Date: 1998-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -201,6 +201,10 @@ msgstr "Ytelsebaro&meter"
 #: ProcListPage.cpp:42
 msgid "Running Processes"
 msgstr "Kjørende prosesser"
+
+#: ProcListPage.cpp:49
+msgid "Show Tree"
+msgstr ""
 
 #: ProcListPage.cpp:60
 msgid "All processes"

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kedit \n"
-"POT-Creation-Date: 1999-03-05 01:58+0100\n"
+"POT-Creation-Date: 1999-03-16 01:50+0100\n"
 "PO-Revision-Date: 1999-01-24 15:57+0100\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -144,7 +144,7 @@ msgstr "Otwórz dokument"
 msgid "Save Document"
 msgstr "Zachowaj dokument"
 
-#: kedit.cpp:368 print.cpp:91
+#: kedit.cpp:368 print.cpp:103
 msgid "Print Document"
 msgstr "Drukuj dokument"
 
@@ -152,8 +152,8 @@ msgstr "Drukuj dokument"
 msgid "Mail Document"
 msgstr "Wy¶lij dokument poczt±"
 
-#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:697
-#: keditcl2.cpp:804
+#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:720
+#: keditcl2.cpp:856
 msgid "Done"
 msgstr "Gotowe"
 
@@ -239,7 +239,7 @@ msgstr "Tryb auto wciêcia: Wy³"
 msgid "Line: %d Col: %d"
 msgstr "Linia: %d Kol: %d"
 
-#: filldlg.cpp:31 kedit.cpp:1147
+#: filldlg.cpp:35 kedit.cpp:1147
 msgid "KEdit Options"
 msgstr "Opcje KEdit"
 
@@ -430,7 +430,7 @@ msgid "You do not have write permission to this file.\n"
 msgstr "Nie masz prawa zapisu do tego pliku.\n"
 
 #: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
-#: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
+#: keditcl2.cpp:688 keditcl2.cpp:713 keditcl2.cpp:837
 msgid "Find"
 msgstr "Szukaj"
 
@@ -450,67 +450,67 @@ msgstr ""
 "Osi±gniêto pocz±tek dokumentu.\n"
 "Kontynuowaæ od koñca?"
 
-#: keditcl2.cpp:691 keditcl2.cpp:789
+#: keditcl2.cpp:701 keditcl2.cpp:821
 msgid "Case Sensitive"
 msgstr "Rozró¿niaj ma³e i wielkie litery"
 
-#: keditcl2.cpp:692 keditcl2.cpp:792
+#: keditcl2.cpp:704 keditcl2.cpp:826
 msgid "Find Backwards"
 msgstr "Szukaj do ty³u"
 
-#: keditcl2.cpp:777
+#: keditcl2.cpp:796
 msgid "Find:"
 msgstr "Szukaj:"
 
-#: keditcl2.cpp:787
+#: keditcl2.cpp:808
 msgid "Replace with:"
 msgstr "Zamieñ na:"
 
-#: keditcl2.cpp:801
+#: keditcl2.cpp:850
 msgid "Replace All"
 msgstr "Zamieñ wszystkie"
 
-#: keditcl2.cpp:898
+#: keditcl2.cpp:931
 msgid "Goto Line"
 msgstr "Id¼ do linii"
 
-#: keditcl2.cpp:903
+#: keditcl2.cpp:936
 msgid "Go"
 msgstr "Id¼"
 
-#: print.cpp:69
+#: print.cpp:74
 msgid "Print Dialog"
 msgstr "Drukowanie"
 
-#: print.cpp:73
+#: print.cpp:80
 msgid "Print directly using lpr"
 msgstr "Drukuj bezpo¶rednio przez lpr"
 
-#: print.cpp:78
+#: print.cpp:88
 msgid "Print using Command:"
 msgstr "Polecenie dla wydruku:"
 
-#: print.cpp:96
+#: print.cpp:109
 msgid "Print Selection"
 msgstr "Drukuj zaznaczone"
 
-#: filldlg.cpp:36
+#: filldlg.cpp:46
 msgid "Set Fill-Column at:"
 msgstr "Margines od kolumny:"
 
-#: filldlg.cpp:40
+#: filldlg.cpp:57
 msgid "Word Wrap"
 msgstr "Zawijanie wierszy"
 
-#: filldlg.cpp:42
+#: filldlg.cpp:63
 msgid "Backup Copies"
 msgstr "Kopie zapasowe"
 
-#: filldlg.cpp:46
+#: filldlg.cpp:75
 msgid "Mail Command:"
 msgstr "Polecenie dla poczty:"
 
-#: filldlg.cpp:140
+#: filldlg.cpp:171
 msgid "You must enter an integer."
 msgstr "Musisz wprowadziæ liczbê ca³kowit±."
 

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-03-12 14:27+0100\n"
+"POT-Creation-Date: 1999-03-16 01:50+0100\n"
 "Last-Translator: Peter Ivanyi <ivanyi@internet.sk>\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-12-07 12:23:22-0500\n"
@@ -191,6 +191,11 @@ msgstr "Výkon"
 #, fuzzy
 msgid "Running Processes"
 msgstr "Be¾iace procesy"
+
+#: ProcListPage.cpp:49
+#, fuzzy
+msgid "Show Tree"
+msgstr "Voµný swap:"
 
 #: ProcListPage.cpp:60
 msgid "All processes"
@@ -547,9 +552,6 @@ msgstr ""
 
 #~ msgid "Swap avail:"
 #~ msgstr "Swap:"
-
-#~ msgid "Swap free:"
-#~ msgstr "Voµný swap:"
 
 #~ msgid "Total virtual:"
 #~ msgstr "Celk. virtuál:"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kedit\n"
-"POT-Creation-Date: 1999-03-05 01:58+0100\n"
+"POT-Creation-Date: 1999-03-16 01:50+0100\n"
 "PO-Revision-Date: 1998-05-17 20:00-0500-\n"
 "Last-Translator: Vlatko Cingoski <vlatko@eml.hiroshima-u.ac.jp>\n"
 "Language-Team: Macedonian\n"
@@ -146,7 +146,7 @@ msgstr "Otvori Dokument"
 msgid "Save Document"
 msgstr "Zapamti Dokument"
 
-#: kedit.cpp:368 print.cpp:91
+#: kedit.cpp:368 print.cpp:103
 msgid "Print Document"
 msgstr "Ispechati Dokument"
 
@@ -154,8 +154,8 @@ msgstr "Ispechati Dokument"
 msgid "Mail Document"
 msgstr "Dokument po Poshta"
 
-#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:697
-#: keditcl2.cpp:804
+#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:720
+#: keditcl2.cpp:856
 msgid "Done"
 msgstr ""
 
@@ -241,7 +241,7 @@ msgstr "Avtomatski Margini: Iskluchi"
 msgid "Line: %d Col: %d"
 msgstr "Red: %d Kolona: %d"
 
-#: filldlg.cpp:31 kedit.cpp:1147
+#: filldlg.cpp:35 kedit.cpp:1147
 msgid "KEdit Options"
 msgstr "KEdit Opcii"
 
@@ -437,7 +437,7 @@ msgid "You do not have write permission to this file.\n"
 msgstr ""
 
 #: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
-#: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
+#: keditcl2.cpp:688 keditcl2.cpp:713 keditcl2.cpp:837
 #, fuzzy
 msgid "Find"
 msgstr "Prona&jdi..."
@@ -454,72 +454,72 @@ msgid ""
 "Continue from the end?"
 msgstr ""
 
-#: keditcl2.cpp:691 keditcl2.cpp:789
+#: keditcl2.cpp:701 keditcl2.cpp:821
 msgid "Case Sensitive"
 msgstr ""
 
-#: keditcl2.cpp:692 keditcl2.cpp:792
+#: keditcl2.cpp:704 keditcl2.cpp:826
 msgid "Find Backwards"
 msgstr ""
 
-#: keditcl2.cpp:777
+#: keditcl2.cpp:796
 #, fuzzy
 msgid "Find:"
 msgstr "Prona&jdi..."
 
-#: keditcl2.cpp:787
+#: keditcl2.cpp:808
 #, fuzzy
 msgid "Replace with:"
 msgstr "&Zameni"
 
-#: keditcl2.cpp:801
+#: keditcl2.cpp:850
 #, fuzzy
 msgid "Replace All"
 msgstr "&Zameni"
 
-#: keditcl2.cpp:898
+#: keditcl2.cpp:931
 #, fuzzy
 msgid "Goto Line"
 msgstr "&Odi na Linija..."
 
-#: keditcl2.cpp:903
+#: keditcl2.cpp:936
 msgid "Go"
 msgstr ""
 
-#: print.cpp:69
+#: print.cpp:74
 msgid "Print Dialog"
 msgstr "Dialog so Printerot"
 
-#: print.cpp:73
+#: print.cpp:80
 msgid "Print directly using lpr"
 msgstr "Pechati direktno so lpr"
 
-#: print.cpp:78
+#: print.cpp:88
 msgid "Print using Command:"
 msgstr "Pechati so Naredba:"
 
-#: print.cpp:96
+#: print.cpp:109
 msgid "Print Selection"
 msgstr "Pechati go Izbranoto"
 
-#: filldlg.cpp:36
+#: filldlg.cpp:46
 msgid "Set Fill-Column at:"
 msgstr "Izvrshi Popolni-Kolona na pozicija:"
 
-#: filldlg.cpp:40
+#: filldlg.cpp:57
 #, fuzzy
 msgid "Word Wrap"
 msgstr "Prefrluvanje na Zborovi"
 
-#: filldlg.cpp:42
+#: filldlg.cpp:63
 msgid "Backup Copies"
 msgstr ""
 
-#: filldlg.cpp:46
+#: filldlg.cpp:75
 msgid "Mail Command:"
 msgstr "Poshtenska Komanda:"
 
-#: filldlg.cpp:140
+#: filldlg.cpp:171
 msgid "You must enter an integer."
 msgstr "Mora da vnesite Cel Broj - Integer"
 

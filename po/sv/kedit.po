@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-03-05 01:58+0100\n"
+"POT-Creation-Date: 1999-03-16 01:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -143,7 +143,7 @@ msgstr "Öppna dokument"
 msgid "Save Document"
 msgstr "Spara dokument"
 
-#: kedit.cpp:368 print.cpp:91
+#: kedit.cpp:368 print.cpp:103
 msgid "Print Document"
 msgstr "Skriv ut dokument"
 
@@ -151,8 +151,8 @@ msgstr "Skriv ut dokument"
 msgid "Mail Document"
 msgstr "Posta dokument"
 
-#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:697
-#: keditcl2.cpp:804
+#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:720
+#: keditcl2.cpp:856
 msgid "Done"
 msgstr "Klar"
 
@@ -238,7 +238,7 @@ msgstr "Automatiskt indenteringsläge: Av"
 msgid "Line: %d Col: %d"
 msgstr "Rad: %d Kolumn: %d"
 
-#: filldlg.cpp:31 kedit.cpp:1147
+#: filldlg.cpp:35 kedit.cpp:1147
 msgid "KEdit Options"
 msgstr "KEdit inställningar"
 
@@ -430,7 +430,7 @@ msgid "You do not have write permission to this file.\n"
 msgstr "Du har inte skrivrättigheter till den angivna filen.\n"
 
 #: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
-#: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
+#: keditcl2.cpp:688 keditcl2.cpp:713 keditcl2.cpp:837
 msgid "Find"
 msgstr "Sök"
 
@@ -450,67 +450,67 @@ msgstr ""
 "Dokumentets början nådd.\n"
 "Vill du söka från slutet?"
 
-#: keditcl2.cpp:691 keditcl2.cpp:789
+#: keditcl2.cpp:701 keditcl2.cpp:821
 msgid "Case Sensitive"
 msgstr "Gör skillnad på små och stora bokstäver"
 
-#: keditcl2.cpp:692 keditcl2.cpp:792
+#: keditcl2.cpp:704 keditcl2.cpp:826
 msgid "Find Backwards"
 msgstr "Sök baklänges"
 
-#: keditcl2.cpp:777
+#: keditcl2.cpp:796
 msgid "Find:"
 msgstr "Sök:"
 
-#: keditcl2.cpp:787
+#: keditcl2.cpp:808
 msgid "Replace with:"
 msgstr "Ersätt med:"
 
-#: keditcl2.cpp:801
+#: keditcl2.cpp:850
 msgid "Replace All"
 msgstr "Ersätt alla"
 
-#: keditcl2.cpp:898
+#: keditcl2.cpp:931
 msgid "Goto Line"
 msgstr "Gå till rad"
 
-#: keditcl2.cpp:903
+#: keditcl2.cpp:936
 msgid "Go"
 msgstr "Gå"
 
-#: print.cpp:69
+#: print.cpp:74
 msgid "Print Dialog"
 msgstr "Utskriftsdialog"
 
-#: print.cpp:73
+#: print.cpp:80
 msgid "Print directly using lpr"
 msgstr "Skriv direkt med lpr"
 
-#: print.cpp:78
+#: print.cpp:88
 msgid "Print using Command:"
 msgstr "Skriv ut med kommando:"
 
-#: print.cpp:96
+#: print.cpp:109
 msgid "Print Selection"
 msgstr "Skriv ut markering"
 
-#: filldlg.cpp:36
+#: filldlg.cpp:46
 msgid "Set Fill-Column at:"
 msgstr "Sätt fyllningskolumn vid:"
 
-#: filldlg.cpp:40
+#: filldlg.cpp:57
 msgid "Word Wrap"
 msgstr "Bryt rader"
 
-#: filldlg.cpp:42
+#: filldlg.cpp:63
 msgid "Backup Copies"
 msgstr "Backupkopior"
 
-#: filldlg.cpp:46
+#: filldlg.cpp:75
 msgid "Mail Command:"
 msgstr "Postningskommando:"
 
-#: filldlg.cpp:140
+#: filldlg.cpp:171
 msgid "You must enter an integer."
 msgstr "Du måste ange ett heltal"
 

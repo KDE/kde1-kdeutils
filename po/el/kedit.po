@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-03-05 01:58+0100\n"
+"POT-Creation-Date: 1999-03-16 01:50+0100\n"
 "PO-Revision-Date: 1998-04-06 23:00+0200\n"
 "Last-Translator: Kostas Papadopoulos <kpapadop@obelix.ee.duth.gr>\n"
 "Language-Team: GREEK <kde-team@obelix.ee.duth.gr>\n"
@@ -147,7 +147,7 @@ msgstr "’νοιγμα Εγγράφου"
 msgid "Save Document"
 msgstr "Σώσιμο Εγγράφου"
 
-#: kedit.cpp:368 print.cpp:91
+#: kedit.cpp:368 print.cpp:103
 msgid "Print Document"
 msgstr "Εκτύπωση Εγγράφου"
 
@@ -155,8 +155,8 @@ msgstr "Εκτύπωση Εγγράφου"
 msgid "Mail Document"
 msgstr "Επιστολή"
 
-#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:697
-#: keditcl2.cpp:804
+#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:720
+#: keditcl2.cpp:856
 msgid "Done"
 msgstr ""
 
@@ -240,7 +240,7 @@ msgstr ""
 msgid "Line: %d Col: %d"
 msgstr "Γραμμή: %d Στήλη: %d"
 
-#: filldlg.cpp:31 kedit.cpp:1147
+#: filldlg.cpp:35 kedit.cpp:1147
 msgid "KEdit Options"
 msgstr "Επιλογές του KEdit"
 
@@ -436,7 +436,7 @@ msgid "You do not have write permission to this file.\n"
 msgstr ""
 
 #: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
-#: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
+#: keditcl2.cpp:688 keditcl2.cpp:713 keditcl2.cpp:837
 #, fuzzy
 msgid "Find"
 msgstr "&Εύρεση"
@@ -453,71 +453,71 @@ msgid ""
 "Continue from the end?"
 msgstr ""
 
-#: keditcl2.cpp:691 keditcl2.cpp:789
+#: keditcl2.cpp:701 keditcl2.cpp:821
 msgid "Case Sensitive"
 msgstr ""
 
-#: keditcl2.cpp:692 keditcl2.cpp:792
+#: keditcl2.cpp:704 keditcl2.cpp:826
 msgid "Find Backwards"
 msgstr ""
 
-#: keditcl2.cpp:777
+#: keditcl2.cpp:796
 #, fuzzy
 msgid "Find:"
 msgstr "&Εύρεση"
 
-#: keditcl2.cpp:787
+#: keditcl2.cpp:808
 #, fuzzy
 msgid "Replace with:"
 msgstr "&Αντικατάσταση"
 
-#: keditcl2.cpp:801
+#: keditcl2.cpp:850
 #, fuzzy
 msgid "Replace All"
 msgstr "&Αντικατάσταση"
 
-#: keditcl2.cpp:898
+#: keditcl2.cpp:931
 #, fuzzy
 msgid "Goto Line"
 msgstr "&Πήγαινε στην γραμμή"
 
-#: keditcl2.cpp:903
+#: keditcl2.cpp:936
 msgid "Go"
 msgstr ""
 
-#: print.cpp:69
+#: print.cpp:74
 msgid "Print Dialog"
 msgstr ""
 
-#: print.cpp:73
+#: print.cpp:80
 msgid "Print directly using lpr"
 msgstr "’μεση εκτύποση χρησιμοποιώντας το lpr"
 
-#: print.cpp:78
+#: print.cpp:88
 msgid "Print using Command:"
 msgstr "Τύπωσε χρησιμοποιώντας την εντολή:"
 
-#: print.cpp:96
+#: print.cpp:109
 msgid "Print Selection"
 msgstr "Εκτύποση της επιλογής"
 
-#: filldlg.cpp:36
+#: filldlg.cpp:46
 msgid "Set Fill-Column at:"
 msgstr ""
 
-#: filldlg.cpp:40
+#: filldlg.cpp:57
 msgid "Word Wrap"
 msgstr ""
 
-#: filldlg.cpp:42
+#: filldlg.cpp:63
 msgid "Backup Copies"
 msgstr ""
 
-#: filldlg.cpp:46
+#: filldlg.cpp:75
 msgid "Mail Command:"
 msgstr ""
 
-#: filldlg.cpp:140
+#: filldlg.cpp:171
 msgid "You must enter an integer."
 msgstr "Πρέπει να εισαγάγετε ακέραιο"
 
