@@ -83,4 +83,3 @@ toplevelwidget.moc:toplevelwidget.h
 AddressBookAbout.cpp:AddressBookAbout.moc AddressBookAboutData.moc
 AddressBookAbout.moc:AddressBookAbout.h
 AddressBookAboutData.moc:AddressBookAboutData.h
-

@@ -14,6 +14,7 @@
 #include <kapp.h>
 #include "jpeg.h"
 #include "debug.h"
+// #include <AssertDialog.h>
 
 extern "C" {
 #include <signal.h>
