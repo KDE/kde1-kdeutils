@@ -2,7 +2,7 @@ Source: kdeutils
 Section: contrib/utils
 Priority: extra
 Maintainer: Stephan Kulow <coolo@kde.org>
-Standards-Version: 2.5.0
+Standards-Version: 2.5.1
 
 Package: kdeutils
 Architecture: any
