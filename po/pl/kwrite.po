@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
 "POT-Creation-Date: 1999-04-17 02:13+0200\n"
-"PO-Revision-Date: 1999-06-14 22:38+0200\n"
+"PO-Revision-Date: 1999-06-16 22:02+0200\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso8859-2\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: highlight.cpp:1715
@@ -183,7 +183,7 @@ msgstr "Osi±gnieto pocz±tek dokumentu"
 
 #: kwview.cpp:1702 kwview.cpp:1891
 msgid "Continue from the end"
-msgstr "Kontynuuj od oñca"
+msgstr "Kontynuuj od koñca"
 
 #: kwview.cpp:1715
 msgid "Search string not found!"
