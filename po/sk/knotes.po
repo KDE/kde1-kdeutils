@@ -143,9 +143,8 @@ msgid "Print Note"
 msgstr "Tlaè poznámky"
 
 #: knotes.cpp:323
-#, fuzzy
 msgid "Save Notes"
-msgstr "Nová poznámka"
+msgstr "Ulo¾i» poznámky"
 
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"
