@@ -104,7 +104,7 @@ msgstr "&Kirjat"
 
 #: KJotsMain.cpp:415
 msgid "by"
-msgstr ""
+msgstr " "
 
 #: KJotsMain.cpp:616
 msgid "A book with this name already exists."

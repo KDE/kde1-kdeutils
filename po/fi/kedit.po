@@ -35,9 +35,8 @@ msgid "Select All"
 msgstr "Valitse kaikki"
 
 #: kedit.cpp:157
-#, fuzzy
 msgid "Font..."
-msgstr "&Etsi..."
+msgstr "Kirjasin..."
 
 #: kedit.cpp:201
 msgid "Ne&w..."
@@ -96,14 +95,12 @@ msgid "&Goto Line..."
 msgstr "&Siirry riville ..."
 
 #: kedit.cpp:277
-#, fuzzy
 msgid "&Font..."
-msgstr "&Kirjasin"
+msgstr "&Kirjasin..."
 
 #: kedit.cpp:279
-#, fuzzy
 msgid "&Colors"
-msgstr "Värit"
+msgstr "&Värit"
 
 #: kedit.cpp:284
 msgid "KEdit &Options..."
@@ -148,7 +145,7 @@ msgstr "Lähetä asiakirja"
 #: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:697
 #: keditcl2.cpp:804
 msgid "Done"
-msgstr ""
+msgstr "Valmis"
 
 #: kedit.cpp:606
 msgid "Open Location:"
@@ -355,9 +352,8 @@ msgstr ""
 "%s"
 
 #: kedit.cpp:2073
-#, fuzzy
 msgid "Spellchecker Options"
-msgstr "Tallenna asetukset"
+msgstr "Oikeinkirjoitusasetukset"
 
 #: keditcl1.cpp:150
 msgid "The specified File does not exist"
@@ -425,9 +421,8 @@ msgstr "Sinulla ei ole kirjoitusoikeuksia tiedostoon.\n"
 
 #: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
 #: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
-#, fuzzy
 msgid "Find"
-msgstr "Etsi:"
+msgstr "Etsi"
 
 #: keditcl2.cpp:113 keditcl2.cpp:370 keditcl2.cpp:463
 msgid ""
@@ -494,13 +489,12 @@ msgid "Set Fill-Column at:"
 msgstr "Aseta sarakkeentäyttö:"
 
 #: filldlg.cpp:40
-#, fuzzy
 msgid "Word Wrap"
 msgstr "Sanankierrätys"
 
 #: filldlg.cpp:42
 msgid "Backup Copies"
-msgstr ""
+msgstr "Varmuuskopiot"
 
 #: filldlg.cpp:46
 msgid "Mail Command:"
@@ -525,6 +519,3 @@ msgstr "Lähetä"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Sinun pitää määritellä vastaanottaja"
-
-#~ msgid "&About..."
-#~ msgstr "&Tietoja..."

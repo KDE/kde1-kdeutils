@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Kim Enkovaara <kim.enkovaara@iki.fi>, 1998.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: KLPQ\n"
+"POT-Creation-Date: 1998-10-30 12:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: main.cpp:176
+msgid "Sorry, can't open your printcap file."
+msgstr "En saa avattua printcap -tiedostoa."
+
+#: main.cpp:181
+msgid "Sorry, unable to parse your printcap."
+msgstr "En saa käsiteltyä printcap -tiedostoa"
+
+#: main.cpp:182
+msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
+msgstr "Lähetä printcap tiedostosi osoitteeseen Christoph.Neerfeld@home.ivm.de"
+
+#: klpq.cpp:89
+msgid "Printer"
+msgstr "Tulostin"
+
+#: klpq.cpp:93
+msgid "Queuing"
+msgstr "Jonossa"
+
+#: klpq.cpp:97
+msgid "Printing"
+msgstr "Tulostaa"
+
+#: klpq.cpp:101
+msgid "Update"
+msgstr "Päivitä"
+
+#: klpq.cpp:119
+msgid "Rank"
+msgstr "Sija"
+
+#: klpq.cpp:120
+msgid "Owner"
+msgstr "Omistaja"
+
+#: klpq.cpp:121
+msgid "Job"
+msgstr "Työ"
+
+#: klpq.cpp:123
+msgid "Size"
+msgstr "Koko"
+
+#: klpq.cpp:143 klpq.cpp:218
+msgid "Make Top"
+msgstr "Päälle"
+
+#: klpq.cpp:152
+msgid "Auto"
+msgstr "Autom."
+
+#: klpq.cpp:195
+msgid "&Auto update"
+msgstr "&Automaattipäivitä"
+
+#: klpq.cpp:196
+msgid "&Spooler"
+msgstr "&Jono-ohjelma"
+
+#: klpq.cpp:203
+msgid "&Config"
+msgstr "&Asetukset"
+
+#: klpq.cpp:389
+#, c-format
+msgid "Do you really want to remove job No %d"
+msgstr "Haluatko todella poistaa työn %d"
+
+#: klpq.cpp:409
+#, c-format
+msgid ""
+"Do you really want to move job No\n"
+"%d\n"
+"on top of queue"
+msgstr ""
+"Haluatko todella poistaa työn\n"
+"%d\n"
+"jonon huipulta."
+
+#: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
+msgid "Permission denied"
+msgstr "Ei riittävästi oikeuksia"
+
+#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
+msgid ""
+"This is a privileged command\n"
+"and you do not have permission to execute it."
+msgstr ""
+"Tämä on erikoisoikeutettu komento\n"
+"eikä sinulla ole oikeuksia suorittaa sitä."
+
+#: ConfAutoUpdate.cpp:10
+msgid "Configure Auto Update"
+msgstr "Aseta automaattipäivitystä"
+
+#: ConfAutoUpdateData.cpp:17
+msgid "Update frequency in seconds:"
+msgstr "Päivitystaajuus sekunneissa:"
+
+#: ConfAutoUpdateData.cpp:32 FirstStartData.cpp:50 SpoolerConfigData.cpp:134
+msgid "Ok"
+msgstr "Ok"
+
+#: klpqspooler.cpp:197 klpqspooler.cpp:267
+msgid "Can't find your lpc program !"
+msgstr "En löydä lpc -ohjelmaasi !"
+
+#: klpqspooler.cpp:198 klpqspooler.cpp:268
+msgid ""
+"Sorry, I can't find your lpc program.\n"
+"Please check the configuration under Config->Spooler."
+msgstr ""
+"En löydä lpc -ohjelmaa.\n"
+"Tarkista asetukset asetusvalikosta."
+
+#: FirstStart.cpp:21 SpoolerConfig.cpp:21 SpoolerConfigData.cpp:151
+msgid "Select your spooling system"
+msgstr "Valitse jonosysteemi."
+
+#: FirstStartData.cpp:42
+msgid ""
+"Please select the spooling system you use. Most systems use the BSD spooler. "
+"So if you don't know which spooler is installed on your system, BSD is "
+"probably a good choice."
+msgstr ""
+"Valitse käyttämäsi jonosysteemi. Yleensä BSD jono. "
+"Jos et tiedä mikä koneellesi on asennettu BSD on hyvä arvaus."
+
+#: SpoolerConfigData.cpp:99
+msgid "Paths of spooling commands:"
+msgstr "Polut jonokomennoille:"

@@ -92,7 +92,7 @@ msgstr "&Tehtävä"
 
 #: top.cpp:61
 msgid "&New"
-msgstr ""
+msgstr "&Uusi"
 
 #: top.cpp:74
 msgid "&About"

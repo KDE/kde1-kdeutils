@@ -56,7 +56,7 @@ msgstr "Kuvio"
 
 #: kzip.cc:70
 msgid "&New..."
-msgstr ""
+msgstr "&Uusi..."
 
 #: kzip.cc:73
 msgid "&Extract To..."
