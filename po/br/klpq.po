@@ -1,5 +1,4 @@
 # KTranslator Generated File
-
 # Breton version of KDE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # Jañ-Mai Drapier <jdrapier@club-internet.fr>, 1999
@@ -8,13 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klpq-1.1\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
-"PO-Revision-Date: 1999-03-03 12:10+0100\nn"
-"Last-Translator: Jañ-Mai Drapier <jdrapier@club-internet.fr>\n"
+"POT-Creation-Date: 1999-03-05 01:58+0100\n"
+"PO-Revision-Date: 1999-03-03 12:10+0100\n"
 "Language-Team: Brezhoneg <Suav.Icb@wanadoo.fr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
+"nLast-Translator: Jañ-Mai Drapier <jdrapier@club-internet.fr>\n"
 
 #: main.cpp:178
 msgid "Sorry, can't open your printcap file."
@@ -127,11 +126,11 @@ msgstr "Kefluniañ an embremañaat"
 msgid "Update frequency in seconds:"
 msgstr "Talm bremañaat e eilennoù :"
 
-#: klpqspooler.cpp:197 klpqspooler.cpp:267
+#: klpqspooler.cpp:199 klpqspooler.cpp:269
 msgid "Can't find your lpc program !"
 msgstr "N'hellan ket kavout ho goulev lpc !"
 
-#: klpqspooler.cpp:198 klpqspooler.cpp:268
+#: klpqspooler.cpp:200 klpqspooler.cpp:270
 msgid ""
 "Sorry, I can't find your lpc program.\n"
 "Please check the configuration under Config->Spooler."
@@ -149,8 +148,9 @@ msgid ""
 "So if you don't know which spooler is installed on your system, BSD is "
 "probably a good choice."
 msgstr ""
-"Diuzit ar reizhiad lostennañ e implijit mar plij. Ar bras eus ar reizhiadoù a ra gant al lostenner BSD." 
-"Neuze ma ne ouzit ket pe lostenner zo staliaet war ho reizhiad, BSD zo un dibab dereat moarvat."
+"Diuzit ar reizhiad lostennañ e implijit mar plij. Ar bras eus ar reizhiadoù "
+"a ra gant al lostenner BSD.Neuze ma ne ouzit ket pe lostenner zo staliaet "
+"war ho reizhiad, BSD zo un dibab dereat moarvat."
 
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"

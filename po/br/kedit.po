@@ -1,5 +1,4 @@
 # KTranslator Generated File
-
 # Breton version of KDE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # Jañ-Mai Drapier <jdrapier@club-internet.fr>, 1999
@@ -8,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kedit-1.1\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-03-05 01:58+0100\n"
 "PO-Revision-Date: 1999-03-05 11:22+0100\n"
 "Last-Translator: Jañ-Mai Drapier <jdrapier@club-internet.fr>\n"
 "Language-Team: Brezhoneg <Suav.Icb@wanadoo.fr>\n"
@@ -372,31 +371,31 @@ msgstr ""
 msgid "Spellchecker Options"
 msgstr "Dibaboù ar Gwirier skritur"
 
-#: keditcl1.cpp:149
+#: keditcl1.cpp:150
 msgid "The specified File does not exist"
 msgstr "Ar restr goulennet n'eus ket anezhañ"
 
-#: keditcl1.cpp:162 keditcl1.cpp:438 keditcl1.cpp:521 keditcl1.cpp:1708
+#: keditcl1.cpp:163 keditcl1.cpp:439 keditcl1.cpp:522 keditcl1.cpp:1709
 msgid "Sorry:"
 msgstr "Ho tigarez :"
 
-#: keditcl1.cpp:163
+#: keditcl1.cpp:164
 msgid "You have specificated a directory"
 msgstr "Ur renkell eo oc'h eus goulennet"
 
-#: keditcl1.cpp:178 keditcl1.cpp:199
+#: keditcl1.cpp:179 keditcl1.cpp:200
 msgid "You do not have read permission to this file."
 msgstr "N'oc'h ket aotreet da lenn ar restr-mañ."
 
-#: keditcl1.cpp:212
+#: keditcl1.cpp:213
 msgid "An Error occured while trying to open this Document"
 msgstr "Bez' ez eus bet ur c'hammad en ur glask digeriñ an teul-mañ"
 
-#: keditcl1.cpp:417 keditcl1.cpp:501 keditcl1.cpp:1650
+#: keditcl1.cpp:418 keditcl1.cpp:502 keditcl1.cpp:1651
 msgid "Warning:"
 msgstr "Ho evezh :"
 
-#: keditcl1.cpp:418 keditcl1.cpp:502
+#: keditcl1.cpp:419 keditcl1.cpp:503
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -404,7 +403,7 @@ msgstr ""
 "Kemmet eo bet an teul red.\n"
 "Ha fellout a ra deoc'h e enrollañ ?"
 
-#: keditcl1.cpp:439
+#: keditcl1.cpp:440
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -412,7 +411,7 @@ msgstr ""
 "Ne m'eus ket gallet enrollañ an teul.\n"
 "Digeriñ un teul nevez evelato ?"
 
-#: keditcl1.cpp:522
+#: keditcl1.cpp:523
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
@@ -420,11 +419,11 @@ msgstr ""
 "Ne m'eus ket gallet enrollañ an teul\n"
 "Krouiñ un teul nevez evelato ?"
 
-#: keditcl1.cpp:1569
+#: keditcl1.cpp:1570
 msgid "Could not save the document\n"
 msgstr "Ne m'eus ket gallet enrollañ an teul\n"
 
-#: keditcl1.cpp:1651
+#: keditcl1.cpp:1652
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
@@ -432,7 +431,7 @@ msgstr ""
 "Bez' ez eus un teul gant an anv-se endeo\n"
 "Ha fellout a ra deoc'h e rasklañ ?"
 
-#: keditcl1.cpp:1709
+#: keditcl1.cpp:1710
 msgid "You do not have write permission to this file.\n"
 msgstr "N'oc'h ket aotreet da skrivañ er restr-mañ.\n"
 

@@ -1,5 +1,4 @@
 # KTranslator Generated File
-
 # Breton version of KDE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # Jañ-Mai Drapier <jdrapier@club-internet.fr>, 1999
@@ -319,7 +318,8 @@ msgid ""
 "by a unit (ms, s or min). If no unit is given, seconds is assumed."
 msgstr ""
 "Un niver a rank bezañ an amzer etre daou bremanadur, heuliet ma vez ret\n"
-"gant un unvez (ms, s pe min). Ma ne vez spisaet unvez ebet, goulakaet e vije eilenn."
+"gant un unvez (ms, s pe min). Ma ne vez spisaet unvez ebet, goulakaet e vije "
+"eilenn."
 
 #: qps.C:832
 #, c-format

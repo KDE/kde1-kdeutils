@@ -1,5 +1,4 @@
 # KTranslator Generated File
-
 # Breton version of KDE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # Jañ-Mai Drapier <jdrapier@club-internet.fr>, 1999
@@ -127,7 +126,6 @@ msgstr ""
 "ma echufe un dlead kenrouedad.\n"
 "Gortozit mar plij ez echufe\n"
 "Peotramant paouezit an hini red."
-""
 
 #: kwview.cpp:1249 kwview.cpp:1307
 msgid "Waiting for KFM..."
@@ -171,8 +169,7 @@ msgid ""
 "Do you want to overwrite it?"
 msgstr ""
 "Bez' ez eus un teul gant an anv-se endeo\n"
-"Hag e fell deoc'h e rasklañ ?"
-" "
+"Hag e fell deoc'h e rasklañ ? "
 
 #: kwview.cpp:1678 kwview.cpp:1866
 msgid "End of document reached"
