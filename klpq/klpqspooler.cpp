@@ -86,6 +86,8 @@ void Spooler::parseUpdate( MyRowTable *lb_list, QListBox *lb_status, QString lpq
 	{
 	  if(temp.contains("Rank"))
 	     { i = 1; temp = ""; continue; }
+	  if( temp.length() == 0 )
+	    { temp = ""; continue; }
 	  if(i == 0) 
 	    {
 	      lb_status->insertItem(temp);
@@ -288,9 +290,11 @@ void SpoolerLprng::parseUpdate( MyRowTable *lb_list, QListBox *lb_status, QStrin
 	temp += c;
       else
 	{
-	  if(temp.contains("Rank"))
-	     { i = 1; temp = ""; continue; }
-	  if(i == 0) 
+	  if( temp.contains("Rank") )
+	    { i = 1; temp = ""; continue; }
+	  if( temp.length() == 0 )
+	    { temp = ""; continue; }
+	  if( i == 0 ) 
 	    {
 	      lb_status->insertItem(temp);
 	    }
