@@ -43,7 +43,6 @@ Name[sk]=KLaserJet
 Name[sl]=Krmilna plo¹èa HP LaserJet
 Name[sv]=Kontrollpanel för HP LaserJet
 MimeType=
-Comment=
 DocPath=kljettool/kljettool.html
 Exec=kljettool  -caption "%c" %i %m
 Icon=kljettool.xpm

@@ -41,7 +41,6 @@ BinaryPattern=kpm;
 Protocols=
 MimeType=
 DocPath=kpm/kpm.html
-Comment=
 Exec=kpm
 Icon=kpm.xpm
 TerminalOptions=
