@@ -1,12 +1,12 @@
-# 
-# Karl Backström <karl_b@geocities.com>, 1998
+# Copyright (C) 1998 Free Software Foundation, Inc. 
+# Karl Backström <backstrom@kde.org>, 1998
 # Anders Bengtsson <d96-abe@nada.kth.se>, 1998
 #
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-11-17 10:55+0100\n"
-"PO-Revision-Date:  1998-08-17 00:00+0200\n"
-"Last-Translator: Anders Bengtsson <d96-abe@nada.kth.se>\n"
+"PO-Revision-Date:  1998-12-29 22:00+0100\n"
+"Last-Translator: Karl Backström <backstrom@kde.org>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
@@ -55,7 +55,6 @@ msgid "Create Label:"
 msgstr "Ange etikett:"
 
 #: floppy.cpp:148
-#, fuzzy
 msgid "KDE Floppy"
 msgstr "KDE-diskett"
 
@@ -69,7 +68,7 @@ msgstr "HD"
 
 #: floppy.cpp:169
 msgid "DD"
-msgstr ""
+msgstr "DD"
 
 #: floppy.cpp:292
 #, c-format
