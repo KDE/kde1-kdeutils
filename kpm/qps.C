@@ -82,8 +82,7 @@ Qps::Qps(QWidget *parent, const char *name)
 {
   int id;
 
-  connect(kapp, SIGNAL(saveYourself()),
-	  this, SLOT(saveYourself()));
+  connect(kapp, SIGNAL(saveYourself()), this, SLOT(saveYourself()));
 
   m_process = new QPopupMenu;
   m_process->insertItem(TRANS("Renice..."), MENU_RENICE);
@@ -1044,6 +1043,7 @@ void Qps::read_settings()
   loadgr = conf->readNumEntry("ShowLoadGraph", 1);
   phosphor = conf->readNumEntry("PhosphorGraph", 1);
   solid_graph = conf->readBoolEntry("SolidGraph", TRUE);
+  panel_docking = conf->readBoolEntry("PanelDocking", FALSE);
   show_toolbar = conf->readNumEntry("ShowToolbar", TRUE);
 
   // if KWM is not running disable docking

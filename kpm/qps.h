@@ -33,7 +33,7 @@
 #error Qt library version 1.30 or higher is needed for this version of qps
 #endif
 
-class Qps : public QWidget
+class Qps : public QWidget 
 {
     Q_OBJECT
 public:

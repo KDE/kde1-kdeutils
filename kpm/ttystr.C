@@ -83,8 +83,8 @@ void Ttystr::read_devs()
 // return pointer to tty name in table or NULL
 char *Ttystr::tabstr(int devnr)
 {
-    int i = major_index(major(devnr));
-    int m = minor(devnr);
+    int i = major_index(devnr >> 8); // i = major_index(major(devnr)); 
+    int m = devnr & 0xff;            // m = minor(devnr)
     return (i >= 0) ? tab + DEVNAMELEN * (i * NMINORS + m) : 0;
 }
 
