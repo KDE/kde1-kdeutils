@@ -2,7 +2,7 @@
 [KDE Desktop Entry]
 BinaryPattern=kedit;
 Protocols=file;ftp;http;tar;cgi;
-MimeType=text/english;text/plain;text/x-makefile;text/x-c++hdr;text/x-c++src;text/x-chdr;text/x-csrc;text/x-java;text/x-moc;text/x-pascal;text/x-tcl;text/x-tex;
+MimeType=text/english;text/plain;text/x-makefile;text/x-c++hdr;text/x-c++src;text/x-chdr;text/x-csrc;text/x-java;text/x-moc;text/x-pascal;text/x-tcl;text/x-tex;application/x-shellscript;
 Comment=A simple Text Editor
 Comment[de]=Ein einfacher Text-Editor
 Comment[pl]=Prosty edytor tekstu
