@@ -2,7 +2,6 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -16,11 +15,11 @@ msgstr ""
 
 #: toplevel.cpp:83
 msgid "Shortcut..."
-msgstr ""
+msgstr "Atalho..."
 
 #: toplevel.cpp:84
 msgid "Popup at mouse position"
-msgstr ""
+msgstr "Abrir na posição do mouse"
 
 #: toplevel.cpp:89
 msgid "Clipboard History"
@@ -28,8 +27,8 @@ msgstr "Histórico da Área de Transferência"
 
 #: toplevel.cpp:93
 msgid "<empty clipboard>"
-msgstr ""
+msgstr "<área de transferência vazia>`"
 
 #: toplevel.cpp:105
 msgid "Select clipboard contents"
-msgstr ""
+msgstr "Selecionar conteúdo da área de transferência"
