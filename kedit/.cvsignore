@@ -1,6 +1,7 @@
 KEdit.moc
 KEdit.o
 Makefile
+Makefile.in
 about.moc
 about.o
 filldlg.moc
