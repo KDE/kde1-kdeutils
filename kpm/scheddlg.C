@@ -19,27 +19,27 @@
 SchedDialog::SchedDialog(int policy, int prio)
          : QDialog(0, 0, TRUE)
 {
-    setCaption("Change scheduling");
+    setCaption(i18n("Change scheduling"));
 
     QVBoxLayout *tl = new QVBoxLayout(this, 10, 10);
 
     int max_x = 0;
     int y_pos = (int)(fontMetrics().lineSpacing() * 1.5);
-    bgrp = new ButtonGroup("Scheduling Policy", this);
-    rb_other = new QRadioButton("SCHED_OTHER (time-sharing)",
+    bgrp = new ButtonGroup(i18n("Scheduling Policy"), this);
+    rb_other = new QRadioButton(i18n("SCHED_OTHER (time-sharing)"),
 					      bgrp);
     rb_other->adjustSize();
     rb_other->move(10, y_pos);
     y_pos += rb_other->height();
     max_x = QMAX(max_x, rb_other->width());
 
-    rb_fifo = new QRadioButton("SCHED_FIFO (real-time)", bgrp);
+    rb_fifo = new QRadioButton(i18n("SCHED_FIFO (real-time)"), bgrp);
     rb_fifo->adjustSize();
     rb_fifo->move(10, y_pos);
     y_pos += rb_fifo->height();
     max_x = QMAX(max_x, rb_fifo->width());
 
-    rb_rr = new QRadioButton("SCHED_RR (real-time)", bgrp);
+    rb_rr = new QRadioButton(i18n("SCHED_RR (real-time)"), bgrp);
     rb_rr->adjustSize();
     rb_rr->move(10, y_pos);
     y_pos += rb_rr->height();
@@ -64,7 +64,7 @@ SchedDialog::SchedDialog(int policy, int prio)
 
     QHBoxLayout *l1 = new QHBoxLayout;
     tl->addLayout(l1);    
-    lbl = new QLabel("Priority (1-99):", this);
+    lbl = new QLabel(i18n("Priority (1-99):"), this);
     lbl->setMinimumSize(lbl->sizeHint());
     l1->addWidget(lbl);
 
@@ -86,10 +86,10 @@ SchedDialog::SchedDialog(int policy, int prio)
 
     KButtonBox *bbox = new KButtonBox(this);
     bbox->addStretch(1);
-    QPushButton *ok = bbox->addButton(TRANS("OK"));
+    QPushButton *ok = bbox->addButton(i18n("OK"));
     ok->setDefault(TRUE);
     connect(ok, SIGNAL(clicked()), SLOT(done_dialog()));
-    QPushButton *cancel = bbox->addButton(TRANS("Cancel"));
+    QPushButton *cancel = bbox->addButton(i18n("Cancel"));
     connect(cancel, SIGNAL(clicked()), SLOT(reject()));
     bbox->layout();
     tl->addSpacing(10);
@@ -110,9 +110,9 @@ void SchedDialog::done_dialog()
     bool ok;
     out_prio = s.toInt(&ok);
     if(out_policy != SCHED_OTHER && (!ok || out_prio < 1 || out_prio > 99)) {
-	MessageDialog::message("Invalid input",
-			       "The priority must be in the range 1..99",
-			       "Cancel", MessageDialog::warningIcon());
+	MessageDialog::message(i18n("Invalid input"),
+			       i18n("The priority must be in the range 1..99"),
+			       i18n("Cancel"), MessageDialog::warningIcon());
     } else
 	accept();
 }

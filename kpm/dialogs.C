@@ -47,11 +47,11 @@ ValueDialog::ValueDialog(const char *caption, const char *msg,
 
     KButtonBox *bbox = new KButtonBox(this);
     bbox->addStretch(1);
-    ok = bbox->addButton("OK");
+    ok = bbox->addButton(i18n("OK"));
     ok->setDefault(TRUE);
     connect(ok, SIGNAL(clicked()), SLOT(done_dialog()));
 
-    cancel = bbox->addButton("Cancel");
+    cancel = bbox->addButton(i18n("Cancel"));
     connect(cancel, SIGNAL(clicked()), SLOT(reject()));
     bbox->layout();
     tl->addWidget(bbox);
@@ -78,7 +78,7 @@ MessageDialog::MessageDialog(QWidget *parent)
     label = new QLabel(this);
     label->setAlignment(AlignCenter);
     icon = 0;			// no icon by default
-    button = new QPushButton("OK", this);
+    button = new QPushButton(i18n("OK"), this);
     connect(button, SIGNAL(clicked()), SLOT(accept()));
 }
 
@@ -216,11 +216,11 @@ SliderDialog::SliderDialog(const char *caption, const char *msg,
 
     KButtonBox *bbox = new KButtonBox(this);
     bbox->addStretch(1);
-    ok = bbox->addButton("OK");
+    ok = bbox->addButton(i18n("OK"));
     ok->setDefault(TRUE);
     connect(ok, SIGNAL(clicked()), SLOT(done_dialog()));
 
-    cancel = bbox->addButton("Cancel");
+    cancel = bbox->addButton(i18n("Cancel"));
     connect(cancel, SIGNAL(clicked()), SLOT(reject()));
     bbox->layout();
     tl->addWidget(bbox);

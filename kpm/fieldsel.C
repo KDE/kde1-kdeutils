@@ -47,7 +47,7 @@ FieldSelect::FieldSelect(Procview *pv, Proc *proc)
 
     KButtonBox *bbox = new KButtonBox(this);
     bbox->addStretch(1);
-    QPushButton *closebut = bbox->addButton("Close");
+    QPushButton *closebut = bbox->addButton(i18n("Close"));
     closebut->setDefault(TRUE);
     closebut->setFocus();
     closebut->setFixedSize(closebut->sizeHint());
