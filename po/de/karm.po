@@ -1,7 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 1998 Matthias Kalle Dalheimer
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: karm 0.3\n"
