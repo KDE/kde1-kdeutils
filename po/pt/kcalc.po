@@ -64,7 +64,7 @@ msgstr "Base"
 
 #: kcalc.cpp:1524
 msgid "KCalc Configuraton"
-msgstr ""
+msgstr "Configuração da Calculadora"
 
 #: kcalc.cpp:1550
 msgid "Base type: long double\n"

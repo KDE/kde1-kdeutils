@@ -135,9 +135,8 @@ msgid "Print Note"
 msgstr "Imprimir Nota"
 
 #: knotes.cpp:323
-#, fuzzy
 msgid "Save Notes"
-msgstr "Nova Nota"
+msgstr "Gravar Notas"
 
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"
