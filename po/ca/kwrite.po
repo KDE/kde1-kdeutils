@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
 "POT-Creation-Date: 1999-01-14 01:57+0100\n"
-"PO-Revision-Date: 1999-01-23 20:25+0100\n"
+"PO-Revision-Date: 1999-02-05 23:15+0100\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -215,7 +215,7 @@ msgstr "Sensible a &caixa"
 
 #: kwdialog.cpp:52
 msgid "&Whole Words Only"
-msgstr "Només paraules &completes"
+msgstr "Paraules sen&zeres"
 
 #: kwdialog.cpp:53
 msgid "&From Cursor"
@@ -275,7 +275,7 @@ msgstr "Substitueix &tabulacions"
 
 #: kwdialog.cpp:260
 msgid "Remove Trailing &Spaces"
-msgstr "Elimina &espais addicionals"
+msgstr "E&limina espais addicionals"
 
 #: kwdialog.cpp:261
 msgid "Wrap &Cursor"
@@ -283,7 +283,7 @@ msgstr "Salt al &cursor"
 
 #: kwdialog.cpp:262
 msgid "&Auto Brackets"
-msgstr "Autoparèntesis"
+msgstr "&Autoparèntesis"
 
 #: kwdialog.cpp:290
 msgid "Select Options"
@@ -295,7 +295,7 @@ msgstr "Seleccions &persistents"
 
 #: kwdialog.cpp:292
 msgid "&Multiple Selections"
-msgstr "Seleccions múltiples"
+msgstr "Seleccions &múltiples"
 
 #: kwdialog.cpp:293 toplevel.cpp:233
 msgid "&Vertical Selections"
@@ -303,7 +303,7 @@ msgstr "Seleccions &verticals"
 
 #: kwdialog.cpp:294
 msgid "&Delete On Input"
-msgstr "&Esborra en entrar"
+msgstr "Es&borra en entrar"
 
 #: kwdialog.cpp:295
 msgid "&Toggle Old"
@@ -315,7 +315,7 @@ msgstr "Salt de línia a:"
 
 #: kwdialog.cpp:332
 msgid "Tab Width:"
-msgstr "Amplada de tabulador:"
+msgstr "Tabulador:"
 
 #: kwdialog.cpp:342
 msgid "Undo steps:"
@@ -387,7 +387,7 @@ msgstr "&Vés a línia..."
 
 #: toplevel.cpp:195
 msgid "U&ndo"
-msgstr "D&esfés"
+msgstr "&Desfés"
 
 #: toplevel.cpp:196
 msgid "R&edo"
@@ -395,7 +395,7 @@ msgstr "Re&fés"
 
 #: toplevel.cpp:198
 msgid "&Indent"
-msgstr "&Entra"
+msgstr "E&ntra"
 
 #: toplevel.cpp:199
 msgid "Uninden&t"
@@ -403,11 +403,11 @@ msgstr "Desen&tra"
 
 #: toplevel.cpp:203
 msgid "&Select All"
-msgstr "&Selecciona-ho tot"
+msgstr "Selecc&iona-ho tot"
 
 #: toplevel.cpp:204
 msgid "&Deselect All"
-msgstr "&Deselecciona-ho tot"
+msgstr "Deselecci&ona-ho tot"
 
 #: toplevel.cpp:205
 msgid "In&vert Selection"
