@@ -270,7 +270,7 @@ msgstr "Modo de Auto Indentação: Ligado"
 
 #: kedit.cpp:754
 msgid "Auto Indent Mode: Off"
-msgstr "Modo de "Auto Indentação: Desligado"
+msgstr "Modo de Auto Indentação: Desligado"
 
 #: kedit.cpp:850
 #, c-format
