@@ -327,7 +327,7 @@ msgstr "Encontrados:"
 
 #: kwdialog.cpp:430
 msgid "Selected + Found:"
-msgstr "Selecionados + Encontrados:"
+msgstr "Selecionados e Encontrados:"
 
 #: toplevel.cpp:121
 msgid "Message"
