@@ -20,6 +20,7 @@ DocPath=kedit/index.html
 Type=Application
 Terminal=0
 Name=Editor
+Name[de]=Editor
 Name[pl]=Edytor 
 Name[fi]=Editori
 Name[fr]=Editeur
