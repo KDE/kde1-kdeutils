@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcalc \n"
 "POT-Creation-Date: 1998-11-17 10:55+0100\n"
-"PO-Revision-Date: 1998-06-23 06:20+0200\n"
+"PO-Revision-Date: 1999-01-04 01:59+0100\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
@@ -87,7 +87,7 @@ msgstr "Ustaw domy¶ln± czcionkê"
 
 #: fontdlg.cpp:53
 msgid "Family:"
-msgstr ""
+msgstr "Rodzina"
 
 #: fontdlg.cpp:63
 msgid "Point Size:"
@@ -95,16 +95,16 @@ msgstr "Rozmiar czcionki:"
 
 #: fontdlg.cpp:76
 msgid "Style:"
-msgstr ""
+msgstr "Styl"
 
 #: fontdlg.cpp:91
 msgid "Weight:"
-msgstr ""
+msgstr "Waga"
 
 #: fontdlg.cpp:101 fontdlg.cpp:134
 msgid "Bold"
-msgstr ""
+msgstr "Pogrubiona"
 
 #: fontdlg.cpp:103 fontdlg.cpp:136
 msgid "Normal"
-msgstr ""
+msgstr "Normalna"
