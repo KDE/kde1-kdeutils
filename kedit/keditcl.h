@@ -452,7 +452,7 @@ signals:
      * This says spellchecking is <i>percent</i> done.
      * It is emitted every 10% during spellchecking.
      **/
-    void  spellcheck_progress (unsigned percent);
+    void  spellcheck_progress (unsigned int percent);
 
     /**
      * Emitted when spellcheck is complete.
@@ -501,7 +501,7 @@ public slots:
     void misspelling (char *word, QStrList *, unsigned pos);
     void spellcheck();
     void spellcheck2(KSpell*);
-
+    void spellCleanDone();
 
     void setModified();
 

@@ -959,8 +959,8 @@ void KEdit::spellcheck2(KSpell *)
 		 this, SLOT (corrected (char *,
 					char *, unsigned)));
 
-       connect (kspell, SIGNAL (progress (unsigned)),
-                this, SIGNAL (spellcheck_progress (unsigned)) );
+       connect (kspell, SIGNAL (progress (unsigned int)),
+                this, SIGNAL (spellcheck_progress (unsigned int)) );
 
 	connect (kspell, SIGNAL (done(char *)),
 		 this, SLOT (spellResult (char *)));
@@ -1042,13 +1042,22 @@ void KEdit::spellResult (char *newtext)
   spell_offset=0;
   deselect();
 
-
   //This has to be here in case the spellcheck is CANCELed.
   setText (newtext);
 
 
   setReadOnly (FALSE);
   setModified();
+  connect (kspell, SIGNAL(cleanDone()),
+	   this, SLOT(spellCleanDone()));
+  kspell->cleanUp();
+}
+
+
+
+void KEdit::spellCleanDone ()
+{
+  kdebug (KDEBUG_WARN, 750, "deleting kspell");
   delete kspell;
 
   emit spellcheck_done();

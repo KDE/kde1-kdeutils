@@ -543,8 +543,8 @@ void TopLevel::spellcheck()
 
   statusbar->changeItem("Spellcheck:  Started.", ID_GENERAL);
 
-  connect (eframe, SIGNAL (spellcheck_progress (unsigned)),
-          this, SLOT (spell_progress (unsigned)));
+  connect (eframe, SIGNAL (spellcheck_progress (unsigned int)),
+          this, SLOT (spell_progress (unsigned int)));
   connect (eframe, SIGNAL (spellcheck_done()),
           this, SLOT (spell_done ()));
 
@@ -553,7 +553,7 @@ void TopLevel::spellcheck()
   }
 }
 
-void TopLevel::spell_progress (unsigned percent)
+void TopLevel::spell_progress (unsigned int percent)
 {
   char s[100];
   sprintf (s,"Spellcheck:  %d%% complete",percent);

@@ -1,4 +1,4 @@
-    /*
+/*
 
     $Id$
 
@@ -237,7 +237,7 @@ public slots:
     void spellcheck();
     void spell_configure();
 
-    void spell_progress (unsigned percent);
+    void spell_progress (unsigned int percent);
     void spell_done();
 
     /// Drag and Drop
