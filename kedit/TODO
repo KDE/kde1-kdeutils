@@ -1,4 +1,6 @@
-o keyboard focus for dialogs
-
-
-  
+o recently opened files list
+o remember last directory the user opened a file in.
+o Paragraph formatting
+o Spell Checking (maybe)
+o Option to turn backup file creation off.
+o better support for net-files.

@@ -1,7 +1,7 @@
 [KDE Desktop Entry]
-Exec=kedit+ %u
+Exec=kedit
 Icon=edit.xpm
-DocPath=kedit+.html
-Info=A simple editor
+DocPath=kedit.html
+Info=A Simple Text Editor
 Terminal=0
 Type=Application

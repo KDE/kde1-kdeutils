@@ -1,5 +1,5 @@
 #
-#                           kedit+ Makefile
+#                           KEdit Makefile
 #
 #  Copyright 1997 Bernd Johannes Wuebben, wuebben@math.cornell.edu
 #
@@ -8,7 +8,7 @@
 
 
 CXXFLAGS= @CXXFLAGS@ @all_includes@ -DHAVE_CONFIG_H -I.. -I../kfm/libkfm
-LDFLAGS	= @LDFLAGS@ @all_libraries@ -lkfm -lkdeui -lkdecore -lqt -lXext -lX11 @LIBSOCKET@ -L../kfm/libkfm
+LDFLAGS	= @LDFLAGS@ @all_libraries@ -lkfm -lkdecore -lkdeui -lqt -lXext -lX11 @LIBSOCKET@ -L../kfm/libkfm
 CXX     = @CXX@
 MOC   	= @MOC@
 
@@ -23,8 +23,8 @@ prefix = @prefix@
 KDEINC = $(prefix)/include
 BINDIR = $(prefix)/bin
 LIBDIR = $(prefix)/lib
-PICSDIR = $(LIBDIR)/pics
-DOCSDIR = $(prefix)/doc/HTML
+PICSDIR = $(LIBDIR)/pics/toolbar
+DOCSDIR = $(prefix)/doc/HTML/kedit
 APPSDIR = $(prefix)/apps
 
 ########### File Formats ###########
@@ -40,11 +40,11 @@ DEFS = -DDOCS_PATH=\"$(DOCSDIR)/\"
 
 ########## Files #####################
 
-SOURCES =	kedit+.cpp  KEdit.cpp print.cpp filldlg.cpp
-HEADERS =	kedit+.h  KEdit.h print.h filldlg.h
-OBJECTS =	kedit+.o  KEdit.o print.o filldlg.o
-SRCMETA =	kedit+.moc KEdit.moc print.moc filldlg.moc
-TARGET	=	kedit+
+SOURCES =	kedit.cpp  KEdit.cpp  print.cpp filldlg.cpp
+HEADERS =	kedit.h  KEdit.h  print.h filldlg.h 
+OBJECTS =	kedit.o  KEdit.o print.o filldlg.o 
+SRCMETA =	kedit.moc  KEdit.moc  print.moc filldlg.moc 
+TARGET	=	kedit
 
 ######### build rules ################
 
@@ -73,16 +73,18 @@ install: all
 	$(INSTALL_DIR) $(BINDIR)
 	$(INSTALL) $(TARGET) $(BINDIR)
 	$(INSTALL_DIR) $(DOCSDIR)
-	$(INSTALL_DATA) docs/kedit+.html $(DOCSDIR)
-	$(INSTALL_DATA) docs/kedit+.gif $(DOCSDIR)
+	(cd docs && $(MAKE) install)
 	$(INSTALL_DIR) $(APPSDIR)/Utilities
-	$(INSTALL_DATA) kedit.kdelnk $(APPSDIR)/Utilities/kedit+.kdelnk
+	$(INSTALL_DATA) kedit.kdelnk $(APPSDIR)/Utilities/kedit.kdelnk 
+	$(INSTALL_DIR) $(PICSDIR)
+	$(INSTALL_DATA) pixmaps/filenew2.xpm $(PICSDIR)
+
 
 uninstall:
 	rm -f $(BINDIR)/$(TARGET)
-	rm -f $(DOCSDIR)/kedit+.html
-	rm -f $(DOCSDIR)/kedit+.gif
-	rm -f $(APPSDIR)/Utilities/kedit+.kdelnk
-	
+	(cd docs && $(MAKE) uninstall)
+	rm -f $(APPSDIR)/Utilities/kedit.kdelnk
+	rm -f $(PICSDIR)/filenew2.xpm
+
 # DO NOT DELETE THIS LINE -- make depend depends on it.
 

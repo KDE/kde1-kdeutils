@@ -1,0 +1,21 @@
+FILES = kedit.html kedit-1.html kedit-2.html kedit-3.html kedit-4.html kedit-5.html
+
+DOCDIR = @prefix@/doc/HTML/kedit
+INSTALL_DIR = @INSTALL@ -d -m 0755
+INSTALL_DATA = @INSTALL@ -m 644
+
+all:
+
+install:
+	$(INSTALL_DIR) $(DOCDIR)
+	@for i in $(FILES); do \
+	 echo "$(INSTALL_DATA) $$i $(DOCDIR)"; \
+	 $(INSTALL_DATA) "$$i" $(DOCDIR); \
+	done
+
+uninstall:
+	for i in $(FILES); do \
+	 rm -f $(DOCDIR)/"$$i"; \
+	done
+
+

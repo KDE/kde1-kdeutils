@@ -9,7 +9,7 @@
                        wuebben@math.cornell.edu
 
     Parts
-    Copyright (C) 1996 Alexander Sanda (alex@darkstar.ping.at)
+    Copyright (C) 1997 Alexander Sanda (alex@darkstar.ping.at)
 
 
     This program is free software; you can redistribute it and/or modify
@@ -28,282 +28,73 @@
 
     */
  
-
-#include "kedit+.h"
-#include <kcolordlg.h>
-#include "KEdit.h"
-#include "kedit+.moc"
 #include <qfile.h>
-#include "filldlg.h"
-
-// 
-#include <qpainter.h>
 #include <qstrlist.h> 
+#include <qpainter.h>
 
-#define TOOLBAR_HEIGHT 26
-#define TOOLBAR_X_OFFSET 10
-#define TOOLBAR_Y_OFFSET 5
-#define TOOLBAR_BUTTON_HEIGHT 28
-#define TOOLBAR_BUTTON_WIDTH 28
+#include "kedit.h"
+#include "filldlg.h"
+#include "kcolordlg.h"
+#include "KEdit.h"
 
-#define STATUSBAR_HEIGHT 18
-
-#define BUTTON_HEIGHT		25
-#define BUTTON_WIDTH		25
-#define BUTTON_SEPARATION	6
-#define B_XOFFSET 3
-#define B_YOFFSET 2
-
+#include "kedit.moc"
 
 
 QList<TopLevel> TopLevel::windowList;
 
-KApplication *a;
+KApplication *mykapp;
 
 int default_open = KEdit::OPEN_READWRITE;
 
-TopLevel::TopLevel (QWidget * parent, const char *name)
-    : QWidget (parent, name)
+TopLevel::TopLevel (QWidget *, const char *name)
+    : KTopLevelWidget ( name)
 {
 
+  windowList.setAutoDelete( FALSE );
   setMinimumSize (100, 100);
 
-  readSettings();
   kfm = 0L;
-  windowList.setAutoDelete( FALSE );
-
 
   statusbar_timer = new QTimer(this);
   connect(statusbar_timer, SIGNAL(timeout()),this,SLOT(timer_slot()));
 
-  file = 	new QPopupMenu ();
-  edit = 	new QPopupMenu ();
-  help = 	new QPopupMenu ();
-  options = 	new QPopupMenu ();
-  colors =  	new QPopupMenu ();
+  //  connect(mykapp,SIGNAL(kdisplayPaletteChanged()),this,SLOT(set_colors()));
 
-  colors->insertItem("&Foreground Color",this, SLOT(set_foreground_color()));
-  colors->insertItem("&Background Color",this, SLOT(set_background_color()));
+  setupMenuBar();
+  setupToolBar();
+  setupStatusBar();
 
-  help->insertItem ("&About...",this, 	SLOT(about()));
-  help->insertItem ("&Help", 	this, 	SLOT(helpselected()));
-  
-  file->insertItem ("Ne&w...",	this, 	SLOT(file_new()));
-  file->insertItem ("&Open...",	this, 	SLOT(file_open()));
-  file->insertItem ("&Save", 	this, 	SLOT(file_save()));
-  file->insertItem ("S&ave as...",this, SLOT(file_save_as()));
-  file->insertItem ("&Close", 	this,	SLOT(file_close()));
-  file->insertSeparator (-1);
-  file->insertItem ("Open &URL...",this,SLOT(file_open_url()));
-  file->insertItem ("Save to U&RL...",this,SLOT(file_save_url()));
-  file->insertSeparator (-1);
-  file->insertItem ("&Print...",this,SLOT(print()) );
-  //  file->insertItem ("&Print...",this,SLOT(fancyprint()) );
-  file->insertSeparator (-1);
-  file->insertItem ("New &Window",this,SLOT(newTopLevel()) );
-  file->insertSeparator (-1);
-  file->insertItem ("E&xit", this,	SLOT(quiteditor()));
+  readSettings();
 
-
-  edit->insertItem("&Copy", this, SLOT(copy()));
-
-  edit->insertItem("&Paste", this, SLOT(paste()));
-  edit->insertItem("C&ut", this, SLOT(cut()));
-  edit->insertSeparator(-1);
-  edit->insertItem("Insert &File", this, SLOT(insertFile()));
-  edit->insertItem("Insert &Date", this, SLOT(insertDate()));
-  edit->insertSeparator(-1);
-  edit->insertItem("&Search...", this, SLOT(search()));
-  edit->insertItem("&Repeat last search",this, SLOT(search_again()));
-
-  options->insertItem("&Font", this,		SLOT(font()));
-  options->insertItem("Colors", colors);
-  options->insertSeparator(-1);
-  options->insertItem("Fill &Column...", this, SLOT(fill_column_slot()));
-  options->insertSeparator(-1);
-  buttonID = options->insertItem("&Button Bar",this,SLOT(toggleButtonBar()));
-  statusID = options->insertItem("&Status Bar",this,SLOT(toggleStatusBar()));	
-
-
-  menubar = new QMenuBar (this, "menubar");
-  menubar->insertItem ("&File", file);
-
-  //  menubar->setLineWidth (1);
-
-  menubar->insertItem ("&Edit", edit);
-  menubar->insertItem ("&Options", options);
-  //  menubar->insertSeparator();
-  menubar->insertItem ("&Help", help);
-
-  statusbar1 = new QLabel(this);
-  statusbar1->setFrameStyle(QFrame::Panel|QFrame::Sunken);
-  statusbar2 = new QLabel(this);
-  statusbar2->setFrameStyle(QFrame::Panel|QFrame::Sunken);
-  statusbar3 = new QLabel(this);
-  statusbar3->setFrameStyle(QFrame::Panel|QFrame::Sunken);
-  statusbar3->setAlignment(AlignCenter);
-
-  right_mouse_button = new QPopupMenu;
-
-  right_mouse_button->insertItem ("Open...",	this, 	SLOT(file_open()));
-  right_mouse_button->insertItem ("Save", 	this, 	SLOT(file_save()));
-  right_mouse_button->insertItem ("Save as...",this, SLOT(file_save_as()));
-  right_mouse_button->insertSeparator(-1);
-  right_mouse_button->insertItem("&Copy", this, SLOT(copy()));
-  right_mouse_button->insertItem("&Paste", this, SLOT(paste()));
-  right_mouse_button->insertItem("C&ut", this, SLOT(cut()));
-  right_mouse_button->insertSeparator(-1);
-  right_mouse_button->insertItem("&Font", this,	SLOT(font()));
-
-
-  ///////////////////////////////////////////////
-
-  QString pixpath = kapp->kdedir() + QString("/lib/pics/toolbar/");
-  pb1 = new QPushButton(this);
-  pb1->setFocusPolicy(QWidget::NoFocus);
-
-  QToolTip::add(pb1,"Open Document");
-  connect( pb1, SIGNAL(clicked()),this, SLOT(file_open()));
-
-  if ( !pb1_pixmap.load(pixpath + "filenew.xpm") ) {
-    QMessageBox::message( "Sorry", "Could not load filenew.xpm" );
-  }
-  pb1->setPixmap( pb1_pixmap );
-
-  ///////////////////////////////////////////////
-
-  pb2 = new QPushButton(this);
-  pb2->setFocusPolicy(QWidget::NoFocus);
-
-  QToolTip::add(pb2,"Copy");
-  connect( pb2, SIGNAL( clicked() ), SLOT( copy() ) );
-
-  if ( !pb2_pixmap.load(pixpath + "editcopy.xpm") ) {
-    QMessageBox::message( "Sorry", "Could not load editcopy.xpm" );
-  }
-  pb2->setPixmap( pb2_pixmap );
-
-  ////////////////////////////////////////////////
-
-  pb3 = new QPushButton( this);
-  pb3->setFocusPolicy(QWidget::NoFocus);
-
-  QToolTip::add(pb3,"Paste");
-
-  connect( pb3, SIGNAL( clicked() ), SLOT( paste() ) );
-
-  if ( !pb3_pixmap.load(pixpath + "editpaste.xpm" ) ) {
-    QMessageBox::message( "Sorry", "Could not load editpaste.xpm" );
-  }
-  pb3->setPixmap( pb3_pixmap );
-
-  /////////////////////////////////////////////////
-
-  pb4 = new QPushButton( this);
-  pb4->setFocusPolicy(QWidget::NoFocus);
-  QToolTip::add(pb4,"Save Document");
-  connect( pb4, SIGNAL( clicked() ), SLOT( file_save() ) );
-
-  if ( !pb4_pixmap.load(pixpath + "filefloppy.xpm") ) {
-    QMessageBox::message( "Sorry", "Could not load filefloppy.xpm" );
-  }
-  pb4->setPixmap( pb4_pixmap );
-
-  //////////////////////////////////////////////////
-
-  pb5 = new QPushButton( this);
-  pb5->setFocusPolicy(QWidget::NoFocus);
-  QToolTip::add(pb5,"Print Document");
-  connect( pb5, SIGNAL( clicked() ), SLOT( print() ) );
-
-  if ( !pb5_pixmap.load(pixpath + "fileprint.xpm") ) {
-    QMessageBox::message( "Sorry", "Could not load fileprint.xpm" );
-  }
-  pb5->setPixmap( pb5_pixmap );
-
-  ///////////////////////////////////////////////////
-
-  pb6 = new QPushButton( this);
-  pb6->setFocusPolicy(QWidget::NoFocus);
-  QToolTip::add(pb6,"Help");
-  connect( pb6, SIGNAL( clicked() ), SLOT( helpselected() ) );
-
-  if ( !pb6_pixmap.load(pixpath + "help.xpm") ) {
-    QMessageBox::message( "Sorry", "Could not load help.xpm" );
-  }
-  pb6->setPixmap( pb6_pixmap );
-
-  ////////////////////////////////////////////////////
-
-  pb7 = new QPushButton( this);
-  pb7->setFocusPolicy(QWidget::NoFocus);
-  QToolTip::add(pb7,"Cut");
-  connect( pb7, SIGNAL( clicked() ), SLOT(cut() ) );
-
-  if ( !pb7_pixmap.load(pixpath + "editcut.xpm") ) {
-    QMessageBox::message( "Sorry", "Could not load editcut.xpm" );
-  }
-  pb7->setPixmap( pb7_pixmap );
-
-  ////////////////////////////////////////////////////
-
-  pb8 = new QPushButton( this);
-  pb8->setFocusPolicy(QWidget::NoFocus);
-  QToolTip::add(pb8,"Open File");
-  connect( pb8, SIGNAL( clicked() ), SLOT(file_open() ) );
-
-  if ( !pb8_pixmap.load(pixpath + "fileopen.xpm") ) {
-    QMessageBox::message( "Sorry", "Could not load fileopen.xpm" );
-  }
-  pb8->setPixmap( pb8_pixmap );
-
-  ////////////////////////////////////////////////////
-
-  if(buttonbar_visible)
-    options->changeItem("Hide &Button Bar",buttonID);
-  else
-    options->changeItem("Show &Button Bar",buttonID);
-
-  if(statusbar_visible)
-    options->changeItem("Hide &Status Bar",statusID);
-  else
-    options->changeItem("Show &Status Bar",statusID);
-
-  ////////////////////////////////////////////////
-
-  eframe = new KEdit (this, "eframe", "Untitled", KEdit::HAS_POPUP
-                      | KEdit::ALLOW_OPEN | KEdit::ALLOW_SAVE | KEdit::ALLOW_SAVEAS);
-
-  connect(eframe, SIGNAL(update_status_bar()),this,SLOT(statusbar_slot()));
-  connect(eframe, SIGNAL(toggle_overwrite_signal()),this,SLOT(toggle_overwrite()));
-  connect(eframe, SIGNAL(loading()),this,SLOT(loading_slot()));
-  connect(eframe, SIGNAL(saving()),this,SLOT(saving_slot()));
-
-  eframe->fill_column_is_set  = 	fill_column_is_set;
-  eframe->word_wrap_is_set    = 	word_wrap_is_set;
-  eframe->fill_column_value   = 	fill_column_value;
-
+  setupEditWidget();
   set_colors();
 
-  eframe->setFont(generalFont);
+  if ( hide_toolbar )	
+    options->changeItem( "Show &Tool Bar", toolID );
+  else
+    options->changeItem( "Hide &Tool Bar", toolID );
 
-  eframe->setLineWidth (1);
-  eframe->setEditMode(default_open);
-  connect(eframe, SIGNAL(fileChanged()), SLOT(setFileCaption()));
-  setSensitivity ();
-  adjustSize ();
-  eframe->setFocus ();
-  setCaption (eframe->getName ());
+  if ( hide_statusbar )
+    options->changeItem( "Show &Status Bar", statusID );
+  else
+    options->changeItem( "Hide &Status Bar", statusID );
 
-  // Drag and drop
+  setCaption("KEdit 0.5");
 
   KDNDDropZone * dropZone = new KDNDDropZone( this , DndURL);
-
   connect( dropZone, SIGNAL( dropAction( KDNDDropZone *) ), 
 	   this, SLOT( slotDropEvent( KDNDDropZone *) ) );
 
-  this->resize(editor_width,editor_height);
 
+  // Calling resize as is done here will reduce flicker considerably
+  // ktoplevelwidget updateRect will be called only twice this way instead of 4 times.
+  // If I leave the first resize out the toolbar will not be displayed and 
+  // ktoplevelwidget updateRect will be called four times. All this needs to 
+  // be loocked into. ktoolbar <-> ktoplevelwidget
+
+  resize(editor_width,editor_height);
+  show();
+  resize(editor_width,editor_height);
 }
 
 
@@ -316,6 +107,200 @@ TopLevel::~TopLevel (){
 }
 
 
+void TopLevel::setupEditWidget(){
+
+
+  eframe = new KEdit (mykapp,this, "eframe", "Untitled");
+
+  connect(eframe, SIGNAL(CursorPositionChanged()),this,SLOT(statusbar_slot()));
+  connect(eframe, SIGNAL(toggle_overwrite_signal()),this,SLOT(toggle_overwrite()));
+  connect(eframe, SIGNAL(loading()),this,SLOT(loading_slot()));
+  connect(eframe, SIGNAL(saving()),this,SLOT(saving_slot()));
+
+  setView(eframe,FALSE);
+
+
+  //////////////////////////////////////////////////////////////////
+  /// TODO write proper eframe methods for this
+
+  eframe->setFillColumnMode(fill_column_value);
+  eframe->setWordWrap(word_wrap_is_set);
+  eframe->setFont(generalFont);
+
+  connect(eframe, SIGNAL(fileChanged()), SLOT(setFileCaption()));
+  setSensitivity ();
+
+  eframe->setFocus ();
+
+  right_mouse_button = new QPopupMenu;
+  right_mouse_button->insertItem ("Open...",	this, 	SLOT(file_open()));
+  right_mouse_button->insertItem ("Save", 	this, 	SLOT(file_save()));
+  right_mouse_button->insertItem ("Save as...",this, SLOT(file_save_as()));
+  right_mouse_button->insertSeparator(-1);
+  right_mouse_button->insertItem("&Copy", this, SLOT(copy()));
+  right_mouse_button->insertItem("&Paste", this, SLOT(paste()));
+  right_mouse_button->insertItem("C&ut", this, SLOT(cut()));
+  right_mouse_button->insertSeparator(-1);
+  right_mouse_button->insertItem("&Font", this,	SLOT(font()));
+
+  eframe->installRBPopup(right_mouse_button);
+
+
+}
+
+
+void TopLevel::setupMenuBar(){
+
+  file = 	new QPopupMenu ();
+  edit = 	new QPopupMenu ();
+  help = 	new QPopupMenu ();
+  options = 	new QPopupMenu ();
+  colors =  	new QPopupMenu ();
+
+  colors->insertItem("&Foreground Color",this, SLOT(set_foreground_color()));
+  colors->insertItem("&Background Color",this, SLOT(set_background_color()));
+
+  help->insertItem ("&About...",	this, 	SLOT(about()));
+  help->insertItem ("&Help", 		this, 	SLOT(helpselected()));
+  
+  file->insertItem ("Ne&w...",		this, 	SLOT(file_new()));
+  file->insertItem ("&Open...",		this, 	SLOT(file_open()));
+  file->insertItem ("&Save", 		this, 	SLOT(file_save()));
+  file->insertItem ("S&ave as...",	this, 	SLOT(file_save_as()));
+  file->insertItem ("&Close", 		this,	SLOT(file_close()));
+  file->insertSeparator (-1);
+  file->insertItem ("Open &URL...",	this,	SLOT(file_open_url()));
+  file->insertItem ("Save to U&RL...",	this,	SLOT(file_save_url()));
+  file->insertSeparator (-1);
+  file->insertItem ("&Print...",	this,	SLOT(print()) );
+  //  file->insertItem ("&Print...",this,SLOT(fancyprint()) );
+  file->insertSeparator (-1);
+  file->insertItem ("New &Window",	this,	SLOT(newTopLevel()) );
+  file->insertSeparator (-1);
+  file->insertItem ("E&xit", 		this,	SLOT(quiteditor()));
+
+
+  edit->insertItem("&Copy", 		this, 	SLOT(copy()));
+
+  edit->insertItem("&Paste", 		this, 	SLOT(paste()));
+  edit->insertItem("C&ut", 		this, 	SLOT(cut()));
+  edit->insertSeparator(-1);
+  edit->insertItem("Insert &File", 	this, 	SLOT(insertFile()));
+  edit->insertItem("Insert &Date", 	this, 	SLOT(insertDate()));
+  edit->insertSeparator(-1);
+  edit->insertItem("&Find...", 		this, 	SLOT(search()));
+  edit->insertItem("Find &Again",	this, 	SLOT(search_again()));
+  edit->insertItem("&Replace",		this, 	SLOT(replace()));
+  edit->insertSeparator(-1);
+  edit->insertItem("&Goto Line...", this, SLOT(gotoLine()));
+
+  options->setCheckable(TRUE);
+  options->insertItem("&Font", 		this,	SLOT(font()));
+  options->insertItem("Colors", colors);
+  options->insertSeparator(-1);
+  options->insertItem("Fill &Column...",this, 	SLOT(fill_column_slot()));
+  indentID = options->insertItem("Auto &Indent", this, SLOT(toggle_indent_mode()));
+  options->insertSeparator(-1);
+  toolID   = options->insertItem("&Tool Bar",this,SLOT(toggleToolBar()));
+  statusID = options->insertItem("&Status Bar",this,SLOT(toggleStatusBar()));	
+
+
+  menubar = new KMenuBar (this, "menubar");
+  menubar->insertItem ("&File", file);
+  menubar->insertItem ("&Edit", edit);
+  menubar->insertItem ("&Options", options);
+  menubar->insertSeparator(-1);
+  menubar->insertItem ("&Help", help);
+
+  setMenu(menubar);
+  
+
+}
+
+
+void TopLevel::setupToolBar(){
+
+
+  toolbar = new KToolBar( this );
+
+  QString pixdir = mykapp->kdedir() + QString("/lib/pics/toolbar/");  
+
+  QPixmap pixmap;
+  
+  pixmap.load(pixdir+"filenew2.xpm");
+  toolbar->insertItem(pixmap, 0,
+		      SIGNAL(clicked()), this,
+		      SLOT(file_new()), TRUE, "New Document");
+
+
+  pixmap.load(pixdir+"fileopen.xpm");
+  toolbar->insertItem(pixmap, 0,
+		      SIGNAL(clicked()), this,
+		      SLOT(file_open()), TRUE, "Open Document");
+
+  pixmap.load(pixdir+"filefloppy.xpm");
+  toolbar->insertItem(pixmap, 0,
+		      SIGNAL(clicked()), this,
+		      SLOT(file_save()), TRUE, "Save Document");
+
+  toolbar->insertSeparator();
+
+  pixmap.load(pixdir+"editcopy.xpm");
+  toolbar->insertItem(pixmap, 0,
+		      SIGNAL(clicked()), this,
+		      SLOT(copy()), TRUE, "Copy");
+
+  pixmap.load(pixdir+"editpaste.xpm");
+  toolbar->insertItem(pixmap, 0,
+		      SIGNAL(clicked()), this,
+		      SLOT(paste()), TRUE, "Paste");
+
+  pixmap.load(pixdir+"editcut.xpm");
+  toolbar->insertItem(pixmap, 0,
+		      SIGNAL(clicked()), this,
+		      SLOT(cut()), TRUE, "Cut");
+
+  toolbar->insertSeparator();
+
+  pixmap.load(pixdir+"fileprint.xpm");
+  toolbar->insertItem(pixmap, 0,
+		      SIGNAL(clicked()), this,
+		      SLOT(print()), TRUE, "Print Document");
+
+  toolbar->insertSeparator();
+  pixmap.load(pixdir+"help.xpm");
+  toolbar->insertItem(pixmap, 0,
+		      SIGNAL(clicked()), this,
+		      SLOT(helpselected()), TRUE, "Help");
+
+  toolbar->setPos( KToolBar::Top );
+
+  toolbar1 = addToolBar(toolbar);
+
+  //  toolbar->show();
+
+}
+
+void TopLevel::setupStatusBar(){
+
+    statusbar = new KStatusBar( this );
+    statusbar->insertItem("Line:000000 Col: 000", ID_LINE_COLUMN);
+    statusbar->insertItem("XXX", ID_INS_OVR);
+    statusbar->insertItem("", ID_GENERAL);
+
+    statusbar->changeItem("Line: 0 Col: 0", ID_LINE_COLUMN);
+    statusbar->changeItem("INS", ID_INS_OVR);
+    statusbar->changeItem("", ID_GENERAL);
+
+    statusbar->setInsertOrder(KStatusBar::RightToLeft);
+    statusbar->setAlignment(ID_INS_OVR,AlignCenter);
+
+    //    statusbar->setInsertOrder(KStatusBar::LeftToRight);
+    //    statusbar->setBorderWidth(1);
+
+    setStatusBar( statusbar );
+
+}
 
 
 void TopLevel::copy(){
@@ -332,7 +317,7 @@ retry_insertFile:
 
   returncode = eframe->insertFile();
   if(returncode == KEdit::KEDIT_OK)
-    setStatusBar1Text("Done");
+    setGeneralStatusField("Done");
   if(returncode == KEdit::KEDIT_RETRY)
     goto retry_insertFile;
 
@@ -375,7 +360,7 @@ void TopLevel::cut(){
 
 void TopLevel::file_new(){
 
-  eframe->newFile(0);
+  eframe->newFile();
   statusbar_slot();
 
 }
@@ -386,13 +371,13 @@ void TopLevel::file_open(){
 
 tryagain_fileopen:
 
-  result = eframe->openFile(0);
+  result = eframe->openFile(KEdit::OPEN_READWRITE);
   switch (result){
   
   case KEdit::KEDIT_OK :	
     {
       QString string;
-      setStatusBar1Text("Done");
+      setGeneralStatusField("Done");
       break;
     }
 
@@ -454,7 +439,7 @@ void TopLevel::quiteditor(){
   if(windowList.count() == 1){
     if(!eframe->isModified()){
       writeSettings();
-      a->quit();
+      mykapp->quit();
       return;
     }
     else{ /// modified
@@ -473,7 +458,7 @@ void TopLevel::quiteditor(){
 	}
       }
       writeSettings();
-      a->quit();
+      mykapp->quit();
       return;
 	
     }
@@ -496,7 +481,7 @@ void TopLevel::quiteditor(){
 
   if (returncode){
     writeSettings();
-    a->quit();
+    mykapp->quit();
   }
 
   return;
@@ -542,7 +527,7 @@ void TopLevel::file_close(){
   }	
   else{
     writeSettings();
-    a->quit();
+    mykapp->quit();
   }
 
 }
@@ -555,35 +540,36 @@ void TopLevel::file_save(){
     result =  eframe->doSave(); // error messages are handled by ::KEdit
 
     if ( result == KEdit::KEDIT_OK ){
-      setCaption(eframe->getName());
+      setFileCaption();
       QString string;
-      string.sprintf("Wrote: %s",eframe->getName());
-      setStatusBar1Text(string);
+      string.sprintf("Wrote: %s",eframe->getName().data());
+      setGeneralStatusField(string);
     }
   }
   else{
-       setStatusBar1Text("No changes need to be saved");
+       setGeneralStatusField("No changes need to be saved");
   }
 
 
 }
 
-void TopLevel::setStatusBar1Text(QString text){
+void TopLevel::setGeneralStatusField(QString text){
 
     statusbar_timer->stop();
-    statusbar1->setText(text);
-    statusbar_timer->start(10000,TRUE); // single shot
 
+    statusbar->changeItem(text.data(),ID_GENERAL);
+    statusbar_timer->start(10000,TRUE); // single shot
+    
 }
 
 
 void TopLevel::file_save_as(){
 
   if (eframe->saveAs()== KEdit::KEDIT_OK){
-    setCaption(eframe->getName());
+    setFileCaption();
     QString string;
-    string.sprintf("Saved As: %s",eframe->getName());
-    setStatusBar1Text(string);
+    string.sprintf("Saved as: %s",eframe->getName().data());
+    setGeneralStatusField(string);
   }
 }
 
@@ -624,33 +610,59 @@ void TopLevel::fancyprint(){
 
 void TopLevel::about(){
 
-  QMessageBox::message ("About kedit+", "kedit+ Version 0.4.1\n"\
+  QMessageBox::message ("About KEdit", "KEdit Version 0.5\n"\
 			"Copyright 1997\nBernd Johannes Wuebben\n"\
 			"wuebben@math.cornell.edu\n"\
+			"wuebben@kde.org\n"\
 			"                                                      \n"\
-			"kedit+ is based in part on kedit\n"\
-			"Versions 0.1 - 0.3.1\n"\
-			"Copyright 1996\nAlexander Sanda\n"\
+			"Parts:\n"\
+			"Copyright 1997 Alexander Sanda\n"\
 			"alex@darkstar.ping.at","Ok");
 
 }
 
 void TopLevel::helpselected(){
   
-  if ( fork() == 0 )
+  mykapp->invokeHTMLHelp( "" , "" );
+
+/*  if ( fork() == 0 ) 
     {
       QString path = DOCS_PATH;
-      path += "/kedit+.html";
+      path += "/kedit.html";
       execlp( "kdehelp", "kdehelp", path.data(), 0 );
       ::exit( 1 );      
       
     }	 
+    */
+}
+
+void TopLevel::toggle_indent_mode(){
+
+  if(!eframe)
+    return;
+
+  bool mode = eframe->AutoIndentMode();
+  mode = !mode;
+
+  eframe->setAutoIndentMode(mode);
+  options->setItemChecked( indentID, mode);
+
+  if(mode)
+    setGeneralStatusField("Auto Indent Mode: On");
+  else
+    setGeneralStatusField("Auto Indent Mode: Off");
 
 }
 
 void TopLevel::search(){
 
-      eframe->initSearch();
+      eframe->Search();
+      statusbar_slot();
+}
+
+void TopLevel::replace(){
+
+      eframe->Replace();
       statusbar_slot();
 }
 
@@ -663,50 +675,42 @@ void TopLevel::font(){
 
 
 void TopLevel::toggleStatusBar(){
-
-  statusbar_visible = ! statusbar_visible;
   
-  if(statusbar_visible){
-    options->changeItem("Hide &Status Bar",statusID);
-    statusbar1->show();
-    statusbar2->show();
-  }
-  else{
-    options->changeItem("Show &Status Bar",statusID);
-    statusbar1->hide();
-    statusbar2->hide();
-  }
+  if(hide_statusbar) {
+  
+    hide_statusbar=FALSE;
+    enableStatusBar( KStatusBar::Show );
+    options->changeItem("Hide &Status Bar", statusID);
+  
+  } 
+  else {
 
-  this->resize(width(),height());
+    hide_statusbar=TRUE;
+    enableStatusBar( KStatusBar::Hide );
+    options->changeItem("Show &Status Bar", statusID);
+    
+  }
 
 }
 
 
-void TopLevel::toggleButtonBar(){
+void TopLevel::toggleToolBar(){
 
-  buttonbar_visible = ! buttonbar_visible;
-  if(buttonbar_visible){
-    options->changeItem("Hide &Button Bar",buttonID);
-    pb1->show();
-    pb2->show();
-    pb3->show();
-    pb4->show();
-    pb5->show();
-    pb6->show();
-    pb7->show();
-  }
-  else{
-    options->changeItem("Show &Button Bar",buttonID);
-    pb1->hide();
-    pb2->hide();
-    pb3->hide();
-    pb4->hide();
-    pb5->hide();
-    pb6->hide();
-    pb7->hide();
-    
-  }
-  this->resize(width(),height());
+  if(hide_toolbar) {
+
+    hide_toolbar=FALSE;
+    enableToolBar( KToolBar::Show, toolbar1 );
+    options->changeItem("Hide &Tool Bar", toolID);
+
+  } 
+  else {
+  
+    hide_toolbar=TRUE;
+    enableToolBar( KToolBar::Hide, toolbar1 );
+    options->changeItem("Show &Tool Bar", toolID);
+
+  }  
+
 }	
 
 
@@ -727,66 +731,26 @@ void TopLevel::search_again(){
 
 void TopLevel::setFileCaption(){
 
-    setCaption(eframe->getName());
+  QString string("KEdit ");
+  string += eframe->getName();
+  setCaption(string);
 }
 
 
-void TopLevel::resizeEvent (QResizeEvent *){
-
-  int a,b,c;
-  
-  int line;
-  int col;
-  eframe->getCursorPosition(&line,&col);
-  QString linenumber;
-  linenumber.sprintf("Line: %d Col: %d",line,col);
-  statusbar2->setText(linenumber);
-
-  pb1->setGeometry( B_XOFFSET, menubar->height() + B_YOFFSET, 
-		    BUTTON_WIDTH, BUTTON_HEIGHT );
-  pb8->setGeometry( 2*B_XOFFSET + BUTTON_WIDTH, menubar->height() + B_YOFFSET, 
-		    BUTTON_WIDTH, BUTTON_HEIGHT );
-  pb2->setGeometry( 3*B_XOFFSET + 2*BUTTON_WIDTH, menubar->height() + B_YOFFSET, 
-		    BUTTON_WIDTH, BUTTON_HEIGHT );
-  pb3->setGeometry( 4*B_XOFFSET + 3*BUTTON_WIDTH, menubar->height() + B_YOFFSET, 
-		    BUTTON_WIDTH, BUTTON_HEIGHT );
-  pb7->setGeometry( 5*B_XOFFSET + 4*BUTTON_WIDTH, menubar->height() + B_YOFFSET, 
-		    BUTTON_WIDTH, BUTTON_HEIGHT );
-  pb4->setGeometry( 6*B_XOFFSET + 5*BUTTON_WIDTH, menubar->height() + B_YOFFSET, 
-		    BUTTON_WIDTH, BUTTON_HEIGHT );
-  pb5->setGeometry( 7*B_XOFFSET + 6*BUTTON_WIDTH, menubar->height() + B_YOFFSET, 
-		    BUTTON_WIDTH, BUTTON_HEIGHT );
-  pb6->setGeometry( 8*B_XOFFSET + 7*BUTTON_WIDTH, menubar->height() + B_YOFFSET, 
-		    BUTTON_WIDTH, BUTTON_HEIGHT );
-
-  if(statusbar_visible)
-    a = 1;
-  else
-    a = 0;
-
-  if(buttonbar_visible)
-    b = c = 1;
-  else
-    b = c = 0;
-
-
-  statusbar1->setGeometry(0,height()-STATUSBAR_HEIGHT ,(width()*12)/16,STATUSBAR_HEIGHT);
-  statusbar2->setGeometry((width()*3)/4,height()-STATUSBAR_HEIGHT ,
-			  width()/4,STATUSBAR_HEIGHT);
-  //  statusbar3->setGeometry((width()*10)/16,height()-STATUSBAR_HEIGHT ,
-  //		  (width()*2)/16,STATUSBAR_HEIGHT);
-
-  eframe->setGeometry (0, menubar->height () + b*TOOLBAR_HEIGHT + c*2*B_YOFFSET, width (), 
-		       height () - menubar->height () - a*STATUSBAR_HEIGHT - 
-		      c*2* B_YOFFSET - b*TOOLBAR_HEIGHT);
-
+void TopLevel::gotoLine() {
+	eframe->doGotoLine();
 }
 
 void TopLevel::statusbar_slot(){
 
   QString linenumber;
-  linenumber.sprintf("Line: %d Col: %d",eframe->line_pos,eframe->col_pos);
-  statusbar2->setText(linenumber);
+
+  linenumber.sprintf("Line: %d Col: %d",
+		     eframe->currentLine(),
+		     eframe->currentColumn()
+		     );
+
+  statusbar->changeItem(linenumber.data(),ID_LINE_COLUMN);
   
 }
 
@@ -813,11 +777,20 @@ void TopLevel::fill_column_slot(){
 
     struct fill_struct fillstr = dlg->getFillCol();
     
-    fill_column_is_set  = eframe->fill_column_is_set = fillstr.fill_column_is_set;
-    word_wrap_is_set    = eframe->word_wrap_is_set   = fillstr.word_wrap_is_set;;
-    fill_column_value   = eframe->fill_column_value =  fillstr.fill_column_value;;
+    word_wrap_is_set = fillstr.word_wrap_is_set;;
+    eframe->setWordWrap(word_wrap_is_set);
+
+    fill_column_is_set = fillstr.fill_column_is_set;
+    fill_column_value = fillstr.fill_column_value;;
+
+    if(fill_column_is_set)
+      eframe->setFillColumnMode(fill_column_value);
+    else	
+      eframe->setFillColumnMode(0);
 
   }
+
+  delete dlg;
 
 }
 
@@ -847,8 +820,8 @@ void TopLevel::print(){
 	}
 	else{
 	  QString string;
-	  string.sprintf("Saved: %s",eframe->getName());
-	  setStatusBar1Text(string);
+	  string.sprintf("Saved: %s",eframe->getName().data());
+	  setGeneralStatusField(string);
 	}
       }
     }
@@ -867,12 +840,15 @@ void TopLevel::print(){
 
     pi.command.detach();
   if(strcmp(eframe->getName(), "Untitled")== 0){
-      // we go through all of this so that we can print an "Untiteled" document
-      // quickly without going through the hassle saving it. This will 
+
+      // we go through all of this so that we can print an "Untitled" document
+      // quickly without going through the hassle of saving it. This will 
       // however result in a temporary filename and your printout will
       // usually show that temp name, such as /tmp/00432aaa
-      // for a non "untiteled" documen we don't want that to happen so 
+      // for a non "untitled" document we don't want that to happen so 
       // we asked the user to save before we print the document.
+    
+      // TODO find a smarter solution for the above!
 
       QString tmpname = tmpnam(NULL);
 
@@ -916,7 +892,7 @@ void TopLevel::print(){
 	string.sprintf("Printing: %s Untitled (Selection)", command.data());
       else
 	string.sprintf("Printing: %s Untitled", command.data());
-      setStatusBar1Text(string);
+      setGeneralStatusField(string);
 
     }
     else{ // document name != Untiteled
@@ -949,11 +925,11 @@ void TopLevel::print(){
       
       if(!pi.selection){ // print the whole file
 	
-	com.sprintf("%s %s &",command.data(), eframe->getName());
+	com.sprintf("%s %s &",command.data(), eframe->getName().data());
 	system(com.data());
 	QString string;	
 	string.sprintf("Printing: %s",com.data());
-	setStatusBar1Text(string);
+	setGeneralStatusField(string);
       
       }
       else{ // print only the selection
@@ -963,8 +939,8 @@ void TopLevel::print(){
 	system(com.data());
 	QString string;	
 	string.sprintf("Printing: %s %s (Selection)",
-		       command.data(), eframe->getName());
-	setStatusBar1Text(string);
+		       command.data(), eframe->getName().data());
+	setGeneralStatusField(string);
       
       }
       printf("%s\n",com.data());
@@ -981,14 +957,14 @@ void TopLevel::setSensitivity (){
 
 void TopLevel::saving_slot(){
 
-  setStatusBar1Text("Saving ...");
+  setGeneralStatusField("Saving ...");
 
 }
 
 
 void TopLevel::loading_slot(){
 
-  setStatusBar1Text("Loading ...");
+  setGeneralStatusField("Loading ...");
 
 }
 
@@ -1011,9 +987,9 @@ void TopLevel::saveNetFile( const char *_url )
    {
      printf("usual file:%s\n",u.path());
       QString string;
-      //      statusbar1->setText(string);
+      setGeneralStatusField(string);
       eframe->doSave( u.path() );
-      setStatusBar1Text("Saved");
+      setGeneralStatusField("Saved");
       return;
     }
     
@@ -1065,9 +1041,9 @@ void TopLevel::openNetFile( const char *_url, int _mode )
     {
       QString string;
       string.sprintf("Loading '%s'",u.path() );
-      statusbar1->setText(string);
+      setGeneralStatusField(string);
       eframe->loadFile( u.path(), _mode );
-      setStatusBar1Text("Done");
+      setGeneralStatusField("Done");
       return;
     }
     
@@ -1080,10 +1056,10 @@ void TopLevel::openNetFile( const char *_url, int _mode )
 			      "Alternatively stop the running one.", "Ok");
 	return;
     }
-    statusbar1->setText("Calling KFM");
+    setGeneralStatusField("Calling KFM");
     
     kfm = new KFM;
-    setStatusBar1Text("Done");
+    setGeneralStatusField("Done");
     if ( !kfm->isOK() )
     {
 	QMessageBox::message ("Sorry", "Could not start or find KFM", "Ok");
@@ -1092,12 +1068,12 @@ void TopLevel::openNetFile( const char *_url, int _mode )
 	return;
     }
     
-    statusbar1->setText("Starting Job");
+    setGeneralStatusField("Starting Job");
     tmpFile.sprintf( "file:/tmp/kedit%i", time( 0L ) );
     connect( kfm, SIGNAL( finished() ), this, SLOT( slotKFMFinished() ) );
-    statusbar1->setText("Connected");
+    setGeneralStatusField("Connected");
     kfm->copy( netFile.data(), tmpFile.data() );
-    statusbar1->setText("Waiting...");
+    setGeneralStatusField("Waiting...");
     kfmAction = TopLevel::GET;
     openMode = _mode;
 }
@@ -1106,7 +1082,7 @@ void TopLevel::slotKFMFinished()
 {
   QString string;
   string.sprintf("Finished '%s'",tmpFile.data());
-  setStatusBar1Text(string);
+  setGeneralStatusField(string);
 
     if ( kfmAction == TopLevel::GET )
     {
@@ -1148,24 +1124,24 @@ void TopLevel::slotDropEvent( KDNDDropZone * _dropZone )
 	}
 	else
 	{
-	    setStatusBar1Text("New Window");
+	    setGeneralStatusField("New Window");
 	    TopLevel *t = new TopLevel ();
 	    t->show ();
 	    windowList.append( t );
-	    setStatusBar1Text("New Window Created");
+	    setGeneralStatusField("New Window Created");
 	    QString n = s;
 	    if ( n.left(5) != "file:" && n.left(4) == "ftp:" )
 		t->openNetFile( n.data(), KEdit::OPEN_READWRITE );
 	    else
 		t->openNetFile( n.data(), KEdit::OPEN_READONLY );
-	    setStatusBar1Text("Load Command Done");
+	    setGeneralStatusField("Load Command Done");
 	}
     }
 }
 
 void TopLevel::timer_slot(){
 
-  statusbar1->setText("");
+  statusbar->changeItem("",ID_GENERAL);
 
 }
 
@@ -1224,11 +1200,11 @@ void TopLevel::readSettings(){
 
 	// let's set the defaults 
 
-	generalFont = QFont ("Fixed", 11, QFont::Bold);
+	generalFont = QFont ("Courier", 12, QFont::Normal);
 	editor_width = 550;
 	editor_height = 400;
-	statusbar_visible = 1;
-	buttonbar_visible = 1;
+	hide_statusbar = FALSE;
+	hide_toolbar = FALSE;
 	forecolor = QColor(black);
 	backcolor = QColor(white);
 	fill_column_is_set = true;
@@ -1243,9 +1219,11 @@ void TopLevel::readSettings(){
 
 	QString str;
 	
-	config = a->getConfig();
+	config = mykapp->getConfig();
 
-	config->setGroup( "Text Font" );
+	///////////////////////////////////////////////////
+
+       	config->setGroup( "Text Font" );
 
 	str = config->readEntry( "Family" );
 	if ( !str.isNull() )
@@ -1265,8 +1243,11 @@ void TopLevel::readSettings(){
 	str = config->readEntry( "Italic" );
 		if ( !str.isNull() )
 			if ( atoi(str.data()) != 0 )
-				generalFont.setItalic(true);
+				generalFont.setItalic(TRUE);
 	
+	///////////////////////////////////////////////////
+	config->setGroup("General Options");
+
 	str = config->readEntry("Width");
 		if ( !str.isNull() )
 		  editor_width = atoi(str.data());
@@ -1275,26 +1256,27 @@ void TopLevel::readSettings(){
 		if ( !str.isNull() )
 		  editor_height = atoi(str.data());
 
-	str = config->readEntry("StatusBar");
-		if ( !str.isNull() )
-		  statusbar_visible = atoi(str.data());
+	str = config->readEntry( "StatusBar" );
+	if ( !str.isNull() && str.find( "off" ) == 0 ) {
+		hide_statusbar = TRUE;
+		enableStatusBar( KStatusBar::Hide );
 
-	str = config->readEntry("ButtonBar");
-		if ( !str.isNull() )
-		  buttonbar_visible = atoi(str.data());
+	} else
+	  {
+		hide_statusbar = FALSE;
+		enableStatusBar( KStatusBar::Show );
+	  }
 
-	str = config->readEntry("PrntCmd1");
-		if ( !str.isNull() )
-		  pi.command = str;
+	str = config->readEntry( "ToolBar" );
 
-	str = config->readEntry("PrintSelection");
-		if ( !str.isNull() )
-		  pi.selection = atoi(str.data());
+	if ( !str.isNull() && str.find( "off" ) == 0 ) {
+		hide_toolbar = TRUE;
+		enableToolBar( KToolBar::Hide, toolbar1 );
+	} else{
+		hide_toolbar = FALSE;
+		enableToolBar( KToolBar::Show, toolbar1 );
 
-	str = config->readEntry("PrintRaw");
-		if ( !str.isNull() )
-		  pi.raw = atoi(str.data());
-
+	}
 	str = config->readEntry("UseFillColumn");
 		if ( !str.isNull() )
 		  fill_column_is_set = (bool) atoi(str.data());
@@ -1315,14 +1297,44 @@ void TopLevel::readSettings(){
         str = config->readEntry( "BackColor" );
 		if ( !str.isNull() )
 			backcolor.setNamedColor( str );
-			         
+
+	str = config->readEntry( "Toolbar position" );
+	if ( !str.isNull() ) {
+		if( str == "Left" ) {
+			toolbar->setPos( KToolBar::Left );
+		} else if( str == "Right" ) {
+			toolbar->setPos( KToolBar::Right );
+		} else if( str == "Bottom" ) {
+			toolbar->setPos( KToolBar::Bottom );
+		} else
+			toolbar->setPos( KToolBar::Top );
+	}			         
+
+	///////////////////////////////////////////////////
+
+	config->setGroup("Printing");
+
+	str = config->readEntry("PrntCmd1");
+		if ( !str.isNull() )
+		  pi.command = str;
+
+	str = config->readEntry("PrintSelection");
+		if ( !str.isNull() )
+		  pi.selection = atoi(str.data());
+
+	str = config->readEntry("PrintRaw");
+		if ( !str.isNull() )
+		  pi.raw = atoi(str.data());
+
 
 }
 
 void TopLevel::writeSettings(){
 		
-	config = a->getConfig();
+	config = mykapp->getConfig();
 	
+	///////////////////////////////////////////////////
+
 	config->setGroup( "Text Font" );
 
 	config->writeEntry("Family", generalFont.family());
@@ -1338,7 +1350,11 @@ void TopLevel::writeSettings(){
 	QString italicStr;
 	italicStr.sprintf("%d", (int)generalFont.italic() );
 	config->writeEntry("Italic", italicStr);
-	
+
+	////////////////////////////////////////////////////
+
+	config->setGroup("General Options");
+
 	QString widthstring;
 	widthstring.sprintf("%d", this->width() );
 	config->writeEntry("Width",  widthstring);
@@ -1348,26 +1364,10 @@ void TopLevel::writeSettings(){
 
 	config->writeEntry("Height",  heightstring);
 
-	QString statusstring;
-	statusstring.sprintf("%d", statusbar_visible );
-	config->writeEntry("StatusBar", statusstring);
-
-	QString buttonstring;
-	buttonstring.sprintf("%d", buttonbar_visible );
-	config->writeEntry("ButtonBar", buttonstring);
-
-
-	config->writeEntry("PrntCmd1", pi.command);
+	config->writeEntry( "StatusBar", hide_statusbar ? "off" : "on" );
+	config->writeEntry( "ToolBar", hide_toolbar ? "off" : "on" );
 
 	QString string;
-	string.sprintf("%d", pi.selection );
-	config->writeEntry("PrintSelection", string);
-
-	string="";
-	string.sprintf("%d", pi.raw );
-	config->writeEntry("PrintRaw", string);
-
-	string="";
 	string.sprintf("%d", fill_column_is_set );
 	config->writeEntry("UseFillColumn", string);
 
@@ -1388,6 +1388,32 @@ void TopLevel::writeSettings(){
 	string.sprintf("#%02x%02x%02x", backcolor.red(), 
 		       backcolor.green(), backcolor.blue());
 	config->writeEntry( "BackColor", string );
+	
+	string="";
+	if ( toolbar->Pos() == KToolBar::Left )
+		string.sprintf("Left");
+	else if ( toolbar->Pos() == KToolBar::Right )
+		string.sprintf("Right");
+	else if ( toolbar->Pos() == KToolBar::Bottom )
+		string.sprintf("Bottom");
+	else
+		string.sprintf("Top");
+
+	config->writeEntry( "Toolbar position", string );
+
+	////////////////////////////////////////////////////
+
+	config->setGroup("Printing");
+
+	config->writeEntry("PrntCmd1", pi.command);
+
+        string="";
+	string.sprintf("%d", pi.selection );
+	config->writeEntry("PrintSelection", string);
+
+	string="";
+	string.sprintf("%d", pi.raw );
+	config->writeEntry("PrintRaw", string);
 
 
 	config->sync();
@@ -1396,14 +1422,14 @@ void TopLevel::writeSettings(){
 }
 
 void TopLevel::toggle_overwrite(){
-  /*
+
   if(eframe->isOverwriteMode()){
-        statusbar3->setText("OWR");
+    statusbar->changeItem("OVR",ID_INS_OVR);
   }
   else{
-    statusbar3->setText("INS");
+    statusbar->changeItem("INS",ID_INS_OVR);
   }
-  */
+
 }
 
 int main (int argc, char **argv)
@@ -1413,9 +1439,8 @@ int main (int argc, char **argv)
     else
        default_open = KEdit::OPEN_READWRITE;
 
-    a = new KApplication (argc, argv, "kedit");
+    mykapp = new KApplication (argc, argv, "kedit");
 
-    a->setFont (QFont ("Helvetica", 12));
 
     /*
      * check cmdline args
@@ -1451,5 +1476,5 @@ int main (int argc, char **argv)
 	TopLevel::windowList.append( t );
     }
     
-    return a->exec ();
+    return mykapp->exec ();
 }

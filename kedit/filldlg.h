@@ -77,7 +77,6 @@ public:
     QLineEdit *values;
     void setWidgets(struct fill_struct);
 
-
 private:
     
     struct fill_struct   fillstr;
@@ -89,6 +88,7 @@ private:
 
 public slots:
 
+    void synchronize(bool);
     void  checkit();
 
 };

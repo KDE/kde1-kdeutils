@@ -10,6 +10,8 @@ FillDlg::FillDlg(QWidget *parent, const char *name)
     this->setFocusPolicy(QWidget::StrongFocus);
     connect(values, SIGNAL(returnPressed()), this, SLOT(checkit()));
     fill_column = new QCheckBox("Set Fill-Column at:", frame1, "fill");
+    connect(fill_column, SIGNAL(toggled(bool)),this,SLOT(synchronize(bool)));
+
     word_wrap = new QCheckBox("Word Warp", frame1, "word");
     ok = new QPushButton("OK", this, "OK");
     cancel = new QPushButton("Cancel", this, "cancel");
@@ -33,6 +35,15 @@ struct fill_struct  FillDlg::getFillCol() {
 }
 
 
+void FillDlg::synchronize(bool on){
+
+  // if the fill-column button is not checked we can't do word wrap
+  // so we have to turn the word wrap button off.
+
+  if(!on)
+    word_wrap->setChecked(FALSE);
+  
+}
 
 bool FillDlg::fill(){
 

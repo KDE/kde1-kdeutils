@@ -61,11 +61,27 @@
 #include <kapp.h>
 #include <kurl.h>
 #include <Kconfig.h>
+#include <ktoolbar.h>
+
+#include "kstatusbar.h"
+#include "ktopwidget.h"
+#include "kbutton.h"
+
 #include "KEdit.h"
 #include "print.h"
 #include "filldlg.h"
 
-class TopLevel : public QWidget
+#ifndef DOCS_PATH
+#define DOCS_PATH "/usr/local/kde/doc/HTML/kedit/kedit.html"
+#endif
+
+// StatusBar field IDs
+#define ID_LINE_COLUMN 1
+#define ID_INS_OVR 2
+#define ID_GENERAL 3
+
+
+class TopLevel : public KTopLevelWidget
 {
     Q_OBJECT;
 
@@ -91,50 +107,35 @@ public:
     void closeEvent( QCloseEvent *e );
 
 protected:
-    void resizeEvent(QResizeEvent *);
+
+//    void resizeEvent(QResizeEvent *);
     void setSensitivity();
 
     void readSettings();
     void writeSettings();
-    void set_colors();
-        
+    void setupMenuBar();
+    void setupToolBar();
+    void setupEditWidget();
+    void setupStatusBar();        
+
 private:    
 
-    int statusID, buttonID;
-    QMenuBar *menubar;
+    int statusID, toolID, indentID;
+    KMenuBar *menubar;
+    KToolBar *toolbar;
     QColor forecolor;
     QColor backcolor;
 
-    QLabel *statusbar1;
-    QLabel *statusbar2;
-    QLabel *statusbar3;
-
-    QPushButton *pb1;
-    QPushButton *pb2;
-    QPushButton *pb3;
-    QPushButton *pb4;
-    QPushButton *pb5;
-    QPushButton *pb6;
-    QPushButton *pb7;
-    QPushButton *pb8;
-
-
-    QPixmap pb1_pixmap;
-    QPixmap pb2_pixmap;
-    QPixmap pb3_pixmap;
-    QPixmap pb4_pixmap;
-    QPixmap pb5_pixmap;
-    QPixmap pb6_pixmap;
-    QPixmap pb7_pixmap;
-    QPixmap pb8_pixmap;
-
+    KStatusBar *statusbar;
     QTimer *statusbar_timer;
 
     int open_mode;
     int editor_width;
     int editor_height;
-    int statusbar_visible;
-    int buttonbar_visible;
+    int hide_toolbar;
+    int hide_statusbar;
+    // toolbar ID holder:
+    int toolbar1;
     struct printinfo pi;
     bool fill_column_is_set;
     bool word_wrap_is_set;
@@ -179,17 +180,20 @@ private:
     
 public slots:
 
+    void set_colors();
+    void gotoLine();
     void fill_column_slot();
     void fancyprint();
     void set_foreground_color();
     void set_background_color();
     void saving_slot();
     void loading_slot();
-    void setStatusBar1Text(QString string);
+    void setGeneralStatusField(QString string);
     void copy();
     void paste();
     void cut();
     void insertDate();
+    void toggle_indent_mode();
     void print();
     void timer_slot();
     void file_open();
@@ -207,9 +211,10 @@ public slots:
     void about();
     void helpselected();
     void search();
+    void replace();
     void font();
     void toggleStatusBar();
-    void toggleButtonBar();
+    void toggleToolBar();
     void search_again();
     void toggle_overwrite();
     /// Gets signals from KFM

@@ -1,15 +1,18 @@
-  /*
+ /*
 
   $Id$
  
-         kedit+ , a simple text editor for the KDE project
+  kedit, a simple text editor for the KDE project
 
   Requires the Qt widget libraries, available at no cost at 
   http://www.troll.no
   
-  Copyright (C) 1996 Bernd Johannes Wuebben   
+  Copyright (C) 1997 Bernd Johannes Wuebben   
   wuebben@math.cornell.edu
-  
+
+  parts:
+  Alexander Sanda <alex@darkstar.ping.at>  
+ 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
   the Free Software Foundation; either version 2 of the License, or
@@ -25,37 +28,39 @@
   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
   
   KEdit, simple editor class, hacked version of the original by 
-  Nov 96, Alexander Sanda <alex@darkstar.ping.at>
+
  
   */
 
-
-
-#include "KEdit.moc"
 #include "KEdit.h"
-#include "kedit+.h"
-#include "kfontdialog.h"
+#include "KEdit.moc"
 
 
+KEdit::KEdit(KApplication *a, QWidget *parent, const char *name, 
+	     const char *fname) : QMultiLineEdit(parent, name){
 
-extern KApplication *a;
 
-KEdit::KEdit(QWidget *parent, const char *name, const char *fname, unsigned flags)
-    : QMultiLineEdit(parent, name){
-    
-    p_parent = parent;
+    mykapp = a;
+    filename = fname;
+    filename.detach();
 
-    qstrncpy(filename, fname, 1023);
     modified = FALSE;
-    k_flags = flags;
+
+    // set some defaults
 
     line_pos = col_pos = 0;
-    fill_column_is_set = true;
-    word_wrap_is_set = true;
+    fill_column_is_set = TRUE;
+    word_wrap_is_set = TRUE;
     fill_column_value = 79;
+    autoIndentMode = false;
+    
+    make_backup_copies = TRUE;
     
     installEventFilter( this );     
-    srchdialog = 0;
+
+    srchdialog = NULL;
+    replace_dialog= NULL;
+
     connect(this, SIGNAL(textChanged()), this, SLOT(setModified()));
     setContextSens();
 }
@@ -67,7 +72,52 @@ KEdit::~KEdit(){
 }
 
 
-int KEdit::loadFile(const char *name, int mode){
+int KEdit::currentLine(){
+
+  computePosition();
+  return line_pos;
+
+};
+
+int KEdit::currentColumn(){
+
+  computePosition();
+  return col_pos;
+
+}
+
+
+bool KEdit::WordWrap(){
+
+  return word_wrap_is_set;
+
+}
+
+void  KEdit::setWordWrap(bool flag ){
+
+  word_wrap_is_set = flag;
+}
+    
+bool  KEdit::FillColumnMode(){
+
+  return fill_column_is_set;
+}
+
+void  KEdit::setFillColumnMode(int line){
+
+  if (line <= 0) {
+    fill_column_is_set = FALSE;
+    fill_column_value = 0;
+  }
+  else{
+    fill_column_is_set = TRUE;
+    fill_column_value = line;
+  }
+
+}
+
+
+int KEdit::loadFile(QString name, int mode){
 
     int fdesc;
     struct stat s;
@@ -77,11 +127,13 @@ int KEdit::loadFile(const char *name, int mode){
 
     if(!info.exists()){
       QMessageBox::message("Sorry","The specified File does not exist","OK");
+// TODO: finer error control
       return KEDIT_RETRY;
     }
 
     if(!info.isReadable()){
       QMessageBox::message("Sorry","You do not have read permission to this file.","OK");
+// TODO: finer error control
       return KEDIT_RETRY;
     }
 
@@ -94,25 +146,33 @@ int KEdit::loadFile(const char *name, int mode){
             QMessageBox::message("Sorry", 
 				 "You have do not have Permission to \n"\
 				 "read this Document", "Ok");
+// TODO: finer error control
             return KEDIT_OS_ERROR;
 
         default:
             QMessageBox::message(mb_caption, 
 				 "An Error occured while trying to open this Document", 
 				 "Ok");
+// TODO: finer error control
             return KEDIT_OS_ERROR;
         }
     }
     
     emit loading();
-    a->processEvents();
+    mykapp->processEvents();
 
     fstat(fdesc, &s);
-    addr = (char *)mmap(0, s.st_size, PROT_READ | PROT_WRITE, 
-			MAP_PRIVATE, fdesc, 0);
-    
+    addr = (char *)mmap(0, s.st_size, PROT_READ | PROT_WRITE, MAP_PRIVATE, fdesc, 0);
 
     setAutoUpdate(FALSE);
+
+    disconnect(this, SIGNAL(textChanged()), this, SLOT(setModified()));
+
+// The following is a horrible hack that we need to put up with until
+// Qt 1.3 comes along. The problem is that QMultiLineEdit::setText(char*)
+// is O(n^2) which makes loading larger files very slow. We resort here to 
+// a workaroud which load the file line by line. I use a memmap construction
+// but probably a QTextStream is just about as fast.
 
     if(mode & OPEN_INSERT) {
       
@@ -163,7 +223,7 @@ int KEdit::loadFile(const char *name, int mode){
       // In this case we have to manually insert the last "couple" of characters.
       // This routine could be avoided if I knew for sure that I could
       // memmap a file into a block of memory larger than the file size.
-      // in that case I would simply put a zero after the last char in the file.
+      // In that case I would simply put a zero after the last char in the file.
       // and the above would go through almost unmodified. Well, I don't, so 
       // here we go:
 
@@ -219,17 +279,30 @@ int KEdit::loadFile(const char *name, int mode){
 
     setAutoUpdate(TRUE);
     repaint();
-    
+
+    connect(this, SIGNAL(textChanged()), this, SLOT(setModified()));    
+
     munmap(addr, s.st_size);
         
-    modified = mode & OPEN_INSERT;
-    setFocus();
+    if ( mode == OPEN_INSERT)
+      toggleModified(TRUE);
+    else
+      toggleModified(FALSE);
     
-    if(!(mode & OPEN_INSERT))
-        qstrncpy(filename, name, 1023);
     
-    setEditMode(edit_mode);
+    if(!(mode == OPEN_INSERT)){
+        filename = name;
+	filename.detach();
+    }
+
+    if( mode == OPEN_READONLY)
+      this->setReadOnly(TRUE);
+    else
+      this->setReadOnly(FALSE);
+    
+
     emit(fileChanged());
+    setFocus();
 
     return KEDIT_OK;
 }
@@ -238,44 +311,47 @@ int KEdit::loadFile(const char *name, int mode){
 int KEdit::insertFile(){
 
     QFileDialog *box;
-    QString filename;
+    QString file_to_insert;
       
     box = new QFileDialog( this, "fbox", TRUE);
     
     box->setCaption("Select Document to Insert");
 
-    if(k_flags & ALLOW_OPEN) {
-      
-      box->show();
-      
-      if (!box->result()) {
-	delete box;
-	return KEDIT_USER_CANCEL;
-      }
-
-      if(box->selectedFile().isEmpty()) {  /* no selection */
-	delete box;
-	return KEDIT_USER_CANCEL;
-      }
-
-      filename = box->selectedFile();
-      filename.detach();
-
+    box->show();
+    
+    if (!box->result()) {
       delete box;
-
+      return KEDIT_USER_CANCEL;
     }
     
-    return loadFile(filename.data(), OPEN_INSERT);
+    if(box->selectedFile().isEmpty()) {  /* no selection */
+      delete box;
+      return KEDIT_USER_CANCEL;
+    }
+    
+    file_to_insert = box->selectedFile();
+    file_to_insert.detach();
+    
+    delete box;
+
+    
+    int result = loadFile(file_to_insert, OPEN_INSERT);
+
+    if (result == KEDIT_OK )
+      setModified();
+
+    return  result;
+
 
 }
 
 int KEdit::openFile(int mode)
 {
-    char fname[1024];
+    QString fname;
     QFileDialog *box;
     
 
-    if(modified && !(mode & OPEN_INSERT)) {           
+    if( isModified() ) {           
       if((QMessageBox::query("Message", 
 			     "The current Document has been modified.\n"\
 			     "Would you like to save it?"))) {
@@ -293,33 +369,31 @@ int KEdit::openFile(int mode)
     
     box->setCaption("Select Document to Open");
 
-    if(k_flags & ALLOW_OPEN) {
-        box->show();
-        if (!box->result())   /* cancelled */
-            return KEDIT_USER_CANCEL;
-        if(box->selectedFile().isNull()) {  /* no selection */
-            return KEDIT_USER_CANCEL;
-        }
-
-        strcpy(fname, box->selectedFile().data());
-
-	delete box;
-
-        return loadFile(fname, mode);
+    box->show();
+    
+    if (!box->result())   /* cancelled */
+      return KEDIT_USER_CANCEL;
+    if(box->selectedFile().isEmpty()) {  /* no selection */
+      return KEDIT_USER_CANCEL;
     }
-    else {
-        QMessageBox::message("Sorry", 
-			     "You do not have permision to open a Document", 
-			     "Yes", this);
-        return KEDIT_OS_ERROR;
-    }
+    
+    fname =  box->selectedFile();
+    delete box;
+    
+    int result =  loadFile(fname, mode);
+    
+    if ( result == KEDIT_OK )
+      toggleModified(FALSE);
+    
+    return result;
+	
         
 }
 
-int KEdit::newFile(int mode){
+int KEdit::newFile(){
 
 
-    if(modified && !(mode & OPEN_INSERT)) {           
+    if( isModified() ) {           
       if((QMessageBox::query("Message", 
 			     "The current Document has been modified.\n"\
 			     "Would you like to save it?"))) {
@@ -334,16 +408,13 @@ int KEdit::newFile(int mode){
     }
 
     this->clear();
+    toggleModified(FALSE);
 
-    
-    modified = FALSE;
     setFocus();
 
-    qstrncpy(filename, "Untitled", 1023);
+    filename = "Untitled";
        
-    setEditMode(HAS_POPUP | ALLOW_OPEN | ALLOW_SAVE | ALLOW_SAVEAS | OPEN_READWRITE);
-
-    compute_Position();
+    computePosition();
     emit(fileChanged());
 
     return KEDIT_OK;
@@ -353,19 +424,19 @@ int KEdit::newFile(int mode){
 
 
 
-void KEdit::compute_Position(){
+void KEdit::computePosition(){
 
   int line, col, coltemp;
 
   getCursorPosition(&line,&col);
   QString linetext = textLine(line);
 
-  // O.K here is the deal: The function getCursorPositoin returs the character
-  // position of the cursor, not the screenposition. i.e. assume the line
+  // O.K here is the deal: The function getCursorPositoin returns the character
+  // position of the cursor, not the screenposition. I.e,. assume the line
   // consists of ab\tc then the character c will be on the screen on position 8
-  // whereas getCursorPosition would return 3 if the cursors is on the character c.
+  // whereas getCursorPosition will return 3 if the cursors is on the character c.
   // Therefore we need to compute the screen position from the character position.
-  // that's what all the following trouble is all about:
+  // That's what all the following trouble is all about:
   
   coltemp  = 	col;
   int pos  = 	0;
@@ -373,12 +444,12 @@ void KEdit::compute_Position(){
   int mem  = 	0;
   bool found_one = false;
 
-  // if you understand the following alogrigthm you are worthy to look at the
-  // kedit+ sources, if not, go away ;-)
+  // if you understand the following algorithm you are worthy to look at the
+  // kedit+ sources -- if not, go away ;-)
 
-  while(find >=0 && find <= coltemp- 1){
-    find = linetext.find('\t',find,TRUE);
-    if( find >=0 && find <= coltemp - 1){
+  while(find >=0 && find <= coltemp- 1 ){
+    find = linetext.find('\t', find, TRUE );
+    if( find >=0 && find <= coltemp - 1 ){
       found_one = true;
       pos = pos + find - mem;
       pos = pos + 8  - pos % 8;
@@ -399,15 +470,17 @@ void KEdit::compute_Position(){
 
 }
 
-void KEdit::keyPressEvent ( QKeyEvent *e){
 
+void KEdit::keyPressEvent ( QKeyEvent *e){
 
   QString* pstring;
 
   if (e->key() == Key_Tab){
+    if (isReadOnly())
+      return;
     QMultiLineEdit::insertChar((char)'\t');
-    compute_Position();
-    emit update_status_bar();
+    setModified();
+    emit CursorPositionChanged();
     return;
   }
 
@@ -424,14 +497,14 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
 
     // word break algorithm
     if(isprint(e->ascii())){
-    
+ 
       // printf("col_pos %d\n",col_pos);
       if( col_pos > fill_column_value - 1){ 
 
 	if (e->ascii() == 32 ){ // a space we can just break here
-	  newLine();
-	  compute_Position();
-	  emit update_status_bar();
+	  mynewLine();
+	  //  setModified();
+	  emit CursorPositionChanged();
 	  return;	 
 	}
 
@@ -443,8 +516,8 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
 	if( space_pos == -1 ){ 
 	  
 	  // no space to be found on line, just break, what else could we do?
-	  newLine();
-	  compute_Position();  
+	  mynewLine();
+	  computePosition();  
 
 	}
 	else{
@@ -454,28 +527,41 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
 
 	  // go back to the space
 
+	  focusOutEvent(&QFocusEvent(Event_FocusOut));
+
 	  for(uint i = 0; i < (pstring->length() - space_pos -1 ); i++){
 	    cursorLeft();
 	  }
 	  
 	  // insert a newline there
 
-	  newLine();
+	  mynewLine();
 	  end(FALSE);
-	  compute_Position();
+
+	  focusOutEvent(&QFocusEvent(Event_FocusIn));
+
+	  computePosition();
 	}
       }
 
       QMultiLineEdit::keyPressEvent(e);
-      compute_Position();
-      emit update_status_bar();
+      // setModified();
+      emit CursorPositionChanged();
       return;
     }
     else{ // not isprint that is some control character or some such
   
+      if(e->key() == Key_Return || e->key() == Key_Enter){
+    
+	mynewLine();
+	//setModified();
+	emit CursorPositionChanged();
+	return;
+      }
+
       QMultiLineEdit::keyPressEvent(e);
-      compute_Position();
-      emit update_status_bar();
+      // setModified();
+      emit CursorPositionChanged();
       return;
 
     }
@@ -486,29 +572,143 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
 
   if (fill_column_is_set){
 
+    if(e->key() == Key_Return || e->key() == Key_Enter){
+    
+      mynewLine();
+      // setModified();
+      emit CursorPositionChanged();
+      return;
+
+    }
+
     if(isprint(e->ascii())){
     
-      //      printf("col_pos %d\n",col_pos);
       if( col_pos > fill_column_value - 1){ 
-
-	  newLine();
-	  compute_Position();  
+	  mynewLine();
+	  //  setModified();
       }
 
     }
 
     QMultiLineEdit::keyPressEvent(e);
-    compute_Position();
-    emit update_status_bar();
+    //setModified();
+    emit CursorPositionChanged();
     return;
 
   }
 
   // default action
+  if(e->key() == Key_Return || e->key() == Key_Enter){
+    
+    mynewLine();
+    //setModified();
+    emit CursorPositionChanged();
+    return;
+
+  }
 
   QMultiLineEdit::keyPressEvent(e);
-  compute_Position();
-  emit update_status_bar();
+  //setModified();
+  emit CursorPositionChanged();
+
+}
+
+
+void KEdit::mynewLine(){
+
+  if (isReadOnly())
+    return;
+
+  setModified();
+
+  if(!autoIndentMode){ // if not indent mode
+    newLine();
+    return;
+  }
+
+  int line,col;
+  bool found_one = false;
+
+  getCursorPosition(&line,&col);
+  
+  QString string, string2;
+
+  while(line >= 0){
+
+    string  = textLine(line);
+    string2 = string.stripWhiteSpace();
+
+    if(!string2.isEmpty()){
+      string = prefixString(string);
+      found_one = TRUE;
+      break;
+    }
+
+    line --;
+  }
+      
+  // string will now contain those whitespace characters that I need to insert
+  // on the next line. 
+
+  if(found_one){
+
+    // don't ask my why I programmed it this way. I am quite sick of the Qt 1.2
+    // MultiLineWidget -- It is anoyingly buggy. 
+    // I have to put in obscure workarounds all over the place. 
+
+    focusOutEvent(&QFocusEvent(Event_FocusOut));
+    newLine();
+    
+    for(uint i = 0; i < string.length();i++){
+      insertChar(string.data()[i]);
+    }
+
+    // this f***king doesn't work.
+    // insertAt(string.data(),line + 1,0);
+
+    focusInEvent(&QFocusEvent(Event_FocusIn));
+
+  }
+  else{
+    newLine();
+  }
+}
+
+void KEdit::setAutoIndentMode(bool mode){
+
+  autoIndentMode = mode;
+
+}
+
+
+QString KEdit::prefixString(QString string){
+  
+  // This routine return the whitespace before the first none white space
+  // character in string. This is  used in mynewLine() for indent mode.
+  // It is assumed that string contains at least one non whitespace character
+  // ie \n \r \t \v \f and space
+  
+  //  printf(":%s\n",string.data());
+
+  int size = string.size();
+  char* buffer = (char*) malloc(size + 1);
+  strncpy (buffer, string.data(),size - 1);
+  buffer[size] = '\0';
+
+  int i;
+  for (i = 0 ; i < size; i++){
+    if(!isspace(buffer[i]))
+      break;
+  }
+
+  buffer[i] = '\0';
+
+  QString returnstring = buffer;
+  
+  free(buffer);
+
+  //  printf(":%s:\n",returnstring.data());
+  return returnstring;
 
 }
 
@@ -516,62 +716,70 @@ void KEdit::mousePressEvent (QMouseEvent* e){
 
   
   QMultiLineEdit::mousePressEvent(e);
-  compute_Position();
-  emit update_status_bar();
+  emit CursorPositionChanged();
 
 }
 
 void KEdit::mouseMoveEvent (QMouseEvent* e){
 
   QMultiLineEdit::mouseMoveEvent(e);
-  compute_Position();
-  emit update_status_bar();
+  emit CursorPositionChanged();
   
 
 }
 
 
+void KEdit::installRBPopup(QPopupMenu* p){
+
+  rb_popup = p;
+
+}
+
 void KEdit::mouseReleaseEvent (QMouseEvent* e){
 
   
   QMultiLineEdit::mouseReleaseEvent(e);
-  compute_Position();
-  emit update_status_bar();
+  emit CursorPositionChanged();
 
 }
 
 
 int KEdit::saveFile(){
 
+
     if(!modified) {
       emit saving();
-      a->processEvents();
+      mykapp->processEvents();
       return KEDIT_OK;
     }
 
-    QString backup_filename;
-    backup_filename = filename;
-    backup_filename += '~';
-
-    rename(filename,backup_filename.data());
-
     QFile file(filename);
+    QString backup_filename;
+
+    if(file.exists()){
+
+      backup_filename = filename;
+      backup_filename.detach();
+      backup_filename += '~';
+
+      rename(filename.data(),backup_filename.data());
+    }
 
     if( !file.open( IO_WriteOnly | IO_Truncate )) {
-      rename(backup_filename.data(),filename);
-      QMessageBox::message("Sorry","Could not save the file\n","OK");
+      rename(backup_filename.data(),filename.data());
+      QMessageBox::message("Sorry","Could not save the document\n","OK");
       return KEDIT_OS_ERROR;
     }
 
     emit saving();
-    a->processEvents();
+    mykapp->processEvents();
       
     QTextStream t(&file);
     
     int line_count = numLines();
 
     for(int i = 0 ; i < line_count ; i++){
-      t << textLine(i) << '\n';
+	t << textLine(i) << '\n';
     }
 
     modified = FALSE;    
@@ -596,12 +804,13 @@ try_again:
 
     box->show();
 
-    if (!box->result()){
-      delete box;
-      return KEDIT_USER_CANCEL;
-    }
+    if (!box->result())
+      {
+	delete box;
+	return KEDIT_USER_CANCEL;
+      }
 
-    if(box->selectedFile().isNull()){
+    if(box->selectedFile().isEmpty()){
       delete box;
       return KEDIT_USER_CANCEL;
     }
@@ -619,7 +828,7 @@ try_again:
 
     tmpfilename = filename;
 
-    qstrncpy(filename, box->selectedFile().data(), 1023);
+    filename = box->selectedFile();
 
     // we need this for saveFile();
     modified = TRUE; 
@@ -629,7 +838,7 @@ try_again:
     result =  saveFile();
     
     if( result != KEDIT_OK)
-      qstrncpy(filename,tmpfilename.data(),1023); // revert filename
+      filename = tmpfilename; // revert filename
 	
     return result;
       
@@ -643,7 +852,7 @@ int KEdit::doSave()
     
   int result = 0;
     
-    if(strcmp(filename, "Untitled") == 0) {
+    if(filename == "Untitled") {
       result = saveAs();
 
       if(result == KEDIT_OK)
@@ -667,31 +876,38 @@ int KEdit::doSave()
 
 int KEdit::doSave( const char *_name ){
 
-    QString n = filename;
-    strcpy( filename, _name );
+    QString temp  = filename;
+    filename =  _name;
+    filename.detach();
 
-    int erg = saveFile();
+    int result = saveFile();
 
-    strcpy( filename, n.data() );
-    return erg;
+    filename = temp;
+    filename.detach();
+    return result;
 }
 
 
 void KEdit::setName( const char *_name ){
 
-    strcpy( filename, _name );
+    filename = _name;
+    filename.detach();
 }
 
 
-const char *KEdit::getName(){
+QString KEdit::getName(){
 
     return filename;
 }
 
 
+void KEdit::saveBackupCopy(bool par){
+
+  make_backup_copies = par;
+
+}
 void KEdit::selectFont(){
  
-
   QFont font = this->font();
   KFontDialog::getFont(font);
   this->setFont(font);
@@ -700,7 +916,9 @@ void KEdit::selectFont(){
 
 void KEdit::setModified(){
 
-    modified = TRUE;
+  modified = TRUE;
+
+
 }
 
 void KEdit::toggleModified( bool _mod ){
@@ -717,27 +935,8 @@ bool KEdit::isModified(){
 
 
 
-int KEdit::setEditMode(int mode){
-
-    int oldmode = edit_mode;
-    edit_mode = mode;
-    //    setReadOnly(mode & OPEN_READONLY);
-    setContextSens();
-    return oldmode;
-}
-
-
 void KEdit::setContextSens(){
-  /*
-    context->setItemEnabled(MENU_ID_OPEN, k_flags & ALLOW_OPEN);
-    context->setItemEnabled(MENU_ID_INSERT, (k_flags & ALLOW_SAVE) 
-			    && (edit_mode & OPEN_READWRITE));
 
-    context->setItemEnabled(MENU_ID_SAVE, (k_flags & ALLOW_SAVE) 
-			    && (edit_mode & OPEN_READWRITE));
-
-    context->setItemEnabled(MENU_ID_SAVEAS, k_flags & ALLOW_SAVEAS);
-    */
 }
 
 
@@ -757,9 +956,8 @@ bool KEdit::eventFilter(QObject *o, QEvent *ev){
 
   tmp_point = QCursor::pos();
   
-  if(p_parent)
-    ((TopLevel*)p_parent)->right_mouse_button->popup(tmp_point);   
-
+  if(rb_popup)
+    rb_popup->popup(tmp_point);
 
   return TRUE;
 
@@ -772,114 +970,838 @@ QString KEdit::markedText(){
 
 }
 
+void KEdit::doGotoLine() {
 
+	if( !gotodialog )
+		gotodialog = new KEdGotoLine( this, "gotodialog" );
+
+	this->clearFocus();
+
+	gotodialog->show();
+	// this seems to be not necessary
+	// gotodialog->setFocus();
+	if( gotodialog->result() ) {
+		setCursorPosition( gotodialog->getLineNumber() , 0, FALSE );
+		emit CursorPositionChanged();
+		setFocus();
+	}
+}
+
+//////////////////////////////////////////////////////////////////////////
+//
+// Find Methods
+//
  
-void KEdit::initSearch(){
+void KEdit::Search(){
   
-  int result = 1;
 
-  if(!srchdialog)
+  if(!srchdialog){
     srchdialog = new KEdSrch(this, "searchdialog");
+    connect(srchdialog,SIGNAL(search_signal()),this,SLOT(search_slot()));
+    connect(srchdialog,SIGNAL(search_done_signal()),this,SLOT(searchdone_slot()));
+  }
+
+  // If we already searched / replaced something before make sure it shows
+  // up in the find dialog line-edit.
+
+  QString string;
+  string = srchdialog->getText();
+  if(string.isEmpty())
+    srchdialog->setText(pattern);
+
+  this->deselect();
+  last_search = NONE;
+
   this->clearFocus();
   srchdialog->show();
-  srchdialog->setFocus();
-  if(srchdialog->result()) {
-    result = doSearch(srchdialog->getText(), TRUE);
+  srchdialog->result();
+}
+
+
+void KEdit::search_slot(){
+
+  int line, col;
+
+  if (!srchdialog)
+    return;
+
+  QString to_find_string = srchdialog->getText();
+  getCursorPosition(&line,&col);
+  
+  // srchdialog->get_direction() is true if searching backward
+
+  if (last_search != NONE && srchdialog->get_direction()){
+    col = col  - pattern.length() - 1 ;
   }
-  
-  if(result == 0)
-    QMessageBox::message("Search", "No  matches found", "Ok");
-  
-  this->setFocus();
+
+again:
+  int  result = doSearch(to_find_string, srchdialog->case_sensitive(),
+			 FALSE, (!srchdialog->get_direction()),line,col);
+    
+  if(result == 0){
+    if(!srchdialog->get_direction()){ // forward search
+    
+      int query = QMessageBox::query("Find", "End of document reached.\n"\
+				   "Continue from the beginning?", "Yes","No");
+      if (query){
+	line = 0;
+	col = 0;
+	goto again;
+      }
+    }
+    else{ //backward search
+      
+      int query = QMessageBox::query("Find", "Beginning of document reached.\n"\
+				   "Continue from the end?", "Yes","No");
+      if (query){
+	QString string = textLine( numLines() - 1 );
+	line = numLines() - 1;
+	col  = string.length();
+	last_search = BACKWARD;
+	goto again;
+      }
+    }
+  }
+  else{
+    emit CursorPositionChanged(); 
+  }
 }
 
 
 
-int KEdit::doSearch(const char *s_pattern, int mode)
-{
-    int line, col, i, length;
-    QRegExp re;
-    
-    if(mode) {
-        re = QRegExp(s_pattern, FALSE, FALSE);
-        *pattern = '\0';
-	getCursorPosition(&line, &col);
-    }
-    else {
-      
-      if(strcmp(pattern,"") == 0)
-	return 1;
-	
-      re = QRegExp(pattern, FALSE, FALSE);
-	getCursorPosition(&line, &col);
-	col +=1;
-    }
+void KEdit::searchdone_slot(){
+
+  if (!srchdialog)
+    return;
+
+  srchdialog->hide();
+  this->setFocus();
+  last_search = NONE;
+
+}
+
+int KEdit::doSearch(QString s_pattern, bool case_sensitive, 
+		    bool wildcard, bool forward, int line, int col){
+
+  (void) wildcard; // reserved for possible extension to regex
+
+
+  int i, length;  
+  int pos = -1;
+
+  if(forward){
+
+    QString string;
 
     for(i = line; i < numLines(); i++) {
-        if((col = re.match(textLine(i), i == line ? col : 0, &length)) != -1) {
 
-	    setCursorPosition(i,col,FALSE);
-	    cursorRight(TRUE);
-	    setCursorPosition(i ,col + length,TRUE);
+      string = textLine(i);
 
-            qstrncpy(pattern, s_pattern, 255);  /* accept the pattern */
-            return 1;
-        }
+      pos = string.find(s_pattern, i == line ? col : 0, case_sensitive);
+      
+      if( pos != -1){
+      
+	length = s_pattern.length();
+
+	setCursorPosition(i,pos,FALSE);
+      
+	for(int l = 0 ; l < length; l++){
+	  cursorRight(TRUE);
+	}
+      
+	setCursorPosition( i , pos + length, TRUE );
+	pattern = s_pattern;
+	last_search = FORWARD;
+
+	return 1;
+      }
     }
-    return 0;
+  }
+  else{ // searching backwards
+
+    QString string;
+    
+    for(i = line; i >= 0; i--) {
+
+      string = textLine(i);
+      int line_length = string.length();
+
+      pos = string.findRev(s_pattern, line == i ? col : line_length , case_sensitive);
+
+      if (pos != -1){
+
+	length = s_pattern.length();
+
+	if( ! (line == i && pos > col ) ){
+
+	  setCursorPosition(i ,pos ,FALSE );
+      
+	  for(int l = 0 ; l < length; l++){
+	    cursorRight(TRUE);
+	  }	
+      
+	  setCursorPosition(i ,pos + length ,TRUE );
+	  pattern = s_pattern;
+	  last_search = BACKWARD;
+	  return 1;
+
+	}
+      }
+
+    }
+  }
+  
+  return 0;
+
 }
 
 
 
 int KEdit::repeatSearch() {
   
-  int result;
-
   if(!srchdialog)
       return 0;
-  
-  result = doSearch(srchdialog->getText(), FALSE);
-  
-  if(result == 0)
-    QMessageBox::message("Search", "No  more matches found", "Ok");
+
+
+  if(pattern.isEmpty()) // there wasn't a previous search
+    return 0;
+
+  search_slot();
 
   this->setFocus();
+  return 1;
+
+}
+
+
+//////////////////////////////////////////////////////////////////////////
+//
+// Replace Methods
+//
+
+
+void KEdit::Replace(){
   
-  return result;
+
+  if(!replace_dialog){
+    
+    replace_dialog = new KEdReplace(this, "replace_dialog");
+    connect(replace_dialog,SIGNAL(find_signal()),this,SLOT(replace_search_slot()));
+    connect(replace_dialog,SIGNAL(replace_signal()),this,SLOT(replace_slot()));
+    connect(replace_dialog,SIGNAL(replace_all_signal()),this,SLOT(replace_all_slot()));
+    connect(replace_dialog,SIGNAL(replace_done_signal()),this,SLOT(replacedone_slot()));
+  
+  }
+
+  QString string = replace_dialog->getText();
+
+  if(string.isEmpty())
+    replace_dialog->setText(pattern);
+
+
+  this->deselect();
+  last_replace = NONE;
+
+  this->clearFocus();
+  //  replace_dialog->setFocus();
+  //  replace_dialog->exec();
+  replace_dialog->show();
+  replace_dialog->result();
 }
 
 
-void KEdSrch::selected(int)
-{
-    accept();
+void KEdit::replace_slot(){
+
+  if (!replace_dialog)
+    return;
+
+  if(!can_replace){
+    QApplication::beep();
+    return;
+  }
+
+  int line,col, length;
+
+  QString string = replace_dialog->getReplaceText();
+  length = string.length();
+
+  this->cut();
+
+  getCursorPosition(&line,&col);
+
+  insertAt(string,line,col);
+  setModified();
+  can_replace = FALSE;
+
+  setCursorPosition(line,col);
+  for( int k = 0; k < length; k++){
+    cursorRight(TRUE);
+  }
+
 }
+
+void KEdit::replace_all_slot(){
+
+  if (!replace_dialog)
+    return;
+
+  QString to_find_string = replace_dialog->getText();
+  getCursorPosition(&replace_all_line,&replace_all_col);
+  
+  // replace_dialog->get_direction() is true if searching backward
+
+  if (last_replace != NONE && replace_dialog->get_direction()){
+    replace_all_col = replace_all_col  - pattern.length() - 1 ;
+  }
+  
+  deselect();
+
+again:
+
+  setAutoUpdate(FALSE);
+  int result = 1;
+
+  while(result){
+
+    result = doReplace(to_find_string, replace_dialog->case_sensitive(),
+		       FALSE, (!replace_dialog->get_direction()),
+		       replace_all_line,replace_all_col,TRUE);
+
+  }
+
+  setAutoUpdate(TRUE);
+  update();
+    
+  if(!replace_dialog->get_direction()){ // forward search
+    
+    int query = QMessageBox::query("Find", "End of document reached.\n"\
+				   "Continue from the beginning?", "Yes","No");
+    if (query){
+      replace_all_line = 0;
+      replace_all_col = 0;
+      goto again;
+    }
+  }
+  else{ //backward search
+    
+    int query = QMessageBox::query("Find", "Beginning of document reached.\n"\
+				   "Continue from the end?", "Yes","No");
+    if (query){
+      QString string = textLine( numLines() - 1 );
+      replace_all_line = numLines() - 1;
+      replace_all_col  = string.length();
+      last_replace = BACKWARD;
+      goto again;
+    }
+  }
+
+  emit CursorPositionChanged(); 
+
+}
+
+
+void KEdit::replace_search_slot(){
+
+  int line, col;
+
+  if (!replace_dialog)
+    return;
+
+  QString to_find_string = replace_dialog->getText();
+  getCursorPosition(&line,&col);
+  
+  // replace_dialog->get_direction() is true if searching backward
+
+  //printf("col %d length %d\n",col, pattern.length());
+
+  if (last_replace != NONE && replace_dialog->get_direction()){
+    col = col  - pattern.length() -1;
+    if (col < 0 ) {
+      if(line !=0){
+	col = strlen(textLine(line - 1));
+	line --;
+      }
+      else{
+
+	int query = QMessageBox::query("Find", "Beginning of document reached.\n"\
+				   "Continue from the end?", "Yes","No");
+
+	if (query){
+	  QString string = textLine( numLines() - 1 );
+	  line = numLines() - 1;
+	  col  = string.length();
+	  last_replace = BACKWARD;
+	}
+      }
+    }
+  }
+
+again:
+
+  //  printf("Col %d \n",col);
+
+  int  result = doReplace(to_find_string, replace_dialog->case_sensitive(),
+			 FALSE, (!replace_dialog->get_direction()), line, col, FALSE );
+    
+  if(result == 0){
+    if(!replace_dialog->get_direction()){ // forward search
+    
+      int query = QMessageBox::query("Find", "End of document reached.\n"\
+				   "Continue from the beginning?", "Yes","No");
+      if (query){
+	line = 0;
+	col = 0;
+	goto again;
+      }
+    }
+    else{ //backward search
+      
+      int query = QMessageBox::query("Find", "Beginning of document reached.\n"\
+				   "Continue from the end?", "Yes","No");
+      if (query){
+	QString string = textLine( numLines() - 1 );
+	line = numLines() - 1;
+	col  = string.length();
+	last_replace = BACKWARD;
+	goto again;
+      }
+    }
+  }
+  else{
+
+    emit CursorPositionChanged(); 
+  }
+}
+
+
+
+void KEdit::replacedone_slot(){
+
+  if (!replace_dialog)
+    return;
+  
+  replace_dialog->hide();
+  //  replace_dialog->clearFocus();
+
+  this->setFocus();
+
+  last_replace = NONE;
+  can_replace  = FALSE;
+
+}
+
+
+
+int KEdit::doReplace(QString s_pattern, bool case_sensitive, 
+	   bool wildcard, bool forward, int line, int col, bool replace_all){
+
+
+  (void) wildcard; // reserved for possible extension to regex
+
+  int line_counter, length;  
+  int pos = -1;
+
+  QString string;
+  QString stringnew;
+  QString replacement;
+  
+  replacement = replace_dialog->getReplaceText();
+  line_counter = line;
+  replace_all_col = col;
+
+  if(forward){
+
+    int num_lines = numLines();
+
+    while (line_counter < num_lines){
+      
+      string = "";
+      string = textLine(line_counter);
+
+      if (replace_all){
+	pos = string.find(s_pattern, replace_all_col, case_sensitive);
+      }
+      else{
+	pos = string.find(s_pattern, line_counter == line ? col : 0, case_sensitive);
+      }
+
+      if (pos == -1 ){
+	line_counter ++;
+	replace_all_col = 0;
+	replace_all_line = line_counter;
+      }
+
+      if( pos != -1){
+
+	length = s_pattern.length();
+	
+	if(replace_all){ // automatic
+
+	  stringnew = string.copy();
+	  stringnew.replace(pos,length,replacement);
+
+	  removeLine(line_counter);
+	  insertLine(stringnew.data(),line_counter);
+
+	  replace_all_col = replace_all_col + replacement.length();
+	  replace_all_line = line_counter;
+
+	  setModified();
+	}
+	else{ // interactive
+
+	  setCursorPosition( line_counter , pos, FALSE );
+
+	  for(int l = 0 ; l < length; l++){
+	    cursorRight(TRUE);
+	  }
+
+	  setCursorPosition( line_counter , pos + length, TRUE );
+	  pattern = s_pattern;
+	  last_replace = FORWARD;
+	  can_replace = TRUE;
+
+	  return 1;
+
+	}
+	
+      }
+    }
+  }
+  else{ // searching backwards
+
+    while(line_counter >= 0){
+
+      string = "";
+      string = textLine(line_counter);
+
+      int line_length = string.length();
+
+      if( replace_all ){
+      	pos = string.findRev(s_pattern, replace_all_col , case_sensitive);
+      }
+      else{
+	pos = string.findRev(s_pattern, 
+			   line == line_counter ? col : line_length , case_sensitive);
+      }
+
+      if (pos == -1 ){
+	line_counter --;
+
+	if(line_counter >= 0){
+	  string = "";
+	  string = textLine(line_counter);
+	  replace_all_col = string.length();
+	  
+	}
+	replace_all_line = line_counter;
+      }
+
+
+      if (pos != -1){
+	length = s_pattern.length();
+
+	if(replace_all){ // automatic
+
+	  stringnew = string.copy();
+	  stringnew.replace(pos,length,replacement);
+
+	  removeLine(line_counter);
+	  insertLine(stringnew.data(),line_counter);
+
+	  replace_all_col = replace_all_col - replacement.length();
+	  replace_all_line = line_counter;
+
+	  setModified();
+
+	}
+	else{ // interactive
+
+	  //	  printf("line_counter %d pos %d col %d\n",line_counter, pos,col);
+	  if( ! (line == line_counter && pos > col ) ){
+
+	    setCursorPosition(line_counter ,pos ,FALSE );
+      
+	    for(int l = 0 ; l < length; l++){
+	      cursorRight(TRUE);
+	    }	
+	
+	    setCursorPosition(line_counter ,pos + length ,TRUE );
+	    pattern = s_pattern;
+
+	    last_replace = BACKWARD;
+	    can_replace = TRUE;
+
+	    return 1;
+	  }
+	}
+      }
+    }
+  }
+  
+  return 0;
+
+}
+
+
+
+
+
+////////////////////////////////////////////////////////////////////
+//
+// Find Dialog
+//
 
 
 KEdSrch::KEdSrch(QWidget *parent, const char *name)
-     : QDialog(parent, name, TRUE)
+    : QDialog(parent, name,TRUE){
 
-{
-    frame1 = new QGroupBox("Search for", this, "frame1");
-    values = new QLineEdit( this, "values");
     this->setFocusPolicy(QWidget::StrongFocus);
-    connect(values, SIGNAL(returnPressed()), this, SLOT(accept()));
-    sensitive = new QCheckBox("Case sensitive", this, "sens");
+    frame1 = new QGroupBox("Find", this, "frame1");
+
+    value = new QLineEdit( this, "value");
+    value->setFocus();
+    connect(value, SIGNAL(returnPressed()), this, SLOT(ok_slot()));
+
+    sensitive = new QCheckBox("Case Sensitive", this, "case");
+    direction = new QCheckBox("Find Backwards", this, "direction");
+
     ok = new QPushButton("Find", this, "find");
-    cancel = new QPushButton("Cancel", this, "cancel");
-    connect(cancel, SIGNAL(clicked()), this, SLOT(reject()));
-    connect(ok, SIGNAL(clicked()), this, SLOT(accept()));
-    resize(300, 120);
+    connect(ok, SIGNAL(clicked()), this, SLOT(ok_slot()));
+
+    cancel = new QPushButton("Done", this, "cancel");
+    connect(cancel, SIGNAL(clicked()), this, SLOT(done_slot()));
+    //    connect(cancel, SIGNAL(clicked()), this, SLOT(reject()));
+
+    setFixedSize(330, 130);
+
 }
 
-QString KEdSrch::getText() { return values->text(); }
-
-
-void KEdSrch::resizeEvent(QResizeEvent *)
+void KEdSrch::focusInEvent( QFocusEvent *)
 {
+    value->setFocus();
+    //value->selectAll();
+}
+
+QString KEdSrch::getText() { return value->text(); }
+
+void KEdSrch::setText(QString string){
+
+  value->setText(string);
+
+}
+
+void KEdSrch::done_slot(){
+
+  emit search_done_signal();
+
+}
+
+
+bool KEdSrch::case_sensitive(){
+
+  return sensitive->isChecked();
+
+}
+
+bool KEdSrch::get_direction(){
+
+  return direction->isChecked();
+
+}
+
+
+void KEdSrch::ok_slot(){
+
+  QString text;
+
+  text = value->text();
+
+  if (!text.isEmpty())
+    emit search_signal();
+
+}
+
+
+void KEdSrch::resizeEvent(QResizeEvent *){
+
+
     frame1->setGeometry(5, 5, width() - 10, 80);
     cancel->setGeometry(width() - 80, height() - 30, 70, 25);
     ok->setGeometry(10, height() - 30, 70, 25);
-    values->setGeometry(20, 25, width() - 40, 25);
-    sensitive->setGeometry(20, 55, 100, 25);
+    value->setGeometry(20, 25, width() - 40, 25);
+    sensitive->setGeometry(20, 55, 110, 25);
+    direction->setGeometry(width()- 20 - 130, 55, 130, 25);
+
 }
 
+
+
+////////////////////////////////////////////////////////////////////
+//
+//  Replace Dialog
+//
+
+
+KEdReplace::KEdReplace(QWidget *parent, const char *name)
+    : QDialog(parent, name,TRUE){
+
+
+    this->setFocusPolicy(QWidget::StrongFocus);
+
+    frame1 = new QGroupBox("Find:", this, "frame1");
+
+    value = new QLineEdit( this, "value");
+    value->setFocus();
+    connect(value, SIGNAL(returnPressed()), this, SLOT(ok_slot()));
+
+    replace_value = new QLineEdit( this, "replac_value");
+    connect(replace_value, SIGNAL(returnPressed()), this, SLOT(ok_slot()));
+
+    label = new QLabel(this,"Rlabel");
+    label->setText("Replace with:");
+
+    sensitive = new QCheckBox("Case Sensitive", this, "case");
+    sensitive->setChecked(TRUE);
+
+    direction = new QCheckBox("Find Backwards", this, "direction");
+    
+    ok = new QPushButton("Find", this, "find");
+    connect(ok, SIGNAL(clicked()), this, SLOT(ok_slot()));
+
+    replace = new QPushButton("Replace", this, "rep");
+    connect(replace, SIGNAL(clicked()), this, SLOT(replace_slot()));
+
+    replace_all = new QPushButton("Replace All", this, "repall");
+    connect(replace_all, SIGNAL(clicked()), this, SLOT(replace_all_slot()));
+
+    cancel = new QPushButton("Done", this, "cancel");
+    connect(cancel, SIGNAL(clicked()), this, SLOT(done_slot()));
+
+    setFixedSize(330, 180);
+
+}
+
+
+void KEdReplace::focusInEvent( QFocusEvent *){
+
+    value->setFocus();
+    // value->selectAll();
+}
+
+QString KEdReplace::getText() { return value->text(); }
+
+QString KEdReplace::getReplaceText() { return replace_value->text(); }
+
+void KEdReplace::setText(QString string) { 
+
+  value->setText(string); 
+
+}
+
+void KEdReplace::done_slot(){
+
+  emit replace_done_signal();
+
+}
+
+
+void KEdReplace::replace_slot(){
+
+  emit replace_signal();
+
+}
+
+void KEdReplace::replace_all_slot(){
+
+  emit replace_all_signal();
+
+}
+
+
+bool KEdReplace::case_sensitive(){
+
+  return sensitive->isChecked();
+
+}
+
+
+bool KEdReplace::get_direction(){
+
+  return direction->isChecked();
+
+}
+
+
+void KEdReplace::ok_slot(){
+
+  QString text;
+  text = value->text();
+
+  if (!text.isEmpty())
+    emit find_signal();
+
+}
+
+
+void KEdReplace::resizeEvent(QResizeEvent *){
+
+    frame1->setGeometry(5, 5, width() - 10, 135);
+
+    cancel->setGeometry(width() - 80, height() - 30, 70, 25);
+    ok->setGeometry(10, height() - 30, 70, 25);
+    replace->setGeometry(85, height() - 30, 70, 25);
+    replace_all->setGeometry(160, height() - 30, 85, 25);
+
+    value->setGeometry(20, 25, width() - 40, 25);
+    replace_value->setGeometry(20, 80, width() - 40, 25);
+    
+    label->setGeometry(20,55,80,20);
+    sensitive->setGeometry(20, 110, 110, 25);
+    direction->setGeometry(width()- 20 - 130, 110, 130, 25);
+
+}
+
+
+
+
+void KEdGotoLine::selected(int)
+{
+	accept();
+}
+
+KEdGotoLine::KEdGotoLine( QWidget *parent, const char *name)
+	: QDialog( parent, name, TRUE )
+{
+	frame = new QGroupBox( "Goto Line", this );
+	lineNum = new KIntLineEdit( this );
+	this->setFocusPolicy( QWidget::StrongFocus );
+	connect(lineNum, SIGNAL(returnPressed()), this, SLOT(accept()));
+
+	ok = new QPushButton("Go", this );
+	cancel = new QPushButton("Cancel", this ); 
+
+	connect(cancel, SIGNAL(clicked()), this, SLOT(reject()));
+	connect(ok, SIGNAL(clicked()), this, SLOT(accept()));
+	resize(300, 120); 
+
+}
+
+void KEdGotoLine::resizeEvent(QResizeEvent *)
+{
+    frame->setGeometry(5, 5, width() - 10, 80);
+    cancel->setGeometry(width() - 80, height() - 30, 70, 25);
+    ok->setGeometry(10, height() - 30, 70, 25);
+    lineNum->setGeometry(20, 35, width() - 40, 25);
+}
+
+void KEdGotoLine::focusInEvent( QFocusEvent *)
+{
+    lineNum->setFocus();
+    lineNum->selectAll();
+}
+
+int KEdGotoLine::getLineNumber()
+{
+	return lineNum->getValue();
+}

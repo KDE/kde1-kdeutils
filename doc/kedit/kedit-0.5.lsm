@@ -1,14 +1,14 @@
 Begin3
-Title:          kedit+ 
-Version:        0.4.1
-Entered-date:   04/22/97
+Title:          KEditPlus
+Version:        0.5
+Entered-date:   05/20/97
 Description:    A simple Text editor for the KDE project
 Keywords:       KDE, Qt, gui, X11, editor, text editor
 Author:         <wuebben@math.cornell.edu> Bernd Johannes Wuebben
 Maintained-by:  <wuebben@math.cornell.edu> Bernd Johannes Wuebben
 Primary-site:   ftp://fiwi02.wiwi.uni-tuebingen.de/pub/kde/apps/editors
-Home-Page:      http://math.cornell.edu/~wuebben/kedit+/kedit+.html
-Alternate-site: ftp://math.cornell.edu/pub/wuebben/kedit+
+Home-Page:      http://math.cornell.edu/~wuebben/kedit/kedit.html
+Alternate-site: ftp://math.cornell.edu/pub/wuebben/kedit
 Original-site:  ftp://fiwi02.wiwi.uni-tuebingen.de/pub/kde/apps/editors
 Platform:       Unix with Qt 1.2 and kde libs
 Copying-policy: GPL 
