@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kzip 0.5\n"
 "POT-Creation-Date: 1998-01-02 21:12+0100\n"
-"PO-Revision-Date: 1997-11-19 22:50:52+0600\n"
+"PO-Revision-Date: 1998-01-17 22:29:52+0600\n"
 "Last-Translator: Denis Yu. Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -90,7 +90,7 @@ msgstr "Вначале откройте или создайте архив"
 
 #: kzip.cc:273
 msgid "Can't add directories with this archive type"
-msgstr ""
+msgstr "Не могу добавить подкаталоги в архив этого типа"
 
 #: kzip.cc:275
 msgid "Error saving to archive"
@@ -107,70 +107,3 @@ msgstr "Неизвестный формат архива"
 #: kzip.cc:378
 msgid "Archive Directory"
 msgstr "Подкаталог архивации"
-
-#, fuzzy
-#~ msgid "&New..."
-#~ msgstr "Новый"
-
-#~ msgid "&Delete"
-#~ msgstr "Удалить"
-
-#~ msgid "Browse..."
-#~ msgstr "Просмотр..."
-
-#~ msgid "&Open..."
-#~ msgstr "Открыть..."
-
-#~ msgid "&View"
-#~ msgstr "Просмотр"
-
-#~ msgid "Ok"
-#~ msgstr "Ок"
-
-#~ msgid "Cancel"
-#~ msgstr "Отмена"
-
-#~ msgid "&Close"
-#~ msgstr "Закрыть"
-
-#~ msgid "E&xit"
-#~ msgstr "Выход"
-
-#~ msgid "&Help..."
-#~ msgstr "Помощь..."
-
-#~ msgid "&About..."
-#~ msgstr "О программе..."
-
-#~ msgid "&File"
-#~ msgstr "Файл"
-
-#~ msgid "&Edit"
-#~ msgstr "Редактирование"
-
-#~ msgid "&Options"
-#~ msgstr "Опции"
-
-#~ msgid "&Help"
-#~ msgstr "Помощь"
-
-#~ msgid "None"
-#~ msgstr "Ничего"
-
-#~ msgid "Open With: (program)"
-#~ msgstr "Открыть припомощи:"
-
-#~ msgid "Permissions\tOwner/Group\tSize      \tTimeStamp         \tName\t"
-#~ msgstr "Права\tВладелец/Группа\tРазмер\tВремя\tИмя\t"
-
-#~ msgid ""
-#~ "Permsissions\tOwner/Group\tPacked      \tSize         "
-#~ "\tRatio\tCRC\tTimeStamp     \tName\t"
-#~ msgstr "Права\tВладелец/Группа\tЗапакованный\tРазмер\tСжатие\tВремя\tИмя\t"
-
-#~ msgid "Permissions\tOwner/Group\tSize        \tTimeStamp\tName\t"
-#~ msgstr "Права\tВладелец/Группа\tРазмер\tВремя\tИмя\t"
-
-#~ msgid ""
-#~ "Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
-#~ msgstr "Длина\tМетод\tРазмер\tСжатие\tДата\tВремя\tCRC-32\tИмя\t"

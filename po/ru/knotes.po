@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes 0.3\n"
 "POT-Creation-Date: 1997-12-31 15:20+0100\n"
-"PO-Revision-Date: 1997-11-19 22:50:52+0600\n"
+"PO-Revision-Date: 1998-01-17 22:36+0600\n"
 "Last-Translator: Denis Yu. Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -83,7 +83,7 @@ msgstr "3-ая рамка"
 
 #: configdlg.cpp:129 knotes.cpp:272
 msgid "Auto Indent"
-msgstr ""
+msgstr "Автовыравнивание"
 
 #: fontdlg.cpp:45
 msgid "Set Default Font"
@@ -94,14 +94,14 @@ msgid "Point Size:"
 msgstr "Пунктов:"
 
 #: knotes.cpp:245
-#, fuzzy
+#
 msgid "Text Color..."
-msgstr "Цвет Текста"
+msgstr "Цвет Текста..."
 
 #: knotes.cpp:246
-#, fuzzy
+#
 msgid "Background Color..."
-msgstr "Цвет фона"
+msgstr "Цвет фона..."
 
 #: knotes.cpp:252
 msgid "New Note"
@@ -112,9 +112,9 @@ msgid "Delete Note"
 msgstr "Удалить памятка"
 
 #: knotes.cpp:256
-#, fuzzy
+#
 msgid "Rename Note..."
-msgstr "Переименовать памятку"
+msgstr "Переименовать памятку..."
 
 #: knotes.cpp:258
 msgid "Alarm ..."
@@ -137,9 +137,9 @@ msgid "3D Frame"
 msgstr "3-ая рамка"
 
 #: knotes.cpp:274
-#, fuzzy
+#
 msgid "Font..."
-msgstr "Шрифт"
+msgstr "Шрифт..."
 
 #: knotes.cpp:275
 msgid "Colors"
@@ -150,9 +150,9 @@ msgid "Change Defaults ..."
 msgstr "Изменить установки..."
 
 #: knotes.cpp:303
-#, fuzzy
+#
 msgid "Hide Note"
-msgstr "Новая памятка"
+msgstr "Скрыть памятку"
 
 #: knotes.cpp:305
 msgid "Insert Date"
@@ -169,7 +169,7 @@ msgstr "Без рамки"
 #: knotes.cpp:379 knotes.cpp:383 knotes.cpp:577 knotes.cpp:787 knotes.cpp:791
 #: timer.cpp:87 timer.cpp:110
 msgid "Note: "
-msgstr ""
+msgstr "Памятка:"
 
 #: knotes.cpp:436
 msgid ""
@@ -193,7 +193,7 @@ msgstr ""
 " %s"
 
 #: knotes.cpp:664
-#, fuzzy
+#
 msgid ""
 "You have exeeded the arbitrary and unjustly set limit of 50 knotes.\n"
 " Please complain to the author."
@@ -303,30 +303,3 @@ msgstr ""
 "Памятка с таким именем уже существует\n"
 "Пожайлуста выберите другое имя."
 
-#~ msgid "Italic"
-#~ msgstr "Наклонный"
-
-#~ msgid "Roman"
-#~ msgstr "Роман"
-
-#~ msgid "Clear"
-#~ msgstr "Очистить"
-
-#~ msgid "Sorry"
-#~ msgstr "Извините"
-
-#~ msgid "Change"
-#~ msgstr "Изменить"
-
-#~ msgid "Options"
-#~ msgstr "Опции"
-
-#~ msgid ""
-#~ "Could not pipe the contents of this KNotes into:\n"
-#~ " %s"
-#~ msgstr ""
-#~ "Не могу перенаправить содержимое памяток в:\n"
-#~ " %s"
-
-#~ msgid "You can't delete the last KNote."
-#~ msgstr "Вы не можете удалить последнюю памятку."
