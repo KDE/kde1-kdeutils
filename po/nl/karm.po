@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:24+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Case Roole <cjr@xs4all.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,6 +90,15 @@ msgstr "S&top"
 msgid "&Task"
 msgstr "&Taak"
 
+#: top.cpp:71
+msgid "&Contents"
+msgstr "&Inhoud"
+
+#: top.cpp:74
+#, fuzzy
+msgid "&About"
+msgstr "Over "
+
 #: top.cpp:85
 msgid "Start Clock"
 msgstr "Start Klok"
@@ -128,6 +137,3 @@ msgstr "klok actief"
 
 #~ msgid "&Start"
 #~ msgstr "&Start"
-
-#~ msgid "&Contents"
-#~ msgstr "&Inhoud"

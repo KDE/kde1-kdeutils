@@ -1,106 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Knotes revision 1.10\n"
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
-
-#: alarm.cpp:58
-#, c-format
-msgid "Alarm Timer for: %s"
-msgstr "Alarmtid för: %s"
-
-#: alarm.cpp:72
-msgid "Unset"
-msgstr "Inte satt"
-
-#: alarm.cpp:74
-msgid "Set"
-msgstr "Sätt"
-
-#: alarm.cpp:153
-msgid "I am afraid you already missed your appointment."
-msgstr "Jag är rädd att du redan är för sen till ditt möte."
-
-#: bwdatetime.cpp:44
-msgid "Day:"
-msgstr "Dag:"
-
-#: bwdatetime.cpp:50
-msgid "Month:"
-msgstr "Månad:"
-
-#: bwdatetime.cpp:57
-msgid "Year:"
-msgstr "År:"
-
-#: bwdatetime.cpp:72
-msgid "Time:"
-msgstr "Tid:"
-
-#: bwdatetime.cpp:161
-msgid "The Time you selected is invalid"
-msgstr "Tiden du har valt  är ogiltig"
-
-#: bwdatetime.cpp:176
-msgid "The Date you selected is invalid"
-msgstr "Datumet du har valt är ogiltigt"
-
-#: configdlg.cpp:50
-msgid "Text Color:"
-msgstr "Text färg:"
-
-#: configdlg.cpp:64
-msgid "Background Color:"
-msgstr "Bakgrundsfärg:"
-
-#: configdlg.cpp:83
-msgid "Width:"
-msgstr "Bredd:"
-
-#: configdlg.cpp:93
-msgid "Height:"
-msgstr "Höjd:"
-
-#: configdlg.cpp:104
-msgid "Print Command:"
-msgstr "Utskriftskommando:"
-
-#: configdlg.cpp:112
-msgid "Mail Command:"
-msgstr "Postningskommando:"
-
-#: configdlg.cpp:123
-msgid "3d Frame"
-msgstr "3d-ram"
-
-#: configdlg.cpp:128 knotes.cpp:330
-msgid "Auto Indent"
-msgstr "Autoindentering"
-
-#: docking.cpp:71
-msgid "Change Defaults"
-msgstr "Ändra standardvärden ..."
-
-#: docking.cpp:76
-msgid "Exit Knotes"
-msgstr "Avsluta Knotes"
-
-#: docking.cpp:95
-msgid "New Knote"
-msgstr "Ny Knote"
-
-#: fontdlg.cpp:45
-msgid "Set Default Font"
-msgstr "Sätt standard font"
-
-#: fontdlg.cpp:64
-msgid "Point Size:"
-msgstr "Punkt storlek:"
 
 #: knotes.cpp:300
 msgid "Text Color..."
@@ -145,6 +52,10 @@ msgstr "Spara Notes"
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"
 msgstr "3D Ram"
+
+#: configdlg.cpp:128 knotes.cpp:330
+msgid "Auto Indent"
+msgstr "Autoindentering"
 
 #: knotes.cpp:332
 msgid "Font..."
@@ -282,6 +193,63 @@ msgstr ""
 msgid "Inconsistency"
 msgstr "Inkonsekvent"
 
+#: configdlg.cpp:50
+msgid "Text Color:"
+msgstr "Text färg:"
+
+#: configdlg.cpp:64
+msgid "Background Color:"
+msgstr "Bakgrundsfärg:"
+
+#: configdlg.cpp:83
+msgid "Width:"
+msgstr "Bredd:"
+
+#: configdlg.cpp:93
+msgid "Height:"
+msgstr "Höjd:"
+
+#: configdlg.cpp:104
+msgid "Print Command:"
+msgstr "Utskriftskommando:"
+
+#: configdlg.cpp:112
+msgid "Mail Command:"
+msgstr "Postningskommando:"
+
+#: configdlg.cpp:123
+msgid "3d Frame"
+msgstr "3d-ram"
+
+#: fontdlg.cpp:45
+msgid "Set Default Font"
+msgstr "Sätt standard font"
+
+#: fontdlg.cpp:54
+msgid "Family:"
+msgstr ""
+
+#: fontdlg.cpp:64
+msgid "Point Size:"
+msgstr "Punkt storlek:"
+
+#: fontdlg.cpp:75
+msgid "Style:"
+msgstr ""
+
+#: fontdlg.cpp:87
+#, fuzzy
+msgid "Weight:"
+msgstr "Höjd:"
+
+#: fontdlg.cpp:93 fontdlg.cpp:117 fontdlg.cpp:150
+msgid "Bold"
+msgstr ""
+
+#: fontdlg.cpp:95 fontdlg.cpp:119 fontdlg.cpp:152
+msgid "Normal"
+msgstr ""
+
 #: mail.cpp:40
 msgid "Mail Note to:"
 msgstr "Posta Note till:"
@@ -297,6 +265,47 @@ msgstr "Posta"
 #: mail.cpp:92
 msgid "You must specify a Recipient"
 msgstr "Du måste ange en mottagare"
+
+#: alarm.cpp:58
+#, c-format
+msgid "Alarm Timer for: %s"
+msgstr "Alarmtid för: %s"
+
+#: alarm.cpp:72
+msgid "Unset"
+msgstr "Inte satt"
+
+#: alarm.cpp:74
+msgid "Set"
+msgstr "Sätt"
+
+#: alarm.cpp:153
+msgid "I am afraid you already missed your appointment."
+msgstr "Jag är rädd att du redan är för sen till ditt möte."
+
+#: bwdatetime.cpp:44
+msgid "Day:"
+msgstr "Dag:"
+
+#: bwdatetime.cpp:50
+msgid "Month:"
+msgstr "Månad:"
+
+#: bwdatetime.cpp:57
+msgid "Year:"
+msgstr "År:"
+
+#: bwdatetime.cpp:72
+msgid "Time:"
+msgstr "Tid:"
+
+#: bwdatetime.cpp:161
+msgid "The Time you selected is invalid"
+msgstr "Tiden du har valt  är ogiltig"
+
+#: bwdatetime.cpp:176
+msgid "The Date you selected is invalid"
+msgstr "Datumet du har valt är ogiltigt"
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
@@ -321,3 +330,15 @@ msgid ""
 msgstr ""
 "En KNote med detta namn existerar redan.\n"
 "Var vänlig och välj ett annat namn"
+
+#: docking.cpp:71
+msgid "Change Defaults"
+msgstr "Ändra standardvärden ..."
+
+#: docking.cpp:76
+msgid "Exit Knotes"
+msgstr "Avsluta Knotes"
+
+#: docking.cpp:95
+msgid "New Knote"
+msgstr "Ny Knote"

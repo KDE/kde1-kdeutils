@@ -4,106 +4,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes 0.3\n"
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: 1998-09-03 22:36+0600\n"
 "Last-Translator: Denis Yu. Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=koi8-r\n"
 "Content-Transfer-Encoding: 8-bit\n"
-
-#: alarm.cpp:58
-#, c-format
-msgid "Alarm Timer for: %s"
-msgstr "Будильник для: %s"
-
-#: alarm.cpp:72
-msgid "Unset"
-msgstr "Очистить"
-
-#: alarm.cpp:74
-msgid "Set"
-msgstr "Установить"
-
-#: alarm.cpp:153
-msgid "I am afraid you already missed your appointment."
-msgstr "Боюсь, что вы уже опоздали на встречу."
-
-#: bwdatetime.cpp:44
-msgid "Day:"
-msgstr "День:"
-
-#: bwdatetime.cpp:50
-msgid "Month:"
-msgstr "Месяц:"
-
-#: bwdatetime.cpp:57
-msgid "Year:"
-msgstr "Год:"
-
-#: bwdatetime.cpp:72
-msgid "Time:"
-msgstr "Время:"
-
-#: bwdatetime.cpp:161
-msgid "The Time you selected is invalid"
-msgstr "Вы выбрали недопустимое время"
-
-#: bwdatetime.cpp:176
-msgid "The Date you selected is invalid"
-msgstr "Вы выбрали недопустимую дату"
-
-#: configdlg.cpp:50
-msgid "Text Color:"
-msgstr "Цвет Текста:"
-
-#: configdlg.cpp:64
-msgid "Background Color:"
-msgstr "Цвет фона:"
-
-#: configdlg.cpp:83
-msgid "Width:"
-msgstr "Ширина:"
-
-#: configdlg.cpp:93
-msgid "Height:"
-msgstr "Высота:"
-
-#: configdlg.cpp:104
-msgid "Print Command:"
-msgstr "Команда печать:"
-
-#: configdlg.cpp:112
-msgid "Mail Command:"
-msgstr "Команда почта"
-
-#: configdlg.cpp:123
-msgid "3d Frame"
-msgstr "3-ая рамка"
-
-#: configdlg.cpp:128 knotes.cpp:330
-msgid "Auto Indent"
-msgstr "Автовыравнивание"
-
-#: docking.cpp:71
-msgid "Change Defaults"
-msgstr "Изменить установки"
-
-#: docking.cpp:76
-msgid "Exit Knotes"
-msgstr "Выйти из заметок"
-
-#: docking.cpp:95
-msgid "New Knote"
-msgstr "Новая заметка"
-
-#: fontdlg.cpp:45
-msgid "Set Default Font"
-msgstr "Установить шрифт по умолчанию"
-
-#: fontdlg.cpp:64
-msgid "Point Size:"
-msgstr "Пунктов:"
 
 #
 #: knotes.cpp:300
@@ -151,6 +58,10 @@ msgstr "Записать заметку"
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"
 msgstr "3-ая рамка"
+
+#: configdlg.cpp:128 knotes.cpp:330
+msgid "Auto Indent"
+msgstr "Автовыравнивание"
 
 #
 #: knotes.cpp:332
@@ -290,6 +201,63 @@ msgstr ""
 msgid "Inconsistency"
 msgstr "Противоречие"
 
+#: configdlg.cpp:50
+msgid "Text Color:"
+msgstr "Цвет Текста:"
+
+#: configdlg.cpp:64
+msgid "Background Color:"
+msgstr "Цвет фона:"
+
+#: configdlg.cpp:83
+msgid "Width:"
+msgstr "Ширина:"
+
+#: configdlg.cpp:93
+msgid "Height:"
+msgstr "Высота:"
+
+#: configdlg.cpp:104
+msgid "Print Command:"
+msgstr "Команда печать:"
+
+#: configdlg.cpp:112
+msgid "Mail Command:"
+msgstr "Команда почта"
+
+#: configdlg.cpp:123
+msgid "3d Frame"
+msgstr "3-ая рамка"
+
+#: fontdlg.cpp:45
+msgid "Set Default Font"
+msgstr "Установить шрифт по умолчанию"
+
+#: fontdlg.cpp:54
+msgid "Family:"
+msgstr ""
+
+#: fontdlg.cpp:64
+msgid "Point Size:"
+msgstr "Пунктов:"
+
+#: fontdlg.cpp:75
+msgid "Style:"
+msgstr ""
+
+#: fontdlg.cpp:87
+#, fuzzy
+msgid "Weight:"
+msgstr "Высота:"
+
+#: fontdlg.cpp:93 fontdlg.cpp:117 fontdlg.cpp:150
+msgid "Bold"
+msgstr ""
+
+#: fontdlg.cpp:95 fontdlg.cpp:119 fontdlg.cpp:152
+msgid "Normal"
+msgstr ""
+
 #: mail.cpp:40
 msgid "Mail Note to:"
 msgstr "Отправить заметку:"
@@ -305,6 +273,47 @@ msgstr "Отправить"
 #: mail.cpp:92
 msgid "You must specify a Recipient"
 msgstr "Вы должны указать Получателя"
+
+#: alarm.cpp:58
+#, c-format
+msgid "Alarm Timer for: %s"
+msgstr "Будильник для: %s"
+
+#: alarm.cpp:72
+msgid "Unset"
+msgstr "Очистить"
+
+#: alarm.cpp:74
+msgid "Set"
+msgstr "Установить"
+
+#: alarm.cpp:153
+msgid "I am afraid you already missed your appointment."
+msgstr "Боюсь, что вы уже опоздали на встречу."
+
+#: bwdatetime.cpp:44
+msgid "Day:"
+msgstr "День:"
+
+#: bwdatetime.cpp:50
+msgid "Month:"
+msgstr "Месяц:"
+
+#: bwdatetime.cpp:57
+msgid "Year:"
+msgstr "Год:"
+
+#: bwdatetime.cpp:72
+msgid "Time:"
+msgstr "Время:"
+
+#: bwdatetime.cpp:161
+msgid "The Time you selected is invalid"
+msgstr "Вы выбрали недопустимое время"
+
+#: bwdatetime.cpp:176
+msgid "The Date you selected is invalid"
+msgstr "Вы выбрали недопустимую дату"
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
@@ -329,3 +338,15 @@ msgid ""
 msgstr ""
 "Заметка с таким именем уже существует\n"
 "Пожайлуста выберите другое имя."
+
+#: docking.cpp:71
+msgid "Change Defaults"
+msgstr "Изменить установки"
+
+#: docking.cpp:76
+msgid "Exit Knotes"
+msgstr "Выйти из заметок"
+
+#: docking.cpp:95
+msgid "New Knote"
+msgstr "Новая заметка"

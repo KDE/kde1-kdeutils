@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-06-16 14:24+0200\n"
+"POT-Creation-Date: 1998-10-01 13:43+0200\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1998-03-06 22:44:34-0500\n"
 "From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
@@ -9,14 +9,17 @@ msgstr ""
 "Files: Data.cpp Fonts.cpp FontsData.cpp Misc.cpp MiscData.cpp Paper.cpp "
 "PaperData.cpp Printer.cpp PrinterData.cpp about.cpp main.cpp\n"
 
-#: Data.cpp:123 Data.cpp:157 Data.cpp:193
-#, c-format
-msgid ""
-"Unable to print with:\n"
-" %s"
-msgstr ""
-"Niet in staat om af te drukken met:\n"
-" %s"
+#: main.cpp:69
+msgid "Paper"
+msgstr "Papier"
+
+#: PrinterData.cpp:93 main.cpp:70
+msgid "Printer"
+msgstr "Afdrukker"
+
+#: main.cpp:71
+msgid "Operations"
+msgstr "Opdrachten"
 
 #: FontsData.cpp:38
 msgid "Language"
@@ -37,6 +40,30 @@ msgstr "Punt Grootte"
 #: FontsData.cpp:156
 msgid "points"
 msgstr "punten"
+
+#: PrinterData.cpp:41
+msgid "Mode"
+msgstr "Modus"
+
+#: PrinterData.cpp:47
+msgid "Economy"
+msgstr "Economisch"
+
+#: PrinterData.cpp:56
+msgid "Presentation"
+msgstr "Presentatie"
+
+#: PrinterData.cpp:65
+msgid "Resolution"
+msgstr "Resolutie"
+
+#: PrinterData.cpp:87
+msgid "Density"
+msgstr "Dichtheid"
+
+#: PrinterData.cpp:99
+msgid "Resolution Enh."
+msgstr "Resolution Vergroot."
 
 #: MiscData.cpp:43
 msgid "End of Line Mode"
@@ -63,33 +90,14 @@ msgstr "Herstel"
 msgid "Initialize"
 msgstr "initialiseer"
 
-#: PrinterData.cpp:41
-msgid "Mode"
-msgstr "Modus"
-
-#: PrinterData.cpp:47
-msgid "Economy"
-msgstr "Economisch"
-
-#: PrinterData.cpp:56
-msgid "Presentation"
-msgstr "Presentatie"
-
-#: PrinterData.cpp:65
-msgid "Resolution"
-msgstr "Resolutie"
-
-#: PrinterData.cpp:87
-msgid "Density"
-msgstr "Dichtheid"
-
-#: PrinterData.cpp:93 main.cpp:70
-msgid "Printer"
-msgstr "Afdrukker"
-
-#: PrinterData.cpp:99
-msgid "Resolution Enh."
-msgstr "Resolution Vergroot."
+#: Data.cpp:123 Data.cpp:157 Data.cpp:193
+#, c-format
+msgid ""
+"Unable to print with:\n"
+" %s"
+msgstr ""
+"Niet in staat om af te drukken met:\n"
+" %s"
 
 #: about.cpp:38
 msgid "About KLJetTool"
@@ -102,14 +110,6 @@ msgstr "KLJetTool"
 #: about.cpp:52
 msgid "Version "
 msgstr "Versie"
-
-#: main.cpp:69
-msgid "Paper"
-msgstr "Papier"
-
-#: main.cpp:71
-msgid "Operations"
-msgstr "Opdrachten"
 
 #~ msgid "Fonts"
 #~ msgstr "Lettertypen"

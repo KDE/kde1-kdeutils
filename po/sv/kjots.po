@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kjots revision 1.1\n"
-"POT-Creation-Date: 1998-08-13 00:40+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
@@ -153,3 +153,7 @@ msgstr "Typsnitt för editor"
 #: confdialog.cpp:117
 msgid "Select"
 msgstr "Välj"
+
+#: confdialog.cpp:133
+msgid "Dolor Ipse"
+msgstr ""

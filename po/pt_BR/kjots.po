@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-08-03 21:27+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: 1998-09-08 09:00\n"
 "Last-Translator: Sandro Nunes Henrique <sandro@conectiva.com.br>\n"
 "Language-Team: pt_BR <LL@li.org>\n"
@@ -122,7 +122,8 @@ msgstr "O arquivo já existe!"
 msgid ""
 "File already exists. \n"
 " Do you want to overwrite it ?"
-msgstr "O arquivo já existe. \n"
+msgstr ""
+"O arquivo já existe. \n"
 " Você deseja regravá-lo? "
 
 #: confdialog.cpp:39
@@ -158,3 +159,6 @@ msgstr "Fonte para edição:"
 msgid "Select"
 msgstr "Selecionar"
 
+#: confdialog.cpp:133
+msgid "Dolor Ipse"
+msgstr ""

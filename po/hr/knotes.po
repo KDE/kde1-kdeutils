@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1998-03-06 22:22:24-0500\n"
 "From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
@@ -12,99 +12,6 @@ msgstr ""
 "Xgettext-Options: -C -ktranslate -x../../kdelibs/po/kde.pot\n"
 "Files: alarm.cpp bwdatetime.cpp configdlg.cpp fontdlg.cpp knotes.cpp "
 "mail.cpp renamedlg.cpp savealarm.cpp spin.cpp timer.cpp\n"
-
-#: alarm.cpp:58
-#, c-format
-msgid "Alarm Timer for: %s"
-msgstr "Alarm sat za: %s"
-
-#: alarm.cpp:72
-msgid "Unset"
-msgstr "Ukloni"
-
-#: alarm.cpp:74
-msgid "Set"
-msgstr "Postavi"
-
-#: alarm.cpp:153
-msgid "I am afraid you already missed your appointment."
-msgstr "Bojim se da ste veæ propustili sastanak."
-
-#: bwdatetime.cpp:44
-msgid "Day:"
-msgstr "Dan:"
-
-#: bwdatetime.cpp:50
-msgid "Month:"
-msgstr "Mjesec:"
-
-#: bwdatetime.cpp:57
-msgid "Year:"
-msgstr "Godina:"
-
-#: bwdatetime.cpp:72
-msgid "Time:"
-msgstr "Vrijeme:"
-
-#: bwdatetime.cpp:161
-msgid "The Time you selected is invalid"
-msgstr "Vrijeme koje ste odabrali je neispravno"
-
-#: bwdatetime.cpp:176
-msgid "The Date you selected is invalid"
-msgstr "Datum koji ste odabrali je neispravan"
-
-#: configdlg.cpp:50
-msgid "Text Color:"
-msgstr "Boja teksta:"
-
-#: configdlg.cpp:64
-msgid "Background Color:"
-msgstr "Boja pozadine:"
-
-#: configdlg.cpp:83
-msgid "Width:"
-msgstr "©irina:"
-
-#: configdlg.cpp:93
-msgid "Height:"
-msgstr "Visina:"
-
-#: configdlg.cpp:104
-msgid "Print Command:"
-msgstr "Naredba za ispis:"
-
-#: configdlg.cpp:112
-msgid "Mail Command:"
-msgstr "Naredba za Mail:"
-
-#: configdlg.cpp:123
-msgid "3d Frame"
-msgstr "3D Okvir"
-
-#: configdlg.cpp:128 knotes.cpp:330
-msgid "Auto Indent"
-msgstr "Automatska uvlaka"
-
-#: docking.cpp:71
-msgid "Change Defaults"
-msgstr "Promjena podrazumijevane vrijednosti ..."
-
-#: docking.cpp:76
-msgid "Exit Knotes"
-msgstr "Izlaz"
-
-#: docking.cpp:95
-msgid "New Knote"
-msgstr "Nova bilje¹ka"
-
-#: fontdlg.cpp:45
-msgid "Set Default Font"
-msgstr "Postavi podrazumijevani font"
-
-#: fontdlg.cpp:64
-msgid "Point Size:"
-msgstr "Velièina toèke:"
 
 #: knotes.cpp:300
 msgid "Text Color..."
@@ -149,6 +56,10 @@ msgstr "Spremi bilje¹ke"
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"
 msgstr "3D Okvir"
+
+#: configdlg.cpp:128 knotes.cpp:330
+msgid "Auto Indent"
+msgstr "Automatska uvlaka"
 
 #: knotes.cpp:332
 msgid "Font..."
@@ -286,6 +197,63 @@ msgstr ""
 msgid "Inconsistency"
 msgstr "Nedosljednost"
 
+#: configdlg.cpp:50
+msgid "Text Color:"
+msgstr "Boja teksta:"
+
+#: configdlg.cpp:64
+msgid "Background Color:"
+msgstr "Boja pozadine:"
+
+#: configdlg.cpp:83
+msgid "Width:"
+msgstr "©irina:"
+
+#: configdlg.cpp:93
+msgid "Height:"
+msgstr "Visina:"
+
+#: configdlg.cpp:104
+msgid "Print Command:"
+msgstr "Naredba za ispis:"
+
+#: configdlg.cpp:112
+msgid "Mail Command:"
+msgstr "Naredba za Mail:"
+
+#: configdlg.cpp:123
+msgid "3d Frame"
+msgstr "3D Okvir"
+
+#: fontdlg.cpp:45
+msgid "Set Default Font"
+msgstr "Postavi podrazumijevani font"
+
+#: fontdlg.cpp:54
+msgid "Family:"
+msgstr ""
+
+#: fontdlg.cpp:64
+msgid "Point Size:"
+msgstr "Velièina toèke:"
+
+#: fontdlg.cpp:75
+msgid "Style:"
+msgstr ""
+
+#: fontdlg.cpp:87
+#, fuzzy
+msgid "Weight:"
+msgstr "Visina:"
+
+#: fontdlg.cpp:93 fontdlg.cpp:117 fontdlg.cpp:150
+msgid "Bold"
+msgstr ""
+
+#: fontdlg.cpp:95 fontdlg.cpp:119 fontdlg.cpp:152
+msgid "Normal"
+msgstr ""
+
 #: mail.cpp:40
 msgid "Mail Note to:"
 msgstr "Po¹alji po¹tom bilje¹ku:"
@@ -301,6 +269,47 @@ msgstr "Po¹alji"
 #: mail.cpp:92
 msgid "You must specify a Recipient"
 msgstr "Morate navesti primaoca"
+
+#: alarm.cpp:58
+#, c-format
+msgid "Alarm Timer for: %s"
+msgstr "Alarm sat za: %s"
+
+#: alarm.cpp:72
+msgid "Unset"
+msgstr "Ukloni"
+
+#: alarm.cpp:74
+msgid "Set"
+msgstr "Postavi"
+
+#: alarm.cpp:153
+msgid "I am afraid you already missed your appointment."
+msgstr "Bojim se da ste veæ propustili sastanak."
+
+#: bwdatetime.cpp:44
+msgid "Day:"
+msgstr "Dan:"
+
+#: bwdatetime.cpp:50
+msgid "Month:"
+msgstr "Mjesec:"
+
+#: bwdatetime.cpp:57
+msgid "Year:"
+msgstr "Godina:"
+
+#: bwdatetime.cpp:72
+msgid "Time:"
+msgstr "Vrijeme:"
+
+#: bwdatetime.cpp:161
+msgid "The Time you selected is invalid"
+msgstr "Vrijeme koje ste odabrali je neispravno"
+
+#: bwdatetime.cpp:176
+msgid "The Date you selected is invalid"
+msgstr "Datum koji ste odabrali je neispravan"
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
@@ -325,3 +334,15 @@ msgid ""
 msgstr ""
 "KNotes bilje¹ka tog imena veæ postoji\n"
 "Molim, odaberite neko drugo ime"
+
+#: docking.cpp:71
+msgid "Change Defaults"
+msgstr "Promjena podrazumijevane vrijednosti ..."
+
+#: docking.cpp:76
+msgid "Exit Knotes"
+msgstr "Izlaz"
+
+#: docking.cpp:95
+msgid "New Knote"
+msgstr "Nova bilje¹ka"

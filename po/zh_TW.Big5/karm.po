@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
-"POT-Creation-Date: 1998-06-16 14:24+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: 1998-02-21 05:58+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -89,6 +89,15 @@ msgstr "停止[&S]"
 msgid "&Task"
 msgstr "工作[&T]"
 
+#: top.cpp:71
+msgid "&Contents"
+msgstr "內容[&C]"
+
+#: top.cpp:74
+#, fuzzy
+msgid "&About"
+msgstr "關於"
+
 #: top.cpp:85
 msgid "Start Clock"
 msgstr "開啟計時器"
@@ -127,6 +136,3 @@ msgstr "計時器 致能"
 
 #~ msgid "&Start"
 #~ msgstr "開始[&S]"
-
-#~ msgid "&Contents"
-#~ msgstr "內容[&C]"

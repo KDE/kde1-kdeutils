@@ -1,104 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: 1998-02-02 19:17+01\n"
 "Last-Translator: Thomas Tanghus <tanghus@earthling.net>\n"
-
-#: alarm.cpp:58
-#, c-format
-msgid "Alarm Timer for: %s"
-msgstr "Alarmindstilling for: %s"
-
-#: alarm.cpp:72
-msgid "Unset"
-msgstr "Sluk"
-
-#: alarm.cpp:74
-msgid "Set"
-msgstr "Sæt"
-
-#: alarm.cpp:153
-msgid "I am afraid you already missed your appointment."
-msgstr "Jeg er bange for du har glemt en aftale!"
-
-#: bwdatetime.cpp:44
-msgid "Day:"
-msgstr "Dag:"
-
-#: bwdatetime.cpp:50
-msgid "Month:"
-msgstr "Måned:"
-
-#: bwdatetime.cpp:57
-msgid "Year:"
-msgstr "År:"
-
-#: bwdatetime.cpp:72
-msgid "Time:"
-msgstr "Tid:"
-
-#: bwdatetime.cpp:161
-msgid "The Time you selected is invalid"
-msgstr "Den valgte tid er ikke gyldig."
-
-#: bwdatetime.cpp:176
-msgid "The Date you selected is invalid"
-msgstr "Den valgte dato er ikke gyldig."
-
-#: configdlg.cpp:50
-msgid "Text Color:"
-msgstr "Tekstfarve:"
-
-#: configdlg.cpp:64
-msgid "Background Color:"
-msgstr "Baggrundsfarve:"
-
-#: configdlg.cpp:83
-msgid "Width:"
-msgstr "Bredde:"
-
-#: configdlg.cpp:93
-msgid "Height:"
-msgstr "Højde:"
-
-#: configdlg.cpp:104
-msgid "Print Command:"
-msgstr "Udskrivningskommando:"
-
-#: configdlg.cpp:112
-msgid "Mail Command:"
-msgstr "E-Post Kommando:"
-
-#: configdlg.cpp:123
-msgid "3d Frame"
-msgstr "3D Rammer"
-
-#: configdlg.cpp:128 knotes.cpp:330
-msgid "Auto Indent"
-msgstr "Auto Indryk"
-
-#: docking.cpp:71
-#, fuzzy
-msgid "Change Defaults"
-msgstr "Skift standarder..."
-
-#: docking.cpp:76
-msgid "Exit Knotes"
-msgstr ""
-
-#: docking.cpp:95
-#, fuzzy
-msgid "New Knote"
-msgstr "Ny note"
-
-#: fontdlg.cpp:45
-msgid "Set Default Font"
-msgstr "Sæt standard skriftsnit"
-
-#: fontdlg.cpp:64
-msgid "Point Size:"
-msgstr "Punkt størrelse"
 
 #: knotes.cpp:300
 msgid "Text Color..."
@@ -144,6 +49,10 @@ msgstr "Ny note"
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"
 msgstr "3D Rammer"
+
+#: configdlg.cpp:128 knotes.cpp:330
+msgid "Auto Indent"
+msgstr "Auto Indryk"
 
 #: knotes.cpp:332
 msgid "Font..."
@@ -280,6 +189,63 @@ msgstr ""
 msgid "Inconsistency"
 msgstr "Inkonsistens"
 
+#: configdlg.cpp:50
+msgid "Text Color:"
+msgstr "Tekstfarve:"
+
+#: configdlg.cpp:64
+msgid "Background Color:"
+msgstr "Baggrundsfarve:"
+
+#: configdlg.cpp:83
+msgid "Width:"
+msgstr "Bredde:"
+
+#: configdlg.cpp:93
+msgid "Height:"
+msgstr "Højde:"
+
+#: configdlg.cpp:104
+msgid "Print Command:"
+msgstr "Udskrivningskommando:"
+
+#: configdlg.cpp:112
+msgid "Mail Command:"
+msgstr "E-Post Kommando:"
+
+#: configdlg.cpp:123
+msgid "3d Frame"
+msgstr "3D Rammer"
+
+#: fontdlg.cpp:45
+msgid "Set Default Font"
+msgstr "Sæt standard skriftsnit"
+
+#: fontdlg.cpp:54
+msgid "Family:"
+msgstr ""
+
+#: fontdlg.cpp:64
+msgid "Point Size:"
+msgstr "Punkt størrelse"
+
+#: fontdlg.cpp:75
+msgid "Style:"
+msgstr ""
+
+#: fontdlg.cpp:87
+#, fuzzy
+msgid "Weight:"
+msgstr "Højde:"
+
+#: fontdlg.cpp:93 fontdlg.cpp:117 fontdlg.cpp:150
+msgid "Bold"
+msgstr ""
+
+#: fontdlg.cpp:95 fontdlg.cpp:119 fontdlg.cpp:152
+msgid "Normal"
+msgstr ""
+
 #: mail.cpp:40
 #, fuzzy
 msgid "Mail Note to:"
@@ -296,6 +262,47 @@ msgstr ""
 #: mail.cpp:92
 msgid "You must specify a Recipient"
 msgstr ""
+
+#: alarm.cpp:58
+#, c-format
+msgid "Alarm Timer for: %s"
+msgstr "Alarmindstilling for: %s"
+
+#: alarm.cpp:72
+msgid "Unset"
+msgstr "Sluk"
+
+#: alarm.cpp:74
+msgid "Set"
+msgstr "Sæt"
+
+#: alarm.cpp:153
+msgid "I am afraid you already missed your appointment."
+msgstr "Jeg er bange for du har glemt en aftale!"
+
+#: bwdatetime.cpp:44
+msgid "Day:"
+msgstr "Dag:"
+
+#: bwdatetime.cpp:50
+msgid "Month:"
+msgstr "Måned:"
+
+#: bwdatetime.cpp:57
+msgid "Year:"
+msgstr "År:"
+
+#: bwdatetime.cpp:72
+msgid "Time:"
+msgstr "Tid:"
+
+#: bwdatetime.cpp:161
+msgid "The Time you selected is invalid"
+msgstr "Den valgte tid er ikke gyldig."
+
+#: bwdatetime.cpp:176
+msgid "The Date you selected is invalid"
+msgstr "Den valgte dato er ikke gyldig."
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
@@ -320,6 +327,20 @@ msgid ""
 msgstr ""
 "En note med dette navn eksisterer allerede\n"
 "Vælg venligst et andet navn!"
+
+#: docking.cpp:71
+#, fuzzy
+msgid "Change Defaults"
+msgstr "Skift standarder..."
+
+#: docking.cpp:76
+msgid "Exit Knotes"
+msgstr ""
+
+#: docking.cpp:95
+#, fuzzy
+msgid "New Knote"
+msgstr "Ny note"
 
 #~ msgid "Hide Note"
 #~ msgstr "Gem note"

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karm 0.3\n"
-"POT-Creation-Date: 1998-06-16 14:24+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Thomas Tanghus <tanghus@earthling.net>\n"
 "Language-Team: da <kde-i18n@kde.org>\n"
@@ -88,6 +88,15 @@ msgstr "S&top"
 msgid "&Task"
 msgstr "&Projekt"
 
+#: top.cpp:71
+msgid "&Contents"
+msgstr "&Indhold"
+
+#: top.cpp:74
+#, fuzzy
+msgid "&About"
+msgstr "Om "
+
 #: top.cpp:85
 msgid "Start Clock"
 msgstr "Start Ur"
@@ -130,6 +139,3 @@ msgstr "Ur startet"
 
 #~ msgid "&Start"
 #~ msgstr "&Start"
-
-#~ msgid "&Contents"
-#~ msgstr "&Indhold"

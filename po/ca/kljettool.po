@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kljettool\n"
-"POT-Creation-Date: 1998-06-16 14:24+0200\n"
+"POT-Creation-Date: 1998-10-01 13:43+0200\n"
 "PO-Revision-Date: 1998-06-25 23:55+0100\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
@@ -13,14 +13,17 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: Data.cpp:123 Data.cpp:157 Data.cpp:193
-#, c-format
-msgid ""
-"Unable to print with:\n"
-" %s"
-msgstr ""
-"No es pot imprimir amb:\n"
-" %s"
+#: main.cpp:69
+msgid "Paper"
+msgstr "Paper"
+
+#: PrinterData.cpp:93 main.cpp:70
+msgid "Printer"
+msgstr "Impressora"
+
+#: main.cpp:71
+msgid "Operations"
+msgstr "Operacions"
 
 #: FontsData.cpp:38
 msgid "Language"
@@ -41,6 +44,30 @@ msgstr "Cos"
 #: FontsData.cpp:156
 msgid "points"
 msgstr "punts"
+
+#: PrinterData.cpp:41
+msgid "Mode"
+msgstr "Mode"
+
+#: PrinterData.cpp:47
+msgid "Economy"
+msgstr "Estalvi"
+
+#: PrinterData.cpp:56
+msgid "Presentation"
+msgstr "Presentació"
+
+#: PrinterData.cpp:65
+msgid "Resolution"
+msgstr "Resolució"
+
+#: PrinterData.cpp:87
+msgid "Density"
+msgstr "Densitat"
+
+#: PrinterData.cpp:99
+msgid "Resolution Enh."
+msgstr "Resolució Mill."
 
 #: MiscData.cpp:43
 msgid "End of Line Mode"
@@ -66,33 +93,14 @@ msgstr "Reajustar"
 msgid "Initialize"
 msgstr "Inicialitzar"
 
-#: PrinterData.cpp:41
-msgid "Mode"
-msgstr "Mode"
-
-#: PrinterData.cpp:47
-msgid "Economy"
-msgstr "Estalvi"
-
-#: PrinterData.cpp:56
-msgid "Presentation"
-msgstr "Presentació"
-
-#: PrinterData.cpp:65
-msgid "Resolution"
-msgstr "Resolució"
-
-#: PrinterData.cpp:87
-msgid "Density"
-msgstr "Densitat"
-
-#: PrinterData.cpp:93 main.cpp:70
-msgid "Printer"
-msgstr "Impressora"
-
-#: PrinterData.cpp:99
-msgid "Resolution Enh."
-msgstr "Resolució Mill."
+#: Data.cpp:123 Data.cpp:157 Data.cpp:193
+#, c-format
+msgid ""
+"Unable to print with:\n"
+" %s"
+msgstr ""
+"No es pot imprimir amb:\n"
+" %s"
 
 #: about.cpp:38
 msgid "About KLJetTool"
@@ -105,11 +113,3 @@ msgstr "KLjetTool"
 #: about.cpp:52
 msgid "Version "
 msgstr "Versió"
-
-#: main.cpp:69
-msgid "Paper"
-msgstr "Paper"
-
-#: main.cpp:71
-msgid "Operations"
-msgstr "Operacions"

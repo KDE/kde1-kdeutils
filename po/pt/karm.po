@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
-"POT-Creation-Date: 1998-06-16 14:24+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: 1998-01-28 22:00+0000\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
@@ -80,6 +80,15 @@ msgstr "&Parar"
 #: top.cpp:60
 msgid "&Task"
 msgstr "&Tarefa"
+
+#: top.cpp:71
+msgid "&Contents"
+msgstr ""
+
+#: top.cpp:74
+#, fuzzy
+msgid "&About"
+msgstr "Acerca do "
 
 #: top.cpp:85
 msgid "Start Clock"

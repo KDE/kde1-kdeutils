@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,143 +14,143 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: kedit.cpp:83 kedit.cpp:1019
+#: kedit.cpp:85 kedit.cpp:1090
 msgid "Show &Tool Bar"
 msgstr "Näytä &painikepalkki"
 
-#: kedit.cpp:85 kedit.cpp:1012
+#: kedit.cpp:87 kedit.cpp:1083
 msgid "Hide &Tool Bar"
 msgstr "Piilota &painikepalkki"
 
-#: kedit.cpp:88 kedit.cpp:999
+#: kedit.cpp:90 kedit.cpp:1070
 msgid "Show &Status Bar"
 msgstr "Näytä t&ilarivi"
 
-#: kedit.cpp:90 kedit.cpp:992
+#: kedit.cpp:92 kedit.cpp:1063
 msgid "Hide &Status Bar"
 msgstr "Piilota t&ilarivi"
 
-#: kedit.cpp:152
+#: kedit.cpp:153
 msgid "Select All"
 msgstr "Valitse kaikki"
 
-#: kedit.cpp:183
-msgid "&About..."
-msgstr "&Tietoja..."
-
-#: kedit.cpp:187
+#: kedit.cpp:200
 msgid "Ne&w..."
 msgstr "&Uusi..."
 
-#: kedit.cpp:192
+#: kedit.cpp:207
 msgid "Open Recen&t..."
 msgstr "Avaa e&dellinen ..."
 
-#: kedit.cpp:204
+#: kedit.cpp:219
 msgid "Open &URL..."
 msgstr "Avaa &URL ..."
 
-#: kedit.cpp:206
+#: kedit.cpp:221
 msgid "Save to U&RL..."
 msgstr "Tallenna U&RL ..."
 
-#: kedit.cpp:212
+#: kedit.cpp:237
 msgid "&Mail..."
 msgstr "&Lähetä..."
 
-#: kedit.cpp:216
+#: kedit.cpp:241
 msgid "New &Window"
 msgstr "Uusi &ikkuna"
 
-#: kedit.cpp:228
+#: kedit.cpp:253
 msgid "&Select All"
 msgstr "Valitse &kaikki"
 
-#: kedit.cpp:231
+#: kedit.cpp:256
 msgid "&Insert File"
 msgstr "Liitä ti&edosto"
 
-#: kedit.cpp:233
+#: kedit.cpp:258
 msgid "Insert &Date"
 msgstr "Liitä päi&vämäärä"
 
-#: kedit.cpp:236
+#: kedit.cpp:261
 msgid "&Find..."
 msgstr "&Etsi..."
 
-#: kedit.cpp:238
+#: kedit.cpp:263
 msgid "Find &Again"
 msgstr "Etsi &uudelleen"
 
-#: kedit.cpp:240
+#: kedit.cpp:265
 msgid "&Replace"
 msgstr "K&orvaa"
 
-#: kedit.cpp:243
+#: kedit.cpp:267
+msgid "Spellcheck..."
+msgstr ""
+
+#: kedit.cpp:272
 msgid "&Goto Line..."
 msgstr "&Siirry riville ..."
 
-#: kedit.cpp:247
+#: kedit.cpp:276
 msgid "&Font"
 msgstr "&Kirjasin"
 
-#: kedit.cpp:249
+#: kedit.cpp:278
 msgid "Colors"
 msgstr "Värit"
 
-#: kedit.cpp:251
+#: kedit.cpp:283
 msgid "KEdit &Options..."
 msgstr "KEdit &asetukset ..."
 
-#: kedit.cpp:253
+#: kedit.cpp:285
 msgid "Auto &Indent"
 msgstr "S&isennä automaattisesti"
 
-#: kedit.cpp:256
+#: kedit.cpp:288
 msgid "&Tool Bar"
 msgstr "&Painikepalkki"
 
-#: kedit.cpp:258
+#: kedit.cpp:290
 msgid "&Status Bar"
 msgstr "T&ilarivi"
 
-#: kedit.cpp:261
+#: kedit.cpp:293
 msgid "Save Options"
 msgstr "Tallenna asetukset"
 
-#: kedit.cpp:289
+#: kedit.cpp:332
 msgid "New Document"
 msgstr "Uusi asiakirja"
 
-#: kedit.cpp:295
+#: kedit.cpp:338
 msgid "Open Document"
 msgstr "Avaa asiakirja"
 
-#: kedit.cpp:300
+#: kedit.cpp:343
 msgid "Save Document"
 msgstr "Tallenna asiakirja"
 
-#: kedit.cpp:325 print.cpp:88
+#: kedit.cpp:368 print.cpp:91
 msgid "Print Document"
 msgstr "Tulosta asiakirja"
 
-#: kedit.cpp:330
+#: kedit.cpp:373
 msgid "Mail Document"
 msgstr "Lähetä asiakirja"
 
-#: kedit.cpp:534
+#: kedit.cpp:605
 msgid "Open Location:"
 msgstr "Avaa sijainti:"
 
-#: kedit.cpp:548
+#: kedit.cpp:619
 msgid "Save to Location:"
 msgstr "Tallenna sijaintiin:"
 
-#: kedit.cpp:574 kedit.cpp:637 kedit.cpp:666 kedit.cpp:729 kedit.cpp:1123
+#: kedit.cpp:645 kedit.cpp:708 kedit.cpp:737 kedit.cpp:800 kedit.cpp:1194
 msgid "Message"
 msgstr "Viesti"
 
-#: kedit.cpp:575 kedit.cpp:730
+#: kedit.cpp:646 kedit.cpp:801
 msgid ""
 "This Document has been modified.\n"
 "Would you like to save it?"
@@ -158,7 +158,7 @@ msgstr ""
 "Asiakirjaa on muutettu.\n"
 "Haluatko tallentaa sen?"
 
-#: kedit.cpp:592 kedit.cpp:747
+#: kedit.cpp:663 kedit.cpp:818
 msgid ""
 "Could not save the file.\n"
 "Exit anyways?"
@@ -166,7 +166,7 @@ msgstr ""
 "Tiedoston tallennus epäonnistui.\n"
 "Lopetetaanko kuitenkin?"
 
-#: kedit.cpp:638
+#: kedit.cpp:709
 msgid ""
 "There are windows with modified content open.\n"
 "If you exit now, you will loose those changes\n"
@@ -176,7 +176,7 @@ msgstr ""
 "Jos lopetat nyt, menetät muutokset.\n"
 "Lopetetaanko kuitenkin?"
 
-#: kedit.cpp:667
+#: kedit.cpp:738
 msgid ""
 "The current document has been modified.\n"
 "Continue anyways ?"
@@ -184,21 +184,21 @@ msgstr ""
 "Nykyistä asiakirjaa on muokattu.\n"
 "Haluatko tallentaa sen?"
 
-#: kedit.cpp:808
+#: kedit.cpp:879
 #, c-format
 msgid "Wrote: %s"
 msgstr "Tallennettu: %s"
 
-#: kedit.cpp:814
+#: kedit.cpp:885
 msgid "No changes need to be saved"
 msgstr "Mitään muutoksia ei tarvitse tallentaa"
 
-#: kedit.cpp:833
+#: kedit.cpp:904
 #, c-format
 msgid "Saved as: %s"
 msgstr "Tallennettu nimellä: %s"
 
-#: kedit.cpp:866
+#: kedit.cpp:937
 #, c-format
 msgid ""
 "Could not pipe the contentsof this Document into:\n"
@@ -207,20 +207,20 @@ msgstr ""
 "En voinut putkittaa dokumentin sisältöä kohteeseen:\n"
 " %s"
 
-#: kedit.cpp:960
+#: kedit.cpp:1031
 msgid "Auto Indent Mode: On"
 msgstr "Automaattinen sisennys : Päällä"
 
-#: kedit.cpp:962
+#: kedit.cpp:1033
 msgid "Auto Indent Mode: Off"
 msgstr "Automaattinen sisennys : Pois"
 
-#: kedit.cpp:1058
+#: kedit.cpp:1129
 #, c-format
 msgid "Line: %d Col: %d"
 msgstr "Rivi: %d Sarake: %d"
 
-#: kedit.cpp:1124
+#: kedit.cpp:1195
 msgid ""
 "The current document has been modified.\n"
 "Would you like to save the changes before \n"
@@ -230,7 +230,7 @@ msgstr ""
 "Haluatko tallentaa muutokset \n"
 "ennen dokumentin tulostusta?"
 
-#: kedit.cpp:1142
+#: kedit.cpp:1213
 msgid ""
 "Could not save the file.\n"
 "Print anyways?"
@@ -238,35 +238,35 @@ msgstr ""
 "Tiedoston tallennus epäonnistui.\n"
 "Tulostetaanko kuitenkin?"
 
-#: kedit.cpp:1235
+#: kedit.cpp:1306
 #, c-format
 msgid "Printing: %s Untitled (Selection)"
 msgstr "Tulostetaan: %s Nimeämätön (valinta)"
 
-#: kedit.cpp:1238
+#: kedit.cpp:1309
 #, c-format
 msgid "Printing: %s Untitled"
 msgstr "Tulostetaan: %s Nimeämätön"
 
-#: kedit.cpp:1276
+#: kedit.cpp:1347
 #, c-format
 msgid "Printing: %s"
 msgstr "Tulostetaan: %s"
 
-#: kedit.cpp:1286
+#: kedit.cpp:1357
 #, c-format
 msgid "Printing: %s %s (Selection)"
 msgstr "Tulostetaan: %s %s (valinta)"
 
-#: kedit.cpp:1310
+#: kedit.cpp:1381
 msgid "Saving ..."
 msgstr "Tallennetaan..."
 
-#: kedit.cpp:1317
+#: kedit.cpp:1388
 msgid "Loading ..."
 msgstr "Ladataan..."
 
-#: kedit.cpp:1351 kedit.cpp:1444
+#: kedit.cpp:1422 kedit.cpp:1515
 msgid ""
 "KEdit is already waiting\n"
 "for an internet job to finish\n"
@@ -278,11 +278,11 @@ msgstr ""
 "Odota kunnes tehtävä loppuu.\n"
 "Vaihtoehtoisesti keskeytä nykyinen."
 
-#: kedit.cpp:1368 kedit.cpp:1463
+#: kedit.cpp:1439 kedit.cpp:1534
 msgid "Could not start or find KFM"
 msgstr "KFM ei käynnistynyt tai löytynyt"
 
-#: kedit.cpp:1410
+#: kedit.cpp:1481
 #, c-format
 msgid ""
 "Malformed URL\n"
@@ -291,45 +291,45 @@ msgstr ""
 "Virheellinen URL\n"
 "%s"
 
-#: kedit.cpp:1430
+#: kedit.cpp:1501
 #, c-format
 msgid "Loading '%s'"
 msgstr "Ladataan '%s'"
 
-#: kedit.cpp:1454
+#: kedit.cpp:1525
 msgid "Calling KFM"
 msgstr "Kutsutaan KFM"
 
-#: kedit.cpp:1473
+#: kedit.cpp:1544
 msgid "Starting Job"
 msgstr "Aloitetaan työ"
 
-#: kedit.cpp:1476
+#: kedit.cpp:1547
 msgid "Connected"
 msgstr "Yhdistetty"
 
-#: kedit.cpp:1478
+#: kedit.cpp:1549
 msgid "Waiting..."
 msgstr "Odotetaan..."
 
-#: kedit.cpp:1486
+#: kedit.cpp:1557
 #, c-format
 msgid "Finished '%s'"
 msgstr "Lopetettu '%s'"
 
-#: kedit.cpp:1527
+#: kedit.cpp:1598
 msgid "New Window"
 msgstr "Uusi ikkuna"
 
-#: kedit.cpp:1531
+#: kedit.cpp:1602
 msgid "New Window Created"
 msgstr "Uusi ikkuna luotu"
 
-#: kedit.cpp:1537
+#: kedit.cpp:1608
 msgid "Load Command Done"
 msgstr "Lataaminen valmis"
 
-#: kedit.cpp:1949
+#: kedit.cpp:2020
 #, c-format
 msgid ""
 "Can not create:\n"
@@ -338,19 +338,131 @@ msgstr ""
 "En saanut luotua:\n"
 "%s"
 
-#: print.cpp:66
+#: keditcl1.cpp:137
+msgid "The specified File does not exist"
+msgstr ""
+
+#: keditcl1.cpp:150 keditcl1.cpp:423 keditcl1.cpp:507 keditcl1.cpp:1687
+msgid "Sorry:"
+msgstr ""
+
+#: keditcl1.cpp:151
+msgid "You have specificated a directory"
+msgstr ""
+
+#: keditcl1.cpp:166 keditcl1.cpp:187
+msgid "You do not have read permission to this file."
+msgstr ""
+
+#: keditcl1.cpp:200
+msgid "An Error occured while trying to open this Document"
+msgstr ""
+
+#: keditcl1.cpp:402 keditcl1.cpp:487 keditcl1.cpp:1629
+msgid "Warning:"
+msgstr ""
+
+#: keditcl1.cpp:403 keditcl1.cpp:488
+#, fuzzy
+msgid ""
+"The current Document has been modified.\n"
+"Would you like to save it?"
+msgstr ""
+"Asiakirjaa on muutettu.\n"
+"Haluatko tallentaa sen?"
+
+#: keditcl1.cpp:424
+#, fuzzy
+msgid ""
+"Could not save the document.\n"
+"Open a new document anyways?"
+msgstr ""
+"Tiedoston tallennus epäonnistui.\n"
+"Tulostetaanko kuitenkin?"
+
+#: keditcl1.cpp:508
+#, fuzzy
+msgid ""
+"Could not save the document.\n"
+"Create a new document anyways?"
+msgstr ""
+"Tiedoston tallennus epäonnistui.\n"
+"Tulostetaanko kuitenkin?"
+
+#: keditcl1.cpp:1546
+#, fuzzy
+msgid "Could not save the document\n"
+msgstr ""
+"Tiedoston tallennus epäonnistui.\n"
+"Tulostetaanko kuitenkin?"
+
+#: keditcl1.cpp:1630
+msgid ""
+"A Document with this Name exists already\n"
+"Do you want to overwrite it ?"
+msgstr ""
+
+#: keditcl1.cpp:1688
+msgid "You do not have write permission to this file.\n"
+msgstr ""
+
+#: keditcl2.cpp:113 keditcl2.cpp:370 keditcl2.cpp:463
+msgid ""
+"End of document reached.\n"
+"Continue from the beginning?"
+msgstr ""
+
+#: keditcl2.cpp:130 keditcl2.cpp:387 keditcl2.cpp:433 keditcl2.cpp:480
+msgid ""
+"Beginning of document reached.\n"
+"Continue from the end?"
+msgstr ""
+
+#: keditcl2.cpp:691 keditcl2.cpp:789
+msgid "Case Sensitive"
+msgstr ""
+
+#: keditcl2.cpp:692 keditcl2.cpp:792
+msgid "Find Backwards"
+msgstr ""
+
+#: keditcl2.cpp:777
+#, fuzzy
+msgid "Find:"
+msgstr "&Etsi..."
+
+#: keditcl2.cpp:787
+#, fuzzy
+msgid "Replace with:"
+msgstr "K&orvaa"
+
+#: keditcl2.cpp:801
+#, fuzzy
+msgid "Replace All"
+msgstr "K&orvaa"
+
+#: keditcl2.cpp:898
+#, fuzzy
+msgid "Goto Line"
+msgstr "&Siirry riville ..."
+
+#: keditcl2.cpp:903
+msgid "Go"
+msgstr ""
+
+#: print.cpp:69
 msgid "Print Dialog"
 msgstr "Tulostusikkuna"
 
-#: print.cpp:70
+#: print.cpp:73
 msgid "Print directly using lpr"
 msgstr "Tulosta suoraan käyttäen lpr:ää"
 
-#: print.cpp:75
+#: print.cpp:78
 msgid "Print using Command:"
 msgstr "Tulosta komennolla:"
 
-#: print.cpp:93
+#: print.cpp:96
 msgid "Print Selection"
 msgstr "Tulosta valinta"
 
@@ -389,3 +501,6 @@ msgstr "Lähetä"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Sinun pitää määritellä vastaanottaja"
+
+#~ msgid "&About..."
+#~ msgstr "&Tietoja..."

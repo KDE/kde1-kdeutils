@@ -1,50 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: 1998-06-17 21:31+0200\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 "First-Translator: Jorge Valencia Alvarez <jorgev@est.unileon.es>\n"
-
-#: configdlg.cpp:56 kcalc.cpp:1591
-msgid "Defaults"
-msgstr "Predeterminados"
-
-#: configdlg.cpp:61
-msgid "Foreground Color:"
-msgstr "Color numérico:"
-
-#: configdlg.cpp:78
-msgid "Background Color:"
-msgstr "Color de fondo:"
-
-#: configdlg.cpp:95
-msgid "Precision:"
-msgstr "Precisión:"
-
-#: configdlg.cpp:116
-msgid "Set Fixed Precision at:"
-msgstr "Dar precisión fija a:"
-
-#: configdlg.cpp:145
-msgid "Beep on Error"
-msgstr "Beep en los errores"
-
-#: configdlg.cpp:153
-msgid "Trigonometry Mode"
-msgstr "Modo trigonométrico"
-
-#: configdlg.cpp:158
-msgid "Statistical Mode"
-msgstr "Modo estadístico"
-
-#: fontdlg.cpp:44
-msgid "Set Default Font"
-msgstr "Fijar fuente predeterminada"
-
-#: fontdlg.cpp:63
-msgid "Point Size:"
-msgstr "Tamaño de punto:"
 
 #: kcalc.cpp:99
 msgid "KCalc Setup/Help"
@@ -78,10 +38,70 @@ msgstr ""
 "recompilar su KCalc con precisión doble larga activada. Vea el archivo "
 "README si quiere mas detalles."
 
+#: configdlg.cpp:56 kcalc.cpp:1591
+msgid "Defaults"
+msgstr "Predeterminados"
+
 #: kcalc.cpp:1592
 msgid "Display Font"
 msgstr "Tipo de fuente"
 
-#: kcalc_core.cpp:1138
+#: kcalc_core.cpp:1141
 msgid "Stat Mem cleared"
 msgstr "Memoria limpiada"
+
+#: configdlg.cpp:61
+msgid "Foreground Color:"
+msgstr "Color numérico:"
+
+#: configdlg.cpp:78
+msgid "Background Color:"
+msgstr "Color de fondo:"
+
+#: configdlg.cpp:95
+msgid "Precision:"
+msgstr "Precisión:"
+
+#: configdlg.cpp:116
+msgid "Set Fixed Precision at:"
+msgstr "Dar precisión fija a:"
+
+#: configdlg.cpp:145
+msgid "Beep on Error"
+msgstr "Beep en los errores"
+
+#: configdlg.cpp:153
+msgid "Trigonometry Mode"
+msgstr "Modo trigonométrico"
+
+#: configdlg.cpp:158
+msgid "Statistical Mode"
+msgstr "Modo estadístico"
+
+#: fontdlg.cpp:44
+msgid "Set Default Font"
+msgstr "Fijar fuente predeterminada"
+
+#: fontdlg.cpp:53
+msgid "Family:"
+msgstr ""
+
+#: fontdlg.cpp:63
+msgid "Point Size:"
+msgstr "Tamaño de punto:"
+
+#: fontdlg.cpp:76
+msgid "Style:"
+msgstr ""
+
+#: fontdlg.cpp:91
+msgid "Weight:"
+msgstr ""
+
+#: fontdlg.cpp:101 fontdlg.cpp:134
+msgid "Bold"
+msgstr ""
+
+#: fontdlg.cpp:103 fontdlg.cpp:136
+msgid "Normal"
+msgstr ""

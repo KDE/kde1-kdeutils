@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: 1998-02-03 16:00+0100\n"
 "Last-Translator: Andrea Rizzi <Bilibao@ouverture.it>\n"
 "Language-Team: Italiano <it@li.org>\n"
@@ -10,9 +10,49 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
+#: kcalc.cpp:99
+msgid "KCalc Setup/Help"
+msgstr "KCalc Impostazioni/Aiuto"
+
+#: kcalc.cpp:152
+msgid "Angle"
+msgstr "Angolo"
+
+#: kcalc.cpp:192
+msgid "Base"
+msgstr "Base"
+
+#: kcalc.cpp:1524
+msgid "KCalc Configuraton"
+msgstr "Configurazione KCalc"
+
+#: kcalc.cpp:1550
+msgid "Base type: long double\n"
+msgstr "Tipo Base:long double\n"
+
+#: kcalc.cpp:1552
+msgid ""
+"Due to broken glibc's everywhere, I had to reduce KCalc's precision from "
+"'long double' to 'double'. Owners of systems with a working libc should "
+"recompile KCalc with 'long double' precision enabled. See the README for "
+"details."
+msgstr ""
+"A causa dia alcuni errori con le glibc, ho dovuto ridure la precisione di "
+"KCalc da 'long double' a 'double'. Chi avesse sistemi che non hanno problemi "
+"con le libc possono ricompilare KCalc con il 'long double' abilitato. "
+"Consultate  il file readme per maggiori dettagli."
+
 #: configdlg.cpp:56 kcalc.cpp:1591
 msgid "Defaults"
 msgstr "Default"
+
+#: kcalc.cpp:1592
+msgid "Display Font"
+msgstr "Caratteri Display"
+
+#: kcalc_core.cpp:1141
+msgid "Stat Mem cleared"
+msgstr "Memoria Statistica svuotata"
 
 #: configdlg.cpp:61
 msgid "Foreground Color:"
@@ -46,49 +86,29 @@ msgstr "Modalità Statistica"
 msgid "Set Default Font"
 msgstr "Imposta Font di default"
 
+#: fontdlg.cpp:53
+msgid "Family:"
+msgstr ""
+
 #: fontdlg.cpp:63
 msgid "Point Size:"
 msgstr "Dimensioni punto:"
 
-#: kcalc.cpp:99
-msgid "KCalc Setup/Help"
-msgstr "KCalc Impostazioni/Aiuto"
-
-#: kcalc.cpp:152
-msgid "Angle"
-msgstr "Angolo"
-
-#: kcalc.cpp:192
-msgid "Base"
-msgstr "Base"
-
-#: kcalc.cpp:1524
-msgid "KCalc Configuraton"
-msgstr "Configurazione KCalc"
-
-#: kcalc.cpp:1550
-msgid "Base type: long double\n"
-msgstr "Tipo Base:long double\n"
-
-#: kcalc.cpp:1552
-msgid ""
-"Due to broken glibc's everywhere, I had to reduce KCalc's precision from "
-"'long double' to 'double'. Owners of systems with a working libc should "
-"recompile KCalc with 'long double' precision enabled. See the README for "
-"details."
+#: fontdlg.cpp:76
+msgid "Style:"
 msgstr ""
-"A causa dia alcuni errori con le glibc, ho dovuto ridure la precisione di "
-"KCalc da 'long double' a 'double'. Chi avesse sistemi che non hanno problemi"
-" con le libc possono ricompilare KCalc con il 'long double' abilitato. "
-"Consultate  il file readme per maggiori dettagli."
 
-#: kcalc.cpp:1592
-msgid "Display Font"
-msgstr "Caratteri Display"
+#: fontdlg.cpp:91
+msgid "Weight:"
+msgstr ""
 
-#: kcalc_core.cpp:1138
-msgid "Stat Mem cleared"
-msgstr "Memoria Statistica svuotata"
+#: fontdlg.cpp:101 fontdlg.cpp:134
+msgid "Bold"
+msgstr ""
+
+#: fontdlg.cpp:103 fontdlg.cpp:136
+msgid "Normal"
+msgstr ""
 
 #~ msgid "Base type: double\n"
 #~ msgstr "Tipo Base: double\n"

@@ -5,106 +5,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: 1998-06-30 22:55+0100\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8-bit\n"
-
-#: alarm.cpp:58
-#, c-format
-msgid "Alarm Timer for: %s"
-msgstr "Temporitzador d'alarma per: %s"
-
-#: alarm.cpp:72
-msgid "Unset"
-msgstr "Desarmar"
-
-#: alarm.cpp:74
-msgid "Set"
-msgstr "Armar"
-
-#: alarm.cpp:153
-msgid "I am afraid you already missed your appointment."
-msgstr "Em temo que ja heu fet tard a la vostra cita."
-
-#: bwdatetime.cpp:44
-msgid "Day:"
-msgstr "Dia:"
-
-#: bwdatetime.cpp:50
-msgid "Month:"
-msgstr "Mes:"
-
-#: bwdatetime.cpp:57
-msgid "Year:"
-msgstr "Any:"
-
-#: bwdatetime.cpp:72
-msgid "Time:"
-msgstr "Hora:"
-
-#: bwdatetime.cpp:161
-msgid "The Time you selected is invalid"
-msgstr "L'hora que heu sel·leccionat no és vàlida"
-
-#: bwdatetime.cpp:176
-msgid "The Date you selected is invalid"
-msgstr "La data que heu sel·leccionat no és vàlida"
-
-#: configdlg.cpp:50
-msgid "Text Color:"
-msgstr "Color del text:"
-
-#: configdlg.cpp:64
-msgid "Background Color:"
-msgstr "Color de fons:"
-
-#: configdlg.cpp:83
-msgid "Width:"
-msgstr "Ample:"
-
-#: configdlg.cpp:93
-msgid "Height:"
-msgstr "Alt:"
-
-#: configdlg.cpp:104
-msgid "Print Command:"
-msgstr "Ordre d'impressió:"
-
-#: configdlg.cpp:112
-msgid "Mail Command:"
-msgstr "Ordre de correu:"
-
-#: configdlg.cpp:123
-msgid "3d Frame"
-msgstr "Marc 3d"
-
-#: configdlg.cpp:128 knotes.cpp:330
-msgid "Auto Indent"
-msgstr "Autoindentació"
-
-#: docking.cpp:71
-msgid "Change Defaults"
-msgstr "Canviar omissió"
-
-#: docking.cpp:76
-msgid "Exit Knotes"
-msgstr "Sortida Knotes"
-
-#: docking.cpp:95
-msgid "New Knote"
-msgstr "Nota nova"
-
-#: fontdlg.cpp:45
-msgid "Set Default Font"
-msgstr "Establir la font per omissió"
-
-#: fontdlg.cpp:64
-msgid "Point Size:"
-msgstr "Cos:"
 
 #: knotes.cpp:300
 msgid "Text Color..."
@@ -149,6 +56,10 @@ msgstr "Desar notes"
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"
 msgstr "Marc 3D"
+
+#: configdlg.cpp:128 knotes.cpp:330
+msgid "Auto Indent"
+msgstr "Autoindentació"
 
 #: knotes.cpp:332
 msgid "Font..."
@@ -285,6 +196,63 @@ msgstr ""
 msgid "Inconsistency"
 msgstr "Inconsistència"
 
+#: configdlg.cpp:50
+msgid "Text Color:"
+msgstr "Color del text:"
+
+#: configdlg.cpp:64
+msgid "Background Color:"
+msgstr "Color de fons:"
+
+#: configdlg.cpp:83
+msgid "Width:"
+msgstr "Ample:"
+
+#: configdlg.cpp:93
+msgid "Height:"
+msgstr "Alt:"
+
+#: configdlg.cpp:104
+msgid "Print Command:"
+msgstr "Ordre d'impressió:"
+
+#: configdlg.cpp:112
+msgid "Mail Command:"
+msgstr "Ordre de correu:"
+
+#: configdlg.cpp:123
+msgid "3d Frame"
+msgstr "Marc 3d"
+
+#: fontdlg.cpp:45
+msgid "Set Default Font"
+msgstr "Establir la font per omissió"
+
+#: fontdlg.cpp:54
+msgid "Family:"
+msgstr ""
+
+#: fontdlg.cpp:64
+msgid "Point Size:"
+msgstr "Cos:"
+
+#: fontdlg.cpp:75
+msgid "Style:"
+msgstr ""
+
+#: fontdlg.cpp:87
+#, fuzzy
+msgid "Weight:"
+msgstr "Alt:"
+
+#: fontdlg.cpp:93 fontdlg.cpp:117 fontdlg.cpp:150
+msgid "Bold"
+msgstr ""
+
+#: fontdlg.cpp:95 fontdlg.cpp:119 fontdlg.cpp:152
+msgid "Normal"
+msgstr ""
+
 #: mail.cpp:40
 msgid "Mail Note to:"
 msgstr "Nota per correu a:"
@@ -300,6 +268,47 @@ msgstr "Correu"
 #: mail.cpp:92
 msgid "You must specify a Recipient"
 msgstr "Heu d'especificar un destinatari"
+
+#: alarm.cpp:58
+#, c-format
+msgid "Alarm Timer for: %s"
+msgstr "Temporitzador d'alarma per: %s"
+
+#: alarm.cpp:72
+msgid "Unset"
+msgstr "Desarmar"
+
+#: alarm.cpp:74
+msgid "Set"
+msgstr "Armar"
+
+#: alarm.cpp:153
+msgid "I am afraid you already missed your appointment."
+msgstr "Em temo que ja heu fet tard a la vostra cita."
+
+#: bwdatetime.cpp:44
+msgid "Day:"
+msgstr "Dia:"
+
+#: bwdatetime.cpp:50
+msgid "Month:"
+msgstr "Mes:"
+
+#: bwdatetime.cpp:57
+msgid "Year:"
+msgstr "Any:"
+
+#: bwdatetime.cpp:72
+msgid "Time:"
+msgstr "Hora:"
+
+#: bwdatetime.cpp:161
+msgid "The Time you selected is invalid"
+msgstr "L'hora que heu sel·leccionat no és vàlida"
+
+#: bwdatetime.cpp:176
+msgid "The Date you selected is invalid"
+msgstr "La data que heu sel·leccionat no és vàlida"
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
@@ -324,3 +333,15 @@ msgid ""
 msgstr ""
 "Ja existeix una nota amb aquest nom\n"
 "Si us plau, escolliu un nom diferent"
+
+#: docking.cpp:71
+msgid "Change Defaults"
+msgstr "Canviar omissió"
+
+#: docking.cpp:76
+msgid "Exit Knotes"
+msgstr "Sortida Knotes"
+
+#: docking.cpp:95
+msgid "New Knote"
+msgstr "Nota nova"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: Wed Apr 29 1998 14:47:21+0200\n"
 "Last-Translator: Andrea Rizzi <Bilibao@ouverture.it>\n"
 "Language-Team: Italiano <it@li.org>\n"
@@ -9,99 +9,6 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 "X-Generator: KTranslator v 0.3.0\n"
-
-#: alarm.cpp:58
-#, c-format
-msgid "Alarm Timer for: %s"
-msgstr "Allarme Timer per: %s"
-
-#: alarm.cpp:72
-msgid "Unset"
-msgstr "Rimuovi"
-
-#: alarm.cpp:74
-msgid "Set"
-msgstr "Imposta"
-
-#: alarm.cpp:153
-msgid "I am afraid you already missed your appointment."
-msgstr "Mi dispiace che tu abbia mancato il tuo appuntamento."
-
-#: bwdatetime.cpp:44
-msgid "Day:"
-msgstr "Giorno:"
-
-#: bwdatetime.cpp:50
-msgid "Month:"
-msgstr "Mese:"
-
-#: bwdatetime.cpp:57
-msgid "Year:"
-msgstr "Anno:"
-
-#: bwdatetime.cpp:72
-msgid "Time:"
-msgstr "Orario:"
-
-#: bwdatetime.cpp:161
-msgid "The Time you selected is invalid"
-msgstr "L'orario che hai scelto non è valido"
-
-#: bwdatetime.cpp:176
-msgid "The Date you selected is invalid"
-msgstr "La data che hai scelto non è valida"
-
-#: configdlg.cpp:50
-msgid "Text Color:"
-msgstr "Colore Testo:"
-
-#: configdlg.cpp:64
-msgid "Background Color:"
-msgstr "Colore sfondo:"
-
-#: configdlg.cpp:83
-msgid "Width:"
-msgstr "Larghezza:"
-
-#: configdlg.cpp:93
-msgid "Height:"
-msgstr "Altezza:"
-
-#: configdlg.cpp:104
-msgid "Print Command:"
-msgstr "Comando di stampa:"
-
-#: configdlg.cpp:112
-msgid "Mail Command:"
-msgstr "Comando Posta:"
-
-#: configdlg.cpp:123
-msgid "3d Frame"
-msgstr "Frame 3d"
-
-#: configdlg.cpp:128 knotes.cpp:330
-msgid "Auto Indent"
-msgstr "Auto Indentazione"
-
-#: docking.cpp:71
-msgid "Change Defaults"
-msgstr "Cambia parametri predefiniti"
-
-#: docking.cpp:76
-msgid "Exit Knotes"
-msgstr "Esci da KNotes"
-
-#: docking.cpp:95
-msgid "New Knote"
-msgstr "Nuova nota KDE"
-
-#: fontdlg.cpp:45
-msgid "Set Default Font"
-msgstr "Imposta Font di default"
-
-#: fontdlg.cpp:64
-msgid "Point Size:"
-msgstr "Dimensioni punto:"
 
 #
 #: knotes.cpp:300
@@ -149,6 +56,10 @@ msgstr "Salva Note"
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"
 msgstr "Frame 3D"
+
+#: configdlg.cpp:128 knotes.cpp:330
+msgid "Auto Indent"
+msgstr "Auto Indentazione"
 
 #
 #: knotes.cpp:332
@@ -287,6 +198,63 @@ msgstr ""
 msgid "Inconsistency"
 msgstr "Inconsistenza"
 
+#: configdlg.cpp:50
+msgid "Text Color:"
+msgstr "Colore Testo:"
+
+#: configdlg.cpp:64
+msgid "Background Color:"
+msgstr "Colore sfondo:"
+
+#: configdlg.cpp:83
+msgid "Width:"
+msgstr "Larghezza:"
+
+#: configdlg.cpp:93
+msgid "Height:"
+msgstr "Altezza:"
+
+#: configdlg.cpp:104
+msgid "Print Command:"
+msgstr "Comando di stampa:"
+
+#: configdlg.cpp:112
+msgid "Mail Command:"
+msgstr "Comando Posta:"
+
+#: configdlg.cpp:123
+msgid "3d Frame"
+msgstr "Frame 3d"
+
+#: fontdlg.cpp:45
+msgid "Set Default Font"
+msgstr "Imposta Font di default"
+
+#: fontdlg.cpp:54
+msgid "Family:"
+msgstr ""
+
+#: fontdlg.cpp:64
+msgid "Point Size:"
+msgstr "Dimensioni punto:"
+
+#: fontdlg.cpp:75
+msgid "Style:"
+msgstr ""
+
+#: fontdlg.cpp:87
+#, fuzzy
+msgid "Weight:"
+msgstr "Altezza:"
+
+#: fontdlg.cpp:93 fontdlg.cpp:117 fontdlg.cpp:150
+msgid "Bold"
+msgstr ""
+
+#: fontdlg.cpp:95 fontdlg.cpp:119 fontdlg.cpp:152
+msgid "Normal"
+msgstr ""
+
 #
 #: mail.cpp:40
 msgid "Mail Note to:"
@@ -303,6 +271,47 @@ msgstr "Posta"
 #: mail.cpp:92
 msgid "You must specify a Recipient"
 msgstr "Un Destinatario deve essere specificato."
+
+#: alarm.cpp:58
+#, c-format
+msgid "Alarm Timer for: %s"
+msgstr "Allarme Timer per: %s"
+
+#: alarm.cpp:72
+msgid "Unset"
+msgstr "Rimuovi"
+
+#: alarm.cpp:74
+msgid "Set"
+msgstr "Imposta"
+
+#: alarm.cpp:153
+msgid "I am afraid you already missed your appointment."
+msgstr "Mi dispiace che tu abbia mancato il tuo appuntamento."
+
+#: bwdatetime.cpp:44
+msgid "Day:"
+msgstr "Giorno:"
+
+#: bwdatetime.cpp:50
+msgid "Month:"
+msgstr "Mese:"
+
+#: bwdatetime.cpp:57
+msgid "Year:"
+msgstr "Anno:"
+
+#: bwdatetime.cpp:72
+msgid "Time:"
+msgstr "Orario:"
+
+#: bwdatetime.cpp:161
+msgid "The Time you selected is invalid"
+msgstr "L'orario che hai scelto non è valido"
+
+#: bwdatetime.cpp:176
+msgid "The Date you selected is invalid"
+msgstr "La data che hai scelto non è valida"
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
@@ -327,3 +336,15 @@ msgid ""
 msgstr ""
 "Una nota con questo nome esiste già\n"
 "per favore scegli un nome differente"
+
+#: docking.cpp:71
+msgid "Change Defaults"
+msgstr "Cambia parametri predefiniti"
+
+#: docking.cpp:76
+msgid "Exit Knotes"
+msgstr "Esci da KNotes"
+
+#: docking.cpp:95
+msgid "New Knote"
+msgstr "Nuova nota KDE"

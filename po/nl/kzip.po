@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:24+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Case Roole <cjr@xs4all.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,10 @@ msgstr ""
 #: adddlg.cc:11
 msgid "Add File Options"
 msgstr "Voeg Bestands Opties Toe"
+
+#: adddlg.cc:15 extractdlg.cc:72
+msgid "Ok"
+msgstr ""
 
 #: adddlg.cc:22
 msgid "Store Full Path"
@@ -54,64 +58,68 @@ msgstr "Gekozen Bestand"
 msgid "Pattern"
 msgstr "Patroon"
 
-#: kzip.cc:70
+#: kzip.cc:73
 msgid "&Extract To..."
 msgstr "&Extract Naar..."
 
-#: kzip.cc:75
+#: kzip.cc:78
 msgid "E&xtract..."
 msgstr "E&xtract..."
 
-#: kzip.cc:80
+#: kzip.cc:83
 msgid "&Set Archive Directory..."
 msgstr "&Stel Archief Map in..."
 
-#: kzip.cc:81
+#: kzip.cc:84
 msgid "Set &Tar Executable..."
 msgstr ""
 
-#: kzip.cc:82
+#: kzip.cc:85
 msgid "&File Adding Options..."
 msgstr "&Bestand Toevoeg Opties..."
 
-#: kzip.cc:128
+#: kzip.cc:131
 msgid "Welcome to KZip..."
 msgstr "Welkom bij KZip..."
 
-#: kzip.cc:235
+#: kzip.cc:238
 msgid "Can't create archive of that type"
 msgstr "Kan geen archief aanmaken van dat type"
 
-#: kzip.cc:257
+#: kzip.cc:260
 msgid "Create or open an archive first"
 msgstr "U dient eerst een archief aan te maken of te openen"
 
-#: kzip.cc:300
+#: kzip.cc:303
 msgid "Can't add directories with this archive type"
 msgstr "Kan geen mappen toevoegen met dit archief type"
 
-#: kzip.cc:302
+#: kzip.cc:305
 msgid "Error saving to archive"
 msgstr "Fout bij het opslaan in archief"
 
-#: kzip.cc:312
+#: kzip.cc:315
 msgid "Archive Dir:"
 msgstr "Archief Map:"
 
-#: kzip.cc:329
+#: kzip.cc:332
 msgid "What runs GNU tar:"
 msgstr ""
 
-#: kzip.cc:366 kzip.cc:568
+#: kzip.cc:369 kzip.cc:571
 msgid "Unknown archive format"
 msgstr "Onbekend archief formaat"
 
-#: kzip.cc:392
+#: kzip.cc:389
+msgid "Size"
+msgstr ""
+
+#: kzip.cc:395
 #, fuzzy
 msgid "Archive directory does not exist."
 msgstr "Archief Map"
 
-#: kzip.cc:408
+#: kzip.cc:411
 msgid "Archive Directory"
 msgstr "Archief Map"
 

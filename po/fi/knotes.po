@@ -6,106 +6,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: ENCODING\n"
-
-#: alarm.cpp:58
-#, c-format
-msgid "Alarm Timer for: %s"
-msgstr "Hälytysajastin : %s"
-
-#: alarm.cpp:72
-msgid "Unset"
-msgstr "Poista asetus"
-
-#: alarm.cpp:74
-msgid "Set"
-msgstr "Aseta"
-
-#: alarm.cpp:153
-msgid "I am afraid you already missed your appointment."
-msgstr "Valitettavasti olet jo myöhässä tapaamisestasi."
-
-#: bwdatetime.cpp:44
-msgid "Day:"
-msgstr "Päivä:"
-
-#: bwdatetime.cpp:50
-msgid "Month:"
-msgstr "Kuukausi:"
-
-#: bwdatetime.cpp:57
-msgid "Year:"
-msgstr "Vuosi:"
-
-#: bwdatetime.cpp:72
-msgid "Time:"
-msgstr "Aika:"
-
-#: bwdatetime.cpp:161
-msgid "The Time you selected is invalid"
-msgstr "Valitsemasi aika on virheellinen"
-
-#: bwdatetime.cpp:176
-msgid "The Date you selected is invalid"
-msgstr "Valitsemasi päiväys on virheellinen"
-
-#: configdlg.cpp:50
-msgid "Text Color:"
-msgstr "Tekstin väri:"
-
-#: configdlg.cpp:64
-msgid "Background Color:"
-msgstr "Taustan väri:"
-
-#: configdlg.cpp:83
-msgid "Width:"
-msgstr "Leveys:"
-
-#: configdlg.cpp:93
-msgid "Height:"
-msgstr "Korkeus:"
-
-#: configdlg.cpp:104
-msgid "Print Command:"
-msgstr "Tulostuskomento:"
-
-#: configdlg.cpp:112
-msgid "Mail Command:"
-msgstr "Lähetyskomento:"
-
-#: configdlg.cpp:123
-msgid "3d Frame"
-msgstr "3d kehys"
-
-#: configdlg.cpp:128 knotes.cpp:330
-msgid "Auto Indent"
-msgstr "Automaattinen keskitys"
-
-#: docking.cpp:71
-msgid "Change Defaults"
-msgstr "Muuta oletusasetuksia"
-
-#: docking.cpp:76
-msgid "Exit Knotes"
-msgstr "Lopeta"
-
-#: docking.cpp:95
-msgid "New Knote"
-msgstr "Uusi viesti"
-
-#: fontdlg.cpp:45
-msgid "Set Default Font"
-msgstr "Aseta vakiokirjasin"
-
-#: fontdlg.cpp:64
-msgid "Point Size:"
-msgstr "Pistekoko:"
 
 #: knotes.cpp:300
 msgid "Text Color..."
@@ -150,6 +57,10 @@ msgstr "Uusi viesti"
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"
 msgstr "3D kehys"
+
+#: configdlg.cpp:128 knotes.cpp:330
+msgid "Auto Indent"
+msgstr "Automaattinen keskitys"
 
 #: knotes.cpp:332
 msgid "Font..."
@@ -287,6 +198,63 @@ msgstr ""
 msgid "Inconsistency"
 msgstr "epäjohdonmukaisuutta"
 
+#: configdlg.cpp:50
+msgid "Text Color:"
+msgstr "Tekstin väri:"
+
+#: configdlg.cpp:64
+msgid "Background Color:"
+msgstr "Taustan väri:"
+
+#: configdlg.cpp:83
+msgid "Width:"
+msgstr "Leveys:"
+
+#: configdlg.cpp:93
+msgid "Height:"
+msgstr "Korkeus:"
+
+#: configdlg.cpp:104
+msgid "Print Command:"
+msgstr "Tulostuskomento:"
+
+#: configdlg.cpp:112
+msgid "Mail Command:"
+msgstr "Lähetyskomento:"
+
+#: configdlg.cpp:123
+msgid "3d Frame"
+msgstr "3d kehys"
+
+#: fontdlg.cpp:45
+msgid "Set Default Font"
+msgstr "Aseta vakiokirjasin"
+
+#: fontdlg.cpp:54
+msgid "Family:"
+msgstr ""
+
+#: fontdlg.cpp:64
+msgid "Point Size:"
+msgstr "Pistekoko:"
+
+#: fontdlg.cpp:75
+msgid "Style:"
+msgstr ""
+
+#: fontdlg.cpp:87
+#, fuzzy
+msgid "Weight:"
+msgstr "Korkeus:"
+
+#: fontdlg.cpp:93 fontdlg.cpp:117 fontdlg.cpp:150
+msgid "Bold"
+msgstr ""
+
+#: fontdlg.cpp:95 fontdlg.cpp:119 fontdlg.cpp:152
+msgid "Normal"
+msgstr ""
+
 #: mail.cpp:40
 msgid "Mail Note to:"
 msgstr "Lähetä viesti:"
@@ -302,6 +270,47 @@ msgstr "Posti"
 #: mail.cpp:92
 msgid "You must specify a Recipient"
 msgstr "Sinun on annettava vastaanottaja"
+
+#: alarm.cpp:58
+#, c-format
+msgid "Alarm Timer for: %s"
+msgstr "Hälytysajastin : %s"
+
+#: alarm.cpp:72
+msgid "Unset"
+msgstr "Poista asetus"
+
+#: alarm.cpp:74
+msgid "Set"
+msgstr "Aseta"
+
+#: alarm.cpp:153
+msgid "I am afraid you already missed your appointment."
+msgstr "Valitettavasti olet jo myöhässä tapaamisestasi."
+
+#: bwdatetime.cpp:44
+msgid "Day:"
+msgstr "Päivä:"
+
+#: bwdatetime.cpp:50
+msgid "Month:"
+msgstr "Kuukausi:"
+
+#: bwdatetime.cpp:57
+msgid "Year:"
+msgstr "Vuosi:"
+
+#: bwdatetime.cpp:72
+msgid "Time:"
+msgstr "Aika:"
+
+#: bwdatetime.cpp:161
+msgid "The Time you selected is invalid"
+msgstr "Valitsemasi aika on virheellinen"
+
+#: bwdatetime.cpp:176
+msgid "The Date you selected is invalid"
+msgstr "Valitsemasi päiväys on virheellinen"
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
@@ -326,3 +335,15 @@ msgid ""
 msgstr ""
 "KNotesin viesti samalla nimellä on jo olemassa\n"
 "Valitse toinen nimi"
+
+#: docking.cpp:71
+msgid "Change Defaults"
+msgstr "Muuta oletusasetuksia"
+
+#: docking.cpp:76
+msgid "Exit Knotes"
+msgstr "Lopeta"
+
+#: docking.cpp:95
+msgid "New Knote"
+msgstr "Uusi viesti"

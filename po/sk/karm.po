@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
-"POT-Creation-Date: 1998-06-16 14:24+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: 1998-03-08 10:42 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -89,6 +89,15 @@ msgstr "S&top"
 msgid "&Task"
 msgstr "Ú&loha"
 
+#: top.cpp:71
+msgid "&Contents"
+msgstr ""
+
+#: top.cpp:74
+#, fuzzy
+msgid "&About"
+msgstr "Informácie..."
+
 #: top.cpp:85
 msgid "Start Clock"
 msgstr "Spusti» hodinky"
@@ -128,4 +137,3 @@ msgstr ""
 #: top.cpp:161
 msgid "clock active"
 msgstr "hodinky aktívne"
-

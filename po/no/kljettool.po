@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kljettool\n"
-"POT-Creation-Date: 1998-06-16 14:24+0200\n"
+"POT-Creation-Date: 1998-10-01 13:43+0200\n"
 "PO-Revision-Date: 1998-05-12 23:10+0100\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -15,14 +15,17 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: Data.cpp:123 Data.cpp:157 Data.cpp:193
-#, c-format
-msgid ""
-"Unable to print with:\n"
-" %s"
-msgstr ""
-"Kan ikke skrive ut med:\n"
-" %s"
+#: main.cpp:69
+msgid "Paper"
+msgstr "Papir"
+
+#: PrinterData.cpp:93 main.cpp:70
+msgid "Printer"
+msgstr "Skriver"
+
+#: main.cpp:71
+msgid "Operations"
+msgstr "Operasjoner"
 
 #: FontsData.cpp:38
 msgid "Language"
@@ -43,6 +46,30 @@ msgstr "Punktstørrelse"
 #: FontsData.cpp:156
 msgid "points"
 msgstr "punkter"
+
+#: PrinterData.cpp:41
+msgid "Mode"
+msgstr "Modus"
+
+#: PrinterData.cpp:47
+msgid "Economy"
+msgstr "Økonomi"
+
+#: PrinterData.cpp:56
+msgid "Presentation"
+msgstr "Visning"
+
+#: PrinterData.cpp:65
+msgid "Resolution"
+msgstr "Oppløsning"
+
+#: PrinterData.cpp:87
+msgid "Density"
+msgstr "Tetthet"
+
+#: PrinterData.cpp:99
+msgid "Resolution Enh."
+msgstr "Forbedre oppløsning"
 
 #: MiscData.cpp:43
 msgid "End of Line Mode"
@@ -68,33 +95,14 @@ msgstr "Resett"
 msgid "Initialize"
 msgstr "Initsialisere"
 
-#: PrinterData.cpp:41
-msgid "Mode"
-msgstr "Modus"
-
-#: PrinterData.cpp:47
-msgid "Economy"
-msgstr "Økonomi"
-
-#: PrinterData.cpp:56
-msgid "Presentation"
-msgstr "Visning"
-
-#: PrinterData.cpp:65
-msgid "Resolution"
-msgstr "Oppløsning"
-
-#: PrinterData.cpp:87
-msgid "Density"
-msgstr "Tetthet"
-
-#: PrinterData.cpp:93 main.cpp:70
-msgid "Printer"
-msgstr "Skriver"
-
-#: PrinterData.cpp:99
-msgid "Resolution Enh."
-msgstr "Forbedre oppløsning"
+#: Data.cpp:123 Data.cpp:157 Data.cpp:193
+#, c-format
+msgid ""
+"Unable to print with:\n"
+" %s"
+msgstr ""
+"Kan ikke skrive ut med:\n"
+" %s"
 
 #: about.cpp:38
 msgid "About KLJetTool"
@@ -107,11 +115,3 @@ msgstr "KLjetTool"
 #: about.cpp:52
 msgid "Version "
 msgstr "Versjon "
-
-#: main.cpp:69
-msgid "Paper"
-msgstr "Papir"
-
-#: main.cpp:71
-msgid "Operations"
-msgstr "Operasjoner"

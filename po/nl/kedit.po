@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,148 +17,148 @@ msgstr ""
 # Dutch translation of the kedit messages.
 # Copyright (C) 1997 Jeroen van der Most <jvdmost@wi.leidenuniv.nl>
 #
-#: kedit.cpp:83 kedit.cpp:1019
+#: kedit.cpp:85 kedit.cpp:1090
 msgid "Show &Tool Bar"
 msgstr "&Werkbalk tonen"
 
-#: kedit.cpp:85 kedit.cpp:1012
+#: kedit.cpp:87 kedit.cpp:1083
 msgid "Hide &Tool Bar"
 msgstr "&Werkbalk verbergen"
 
-#: kedit.cpp:88 kedit.cpp:999
+#: kedit.cpp:90 kedit.cpp:1070
 msgid "Show &Status Bar"
 msgstr "&Statusbalk tonen"
 
-#: kedit.cpp:90 kedit.cpp:992
+#: kedit.cpp:92 kedit.cpp:1063
 msgid "Hide &Status Bar"
 msgstr "&Statusbalk verbergen"
 
-#: kedit.cpp:152
+#: kedit.cpp:153
 #, fuzzy
 msgid "Select All"
 msgstr "Alles vervangen"
 
-#: kedit.cpp:183
-msgid "&About..."
-msgstr "&Info"
-
-#: kedit.cpp:187
+#: kedit.cpp:200
 msgid "Ne&w..."
 msgstr "&Nieuw..."
 
-#: kedit.cpp:192
+#: kedit.cpp:207
 #, fuzzy
 msgid "Open Recen&t..."
 msgstr "&URL openen"
 
-#: kedit.cpp:204
+#: kedit.cpp:219
 msgid "Open &URL..."
 msgstr "&URL openen"
 
-#: kedit.cpp:206
+#: kedit.cpp:221
 msgid "Save to U&RL..."
 msgstr "Naar U&RL opslaan..."
 
-#: kedit.cpp:212
+#: kedit.cpp:237
 msgid "&Mail..."
 msgstr "Als &e-mail verzenden..."
 
-#: kedit.cpp:216
+#: kedit.cpp:241
 msgid "New &Window"
 msgstr "Nieuw &Venster"
 
-#: kedit.cpp:228
+#: kedit.cpp:253
 #, fuzzy
 msgid "&Select All"
 msgstr "Alles vervangen"
 
-#: kedit.cpp:231
+#: kedit.cpp:256
 #, fuzzy
 msgid "&Insert File"
 msgstr "&Bestand invoegen"
 
-#: kedit.cpp:233
+#: kedit.cpp:258
 msgid "Insert &Date"
 msgstr "&Datum invoegen"
 
-#: kedit.cpp:236
+#: kedit.cpp:261
 msgid "&Find..."
 msgstr "&Zoeken..."
 
-#: kedit.cpp:238
+#: kedit.cpp:263
 msgid "Find &Again"
 msgstr "&Opnieuw zoeken"
 
-#: kedit.cpp:240
+#: kedit.cpp:265
 msgid "&Replace"
 msgstr "&Vervangen"
 
-#: kedit.cpp:243
+#: kedit.cpp:267
+msgid "Spellcheck..."
+msgstr ""
+
+#: kedit.cpp:272
 msgid "&Goto Line..."
 msgstr "&Ga naar regel..."
 
-#: kedit.cpp:247
+#: kedit.cpp:276
 msgid "&Font"
 msgstr "&Lettertype..."
 
-#: kedit.cpp:249
+#: kedit.cpp:278
 msgid "Colors"
 msgstr "&Kleuren"
 
-#: kedit.cpp:251
+#: kedit.cpp:283
 #, fuzzy
 msgid "KEdit &Options..."
 msgstr "&Diverse instellingen..."
 
-#: kedit.cpp:253
+#: kedit.cpp:285
 msgid "Auto &Indent"
 msgstr "&Automatish inspringen"
 
-#: kedit.cpp:256
+#: kedit.cpp:288
 msgid "&Tool Bar"
 msgstr "&Werkbalk"
 
-#: kedit.cpp:258
+#: kedit.cpp:290
 msgid "&Status Bar"
 msgstr "&Statusbalk"
 
-#: kedit.cpp:261
+#: kedit.cpp:293
 msgid "Save Options"
 msgstr "Instellingen opslaan"
 
-#: kedit.cpp:289
+#: kedit.cpp:332
 msgid "New Document"
 msgstr "Nieuw document"
 
-#: kedit.cpp:295
+#: kedit.cpp:338
 msgid "Open Document"
 msgstr "Document openen"
 
-#: kedit.cpp:300
+#: kedit.cpp:343
 msgid "Save Document"
 msgstr "Document opslaan"
 
-#: kedit.cpp:325 print.cpp:88
+#: kedit.cpp:368 print.cpp:91
 msgid "Print Document"
 msgstr "Document afdrukken"
 
-#: kedit.cpp:330
+#: kedit.cpp:373
 msgid "Mail Document"
 msgstr "Document per e-mail verzenden"
 
-#: kedit.cpp:534
+#: kedit.cpp:605
 msgid "Open Location:"
 msgstr "Open locatie:"
 
-#: kedit.cpp:548
+#: kedit.cpp:619
 msgid "Save to Location:"
 msgstr "Opslaan naar URL:"
 
-#: kedit.cpp:574 kedit.cpp:637 kedit.cpp:666 kedit.cpp:729 kedit.cpp:1123
+#: kedit.cpp:645 kedit.cpp:708 kedit.cpp:737 kedit.cpp:800 kedit.cpp:1194
 msgid "Message"
 msgstr "Bericht"
 
-#: kedit.cpp:575 kedit.cpp:730
+#: kedit.cpp:646 kedit.cpp:801
 msgid ""
 "This Document has been modified.\n"
 "Would you like to save it?"
@@ -166,7 +166,7 @@ msgstr ""
 "Dit document is gewijzigd.\n"
 "Moet het opgeslagen worden?"
 
-#: kedit.cpp:592 kedit.cpp:747
+#: kedit.cpp:663 kedit.cpp:818
 msgid ""
 "Could not save the file.\n"
 "Exit anyways?"
@@ -174,7 +174,7 @@ msgstr ""
 "Kon het bestand niet opslaan.\n"
 "Toch kedit afsluiten ?"
 
-#: kedit.cpp:638
+#: kedit.cpp:709
 msgid ""
 "There are windows with modified content open.\n"
 "If you exit now, you will loose those changes\n"
@@ -184,7 +184,7 @@ msgstr ""
 "Als kedit afgesloten wordt gaan de wijzigingen verloren\n"
 "Toch afsluiten ?"
 
-#: kedit.cpp:667
+#: kedit.cpp:738
 #, fuzzy
 msgid ""
 "The current document has been modified.\n"
@@ -193,21 +193,21 @@ msgstr ""
 "Het huidige document is gewijzigd.\n"
 "Moet het opgeslagen worden ?"
 
-#: kedit.cpp:808
+#: kedit.cpp:879
 #, c-format
 msgid "Wrote: %s"
 msgstr "Opgeslagen: %s"
 
-#: kedit.cpp:814
+#: kedit.cpp:885
 msgid "No changes need to be saved"
 msgstr "Geen wijzigen hoefden opgeslagen te worden"
 
-#: kedit.cpp:833
+#: kedit.cpp:904
 #, c-format
 msgid "Saved as: %s"
 msgstr "Als %s opgeslagen"
 
-#: kedit.cpp:866
+#: kedit.cpp:937
 #, c-format
 msgid ""
 "Could not pipe the contentsof this Document into:\n"
@@ -216,20 +216,20 @@ msgstr ""
 "Kon de inhoud van dit document niet sturen naar:\n"
 " %s"
 
-#: kedit.cpp:960
+#: kedit.cpp:1031
 msgid "Auto Indent Mode: On"
 msgstr "Automatisch inspringen: aan"
 
-#: kedit.cpp:962
+#: kedit.cpp:1033
 msgid "Auto Indent Mode: Off"
 msgstr "Automatisch inspringen: uit"
 
-#: kedit.cpp:1058
+#: kedit.cpp:1129
 #, c-format
 msgid "Line: %d Col: %d"
 msgstr "Regel: %d kolom: %d"
 
-#: kedit.cpp:1124
+#: kedit.cpp:1195
 msgid ""
 "The current document has been modified.\n"
 "Would you like to save the changes before \n"
@@ -239,7 +239,7 @@ msgstr ""
 "Moet het opgeslagen worden voordat het\n"
 "het afgedrukt wordt?"
 
-#: kedit.cpp:1142
+#: kedit.cpp:1213
 #, fuzzy
 msgid ""
 "Could not save the file.\n"
@@ -248,35 +248,35 @@ msgstr ""
 "Kon het bestand niet opslaan.\n"
 "Toch kedit afsluiten ?"
 
-#: kedit.cpp:1235
+#: kedit.cpp:1306
 #, c-format
 msgid "Printing: %s Untitled (Selection)"
 msgstr "Afdrukken: %s Titelloos (selectie)"
 
-#: kedit.cpp:1238
+#: kedit.cpp:1309
 #, c-format
 msgid "Printing: %s Untitled"
 msgstr "Afdrukken: %s Titelloos"
 
-#: kedit.cpp:1276
+#: kedit.cpp:1347
 #, c-format
 msgid "Printing: %s"
 msgstr "Afdrukken: %s"
 
-#: kedit.cpp:1286
+#: kedit.cpp:1357
 #, c-format
 msgid "Printing: %s %s (Selection)"
 msgstr "Afdrukken: %s %s (selectie)"
 
-#: kedit.cpp:1310
+#: kedit.cpp:1381
 msgid "Saving ..."
 msgstr "Opslaan ..."
 
-#: kedit.cpp:1317
+#: kedit.cpp:1388
 msgid "Loading ..."
 msgstr "Openen ..."
 
-#: kedit.cpp:1351 kedit.cpp:1444
+#: kedit.cpp:1422 kedit.cpp:1515
 msgid ""
 "KEdit is already waiting\n"
 "for an internet job to finish\n"
@@ -287,11 +287,11 @@ msgstr ""
 "reeds uitgevoerd.\n"
 "Wacht tot deze klaar is of stop hem."
 
-#: kedit.cpp:1368 kedit.cpp:1463
+#: kedit.cpp:1439 kedit.cpp:1534
 msgid "Could not start or find KFM"
 msgstr "Kon KFM niet vinden of starten."
 
-#: kedit.cpp:1410
+#: kedit.cpp:1481
 #, c-format
 msgid ""
 "Malformed URL\n"
@@ -300,45 +300,45 @@ msgstr ""
 "Misvormde URL\n"
 "%s"
 
-#: kedit.cpp:1430
+#: kedit.cpp:1501
 #, c-format
 msgid "Loading '%s'"
 msgstr "Openen '%s'"
 
-#: kedit.cpp:1454
+#: kedit.cpp:1525
 msgid "Calling KFM"
 msgstr "KFM aanroepen"
 
-#: kedit.cpp:1473
+#: kedit.cpp:1544
 msgid "Starting Job"
 msgstr "Taak wordt gestart"
 
-#: kedit.cpp:1476
+#: kedit.cpp:1547
 msgid "Connected"
 msgstr "Verbinding"
 
-#: kedit.cpp:1478
+#: kedit.cpp:1549
 msgid "Waiting..."
 msgstr "Wachten..."
 
-#: kedit.cpp:1486
+#: kedit.cpp:1557
 #, c-format
 msgid "Finished '%s'"
 msgstr "Klaar met openen '%s'"
 
-#: kedit.cpp:1527
+#: kedit.cpp:1598
 msgid "New Window"
 msgstr "Nieuw venster"
 
-#: kedit.cpp:1531
+#: kedit.cpp:1602
 msgid "New Window Created"
 msgstr "Nieuw venster gecreëerd"
 
-#: kedit.cpp:1537
+#: kedit.cpp:1608
 msgid "Load Command Done"
 msgstr "Open commando uitgevoerd"
 
-#: kedit.cpp:1949
+#: kedit.cpp:2020
 #, c-format
 msgid ""
 "Can not create:\n"
@@ -347,19 +347,130 @@ msgstr ""
 "Kan niet aanmaken:\n"
 "%s"
 
-#: print.cpp:66
+#: keditcl1.cpp:137
+msgid "The specified File does not exist"
+msgstr "Het gespecificeerde bestand bestaat niet"
+
+#: keditcl1.cpp:150 keditcl1.cpp:423 keditcl1.cpp:507 keditcl1.cpp:1687
+msgid "Sorry:"
+msgstr "Sorry:"
+
+#: keditcl1.cpp:151
+msgid "You have specificated a directory"
+msgstr "De aangegeven naam is een map"
+
+#: keditcl1.cpp:166 keditcl1.cpp:187
+msgid "You do not have read permission to this file."
+msgstr "Niet genoeg rechten om het bestand te lezen."
+
+#: keditcl1.cpp:200
+msgid "An Error occured while trying to open this Document"
+msgstr "Tijdens het openen van dit document is een fout opgetreden"
+
+#: keditcl1.cpp:402 keditcl1.cpp:487 keditcl1.cpp:1629
+msgid "Warning:"
+msgstr "Waarschuwing:"
+
+#: keditcl1.cpp:403 keditcl1.cpp:488
+msgid ""
+"The current Document has been modified.\n"
+"Would you like to save it?"
+msgstr ""
+"Het huidige document is gewijzigd.\n"
+"Moet het opgeslagen worden ?"
+
+#: keditcl1.cpp:424
+#, fuzzy
+msgid ""
+"Could not save the document.\n"
+"Open a new document anyways?"
+msgstr ""
+"Kon het bestand niet opslaan.\n"
+"Toch kedit afsluiten ?"
+
+#: keditcl1.cpp:508
+#, fuzzy
+msgid ""
+"Could not save the document.\n"
+"Create a new document anyways?"
+msgstr ""
+"Kon het bestand niet opslaan.\n"
+"Toch kedit afsluiten ?"
+
+#: keditcl1.cpp:1546
+msgid "Could not save the document\n"
+msgstr "Kon het document niet opslaan\n"
+
+#: keditcl1.cpp:1630
+msgid ""
+"A Document with this Name exists already\n"
+"Do you want to overwrite it ?"
+msgstr ""
+"Een document met die naam bestaat reeds\n"
+"Moet het overschreven worden ?"
+
+#: keditcl1.cpp:1688
+#, fuzzy
+msgid "You do not have write permission to this file.\n"
+msgstr "Niet voldoende rechten om naar dit bestand te schrijven\n"
+
+#: keditcl2.cpp:113 keditcl2.cpp:370 keditcl2.cpp:463
+msgid ""
+"End of document reached.\n"
+"Continue from the beginning?"
+msgstr ""
+"Het einde van het document is bereikt.\n"
+"Aan het begin van het document doorgaan ?"
+
+#: keditcl2.cpp:130 keditcl2.cpp:387 keditcl2.cpp:433 keditcl2.cpp:480
+msgid ""
+"Beginning of document reached.\n"
+"Continue from the end?"
+msgstr ""
+"Het begin van het document is bereikt.\n"
+"Aan het einde van het document doorgaan ?"
+
+#: keditcl2.cpp:691 keditcl2.cpp:789
+msgid "Case Sensitive"
+msgstr "Onderscheid tussen hoofd en kleine letters"
+
+#: keditcl2.cpp:692 keditcl2.cpp:792
+msgid "Find Backwards"
+msgstr "Achterwaards zoeken"
+
+#: keditcl2.cpp:777
+msgid "Find:"
+msgstr "Zoek:"
+
+#: keditcl2.cpp:787
+msgid "Replace with:"
+msgstr "Vervangen met:"
+
+#: keditcl2.cpp:801
+msgid "Replace All"
+msgstr "Alles vervangen"
+
+#: keditcl2.cpp:898
+msgid "Goto Line"
+msgstr "Ga naar regel"
+
+#: keditcl2.cpp:903
+msgid "Go"
+msgstr "Ga naar"
+
+#: print.cpp:69
 msgid "Print Dialog"
 msgstr "Document afdrukken"
 
-#: print.cpp:70
+#: print.cpp:73
 msgid "Print directly using lpr"
 msgstr "Direct met lpr afdrukken"
 
-#: print.cpp:75
+#: print.cpp:78
 msgid "Print using Command:"
 msgstr "Afdrukken met de opdracht:"
 
-#: print.cpp:93
+#: print.cpp:96
 msgid "Print Selection"
 msgstr "Selectie afdrukken"
 
@@ -401,110 +512,23 @@ msgstr "Email"
 msgid "You must specify a Recipient"
 msgstr "Specificeer een geadresseerde"
 
-#~ msgid "The specified File does not exist"
-#~ msgstr "Het gespecificeerde bestand bestaat niet"
-
-#~ msgid "Sorry:"
-#~ msgstr "Sorry:"
-
-#~ msgid "You have specificated a directory"
-#~ msgstr "De aangegeven naam is een map"
-
-#~ msgid "You do not have read permission to this file."
-#~ msgstr "Niet genoeg rechten om het bestand te lezen."
-
-#~ msgid "An Error occured while trying to open this Document"
-#~ msgstr "Tijdens het openen van dit document is een fout opgetreden"
+#~ msgid "&About..."
+#~ msgstr "&Info"
 
 #~ msgid "Select Document to Insert"
 #~ msgstr "Selecteer een document om in te voegen"
 
-#~ msgid "Warning:"
-#~ msgstr "Waarschuwing:"
-
-#~ msgid ""
-#~ "The current Document has been modified.\n"
-#~ "Would you like to save it?"
-#~ msgstr ""
-#~ "Het huidige document is gewijzigd.\n"
-#~ "Moet het opgeslagen worden ?"
-
-#, fuzzy
-#~ msgid ""
-#~ "Could not save the document.\n"
-#~ "Open a new document anyways?"
-#~ msgstr ""
-#~ "Kon het bestand niet opslaan.\n"
-#~ "Toch kedit afsluiten ?"
-
 #~ msgid "Select Document to Open"
 #~ msgstr "Selecteer het te openen document"
-
-#, fuzzy
-#~ msgid ""
-#~ "Could not save the document.\n"
-#~ "Create a new document anyways?"
-#~ msgstr ""
-#~ "Kon het bestand niet opslaan.\n"
-#~ "Toch kedit afsluiten ?"
-
-#~ msgid "Could not save the document\n"
-#~ msgstr "Kon het document niet opslaan\n"
 
 #~ msgid "Save Document As"
 #~ msgstr "Sla document op als"
 
-#~ msgid ""
-#~ "A Document with this Name exists already\n"
-#~ "Do you want to overwrite it ?"
-#~ msgstr ""
-#~ "Een document met die naam bestaat reeds\n"
-#~ "Moet het overschreven worden ?"
-
-#, fuzzy
-#~ msgid "You do not have write permission to this file.\n"
-#~ msgstr "Niet voldoende rechten om naar dit bestand te schrijven\n"
-
 #~ msgid "Find"
 #~ msgstr "Zoeken"
 
-#~ msgid ""
-#~ "End of document reached.\n"
-#~ "Continue from the beginning?"
-#~ msgstr ""
-#~ "Het einde van het document is bereikt.\n"
-#~ "Aan het begin van het document doorgaan ?"
-
-#~ msgid ""
-#~ "Beginning of document reached.\n"
-#~ "Continue from the end?"
-#~ msgstr ""
-#~ "Het begin van het document is bereikt.\n"
-#~ "Aan het einde van het document doorgaan ?"
-
 #~ msgid "Replace"
 #~ msgstr "Vervang"
-
-#~ msgid "Case Sensitive"
-#~ msgstr "Onderscheid tussen hoofd en kleine letters"
-
-#~ msgid "Find Backwards"
-#~ msgstr "Achterwaards zoeken"
-
-#~ msgid "Find:"
-#~ msgstr "Zoek:"
-
-#~ msgid "Replace with:"
-#~ msgstr "Vervangen met:"
-
-#~ msgid "Replace All"
-#~ msgstr "Alles vervangen"
-
-#~ msgid "Goto Line"
-#~ msgstr "Ga naar regel"
-
-#~ msgid "Go"
-#~ msgstr "Ga naar"
 
 #~ msgid "&Open..."
 #~ msgstr "&Openen..."

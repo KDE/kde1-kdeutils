@@ -109,7 +109,6 @@ msgstr ""
 "Kmkdosf2 estas parto de KFloppy.\n"
 "Bonvolu instali KFloppy øuste."
 
-
 #: floppy.cpp:424
 msgid "Abort"
 msgstr "Interrompu"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:24+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: 1998-02-16 HO:MI+ZONE\n"
 "Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
 "Language-Team: Français <fr@li.org>\n"
@@ -91,6 +91,15 @@ msgstr "S&top"
 msgid "&Task"
 msgstr "&Tâche"
 
+#: top.cpp:71
+msgid "&Contents"
+msgstr "&Contenu"
+
+#: top.cpp:74
+#, fuzzy
+msgid "&About"
+msgstr "A propos de "
+
 #: top.cpp:85
 msgid "Start Clock"
 msgstr "Démarrer le chronomètre"
@@ -133,6 +142,3 @@ msgstr "Chronomètre actif"
 
 #~ msgid "&Start"
 #~ msgstr "Démarrer (&S)"
-
-#~ msgid "&Contents"
-#~ msgstr "&Contenu"

@@ -6,106 +6,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
-
-#: alarm.cpp:58
-#, c-format
-msgid "Alarm Timer for: %s"
-msgstr ""
-
-#: alarm.cpp:72
-msgid "Unset"
-msgstr ""
-
-#: alarm.cpp:74
-msgid "Set"
-msgstr ""
-
-#: alarm.cpp:153
-msgid "I am afraid you already missed your appointment."
-msgstr ""
-
-#: bwdatetime.cpp:44
-msgid "Day:"
-msgstr ""
-
-#: bwdatetime.cpp:50
-msgid "Month:"
-msgstr ""
-
-#: bwdatetime.cpp:57
-msgid "Year:"
-msgstr ""
-
-#: bwdatetime.cpp:72
-msgid "Time:"
-msgstr ""
-
-#: bwdatetime.cpp:161
-msgid "The Time you selected is invalid"
-msgstr ""
-
-#: bwdatetime.cpp:176
-msgid "The Date you selected is invalid"
-msgstr ""
-
-#: configdlg.cpp:50
-msgid "Text Color:"
-msgstr ""
-
-#: configdlg.cpp:64
-msgid "Background Color:"
-msgstr ""
-
-#: configdlg.cpp:83
-msgid "Width:"
-msgstr ""
-
-#: configdlg.cpp:93
-msgid "Height:"
-msgstr ""
-
-#: configdlg.cpp:104
-msgid "Print Command:"
-msgstr ""
-
-#: configdlg.cpp:112
-msgid "Mail Command:"
-msgstr ""
-
-#: configdlg.cpp:123
-msgid "3d Frame"
-msgstr ""
-
-#: configdlg.cpp:128 knotes.cpp:330
-msgid "Auto Indent"
-msgstr ""
-
-#: docking.cpp:71
-msgid "Change Defaults"
-msgstr ""
-
-#: docking.cpp:76
-msgid "Exit Knotes"
-msgstr ""
-
-#: docking.cpp:95
-msgid "New Knote"
-msgstr ""
-
-#: fontdlg.cpp:45
-msgid "Set Default Font"
-msgstr ""
-
-#: fontdlg.cpp:64
-msgid "Point Size:"
-msgstr ""
 
 #: knotes.cpp:300
 msgid "Text Color..."
@@ -149,6 +56,10 @@ msgstr ""
 
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"
+msgstr ""
+
+#: configdlg.cpp:128 knotes.cpp:330
+msgid "Auto Indent"
 msgstr ""
 
 #: knotes.cpp:332
@@ -265,6 +176,62 @@ msgstr ""
 msgid "Inconsistency"
 msgstr ""
 
+#: configdlg.cpp:50
+msgid "Text Color:"
+msgstr ""
+
+#: configdlg.cpp:64
+msgid "Background Color:"
+msgstr ""
+
+#: configdlg.cpp:83
+msgid "Width:"
+msgstr ""
+
+#: configdlg.cpp:93
+msgid "Height:"
+msgstr ""
+
+#: configdlg.cpp:104
+msgid "Print Command:"
+msgstr ""
+
+#: configdlg.cpp:112
+msgid "Mail Command:"
+msgstr ""
+
+#: configdlg.cpp:123
+msgid "3d Frame"
+msgstr ""
+
+#: fontdlg.cpp:45
+msgid "Set Default Font"
+msgstr ""
+
+#: fontdlg.cpp:54
+msgid "Family:"
+msgstr ""
+
+#: fontdlg.cpp:64
+msgid "Point Size:"
+msgstr ""
+
+#: fontdlg.cpp:75
+msgid "Style:"
+msgstr ""
+
+#: fontdlg.cpp:87
+msgid "Weight:"
+msgstr ""
+
+#: fontdlg.cpp:93 fontdlg.cpp:117 fontdlg.cpp:150
+msgid "Bold"
+msgstr ""
+
+#: fontdlg.cpp:95 fontdlg.cpp:119 fontdlg.cpp:152
+msgid "Normal"
+msgstr ""
+
 #: mail.cpp:40
 msgid "Mail Note to:"
 msgstr ""
@@ -279,6 +246,47 @@ msgstr ""
 
 #: mail.cpp:92
 msgid "You must specify a Recipient"
+msgstr ""
+
+#: alarm.cpp:58
+#, c-format
+msgid "Alarm Timer for: %s"
+msgstr ""
+
+#: alarm.cpp:72
+msgid "Unset"
+msgstr ""
+
+#: alarm.cpp:74
+msgid "Set"
+msgstr ""
+
+#: alarm.cpp:153
+msgid "I am afraid you already missed your appointment."
+msgstr ""
+
+#: bwdatetime.cpp:44
+msgid "Day:"
+msgstr ""
+
+#: bwdatetime.cpp:50
+msgid "Month:"
+msgstr ""
+
+#: bwdatetime.cpp:57
+msgid "Year:"
+msgstr ""
+
+#: bwdatetime.cpp:72
+msgid "Time:"
+msgstr ""
+
+#: bwdatetime.cpp:161
+msgid "The Time you selected is invalid"
+msgstr ""
+
+#: bwdatetime.cpp:176
+msgid "The Date you selected is invalid"
 msgstr ""
 
 #: renamedlg.cpp:39
@@ -299,4 +307,16 @@ msgstr ""
 msgid ""
 "A KNotes note with this name already exists\n"
 "Please choose a different name"
+msgstr ""
+
+#: docking.cpp:71
+msgid "Change Defaults"
+msgstr ""
+
+#: docking.cpp:76
+msgid "Exit Knotes"
+msgstr ""
+
+#: docking.cpp:95
+msgid "New Knote"
 msgstr ""
