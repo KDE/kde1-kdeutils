@@ -1,0 +1,31 @@
+# KDE Config File
+[KDE Desktop Entry]
+Name=Process management
+Name[de]=Prozeß-Management
+Name[no]=Prosessbehandler
+Comment[C]=Process management tool
+Comment[de]=Prozeß-Management
+Comment[no]=Prosessbehandlingsverktøy
+Comment[pt]=Ferramenta de gestão de processos
+Comment[pt_BR]=Ferramenta de gerenciamento de processos
+Comment[hr]=Upravljanje procesima
+Comment[fr]=Gestionnaire de tâches
+Comment[sk]=Mene¾ment procesov
+BinaryPattern=kpm;
+Protocols=
+Name[C]=Kpm
+Name[pl]=Kpm
+Name[hr]=Kpm
+Name[fr]=Kpm
+Name[sk]=Kpm
+Name[pt]=Kpm
+Name[pt_BR]=Kpm
+MimeType=
+DocPath=kpm/kpm.html
+Comment=
+Exec=kpm
+Icon=kpm.xpm
+TerminalOptions=
+Path=
+Type=Application
+Terminal=0

@@ -1,0 +1,18 @@
+Changes from kpm-1.3k2:
+	* fixes for DEC Alpha/Linux
+	* hideable toolbar
+
+Changes from kpm-1.3k1:
+	* preparing for panel docking
+	* some bugs fixed
+	* new feature: filled graphs
+
+Changes from qps-1.3 (original package) to kpm-1.3k1
+	* improved dialogs
+	* added toolbar
+	* added field help
+	* removed non-standard widgets
+	* scheduling dialog is disabled for non-root users
+	* scheduling dialog reworked (layout)
+	* SliderDialog reworked (layout)
+	* session management
