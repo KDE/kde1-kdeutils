@@ -162,6 +162,8 @@ int main( int argc, char **argv )
 	      temp = ":";
 	  } while( temp.simplifyWhiteSpace().left(1) == (QString) ":");
 	  */
+          if(name.right(1) == "\\" )
+            name = name.left(name.length() - 1);
 	  klpq.addPrintQueue(name);
 	  if( choice.isEmpty() && name == last_printer )
 	    klpq.setLastPrinterCurrent();
