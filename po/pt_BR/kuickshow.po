@@ -55,27 +55,27 @@ msgstr "Mudar diretório"
 
 #: imlibwidget.cpp:241
 msgid "+    b"
-msgstr ""
+msgstr "+    b"
 
 #: imlibwidget.cpp:242
 msgid "-    B"
-msgstr ""
+msgstr "-    B"
 
 #: imlibwidget.cpp:245
 msgid "+    c"
-msgstr ""
+msgstr "+    c"
 
 #: imlibwidget.cpp:246
 msgid "-    C"
-msgstr ""
+msgstr "-    C"
 
 #: imlibwidget.cpp:249
 msgid "+    g"
-msgstr ""
+msgstr "+    g"
 
 #: imlibwidget.cpp:250
 msgid "-    G"
-msgstr ""
+msgstr "-    G"
 
 #: imlibwidget.cpp:252
 msgid "Zoom in"
