@@ -54,6 +54,7 @@ configure.in: configure.in.in subdirs
 	sed -e "s#AC_OUTPUT(#AC_OUTPUT($$i #" configure.in > configure.in.new \
 	 && mv configure.in.new configure.in ;\
 	done 
+	(cd kfloppy/e2fs && autoconf)
 
 subdirs:
 	@files=`ls -1 | sort`; \
