@@ -112,6 +112,3 @@ msgstr "Arkivmappe eksisterer ikke."
 #: kzip.cc:408
 msgid "Archive Directory"
 msgstr "Arkivmappe"
-
-#~ msgid "Files"
-#~ msgstr "Filer"
