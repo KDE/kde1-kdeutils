@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karm 0.3\n"
-"POT-Creation-Date: 1998-11-18 14:09+0100\n"
+"POT-Creation-Date: 1999-01-09 01:54+0100\n"
 "PO-Revision-Date: 1998-12-21 02:00+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -20,7 +20,7 @@ msgstr "Имя задачи"
 msgid "Accumutated time (in minutes)"
 msgstr "Использованное время (в минутах)"
 
-#: adddlg.cpp:26
+#: adddlg.cpp:25
 msgid "KArm: New Task"
 msgstr "KArm: Новая задача"
 
@@ -68,66 +68,77 @@ msgstr "Вы уверены, что вы хотите удалить эту задачу?"
 msgid "&Yes"
 msgstr "&Да"
 
-#: top.cpp:39 top.cpp:156
+#: top.cpp:57 top.cpp:139
 msgid "clock inactive"
 msgstr "будильник выключен"
 
-#: top.cpp:40
+#: top.cpp:58
 msgid "This session:"
 msgstr "Текущая сессия:"
 
-#: top.cpp:56
-msgid "&Clock"
-msgstr "&Часы"
-
-#: top.cpp:58
-msgid "S&top"
-msgstr "Остановить"
-
-#: top.cpp:60
-msgid "&Task"
-msgstr "&Задача"
-
-#: top.cpp:61
-msgid "&New"
-msgstr "Новый"
-
-#: top.cpp:71
-#, c-format
-msgid ""
-"%s 0.3 -- Sirtaj Singh Kang\n"
-"taj@kde.org, Oct 1997\n"
-"\n"
-"The K Desktop Environment"
-msgstr ""
-" 0.3 -- Сиртадж Синг Кан\n"
-"taj@kde.org, октябрь 1997\n"
-"\n"
-"KDE"
-
-#: top.cpp:86
+#: top.cpp:74 top.cpp:152
 msgid "Start Clock"
 msgstr "Запустить будильник"
 
-#: top.cpp:90
+#: top.cpp:79 top.cpp:154
 msgid "Stop Clock"
 msgstr "Выключить будильник"
 
-#: top.cpp:96
+#: top.cpp:85 top.cpp:156
 msgid "New Task"
 msgstr "Новая задача"
 
-#: top.cpp:100
+#: top.cpp:89 top.cpp:158
 msgid "Delete Task"
 msgstr "Удалить задачу"
 
-#: top.cpp:105
+#: top.cpp:94 top.cpp:160
 msgid "Edit Task"
 msgstr "Редактировать задачу"
 
-#: top.cpp:149
+#: top.cpp:132
 msgid "clock active"
 msgstr "будильник включен"
+
+#: top.cpp:150
+msgid "Preferences"
+msgstr ""
+
+#: top.cpp:194
+#, c-format
+msgid "%s "
+msgstr ""
+
+#: top.cpp:200
+msgid "&Clock"
+msgstr "&Часы"
+
+#: top.cpp:201
+msgid "&Task"
+msgstr "&Задача"
+
+#: top.cpp:206
+msgid "&Preferences..."
+msgstr ""
+
+#: top.cpp:220
+msgid "S&top"
+msgstr "Остановить"
+
+#: top.cpp:226
+msgid "&New"
+msgstr "Новый"
+
+#~ msgid ""
+#~ "%s 0.3 -- Sirtaj Singh Kang\n"
+#~ "taj@kde.org, Oct 1997\n"
+#~ "\n"
+#~ "The K Desktop Environment"
+#~ msgstr ""
+#~ " 0.3 -- Сиртадж Синг Кан\n"
+#~ "taj@kde.org, октябрь 1997\n"
+#~ "\n"
+#~ "KDE"
 
 #~ msgid "&About"
 #~ msgstr "О программе"

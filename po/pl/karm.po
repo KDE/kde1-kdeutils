@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
-"POT-Creation-Date: 1998-11-18 14:09+0100\n"
+"POT-Creation-Date: 1999-01-09 01:54+0100\n"
 "PO-Revision-Date: 1999-01-04 21:17+0100\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8829-2\n"
@@ -17,7 +17,7 @@ msgstr "Nazwa zadania"
 msgid "Accumutated time (in minutes)"
 msgstr "Wyliczony czas (w minutach)"
 
-#: adddlg.cpp:26
+#: adddlg.cpp:25
 msgid "KArm: New Task"
 msgstr "KArm: Nowe zadanie"
 
@@ -65,66 +65,78 @@ msgstr "Czy na pewno chcesz skasowaæ to zadanie?"
 msgid "&Yes"
 msgstr "&Tak"
 
-#: top.cpp:39 top.cpp:156
+#: top.cpp:57 top.cpp:139
 msgid "clock inactive"
 msgstr "zegar nieaktywny"
 
-#: top.cpp:40
+#: top.cpp:58
 msgid "This session:"
 msgstr "Ta sesja:"
 
-#: top.cpp:56
-msgid "&Clock"
-msgstr "&Zegar"
-
-#: top.cpp:58
-msgid "S&top"
-msgstr "S&top"
-
-#: top.cpp:60
-msgid "&Task"
-msgstr "&Zadanie"
-
-#: top.cpp:61
-msgid "&New"
-msgstr "&Nowy"
-
-#: top.cpp:71
-#, fuzzy, c-format
-msgid ""
-"%s 0.3 -- Sirtaj Singh Kang\n"
-"taj@kde.org, Oct 1997\n"
-"\n"
-"The K Desktop Environment"
-msgstr ""
-" 0.3 -- Sirtaj Singh Kang\n"
-"taj@kde.org, Oct 1997\n"
-"\n"
-"¦rodowisko KDE"
-
-#: top.cpp:86
+#: top.cpp:74 top.cpp:152
 msgid "Start Clock"
 msgstr "Uruchom zegar"
 
-#: top.cpp:90
+#: top.cpp:79 top.cpp:154
 msgid "Stop Clock"
 msgstr "Zatrzymaj zegar"
 
-#: top.cpp:96
+#: top.cpp:85 top.cpp:156
 msgid "New Task"
 msgstr "Nowe zadanie"
 
-#: top.cpp:100
+#: top.cpp:89 top.cpp:158
 msgid "Delete Task"
 msgstr "Skasuj zadanie"
 
-#: top.cpp:105
+#: top.cpp:94 top.cpp:160
 msgid "Edit Task"
 msgstr "Edytuj zadanie"
 
-#: top.cpp:149
+#: top.cpp:132
 msgid "clock active"
 msgstr "zegar aktywny"
+
+#: top.cpp:150
+msgid "Preferences"
+msgstr ""
+
+#: top.cpp:194
+#, c-format
+msgid "%s "
+msgstr ""
+
+#: top.cpp:200
+msgid "&Clock"
+msgstr "&Zegar"
+
+#: top.cpp:201
+msgid "&Task"
+msgstr "&Zadanie"
+
+#: top.cpp:206
+msgid "&Preferences..."
+msgstr ""
+
+#: top.cpp:220
+msgid "S&top"
+msgstr "S&top"
+
+#: top.cpp:226
+msgid "&New"
+msgstr "&Nowy"
+
+#, fuzzy
+#~ msgid ""
+#~ "%s 0.3 -- Sirtaj Singh Kang\n"
+#~ "taj@kde.org, Oct 1997\n"
+#~ "\n"
+#~ "The K Desktop Environment"
+#~ msgstr ""
+#~ " 0.3 -- Sirtaj Singh Kang\n"
+#~ "taj@kde.org, Oct 1997\n"
+#~ "\n"
+#~ "¦rodowisko KDE"
 
 #, fuzzy
 #~ msgid "&About"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karm revision 1.3\n"
-"POT-Creation-Date: 1998-11-18 14:09+0100\n"
+"POT-Creation-Date: 1999-01-09 01:54+0100\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr "Aktivitetsnamn"
 msgid "Accumutated time (in minutes)"
 msgstr "Ackumulerad tid (i minuter)"
 
-#: adddlg.cpp:26
+#: adddlg.cpp:25
 msgid "KArm: New Task"
 msgstr "KArm: Ny aktivitet"
 
@@ -65,66 +65,77 @@ msgstr "Är du säker på att du vill radera denna aktivitet?"
 msgid "&Yes"
 msgstr "&Ja"
 
-#: top.cpp:39 top.cpp:156
+#: top.cpp:57 top.cpp:139
 msgid "clock inactive"
 msgstr "klocka inaktiv"
 
-#: top.cpp:40
+#: top.cpp:58
 msgid "This session:"
 msgstr "Denna session:"
 
-#: top.cpp:56
-msgid "&Clock"
-msgstr "&Klocka"
-
-#: top.cpp:58
-msgid "S&top"
-msgstr "S&tanna"
-
-#: top.cpp:60
-msgid "&Task"
-msgstr "&Aktivitet"
-
-#: top.cpp:61
-msgid "&New"
-msgstr "&Ny"
-
-#: top.cpp:71
-#, c-format
-msgid ""
-"%s 0.3 -- Sirtaj Singh Kang\n"
-"taj@kde.org, Oct 1997\n"
-"\n"
-"The K Desktop Environment"
-msgstr ""
-"%s 0.3 -- Sirtaj Singh Kang\n"
-"taj@kde.org, Oct 1997\n"
-"\n"
-"The K Desktop Environment"
-
-#: top.cpp:86
+#: top.cpp:74 top.cpp:152
 msgid "Start Clock"
 msgstr "Starta klockan"
 
-#: top.cpp:90
+#: top.cpp:79 top.cpp:154
 msgid "Stop Clock"
 msgstr "Stanna klockan"
 
-#: top.cpp:96
+#: top.cpp:85 top.cpp:156
 msgid "New Task"
 msgstr "Ny aktivitet"
 
-#: top.cpp:100
+#: top.cpp:89 top.cpp:158
 msgid "Delete Task"
 msgstr "Radera aktivitet"
 
-#: top.cpp:105
+#: top.cpp:94 top.cpp:160
 msgid "Edit Task"
 msgstr "Redigera aktivitet"
 
-#: top.cpp:149
+#: top.cpp:132
 msgid "clock active"
 msgstr "klocka aktiv"
+
+#: top.cpp:150
+msgid "Preferences"
+msgstr ""
+
+#: top.cpp:194
+#, c-format
+msgid "%s "
+msgstr ""
+
+#: top.cpp:200
+msgid "&Clock"
+msgstr "&Klocka"
+
+#: top.cpp:201
+msgid "&Task"
+msgstr "&Aktivitet"
+
+#: top.cpp:206
+msgid "&Preferences..."
+msgstr ""
+
+#: top.cpp:220
+msgid "S&top"
+msgstr "S&tanna"
+
+#: top.cpp:226
+msgid "&New"
+msgstr "&Ny"
+
+#~ msgid ""
+#~ "%s 0.3 -- Sirtaj Singh Kang\n"
+#~ "taj@kde.org, Oct 1997\n"
+#~ "\n"
+#~ "The K Desktop Environment"
+#~ msgstr ""
+#~ "%s 0.3 -- Sirtaj Singh Kang\n"
+#~ "taj@kde.org, Oct 1997\n"
+#~ "\n"
+#~ "The K Desktop Environment"
 
 #, fuzzy
 #~ msgid "&About"

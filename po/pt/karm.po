@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
-"POT-Creation-Date: 1998-11-18 14:09+0100\n"
+"POT-Creation-Date: 1999-01-09 01:54+0100\n"
 "PO-Revision-Date: 1998-01-28 22:00+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt\n"
@@ -17,7 +17,7 @@ msgstr "Nome da Tarefa"
 msgid "Accumutated time (in minutes)"
 msgstr "Minutos acumulados"
 
-#: adddlg.cpp:26
+#: adddlg.cpp:25
 msgid "KArm: New Task"
 msgstr "KArm: Nova Tarefa"
 
@@ -65,63 +65,74 @@ msgstr "Tem a certeza que quer apagar esta tarefa?"
 msgid "&Yes"
 msgstr "&Sim"
 
-#: top.cpp:39 top.cpp:156
+#: top.cpp:57 top.cpp:139
 msgid "clock inactive"
 msgstr "relógio inactivo"
 
-#: top.cpp:40
+#: top.cpp:58
 msgid "This session:"
 msgstr "Esta sessão:"
 
-#: top.cpp:56
-msgid "&Clock"
-msgstr "&Relógio"
-
-#: top.cpp:58
-msgid "S&top"
-msgstr "&Parar"
-
-#: top.cpp:60
-msgid "&Task"
-msgstr "&Tarefa"
-
-#: top.cpp:61
-msgid "&New"
-msgstr "&Nova"
-
-#: top.cpp:71
-#, c-format
-msgid ""
-"%s 0.3 -- Sirtaj Singh Kang\n"
-"taj@kde.org, Oct 1997\n"
-"\n"
-"The K Desktop Environment"
-msgstr ""
-"%s 0.3 -- Sirtaj Singh Kang\n"
-"taj@kde.org, Oct 1997\n"
-"\n"
-"Ambiente de Trabalho K"
-
-#: top.cpp:86
+#: top.cpp:74 top.cpp:152
 msgid "Start Clock"
 msgstr "Iniciar Relógio"
 
-#: top.cpp:90
+#: top.cpp:79 top.cpp:154
 msgid "Stop Clock"
 msgstr "Parar Relógio"
 
-#: top.cpp:96
+#: top.cpp:85 top.cpp:156
 msgid "New Task"
 msgstr "Nova Tarefa"
 
-#: top.cpp:100
+#: top.cpp:89 top.cpp:158
 msgid "Delete Task"
 msgstr "Apagar Tarefa"
 
-#: top.cpp:105
+#: top.cpp:94 top.cpp:160
 msgid "Edit Task"
 msgstr "Editar Tarefa"
 
-#: top.cpp:149
+#: top.cpp:132
 msgid "clock active"
 msgstr "relógio activo"
+
+#: top.cpp:150
+msgid "Preferences"
+msgstr ""
+
+#: top.cpp:194
+#, c-format
+msgid "%s "
+msgstr ""
+
+#: top.cpp:200
+msgid "&Clock"
+msgstr "&Relógio"
+
+#: top.cpp:201
+msgid "&Task"
+msgstr "&Tarefa"
+
+#: top.cpp:206
+msgid "&Preferences..."
+msgstr ""
+
+#: top.cpp:220
+msgid "S&top"
+msgstr "&Parar"
+
+#: top.cpp:226
+msgid "&New"
+msgstr "&Nova"
+
+#~ msgid ""
+#~ "%s 0.3 -- Sirtaj Singh Kang\n"
+#~ "taj@kde.org, Oct 1997\n"
+#~ "\n"
+#~ "The K Desktop Environment"
+#~ msgstr ""
+#~ "%s 0.3 -- Sirtaj Singh Kang\n"
+#~ "taj@kde.org, Oct 1997\n"
+#~ "\n"
+#~ "Ambiente de Trabalho K"

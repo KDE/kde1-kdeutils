@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-04 01:59+0100\n"
+"POT-Creation-Date: 1999-01-09 01:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,39 +74,39 @@ msgstr ""
 msgid "Item Font"
 msgstr ""
 
-#: kwview.cpp:1098
+#: kwview.cpp:1116
 msgid "The specified File does not exist"
 msgstr ""
 
-#: kwview.cpp:1108
+#: kwview.cpp:1126
 msgid "You have specified a directory"
 msgstr ""
 
-#: kwview.cpp:1118
+#: kwview.cpp:1136
 msgid "You do not have read permission to this file"
 msgstr ""
 
-#: kwview.cpp:1134 kwview.cpp:1164
+#: kwview.cpp:1152 kwview.cpp:1182
 msgid "An Error occured while trying to open this Document"
 msgstr ""
 
-#: kwview.cpp:1148
+#: kwview.cpp:1166
 msgid "You do not have write permission to this file"
 msgstr ""
 
-#: kwview.cpp:1201
+#: kwview.cpp:1219
 msgid "Loading..."
 msgstr ""
 
-#: kwview.cpp:1209 kwview.cpp:1330
+#: kwview.cpp:1227 kwview.cpp:1348
 msgid "Inserted"
 msgstr ""
 
-#: kwview.cpp:1214 kwview.cpp:1339
+#: kwview.cpp:1232 kwview.cpp:1357
 msgid "Read"
 msgstr ""
 
-#: kwview.cpp:1223 kwview.cpp:1281
+#: kwview.cpp:1241 kwview.cpp:1299
 msgid ""
 "KWrite is already waiting\n"
 "for an internet job to finish\n"
@@ -114,73 +114,73 @@ msgid ""
 "Alternatively stop the running one."
 msgstr ""
 
-#: kwview.cpp:1231 kwview.cpp:1289
+#: kwview.cpp:1249 kwview.cpp:1307
 msgid "Waiting for KFM..."
 msgstr ""
 
-#: kwview.cpp:1237 kwview.cpp:1302
+#: kwview.cpp:1255 kwview.cpp:1320
 msgid "Could not start or find KFM"
 msgstr ""
 
-#: kwview.cpp:1264
+#: kwview.cpp:1282
 msgid "Saving..."
 msgstr ""
 
-#: kwview.cpp:1272 kwview.cpp:1349
+#: kwview.cpp:1290 kwview.cpp:1367
 msgid "Wrote"
 msgstr ""
 
-#: kwview.cpp:1378
+#: kwview.cpp:1396
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
 msgstr ""
 
-#: kwview.cpp:1389
+#: kwview.cpp:1407
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
 
-#: kwview.cpp:1436
+#: kwview.cpp:1454
 msgid "No changes need to be saved"
 msgstr ""
 
-#: kwview.cpp:1457
+#: kwview.cpp:1475
 msgid ""
 "A Document with this Name already exists.\n"
 "Do you want to overwrite it?"
 msgstr ""
 
-#: kwview.cpp:1660 kwview.cpp:1848
+#: kwview.cpp:1678 kwview.cpp:1866
 msgid "End of document reached"
 msgstr ""
 
-#: kwview.cpp:1661 kwview.cpp:1849
+#: kwview.cpp:1679 kwview.cpp:1867
 msgid "Continue from the beginning"
 msgstr ""
 
-#: kwview.cpp:1663 kwview.cpp:1674 kwview.cpp:1684
+#: kwview.cpp:1681 kwview.cpp:1692 kwview.cpp:1702
 msgid "Find"
 msgstr ""
 
-#: kwview.cpp:1671 kwview.cpp:1860
+#: kwview.cpp:1689 kwview.cpp:1878
 msgid "Beginning of document reached"
 msgstr ""
 
-#: kwview.cpp:1672 kwview.cpp:1861
+#: kwview.cpp:1690 kwview.cpp:1879
 msgid "Continue from the end"
 msgstr ""
 
-#: kwview.cpp:1685
+#: kwview.cpp:1703
 msgid "Search string not found!"
 msgstr ""
 
-#: kwview.cpp:1833 kwview.cpp:1847 kwview.cpp:1859
+#: kwview.cpp:1851 kwview.cpp:1865 kwview.cpp:1877
 msgid "replace(s) made"
 msgstr ""
 
-#: kwview.cpp:1974 toplevel.cpp:486
+#: kwview.cpp:1992 toplevel.cpp:475
 msgid "Line"
 msgstr ""
 
@@ -280,7 +280,7 @@ msgstr ""
 msgid "&Multiple Selections"
 msgstr ""
 
-#: kwdialog.cpp:293 toplevel.cpp:247
+#: kwdialog.cpp:293 toplevel.cpp:233
 msgid "&Vertical Selections"
 msgstr ""
 
@@ -320,136 +320,140 @@ msgstr ""
 msgid "Selected + Found:"
 msgstr ""
 
-#: toplevel.cpp:118
+#: toplevel.cpp:102
 msgid "Message"
 msgstr ""
 
-#: toplevel.cpp:119
+#: toplevel.cpp:103
 msgid ""
 "This Document has been modified.\n"
 "Would you like to save it?"
 msgstr ""
 
-#: toplevel.cpp:177
+#: toplevel.cpp:166
 msgid "Ne&w..."
 msgstr ""
 
-#: toplevel.cpp:179
+#: toplevel.cpp:168
 msgid "&Insert..."
 msgstr ""
 
-#: toplevel.cpp:194
+#: toplevel.cpp:169
+msgid "Open Recen&t"
+msgstr ""
+
+#: toplevel.cpp:180
 msgid "New &Window"
 msgstr ""
 
-#: toplevel.cpp:195
+#: toplevel.cpp:181
 msgid "New &View"
 msgstr ""
 
-#: toplevel.cpp:204
+#: toplevel.cpp:190
 msgid "&Find..."
 msgstr ""
 
-#: toplevel.cpp:205
+#: toplevel.cpp:191
 msgid "&Replace..."
 msgstr ""
 
-#: toplevel.cpp:206
+#: toplevel.cpp:192
 msgid "Find &Again"
 msgstr ""
 
-#: toplevel.cpp:207
+#: toplevel.cpp:193
 msgid "&Goto Line..."
 msgstr ""
 
-#: toplevel.cpp:209
+#: toplevel.cpp:195
 msgid "U&ndo"
 msgstr ""
 
-#: toplevel.cpp:210
+#: toplevel.cpp:196
 msgid "R&edo"
 msgstr ""
 
-#: toplevel.cpp:212
+#: toplevel.cpp:198
 msgid "&Indent"
 msgstr ""
 
-#: toplevel.cpp:213
+#: toplevel.cpp:199
 msgid "Uninden&t"
 msgstr ""
 
-#: toplevel.cpp:217
+#: toplevel.cpp:203
 msgid "&Select All"
 msgstr ""
 
-#: toplevel.cpp:218
+#: toplevel.cpp:204
 msgid "&Deselect All"
 msgstr ""
 
-#: toplevel.cpp:219
+#: toplevel.cpp:205
 msgid "In&vert Selection"
 msgstr ""
 
-#: toplevel.cpp:224
+#: toplevel.cpp:210
 msgid "&Set Bookmark..."
 msgstr ""
 
-#: toplevel.cpp:225
+#: toplevel.cpp:211
 msgid "&Add Bookmark"
 msgstr ""
 
-#: toplevel.cpp:226
+#: toplevel.cpp:212
 msgid "&Clear Bookmarks"
 msgstr ""
 
-#: toplevel.cpp:238
+#: toplevel.cpp:224
 msgid "Set Highlight"
 msgstr ""
 
-#: toplevel.cpp:240
+#: toplevel.cpp:226
 msgid "&Defaults..."
 msgstr ""
 
-#: toplevel.cpp:241
+#: toplevel.cpp:227
 msgid "&Highlight..."
 msgstr ""
 
-#: toplevel.cpp:244
+#: toplevel.cpp:230
 msgid "&Options..."
 msgstr ""
 
-#: toplevel.cpp:245
+#: toplevel.cpp:231
 msgid "&Colors..."
 msgstr ""
 
-#: toplevel.cpp:248
+#: toplevel.cpp:234
 msgid "Show &Toolbar"
 msgstr ""
 
-#: toplevel.cpp:249
+#: toplevel.cpp:235
 msgid "Show &Statusbar"
 msgstr ""
 
-#: toplevel.cpp:250
+#: toplevel.cpp:236
 msgid "Save Config"
 msgstr ""
 
-#: toplevel.cpp:286
+#: toplevel.cpp:272
 msgid "&Bookmarks"
 msgstr ""
 
-#: toplevel.cpp:305
+#: toplevel.cpp:291
 msgid "New Document"
 msgstr ""
 
-#: toplevel.cpp:309
+#: toplevel.cpp:295
 msgid "Open Document"
 msgstr ""
 
-#: toplevel.cpp:313
+#: toplevel.cpp:299
 msgid "Save Document"
 msgstr ""
 
-#: toplevel.cpp:487
+#: toplevel.cpp:476
 msgid "Col"
 msgstr ""

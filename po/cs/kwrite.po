@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
-"POT-Creation-Date: 1999-01-04 01:59+0100\n"
+"POT-Creation-Date: 1999-01-09 01:54+0100\n"
 "PO-Revision-Date: 1998-12-26 17:44 CET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <flidr@kky.zcu.cz>\n"
@@ -69,39 +69,39 @@ msgstr "Styl prvku"
 msgid "Item Font"
 msgstr "Font prvku"
 
-#: kwview.cpp:1098
+#: kwview.cpp:1116
 msgid "The specified File does not exist"
 msgstr "Specifikovaný soubor neexistuje"
 
-#: kwview.cpp:1108
+#: kwview.cpp:1126
 msgid "You have specified a directory"
 msgstr "Zadal(a) jste adresáø"
 
-#: kwview.cpp:1118
+#: kwview.cpp:1136
 msgid "You do not have read permission to this file"
 msgstr "Nemáte práva ke ètení tohoto souboru"
 
-#: kwview.cpp:1134 kwview.cpp:1164
+#: kwview.cpp:1152 kwview.cpp:1182
 msgid "An Error occured while trying to open this Document"
 msgstr "Nastala chyba pøi otevírání tohoto dokumentu"
 
-#: kwview.cpp:1148
+#: kwview.cpp:1166
 msgid "You do not have write permission to this file"
 msgstr "Nemáte práva k zápisu do tohoto souboru"
 
-#: kwview.cpp:1201
+#: kwview.cpp:1219
 msgid "Loading..."
 msgstr "Nahrávání..."
 
-#: kwview.cpp:1209 kwview.cpp:1330
+#: kwview.cpp:1227 kwview.cpp:1348
 msgid "Inserted"
 msgstr "Vlo¾en"
 
-#: kwview.cpp:1214 kwview.cpp:1339
+#: kwview.cpp:1232 kwview.cpp:1357
 msgid "Read"
 msgstr "Naèten"
 
-#: kwview.cpp:1223 kwview.cpp:1281
+#: kwview.cpp:1241 kwview.cpp:1299
 msgid ""
 "KWrite is already waiting\n"
 "for an internet job to finish\n"
@@ -113,23 +113,23 @@ msgstr ""
 "Èekejte prosím na její dokonèení\n"
 "nebo ji zastavte."
 
-#: kwview.cpp:1231 kwview.cpp:1289
+#: kwview.cpp:1249 kwview.cpp:1307
 msgid "Waiting for KFM..."
 msgstr "Èekám na KFM..."
 
-#: kwview.cpp:1237 kwview.cpp:1302
+#: kwview.cpp:1255 kwview.cpp:1320
 msgid "Could not start or find KFM"
 msgstr "Není mo¾né spustit nebo nalézt KFM"
 
-#: kwview.cpp:1264
+#: kwview.cpp:1282
 msgid "Saving..."
 msgstr "Ukládám..."
 
-#: kwview.cpp:1272 kwview.cpp:1349
+#: kwview.cpp:1290 kwview.cpp:1367
 msgid "Wrote"
 msgstr "Zápsán"
 
-#: kwview.cpp:1378
+#: kwview.cpp:1396
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -137,7 +137,7 @@ msgstr ""
 "Souèasný dokument byl modifikován.\n"
 "Pøejete si ho ulo¾it?"
 
-#: kwview.cpp:1389
+#: kwview.cpp:1407
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -145,11 +145,11 @@ msgstr ""
 "Není mo¾né ulo¾it dokument.\n"
 "Otevøít i pøesto nový dokument?"
 
-#: kwview.cpp:1436
+#: kwview.cpp:1454
 msgid "No changes need to be saved"
 msgstr "Není nutné ulo¾it zmìny"
 
-#: kwview.cpp:1457
+#: kwview.cpp:1475
 msgid ""
 "A Document with this Name already exists.\n"
 "Do you want to overwrite it?"
@@ -157,35 +157,35 @@ msgstr ""
 "Soubor s tímto jménem ji¾ existuje.\n"
 "Pøejete si jej pøepsat?"
 
-#: kwview.cpp:1660 kwview.cpp:1848
+#: kwview.cpp:1678 kwview.cpp:1866
 msgid "End of document reached"
 msgstr "Dosa¾eno konce dokumentu"
 
-#: kwview.cpp:1661 kwview.cpp:1849
+#: kwview.cpp:1679 kwview.cpp:1867
 msgid "Continue from the beginning"
 msgstr "Pokraèovat od zaèátku"
 
-#: kwview.cpp:1663 kwview.cpp:1674 kwview.cpp:1684
+#: kwview.cpp:1681 kwview.cpp:1692 kwview.cpp:1702
 msgid "Find"
 msgstr "Nalézt"
 
-#: kwview.cpp:1671 kwview.cpp:1860
+#: kwview.cpp:1689 kwview.cpp:1878
 msgid "Beginning of document reached"
 msgstr "Dosa¾eno zaèátku dokumentu"
 
-#: kwview.cpp:1672 kwview.cpp:1861
+#: kwview.cpp:1690 kwview.cpp:1879
 msgid "Continue from the end"
 msgstr "Pokraèovat od konce"
 
-#: kwview.cpp:1685
+#: kwview.cpp:1703
 msgid "Search string not found!"
 msgstr "Hledaný øetìzec nebyl nalezen!"
 
-#: kwview.cpp:1833 kwview.cpp:1847 kwview.cpp:1859
+#: kwview.cpp:1851 kwview.cpp:1865 kwview.cpp:1877
 msgid "replace(s) made"
 msgstr "nahrazení provedeno(a)"
 
-#: kwview.cpp:1974 toplevel.cpp:486
+#: kwview.cpp:1992 toplevel.cpp:475
 msgid "Line"
 msgstr "Øádka"
 
@@ -285,7 +285,7 @@ msgstr "T&rvalé výbìry"
 msgid "&Multiple Selections"
 msgstr "&Nìkoliknásobné výbìry"
 
-#: kwdialog.cpp:293 toplevel.cpp:247
+#: kwdialog.cpp:293 toplevel.cpp:233
 msgid "&Vertical Selections"
 msgstr "&Vertikální výbìry"
 
@@ -325,11 +325,11 @@ msgstr "Nalezeno: "
 msgid "Selected + Found:"
 msgstr "Vybrán + Nalezen:"
 
-#: toplevel.cpp:118
+#: toplevel.cpp:102
 msgid "Message"
 msgstr "Zpráva"
 
-#: toplevel.cpp:119
+#: toplevel.cpp:103
 msgid ""
 "This Document has been modified.\n"
 "Would you like to save it?"
@@ -337,126 +337,131 @@ msgstr ""
 "Tento dokument byl modifikován.\n"
 "Pøejete si ho ulo¾it?"
 
-#: toplevel.cpp:177
+#: toplevel.cpp:166
 msgid "Ne&w..."
 msgstr "&Nový..."
 
-#: toplevel.cpp:179
+#: toplevel.cpp:168
 msgid "&Insert..."
 msgstr "&Vlo¾it..."
 
-#: toplevel.cpp:194
+#: toplevel.cpp:169
+#, fuzzy
+msgid "Open Recen&t"
+msgstr "Otevøít dokument"
+
+#: toplevel.cpp:180
 msgid "New &Window"
 msgstr "Nové o&kno"
 
-#: toplevel.cpp:195
+#: toplevel.cpp:181
 msgid "New &View"
 msgstr "Nový &pohled"
 
-#: toplevel.cpp:204
+#: toplevel.cpp:190
 msgid "&Find..."
 msgstr "&Nalézt..."
 
-#: toplevel.cpp:205
+#: toplevel.cpp:191
 msgid "&Replace..."
 msgstr "Nah&radit..."
 
-#: toplevel.cpp:206
+#: toplevel.cpp:192
 msgid "Find &Again"
 msgstr "Znovu n&alézt"
 
-#: toplevel.cpp:207
+#: toplevel.cpp:193
 msgid "&Goto Line..."
 msgstr "&Jdi na øádku..."
 
-#: toplevel.cpp:209
+#: toplevel.cpp:195
 msgid "U&ndo"
 msgstr "&Zpìt"
 
-#: toplevel.cpp:210
+#: toplevel.cpp:196
 msgid "R&edo"
 msgstr "O&pakovat"
 
-#: toplevel.cpp:212
+#: toplevel.cpp:198
 msgid "&Indent"
 msgstr "&Odsazení"
 
-#: toplevel.cpp:213
+#: toplevel.cpp:199
 msgid "Uninden&t"
 msgstr "Vypnout od&sazení"
 
-#: toplevel.cpp:217
+#: toplevel.cpp:203
 msgid "&Select All"
 msgstr "V&ybrat v¹e"
 
-#: toplevel.cpp:218
+#: toplevel.cpp:204
 msgid "&Deselect All"
 msgstr "Zr&u¹it výbìr"
 
-#: toplevel.cpp:219
+#: toplevel.cpp:205
 msgid "In&vert Selection"
 msgstr "&Invertovat výbìr"
 
-#: toplevel.cpp:224
+#: toplevel.cpp:210
 msgid "&Set Bookmark..."
 msgstr "&Nastavit zálo¾ku..."
 
-#: toplevel.cpp:225
+#: toplevel.cpp:211
 msgid "&Add Bookmark"
 msgstr "&Pøidat zálo¾ku"
 
-#: toplevel.cpp:226
+#: toplevel.cpp:212
 msgid "&Clear Bookmarks"
 msgstr "Zru¹it &zálo¾ky"
 
-#: toplevel.cpp:238
+#: toplevel.cpp:224
 msgid "Set Highlight"
 msgstr "Nastavit zvýrazòování"
 
-#: toplevel.cpp:240
+#: toplevel.cpp:226
 msgid "&Defaults..."
 msgstr "Impli&citní..."
 
-#: toplevel.cpp:241
+#: toplevel.cpp:227
 msgid "&Highlight..."
 msgstr "&Zvýraznìní..."
 
-#: toplevel.cpp:244
+#: toplevel.cpp:230
 msgid "&Options..."
 msgstr "&Nastavení..."
 
-#: toplevel.cpp:245
+#: toplevel.cpp:231
 msgid "&Colors..."
 msgstr "&Barvy..."
 
-#: toplevel.cpp:248
+#: toplevel.cpp:234
 msgid "Show &Toolbar"
 msgstr "Zobrazuj nás&trojovou li¹tu"
 
-#: toplevel.cpp:249
+#: toplevel.cpp:235
 msgid "Show &Statusbar"
 msgstr "Zobrazovat &statusbar"
 
-#: toplevel.cpp:250
+#: toplevel.cpp:236
 msgid "Save Config"
 msgstr "Ulo¾it Nastavení"
 
-#: toplevel.cpp:286
+#: toplevel.cpp:272
 msgid "&Bookmarks"
 msgstr "&Zálo¾ky"
 
-#: toplevel.cpp:305
+#: toplevel.cpp:291
 msgid "New Document"
 msgstr "Nový dokument"
 
-#: toplevel.cpp:309
+#: toplevel.cpp:295
 msgid "Open Document"
 msgstr "Otevøít dokument"
 
-#: toplevel.cpp:313
+#: toplevel.cpp:299
 msgid "Save Document"
 msgstr "Ulo¾it dokument"
 
-#: toplevel.cpp:487
+#: toplevel.cpp:476
 msgid "Col"
 msgstr "Sloupec"
