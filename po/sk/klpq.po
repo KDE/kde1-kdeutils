@@ -79,17 +79,17 @@ msgid "&Config"
 msgstr "&Nastavenie"
 
 #: klpq.cpp:389
-#, fuzzy, c-format
 msgid "Do you really want to remove job No %d"
-msgstr "Skutoène odstráni» úlohu è. "
+msgstr "Skutoène odstráni» úlohu è. %d"
 
 #: klpq.cpp:409
-#, fuzzy, c-format
 msgid ""
 "Do you really want to move job No\n"
 "%d\n"
 "on top of queue"
 msgstr "Skutoène presunú» úlohu è.\n"
+"%d\n"
+"na vrchol fronty"
 
 #: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
 msgid "Permission denied"
