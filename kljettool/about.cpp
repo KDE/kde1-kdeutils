@@ -37,7 +37,7 @@ MyAbout::MyAbout(QWidget *parent) : QDialog(parent, "About KLJetTool", TRUE) {
   setFixedSize(size());
   setCaption("About KLJetTool");
 
-  QString pixdir = mykapp->kdedir() + QString("/share/apps/kljettool/pics/");  
+  QString pixdir = mykapp->kde_datadir() + QString("/kljettool/pics/");  
   QPixmap pm((pixdir + "kljetlogo.xpm").data());
   QLabel *logo = new QLabel(this);
   logo->setPixmap(pm);

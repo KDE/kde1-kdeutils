@@ -37,7 +37,7 @@ About::About(QWidget *parent) : QDialog(parent, "About KEdit", TRUE) {
   setFixedSize(size());
   setCaption("About KEdit");
 
-  QString pixdir = mykapp->kdedir() + QString("/share/apps/kedit/pics/");  
+  QString pixdir = mykapp->kde_datadir() + "/kedit/pics/";  
   QPixmap pm((pixdir + "keditlogo.xpm").data());
   QLabel *logo = new QLabel(this);
   logo->setPixmap(pm);
