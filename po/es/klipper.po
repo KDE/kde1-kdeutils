@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 1998-12-05 01:55+0100\n"
+"PO-Revision-Date: 1998-12-07 22:12+0200\n"
+"Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
+
+#: toplevel.cpp:83
+msgid "Shortcut..."
+msgstr "Atajo..."
+
+#: toplevel.cpp:84
+msgid "Popup at mouse position"
+msgstr "Aparecer en la posición del ratón"
+
+#: toplevel.cpp:89
+msgid "Clipboard History"
+msgstr "Historial del Portapapeles"
+
+#: toplevel.cpp:93
+msgid "<empty clipboard>"
+msgstr "<portapapeles vacío>"
+
+#: toplevel.cpp:105
+msgid "Select clipboard contents"
+msgstr "Seleccione contenidos del portapapeles"
