@@ -1,0 +1,195 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: LinuxKorea Co. <kde@linuxkorea.co.kr>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8BIT\n"
+
+#: about.cpp:40
+msgid "About KDE Floppy Formater"
+msgstr "KDE 플로피 포매터에 관하여"
+
+#: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368
+#: floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721
+#: floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
+msgid "KFloppy"
+msgstr "KFloppy"
+
+#: about.cpp:54
+msgid "Version "
+msgstr "버전 "
+
+#: floppy.cpp:56
+msgid "Floppy Drive:"
+msgstr "플로피 드라이브:"
+
+#: floppy.cpp:65
+msgid "Density:"
+msgstr "용량:"
+
+#: floppy.cpp:74
+msgid "File System:"
+msgstr "파일 시스템:"
+
+#: floppy.cpp:108 floppy.cpp:408
+msgid "Format"
+msgstr "포맷"
+
+#: floppy.cpp:131
+msgid "Quick Erase"
+msgstr "빠른 포맷"
+
+#: floppy.cpp:136
+msgid "Full Format"
+msgstr "완전 포맷"
+
+#: floppy.cpp:142
+msgid "Create Label:"
+msgstr "라벨 생성:"
+
+#: floppy.cpp:148
+msgid "KDE FLoppy"
+msgstr "KDE 플로피"
+
+#: floppy.cpp:162
+msgid "KDE Floppy Formater"
+msgstr "KDE 플로피 포매터"
+
+#: floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267
+msgid "HD"
+msgstr "HD"
+
+#: floppy.cpp:286
+#, c-format
+msgid ""
+"Cannot access %s\n"
+"Make sure that the device exists and that\n"
+"you have write permission to it."
+msgstr ""
+"%에 액세스할 수 없음\n"
+"장치가 존재하는지 그리고 장치에 쓰기\n"
+"허가권이 있는지 확인하십시오."
+
+#: floppy.cpp:333
+msgid ""
+"Cannot find kfdformat\n"
+"kfdformat is part of the KFloppy distribution.\n"
+"Please install KFloppy properly."
+msgstr ""
+"kfdformat을 찾을 수 없음\n"
+"kfdformat는 KFloppy 배포판의 일부분입니다.\n"
+"KFloppy를 올바르게 설치하십시오."
+
+#: floppy.cpp:349
+msgid ""
+"Cannot find kmke2fs\n"
+"kmke2fs is part of the KFloppy distribution.\n"
+"Please install KFloppy properly."
+msgstr ""
+"kmke2fs를 찾을 수 없음\n"
+"kmke2fs는 KFloppy 배포판의 일부분입니다.\n"
+"KFloppy를 올바르게 설치하십시오."
+
+#: floppy.cpp:364
+msgid ""
+"Cannot find kmkdosfs\n"
+"kmkdosfs is part of the KFloppy distribution.\n"
+"Please install KFloppy properly."
+msgstr ""
+"kmfdosfs를 찾을 수 없음\n"
+"kmkdosfs는 KFloppy 배포판의 일부분입니다.\n"
+"KFloppy를 올바르게 설치하십시오."
+
+#: floppy.cpp:424
+msgid "Abort"
+msgstr "중지"
+
+#: floppy.cpp:472
+msgid "Cannot start a new program: fork() failed."
+msgstr "새 프로그램을 시작할 수 없음: fork() 실패"
+
+#: floppy.cpp:572 floppy.cpp:700
+msgid ""
+"Cannot access floppy or floppy drive\n"
+"Please insert a floppy and make sure that you\n"
+"have selected a valid floppy drive.\n"
+msgstr ""
+"플로피나 플로피 드라이브에 접근할 수 없음\n"
+"플로피를 넣으시고 올바르게 플로피 드라이브를\n"
+"지정했는지 확인하십시오\n"
+
+#: floppy.cpp:587
+#, c-format
+msgid ""
+"Cannot format: %s\n"
+"%s"
+msgstr ""
+"포맷할 수 없음: %s\n"
+"%s"
+
+#: floppy.cpp:634
+#, c-format
+msgid "Block %d is bad. Continuing ..."
+msgstr "%d은 배드 블럭입니다. 계속 ..."
+
+#: floppy.cpp:717
+#, c-format
+msgid ""
+"Cannot create a filesystem on: %s\n"
+"%s"
+msgstr ""
+"파일시스템을 만들 수 없음: %s\n"
+"%s"
+
+#: floppy.cpp:753
+#, c-format
+msgid ""
+"The floppy was sucessfully formatted.\n"
+"Blocks marked bad: %d\n"
+"Raw Capacity: %d\n"
+msgstr ""
+"플로피가 성공적으로 포맷되었습니다.\n"
+"배드 블럭: %d\n"
+"용     량: %d\n"
+
+#: floppy.cpp:774
+msgid "All files were sucessfully erased."
+msgstr "모든 파일이 성공적으로 지워졌읍니다"
+
+#: floppy.cpp:832
+msgid "Creating Filesystem ..."
+msgstr "파일 시스템 만들기..."
+
+#: floppy.cpp:836
+msgid "Verifying ..."
+msgstr "확인..."
+
+#: floppy.cpp:881
+msgid ""
+"Cannot start a new program\n"
+"fork() failed."
+msgstr ""
+"새 프로그램을 시작할 수 없음\n"
+"fork() 실패"
+
+#: floppy.cpp:907
+msgid "Error while trying to determine whether floppy is mounted\n"
+msgstr "플로피가 파일 시스템과 연결되었는가를 검사 시도하는 중 오류 발생"
+
+#: floppy.cpp:924
+#, c-format
+msgid ""
+"%s is mounted.\n"
+"Please unmount the floppy first."
+msgstr ""
+"%s가 파일 시스템과 연결되었습니다.\n"
+"먼저 플로피를 파일시스템에서 연결을 끊으십시오(umount)."

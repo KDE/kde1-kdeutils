@@ -1,0 +1,392 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: LinuxKorea Co. <kde@linuxkorea.co.kr>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8BIT\n"
+
+#: kedit.cpp:83 kedit.cpp:1019
+msgid "Show &Tool Bar"
+msgstr "툴 바 보이기(&T)"
+
+#: kedit.cpp:85 kedit.cpp:1012
+msgid "Hide &Tool Bar"
+msgstr "툴 바 감추기(&T)"
+
+#: kedit.cpp:88 kedit.cpp:999
+msgid "Show &Status Bar"
+msgstr "상태 바 보이기(&S)"
+
+#: kedit.cpp:90 kedit.cpp:992
+msgid "Hide &Status Bar"
+msgstr "상태 바 감추기(&S)"
+
+#: kedit.cpp:152
+msgid "Select All"
+msgstr "모두 선택"
+
+#: kedit.cpp:183
+msgid "&About..."
+msgstr "정보(&A)..."
+
+#: kedit.cpp:187
+msgid "Ne&w..."
+msgstr "새 문서(&w)..."
+
+#: kedit.cpp:192
+msgid "Open Recen&t..."
+msgstr "최근 문서 열기(&w)..."
+
+#: kedit.cpp:204
+msgid "Open &URL..."
+msgstr "URL 열기...(&U)"
+
+#: kedit.cpp:206
+msgid "Save to U&RL..."
+msgstr "URL 저장(&R)..."
+
+#: kedit.cpp:212
+msgid "&Mail..."
+msgstr "전자우편...(&M)"
+
+#: kedit.cpp:216
+msgid "New &Window"
+msgstr "새 윈도우(&W)"
+
+#: kedit.cpp:228
+msgid "&Select All"
+msgstr "모두 선택(&S)"
+
+#: kedit.cpp:231
+msgid "&Insert File"
+msgstr "파일 삽입(&I)"
+
+#: kedit.cpp:233
+msgid "Insert &Date"
+msgstr "날짜 삽입(&D)"
+
+#: kedit.cpp:236
+msgid "&Find..."
+msgstr "찾기...(&F)"
+
+#: kedit.cpp:238
+msgid "Find &Again"
+msgstr "다시 찾기(&A)"
+
+#: kedit.cpp:240
+msgid "&Replace"
+msgstr "바꾸기(&R)"
+
+#: kedit.cpp:243
+msgid "&Goto Line..."
+msgstr "줄로 가기...(&G)"
+
+#: kedit.cpp:247
+msgid "&Font"
+msgstr "글꼴(&F)"
+
+#: kedit.cpp:249
+msgid "Colors"
+msgstr "색"
+
+#: kedit.cpp:251
+msgid "KEdit &Options..."
+msgstr "KEdit 옵션...(&O)"
+
+#: kedit.cpp:253
+msgid "Auto &Indent"
+msgstr "자동 들여쓰기(&I)"
+
+#: kedit.cpp:256
+msgid "&Tool Bar"
+msgstr "툴 바(&T)"
+
+#: kedit.cpp:258
+msgid "&Status Bar"
+msgstr "상태 바(&S)"
+
+#: kedit.cpp:261
+msgid "Save Options"
+msgstr "옵션 저장"
+
+#: kedit.cpp:289
+msgid "New Document"
+msgstr "새 문서"
+
+#: kedit.cpp:295
+msgid "Open Document"
+msgstr "문서 열기"
+
+#: kedit.cpp:300
+msgid "Save Document"
+msgstr "문서 저장"
+
+#: kedit.cpp:325 print.cpp:88
+msgid "Print Document"
+msgstr "문서 인쇄"
+
+#: kedit.cpp:330
+msgid "Mail Document"
+msgstr "편지 보내기"
+
+#: kedit.cpp:534
+msgid "Open Location:"
+msgstr "위치 열기:"
+
+#: kedit.cpp:548
+msgid "Save to Location:"
+msgstr "위치 저장:"
+
+#: kedit.cpp:574 kedit.cpp:637 kedit.cpp:666 kedit.cpp:729 kedit.cpp:1123
+msgid "Message"
+msgstr "메시지"
+
+#: kedit.cpp:575 kedit.cpp:730
+msgid ""
+"This Document has been modified.\n"
+"Would you like to save it?"
+msgstr ""
+"문서가 변경되었습니다.\n"
+"저장하시겠습니까?"
+
+#: kedit.cpp:592 kedit.cpp:747
+msgid ""
+"Could not save the file.\n"
+"Exit anyways?"
+msgstr ""
+"파일을 저장할 수 없습니다.\n"
+"그래도 끝내시겠습니까?"
+
+#: kedit.cpp:638
+msgid ""
+"There are windows with modified content open.\n"
+"If you exit now, you will loose those changes\n"
+"Quit anyways?"
+msgstr ""
+"내용이 변경된 윈도우가 있읍니다.\n"
+"종료하신다면, 변경된 내용을 잃게 됩니다.\n"
+"그래도 종료하시겠습니까?"
+
+#: kedit.cpp:667
+msgid ""
+"The current document has been modified.\n"
+"Continue anyways ?"
+msgstr ""
+"문서가 변경되었습니다.\n"
+"계속하시겠습니까 ?"
+
+#: kedit.cpp:808
+#, c-format
+msgid "Wrote: %s"
+msgstr "쓰기: %s"
+
+#: kedit.cpp:814
+msgid "No changes need to be saved"
+msgstr "저장할만한 변경사항이 없음"
+
+#: kedit.cpp:833
+#, c-format
+msgid "Saved as: %s"
+msgstr "다른이름으로 저장: %s"
+
+#: kedit.cpp:866
+#, c-format
+msgid ""
+"Could not pipe the contentsof this Document into:\n"
+" %s"
+msgstr ""
+"Could not pipe the contentsof this Document into:\n"
+" %s"
+
+#: kedit.cpp:960
+msgid "Auto Indent Mode: On"
+msgstr "자동 들여쓰기 모드: 켬"
+
+#: kedit.cpp:962
+msgid "Auto Indent Mode: Off"
+msgstr "자동 들여쓰기 모드: 끔"
+
+#: kedit.cpp:1058
+#, c-format
+msgid "Line: %d Col: %d"
+msgstr "줄: %d 열: %d"
+
+#: kedit.cpp:1124
+msgid ""
+"The current document has been modified.\n"
+"Would you like to save the changes before \n"
+"printing this Document?"
+msgstr ""
+"문서가 변경되었습니다.\n"
+"문서를 인쇄하기 전에 변경된 사항을 \n"
+"저장하시겠습니까?"
+
+#: kedit.cpp:1142
+msgid ""
+"Could not save the file.\n"
+"Print anyways?"
+msgstr ""
+"파일을 저장할 수 없습니다\n"
+"그래도 인쇄하시겠습니까?"
+
+#: kedit.cpp:1235
+#, c-format
+msgid "Printing: %s Untitled (Selection)"
+msgstr "인쇄중: %s 이름없음 (선택)"
+
+#: kedit.cpp:1238
+#, c-format
+msgid "Printing: %s Untitled"
+msgstr "인쇄중: %s 이름없음"
+
+#: kedit.cpp:1276
+#, c-format
+msgid "Printing: %s"
+msgstr "인쇄중: %s"
+
+#: kedit.cpp:1286
+#, c-format
+msgid "Printing: %s %s (Selection)"
+msgstr "인쇄중: %s %s (선택)"
+
+#: kedit.cpp:1310
+msgid "Saving ..."
+msgstr "저장 중..."
+
+#: kedit.cpp:1317
+msgid "Loading ..."
+msgstr "불러오는 중..."
+
+#: kedit.cpp:1351 kedit.cpp:1444
+msgid ""
+"KEdit is already waiting\n"
+"for an internet job to finish\n"
+"Please wait until has finished\n"
+"Alternatively stop the running one."
+msgstr ""
+"KEdit가 이미 인터넷 작업이\n"
+"끝나기를 기다리고 있습니다.\n"
+"작업이 끝날때까지 기다리거나\n"
+"실행중인 작업을 종료하십시오."
+
+#: kedit.cpp:1368 kedit.cpp:1463
+msgid "Could not start or find KFM"
+msgstr "KFM을 시작 또는 찾을 수 없읍니다"
+
+#: kedit.cpp:1410
+#, c-format
+msgid ""
+"Malformed URL\n"
+"%s"
+msgstr ""
+"형식에 맞지 않는 URL\n"
+"%s"
+
+#: kedit.cpp:1430
+#, c-format
+msgid "Loading '%s'"
+msgstr "'%s'(을)를 불러오고 있습니다"
+
+#: kedit.cpp:1454
+msgid "Calling KFM"
+msgstr "KFM 부르기"
+
+#: kedit.cpp:1473
+msgid "Starting Job"
+msgstr ""
+
+#: kedit.cpp:1476
+msgid "Connected"
+msgstr "연결되었습니다"
+
+#: kedit.cpp:1478
+msgid "Waiting..."
+msgstr "기다려주십시오..."
+
+#: kedit.cpp:1486
+#, c-format
+msgid "Finished '%s'"
+msgstr "'%s' 완료"
+
+#: kedit.cpp:1527
+msgid "New Window"
+msgstr "새 윈도우"
+
+#: kedit.cpp:1531
+msgid "New Window Created"
+msgstr "새 윈도우가 열림"
+
+#: kedit.cpp:1537
+msgid "Load Command Done"
+msgstr "불러오기 명령 수행 완료"
+
+#: kedit.cpp:1949
+#, c-format
+msgid ""
+"Can not create:\n"
+"%s"
+msgstr ""
+"생성할 수 없음:\n"
+"%s"
+
+
+#: print.cpp:66
+msgid "Print Dialog"
+msgstr "인쇄 대화창"
+
+#: print.cpp:70
+msgid "Print directly using lpr"
+msgstr "lpr 사용"
+
+#: print.cpp:75
+msgid "Print using Command:"
+msgstr "인쇄 명령:"
+
+#: print.cpp:93
+msgid "Print Selection"
+msgstr "프린터 선택"
+
+#: filldlg.cpp:31
+msgid "KEdit Options"
+msgstr "KEdit 옵션"
+
+#: filldlg.cpp:36
+msgid "Set Fill-Column at:"
+msgstr ""
+
+#: filldlg.cpp:40
+msgid "Word Warp"
+msgstr ""
+
+#: filldlg.cpp:44
+msgid "Mail Command:"
+msgstr "전자우편 명령:"
+
+#: filldlg.cpp:135
+msgid "You must enter an integer."
+msgstr "완전한 주소를 넣으셔야 합니다."
+
+#: mail.cpp:37
+msgid "Mail Document to:"
+msgstr "전자우편 받을 사람:"
+
+#: mail.cpp:55
+msgid "Subject:"
+msgstr "제목:"
+
+#: mail.cpp:57
+msgid "Mail"
+msgstr "전자우편"
+
+#: mail.cpp:96
+msgid "You must specify a Recipient"
+msgstr "전자우편 받을 사람을 명시해야 합니다"
