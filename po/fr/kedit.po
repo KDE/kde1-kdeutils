@@ -80,7 +80,7 @@ msgstr "C&hercher..."
 
 #: kedit.cpp:264
 msgid "Find &Again"
-msgstr "Chercher de &nouveau"
+msgstr "Chercher à &nouveau"
 
 #: kedit.cpp:266
 msgid "&Replace"

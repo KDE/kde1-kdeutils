@@ -380,7 +380,7 @@ msgstr "&Remplacer..."
 
 #: toplevel.cpp:192
 msgid "Find &Again"
-msgstr "Chercher de nouve&au"
+msgstr "Chercher à nouve&au"
 
 #: toplevel.cpp:193
 msgid "&Goto Line..."
@@ -408,7 +408,7 @@ msgstr "&Sélectionner tout"
 
 #: toplevel.cpp:204
 msgid "&Deselect All"
-msgstr "&Déselectionner tout"
+msgstr "&Désélectionner tout"
 
 #: toplevel.cpp:205
 msgid "In&vert Selection"
