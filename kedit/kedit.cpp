@@ -1189,7 +1189,7 @@ void TopLevel::openNetFile( const char *_url, int _mode )
 	QMessageBox::message (locale.translate("Sorry"), 
 			      locale.translate("KEdit is already waiting\n"\
 			      "for an internet job to finish\n"\
-			      "Please wait until has finished.\n"\
+			      "Please wait until has finished\n"\
 			      "Alternatively stop the running one."), 
 			      locale.translate("Ok"));
 	return;
