@@ -1,8 +1,8 @@
 # KDE Config File
 [KDE Desktop Entry]
 Name=Address book
-Name[de]=Adressbuch
 Name[cs]=Kniha adres
+Name[de]=Adressbuch
 Name[es]=Libro de direcciones
 Name[fi]=Osoitekirja
 Name[no]=Adressebok
@@ -13,8 +13,8 @@ TerminalOptions=
 Path=
 Type=Application
 Comment=Address book
-Comment[de]=Adressbuch
 Comment[cs]=Kniha adres
+Comment[de]=Adressbuch
 Comment[es]=Libro de direcciones
 Comment[fi]=Osoitekirja
 Comment[no]=Adressebok
