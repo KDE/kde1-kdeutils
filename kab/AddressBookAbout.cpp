@@ -17,18 +17,10 @@
 #include <kapp.h>
 #include "debug.h"
 
-#undef Inherited
-#define Inherited AddressBookAboutData
-
-AddressBookAbout::AddressBookAbout
-(
- QWidget* parent,
- const char* name
- )
-  :
-  Inherited( parent, name )
+AddressBookAbout::AddressBookAbout(QWidget* parent, const char* name)
+  : AddressBookAboutData(parent, name)
 {
-  // ########################################################  
+  // ############################################################################
   const string AddressBookLogo="addressbook_logo.jpg";
   setCaption(i18n("About addressbook"));
   QPixmap pixmap;
@@ -42,16 +34,20 @@ AddressBookAbout::AddressBookAbout
 	(parent, // we are invisible here!
 	 i18n("Image load failure"),
 	 i18n("Could not load addressbook logo image!"));
-      labelLogo->setText
-	(i18n("Here you would see\nthe addressbook logo."));
+      labelLogo->setText(i18n("Here you would see\nthe addressbook logo."));
     } else {
       labelLogo->setPixmap(pixmap);
       ix=pixmap.width(); iy=pixmap.height();
     }
-  initializeGeometry();
   buttonOK->setText(i18n("OK"));
   buttonOK->setFocus();
-  // ########################################################  
+  labelAuthor->setText(i18n("written and maintained by")); 
+  urlName->setText("mirko@kde.org");
+  urlName->setAlignment(AlignCenter);
+  // -----
+  connect(urlName, SIGNAL(leftClickedURL(const char*)), SLOT(mail(const char*)));
+  initializeGeometry();
+  // ############################################################################
 }
 
 
@@ -61,20 +57,18 @@ AddressBookAbout::~AddressBookAbout()
 
 void AddressBookAbout::initializeGeometry()
 {
-  // ########################################################  
+  // ############################################################################
   const int Grid=5;
   int tempx, tempy, cx, cy;
-  // ----- first determine size of label containing the logo:
+  // ----- first determine the size of the label containing the logo:
   tempx=6+ix;
   tempy=6+iy;
   // ----- then determine dialog width:
-  cx=QMAX(labelVersion->sizeHint().width(),
-	  labelAuthor->sizeHint().width());
+  cx=QMAX(labelVersion->sizeHint().width(), labelAuthor->sizeHint().width());
   cx=QMAX(tempx, cx)+4*Grid;
   cy=2*Grid;
   // ----- now show image, version and author label:
-  labelLogo->setGeometry
-    ((cx-tempx)/2, cy, ix+6, iy+6);
+  labelLogo->setGeometry((cx-tempx)/2, cy, ix+6, iy+6);
   cy+=Grid+labelLogo->height();
   labelVersion->setGeometry
     (2*Grid, cy, cx-4*Grid, labelVersion->sizeHint().height());
@@ -82,19 +76,25 @@ void AddressBookAbout::initializeGeometry()
   labelAuthor->setGeometry
     (2*Grid, cy, cx-4*Grid, labelAuthor->sizeHint().height());
   cy+=Grid+labelAuthor->sizeHint().height();
-  // ----- now we know how to resize the outer frame:
-  labelFrame->setGeometry
-    (Grid, Grid, cx-2*Grid, cy-Grid);
+  urlName->setGeometry(2*Grid, cy, cx-4*Grid, labelAuthor->sizeHint().height());
+  cy+=Grid+labelAuthor->sizeHint().height();
+  // ----- now we know how to resize the inner frame:
+  labelFrame->setGeometry(Grid, Grid, cx-2*Grid, cy-Grid);
   cy+=Grid;
   // ----- now resize the button:
-  buttonOK->setGeometry
-    (Grid, cy, cx-2*Grid, buttonOK->sizeHint().height());
+  buttonOK->setGeometry(Grid, cy, cx-2*Grid, buttonOK->sizeHint().height());
   cy+=Grid+buttonOK->sizeHint().height();
+  frameBase->setGeometry(0, 0, cx, cy);
   setFixedSize(cx, cy);
-  // ########################################################  
+  // ############################################################################
 }
   
-
+void AddressBookAbout::mail(const char* address)
+{
+  // ############################################################################
+  emit(sendEmail(address));
+  // ############################################################################
+}
 #include "AddressBookAbout.moc"
 #include "AddressBookAboutData.moc"
 

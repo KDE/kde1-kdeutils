@@ -23,7 +23,7 @@
 ABTLWidget::ABTLWidget(const char* name)
   : KTMainWindow(name)
 {
-  // ########################################################  
+  // ############################################################################
   timer=new QTimer(this);
   connect(timer, SIGNAL(timeout()),
 	  SLOT(timeOut()));
@@ -56,12 +56,12 @@ ABTLWidget::ABTLWidget(const char* name)
   widget->currentChanged();
   // ----- be friendly:
   setStatus(i18n("KDE addressbook."));
-  // ########################################################  
+  // ############################################################################
 }  
  
 bool ABTLWidget::constructMenu()
 {
-  // ########################################################  
+  // ############################################################################
   // menu=new KMenuBar(this);
   menu=menuBar();
   int id;
@@ -139,31 +139,31 @@ bool ABTLWidget::constructMenu()
   menu->insertItem(i18n("&Edit"), edit);
   menu->insertSeparator();
   menu->insertItem(i18n("&About"), about);
-  // ########################################################  
+  // ############################################################################
   return true;
 }  
 
 bool ABTLWidget::constructStatusBar()
 {
-  // ########################################################  
+  // ############################################################################
   // status=new KStatusBar(this);
   status=statusBar();
   status->setInsertOrder(KStatusBar::RightToLeft);
   status->insertItem("20000/20000", Number);
   status->insertItem("", Text);
-  // ########################################################  
+  // ############################################################################
   return true;
 }
 
 void ABTLWidget::setNumber(int which, int count)
 {
   ID(bool GUARD=false);
-  // ########################################################  
+  // ############################################################################
   LG(GUARD, "ABTLWidget::setNumber: updating statusbar.\n");
   char buffer[256];
   sprintf(buffer, "%i/%i", which, count);
   status->changeItem(buffer, Number);
-  // ########################################################  
+  // ############################################################################
 }
 
 void ABTLWidget::createConnections()
@@ -183,37 +183,40 @@ void ABTLWidget::createConnections()
   connect(KApplication::getKApplication(),
 	  SIGNAL(saveYourself()),
 	  SLOT(saveOurselfes()));
-  // ########################################################  
+  // ############################################################################
 }
 
 void ABTLWidget::aboutQt()
 {
-  // ########################################################  
+  // ############################################################################
   QMessageBox::aboutQt(this, i18n("About Qt"));
-  // ########################################################  
+  // ############################################################################
 }
 
 void ABTLWidget::about()
 {
-  // ########################################################  
+  // ############################################################################
   AddressBookAbout dialog(this);
+  // -----
+  connect(&dialog, SIGNAL(sendEmail(const char*)),
+	  widget, SLOT(mail(const char*)));
   dialog.exec();
-  // ########################################################  
+  // ############################################################################
 }
 
 void ABTLWidget::setStatus(const char* text)
 {
-  // ########################################################  
+  // ############################################################################
   status->changeItem(text, Text);
   timer->start(8000, false);
-  // ########################################################  
+  // ############################################################################
 }
 
 void ABTLWidget::timeOut()
 {
-  // ########################################################  
+  // ############################################################################
   status->changeItem("", Text);
-  // ########################################################  
+  // ############################################################################
 }
 
 void ABTLWidget::saveOurselfes()
@@ -221,7 +224,7 @@ void ABTLWidget::saveOurselfes()
   ID(bool GUARD=true);
   LG(GUARD, "ABTLWidget::saveOurselfes: called.\n");
   REQUIRE(widget!=0);
-  // ########################################################  
+  // ############################################################################
   if(widget->AddressBook::save())
     {
       LG(GUARD, "ABTLWidget::saveOurselfes: "
@@ -238,7 +241,7 @@ void ABTLWidget::saveOurselfes()
      "lockfiles.\n");
   ConfigDB::CleanLockFiles(0);
   LG(GUARD, "ABTLWidget::saveOurselfes: done.\n");
-  // ########################################################  
+  // ############################################################################
 }
 
 

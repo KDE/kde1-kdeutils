@@ -30,5 +30,9 @@ public:
 protected:
   void initializeGeometry();
   int ix, iy; // image width and height
+protected slots:
+  void mail(const char*);
+signals:
+  void sendEmail(const char*);
 };
 #endif // AddressBookAbout_included
