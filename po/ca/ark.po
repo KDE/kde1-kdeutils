@@ -39,7 +39,7 @@ msgstr "Opcions a l'extreure"
 
 #: extractdlg.cc:52
 msgid "Preserve Permissions"
-msgstr "Preserva els permissos"
+msgstr "Preserva els permisos"
 
 #: extractdlg.cc:57
 msgid "Filenames to Lowercase"

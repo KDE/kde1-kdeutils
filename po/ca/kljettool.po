@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kljettool\n"
 "POT-Creation-Date: 1999-01-18 01:54+0100\n"
-"PO-Revision-Date: 1998-12-13 12:59+0100\n"
+"PO-Revision-Date: 1999-01-21 23:34+0100\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -14,9 +14,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 
 #: main.cpp:49
-#, fuzzy
 msgid "Ljet Tool"
-msgstr "KLjetTool"
+msgstr "Eina Ljet"
 
 #: main.cpp:69
 msgid "Paper"
@@ -43,9 +42,8 @@ msgid "Lines"
 msgstr "Línies"
 
 #: PaperData.cpp:96
-#, fuzzy
 msgid "Orientation"
-msgstr "Presentació"
+msgstr "Orientació"
 
 #: PaperData.cpp:102
 msgid "Portrait"
@@ -157,6 +155,8 @@ msgid ""
 "Bernd Johannes Wuebben\n"
 "wuebben@kde.org"
 msgstr ""
-
-#~ msgid "Version "
-#~ msgstr "Versió "
+"Versió %s\n"
+"\n"
+"Copyright (c) 1997\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
