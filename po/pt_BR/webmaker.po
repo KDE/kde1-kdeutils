@@ -1,0 +1,1030 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1999-01-25 02:21+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: webmaker.cpp:112
+msgid "Ne&w"
+msgstr ""
+
+#: webmaker.cpp:113
+msgid "New From &Template..."
+msgstr ""
+
+#: webmaker.cpp:119
+msgid "Open &Recent"
+msgstr ""
+
+#: webmaker.cpp:123
+msgid "Save &as..."
+msgstr ""
+
+#: webmaker.cpp:124
+msgid "Sa&ve All"
+msgstr ""
+
+#: webmaker.cpp:126
+msgid "C&lose All"
+msgstr ""
+
+#: webmaker.cpp:128
+msgid "&Insert..."
+msgstr ""
+
+#: webmaker.cpp:156 webmaker.cpp:272
+msgid "Cu&t"
+msgstr ""
+
+#: webmaker.cpp:159
+msgid "C&lear"
+msgstr ""
+
+#: webmaker.cpp:160
+msgid "&Select All"
+msgstr ""
+
+#: webmaker.cpp:162
+msgid "&Find..."
+msgstr ""
+
+#: webmaker.cpp:163
+msgid "&Replace..."
+msgstr ""
+
+#: webmaker.cpp:164
+msgid "Find &Again"
+msgstr ""
+
+#: webmaker.cpp:166
+msgid "&Go to Line..."
+msgstr ""
+
+#: webmaker.cpp:170
+msgid "Tag &Chooser"
+msgstr ""
+
+#: webmaker.cpp:171 webmaker.cpp:262
+msgid "&Edit tag..."
+msgstr ""
+
+#: webmaker.cpp:172
+msgid "&Table Template..."
+msgstr ""
+
+#: webmaker.cpp:182
+msgid "&Tools"
+msgstr ""
+
+#: webmaker.cpp:185
+msgid "Bold"
+msgstr ""
+
+#: webmaker.cpp:187
+msgid "Underline"
+msgstr ""
+
+#: webmaker.cpp:189
+msgid "Font Size +1"
+msgstr ""
+
+#: webmaker.cpp:190
+msgid "Font Size -1"
+msgstr ""
+
+#: webmaker.cpp:192
+msgid "Quote"
+msgstr ""
+
+#: webmaker.cpp:193
+msgid "Center"
+msgstr ""
+
+#: webmaker.cpp:194
+msgid "Horizontal Rule"
+msgstr ""
+
+#: webmaker.cpp:195
+msgid "Non-breaking Space"
+msgstr ""
+
+#: webmaker.cpp:196
+msgid "Line Break"
+msgstr ""
+
+#: webmaker.cpp:197
+msgid "Paragraph"
+msgstr ""
+
+#: webmaker.cpp:199
+msgid "H1"
+msgstr ""
+
+#: webmaker.cpp:200
+msgid "H2"
+msgstr ""
+
+#: webmaker.cpp:201
+msgid "H3"
+msgstr ""
+
+#: webmaker.cpp:202
+msgid "T&ags"
+msgstr ""
+
+#: webmaker.cpp:205
+msgid "&View in External Browser"
+msgstr ""
+
+#: webmaker.cpp:213
+msgid "Main Toolbar"
+msgstr ""
+
+#: webmaker.cpp:214
+msgid "Tag Toolbar"
+msgstr ""
+
+#: webmaker.cpp:217
+msgid "&Toolbars"
+msgstr ""
+
+#: webmaker.cpp:219
+msgid "&Font..."
+msgstr ""
+
+#: webmaker.cpp:220
+msgid "Auto &Indent"
+msgstr ""
+
+#: webmaker.cpp:222
+msgid "Show All Files"
+msgstr ""
+
+#: webmaker.cpp:225
+msgid "Browse Temporary File"
+msgstr ""
+
+#: webmaker.cpp:227
+msgid "&External Browsers..."
+msgstr ""
+
+#: webmaker.cpp:230
+msgid "Auto Save Options"
+msgstr ""
+
+#: webmaker.cpp:232
+msgid "&Save Options"
+msgstr ""
+
+#: webmaker.cpp:236
+msgid "&Windows"
+msgstr ""
+
+#: webmaker.cpp:261
+msgid "&Tag Chooser"
+msgstr ""
+
+#: webmaker.cpp:265
+msgid "Ne&w..."
+msgstr ""
+
+#: webmaker.cpp:287
+msgid "New Document"
+msgstr ""
+
+#: webmaker.cpp:291
+msgid "Open Document"
+msgstr ""
+
+#: webmaker.cpp:295
+msgid "Save Document"
+msgstr ""
+
+#: webmaker.cpp:299
+msgid "Print Document"
+msgstr ""
+
+#: webmaker.cpp:307
+msgid "View in External Browser"
+msgstr ""
+
+#: webmaker.cpp:331
+msgid "Search"
+msgstr ""
+
+#: webmaker.cpp:353
+msgid "<P>"
+msgstr ""
+
+#: webmaker.cpp:357
+msgid "&nbsp;"
+msgstr ""
+
+#: webmaker.cpp:361
+msgid "<BR>"
+msgstr ""
+
+#: webmaker.cpp:365
+msgid "<HR>"
+msgstr ""
+
+#: webmaker.cpp:373
+msgid "<A>"
+msgstr ""
+
+#: webmaker.cpp:377
+msgid "<IMG>"
+msgstr ""
+
+#: webmaker.cpp:385
+msgid "<DIV align=\"left\">"
+msgstr ""
+
+#: webmaker.cpp:389
+msgid "<DIV align=\"center\">"
+msgstr ""
+
+#: webmaker.cpp:393
+msgid "<DIV align=\"right\">"
+msgstr ""
+
+#: webmaker.cpp:397
+msgid "<DIV align=\"justify\">"
+msgstr ""
+
+#: webmaker.cpp:405
+msgid "<B>"
+msgstr ""
+
+#: webmaker.cpp:409
+msgid "<I>"
+msgstr ""
+
+#: webmaker.cpp:413
+msgid "<U>"
+msgstr ""
+
+#: webmaker.cpp:421
+msgid "<Q>"
+msgstr ""
+
+#: webmaker.cpp:506 webmaker.cpp:589 webmaker.cpp:612 webmaker.cpp:630
+#: webmaker.cpp:655
+#, c-format
+msgid "File opened: %s"
+msgstr ""
+
+#: webmaker.cpp:565
+#, c-format
+msgid "Template opened: %s"
+msgstr ""
+
+#: webmaker.cpp:675 webmaker.cpp:711
+#, c-format
+msgid "Saved: %s"
+msgstr ""
+
+#: webmaker.cpp:682
+msgid "No changes need to be saved"
+msgstr ""
+
+#: webmaker.cpp:692
+#, c-format
+msgid "Saved as: %s"
+msgstr ""
+
+#: webmaker.cpp:768
+msgid "File inserted"
+msgstr ""
+
+#: webmaker.cpp:1028
+msgid "Auto Indent Mode: On"
+msgstr ""
+
+#: webmaker.cpp:1030
+msgid "Auto Indent Mode: Off"
+msgstr ""
+
+#: webmaker.cpp:1038
+msgid "Show All Files: On. Updating disk info..."
+msgstr ""
+
+#: webmaker.cpp:1040
+msgid "Show All Files: Off. Updating disk info..."
+msgstr ""
+
+#: webmaker.cpp:1049
+msgid "Browse Temporary File: On"
+msgstr ""
+
+#: webmaker.cpp:1051
+msgid "Browse Temporary File: Off"
+msgstr ""
+
+#: webmaker.cpp:1059
+msgid "Auto Save Options: On"
+msgstr ""
+
+#: webmaker.cpp:1061
+msgid "Auto Save Options: Off"
+msgstr ""
+
+#: webmaker.cpp:1192 webmaker.cpp:1379
+msgid "Sorry!"
+msgstr ""
+
+#: webmaker.cpp:1192
+msgid "Sorry, help is not available."
+msgstr ""
+
+#: webmaker.cpp:1212
+#, c-format
+msgid "Line: %d Col: %d"
+msgstr ""
+
+#: webmaker.cpp:1379
+msgid "Sorry, feature is not implemented yet."
+msgstr ""
+
+#: htmledit.cpp:92
+msgid ""
+"The current Document has been modified.\n"
+"Would you like to save it?"
+msgstr ""
+
+#: htmledit.cpp:99
+msgid ""
+"Could not save the document.\n"
+"Open a new document anyways?"
+msgstr ""
+
+#: htmledit.cpp:113
+msgid "The specified File does not exist."
+msgstr ""
+
+#: htmledit.cpp:118
+msgid "You have specificated a directory."
+msgstr ""
+
+#: htmledit.cpp:123
+msgid "You do not have read permission to this file."
+msgstr ""
+
+#: htmledit.cpp:131
+msgid "An Error occured while trying to open this Document."
+msgstr ""
+
+#: htmledit.cpp:319
+msgid "File "
+msgstr ""
+
+#: htmledit.cpp:321
+msgid ""
+" has been modified.\n"
+"Would you like to save it?"
+msgstr ""
+
+#: htmledit.cpp:322 htmledit.cpp:572
+msgid "Message"
+msgstr ""
+
+#: htmledit.cpp:330
+msgid "Error!"
+msgstr ""
+
+#: htmledit.cpp:330
+msgid "Error saving file! Exit anyway?"
+msgstr ""
+
+#: htmledit.cpp:442 htmledit.cpp:478 htmledit.cpp:520
+msgid "Other filter is running. Sorry..."
+msgstr ""
+
+#: htmledit.cpp:490
+msgid ""
+"A Document with this Name exists already.\n"
+"Do you want to overwrite it ?"
+msgstr ""
+
+#: htmledit.cpp:573
+msgid "Filter job finished."
+msgstr ""
+
+#: htmledit.cpp:1009
+msgid "C&aption"
+msgstr ""
+
+#: htmledit.cpp:1019
+msgid "Head rows"
+msgstr ""
+
+#: htmledit.cpp:1026
+msgid "Head columns"
+msgstr ""
+
+#: htmledit.cpp:1034
+msgid "&Rows"
+msgstr ""
+
+#: htmledit.cpp:1042
+msgid "Co&lumns"
+msgstr ""
+
+#: htmledit.cpp:1061
+msgid "Table Template"
+msgstr ""
+
+#: htmledit.cpp:1123
+msgid "Tag &group"
+msgstr ""
+
+#: htmledit.cpp:1127
+msgid "Tag &name"
+msgstr ""
+
+#: htmledit.cpp:1140
+msgid "&Insert Tag"
+msgstr ""
+
+#: htmledit.cpp:1149
+msgid "WebMaker: TagChooser"
+msgstr ""
+
+#: htmledit.cpp:1229 htmledit.cpp:4143 htmledit.cpp:5338
+msgid "Id"
+msgstr ""
+
+#: htmledit.cpp:1236
+msgid "Class"
+msgstr ""
+
+#: htmledit.cpp:1243
+msgid "Style"
+msgstr ""
+
+#: htmledit.cpp:1250 htmledit.cpp:2613
+msgid "Title"
+msgstr ""
+
+#: htmledit.cpp:1286
+msgid "Language"
+msgstr ""
+
+#: htmledit.cpp:1292 htmledit.cpp:1422 htmledit.cpp:1698 htmledit.cpp:2208
+#: htmledit.cpp:2269 htmledit.cpp:2359 htmledit.cpp:2484 htmledit.cpp:2629
+#: htmledit.cpp:2834 htmledit.cpp:3056 htmledit.cpp:3157 htmledit.cpp:3174
+#: htmledit.cpp:3187 htmledit.cpp:3333 htmledit.cpp:3346 htmledit.cpp:3452
+#: htmledit.cpp:3465 htmledit.cpp:3633 htmledit.cpp:3646 htmledit.cpp:3680
+#: htmledit.cpp:3859 htmledit.cpp:3872 htmledit.cpp:4013 htmledit.cpp:4294
+#: htmledit.cpp:4304 htmledit.cpp:4470 htmledit.cpp:4480 htmledit.cpp:4491
+#: htmledit.cpp:4634 htmledit.cpp:4949 htmledit.cpp:5045 htmledit.cpp:5135
+#: htmledit.cpp:5358 htmledit.cpp:5515 htmledit.cpp:5751
+msgid "Implied"
+msgstr ""
+
+#: htmledit.cpp:1293
+msgid "Left to Right"
+msgstr ""
+
+#: htmledit.cpp:1294
+msgid "Right to Left"
+msgstr ""
+
+#: htmledit.cpp:1296
+msgid "Text direction"
+msgstr ""
+
+#: htmledit.cpp:1357 htmledit.cpp:5078
+msgid "Image Source"
+msgstr ""
+
+#: htmledit.cpp:1368 htmledit.cpp:2144 htmledit.cpp:2648 htmledit.cpp:3144
+#: htmledit.cpp:3606 htmledit.cpp:3853 htmledit.cpp:4432 htmledit.cpp:5488
+#: htmledit.cpp:5724
+msgid "Width"
+msgstr ""
+
+#: htmledit.cpp:1374 htmledit.cpp:3613 htmledit.cpp:4439 htmledit.cpp:5495
+#: htmledit.cpp:5731
+msgid "Height"
+msgstr ""
+
+#: htmledit.cpp:1385 htmledit.cpp:5502 htmledit.cpp:5738
+msgid "HSpace"
+msgstr ""
+
+#: htmledit.cpp:1391 htmledit.cpp:5509 htmledit.cpp:5745
+msgid "VSpace"
+msgstr ""
+
+#: htmledit.cpp:1398 htmledit.cpp:4000 htmledit.cpp:5089 htmledit.cpp:5717
+msgid "Alternate Text"
+msgstr ""
+
+#: htmledit.cpp:1405 htmledit.cpp:4284 htmledit.cpp:4460
+msgid "Link to Long Description"
+msgstr ""
+
+#: htmledit.cpp:1416 htmledit.cpp:3151 htmledit.cpp:5529
+msgid "Border"
+msgstr ""
+
+#: htmledit.cpp:1429 htmledit.cpp:1704 htmledit.cpp:2490 htmledit.cpp:2634
+#: htmledit.cpp:2840 htmledit.cpp:3192 htmledit.cpp:4498 htmledit.cpp:5142
+#: htmledit.cpp:5522 htmledit.cpp:5758
+msgid "Align"
+msgstr ""
+
+#: htmledit.cpp:1436 htmledit.cpp:5096 htmledit.cpp:5536
+msgid "Image Map"
+msgstr ""
+
+#: htmledit.cpp:1451
+msgid " "
+msgstr ""
+
+#: htmledit.cpp:1629
+msgid "HTML version"
+msgstr ""
+
+#: htmledit.cpp:1662
+msgid "Http-Equiv"
+msgstr ""
+
+#: htmledit.cpp:1669 htmledit.cpp:2583 htmledit.cpp:2993 htmledit.cpp:4263
+#: htmledit.cpp:4425 htmledit.cpp:4748 htmledit.cpp:4831 htmledit.cpp:4936
+#: htmledit.cpp:5064 htmledit.cpp:5345 htmledit.cpp:5547 htmledit.cpp:5765
+msgid "Name"
+msgstr ""
+
+#: htmledit.cpp:1676
+msgid "Content"
+msgstr ""
+
+#: htmledit.cpp:1683
+msgid "Scheme"
+msgstr ""
+
+#: htmledit.cpp:1757 htmledit.cpp:4838
+msgid "Rows"
+msgstr ""
+
+#: htmledit.cpp:1764 htmledit.cpp:4845
+msgid "Columns"
+msgstr ""
+
+#: htmledit.cpp:1771 htmledit.cpp:1906
+msgid "On Load"
+msgstr ""
+
+#: htmledit.cpp:1778 htmledit.cpp:1913
+msgid "On Unload"
+msgstr ""
+
+#: htmledit.cpp:1795
+msgid "For"
+msgstr ""
+
+#: htmledit.cpp:1802 htmledit.cpp:2848 htmledit.cpp:3022 htmledit.cpp:4030
+#: htmledit.cpp:4853 htmledit.cpp:4962 htmledit.cpp:5122
+msgid "Access Key"
+msgstr ""
+
+#: htmledit.cpp:1809 htmledit.cpp:2713 htmledit.cpp:3075 htmledit.cpp:4044
+#: htmledit.cpp:4769 htmledit.cpp:4867 htmledit.cpp:4976 htmledit.cpp:5156
+msgid "On Focus"
+msgstr ""
+
+#: htmledit.cpp:1816 htmledit.cpp:2720 htmledit.cpp:3082 htmledit.cpp:4051
+#: htmledit.cpp:4776 htmledit.cpp:4874 htmledit.cpp:4983 htmledit.cpp:5163
+msgid "On Blur"
+msgstr ""
+
+#: htmledit.cpp:1844
+msgid "Background Image"
+msgstr ""
+
+#: htmledit.cpp:1856 htmledit.cpp:3200 htmledit.cpp:3494 htmledit.cpp:3708
+msgid "Background Color"
+msgstr ""
+
+#: htmledit.cpp:1866
+msgid "Text Color"
+msgstr ""
+
+#: htmledit.cpp:1876
+msgid "Link Color"
+msgstr ""
+
+#: htmledit.cpp:1886
+msgid "Visited Link Color"
+msgstr ""
+
+#: htmledit.cpp:1896
+msgid "Active Link Color"
+msgstr ""
+
+#: htmledit.cpp:2061 htmledit.cpp:2164
+msgid "Cite"
+msgstr ""
+
+#: htmledit.cpp:2092
+msgid "None"
+msgstr ""
+
+#: htmledit.cpp:2182
+msgid "Date of change"
+msgstr ""
+
+#: htmledit.cpp:2213 htmledit.cpp:2276 htmledit.cpp:2369 htmledit.cpp:2599
+#: htmledit.cpp:3036 htmledit.cpp:4954 htmledit.cpp:5057 htmledit.cpp:5917
+msgid "Type"
+msgstr ""
+
+#: htmledit.cpp:2283
+msgid "Start"
+msgstr ""
+
+#: htmledit.cpp:2376 htmledit.cpp:2771 htmledit.cpp:4943 htmledit.cpp:5071
+#: htmledit.cpp:5352
+msgid "Value"
+msgstr ""
+
+#: htmledit.cpp:2545 htmledit.cpp:2981 htmledit.cpp:3980 htmledit.cpp:5884
+msgid "HREF"
+msgstr ""
+
+#: htmledit.cpp:2557 htmledit.cpp:3000 htmledit.cpp:3992 htmledit.cpp:4654
+#: htmledit.cpp:5896
+msgid "Target"
+msgstr ""
+
+#: htmledit.cpp:2606 htmledit.cpp:5924
+msgid "Media"
+msgstr ""
+
+#: htmledit.cpp:2641 htmledit.cpp:4124 htmledit.cpp:4194 htmledit.cpp:4755
+#: htmledit.cpp:5107
+msgid "Size"
+msgstr ""
+
+#: htmledit.cpp:2706 htmledit.cpp:2764
+msgid "Label"
+msgstr ""
+
+#: htmledit.cpp:2727 htmledit.cpp:4783 htmledit.cpp:4888 htmledit.cpp:5177
+msgid "On Change"
+msgstr ""
+
+#: htmledit.cpp:2818
+msgid "Prompt"
+msgstr ""
+
+#: htmledit.cpp:2904
+msgid "Script Source"
+msgstr ""
+
+#: htmledit.cpp:2916 htmledit.cpp:5370
+msgid "Content Type"
+msgstr ""
+
+#: htmledit.cpp:2923 htmledit.cpp:3050 htmledit.cpp:5938
+msgid "Character Set"
+msgstr ""
+
+#: htmledit.cpp:2930
+msgid "Scripting Language"
+msgstr ""
+
+#: htmledit.cpp:3007 htmledit.cpp:5903
+msgid "Rel"
+msgstr ""
+
+#: htmledit.cpp:3014 htmledit.cpp:5910
+msgid "Rev"
+msgstr ""
+
+#: htmledit.cpp:3029 htmledit.cpp:4037 htmledit.cpp:4762 htmledit.cpp:4860
+#: htmledit.cpp:4969 htmledit.cpp:5129 htmledit.cpp:5554
+msgid "Tab Index"
+msgstr ""
+
+#: htmledit.cpp:3043 htmledit.cpp:5931
+msgid "HREF Language"
+msgstr ""
+
+#: htmledit.cpp:3061 htmledit.cpp:4018
+msgid "Shape"
+msgstr ""
+
+#: htmledit.cpp:3068 htmledit.cpp:4007
+msgid "Coordinates"
+msgstr ""
+
+#: htmledit.cpp:3168
+msgid "Frame"
+msgstr ""
+
+#: htmledit.cpp:3181
+msgid "Rules"
+msgstr ""
+
+#: htmledit.cpp:3212
+msgid "Cell Spacing"
+msgstr ""
+
+#: htmledit.cpp:3219
+msgid "Cell Padding"
+msgstr ""
+
+#: htmledit.cpp:3226
+msgid "Summary"
+msgstr ""
+
+#: htmledit.cpp:3340 htmledit.cpp:3459 htmledit.cpp:3640 htmledit.cpp:3866
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: htmledit.cpp:3352 htmledit.cpp:3471 htmledit.cpp:3652 htmledit.cpp:3878
+msgid "Vertical Alignment"
+msgstr ""
+
+#: htmledit.cpp:3360 htmledit.cpp:3479 htmledit.cpp:3660 htmledit.cpp:3886
+msgid "Char"
+msgstr ""
+
+#: htmledit.cpp:3367 htmledit.cpp:3486 htmledit.cpp:3667 htmledit.cpp:3893
+msgid "Char Offset"
+msgstr ""
+
+#: htmledit.cpp:3620
+msgid "Rows Spanned"
+msgstr ""
+
+#: htmledit.cpp:3627
+msgid "Columns Spanned"
+msgstr ""
+
+#: htmledit.cpp:3674
+msgid "Headers"
+msgstr ""
+
+#: htmledit.cpp:3681
+msgid "row"
+msgstr ""
+
+#: htmledit.cpp:3682
+msgid "col"
+msgstr ""
+
+#: htmledit.cpp:3683
+msgid "rowgroup"
+msgstr ""
+
+#: htmledit.cpp:3684
+msgid "colgroup"
+msgstr ""
+
+#: htmledit.cpp:3686
+msgid "Scope"
+msgstr ""
+
+#: htmledit.cpp:3693
+msgid "Abbreviation"
+msgstr ""
+
+#: htmledit.cpp:3700
+msgid "Axis"
+msgstr ""
+
+#: htmledit.cpp:3846
+msgid "Span"
+msgstr ""
+
+#: htmledit.cpp:4116 htmledit.cpp:4186
+msgid "Face"
+msgstr ""
+
+#: htmledit.cpp:4132 htmledit.cpp:4202
+msgid "Color"
+msgstr ""
+
+#: htmledit.cpp:4252 htmledit.cpp:4414
+msgid "Frame Source"
+msgstr ""
+
+#: htmledit.cpp:4270 htmledit.cpp:4446
+msgid "Margin Width"
+msgstr ""
+
+#: htmledit.cpp:4277 htmledit.cpp:4453
+msgid "Margin Height"
+msgstr ""
+
+#: htmledit.cpp:4295 htmledit.cpp:4471
+msgid "1"
+msgstr ""
+
+#: htmledit.cpp:4296 htmledit.cpp:4472
+msgid "0"
+msgstr ""
+
+#: htmledit.cpp:4298 htmledit.cpp:4474
+msgid "Frame Border"
+msgstr ""
+
+#: htmledit.cpp:4307 htmledit.cpp:4483
+msgid "Auto"
+msgstr ""
+
+#: htmledit.cpp:4309 htmledit.cpp:4485
+msgid "Scrolling"
+msgstr ""
+
+#: htmledit.cpp:4623
+msgid "Action"
+msgstr ""
+
+#: htmledit.cpp:4638
+msgid "Method"
+msgstr ""
+
+#: htmledit.cpp:4647
+msgid "Encoding Type"
+msgstr ""
+
+#: htmledit.cpp:4661
+msgid "Accept-charset"
+msgstr ""
+
+#: htmledit.cpp:4668
+msgid "On Submit"
+msgstr ""
+
+#: htmledit.cpp:4675
+msgid "On Reset"
+msgstr ""
+
+#: htmledit.cpp:4881 htmledit.cpp:5170
+msgid "On Select"
+msgstr ""
+
+#: htmledit.cpp:4950 htmledit.cpp:5055
+msgid "Button"
+msgstr ""
+
+#: htmledit.cpp:4951 htmledit.cpp:5050
+msgid "Submit"
+msgstr ""
+
+#: htmledit.cpp:4952 htmledit.cpp:5051
+msgid "Reset"
+msgstr ""
+
+#: htmledit.cpp:5046
+msgid "Text"
+msgstr ""
+
+#: htmledit.cpp:5047
+msgid "Password"
+msgstr ""
+
+#: htmledit.cpp:5048
+msgid "Checkbox"
+msgstr ""
+
+#: htmledit.cpp:5049
+msgid "Radio Button"
+msgstr ""
+
+#: htmledit.cpp:5053
+msgid "Hidden"
+msgstr ""
+
+#: htmledit.cpp:5054
+msgid "Image"
+msgstr ""
+
+#: htmledit.cpp:5114
+msgid "Maximum Length"
+msgstr ""
+
+#: htmledit.cpp:5149
+msgid "Accept Types"
+msgstr ""
+
+#: htmledit.cpp:5363
+msgid "Value Type"
+msgstr ""
+
+#: htmledit.cpp:5423 htmledit.cpp:5681
+msgid "Base URI"
+msgstr ""
+
+#: htmledit.cpp:5434
+msgid "Code Location"
+msgstr ""
+
+#: htmledit.cpp:5445
+msgid "Data Location"
+msgstr ""
+
+#: htmledit.cpp:5456 htmledit.cpp:5692
+msgid "Archive Location"
+msgstr ""
+
+#: htmledit.cpp:5467
+msgid "Standby Message"
+msgstr ""
+
+#: htmledit.cpp:5474
+msgid "Code Type"
+msgstr ""
+
+#: htmledit.cpp:5481
+msgid "Data Type"
+msgstr ""
+
+#: htmledit.cpp:5703
+msgid "Class File"
+msgstr ""
+
+#: htmledit.cpp:5710
+msgid "Object"
+msgstr ""
+
+#: htmledit.cpp:5849
+msgid "Profile"
+msgstr ""
+
+#: htmledit.cpp:6017
+msgid "&Main"
+msgstr ""
+
+#: htmledit.cpp:6021
+msgid "C&ore"
+msgstr ""
+
+#: htmledit.cpp:6026
+msgid "&Events"
+msgstr ""
+
+#: htmledit.cpp:6031
+msgid "&i18n"
+msgstr ""
+
+#: dirview.cpp:242
+msgid "Directory Tree"
+msgstr ""
+
+#: dirview.cpp:253
+msgid "&Open"
+msgstr ""
+
+#: dirview.cpp:254
+msgid "Re&name"
+msgstr ""
+
+#: dirview.cpp:257
+msgid "&New Directory"
+msgstr ""
+
+#: dirview.cpp:343
+msgid "New Name:"
+msgstr ""
+
+#: dirview.cpp:355
+msgid "Error occured while renaming file!"
+msgstr ""
+
+#: dirview.cpp:368
+#, c-format
+msgid "Remove directory \"%s\"? Are you sure?"
+msgstr ""
+
+#: dirview.cpp:370
+#, c-format
+msgid "Remove file \"%s\"? Are you sure?"
+msgstr ""
+
+#: dirview.cpp:387
+msgid "Error occured while removing file!"
+msgstr ""
+
+#: dirview.cpp:400
+msgid "New Directory Name:"
+msgstr ""
+
+#: dirview.cpp:411
+msgid "Error occured while creating new directory!"
+msgstr ""

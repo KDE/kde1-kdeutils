@@ -1,0 +1,632 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1999-01-18 02:28+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: knetmon/kconfigdlg.cpp:24
+msgid "Active work&group:"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:26
+msgid "Your &username:"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:27
+msgid "Use &NSLookup: "
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:29
+msgid "Use N&MBLookup"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:30
+msgid "Use &samba for getting browse list: "
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:32
+msgid "Get &browselist from:"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:33
+msgid "Use &IP for samba"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:34
+msgid "Ask always for &password and username"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:35
+msgid "&Change name"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:36
+msgid "&Add workgroup"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:37
+msgid "&Delete workgroup"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:38
+msgid "Use special talk program: "
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:41
+msgid "&Max. number of button rows:"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:43
+msgid "Adjust &fontsize:"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:45
+msgid "&Use following xterm:"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:47
+msgid "&Start xterm with options:"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:49
+msgid "&Explore with:"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:52
+msgid "Mount &shares under:"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:54
+msgid "&Update period:"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:55
+msgid "Unmount on &exit"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:63
+msgid "Configure KNetMon"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:75 knetmon/knetmon.cpp:389
+msgid "Network settings"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:76 knetmon/knetmon.cpp:390
+msgid "GUI settings"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:77 knetmon/knetmon.cpp:388
+msgid "More settings"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:83
+msgid "identifier for the current selected workgroup"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:87
+msgid "you should know"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:94
+msgid ""
+"if checked, knetmon will be able to retrieve the IP addresses from your "
+"nameserver"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:95
+msgid "enter the IP address of your nameserver, its name may work too"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:100
+msgid ""
+"if checked, smbclient is used for getting\n"
+"a list of active hosts, it is recommended to enable this"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:105
+msgid ""
+"name of a host, which provides a browsing list,\n"
+"e.g. the name server or your own machine"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:109
+msgid ""
+"if checked, samba will use the IP-address for its actions,\n"
+"usually it should work without this option"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:113
+msgid "if checked, samba will always use password and username"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:128
+msgid ""
+"if not checked, the standard talk program in\n"
+"a xterm is used, else the talk you enter here"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:129
+msgid "the name of a X talk, e.g. \"ktalk\""
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:133
+msgid "the maximum number of buttons vertically"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:137
+msgid "the font size of the buttons"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:141
+msgid "the name of your favourite xterm, kvt won't work, I think"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:145
+msgid ""
+"the xterm entered above will\n"
+"be started with these options"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:149
+#, c-format
+msgid "a filemanager which opens directory %dir"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:154
+msgid ""
+"here the shares will be mounted,\n"
+"you MUST have WRITE-PERMISSION"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:160
+msgid "update period in seconds"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:163
+msgid "usually you should keep this checked"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:334
+msgid "Enter an identifier for the new workgroup"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:335
+msgid "Name of new work&group:"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:389
+msgid "Name of the work&group:"
+msgstr ""
+
+#: knetmon/kconfigdlg.cpp:391
+msgid "Enter an identifier for this workgroup"
+msgstr ""
+
+#: knetmon/knetmon.cpp:27
+msgid "&Status"
+msgstr ""
+
+#: knetmon/knetmon.cpp:28
+msgid "&More"
+msgstr ""
+
+#: knetmon/knetmon.cpp:54
+msgid "Explore host"
+msgstr ""
+
+#: knetmon/knetmon.cpp:55
+msgid "Mount"
+msgstr ""
+
+#: knetmon/knetmon.cpp:56
+msgid "UnMount"
+msgstr ""
+
+#: knetmon/knetmon.cpp:57 knetmon/knetmon.cpp:69
+msgid "SMBClient"
+msgstr ""
+
+#: knetmon/knetmon.cpp:58 knetmon/knetmon.cpp:70
+msgid "SMBList"
+msgstr ""
+
+#: knetmon/knetmon.cpp:59 knetmon/knetmon.cpp:71
+msgid "RLogin"
+msgstr ""
+
+#: knetmon/knetmon.cpp:60 knetmon/knetmon.cpp:72
+msgid "Talk"
+msgstr ""
+
+#: knetmon/knetmon.cpp:61 knetmon/knetmon.cpp:73
+msgid "Telnet"
+msgstr ""
+
+#: knetmon/knetmon.cpp:62 knetmon/knetmon.cpp:74
+msgid "Finger"
+msgstr ""
+
+#: knetmon/knetmon.cpp:63 knetmon/knetmon.cpp:75
+msgid "Ping"
+msgstr ""
+
+#: knetmon/knetmon.cpp:65
+msgid "Info"
+msgstr ""
+
+#: knetmon/knetmon.cpp:68
+msgid "Mount share"
+msgstr ""
+
+#: knetmon/knetmon.cpp:76
+msgid "Get IP address"
+msgstr ""
+
+#: knetmon/knetmon.cpp:79
+msgid "Change workgroup"
+msgstr ""
+
+#: knetmon/knetmon.cpp:80
+msgid "Configure"
+msgstr ""
+
+#: knetmon/knetmon.cpp:81
+msgid "Update"
+msgstr ""
+
+#: knetmon/knetmon.cpp:82
+msgid "Ping Nameserver"
+msgstr ""
+
+#: knetmon/knetmon.cpp:430
+msgid "Enter password"
+msgstr ""
+
+#: knetmon/knetmon.cpp:450 knetmon/knetmon.cpp:492 knetmon/knetmon.cpp:1047
+#: knetmon/knetmon.cpp:1597
+msgid "&Ping"
+msgstr ""
+
+#: knetmon/knetmon.cpp:518
+msgid "On host:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:595 knetmon/knetmon.cpp:643
+msgid "Enter login name:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:612 knetmon/knetmon.cpp:659
+msgid " on "
+msgstr ""
+
+#: knetmon/knetmon.cpp:659
+msgid ": Logged in as "
+msgstr ""
+
+#: knetmon/knetmon.cpp:686
+msgid "Talk to:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:703
+msgid ": Talking to "
+msgstr ""
+
+#: knetmon/knetmon.cpp:797
+msgid ": Pinging "
+msgstr ""
+
+#: knetmon/knetmon.cpp:849
+msgid ": Finger at "
+msgstr ""
+
+#: knetmon/knetmon.cpp:890
+msgid "Name of share:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:898
+msgid "Connect to host:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:911 knetmon/knetmon.cpp:1044 knetmon/knetmon.cpp:1194
+msgid "Co&nnect"
+msgstr ""
+
+#: knetmon/knetmon.cpp:950 knetmon/knetmon.cpp:1094
+msgid ": Connected to //"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1011 knetmon/knetmon.cpp:1163 knetmon/knetmon.cpp:1283
+#: knetmon/knetmon.cpp:1393
+msgid "something failed ;-)"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1035
+msgid "Connect to which share from host "
+msgstr ""
+
+#: knetmon/knetmon.cpp:1180
+msgid "Get list from host:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1303
+msgid "Enter username:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1303 knetmon/knetmon.cpp:2046
+msgid "Use &password"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1303 knetmon/knetmon.cpp:2046
+msgid "&Without password"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1428
+msgid "Mount share:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1436
+msgid "Mount share from host:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1448
+msgid "Select filesystem:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1460 knetmon/knetmon.cpp:1594
+msgid "&Mount"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1573
+msgid "Mount shares from host "
+msgstr ""
+
+#: knetmon/knetmon.cpp:1583
+msgid "Mount &all shares"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1587
+msgid "Mount &selected shares"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1838 knetmon/qutilobjects.cpp:303
+msgid "Host not found"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1838 knetmon/qutilobjects.cpp:303
+msgid ""
+"Host not found, action failed\n"
+"Stay cool, think it must have been a bug"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1863
+msgid "Some information about host "
+msgstr ""
+
+#: knetmon/knetmon.cpp:1868
+msgid "Comment:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1878
+msgid "IP address:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1888
+msgid "Running OS:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1898
+msgid "Available shares:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1915
+msgid ""
+" by Alexander Neundorf\n"
+"Bug reports, comments,... to alexander.neundorf@rz.tu-ilmenau.de\n"
+"Newest versions under http://www.rz.tu-ilmenau.de/~lekus/netmon.html\n"
+"\n"
+"This program is free available under the terms of the GNU General Public "
+"License\n"
+"\n"
+"Created using Qt 1.4 by Troll Tech http://www.troll.no"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1947
+msgid "Login as user:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1951
+msgid "Talk to user:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1955
+msgid "Telnet as user:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1960
+msgid "Put Finger on host:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1964
+msgid "Ping to host:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1969
+msgid "Get address of host:"
+msgstr ""
+
+#: knetmon/knetmon.cpp:1975
+msgid "IP address of host "
+msgstr ""
+
+#: knetmon/knetmon.cpp:2046
+msgid "Enter username"
+msgstr ""
+
+#: knetmon/main.cpp:84 knetmon/main.cpp:86 knetmon/main.cpp:88
+#: knetmon/main.cpp:90 knetmon/main.cpp:92 knetmon/main.cpp:94
+#: knetmon/main.cpp:98 knetmon/main.cpp:100
+msgid "Required binary not found"
+msgstr ""
+
+#: knetmon/main.cpp:84
+msgid ""
+"Could not execute smbclient,\n"
+"this will give problems.\n"
+"If you don't want knetmon to check for binaries, start it with the option "
+"-d.\n"
+"Continue anyway ?"
+msgstr ""
+
+#: knetmon/main.cpp:86
+msgid ""
+"Could not execute smbmount,\n"
+"you won't be able to mount samba shares.\n"
+"If you don't want knetmon to check for binaries, start it with the option "
+"-d.\n"
+"Continue anyway ?"
+msgstr ""
+
+#: knetmon/main.cpp:88
+msgid ""
+"Could not execute smbumount,\n"
+"you won't be able to unmount mounted samba shares.\n"
+"If you don't want knetmon to check for binaries, start it with the option "
+"-d.\n"
+"Continue anyway ?"
+msgstr ""
+
+#: knetmon/main.cpp:90
+msgid ""
+"Could not execute mount,\n"
+"you won't be able to mount nfs-exports.\n"
+"If you don't want knetmon to check for binaries, start it with the option "
+"-d.\n"
+"Continue anyway ?"
+msgstr ""
+
+#: knetmon/main.cpp:92
+msgid ""
+"Could not execute umount,\n"
+"you won't be able to unmount mounted nfs-exports.\n"
+"If you don't want knetmon to check for binaries, start it with the option "
+"-d.\n"
+"Continue anyway ?"
+msgstr ""
+
+#: knetmon/main.cpp:94
+msgid ""
+"Could not execute showmount,\n"
+"so the nfs-stuff won't work.\n"
+"If you don't want knetmon to check for binaries, start it with the option "
+"-d.\n"
+"Continue anyway ?"
+msgstr ""
+
+#: knetmon/main.cpp:98
+msgid ""
+"Could not execute nslookup,\n"
+"you will have problems if you need to know the IP addresses for samba.\n"
+"If you don't want knetmon to check for binaries, start it with the option "
+"-d.\n"
+"Continue anyway ?"
+msgstr ""
+
+#: knetmon/main.cpp:100
+msgid ""
+"Could not execute nmblookup,\n"
+"you will have problems if you need to know the IP address for samba.\n"
+"If you don't want knetmon to check for binaries, start it with the option "
+"-d.\n"
+"Continue anyway ?"
+msgstr ""
+
+#: knetmon/qutilobjects.cpp:35
+msgid "&Use name and password for mounting"
+msgstr ""
+
+#: knetmon/qutilobjects.cpp:53
+msgid "Enter &name:"
+msgstr ""
+
+#: knetmon/qutilobjects.cpp:57
+msgid "Enter pass&word:"
+msgstr ""
+
+#: knetmon/qutilobjects.cpp:82
+msgid " status"
+msgstr ""
+
+#: knetmon/qutilobjects.cpp:90
+msgid "Resources accessed by other users:"
+msgstr ""
+
+#: knetmon/qutilobjects.cpp:95
+msgid "Network resources mounted on this system:"
+msgstr ""
+
+#: knetmon/qutilobjects.cpp:105
+msgid "Share"
+msgstr ""
+
+#: knetmon/qutilobjects.cpp:106
+msgid "User"
+msgstr ""
+
+#: knetmon/qutilobjects.cpp:107
+msgid "Group"
+msgstr ""
+
+#: knetmon/qutilobjects.cpp:108
+msgid "Machine"
+msgstr ""
+
+#: knetmon/qutilobjects.cpp:109
+msgid "Since"
+msgstr ""
+
+#: knetmon/qutilobjects.cpp:116
+msgid "Resource"
+msgstr ""
+
+#: knetmon/qutilobjects.cpp:117
+msgid "Mounted on"
+msgstr ""
+
+#: knetmon/qutilobjects.cpp:118
+msgid "Type"
+msgstr ""
+
+#: knetmon/qutilobjects.cpp:120
+msgid "View exports"
+msgstr ""
+
+#: knetmon/qutilobjects.cpp:121
+msgid "View imports"
+msgstr ""
+
+#: knetmon/qutilobjects.cpp:287
+msgid "Show &hidden shares"
+msgstr ""
+
+#: knetmon/qutilobjects.cpp:390
+msgid "Do nothing"
+msgstr ""
+
+#: knetmon/qutilobjects.cpp:392
+msgid "Disconnect"
+msgstr ""
+
+#: qplus/qplus.cpp:491
+msgid "Save Changes ?"
+msgstr ""

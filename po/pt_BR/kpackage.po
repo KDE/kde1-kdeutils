@@ -1,0 +1,880 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1999-02-03 02:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: kpackage.cpp:112
+msgid "&Open"
+msgstr ""
+
+#: kpackage.cpp:113
+msgid "Open &URL"
+msgstr ""
+
+#: kpackage.cpp:115
+msgid "Open &Recent..."
+msgstr ""
+
+#: kpackage.cpp:118
+msgid "Find &Package..."
+msgstr ""
+
+#: kpackage.cpp:120
+msgid "Find &File..."
+msgstr ""
+
+#: kpackage.cpp:121
+msgid "Re&load"
+msgstr ""
+
+#: kpackage.cpp:125
+msgid "&Expand Tree"
+msgstr ""
+
+#: kpackage.cpp:126
+msgid "&Collapse Tree"
+msgstr ""
+
+#: kpackage.cpp:127
+msgid "Clear &Selected"
+msgstr ""
+
+#: kpackage.cpp:129 kpackage.cpp:319
+msgid "Multiple Selection &Mode"
+msgstr ""
+
+#: kpackage.cpp:133
+msgid "&Options..."
+msgstr ""
+
+#: kpackage.cpp:135
+msgid "&Keys..."
+msgstr ""
+
+#: kpackage.cpp:146
+msgid ": Location of uninstalled packages..."
+msgstr ""
+
+#: kpackage.cpp:155 kpackage.cpp:311
+msgid "Show &Tool Bar"
+msgstr ""
+
+#: kpackage.cpp:158 kpackage.cpp:306
+msgid "Hide &Tool Bar"
+msgstr ""
+
+#: kpackage.cpp:161
+msgid "&Save Settings Now"
+msgstr ""
+
+#: kpackage.cpp:165
+msgid "Clear package &Directory cache"
+msgstr ""
+
+#: kpackage.cpp:167
+msgid "Clear &Package cache"
+msgstr ""
+
+#: kpackage.cpp:178
+msgid "&Packages"
+msgstr ""
+
+#: kpackage.cpp:180
+msgid "&Cache"
+msgstr ""
+
+#: kpackage.cpp:204
+msgid "Open Package"
+msgstr ""
+
+#: kpackage.cpp:208
+msgid "Expand Package Tree"
+msgstr ""
+
+#: kpackage.cpp:212
+msgid "Collapse Package Tree"
+msgstr ""
+
+#: kpackage.cpp:216
+msgid "Find Installed Package"
+msgstr ""
+
+#: kpackage.cpp:220
+msgid "Find Package containing file"
+msgstr ""
+
+#: kpackage.cpp:224
+msgid "Reload Package Information"
+msgstr ""
+
+#: kpackage.cpp:317
+msgid "Single Selection &Mode"
+msgstr ""
+
+#: kpackage.cpp:488
+msgid "Management Mode"
+msgstr ""
+
+#: kpackage.cpp:561
+msgid "Select Document to Open"
+msgstr ""
+
+#: kpackage.cpp:613
+#, c-format
+msgid "Unknown package type: %s"
+msgstr ""
+
+#: kpackage.cpp:615
+#, c-format
+msgid "File not found: %s"
+msgstr ""
+
+#: cache.cpp:74 kpackage.cpp:653
+#, c-format
+msgid "Malformed URL: %s"
+msgstr ""
+
+#: debInterface.cpp:163 kpackage.cpp:703
+msgid "Calling KFM"
+msgstr ""
+
+#: debInterface.cpp:166 kpackage.cpp:706
+msgid "KFM finished"
+msgstr ""
+
+#: debInterface.cpp:175 kpackage.cpp:715
+msgid "KFM failed"
+msgstr ""
+
+#: kpackage.cpp:725
+msgid "Open Location:"
+msgstr ""
+
+#: managementWidget.cpp:90 managementWidget.cpp:139 pkguninstallDialog.cpp:19
+msgid "Uninstall"
+msgstr ""
+
+#: managementWidget.cpp:92 managementWidget.cpp:130 managementWidget.cpp:272
+msgid "Examine"
+msgstr ""
+
+#: managementWidget.cpp:199
+msgid "Building package tree"
+msgstr ""
+
+#: managementWidget.cpp:247 managementWidget.cpp:256
+msgid "Management Mode: Single Selection"
+msgstr ""
+
+#: managementWidget.cpp:254
+msgid "Management Mode: Multiple Selection"
+msgstr ""
+
+#: managementWidget.cpp:286 pkginstallOptions.cpp:51
+msgid "Install"
+msgstr ""
+
+#: managementWidget.cpp:324
+msgid "Filename not available\n"
+msgstr ""
+
+#: packageDisplay.cpp:81
+msgid "File List"
+msgstr ""
+
+#: packageDisplay.cpp:182 packageDisplay.cpp:209
+msgid "Updating File List"
+msgstr ""
+
+#: packageDisplay.cpp:220
+msgid " files"
+msgstr ""
+
+#: packageProperties.cpp:46
+msgid "name"
+msgstr ""
+
+#: packageProperties.cpp:47
+msgid "summary"
+msgstr ""
+
+#: packageProperties.cpp:48
+msgid "version"
+msgstr ""
+
+#: packageProperties.cpp:49
+msgid "old-version"
+msgstr ""
+
+#: packageProperties.cpp:50
+msgid "status"
+msgstr ""
+
+#: packageProperties.cpp:51
+msgid "group"
+msgstr ""
+
+#: packageProperties.cpp:52
+msgid "size"
+msgstr ""
+
+#: packageProperties.cpp:53
+msgid "file-size"
+msgstr ""
+
+#: packageProperties.cpp:54
+msgid "description"
+msgstr ""
+
+#: packageProperties.cpp:55
+msgid "architecture"
+msgstr ""
+
+#: packageProperties.cpp:57
+msgid "unsatisfied dependencies"
+msgstr ""
+
+#: packageProperties.cpp:58
+msgid "pre-depends"
+msgstr ""
+
+#: packageProperties.cpp:59
+msgid "dependencies"
+msgstr ""
+
+#: packageProperties.cpp:60
+msgid "depends"
+msgstr ""
+
+#: packageProperties.cpp:61
+msgid "conflicts"
+msgstr ""
+
+#: packageProperties.cpp:62
+msgid "provides"
+msgstr ""
+
+#: packageProperties.cpp:63
+msgid "recommends"
+msgstr ""
+
+#: packageProperties.cpp:64
+msgid "replaces"
+msgstr ""
+
+#: packageProperties.cpp:65
+msgid "suggests"
+msgstr ""
+
+#: packageProperties.cpp:66
+msgid "priority"
+msgstr ""
+
+#: packageProperties.cpp:68
+msgid "essential"
+msgstr ""
+
+#: packageProperties.cpp:69
+msgid "installtime"
+msgstr ""
+
+#: packageProperties.cpp:70
+msgid "config-version"
+msgstr ""
+
+#: packageProperties.cpp:71
+msgid "distribution"
+msgstr ""
+
+#: packageProperties.cpp:72
+msgid "vendor"
+msgstr ""
+
+#: packageProperties.cpp:73
+msgid "maintainer"
+msgstr ""
+
+#: packageProperties.cpp:74
+msgid "packager"
+msgstr ""
+
+#: packageProperties.cpp:75
+msgid "source"
+msgstr ""
+
+#: packageProperties.cpp:76
+msgid "build-time"
+msgstr ""
+
+#: packageProperties.cpp:77
+msgid "build-host"
+msgstr ""
+
+#: packageProperties.cpp:78
+msgid "base"
+msgstr ""
+
+#: packageProperties.cpp:79
+msgid "filename"
+msgstr ""
+
+#: packageProperties.cpp:80
+msgid "serial"
+msgstr ""
+
+#: pkguninstallDialog.cpp:85
+#, c-format
+msgid "Uninstall: %s\n"
+msgstr ""
+
+#: pkguninstallDialog.cpp:127
+#, c-format
+msgid "Uninstall: %d %s Packages\n"
+msgstr ""
+
+#: findf.cpp:23
+msgid "Find File"
+msgstr ""
+
+#: findf.cpp:36
+msgid "Type"
+msgstr ""
+
+#: findf.cpp:37
+msgid "Package"
+msgstr ""
+
+#: findf.cpp:38
+msgid "File Name"
+msgstr ""
+
+#: findf.cpp:44 search.cpp:46
+msgid "Find"
+msgstr ""
+
+#: findf.cpp:51 search.cpp:51
+msgid "Done"
+msgstr ""
+
+#: findf.cpp:110
+msgid "--Nothing found--"
+msgstr ""
+
+#: findf.cpp:151
+msgid "Incorrect URL type"
+msgstr ""
+
+#: search.cpp:18
+msgid "Find Package"
+msgstr ""
+
+#: search.cpp:31
+msgid "Sub string"
+msgstr ""
+
+#: search.cpp:38
+msgid "Wrap search"
+msgstr ""
+
+#: search.cpp:79
+msgid "Note"
+msgstr ""
+
+#: search.cpp:80
+#, c-format
+msgid "%s was not found"
+msgstr ""
+
+#: installationWidget.cpp:84
+#, c-format
+msgid "Install: %s"
+msgstr ""
+
+#: options.cpp:33
+msgid "Packages to display"
+msgstr ""
+
+#: options.cpp:38
+msgid "Installed Packages"
+msgstr ""
+
+#: options.cpp:42
+msgid "Updated Packages"
+msgstr ""
+
+#: options.cpp:46
+msgid "New and Updated  Packages"
+msgstr ""
+
+#: options.cpp:50
+msgid "All Packages"
+msgstr ""
+
+#: options.cpp:58
+msgid "Package Display"
+msgstr ""
+
+#: options.cpp:62
+msgid "Cache remote package directories"
+msgstr ""
+
+#: options.cpp:68 options.cpp:96
+msgid "Always"
+msgstr ""
+
+#: options.cpp:72 options.cpp:100
+msgid "During as session"
+msgstr ""
+
+#: options.cpp:76 options.cpp:104
+msgid "Never"
+msgstr ""
+
+#: options.cpp:86
+msgid "Directory Cache"
+msgstr ""
+
+#: options.cpp:90
+msgid "Cache remote package files"
+msgstr ""
+
+#: options.cpp:114
+msgid "Package Cache"
+msgstr ""
+
+#: options.cpp:119
+msgid "Verify file list"
+msgstr ""
+
+#: options.cpp:123
+msgid "Read information from all local package files"
+msgstr ""
+
+#: options.cpp:128
+msgid "misc"
+msgstr ""
+
+#: pkginstallOptions.cpp:46
+msgid "Install Package"
+msgstr ""
+
+#: pkginstallOptions.cpp:158
+#, c-format
+msgid "Install: %d %s Packages"
+msgstr ""
+
+#: aboutDialog.cpp:34
+msgid "Version 1.1"
+msgstr ""
+
+#: aboutDialog.cpp:35
+msgid "By Toivo Pedaste"
+msgstr ""
+
+#: aboutDialog.cpp:36
+msgid "Originally: Damyan Pepper"
+msgstr ""
+
+#: aboutDialog.cpp:37
+msgid "Addional Developers:"
+msgstr ""
+
+#: aboutDialog.cpp:38
+msgid "Bill McFarland and Thinh Van"
+msgstr ""
+
+#: aboutDialog.cpp:39
+msgid "Marco Zuehlke"
+msgstr ""
+
+#: packageInfo.cpp:77
+msgid "OTHER"
+msgstr ""
+
+#: cache.cpp:38 cache.cpp:60
+#, c-format
+msgid "Cannot create directory %s"
+msgstr ""
+
+#: debInterface.cpp:73 debInterface.cpp:216
+msgid "Querying DEB package list: "
+msgstr ""
+
+#: debInterface.cpp:75
+msgid "Kpackage: Waiting on DPKG"
+msgstr ""
+
+#: debInterface.cpp:78
+msgid "Locate of Debian package archives"
+msgstr ""
+
+#: debInterface.cpp:80
+msgid "Location of directories containg Debian packages"
+msgstr ""
+
+#: debInterface.cpp:81
+msgid "Location of 'Packages' files for sections of Debian distributions"
+msgstr ""
+
+#: debInterface.cpp:82
+msgid "Location of base directory of Debian distribution"
+msgstr ""
+
+#: debInterface.cpp:87
+msgid "Allow Downgrade"
+msgstr ""
+
+#: debInterface.cpp:88
+msgid "Check Conflicts"
+msgstr ""
+
+#: debInterface.cpp:89 debInterface.cpp:93 rpmInterface.cpp:74
+#: rpmInterface.cpp:78
+msgid "Check Dependencies"
+msgstr ""
+
+#: debInterface.cpp:90 rpmInterface.cpp:75
+msgid "Test (do not install)"
+msgstr ""
+
+#: debInterface.cpp:92
+msgid "Purge Config Files"
+msgstr ""
+
+#: debInterface.cpp:94 rpmInterface.cpp:79
+msgid "Test (do not uninstall)"
+msgstr ""
+
+#: debInterface.cpp:523 debInterface.cpp:558
+msgid "'Delete this window to continue'"
+msgstr ""
+
+#: updateLoc.cpp:33
+msgid "Use"
+msgstr ""
+
+#: updateLoc.cpp:120
+msgid "Package file"
+msgstr ""
+
+#: updateLoc.cpp:145
+msgid "Package archive"
+msgstr ""
+
+#: procbuf.cpp:71
+msgid "Kprocess Failure"
+msgstr ""
+
+#: procbuf.cpp:76
+msgid "Wait"
+msgstr ""
+
+#: pkgInterface.cpp:176
+#, c-format
+msgid "Cann't write to file %s\n"
+msgstr ""
+
+#: pkgInterface.cpp:193
+#, c-format
+msgid "Cann't read directory %s"
+msgstr ""
+
+#: pkgInterface.cpp:250 rpmInterface.cpp:570
+msgid "Verifying"
+msgstr ""
+
+#: rpmInterface.cpp:64
+msgid "Location of RPM package archives"
+msgstr ""
+
+#: rpmInterface.cpp:65
+msgid "Location of directories containg RPM packages"
+msgstr ""
+
+#: rpmInterface.cpp:71
+msgid "Upgrade"
+msgstr ""
+
+#: rpmInterface.cpp:72
+msgid "Replace Files"
+msgstr ""
+
+#: rpmInterface.cpp:73
+msgid "Replace Packages"
+msgstr ""
+
+#: rpmInterface.cpp:77
+msgid "Use Scripts"
+msgstr ""
+
+#: rpmInterface.cpp:92
+msgid "Querying RPM package list: "
+msgstr ""
+
+#: rpmInterface.cpp:98
+msgid "Cann't read RPM config files\n"
+msgstr ""
+
+#: rpmInterface.cpp:187
+msgid "Querying RPM database for installed packages"
+msgstr ""
+
+#: rpmInterface.cpp:203
+msgid "could not read database record\n"
+msgstr ""
+
+#: rpmInterface.cpp:248 rpmInterface.cpp:458
+#, c-format
+msgid "Error looking for package %s\n"
+msgstr ""
+
+#: rpmInterface.cpp:258 rpmInterface.cpp:468
+msgid "Could not read database record\n"
+msgstr ""
+
+#: rpmInterface.cpp:279
+#, c-format
+msgid "Problem opening %s\n"
+msgstr ""
+
+#: rpmInterface.cpp:291
+msgid "Old format source packages cannot be queried!\n"
+msgstr ""
+
+#: rpmInterface.cpp:300 rpmInterface.cpp:507
+#, c-format
+msgid "%s does not appear to be a RPM package\n"
+msgstr ""
+
+#: rpmInterface.cpp:303
+#, c-format
+msgid "Query of %s failed!\n"
+msgstr ""
+
+#: rpmInterface.cpp:456
+#, c-format
+msgid "Package %s is not installed\n"
+msgstr ""
+
+#: rpmInterface.cpp:487
+#, c-format
+msgid "ERROR opening %s\n"
+msgstr ""
+
+#: rpmInterface.cpp:499
+msgid "Old format source packages cannot be queried\n"
+msgstr ""
+
+#: rpmInterface.cpp:510
+#, c-format
+msgid "Query of %s failed\n"
+msgstr ""
+
+#: rpmInterface.cpp:527
+msgid "Getting file list"
+msgstr ""
+
+#: rpmInterface.cpp:552
+msgid "Depends"
+msgstr ""
+
+#: kissInterface.cpp:61 kissInterface.cpp:140
+msgid "Querying KISS package list: "
+msgstr ""
+
+#: kissInterface.cpp:63
+msgid "Kpackage: Waiting on KISS"
+msgstr ""
+
+#: slackInterface.cpp:64 slackInterface.cpp:148 slackInterface.cpp:435
+msgid "Querying SLACK package list: "
+msgstr ""
+
+#: slackInterface.cpp:66
+msgid "Kpackage: Waiting on SLACK"
+msgstr ""
+
+#: rpmInstall.cpp:86 rpmInstall.cpp:182
+#, c-format
+msgid "cannot open file %s"
+msgstr ""
+
+#: rpmInstall.cpp:103 rpmInstall.cpp:393
+#, c-format
+msgid "Installing %s\n"
+msgstr ""
+
+#: rpmInstall.cpp:124 rpmInstall.cpp:195
+#, c-format
+msgid "%s does not appear to be a RPM package"
+msgstr ""
+
+#: rpmInstall.cpp:128 rpmInstall.cpp:199 rpmInstall.cpp:397
+#, c-format
+msgid "%s cannot be installed"
+msgstr ""
+
+#: rpmInstall.cpp:160
+msgid "counting packages to install"
+msgstr ""
+
+#: rpmInstall.cpp:164
+#, c-format
+msgid "found %d packages"
+msgstr ""
+
+#: rpmInstall.cpp:176
+msgid "finding source and binary packages"
+msgstr ""
+
+#: rpmInstall.cpp:218
+#, c-format
+msgid "found %d source and %d binary packages"
+msgstr ""
+
+#: rpmInstall.cpp:224
+#, c-format
+msgid "opening database mode: 0%o"
+msgstr ""
+
+#: rpmInstall.cpp:226 rpmInstall.cpp:311
+msgid ""
+"cannot open /var/lib/rpm/packages.rpm\n"
+"Kpackage needs to be running as root"
+msgstr ""
+
+#: rpmInstall.cpp:249
+msgid "failed dependencies:"
+msgstr ""
+
+#: rpmInstall.cpp:263
+msgid "installing binary packages"
+msgstr ""
+
+#: rpmInstall.cpp:297
+msgid "counting packages to uninstall"
+msgstr ""
+
+#: rpmInstall.cpp:301
+#, c-format
+msgid "found %d packages to uninstall"
+msgstr ""
+
+#: rpmInstall.cpp:319
+#, c-format
+msgid "package %s is not installed"
+msgstr ""
+
+#: rpmInstall.cpp:322
+#, c-format
+msgid "error searching for package %s"
+msgstr ""
+
+#: rpmInstall.cpp:330
+#, c-format
+msgid "\"%s\" specifies multiple packages"
+msgstr ""
+
+#: rpmInstall.cpp:359
+msgid "removing these packages would break dependencies:\n"
+msgstr ""
+
+#: rpmInstall.cpp:371
+#, c-format
+msgid "uninstalling record number %d"
+msgstr ""
+
+#: rpmInstall.cpp:388
+#, c-format
+msgid "cannot open %s"
+msgstr ""
+
+#: rpmInstall.cpp:440
+msgid "Dependency Problem:\n"
+msgstr ""
+
+#: rpmInstall.cpp:450 rpmInstall.cpp:453
+#, c-format
+msgid " is needed by %s-%s-%s\n"
+msgstr ""
+
+#: rpmInstall.cpp:457 rpmInstall.cpp:460
+#, c-format
+msgid " conflicts with %s-%s-%s\n"
+msgstr ""
+
+#: rpmInstall.cpp:465
+msgid "Package not installed:"
+msgstr ""
+
+#: rpmVerify.cpp:65
+#, c-format
+msgid "missing    %s\n"
+msgstr ""
+
+#: rpmVerify.cpp:126
+#, c-format
+msgid "Unsatisfied dependencies for %s-%s-%s: "
+msgstr ""
+
+#: rpmVerify.cpp:179
+#, c-format
+msgid "verifying record number %d\n"
+msgstr ""
+
+#: rpmVerify.cpp:185 rpmutils.cpp:84
+msgid "error: could not read database record\n"
+msgstr ""
+
+#: rpmVerify.cpp:231
+msgid "could not read database record!\n"
+msgstr ""
+
+#: rpmVerify.cpp:251
+#, c-format
+msgid "open of %s failed: %s\n"
+msgstr ""
+
+#: rpmVerify.cpp:265
+#, c-format
+msgid "%s is not an RPM\n"
+msgstr ""
+
+#: rpmVerify.cpp:274
+#, c-format
+msgid "group %s does not contain any pacakges\n"
+msgstr ""
+
+#: rpmVerify.cpp:287
+#, c-format
+msgid "file %s is not owned by any package\n"
+msgstr ""
+
+#: rpmVerify.cpp:300
+#, c-format
+msgid "package %s is not installed\n"
+msgstr ""
+
+#: rpmVerify.cpp:303
+#, c-format
+msgid "error looking for package %s\n"
+msgstr ""
+
+#: kaccelmenu.cpp:156
+msgid "Key already used as default key: "
+msgstr ""
+
+#: kaccelmenu.cpp:167
+msgid "Default key cannot be changed"
+msgstr ""
