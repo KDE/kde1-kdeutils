@@ -8,20 +8,12 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1998-01-03 22:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #: kedit.cpp:82 kedit.cpp:1018
 msgid "Show &Tool Bar"
 msgstr "N‰yt‰ &painikepalkki"
@@ -51,9 +43,8 @@ msgid "Ne&w..."
 msgstr "&Uusi..."
 
 #: kedit.cpp:189
-#, fuzzy
 msgid "Open Recen&t..."
-msgstr "Avaa &URL ..."
+msgstr "Avaa e&dellinen ..."
 
 #: kedit.cpp:201
 msgid "Open &URL..."
@@ -73,10 +64,9 @@ msgstr "Uusi &ikkuna"
 
 #: kedit.cpp:227
 msgid "&Select All"
-msgstr ""
+msgstr "Valitse &kaikki"
 
 #: kedit.cpp:230
-#, fuzzy
 msgid "&Insert File"
 msgstr "Liit‰ ti&edosto"
 
@@ -102,16 +92,15 @@ msgstr "&Siirry riville ..."
 
 #: kedit.cpp:246
 msgid "&Font"
-msgstr ""
+msgstr "&Kirjasin"
 
 #: kedit.cpp:248
 msgid "Colors"
 msgstr "V‰rit"
 
 #: kedit.cpp:250
-#, fuzzy
 msgid "KEdit &Options..."
-msgstr "Muut &asetukset ..."
+msgstr "KEdit &asetukset ..."
 
 #: kedit.cpp:252
 msgid "Auto &Indent"
@@ -188,7 +177,6 @@ msgstr ""
 "Lopetetaanko kuitenkin?"
 
 #: kedit.cpp:666
-#, fuzzy
 msgid ""
 "The current document has been modified.\n"
 "Continue anyways ?"
@@ -203,12 +191,12 @@ msgstr "Tallennettu: %s"
 
 #: kedit.cpp:813
 msgid "No changes need to be saved"
-msgstr ""
+msgstr "Mit‰‰n muutoksia ei tarvitse tallentaa"
 
 #: kedit.cpp:832
 #, c-format
 msgid "Saved as: %s"
-msgstr ""
+msgstr "Tallennettu nimell‰: %s"
 
 #: kedit.cpp:865
 #, c-format
@@ -216,19 +204,21 @@ msgid ""
 "Could not pipe the contentsof this Document into:\n"
 " %s"
 msgstr ""
+"En voinut putkittaa dokumentin sis‰ltˆ‰ kohteeseen:\n"
+" %s"
 
 #: kedit.cpp:959
 msgid "Auto Indent Mode: On"
-msgstr ""
+msgstr "Automaattinen sisennys : P‰‰ll‰"
 
 #: kedit.cpp:961
 msgid "Auto Indent Mode: Off"
-msgstr ""
+msgstr "Automaattinen sisennys : Pois"
 
 #: kedit.cpp:1057
 #, c-format
 msgid "Line: %d Col: %d"
-msgstr ""
+msgstr "Rivi: %d Sarake: %d"
 
 #: kedit.cpp:1123
 msgid ""
@@ -236,15 +226,17 @@ msgid ""
 "Would you like to save the changes before \n"
 "printing this Document?"
 msgstr ""
+"Dokumentti on muuttunut.\n"
+"Haluatko tallentaa muutokset \n"
+"ennen dokumentin tulostusta?"
 
 #: kedit.cpp:1141
-#, fuzzy
 msgid ""
 "Could not save the file.\n"
 "Print anyways?"
 msgstr ""
 "Tiedoston tallennus ep‰onnistui.\n"
-"Lopetetaanko kuitenkin?"
+"Tulostetaanko kuitenkin?"
 
 #: kedit.cpp:1234
 #, c-format
@@ -284,7 +276,7 @@ msgstr ""
 "KEdit odottaa jo internet teht‰v‰n\n"
 "loppumista. \n"
 "Odota kunnes teht‰v‰ loppuu.\n"
-"Vaihtoehtoisesti lopeta nykyinen."
+"Vaihtoehtoisesti keskeyt‰ nykyinen."
 
 #: kedit.cpp:1367 kedit.cpp:1462
 msgid "Could not start or find KFM"
@@ -298,6 +290,8 @@ msgid ""
 "Malformed URL\n"
 "%s"
 msgstr ""
+"Virheellinen URL\n"
+"%s"
 
 #: kedit.cpp:1429
 #, c-format
@@ -343,59 +337,60 @@ msgid ""
 "Can not create:\n"
 "%s"
 msgstr ""
+"En saanut luotua:\n"
+"%s"
 
 #: print.cpp:66
 msgid "Print Dialog"
-msgstr ""
+msgstr "Tulostusikkuna"
 
 #: print.cpp:70
 msgid "Print directly using lpr"
-msgstr ""
+msgstr "Tulosta suoraan k‰ytt‰en lpr:‰‰"
 
 #: print.cpp:75
 msgid "Print using Command:"
-msgstr ""
+msgstr "Tulosta komennolla:"
 
 #: print.cpp:93
 msgid "Print Selection"
-msgstr ""
+msgstr "Tulosta valinta"
 
 #: filldlg.cpp:31
-#, fuzzy
 msgid "KEdit Options"
-msgstr "&Asetukset"
+msgstr "KEdit &Asetukset"
 
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"
-msgstr ""
+msgstr "Aseta sarakkeent‰yttˆ:"
 
 #: filldlg.cpp:40
 msgid "Word Warp"
-msgstr ""
+msgstr "Sanankierr‰tys"
 
 #: filldlg.cpp:44
 msgid "Mail Command:"
-msgstr ""
+msgstr "Postituskomento:"
 
 #: filldlg.cpp:135
 msgid "You must enter an integer."
-msgstr ""
+msgstr "Sinun pit‰‰ antaa kokonaisluku."
 
 #: mail.cpp:37
 msgid "Mail Document to:"
-msgstr ""
+msgstr "Postita dokumentti osoitteeseen:"
 
 #: mail.cpp:55
 msgid "Subject:"
-msgstr ""
+msgstr "Aihe:"
 
 #: mail.cpp:57
 msgid "Mail"
-msgstr ""
+msgstr "Postita"
 
 #: mail.cpp:96
 msgid "You must specify a Recipient"
-msgstr ""
+msgstr "Sinun pit‰‰ m‰‰ritell‰ vastaanottaja"
 
 #~ msgid "The specified File does not exist"
 #~ msgstr "M‰‰ritetty‰ tiedostoa ei ole olemassa"

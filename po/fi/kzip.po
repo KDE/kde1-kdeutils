@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Kim Enkovaara <kim.enkovaara@iki.fi>, 1998.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-01-02 21:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: adddlg.cc:11
+msgid "Add File Options"
+msgstr "Tiedoston lis‰yksen asetukset"
+
+#: adddlg.cc:22
+msgid "Store Full Path"
+msgstr "Tallenna koko polku"
+
+#: adddlg.cc:25
+msgid "Only Add Newer Files"
+msgstr "Lis‰‰ vain uudet"
+
+#: extractdlg.cc:9
+msgid "Files"
+msgstr "Tiedostot"
+
+#: extractdlg.cc:13
+msgid "Extract Options"
+msgstr "Purkuasetukset"
+
+#: extractdlg.cc:17
+msgid "Destination"
+msgstr "Kohde"
+
+#: extractdlg.cc:33
+msgid "Preserve Permissions"
+msgstr "S‰ilyt‰ oikeudet"
+
+#: extractdlg.cc:36
+msgid "Filenames to Lowercase"
+msgstr "Tiedostonimet pienikirjaimisiksi"
+
+#: extractdlg.cc:39
+msgid "All Files"
+msgstr "Kaikki tiedostot"
+
+#: extractdlg.cc:42
+msgid "Selected File"
+msgstr "Valittu tiedosto"
+
+#: extractdlg.cc:45
+msgid "Pattern"
+msgstr "Kuvio"
+
+#: kzip.cc:65
+msgid "&Extract To..."
+msgstr "&Pura kohteeseen..."
+
+#: kzip.cc:70
+msgid "E&xtract..."
+msgstr "P&ura..."
+
+#: kzip.cc:75
+msgid "&Set Archive Directory..."
+msgstr "&Aseta paketin hakemisto..."
+
+#: kzip.cc:76
+msgid "&File Adding Options..."
+msgstr "&Tiedoston lis‰yksen asetukset..."
+
+#: kzip.cc:122
+msgid "Welcome to KZip..."
+msgstr "Tervetuloa KZip:n"
+
+#: kzip.cc:228
+msgid "Can't create archive of that type"
+msgstr "En voi luoda t‰m‰ntyyppist‰ pakettia"
+
+#: kzip.cc:249 kzip.cc:286 kzip.cc:294
+msgid "Create or open an archive first"
+msgstr "Luo tai avaa paketti ensin"
+
+#: kzip.cc:273
+msgid "Can't add directories with this archive type"
+msgstr "En voi lis‰t‰ hakemistoja t‰h‰n pakkaustyyppiin"
+
+#: kzip.cc:275
+msgid "Error saving to archive"
+msgstr "Virhe pakettiin tallennettaessa"
+
+#: kzip.cc:305
+msgid "Archive Dir:"
+msgstr "Paketin hakemisto:"
+
+#: kzip.cc:342 kzip.cc:534
+msgid "Unknown archive format"
+msgstr "Tuntematon pakkausformaatti"
+
+#: kzip.cc:378
+msgid "Archive Directory"
+msgstr "Paketin hakemisto"
