@@ -21,19 +21,22 @@
 
 #include "hexfile.h"
 #include <qfile.h> 
-#include <qwidget.h>
-#include <qfontmet.h> 
 #include <stdlib.h>
-#include <qpainter.h>
-#include <qpixmap.h>
-#include <qkeycode.h>
-#include <qmsgbox.h> 
+
 #include <kapp.h>
+#include <kdebug.h>
+#include <kstring.h>
 
 #include "hexdata.h"
 #include "hexfile.moc"
-#include <kstring.h>
+
 #include <qclipbrd.h> 
+#include <qfontmet.h> 
+#include <qkeycode.h>
+#include <qmsgbox.h> 
+#include <qpainter.h>
+#include <qpixmap.h>
+#include <qwidget.h>
 
 static QColor background(220,220,200); 
 static QColor selectColor(180,180,180);
@@ -280,7 +283,7 @@ void HexFile::keyPressEvent (QKeyEvent* e) {
 	    new_lineoffset +=16;
 	}
 	lineoffset = new_lineoffset;
-	debug("copy");
+	kdebug(KDEBUG_INFO, 1501, "copy");
 	QPixmap *pixmap = new QPixmap(datamap->size());
 	QPainter painter;
 	painter.begin(pixmap);
@@ -715,7 +718,7 @@ void HexFile::resizeEvent(QResizeEvent *) {
     scrollVWidth = scrollHHeight = 15;
     calcScrolls();
     rows = (height() - scrollHHeight) / lineHeight;
-    debug("ROWS %d",rows);
+    kdebug(KDEBUG_INFO, 1501, "ROWS %d",rows);
     QObject::connect(scrollV, SIGNAL(valueChanged(int)),
 		     SLOT(scrolled(int)));
     
