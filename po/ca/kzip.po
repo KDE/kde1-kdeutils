@@ -112,6 +112,3 @@ msgstr "No existeix el directori d'arxiu."
 #: kzip.cc:408
 msgid "Archive Directory"
 msgstr "Directori d'arxiu"
-
-#~ msgid "Files"
-#~ msgstr "Fitxers"
