@@ -275,8 +275,6 @@ void HexWidget::slotDropEvent( KDNDDropZone * _dropZone ) {
 int main(int argc, char **argv) {
   KApplication a(argc,argv,"khexdit");
   
-  HexWidget* pHexWidget;
-
   if (argc>1) {
     for (int i=1; i < argc; i++) {
       if (*argv[i] == '-')	/* ignore options */
