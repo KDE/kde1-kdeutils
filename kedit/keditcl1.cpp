@@ -1531,15 +1531,18 @@ int KEdit::saveFile(){
 
     if(exists_already){
       stat_ok = stat(filename.data(), &st);
-      backup_filename = filename;
-      backup_filename.detach();
-      backup_filename += '~';
+      if(make_backup_copies){
+        backup_filename = filename;
+        backup_filename.detach();
+        backup_filename += '~';
 
-      rename(filename.data(),backup_filename.data());
+        rename(filename.data(),backup_filename.data());
+      }
     }
 
     if( !file.open( IO_WriteOnly | IO_Truncate )) {
-      rename(backup_filename.data(),filename.data());
+      if(make_backup_copies)
+        rename(backup_filename.data(),filename.data());
       QMessageBox::warning(
 			   this,
 			   klocale->translate("Sorry"),

@@ -136,6 +136,7 @@ private:
     struct printinfo pi;
     bool fill_column_is_set;
     bool word_wrap_is_set;
+    bool backup_copies_is_set;
     int fill_column_value;
     QString mailcmd;
 

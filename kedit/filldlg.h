@@ -58,6 +58,7 @@ struct fill_struct{
   
   bool fill_column_is_set;
   bool word_wrap_is_set;
+  bool backup_copies_is_set;
   int  fill_column_value;
   QString mailcmd;
 };
@@ -84,6 +85,7 @@ private:
     QPushButton *ok, *cancel;
     QCheckBox *fill_column;
     QCheckBox *word_wrap;
+    QCheckBox *backup_copies;
     QGroupBox *frame1;
     void resizeEvent(QResizeEvent *);
 

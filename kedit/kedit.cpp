@@ -128,6 +128,7 @@ void TopLevel::setupEditWidget(){
 
   eframe->setFillColumnMode(fill_column_value,fill_column_is_set);
   eframe->setWordWrap(word_wrap_is_set);
+  eframe->saveBackupCopy(backup_copies_is_set);
   eframe->setFont(generalFont);
 
   connect(eframe, SIGNAL(fileChanged()), SLOT(setFileCaption()));
@@ -1149,6 +1150,7 @@ void TopLevel::fill_column_slot(){
     
   fillstr.fill_column_is_set  = fill_column_is_set;
   fillstr.word_wrap_is_set    = word_wrap_is_set;
+  fillstr.backup_copies_is_set= backup_copies_is_set;
   fillstr.fill_column_value   = fill_column_value;
   fillstr.mailcmd 	      = mailcmd.copy();
   
@@ -1161,6 +1163,9 @@ void TopLevel::fill_column_slot(){
     
     word_wrap_is_set = fillstr.word_wrap_is_set;;
     eframe->setWordWrap(word_wrap_is_set);
+
+    backup_copies_is_set = fillstr.backup_copies_is_set;
+    eframe->saveBackupCopy(backup_copies_is_set);
 
     fill_column_is_set = fillstr.fill_column_is_set;
     fill_column_value = fillstr.fill_column_value;;
@@ -1680,6 +1685,7 @@ void TopLevel::readSettings(){
 	backcolor = QColor(white);
 	fill_column_is_set = true;
 	word_wrap_is_set = true;
+	backup_copies_is_set = true;
 	fill_column_value = 79;
 	mailcmd = "mail -s \"%s\" \"%s\"";
 
@@ -1791,6 +1797,10 @@ void TopLevel::readSettings(){
 		if ( !str.isNull() )
 		  word_wrap_is_set = (bool) atoi(str.data());
 
+	str = config->readEntry("BackupCopies");
+		if ( !str.isNull() )
+		  backup_copies_is_set = (bool) atoi(str.data());
+
 	str = config->readEntry("FillColumn");
 		if ( !str.isNull() )
 		  fill_column_value = atoi(str.data());
@@ -1895,6 +1905,10 @@ void TopLevel::writeSettings(){
 	string="";
 	string.sprintf("%d", word_wrap_is_set );
 	config->writeEntry("WordWrap", string);
+
+	string="";
+	string.sprintf("%d", backup_copies_is_set);
+	config->writeEntry("BackupCopies", string);
 
 	string="";
 	string.sprintf("%d", fill_column_value );

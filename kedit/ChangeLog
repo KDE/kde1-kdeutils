@@ -1,3 +1,7 @@
+1998-10-12  Harri Porten  <porten@kde.org>
+
+	* added an option to turn on/off saving of backup copies
+
 Thu Jun 25 19:12:44 MEST 1998  Matthias Ettrich <ettrich@kde.org>
 
 	* Word wrap fixed
