@@ -74,9 +74,9 @@ msgid ""
 "details."
 msgstr ""
 "Por causa de glibc's estragadas, tive de reduzir a precisão do KCalc de "
-"'long double' para 'double'. Quem tiver sistemas com uma libc funcional "
-"deve recompilar KCalc com precisão 'long double' activada. Veja o README "
-"para mais detalhes."
+"'long double' para 'double'. Quem tiver sistemas com uma libc funcional deve "
+"recompilar KCalc com precisão 'long double' activada. Veja o README para "
+"mais detalhes."
 
 #: kcalc.cpp:1592
 msgid "Display Font"

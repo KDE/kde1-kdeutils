@@ -1,13 +1,10 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: kdeutils\n"
 "POT-Creation-Date: 1998-05-10 17:22+0200\n"
-"Content-Type: text/plain; charset=\n"
-"Date: 1997-10-09 11:06:57-0400\n"
-"From: Robert Palmbos <robertp@pbnjelly>\n"
-"Xgettext-Options: --keyword=translate -C\n"
-"Files: adddlg.cc ar.cc arch.cc extractdlg.cc karch.cc kfdird.cc "
-"ktablistbox.cc kzip.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h "
-"extractdlg.h karch.h kfdird.h ktablistbox.h kzip.h lha.h tar.h text.h zip.h\n"
+"PO-Revision-Date: 1998-05-11 21:59+0200\n"
+"Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
+"First-Translator: Robert Palmbos <robertp@pbnjelly>\n"
 
 #: adddlg.cc:11
 msgid "Add File Options"
@@ -67,7 +64,7 @@ msgstr "S&eleccionar directorio de ficheros..."
 
 #: kzip.cc:81
 msgid "Set &Tar Executable..."
-msgstr ""
+msgstr "Configurar ejecutable tar..."
 
 #: kzip.cc:82
 msgid "&File Adding Options..."
@@ -87,7 +84,7 @@ msgstr "Crear o abrir un archivo primero"
 
 #: kzip.cc:300
 msgid "Can't add directories with this archive type"
-msgstr ""
+msgstr "No se pueden añadir directorios con este tipo de archivo"
 
 #: kzip.cc:302
 msgid "Error saving to archive"
@@ -99,88 +96,16 @@ msgstr "Directiorio de archivos:"
 
 #: kzip.cc:329
 msgid "What runs GNU tar:"
-msgstr ""
+msgstr "Uso de GNU tar:"
 
 #: kzip.cc:366 kzip.cc:568
 msgid "Unknown archive format"
 msgstr "Formato de archivo desconocido"
 
 #: kzip.cc:392
-#, fuzzy
 msgid "Archive directory does not exist."
-msgstr "Directorio de archivos"
+msgstr "Directorio de archivos no existe."
 
 #: kzip.cc:408
 msgid "Archive Directory"
 msgstr "Directorio de archivos"
-
-#, fuzzy
-#~ msgid "&New..."
-#~ msgstr "&Nuevo"
-
-#~ msgid "&Delete"
-#~ msgstr "&Suprimir"
-
-#~ msgid "Browse..."
-#~ msgstr "Examinar..."
-
-#~ msgid "&Open..."
-#~ msgstr "&Abrir"
-
-#~ msgid "&View"
-#~ msgstr "&Ver"
-
-#~ msgid "Ok"
-#~ msgstr "Continuar"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancelar"
-
-#~ msgid "&Close"
-#~ msgstr "&Cerrar"
-
-#~ msgid "E&xit"
-#~ msgstr "&Salir"
-
-#~ msgid "&Help..."
-#~ msgstr "A&yuda"
-
-#~ msgid "&About..."
-#~ msgstr "&Acerca de..."
-
-#~ msgid "&File"
-#~ msgstr "&Fichero"
-
-#~ msgid "&Edit"
-#~ msgstr "&Editar"
-
-#~ msgid "&Options"
-#~ msgstr "&Opciones"
-
-#~ msgid "&Help"
-#~ msgstr "A&yuda"
-
-#~ msgid "None"
-#~ msgstr "Ninguno"
-
-#~ msgid "Open With: (program)"
-#~ msgstr "Abrir con: (programa)"
-
-#~ msgid "Permissions\tOwner/Group\tSize      \tTimeStamp         \tName\t"
-#~ msgstr "Permisos\tPropietario/Grupo\tTamaño      \tFecha         \tNombre\t"
-
-#~ msgid ""
-#~ "Permsissions\tOwner/Group\tPacked      \tSize         "
-#~ "\tRatio\tCRC\tTimeStamp     \tName\t"
-#~ msgstr ""
-#~ "Permisos\tPropietario/Grupo\tComprimido      \tTamaño         "
-#~ "\tTasa\tCRC\tFecha     \tNombre\t"
-
-#~ msgid "Permissions\tOwner/Group\tSize        \tTimeStamp\tName\t"
-#~ msgstr "Permisos\tPropietario/Grupo\tTamaño        \tFecha\tNombre\t"
-
-#~ msgid ""
-#~ "Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
-#~ msgstr ""
-#~ "Tamaño     \tMétodo\tTamaño         \tTasa\tFecha     "
-#~ "\tHora\tCRC-32\tNombre\t"

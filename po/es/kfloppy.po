@@ -1,27 +1,14 @@
-# Kfloppy.pot translate file to SPANISH.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, <root@petit.cornell.edu>
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: kdeutils\n"
 "POT-Creation-Date: 1998-05-10 17:22+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Jorge Valencia <jorgev@est.unileon.es>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=\n"
-"Content-Transfer-Encoding: ENCODING\n"
-"Date: 1998-03-06 22:13:59-0500\n"
-"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
-"<root@petit.cornell.edu>\n"
-"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
-"Files: about.cpp floppy.cpp main.cpp\n"
+"PO-Revision-Date: 1998-05-11 21:45+0200\n"
+"Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
+"First-Translator: Jorge Valencia <jorgev@est.unileon.es>\n"
 
 #: about.cpp:40
 msgid "About KDE Floppy Formater"
-msgstr "Acerca del Formateador de Dicos de KDE"
+msgstr "Acerca del formateador de discos de KDE"
 
 #: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368
 #: floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721
@@ -35,7 +22,7 @@ msgstr "Versión "
 
 #: floppy.cpp:56
 msgid "Floppy Drive:"
-msgstr "Unidad de Disco:"
+msgstr "Unidad de disco:"
 
 #: floppy.cpp:65
 msgid "Density:"
@@ -43,7 +30,7 @@ msgstr "Densidad:"
 
 #: floppy.cpp:74
 msgid "File System:"
-msgstr "Sistema de Archivos:"
+msgstr "Sistema de archivos:"
 
 #: floppy.cpp:108 floppy.cpp:408
 msgid "Format"
@@ -51,24 +38,23 @@ msgstr "Formatear"
 
 #: floppy.cpp:131
 msgid "Quick Erase"
-msgstr "Borrado Rápido"
+msgstr "Borrado rápido"
 
 #: floppy.cpp:136
 msgid "Full Format"
-msgstr "Formateo Completo"
+msgstr "Formateo completo"
 
 #: floppy.cpp:142
 msgid "Create Label:"
-msgstr "Poner Etiqueta:"
+msgstr "Poner etiqueta:"
 
 #: floppy.cpp:148
-#, fuzzy
 msgid "KDE FLoppy"
 msgstr "KDE Floppy"
 
 #: floppy.cpp:162
 msgid "KDE Floppy Formater"
-msgstr "Formateador de Dicos de KDE"
+msgstr "Formateador de discos de KDE"
 
 #: floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267
 msgid "HD"
@@ -81,9 +67,9 @@ msgid ""
 "Make sure that the device exists and that\n"
 "you have write permission to it."
 msgstr ""
-"No se puede tener acceso a %s\n"
-"Cerciorese de que el dispositivo existe,\n"
-"y de que tiene permiso de escritura sobre él."
+"No se pudo accesar %s\n"
+"Cerciórese de que el dispositivo existe\n"
+"y que tiene permiso de escritura sobre él."
 
 #: floppy.cpp:333
 msgid ""
@@ -121,7 +107,7 @@ msgstr "Cancelar"
 
 #: floppy.cpp:472
 msgid "Cannot start a new program: fork() failed."
-msgstr "No se puede empezar un nuevo programa: bifurcación() falló."
+msgstr "No se puede empezar un nuevo programa: fork() falló."
 
 #: floppy.cpp:572 floppy.cpp:700
 msgid ""
@@ -131,7 +117,7 @@ msgid ""
 msgstr ""
 "No se puede acceder al disco o a la unidad de disco\n"
 "Por favor, inserte un disco y este seguro de haber\n"
-"seleccionado una unidad de disco flexible valida.\n"
+"seleccionado una unidad de disco flexible válida.\n"
 
 #: floppy.cpp:587
 #, c-format
@@ -173,7 +159,7 @@ msgstr "Todos los archivos han sido borrados con exito."
 
 #: floppy.cpp:832
 msgid "Creating Filesystem ..."
-msgstr "Creando Sistema de Archivos"
+msgstr "Creando sistema de archivos..."
 
 #: floppy.cpp:836
 msgid "Verifying ..."
@@ -185,11 +171,11 @@ msgid ""
 "fork() failed."
 msgstr ""
 "No se puede arrancar un nuevo programa\n"
-"bifurcación() falló."
+"fork() falló."
 
 #: floppy.cpp:907
 msgid "Error while trying to determine whether floppy is mounted\n"
-msgstr "Error mientras se intentaba determinar si el disco estaba montado\n"
+msgstr "Error mientras se intentaba determinar si el disco esta montado\n"
 
 #: floppy.cpp:924
 #, c-format

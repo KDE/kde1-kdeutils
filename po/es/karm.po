@@ -1,23 +1,14 @@
-# Karm.pot translate file to SPANISH.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# Sirtaj Singh Kang <taj@kde.org> , Oct 1997.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: kdeutils\n"
 "POT-Creation-Date: 1998-01-28 09:54+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Santiago Fernández and Jorge "
-"Valencia<jorgev@est.unileon.es>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"PO-Revision-Date: 1998-05-11 21:25+0200\n"
+"First-Translator: Santiago Fernández and Jorge ValenciaFirst-Translator: "
+"<jorgev@est.unileon.es>\n"
 
 #: adddata.cpp:38
 msgid "Task Name"
-msgstr "Nombre de Tarea"
+msgstr "Nombre de tarea"
 
 #: adddata.cpp:44
 msgid "Accumutated time (in minutes)"
@@ -25,7 +16,7 @@ msgstr "Tiempo acumulado (en minutos)"
 
 #: adddlg.cpp:26
 msgid "KArm: New Task"
-msgstr "KArm: Nueva Tarea"
+msgstr "KArm: Nueva tarea"
 
 #: karm.cpp:116
 msgid "Karm: Save error"
@@ -36,7 +27,7 @@ msgid ""
 "There was an error trying to save your data file.\n"
 "Time accumulated this session will NOT be saved!\n"
 msgstr ""
-"Hubo un error intentando grabar tu archivo de datos.\n"
+"Hubo un error al guardar su archivo de datos.\n"
 "¡El tiempo acumulado de esta sesión NO será grabado!\n"
 
 #: karm.cpp:119
@@ -45,15 +36,15 @@ msgstr "¡Oh No!"
 
 #: karm.cpp:205
 msgid ": Add New Task"
-msgstr "Añadir Nueva Tarea"
+msgstr "Añadir nueva tarea"
 
 #: karm.cpp:216
 msgid "Karm::createNewTask called and there's no dialog!"
-msgstr "Karm::createNewTask llamada y sin diálogo!"
+msgstr "Karm::createNewTask fue llamada y ho hay diálogo!"
 
 #: karm.cpp:243
 msgid ": Edit Task Entry"
-msgstr ": Editar Entrada de Tarea"
+msgstr ": Editar Entrada de tarea"
 
 #: karm.cpp:256
 msgid "Karm::updateExistingTask called and there's no dlg!"
@@ -61,11 +52,11 @@ msgstr "Karm::updateExistingTask llamada y sin dlg!"
 
 #: karm.cpp:280
 msgid ": Deleting Task"
-msgstr ": Eliminando Tarea"
+msgstr ": Eliminando tarea"
 
 #: karm.cpp:281
 msgid "Are you sure you want to delete this task?"
-msgstr "¿Estas seguro de querer borrar esta tarea?"
+msgstr "¿Está seguro de querer borrar esta tarea?"
 
 #: karm.cpp:283
 msgid "&Yes"
@@ -101,27 +92,27 @@ msgstr "&Contenidos"
 
 #: top.cpp:85
 msgid "Start Clock"
-msgstr "Iniciar Reloj"
+msgstr "Iniciar reloj"
 
 #: top.cpp:90
 msgid "Stop Clock"
-msgstr "Parar Reloj"
+msgstr "Parar reloj"
 
 #: top.cpp:97
 msgid "New Task"
-msgstr "Nueva Tarea"
+msgstr "Nueva tarea"
 
 #: top.cpp:102
 msgid "Delete Task"
-msgstr "Eliminar Tarea"
+msgstr "Eliminar tarea"
 
 #: top.cpp:107
 msgid "Edit Task"
-msgstr "Editar Tarea"
+msgstr "Editar tarea"
 
 #: top.cpp:145
 msgid "About "
-msgstr "Acerca de"
+msgstr "Acerca de "
 
 #: top.cpp:146
 msgid ""

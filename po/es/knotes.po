@@ -1,26 +1,26 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: knotes\n"
+"Project-Id-Version: kdeutils\n"
 "POT-Creation-Date: 1998-05-10 21:43+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Ismael Ripoll <iripoll@disca.upv.es>\n"
+"PO-Revision-Date: 1998-05-11 21:52+0200\n"
+"Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
 #: alarm.cpp:58
 #, c-format
 msgid "Alarm Timer for: %s"
-msgstr ""
+msgstr "Contador de alarma para: %s"
 
 #: alarm.cpp:72
 msgid "Unset"
-msgstr ""
+msgstr "Desactivar"
 
 #: alarm.cpp:74
 msgid "Set"
-msgstr ""
+msgstr "Activar"
 
 #: alarm.cpp:153
 msgid "I am afraid you already missed your appointment."
-msgstr "Me temo que ya ha pasado tu cita"
+msgstr "Me temo que ya ha pasado su cita."
 
 #: bwdatetime.cpp:44
 msgid "Day:"
@@ -56,7 +56,7 @@ msgstr "Color del fondo:"
 
 #: configdlg.cpp:83
 msgid "Width:"
-msgstr "Anchura:"
+msgstr "Ancho:"
 
 #: configdlg.cpp:93
 msgid "Height:"
@@ -79,16 +79,14 @@ msgid "Auto Indent"
 msgstr "Indentado automático"
 
 #: docking.cpp:71
-#, fuzzy
 msgid "Change Defaults"
-msgstr "Modificar Opciones..."
+msgstr "Modificar Opciones"
 
 #: docking.cpp:76
 msgid "Exit Knotes"
-msgstr ""
+msgstr "Editar KNotes"
 
 #: docking.cpp:95
-#, fuzzy
 msgid "New Knote"
 msgstr "Nueva nota"
 
@@ -98,7 +96,7 @@ msgstr "Seleccionar fuente por defecto"
 
 #: fontdlg.cpp:64
 msgid "Point Size:"
-msgstr "Tamño del punto:"
+msgstr "Tamño de punto:"
 
 #: knotes.cpp:298
 msgid "Text Color..."
@@ -130,7 +128,7 @@ msgstr "Calendario"
 
 #: knotes.cpp:316
 msgid "Mail Note ..."
-msgstr "Nota por corrreo..."
+msgstr "Nota por correo..."
 
 #: knotes.cpp:318
 msgid "Print Note"
@@ -174,7 +172,7 @@ msgid ""
 "Could not save a KNote.\n"
 "Quit anyways?"
 msgstr ""
-"No se ha podido guarda KNote.\n"
+"No se ha podido guardar la nota.\n"
 "¿Salir de todas formas?"
 
 #: knotes.cpp:507
@@ -195,8 +193,8 @@ msgid ""
 "You have exeeded the arbitrary and unjustly set limit of 50 knotes.\n"
 " Please complain to the author."
 msgstr ""
-"Has excedido el arbitrario e injustificable límite de 50 kntes.\n"
-" Si te apetece, puedes quejarte al autor."
+"Ha excedido el arbitrario e injustificable límite de 50 kntes.\n"
+" Quéjese con el autor."
 
 #: knotes.cpp:884
 msgid "Question"
@@ -274,21 +272,20 @@ msgid "Inconsistency"
 msgstr "Inconsistencia"
 
 #: mail.cpp:40
-#, fuzzy
 msgid "Mail Note to:"
-msgstr "Nota por corrreo..."
+msgstr "Mandar nota a:"
 
 #: mail.cpp:49
 msgid "Subject:"
-msgstr ""
+msgstr "Tema:"
 
 #: mail.cpp:51
 msgid "Mail"
-msgstr ""
+msgstr "Correo"
 
 #: mail.cpp:92
 msgid "You must specify a Recipient"
-msgstr ""
+msgstr "Debe especificar un destinatario"
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
@@ -313,6 +310,3 @@ msgid ""
 msgstr ""
 "Ya existe una nota con este mismo nombre\n"
 "Por favor, elige un nombre distinto"
-
-#~ msgid "Hide Note"
-#~ msgstr "Ocultar nota"

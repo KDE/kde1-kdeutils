@@ -1,18 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: kdeutils\n"
 "POT-Creation-Date: 1998-01-25 13:24+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"PO-Revision-Date: 1998-05-11 21:37+0200\n"
+"Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
 #: kedit.cpp:83 kedit.cpp:1019
 msgid "Show &Tool Bar"
@@ -31,9 +22,8 @@ msgid "Hide &Status Bar"
 msgstr "Ocultar barra de &Estado"
 
 #: kedit.cpp:152
-#, fuzzy
 msgid "Select All"
-msgstr "Reemplazar todas"
+msgstr "Seleccionar todo"
 
 #: kedit.cpp:183
 msgid "&About..."
@@ -44,9 +34,8 @@ msgid "Ne&w..."
 msgstr "&Nuevo..."
 
 #: kedit.cpp:192
-#, fuzzy
 msgid "Open Recen&t..."
-msgstr "Abrir &URL..."
+msgstr "Abrir &Reciente..."
 
 #: kedit.cpp:204
 msgid "Open &URL..."
@@ -65,12 +54,10 @@ msgid "New &Window"
 msgstr "Nueva &ventana"
 
 #: kedit.cpp:228
-#, fuzzy
 msgid "&Select All"
-msgstr "Reemplazar todas"
+msgstr "Marcar todo"
 
 #: kedit.cpp:231
-#, fuzzy
 msgid "&Insert File"
 msgstr "&Insertar fichero"
 
@@ -103,9 +90,8 @@ msgid "Colors"
 msgstr "Colores"
 
 #: kedit.cpp:251
-#, fuzzy
 msgid "KEdit &Options..."
-msgstr "&Otras opciones..."
+msgstr "&Opciones KEdit..."
 
 #: kedit.cpp:253
 msgid "Auto &Indent"
@@ -182,13 +168,12 @@ msgstr ""
 "¿Salir igualmente?"
 
 #: kedit.cpp:667
-#, fuzzy
 msgid ""
 "The current document has been modified.\n"
 "Continue anyways ?"
 msgstr ""
-"El documento actual se ha modificado.\n"
-"¿Desea guardarlo?"
+"El documento actual ha sido modificado.\n"
+"¿Continuar de todos modos?"
 
 #: kedit.cpp:808
 #, c-format
@@ -237,13 +222,12 @@ msgstr ""
 "imprimir este documento?"
 
 #: kedit.cpp:1142
-#, fuzzy
 msgid ""
 "Could not save the file.\n"
 "Print anyways?"
 msgstr ""
 "Imposible guardar el fichero.\n"
-"¿Salir de todas maneras?"
+"¿Imprimir de todas maneras?"
 
 #: kedit.cpp:1235
 #, c-format
@@ -295,6 +279,8 @@ msgid ""
 "Malformed URL\n"
 "%s"
 msgstr ""
+"URL inválida\n"
+"%s"
 
 #: kedit.cpp:1430
 #, c-format
@@ -340,6 +326,8 @@ msgid ""
 "Can not create:\n"
 "%s"
 msgstr ""
+"No se pudo crear:\n"
+"%s"
 
 #: print.cpp:66
 msgid "Print Dialog"
@@ -358,9 +346,8 @@ msgid "Print Selection"
 msgstr "Selección de impresión"
 
 #: filldlg.cpp:31
-#, fuzzy
 msgid "KEdit Options"
-msgstr "&Opciones"
+msgstr "&Opciones KEdit"
 
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"
@@ -393,206 +380,3 @@ msgstr "Correo"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Debe especificar un destinatario"
-
-#~ msgid "The specified File does not exist"
-#~ msgstr "El fichero especificado no existe"
-
-#~ msgid "Sorry:"
-#~ msgstr "Disculpe:"
-
-#~ msgid "You have specificated a directory"
-#~ msgstr "Ha especificado un directorio"
-
-#~ msgid "You do not have read permission to this file."
-#~ msgstr "No tiene permiso para leer este fichero"
-
-#~ msgid "An Error occured while trying to open this Document"
-#~ msgstr "Un error ocurrió mientras se intentaba abrir este documento"
-
-#~ msgid "Select Document to Insert"
-#~ msgstr "Seleccionar documento a insertar"
-
-#~ msgid "Warning:"
-#~ msgstr "Aviso:"
-
-#~ msgid ""
-#~ "The current Document has been modified.\n"
-#~ "Would you like to save it?"
-#~ msgstr ""
-#~ "El documento actual se ha modificado.\n"
-#~ "¿Desea guardarlo?"
-
-#, fuzzy
-#~ msgid ""
-#~ "Could not save the document.\n"
-#~ "Open a new document anyways?"
-#~ msgstr ""
-#~ "Imposible guardar el fichero.\n"
-#~ "¿Salir de todas maneras?"
-
-#~ msgid "Select Document to Open"
-#~ msgstr "Seleccionar documento a abrir"
-
-#, fuzzy
-#~ msgid ""
-#~ "Could not save the document.\n"
-#~ "Create a new document anyways?"
-#~ msgstr ""
-#~ "Imposible guardar el fichero.\n"
-#~ "¿Salir de todas maneras?"
-
-#~ msgid "Could not save the document\n"
-#~ msgstr "Imposible guardar el documento\n"
-
-#~ msgid "Save Document As"
-#~ msgstr "Guardar documento como"
-
-#~ msgid ""
-#~ "A Document with this Name exists already\n"
-#~ "Do you want to overwrite it ?"
-#~ msgstr ""
-#~ "Un documento con este nombre ya existe\n"
-#~ "¿Desea sobreescribirlo?"
-
-#, fuzzy
-#~ msgid "You do not have write permission to this file.\n"
-#~ msgstr "No tiene permiso para escribir en este fichero.\n"
-
-#~ msgid "Find"
-#~ msgstr "Buscar"
-
-#~ msgid ""
-#~ "End of document reached.\n"
-#~ "Continue from the beginning?"
-#~ msgstr ""
-#~ "Se alcanzó el final del documento.\n"
-#~ "¿Continuar desde el principio?"
-
-#~ msgid ""
-#~ "Beginning of document reached.\n"
-#~ "Continue from the end?"
-#~ msgstr ""
-#~ "Se alcanzó el principio del documento.\n"
-#~ "¿Continuar desde el final?"
-
-#~ msgid "Replace"
-#~ msgstr "Reemplazar"
-
-#~ msgid "Case Sensitive"
-#~ msgstr "Distinguir may/mín"
-
-#~ msgid "Find Backwards"
-#~ msgstr "Buscar hacia atrás"
-
-#~ msgid "Find:"
-#~ msgstr "Buscar:"
-
-#~ msgid "Replace with:"
-#~ msgstr "Reemplazar con:"
-
-#~ msgid "Replace All"
-#~ msgstr "Reemplazar todas"
-
-#~ msgid "Goto Line"
-#~ msgstr "Ir a línea"
-
-#~ msgid "Go"
-#~ msgstr "Ir"
-
-#~ msgid "&Open..."
-#~ msgstr "&Abrir..."
-
-#~ msgid "Open..."
-#~ msgstr "Abrir..."
-
-#~ msgid "Save as..."
-#~ msgstr "Guardar como..."
-
-#~ msgid "Copy"
-#~ msgstr "Copiar"
-
-#~ msgid "Paste"
-#~ msgstr "Pegar"
-
-#~ msgid "Cut"
-#~ msgstr "Cortar"
-
-#, fuzzy
-#~ msgid "Font"
-#~ msgstr "&Fuente"
-
-#~ msgid "&Foreground Color"
-#~ msgstr "Color de &primer plano"
-
-#~ msgid "&Background Color"
-#~ msgstr "Color de fondo"
-
-#~ msgid "&Help"
-#~ msgstr "A&yuda"
-
-#~ msgid "&Save"
-#~ msgstr "&Guardar"
-
-#~ msgid "S&ave as..."
-#~ msgstr "Guardar c&omo..."
-
-#~ msgid "&Close"
-#~ msgstr "&Cerrar"
-
-#~ msgid "&Print..."
-#~ msgstr "Im&primir..."
-
-#~ msgid "E&xit"
-#~ msgstr "&Salir"
-
-#~ msgid "&Copy"
-#~ msgstr "&Copiar"
-
-#~ msgid "&Paste"
-#~ msgstr "&Pegar"
-
-#~ msgid "C&ut"
-#~ msgstr "C&ortar"
-
-#~ msgid "&File"
-#~ msgstr "&Fichero"
-
-#~ msgid "&Edit"
-#~ msgstr "&Editar"
-
-#~ msgid "&Options"
-#~ msgstr "&Opciones"
-
-#~ msgid "Done"
-#~ msgstr "Listo"
-
-#~ msgid "Sorry"
-#~ msgstr "Disculpe"
-
-#~ msgid "Could not Save the Changes\n"
-#~ msgstr "Imposible guardar los Cambios\n"
-
-#~ msgid "Saved: %s"
-#~ msgstr "Guardado: %s"
-
-#~ msgid "Saved"
-#~ msgstr "Guardado..."
-
-#~ msgid "Load file:"
-#~ msgstr "Recuperar fichero:"
-
-#~ msgid ""
-#~ "You have do not have Permission to \n"
-#~ "read this Document"
-#~ msgstr ""
-#~ "No tiene persmiso para \n"
-#~ "leer este documento"
-
-#~ msgid "Could not Save the Document"
-#~ msgstr "Imposible salvar el documento"
-
-#~ msgid "Miscellaneous Options"
-#~ msgstr "Otras opciones"
-
-#~ msgid "About KEdit"
-#~ msgstr "Acerca de KEdit"
