@@ -1,18 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1998-01-25 13:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
 #: hexdata.cpp:33
 #, c-format
@@ -21,17 +12,15 @@ msgstr "Erro na abertura de %s"
 
 #: hexwidget.cpp:79
 msgid "Save &As..."
-msgstr ""
+msgstr "Gravar &Como..."
 
 #: hexwidget.cpp:90
-#, fuzzy
 msgid "&Toggle Toolbar"
-msgstr "Esconder/Mostrar Barra de Ferramentas"
+msgstr "&Esconder/Mostrar Barra de Ferramentas"
 
 #: hexwidget.cpp:93
-#, fuzzy
 msgid "Hex Editor"
-msgstr "Acerca do Hex Editor"
+msgstr "Editor Hexadecimal"
 
 #: hexwidget.cpp:93
 msgid ""
@@ -39,6 +28,9 @@ msgid ""
 "\n"
 "by Stephan Kulow"
 msgstr ""
+"\n"
+"\n"
+"por Stephan Kulow"
 
 #: hexwidget.cpp:115
 msgid "New Window"
@@ -53,24 +45,20 @@ msgid "Not implemented"
 msgstr "Não implementado"
 
 #: hexwidget.cpp:158
-#, fuzzy
 msgid ""
 "The current file has been modified.\n"
 "Do you want to save it?"
 msgstr ""
 "O ficheiro actual foi modificado.\n"
-"\n"
-"Deseja grava-lo ?"
+"Deseja grava-lo?"
 
 #: hexwidget.cpp:184
-#, fuzzy
 msgid ""
 "The current file has been modified.\n"
 "Discard your changes?"
 msgstr ""
 "O ficheiro actual foi modificado.\n"
-"\n"
-"Deseja grava-lo ?"
+"Perder alterações ?"
 
 #: hexwidget.cpp:265
 msgid ""
@@ -89,35 +77,3 @@ msgstr ""
 #: hexwidget.cpp:273
 msgid "Could not start KFM"
 msgstr "Não foi possivel iniciar o KFM"
-
-#, fuzzy
-#~ msgid "&New Window..."
-#~ msgstr "Nova Janela"
-
-#~ msgid "&View"
-#~ msgstr "&Ver"
-
-#, fuzzy
-#~ msgid ""
-#~ "Hex Editor 0.5 \n"
-#~ "\n"
-#~ "by Stephan Kulow  (coolo@itm.mu-luebeck.de)"
-#~ msgstr ""
-#~ "Hex Editor 0.4 \n"
-#~ "\n"
-#~ "por Stephan Kulow (coolo@itm.mu-luebeck.de)"
-
-#~ msgid "&File"
-#~ msgstr "&Ficheiro"
-
-#~ msgid "&Help"
-#~ msgstr "&Ajuda"
-
-#~ msgid "File changed"
-#~ msgstr "Ficheiro modificado"
-
-#~ msgid "Discard your changes?"
-#~ msgstr "Discartar as alteracões?"
-
-#~ msgid "Ok"
-#~ msgstr "Ok"

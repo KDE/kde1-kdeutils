@@ -1,18 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: kedit\n"
 "POT-Creation-Date: 1998-01-25 13:24+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"PO-Revision-Date: 1998-01-26 20:00+0000\n"
+"Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
 #: kedit.cpp:83 kedit.cpp:1019
 msgid "Show &Tool Bar"
@@ -31,9 +22,8 @@ msgid "Hide &Status Bar"
 msgstr "Esconder Barra de &Status"
 
 #: kedit.cpp:152
-#, fuzzy
 msgid "Select All"
-msgstr "Substituir Todos"
+msgstr "Seleccionar Tudo"
 
 #: kedit.cpp:183
 msgid "&About..."
@@ -44,9 +34,8 @@ msgid "Ne&w..."
 msgstr "No&vo"
 
 #: kedit.cpp:192
-#, fuzzy
 msgid "Open Recen&t..."
-msgstr "Abrir &URL"
+msgstr "Abrir Recen&te..."
 
 #: kedit.cpp:204
 msgid "Open &URL..."
@@ -58,21 +47,19 @@ msgstr "Gravar para U&RL..."
 
 #: kedit.cpp:212
 msgid "&Mail..."
-msgstr "&Mail..."
+msgstr "&Correio..."
 
 #: kedit.cpp:216
 msgid "New &Window"
 msgstr "Nova &Janela"
 
 #: kedit.cpp:228
-#, fuzzy
 msgid "&Select All"
-msgstr "Substituir Todos"
+msgstr "&Seleccionar Tudo"
 
 #: kedit.cpp:231
-#, fuzzy
 msgid "&Insert File"
-msgstr "Inserir &Ficheiro"
+msgstr "&Inserir Ficheiro"
 
 #: kedit.cpp:233
 msgid "Insert &Date"
@@ -103,9 +90,8 @@ msgid "Colors"
 msgstr "Cores"
 
 #: kedit.cpp:251
-#, fuzzy
 msgid "KEdit &Options..."
-msgstr "Opções Diversas..."
+msgstr "&Opções do KEdit..."
 
 #: kedit.cpp:253
 msgid "Auto &Indent"
@@ -177,18 +163,17 @@ msgid ""
 "If you exit now, you will loose those changes\n"
 "Quit anyways?"
 msgstr ""
-"Existem janelas cujo conteudo foi modificado.\n"
-"Se sair agor, irá perder estas mudanças\n"
+"Existem janelas cujo conteúdo foi modificado.\n"
+"Se sair agora, irá perder estas mudanças\n"
 "Sair mesmo assim?"
 
 #: kedit.cpp:667
-#, fuzzy
 msgid ""
 "The current document has been modified.\n"
 "Continue anyways ?"
 msgstr ""
 "O Documento actual foi modificado.\n"
-"Deseja grava-lo?"
+"Continuar de qualquer modo ?"
 
 #: kedit.cpp:808
 #, c-format
@@ -237,13 +222,12 @@ msgstr ""
 "de imprimir este Documento?"
 
 #: kedit.cpp:1142
-#, fuzzy
 msgid ""
 "Could not save the file.\n"
 "Print anyways?"
 msgstr ""
 "Não foi possivel gravar o ficheiro.\n"
-"Sair mesmo assim?"
+"Imprimir de qualquer modo?"
 
 #: kedit.cpp:1235
 #, c-format
@@ -295,6 +279,8 @@ msgid ""
 "Malformed URL\n"
 "%s"
 msgstr ""
+"URL Inválida\n"
+"%s"
 
 #: kedit.cpp:1430
 #, c-format
@@ -315,7 +301,7 @@ msgstr "Ligado"
 
 #: kedit.cpp:1478
 msgid "Waiting..."
-msgstr "Á Espera..."
+msgstr "À Espera..."
 
 #: kedit.cpp:1486
 #, c-format
@@ -340,10 +326,12 @@ msgid ""
 "Can not create:\n"
 "%s"
 msgstr ""
+"Não consegui criar:\n"
+"%s"
 
 #: print.cpp:66
 msgid "Print Dialog"
-msgstr "Imprimir Dialogo"
+msgstr "Diálogo de Impressão"
 
 #: print.cpp:70
 msgid "Print directly using lpr"
@@ -358,9 +346,8 @@ msgid "Print Selection"
 msgstr "Imprimir Selecção"
 
 #: filldlg.cpp:31
-#, fuzzy
 msgid "KEdit Options"
-msgstr "&Opções"
+msgstr "Opções do KEdit"
 
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"
@@ -368,11 +355,11 @@ msgstr "Estabelecer Coluna para Encher em:"
 
 #: filldlg.cpp:40
 msgid "Word Warp"
-msgstr ""
+msgstr "Mudança de Linha"
 
 #: filldlg.cpp:44
 msgid "Mail Command:"
-msgstr "Comando de Mail:"
+msgstr "Comando de Correio:"
 
 #: filldlg.cpp:135
 msgid "You must enter an integer."
@@ -388,208 +375,8 @@ msgstr "Assunto:"
 
 #: mail.cpp:57
 msgid "Mail"
-msgstr ""
+msgstr "Correio"
 
 #: mail.cpp:96
 msgid "You must specify a Recipient"
-msgstr "Tem que especificar um Receptor"
-
-#~ msgid "The specified File does not exist"
-#~ msgstr "O ficheiro especificado não existe"
-
-#~ msgid "Sorry:"
-#~ msgstr "Lamento:"
-
-#~ msgid "You have specificated a directory"
-#~ msgstr "Especificou uma directoria"
-
-#~ msgid "You do not have read permission to this file."
-#~ msgstr "Não tem permissões de leitura para este ficheiro."
-
-#~ msgid "An Error occured while trying to open this Document"
-#~ msgstr "Ocorreu um Erro ao tentar abrir este Documento"
-
-#~ msgid "Select Document to Insert"
-#~ msgstr "Seleccione o Documento a Inserir"
-
-#~ msgid "Warning:"
-#~ msgstr "Aviso:"
-
-#~ msgid ""
-#~ "The current Document has been modified.\n"
-#~ "Would you like to save it?"
-#~ msgstr ""
-#~ "O Documento actual foi modificado.\n"
-#~ "Deseja grava-lo?"
-
-#, fuzzy
-#~ msgid ""
-#~ "Could not save the document.\n"
-#~ "Open a new document anyways?"
-#~ msgstr ""
-#~ "Não foi possivel gravar o ficheiro.\n"
-#~ "Sair mesmo assim?"
-
-#~ msgid "Select Document to Open"
-#~ msgstr "Seleccione o Documento para Abrir"
-
-#, fuzzy
-#~ msgid ""
-#~ "Could not save the document.\n"
-#~ "Create a new document anyways?"
-#~ msgstr ""
-#~ "Não foi possivel gravar o ficheiro.\n"
-#~ "Sair mesmo assim?"
-
-#~ msgid "Could not save the document\n"
-#~ msgstr "Não foi possivel gravar o Documento\n"
-
-#~ msgid "Save Document As"
-#~ msgstr "Gravar Documento Como"
-
-#~ msgid ""
-#~ "A Document with this Name exists already\n"
-#~ "Do you want to overwrite it ?"
-#~ msgstr ""
-#~ "Já existe um Documento com este Nome\n"
-#~ "Deseja escrever por cima ?"
-
-#, fuzzy
-#~ msgid "You do not have write permission to this file.\n"
-#~ msgstr "Não tem permissões para escrever para este ficheiro.\n"
-
-#~ msgid "Find"
-#~ msgstr "Encontrar"
-
-#~ msgid ""
-#~ "End of document reached.\n"
-#~ "Continue from the beginning?"
-#~ msgstr ""
-#~ "Fim do documento atingido.\n"
-#~ "Continuar desde o inicio?"
-
-#~ msgid ""
-#~ "Beginning of document reached.\n"
-#~ "Continue from the end?"
-#~ msgstr ""
-#~ "Inicio do documento atingido.\n"
-#~ "Continuar desde o fim?"
-
-#~ msgid "Replace"
-#~ msgstr "Substituir"
-
-#~ msgid "Case Sensitive"
-#~ msgstr "Sensivel a Maiusculas/Minusculas"
-
-#~ msgid "Find Backwards"
-#~ msgstr "Encontrar para tras"
-
-#~ msgid "Find:"
-#~ msgstr "Encontrar"
-
-#~ msgid "Replace with:"
-#~ msgstr "Subsitituir com:"
-
-#~ msgid "Replace All"
-#~ msgstr "Substituir Todos"
-
-#~ msgid "Goto Line"
-#~ msgstr "Ir Para Linha"
-
-#~ msgid "Go"
-#~ msgstr "Ir"
-
-#~ msgid "&Open..."
-#~ msgstr "&Abrir..."
-
-#~ msgid "Open..."
-#~ msgstr "Abrir..."
-
-#~ msgid "Save as..."
-#~ msgstr "Gravar como..."
-
-#~ msgid "Copy"
-#~ msgstr "Copiar"
-
-#~ msgid "Paste"
-#~ msgstr "Colar"
-
-#~ msgid "Cut"
-#~ msgstr "Cortar"
-
-#, fuzzy
-#~ msgid "Font"
-#~ msgstr "&Letra"
-
-#~ msgid "&Foreground Color"
-#~ msgstr "Cor &Frontal"
-
-#~ msgid "&Background Color"
-#~ msgstr "Cor de F&undo"
-
-#~ msgid "&Help"
-#~ msgstr "&Ajuda"
-
-#~ msgid "&Save"
-#~ msgstr "&Gravar"
-
-#~ msgid "S&ave as..."
-#~ msgstr "G&ravar como..."
-
-#~ msgid "&Close"
-#~ msgstr "&Fechar"
-
-#~ msgid "&Print..."
-#~ msgstr "&Imprimir..."
-
-#~ msgid "E&xit"
-#~ msgstr "&Sair"
-
-#~ msgid "&Copy"
-#~ msgstr "&Copiar"
-
-#~ msgid "&Paste"
-#~ msgstr "C&olar"
-
-#~ msgid "C&ut"
-#~ msgstr "Co&rtar"
-
-#~ msgid "&File"
-#~ msgstr "&Ficheiro"
-
-#~ msgid "&Edit"
-#~ msgstr "&Editar"
-
-#~ msgid "&Options"
-#~ msgstr "&Opções"
-
-#~ msgid "Sorry"
-#~ msgstr "Lamento"
-
-#~ msgid "Could not Save the Changes\n"
-#~ msgstr "Não foi possivel Gravar as Mudanças\n"
-
-#~ msgid "Saved: %s"
-#~ msgstr "Gravado: %s"
-
-#~ msgid "Saved"
-#~ msgstr "Gravado"
-
-#~ msgid "Load file:"
-#~ msgstr "Ler ficheiro:"
-
-#~ msgid ""
-#~ "You have do not have Permission to \n"
-#~ "read this Document"
-#~ msgstr ""
-#~ "Não tem Permissão para\n"
-#~ "ler este Documento"
-
-#~ msgid "Could not Save the Document"
-#~ msgstr "Não foi possivel gravar o Documento"
-
-#~ msgid "Miscellaneous Options"
-#~ msgstr "OpçÕes Diversas"
-
-#~ msgid "About KEdit"
-#~ msgstr "Acerca do KEdit"
+msgstr "Tem que especificar um Destinatário"

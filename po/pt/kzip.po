@@ -8,6 +8,7 @@ msgstr ""
 "Files: adddlg.cc ar.cc arch.cc extractdlg.cc karch.cc kfdird.cc "
 "ktablistbox.cc kzip.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h "
 "extractdlg.h karch.h kfdird.h ktablistbox.h kzip.h lha.h tar.h text.h zip.h\n"
+"Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
 #: adddlg.cc:11
 msgid "Add File Options"
@@ -63,11 +64,11 @@ msgstr "E&xtrair"
 
 #: kzip.cc:75
 msgid "&Set Archive Directory..."
-msgstr "$Definir Directoria de Arquivo..."
+msgstr "&Definir Directoria de Arquivo..."
 
 #: kzip.cc:76
 msgid "&File Adding Options..."
-msgstr "Opções de Adição de Ficheiros"
+msgstr "Opções de Adição de &Ficheiros"
 
 #: kzip.cc:122
 msgid "Welcome to KZip..."
@@ -83,7 +84,7 @@ msgstr "Crie ou abra um arquivo primeiro"
 
 #: kzip.cc:273
 msgid "Can't add directories with this archive type"
-msgstr ""
+msgstr "Impossivel adicionar directorias com este tipo de arquivo"
 
 #: kzip.cc:275
 msgid "Error saving to archive"
@@ -100,73 +101,3 @@ msgstr "Formato de arquivo desconhecido"
 #: kzip.cc:378
 msgid "Archive Directory"
 msgstr "Directoria de Arquivo"
-
-#, fuzzy
-#~ msgid "&New..."
-#~ msgstr "&Novo"
-
-#~ msgid "&Delete"
-#~ msgstr "&Apagar"
-
-#~ msgid "Browse..."
-#~ msgstr "Examinar..."
-
-#~ msgid "&Open..."
-#~ msgstr "&Abrir..."
-
-#~ msgid "&View"
-#~ msgstr "&Ver"
-
-#~ msgid "Ok"
-#~ msgstr "Ok"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancelar"
-
-#~ msgid "&Close"
-#~ msgstr "&Fechar"
-
-#~ msgid "E&xit"
-#~ msgstr "Sai&r"
-
-#~ msgid "&Help..."
-#~ msgstr "&Ajuda..."
-
-#~ msgid "&About..."
-#~ msgstr "&Acerca"
-
-#~ msgid "&File"
-#~ msgstr "&Ficheiro"
-
-#~ msgid "&Edit"
-#~ msgstr "&Editar"
-
-#~ msgid "&Options"
-#~ msgstr "&Opções"
-
-#~ msgid "&Help"
-#~ msgstr "&Ajuda"
-
-#~ msgid "None"
-#~ msgstr "Nenhum"
-
-#~ msgid "Open With: (program)"
-#~ msgstr "Abrir Com: (program)"
-
-#~ msgid "Permissions\tOwner/Group\tSize      \tTimeStamp         \tName\t"
-#~ msgstr "Permissões\tDono/Grupo\tTamanho      \tTempo          \tNome\t"
-
-#~ msgid ""
-#~ "Permsissions\tOwner/Group\tPacked      \tSize         "
-#~ "\tRatio\tCRC\tTimeStamp     \tName\t"
-#~ msgstr ""
-#~ "Permissões\tDono/Grupo\tEmpacotado      \tTamanho      \tRatio\tCRC\tTempo   "
-#~ "     \tNome\t"
-
-#~ msgid "Permissions\tOwner/Group\tSize        \tTimeStamp\tName\t"
-#~ msgstr "Permissões\tDono/Grupo\tTamanho       \tTempo\tNome\t"
-
-#~ msgid ""
-#~ "Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
-#~ msgstr ""
-#~ "Extensão   \tMetodo\tTamanho      \tRatio\tData     \tTempo\tCRC-32\tNome\t"
