@@ -1,17 +1,16 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Vladimir Vuksan <vuksan@veus.hr>, 1998
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
-"PO-Revision-Date: 1998-03-15 20:00-0500\n"
+"Project-Id-Version: kdebase\n"
+"POT-Creation-Date: 1998-05-13 12:05+0200\n"
+"PO-Revision-Date: 1998-10-15 15:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: iso-8859-2\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"        
 
 #: adddata.cpp:38
 msgid "Task Name"
@@ -39,7 +38,7 @@ msgstr ""
 
 #: karm.cpp:119
 msgid "Oh No!"
-msgstr "O Ne!"
+msgstr "O ne!"
 
 #: karm.cpp:205
 msgid ": Add New Task"
@@ -94,9 +93,8 @@ msgid "&New"
 msgstr ""
 
 #: top.cpp:74
-#, fuzzy
 msgid "&About"
-msgstr "O "
+msgstr "&O"
 
 #: top.cpp:85
 msgid "Start Clock"
@@ -137,9 +135,3 @@ msgstr ""
 #: top.cpp:161
 msgid "clock active"
 msgstr "sat aktivan"
-
-#~ msgid "&Contents"
-#~ msgstr "Sa&dr¾aj"
-
-#~ msgid "&Start"
-#~ msgstr "&Pokreni"

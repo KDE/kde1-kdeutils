@@ -194,7 +194,7 @@ msgstr ""
 #: kedit.cpp:880
 #, c-format
 msgid "Wrote: %s"
-msgstr "Spremljen: %s"
+msgstr "Pisac: %s"
 
 #: kedit.cpp:886
 msgid "No changes need to be saved"
