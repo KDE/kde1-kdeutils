@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-03 14:32+0100\n"
 "PO-Revision-Date: 1997-11-13 12:20+0100\n"
 "Last-Translator: John Zero <johnzero@telnet.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -11,18 +11,19 @@ msgstr ""
 "From: Robert Palmbos <robertp@pbnjelly>\n"
 "Xgettext-Options: --keyword=translate -C\n"
 "Files: adddlg.cc ar.cc arch.cc extractdlg.cc karch.cc kfdird.cc "
-"ktablistbox.cc arkwidget.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h "
-"extractdlg.h karch.h kfdird.h ktablistbox.h ark.h lha.h tar.h text.h zip.h\n"
+"ktablistbox.cc arkwidget.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h "
+"arch.h extractdlg.h karch.h kfdird.h ktablistbox.h ark.h lha.h tar.h text.h "
+"zip.h\n"
 
 #: adddlg.cc:11
 msgid "Add File Options"
 msgstr "Beállítások a hozzáadáshoz"
 
-#: adddlg.cc:22
+#: adddlg.cc:21
 msgid "Store Full Path"
 msgstr "Tárold a teljes útvonalat"
 
-#: adddlg.cc:25
+#: adddlg.cc:24
 msgid "Only Add Newer Files"
 msgstr "Csak az újabb file-okat add"
 
@@ -79,48 +80,74 @@ msgstr ""
 msgid "&File Adding Options..."
 msgstr "&File hozzáadás beállításai..."
 
-#: arkwidget.cc:131
-msgid "Welcome to KZip..."
+#: arkwidget.cc:96
+#, fuzzy
+msgid "File Operations"
+msgstr "Beállítások a hozzáadáshoz"
+
+#: arkwidget.cc:98
+#, fuzzy
+msgid "Extract..."
+msgstr "Ki&tömörít..."
+
+#: arkwidget.cc:113
+#, fuzzy
+msgid "Goto Archive Dir..."
+msgstr "&Archív könyvtár beállítása..."
+
+#: arkwidget.cc:116
+#, fuzzy
+msgid "Extract To.."
+msgstr "Kitömörítés &helye..."
+
+#: arkwidget.cc:120
+#, fuzzy
+msgid "Exit"
+msgstr "&Kilép"
+
+#: arkwidget.cc:127
+#, fuzzy
+msgid "Welcome to ark..."
 msgstr "Üdvözöl a KZip..."
 
-#: arkwidget.cc:238
+#: arkwidget.cc:234
 msgid "Can't create archive of that type"
 msgstr "Nade ilyen archív típust én nem tudok csinálni!"
 
-#: arkwidget.cc:260
+#: arkwidget.cc:256
 msgid "Create or open an archive first"
 msgstr "Kreálj vagy nyiss meg egy archívumot elõször"
 
-#: arkwidget.cc:303
+#: arkwidget.cc:299
 msgid "Can't add directories with this archive type"
 msgstr ""
 
-#: arkwidget.cc:305
+#: arkwidget.cc:301
 msgid "Error saving to archive"
 msgstr "Hiba az archívba mentés közben"
 
-#: arkwidget.cc:315
+#: arkwidget.cc:311
 msgid "Archive Dir:"
 msgstr "Archive könyvtár:"
 
-#: arkwidget.cc:332
+#: arkwidget.cc:328
 msgid "What runs GNU tar:"
 msgstr ""
 
-#: arkwidget.cc:369 arkwidget.cc:571
+#: arkwidget.cc:365 arkwidget.cc:567
 msgid "Unknown archive format"
 msgstr "Ismeretlen archive formátum"
 
-#: arkwidget.cc:389
+#: arkwidget.cc:385
 msgid "Size"
 msgstr ""
 
-#: arkwidget.cc:395
+#: arkwidget.cc:391
 #, fuzzy
 msgid "Archive directory does not exist."
 msgstr "Archive könyvtár"
 
-#: arkwidget.cc:411
+#: arkwidget.cc:407
 msgid "Archive Directory"
 msgstr "Archive könyvtár"
 
@@ -144,9 +171,6 @@ msgstr "Archive könyvtár"
 
 #~ msgid "&Close"
 #~ msgstr "&Bezár"
-
-#~ msgid "E&xit"
-#~ msgstr "&Kilép"
 
 #~ msgid "&Help..."
 #~ msgstr "&Segítség..."

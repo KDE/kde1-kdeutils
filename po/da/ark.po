@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-03 14:32+0100\n"
 "PO-Revision-Date: 1998-02-02 20:55+MET\n"
 "Last-Translator: Thomas Tanghus <tanghus@earthling.net>\n"
 
@@ -9,11 +9,11 @@ msgstr ""
 msgid "Add File Options"
 msgstr "Tilføj filindstillinger"
 
-#: adddlg.cc:22
+#: adddlg.cc:21
 msgid "Store Full Path"
 msgstr "Gem absolut stil"
 
-#: adddlg.cc:25
+#: adddlg.cc:24
 msgid "Only Add Newer Files"
 msgstr "Tilføj kun nyere filer"
 
@@ -69,49 +69,74 @@ msgstr ""
 msgid "&File Adding Options..."
 msgstr "&Tilføjelses indstillinger..."
 
-#: arkwidget.cc:131
-msgid "Welcome to KZip..."
+#: arkwidget.cc:96
+#, fuzzy
+msgid "File Operations"
+msgstr "Tilføj filindstillinger"
+
+#: arkwidget.cc:98
+#, fuzzy
+msgid "Extract..."
+msgstr "&Udpak..."
+
+#: arkwidget.cc:113
+#, fuzzy
+msgid "Goto Archive Dir..."
+msgstr "&Sæt arkiv folder..."
+
+#: arkwidget.cc:116
+#, fuzzy
+msgid "Extract To.."
+msgstr "Udpak &til..."
+
+#: arkwidget.cc:120
+msgid "Exit"
+msgstr ""
+
+#: arkwidget.cc:127
+#, fuzzy
+msgid "Welcome to ark..."
 msgstr "Velkomment til KZip..."
 
-#: arkwidget.cc:238
+#: arkwidget.cc:234
 msgid "Can't create archive of that type"
 msgstr "Kan ikke oprette arkiv af denne type"
 
-#: arkwidget.cc:260
+#: arkwidget.cc:256
 #, fuzzy
 msgid "Create or open an archive first"
 msgstr "Opret eller åben arkiv først"
 
-#: arkwidget.cc:303
+#: arkwidget.cc:299
 msgid "Can't add directories with this archive type"
 msgstr "Kan ikke tilføje foldere til et arkiv af denne type"
 
-#: arkwidget.cc:305
+#: arkwidget.cc:301
 msgid "Error saving to archive"
 msgstr "Fejl ved skrivning af arkiv"
 
-#: arkwidget.cc:315
+#: arkwidget.cc:311
 msgid "Archive Dir:"
 msgstr "Arkiv folder:"
 
-#: arkwidget.cc:332
+#: arkwidget.cc:328
 msgid "What runs GNU tar:"
 msgstr ""
 
-#: arkwidget.cc:369 arkwidget.cc:571
+#: arkwidget.cc:365 arkwidget.cc:567
 msgid "Unknown archive format"
 msgstr "Ukendt arkiv format"
 
-#: arkwidget.cc:389
+#: arkwidget.cc:385
 msgid "Size"
 msgstr ""
 
-#: arkwidget.cc:395
+#: arkwidget.cc:391
 #, fuzzy
 msgid "Archive directory does not exist."
 msgstr "Arkiv folder"
 
-#: arkwidget.cc:411
+#: arkwidget.cc:407
 msgid "Archive Directory"
 msgstr "Arkiv folder"
 

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-03 14:32+0100\n"
 "PO-Revision-Date: 1998-04-21 05:01+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -17,11 +17,11 @@ msgstr ""
 msgid "Add File Options"
 msgstr "加入檔案 選項"
 
-#: adddlg.cc:22
+#: adddlg.cc:21
 msgid "Store Full Path"
 msgstr "儲存完整路徑"
 
-#: adddlg.cc:25
+#: adddlg.cc:24
 msgid "Only Add Newer Files"
 msgstr "只加入新的檔案"
 
@@ -77,48 +77,73 @@ msgstr ""
 msgid "&File Adding Options..."
 msgstr "檔案增加 選項[&F]"
 
-#: arkwidget.cc:131
-msgid "Welcome to KZip..."
+#: arkwidget.cc:96
+#, fuzzy
+msgid "File Operations"
+msgstr "加入檔案 選項"
+
+#: arkwidget.cc:98
+#, fuzzy
+msgid "Extract..."
+msgstr "解壓縮...[&X]"
+
+#: arkwidget.cc:113
+#, fuzzy
+msgid "Goto Archive Dir..."
+msgstr "設定壓縮檔目錄[&S]..."
+
+#: arkwidget.cc:116
+#, fuzzy
+msgid "Extract To.."
+msgstr "解壓縮至...[&E]"
+
+#: arkwidget.cc:120
+msgid "Exit"
+msgstr ""
+
+#: arkwidget.cc:127
+#, fuzzy
+msgid "Welcome to ark..."
 msgstr "歡迎來到 KZip..."
 
-#: arkwidget.cc:238
+#: arkwidget.cc:234
 msgid "Can't create archive of that type"
 msgstr "沒辦法造出這種格式的壓縮檔"
 
-#: arkwidget.cc:260
+#: arkwidget.cc:256
 msgid "Create or open an archive first"
 msgstr "請先造出或開啟一個壓縮檔"
 
-#: arkwidget.cc:303
+#: arkwidget.cc:299
 msgid "Can't add directories with this archive type"
 msgstr "此種壓縮檔格式無法加入目錄"
 
-#: arkwidget.cc:305
+#: arkwidget.cc:301
 msgid "Error saving to archive"
 msgstr "儲存至壓縮檔時發生錯誤"
 
-#: arkwidget.cc:315
+#: arkwidget.cc:311
 msgid "Archive Dir:"
 msgstr "壓縮檔目錄:"
 
-#: arkwidget.cc:332
+#: arkwidget.cc:328
 msgid "What runs GNU tar:"
 msgstr ""
 
-#: arkwidget.cc:369 arkwidget.cc:571
+#: arkwidget.cc:365 arkwidget.cc:567
 msgid "Unknown archive format"
 msgstr "未知的壓縮檔格式"
 
-#: arkwidget.cc:389
+#: arkwidget.cc:385
 msgid "Size"
 msgstr ""
 
-#: arkwidget.cc:395
+#: arkwidget.cc:391
 #, fuzzy
 msgid "Archive directory does not exist."
 msgstr "壓縮檔目錄"
 
-#: arkwidget.cc:411
+#: arkwidget.cc:407
 msgid "Archive Directory"
 msgstr "壓縮檔目錄"
 

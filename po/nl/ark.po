@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-03 14:32+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Case Roole <cjr@xs4all.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 msgid "Add File Options"
 msgstr "Voeg Bestands Opties Toe"
 
-#: adddlg.cc:22
+#: adddlg.cc:21
 msgid "Store Full Path"
 msgstr "Sla Volledig Pad Op"
 
-#: adddlg.cc:25
+#: adddlg.cc:24
 msgid "Only Add Newer Files"
 msgstr "Voeg enkel nieuwere bestanden toe"
 
@@ -78,48 +78,73 @@ msgstr ""
 msgid "&File Adding Options..."
 msgstr "&Bestand Toevoeg Opties..."
 
-#: arkwidget.cc:131
-msgid "Welcome to KZip..."
+#: arkwidget.cc:96
+#, fuzzy
+msgid "File Operations"
+msgstr "Voeg Bestands Opties Toe"
+
+#: arkwidget.cc:98
+#, fuzzy
+msgid "Extract..."
+msgstr "E&xtract..."
+
+#: arkwidget.cc:113
+#, fuzzy
+msgid "Goto Archive Dir..."
+msgstr "&Stel Archief Map in..."
+
+#: arkwidget.cc:116
+#, fuzzy
+msgid "Extract To.."
+msgstr "&Extract Naar..."
+
+#: arkwidget.cc:120
+msgid "Exit"
+msgstr ""
+
+#: arkwidget.cc:127
+#, fuzzy
+msgid "Welcome to ark..."
 msgstr "Welkom bij KZip..."
 
-#: arkwidget.cc:238
+#: arkwidget.cc:234
 msgid "Can't create archive of that type"
 msgstr "Kan geen archief aanmaken van dat type"
 
-#: arkwidget.cc:260
+#: arkwidget.cc:256
 msgid "Create or open an archive first"
 msgstr "U dient eerst een archief aan te maken of te openen"
 
-#: arkwidget.cc:303
+#: arkwidget.cc:299
 msgid "Can't add directories with this archive type"
 msgstr "Kan geen mappen toevoegen met dit archief type"
 
-#: arkwidget.cc:305
+#: arkwidget.cc:301
 msgid "Error saving to archive"
 msgstr "Fout bij het opslaan in archief"
 
-#: arkwidget.cc:315
+#: arkwidget.cc:311
 msgid "Archive Dir:"
 msgstr "Archief Map:"
 
-#: arkwidget.cc:332
+#: arkwidget.cc:328
 msgid "What runs GNU tar:"
 msgstr ""
 
-#: arkwidget.cc:369 arkwidget.cc:571
+#: arkwidget.cc:365 arkwidget.cc:567
 msgid "Unknown archive format"
 msgstr "Onbekend archief formaat"
 
-#: arkwidget.cc:389
+#: arkwidget.cc:385
 msgid "Size"
 msgstr ""
 
-#: arkwidget.cc:395
+#: arkwidget.cc:391
 #, fuzzy
 msgid "Archive directory does not exist."
 msgstr "Archief Map"
 
-#: arkwidget.cc:411
+#: arkwidget.cc:407
 msgid "Archive Directory"
 msgstr "Archief Map"
 

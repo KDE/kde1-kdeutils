@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ark \n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-03 14:32+0100\n"
 "PO-Revision-Date: 1998-08-07 23:22+0200\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -13,11 +13,11 @@ msgstr ""
 msgid "Add File Options"
 msgstr "Opcje plików"
 
-#: adddlg.cc:22
+#: adddlg.cc:21
 msgid "Store Full Path"
 msgstr "Zachowaj pe³n± ¶cie¿kê"
 
-#: adddlg.cc:25
+#: adddlg.cc:24
 msgid "Only Add Newer Files"
 msgstr "Dodaj tylko nowe pliki"
 
@@ -73,46 +73,71 @@ msgstr "Wska¿ program &tar"
 msgid "&File Adding Options..."
 msgstr "Opcje dodawania &plików..."
 
-#: arkwidget.cc:131
-msgid "Welcome to KZip..."
+#: arkwidget.cc:96
+#, fuzzy
+msgid "File Operations"
+msgstr "Opcje plików"
+
+#: arkwidget.cc:98
+#, fuzzy
+msgid "Extract..."
+msgstr "&Rozpakuj..."
+
+#: arkwidget.cc:113
+#, fuzzy
+msgid "Goto Archive Dir..."
+msgstr "Wybierz &katalog archiwum..."
+
+#: arkwidget.cc:116
+#, fuzzy
+msgid "Extract To.."
+msgstr "Rozpakuj &do..."
+
+#: arkwidget.cc:120
+msgid "Exit"
+msgstr ""
+
+#: arkwidget.cc:127
+#, fuzzy
+msgid "Welcome to ark..."
 msgstr "KZip wita..."
 
-#: arkwidget.cc:238
+#: arkwidget.cc:234
 msgid "Can't create archive of that type"
 msgstr "Nie mo¿na utworzyæ archiwum tego typu"
 
-#: arkwidget.cc:260
+#: arkwidget.cc:256
 msgid "Create or open an archive first"
 msgstr "Najpierw utwórz lub otwórz archiwum"
 
-#: arkwidget.cc:303
+#: arkwidget.cc:299
 msgid "Can't add directories with this archive type"
 msgstr "Nie mo¿na dodaæ katalogów do tego typu archiwum"
 
-#: arkwidget.cc:305
+#: arkwidget.cc:301
 msgid "Error saving to archive"
 msgstr "B³±d podczas zapisu do archiwum"
 
-#: arkwidget.cc:315
+#: arkwidget.cc:311
 msgid "Archive Dir:"
 msgstr "Katalog archiwum:"
 
-#: arkwidget.cc:332
+#: arkwidget.cc:328
 msgid "What runs GNU tar:"
 msgstr "Zgodny z GNU tar"
 
-#: arkwidget.cc:369 arkwidget.cc:571
+#: arkwidget.cc:365 arkwidget.cc:567
 msgid "Unknown archive format"
 msgstr "Nieznany format archiwum"
 
-#: arkwidget.cc:389
+#: arkwidget.cc:385
 msgid "Size"
 msgstr ""
 
-#: arkwidget.cc:395
+#: arkwidget.cc:391
 msgid "Archive directory does not exist."
 msgstr "Katalog archiwum nie istnieje."
 
-#: arkwidget.cc:411
+#: arkwidget.cc:407
 msgid "Archive Directory"
 msgstr "Katalog archiwum"
