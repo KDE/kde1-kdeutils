@@ -40,7 +40,7 @@
 #include "filldlg.h"
 #include "kcolordlg.h"
 #include "mail.h"
-#include "KEdit.h"
+#include "keditcl.h"
 #include "about.h"
 
 #include "kedit.moc"

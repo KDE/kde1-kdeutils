@@ -70,7 +70,7 @@
 #include "ktopwidget.h"
 #include "kbutton.h"
 
-#include "KEdit.h"
+#include "keditcl.h"
 #include "print.h"
 #include "filldlg.h"
 #include "version.h"
