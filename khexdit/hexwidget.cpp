@@ -271,17 +271,18 @@ HexWidget::HexWidget(const char* file) {
 }
 
 HexWidget::~HexWidget() {
-  //delete toolbar;
   delete CurrentFile;
-  delete dropZone;
   delete kfm;
-  //delete menu;
 }
 
 void HexWidget::closeEvent ( QCloseEvent *e) {
   windowList.remove(this);
-    delete toolbar;
-    delete menu;
+  delete toolbar;
+  toolbar = 0L;
+  delete menu;
+  menu = 0L;
+  delete dropZone;
+  dropZone = 0L;
   if (windowList.isEmpty())
     kapp->quit();
   e->accept();
