@@ -38,11 +38,11 @@ msgstr "Pismo..."
 
 #: kedit.cpp:201
 msgid "Ne&w..."
-msgstr "&Novi..."
+msgstr "&Nova..."
 
 #: kedit.cpp:208
 msgid "Open Recen&t..."
-msgstr "Otvori sko&ra¹nji..."
+msgstr "Otvori sko&ra¹nju..."
 
 #: kedit.cpp:220
 msgid "Open &URL..."
@@ -86,7 +86,7 @@ msgstr "Zami&jeni"
 
 #: kedit.cpp:268
 msgid "Spellcheck..."
-msgstr ""
+msgstr "Provjera pisanja..."
 
 #: kedit.cpp:273
 msgid "&Goto Line..."
@@ -102,7 +102,7 @@ msgstr "&Boje"
 
 #: kedit.cpp:284
 msgid "KEdit &Options..."
-msgstr "KEdit &Opcije..."
+msgstr "KEdit &Postavke..."
 
 #: kedit.cpp:286
 msgid "Auto &Indent"
@@ -118,7 +118,7 @@ msgstr "S&tatusna linija"
 
 #: kedit.cpp:294
 msgid "Save Options"
-msgstr "Spremi odrednice"
+msgstr "Spremi postavke"
 
 #: kedit.cpp:304
 #, c-format
@@ -153,7 +153,7 @@ msgstr "Po¹alji dokument po¹tom"
 #: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:721
 #: keditcl2.cpp:857
 msgid "Done"
-msgstr ""
+msgstr "Gotovo"
 
 #: kedit.cpp:606
 msgid "Open Location:"
@@ -204,16 +204,16 @@ msgstr ""
 #: kedit.cpp:880
 #, c-format
 msgid "Wrote: %s"
-msgstr "Pisac: %s"
+msgstr "Zapisao: %s"
 
 #: kedit.cpp:886
 msgid "No changes need to be saved"
-msgstr "Nema promjena koje bi trebalo snimati"
+msgstr "Nema promjena koje treba spremiti"
 
 #: kedit.cpp:905
 #, c-format
 msgid "Saved as: %s"
-msgstr "Snimljeno kao: %s"
+msgstr "Spremljeno kao: %s"
 
 #: kedit.cpp:938
 #, c-format
@@ -226,11 +226,11 @@ msgstr ""
 
 #: kedit.cpp:1032
 msgid "Auto Indent Mode: On"
-msgstr "Automatska tabulacija: ukljuèena"
+msgstr "Automatska tabulacija: ukljuèeno"
 
 #: kedit.cpp:1034
 msgid "Auto Indent Mode: Off"
-msgstr "Automatska tabulacija: iskjuèena"
+msgstr "Automatska tabulacija: iskljuèeno"
 
 #: kedit.cpp:1130
 #, c-format
@@ -281,7 +281,7 @@ msgstr "Ispisujem: %s %s (birano)"
 
 #: kedit.cpp:1386
 msgid "Saving ..."
-msgstr "Snimam..."
+msgstr "Spremam..."
 
 #: kedit.cpp:1393
 msgid "Loading ..."
@@ -360,7 +360,7 @@ msgstr ""
 
 #: kedit.cpp:2073
 msgid "Spellchecker Options"
-msgstr "Opcije za provjeru pravopisa"
+msgstr "Opcije za provjeru pisanja"
 
 #: keditcl1.cpp:150
 msgid "The specified File does not exist"
@@ -455,7 +455,7 @@ msgstr "Tra¾i unatrag"
 
 #: keditcl2.cpp:797
 msgid "Find:"
-msgstr "NaðiL"
+msgstr "Naði:"
 
 #: keditcl2.cpp:809
 msgid "Replace with:"
