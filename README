@@ -9,7 +9,7 @@ KDE apps and libs. I recommend to do this, since this is alpha soft-
 ware and you better have the possibility to check, what was wrong.
 
 You can use 'make uninstall' if you want to remove the kde from the dirs.
-This feature has not been tested completly. 
+This feature has not been tested completely. 
 
 Please direct any bug reports to our buglist maintainer 
 David McCanney <9504506m@student.gla.ac.uk>. 
