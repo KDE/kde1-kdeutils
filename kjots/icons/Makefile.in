@@ -1,6 +1,7 @@
 INSTALL_DATA = @INSTALL@ -m 0644
 INSTALL_DIR = @INSTALL@ -d -m 0755
-PICS = `find . -type f \( -name "*.xpm" -o -name "*.jpg" -o -name "*.xbm" -o -name "*.ppm" -o -name "*.gif" \) -print`
+PICS = OpenBook.xpm filedel.xpm
+ICONDIR=@prefix@/share/icons
 DESTDIR = @prefix@/share/apps/kjots/toolbar
 
 all:
@@ -15,6 +16,8 @@ install:
 	echo "$(INSTALL_DATA) $$i $(DESTDIR)/$$i"; \
 	$(INSTALL_DATA) "$$i" $(DESTDIR)/$$i; \
 	done
+	$(INSTALL_DIR) $(ICONDIR)
+	$(INSTALL_DATA) kjots.xpm $(ICONDIR)/kjots.xpm
  
 uninstall:
 	for i in $(PICS); do \

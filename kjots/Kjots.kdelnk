@@ -1,9 +1,11 @@
+# KDE Config File
 [KDE Desktop Entry]
 Comment=Note taker
 WmCommand=
 MiniIcon=mini-doc.xpm
 Exec=kjots
-Icon=jots.xpm
+Type=Application
+Icon=kjots.xpm
 TerminalOptions=
 Path=
 Terminal=0
