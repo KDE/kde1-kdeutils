@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kab\n"
-"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"POT-Creation-Date: 1998-11-23 01:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -37,10 +37,6 @@ msgstr ""
 msgid "written and maintained by"
 msgstr "skrevet og vedlikehodt av"
 
-#: AddressBookAboutData.cpp:62
-msgid "kab 0.8, August 1998"
-msgstr "kab 0.8, august 1998"
-
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
 msgstr "Initialisering mislyktes"
@@ -57,66 +53,69 @@ msgstr "Programmets statuslinje kunne ikke bli konstruert."
 msgid "KDE addressbook."
 msgstr "KDE Adressebok."
 
-#: toplevelwidget.cc:76
+#: toplevelwidget.cc:73
 msgid "HTML table"
 msgstr "HTML-tabell"
 
-#: toplevelwidget.cc:85
+#: toplevelwidget.cc:82
 msgid "Export"
 msgstr "Eksport"
 
-#: toplevelwidget.cc:87
+#: toplevelwidget.cc:84
 msgid "Search &entries"
 msgstr "Søk &oppføringer"
 
-#: toplevelwidget.cc:89
+#: toplevelwidget.cc:86
 msgid "&Print"
 msgstr "&Skriv ut"
 
-#: toplevelwidget.cc:101
+#: toplevelwidget.cc:98
 msgid "&Add entry"
 msgstr "&Legg til oppføring"
 
-#: toplevelwidget.cc:103
+#: toplevelwidget.cc:100
 msgid "&Edit entry"
 msgstr "&Rediger oppføring"
 
-#: toplevelwidget.cc:105
+#: toplevelwidget.cc:102
 msgid "&Remove entry"
 msgstr "&Fjern oppføring"
 
-#: toplevelwidget.cc:117
+#: toplevelwidget.cc:114
 msgid "&Mail"
 msgstr "&Post"
 
-#: toplevelwidget.cc:119
+#: toplevelwidget.cc:116
 msgid "&Talk"
 msgstr "&Snakk"
 
-#: toplevelwidget.cc:121
+#: toplevelwidget.cc:118
 msgid "&Browse"
 msgstr "&Bla gjennom"
 
-#: toplevelwidget.cc:126
+#: toplevelwidget.cc:123
 msgid "Help on Addressbook"
 msgstr "Hjelp til Adressebok"
 
-#: toplevelwidget.cc:131
+#: toplevelwidget.cc:128
 msgid "About Addressbook"
 msgstr "Om Adressebok"
 
-#: toplevelwidget.cc:133
+#: toplevelwidget.cc:130
 msgid "About &Qt"
 msgstr "Om &Qt"
 
-#: toplevelwidget.cc:134
+#: toplevelwidget.cc:131
 msgid "About &KDE"
 msgstr "Om &KDE"
 
-#: toplevelwidget.cc:141
+#: toplevelwidget.cc:138
 msgid "&About"
 msgstr "&Om"
 
-#: toplevelwidget.cc:192
+#: toplevelwidget.cc:190
 msgid "About Qt"
 msgstr "Om Qt"
+
+#~ msgid "kab 0.8, August 1998"
+#~ msgstr "kab 0.8, august 1998"

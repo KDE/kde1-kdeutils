@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kab\n"
-"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"POT-Creation-Date: 1998-11-23 01:47+0100\n"
 "Last-Translator: Juraj Bednar <bednar@isternet.sk>\n"
 "Language-Team: Slovak <sk@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -36,10 +36,6 @@ msgstr ""
 msgid "written and maintained by"
 msgstr "napísal a spravuje"
 
-#: AddressBookAboutData.cpp:62
-msgid "kab 0.8, August 1998"
-msgstr "kab 0.8, August 1998"
-
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
 msgstr "Chyba inicializácie"
@@ -56,66 +52,69 @@ msgstr "Stavový riadok sa nedá vytvori»."
 msgid "KDE addressbook."
 msgstr "KDE kniha adries"
 
-#: toplevelwidget.cc:76
+#: toplevelwidget.cc:73
 msgid "HTML table"
 msgstr "HTML tabuµka"
 
-#: toplevelwidget.cc:85
+#: toplevelwidget.cc:82
 msgid "Export"
 msgstr "Export"
 
-#: toplevelwidget.cc:87
+#: toplevelwidget.cc:84
 msgid "Search &entries"
 msgstr "Hµada» &polo¾ky"
 
-#: toplevelwidget.cc:89
+#: toplevelwidget.cc:86
 msgid "&Print"
 msgstr "&Tlaèi»"
 
-#: toplevelwidget.cc:101
+#: toplevelwidget.cc:98
 msgid "&Add entry"
 msgstr "&Prida» polo¾ku"
 
-#: toplevelwidget.cc:103
+#: toplevelwidget.cc:100
 msgid "&Edit entry"
 msgstr "&Editova» polo¾ku"
 
-#: toplevelwidget.cc:105
+#: toplevelwidget.cc:102
 msgid "&Remove entry"
 msgstr "&Zmaza» polo¾ku"
 
-#: toplevelwidget.cc:117
+#: toplevelwidget.cc:114
 msgid "&Mail"
 msgstr "&Mail"
 
-#: toplevelwidget.cc:119
+#: toplevelwidget.cc:116
 msgid "&Talk"
 msgstr "&Talk"
 
-#: toplevelwidget.cc:121
+#: toplevelwidget.cc:118
 msgid "&Browse"
 msgstr "&Prechádza»"
 
-#: toplevelwidget.cc:126
+#: toplevelwidget.cc:123
 msgid "Help on Addressbook"
 msgstr "Pomocník knihy adries"
 
-#: toplevelwidget.cc:131
+#: toplevelwidget.cc:128
 msgid "About Addressbook"
 msgstr "O knihe adries"
 
-#: toplevelwidget.cc:133
+#: toplevelwidget.cc:130
 msgid "About &Qt"
 msgstr "O &QT"
 
-#: toplevelwidget.cc:134
+#: toplevelwidget.cc:131
 msgid "About &KDE"
 msgstr "O &KDE"
 
-#: toplevelwidget.cc:141
+#: toplevelwidget.cc:138
 msgid "&About"
 msgstr "&Informácie"
 
-#: toplevelwidget.cc:192
+#: toplevelwidget.cc:190
 msgid "About Qt"
 msgstr "Informácie o Qt"
+
+#~ msgid "kab 0.8, August 1998"
+#~ msgstr "kab 0.8, August 1998"

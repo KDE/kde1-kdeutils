@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"POT-Creation-Date: 1998-11-23 01:47+0100\n"
 "PO-Revision-Date: 1998-10-18 18:37+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "First-Translator: Alonso Lara <jlaram@nexo.es>\n"
@@ -29,10 +29,6 @@ msgstr ""
 msgid "written and maintained by"
 msgstr ""
 
-#: AddressBookAboutData.cpp:62
-msgid "kab 0.8, August 1998"
-msgstr ""
-
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
 msgstr "Fallo de inicialización"
@@ -51,66 +47,66 @@ msgstr "La barra de estado de programas no pudo ser construida."
 msgid "KDE addressbook."
 msgstr "KDE addressbook."
 
-#: toplevelwidget.cc:76
+#: toplevelwidget.cc:73
 msgid "HTML table"
 msgstr "Tabla HTML"
 
-#: toplevelwidget.cc:85
+#: toplevelwidget.cc:82
 msgid "Export"
 msgstr "Exportar"
 
-#: toplevelwidget.cc:87
+#: toplevelwidget.cc:84
 msgid "Search &entries"
 msgstr "Buscar &entradas"
 
-#: toplevelwidget.cc:89
+#: toplevelwidget.cc:86
 msgid "&Print"
 msgstr "Im&primir"
 
-#: toplevelwidget.cc:101
+#: toplevelwidget.cc:98
 msgid "&Add entry"
 msgstr "&Añadir entrada"
 
-#: toplevelwidget.cc:103
+#: toplevelwidget.cc:100
 msgid "&Edit entry"
 msgstr "&Editar entrada"
 
-#: toplevelwidget.cc:105
+#: toplevelwidget.cc:102
 msgid "&Remove entry"
 msgstr "&Suprimir entrada"
 
-#: toplevelwidget.cc:117
+#: toplevelwidget.cc:114
 msgid "&Mail"
 msgstr "&Correo"
 
-#: toplevelwidget.cc:119
+#: toplevelwidget.cc:116
 msgid "&Talk"
 msgstr "C&harlar"
 
-#: toplevelwidget.cc:121
+#: toplevelwidget.cc:118
 msgid "&Browse"
 msgstr "&Navegar"
 
-#: toplevelwidget.cc:126
+#: toplevelwidget.cc:123
 msgid "Help on Addressbook"
 msgstr "Ayuda en Addressbook"
 
-#: toplevelwidget.cc:131
+#: toplevelwidget.cc:128
 msgid "About Addressbook"
 msgstr "Sobre Addressbook"
 
-#: toplevelwidget.cc:133
+#: toplevelwidget.cc:130
 msgid "About &Qt"
 msgstr "Sobre &Qt"
 
-#: toplevelwidget.cc:134
+#: toplevelwidget.cc:131
 msgid "About &KDE"
 msgstr "Sobre &KDE"
 
-#: toplevelwidget.cc:141
+#: toplevelwidget.cc:138
 msgid "&About"
 msgstr "&Sobre"
 
-#: toplevelwidget.cc:192
+#: toplevelwidget.cc:190
 msgid "About Qt"
 msgstr "Sobre Qt"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KAB\n"
-"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"POT-Creation-Date: 1998-11-23 01:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,10 +38,6 @@ msgstr ""
 msgid "written and maintained by"
 msgstr "tekij‰ ja yll‰pit‰j‰"
 
-#: AddressBookAboutData.cpp:62
-msgid "kab 0.8, August 1998"
-msgstr "kab 0.8, Syyskuu 1998"
-
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
 msgstr "Alustusvirhe"
@@ -58,66 +54,69 @@ msgstr "Ohjelman tilarivi‰ ei saatu tehty‰."
 msgid "KDE addressbook."
 msgstr "KDE osoitekirja"
 
-#: toplevelwidget.cc:76
+#: toplevelwidget.cc:73
 msgid "HTML table"
 msgstr "HTML taulukko"
 
-#: toplevelwidget.cc:85
+#: toplevelwidget.cc:82
 msgid "Export"
 msgstr "Tuo"
 
-#: toplevelwidget.cc:87
+#: toplevelwidget.cc:84
 msgid "Search &entries"
 msgstr "Etsi &tietuetta"
 
-#: toplevelwidget.cc:89
+#: toplevelwidget.cc:86
 msgid "&Print"
 msgstr "&Tulosta"
 
-#: toplevelwidget.cc:101
+#: toplevelwidget.cc:98
 msgid "&Add entry"
 msgstr "&Lis‰‰ tietue"
 
-#: toplevelwidget.cc:103
+#: toplevelwidget.cc:100
 msgid "&Edit entry"
 msgstr "&Muokkaa tietuetta"
 
-#: toplevelwidget.cc:105
+#: toplevelwidget.cc:102
 msgid "&Remove entry"
 msgstr "&Poista tietue"
 
-#: toplevelwidget.cc:117
+#: toplevelwidget.cc:114
 msgid "&Mail"
 msgstr "&Postita"
 
-#: toplevelwidget.cc:119
+#: toplevelwidget.cc:116
 msgid "&Talk"
 msgstr "&Juttele"
 
-#: toplevelwidget.cc:121
+#: toplevelwidget.cc:118
 msgid "&Browse"
 msgstr "&Selaa"
 
-#: toplevelwidget.cc:126
+#: toplevelwidget.cc:123
 msgid "Help on Addressbook"
 msgstr "Osoitekirjan ohje"
 
-#: toplevelwidget.cc:131
+#: toplevelwidget.cc:128
 msgid "About Addressbook"
 msgstr "Tietoja osoitekirjasta"
 
-#: toplevelwidget.cc:133
+#: toplevelwidget.cc:130
 msgid "About &Qt"
 msgstr "Tietoja &Qt:ta"
 
-#: toplevelwidget.cc:134
+#: toplevelwidget.cc:131
 msgid "About &KDE"
 msgstr "Tietoja &KDE:ta"
 
-#: toplevelwidget.cc:141
+#: toplevelwidget.cc:138
 msgid "&About"
 msgstr "&Tietoja"
 
-#: toplevelwidget.cc:192
+#: toplevelwidget.cc:190
 msgid "About Qt"
 msgstr "Tietoja Qt:ta"
+
+#~ msgid "kab 0.8, August 1998"
+#~ msgstr "kab 0.8, Syyskuu 1998"
