@@ -47,8 +47,8 @@ LJET::LJET(){
 	mainWindow = new QTabDialog( 0, 0, TRUE );
 
 	mainWindow->setCaption( "KDE Ljet Tool" );
-	mainWindow->setCancelButton();
-	mainWindow->setApplyButton();
+	mainWindow->setCancelButton( i18n("Cancel") );
+	mainWindow->setApplyButton( i18n("Apply") );
 
 	connect(mainWindow,SIGNAL(applyButtonPressed()), this, SLOT(apply()));
        	paper = new  Paper(mainWindow,"paper");
