@@ -11,7 +11,7 @@ msgstr ""
 
 #: adddlg.cc:11
 msgid "Add File Options"
-msgstr "Ajouter un fichier d'options"
+msgstr "Options d'ajout de fichier"
 
 #: adddlg.cc:22
 msgid "Store Full Path"
