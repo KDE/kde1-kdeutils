@@ -131,7 +131,7 @@ SpoolerConfigData::SpoolerConfigData
 	b_ok->setGeometry( 40, 216, 100, 24 );
 	b_ok->setMinimumSize( 10, 10 );
 	b_ok->setMaximumSize( 32767, 32767 );
-	b_ok->setText( klocale->translate("Ok") );
+	b_ok->setText( klocale->translate("OK") );
 	b_ok->setAutoRepeat( FALSE );
 	b_ok->setAutoResize( FALSE );
 
