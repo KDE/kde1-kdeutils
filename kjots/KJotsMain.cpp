@@ -506,7 +506,7 @@ void KJotsMain::openFolder(int id)
   if( but )
     but->setOn(TRUE);
   QDir dir = QDir::home();
-  dir.cd(".kjots");
+  dir.cd(".kde/share/apps/kjots");
   QString file_name = dir.absPath();
   file_name += '/';
   file_name += folder_list.at( folders->indexOf(id) );
@@ -571,13 +571,14 @@ void KJotsMain::createFolder()
     folders->removeItemAt(0);
   folders->insertItem(name, unique_id++);
   QDir dir = QDir::home();
-  dir.cd(".kjots");
+  dir.cd(".kde/share/apps/kjots");
   current_folder_name = dir.absPath();
   current_folder_name += '/';
   current_folder_name += name;
   KConfig *config = KApplication::getKApplication()->getConfig();
   config->setGroup("kjots");
   writeListConf(config, "Folders", folder_list );
+  config->sync();
   l_folder->setText(name);
   QPushButton *but;
   for( but = button_list.first(); but != NULL; but = button_list.next() )
@@ -614,6 +615,7 @@ void KJotsMain::deleteFolder()
   config->setGroup("kjots");
   writeListConf( config, "Folders", folder_list );
   writeListConf( config, "Hotlist", hotlist );
+  config->sync();
   entrylist.clear();
   current_folder_name = "";
   folderOpen = FALSE;
@@ -737,7 +739,7 @@ void KJotsMain::barMoved( int new_value )
 
 void KJotsMain::startHelp()
 {
-  KApplication::getKApplication()->invokeHTMLHelp("kjots/kjots.html", "");
+  KApplication::getKApplication()->invokeHTMLHelp("", "");
 }
 
 void KJotsMain::about()
@@ -765,6 +767,7 @@ void KJotsMain::addToHotlist()
   KConfig *config = KApplication::getKApplication()->getConfig();
   config->setGroup("kjots");
   writeListConf( config, "Hotlist", hotlist );
+  config->sync();
   but->setToggleButton(TRUE);
   but->setFixedSize(BUTTON_WIDTH,24);
   but->show();
@@ -789,6 +792,7 @@ void KJotsMain::removeFromHotlist()
   KConfig *config = KApplication::getKApplication()->getConfig();
   config->setGroup("kjots");
   writeListConf( config, "Hotlist", hotlist );
+  config->sync();
   resize(size());
 }
 

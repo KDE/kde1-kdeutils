@@ -1,9 +1,18 @@
 # KDE Config File
 [KDE Desktop Entry]
+<<<<<<< Kjots.kdelnk
+DocPath=kjots/kjots.html
+=======
 Name=KJots
+>>>>>>> 1.4
 Comment=Note taker
+<<<<<<< Kjots.kdelnk
+Comment[de]=Erfasst Notizen
+Name=Kjots
+=======
 Comment[pl]=System zarz±dzanie notatkami.
 WmCommand=
+>>>>>>> 1.4
 MiniIcon=mini-doc.xpm
 Exec=kjots
 Type=Application

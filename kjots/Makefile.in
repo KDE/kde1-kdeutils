@@ -19,7 +19,7 @@ KDEINC = $(prefix)/include
 BINDIR = $(prefix)/bin
 LIBDIR = $(prefix)/lib
 APPSDIR = $(prefix)/share/applnk/Utilities
-DOCSDIR = $(prefix)/share/doc/HTML/kjots
+DOCSDIR = $(prefix)/share/doc/HTML/en/kjots
 
 ####### Files
 
@@ -73,7 +73,7 @@ install: all
 	$(INSTALL_DIR) $(APPSDIR)
 	$(INSTALL_DATA) Kjots.kdelnk $(APPSDIR)
 	$(INSTALL_DIR) $(DOCSDIR)
-	$(INSTALL_DATA) ./doc/kjots.html $(DOCSDIR)
+	$(INSTALL_DATA) ./doc/index.html $(DOCSDIR)
 
 uninstall:
 	rm -f $(BINDIR)/$(TARGET)

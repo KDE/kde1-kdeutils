@@ -1,5 +1,5 @@
  
-DOCSDIR = $(prefix)/share/doc/HTML/khexdit
+DOCSDIR = $(prefix)/share/doc/HTML/en/khexdit
 APPSDIR = $(prefix)/share/applnk/Utilities
 ICONDIR = $(prefix)/share/icons/
 MINIDIR = $(prefix)/share/icons/mini
@@ -26,7 +26,7 @@ hexfile.moc: hexfile.h
 
 install-data-local: 
 	$(mkinstalldirs) $(DOCSDIR)
-	$(INSTALL_DATA) khexdit.html $(DOCSDIR)
+	$(INSTALL_DATA) index.html $(DOCSDIR)
 	$(mkinstalldirs) $(APPSDIR)
 	$(INSTALL_DATA) Khexdit.kdelnk $(APPSDIR)
 	$(mkinstalldirs) $(ICONDIR)

@@ -37,13 +37,36 @@ KIconLoader *global_pix_loader;
 QString exec_http;
 QString exec_ftp;
 
+#include <dirent.h>
+#include <sys/stat.h>
+
+// Torben
+void testDir( const char *_name )
+{
+    DIR *dp;
+    QString c = getenv( "HOME" );
+    c += _name;
+    dp = opendir( c.data() );
+    if ( dp == NULL )
+	::mkdir( c.data(), S_IRWXU );
+    else
+	closedir( dp );
+}
+
 int main( int argc, char **argv )
 {
   //debug ( "[kjots] started-------------------------" );
 
   KApplication a( argc, argv, "kjots" );
 
-  QString name = QDir::homeDirPath();
+  testDir( "/.kde" );
+  testDir( "/.kde/share" );  
+  testDir( "/.kde/share/config" );  
+  testDir( "/.kde/share/apps" );
+  testDir( "/.kde/share/apps/kjots" );
+
+  // Torben
+  /* QString name = QDir::homeDirPath();
   name += "/.kjots";
   QFileInfo fi(name);
   if( !(fi.exists() && fi.isDir()) )
@@ -55,10 +78,12 @@ int main( int argc, char **argv )
 	  debug("Kjots: giving up.");
 	  KApplication::exit(1);
 	}
-    }
+    } */
+
   QString temp1, temp2;
   KConfig *config = a.getConfig();
-  config->setGroup("KDE Setup");
+  // Torben
+  /* config->setGroup("KDE Setup");
   if( !config->hasKey("IconPath") )
      {
        temp1 = KApplication::kdedir();
@@ -67,7 +92,7 @@ int main( int argc, char **argv )
        temp1 += "/lib/pics/toolbar";
        config->writeEntry("IconPath", temp1);
        config->sync();
-     }
+     } */
   config->setGroup("kjots");
   if( !config->hasKey("execHttp") )
     config->writeEntry("execHttp", "kfmclient openURL %u");
@@ -81,6 +106,7 @@ int main( int argc, char **argv )
     config->writeEntry("EFontWeight", 0);
   if( !config->hasKey("EFontItalic") )
     config->writeEntry("EFontItalic", 0);
+  config->sync();
   global_pix_loader = new KIconLoader();
   KJotsMain jots;
   main_widget = &jots;

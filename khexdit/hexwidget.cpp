@@ -163,7 +163,7 @@ void HexWidget::menuCallback(int item) {
     break;
 
   case ID_HELP_HELP: {
-    kapp->invokeHTMLHelp( "khexdit/khexdit.html", "" );
+    kapp->invokeHTMLHelp( "", "" );
     break;
   }
 
