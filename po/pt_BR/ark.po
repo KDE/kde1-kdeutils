@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kuser\n"
-"POT-Creation-Date: 1998-11-05 01:55+0100\n"
+"POT-Creation-Date: 1998-11-14 02:05+0100\n"
 "PO-Revision-Date: 1998-03-23 00:00+0100\n"
 "Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
 
@@ -67,6 +67,15 @@ msgstr "&Extrair Para..."
 msgid "E&xtract..."
 msgstr "E&xtrair"
 
+#: arkwidget.cc:80
+msgid "&View file"
+msgstr ""
+
+#: arkwidget.cc:82
+#, fuzzy
+msgid "&Delete file"
+msgstr "Selecionado"
+
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
 msgstr "&Definir Diretório de Arquivo..."
@@ -88,6 +97,15 @@ msgstr "Opções de Adição de Arquivos"
 #, fuzzy
 msgid "Extract..."
 msgstr "E&xtrair"
+
+#: arkwidget.cc:100
+msgid "View file"
+msgstr ""
+
+#: arkwidget.cc:102
+#, fuzzy
+msgid "Delete file"
+msgstr "Selecionado"
 
 #: arkwidget.cc:114
 #, fuzzy

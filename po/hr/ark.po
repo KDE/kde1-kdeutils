@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
-"POT-Creation-Date: 1998-11-05 01:55+0100\n"
+"POT-Creation-Date: 1998-11-14 02:05+0100\n"
 "PO-Revision-Date: 1998-10-15 15:00-0500\n"
 "Last-Translator: Radoslav Dejanovic <rdejanov@public.srce.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -79,6 +79,15 @@ msgstr "&Raspakiraj u..."
 msgid "E&xtract..."
 msgstr "&Raspakiraj..."
 
+#: arkwidget.cc:80
+msgid "&View file"
+msgstr ""
+
+#: arkwidget.cc:82
+#, fuzzy
+msgid "&Delete file"
+msgstr "Izabrana datoteka"
+
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
 msgstr "Pos&tavi direktorij arhive..."
@@ -100,6 +109,15 @@ msgstr "Postavke za dodavanje datoteka"
 #, fuzzy
 msgid "Extract..."
 msgstr "&Raspakiraj..."
+
+#: arkwidget.cc:100
+msgid "View file"
+msgstr ""
+
+#: arkwidget.cc:102
+#, fuzzy
+msgid "Delete file"
+msgstr "Izabrana datoteka"
 
 #: arkwidget.cc:114
 #, fuzzy

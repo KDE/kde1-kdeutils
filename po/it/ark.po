@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSIONPOT-Creation-Date: 1998-01-03 22:39+0100\n"
-"POT-Creation-Date: 1998-11-05 01:55+0100\n"
+"POT-Creation-Date: 1998-11-14 02:05+0100\n"
 "PO-Revision-Date: 1998-02-03 16:00+0100nLast-Translator: Francesco Lotti "
 "<Goo@hey.to>\n"
 "Language-Team: Italiano <it@li.org>\n"
@@ -72,6 +72,15 @@ msgstr "&Estrai In..."
 msgid "E&xtract..."
 msgstr "Estrai..."
 
+#: arkwidget.cc:80
+msgid "&View file"
+msgstr ""
+
+#: arkwidget.cc:82
+#, fuzzy
+msgid "&Delete file"
+msgstr "File Selezionato"
+
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
 msgstr "&Setta la Directory di Archivio"
@@ -93,6 +102,15 @@ msgstr "Aggiungi Opzioni Files"
 #, fuzzy
 msgid "Extract..."
 msgstr "Estrai..."
+
+#: arkwidget.cc:100
+msgid "View file"
+msgstr ""
+
+#: arkwidget.cc:102
+#, fuzzy
+msgid "Delete file"
+msgstr "File Selezionato"
 
 #: arkwidget.cc:114
 #, fuzzy

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-05 01:55+0100\n"
+"POT-Creation-Date: 1998-11-14 02:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Case Roole <cjr@xs4all.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,6 +76,15 @@ msgstr "&Extract Naar..."
 msgid "E&xtract..."
 msgstr "E&xtract..."
 
+#: arkwidget.cc:80
+msgid "&View file"
+msgstr ""
+
+#: arkwidget.cc:82
+#, fuzzy
+msgid "&Delete file"
+msgstr "Gekozen Bestand"
+
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
 msgstr "&Stel Archief Map in..."
@@ -97,6 +106,15 @@ msgstr "Voeg Bestands Opties Toe"
 #, fuzzy
 msgid "Extract..."
 msgstr "E&xtract..."
+
+#: arkwidget.cc:100
+msgid "View file"
+msgstr ""
+
+#: arkwidget.cc:102
+#, fuzzy
+msgid "Delete file"
+msgstr "Gekozen Bestand"
 
 #: arkwidget.cc:114
 #, fuzzy

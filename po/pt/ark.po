@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-11-05 01:55+0100\n"
+"POT-Creation-Date: 1998-11-14 02:05+0100\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-10-09 11:06:57-0400\n"
@@ -73,6 +73,15 @@ msgstr "&Extrair Para..."
 msgid "E&xtract..."
 msgstr "E&xtrair"
 
+#: arkwidget.cc:80
+msgid "&View file"
+msgstr ""
+
+#: arkwidget.cc:82
+#, fuzzy
+msgid "&Delete file"
+msgstr "Seleccionado"
+
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
 msgstr "&Definir Directoria de Arquivo..."
@@ -94,6 +103,15 @@ msgstr "Opções de Adição de Ficheiros"
 #, fuzzy
 msgid "Extract..."
 msgstr "E&xtrair"
+
+#: arkwidget.cc:100
+msgid "View file"
+msgstr ""
+
+#: arkwidget.cc:102
+#, fuzzy
+msgid "Delete file"
+msgstr "Seleccionado"
 
 #: arkwidget.cc:114
 #, fuzzy

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/ark\n"
-"POT-Creation-Date: 1998-11-05 01:55+0100\n"
+"POT-Creation-Date: 1998-11-14 02:05+0100\n"
 "PO-Revision-Date: 1998-03-02 20:48+0100\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -73,6 +73,15 @@ msgstr "Pakk &ut til..."
 msgid "E&xtract..."
 msgstr "P&akk ut..."
 
+#: arkwidget.cc:80
+msgid "&View file"
+msgstr ""
+
+#: arkwidget.cc:82
+#, fuzzy
+msgid "&Delete file"
+msgstr "Valgte filer"
+
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
 msgstr "&Sett arkivmappe..."
@@ -92,6 +101,15 @@ msgstr "Filoperasjoner"
 #: arkwidget.cc:99
 msgid "Extract..."
 msgstr "Pakk ut..."
+
+#: arkwidget.cc:100
+msgid "View file"
+msgstr ""
+
+#: arkwidget.cc:102
+#, fuzzy
+msgid "Delete file"
+msgstr "Valgte filer"
 
 #: arkwidget.cc:114
 msgid "Goto Archive Dir..."

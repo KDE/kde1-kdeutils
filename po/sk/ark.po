@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
-"POT-Creation-Date: 1998-11-05 01:55+0100\n"
+"POT-Creation-Date: 1998-11-14 02:05+0100\n"
 "PO-Revision-Date: 1998-03-08 10:42 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -75,6 +75,15 @@ msgstr "&Rozbali» do ..."
 msgid "E&xtract..."
 msgstr "R&ozbali» ..."
 
+#: arkwidget.cc:80
+msgid "&View file"
+msgstr ""
+
+#: arkwidget.cc:82
+#, fuzzy
+msgid "&Delete file"
+msgstr "Vybrané súbory"
+
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
 msgstr "Na&stavi» prieèinok archívu ..."
@@ -96,6 +105,15 @@ msgstr "Voµby pre pridanie súboru"
 #, fuzzy
 msgid "Extract..."
 msgstr "R&ozbali» ..."
+
+#: arkwidget.cc:100
+msgid "View file"
+msgstr ""
+
+#: arkwidget.cc:102
+#, fuzzy
+msgid "Delete file"
+msgstr "Vybrané súbory"
 
 #: arkwidget.cc:114
 #, fuzzy

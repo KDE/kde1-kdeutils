@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-11-05 01:55+0100\n"
+"POT-Creation-Date: 1998-11-14 02:05+0100\n"
 "PO-Revision-Date: 1998-10-18 21:59+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "First-Translator: Robert Palmbos <robertp@pbnjelly>\n"
@@ -67,6 +67,15 @@ msgstr "&Extraer en..."
 msgid "E&xtract..."
 msgstr "E&xtraer..."
 
+#: arkwidget.cc:80
+msgid "&View file"
+msgstr ""
+
+#: arkwidget.cc:82
+#, fuzzy
+msgid "&Delete file"
+msgstr "Archivo seleccionado"
+
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
 msgstr "S&eleccionar directorio de archivos..."
@@ -88,6 +97,15 @@ msgstr "Opciones de añadir archivo"
 #, fuzzy
 msgid "Extract..."
 msgstr "E&xtraer..."
+
+#: arkwidget.cc:100
+msgid "View file"
+msgstr ""
+
+#: arkwidget.cc:102
+#, fuzzy
+msgid "Delete file"
+msgstr "Archivo seleccionado"
 
 #: arkwidget.cc:114
 #, fuzzy

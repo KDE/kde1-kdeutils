@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ark revision 1.6\n"
-"POT-Creation-Date: 1998-11-05 01:55+0100\n"
+"POT-Creation-Date: 1998-11-14 02:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
@@ -71,6 +71,15 @@ msgstr "&Packa upp till..."
 msgid "E&xtract..."
 msgstr "P&acka upp..."
 
+#: arkwidget.cc:80
+msgid "&View file"
+msgstr ""
+
+#: arkwidget.cc:82
+#, fuzzy
+msgid "&Delete file"
+msgstr "Valda filer"
+
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
 msgstr "&Välj arkiv katalog..."
@@ -92,6 +101,15 @@ msgstr "Inställningar för Lägg till fil"
 #, fuzzy
 msgid "Extract..."
 msgstr "P&acka upp..."
+
+#: arkwidget.cc:100
+msgid "View file"
+msgstr ""
+
+#: arkwidget.cc:102
+#, fuzzy
+msgid "Delete file"
+msgstr "Valda filer"
 
 #: arkwidget.cc:114
 #, fuzzy

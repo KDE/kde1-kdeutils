@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
-"POT-Creation-Date: 1998-11-05 01:55+0100\n"
+"POT-Creation-Date: 1998-11-14 02:05+0100\n"
 "PO-Revision-Date: 1998-02-02 20:55+MET\n"
 "Last-Translator: Thomas Tanghus <tanghus@earthling.net>\n"
 
@@ -67,6 +67,15 @@ msgstr "Udpak &til..."
 msgid "E&xtract..."
 msgstr "&Udpak..."
 
+#: arkwidget.cc:80
+msgid "&View file"
+msgstr ""
+
+#: arkwidget.cc:82
+#, fuzzy
+msgid "&Delete file"
+msgstr "Markerede filer"
+
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
 msgstr "&Sæt arkiv folder..."
@@ -88,6 +97,15 @@ msgstr "Tilføj filindstillinger"
 #, fuzzy
 msgid "Extract..."
 msgstr "&Udpak..."
+
+#: arkwidget.cc:100
+msgid "View file"
+msgstr ""
+
+#: arkwidget.cc:102
+#, fuzzy
+msgid "Delete file"
+msgstr "Markerede filer"
 
 #: arkwidget.cc:114
 #, fuzzy

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
-"POT-Creation-Date: 1998-11-05 01:55+0100\n"
+"POT-Creation-Date: 1998-11-14 02:05+0100\n"
 "PO-Revision-Date: 1998-04-21 05:01+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -75,6 +75,15 @@ msgstr "解壓縮至...[&E]"
 msgid "E&xtract..."
 msgstr "解壓縮...[&X]"
 
+#: arkwidget.cc:80
+msgid "&View file"
+msgstr ""
+
+#: arkwidget.cc:82
+#, fuzzy
+msgid "&Delete file"
+msgstr "選擇的檔案"
+
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
 msgstr "設定壓縮檔目錄[&S]..."
@@ -96,6 +105,15 @@ msgstr "加入檔案 選項"
 #, fuzzy
 msgid "Extract..."
 msgstr "解壓縮...[&X]"
+
+#: arkwidget.cc:100
+msgid "View file"
+msgstr ""
+
+#: arkwidget.cc:102
+#, fuzzy
+msgid "Delete file"
+msgstr "選擇的檔案"
 
 #: arkwidget.cc:114
 #, fuzzy

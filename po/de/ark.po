@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
-"POT-Creation-Date: 1998-11-05 01:55+0100\n"
+"POT-Creation-Date: 1998-11-14 02:05+0100\n"
 "PO-Revision-Date: 1998-05-11 14:21+0100\n"
 "Last-Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
 "Language-Team: German <de@li.org>\n"
@@ -72,6 +72,15 @@ msgstr "&Entpacken nach..."
 msgid "E&xtract..."
 msgstr "Ent&packen..."
 
+#: arkwidget.cc:80
+msgid "&View file"
+msgstr ""
+
+#: arkwidget.cc:82
+#, fuzzy
+msgid "&Delete file"
+msgstr "Ausgewählte Datei"
+
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
 msgstr "Archiv-Verzeichnis &setzen"
@@ -93,6 +102,15 @@ msgstr "Einstellung für das Datei-Hinzufügen"
 #, fuzzy
 msgid "Extract..."
 msgstr "Ent&packen..."
+
+#: arkwidget.cc:100
+msgid "View file"
+msgstr ""
+
+#: arkwidget.cc:102
+#, fuzzy
+msgid "Delete file"
+msgstr "Ausgewählte Datei"
 
 #: arkwidget.cc:114
 #, fuzzy

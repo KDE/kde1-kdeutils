@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1998-11-05 01:55+0100\n"
+"POT-Creation-Date: 1998-11-14 02:05+0100\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -68,6 +68,15 @@ msgstr "解压缩至...[&E]"
 msgid "E&xtract..."
 msgstr "解压缩...[&X]"
 
+#: arkwidget.cc:80
+msgid "&View file"
+msgstr ""
+
+#: arkwidget.cc:82
+#, fuzzy
+msgid "&Delete file"
+msgstr "选中的文件"
+
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
 msgstr "设定压缩文件目录[&S]..."
@@ -89,6 +98,15 @@ msgstr "添加文件选项"
 #, fuzzy
 msgid "Extract..."
 msgstr "解压缩...[&X]"
+
+#: arkwidget.cc:100
+msgid "View file"
+msgstr ""
+
+#: arkwidget.cc:102
+#, fuzzy
+msgid "Delete file"
+msgstr "选中的文件"
 
 #: arkwidget.cc:114
 #, fuzzy

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KZIP\n"
-"POT-Creation-Date: 1998-11-05 01:55+0100\n"
+"POT-Creation-Date: 1998-11-14 02:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,6 +76,15 @@ msgstr "&Pura kohteeseen..."
 msgid "E&xtract..."
 msgstr "P&ura..."
 
+#: arkwidget.cc:80
+msgid "&View file"
+msgstr ""
+
+#: arkwidget.cc:82
+#, fuzzy
+msgid "&Delete file"
+msgstr "Valittu tiedosto"
+
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
 msgstr "&Aseta arkiston hakemisto..."
@@ -97,6 +106,15 @@ msgstr "Tiedostonlisäyksen asetukset"
 #, fuzzy
 msgid "Extract..."
 msgstr "P&ura..."
+
+#: arkwidget.cc:100
+msgid "View file"
+msgstr ""
+
+#: arkwidget.cc:102
+#, fuzzy
+msgid "Delete file"
+msgstr "Valittu tiedosto"
 
 #: arkwidget.cc:114
 #, fuzzy
