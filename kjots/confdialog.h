@@ -33,7 +33,7 @@ class QLabel;
 
 class ConfDialog : public QWidget
 {
-  Q_OBJECT;
+  Q_OBJECT
 public:
   ConfDialog ();
   ~ConfDialog () {}

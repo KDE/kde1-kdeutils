@@ -51,7 +51,7 @@ void CPopupMenu::mouseReleaseEvent( QMouseEvent *e )
   QPopupMenu::mouseReleaseEvent( e );
 }
 
-void CPopupMenu::popup( const QPoint& pos, int indexAtPoint = 0 )
+void CPopupMenu::popup( const QPoint& pos, int indexAtPoint)
 {
   old_pos = pos;
   QPopupMenu::popup( pos, indexAtPoint );

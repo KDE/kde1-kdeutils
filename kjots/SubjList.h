@@ -32,7 +32,7 @@
 
 class SubjList : public QWidget
 {
-  Q_OBJECT;
+  Q_OBJECT
 public:
   SubjList( QWidget* parent = NULL, const char* name = NULL );
   virtual ~SubjList() {}

@@ -64,7 +64,7 @@ extern KIconLoader *global_pix_loader;
 // ASKFILENAME
 //----------------------------------------------------------------------
 
-AskFileName::AskFileName(QWidget* parent=0, const char* name=0)
+AskFileName::AskFileName(QWidget* parent, const char* name)
   : QDialog(parent, name, TRUE)
 {
   initMetaObject();
@@ -88,7 +88,7 @@ AskFileName::AskFileName(QWidget* parent=0, const char* name=0)
 // MYMULTIEDIT
 //----------------------------------------------------------------------
 
-MyMultiEdit::MyMultiEdit (QWidget* parent=0, const char* name=0)
+MyMultiEdit::MyMultiEdit (QWidget* parent, const char* name)
   : QMultiLineEdit(parent, name)
 {
   initMetaObject();
@@ -174,7 +174,7 @@ void MyMultiEdit::openUrl()
 // MYBUTTONGROUP
 //----------------------------------------------------------------------
 
-MyButtonGroup::MyButtonGroup (QWidget* parent=0, const char* name=0)
+MyButtonGroup::MyButtonGroup (QWidget* parent, const char* name)
   : QButtonGroup(parent, name)
 {
   initMetaObject();

@@ -60,7 +60,7 @@ protected:
 
 class MyMultiEdit : public QMultiLineEdit
 {
-  Q_OBJECT;  
+  Q_OBJECT  
 public:
   MyMultiEdit (QWidget* parent=0, const char* name=0);
   ~MyMultiEdit () {}
@@ -77,7 +77,7 @@ protected:
 
 class AskFileName : public QDialog
 {
-  Q_OBJECT;
+  Q_OBJECT
 public:
   AskFileName(QWidget* parent=0, const char* name=0);
   virtual ~AskFileName() {}
@@ -90,7 +90,7 @@ protected:
 
 class MyButtonGroup : public QButtonGroup
 {
-  Q_OBJECT;  
+  Q_OBJECT  
 public:
   MyButtonGroup (QWidget* parent=0, const char* name=0);
   ~MyButtonGroup () {}
@@ -100,7 +100,7 @@ protected:
 
 class KJotsMain : public KTopLevelWidget
 {
-  Q_OBJECT;
+  Q_OBJECT
 public:
   KJotsMain( const char* name = NULL );
   virtual ~KJotsMain();
