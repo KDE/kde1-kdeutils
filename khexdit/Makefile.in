@@ -17,8 +17,8 @@ APPSDIR = $(prefix)/apps/Applications
 ####### Defines
 
 DEFS	=	-DHAVE_CONFIG_H
-CXXFLAGS=	@CXXFLAGS@ -fno-strength-reduce @all_includes@ -I.. -I.
-LDFLAGS	=	@LDFLAGS@ @all_libraries@  -lkfm -lkdeui -lkdecore -lqt -lX11 -lXext @LIBSOCKET@
+CXXFLAGS=	@CXXFLAGS@ -fno-strength-reduce @all_includes@ -I.. -I. -I../kfm/libkfm
+LDFLAGS	=	@LDFLAGS@ @all_libraries@ -L../kfm/libkfm -lkfm -lkdeui -lkdecore -lqt -lX11 -lXext @LIBSOCKET@
 CXX	=	@CXX@
 MOC	=	@MOC@
 
