@@ -46,6 +46,8 @@ int main(int argc, char** argv)
   LG(GUARD, "addressbook main: starting.\n");
   // ########################################################  
   KApplication app(argc, argv, "kab");
+  int rc;
+  // -----
   AuthorEmailAddress="mirko@kde.org"; // static, public
   kimgioRegister();
   LG(GUARD, "addressbook main: installing signal "
@@ -61,7 +63,10 @@ int main(int argc, char** argv)
   app.setMainWidget(db);
   db->show();
   LG(GUARD, "addressbook main: executing X application.\n");
-  return app.exec();
+  rc=app.exec();
+  delete db;
+  // -----
+  return rc;
   // ########################################################
 }
 
