@@ -172,7 +172,7 @@ void Procinfo::read_loadavg()
 void Procinfo::read_common()
 {
     char path[80];
-    char buf[1024];
+    char buf[4096];    // fix for segfault in 2.2.x kernels
 
     // read memory info
     strcpy(path, procdir);
@@ -196,8 +196,12 @@ void Procinfo::read_common()
     sscanf(buf, "cpu %u %u %u %u",
 	   &cpu_time[CPU_USER], &cpu_time[CPU_NICE],
 	   &cpu_time[CPU_SYSTEM], &cpu_time[CPU_IDLE]);
-    p = strstr(buf, "btime") + 6;
-    sscanf(p, "%u", &boot_time);
+    p = strstr(buf, "btime");
+    if(!p) {
+      fprintf(stderr, "Warning: btime not found, unknown btime!\n");
+      boot_time = time(NULL);
+    } else
+    sscanf(p+6, "%u", &boot_time);
 
     // read uptime
     strcpy(path, procdir);
