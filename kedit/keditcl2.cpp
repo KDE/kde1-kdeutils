@@ -689,6 +689,7 @@ KEdSrch::KEdSrch(QWidget *parent, const char *name)
     mainLayout->addWidget(frame1);
     QVBoxLayout * frameLayout = new QVBoxLayout(frame1, 15);
 
+    frameLayout->addSpacing( 5 );
     value = new QLineEdit( frame1, "value");
     value->setFocus();
     value->setMinimumWidth(200);
@@ -721,7 +722,7 @@ KEdSrch::KEdSrch(QWidget *parent, const char *name)
     cancel->setFixedSize(cancel->sizeHint()); 
     hLay->addWidget(cancel);
     hLay->addStretch();
-    cancel->setFocus();
+//    cancel->setFocus();
 
     connect(cancel, SIGNAL(clicked()), this, SLOT(done_slot()));
     //    connect(cancel, SIGNAL(clicked()), this, SLOT(reject()));
