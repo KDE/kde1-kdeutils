@@ -27,12 +27,14 @@ DISTCLEANFILES = $(BUILTSOURCES)
 SUBDIRS = docs support 
 
 pics_DATA = kljetlogo.xpm
-picsdir = $(kde_datadir)/kljettool/pics/
+picsdir = $(kde_icondir)
 
 apps_DATA = KLJetTool.kdelnk
 appsdir = $(kde_appsdir)/Utilities/
 
 install-local-data:
+	$(mkinstalldirs) $(kde_minidir)
+	$(INSTALL_DATA) mini-kljettool.xpm $(kde_minidir)/kljettool.xpm
 	@echo ""
 	@echo ""
 	@echo "If you own a RedHat system or if you have trouble getting"
@@ -42,7 +44,10 @@ install-local-data:
 	@echo "thanks,"
 	@echo "Bernd Wuebben"
 	@echo "wuebben@kde.org"
-	@echo ""	
+	@echo ""
+	
+uninstall-local:
+	rm -f $(kde_minidir)/kljettool.xpm
 
 ####### Meta objects
 
