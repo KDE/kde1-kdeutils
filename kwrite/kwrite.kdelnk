@@ -3,7 +3,7 @@
 Comment=A powerful text editor
 Comment[ca]=Un editor de textos potent
 Comment[cs]=Mocný textový editor
-Comment[da]=En kraftig teksteditor
+Comment[da]=En kraftig tekstbehandler
 Comment[de]=Ein leistungsfähiger Texteditor
 Comment[es]=Un potente editor de textos
 Comment[fi]=Tehokas tekstimuokkain
@@ -23,7 +23,7 @@ Comment[sv]=En kraftfull texteditor
 BinaryPattern=
 Name=Advanced Editor
 Name[cs]=Pokroèilý editor
-Name[da]=Avanceret tekstredigering
+Name[da]=Avanceret tekstbehandling
 Name[de]=KWrite: Erweiterter Editor
 Name[es]=Editor Avanzado
 Name[fi]=Edistynyt editori
