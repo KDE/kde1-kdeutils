@@ -21,17 +21,15 @@ msgstr "Fel vid öppnandet av %s"
 
 #: hexwidget.cpp:79
 msgid "Save &As..."
-msgstr ""
+msgstr "Spara s&om..."
 
 #: hexwidget.cpp:90
-#, fuzzy
 msgid "&Toggle Toolbar"
-msgstr "Verktygsrad på/av"
+msgstr "&Verktygsrad på/av"
 
 #: hexwidget.cpp:93
-#, fuzzy
 msgid "Hex Editor"
-msgstr "Om Hexeditor"
+msgstr "Hexeditor"
 
 #: hexwidget.cpp:93
 msgid ""
@@ -39,6 +37,9 @@ msgid ""
 "\n"
 "by Stephan Kulow"
 msgstr ""
+"\n"
+"\n"
+"av Stephan Kulow"
 
 #: hexwidget.cpp:115
 msgid "New Window"
@@ -53,24 +54,20 @@ msgid "Not implemented"
 msgstr "Inte implementerat"
 
 #: hexwidget.cpp:158
-#, fuzzy
 msgid ""
 "The current file has been modified.\n"
 "Do you want to save it?"
 msgstr ""
 "Den aktuella filen har ändrats!\n"
-"\n"
 "Vill du spara den?"
 
 #: hexwidget.cpp:184
-#, fuzzy
 msgid ""
 "The current file has been modified.\n"
 "Discard your changes?"
 msgstr ""
 "Den aktuella filen har ändrats!\n"
-"\n"
-"Vill du spara den?"
+"Vill du förlora dina ändringar?"
 
 #: hexwidget.cpp:265
 msgid ""

@@ -31,9 +31,8 @@ msgid "Hide &Status Bar"
 msgstr "Göm &statusrad"
 
 #: kedit.cpp:151
-#, fuzzy
 msgid "Select All"
-msgstr "Ersätt alla"
+msgstr "Markera alla"
 
 #: kedit.cpp:180
 msgid "&About..."
@@ -44,9 +43,8 @@ msgid "Ne&w..."
 msgstr "&Ny"
 
 #: kedit.cpp:189
-#, fuzzy
 msgid "Open Recen&t..."
-msgstr "Öppna &URL..."
+msgstr "Öppna &igen"
 
 #: kedit.cpp:201
 msgid "Open &URL..."
@@ -54,7 +52,7 @@ msgstr "Öppna &URL..."
 
 #: kedit.cpp:203
 msgid "Save to U&RL..."
-msgstr "Spata till U&RL..."
+msgstr "Spara till U&RL..."
 
 #: kedit.cpp:209
 msgid "&Mail..."
@@ -65,12 +63,10 @@ msgid "New &Window"
 msgstr "Nytt &fönster"
 
 #: kedit.cpp:227
-#, fuzzy
 msgid "&Select All"
-msgstr "Ersätt alla"
+msgstr "&Markera alla"
 
 #: kedit.cpp:230
-#, fuzzy
 msgid "&Insert File"
 msgstr "Infoga &fil"
 
@@ -103,9 +99,8 @@ msgid "Colors"
 msgstr "Färger"
 
 #: kedit.cpp:250
-#, fuzzy
 msgid "KEdit &Options..."
-msgstr "&Övriga inställningar"
+msgstr "&KEdit inställningar"
 
 #: kedit.cpp:252
 msgid "Auto &Indent"
@@ -182,13 +177,12 @@ msgstr ""
 "Avsluta ändå?"
 
 #: kedit.cpp:666
-#, fuzzy
 msgid ""
 "The current document has been modified.\n"
 "Continue anyways ?"
 msgstr ""
 "Det nuvarande dokumentet har ändrats.\n"
-"Vill du spara det?"
+"Vill du fortsätta ändå?"
 
 #: kedit.cpp:807
 #, c-format
@@ -237,13 +231,12 @@ msgstr ""
 "det skrivs ut?"
 
 #: kedit.cpp:1141
-#, fuzzy
 msgid ""
 "Could not save the file.\n"
 "Print anyways?"
 msgstr ""
 "Kunde inte spara filen.\n"
-"Avsluta ändå?"
+"Vill du skriva ut ändå?"
 
 #: kedit.cpp:1234
 #, c-format
@@ -296,6 +289,8 @@ msgid ""
 "Malformed URL\n"
 "%s"
 msgstr ""
+"Felaktig URL\n"
+"%s"
 
 #: kedit.cpp:1429
 #, c-format
@@ -341,6 +336,8 @@ msgid ""
 "Can not create:\n"
 "%s"
 msgstr ""
+"Kan inte skapa:\n"
+"%s"
 
 #: print.cpp:66
 msgid "Print Dialog"
@@ -359,9 +356,8 @@ msgid "Print Selection"
 msgstr "Skriv ut markering"
 
 #: filldlg.cpp:31
-#, fuzzy
 msgid "KEdit Options"
-msgstr "&Inställningar"
+msgstr "KEdit inställningar"
 
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"
@@ -369,7 +365,7 @@ msgstr "Sätt fyllningskolumn vid:"
 
 #: filldlg.cpp:40
 msgid "Word Warp"
-msgstr "Hugg av rader"
+msgstr "Bryt rader"
 
 #: filldlg.cpp:44
 msgid "Mail Command:"
