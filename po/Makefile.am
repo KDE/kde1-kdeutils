@@ -1,5 +1,5 @@
 
-SUBDIRS = de fr cs nl sv es ru hu it pl pt fi hr el
+SUBDIRS = de fr cs nl sv es ru hu it pl pt fi hr el ro
 
 # this is a general list for merging!
 APPS = kedit khexdit kzip knotes
