@@ -153,4 +153,3 @@ msgstr ""
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"
 msgstr "Polut jonokomennoille:"
-

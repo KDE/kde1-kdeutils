@@ -31,8 +31,8 @@ msgid ""
 "There was an error trying to save your data file.\n"
 "Time accumulated this session will NOT be saved!\n"
 msgstr ""
-"Υπήρξε ένα σφάλμα στην προσπάθεια αποθήκευσης του αρχείου δεδομένων.\n" 
-"Η χρονική διάρκεια αυτής της περιόδου ΔΕΝ θα σωθεί!\n" 
+"Υπήρξε ένα σφάλμα στην προσπάθεια αποθήκευσης του αρχείου δεδομένων.\n"
+"Η χρονική διάρκεια αυτής της περιόδου ΔΕΝ θα σωθεί!\n"
 
 #: karm.cpp:119
 msgid "Oh No!"

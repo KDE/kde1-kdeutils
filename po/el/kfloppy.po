@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kfloppy\n"
-"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"POT-Creation-Date: 1999-03-13 01:55+0100\n"
 "PO-Revision-Date: 1999-02-10 18:00+0200\n"
 "Last-Translator: Yiannis Belias <orion@hellug.gr>\n"
 "Language-Team: Greek <linux-howto@hellug.gr>\n"
@@ -61,6 +61,7 @@ msgid "KDE Floppy Formatter"
 msgstr "Διαμορφωτής Δισκέττας του KDE"
 
 #: floppy.cpp:168 floppy.cpp:222 floppy.cpp:240 floppy.cpp:255 floppy.cpp:273
+#: floppy.cpp:1016
 msgid "HD"
 msgstr "HD"
 
@@ -75,9 +76,9 @@ msgid ""
 "Make sure that the device exists and that\n"
 "you have write permission to it."
 msgstr ""
-"Πρόσβαση στο %s αδύνατη\n" 
-"Βεβαιωθήτε ότι η συσκευή υπάρχει και έχετε\n" 
-"σε αυτή δικαιώματα εγγραφής." 
+"Πρόσβαση στο %s αδύνατη\n"
+"Βεβαιωθήτε ότι η συσκευή υπάρχει και έχετε\n"
+"σε αυτή δικαιώματα εγγραφής."
 
 #: floppy.cpp:339
 msgid ""
@@ -85,9 +86,9 @@ msgid ""
 "kfdformat is part of the KFloppy distribution.\n"
 "Please install KFloppy properly."
 msgstr ""
-"Δε βρίσκω το kfdformat\n" 
-"Το kfdformat είναι μέρος της διανομής του KFloppy.\n" 
-"Παρακαλώ εγκαταστήστε ολόκληρο το KFloppy." 
+"Δε βρίσκω το kfdformat\n"
+"Το kfdformat είναι μέρος της διανομής του KFloppy.\n"
+"Παρακαλώ εγκαταστήστε ολόκληρο το KFloppy."
 
 #: floppy.cpp:355
 msgid ""
@@ -95,9 +96,9 @@ msgid ""
 "kmke2fs is part of the KFloppy distribution.\n"
 "Please install KFloppy properly."
 msgstr ""
-"Δε βρίσκω το kmke2fs\n" 
-"Το kmke2fs είναι μέρος της διανομής του KFloppy.\n" 
-"Παρακαλώ εγκαταστήστε ολόκληρο το KFloppy." 
+"Δε βρίσκω το kmke2fs\n"
+"Το kmke2fs είναι μέρος της διανομής του KFloppy.\n"
+"Παρακαλώ εγκαταστήστε ολόκληρο το KFloppy."
 
 #: floppy.cpp:370
 msgid ""
@@ -105,9 +106,9 @@ msgid ""
 "kmkdosfs is part of the KFloppy distribution.\n"
 "Please install KFloppy properly."
 msgstr ""
-"Δε βρίσκω το kmkdosfs\n" 
-"Το kmkdosfs είναι μέρος της διανομής του KFloppy.\n" 
-"Παρακαλώ εγκαταστήστε ολόκληρο το KFloppy." 
+"Δε βρίσκω το kmkdosfs\n"
+"Το kmkdosfs είναι μέρος της διανομής του KFloppy.\n"
+"Παρακαλώ εγκαταστήστε ολόκληρο το KFloppy."
 
 #: floppy.cpp:430
 msgid "Abort"
@@ -123,9 +124,9 @@ msgid ""
 "Please insert a floppy and make sure that you\n"
 "have selected a valid floppy drive.\n"
 msgstr ""
-"Δεν έχω πρόσβαση στη δισκέττα ή τον οδηγό δισκέττας\n" 
-"Παρακαλώ εισάγετε μια δισκέττα και βεβαιωθήτε ότι\n" 
-"έχετε επιλέξει έγκυρο οδηγό δισκέττας.\n" 
+"Δεν έχω πρόσβαση στη δισκέττα ή τον οδηγό δισκέττας\n"
+"Παρακαλώ εισάγετε μια δισκέττα και βεβαιωθήτε ότι\n"
+"έχετε επιλέξει έγκυρο οδηγό δισκέττας.\n"
 
 #: floppy.cpp:593
 #, c-format
@@ -133,12 +134,11 @@ msgid ""
 "Cannot format: %s\n"
 "%s"
 msgstr ""
-"Δε μπορώ να διαμορφώσω το: %s\n" 
-"%s" 
+"Δε μπορώ να διαμορφώσω το: %s\n"
+"%s"
 
 #: floppy.cpp:640
-#, fuzzy
-#, c-format
+#, fuzzy, c-format
 msgid "Block %d is bad. Continuing ..."
 msgstr "Το μπλοκ %d είναι χτυπημένο. Συννεχίζω ..."
 
@@ -148,12 +148,11 @@ msgid ""
 "Cannot create a filesystem on: %s\n"
 "%s"
 msgstr ""
-"Δεν μπορώ να δημιουργήσω σύστημα αρχείων στο: %s\n" 
-"%s" 
+"Δεν μπορώ να δημιουργήσω σύστημα αρχείων στο: %s\n"
+"%s"
 
 #: floppy.cpp:759
-#, fuzzy
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "The floppy was sucessfully formatted.\n"
 "Blocks marked bad: %d\n"
@@ -180,12 +179,14 @@ msgid ""
 "Cannot start a new program\n"
 "fork() failed."
 msgstr ""
-"Δε μπορώ να ξεκινήσω νέο πρόγραμμα\n" 
+"Δε μπορώ να ξεκινήσω νέο πρόγραμμα\n"
 "η fork() απέτυχε."
 
 #: floppy.cpp:913
 msgid "Error while trying to determine whether floppy is mounted\n"
-msgstr "Σφάλμα κατά την προσπάθεια να καθορίσω αν η δισκέττα είναι προσαρτημένη(mounted)\n"
+msgstr ""
+"Σφάλμα κατά την προσπάθεια να καθορίσω αν η δισκέττα είναι "
+"προσαρτημένη(mounted)\n"
 
 #: floppy.cpp:930
 #, c-format
@@ -193,5 +194,5 @@ msgid ""
 "%s is mounted.\n"
 "Please unmount the floppy first."
 msgstr ""
-"Το %s είναι προσαρτημένο(mounted).\n" 
-"Παρακαλώ αποπροσαρτήστε(unmount) πρώτα τη δισκέττα." 
+"Το %s είναι προσαρτημένο(mounted).\n"
+"Παρακαλώ αποπροσαρτήστε(unmount) πρώτα τη δισκέττα."

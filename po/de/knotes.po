@@ -369,6 +369,7 @@ msgstr ""
 "Bitte wählen Sie einen anderen Namen!"
 
 #: docking.cpp:48
+#, c-format
 msgid "Could not load %s !"
 msgstr "%s konnte nicht geladen werden"
 
