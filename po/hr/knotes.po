@@ -89,14 +89,12 @@ msgid "Point Size:"
 msgstr "Velièina toèke:"
 
 #: knotes.cpp:268
-#, fuzzy
 msgid "Text Color..."
-msgstr "Boja teksta"
+msgstr "Boja teksta..."
 
 #: knotes.cpp:269
-#, fuzzy
 msgid "Background Color..."
-msgstr "Boja pozadine"
+msgstr "Boja pozadine..."
 
 #: knotes.cpp:275
 msgid "New Note"
@@ -107,9 +105,8 @@ msgid "Delete Note"
 msgstr "Obri¹i bilje¹ku"
 
 #: knotes.cpp:279
-#, fuzzy
 msgid "Rename Note..."
-msgstr "Preimenuj bilje¹ku"
+msgstr "Preimenuj bilje¹ku..."
 
 #: knotes.cpp:281
 msgid "Alarm ..."
@@ -132,9 +129,8 @@ msgid "3D Frame"
 msgstr "3D Okvir"
 
 #: knotes.cpp:297
-#, fuzzy
 msgid "Font..."
-msgstr "Font"
+msgstr "Pismo..."
 
 #: knotes.cpp:298
 msgid "Colors"
@@ -142,12 +138,11 @@ msgstr "Boje"
 
 #: knotes.cpp:300
 msgid "Change Defaults ..."
-msgstr "Promjena podrazumijevane postave ..."
+msgstr "Promjena podrazumijevane vrijednosti ..."
 
 #: knotes.cpp:326
-#, fuzzy
 msgid "Hide Note"
-msgstr "Nova bilje¹ka"
+msgstr "Sakrij bilje¹ku"
 
 #: knotes.cpp:328
 msgid "Insert Date"
@@ -271,9 +266,8 @@ msgid "Inconsistency"
 msgstr "Nedosljednost"
 
 #: mail.cpp:40
-#, fuzzy
 msgid "Mail Note to:"
-msgstr "Po¹alji po¹tom bilje¹ku ..."
+msgstr "Po¹alji po¹tom bilje¹ku:"
 
 #: mail.cpp:49
 msgid "Subject:"
