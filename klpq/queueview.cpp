@@ -77,7 +77,7 @@ void MyRow::paint( QPainter *p, int col, int width )
 //-------------------------------------------
 
 MyRowTable::MyRowTable( QWidget *parent = NULL, const char *name = NULL )
-  : KRowTable( SelectRow, parent, name )
+  : KRowTable( KRowTable::SelectRow, parent, name )
 {
   setCellHeight( fontMetrics().lineSpacing() );
   setNumCols( 5 );

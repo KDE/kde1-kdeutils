@@ -21,7 +21,7 @@ private:    // Disabled copy constructor and operator=
 class KRowTable : public QTableView
 {
 	Q_OBJECT
-
+public:
 	enum Flags {SelectRow, SelectCell, SelectFixed};
 
 public:
