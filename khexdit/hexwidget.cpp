@@ -62,11 +62,11 @@ int HexWidget::initMenu() {
   pixmap.load(PIXDIR + "filefloppy.xpm");
   toolbar->insertItem(pixmap,ID_FILE_SAVE, TRUE, "Save the file");
   toolbar->insertSeparator();
-  pixmap.load(PIXDIR + "editcut.xpm");
+  pixmap.load(PIXDIR + "page.xpm");
   toolbar->insertItem(pixmap,ID_EDIT_CUT, FALSE, "Not Implemented");
-  pixmap.load(PIXDIR + "editcopy.xpm");
+  pixmap.load(PIXDIR + "contents.xpm");
   toolbar->insertItem(pixmap,ID_EDIT_COPY, FALSE, "Not Implemented");
-  pixmap.load(PIXDIR + "editpaste.xpm");
+  pixmap.load(PIXDIR + "devious.xpm");
   toolbar->insertItem(pixmap,ID_EDIT_PASTE, FALSE, "Not Implemented");
   toolbar->insertSeparator();
   pixmap.load(PIXDIR + "fileprint.xpm");
