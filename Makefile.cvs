@@ -48,6 +48,7 @@ dist:
 	touch -r configure.in.1 configure.in; \
 	touch configure; \
 	touch stamp-h.in; \
+	( cd kfloppy/e2fs && autoconf ); \
 	rm -f ./SUBDIRS; \
 	files=`ls -1`; \
 	dirs=`for i in $$files; do if test -d $$i; then echo $$i; fi; done`; \
