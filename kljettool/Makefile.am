@@ -5,7 +5,7 @@ APPSDIR = @kde_appsdir@/Utilities/
 PICSDIR = @kde_datadir@/kljettool/pics/
 
 LDFLAGS	=	$(all_libraries) $(KDE_RPATH)
-LDADD   =       -lkdecore -lqt -lm -lXext -lX11 $(LIBSOCKET)
+LDADD   =       -lkdecore  -lm -lXext  $(LIB_QT)
 INCLUDES=	$(all_includes)
 
 ####### Files
