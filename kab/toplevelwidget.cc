@@ -71,8 +71,8 @@ bool ABTLWidget::constructMenu()
   CHECK(file!=0);
   id=file->insertItem(i18n("&Save"), widget, SLOT(save()),
 		      CTRL+Key_S);
-  QPopupMenu* export=new QPopupMenu;
-  export->insertItem
+  QPopupMenu *_export=new QPopupMenu;
+  _export->insertItem
     (i18n("HTML table"), widget, SLOT(exportHTML()));
   /*
     export->insertItem
@@ -82,7 +82,7 @@ bool ABTLWidget::constructMenu()
     export->insertItem
     (i18n("TeX labels"), widget, SLOT(exportTeXLabels()));
   */
-  file->insertItem(i18n("Export"), export);
+  file->insertItem(i18n("Export"), _export);
   file->insertSeparator();
   file->insertItem(i18n("Search &entries"), widget, 
 		   SLOT(search()), CTRL+Key_F);
