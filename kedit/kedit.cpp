@@ -1346,7 +1346,7 @@ void TopLevel::print(){
 
       if(!pi.selection){ // print the whole file
 	
-	com.sprintf("%s %s &",command.data(), eframe->getName().data());
+	com.sprintf("%s '%s' &",command.data(), eframe->getName().data());
 	system(com.data());
 	QString string;	
 	string.sprintf(i18n("Printing: %s"),com.data());
