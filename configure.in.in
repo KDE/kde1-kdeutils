@@ -105,6 +105,7 @@ AC_ARG_PROGRAM
 AC_MSG_CHECKING(if kpm can be compiled)
 case "$host" in 
   *86-*-linux-*) kpm_compile=yes ;;
+  alpha*-*-linux-*) kpm_compile=yes ;;
   *) kpm_compile=no
 esac
 AC_MSG_RESULT($kpm_compile)
@@ -117,6 +118,7 @@ dnl Alpha Linux might work as well; please test and modify check
 AC_MSG_CHECKING(if ktop can be compiled)
 case "$host" in
   *86-*-linux-*) ktop_compile=yes ;;
+  alpha*-*-linux-*) kpm_compile=yes ;;
   *-*-freebsd-*) ktop_compile=yes ;;
   *) ktop_compile=no
 esac
