@@ -1,6 +1,6 @@
 # KDE Config File
 [KDE Desktop Entry]
-Comment[C]=LaserJet Control
+Comment[C]=KLJetTool: so you can configure your LaserJet from your desk
 Comment[is_IS]=kljettool:  LaserJet prentstjóri
 Comment[es]=Controlador de impresoras LaserJet
 Comment[fi]=LaserJet hallinta
@@ -17,7 +17,7 @@ Comment[hr]=Kontroliraj LaserJet pisaè
 Comment[ro]=Program de configurat imprimante HP LaserJet
 BinaryPattern=ljettool;
 Protocols=
-Name[C]=KLaserJet
+Name[C]=HP LaserJet Control Panel
 Name[is_IS]=Prentstjóri
 Name[es]=HP LaserJet
 Name[de]=KLaserJet
