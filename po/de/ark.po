@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "POT-Creation-Date: 1998-11-14 02:05+0100\n"
-"PO-Revision-Date: 1998-05-11 14:21+0100\n"
-"Last-Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
+"PO-Revision-Date: 1998-11-16 09:21+0100\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: ISO-8859-1\n"
 "Translator: Stephan Kulow <coolo@kde.org>\n"
+"Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 
 #: adddlg.cc:11
 msgid "Add File Options"
-msgstr "Einstellung für das Datei-Hinzufügen"
+msgstr "Einstellung für Hinzufügen v. Dateien"
 
 #: adddlg.cc:21
 msgid "Store Full Path"
@@ -20,12 +20,11 @@ msgstr "Ganzen Pfad abspeichern"
 
 #: adddlg.cc:24
 msgid "Only Add Newer Files"
-msgstr "Nur neuere Dateien speichern"
+msgstr "Nur neuere Dateien hinzufügen"
 
 #: extractdlg.cc:14
-#, fuzzy
 msgid "Extract"
-msgstr "Ent&packen..."
+msgstr "Entpacken"
 
 #: extractdlg.cc:28
 msgid "Destination"
@@ -37,7 +36,7 @@ msgstr "Option"
 
 #: extractdlg.cc:52
 msgid "Preserve Permissions"
-msgstr "Berechtigungen erhalten"
+msgstr "Berechtigungen beibehalten"
 
 #: extractdlg.cc:57
 msgid "Filenames to Lowercase"
@@ -56,17 +55,16 @@ msgid "Pattern"
 msgstr "Maske"
 
 #: extractdlg.cc:190
-#, fuzzy
 msgid "Extract To"
-msgstr "&Entpacken nach..."
+msgstr "&Entpacken in"
 
 #: arkwidget.cc:71
 msgid "&New..."
-msgstr ""
+msgstr "&Neu"
 
 #: arkwidget.cc:74
 msgid "&Extract To..."
-msgstr "&Entpacken nach..."
+msgstr "&Entpacken in..."
 
 #: arkwidget.cc:79
 msgid "E&xtract..."
@@ -74,16 +72,15 @@ msgstr "Ent&packen..."
 
 #: arkwidget.cc:80
 msgid "&View file"
-msgstr ""
+msgstr "&Datei anzeigen"
 
 #: arkwidget.cc:82
-#, fuzzy
 msgid "&Delete file"
-msgstr "Ausgewählte Datei"
+msgstr "Datei &löschen"
 
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
-msgstr "Archiv-Verzeichnis &setzen"
+msgstr "Archiv-Verzeichnis &setzen..."
 
 #: arkwidget.cc:85
 msgid "Set &Tar Executable..."
@@ -94,50 +91,44 @@ msgid "&File Adding Options..."
 msgstr "&Hinzufüge-Optionen"
 
 #: arkwidget.cc:97
-#, fuzzy
 msgid "File Operations"
-msgstr "Einstellung für das Datei-Hinzufügen"
+msgstr "Datei-Operationen"
 
 #: arkwidget.cc:99
-#, fuzzy
 msgid "Extract..."
-msgstr "Ent&packen..."
+msgstr "Entpacken..."
 
 #: arkwidget.cc:100
 msgid "View file"
-msgstr ""
+msgstr "Datei anzeigen"
 
 #: arkwidget.cc:102
-#, fuzzy
 msgid "Delete file"
-msgstr "Ausgewählte Datei"
+msgstr "Datei löschen"
 
 #: arkwidget.cc:114
-#, fuzzy
 msgid "Goto Archive Dir..."
-msgstr "Archiv-Verzeichnis &setzen"
+msgstr "Gehe zu Archiv-Verzeichnis"
 
 #: arkwidget.cc:117
-#, fuzzy
 msgid "Extract To.."
-msgstr "&Entpacken nach..."
+msgstr "Entpacke in..."
 
 #: arkwidget.cc:121
 msgid "Exit"
-msgstr ""
+msgstr "Schließen"
 
 #: arkwidget.cc:128
-#, fuzzy
 msgid "Welcome to ark..."
-msgstr "Willkommen zu KZip..."
+msgstr "Willkommen bei ark..."
 
 #: arkwidget.cc:235
 msgid "Can't create archive of that type"
-msgstr "Kann Archiv mit diesem Typen nicht erstellen"
+msgstr "Kann Archiv dieses Typs nicht erstellen"
 
 #: arkwidget.cc:257
 msgid "Create or open an archive first"
-msgstr "Erstellen oder Öffnen Sie zuerst ein Archiv"
+msgstr "Erstellen oder öffnen Sie zuerst ein Archiv"
 
 #: arkwidget.cc:300
 msgid "Can't add directories with this archive type"
@@ -148,13 +139,12 @@ msgid "Error saving to archive"
 msgstr "Fehler beim Speichern des Archivs"
 
 #: arkwidget.cc:312
-#, fuzzy
 msgid "Archive Dir"
-msgstr "Archiv-Verzeichnis:"
+msgstr "Archiv-Verzeichnis"
 
 #: arkwidget.cc:325
 msgid "What runs GNU tar:"
-msgstr "Daß, was GNU-tar ausführt:"
+msgstr "Das, was GNU-tar ausführt:"
 
 #: arkwidget.cc:376 arkwidget.cc:578
 msgid "Unknown archive format"
@@ -171,6 +161,3 @@ msgstr "Archiv-Verzeichnis existiert nicht."
 #: arkwidget.cc:418
 msgid "Archive Directory"
 msgstr "Archive-Verzeichnis"
-
-#~ msgid "Files"
-#~ msgstr "Dateien"

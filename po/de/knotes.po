@@ -2,13 +2,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "POT-Creation-Date: 1998-10-01 13:42+0200\n"
-"PO-Revision-Date: 1998-05-07 18:31+0100\n"
-"Last-Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
+"PO-Revision-Date: 1998-11-17 10:31+0100\n"
 "Language-Team: German <kde-i18n@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: ISO-8859-1\n"
 "Translator: Oliver Hensel <oliver.hensel@gmx.de>\n"
+"Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 
 #: knotes.cpp:300
 msgid "Text Color..."
@@ -126,7 +126,7 @@ msgid ""
 "note permanently?"
 msgstr ""
 "Sind Sie sicher, daß Sie diese Notiz\n"
-"unwiederbringlich löschen möchten?"
+"für immer löschen möchten?"
 
 #: knotes.cpp:1078
 #, c-format
@@ -170,7 +170,7 @@ msgid ""
 "Close anyways?"
 msgstr ""
 "Konnte diese Notiz nicht speichern.\n"
-"Trotzdem schliessen?"
+"Trotzdem schließen?"
 
 #: knotes.cpp:1678
 #, c-format
@@ -182,8 +182,8 @@ msgid ""
 "\n"
 "I will correct the Problem for you."
 msgstr ""
-"Es wurde ein Alarm gefunden, für den die\n"
-"dazugehörige KNotes-Datei:\n"
+"Es wurde eine Warnung gefunden, für die\n"
+"die zugehörige KNotes-Datei:\n"
 "%s\n"
 "nicht mehr existiert.\n"
 "\n"
@@ -191,7 +191,7 @@ msgstr ""
 
 #: knotes.cpp:1686
 msgid "Inconsistency"
-msgstr "Inkonsistenzen"
+msgstr "Inkonsistenz"
 
 #: configdlg.cpp:50
 msgid "Text Color:"
@@ -207,15 +207,15 @@ msgstr "Breite:"
 
 #: configdlg.cpp:93
 msgid "Height:"
-msgstr "Breite"
+msgstr "Breite:"
 
 #: configdlg.cpp:104
 msgid "Print Command:"
-msgstr "Druck-Kommando:"
+msgstr "Druck-Befehl:"
 
 #: configdlg.cpp:112
 msgid "Mail Command:"
-msgstr "Mail-Kommando:"
+msgstr "Mail-Befehl:"
 
 #: configdlg.cpp:123
 msgid "3d Frame"
@@ -223,7 +223,7 @@ msgstr "3D Rahmen"
 
 #: fontdlg.cpp:45
 msgid "Set Default Font"
-msgstr "Gesetzte Standard-Schriftart"
+msgstr "Gesetzte Standard-Schrift"
 
 #: fontdlg.cpp:54
 msgid "Family:"
@@ -231,7 +231,7 @@ msgstr "Familie:"
 
 #: fontdlg.cpp:64
 msgid "Point Size:"
-msgstr "Punkt-Grösse"
+msgstr "Punktgröße"
 
 #: fontdlg.cpp:75
 msgid "Style:"
@@ -280,7 +280,7 @@ msgstr "Setzen"
 
 #: alarm.cpp:153
 msgid "I am afraid you already missed your appointment."
-msgstr "Dies Treffen haben Sie schon verpasst!"
+msgstr "Ich fürchte, dieses Treffen haben Sie schon verpaßt."
 
 #: bwdatetime.cpp:44
 msgid "Day:"
@@ -341,6 +341,3 @@ msgstr "KNotes beenden"
 #: docking.cpp:95
 msgid "New Knote"
 msgstr "Neue KNote"
-
-#~ msgid "Hide Note"
-#~ msgstr "Verberge Notiz"

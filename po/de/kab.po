@@ -1,17 +1,16 @@
-# SOME DESCRIPTIVE TITLE.
+# Kab (Adreßbuch)
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1998-11-03 10:06+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 1998-11-17 09:30+0100\n"
+"Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
+"Language-Team: de <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: AddressBookAbout.cpp:25
@@ -36,25 +35,23 @@ msgstr ""
 
 #: AddressBookAbout.cpp:44
 msgid "written and maintained by"
-msgstr ""
+msgstr "Geschrieben und betreut von"
 
 #: AddressBookAboutData.cpp:62
 msgid "kab 0.8, August 1998"
-msgstr ""
+msgstr "Kab 0.8, August 1998"
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
 msgstr "Initialisierungsfehler"
 
 #: toplevelwidget.cc:37
-#, fuzzy
 msgid "The program's menubar could not be constructed."
-msgstr "Das Programmenu konnte nicht erzeugt werden."
+msgstr "Die Programm-Menuleiste konnte nicht erzeugt werden."
 
 #: toplevelwidget.cc:45
-#, fuzzy
 msgid "The program's statusbar could not be constructed."
-msgstr "Die Statuszeile konnte nicht erzeugt werden."
+msgstr "Die Statusleiste des Programms konnte nicht erzeugt werden."
 
 #: toplevelwidget.cc:58
 msgid "KDE addressbook."
@@ -62,11 +59,11 @@ msgstr "KDE Adreßbuch"
 
 #: toplevelwidget.cc:76
 msgid "HTML table"
-msgstr ""
+msgstr "HTML-Tabelle"
 
 #: toplevelwidget.cc:85
 msgid "Export"
-msgstr ""
+msgstr "Exportieren"
 
 #: toplevelwidget.cc:87
 msgid "Search &entries"
@@ -82,7 +79,7 @@ msgstr "Eintrag hinzufügen"
 
 #: toplevelwidget.cc:103
 msgid "&Edit entry"
-msgstr "Eintrag editieren"
+msgstr "Eintrag bearbeiten"
 
 #: toplevelwidget.cc:105
 msgid "&Remove entry"
@@ -90,7 +87,7 @@ msgstr "Eintrag löschen"
 
 #: toplevelwidget.cc:117
 msgid "&Mail"
-msgstr "Email versenden"
+msgstr "&Mail"
 
 #: toplevelwidget.cc:119
 msgid "&Talk"
@@ -98,7 +95,7 @@ msgstr "Talk-Client aufrufen"
 
 #: toplevelwidget.cc:121
 msgid "&Browse"
-msgstr "Homepage browsen"
+msgstr "&Browsen"
 
 #: toplevelwidget.cc:126
 msgid "Help on Addressbook"
@@ -123,458 +120,3 @@ msgstr "Ü&ber"
 #: toplevelwidget.cc:192
 msgid "About Qt"
 msgstr "Über Qt"
-
-#~ msgid "Search entries"
-#~ msgstr "Einträge durchsuchen"
-
-#~ msgid "Search"
-#~ msgstr "Suchen"
-
-#~ msgid "Cancel"
-#~ msgstr "Abbrechen"
-
-#~ msgid "contains"
-#~ msgstr "enthält"
-
-#~ msgid "The title"
-#~ msgstr "Der Titel"
-
-#~ msgid "The first name"
-#~ msgstr "Der Vorname"
-
-#~ msgid "The additional name"
-#~ msgstr "Der zweite Name"
-
-#~ msgid "The name prefix"
-#~ msgstr "Der Zusatz zum Namen"
-
-#~ msgid "The name"
-#~ msgstr "Der Name"
-
-#~ msgid "The formatted name"
-#~ msgstr "Der formatierte Name"
-
-#~ msgid "The address"
-#~ msgstr "Die Adresse"
-
-#~ msgid "The town"
-#~ msgstr "Die Stadt"
-
-#~ msgid "The organization"
-#~ msgstr "Der Name der Organisation"
-
-#~ msgid "The role"
-#~ msgstr "Die Position"
-
-#~ msgid "The org unit"
-#~ msgstr "Die Abteilung"
-
-#~ msgid "The org subunit"
-#~ msgstr "Der Bereich"
-
-#~ msgid "The email address"
-#~ msgstr "Die Email-Adresse"
-
-#~ msgid "The second email address"
-#~ msgstr "Die zweite Email-Adresse"
-
-#~ msgid "The third email address"
-#~ msgstr "Die dritte Email-Adresse"
-
-#~ msgid "The telephone number"
-#~ msgstr "Die Telefonnummer"
-
-#~ msgid "The fax number"
-#~ msgstr "Die Faxnummer"
-
-#~ msgid "The modem number"
-#~ msgstr "Die Modemnummer"
-
-#~ msgid "The homepage URL"
-#~ msgstr "Die URL der Homepage"
-
-#~ msgid "The comment"
-#~ msgstr "Der Kommentar"
-
-#~ msgid "OK"
-#~ msgstr "OK"
-
-#~ msgid "Configure printing"
-#~ msgstr "Drucken konfigurieren"
-
-#~ msgid "Possible fields"
-#~ msgstr "Mögliche Felder"
-
-#~ msgid "Selected fields"
-#~ msgstr "Ausgewählte Felder"
-
-#~ msgid "Addressbook overview"
-#~ msgstr "Adreßbuch-Übersicht"
-
-#~ msgid "The KDE addressbook."
-#~ msgstr "Das KDE-Adreßbuch"
-
-#~ msgid "Page <p>"
-#~ msgstr "Seite <p>"
-
-#~ msgid "Select talk address"
-#~ msgstr "Talk-Adresse auswählen"
-
-#~ msgid "Close"
-#~ msgstr "Schließen"
-
-#~ msgid "search results"
-#~ msgstr "Suchergebnisse"
-
-#~ msgid "Select birthday"
-#~ msgstr "Geburtstag auswählen"
-
-#~ msgid "&Save"
-#~ msgstr "&Speichern"
-
-#~ msgid "&Quit"
-#~ msgstr "&Beenden"
-
-#~ msgid "&File"
-#~ msgstr "&Datei"
-
-#~ msgid "&Edit"
-#~ msgstr "&Editieren"
-
-#~ msgid "Edit the current entry"
-#~ msgstr "Eintrag editieren"
-
-#~ msgid "Title:"
-#~ msgstr "Titel:"
-
-#~ msgid "First name:"
-#~ msgstr "Vorname:"
-
-#~ msgid "Additional Name:"
-#~ msgstr "Zweiter Name:"
-
-#~ msgid "Name:"
-#~ msgstr "Name:"
-
-#~ msgid "Formatted Name:"
-#~ msgstr "Formatierter Name:"
-
-#~ msgid "Address:"
-#~ msgstr "Adresse:"
-
-#~ msgid "Town:"
-#~ msgstr "PLZ & Stadt:"
-
-#~ msgid "&Name"
-#~ msgstr "&Name"
-
-#~ msgid "Organization:"
-#~ msgstr "Organisation:"
-
-#~ msgid "Role:"
-#~ msgstr "Position:"
-
-#~ msgid "Org Unit:"
-#~ msgstr "Abteilung:"
-
-#~ msgid "Org Subunit:"
-#~ msgstr "Bereich:"
-
-#~ msgid "&Organization"
-#~ msgstr "&Organisation"
-
-#~ msgid "Email address:"
-#~ msgstr "Email-Adresse:"
-
-#~ msgid "Email address (2):"
-#~ msgstr "Zweite Email-Adresse:"
-
-#~ msgid "Email address (3):"
-#~ msgstr "Dritte Email-Adresse:"
-
-#~ msgid "Telephone:"
-#~ msgstr "Telefon:"
-
-#~ msgid "Fax:"
-#~ msgstr "Fax:"
-
-#~ msgid "Modem:"
-#~ msgstr "Modem:"
-
-#~ msgid "Homepage (URL):"
-#~ msgstr "Homepage (URL):"
-
-#~ msgid "&Contact"
-#~ msgstr "&Kontakte"
-
-#~ msgid "Comment:"
-#~ msgstr "Kommentar:"
-
-#~ msgid "Birthday:"
-#~ msgstr "Geburtstag:"
-
-#~ msgid "Edit talk addresses"
-#~ msgstr "Talk-Adressen editieren"
-
-#~ msgid "O&thers"
-#~ msgstr "&Verschiedenes"
-
-#~ msgid "Error"
-#~ msgstr "Fehler"
-
-#~ msgid ""
-#~ "The application saved the last current entry,\n"
-#~ "but this entry does not exist anymore."
-#~ msgstr ""
-#~ "Die Anwendung hatte den letzten angezeigten Eintrag\n"
-#~ "gespeichert, aber dieser existiert nicht mehr."
-
-#~ msgid "first entry"
-#~ msgstr "erster Eintrag"
-
-#~ msgid "previous entry"
-#~ msgstr "voriger Eintrag"
-
-#~ msgid "next entry"
-#~ msgstr "nächster Eintrag"
-
-#~ msgid "last entry"
-#~ msgstr "letzter Eintrag"
-
-#~ msgid "add a new entry"
-#~ msgstr "Eintrag hinzufügen"
-
-#~ msgid "change this entry"
-#~ msgstr "diesen Eintrag editieren"
-
-#~ msgid "remove this entry"
-#~ msgstr "Eintrag löschen"
-
-#~ msgid "Switched to first entry."
-#~ msgstr "Zum ersten Eintrag gesprungen."
-
-#~ msgid "Switched to last entry."
-#~ msgstr "Zum letzten Eintrag gesprungen."
-
-#~ msgid "Remove entry?"
-#~ msgstr "Eintrag löschen?"
-
-#~ msgid "Really remove this entry?"
-#~ msgstr "Wollen Sie diesen Eintrag wirklich entfernen?"
-
-#~ msgid "Entry deleted."
-#~ msgstr "Eintrag gelöscht."
-
-#~ msgid "Added a new entry."
-#~ msgstr "Neuer Eintrag hinzugefügt."
-
-#~ msgid "The mail command must be configured before!"
-#~ msgstr "Das Email-Kommando muß vorher konfiguriert werden!"
-
-#~ msgid "No entries."
-#~ msgstr "Keine Einträge."
-
-#~ msgid "Empty email address."
-#~ msgstr "Leere Email-Adresse."
-
-#~ msgid "Mail configuration"
-#~ msgstr "Email-Konfiguration"
-
-#~ msgid "Please configure the parameters for the email command."
-#~ msgstr ""
-#~ "Bitte konfigurieren Sie die Parameter\n"
-#~ "für das Email-Kommando!"
-
-#~ msgid "The email command parameters are wrong."
-#~ msgstr "Die Parameter für das Email-Kommando sind falsch!"
-
-#~ msgid ""
-#~ "Email command failed.\n"
-#~ "Make sure you did setup your email command and parameter!"
-#~ msgstr ""
-#~ "Das Email-Kommando ist fehlgeschlagen!\n"
-#~ "Bitte vergewissern Sie sich, daß das Kommando und die\n"
-#~ "Parameter richtig eingestellt sind!"
-
-#~ msgid "Mail program started."
-#~ msgstr "Mail-Programm gestartet."
-
-#~ msgid "Opened browser window."
-#~ msgstr "Browser-Fenster geöffnet."
-
-#~ msgid "No URL."
-#~ msgstr "Keine URL."
-
-#~ msgid "Sorry"
-#~ msgstr "Sorry"
-
-#~ msgid "The filemanager is busy, please try again."
-#~ msgstr ""
-#~ "Der Dateimanager ist beschäftigt,\n"
-#~ "versuchen Sie es später noch einmal."
-
-#~ msgid "Could not save database."
-#~ msgstr "Konnte die Datenbank nicht speichern."
-
-#~ msgid "Database saved successfully."
-#~ msgstr "Datenbank ohne Probleme gespeichert."
-
-#~ msgid "Entry changed."
-#~ msgstr "Eintrag geändert."
-
-#~ msgid "Printing failed!"
-#~ msgstr "Drucken ist fehlgeschlagen!"
-
-#~ msgid "Printing finished successfully."
-#~ msgstr "Drucken erfolgreich beendet."
-
-#~ msgid "Nothing to print."
-#~ msgstr "Nix zu drucken."
-
-#~ msgid "Printing cancelled."
-#~ msgstr "Drucken abgebrochen."
-
-#~ msgid "Results"
-#~ msgstr "Ergebnisse"
-
-#~ msgid "No entry matches this."
-#~ msgstr "Kein Eintrag erfüllt das Kriterium."
-
-#~ msgid "Search results window closed."
-#~ msgstr "Suchergebnisse-Fenster geschlossen."
-
-#~ msgid "Attention: printing is still experimental!"
-#~ msgstr "Achtung: Drucken ist noch experimentell!"
-
-#~ msgid "Page size problem"
-#~ msgstr "Problem mit den Seitengrößen"
-
-#~ msgid ""
-#~ "The fields you requested to print do\n"
-#~ "not fit into the page width."
-#~ msgstr "Die ausgewählten Felder passen nicht auf eine Seite."
-
-#~ msgid "Continue"
-#~ msgstr "Fortsetzen"
-
-#~ msgid "The talk command must be configured before!"
-#~ msgstr "Das Talk-Kommando muß vorher konfiguriert werden!"
-
-#~ msgid "Talk configuration"
-#~ msgstr "Talk-Konfiguration"
-
-#~ msgid "Please configure the parameters for the talk command."
-#~ msgstr "Bitte konfigurieren Sie die Parameter für den Talk-Aufruf!"
-
-#~ msgid "No talk address."
-#~ msgstr "Keine Talk-Adresse."
-
-#, fuzzy
-#~ msgid "Select talk adress."
-#~ msgstr "Talk-Adresse auswählen."
-
-#~ msgid "Cancelled."
-#~ msgstr "Abgebrochen."
-
-#~ msgid "The talk command parameters are wrong."
-#~ msgstr "Die Parameter für das Talk-Kommando sind falsch."
-
-#~ msgid ""
-#~ "Talk command failed.\n"
-#~ "Make sure you did setup your talk command and parameter!"
-#~ msgstr ""
-#~ "Talk-Aufruf fehlgeschlagen.\n"
-#~ "Bitte vergewissern Sie sich, daß das Talk-Kommando und \n"
-#~ "die Parameter richtig konfiguriert sind!"
-
-#~ msgid "Talk program started."
-#~ msgstr "Talk-Programm gestartet."
-
-#~ msgid ""
-#~ "The directory where user specific data for the\n"
-#~ "addressbook application is stored does not exist.\n"
-#~ "The program will try to create\n"
-#~ "         "
-#~ msgstr ""
-#~ "Das Verzeichnis, in dem die Benutzerdaten abgelegt\n"
-#~ "werden sollen, existiert nicht.\n"
-#~ "Das Programm wird das Verzeichnis\n"
-#~ "         "
-
-#~ msgid "and store all local files in this directory."
-#~ msgstr "und alle lokalen Dateien dort ablegen."
-
-#~ msgid ""
-#~ "The directory could not be created.\n"
-#~ "Probably you do not have used KDE before, so\n"
-#~ "you do not have a local \".kde\" directory\n"
-#~ "in your home directory. Run the KDE filemanager\n"
-#~ "kfm once to automatically create it."
-#~ msgstr ""
-#~ "Das Verzeichnis konnte nicht erstellt werden.\n"
-#~ "Wahrscheinlich haben Sie KDE vorher nicht benutzt,\n"
-#~ "weshalb kein lokales \".kde\"-Verzeichnis\n"
-#~ "in Ihrem Homeverzeichnis existiert. Starten Sie den\n"
-#~ "KDE-Dateimanager kfm einmal, um es zu erzeugen."
-
-#~ msgid "The directory has been created.\n"
-#~ msgstr "Das Verzeichnis wurde erstellt.\n"
-
-#~ msgid "No addressbook database file, creating new one."
-#~ msgstr "Keine Adreßbuch-Datei, erstelle eine neue."
-
-#~ msgid ""
-#~ "Unable to create new database file (probably permission denied), exiting."
-#~ msgstr ""
-#~ "Konnte keine Adreßbuch-Datei erstellen (wahrscheinlich Zugrif verweigert), "
-#~ "Programm wird beendet."
-
-#~ msgid "Cannot create configuration section, exiting."
-#~ msgstr ""
-#~ "Konnte die Konfigurationssektion nicht erstellen, Programm wird beendet."
-
-#~ msgid "Cannot create entries section, exiting."
-#~ msgstr "Konnte die Einträge-Sektion nicht erstellen, Programm wird beendet."
-
-#~ msgid "Unable to find previously created section, exiting."
-#~ msgstr ""
-#~ "Kann die eben erstellte Sektion nicht wiederfinden, Programm wird beendet."
-
-#~ msgid "Cannot save newly created database."
-#~ msgstr "Kann die eben erstellte Datenbank nicht abspeichern."
-
-#~ msgid "Cannot erase database contents."
-#~ msgstr "Kann die Inhalte der Datenbank nicht löschen."
-
-#~ msgid "Tried to load database for creating backup, but failed"
-#~ msgstr ""
-#~ "Laden der Datenbank zum Erstellen der Sicherungskopie fehlgeschlagen"
-
-#~ msgid "Unable to save to backup file."
-#~ msgstr "Sicherungskopie kann nicht gespeichert werden."
-
-#~ msgid "Unable to reset filename after creating backup."
-#~ msgstr ""
-#~ "Der Dateiname kann nach dem Erstellen der Sicherungskopie nicht "
-#~ "zurückgesetzt werden."
-
-#~ msgid "Unable to create backup file"
-#~ msgstr "Konnte die Sicherungskopie nicht erzeugen"
-
-#~ msgid "Unable to insert \""
-#~ msgstr "Konnte \""
-
-#~ msgid "\" into configuration section (ignored)."
-#~ msgstr "\" nicht in die Konfigurationssektion einfügen (ignoriert)."
-
-#~ msgid "Unable to add a new entry with available key."
-#~ msgstr "Kann keinen neuen Eintrag in die Datenbank einfügen."
-
-#~ msgid "Cannot find previously created section."
-#~ msgstr "Kann die eben erzeugte Sektion nicht finden."
-
-#~ msgid "entry without name"
-#~ msgstr "namenloser Eintrag"
-
-#~ msgid "Edit talk adresses."
-#~ msgstr "Talk-Adressen editieren."
