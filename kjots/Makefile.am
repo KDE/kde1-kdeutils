@@ -12,7 +12,7 @@ kjots_SOURCES = main.cpp\
 	cpopmenu.cpp\
 	confdialog.cpp
 
-METASOURCES = USE_AUTOMOC 
+kjots_METASOURCES = USE_AUTOMOC 
 
 SUBDIRS = icons doc
 
