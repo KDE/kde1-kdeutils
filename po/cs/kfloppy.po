@@ -2,12 +2,11 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: kfloppy\n"
 "POT-Creation-Date: 1998-05-30 17:50+0200\n"
-"PO-Revision-Date: 1998-06-04 09:15 MET DST\n"
+"PO-Revision-Date: 1998-06-19 09:06 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +21,7 @@ msgstr "Informace o formátovaèi disket pro KDE"
 #: floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721
 #: floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
 msgid "KFloppy"
-msgstr "KFormátovaè disket"
+msgstr "KFloppy"
 
 #: about.cpp:54
 msgid "Version "
