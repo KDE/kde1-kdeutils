@@ -350,9 +350,8 @@ msgid "&Insert..."
 msgstr "&Sett inn..."
 
 #: toplevel.cpp:169
-#, fuzzy
 msgid "Open Recen&t"
-msgstr "Åpne dokument"
+msgstr "Åpne ny&lig"
 
 #: toplevel.cpp:180
 msgid "New &Window"

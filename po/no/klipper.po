@@ -19,7 +19,7 @@ msgstr "Snarvei..."
 
 #: toplevel.cpp:90
 msgid "Popup at mouse position"
-msgstr "Popp opp ved musposisjon"
+msgstr "Sprett opp ved musposisjon"
 
 #: toplevel.cpp:95
 msgid "Clipboard History"

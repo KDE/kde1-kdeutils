@@ -111,7 +111,7 @@ msgstr "Strømsparingstid"
 
 #: MiscData.cpp:99
 msgid "Eject"
-msgstr "Løs ut"
+msgstr "Kast ut"
 
 #: MiscData.cpp:106
 msgid "Reset"

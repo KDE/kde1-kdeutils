@@ -103,12 +103,12 @@ msgstr "ur aktivt"
 
 #: top.cpp:150
 msgid "Preferences"
-msgstr ""
+msgstr "Preferanser"
 
 #: top.cpp:194
 #, c-format
 msgid "%s "
-msgstr ""
+msgstr "%s "
 
 #: top.cpp:200
 msgid "&Clock"
@@ -120,7 +120,7 @@ msgstr "&Oppgave"
 
 #: top.cpp:206
 msgid "&Preferences..."
-msgstr ""
+msgstr "&Preferanser..."
 
 #: top.cpp:220
 msgid "S&top"
@@ -129,14 +129,3 @@ msgstr "S&topp"
 #: top.cpp:226
 msgid "&New"
 msgstr "&Ny"
-
-#~ msgid ""
-#~ "%s 0.3 -- Sirtaj Singh Kang\n"
-#~ "taj@kde.org, Oct 1997\n"
-#~ "\n"
-#~ "The K Desktop Environment"
-#~ msgstr ""
-#~ "%s 0.3 -- Sirtaj Singh Kang\n"
-#~ "taj@kde.org, okt 1997\n"
-#~ "\n"
-#~ "K Desktop Environment"
