@@ -15,11 +15,11 @@ msgstr "Esconder &Barra de Ferramentas"
 
 #: kedit.cpp:88 kedit.cpp:999
 msgid "Show &Status Bar"
-msgstr "Mostrar Barra de &Status"
+msgstr "Mostrar Barra de E&stado"
 
 #: kedit.cpp:90 kedit.cpp:992
 msgid "Hide &Status Bar"
-msgstr "Esconder Barra de &Status"
+msgstr "Esconder Barra de E&stado"
 
 #: kedit.cpp:152
 msgid "Select All"
@@ -103,7 +103,7 @@ msgstr "Barra de &Ferramentas"
 
 #: kedit.cpp:258
 msgid "&Status Bar"
-msgstr "Barra de &Status"
+msgstr "Barra de E&stado"
 
 #: kedit.cpp:261
 msgid "Save Options"
