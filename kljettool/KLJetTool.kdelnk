@@ -2,9 +2,11 @@
 [KDE Desktop Entry]
 Comment[C]=LaserJet Control
 Comment[fi]=LaserJet hallinta
+Comment[pl]=Konfiguracja LasetJet
 BinaryPattern=ljettool;
 Protocols=
 Name[C]=KLaserJet
+Name[pl]=KLaserJet
 MimeType=
 Comment=
 DocPath=kljettool/kljettool.html
