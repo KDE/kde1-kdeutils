@@ -1172,7 +1172,7 @@ void TopLevel::openNetFile( const char *_url, int _mode )
     }
 
     // Just a usual file ?
-    if ( strcmp( u->protocol(), "file" ) == 0 )
+    if ( strcmp( u->protocol(), "file" ) == 0 && !u->hasSubProtocol() )
     {
       QString string;
       string.sprintf(klocale->translate("Loading '%s'"),u->path() );
