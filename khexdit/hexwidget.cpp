@@ -75,7 +75,7 @@ int HexWidget::initMenu() {
   toolbar->insertButton(pixmap,ID_HELP_ABOUT, TRUE, "About Hex Editor");
 
   addToolBar(toolbar);
-  toolbar->setPos(KToolBar::Top);
+  toolbar->setBarPos(KToolBar::Top);
   toolbar->show();
   connect(toolbar, SIGNAL(clicked(int)), this, SLOT(menuCallback(int)));
 
@@ -275,6 +275,8 @@ void HexWidget::slotDropEvent( KDNDDropZone * _dropZone ) {
 int main(int argc, char **argv) {
   KApplication a(argc,argv,"khexdit");
   
+  HexWidget* pHexWidget;
+
   if (argc>1) {
     for (int i=1; i < argc; i++) {
       if (*argv[i] == '-')	/* ignore options */

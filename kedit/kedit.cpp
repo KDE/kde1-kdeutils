@@ -281,7 +281,7 @@ void TopLevel::setupToolBar(){
 		      SIGNAL(clicked()), this,
 		      SLOT(helpselected()), TRUE, "Help");
 
-  toolbar->setPos( KToolBar::Top );
+  toolbar->setBarPos( KToolBar::Top );
 
   toolbar1 = addToolBar(toolbar);
 
@@ -1368,13 +1368,13 @@ void TopLevel::readSettings(){
 	str = config->readEntry( "Toolbar position" );
 	if ( !str.isNull() ) {
 		if( str == "Left" ) {
-			toolbar->setPos( KToolBar::Left );
+			toolbar->setBarPos( KToolBar::Left );
 		} else if( str == "Right" ) {
-			toolbar->setPos( KToolBar::Right );
+			toolbar->setBarPos( KToolBar::Right );
 		} else if( str == "Bottom" ) {
-			toolbar->setPos( KToolBar::Bottom );
+			toolbar->setBarPos( KToolBar::Bottom );
 		} else
-			toolbar->setPos( KToolBar::Top );
+			toolbar->setBarPos( KToolBar::Top );
 	}			         
 
 	///////////////////////////////////////////////////
@@ -1458,11 +1458,11 @@ void TopLevel::writeSettings(){
 	config->writeEntry( "BackColor", string );
 	
 	string="";
-	if ( toolbar->pos() == KToolBar::Left )
+	if ( toolbar->barPos() == KToolBar::Left )
 		string.sprintf("Left");
-	else if ( toolbar->pos() == KToolBar::Right )
+	else if ( toolbar->barPos() == KToolBar::Right )
 		string.sprintf("Right");
-	else if ( toolbar->pos() == KToolBar::Bottom )
+	else if ( toolbar->barPos() == KToolBar::Bottom )
 		string.sprintf("Bottom");
 	else
 		string.sprintf("Top");

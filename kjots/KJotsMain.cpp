@@ -383,7 +383,7 @@ KJotsMain::KJotsMain(const char* name)
   temp_pix = global_pix_loader->loadIcon("exit.xpm");
   toolbar->insertItem(temp_pix, 5, SIGNAL(clicked()), qApp,
 		      SLOT(quit()), TRUE, "Exit");
-  toolbar->setPos( (KToolBar::Position) config->readNumEntry("ToolBarPos") );
+  toolbar->setBarPos( (KToolBar::BarPosition) config->readNumEntry("ToolBarPos") );
   addToolBar(toolbar);
   setView(f_main, FALSE);
   setMenu(menubar);
@@ -416,7 +416,7 @@ KJotsMain::~KJotsMain()
   saveFolder();
   config->writeEntry("Width", width());
   config->writeEntry("Height", height());
-  config->writeEntry("ToolBarPos", (int) toolbar->Pos() );
+  config->writeEntry("ToolBarPos", (int) toolbar->barPos() );
   config->sync();
 }
 
