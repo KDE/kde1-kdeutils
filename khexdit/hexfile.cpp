@@ -1,6 +1,6 @@
 /*
  *   khexdit - a little hex editor
- *   Copyright (C) 1996,97  Stephan Kulow
+ *   Copyright (C) 1996,97,98  Stephan Kulow
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
@@ -65,6 +65,7 @@ void HexFile::init() {
     setBackgroundColor( background );
     metrics = new QFontMetrics(fontMetrics());
     cursorHeight = metrics->ascent();
+    lineHeight = metrics->height() + metrics->underlinePos() + 2;
     maxWidth = 0;
     rows = 0;
     draging = false;
@@ -286,12 +287,13 @@ void HexFile::keyPressEvent (QKeyEvent* e) {
 	QPixmap *pixmap = new QPixmap(datamap->size());
 	QPainter painter;
 	painter.begin(pixmap);
-	painter.drawPixmap(0, 0, *datamap, 0, metrics->height());
+	painter.drawPixmap(0, 0, *datamap, 0, lineHeight);
 	painter.setFont(*dispFont);
-       	painter.fillRect(0, pixmap->height() - metrics->height() + 1, 
-			 width(), metrics->height(), 
-			 background);
+       	painter.fillRect(0, pixmap->height() - lineHeight + 1, 
+			 width(), lineHeight, 
+			 QColor(255,0,0));
 	fillLine(&painter, rows);
+	fillLine(&painter, rows + 1);
 	painter.drawLine(LineOffset,0,LineOffset,height());
 	delete datamap;
 	datamap = pixmap;
@@ -356,16 +358,15 @@ void HexFile::paintCursor(QPainter *p)
 	       (1 + (sideEdit==RIGHT))*maxWidth,
 	       cursorHeight + metrics->underlinePos(),
 	       *leftM);
-    p->drawText(w+offw - horoff,cursorPosition, hilight);
+    p->drawText(w+offw - horoff,cursorPosition - 2, hilight);
 
     p->setPen(QColor(0xff,0x0,0));
     p->fillRect(LineOffset + 10 + curx*maxWidth - horoff,
-	       cursorPosition - cursorHeight +
-	       2 * metrics->underlinePos(),
-	       maxWidth,
-	       cursorHeight,
-	       *rightM);
-
+		cursorPosition - lineHeight + 2,
+		maxWidth,
+		lineHeight - 2,
+		*rightM);
+    
     if (data->byteAt(currentByte) > 31)
 	hilight[0] = data->byteAt(currentByte);
     else 
@@ -374,7 +375,7 @@ void HexFile::paintCursor(QPainter *p)
 
     p->setPen(QColor(0x20,0x20,0x80));
     p->drawText(LineOffset + 10 + curx * maxWidth - horoff, 
-		cursorPosition, hilight);
+	  cursorPosition - 2, hilight);
 }
 
 void HexFile::changeSide() {
@@ -391,7 +392,7 @@ void HexFile::calcCurrentByte() {
 
 QPoint HexFile::translate(QPoint pos) {
     int neux ,neuy, mx ,cx;
-    neuy = pos.y() / metrics->height();
+    neuy = pos.y() / lineHeight;
     neux = 0;
     
     mx = pos.x();
@@ -530,14 +531,14 @@ int HexFile::paintLabel( QPainter *p, long int label, int y) {
     for (int i=0;i<9;i++) {
 	// to write a single character (perhaps easier?)
 	txt[0]=offset[i];
-	p->drawText(5+i*maxWidth, y, txt);
+	p->drawText(5+i*maxWidth, y - 2, txt);
     }
 
     return 5 + 9 * maxWidth;
 }
 
 int HexFile::calcPosition( int field ) {
-    cursorPosition = (cury + 1) * metrics->height();
+    cursorPosition = (cury + 1) * lineHeight;
     return field * 2 * maxWidth + labelOffset + (field / 2) * maxWidth;
 }
 
@@ -559,20 +560,20 @@ void HexFile::fillLine(QPainter *p, int line) {
 
     marked = (draging && line >= minDrag->y()+1 && line <= maxDrag->y()+1); 
     
-    p->fillRect(0, (line-1)*metrics->height(), 
-		datamap->width(), metrics->height(), 
+    p->fillRect(0, (line-1)*lineHeight + 1, 
+		datamap->width(), lineHeight, 
 		background);
     
     if (data->size()<=(unsigned)(line-1)*16+lineoffset)
 	return;
 
-    int label = paintLabel(p, (line-1)*16 + lineoffset, line*metrics->height());
+    int label = paintLabel(p, (line-1)*16 + lineoffset, line*lineHeight);
     if (!labelOffset)
 	labelOffset = label;
 
     if (marked && line != minDrag->y()+1)
-	p->fillRect(label, (line-1)*metrics->height(),
-		    LineOffset - label, metrics->height(),
+	p->fillRect(label, (line-1)*lineHeight + 1,
+		    LineOffset - label, lineHeight,
 		    selectColor);
 
     for (x = 0; x < 16; x++) {
@@ -593,24 +594,24 @@ void HexFile::fillLine(QPainter *p, int line) {
 	
 	txt[1]=0; w = calcPosition(x);
 	if (marked && line == minDrag->y()+1 && x == minDrag->x()) 
-	    p->fillRect(w, (line-1)*metrics->height(),
-			LineOffset - w, metrics->height(),
+	    p->fillRect(w, (line-1)*lineHeight + 1,
+			LineOffset - w, lineHeight,
 			selectColor);
 
 	for (i=0;i<2;i++) {
 	    txt[0]=number[i];
-	    p->drawText( w + i * maxWidth, line*metrics->height(), txt);
+	    p->drawText( w + i * maxWidth, line*lineHeight - 2, txt);
 	}
 	
 	w += 2*maxWidth;
 
 	if (marked && line == maxDrag->y()+1 && x == maxDrag->x())
-	    p->fillRect(w, (line-1)*metrics->height(),
-			LineOffset - w, metrics->height(),
+	    p->fillRect(w, (line-1)*lineHeight + 1,
+			LineOffset - w, lineHeight,
 			background);
 	
 	if ((cury == line-1)  && (curx == x)) {
-	    cursorPosition = line*metrics->height();
+	    cursorPosition = line*lineHeight;
 	}
 	    
 	if (r1>31)
@@ -623,7 +624,7 @@ void HexFile::fillLine(QPainter *p, int line) {
 	p->setPen(QColor(0x20,0x20,0x80));
 	txt[1]=0; 
 	w = LineOffset + 10;
-	int h = line*metrics->height();
+	int h = line * lineHeight - 2;
 	
 	for (i=0;i<16;i++) {
 	    txt[0]=currentBuffer[i];
@@ -645,7 +646,7 @@ void HexFile::fillPixmap() {
 	       QColor(220, 220, 220));
     p.setFont(*dispFont);
     
-    for (int y=1; y<=rows; y++) 
+    for (int y=1; y<=rows +1 ; y++) 
 	fillLine(&p, y);
 	
     p.drawLine(LineOffset,0,LineOffset,height());
@@ -716,9 +717,8 @@ void HexFile::resizeEvent(QResizeEvent *) {
     
     scrollVWidth = scrollHHeight = 15;
     calcScrolls();
-    rows=(height() - scrollHHeight - fontMetrics().descent()) / 
-	fontMetrics().height() ;
-    
+    rows = (height() - scrollHHeight) / lineHeight;
+    debug("ROWS %d",rows);
     QObject::connect(scrollV, SIGNAL(valueChanged(int)),
 		     SLOT(scrolled(int)));
     

@@ -1,6 +1,6 @@
 /*
  *   khexdit - a little hex editor
- *   Copyright (C) 1996,97  Stephan Kulow
+ *   Copyright (C) 1996,97,98  Stephan Kulow
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
@@ -76,6 +76,7 @@ private:
     bool draging;
     QPoint *minDrag, *maxDrag;
     HexData *data;
+    int lineHeight;
 
 protected:
     void paintEvent(QPaintEvent*);

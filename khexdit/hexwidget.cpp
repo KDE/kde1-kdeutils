@@ -1,6 +1,6 @@
 /*
  *   khexdit - a little hex editor
- *   Copyright (C) 1996,97  Stephan Kulow
+ *   Copyright (C) 1996,97,98  Stephan Kulow
  *
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
@@ -90,7 +90,10 @@ int HexWidget::initMenu() {
     view->insertItem( i18n("&Toggle Toolbar"), ID_VIEW_TOOLBAR);
     //  view->insertItem( "Toggle Statusbar", ID_VIEW_STATUSBAR);
     
-    QPopupMenu *help = kapp->getHelpMenu(true, QString(i18n("Hex Editor")) + " " + KHEXDIT_VERSION +  i18n("\n\nby Stephan Kulow") + " (coolo@itm.mu)");
+    QPopupMenu *help = kapp->getHelpMenu(true, QString(i18n("Hex Editor")) 
+					 + " " + KHEXDIT_VERSION 
+					 + i18n("\n\nby Stephan Kulow") 
+					 + " (coolo@kde.org)");
 
     connect (file, SIGNAL (activated (int)), SLOT (menuCallback (int)));
     connect (edit, SIGNAL (activated (int)), SLOT (menuCallback (int)));
@@ -149,9 +152,11 @@ int HexWidget::initMenu() {
 
 void HexWidget::menuCallback(int item) {
     switch (item) {
-    case ID_FILE_NEWWIN:
-	new HexWidget();
+	HexWidget *dummy;
+    case ID_FILE_NEWWIN: {
+	dummy = new HexWidget();
 	break;
+    }
     case ID_FILE_OPEN: {
 	if (CurrentFile->isModified()) 
 	    if (QMessageBox::warning(0, i18n("Warning"), 
@@ -377,6 +382,7 @@ void HexWidget::slotDropEvent( KDNDDropZone * _dropZone ) {
 
 int main(int argc, char **argv) {
     KApplication a(argc,argv,"khexdit");  
+    HexWidget *dummy;
     
     if ( a.isRestored() ) {
 	int n = 1;
@@ -399,10 +405,10 @@ int main(int argc, char **argv) {
 			f.sprintf( "file:%s/%s", buffer, argv[i] );
 		    }
 		
-		new HexWidget(f.data());
+		dummy = new HexWidget(f.data());
 	    }
 	} else 
-	    new HexWidget();
+	    dummy = new HexWidget();
     
     return a.exec();
 }
