@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Date: 1997-10-09 11:06:57-0400\n"
+"From: Robert Palmbos <robertp@pbnjelly>\n"
+"Content-Type: text/plain; charset=\n"
+"Xgettext-Options: --keyword=translate -C\n"
+"Files: adddlg.cc ar.cc arch.cc extractdlg.cc karch.cc kfdird.cc ktablistbox.cc kzip.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h extractdlg.h karch.h kfdird.h ktablistbox.h kzip.h lha.h tar.h text.h zip.h\n"
+
+#: adddlg.cc:9
+msgid "Add File Options"
+msgstr ""
+
+#: adddlg.cc:13 extractdlg.cc:69
+msgid "Ok"
+msgstr ""
+
+#: adddlg.cc:16 arch.cc:33 extractdlg.cc:73
+msgid "Cancel"
+msgstr ""
+
+#: adddlg.cc:20
+msgid "Store Full Path"
+msgstr ""
+
+#: adddlg.cc:23
+msgid "Only Add Newer Files"
+msgstr ""
+
+#: extractdlg.cc:7
+msgid "Files"
+msgstr ""
+
+#: extractdlg.cc:11
+msgid "Extract Options"
+msgstr ""
+
+#: extractdlg.cc:15
+msgid "Destination"
+msgstr ""
+
+#: extractdlg.cc:23
+msgid "Browse..."
+msgstr ""
+
+#: extractdlg.cc:30
+msgid "Preserve Permissions"
+msgstr ""
+
+#: extractdlg.cc:33
+msgid "Filenames to Lowercase"
+msgstr ""
+
+#: extractdlg.cc:36
+msgid "All Files"
+msgstr ""
+
+#: extractdlg.cc:39
+msgid "Selected File"
+msgstr ""
+
+#: extractdlg.cc:42
+msgid "Pattern"
+msgstr ""
+
+#: kzip.cc:36
+msgid "&New"
+msgstr ""
+
+#: kzip.cc:37
+msgid "&Open..."
+msgstr ""
+
+#: kzip.cc:39
+msgid "&Extract To..."
+msgstr ""
+
+#: kzip.cc:41
+msgid "&Close"
+msgstr ""
+
+#: kzip.cc:42
+msgid "E&xit"
+msgstr ""
+
+#: kzip.cc:44
+msgid "E&xtract..."
+msgstr ""
+
+#: kzip.cc:45
+msgid "&View"
+msgstr ""
+
+#: kzip.cc:47
+msgid "&Delete"
+msgstr ""
+
+#: kzip.cc:49
+msgid "&Set Archive Directory..."
+msgstr ""
+
+#: kzip.cc:50
+msgid "&File Adding Options..."
+msgstr ""
+
+#: kzip.cc:52
+msgid "&Help..."
+msgstr ""
+
+#: kzip.cc:54
+msgid "&About..."
+msgstr ""
+
+#: kzip.cc:56
+msgid "&File"
+msgstr ""
+
+#: kzip.cc:57
+msgid "&Edit"
+msgstr ""
+
+#: kzip.cc:58
+msgid "&Options"
+msgstr ""
+
+#: kzip.cc:60
+msgid "&Help"
+msgstr ""
+
+#: kzip.cc:87
+msgid "Welcome to KZip..."
+msgstr ""
+
+#: kzip.cc:139
+msgid "Can't create archive of that type"
+msgstr ""
+
+#: kzip.cc:160 kzip.cc:194 kzip.cc:201
+msgid "Create or open an archive first"
+msgstr ""
+
+#: kzip.cc:183
+msgid "Error saving to archive"
+msgstr ""
+
+#: kzip.cc:212
+msgid "Archive Dir:"
+msgstr ""
+
+#: kzip.cc:251 kzip.cc:422
+msgid "Unknown archive format"
+msgstr ""
+
+#: kzip.cc:286
+msgid "Archive Directory"
+msgstr ""
+
+#: kzip.cc:327
+msgid "None"
+msgstr ""
+
+#: kzip.cc:362
+msgid "Open With: (program)"
+msgstr ""
+
+#: ar.h:24
+msgid "Permissions\tOwner/Group\tSize      \tTimeStamp         \tName\t"
+msgstr ""
+
+#: lha.h:24
+msgid "Permsissions\tOwner/Group\tPacked      \tSize         \tRatio\tCRC\tTimeStamp     \tName\t"
+msgstr ""
+
+#: tar.h:22
+msgid "Permissions\tOwner/Group\tSize        \tTimeStamp\tName\t"
+msgstr ""
+
+#: zip.h:24
+msgid "Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
+msgstr ""
