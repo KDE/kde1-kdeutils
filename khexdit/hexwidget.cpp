@@ -253,14 +253,16 @@ HexWidget::HexWidget(const char* file) {
 }
 
 HexWidget::~HexWidget() {
-  delete toolbar;
+  //delete toolbar;
   delete CurrentFile;
   delete kfm;
-  delete menu;
+  //delete menu;
 }
 
 void HexWidget::closeEvent ( QCloseEvent *e) {
   windowList.remove(this);
+    delete toolbar;
+    delete menu;
   if (windowList.isEmpty())
     kapp->quit();
   e->accept();
