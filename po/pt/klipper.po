@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: klipper\n"
+"POT-Creation-Date: 1998-12-18 02:05+0100\n"
+"PO-Revision-Date: 1998-12-26 20:00+0000\n"
+"Last-Translator: Pedro Morais <morais@kde.org>\n"
+"Language-Team: pt\n"
+"MIME-Version:\n"
+"Content-Type:\n"
+"Content-Transfer-Encoding:\n"
+
+#: toplevel.cpp:89
+msgid "Shortcut..."
+msgstr "Atalho..."
+
+#: toplevel.cpp:90
+msgid "Popup at mouse position"
+msgstr "Abrir na posição do rato"
+
+#: toplevel.cpp:95
+msgid "Clipboard History"
+msgstr "História da Área de Transferência"
+
+#: toplevel.cpp:99
+msgid "<empty clipboard>"
+msgstr "<área de transferência vazia>`"
+
+#: toplevel.cpp:111
+msgid "Select clipboard contents"
+msgstr "Selecionar conteúdo da área de transferência"

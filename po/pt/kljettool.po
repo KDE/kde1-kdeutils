@@ -1,13 +1,13 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: kljettool.po\n"
 "POT-Creation-Date: 1998-11-03 10:06+0100\n"
-"Content-Type: text/plain; charset=\n"
-"Date: 1998-03-06 22:44:34-0500\n"
-"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
-"<root@petit.cornell.edu>\n"
-"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
-"Files: Data.cpp Fonts.cpp FontsData.cpp Misc.cpp MiscData.cpp Paper.cpp "
-"PaperData.cpp Printer.cpp PrinterData.cpp about.cpp main.cpp\n"
+"PO-Revision-Date: 1998-03-06 22:44:34-0500\n"
+"Last-Translator: Pedro Morais <morais@kde.org>\n"
+"Language-Team: pt\n"
+"MIME-Version:\n"
+"Content-Type:\n"
+"Content-Transfer-Encoding:\n"
 
 #: main.cpp:69
 msgid "Paper"
@@ -23,31 +23,31 @@ msgstr "Operações"
 
 #: PaperData.cpp:59
 msgid "Format"
-msgstr ""
+msgstr "Formato"
 
 #: PaperData.cpp:65
 msgid "Copies"
-msgstr ""
+msgstr "Cópias"
 
 #: PaperData.cpp:80
 msgid "Lines"
-msgstr ""
+msgstr "Linhas"
 
 #: PaperData.cpp:102
 msgid "Portrait"
-msgstr ""
+msgstr "Retrato"
 
 #: PaperData.cpp:111
 msgid "Landscape"
-msgstr ""
+msgstr "Paisagem"
 
 #: PaperData.cpp:127
 msgid "Manual Feed"
-msgstr ""
+msgstr "Manual"
 
 #: PaperData.cpp:136
 msgid "Auto Continue"
-msgstr ""
+msgstr "Auto Continuar"
 
 #: FontsData.cpp:38
 msgid "Language"
@@ -95,7 +95,7 @@ msgstr "Melh. Resolução"
 
 #: MiscData.cpp:43
 msgid "End of Line Mode"
-msgstr "Modo de Fim de Linha"
+msgstr "Fim de Linha"
 
 #: MiscData.cpp:65
 msgid "PageProtect"
@@ -103,7 +103,7 @@ msgstr "PageProtect"
 
 #: MiscData.cpp:80
 msgid "Powersave Time"
-msgstr "Modo de Poupança"
+msgstr "Poupança (min)"
 
 #: MiscData.cpp:99
 msgid "Eject"
@@ -115,7 +115,7 @@ msgstr "Reiniciar"
 
 #: MiscData.cpp:113
 msgid "Initialize"
-msgstr "Initializar"
+msgstr "Inicializar"
 
 #: Data.cpp:123 Data.cpp:157 Data.cpp:193
 #, c-format

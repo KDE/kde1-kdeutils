@@ -3,7 +3,11 @@ msgstr ""
 "Project-Id-Version: klpq\n"
 "POT-Creation-Date: 1998-12-08 02:02+0100\n"
 "PO-Revision-Date: 1998-02-17 12:00+0000\n"
-"Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
+"Last-Translator: Pedro Morais <morais@kde.org>\n"
+"Language-Team: pt\n"
+"MIME-Version:\n"
+"Content-Type:\n"
+"Content-Transfer-Encoding:\n"
 
 #: main.cpp:176
 msgid "Sorry, can't open your printcap file."
@@ -25,7 +29,7 @@ msgstr "Impressora"
 
 #: klpq.cpp:93
 msgid "Queuing"
-msgstr "A colocar na fila de espera"
+msgstr "À espera"
 
 #: klpq.cpp:97
 msgid "Printing"
@@ -53,7 +57,7 @@ msgstr "Tamanho"
 
 #: klpq.cpp:143 klpq.cpp:218
 msgid "Make Top"
-msgstr "Colocar no Topo"
+msgstr "Topo"
 
 #: klpq.cpp:152
 msgid "Auto"
@@ -72,17 +76,19 @@ msgid "&Config"
 msgstr "&Configuração"
 
 #: klpq.cpp:389
-#, fuzzy, c-format
+#, c-format
 msgid "Do you really want to remove job No %d"
-msgstr "Quer mesmo remover o trabalho n. "
+msgstr "Quer mesmo remover o trabalho nº %d"
 
 #: klpq.cpp:409
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Do you really want to move job No\n"
 "%d\n"
 "on top of queue"
-msgstr "Quer mesmo mover o trabalho n.\n"
+msgstr "Quer mesmo mover o trabalho nº \n"
+"%d\n"
+"para o topo da fila"
 
 #: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
 msgid "Permission denied"
@@ -94,7 +100,7 @@ msgid ""
 "and you do not have permission to execute it."
 msgstr ""
 "Este é um comando previlegiado\n"
-" e você não têm previlégios para o executar."
+"e você não têm previlégios para o executar."
 
 #: ConfAutoUpdate.cpp:10
 msgid "Configure Auto Update"
@@ -133,34 +139,3 @@ msgstr ""
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"
 msgstr "Localizaçao dos comandos de spooling:"
-
-#~ msgid "Ok"
-#~ msgstr "Ok"
-
-#~ msgid "Quit"
-#~ msgstr "Sair"
-
-#~ msgid "Files"
-#~ msgstr "Ficheiros"
-
-#~ msgid "Remove"
-#~ msgstr "Remover"
-
-#~ msgid "&Quit"
-#~ msgstr "&Sair"
-
-#~ msgid "&File"
-#~ msgstr "&Ficheiro"
-
-#~ msgid "&Help"
-#~ msgstr "&Ajuda"
-
-#~ msgid ""
-#~ "\n"
-#~ "on top of queue"
-#~ msgstr ""
-#~ "\n"
-#~ "para o topo da fila de espera"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancelar"

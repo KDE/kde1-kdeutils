@@ -1,12 +1,13 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: kfloppy\n"
 "POT-Creation-Date: 1998-11-17 10:55+0100\n"
-"Content-Type: text/plain; charset=\n"
-"Date: 1998-03-06 22:13:59-0500\n"
-"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
-"<root@petit.cornell.edu>\n"
-"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
-"Files: about.cpp floppy.cpp main.cpp\n"
+"PO-Revision-Date: 1998-03-06 22:13:59-0500\n"
+"Last-Translator: Pedro Morais <morais@kde.org>\n"
+"Language-Team: pt\n"
+"MIME-Version:\n"
+"Content-Type:\n"
+"Content-Transfer-Encoding:\n"
 
 #: about.cpp:40
 msgid "About KDE Floppy Formatter"
@@ -51,9 +52,8 @@ msgid "Create Label:"
 msgstr "Etiqueta:"
 
 #: floppy.cpp:148
-#, fuzzy
 msgid "KDE Floppy"
-msgstr "Formatador KDE"
+msgstr "Floppy KDE"
 
 #: floppy.cpp:162
 msgid "KDE Floppy Formatter"
@@ -65,7 +65,7 @@ msgstr "HD"
 
 #: floppy.cpp:169
 msgid "DD"
-msgstr ""
+msgstr "DD"
 
 #: floppy.cpp:292
 #, c-format

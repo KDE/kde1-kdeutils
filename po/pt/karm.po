@@ -3,7 +3,11 @@ msgstr ""
 "Project-Id-Version: karm\n"
 "POT-Creation-Date: 1998-11-18 14:09+0100\n"
 "PO-Revision-Date: 1998-01-28 22:00+0000\n"
-"Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
+"Last-Translator: Pedro Morais <morais@kde.org>\n"
+"Language-Team: pt\n"
+"MIME-Version:\n"
+"Content-Type:\n"
+"Content-Transfer-Encoding:\n"
 
 #: adddata.cpp:38
 msgid "Task Name"
@@ -83,17 +87,17 @@ msgstr "&Tarefa"
 
 #: top.cpp:61
 msgid "&New"
-msgstr ""
+msgstr "&Nova"
 
 #: top.cpp:71
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
 msgstr ""
-" 0.3 -- Sirtaj Singh Kang\n"
+"%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "Ambiente de Trabalho K"
@@ -121,10 +125,3 @@ msgstr "Editar Tarefa"
 #: top.cpp:149
 msgid "clock active"
 msgstr "relógio activo"
-
-#, fuzzy
-#~ msgid "&About"
-#~ msgstr "Acerca do "
-
-#~ msgid "About "
-#~ msgstr "Acerca do "
