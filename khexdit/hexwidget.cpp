@@ -6,8 +6,8 @@
 #include <stdlib.h>
 #include <kmsgbox.h> 
 #include <qmsgbox.h> 
-#include <KWidget.h>
-#include <KToolbar.h>
+#include <ktopwidget.h>
+#include <ktoolbar.h>
 
 #include "hexwidget.moc"
 

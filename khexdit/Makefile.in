@@ -24,8 +24,8 @@ MOC	=	@MOC@
 
 ####### Files
 
-OBJECTS	=	hexwidget.o hexfile.o KToolbar.o KWidget.o kbutton.o KStatusbar.o 
-SRCMETA	=	hexwidget.moc hexfile.moc KToolbar.moc KWidget.moc kbutton.moc KStatusbar.moc
+OBJECTS	=	hexwidget.o hexfile.o
+SRCMETA	=	hexwidget.moc hexfile.moc
 TARGET	=	khexdit
 DOCS    =	khexdit.html
 
@@ -52,7 +52,7 @@ install: all
 	$(INSTALL_DATA) $(DOCS) $(DOCSDIR)
 	$(INSTALL_DIR) $(APPSDIR)
 	$(INSTALL_DATA) khexdit.kdelnk $(APPSDIR)
-	
+
 uninstall:
 	rm -f $(BINDIR)/$(TARGET)
 	rm -f $(DOCSDIR)/$(DOCS)
