@@ -8,44 +8,46 @@
 #include <qmsgbox.h> 
 #include <ktopwidget.h>
 #include <ktoolbar.h>
-
-#include "hexwidget.moc"
+#include "hexwidget.h"
+#include "translater.h"
 
 QList<HexWidget> HexWidget::windowList;
 
 int HexWidget::initMenu() {
+
+  debug( trans.translate("Nothing happens here.") );
   
   windowList.append(this);
   CurrentFile=new HexFile(this);
 
   QPopupMenu *file = new QPopupMenu;
-  file->insertItem( "New Window", ID_FILE_NEWWIN);
+  file->insertItem( trans.translate("New Window"), ID_FILE_NEWWIN);
   file->insertSeparator();
-  file->insertItem( "Open", ID_FILE_OPEN );
-  file->insertItem( "Save", ID_FILE_SAVE);
-  file->insertItem( "Save As", ID_FILE_SAVEAS);
-  file->insertItem( "Close", ID_FILE_CLOSE);
+  file->insertItem(  trans.translate("Open"), ID_FILE_OPEN );
+  file->insertItem(  trans.translate("Save"), ID_FILE_SAVE);
+  file->insertItem(  trans.translate("Save As"), ID_FILE_SAVEAS);
+  file->insertItem(  trans.translate("Close"), ID_FILE_CLOSE);
   file->insertSeparator();
-  file->insertItem( "Quit", ID_FILE_QUIT);
+  file->insertItem(  trans.translate("Quit"), ID_FILE_QUIT);
 
   QPopupMenu *view = new QPopupMenu;
-  view->insertItem( "Toggle Toolbar", ID_VIEW_TOOLBAR);
+  view->insertItem( trans.translate("Toggle Toolbar"), ID_VIEW_TOOLBAR);
   //  view->insertItem( "Toggle Statusbar", ID_VIEW_STATUSBAR);
   
   QPopupMenu *help = new QPopupMenu;
-  help->insertItem( "Contents", ID_HELP_HELP);
-  help->insertItem( "About", ID_HELP_ABOUT);
+  help->insertItem( trans.translate("Contents"), ID_HELP_HELP);
+  help->insertItem( trans.translate("About"), ID_HELP_ABOUT);
   
   connect (file, SIGNAL (activated (int)), SLOT (menuCallback (int)));
   connect (help, SIGNAL (activated (int)), SLOT (menuCallback (int)));
   connect (view, SIGNAL (activated (int)), SLOT (menuCallback (int)));
 
-  KMenuBar *menu = new KMenuBar( this );
+  menu = new KMenuBar( this );
   CHECK_PTR( menu );
-  menu->insertItem( "&File", file );
-  menu->insertItem( "&View", view );
+  menu->insertItem( trans.translate("&File"), file );
+  menu->insertItem( trans.translate("&View"), view );
   menu->insertSeparator();
-  menu->insertItem( "&Help", help );
+  menu->insertItem( trans.translate("&Help"), help );
   menu->show();
   setMenu(menu);
 
@@ -53,26 +55,34 @@ int HexWidget::initMenu() {
   PIXDIR += "/lib/pics/toolbar/";
   QPixmap pixmap;
   
-  KToolBar *toolbar = new KToolBar(this);
+  toolbar = new KToolBar(this);
   pixmap.load(PIXDIR + "filenew.xpm");
-  toolbar->insertButton(pixmap,ID_FILE_NEWWIN, TRUE, "New Window");
+  toolbar->insertButton(pixmap,ID_FILE_NEWWIN, TRUE,
+			trans.translate("New Window"));
   pixmap.load(PIXDIR + "fileopen.xpm");
-  toolbar->insertButton(pixmap,ID_FILE_OPEN, TRUE, "Open a file");
+  toolbar->insertButton(pixmap,ID_FILE_OPEN, TRUE, 
+			trans.translate("Open a file"));
   pixmap.load(PIXDIR + "filefloppy.xpm");
-  toolbar->insertButton(pixmap,ID_FILE_SAVE, TRUE, "Save the file");
+  toolbar->insertButton(pixmap,ID_FILE_SAVE, TRUE, 
+			trans.translate("Save the file"));
   toolbar->insertSeparator();
   pixmap.load(PIXDIR + "page.xpm");
-  toolbar->insertButton(pixmap,ID_EDIT_CUT, FALSE, "Not Implemented");
+  toolbar->insertButton(pixmap,ID_EDIT_CUT, FALSE, 
+			trans.translate("Not Implemented"));
   pixmap.load(PIXDIR + "contents.xpm");
-  toolbar->insertButton(pixmap,ID_EDIT_COPY, FALSE, "Not Implemented");
+  toolbar->insertButton(pixmap,ID_EDIT_COPY, FALSE, 
+			trans.translate("Not Implemented"));
   pixmap.load(PIXDIR + "devious.xpm");
-  toolbar->insertButton(pixmap,ID_EDIT_PASTE, FALSE, "Not Implemented");
+  toolbar->insertButton(pixmap,ID_EDIT_PASTE, FALSE, 
+			trans.translate("Not Implemented"));
   toolbar->insertSeparator();
   pixmap.load(PIXDIR + "fileprint.xpm");
-  toolbar->insertButton(pixmap,ID_FILE_PRINT, FALSE, "Not Implemendted");
+  toolbar->insertButton(pixmap,ID_FILE_PRINT, FALSE, 
+			trans.translate("Not Implemendted"));
   toolbar->insertSeparator();
   pixmap.load(PIXDIR + "help.xpm");
-  toolbar->insertButton(pixmap,ID_HELP_ABOUT, TRUE, "About Hex Editor");
+  toolbar->insertButton(pixmap,ID_HELP_ABOUT, TRUE, 
+			trans.translate("About Hex Editor"));
 
   addToolBar(toolbar);
   toolbar->setBarPos(KToolBar::Top);
@@ -83,6 +93,7 @@ int HexWidget::initMenu() {
   // stat->show();
   // setStatusBar(stat);
 
+  kfm = 0L;
   setView(CurrentFile);
   KDNDDropZone * dropZone = new KDNDDropZone( this , DndURL);
   connect( dropZone, SIGNAL( dropAction( KDNDDropZone *) ), 
@@ -100,8 +111,9 @@ void HexWidget::menuCallback(int item) {
     break;
   case ID_FILE_OPEN: {
     if (CurrentFile->isModified()) 
-      if((QMessageBox::query("Warning", "The current file has been modified.\n\rDo you want to save it ?"))) 
-	CurrentFile->save();
+      if (QMessageBox::query(trans.translate("Warning"), 
+			     trans.translate("The current file has been modified.\n\rDo you want to save it ?")))
+	 CurrentFile->save();
     
     QFileDialog *log=new QFileDialog;
     QString fileName = log->getOpenFileName();
@@ -123,8 +135,10 @@ void HexWidget::menuCallback(int item) {
   };
   case ID_FILE_CLOSE: {
     if (CurrentFile->isModified()) {
-      if (!QMessageBox::query("File changed",
-			     "Discard your changes?","Yes","No")) 
+      if (!QMessageBox::query(trans.translate("File changed"),
+			      trans.translate("Discard your changes?"),
+			      trans.translate("Yes"),
+			      trans.translate("No"))) 
 	return;
     };
     windowList.remove(this);
@@ -155,7 +169,8 @@ void HexWidget::menuCallback(int item) {
   case ID_HELP_ABOUT: {
      QString str;
      str.sprintf( "Hex Editor 0.4 \n\nby Stephan Kulow  (coolo@itm.mu-luebeck.de)");
-     KMsgBox::message( 0, "About Hex Editor", (const char *)str,
+     KMsgBox::message( 0, trans.translate("About Hex Editor"), 
+		       (const char *)str,
 		       KMsgBox::INFORMATION, "Close" );
      //     QMessageBox::message("About Hex Editor", str, "OK"); 
      break;
@@ -173,7 +188,7 @@ void HexWidget::open(const char* fileName, KIND_OF_OPEN kind) {
       CurrentFile->open(fileName);
     CurrentFile->setFocus();
     char Caption[300];
-    sprintf(Caption,"Hex Editor: %s",CurrentFile->Title());
+    sprintf(Caption,"%s: %s",kapp->getCaption(),CurrentFile->Title());
     setCaption(Caption);
     update();
   }
@@ -186,7 +201,7 @@ void HexWidget::openURL(const char *_url, KIND_OF_OPEN _mode) {
   netFile.detach();
   KURL u( netFile.data() );
   if ( u.isMalformed())   {
-    QMessageBox::message ("Error", "Malformed URL", "Ok");
+    QMessageBox::message (trans.translate("Error"), trans.translate("Malformed URL"), "Ok");
     return;
   }
   
@@ -200,7 +215,7 @@ void HexWidget::openURL(const char *_url, KIND_OF_OPEN _mode) {
   
   if ( kfm != 0L )
     {
-      QMessageBox::message ("Error", "KEdit is already waiting\n\rfor an internet job to finish\n\rWait until this one is finished\n\ror stop the running one.", "Ok");
+      QMessageBox::message ("Error", "KHexdit is already waiting\n\rfor an internet job to finish\n\rWait until this one is finished\n\ror stop the running one.", "Ok");
       return;
     }
   
@@ -221,11 +236,11 @@ void HexWidget::openURL(const char *_url, KIND_OF_OPEN _mode) {
   
   kfmAction = HexWidget::GET;
   //openMode = _mode;
-};
+}
 
 HexWidget::HexWidget() {
   initMenu();
-  setCaption("Hex Editor");
+  setCaption(kapp->getCaption());
 }
 
 HexWidget::HexWidget(const char* file) {
@@ -234,6 +249,10 @@ HexWidget::HexWidget(const char* file) {
 }
 
 HexWidget::~HexWidget() {
+  delete toolbar;
+  delete CurrentFile;
+  delete kfm;
+  delete menu;
 }
 
 void HexWidget::closeEvent ( QCloseEvent *e) {
@@ -273,8 +292,8 @@ void HexWidget::slotDropEvent( KDNDDropZone * _dropZone ) {
 }
 
 int main(int argc, char **argv) {
-  KApplication a(argc,argv,"khexdit");
-  
+  KApplication a(argc,argv,"khexdit");  
+ 
   if (argc>1) {
     for (int i=1; i < argc; i++) {
       if (*argv[i] == '-')	/* ignore options */
@@ -297,10 +316,9 @@ int main(int argc, char **argv) {
   }
   
   return a.exec();
-};
+}
 
-
-
+#include "hexwidget.moc"
 
 
 

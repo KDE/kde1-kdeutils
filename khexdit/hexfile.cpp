@@ -23,7 +23,7 @@ HexFile::HexFile(const char *filename,QWidget *parent, const char* name) :
 HexFile::HexFile(QWidget *parent)  : QWidget(parent,"Nothing") {
   init();
   filename=new char[20];
-  strcpy(filename,"Untitled");
+  strcpy(filename,trans.translate("Untitled"));
 };
 
 void HexFile::init() {
@@ -82,8 +82,8 @@ bool HexFile::open(const char *Filename) {
   QFile file(fileString);
   if (!file.open(IO_ReadOnly | IO_Raw)) {
     QString txt;
-    txt.sprintf("Error opening %s",fileString.data());
-    QMessageBox::message("Error",txt,"Close");
+    txt.sprintf(trans.translate("Error opening %s"),fileString.data());
+    QMessageBox::message(trans.translate("Error"),txt,"Close");
     return false;
   };
   delete filename;

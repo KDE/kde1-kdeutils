@@ -9,6 +9,7 @@
 #include <kfm.h>
 #include <kapp.h>
 #include <kurl.h>
+#include "translater.h"
 
 #define ID_FILE_OPEN 1
 #define ID_FILE_OPEN_URL 2
@@ -57,6 +58,9 @@ private:
   HexFile *CurrentFile;
   int winID;
   QString netFile;
+  KTranslater trans;
+  KToolBar *toolbar; 
+  KMenuBar *menu;
   /**
     Only one KFM connection should be opened at once. Otherwise kedit could get
     confused. If this is 0L, you may create a new connection to kfm.
