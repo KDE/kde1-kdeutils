@@ -22,6 +22,7 @@ appsdir = $(kde_appsdir)/Utilities
 apps_DATA = Kjots.kdelnk
 
 messages:
+	$(XGETTEXT) -C -x $(includedir)/kde.pot -ki18n -ktranslate *.cpp *.h && mv messages.po ../po/kjots.pot
 
 ####### Meta objects
 

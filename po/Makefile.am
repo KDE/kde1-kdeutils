@@ -3,7 +3,7 @@ SUBDIRS = de da fr cs nl sv es ru hu it pl pt fi hr el ro no \
 	zh_TW.Big5 zh_CN.GB2312 sk mk ca pt_BR eo
 
 # this is a general list for merging!
-APPS = kedit khexdit kzip knotes karm kljettool kcalc kfloppy
+APPS = kedit khexdit kzip knotes karm kljettool kcalc kfloppy kjots
 
 merge:
 	@apps='$(APPS)'; \
