@@ -137,6 +137,3 @@ msgstr "S&topp"
 #: top.cpp:229
 msgid "&New"
 msgstr "&Ny"
-
-#~ msgid "%s "
-#~ msgstr "%s "
