@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
-"POT-Creation-Date: 1999-03-09 01:44+0100\n"
-"PO-Revision-Date: 1999-01-31 22:07 CET\n"
+"POT-Creation-Date: 1999-03-05 01:58+0100\n"
+"PO-Revision-Date: 1999-03-09 22:00 CET\n"
 "Last-Translator: Francois-Xavier Duranceau "
 "<Francois-Xavier.Duranceau@loria.fr>\n"
 "Language-Team: Français\n"
@@ -24,7 +24,7 @@ msgstr "Couleur du texte..."
 
 #: knotes.cpp:304
 msgid "Background Color..."
-msgstr "Couleur de fond..."
+msgstr "Couleur du fond..."
 
 #: knotes.cpp:310
 msgid "New Note"
@@ -80,7 +80,7 @@ msgstr "Modifier les valeurs par défaut..."
 
 #: knotes.cpp:340
 msgid "Dock in panel"
-msgstr ""
+msgstr "Insérer dans le panneau"
 
 #: knotes.cpp:368
 msgid "Insert Date"
@@ -261,7 +261,7 @@ msgstr "Police par défaut"
 
 #: fontdlg.cpp:54
 msgid "Family:"
-msgstr "Famille:"
+msgstr "Famille :"
 
 #: fontdlg.cpp:64
 msgid "Point Size:"
@@ -269,7 +269,7 @@ msgstr "Taille en points :"
 
 #: fontdlg.cpp:75
 msgid "Style:"
-msgstr "Style:"
+msgstr "Style :"
 
 #: fontdlg.cpp:87
 msgid "Weight:"
@@ -334,11 +334,11 @@ msgstr "Heure :"
 
 #: bwdatetime.cpp:85
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #: bwdatetime.cpp:86
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: bwdatetime.cpp:161
 msgid "The Time you selected is invalid"
@@ -372,22 +372,15 @@ msgstr ""
 "Il existe déjà une note de ce nom.\n"
 "Veuillez choisir un nom différent."
 
-#: docking.cpp:48
-#, fuzzy, c-format
-msgid "Could not load %s !"
-msgstr ""
-"Impossible de charger :\n"
-" %s"
-
-#: docking.cpp:68
+#: docking.cpp:71
 msgid "Change Defaults"
 msgstr "Configuration par défaut"
 
-#: docking.cpp:73
+#: docking.cpp:76
 msgid "Exit Knotes"
 msgstr "Quitter Knotes"
 
-#: docking.cpp:92
+#: docking.cpp:95
 msgid "New Knote"
 msgstr "Nouvelle note"
 
