@@ -55,10 +55,11 @@ private:
     bool modified;
     Side sideEdit;
     int curx, cury, relcur;
-    char *hexdata;
+    unsigned char *hexdata;
     unsigned long int data_size;
     int rows,cols;
-    QPixmap *pixmap;
+    QPixmap *datamap;
+    //    QPixmap *pixmap;
     QFont *dispFont;
     long int lineoffset;
     int LineOffset;
@@ -83,9 +84,9 @@ protected:
     void focusInEvent ( QFocusEvent *);
     void focusOutEvent ( QFocusEvent *);
     void fillPixmap();
-    int fillLine(QPainter& p, int line);
-    int paintLabel( QPainter& p, long int label, int y);
-    void paintCursor(QPainter& p);
+    void fillLine(QPainter *p, int line);
+    int paintLabel( QPainter *p, long int label, int y);
+    void paintCursor(QPainter *p);
     QColor colorPosition(int field);
     int calcPosition( int field );
     void init();

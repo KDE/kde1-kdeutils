@@ -52,7 +52,7 @@ HexFile::HexFile(QWidget *parent)  : QWidget(parent,"Nothing") {
 void HexFile::init() {
     UseBig = false;
     sideEdit = LEFT;
-    pixmap=new QPixmap();
+    datamap=new QPixmap();
     dispFont=new QFont("courier", 14);
     filename = 0L;
     setFont(*dispFont);
@@ -72,7 +72,8 @@ void HexFile::init() {
     hexdata = 0;
     data_size = 0;
     currentByte = 0;
-    LineOffset=maxWidth*49+10;
+    cursorPosition = 0;
+    LineOffset = maxWidth*49+10;
     labelOffset = 0;
     curx = cury = horoff=lineoffset=0;
     setFocusPolicy(QWidget::TabFocus);
@@ -89,7 +90,7 @@ void HexFile::init() {
 
 HexFile::~HexFile() {
     delete dispFont;
-    delete pixmap;
+    delete datamap;
     delete metrics;
     delete scrollV;
     delete scrollH;
@@ -107,7 +108,7 @@ int HexFile::save() {
     return 0;
     QFile file(filename);
     file.open(IO_Truncate | IO_WriteOnly | IO_Raw);
-    file.writeBlock(hexdata, data_size);
+    file.writeBlock((char*)hexdata, data_size);
     file.close();
     modified = false;
     emit unsaved( false );
@@ -133,7 +134,7 @@ bool HexFile::open(const char *Filename) {
     delete [] filename;
     filename = new char[strlen(Filename)+1];
     strcpy(this->filename,Filename);
-    hexdata = (char*)mmap(0, file.size(),  PROT_READ | PROT_WRITE, MAP_PRIVATE,
+    hexdata = (unsigned char*)mmap(0, file.size(),  PROT_READ | PROT_WRITE, MAP_PRIVATE,
 			  file.handle(), 0);
     data_size = file.size();
     lineoffset = 0;
@@ -170,7 +171,7 @@ void HexFile::scrolled(int line) {
     lineoffset=offset;
     old_x = curx;
     old_y = cury;
-    if (!pixmap->isNull()) {
+    if (!datamap->isNull()) {
 	fillPixmap();
 	repaint( false );
     }
@@ -283,6 +284,20 @@ void HexFile::keyPressEvent (QKeyEvent* e) {
 	if (new_lineoffset/16<maxLine()) {
 	    new_lineoffset +=16;
 	}
+	lineoffset = new_lineoffset;
+	debug("copy");
+	QPixmap *pixmap = new QPixmap(datamap->size());
+	QPainter painter;
+	painter.begin(pixmap);
+	painter.drawPixmap(0, 0, *datamap, 0, metrics->height());
+	painter.setFont(*dispFont);
+	fillLine(&painter, rows);
+	painter.drawLine(LineOffset,0,LineOffset,height());
+	delete datamap;
+	datamap = pixmap;
+	painter.end();
+	repaint(false);
+	return;
     }
 
     if ((unsigned)(curx + new_lineoffset + cury *16) >= data_size) {
@@ -291,12 +306,15 @@ void HexFile::keyPressEvent (QKeyEvent* e) {
 	new_lineoffset = ol;
 	relcur = or;
     }
+
     if (new_lineoffset != ol) {
 	scrolled(new_lineoffset/16);
 	return;
     }
+
     if (curx != ox || cury != oy || changed || or!=relcur) {
-	fillPixmap();
+	if (changed)
+	    fillPixmap();
 	repaint( false );
 	return;
     }
@@ -304,15 +322,16 @@ void HexFile::keyPressEvent (QKeyEvent* e) {
     e->ignore();
 }
 
-void HexFile::paintCursor(QPainter& p) 
+void HexFile::paintCursor(QPainter *p) 
 {
-    if (!hexdata)
+    if (!hexdata || currentByte >= data_size)
 	return;
     
-    char number[3]= "  ";
+    char number[4];
     char hilight[3];
     int w = calcPosition(curx);
-    debug("paintCursor %d %d",w, cursorPosition);
+    calcCurrentByte(); // just to be sure
+    debug("paintCursor %d %d %ld %x",w, cursorPosition, currentByte, hexdata[currentByte]);
     int offw = 0;
 
     if (UseBig)
@@ -321,39 +340,41 @@ void HexFile::paintCursor(QPainter& p)
 	sprintf(number,"%02x",hexdata[currentByte]);
 
     if (sideEdit == LEFT) {
-	p.setPen(QColor(0xff,0xff,0xff));
+	p->setPen(QColor(0xff,0xff,0xff));
 	offw = maxWidth*relcur;
 	
 	hilight[0] = number[relcur];
 	hilight[1] = 0;
     } else {
-	p.setPen(QColor(0x0,0x0,0x0));
+	p->setPen(QColor(0x0,0x0,0x0));
 	hilight[0] = number[0];
 	hilight[1] = number[1];
 	hilight[2] = 0;
     }
 
-    p.fillRect(w + offw, cursorPosition - cursorHeight ,
+    p->fillRect(w + offw - horoff, cursorPosition - cursorHeight ,
 	       (1 + (sideEdit==RIGHT))*maxWidth,
 	       cursorHeight + metrics->underlinePos(),
 	       *leftM);
-    p.drawText(w+offw,cursorPosition, hilight);
+    p->drawText(w+offw - horoff,cursorPosition, hilight);
 
-    p.setPen(QColor(0xff,0x0,0));
-    p.fillRect(LineOffset+10+curx*maxWidth,
+    p->setPen(QColor(0xff,0x0,0));
+    p->fillRect(LineOffset + 10 + curx*maxWidth - horoff,
 	       cursorPosition - cursorHeight +
 	       2 * metrics->underlinePos(),
 	       maxWidth,
 	       cursorHeight,
 	       *rightM);
+
     if (hexdata[currentByte] > 31)
 	hilight[0] = hexdata[currentByte];
     else 
 	hilight[0] = '.';
     hilight[1] = 0;
 
-    p.setPen(QColor(0x20,0x20,0x80));
-    p.drawText(LineOffset+10 + curx * maxWidth, cursorPosition, hilight);
+    p->setPen(QColor(0x20,0x20,0x80));
+    p->drawText(LineOffset + 10 + curx * maxWidth - horoff, 
+		cursorPosition, hilight);
 }
 
 void HexFile::changeSide() {
@@ -364,7 +385,8 @@ void HexFile::changeSide() {
 }
 
 void HexFile::calcCurrentByte() {
-    currentByte = (LineOffset + cury) * 16 + curx;
+    currentByte = lineoffset + cury * 16 + curx;
+    debug("calcCurrentByte %ld %d %d %ld",lineoffset, curx, cury, currentByte);
 }
 
 void HexFile::mousePressEvent (QMouseEvent *e) {
@@ -418,7 +440,7 @@ void HexFile::focusOutEvent ( QFocusEvent *) {
     repaint(false);
 }
 
-int HexFile::paintLabel( QPainter& p, long int label, int y) {
+int HexFile::paintLabel( QPainter *p, long int label, int y) {
     char offset[10];
     char txt[2] = " ";
 
@@ -427,17 +449,18 @@ int HexFile::paintLabel( QPainter& p, long int label, int y) {
     else
 	sprintf(offset,"%08lx ", label);
 
-    p.setPen(QColor(0,0,0));
+    p->setPen(QColor(0,0,0));
     for (int i=0;i<9;i++) {
 	// to write a single character (perhaps easier?)
 	txt[0]=offset[i];
-	p.drawText(5+i*maxWidth, y, txt);
+	p->drawText(5+i*maxWidth, y, txt);
     }
 
     return 5 + 9 * maxWidth;
 }
 
 int HexFile::calcPosition( int field ) {
+    cursorPosition = (cury + 1) * metrics->height();
     return field * 2 * maxWidth + labelOffset + (field / 2) * maxWidth;
 }
 
@@ -448,15 +471,19 @@ QColor HexFile::colorPosition(int field) {
 	return QColor(0x20,0x9f,0x9f);
 }
 
-int HexFile::fillLine(QPainter& p, int line) {
+void HexFile::fillLine(QPainter *p, int line) {
     int w=0, x, i;
     char txt[2]=" ";
     char number[8];
     char currentBuffer[17];
     memset(currentBuffer,' ',17);
-    
+
+    p->fillRect(0, (line-1)*metrics->height(), 
+		datamap->width(), line*metrics->height(), 
+		QColor(220, 220, 220));
+
     if (data_size<=(unsigned)(line-1)*16+lineoffset)
-	return -1;
+	return;
 
     int label = paintLabel(p, (line-1)*16 + lineoffset, line*metrics->height());
     if (!labelOffset)
@@ -476,12 +503,12 @@ int HexFile::fillLine(QPainter& p, int line) {
 	else 
 	    sprintf(number,"%02x",r1);
 
-	p.setPen(colorPosition(x));
+	p->setPen(colorPosition(x));
 	
 	txt[1]=0; w = calcPosition(x);
 	for (i=0;i<2;i++) {
 	    txt[0]=number[i];
-	    p.drawText( w + i * maxWidth, line*metrics->height(), txt);
+	    p->drawText( w + i * maxWidth, line*metrics->height(), txt);
 	}
 	
 	if ((cury == line-1)  && (curx == x)) {
@@ -495,52 +522,67 @@ int HexFile::fillLine(QPainter& p, int line) {
     }
     if (x) {
 	currentBuffer[16]=0;
-	p.setPen(QColor(0x20,0x20,0x80));
+	p->setPen(QColor(0x20,0x20,0x80));
 	txt[1]=0; 
 	w = LineOffset + 10;
 	int h = line*metrics->height();
 	
 	for (i=0;i<16;i++) {
 	    txt[0]=currentBuffer[i];
-	    p.drawText( w + i * maxWidth, h, txt);
+	    p->drawText( w + i * maxWidth, h, txt);
 	}
-	p.drawText(LineOffset+10, h, currentBuffer);
+	p->drawText(LineOffset+10, h, currentBuffer);
 	
-    } else return -1;
+    } else return;
 
-    return 0;
+    return;
 }
 
 void HexFile::fillPixmap() {
     debug("fillPixmap");
-    if (!pixmap || pixmap->isNull())
+    if (!datamap || datamap->isNull())
 	return;
-    QPainter p(pixmap);
+    QPainter p(datamap);
     p.setFont(*dispFont);
-    pixmap->fill(QColor(220, 220, 220));
-    int stat = 0;
-
-    for (int y=1; y<=rows && !stat; y++) 
-	stat = fillLine(p, y);
+    
+    for (int y=1; y<=rows; y++) 
+	fillLine(&p, y);
 	
     p.drawLine(LineOffset,0,LineOffset,height());
     calcCurrentByte();
-    
 }
 
 void HexFile::paintEvent(QPaintEvent *p) {
-    if (pixmap && !pixmap->isNull() && pixmap->rect().intersects(p->rect()))
-	bitBlt(this, p->rect().left(),p->rect().top(), 
-	       pixmap, p->rect().left()+horoff,p->rect().top(),
-	       p->rect().width(),p->rect().height(),
-	       CopyROP);
-    QPainter painter(this);
-    paintCursor(painter);
+    static unsigned int count = 0;
+    debug("paintEvent %d %d %d %d %u",p->rect().left(), p->rect().top(), 
+	  p->rect().width(), p->rect().height(), count++);
+
+    if (!datamap || datamap->isNull())
+	return;
+
+    if (p->rect().intersects(QRect(0,0,width()-scrollV->width(), 
+				   height() - scrollH->height()))) {
+
+	QPixmap pixmap(*datamap);
+	QPainter painter(&pixmap);
+	paintCursor(&painter);
+
+	int width = p->rect().width();
+	if (width + p->rect().left() > pixmap.width() + horoff)
+	    width = pixmap.width() - p->rect().left();
+
+	bitBlt(this, p->rect().left(), p->rect().top(),
+	       &pixmap, 
+	       p->rect().left() + horoff, p->rect().top(),
+	       width, p->rect().height(), CopyROP);
+
+    }
+
 }
 
 void HexFile::resizeEvent(QResizeEvent *) {
     int scrollVWidth,scrollHHeight;
-    
+
     if (!scrollV)
 	return;
     
@@ -567,9 +609,9 @@ void HexFile::resizeEvent(QResizeEvent *) {
 			 scrollVWidth,
 			 height()-scrollHHeight);
     
-    pixmap->resize(maxWidth*65+20,height()-scrollHHeight);
+    datamap->resize(maxWidth*65+20,height()-scrollHHeight);
     fillPixmap();
-    if (width()>pixmap->width()+scrollHHeight)
+    if (width()>datamap->width()+scrollHHeight)
 	horoff=0;
 }
 
