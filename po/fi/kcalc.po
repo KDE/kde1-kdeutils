@@ -108,4 +108,3 @@ msgstr "Paksunnettu"
 #: fontdlg.cpp:103 fontdlg.cpp:136
 msgid "Normal"
 msgstr "Normaali"
-

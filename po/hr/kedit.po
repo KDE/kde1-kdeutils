@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-05 12:37+0200\n"
 "PO-Revision-Date: 1998-03-15 20:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian\n"
@@ -32,6 +32,11 @@ msgstr "Sakrij st&atus"
 #: kedit.cpp:153
 msgid "Select All"
 msgstr "Izaberi sve"
+
+#: kedit.cpp:156
+#, fuzzy
+msgid "Font..."
+msgstr "&Naði..."
 
 #: kedit.cpp:200
 msgid "Ne&w..."
@@ -90,11 +95,13 @@ msgid "&Goto Line..."
 msgstr "&Idi na redak..."
 
 #: kedit.cpp:276
-msgid "&Font"
+#, fuzzy
+msgid "&Font..."
 msgstr "&Font"
 
 #: kedit.cpp:278
-msgid "Colors"
+#, fuzzy
+msgid "&Colors"
 msgstr "Boje"
 
 #: kedit.cpp:283
@@ -219,6 +226,10 @@ msgstr "Automatska tabulacija: iskjuèena"
 msgid "Line: %d Col: %d"
 msgstr "Redak: %d Stupac: %d"
 
+#: filldlg.cpp:31 kedit.cpp:1146
+msgid "KEdit Options"
+msgstr "KEdit Opcije"
+
 #: kedit.cpp:1195
 msgid ""
 "The current document has been modified.\n"
@@ -336,6 +347,11 @@ msgstr ""
 "Ne mogu stvoriti:\n"
 "%s"
 
+#: kedit.cpp:2059
+#, fuzzy
+msgid "Spellchecker Options"
+msgstr "Spremi odrednice"
+
 #: keditcl1.cpp:137
 msgid "The specified File does not exist"
 msgstr ""
@@ -404,6 +420,12 @@ msgstr ""
 msgid "You do not have write permission to this file.\n"
 msgstr ""
 
+#: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
+#: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
+#, fuzzy
+msgid "Find"
+msgstr "&Naði..."
+
 #: keditcl2.cpp:113 keditcl2.cpp:370 keditcl2.cpp:463
 msgid ""
 "End of document reached.\n"
@@ -463,10 +485,6 @@ msgstr "Pi¹i naredbom:"
 #: print.cpp:96
 msgid "Print Selection"
 msgstr "Pi¹i oznaèeno"
-
-#: filldlg.cpp:31
-msgid "KEdit Options"
-msgstr "KEdit Opcije"
 
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"

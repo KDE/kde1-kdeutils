@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-05 12:37+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,6 +37,11 @@ msgstr "&Statusbalk verbergen"
 #, fuzzy
 msgid "Select All"
 msgstr "Alles vervangen"
+
+#: kedit.cpp:156
+#, fuzzy
+msgid "Font..."
+msgstr "&Lettertype..."
 
 #: kedit.cpp:200
 msgid "Ne&w..."
@@ -98,11 +103,13 @@ msgid "&Goto Line..."
 msgstr "&Ga naar regel..."
 
 #: kedit.cpp:276
-msgid "&Font"
+#, fuzzy
+msgid "&Font..."
 msgstr "&Lettertype..."
 
 #: kedit.cpp:278
-msgid "Colors"
+#, fuzzy
+msgid "&Colors"
 msgstr "&Kleuren"
 
 #: kedit.cpp:283
@@ -229,6 +236,11 @@ msgstr "Automatisch inspringen: uit"
 msgid "Line: %d Col: %d"
 msgstr "Regel: %d kolom: %d"
 
+#: filldlg.cpp:31 kedit.cpp:1146
+#, fuzzy
+msgid "KEdit Options"
+msgstr "&Instellingen"
+
 #: kedit.cpp:1195
 msgid ""
 "The current document has been modified.\n"
@@ -347,6 +359,11 @@ msgstr ""
 "Kan niet aanmaken:\n"
 "%s"
 
+#: kedit.cpp:2059
+#, fuzzy
+msgid "Spellchecker Options"
+msgstr "Instellingen opslaan"
+
 #: keditcl1.cpp:137
 msgid "The specified File does not exist"
 msgstr "Het gespecificeerde bestand bestaat niet"
@@ -414,6 +431,11 @@ msgstr ""
 msgid "You do not have write permission to this file.\n"
 msgstr "Niet voldoende rechten om naar dit bestand te schrijven\n"
 
+#: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
+#: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
+msgid "Find"
+msgstr "Zoeken"
+
 #: keditcl2.cpp:113 keditcl2.cpp:370 keditcl2.cpp:463
 msgid ""
 "End of document reached.\n"
@@ -474,11 +496,6 @@ msgstr "Afdrukken met de opdracht:"
 msgid "Print Selection"
 msgstr "Selectie afdrukken"
 
-#: filldlg.cpp:31
-#, fuzzy
-msgid "KEdit Options"
-msgstr "&Instellingen"
-
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"
 msgstr "Rechter kantlijn op:"
@@ -524,9 +541,6 @@ msgstr "Specificeer een geadresseerde"
 #~ msgid "Save Document As"
 #~ msgstr "Sla document op als"
 
-#~ msgid "Find"
-#~ msgstr "Zoeken"
-
 #~ msgid "Replace"
 #~ msgstr "Vervang"
 
@@ -547,10 +561,6 @@ msgstr "Specificeer een geadresseerde"
 
 #~ msgid "Cut"
 #~ msgstr "Knippen"
-
-#, fuzzy
-#~ msgid "Font"
-#~ msgstr "&Lettertype..."
 
 #~ msgid "&Foreground Color"
 #~ msgstr "&Voorgrondkleur"

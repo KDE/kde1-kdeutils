@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdehelp 0.5.2\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-05 12:37+0200\n"
 "PO-Revision-Date: 1997-09-21 19:39+MET\n"
 "Last-Translator: Nagy Balazs <julian7@kva.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -33,6 +33,11 @@ msgstr "S&tátuszsor elrejtése"
 #, fuzzy
 msgid "Select All"
 msgstr "Mindent cserél"
+
+#: kedit.cpp:156
+#, fuzzy
+msgid "Font..."
+msgstr "&Font"
 
 #: kedit.cpp:200
 msgid "Ne&w..."
@@ -94,11 +99,13 @@ msgid "&Goto Line..."
 msgstr "&Sorra ugrás..."
 
 #: kedit.cpp:276
-msgid "&Font"
+#, fuzzy
+msgid "&Font..."
 msgstr "&Font"
 
 #: kedit.cpp:278
-msgid "Colors"
+#, fuzzy
+msgid "&Colors"
 msgstr "&Színek"
 
 #: kedit.cpp:283
@@ -225,6 +232,11 @@ msgstr "Automatikus behúzás: ki"
 msgid "Line: %d Col: %d"
 msgstr "Sor: %d Oszlop: %d"
 
+#: filldlg.cpp:31 kedit.cpp:1146
+#, fuzzy
+msgid "KEdit Options"
+msgstr "&Beállítások"
+
 #: kedit.cpp:1195
 msgid ""
 "The current document has been modified.\n"
@@ -339,6 +351,11 @@ msgid ""
 "%s"
 msgstr ""
 
+#: kedit.cpp:2059
+#, fuzzy
+msgid "Spellchecker Options"
+msgstr "Beállítások mentése"
+
 #: keditcl1.cpp:137
 msgid "The specified File does not exist"
 msgstr "A file nem létezik"
@@ -406,6 +423,11 @@ msgstr ""
 msgid "You do not have write permission to this file.\n"
 msgstr "Nincs írási jogosultsága a file-hoz.\n"
 
+#: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
+#: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
+msgid "Find"
+msgstr "Keres"
+
 #: keditcl2.cpp:113 keditcl2.cpp:370 keditcl2.cpp:463
 msgid ""
 "End of document reached.\n"
@@ -466,11 +488,6 @@ msgstr "Nyomtatási parancs:"
 msgid "Print Selection"
 msgstr "Kijelölés nyomtatása"
 
-#: filldlg.cpp:31
-#, fuzzy
-msgid "KEdit Options"
-msgstr "&Beállítások"
-
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"
 msgstr ""
@@ -515,9 +532,6 @@ msgstr "Kérem, írja be a címzettet"
 #~ msgid "Save Document As"
 #~ msgstr "Dokumentum mentése másként"
 
-#~ msgid "Find"
-#~ msgstr "Keres"
-
 #~ msgid "Replace"
 #~ msgstr "Csere"
 
@@ -538,10 +552,6 @@ msgstr "Kérem, írja be a címzettet"
 
 #~ msgid "Cut"
 #~ msgstr "Kivág"
-
-#, fuzzy
-#~ msgid "Font"
-#~ msgstr "&Font"
 
 #~ msgid "&Foreground Color"
 #~ msgstr "&Elõtérszín"

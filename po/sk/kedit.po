@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kedit\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-05 12:37+0200\n"
 "PO-Revision-Date: 1998-03-08 10:42 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -32,6 +32,11 @@ msgstr "Vypnú» &stavový riadok"
 #: kedit.cpp:153
 msgid "Select All"
 msgstr "Vybra» v¹etko"
+
+#: kedit.cpp:156
+#, fuzzy
+msgid "Font..."
+msgstr "&Nájs»..."
 
 #: kedit.cpp:200
 msgid "Ne&w..."
@@ -90,11 +95,13 @@ msgid "&Goto Line..."
 msgstr "&Choï na riadok..."
 
 #: kedit.cpp:276
-msgid "&Font"
+#, fuzzy
+msgid "&Font..."
 msgstr "&Písmo"
 
 #: kedit.cpp:278
-msgid "Colors"
+#, fuzzy
+msgid "&Colors"
 msgstr "Farby"
 
 #: kedit.cpp:283
@@ -219,6 +226,10 @@ msgstr "Automatické odsadzovanie: vypnuté"
 msgid "Line: %d Col: %d"
 msgstr "Riadok: %d Ståpec: %d"
 
+#: filldlg.cpp:31 kedit.cpp:1146
+msgid "KEdit Options"
+msgstr "Nastavenie KEditu"
+
 #: kedit.cpp:1195
 msgid ""
 "The current document has been modified.\n"
@@ -334,6 +345,11 @@ msgstr ""
 "Nemô¾em vytvori»:\n"
 "%s"
 
+#: kedit.cpp:2059
+#, fuzzy
+msgid "Spellchecker Options"
+msgstr "Ulo¾i» nastavenie"
+
 #: keditcl1.cpp:137
 msgid "The specified File does not exist"
 msgstr ""
@@ -402,6 +418,12 @@ msgstr ""
 msgid "You do not have write permission to this file.\n"
 msgstr ""
 
+#: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
+#: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
+#, fuzzy
+msgid "Find"
+msgstr "&Nájs»..."
+
 #: keditcl2.cpp:113 keditcl2.cpp:370 keditcl2.cpp:463
 msgid ""
 "End of document reached.\n"
@@ -461,10 +483,6 @@ msgstr "Tlaèi» pomocou príkazu:"
 #: print.cpp:96
 msgid "Print Selection"
 msgstr "Tlaèi» výber"
-
-#: filldlg.cpp:31
-msgid "KEdit Options"
-msgstr "Nastavenie KEditu"
 
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"

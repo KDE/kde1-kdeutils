@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kedit\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-05 12:37+0200\n"
 "PO-Revision-Date: 1998-09-09 01:50+0600\n"
 "Last-Translator: Denis pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -32,6 +32,11 @@ msgstr "Скрыть строку состояния"
 #: kedit.cpp:153
 msgid "Select All"
 msgstr "Выделить все"
+
+#: kedit.cpp:156
+#, fuzzy
+msgid "Font..."
+msgstr "Искать..."
 
 #: kedit.cpp:200
 msgid "Ne&w..."
@@ -90,11 +95,13 @@ msgid "&Goto Line..."
 msgstr "Перейти на строку..."
 
 #: kedit.cpp:276
-msgid "&Font"
+#, fuzzy
+msgid "&Font..."
 msgstr "Шрифт"
 
 #: kedit.cpp:278
-msgid "Colors"
+#, fuzzy
+msgid "&Colors"
 msgstr "Цвета"
 
 #: kedit.cpp:283
@@ -219,6 +226,10 @@ msgstr "Режим автовыравнивания: Выключен"
 msgid "Line: %d Col: %d"
 msgstr "Строка: %d Столбец: %d"
 
+#: filldlg.cpp:31 kedit.cpp:1146
+msgid "KEdit Options"
+msgstr "Настройка KEdit"
+
 #: kedit.cpp:1195
 msgid ""
 "The current document has been modified.\n"
@@ -337,6 +348,11 @@ msgstr ""
 "Ошибка создания:\n"
 "%s"
 
+#: kedit.cpp:2059
+#, fuzzy
+msgid "Spellchecker Options"
+msgstr "Записать установки"
+
 #: keditcl1.cpp:137
 msgid "The specified File does not exist"
 msgstr ""
@@ -405,6 +421,12 @@ msgstr ""
 msgid "You do not have write permission to this file.\n"
 msgstr ""
 
+#: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
+#: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
+#, fuzzy
+msgid "Find"
+msgstr "Искать..."
+
 #: keditcl2.cpp:113 keditcl2.cpp:370 keditcl2.cpp:463
 msgid ""
 "End of document reached.\n"
@@ -464,10 +486,6 @@ msgstr "Печатать используя команду:"
 #: print.cpp:96
 msgid "Print Selection"
 msgstr "Печатать выделение"
-
-#: filldlg.cpp:31
-msgid "KEdit Options"
-msgstr "Настройка KEdit"
 
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"
