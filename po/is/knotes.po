@@ -170,7 +170,7 @@ msgstr ""
 "Með innleggi eftir:\n"
 "Matthias Ettrich <ettrich@kde.org>\n"
 "\n"
-"\n"
+"Þýðing: Bjarni <bre@mmedia.is>\n"
 
 #: configdlg.cpp:46 knotes.cpp:1375
 msgid "Defaults"

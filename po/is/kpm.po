@@ -206,7 +206,9 @@ msgstr ""
 "\n"
 "Notkun og dreifing þessa forrits er háð GNU GPL\n"
 "skilmálunum.  Skráin COPYING sem fylgir forrits-\n"
-"texta kpm skýrir þetta nánar."
+"texta kpm skýrir þetta nánar.\n"
+"\n"
+"Þýðing: Þórarinn Einarsson <thori@mindspring.com>"
 
 #: qps.C:210
 msgid "&Window"

@@ -129,7 +129,10 @@ msgstr ""
 "\n"
 "Höfundaréttur 1997-98\n"
 "Bernd Johannes Wuebben\n"
-"wuebben@kde.org"
+"wuebben@kde.org\n"
+"\n"
+"Þýðing: Logi Ragnarsson\n"
+"<logir@img.au.dk>"
 
 #: kedit.cpp:332
 msgid "New Document"

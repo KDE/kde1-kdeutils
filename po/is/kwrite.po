@@ -465,7 +465,9 @@ msgstr ""
 "\n"
 "Höfundaréttur 1998\n"
 "Jochen Wilhelmy\n"
-"digisnap@cs.tu-berlin.de"
+"digisnap@cs.tu-berlin.de\n"
+"\n"
+"Þýðing: Bjarni <bre@mmedia.is>"
 
 #: toplevel.cpp:272
 msgid "&Bookmarks"

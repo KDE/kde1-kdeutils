@@ -34,7 +34,10 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"eftir Stephen Kulow"
+"eftir Stephen Kulow\n"
+"\n"
+"Þýðing: Gudmundur\n"
+"Erlingsson <gerl@vortex.is>"
 
 #: hexwidget.cpp:105
 msgid "New Window"

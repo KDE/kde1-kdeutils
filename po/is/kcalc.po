@@ -42,7 +42,7 @@ msgstr ""
 "wuebben@kde.org\n"
 "Copyright (C) 1996-98\n"
 "\n"
-"\n"
+"Þýðing: Bjarni <bre@mmedia.is>\n"
 
 #: kcalc.cpp:1551
 msgid "Base type: long double\n"
