@@ -62,7 +62,7 @@ msgstr "Novi p&rozor"
 
 #: kedit.cpp:254
 msgid "&Select All"
-msgstr "&Izaberi Sve"
+msgstr "&Izaberi sve"
 
 #: kedit.cpp:257
 msgid "&Insert File"

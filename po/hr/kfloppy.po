@@ -54,17 +54,17 @@ msgstr "Formatiraj"
 # floppy.cpp:131
 #: floppy.cpp:131
 msgid "Quick Erase"
-msgstr "Brzo Obri¹i"
+msgstr "Brzo brisanje"
 
 # floppy.cpp:136
 #: floppy.cpp:136
 msgid "Full Format"
-msgstr "Puni Format"
+msgstr "Puni format"
 
 # floppy.cpp:142
 #: floppy.cpp:142
 msgid "Create Label:"
-msgstr "Naèini Oznaku:"
+msgstr "Dodaj oznaku:"
 
 # floppy.cpp:148
 #: floppy.cpp:148

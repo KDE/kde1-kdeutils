@@ -38,7 +38,7 @@ msgstr "Pristani na ploèu"
 
 #: prefs.C:43
 msgid "Green/Black Load Graph"
-msgstr "Zeleno/Crno graf optereæenja"
+msgstr "Graf optereæenja (zeleno/crno)"
 
 #: prefs.C:45
 msgid "Solid filled graph"
@@ -46,7 +46,7 @@ msgstr ""
 
 #: prefs.C:50
 msgid "Host Name Lookup"
-msgstr ""
+msgstr "Tra¾i ime raèunala"
 
 #: prefs.C:55
 msgid "Auto Save Settings on Exit"
@@ -62,7 +62,7 @@ msgstr ""
 
 #: qps.C:88 qps.C:126
 msgid "Renice..."
-msgstr ""
+msgstr "Renice..."
 
 #: qps.C:91
 msgid "Change Scheduling..."
@@ -70,7 +70,7 @@ msgstr ""
 
 #: qps.C:95 qps.C:130
 msgid "Socket Info"
-msgstr ""
+msgstr "Info o socketu"
 
 #: qps.C:100
 msgid "Iconify"
@@ -98,7 +98,7 @@ msgstr "Ostali"
 
 #: qps.C:127
 msgid "Scheduling..."
-msgstr ""
+msgstr "Rasporeðivanje..."
 
 #: qps.C:137
 msgid "Other signals"
@@ -130,11 +130,11 @@ msgstr "Va¹i procesi"
 
 #: qps.C:161
 msgid "Non-Root Processes"
-msgstr ""
+msgstr "Ne-korijenski procesi"
 
 #: qps.C:162
 msgid "Running Processes"
-msgstr ""
+msgstr "Procesi koji se trenutno izvode"
 
 #: qps.C:164
 msgid "User Fields"
@@ -154,7 +154,7 @@ msgstr "Izaberi polja..."
 
 #: qps.C:174
 msgid "Update Period..."
-msgstr "Osvje¾i period..."
+msgstr "Razmak osvje¾avanja..."
 
 #: qps.C:179
 msgid "Show command path"
@@ -162,7 +162,7 @@ msgstr "Prika¾i putanju naredbe"
 
 #: qps.C:181
 msgid "Show ressource info"
-msgstr ""
+msgstr "Prika¾i info o resursu"
 
 #: qps.C:183
 msgid "Show toolbar"
@@ -281,15 +281,15 @@ msgstr "Pristup odbijen"
 
 #: qps.C:700
 msgid "qps: change update period"
-msgstr ""
+msgstr "qps: promijeni razmak osvje¾avanja"
 
 #: qps.C:701
 msgid "New update period:"
-msgstr ""
+msgstr "Novi razmak osvje¾avanja:"
 
 #: qps.C:716 qps.C:855 scheddlg.C:113
 msgid "Invalid input"
-msgstr ""
+msgstr "Neispravan upis"
 
 #: qps.C:717
 msgid ""
@@ -319,6 +319,8 @@ msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
 msgstr ""
+"Nice vrijednost treba biti\n"
+"u rasponu -20 do 20."
 
 #: qps.C:873
 #, c-format
@@ -326,10 +328,12 @@ msgid ""
 "You do not have permission to renice process %d (%s).\n"
 "Only the process owner and the super-user are allowed to do that."
 msgstr ""
+"Nemate privilegiju za renice procesa %d (%s).\n"
+"Samo vlasnik procesa i administrator imaju takvu privilegiju."
 
 #: qps.C:885
 msgid "Only the super-user may lower the nice value of a process."
-msgstr ""
+msgstr "Samo administrator mo¾e smanjiti nice vrijednost procesa."
 
 #: qps.C:908
 msgid ""

@@ -19,7 +19,7 @@ msgstr "Spremi pod novim &imenom..."
 
 #: hexwidget.cpp:77
 msgid "&Toggle Toolbar"
-msgstr "Uklj./isklj. &Alate"
+msgstr "Uklj./isklj. traku s &alatima"
 
 #: hexwidget.cpp:80
 msgid "Hex Editor"

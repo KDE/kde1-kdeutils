@@ -13,15 +13,15 @@ msgstr ""
 
 #: webmaker.cpp:120
 msgid "Ne&w"
-msgstr "&Novi"
+msgstr "&Nova"
 
 #: webmaker.cpp:121
 msgid "New From &Template..."
-msgstr "Novi koristeæi &predlo¾ak..."
+msgstr "Nova koristeæi &predlo¾ak..."
 
 #: webmaker.cpp:127
 msgid "Open &Recent"
-msgstr "Otvori s&kora¹nji"
+msgstr "Otvori s&kora¹nju"
 
 #: webmaker.cpp:131
 msgid "Save &as..."
@@ -73,7 +73,7 @@ msgstr ""
 
 #: webmaker.cpp:179 webmaker.cpp:278
 msgid "&Edit tag..."
-msgstr ""
+msgstr "&Promijeni oznaku(tag)..."
 
 #: webmaker.cpp:180
 msgid "&Table Template..."
@@ -109,7 +109,7 @@ msgstr "Centrirano"
 
 #: webmaker.cpp:202
 msgid "Horizontal Rule"
-msgstr ""
+msgstr "Linija"
 
 #: webmaker.cpp:203
 msgid "Non-breaking Space"
@@ -121,7 +121,7 @@ msgstr ""
 
 #: webmaker.cpp:205
 msgid "Paragraph"
-msgstr ""
+msgstr "Odlomak"
 
 #: webmaker.cpp:207
 msgid "H1"
@@ -137,11 +137,11 @@ msgstr "H3"
 
 #: webmaker.cpp:210
 msgid "T&ags"
-msgstr ""
+msgstr "&Oznake(tags)"
 
 #: webmaker.cpp:213
 msgid "&View in External Browser"
-msgstr ""
+msgstr "&Pregledaj u pregledniku"
 
 #: webmaker.cpp:221
 msgid "Main Toolbar"
@@ -185,11 +185,11 @@ msgstr ""
 
 #: webmaker.cpp:242
 msgid "&External Browsers..."
-msgstr "&Vanjski preglednici..."
+msgstr "&Preglednici..."
 
 #: webmaker.cpp:245
 msgid "Auto Save Options"
-msgstr ""
+msgstr "Auto spremi postavke"
 
 #: webmaker.cpp:247
 msgid "&Save Options"
@@ -201,7 +201,7 @@ msgstr "&Prozori"
 
 #: webmaker.cpp:277
 msgid "&Tag Chooser"
-msgstr ""
+msgstr "Izbornik &oznaka"
 
 #: webmaker.cpp:281
 msgid "Ne&w..."
@@ -225,7 +225,7 @@ msgstr "Ispi¹i dokument"
 
 #: webmaker.cpp:323
 msgid "View in External Browser"
-msgstr ""
+msgstr "Pregledaj u pregledniku"
 
 #: webmaker.cpp:347
 msgid "Search"
@@ -334,11 +334,11 @@ msgstr ""
 
 #: webmaker.cpp:1159
 msgid "Auto Save Options: On"
-msgstr ""
+msgstr "Auto. spremi postavke: Uklj."
 
 #: webmaker.cpp:1161
 msgid "Auto Save Options: Off"
-msgstr ""
+msgstr "Auto. spremi postavke: Iskl."
 
 #: webmaker.cpp:1345 webmaker.cpp:1603
 msgid "Sorry!"
@@ -355,7 +355,7 @@ msgstr "Redak: %d Stupac: %d"
 
 #: webmaker.cpp:1603
 msgid "Sorry, feature is not implemented yet."
-msgstr ""
+msgstr "®alim, ova moguænost jo¹ nije ugraðena."
 
 #: htmledit.cpp:95
 msgid ""
@@ -368,6 +368,8 @@ msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
+"Nisam u stanju spremiti dokument.\n"
+"Da li da ipak otvorim novi?"
 
 #: htmledit.cpp:116
 msgid "The specified File does not exist."
@@ -425,15 +427,15 @@ msgstr ""
 
 #: htmledit.cpp:1052
 msgid "C&aption"
-msgstr ""
+msgstr "Opis &slike"
 
 #: htmledit.cpp:1062
 msgid "Head rows"
-msgstr ""
+msgstr "Imena redova"
 
 #: htmledit.cpp:1069
 msgid "Head columns"
-msgstr ""
+msgstr "Imena stupaca"
 
 #: htmledit.cpp:1077
 msgid "&Rows"
@@ -465,11 +467,11 @@ msgstr ""
 
 #: htmledit.cpp:1272 htmledit.cpp:4186 htmledit.cpp:5381
 msgid "Id"
-msgstr ""
+msgstr "Id"
 
 #: htmledit.cpp:1279
 msgid "Class"
-msgstr ""
+msgstr "Razred"
 
 #: htmledit.cpp:1286
 msgid "Style"
@@ -497,11 +499,11 @@ msgstr ""
 
 #: htmledit.cpp:1336
 msgid "Left to Right"
-msgstr ""
+msgstr "S lijeva na desno"
 
 #: htmledit.cpp:1337
 msgid "Right to Left"
-msgstr ""
+msgstr "S desno na lijevo"
 
 #: htmledit.cpp:1339
 msgid "Text direction"
@@ -892,7 +894,7 @@ msgstr ""
 
 #: htmledit.cpp:4995 htmledit.cpp:5094
 msgid "Reset"
-msgstr ""
+msgstr "Poni¹ti"
 
 #: htmledit.cpp:5089
 msgid "Text"
@@ -904,11 +906,11 @@ msgstr "Lozinka"
 
 #: htmledit.cpp:5091
 msgid "Checkbox"
-msgstr ""
+msgstr "Okvir za izbor"
 
 #: htmledit.cpp:5092
 msgid "Radio Button"
-msgstr ""
+msgstr "Radijski gumb"
 
 #: htmledit.cpp:5096
 msgid "Hidden"
@@ -976,11 +978,11 @@ msgstr "&Glavni"
 
 #: htmledit.cpp:6064
 msgid "C&ore"
-msgstr ""
+msgstr "&Jezgra"
 
 #: htmledit.cpp:6069
 msgid "&Events"
-msgstr ""
+msgstr "&Dogaðaj"
 
 #: htmledit.cpp:6074
 msgid "&i18n"
@@ -988,7 +990,7 @@ msgstr "&i18n"
 
 #: dirview.cpp:242
 msgid "Directory Tree"
-msgstr ""
+msgstr "Stablo direktorija"
 
 #: dirview.cpp:253
 msgid "&Open"
@@ -1008,7 +1010,7 @@ msgstr "Novo ime:"
 
 #: dirview.cpp:355
 msgid "Error occured while renaming file!"
-msgstr ""
+msgstr "Javila se gre¹ka prilikom mijenjanja imena datoteke!"
 
 #: dirview.cpp:368
 #, c-format
@@ -1022,7 +1024,7 @@ msgstr "Ukloni datoteku \"%s\"? Da li ste sigurni?"
 
 #: dirview.cpp:387
 msgid "Error occured while removing file!"
-msgstr ""
+msgstr "Javila se gre¹ka prilikom uklanjanja datoteke!"
 
 #: dirview.cpp:400
 msgid "New Directory Name:"
@@ -1030,4 +1032,4 @@ msgstr "Ime novog direktorija:"
 
 #: dirview.cpp:411
 msgid "Error occured while creating new directory!"
-msgstr ""
+msgstr "Javila se gre¹ka prilikom stvaranja novog direktorija!"

@@ -77,11 +77,11 @@ msgstr "Boje"
 
 #: knotes.cpp:339
 msgid "Change Defaults ..."
-msgstr "Promjena podrazumijevane vrijednosti ..."
+msgstr "Promjena uobièajenih vrijednosti ..."
 
 #: knotes.cpp:340
 msgid "Dock in panel"
-msgstr ""
+msgstr "Pristani na ploèu"
 
 #: knotes.cpp:368
 msgid "Insert Date"
@@ -250,7 +250,7 @@ msgstr "Naredba za ispis:"
 
 #: configdlg.cpp:112
 msgid "Mail Command:"
-msgstr "Naredba za Mail:"
+msgstr "Naredba za slanje:"
 
 #: configdlg.cpp:123
 msgid "3d Frame"

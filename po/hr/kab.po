@@ -38,7 +38,7 @@ msgstr "napisao i odr¾ava"
 
 #: AddressBookAboutData.cpp:62
 msgid "kab 1.0, May 1999"
-msgstr "kab 1.0, Svibanj 1999"
+msgstr "kab 1.0, svibanj 1999"
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"

@@ -121,7 +121,7 @@ msgstr "Podesi Auto Osvje¾avanje"
 
 #: ConfAutoUpdateData.cpp:17
 msgid "Update frequency in seconds:"
-msgstr "Frekvencija osvje¾avanja u sekundama:"
+msgstr "Frekvencija osvje¾avanja (sek):"
 
 #: klpqspooler.cpp:199 klpqspooler.cpp:269
 msgid "Can't find your lpc program !"
