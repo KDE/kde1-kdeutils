@@ -2,9 +2,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kjots\n"
 "POT-Creation-Date: 1998-11-18 14:09+0100\n"
-"PO-Revision-Date: 1998-07-30 23:55+MET\n"
-"Last-Translator: Gregor Zumstein <zumstein@ssd.ethz.ch>\n"
+"PO-Revision-Date: 1998-11-22 10:07+MET\n"
+"Translator: Gregor Zumstein <zumstein@ssd.ethz.ch>\n"
+"Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 "Language-Team: German <kde-i18n@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: KJotsMain.cpp:76
 msgid "Book name:"
@@ -84,7 +88,7 @@ msgstr "Buch zu Favoriten hinzufügen"
 
 #: KJotsMain.cpp:405
 msgid "Remove current book from hotlist"
-msgstr "Buch von Favoriten entfernen"
+msgstr "Buch aus Favoriten entfernen"
 
 #: KJotsMain.cpp:410
 msgid "Hot&list"
@@ -100,26 +104,23 @@ msgstr "von"
 
 #: KJotsMain.cpp:427
 msgid "New"
-msgstr ""
+msgstr "Neu"
 
 #: KJotsMain.cpp:433
-#, fuzzy
 msgid "Previous"
-msgstr "VorigeSeite"
+msgstr "Vorige"
 
 #: KJotsMain.cpp:436
-#, fuzzy
 msgid "Next"
-msgstr "NächsteSeite"
+msgstr "Nächste"
 
 #: KJotsMain.cpp:440
-#, fuzzy
 msgid "Subject List"
-msgstr "ZeigeBetreffListe"
+msgstr "Betreff-Liste"
 
 #: KJotsMain.cpp:444
 msgid "Exit"
-msgstr ""
+msgstr "Verlassen"
 
 #: KJotsMain.cpp:616
 msgid "A book with this name already exists."
@@ -131,7 +132,7 @@ msgstr "Wollen Sie das Buch wirklich löschen ?"
 
 #: KJotsMain.cpp:915 KJotsMain.cpp:944
 msgid "File exists !"
-msgstr "Datei existiert !"
+msgstr "Datei existiert!"
 
 #: KJotsMain.cpp:916 KJotsMain.cpp:945
 msgid ""
@@ -139,11 +140,11 @@ msgid ""
 " Do you want to overwrite it ?"
 msgstr ""
 "Die Datei existiert bereits. \n"
-" Wollen Sie sie überschreiben ?"
+" Wollen Sie sie überschreiben?"
 
 #: confdialog.cpp:39
 msgid "Configure KJots"
-msgstr "KJots konfigurieren"
+msgstr "KJots einrichten"
 
 #: confdialog.cpp:43
 msgid "URL"
@@ -168,7 +169,7 @@ msgstr "( %u wird durch die gewählte URL ersetzt )"
 
 #: confdialog.cpp:111
 msgid "Font for editor:"
-msgstr "Schriftart für den Editor:"
+msgstr "Schriftart für Editor:"
 
 #: confdialog.cpp:117
 msgid "Select"

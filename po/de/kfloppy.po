@@ -71,7 +71,7 @@ msgstr "HD - High Density"
 
 #: floppy.cpp:169
 msgid "DD"
-msgstr ""
+msgstr "DD - Double Density"
 
 #: floppy.cpp:292
 #, c-format
@@ -197,4 +197,4 @@ msgid ""
 "Please unmount the floppy first."
 msgstr ""
 "%s ist gemountet.\n"
-"Bitte unmounten Sie es zuerst."
+"Bitte unmounten Sie die Diskette zuerst."
