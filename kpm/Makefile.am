@@ -13,7 +13,7 @@
 # kde_wallpaperdir  Where general wallpapers should go to.
 
 # just set the variable
-APPSDIR = $(kde_appsdir)/Utilities
+appsdir = $(kde_appsdir)/Utilities
 
 # set the include path for X, qt and KDE
 INCLUDES= $(all_includes)
@@ -57,22 +57,5 @@ METASOURCES =	dialogs.moc infobar.moc pstable.moc \
 messages:
 	$(XGETTEXT) -C -ktranslate -kTRANS -ki18n -x $(includedir)/kde.pot $(kpm_SOURCES) && mv messages.po ../po/kpm.pot
 
-icon_DATA = kpm.xpm
-icondir = $(kde_icondir)
-
-# just install datas here. Use install-exec-local for scripts and etc.
-# the binary itself is already installed from automake
-# use mkinstalldirs, not "install -d"
-# don't install a list of file. Just one file per install.
-# if you have more of them, create a subdirectory with an extra Makefile 
-#install-data-local: 
-#	$(mkinstalldirs) $(APPSDIR)
-#	$(INSTALL_DATA) kpm.kdelnk $(APPSDIR)
-#	$(mkinstalldirs) $(kde_minidir)/kpm.xpm
-#	$(INSTALL_DATA) mini-xpm $(kde_minidir)
-
-# remove ALL you have installed in install-data-local or install-exec-local
-uninstall-local:
-	-rm -f $(APPSDIR)/kpm.kdelnk
-	-rm -f $(kde_minidir)/kpm.xpm
+apps_DATA = kpm.kdelnk
 

@@ -1,11 +1,9 @@
-# just install datas here. Use install-exec-data for scripts and etc.
-# the binary itself is already installed from automake
-# use mkinstalldirs, not "install -d"
-# don't install a list of file. Just one file per install.
-# if you have more of them, create a subdirectory with an extra Makefile
-install-data-local:
-	$(mkinstalldirs) $(kde_icondir)
-	$(INSTALL_DATA) kpm.xpm $(kde_icondir)
-	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) mini-kpm.xpm $(kde_minidir)/kpm.xpm
 
+kde_icon_DATA = kpm.xpm
+
+install-data-local:
+	$(mkinstalldirs) $(kde_minidir)
+	$(INSTALL_DATA) $(srcdir)/mini-kpm.xpm $(kde_minidir)/kpm.xpm
+
+uninstall-local:
+	rm -f $(kde_minidir)/kpm.xpm
