@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kedit \n"
 "POT-Creation-Date: 1999-04-09 02:19+0200\n"
-"PO-Revision-Date: 1999-01-24 15:57+0100\n"
+"PO-Revision-Date: 1999-06-14 22:46+0200\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
@@ -35,7 +35,7 @@ msgstr "Czcionka..."
 
 #: kedit.cpp:201
 msgid "Ne&w..."
-msgstr "&Nowe..."
+msgstr "&Nowy..."
 
 #: kedit.cpp:208
 msgid "Open Recen&t..."
@@ -192,8 +192,8 @@ msgid ""
 "Quit anyways?"
 msgstr ""
 "Niektóre okna zawieraj± dokumenty ze zmienion± zawarto¶ci±.\n"
-"Wy¶cie spowoduje utratê tych zmian\n"
-"Wyj¶æ, pomimo tego?"
+"Zakoñczenie spowoduje utratê tych zmian\n"
+"Zakoñczyæ, pomimo tego?"
 
 #: kedit.cpp:739
 msgid ""
@@ -375,7 +375,7 @@ msgstr "Przykro mi:"
 
 #: keditcl1.cpp:164
 msgid "You have specificated a directory"
-msgstr "Poda³e¶ nazwê katalogu"
+msgstr "Podana zosta³a nazwa katalogu"
 
 #: keditcl1.cpp:179 keditcl1.cpp:200
 msgid "You do not have read permission to this file."
@@ -452,7 +452,7 @@ msgstr ""
 
 #: keditcl2.cpp:702 keditcl2.cpp:822
 msgid "Case Sensitive"
-msgstr "Rozró¿niaj ma³e i wielkie litery"
+msgstr "Rozró¿niaj ma³e/wielkie litery"
 
 #: keditcl2.cpp:705 keditcl2.cpp:827
 msgid "Find Backwards"

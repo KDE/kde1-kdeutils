@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
 "POT-Creation-Date: 1999-04-17 02:13+0200\n"
-"PO-Revision-Date: 1999-01-18 22:41+0100\n"
+"PO-Revision-Date: 1999-06-14 22:38+0200\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -83,7 +83,7 @@ msgstr "Wskazany plik nie istnieje"
 
 #: kwview.cpp:1138
 msgid "You have specified a directory"
-msgstr "Wybra³e¶ katalog"
+msgstr "Wybrany zosta³ katalog"
 
 #: kwview.cpp:1148
 msgid "You do not have read permission to this file"
@@ -175,7 +175,7 @@ msgstr "Kontynuuj od pocz±tku"
 
 #: kwview.cpp:1693 kwview.cpp:1704 kwview.cpp:1714
 msgid "Find"
-msgstr "Znajd¼"
+msgstr "Szukaj"
 
 #: kwview.cpp:1701 kwview.cpp:1890
 msgid "Beginning of document reached"
@@ -271,7 +271,7 @@ msgstr "Zamieñ &tabulacje"
 
 #: kwdialog.cpp:303
 msgid "Remove Trailing &Spaces"
-msgstr "Usuñ &spacje za tekstem"
+msgstr "&Usuñ spacje za tekstem"
 
 #: kwdialog.cpp:305
 msgid "Wrap &Cursor"
@@ -299,7 +299,7 @@ msgstr "&Pionowe zaznaczenia"
 
 #: kwdialog.cpp:328
 msgid "&Delete On Input"
-msgstr "Skasuj przy nowym tek¶cie"
+msgstr "S&kasuj przy nowym tek¶cie"
 
 #: kwdialog.cpp:330
 msgid "&Toggle Old"
@@ -343,7 +343,7 @@ msgid ""
 "Would you like to save it?"
 msgstr ""
 "Dokument zosta³ zmieniony.\n"
-"Zzy chcesz go zachowaæ?"
+"Czy chcesz go zachowaæ?"
 
 #: toplevel.cpp:166
 msgid "Ne&w..."
