@@ -434,11 +434,11 @@ msgstr "Nastavi» zvýraznenie"
 
 #: toplevel.cpp:226
 msgid "&Defaults..."
-msgstr "&Nastavni»..."
+msgstr "&Nastavi»..."
 
 #: toplevel.cpp:227
 msgid "&Highlight..."
-msgstr "&Zvýrazneni»..."
+msgstr "&Zvýrazni»..."
 
 #: toplevel.cpp:230
 msgid "&Options..."
