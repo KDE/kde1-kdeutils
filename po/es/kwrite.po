@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
-"POT-Creation-Date: 1998-12-16 01:50+0100\n"
+"POT-Creation-Date: 1998-12-18 02:05+0100\n"
 "PO-Revision-Date: 1998-12-07 23:56+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "Language-Team: Spanish <kde-es@kyb.ml.org>\n"
@@ -9,63 +9,63 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: highlight.cpp:1447
+#: highlight.cpp:1448
 msgid "Normal:"
 msgstr "Normal:"
 
-#: highlight.cpp:1457 kwdialog.cpp:416
+#: highlight.cpp:1458 kwdialog.cpp:416
 msgid "Selected:"
 msgstr "Seleccionado:"
 
-#: highlight.cpp:1464
+#: highlight.cpp:1465
 msgid "Bold"
 msgstr "Negrita"
 
-#: highlight.cpp:1515
+#: highlight.cpp:1516
 msgid "Family:"
 msgstr "Familia:"
 
-#: highlight.cpp:1525
+#: highlight.cpp:1526
 msgid "Size:"
 msgstr "Tamaño:"
 
-#: highlight.cpp:1623
+#: highlight.cpp:1624
 msgid "Default Item Styles"
 msgstr "Estilos Item Por Defecto"
 
-#: highlight.cpp:1627 highlight.cpp:1698
+#: highlight.cpp:1628 highlight.cpp:1699
 msgid "Item:"
 msgstr "Item:"
 
-#: highlight.cpp:1645
+#: highlight.cpp:1646
 msgid "Default Font"
 msgstr "Fuente Por Defecto"
 
-#: highlight.cpp:1682
+#: highlight.cpp:1683
 msgid "Config Select"
 msgstr "Seleccionar Config"
 
-#: highlight.cpp:1686
+#: highlight.cpp:1687
 msgid "Highlight:"
 msgstr "Resaltado:"
 
-#: highlight.cpp:1705
+#: highlight.cpp:1706
 msgid "Highlight Auto Select"
 msgstr "Auto Seleccion Resaltado"
 
-#: highlight.cpp:1709
+#: highlight.cpp:1710
 msgid "File Extensions:"
 msgstr "Extensiones de Archivo:"
 
-#: highlight.cpp:1716
+#: highlight.cpp:1717
 msgid "Mime Types:"
 msgstr "Tipos Mime:"
 
-#: highlight.cpp:1723
+#: highlight.cpp:1724
 msgid "Item Style"
 msgstr "Estilo del Item"
 
-#: highlight.cpp:1732
+#: highlight.cpp:1733
 msgid "Item Font"
 msgstr "Fuente del Item"
 

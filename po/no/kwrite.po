@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kwrite\n"
-"POT-Creation-Date: 1998-12-16 01:50+0100\n"
+"POT-Creation-Date: 1998-12-18 02:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -13,63 +13,63 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: highlight.cpp:1447
+#: highlight.cpp:1448
 msgid "Normal:"
 msgstr "Normal:"
 
-#: highlight.cpp:1457 kwdialog.cpp:416
+#: highlight.cpp:1458 kwdialog.cpp:416
 msgid "Selected:"
 msgstr "Valgt:"
 
-#: highlight.cpp:1464
+#: highlight.cpp:1465
 msgid "Bold"
 msgstr "Uthevet"
 
-#: highlight.cpp:1515
+#: highlight.cpp:1516
 msgid "Family:"
 msgstr "Familie:"
 
-#: highlight.cpp:1525
+#: highlight.cpp:1526
 msgid "Size:"
 msgstr "Størrelse"
 
-#: highlight.cpp:1623
+#: highlight.cpp:1624
 msgid "Default Item Styles"
 msgstr "Standard stil"
 
-#: highlight.cpp:1627 highlight.cpp:1698
+#: highlight.cpp:1628 highlight.cpp:1699
 msgid "Item:"
 msgstr "Item:"
 
-#: highlight.cpp:1645
+#: highlight.cpp:1646
 msgid "Default Font"
 msgstr "Standard skrifttype"
 
-#: highlight.cpp:1682
+#: highlight.cpp:1683
 msgid "Config Select"
 msgstr "Konfigurer valg"
 
-#: highlight.cpp:1686
+#: highlight.cpp:1687
 msgid "Highlight:"
 msgstr "Opplysing:"
 
-#: highlight.cpp:1705
+#: highlight.cpp:1706
 msgid "Highlight Auto Select"
 msgstr "Velg opplysingstype automatisk"
 
-#: highlight.cpp:1709
+#: highlight.cpp:1710
 msgid "File Extensions:"
 msgstr "Etternavn på fil:"
 
-#: highlight.cpp:1716
+#: highlight.cpp:1717
 msgid "Mime Types:"
 msgstr "Mime-typer:"
 
-#: highlight.cpp:1723
+#: highlight.cpp:1724
 msgid "Item Style"
 msgstr "Item-stil"
 
-#: highlight.cpp:1732
+#: highlight.cpp:1733
 msgid "Item Font"
 msgstr "Item-skrifttype"
 

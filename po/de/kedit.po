@@ -1,24 +1,24 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
-"POT-Creation-Date: 1998-10-30 12:45+0100\n"
+"POT-Creation-Date: 1998-12-18 02:05+0100\n"
 "PO-Revision-Date: 1998-11-13 19:17+01\n"
 "Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 "Translator: Stephan Kulow <coolo@kde.org>\n"
 
-#: kedit.cpp:85 kedit.cpp:1091
+#: kedit.cpp:85 kedit.cpp:1092
 msgid "Show &Tool Bar"
 msgstr "Werkzeugleiste zeigen"
 
-#: kedit.cpp:87 kedit.cpp:1084
+#: kedit.cpp:87 kedit.cpp:1085
 msgid "Hide &Tool Bar"
 msgstr "Werkzeugleiste verbergen"
 
-#: kedit.cpp:90 kedit.cpp:1071
+#: kedit.cpp:90 kedit.cpp:1072
 msgid "Show &Status Bar"
 msgstr "Statusleiste zeigen"
 
-#: kedit.cpp:92 kedit.cpp:1064
+#: kedit.cpp:92 kedit.cpp:1065
 msgid "Hide &Status Bar"
 msgstr "Statusleiste verbergen"
 
@@ -134,24 +134,24 @@ msgstr "Dokument drucken"
 msgid "Mail Document"
 msgstr "Dokument als Email schicken"
 
-#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:697
+#: kedit.cpp:494 kedit.cpp:582 kedit.cpp:1534 keditcl2.cpp:697
 #: keditcl2.cpp:804
 msgid "Done"
 msgstr "Fertig"
 
-#: kedit.cpp:606
+#: kedit.cpp:607
 msgid "Open Location:"
 msgstr "URL öffnen:"
 
-#: kedit.cpp:620
+#: kedit.cpp:621
 msgid "Save to Location:"
 msgstr "Speichern unter URL:"
 
-#: kedit.cpp:646 kedit.cpp:709 kedit.cpp:738 kedit.cpp:801 kedit.cpp:1199
+#: kedit.cpp:647 kedit.cpp:710 kedit.cpp:739 kedit.cpp:802 kedit.cpp:1200
 msgid "Message"
 msgstr "Nachricht"
 
-#: kedit.cpp:647 kedit.cpp:802
+#: kedit.cpp:648 kedit.cpp:803
 msgid ""
 "This Document has been modified.\n"
 "Would you like to save it?"
@@ -159,7 +159,7 @@ msgstr ""
 "Das Dokument wurde verändert!\n"
 "Wollen Sie es speichern?"
 
-#: kedit.cpp:664 kedit.cpp:819
+#: kedit.cpp:665 kedit.cpp:820
 msgid ""
 "Could not save the file.\n"
 "Exit anyways?"
@@ -167,7 +167,7 @@ msgstr ""
 "Konnte die Datei nicht speichern!\n"
 "Trotzdem beenden?"
 
-#: kedit.cpp:710
+#: kedit.cpp:711
 msgid ""
 "There are windows with modified content open.\n"
 "If you exit now, you will loose those changes\n"
@@ -177,7 +177,7 @@ msgstr ""
 "Wenn Sie nun beenden, werden Sie diese Änderungen verlieren\n"
 "Trotzdem schließen?"
 
-#: kedit.cpp:739
+#: kedit.cpp:740
 msgid ""
 "The current document has been modified.\n"
 "Continue anyways ?"
@@ -185,21 +185,21 @@ msgstr ""
 "Das aktuelle Dokument wurde geändert.\n"
 "Trotzdem fortfahren?"
 
-#: kedit.cpp:880
+#: kedit.cpp:881
 #, c-format
 msgid "Wrote: %s"
 msgstr "Gespeichert: %s"
 
-#: kedit.cpp:886
+#: kedit.cpp:887
 msgid "No changes need to be saved"
 msgstr "Keine Änderungen zu sichern"
 
-#: kedit.cpp:905
+#: kedit.cpp:906
 #, c-format
 msgid "Saved as: %s"
 msgstr "Als %s gespeichert"
 
-#: kedit.cpp:938
+#: kedit.cpp:939
 #, c-format
 msgid ""
 "Could not pipe the contentsof this Document into:\n"
@@ -208,24 +208,24 @@ msgstr ""
 "Es war nicht möglich, den Dokumentinhalt weiterzuleiten in:\n"
 " %s"
 
-#: kedit.cpp:1032
+#: kedit.cpp:1033
 msgid "Auto Indent Mode: On"
 msgstr "Autom. Einrücken: An"
 
-#: kedit.cpp:1034
+#: kedit.cpp:1035
 msgid "Auto Indent Mode: Off"
 msgstr "Autom. Einrücken: Aus"
 
-#: kedit.cpp:1130
+#: kedit.cpp:1131
 #, c-format
 msgid "Line: %d Col: %d"
 msgstr "Zeile: %d Spalte: %d"
 
-#: filldlg.cpp:31 kedit.cpp:1147
+#: filldlg.cpp:31 kedit.cpp:1148
 msgid "KEdit Options"
 msgstr "KEdit Optionen"
 
-#: kedit.cpp:1200
+#: kedit.cpp:1201
 msgid ""
 "The current document has been modified.\n"
 "Would you like to save the changes before \n"
@@ -235,7 +235,7 @@ msgstr ""
 "Wollen Sie die Änderungen speichern, bevor\n"
 "Sie es drucken?"
 
-#: kedit.cpp:1218
+#: kedit.cpp:1219
 msgid ""
 "Could not save the file.\n"
 "Print anyways?"
@@ -243,35 +243,35 @@ msgstr ""
 "Konnte die Datei nicht speichern!\n"
 "Trotzdem drucken?"
 
-#: kedit.cpp:1311
+#: kedit.cpp:1312
 #, c-format
 msgid "Printing: %s Untitled (Selection)"
 msgstr "Gedruckt: %s Ohne Namen (Auswahl)"
 
-#: kedit.cpp:1314
+#: kedit.cpp:1315
 #, c-format
 msgid "Printing: %s Untitled"
 msgstr "Gedruckt: %s Ohne Namen"
 
-#: kedit.cpp:1352
+#: kedit.cpp:1353
 #, c-format
 msgid "Printing: %s"
 msgstr "Gedruckt: %s"
 
-#: kedit.cpp:1362
+#: kedit.cpp:1363
 #, c-format
 msgid "Printing: %s %s (Selection)"
 msgstr "Gedruckt: %s %s (Auswahl)"
 
-#: kedit.cpp:1386
+#: kedit.cpp:1387
 msgid "Saving ..."
 msgstr "Speichern..."
 
-#: kedit.cpp:1393
+#: kedit.cpp:1394
 msgid "Loading ..."
 msgstr "Laden..."
 
-#: kedit.cpp:1427 kedit.cpp:1520
+#: kedit.cpp:1428 kedit.cpp:1521
 msgid ""
 "KEdit is already waiting\n"
 "for an internet job to finish\n"
@@ -283,11 +283,11 @@ msgstr ""
 "Warten Sie, bis zum Abschluß,\n"
 "oder brechen Sie den Vorgang ab."
 
-#: kedit.cpp:1444 kedit.cpp:1539
+#: kedit.cpp:1445 kedit.cpp:1540
 msgid "Could not start or find KFM"
 msgstr "Konnte den Dateimanager nicht finden."
 
-#: kedit.cpp:1486
+#: kedit.cpp:1487
 #, c-format
 msgid ""
 "Malformed URL\n"
@@ -296,45 +296,45 @@ msgstr ""
 "Falsches URL-Format:\n"
 "%s"
 
-#: kedit.cpp:1506
+#: kedit.cpp:1507
 #, c-format
 msgid "Loading '%s'"
 msgstr "Lade '%s'"
 
-#: kedit.cpp:1530
+#: kedit.cpp:1531
 msgid "Calling KFM"
 msgstr "Starte Dateimanager"
 
-#: kedit.cpp:1549
+#: kedit.cpp:1550
 msgid "Starting Job"
 msgstr "Starte Internet-Vorgang"
 
-#: kedit.cpp:1552
+#: kedit.cpp:1553
 msgid "Connected"
 msgstr "Verbunden"
 
-#: kedit.cpp:1554
+#: kedit.cpp:1555
 msgid "Waiting..."
 msgstr "Warte..."
 
-#: kedit.cpp:1562
+#: kedit.cpp:1563
 #, c-format
 msgid "Finished '%s'"
 msgstr "Fertig mit '%s'"
 
-#: kedit.cpp:1603
+#: kedit.cpp:1604
 msgid "New Window"
 msgstr "Neues Fenster"
 
-#: kedit.cpp:1607
+#: kedit.cpp:1608
 msgid "New Window Created"
 msgstr "Neues Fenster erstellt"
 
-#: kedit.cpp:1613
+#: kedit.cpp:1614
 msgid "Load Command Done"
 msgstr "Ladekommando abgeschlossen"
 
-#: kedit.cpp:2034
+#: kedit.cpp:2035
 #, c-format
 msgid ""
 "Can not create:\n"
@@ -343,35 +343,35 @@ msgstr ""
 "Kann nicht erstellen:\n"
 "%s"
 
-#: kedit.cpp:2073
+#: kedit.cpp:2074
 msgid "Spellchecker Options"
 msgstr "Rechtschreib-Optionen"
 
-#: keditcl1.cpp:150
+#: keditcl1.cpp:149
 msgid "The specified File does not exist"
 msgstr "Die angegebene Datei existiert nicht"
 
-#: keditcl1.cpp:163 keditcl1.cpp:441 keditcl1.cpp:525 keditcl1.cpp:1716
+#: keditcl1.cpp:162 keditcl1.cpp:438 keditcl1.cpp:521 keditcl1.cpp:1708
 msgid "Sorry:"
 msgstr "Sorry:"
 
-#: keditcl1.cpp:164
+#: keditcl1.cpp:163
 msgid "You have specificated a directory"
 msgstr "Der angebene Name ist ein Verzeichnis"
 
-#: keditcl1.cpp:179 keditcl1.cpp:200
+#: keditcl1.cpp:178 keditcl1.cpp:199
 msgid "You do not have read permission to this file."
 msgstr "Sie haben kein Leserecht für die Datei."
 
-#: keditcl1.cpp:213
+#: keditcl1.cpp:212
 msgid "An Error occured while trying to open this Document"
 msgstr "Ein Fehler ist beim Lesen des Dokuments aufgetreten."
 
-#: keditcl1.cpp:420 keditcl1.cpp:505 keditcl1.cpp:1658
+#: keditcl1.cpp:417 keditcl1.cpp:501 keditcl1.cpp:1650
 msgid "Warning:"
 msgstr "Warnung:"
 
-#: keditcl1.cpp:421 keditcl1.cpp:506
+#: keditcl1.cpp:418 keditcl1.cpp:502
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -379,7 +379,7 @@ msgstr ""
 "Das aktuelle Dokument wurde verändert.\n"
 "Wollen Sie es speichern?"
 
-#: keditcl1.cpp:442
+#: keditcl1.cpp:439
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -387,7 +387,7 @@ msgstr ""
 "Konnte die Datei nicht speichern.\n"
 "Wollen Sie trotzdem eine neue öffnen?"
 
-#: keditcl1.cpp:526
+#: keditcl1.cpp:522
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
@@ -395,11 +395,11 @@ msgstr ""
 "Konnte das Dokument nicht speichern.\n"
 "Wollen Sie trotzdem ein neues erstellen?"
 
-#: keditcl1.cpp:1575
+#: keditcl1.cpp:1569
 msgid "Could not save the document\n"
 msgstr "Konnte das Dokument nicht speichern\n"
 
-#: keditcl1.cpp:1659
+#: keditcl1.cpp:1651
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
@@ -407,7 +407,7 @@ msgstr ""
 "Ein Dokument mit diesem Namen existiert bereits\n"
 "Wollen Sie es überschreiben?"
 
-#: keditcl1.cpp:1717
+#: keditcl1.cpp:1709
 msgid "You do not have write permission to this file.\n"
 msgstr "Sie haben kein Schreibrecht für diese Datei.\n"
 
