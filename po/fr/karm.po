@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Damien Cola <alliax@mindless.com>, 1998.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-01-23 09:54+0100\n"
+"PO-Revision-Date: 1998-02-16 HO:MI+ZONE\n"
+"Last-Translator: Damien Cola <alliax@mindless.com>\n"
+"Language-Team: FRENCH <FR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: adddata.cpp:38
+msgid "Task Name"
+msgstr "Nom de la tache"
+
+#: adddata.cpp:44
+msgid "Accumulated time (in minutes)"
+msgstr "Temps accumule (en minutes)"
+
+#: adddlg.cpp:26
+msgid "KArm: New Task"
+msgstr "KArm: Nouvelle tache"
+
+#: karm.cpp:116
+msgid "Karm: Save error"
+msgstr "Karm: Erreur de sauvegarde"
+
+#: karm.cpp:117
+msgid ""
+"There was an error trying to save your data file.\n"
+"Time accumulated this session will NOT be saved!\n"
+msgstr ""
+"Une erreur s'est produite en sauvegardant votre fichier de donnees.\n"
+"Le temps accumule de cette session NE SERA PAS sauvegarde!\n"
+
+#: karm.cpp:119
+msgid "Oh No!"
+msgstr "Oh non!"
+
+#: karm.cpp:205
+msgid ": Add New Task"
+msgstr ": Ajouter une nouvelle tache"
+
+#: karm.cpp:216
+msgid "Karm::createNewTask called and there's no dialog!"
+msgstr "Karm::appel a createNewTask et il n'y a pas de dialogue!"
+
+#: karm.cpp:243
+msgid ": Edit Task Entry"
+msgstr ": Editer les donnees de la tache"
+
+#: karm.cpp:256
+msgid "Karm::updateExistingTask called and there's no dlg!"
+msgstr "Karm::appel a updateExistingTask et il n'y a pas de dialogue!"
+
+#: karm.cpp:280
+msgid ": Deleting Task"
+msgstr ": Suppression de la tache"
+
+#: karm.cpp:281
+msgid "Are you sure you want to delete this task?"
+msgstr "Etes vous sur de vouloir supprimer cette tache?"
+
+#: karm.cpp:283
+msgid "&Yes"
+msgstr "Oui (&Y)"
+
+#: top.cpp:39 top.cpp:171
+msgid "clock inactive"
+msgstr "Chronometre inactif"
+
+#: top.cpp:40
+msgid "This session:"
+msgstr "Cette session:"
+
+#: top.cpp:56
+msgid "&Clock"
+msgstr "&Chronometre"
+
+#: top.cpp:57
+msgid "&Start"
+msgstr "Demarrer (&S)"
+
+#: top.cpp:58
+msgid "S&top"
+msgstr "S&top"
+
+#: top.cpp:60
+msgid "&Task"
+msgstr "&Tache"
+
+#: top.cpp:71
+msgid "&Contents"
+msgstr "&Contenu"
+
+#: top.cpp:85
+msgid "Start Clock"
+msgstr "Demarrer le chronometre"
+
+#: top.cpp:90
+msgid "Stop Clock"
+msgstr "Stopper le chronometre"
+
+#: top.cpp:97
+msgid "New Task"
+msgstr "Nouvelle tache"
+
+#: top.cpp:102
+msgid "Delete Task"
+msgstr "Supprimer la tache"
+
+#: top.cpp:107
+msgid "Edit Task"
+msgstr "Editer la tache"
+
+#: top.cpp:145
+msgid "About "
+msgstr "A propos de "
+
+#: top.cpp:146
+msgid ""
+" 0.3 -- Sirtaj Singh Kang\n"
+"taj@kde.org, Oct 1997\n"
+"\n"
+"The K Desktop Environment"
+msgstr ""
+" 0.3 -- Sirtaj Singh Kang\n"
+"taj@kde.org, Oct 1997\n"
+"\n"
+"The K Desktop Environment"
+
+
+#: top.cpp:164
+msgid "clock active"
+msgstr "Chronometre actif"
