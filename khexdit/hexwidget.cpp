@@ -75,7 +75,7 @@ int HexWidget::initMenu() {
   pixmap.load(PIXDIR + "help.xpm");
   toolbar->insertItem(pixmap,ID_HELP_ABOUT, TRUE, "About Hexdit");
 
-  addToolbar(toolbar);
+  addToolBar(toolbar);
   toolbar->setPos(KToolBar::Top);
   toolbar->show();
   connect(toolbar, SIGNAL(clicked(int)), this, SLOT(menuCallback(int)));
