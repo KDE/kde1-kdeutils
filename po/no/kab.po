@@ -39,7 +39,7 @@ msgstr "skrevet og vedlikehodt av"
 
 #: AddressBookAboutData.cpp:62
 msgid "kab 1.0, May 1999"
-msgstr ""
+msgstr "kab 1.0, mai 1999"
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"

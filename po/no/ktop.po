@@ -405,13 +405,13 @@ msgid "Cannot read memory info file '/proc/meminfo'!\n"
 msgstr "Kan ikke lese informasjonsfil for minne '/proc/meminfo'!\n"
 
 #: OSStatus.cpp:354
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Cannot read info for %s from file '/proc/stat'!\n"
 "The kernel needs to be compiled with support\n"
 "for /proc filesystem enabled!"
 msgstr ""
-"Kan ikke lese filen '/proc/stat'!\n"
+"Kan ikke lese informasjon for %s fra filen '/proc/stat'!\n"
 "Kjernen må kompileres med støtte for\n"
 "/proc-filsystemet!"
 
@@ -434,7 +434,7 @@ msgid "Renice Process"
 msgstr "Endre hyggelighetsnivå til prosess"
 
 #: ReniceDlg.cpp:39
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You are about the change the scheduling priority of\n"
 "process %d. Be aware that only the Superuser (root)\n"
@@ -443,61 +443,9 @@ msgid ""
 "\n"
 "Please enter the desired nice level:"
 msgstr ""
-"Du holder på å endre kjøreprioriteten til en\n"
-"prosess. Merk deg at kun superbruker (root)\n"
+"Du holder på å endre kjøreprioriteten til \n"
+"prosess %d. Merk deg at kun superbruker (root)\n"
 "kan senke hyggeligheten til en prosess. Mindre tall er\n"
 "høyere prioritet.\n"
 "\n"
 "Vennligst skriv inn ønsket prioritet:"
-
-#~ msgid ""
-#~ "Cannot read status of processes\n"
-#~ "from /proc/... directories!\n"
-#~ msgstr ""
-#~ "Kan ikke lese status til prosesser\n"
-#~ "fra /proc/-katalogene!\n"
-
-#~ msgid "The Process has been terminated!\n"
-#~ msgstr "Prosessen har blitt avsluttet!\n"
-
-#~ msgid "StartUp Preferences..."
-#~ msgstr "Oppstartspreferanser..."
-
-#~ msgid "KTop Preferences"
-#~ msgstr "Ktop-preferanser"
-
-#~ msgid "Start up page"
-#~ msgstr "Oppstartsside"
-
-#~ msgid "Processes &Tree"
-#~ msgstr "Prosess&tre"
-
-#~ msgid "&Performance"
-#~ msgstr "&Ytelsebarometer"
-
-#~ msgid "Refresh rate: Medium"
-#~ msgstr "Oppfriskning: medium"
-
-#~ msgid "Refresh rate: Fast"
-#~ msgstr "Oppfriskning: hurtig"
-
-#~ msgid "Change Root"
-#~ msgstr "Bytt rot"
-
-#~ msgid "Kill Task"
-#~ msgstr "Drep oppgave"
-
-#~ msgid "Sort by ID"
-#~ msgstr "Sorter etter ID"
-
-#~ msgid "Sort by Name"
-#~ msgstr "Sorter etter navn"
-
-#~ msgid "Sort by Owner (UID)"
-#~ msgstr "Sorter etter eier (UID)"
-
-#~ msgid "CPU load"
-#~ msgstr "CPU-last"
-
-#~ msgid "Swap history"
-#~ msgstr "Vekselhistorie"

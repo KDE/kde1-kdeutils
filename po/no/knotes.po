@@ -79,7 +79,7 @@ msgstr "Endre standardverdier ..."
 
 #: knotes.cpp:340
 msgid "Dock in panel"
-msgstr ""
+msgstr "Dokk i panel"
 
 #: knotes.cpp:368
 msgid "Insert Date"
@@ -372,11 +372,9 @@ msgstr ""
 "Vennligst velg et annet navn"
 
 #: docking.cpp:48
-#, fuzzy, c-format
+#, c-format
 msgid "Could not load %s !"
-msgstr ""
-"Kunne ikke laste inn:\n"
-" %s"
+msgstr "Kunne ikke laste %s !"
 
 #: docking.cpp:68
 msgid "Change Defaults"
