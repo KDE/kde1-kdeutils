@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: khexdit\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"PO-Revision-Date: 1998-03-08 10:42 MET\n"
+"Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
+"Language-Team: Slovak <bednar@isternet.sk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"    
+
+#: hexdata.cpp:33
+#, c-format
+msgid "Error opening %s"
+msgstr "Chyba pri otváraní %s"
+
+#: hexwidget.cpp:79
+msgid "Save &As..."
+msgstr "Ulo¾i» &ako ..."
+
+#: hexwidget.cpp:90
+msgid "&Toggle Toolbar"
+msgstr "Nás&tojovú li¹tu zapnú»/vypnú»"
+
+#: hexwidget.cpp:93
+msgid "Hex Editor"
+msgstr "Hexa Editor"
+
+#: hexwidget.cpp:93
+msgid ""
+"\n"
+"\n"
+"by Stephan Kulow"
+msgstr ""
+"\n"
+"\n"
+"napísal Stephan Kulow"
+
+#: hexwidget.cpp:115
+msgid "New Window"
+msgstr "Nové okno"
+
+#: hexwidget.cpp:119
+msgid "Save the file"
+msgstr "Ulo¾ súbor"
+
+#: hexwidget.cpp:122 hexwidget.cpp:124 hexwidget.cpp:126 hexwidget.cpp:129
+msgid "Not implemented"
+msgstr "Nie je implementované"
+
+#: hexwidget.cpp:158
+msgid ""
+"The current file has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"Súèasný súbor bol zmenený.\n"
+"Prajete si ho ulo¾i»?"
+
+#: hexwidget.cpp:184
+msgid ""
+"The current file has been modified.\n"
+"Discard your changes?"
+msgstr ""
+"Súèasný súbor bol zmenený.\n"
+"Prajete si zru¹i» v¹etky zmeny?"
+
+#: hexwidget.cpp:265
+msgid ""
+"KHexdit is already waiting\n"
+"for an internet job to finish\n"
+"\n"
+"Wait until this one is finished\n"
+"or stop the running one."
+msgstr ""
+"KHexdit u¾ èaká\n"
+"na ukonèenie práce s Internetom\n"
+"\n"
+"Èakajte, pokiaµ táto èinnos»\n"
+"nebude ukonèená alebo ju zru¹."
+
+#: hexwidget.cpp:273
+msgid "Could not start KFM"
+msgstr "Nemô¾em spusti» KFM"

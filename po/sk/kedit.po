@@ -1,0 +1,387 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kedit\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"PO-Revision-Date: 1998-03-08 10:42 MET\n"
+"Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
+"Language-Team: Slovak <bednar@isternet.sk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: kedit.cpp:83 kedit.cpp:1019
+msgid "Show &Tool Bar"
+msgstr "Zapni &nástrojovú li¹tu"
+
+#: kedit.cpp:85 kedit.cpp:1012
+msgid "Hide &Tool Bar"
+msgstr "Vypni &nástrojovú li¹tu"
+
+#: kedit.cpp:88 kedit.cpp:999
+msgid "Show &Status Bar"
+msgstr "Zapni &stavový riadok"
+
+#: kedit.cpp:90 kedit.cpp:992
+msgid "Hide &Status Bar"
+msgstr "Vypni &stavový riadok"
+
+#: kedit.cpp:152
+msgid "Select All"
+msgstr "Vybra» v¹etko"
+
+#: kedit.cpp:183
+msgid "&About..."
+msgstr "&Informácie..."
+
+#: kedit.cpp:187
+msgid "Ne&w..."
+msgstr "&Nový..."
+
+#: kedit.cpp:192
+msgid "Open Recen&t..."
+msgstr "Otvor Ne&dávny ..."
+
+#: kedit.cpp:204
+msgid "Open &URL..."
+msgstr "Otvor &URL..."
+
+#: kedit.cpp:206
+msgid "Save to U&RL..."
+msgstr "Ulo¾ na U&RL..."
+
+#: kedit.cpp:212
+msgid "&Mail..."
+msgstr "&Po¹ta..."
+
+#: kedit.cpp:216
+msgid "New &Window"
+msgstr "No&vé okno"
+
+#: kedit.cpp:228
+msgid "&Select All"
+msgstr "Vy&bra» v¹etky"
+
+#: kedit.cpp:231
+msgid "&Insert File"
+msgstr "Vlo¾i» &súbor"
+
+#: kedit.cpp:233
+msgid "Insert &Date"
+msgstr "Vlo¾i» &dátum"
+
+#: kedit.cpp:236
+msgid "&Find..."
+msgstr "&Nájs»..."
+
+#: kedit.cpp:238
+msgid "Find &Again"
+msgstr "Znovu ná&js»"
+
+#: kedit.cpp:240
+msgid "&Replace"
+msgstr "Nah&raï"
+
+#: kedit.cpp:243
+msgid "&Goto Line..."
+msgstr "&Choï na riadok..."
+
+#: kedit.cpp:247
+msgid "&Font"
+msgstr "&Znaková sada"
+
+#: kedit.cpp:249
+msgid "Colors"
+msgstr "Farby"
+
+#: kedit.cpp:251
+msgid "KEdit &Options..."
+msgstr "Nas&tavenie KEditu ..."
+
+#: kedit.cpp:253
+msgid "Auto &Indent"
+msgstr "Automatické &odsadzovanie"
+
+#: kedit.cpp:256
+msgid "&Tool Bar"
+msgstr "&Nástrojová li¹ta"
+
+#: kedit.cpp:258
+msgid "&Status Bar"
+msgstr "&Stavový riadok"
+
+#: kedit.cpp:261
+msgid "Save Options"
+msgstr "Ulo¾ nastavenie"
+
+#: kedit.cpp:289
+msgid "New Document"
+msgstr "Nový dokument"
+
+#: kedit.cpp:295
+msgid "Open Document"
+msgstr "Otvor dokument"
+
+#: kedit.cpp:300
+msgid "Save Document"
+msgstr "Ulo¾ dokument"
+
+#: kedit.cpp:325 print.cpp:88
+msgid "Print Document"
+msgstr "Tlaè dokument"
+
+#: kedit.cpp:330
+msgid "Mail Document"
+msgstr "Odo¹li dokument po¹tou"
+
+#: kedit.cpp:534
+msgid "Open Location:"
+msgstr "Otvor miesto:"
+
+#: kedit.cpp:548
+msgid "Save to Location:"
+msgstr "Ulo¾ na miesto:"
+
+#: kedit.cpp:574 kedit.cpp:637 kedit.cpp:666 kedit.cpp:729 kedit.cpp:1123
+msgid "Message"
+msgstr "Správa"
+
+#: kedit.cpp:575 kedit.cpp:730
+msgid ""
+"This Document has been modified.\n"
+"Would you like to save it?"
+msgstr ""
+"Tento dokument bol zmenený.\n"
+"Prajete si ho ulo¾i»?"
+
+#: kedit.cpp:592 kedit.cpp:747
+msgid ""
+"Could not save the file.\n"
+"Exit anyways?"
+msgstr ""
+"Nebolo mo¾né ulo¾i» súbor.\n"
+"Odís» aj tak ?"
+
+#: kedit.cpp:638
+msgid ""
+"There are windows with modified content open.\n"
+"If you exit now, you will loose those changes\n"
+"Quit anyways?"
+msgstr ""
+"Je otvorené príli¹ mnoho dokumentov so zmeneným obsahom.\n"
+"Ak teraz skonèíte, stratíte tieto zmeny.\n"
+"Naozaj chcete ukonèi»?"
+
+#: kedit.cpp:667
+msgid ""
+"The current document has been modified.\n"
+"Continue anyways ?"
+msgstr ""
+"Súèasný dokument bol zmenený.\n"
+"Prajete si pokraèova»?"
+
+#: kedit.cpp:808
+#, c-format
+msgid "Wrote: %s"
+msgstr "%s zapísaný"
+
+#: kedit.cpp:814
+msgid "No changes need to be saved"
+msgstr "Nie je nutné ulo¾i» zmeny"
+
+#: kedit.cpp:833
+#, c-format
+msgid "Saved as: %s"
+msgstr "Ulo¾ené ako %s"
+
+#: kedit.cpp:866
+#, c-format
+msgid ""
+"Could not pipe the contentsof this Document into:\n"
+" %s"
+msgstr ""
+"Nie je mo¾né presunú» obsah tohto dokumentu do:\n"
+" %s"
+
+#: kedit.cpp:960
+msgid "Auto Indent Mode: On"
+msgstr "Automatické odsadzovanie: zapnuté"
+
+#: kedit.cpp:962
+msgid "Auto Indent Mode: Off"
+msgstr "Automatické odsadzovánie: vypnuté"
+
+#: kedit.cpp:1058
+#, c-format
+msgid "Line: %d Col: %d"
+msgstr "Riadok: %d Ståpec: %d"
+
+#: kedit.cpp:1124
+msgid ""
+"The current document has been modified.\n"
+"Would you like to save the changes before \n"
+"printing this Document?"
+msgstr ""
+"Súèasný dokument bol modifikovaný.\n"
+"Prajete si ulo¾i» zmeny pred vytlaèením dokumentu?"
+
+#: kedit.cpp:1142
+msgid ""
+"Could not save the file.\n"
+"Print anyways?"
+msgstr ""
+"Nebolo mo¾né ulo¾i» súbor.\n"
+"Stále ho chcete vytlaèi»?"
+
+#: kedit.cpp:1235
+#, c-format
+msgid "Printing: %s Untitled (Selection)"
+msgstr "Tlaèím: %s bez mena (výber)"
+
+#: kedit.cpp:1238
+#, c-format
+msgid "Printing: %s Untitled"
+msgstr "Tlaèím: %s bez mena"
+
+#: kedit.cpp:1276
+#, c-format
+msgid "Printing: %s"
+msgstr "Tlaèím: %s"
+
+#: kedit.cpp:1286
+#, c-format
+msgid "Printing: %s %s (Selection)"
+msgstr "Tlaèím: %s %s (výber)"
+
+#: kedit.cpp:1310
+msgid "Saving ..."
+msgstr "Ukladám ..."
+
+#: kedit.cpp:1317
+msgid "Loading ..."
+msgstr "Otváram ..."
+
+#: kedit.cpp:1351 kedit.cpp:1444
+msgid ""
+"KEdit is already waiting\n"
+"for an internet job to finish\n"
+"Please wait until has finished\n"
+"Alternatively stop the running one."
+msgstr ""
+"KEdit ú¾ èaká na dokonèenie práce s Internetom\n"
+"Prosím èakajte na ukonèenie, prípadne ukonèite prebiehajúcu èinnos»."
+
+#: kedit.cpp:1368 kedit.cpp:1463
+msgid "Could not start or find KFM"
+msgstr "Nie je mo¾né spusti» alebo nájs» KFM"
+
+#: kedit.cpp:1410
+#, c-format
+msgid ""
+"Malformed URL\n"
+"%s"
+msgstr ""
+"Nesprávny formát URL\n"
+"%s"
+
+#: kedit.cpp:1430
+#, c-format
+msgid "Loading '%s'"
+msgstr "Otváram '%s'"
+
+#: kedit.cpp:1454
+msgid "Calling KFM"
+msgstr "Volám KFM"
+
+#: kedit.cpp:1473
+msgid "Starting Job"
+msgstr "©tartujem èinnost"
+
+#: kedit.cpp:1476
+msgid "Connected"
+msgstr "Pripojený"
+
+#: kedit.cpp:1478
+msgid "Waiting..."
+msgstr "Èakám..."
+
+#: kedit.cpp:1486
+#, c-format
+msgid "Finished '%s'"
+msgstr "'%s' ukonèený"
+
+#: kedit.cpp:1527
+msgid "New Window"
+msgstr "Nové okno"
+
+#: kedit.cpp:1531
+msgid "New Window Created"
+msgstr "Nové okno vytvorené"
+
+#: kedit.cpp:1537
+msgid "Load Command Done"
+msgstr "Otváranie dokonèené"
+
+#: kedit.cpp:1949
+#, c-format
+msgid ""
+"Can not create:\n"
+"%s"
+msgstr ""
+"Nemô¾em vytvori»:\n"
+"%s"
+
+#: print.cpp:66
+msgid "Print Dialog"
+msgstr "Tlaèový dialóg"
+
+#: print.cpp:70
+msgid "Print directly using lpr"
+msgstr "Tlaè priamo s pou¾itím lpr"
+
+#: print.cpp:75
+msgid "Print using Command:"
+msgstr "Tlaè pomocou príkazu:"
+
+#: print.cpp:93
+msgid "Print Selection"
+msgstr "Tlaè výber"
+
+#: filldlg.cpp:31
+msgid "KEdit Options"
+msgstr "Nastavenie KEditu"
+
+#: filldlg.cpp:36
+msgid "Set Fill-Column at:"
+msgstr "Nastav ¹írku na:"
+
+#: filldlg.cpp:40
+msgid "Word Warp"
+msgstr "Lámanie slov"
+
+#: filldlg.cpp:44
+msgid "Mail Command:"
+msgstr "Príkaz po¹ty:"
+
+#: filldlg.cpp:135
+msgid "You must enter an integer."
+msgstr "Musíte vlo¾i» celé èíslo"
+
+#: mail.cpp:37
+msgid "Mail Document to:"
+msgstr "Odo¹li dokument na:"
+
+#: mail.cpp:55
+msgid "Subject:"
+msgstr "Subjekt:"
+
+#: mail.cpp:57
+msgid "Mail"
+msgstr "Odo¹li"
+
+#: mail.cpp:96
+msgid "You must specify a Recipient"
+msgstr "Musíte urèi» adresáta"
