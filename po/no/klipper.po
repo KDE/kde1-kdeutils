@@ -15,11 +15,11 @@ msgstr ""
 
 #: toplevel.cpp:83
 msgid "Shortcut..."
-msgstr ""
+msgstr "Snarvei..."
 
 #: toplevel.cpp:84
 msgid "Popup at mouse position"
-msgstr ""
+msgstr "Popp opp ved musposisjon"
 
 #: toplevel.cpp:89
 msgid "Clipboard History"
@@ -27,8 +27,8 @@ msgstr "Historien til utklippsbordet"
 
 #: toplevel.cpp:93
 msgid "<empty clipboard>"
-msgstr ""
+msgstr "<tomt utklippsbord>"
 
 #: toplevel.cpp:105
 msgid "Select clipboard contents"
-msgstr ""
+msgstr "Velg innhold fra utklippsbord"

@@ -103,7 +103,7 @@ msgstr "&Farger"
 
 #: kedit.cpp:284
 msgid "KEdit &Options..."
-msgstr "KEdit &valg..."
+msgstr "KEdit-&valg..."
 
 #: kedit.cpp:286
 msgid "Auto &Indent"
@@ -485,11 +485,11 @@ msgstr "Skriv ut valg"
 
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"
-msgstr "Set Fill-Column at:"
+msgstr "Sett fyllkolonne ved:"
 
 #: filldlg.cpp:40
 msgid "Word Wrap"
-msgstr "Ord-\"warp\""
+msgstr "Linjebryting"
 
 #: filldlg.cpp:42
 msgid "Backup Copies"
@@ -509,7 +509,7 @@ msgstr "Postlegg dokument til:"
 
 #: mail.cpp:55
 msgid "Subject:"
-msgstr "Subjekt:"
+msgstr "Emne:"
 
 #: mail.cpp:57
 msgid "Mail"
@@ -518,6 +518,3 @@ msgstr "Post"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Du må angi en mottaker"
-
-#~ msgid "&About..."
-#~ msgstr "&Om..."
