@@ -28,7 +28,7 @@ ABTLWidget::ABTLWidget(const char* name)
   connect(timer, SIGNAL(timeout()),
 	  SLOT(timeOut()));
   // -----
-  widget=new AddressWidget(this);
+  widget=new AddressWidget(this, 0, true);
   if(!constructMenu())
     {
       QMessageBox::critical
@@ -154,7 +154,7 @@ bool ABTLWidget::constructStatusBar()
 
 void ABTLWidget::setNumber(int which, int count)
 {
-  ID(bool GUARD=false);
+  register bool GUARD; GUARD=false;
   // ############################################################################
   LG(GUARD, "ABTLWidget::setNumber: updating statusbar.\n");
   char buffer[256];
@@ -219,7 +219,7 @@ void ABTLWidget::timeOut()
 
 void ABTLWidget::saveOurselfes()
 {
-  ID(bool GUARD=true);
+  register bool GUARD; GUARD=true;
   LG(GUARD, "ABTLWidget::saveOurselfes: called.\n");
   REQUIRE(widget!=0);
   // ############################################################################

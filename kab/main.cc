@@ -21,7 +21,7 @@ extern "C" {
 
 void exit_handler()
 {
-  ID(bool GUARD=true);
+  register bool GUARD; GUARD=true;
   LG(GUARD, "addressbook exit_handler: called.\n");
   // ########################################################
   LG(GUARD, "addressbook exit_handler: clearing ConfigDB "
@@ -33,7 +33,7 @@ void exit_handler()
 
 void signal_handler(int sig)
 {
-  ID(bool GUARD=true);
+  register bool GUARD; GUARD=true;
   LG(GUARD, "addressbook signal_handler: called.\n");
   // ########################################################  
   exit(sig);
@@ -42,7 +42,7 @@ void signal_handler(int sig)
   
 int main(int argc, char** argv)
 {
-  ID(bool GUARD=true);
+  register bool GUARD; GUARD=true;
   LG(GUARD, "addressbook main: starting.\n");
   // ########################################################  
   KApplication app(argc, argv, "kab");

@@ -1,9 +1,9 @@
-/** Source file for removing Nana macros.
-  * Mirko Sucker, 1998.
-  * $Id$
-  */
-
-/* The following is provided to remove Nana-assertions from the
+/* -*- C++ -*-
+ * Source file for removing Nana macros and managing kab's debugging system.
+ * Mirko Sucker, 1998.
+ * $Id$
+ *
+ * The following is provided to remove Nana-assertions from the
  * sourcecode. I strongly recommend using Nana if you are sear-
  * ching for bugs  because the assertions will catch mostly all
  * forbidden program states. Additionally the checks for object
@@ -20,50 +20,48 @@
 #ifndef KAB_DEBUG_H
 #define	KAB_DEBUG_H
 
+// ##############################################################################
+// include C headers: (some are included conditionally later)
 extern "C" {
 #include <stdio.h> // Nana needs this
 #include <errno.h>
 }
+// C++ headers:
 #include "stl_headers.h"
 #include <kapp.h>
 
-// use version without Nana per default:
+#if defined USE_NAMESPACES
+using namespace std;
+#endif
+
+// ##############################################################################
+// use version without Nana per default, define KAB_DEBUG to enable logging:
 #ifndef KAB_DEBUG
 #define REMOVE_NANA
 #endif
 
 #if defined REMOVE_NANA
-
+// ------------------------------------------------------------------------------
 #define EIFFEL_CHECK CHECK_NO 
 #define L_LEVEL 0 
 #define I_LEVEL 0
-#define L(x...)
-#define LG(x...)
-// There is a problem with the ID(..) function in ktoolbar.h:
-#if !defined ID_already_declared
-#define ID(a...)
-#endif
-#define CHECK(a...)
-#define I(a...)
-#define REQUIRE(a...)
-#define ENSURE(a...)
-
+inline void L(...) {}
+inline void LG(...) {}
+#define CHECK(a)
+#define I(a)
+#define REQUIRE(a)
+#define ENSURE(a)
+// ------------------------------------------------------------------------------
 #else 
-
+// ------------------------------------------------------------------------------
 #define EIFFEL_CHECK CHECK_ALL
 #include <nana.h>
-// #include <eiffel.h> // currently, we use only Nanas logging support
+#include <eiffel.h> // currently, we use only Nanas logging support
 #include <Qstl.h>
-
-#endif
-
-// general defines:
-
-// taken from kapp.h:
-#ifndef i18n
-#define i18n(X) KApplication::getKApplication()->getLocale()->translate(X)
-#endif
-
+// ------------------------------------------------------------------------------
+#endif // defined REMOVE_NANA
+// ##############################################################################
+// kab's (libkab's) own assertions, overriding some Nana keywords:
 #ifdef assert
 #undef assert
 #endif
@@ -76,13 +74,13 @@ extern "C" {
 #ifdef ENSURE
 #undef ENSURE
 #endif
-
-// a static string that contains the authors email address:
+// ##############################################################################
+// a static string that contains the authors email address, must be assigned by 
+// the application:
 extern string AuthorEmailAddress;
-
+// ##############################################################################
 // we use our own kind of assertions here: colorful, cute and impressive bugs!
 #if ! defined NDEBUG || defined DEBUG
-// #include "AssertDialog.h"
 #define assert(x) evaluate_assertion(x, __FILE__, __LINE__, #x)
 #define CHECK(x)  evaluate_assertion(x, __FILE__, __LINE__, #x)
 #define REQUIRE(x) evaluate_assertion(x, __FILE__, __LINE__, #x)
@@ -93,11 +91,19 @@ extern string AuthorEmailAddress;
 #define REQUIRE(x)
 #define ENSURE(x)
 #endif
-
-// the function that pops up a dialog when an assertion failes (in libkab):
-void evaluate_assertion(bool condition, 
-			const char* file, 
-			int line, 
-			const char* cond_text);
+// the function that pops up a dialog when an assertion fails (in kab or libkab):
+void evaluate_assertion(bool cond, const char* file, int line, const char* text);
+// ##############################################################################
 
 #endif // KAB_DEBUG_H
+
+
+
+
+
+
+
+
+
+
+

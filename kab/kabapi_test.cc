@@ -6,17 +6,25 @@
 
 int main(int argc, char** argv)
 {
+  // ############################################################################
   KApplication app(argc, argv);
   KabAPI::ErrorCode ec;
   AddressBook::Entry entry;
+  entry.name="Test Test Test";
   list<AddressBook::Entry> entries;
-  string key;
+  string key, selection;
   kimgioRegister();
   KabAPI api;
   // -----
   cout << "main: starting." << endl;
-  if(api.init(false)!=KabAPI::NoError)
+  switch(ec=api.init(false))
     {
+    case KabAPI::NoError: 
+      break;
+    case KabAPI::PermDenied: 
+      cout << "main: Permission for r/w mode denied, file is locked." << endl;
+      break;
+    default:
       cout << "main: initialization error." << endl;
       return -1;
     }
@@ -26,12 +34,6 @@ int main(int argc, char** argv)
 	   << "." << endl;
     } else {
       cout << "main: no entry added." << endl;
-    }
-  if(api.remove(key))
-    {
-      cout << "main: entry " << key << " removed." << endl;
-    } else {
-      cout << "main: entry " << key << " not removed." << endl;
     }
   if(api.getEntries(entries)==KabAPI::NoError)
     {
@@ -44,7 +46,7 @@ int main(int argc, char** argv)
   if(api.exec())
     {
       cout << "main: accepted." << endl;
-      if((ec=api.getEntry(entry, key))!=KabAPI::NoError)
+      if((ec=api.getEntry(entry, selection))!=KabAPI::NoError)
 	{
 	  switch(ec)
 	    {
@@ -62,6 +64,15 @@ int main(int argc, char** argv)
     } else {
       cout << "main: rejected." << endl;
     }
+  if(!key.empty() && api.remove(key)==KabAPI::NoError)
+    {
+      cout << "main: entry " << key << " removed." << endl;
+    } else {
+      cout << "main: entry " << key << "not removed." << endl;
+    }
+  // -----
   return 0;
+  // ############################################################################
 }
+
 

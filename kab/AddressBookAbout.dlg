@@ -52,7 +52,7 @@ Label {
 		MaximumSize {32767 32767}
 }
 Label {
-		Text {kab 0.9.4, November 1998}
+		Text {kab 0.9.5, December 1998}
 		Alignment {292}
 		AutoResize {FALSE}
 		Margin {-1}
