@@ -99,17 +99,17 @@ msgstr "zegar aktywny"
 
 #: top.cpp:150
 msgid "Preferences"
-msgstr ""
+msgstr "Ustawienia"
 
 #: top.cpp:194
-#, fuzzy, c-format
+#, c-format
 msgid ""
-"%s %s -- Sirtaj Singh Kang\n"
+"0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
 msgstr ""
-" 0.3 -- Sirtaj Singh Kang\n"
+"0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "¦rodowisko KDE"
@@ -124,7 +124,7 @@ msgstr "&Zadanie"
 
 #: top.cpp:209
 msgid "&Preferences..."
-msgstr ""
+msgstr "&Ustawienia..."
 
 #: top.cpp:223
 msgid "S&top"

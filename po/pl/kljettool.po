@@ -10,9 +10,8 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
 #: main.cpp:49
-#, fuzzy
 msgid "Ljet Tool"
-msgstr "KLjetTool"
+msgstr "Konfiguracja drukarki laserowej"
 
 #: main.cpp:69
 msgid "Paper"
@@ -148,6 +147,11 @@ msgid ""
 "Bernd Johannes Wuebben\n"
 "wuebben@kde.org"
 msgstr ""
+"Wersja %s\n"
+"\n"
+"Copyright (c) 1997\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
 
 #~ msgid "Version "
 #~ msgstr "Wersja"

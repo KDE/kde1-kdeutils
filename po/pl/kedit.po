@@ -30,7 +30,6 @@ msgid "Select All"
 msgstr "Zaznacz wszystko"
 
 #: kedit.cpp:157
-#, fuzzy
 msgid "Font..."
 msgstr "Czcionka..."
 
@@ -127,6 +126,11 @@ msgid ""
 "Bernd Johannes Wuebben\n"
 "wuebben@kde.org"
 msgstr ""
+"KEdit %s\n"
+"\n"
+"Copyright 1997-98\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
 
 #: kedit.cpp:332
 msgid "New Document"
@@ -358,9 +362,8 @@ msgstr ""
 "%s"
 
 #: kedit.cpp:2073
-#, fuzzy
 msgid "Spellchecker Options"
-msgstr "Zachowaj opcje"
+msgstr "Opcje sprawdzania pisowni"
 
 #: keditcl1.cpp:149
 msgid "The specified File does not exist"
@@ -387,7 +390,6 @@ msgid "Warning:"
 msgstr "Ostrze¿enie:"
 
 #: keditcl1.cpp:418 keditcl1.cpp:502
-#, fuzzy
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -429,9 +431,8 @@ msgstr "Nie masz prawa zapisu do tego pliku.\n"
 
 #: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
 #: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
-#, fuzzy
 msgid "Find"
-msgstr "&Szukaj..."
+msgstr "Szukaj"
 
 #: keditcl2.cpp:113 keditcl2.cpp:370 keditcl2.cpp:463
 msgid ""
@@ -498,9 +499,8 @@ msgid "Set Fill-Column at:"
 msgstr "Margines od kolumny:"
 
 #: filldlg.cpp:40
-#, fuzzy
 msgid "Word Wrap"
-msgstr "Przenoszenie znaków"
+msgstr "Zawijanie wierszy"
 
 #: filldlg.cpp:42
 msgid "Backup Copies"
