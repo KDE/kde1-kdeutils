@@ -1,6 +1,59 @@
--------------------------------
+
  $Id$
--------------------------------
+
+kedit+ 0.4.1
+============
+
+Solved the "tab" problem. kedit+ is now Makefile proof. :-)
+
+
+kedit+ 0.4
+==========
+
+A few last minute changes to kedit+ 0.2 introduced an embarrassing bug,
+which didn't let you "save as" an "Untitled" document. I fixed that
+bug, and while I was at it I added colors to the Options dialog. 
+Now you can also set the fore- and background colors of kedit+.
+Martin Konold suggested I bump the version number to something larger
+than 0.3.1 which was the last release of kedit.
+
+If you have problems with the pixmaps, please note that you need
+Qt 1.2 or better for kedit+.
+
+Hope you will find this editor useful.
+
+I STILL NEED AN OPEN-FOLDER ICON !!!! PLEAE HELP :-)
+
+Best Regards, Bernd
+
+wuebben@kde.org
+wuebben@math.cornell.edu
+
+==================================================================
+Readme for version 0.2:
+
+This is kedit+ a simple text editor for the KDE project. I have taken 
+Alex Sanda's kedit and turned it into what I believe to be
+a useful little editor. I had to rewrite many parts of the original 
+kedit and added, as you will surely notice, many new features.
+Nevertheless, it is still no emacs and will never be one ;-)
+
+I have tried to contact Alex, but haven't heard back from him.
+Should kedit+ become kedit? kedit has not been developed for
+about 4 month .... 
+
+
+HELP WANTED:  I need an open-folder icon !!!
+
+I hope you like kedit+, the next Generation :-)
+
+
+Bernd Wuebben
+wuebben@kde.org
+wuebben@math.cornell.edu
+
+
+========================================================================
 
      Kedit 0.3.1, small editor for the KDE project.
      
@@ -17,14 +70,7 @@ simple.
 Kedit can open multiple windows (so you can edit multiple files), without
 having multiple copies of the whole program in memory.
 
-Some technical stuff:
 
-Kedit itself is only a wrapper for my KEdit widget. This widget is a sub-
-classed QMultiLineEdit (and therefore needs qt-1.1 or higher). The widget
-is able to load and save textfiles, it has it's own fileselector (which isn't
-initialized at creation time, so you can use your own without wasting memory).
-Furthermore, KEdit has it's own search dialog and a littly context menu and
-of course, some public methods for loading, saving, searching and so on.
 
 Changes
 =======
@@ -69,3 +115,4 @@ TODO:
 
 
 
+                         Ber

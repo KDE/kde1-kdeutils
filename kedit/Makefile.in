@@ -1,16 +1,20 @@
-# kedit Makefile
 #
-# $Id$
+#                           kedit+ Makefile
+#
+#  Copyright 1997 Bernd Johannes Wuebben, wuebben@math.cornell.edu
+#
+#  $Id$
 #
 
-CXXFLAGS= @CXXFLAGS@ @all_includes@ -DHAVE_CONFIG_H -I.. -I../kfm/libkfm
-LDFLAGS	= @LDFLAGS@ @all_libraries@ -lkfm -lkdecore -lkdeui -L../kfm/libkfm -lqt -lXext -lX11 @LIBSOCKET@ 
-CXX	= @CXX@
-MOC	= @MOC@
+
+CXXFLAGS= @CXXFLAGS@ @all_includes@ -DHAVE_CONFIG_H -I..
+LDFLAGS	= @LDFLAGS@ @all_libraries@ -lkfm -lkdeui -lkdecore -lqt -lXext -lX11 @LIBSOCKET@
+CXX     = @CXX@
+MOC   	= @MOC@
 
 ############# INSTALL #################
 
-INSTALL = @INSTALL@ -m 0755 
+INSTALL = @INSTALL@ -m 0755
 INSTALL_DATA = @INSTALL@ -m 0644
 INSTALL_DIR = @INSTALL@ -d -m 0755
 INSTALL_DIR_PRIVATE = @INSTALL@ -d -m 0700
@@ -21,7 +25,7 @@ BINDIR = $(prefix)/bin
 LIBDIR = $(prefix)/lib
 PICSDIR = $(LIBDIR)/pics
 DOCSDIR = $(prefix)/doc/HTML
-APPSDIR = $(prefix)/apps/Utilities
+APPSDIR = $(prefix)/apps
 
 ########### File Formats ###########
 
@@ -29,17 +33,18 @@ DEFS = -DDOCS_PATH=\"$(DOCSDIR)/\"
 .SUFFIXES: .cpp
 
 .cpp.o:
-	$(CXX) $(DEFS) $(CXXFLAGS) -c $<
+	$(CXX) $(DEFS) -c $(CXXFLAGS) $<
 
+%.moc: %.h
+	$(MOC) $< -o $@
 
 ########## Files #####################
 
-SOURCES =	Kedit.cpp fileselect.cpp 
-HEADERS =	Kedit.h fileselect.h constants.h
-OBJECTS =	Kedit.o fileselect.o
-SRCMETA =	Kedit.moc fileselect.moc 
-TARGET	=	kedit
-
+SOURCES =	kedit+.cpp  KEdit.cpp print.cpp filldlg.cpp
+HEADERS =	kedit+.h  KEdit.h print.h filldlg.h
+OBJECTS =	kedit+.o  KEdit.o print.o filldlg.o
+SRCMETA =	kedit+.moc KEdit.moc print.moc filldlg.moc
+TARGET	=	kedit+
 
 ######### build rules ################
 
@@ -55,28 +60,26 @@ showfiles:
 	@echo $(SOURCES) $(HEADERS) Makefile
 
 clean:
-	-rm -f *.o *.bak *~ *% #*
-	-rm -f $(SRCMETA) $(TARGET)
+	rm -f *.o *.bak *~ *% #*
+	rm -f $(SRCMETA) $(TARGET)
+
+distclean: clean
+	rm -f Makefile
 
 install:
 	$(INSTALL_DIR) $(BINDIR)
 	$(INSTALL) $(TARGET) $(BINDIR)
 	$(INSTALL_DIR) $(DOCSDIR)
-	$(INSTALL_DATA) kedit.html $(DOCSDIR)
-	$(INSTALL_DIR) $(APPSDIR)
-	$(INSTALL_DATA) kedit.kdelnk $(APPSDIR)
+	$(INSTALL_DATA) docs/kedit+.html $(DOCSDIR)
+	$(INSTALL_DATA) docs/kedit+.gif $(DOCSDIR)
+	$(INSTALL_DIR) $(APPSDIR)/Utilities
+	$(INSTALL_DATA) kedit.kdelnk $(APPSDIR)/Utilities/kedit+.kdelnk
 
 uninstall:
 	rm -f $(BINDIR)/$(TARGET)
-	rm -f $(DOCSDIR)/kedit.html
-	rm -f $(APPSDIR)/kedit.kdelnk
-
-# dependencies for meta code files
-
-Kedit.moc: Kedit.h
-	$(MOC) Kedit.h -o Kedit.moc
-fileselect.moc: fileselect.h
-	$(MOC) fileselect.h -o fileselect.moc
-        
+	rm -f $(DOCSDIR)/kedit+.html
+	rm -f $(DOCSDIR)/kedit+.gif
+	rm -f $(APPSDIR)/Utilities/kedit+.kdelnk
+	
 # DO NOT DELETE THIS LINE -- make depend depends on it.
 
