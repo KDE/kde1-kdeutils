@@ -368,7 +368,7 @@ msgstr "Ord \"warp\""
 
 #: filldlg.cpp:44
 msgid "Mail Command:"
-msgstr "Post kommando:"
+msgstr "Postkommando:"
 
 #: filldlg.cpp:135
 msgid "You must enter an integer."

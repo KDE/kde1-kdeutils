@@ -27,7 +27,7 @@ msgstr "Språk"
 
 #: FontsData.cpp:57
 msgid "Symbol Set"
-msgstr "Symbol sett"
+msgstr "Symbolsett"
 
 #: FontsData.cpp:125
 msgid "Pitch"
@@ -35,7 +35,7 @@ msgstr "Avstand"
 
 #: FontsData.cpp:141
 msgid "Point Size"
-msgstr "Punkt størrelse"
+msgstr "Punktstørrelse"
 
 #: FontsData.cpp:156
 msgid "points"
@@ -43,7 +43,7 @@ msgstr "punkter"
 
 #: MiscData.cpp:43
 msgid "End of Line Mode"
-msgstr "Slutt på linje modus"
+msgstr "Slutt på linjemodus"
 
 #: MiscData.cpp:65
 msgid "PageProtect"
@@ -51,7 +51,7 @@ msgstr "Sidebeskyttelse"
 
 #: MiscData.cpp:80
 msgid "Powersave Time"
-msgstr "Strømsparings tid"
+msgstr "Strømsparingstid"
 
 #: MiscData.cpp:99
 msgid "Eject"
@@ -62,9 +62,8 @@ msgid "Reset"
 msgstr "Resett"
 
 #: MiscData.cpp:113
-#, fuzzy
 msgid "Initialize"
-msgstr "begynnelse"
+msgstr "Initsialisere"
 
 #: PrinterData.cpp:41
 msgid "Mode"

@@ -35,7 +35,7 @@ msgstr "Tetthet:"
 
 #: floppy.cpp:74
 msgid "File System:"
-msgstr "Fil system:"
+msgstr "Filsystem:"
 
 #: floppy.cpp:108 floppy.cpp:408
 msgid "Format"
@@ -43,7 +43,7 @@ msgstr "Formater"
 
 #: floppy.cpp:131
 msgid "Quick Erase"
-msgstr "Hurtig sletting"
+msgstr "Hurtigsletting"
 
 #: floppy.cpp:136
 msgid "Full Format"
@@ -59,7 +59,7 @@ msgstr "KDE floppy"
 
 #: floppy.cpp:162
 msgid "KDE Floppy Formater"
-msgstr "KDE diskett formatering"
+msgstr "KDE diskettformatering"
 
 #: floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267
 msgid "HD"
@@ -108,7 +108,7 @@ msgstr ""
 
 #: floppy.cpp:424
 msgid "Abort"
-msgstr "Aborter"
+msgstr "Avbryt"
 
 #: floppy.cpp:472
 msgid "Cannot start a new program: fork() failed."
@@ -156,7 +156,7 @@ msgid ""
 msgstr ""
 "Disketten ble formatert.\n"
 "Dårlige blokker er merket: %d\n"
-"Rå kapasitet: %d\n"
+"Råkapasitet: %d\n"
 
 #: floppy.cpp:774
 msgid "All files were sucessfully erased."

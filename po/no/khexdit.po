@@ -77,7 +77,7 @@ msgid ""
 "Wait until this one is finished\n"
 "or stop the running one."
 msgstr ""
-"Du kan kun kjøre en internet jobb om gangen.\n"
+"Du kan kun kjøre en Internett-jobb om gangen.\n"
 "Vennligst vent til denne jobb er ferdig\n"
 "eller avslutt jobb som kjøres."
 

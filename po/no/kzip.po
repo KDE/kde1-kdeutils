@@ -16,7 +16,7 @@ msgstr ""
 
 #: adddlg.cc:11
 msgid "Add File Options"
-msgstr "Legg til fil valg"
+msgstr "Legg til filvalg"
 
 #: adddlg.cc:22
 msgid "Store Full Path"
@@ -44,7 +44,7 @@ msgstr "Bevar tillatelser"
 
 #: extractdlg.cc:36
 msgid "Filenames to Lowercase"
-msgstr "Filnavn med sme bokstaver"
+msgstr "Filnavn med små bokstaver"
 
 #: extractdlg.cc:39
 msgid "All Files"
@@ -56,15 +56,15 @@ msgstr "Valgte filer"
 
 #: extractdlg.cc:45
 msgid "Pattern"
-msgstr "Mxnster"
+msgstr "Mønster"
 
 #: kzip.cc:70
 msgid "&Extract To..."
-msgstr "&Extract To..."
+msgstr "&Pakk ut til..."
 
 #: kzip.cc:75
 msgid "E&xtract..."
-msgstr "E&xtract..."
+msgstr "P&akk ut..."
 
 #: kzip.cc:80
 msgid "&Set Archive Directory..."
@@ -72,11 +72,11 @@ msgstr "&Sett arkiv mappe"
 
 #: kzip.cc:81
 msgid "Set &Tar Executable..."
-msgstr ""
+msgstr "Velg &Tar-programfil..."
 
 #: kzip.cc:82
 msgid "&File Adding Options..."
-msgstr "&Fil tilleggs valg..."
+msgstr "Valg for &filtillegging..."
 
 #: kzip.cc:128
 msgid "Welcome to KZip..."
@@ -100,21 +100,21 @@ msgstr "Feil ved lagring til arkiv"
 
 #: kzip.cc:312
 msgid "Archive Dir:"
-msgstr "Arkiv mappe:"
+msgstr "Arkivmappe:"
 
 #: kzip.cc:329
 msgid "What runs GNU tar:"
-msgstr ""
+msgstr "Hva kjører GNU tar:"
 
 #: kzip.cc:366 kzip.cc:568
 msgid "Unknown archive format"
-msgstr "Ukjent arkiv format"
+msgstr "Ukjent arkivformat"
 
 #: kzip.cc:392
 #, fuzzy
 msgid "Archive directory does not exist."
-msgstr "Arkiv mappe"
+msgstr "Arkivmappe eksisterer ikke."
 
 #: kzip.cc:408
 msgid "Archive Directory"
-msgstr "Arkiv mappe"
+msgstr "Arkivmappe"

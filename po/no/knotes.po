@@ -17,7 +17,7 @@ msgstr ""
 #: alarm.cpp:58
 #, c-format
 msgid "Alarm Timer for: %s"
-msgstr "Alarm timer for: %s"
+msgstr "Alarmtimer for: %s"
 
 #: alarm.cpp:72
 msgid "Unset"
@@ -57,11 +57,11 @@ msgstr "Datoen du valgte er ugyldig"
 
 #: configdlg.cpp:50
 msgid "Text Color:"
-msgstr "Tekst farge:"
+msgstr "Tekstfarge:"
 
 #: configdlg.cpp:64
 msgid "Background Color:"
-msgstr "Bakgrunns farge:"
+msgstr "Bakgrunnsfarge:"
 
 #: configdlg.cpp:83
 msgid "Width:"
@@ -77,29 +77,27 @@ msgstr "Utskriftskommando"
 
 #: configdlg.cpp:112
 msgid "Mail Command:"
-msgstr "Post kommando"
+msgstr "Postkommando"
 
 #: configdlg.cpp:123
 msgid "3d Frame"
-msgstr "3d ramme"
+msgstr "3d-ramme"
 
 #: configdlg.cpp:128 knotes.cpp:330
 msgid "Auto Indent"
-msgstr "Auto innrykk"
+msgstr "Auto-innrykk"
 
 #: docking.cpp:71
-#, fuzzy
 msgid "Change Defaults"
 msgstr "Endre standardverdier ..."
 
 #: docking.cpp:76
 msgid "Exit Knotes"
-msgstr ""
+msgstr "Avlutt Knotes"
 
 #: docking.cpp:95
-#, fuzzy
 msgid "New Knote"
-msgstr "Ny Note"
+msgstr "Ny Knote"
 
 #: fontdlg.cpp:45
 msgid "Set Default Font"
@@ -107,19 +105,19 @@ msgstr "Sett standard skrifttype"
 
 #: fontdlg.cpp:64
 msgid "Point Size:"
-msgstr "Punkt størrelse:"
+msgstr "Punktstørrelse:"
 
 #: knotes.cpp:300
 msgid "Text Color..."
-msgstr "Tekst farge..."
+msgstr "Tekstfarge..."
 
 #: knotes.cpp:301
 msgid "Background Color..."
-msgstr "Bakgrunns farge..."
+msgstr "Bakgrunnsfarge..."
 
 #: knotes.cpp:307
 msgid "New Note"
-msgstr "Ny Note"
+msgstr "Nytt Note"
 
 #: knotes.cpp:309
 msgid "Delete Note"
@@ -139,20 +137,19 @@ msgstr "Kalender"
 
 #: knotes.cpp:318
 msgid "Mail Note ..."
-msgstr "Post Note ..."
+msgstr "Postlegg Note ..."
 
 #: knotes.cpp:320
 msgid "Print Note"
 msgstr "Skriv ut Note"
 
 #: knotes.cpp:323
-#, fuzzy
 msgid "Save Notes"
-msgstr "Ny Note"
+msgstr "Lagre Notes"
 
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"
-msgstr "3D ramme"
+msgstr "3D-ramme"
 
 #: knotes.cpp:332
 msgid "Font..."
@@ -291,21 +288,20 @@ msgid "Inconsistency"
 msgstr "Inkonsistens"
 
 #: mail.cpp:40
-#, fuzzy
 msgid "Mail Note to:"
-msgstr "Post Note ..."
+msgstr "Postlegg Note til:"
 
 #: mail.cpp:49
 msgid "Subject:"
-msgstr ""
+msgstr "Emne:"
 
 #: mail.cpp:51
 msgid "Mail"
-msgstr ""
+msgstr "Postlegg"
 
 #: mail.cpp:92
 msgid "You must specify a Recipient"
-msgstr ""
+msgstr "Du må oppgi en mottager"
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
@@ -330,6 +326,3 @@ msgid ""
 msgstr ""
 "En KNotes note med dette navnet eksisterer allerede\n"
 "Vennligst velg et annet navn"
-
-#~ msgid "Hide Note"
-#~ msgstr "Skjul Note"
