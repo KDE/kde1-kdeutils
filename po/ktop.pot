@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-03-16 01:50+0100\n"
+"POT-Creation-Date: 1999-03-19 01:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -266,66 +266,56 @@ msgstr ""
 msgid "Command line"
 msgstr ""
 
-#: OSProcessList.cpp:76 OSProcessList.cpp:103
+#: OSProcessList.cpp:76 OSProcessList.cpp:104
 msgid ""
 "Cannot open directory '/proc'!\n"
 "The kernel needs to be compiled with support\n"
 "for /proc filesystem enabled!"
 msgstr ""
 
-#: OSProcessList.cpp:126
-msgid ""
-"Cannot read status of processes\n"
-"from /proc/... directories!\n"
-msgstr ""
-
-#: OSProcessList.cpp:276
+#: OSProcessList.cpp:266
 msgid "Cannot read status of processes\n"
 msgstr ""
 
-#: OSProcessList.cpp:377
+#: OSProcessList.cpp:367
 msgid "Your OS is not supported yet.  Sorry"
 msgstr ""
 
-#: OSProcess.cpp:128 OSProcess.cpp:162 OSProcess.cpp:179
+#: OSProcess.cpp:123 OSProcess.cpp:154 OSProcess.cpp:171
 #, c-format
 msgid "Cannot open %s!\n"
 msgstr ""
 
-#: OSProcess.cpp:130
-msgid "The Process has been terminated!\n"
-msgstr ""
-
-#: OSProcess.cpp:191
+#: OSProcess.cpp:183
 msgid "Run"
 msgstr ""
 
-#: OSProcess.cpp:194
+#: OSProcess.cpp:186
 msgid "Sleep"
 msgstr ""
 
-#: OSProcess.cpp:197
+#: OSProcess.cpp:189
 msgid "Disk"
 msgstr ""
 
-#: OSProcess.cpp:200
+#: OSProcess.cpp:192
 msgid "Zombie"
 msgstr ""
 
-#: OSProcess.cpp:206
+#: OSProcess.cpp:198
 msgid "Swap"
 msgstr ""
 
-#: OSProcess.cpp:209
+#: OSProcess.cpp:201
 msgid "????"
 msgstr ""
 
-#: OSProcess.cpp:328
+#: OSProcess.cpp:320
 #, c-format
 msgid "Could not set new nice level for process %d"
 msgstr ""
 
-#: OSProcess.cpp:342
+#: OSProcess.cpp:334
 #, c-format
 msgid "Cound not send signal %d to process %d"
 msgstr ""
@@ -382,18 +372,18 @@ msgid ""
 "for /proc filesystem enabled!"
 msgstr ""
 
-#: OSStatus.cpp:120 OSStatus.cpp:302 OSStatus.cpp:377
+#: OSStatus.cpp:120 OSStatus.cpp:303 OSStatus.cpp:378
 msgid ""
 "Cannot open file '/proc/meminfo'!\n"
 "The kernel needs to be compiled with support\n"
 "for /proc filesystem enabled!"
 msgstr ""
 
-#: OSStatus.cpp:310
+#: OSStatus.cpp:311
 msgid "Cannot read memory info file '/proc/meminfo'!\n"
 msgstr ""
 
-#: OSStatus.cpp:353
+#: OSStatus.cpp:354
 #, c-format
 msgid ""
 "Cannot read info for %s from file '/proc/stat'!\n"
@@ -401,11 +391,11 @@ msgid ""
 "for /proc filesystem enabled!"
 msgstr ""
 
-#: OSStatus.cpp:385
+#: OSStatus.cpp:386
 msgid "Cannot read swap info from '/proc/meminfo'!\n"
 msgstr ""
 
-#: OSStatus.cpp:574 OSStatus.cpp:587 OSStatus.cpp:614 OSStatus.cpp:623
+#: OSStatus.cpp:575 OSStatus.cpp:588 OSStatus.cpp:615 OSStatus.cpp:624
 msgid ""
 "Your system is not currently supported.\n"
 "Sorry"

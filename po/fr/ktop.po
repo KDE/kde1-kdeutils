@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Ktop 0.9.7\n"
-"POT-Creation-Date: 1999-03-16 01:50+0100\n"
+"POT-Creation-Date: 1999-03-19 01:51+0100\n"
 "PO-Revision-Date: 1999-03-13 15:00 CET\n"
 "Last-Translator: Francois-Xavier DURANCEAU "
 "<Francois-Xavier.Duranceau@loria.fr>\n"
@@ -279,7 +279,7 @@ msgstr "Partagé"
 msgid "Command line"
 msgstr "Ligne de commande"
 
-#: OSProcessList.cpp:76 OSProcessList.cpp:103
+#: OSProcessList.cpp:76 OSProcessList.cpp:104
 msgid ""
 "Cannot open directory '/proc'!\n"
 "The kernel needs to be compiled with support\n"
@@ -289,61 +289,49 @@ msgstr ""
 "Le noyau doit être compilé avec le support du\n"
 "système de fichiers /proc."
 
-#: OSProcessList.cpp:126
-msgid ""
-"Cannot read status of processes\n"
-"from /proc/... directories!\n"
-msgstr ""
-"Impossible de lire l'état des processus\n"
-"dans les répertoires /proc/... !\n"
-
-#: OSProcessList.cpp:276
+#: OSProcessList.cpp:266
 msgid "Cannot read status of processes\n"
 msgstr "Impossible de lire l'état des processus\n"
 
-#: OSProcessList.cpp:377
+#: OSProcessList.cpp:367
 msgid "Your OS is not supported yet.  Sorry"
 msgstr "Votre système d'exploitation n'est pas encore supporté. Désolé !"
 
-#: OSProcess.cpp:128 OSProcess.cpp:162 OSProcess.cpp:179
+#: OSProcess.cpp:123 OSProcess.cpp:154 OSProcess.cpp:171
 #, c-format
 msgid "Cannot open %s!\n"
 msgstr "Impossible d'ouvrir %s !\n"
 
-#: OSProcess.cpp:130
-msgid "The Process has been terminated!\n"
-msgstr "Le processus a été arrêté !\n"
-
-#: OSProcess.cpp:191
+#: OSProcess.cpp:183
 msgid "Run"
 msgstr "Activable"
 
-#: OSProcess.cpp:194
+#: OSProcess.cpp:186
 msgid "Sleep"
 msgstr "Endormi"
 
-#: OSProcess.cpp:197
+#: OSProcess.cpp:189
 msgid "Disk"
 msgstr "Disque"
 
-#: OSProcess.cpp:200
+#: OSProcess.cpp:192
 msgid "Zombie"
 msgstr "Zombie"
 
-#: OSProcess.cpp:206
+#: OSProcess.cpp:198
 msgid "Swap"
 msgstr "Swap"
 
-#: OSProcess.cpp:209
+#: OSProcess.cpp:201
 msgid "????"
 msgstr "????"
 
-#: OSProcess.cpp:328
+#: OSProcess.cpp:320
 #, c-format
 msgid "Could not set new nice level for process %d"
 msgstr "Impossible de changer la gentillesse du processus %d"
 
-#: OSProcess.cpp:342
+#: OSProcess.cpp:334
 #, c-format
 msgid "Cound not send signal %d to process %d"
 msgstr "Impossible d'envoyer le signal %d au processus %d"
@@ -403,7 +391,7 @@ msgstr ""
 "Le noyau doit être compilé avec le support du\n"
 "système de fichiers /proc."
 
-#: OSStatus.cpp:120 OSStatus.cpp:302 OSStatus.cpp:377
+#: OSStatus.cpp:120 OSStatus.cpp:303 OSStatus.cpp:378
 msgid ""
 "Cannot open file '/proc/meminfo'!\n"
 "The kernel needs to be compiled with support\n"
@@ -413,11 +401,11 @@ msgstr ""
 "Le noyau doit être compilé avec le support du\n"
 "système de fichiers /proc."
 
-#: OSStatus.cpp:310
+#: OSStatus.cpp:311
 msgid "Cannot read memory info file '/proc/meminfo'!\n"
 msgstr "Impossible de lire les infos sur la mémoire dans '/proc/meminfo'.\n"
 
-#: OSStatus.cpp:353
+#: OSStatus.cpp:354
 #, c-format
 msgid ""
 "Cannot read info for %s from file '/proc/stat'!\n"
@@ -428,11 +416,11 @@ msgstr ""
 "Le noyau doit être compilé avec le support du\n"
 "système de fichiers /proc."
 
-#: OSStatus.cpp:385
+#: OSStatus.cpp:386
 msgid "Cannot read swap info from '/proc/meminfo'!\n"
 msgstr "Impossible de lire les infos sur le swap dans '/proc/meminfo'.\n"
 
-#: OSStatus.cpp:574 OSStatus.cpp:587 OSStatus.cpp:614 OSStatus.cpp:623
+#: OSStatus.cpp:575 OSStatus.cpp:588 OSStatus.cpp:615 OSStatus.cpp:624
 msgid ""
 "Your system is not currently supported.\n"
 "Sorry"
@@ -460,3 +448,13 @@ msgstr ""
 "nombre est petit, plus la priorité est élevée.\n"
 "\n"
 "Entrez la valeur de gentillesse désirée :"
+
+#~ msgid ""
+#~ "Cannot read status of processes\n"
+#~ "from /proc/... directories!\n"
+#~ msgstr ""
+#~ "Impossible de lire l'état des processus\n"
+#~ "dans les répertoires /proc/... !\n"
+
+#~ msgid "The Process has been terminated!\n"
+#~ msgstr "Le processus a été arrêté !\n"

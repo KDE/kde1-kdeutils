@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-03-16 01:50+0100\n"
+"POT-Creation-Date: 1999-03-19 01:51+0100\n"
 "PO-Revision-Date: 1998-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -278,7 +278,7 @@ msgstr "Delt"
 msgid "Command line"
 msgstr "Kommandolinje"
 
-#: OSProcessList.cpp:76 OSProcessList.cpp:103
+#: OSProcessList.cpp:76 OSProcessList.cpp:104
 msgid ""
 "Cannot open directory '/proc'!\n"
 "The kernel needs to be compiled with support\n"
@@ -288,61 +288,49 @@ msgstr ""
 "Kjernen må kompileres med støtte for\n"
 "/proc-filsystemet!"
 
-#: OSProcessList.cpp:126
-msgid ""
-"Cannot read status of processes\n"
-"from /proc/... directories!\n"
-msgstr ""
-"Kan ikke lese status til prosesser\n"
-"fra /proc/-katalogene!\n"
-
-#: OSProcessList.cpp:276
+#: OSProcessList.cpp:266
 msgid "Cannot read status of processes\n"
 msgstr "Kan ikke lese status til prosesser\n"
 
-#: OSProcessList.cpp:377
+#: OSProcessList.cpp:367
 msgid "Your OS is not supported yet.  Sorry"
 msgstr "OSet ditt er foreløbig ikke støttet. Beklager"
 
-#: OSProcess.cpp:128 OSProcess.cpp:162 OSProcess.cpp:179
+#: OSProcess.cpp:123 OSProcess.cpp:154 OSProcess.cpp:171
 #, c-format
 msgid "Cannot open %s!\n"
 msgstr "Kan ikke åpne %s!\n"
 
-#: OSProcess.cpp:130
-msgid "The Process has been terminated!\n"
-msgstr "Prosessen har blitt avsluttet!\n"
-
-#: OSProcess.cpp:191
+#: OSProcess.cpp:183
 msgid "Run"
 msgstr "Kjører"
 
-#: OSProcess.cpp:194
+#: OSProcess.cpp:186
 msgid "Sleep"
 msgstr "Sover"
 
-#: OSProcess.cpp:197
+#: OSProcess.cpp:189
 msgid "Disk"
 msgstr "Disk"
 
-#: OSProcess.cpp:200
+#: OSProcess.cpp:192
 msgid "Zombie"
 msgstr "Viljeløs"
 
-#: OSProcess.cpp:206
+#: OSProcess.cpp:198
 msgid "Swap"
 msgstr "Veksel"
 
-#: OSProcess.cpp:209
+#: OSProcess.cpp:201
 msgid "????"
 msgstr "????"
 
-#: OSProcess.cpp:328
+#: OSProcess.cpp:320
 #, c-format
 msgid "Could not set new nice level for process %d"
 msgstr "Kan ikke sette nytt hyggelighetsnivå for prosessen %d"
 
-#: OSProcess.cpp:342
+#: OSProcess.cpp:334
 #, c-format
 msgid "Cound not send signal %d to process %d"
 msgstr "Kunne ikke sende signal %d til prosessen %d"
@@ -402,7 +390,7 @@ msgstr ""
 "Kjernen må kompileres med støtte for\n"
 "/proc-filsystemet!"
 
-#: OSStatus.cpp:120 OSStatus.cpp:302 OSStatus.cpp:377
+#: OSStatus.cpp:120 OSStatus.cpp:303 OSStatus.cpp:378
 msgid ""
 "Cannot open file '/proc/meminfo'!\n"
 "The kernel needs to be compiled with support\n"
@@ -412,11 +400,11 @@ msgstr ""
 "Kjernen må kompileres med støtte for\n"
 "/proc-filsystemet!"
 
-#: OSStatus.cpp:310
+#: OSStatus.cpp:311
 msgid "Cannot read memory info file '/proc/meminfo'!\n"
 msgstr "Kan ikke lese informasjonsfil for minne '/proc/meminfo'!\n"
 
-#: OSStatus.cpp:353
+#: OSStatus.cpp:354
 #, fuzzy, c-format
 msgid ""
 "Cannot read info for %s from file '/proc/stat'!\n"
@@ -427,13 +415,13 @@ msgstr ""
 "Kjernen må kompileres med støtte for\n"
 "/proc-filsystemet!"
 
-#: OSStatus.cpp:385
+#: OSStatus.cpp:386
 msgid "Cannot read swap info from '/proc/meminfo'!\n"
 msgstr ""
 "Kan ikke lese vekselinformasjon til\n"
 "prosess fra /proc/*-katalogene!\n"
 
-#: OSStatus.cpp:574 OSStatus.cpp:587 OSStatus.cpp:614 OSStatus.cpp:623
+#: OSStatus.cpp:575 OSStatus.cpp:588 OSStatus.cpp:615 OSStatus.cpp:624
 msgid ""
 "Your system is not currently supported.\n"
 "Sorry"
@@ -461,6 +449,16 @@ msgstr ""
 "høyere prioritet.\n"
 "\n"
 "Vennligst skriv inn ønsket prioritet:"
+
+#~ msgid ""
+#~ "Cannot read status of processes\n"
+#~ "from /proc/... directories!\n"
+#~ msgstr ""
+#~ "Kan ikke lese status til prosesser\n"
+#~ "fra /proc/-katalogene!\n"
+
+#~ msgid "The Process has been terminated!\n"
+#~ msgstr "Prosessen har blitt avsluttet!\n"
 
 #~ msgid "StartUp Preferences..."
 #~ msgstr "Oppstartspreferanser..."
