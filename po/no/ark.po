@@ -75,12 +75,11 @@ msgstr "P&akk ut..."
 
 #: arkwidget.cc:80
 msgid "&View file"
-msgstr ""
+msgstr "&Vis fil"
 
 #: arkwidget.cc:82
-#, fuzzy
 msgid "&Delete file"
-msgstr "Valgte filer"
+msgstr "&Slett fil"
 
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
@@ -104,12 +103,11 @@ msgstr "Pakk ut..."
 
 #: arkwidget.cc:100
 msgid "View file"
-msgstr ""
+msgstr "Vis fil"
 
 #: arkwidget.cc:102
-#, fuzzy
 msgid "Delete file"
-msgstr "Valgte filer"
+msgstr "Slett fil"
 
 #: arkwidget.cc:114
 msgid "Goto Archive Dir..."
