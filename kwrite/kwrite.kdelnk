@@ -2,6 +2,7 @@
 [KDE Desktop Entry]
 Comment=A powerful text editor
 Comment[cs]=Mocný textový editor
+Comment[da]=En kraftig tekst editor
 Comment[de]=Ein leistungsfähiger Texteditor
 Comment[es]=Un potente editor de textos
 Comment[fi]=Tehokas tekstimuokkain
@@ -16,6 +17,7 @@ Comment[sv]=En kraftfull texteditor
 BinaryPattern=
 Name=KDE Editor
 Name[cs]=Editor pro KDE
+Name[da]=KDE editor
 Name[es]=Editor de KDE
 Name[fi]=KDE -tekstimuokkain
 Name[fr]=Editeur KDE

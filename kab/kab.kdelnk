@@ -2,6 +2,7 @@
 [KDE Desktop Entry]
 Name=Address book
 Name[cs]=Kniha adres
+Name[da]=Adressebog
 Name[de]=Adressbuch
 Name[es]=Libro de direcciones
 Name[fi]=Osoitekirja
@@ -20,6 +21,7 @@ Path=
 Type=Application
 Comment=Address book
 Comment[cs]=Kniha adres
+Comment[da]=Adressebog
 Comment[de]=Adressbuch
 Comment[es]=Libro de direcciones
 Comment[fi]=Osoitekirja

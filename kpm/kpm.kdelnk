@@ -2,6 +2,7 @@
 [KDE Desktop Entry]
 Name=Process management
 Name[cs]=Správce procesù
+Name[da]=Proces-behandler
 Name[de]=Prozeß-Management
 Name[es]=Gestion de procesos
 Name[fi]=Prosessienhallinta
@@ -15,6 +16,7 @@ Name[sk]=Správa procesov
 Name[sv]=Processhantering
 Comment=Process management tool
 Comment[cs]=Nástroj pro správu procesù
+Comment[da]=Procesbehandlingsværktøj
 Comment[de]=Prozeß-Management
 Comment[es]=Herramienta de gestión de procesos
 Comment[fi]=Prosessienhallintatyökalu
