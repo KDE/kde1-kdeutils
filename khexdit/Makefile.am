@@ -9,6 +9,8 @@ bin_PROGRAMS = 	khexdit
 khexdit_SOURCES	= hexwidget.cpp hexfile.cpp
 noinst_HEADERS = hexfile.h hexwidget.h
 khexdit_LDADD = $(all_libraries) -lkfm -lkdeui -lkdecore -lqt -lX11 -lXext $(LIBSOCKET)
+khexdit_LDFLAGS = $(LDFLAGS) $(KDE_RPATH)
+
 BUILTSOURCES = hexwidget.moc hexfile.moc
 DISTCLEANFILES = hexwidget.moc hexfile.moc
 
