@@ -1,0 +1,191 @@
+# Kfloppy.pot translate file to SPANISH.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, <root@petit.cornell.edu>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-may-2 09:54+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Jorge Valencia <jorgev@est.unileon.es>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Date: 1998-03-06 22:13:59-0500\n"
+"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, <root@petit.cornell.edu>\n"
+"Content-Type: text/plain; charset=\n"
+"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
+"Files: about.cpp floppy.cpp main.cpp\n"
+
+#: about.cpp:40
+msgid "About KDE Floppy Formater"
+msgstr "Acerca del Formateador de Dicos de KDE"
+
+#: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368 floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721 floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
+msgid "KFloppy"
+msgstr "KFloppy"
+
+#: about.cpp:54
+msgid "Version "
+msgstr "Versión "
+
+#: floppy.cpp:56
+msgid "Floppy Drive:"
+msgstr "Unidad de Disco:"
+
+#: floppy.cpp:65
+msgid "Density:"
+msgstr "Densidad:"
+
+#: floppy.cpp:74
+msgid "File System:"
+msgstr "Sistema de Archivos:"
+
+#: floppy.cpp:108 floppy.cpp:408
+msgid "Format"
+msgstr "Formatear"
+
+#: floppy.cpp:131
+msgid "Quick Erase"
+msgstr "Borrado Rápido"
+
+#: floppy.cpp:136
+msgid "Full Format"
+msgstr "Formateo Completo"
+
+#: floppy.cpp:142
+msgid "Create Label:"
+msgstr "Poner Etiqueta:"
+
+#: floppy.cpp:148
+msgid "KDE Floppy"
+msgstr "KDE Floppy"
+
+#: floppy.cpp:162
+msgid "KDE Floppy Formater"
+msgstr "Formateador de Dicos de KDE"
+
+#: floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267
+msgid "HD"
+msgstr "HD"
+
+#: floppy.cpp:286
+msgid ""
+"Cannot access %s\n"
+"Make sure that the device exists and that\n"
+"you have write permission to it."
+msgstr ""
+"No se puede tener acceso a %s\n"
+"Cerciorese de que el dispositivo existe,\n"
+"y de que tiene permiso de escritura sobre él."
+
+#: floppy.cpp:333
+msgid ""
+"Cannot find kfdformat\n"
+"kfdformat is part of the KFloppy distribution.\n"
+"Please install KFloppy properly."
+msgstr ""
+"No se puede encontrar kfdformat\n"
+"kfdformat es una parte del programa KFloppy.\n"
+"Por favor instale KFloppy correctamente."
+
+#: floppy.cpp:349
+msgid ""
+"Cannot find kmke2fs\n"
+"kmke2fs is part of the KFloppy distribution.\n"
+"Please install KFloppy properly."
+msgstr ""
+"No se puede encontrar kmke2fs\n"
+"kmke2fs es una parte del programa KFloppy.\n"
+"Por favor instale KFloppy correctamente."
+
+#: floppy.cpp:364
+msgid ""
+"Cannot find kmkdosfs\n"
+"kmkdosfs is part of the KFloppy distribution.\n"
+"Please install KFloppy properly."
+msgstr ""
+"No se puede encontrar kmkdosfs\n"
+"kmkdosfs es una parte del programa KFloppy.\n"
+"Por favor instale KFloppy correctamente."
+
+#: floppy.cpp:424
+msgid "Abort"
+msgstr "Cancelar"
+
+#: floppy.cpp:472
+msgid "Cannot start a new program: fork() failed."
+msgstr "No se puede empezar un nuevo programa: bifurcación() falló."
+
+#: floppy.cpp:572 floppy.cpp:700
+msgid ""
+"Cannot access floppy or floppy drive\n"
+"Please insert a floppy and make sure that you\n"
+"have selected a valid floppy drive.\n"
+msgstr ""
+"No se puede acceder al disco o a la unidad de disco\n"
+"Por favor, inserte un disco y este seguro de haber\n"
+"seleccionado una unidad de disco flexible valida.\n"
+
+#: floppy.cpp:587
+msgid ""
+"Cannot format: %s\n"
+"%s"
+msgstr ""
+"No se puede formatear: %s\n"
+"%s"
+
+#: floppy.cpp:634
+msgid "Block %d is bad. Continuing ..."
+msgstr "Bloque %d esta mal. Continuando ..."
+
+#: floppy.cpp:717
+msgid ""
+"Cannot create a filesystem on: %s\n"
+"%s"
+msgstr ""
+"No se puede crear un sistema de archivos en: %s\n"
+"%s"
+
+#: floppy.cpp:753
+msgid ""
+"The floppy was sucessfully formatted.\n"
+"Blocks marked bad: %d\n"
+"Raw Capacity: %d\n"
+msgstr ""
+"El disco flexible ha sido formateado con exito.\n"
+"Bloques marcados como malos: %d\n"
+"Capacidad total: %d\n"
+
+#: floppy.cpp:774
+msgid "All files were sucessfully erased."
+msgstr "Todos los archivos han sido borrados con exito."
+
+#: floppy.cpp:832
+msgid "Creating Filesystem ..."
+msgstr "Creando Sistema de Archivos"
+
+#: floppy.cpp:836
+msgid "Verifying ..."
+msgstr "Verificando ..."
+
+#: floppy.cpp:881
+msgid ""
+"Cannot start a new program\n"
+"fork() failed."
+msgstr ""
+"No se puede arrancar un nuevo programa\n"
+"bifurcación() falló."
+
+#: floppy.cpp:907
+msgid "Error while trying to determine whether floppy is mounted\n"
+msgstr "Error mientras se intentaba determinar si el disco estaba montado\n"
+
+#: floppy.cpp:924
+msgid ""
+"%s is mounted.\n"
+"Please unmount the floppy first."
+msgstr ""
+"%s esta montado.\n"
+"Por favor desmonte el disco antes."
