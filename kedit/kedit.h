@@ -58,6 +58,9 @@
 #include <kurl.h>
 #include <kconfig.h>
 #include <ktoolbar.h>
+#include <kspell.h>
+#include <ksconfig.h>
+
 
 #include "kstatusbar.h"
 #include "ktopwidget.h"
@@ -179,6 +182,10 @@ private:
     void readProperties(KConfig*);
     void add_recent_file(const char*);
 
+    // Spellchecking    
+    KSpell *kspell;
+    int spell_offset;
+
     
 public slots:
 
@@ -225,6 +232,9 @@ public slots:
     void toggle_overwrite();
     /// Gets signals from KFM
     void slotKFMFinished();
+
+    void spellcheck();
+    void spell_configure();
 
     /// Drag and Drop
     void slotDropEvent( KDNDDropZone * _dropZone );

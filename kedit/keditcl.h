@@ -72,6 +72,7 @@
 #include <kapp.h>
 #include <kfontdialog.h>
 #include <kfiledialog.h>
+#include <kspell.h>
 
 ///
 class KIntLineEdit : public QLineEdit
@@ -434,6 +435,17 @@ public:
     void 	getpar(int line,QStrList& par);
     void 	getpar2(int line,QStrList& par,int& upperbound,QString &prefix);
 
+
+    /**
+     * Returns the KSpellConfig object used by KEdit.
+     */
+    KSpellConfig *ksConfig(void) {return ksc;}
+    /**
+     * Sets the KSpellConfig object used by KEdit.  (The object is
+     *  copied internally.)
+     */
+    void setKSConfig (const KSpellConfig _ksc) {*ksc=_ksc;}
+
 signals:
 
     /// This signal is emitted when the document in the textwidget has changed
@@ -473,6 +485,13 @@ signals:
 
 public slots:
     
+    void spellResult (char *newtext);
+    void corrected (char *originalword, char *newword, int pos);
+    void misspelling (char *word, QStrList *, int pos);    
+    void spellcheck();
+    void spellcheck2(KSpell*);
+
+
     void setModified();
 
     void search_slot();
@@ -520,6 +539,12 @@ private:
 
 
 private:
+
+    // Spellchecking    
+    KSpell *kspell;
+    KSpellConfig *ksc;
+    int spell_offset;
+
 
     QString	killbufferstring;
     QWidget     *p_parent;

@@ -27,6 +27,7 @@
 #include <qstrlist.h> 
 #include <qpainter.h>
 #include <qdir.h>
+#include <qtabdlg.h>
 
 #include "kedit.h"
 #include "urldlg.h"
@@ -34,7 +35,7 @@
 #include "kcolordlg.h"
 #include "mail.h"
 #include "keditcl.h"
-
+#include "kwm.h"
 
 #include "kedit.moc"
 
@@ -263,6 +264,10 @@ void TopLevel::setupMenuBar(){
 		   this, 	SLOT(search_again()));
   edit->insertItem(klocale->translate("&Replace"),
 		   this, 	SLOT(replace()), keys.replace());
+  edit->insertItem(klocale->translate("Spellcheck..."),
+		   this, SLOT(spellcheck()));
+
+
   edit->insertSeparator(-1);
   edit->insertItem(klocale->translate("&Goto Line..."),
 		   this, SLOT(gotoLine()));
@@ -272,6 +277,9 @@ void TopLevel::setupMenuBar(){
 		      this,	SLOT(font()));
   options->insertItem(klocale->translate("Colors"), colors);
   options->insertSeparator(-1);
+  options->insertItem("Spellchecker...",
+		      this,  SLOT (spell_configure()));
+
   options->insertItem(klocale->translate("KEdit &Options..."),
 		      this, 	SLOT(fill_column_slot()));
   indentID = options->insertItem(klocale->translate("Auto &Indent"), 
@@ -527,6 +535,13 @@ void TopLevel::file_new(){
   eframe->newFile();
   statusbar_slot();
 
+}
+
+void TopLevel::spellcheck()
+{
+  if(eframe){
+    eframe->spellcheck();
+  }
 }
 
 void TopLevel::file_open(){
@@ -2012,3 +2027,25 @@ int main (int argc, char **argv)
 }
 
 
+///////////
+// Spellchecking
+
+void TopLevel::spell_configure ()
+{
+  KWM kwm;
+  QTabDialog qtd (0, "tabdialog", TRUE);
+
+  KSpellConfig ksc (&qtd, 0, eframe->ksConfig());
+  qtd.addTab (&ksc, "Spellchecker");
+  qtd.setCancelButton ();
+
+  //  qtd.resize (ksc.sizeHint().width(), ksc.sizeHint().height());
+  kwm.setMiniIcon (qtd.winId(), kapp->getMiniIcon());
+ 
+  if (qtd.exec())
+    {
+      ksc.writeGlobalSettings();
+      eframe->setKSConfig (ksc);
+    }
+
+}

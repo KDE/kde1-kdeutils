@@ -931,3 +931,115 @@ int KEdGotoLine::getLineNumber()
 {
 	return lineNum->getValue();
 }
+
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Spell Checking
+//
+
+void KEdit::spellcheck()
+{
+   kspell= new KSpell (this, "KEdit: Spellcheck", this,
+		   SLOT (spellcheck2 (KSpell *)));	
+}
+
+void KEdit::spellcheck2(KSpell *)
+{
+    if (kspell->isOk())
+      {
+
+	setReadOnly (TRUE);
+
+	connect (kspell, SIGNAL (misspelling (char *, QStrList *, int)),
+		 this, SLOT (misspelling (char *, QStrList *, int)));
+	connect (kspell, SIGNAL (corrected (char *,
+						 char *, int)),
+		 this, SLOT (corrected (char *,
+					char *, int)));
+
+	connect (kspell, SIGNAL (done(char *)),
+		 this, SLOT (spellResult (char *)));
+	
+
+	kspell->check (text().data());
+	
+      }
+    else
+      {
+	QMessageBox::warning(this, 
+			     "KEdit: Error", 
+			     "Error starting KSpell.\n"\
+			     "Please make sure you have ISpell properly configured."
+			     );
+      }
+}
+
+void KEdit::misspelling (char *word, QStrList *, int pos) {
+
+  int l, cnt=0;
+
+  for (l=0;l<numLines() && cnt<=pos;l++)
+    cnt+=strlen (textLine(l))+1;
+  l--;
+ 
+  cnt=pos-cnt+strlen (textLine (l))+1;
+ 
+
+  setCursorPosition (l, cnt);
+
+  //According to the Qt docs this could be done more quickly with
+  //setCursorPosition (l, cnt+strlen(word), TRUE);
+  //but that doesn't seem to work.
+  for(l = 0 ; l < (int)strlen(word); l++)
+    cursorRight(TRUE);
+
+  /*
+  if (cursorPoint().y()>height()/2)
+    kspell->moveDlg (10, height()/2-kspell->heightDlg()-15);
+  else
+    kspell->moveDlg (10, height()/2 + 15);
+    */
+  //  setCursorPosition (line, cnt+strlen(word),TRUE);
+}
+
+//need to use pos for insert, not cur, so forget cur altogether
+void KEdit::corrected (char *originalword, char *newword, int pos)
+{
+  //we'll reselect the original word in case the user has played with
+  //the selection in eframe or the word was auto-replaced
+
+  int line, cnt=0, l;
+
+  if( (QString) newword != (QString) originalword)
+    {
+      
+      for (line=0;line<numLines() && cnt<=pos;line++)
+	cnt+=lineLength(line)+1;
+      line--;
+      
+      cnt=pos-cnt+ lineLength(line)+1;
+      
+      //remove old word
+      setCursorPosition (line, cnt);
+      for(l = 0 ; l < (int)strlen(originalword); l++)
+	cursorRight(TRUE);
+      ///      setCursorPosition (line,
+      //	 cnt+strlen(originalword),TRUE);
+      cut();
+      
+      insertAt (newword, line, cnt);
+    }
+
+  deselect();
+}
+
+void KEdit::spellResult (char *newtext)
+{
+  spell_offset=0;
+  deselect();
+  //  setText (newtext);
+  setReadOnly (FALSE);
+  setModified();
+  delete kspell;
+}
