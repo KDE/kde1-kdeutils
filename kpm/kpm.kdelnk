@@ -8,6 +8,7 @@ Name[fi]=Prosessienhallinta
 Name[no]=Prosessbehandler
 Name[pt_BR]=Gerenciamento de Processos
 Comment=Process management tool
+Comment[cs]=Nástroj pro správu procesù
 Comment[de]=Prozeß-Management
 Comment[es]=Herramienta de gestión de procesos
 Comment[fr]=Gestionnaire de tâches

@@ -1,11 +1,13 @@
 # KDE Config File
 [KDE Desktop Entry]
 Comment=A powerful text editor
+Comment[cs]=Mocný textový editor
 Comment[de]=Ein leistungsfähiger Texteditor
 Comment[no]=En kraftig tekstredigerer
 Comment[pt_BR]=Um poderoso editor de textos
 BinaryPattern=
 Name=KDE Editor
+Name[cs]=Editor pro KDE
 Name[no]=KDE Redigerer
 Name[pt_BR]=Editor KDE
 MimeType=
