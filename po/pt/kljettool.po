@@ -15,7 +15,7 @@ msgid ""
 "Unable to print with:\n"
 " %s"
 msgstr ""
-"Nco consigo imprimir com:\n"
+"Não consigo imprimir com:\n"
 " %s"
 
 #: FontsData.cpp:38
@@ -32,7 +32,7 @@ msgstr "Pitch"
 
 #: FontsData.cpp:141
 msgid "Point Size"
-msgstr "Tamanho de Ponto"
+msgstr "Tamanho"
 
 #: FontsData.cpp:156
 msgid "points"
@@ -48,7 +48,7 @@ msgstr "PageProtect"
 
 #: MiscData.cpp:80
 msgid "Powersave Time"
-msgstr "Tempo de Poupanga"
+msgstr "Modo de Poupança"
 
 #: MiscData.cpp:99
 msgid "Eject"
@@ -60,7 +60,7 @@ msgstr "Reiniciar"
 
 #: MiscData.cpp:113
 msgid "Initialize"
-msgstr "initializar"
+msgstr "Initializar"
 
 #: PrinterData.cpp:41
 msgid "Mode"
@@ -72,11 +72,11 @@ msgstr "Economia"
 
 #: PrinterData.cpp:56
 msgid "Presentation"
-msgstr "Apresentagco"
+msgstr "Apresentação"
 
 #: PrinterData.cpp:65
 msgid "Resolution"
-msgstr "Resolugco"
+msgstr "Resolução"
 
 #: PrinterData.cpp:87
 msgid "Density"
@@ -88,11 +88,11 @@ msgstr "Impressora"
 
 #: PrinterData.cpp:99
 msgid "Resolution Enh."
-msgstr "Melh. Resolugco"
+msgstr "Melh. Resolução"
 
 #: about.cpp:38
 msgid "About KLJetTool"
-msgstr "Acerca de KLJetTool"
+msgstr "Acerca do KLJetTool"
 
 #: about.cpp:47
 msgid "KLjetTool"
@@ -100,7 +100,7 @@ msgstr "KLjetTool"
 
 #: about.cpp:52
 msgid "Version "
-msgstr "Versco "
+msgstr "Versão "
 
 #: main.cpp:69
 msgid "Paper"
@@ -108,4 +108,4 @@ msgstr "Papel"
 
 #: main.cpp:71
 msgid "Operations"
-msgstr "Operagues"
+msgstr "Operações"

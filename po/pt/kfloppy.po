@@ -20,7 +20,7 @@ msgstr "Formatador"
 
 #: about.cpp:54
 msgid "Version "
-msgstr "Versco "
+msgstr "Versão "
 
 #: floppy.cpp:56
 msgid "Floppy Drive:"
@@ -32,7 +32,7 @@ msgstr "Densidade:"
 
 #: floppy.cpp:74
 msgid "File System:"
-msgstr "Sistema de Ficheiros:"
+msgstr "Sistema:"
 
 #: floppy.cpp:108 floppy.cpp:408
 msgid "Format"
@@ -44,11 +44,11 @@ msgstr "Apagar Apenas"
 
 #: floppy.cpp:136
 msgid "Full Format"
-msgstr "Formagco Completa"
+msgstr "Formação Completa"
 
 #: floppy.cpp:142
 msgid "Create Label:"
-msgstr "Criar Label:"
+msgstr "Etiqueta:"
 
 #: floppy.cpp:148
 msgid "KDE FLoppy"
@@ -71,7 +71,7 @@ msgid ""
 msgstr ""
 "Nco consigo aceder a %s\n"
 "Verifique se o dispositivo existe\n"
-"e que tjm permissco de escrita nele."
+"e que tem permissão de escrita nele."
 
 #: floppy.cpp:333
 msgid ""
@@ -79,7 +79,7 @@ msgid ""
 "kfdformat is part of the KFloppy distribution.\n"
 "Please install KFloppy properly."
 msgstr ""
-"Nco consigo encontrar o kfdformat\n"
+"Não consigo encontrar o kfdformat\n"
 "kfdformat faz parte deste formatador.\n"
 "Instale-o correctamente."
 
@@ -89,7 +89,7 @@ msgid ""
 "kmke2fs is part of the KFloppy distribution.\n"
 "Please install KFloppy properly."
 msgstr ""
-"Nco consigo encontrar o kmke2fs\n"
+"Não consigo encontrar o kmke2fs\n"
 "kmkde2fs faz parte deste formatador.\n"
 "Instale-o correctamente."
 
@@ -99,7 +99,7 @@ msgid ""
 "kmkdosfs is part of the KFloppy distribution.\n"
 "Please install KFloppy properly."
 msgstr ""
-"Nco consigo encontrar o kmkdosfs\n"
+"Não consigo encontrar o kmkdosfs\n"
 "kmkdosfs faz parte deste formatador.\n"
 "Instale-o correctamente."
 
@@ -109,7 +109,7 @@ msgstr "Abortar"
 
 #: floppy.cpp:472
 msgid "Cannot start a new program: fork() failed."
-msgstr "Nco consigo comegar nova programa: fork() falhou."
+msgstr "Não consigo começar nova programa: fork() falhou."
 
 #: floppy.cpp:572 floppy.cpp:700
 msgid ""
@@ -117,7 +117,7 @@ msgid ""
 "Please insert a floppy and make sure that you\n"
 "have selected a valid floppy drive.\n"
 msgstr ""
-"Nco consigo aceder ` diskette ou ` drive de diskettes\n"
+"Não consigo aceder à diskette ou à drive de diskettes\n"
 "Por favor insira uma diskette e certifique-se que\n"
 "seleccionou uma drive valida.\n"
 
@@ -127,13 +127,13 @@ msgid ""
 "Cannot format: %s\n"
 "%s"
 msgstr ""
-"Nco consigo formatar: %s\n"
+"Não consigo formatar: %s\n"
 "%s"
 
 #: floppy.cpp:634
 #, c-format
 msgid "Block %d is bad. Continuing ..."
-msgstr "Bloco %d esta estragado. A continuar ..."
+msgstr "Bloco %d está estragado. A continuar ..."
 
 #: floppy.cpp:717
 #, c-format
@@ -141,7 +141,7 @@ msgid ""
 "Cannot create a filesystem on: %s\n"
 "%s"
 msgstr ""
-"Nco consigo criar sistema de ficheiros em: %s\n"
+"Não consigo criar sistema de ficheiros em: %s\n"
 "%s"
 
 #: floppy.cpp:753
@@ -172,12 +172,12 @@ msgid ""
 "Cannot start a new program\n"
 "fork() failed."
 msgstr ""
-"Nco consigo iniciar programa\n"
+"Não consigo iniciar programa\n"
 "fork() falhou."
 
 #: floppy.cpp:907
 msgid "Error while trying to determine whether floppy is mounted\n"
-msgstr "Erro ao tentar determinar se a diskette esta montada\n"
+msgstr "Erro ao tentar determinar se a diskette está montada\n"
 
 #: floppy.cpp:924
 #, c-format
@@ -185,5 +185,5 @@ msgid ""
 "%s is mounted.\n"
 "Please unmount the floppy first."
 msgstr ""
-"%s esta montada.\n"
-"Por favor desmonte a disktte primeiro."
+"%s está montada.\n"
+"Por favor desmonte a diskette primeiro."
