@@ -19,7 +19,7 @@ msgstr "Zapnú» &nástrojovú li¹tu"
 
 #: kedit.cpp:87 kedit.cpp:1084
 msgid "Hide &Tool Bar"
-msgstr "Vypnú» &nástrojovú li¹tu"
+msgstr "Skry» &nástrojovú li¹tu"
 
 #: kedit.cpp:90 kedit.cpp:1071
 msgid "Show &Status Bar"
@@ -27,7 +27,7 @@ msgstr "Zapnú» &stavový riadok"
 
 #: kedit.cpp:92 kedit.cpp:1064
 msgid "Hide &Status Bar"
-msgstr "Vypnú» &stavový riadok"
+msgstr "Skry» &stavový riadok"
 
 #: kedit.cpp:154
 msgid "Select All"
@@ -51,11 +51,11 @@ msgstr "Otvori» &URL..."
 
 #: kedit.cpp:222
 msgid "Save to U&RL..."
-msgstr "Ulo¾i» ku U&RL..."
+msgstr "Ulo¾i» na U&RL..."
 
 #: kedit.cpp:238
 msgid "&Mail..."
-msgstr "&Po¹ta..."
+msgstr "&Odosla» po¹tou..."
 
 #: kedit.cpp:242
 msgid "New &Window"
@@ -63,7 +63,7 @@ msgstr "No&vé okno"
 
 #: kedit.cpp:254
 msgid "&Select All"
-msgstr "Vy&bra» v¹etky"
+msgstr "Vy&bra» v¹etko"
 
 #: kedit.cpp:257
 msgid "&Insert File"
@@ -75,11 +75,11 @@ msgstr "Vlo¾i» &dátum"
 
 #: kedit.cpp:262
 msgid "&Find..."
-msgstr "&Nájs»..."
+msgstr "&Hµada»..."
 
 #: kedit.cpp:264
 msgid "Find &Again"
-msgstr "Znovu ná&js»"
+msgstr "Hµada» ïa&lej"
 
 #: kedit.cpp:266
 msgid "&Replace"
@@ -91,7 +91,7 @@ msgstr "Kontrola pravopisu..."
 
 #: kedit.cpp:273
 msgid "&Goto Line..."
-msgstr "&Choï na riadok..."
+msgstr "&Ís» na riadok..."
 
 #: kedit.cpp:277
 msgid "&Font..."
