@@ -72,6 +72,10 @@ msgid ""
 "recompile KCalc with 'long double' precision enabled. See the README for "
 "details."
 msgstr ""
+"Vzhµadom na to, ¾e momentálne sú v¹ade po svete chybné verzie glibc, "
+"musel som zní¾i» presnos» kcalcu z 'long double' na 'double'. Majitelia "
+"systémov s fungujúcou verziou glibc mô¾u prekompilova» KCalc s povolenou "
+"presnos»ou na 'long double'. Preèítajte si README, ak tak chcete urobi»." 
 
 #: kcalc.cpp:1592
 msgid "Display Font"
@@ -80,6 +84,3 @@ msgstr "Písmo"
 #: kcalc_core.cpp:1138
 msgid "Stat Mem cleared"
 msgstr "Pamä» vymazaná"
-
-#~ msgid "Base type: double\n"
-#~ msgstr "Základný typ: double\n"

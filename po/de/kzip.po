@@ -2,8 +2,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kzip\n"
 "POT-Creation-Date: 1998-05-10 17:22+0200\n"
-"PO-Revision-Date: 1997-01-02 20:55+MET\n"
-"Last-Translator: Stephan Kulow <coolo@kde.org>\n"
+"PO-Revision-Date: 1998-05-11 14:21+0100\n"
+"Translator: Stephan Kulow <coolo@kde.org>\n"
+"Last-Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
+"Language-Team: German <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: ISO-8859-1\n"
 
 #: adddlg.cc:11
 msgid "Add File Options"
@@ -63,7 +68,7 @@ msgstr "Archiv-Verzeichnis &setzen"
 
 #: kzip.cc:81
 msgid "Set &Tar Executable..."
-msgstr ""
+msgstr "Auswahl des &Tar-Programms..."
 
 #: kzip.cc:82
 msgid "&File Adding Options..."
@@ -95,16 +100,15 @@ msgstr "Archiv-Verzeichnis:"
 
 #: kzip.cc:329
 msgid "What runs GNU tar:"
-msgstr ""
+msgstr "Daß, was GNU-tar ausführt:"
 
 #: kzip.cc:366 kzip.cc:568
 msgid "Unknown archive format"
 msgstr "Unbekanntes Archiv-Format"
 
 #: kzip.cc:392
-#, fuzzy
 msgid "Archive directory does not exist."
-msgstr "Archive-Verzeichnis"
+msgstr "Archiv-Verzeichnis existiert nicht."
 
 #: kzip.cc:408
 msgid "Archive Directory"

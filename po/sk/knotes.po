@@ -87,16 +87,14 @@ msgid "Auto Indent"
 msgstr "Automatické odsadzovanie"
 
 #: docking.cpp:71
-#, fuzzy
 msgid "Change Defaults"
-msgstr "Zmeni» nastavenie .."
+msgstr "Zmeni» nastavenie"
 
 #: docking.cpp:76
 msgid "Exit Knotes"
-msgstr ""
+msgstr "Ukonèi» Knotes"
 
 #: docking.cpp:95
-#, fuzzy
 msgid "New Knote"
 msgstr "Nová poznámka"
 
