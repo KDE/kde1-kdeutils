@@ -6,7 +6,7 @@ INCLUDES= $(all_includes)
 
 SUBDIRS = doc
 bin_PROGRAMS = 	khexdit
-khexdit_SOURCES	= hexwidget.cpp hexfile.cpp
+khexdit_SOURCES	= hexfile.cpp hexwidget.cpp
 noinst_HEADERS = hexfile.h hexwidget.h
 khexdit_LDADD = $(all_libraries) -lkfm -lkdeui -lkdecore -lqt -lXext -lX11 $(LIBSOCKET)
 khexdit_LDFLAGS = $(LDFLAGS) $(KDE_RPATH)

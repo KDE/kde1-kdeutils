@@ -62,6 +62,7 @@ private:
     QFont *dispFont;
     long int lineoffset;
     int LineOffset;
+    int labelOffset;
     char *filename;
     int horoff;
     QBrush *leftM,*rightM;
@@ -69,6 +70,9 @@ private:
     QScrollBar *scrollV;
     QScrollBar *scrollH;
     QList<HexCursor> rects;
+    unsigned long int currentByte;
+    int cursorHeight;
+    int cursorPosition;
 
 protected:
     void paintEvent(QPaintEvent*);
@@ -80,10 +84,15 @@ protected:
     void focusOutEvent ( QFocusEvent *);
     void fillPixmap();
     int fillLine(QPainter& p, int line);
+    int paintLabel( QPainter& p, long int label, int y);
+    void paintCursor(QPainter& p);
+    QColor colorPosition(int field);
+    int calcPosition( int field );
     void init();
     void changeSide();
     void calcScrolls();
-    
+    void calcCurrentByte();
+
 public slots:
     void scrolled(int);
     void moved(int);
