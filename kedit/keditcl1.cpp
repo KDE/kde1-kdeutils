@@ -694,23 +694,7 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
 	setCursorPosition(templine,tempcol);
 
 	setAutoUpdate(true);
-
-	// Let's try to reduce flicker by updating only what we need to update
-	// printf("NUMOFROWS %d\n",num_of_rows);
-
-	int y1  = -1;
-	int y2  = -1;
-
-	rowYPos(upperbound,&y1);
-	rowYPos(upperbound + num_of_rows -1,&y2);
-    
-	if(y1 == -1)
-	  y1 = 0;
-
-	if(y2 == -1)
-	  y2 = this->height();
-
-	repaint(0,y1,this->width(),y2);
+	repaint();
     
 	computePosition();
 	setModified();
@@ -1312,9 +1296,13 @@ void KEdit::getpar2(int line,QStrList& par,int& upperbound,QString& prefix){
   if(foundone)
     line2 ++;
 
+  if(line2 < 0)
+    line2 = 0;
+
   upperbound = line2;
 
   par.clear();
+
   prefix = prefixString(textLine(line2));
 
   int num = numLines();
