@@ -1,5 +1,5 @@
-
-o line numbering should start at 1
+o if one doesn't have permission to a file and it can't be
+  opened the name of the file will still appear on the windowbar
 o save indent mode option
 o key accel for end of document beginning of document
 o recently opened files list

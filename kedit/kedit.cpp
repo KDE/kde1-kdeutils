@@ -104,6 +104,7 @@ TopLevel::~TopLevel (){
   delete edit;
   delete help;
   delete options;
+  delete toolbar;
 }
 
 
@@ -285,7 +286,7 @@ void TopLevel::setupStatusBar(){
     statusbar->insertItem("XXX", ID_INS_OVR);
     statusbar->insertItem("", ID_GENERAL);
 
-    statusbar->changeItem("Line: 0 Col: 0", ID_LINE_COLUMN);
+    statusbar->changeItem("Line: 1 Col: 1", ID_LINE_COLUMN);
     statusbar->changeItem("INS", ID_INS_OVR);
     statusbar->changeItem("", ID_GENERAL);
 
@@ -748,8 +749,8 @@ void TopLevel::statusbar_slot(){
   QString linenumber;
 
   linenumber.sprintf("Line: %d Col: %d",
-		     eframe->currentLine(),
-		     eframe->currentColumn()
+		     eframe->currentLine() + 1,
+		     eframe->currentColumn() +1
 		     );
 
   statusbar->changeItem(linenumber.data(),ID_LINE_COLUMN);

@@ -51,7 +51,7 @@ KEdit::KEdit(KApplication *a, QWidget *parent, const char *name,
     line_pos = col_pos = 0;
     fill_column_is_set = TRUE;
     word_wrap_is_set = TRUE;
-    fill_column_value = 79;
+    fill_column_value = 80;
     autoIndentMode = false;
 
     current_directory = QDir::currentDirPath();
@@ -500,7 +500,7 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
     if(isprint(e->ascii())){
  
       // printf("col_pos %d\n",col_pos);
-      if( col_pos > fill_column_value - 1){ 
+      if( col_pos +1 > fill_column_value - 1){ 
 
 	if (e->ascii() == 32 ){ // a space we can just break here
 	  mynewLine();
@@ -584,7 +584,7 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
 
     if(isprint(e->ascii())){
     
-      if( col_pos > fill_column_value - 1){ 
+      if( col_pos +1> fill_column_value - 1){ 
 	  mynewLine();
 	  //  setModified();
       }
@@ -749,6 +749,7 @@ int KEdit::saveFile(){
 
     struct stat st;
     int stat_ok = -1;
+    bool exists_already;
 
     if(!modified) {
       emit saving();
@@ -758,8 +759,9 @@ int KEdit::saveFile(){
 
     QFile file(filename);
     QString backup_filename;
+    exists_already = file.exists();
 
-    if(file.exists()){
+    if(exists_already){
       stat_ok = stat(filename.data(), &st);
       backup_filename = filename;
       backup_filename.detach();
@@ -788,7 +790,8 @@ int KEdit::saveFile(){
     modified = FALSE;    
     file.close();
 
-    chmod(filename.data(),st.st_mode);// preseve filepermissions
+    if(exists_already)
+      chmod(filename.data(),st.st_mode);// preseve filepermissions
     
     return KEDIT_OK;
 
@@ -994,7 +997,7 @@ void KEdit::doGotoLine() {
 	// this seems to be not necessary
 	// gotodialog->setFocus();
 	if( gotodialog->result() ) {
-		setCursorPosition( gotodialog->getLineNumber() , 0, FALSE );
+		setCursorPosition( gotodialog->getLineNumber()-1 , 0, FALSE );
 		emit CursorPositionChanged();
 		setFocus();
 	}
