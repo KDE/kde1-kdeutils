@@ -8,8 +8,8 @@ teach the printing subsystem how to deal with PJL files that
 are produced by the LJetTool and send to the printer. Unfortunately
 the RedHat Linux system does not recognize PJL out of the box,
 and tries to do weird things with it, rather then sending it
-unmodified to the printer. Therefore we have to teach it how to
-deal with a PJL file.
+directly and unmodified to the printer. Therefore we have to 
+teach it how to deal with a PJL file.
 
 I assume other distributions with an equally 'sophisticated'
 printer subsytem such as the RedHat system might also need 
