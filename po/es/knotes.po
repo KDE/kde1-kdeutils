@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
-"POT-Creation-Date: 1999-03-05 01:58+0100\n"
+"POT-Creation-Date: 1999-03-09 01:44+0100\n"
 "PO-Revision-Date: 1999-02-06 18:32+0100\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "Language-Team: Spanish <kde-es@kyb.uni-stuttgart.de>\n"
@@ -367,15 +367,22 @@ msgstr ""
 "Ya existe una nota con este nombre\n"
 "Por favor elija un nombre distinto"
 
-#: docking.cpp:71
+#: docking.cpp:48
+#, fuzzy, c-format
+msgid "Could not load %s !"
+msgstr ""
+"No se puede caargar:\n"
+" %s"
+
+#: docking.cpp:68
 msgid "Change Defaults"
 msgstr "Modificar Opciones"
 
-#: docking.cpp:76
+#: docking.cpp:73
 msgid "Exit Knotes"
 msgstr "Salir de KNotes"
 
-#: docking.cpp:95
+#: docking.cpp:92
 msgid "New Knote"
 msgstr "Nueva nota"
 

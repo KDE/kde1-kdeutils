@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1999-03-05 01:58+0100\n"
+"POT-Creation-Date: 1999-03-09 01:44+0100\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -351,17 +351,24 @@ msgstr ""
 "存在相同名字的 note \n"
 "请选另一个不同的名字"
 
+#: docking.cpp:48
+#, fuzzy, c-format
+msgid "Could not load %s !"
+msgstr ""
+"无法载入:\n"
+" %s"
+
 #
-#: docking.cpp:71
+#: docking.cpp:68
 msgid "Change Defaults"
 msgstr "改变默认值"
 
-#: docking.cpp:76
+#: docking.cpp:73
 msgid "Exit Knotes"
 msgstr "退出"
 
 #
-#: docking.cpp:95
+#: docking.cpp:92
 msgid "New Knote"
 msgstr "新的 Note"
 

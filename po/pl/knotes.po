@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes \n"
-"POT-Creation-Date: 1999-03-05 01:58+0100\n"
+"POT-Creation-Date: 1999-03-09 01:44+0100\n"
 "PO-Revision-Date: 1999-01-24 16:08+0100\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -367,15 +367,22 @@ msgstr ""
 "Ta nazwa notatki ju¿ istnieje\n"
 "Proszê wybraæ inn± nazwê"
 
-#: docking.cpp:71
+#: docking.cpp:48
+#, fuzzy, c-format
+msgid "Could not load %s !"
+msgstr ""
+"Nie mo¿na odczytaæ:\n"
+" %s"
+
+#: docking.cpp:68
 msgid "Change Defaults"
 msgstr "Ustawienia domy¶lne"
 
-#: docking.cpp:76
+#: docking.cpp:73
 msgid "Exit Knotes"
 msgstr "Wyj¶cie"
 
-#: docking.cpp:95
+#: docking.cpp:92
 msgid "New Knote"
 msgstr "Nowa notatka"
 

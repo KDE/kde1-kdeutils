@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-03-05 01:58+0100\n"
+"POT-Creation-Date: 1999-03-09 01:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: LinuxKorea Co. <kde@linuxkorea.co.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -363,15 +363,22 @@ msgstr ""
 "이 이름의 Knotes 노트가 이미 존재합니다\n"
 "다른 이름을 선택해 주십시오"
 
-#: docking.cpp:71
+#: docking.cpp:48
+#, fuzzy, c-format
+msgid "Could not load %s !"
+msgstr ""
+"불러올 수 없음:\n"
+" %s"
+
+#: docking.cpp:68
 msgid "Change Defaults"
 msgstr "기본설정 바꾸기"
 
-#: docking.cpp:76
+#: docking.cpp:73
 msgid "Exit Knotes"
 msgstr "Knotes 끝내기"
 
-#: docking.cpp:95
+#: docking.cpp:92
 msgid "New Knote"
 msgstr "새 Knote"
 

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/knotes\n"
-"POT-Creation-Date: 1999-03-05 01:58+0100\n"
+"POT-Creation-Date: 1999-03-09 01:44+0100\n"
 "PO-Revision-Date: 1998-03-18 23:35+0100\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -371,15 +371,22 @@ msgstr ""
 "En KNotes note med dette navnet eksisterer allerede\n"
 "Vennligst velg et annet navn"
 
-#: docking.cpp:71
+#: docking.cpp:48
+#, fuzzy, c-format
+msgid "Could not load %s !"
+msgstr ""
+"Kunne ikke laste inn:\n"
+" %s"
+
+#: docking.cpp:68
 msgid "Change Defaults"
 msgstr "Endre standardverdier ..."
 
-#: docking.cpp:76
+#: docking.cpp:73
 msgid "Exit Knotes"
 msgstr "Avslutt Knotes"
 
-#: docking.cpp:95
+#: docking.cpp:92
 msgid "New Knote"
 msgstr "Ny Knote"
 

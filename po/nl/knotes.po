@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-03-05 01:58+0100\n"
+"POT-Creation-Date: 1999-03-09 01:44+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1998-03-06 22:22:24-0500\n"
 "From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
@@ -360,16 +360,23 @@ msgstr ""
 "Eeen KNotes blad met deze naam bestaat reeds.\n"
 "Kies a.u.b. een andere naam."
 
-#: docking.cpp:71
+#: docking.cpp:48
+#, fuzzy, c-format
+msgid "Could not load %s !"
+msgstr ""
+"Kan niet laden:\n"
+" %s"
+
+#: docking.cpp:68
 #, fuzzy
 msgid "Change Defaults"
 msgstr "Wijzig Standaardwaarden ..."
 
-#: docking.cpp:76
+#: docking.cpp:73
 msgid "Exit Knotes"
 msgstr ""
 
-#: docking.cpp:95
+#: docking.cpp:92
 #, fuzzy
 msgid "New Knote"
 msgstr "Nieuwe Blad"

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdebase\n"
-"POT-Creation-Date: 1999-03-05 01:58+0100\n"
+"POT-Creation-Date: 1999-03-09 01:44+0100\n"
 "PO-Revision-Date: 1998-10-15 15:00-0500\n"
 "Last-Translator: Radoslav Dejanovic <rdejanov@public.srce.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -373,15 +373,22 @@ msgstr ""
 "KNotes bilje¹ka tog imena veæ postoji\n"
 "Molim, odaberite neko drugo ime"
 
-#: docking.cpp:71
+#: docking.cpp:48
+#, fuzzy, c-format
+msgid "Could not load %s !"
+msgstr ""
+"Ne mogu uèitati:\n"
+" %s"
+
+#: docking.cpp:68
 msgid "Change Defaults"
 msgstr "Promjena podrazumijevane vrijednosti ..."
 
-#: docking.cpp:76
+#: docking.cpp:73
 msgid "Exit Knotes"
 msgstr "Izlaz"
 
-#: docking.cpp:95
+#: docking.cpp:92
 msgid "New Knote"
 msgstr "Nova bilje¹ka"
 

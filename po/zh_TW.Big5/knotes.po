@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
-"POT-Creation-Date: 1999-03-05 01:58+0100\n"
+"POT-Creation-Date: 1999-03-09 01:44+0100\n"
 "PO-Revision-Date: 1998-02-21 06:19+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -350,16 +350,23 @@ msgstr ""
 "一個相同名稱的 note 已經存在\n"
 "請選另一個不同的名稱"
 
-#: docking.cpp:71
+#: docking.cpp:48
+#, fuzzy, c-format
+msgid "Could not load %s !"
+msgstr ""
+"無法載入:\n"
+" %s"
+
+#: docking.cpp:68
 #, fuzzy
 msgid "Change Defaults"
 msgstr "改變預設值"
 
-#: docking.cpp:76
+#: docking.cpp:73
 msgid "Exit Knotes"
 msgstr ""
 
-#: docking.cpp:95
+#: docking.cpp:92
 #, fuzzy
 msgid "New Knote"
 msgstr "新的 Note"
