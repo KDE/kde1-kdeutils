@@ -5,23 +5,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klpq\n"
-"POT-Creation-Date: 1998-06-18 22:51+0200\n"
-"PO-Revision-Date: 1998-06-21 00:37 CEST\n"
+"POT-Creation-Date: 1998-10-26 11:17+0100\n"
+"PO-Revision-Date: 1998-10-28 21:18 CET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <flidr@kky.zcu.cz>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: main.cpp:208
+#: main.cpp:176
 msgid "Sorry, can't open your printcap file."
 msgstr "Lituji, není mo¾né otevøít vá¹ printcap soubor"
 
-#: main.cpp:213
+#: main.cpp:181
 msgid "Sorry, unable to parse your printcap."
 msgstr "Lituji, není mo¾né analyzovat vá¹ printcap soubor"
 
-#: main.cpp:214
+#: main.cpp:182
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
 msgstr "Prosím, po¹lete vá¹ printcap na adresu Christoph.Neerfeld@home.ivm."
 
@@ -41,33 +41,13 @@ msgstr "Tisk"
 msgid "Update"
 msgstr "Aktualizace"
 
-#: klpq.cpp:105
-msgid "Quit"
-msgstr "Ukonèit"
-
 #: klpq.cpp:119
 msgid "Rank"
 msgstr "Poøadí"
 
-#: klpq.cpp:120
-msgid "Owner"
-msgstr "Vlastník"
-
 #: klpq.cpp:121
 msgid "Job"
 msgstr "Èinnost/práce"
-
-#: klpq.cpp:122
-msgid "Files"
-msgstr "Soubory"
-
-#: klpq.cpp:123
-msgid "Size"
-msgstr "Velikost"
-
-#: klpq.cpp:139 klpq.cpp:217
-msgid "Remove"
-msgstr "Odstranit"
 
 #: klpq.cpp:143 klpq.cpp:218
 msgid "Make Top"
@@ -77,10 +57,6 @@ msgstr "Umístit na zaèátek"
 msgid "Auto"
 msgstr "Automaticky"
 
-#: klpq.cpp:192
-msgid "&Quit"
-msgstr "&Ukonèit"
-
 #: klpq.cpp:195
 msgid "&Auto update"
 msgstr "&Automatická aktualizace"
@@ -89,39 +65,31 @@ msgstr "&Automatická aktualizace"
 msgid "&Spooler"
 msgstr "&Zásobník/Spooler"
 
-#: klpq.cpp:202
-msgid "&File"
-msgstr "&Soubor"
-
 #: klpq.cpp:203
 msgid "&Config"
 msgstr "&Konfigurace"
 
-#: klpq.cpp:205
-msgid "&Help"
-msgstr "&Nápovìda"
+#: klpq.cpp:389
+#, c-format
+msgid "Do you really want to remove job No %d"
+msgstr "Skuteènì si pøejete odstranit úlohu è. %d"
 
-#: klpq.cpp:383
-msgid "Do you realy want to remove job Nr. "
-msgstr "Skuteènì si pøejete odstranit úlohu è. "
-
-#: klpq.cpp:403
-msgid "Do you realy want to move job Nr.\n"
-msgstr "Skutoène presunú» prácu è.\n"
-
-#: klpq.cpp:404
+#: klpq.cpp:409
+#, c-format
 msgid ""
-"\n"
+"Do you really want to move job No\n"
+"%d\n"
 "on top of queue"
 msgstr ""
-"\n"
-"na zaèátek fronty"
+"Skutoènì si pøejete presunout úlohu è.\n"
+"%d\n"
+"na vrchol fronty"
 
-#: klpq.cpp:586 klpq.cpp:612 klpq.cpp:638
+#: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
 msgid "Permission denied"
 msgstr "Pøístup zamítnutý"
 
-#: klpq.cpp:587 klpq.cpp:613 klpq.cpp:639
+#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
 msgid ""
 "This is a privileged command\n"
 "and you do not have permission to execute it."
@@ -137,19 +105,11 @@ msgstr "Konfigurovat automatickou aktualizaci"
 msgid "Update frequency in seconds:"
 msgstr "Frekvence aktualizace v sekundách:"
 
-#: ConfAutoUpdateData.cpp:32 FirstStartData.cpp:50 SpoolerConfigData.cpp:134
-msgid "Ok"
-msgstr "Ok"
-
-#: ConfAutoUpdateData.cpp:36 SpoolerConfigData.cpp:142
-msgid "Cancel"
-msgstr "Zru¹iT"
-
-#: klpqspooler.cpp:120 klpqspooler.cpp:190
+#: klpqspooler.cpp:197 klpqspooler.cpp:267
 msgid "Can't find your lpc program !"
 msgstr "Není mo¾né nalézt Vá¹ program lpc !"
 
-#: klpqspooler.cpp:121 klpqspooler.cpp:191
+#: klpqspooler.cpp:198 klpqspooler.cpp:268
 msgid ""
 "Sorry, I can't find your lpc program.\n"
 "Please check the configuration under Config->Spooler."
