@@ -43,15 +43,15 @@ msgstr "&Nový..."
 
 #: kedit.cpp:192
 msgid "Open Recen&t..."
-msgstr "Otvor Ne&dávny ..."
+msgstr "Otvori» ne&dávny ..."
 
 #: kedit.cpp:204
 msgid "Open &URL..."
-msgstr "Otvor &URL..."
+msgstr "Otvori» &URL..."
 
 #: kedit.cpp:206
 msgid "Save to U&RL..."
-msgstr "Ulo¾ na U&RL..."
+msgstr "Ulo¾i» na U&RL..."
 
 #: kedit.cpp:212
 msgid "&Mail..."
