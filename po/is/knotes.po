@@ -371,6 +371,7 @@ msgstr ""
 "Veldu annað nafn"
 
 #: docking.cpp:48
+#, c-format
 msgid "Could not load %s !"
 msgstr "Gat ekki lesið %s !"
 
