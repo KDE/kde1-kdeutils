@@ -187,4 +187,3 @@ msgstr ""
 "Copyright (c) 1997\n"
 "Bernd Johannes Wuebben\n"
 "wuebben@kde.org"
-
