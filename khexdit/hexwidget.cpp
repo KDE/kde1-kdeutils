@@ -30,7 +30,6 @@
 #include <qfiledlg.h> 
 #include <string.h>
 #include <stdlib.h>
-#include <kmsgbox.h> 
 #include <qmsgbox.h> 
 #include <ktopwidget.h>
 #include <ktoolbar.h>
@@ -50,23 +49,21 @@ int HexWidget::initMenu() {
     connect(CurrentFile, SIGNAL( unsaved(bool) ), SLOT( unsaved(bool) ));
 
     QPopupMenu *file = new QPopupMenu;
-    file->insertItem( klocale->translate("New Window"), ID_FILE_NEWWIN);
+    file->insertItem( klocale->translate("&New Window..."), ID_FILE_NEWWIN);
     file->insertSeparator();
-    file->insertItem(  klocale->translate("Open"), ID_FILE_OPEN );
-    file->insertItem(  klocale->translate("Save"), ID_FILE_SAVE);
-    file->insertItem(  klocale->translate("Save As"), ID_FILE_SAVEAS);
-    file->insertItem(  klocale->translate("Close"), ID_FILE_CLOSE);
+    file->insertItem(  klocale->translate("&Open..."), ID_FILE_OPEN );
+    file->insertItem(  klocale->translate("&Save"), ID_FILE_SAVE);
+    file->insertItem(  klocale->translate("Save &As..."), ID_FILE_SAVEAS);
+    file->insertItem(  klocale->translate("&Close"), ID_FILE_CLOSE);
     file->insertSeparator();
-    file->insertItem(  klocale->translate("Quit"), ID_FILE_QUIT);
+    file->insertItem(  klocale->translate("&Quit"), ID_FILE_QUIT);
     
     QPopupMenu *view = new QPopupMenu;
-    view->insertItem( klocale->translate("Toggle Toolbar"), ID_VIEW_TOOLBAR);
+    view->insertItem( klocale->translate("&Toggle Toolbar"), ID_VIEW_TOOLBAR);
     //  view->insertItem( "Toggle Statusbar", ID_VIEW_STATUSBAR);
     
-    QPopupMenu *help = new QPopupMenu;
-    help->insertItem( klocale->translate("Contents"), ID_HELP_HELP);
-    help->insertItem( klocale->translate("About"), ID_HELP_ABOUT);
-    
+    QPopupMenu *help = kapp->getHelpMenu(true, klocale->translate("Hex Editor 0.5 \n\nby Stephan Kulow  (coolo@itm.mu-luebeck.de)"));
+
     connect (file, SIGNAL (activated (int)), SLOT (menuCallback (int)));
     connect (help, SIGNAL (activated (int)), SLOT (menuCallback (int)));
     connect (view, SIGNAL (activated (int)), SLOT (menuCallback (int)));
@@ -99,9 +96,6 @@ int HexWidget::initMenu() {
     toolbar->insertSeparator();
     toolbar->insertButton(loader->loadIcon("fileprint.xpm"),ID_FILE_PRINT, FALSE, 
 			  klocale->translate("Not implemented"));
-    toolbar->insertSeparator();
-    toolbar->insertButton(loader->loadIcon("help.xpm"),ID_HELP_ABOUT, TRUE, 
-			  klocale->translate("About Hex Editor"));
     
     addToolBar(toolbar);
     toolbar->setBarPos(KToolBar::Top);
@@ -129,10 +123,10 @@ void HexWidget::menuCallback(int item) {
 	break;
     case ID_FILE_OPEN: {
 	if (CurrentFile->isModified()) 
-	    if (QMessageBox::query(klocale->translate("Warning"), 
-				   klocale->translate("The current file has been modified.\n\nDo you want to save it ?"),
-				   klocale->translate("Yes"),
-				   klocale->translate("No")))
+	    if (QMessageBox::warning(0, klocale->translate("Warning"), 
+				   	klocale->translate("The current file has been modified.\nDo you want to save it?"),
+				   	klocale->translate("Yes"),
+				   	klocale->translate("No")))
 		CurrentFile->save();
 	
 	QFileDialog *log=new QFileDialog;
@@ -155,10 +149,10 @@ void HexWidget::menuCallback(int item) {
     }
     case ID_FILE_CLOSE: {
 	if (CurrentFile->isModified()) {
-	    if (!QMessageBox::query(klocale->translate("File changed"),
-				    klocale->translate("Discard your changes?"),
-				    klocale->translate("Yes"),
-				    klocale->translate("No"))) 
+	    if (!QMessageBox::warning(0, klocale->translate("Warning"),
+				    	klocale->translate("The current file has been modified.\nDiscard your changes?"),
+				    	klocale->translate("No"),
+				    	klocale->translate("Yes"))) 
 		return;
 	}
 	windowList.remove(this);
@@ -180,20 +174,6 @@ void HexWidget::menuCallback(int item) {
     case ID_VIEW_STATUSBAR:
 	enableStatusBar();
 	break;
-	
-    case ID_HELP_HELP: {
-	kapp->invokeHTMLHelp( "", "" );
-	break;
-    }
-    
-    case ID_HELP_ABOUT: {
-	QString str;
-	str.sprintf( klocale->translate("Hex Editor 0.5 \n\nby Stephan Kulow  (coolo@itm.mu-luebeck.de)") );
-	KMsgBox::message( 0, klocale->translate("About Hex Editor"), 
-			  (const char *)str,
-			  KMsgBox::INFORMATION, klocale->translate("Close") );
-	break;
-    }
     }
 }
 
@@ -227,7 +207,7 @@ void HexWidget::openURL(const char *_url, KIND_OF_OPEN _mode)
     netFile.detach();
     KURL u( netFile.data() );
     if ( u.isMalformed())   {
-	QMessageBox::message (klocale->translate("Error"), klocale->translate("Malformed URL"), klocale->translate("Ok"));
+	QMessageBox::warning (0, klocale->translate("Error"), klocale->translate("Malformed URL"));
 	return;
     }
   
@@ -241,9 +221,8 @@ void HexWidget::openURL(const char *_url, KIND_OF_OPEN _mode)
     
     if ( kfm != 0L )
 	{
-	    QMessageBox::message (klocale->translate("Error"), 
-				  klocale->translate("KHexdit is already waiting\nfor an internet job to finish\n\nWait until this one is finished\nor stop the running one."),
-				  klocale->translate("OK"));
+	    QMessageBox::warning (0, klocale->translate("Error"), 
+				  klocale->translate("KHexdit is already waiting\nfor an internet job to finish\n\nWait until this one is finished\nor stop the running one."));
 	    return;
 	}
     
@@ -251,9 +230,8 @@ void HexWidget::openURL(const char *_url, KIND_OF_OPEN _mode)
     
     if ( !kfm->isOK() )
 	{
-	    QMessageBox::message (klocale->translate("Error"), 
-				  klocale->translate("Could not start KFM"), 
-				  klocale->translate("OK"));
+	    QMessageBox::warning (0, klocale->translate("Error"), 
+				  klocale->translate("Could not start KFM"));
 	    delete kfm;
 	    kfm = 0L;
 	    return;

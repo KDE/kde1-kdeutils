@@ -50,9 +50,6 @@
 #define ID_VIEW_TOOLBAR 60
 #define ID_VIEW_STATUSBAR 61
 
-#define ID_HELP_ABOUT 100
-#define ID_HELP_HELP  101
-
 class HexWidget : public KTopLevelWidget {
     Q_OBJECT
     
