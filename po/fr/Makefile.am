@@ -1,6 +1,6 @@
 
 # This has to be set. The rest should be reusable
-GMOFILES = khexdit.gmo kedit.gmo knotes.gmo kzip.gmo karm.gmo kfloppy.gmo \
+GMOFILES = khexdit.gmo kedit.gmo knotes.gmo ark.gmo karm.gmo kfloppy.gmo \
 	kcalc.gmo kab.gmo klpq.gmo
 POFILES = $(GMOFILES:.gmo=.po)
 

@@ -5,7 +5,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: kzip\n"
+"Project-Id-Version: ark\n"
 "POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-04-21 05:01+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
@@ -53,72 +53,72 @@ msgstr "選擇的檔案"
 msgid "Pattern"
 msgstr "式樣"
 
-#: kzip.cc:70
+#: arkwidget.cc:70
 msgid "&New..."
 msgstr ""
 
-#: kzip.cc:73
+#: arkwidget.cc:73
 msgid "&Extract To..."
 msgstr "解壓縮至...[&E]"
 
-#: kzip.cc:78
+#: arkwidget.cc:78
 msgid "E&xtract..."
 msgstr "解壓縮...[&X]"
 
-#: kzip.cc:83
+#: arkwidget.cc:83
 msgid "&Set Archive Directory..."
 msgstr "設定壓縮檔目錄[&S]..."
 
-#: kzip.cc:84
+#: arkwidget.cc:84
 msgid "Set &Tar Executable..."
 msgstr ""
 
-#: kzip.cc:85
+#: arkwidget.cc:85
 msgid "&File Adding Options..."
 msgstr "檔案增加 選項[&F]"
 
-#: kzip.cc:131
+#: arkwidget.cc:131
 msgid "Welcome to KZip..."
 msgstr "歡迎來到 KZip..."
 
-#: kzip.cc:238
+#: arkwidget.cc:238
 msgid "Can't create archive of that type"
 msgstr "沒辦法造出這種格式的壓縮檔"
 
-#: kzip.cc:260
+#: arkwidget.cc:260
 msgid "Create or open an archive first"
 msgstr "請先造出或開啟一個壓縮檔"
 
-#: kzip.cc:303
+#: arkwidget.cc:303
 msgid "Can't add directories with this archive type"
 msgstr "此種壓縮檔格式無法加入目錄"
 
-#: kzip.cc:305
+#: arkwidget.cc:305
 msgid "Error saving to archive"
 msgstr "儲存至壓縮檔時發生錯誤"
 
-#: kzip.cc:315
+#: arkwidget.cc:315
 msgid "Archive Dir:"
 msgstr "壓縮檔目錄:"
 
-#: kzip.cc:332
+#: arkwidget.cc:332
 msgid "What runs GNU tar:"
 msgstr ""
 
-#: kzip.cc:369 kzip.cc:571
+#: arkwidget.cc:369 arkwidget.cc:571
 msgid "Unknown archive format"
 msgstr "未知的壓縮檔格式"
 
-#: kzip.cc:389
+#: arkwidget.cc:389
 msgid "Size"
 msgstr ""
 
-#: kzip.cc:395
+#: arkwidget.cc:395
 #, fuzzy
 msgid "Archive directory does not exist."
 msgstr "壓縮檔目錄"
 
-#: kzip.cc:411
+#: arkwidget.cc:411
 msgid "Archive Directory"
 msgstr "壓縮檔目錄"
 

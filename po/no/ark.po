@@ -1,10 +1,10 @@
-# Norwegian translations for KDE Utils, kzip
+# Norwegian translations for KDE Utils, ark
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Hans Petter Bieker <zerium@webindex.no>, 1998.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: KDE UTILS/kzip\n"
+"Project-Id-Version: KDE UTILS/ark\n"
 "POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-03-02 20:48+0100\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
@@ -53,71 +53,71 @@ msgstr "Valgte filer"
 msgid "Pattern"
 msgstr "Mønster"
 
-#: kzip.cc:70
+#: arkwidget.cc:70
 msgid "&New..."
 msgstr "&Ny..."
 
-#: kzip.cc:73
+#: arkwidget.cc:73
 msgid "&Extract To..."
 msgstr "Pakk &ut til..."
 
-#: kzip.cc:78
+#: arkwidget.cc:78
 msgid "E&xtract..."
 msgstr "P&akk ut..."
 
-#: kzip.cc:83
+#: arkwidget.cc:83
 msgid "&Set Archive Directory..."
 msgstr "&Sett arkiv mappe"
 
-#: kzip.cc:84
+#: arkwidget.cc:84
 msgid "Set &Tar Executable..."
 msgstr "Velg &Tar-programfil..."
 
-#: kzip.cc:85
+#: arkwidget.cc:85
 msgid "&File Adding Options..."
 msgstr "Valg for &filtillegging..."
 
-#: kzip.cc:131
+#: arkwidget.cc:131
 msgid "Welcome to KZip..."
 msgstr "Velkommen til Kzip..."
 
-#: kzip.cc:238
+#: arkwidget.cc:238
 msgid "Can't create archive of that type"
 msgstr "Kan ikke lage arkiv av den typen"
 
-#: kzip.cc:260
+#: arkwidget.cc:260
 msgid "Create or open an archive first"
 msgstr "Lag eller epne et arkiv fxrst"
 
-#: kzip.cc:303
+#: arkwidget.cc:303
 msgid "Can't add directories with this archive type"
 msgstr "Kan ikke legge til mapper med denne arkiv typen"
 
-#: kzip.cc:305
+#: arkwidget.cc:305
 msgid "Error saving to archive"
 msgstr "Feil ved lagring til arkiv"
 
-#: kzip.cc:315
+#: arkwidget.cc:315
 msgid "Archive Dir:"
 msgstr "Arkivmappe:"
 
-#: kzip.cc:332
+#: arkwidget.cc:332
 msgid "What runs GNU tar:"
 msgstr "Hva kjører GNU tar:"
 
-#: kzip.cc:369 kzip.cc:571
+#: arkwidget.cc:369 arkwidget.cc:571
 msgid "Unknown archive format"
 msgstr "Ukjent arkivformat"
 
-#: kzip.cc:389
+#: arkwidget.cc:389
 msgid "Size"
 msgstr "Størrelse"
 
-#: kzip.cc:395
+#: arkwidget.cc:395
 msgid "Archive directory does not exist."
 msgstr "Arkivmappe eksisterer ikke."
 
-#: kzip.cc:411
+#: arkwidget.cc:411
 msgid "Archive Directory"
 msgstr "Arkivmappe"
 

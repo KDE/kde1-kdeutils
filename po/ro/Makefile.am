@@ -1,7 +1,7 @@
 
 # This has to be set. The rest should be reusable
 GMOFILES = khexdit.gmo kfloppy.gmo kcalc.gmo karm.gmo kljettool.gmo \
-	kzip.gmo
+	ark.gmo
 POFILES = $(GMOFILES:.gmo=.po)
 
 LANG = ro

@@ -50,70 +50,70 @@ msgstr "File Selezionato"
 msgid "Pattern"
 msgstr "Modello"
 
-#: kzip.cc:70
+#: arkwidget.cc:70
 msgid "&New..."
 msgstr ""
 
-#: kzip.cc:73
+#: arkwidget.cc:73
 msgid "&Extract To..."
 msgstr "&Estrai In..."
 
-#: kzip.cc:78
+#: arkwidget.cc:78
 msgid "E&xtract..."
 msgstr "Estrai..."
 
-#: kzip.cc:83
+#: arkwidget.cc:83
 msgid "&Set Archive Directory..."
 msgstr "&Setta la Directory di Archivio"
 
-#: kzip.cc:84
+#: arkwidget.cc:84
 msgid "Set &Tar Executable..."
 msgstr "Setta i &Tar Eseguibili..."
 
-#: kzip.cc:85
+#: arkwidget.cc:85
 msgid "&File Adding Options..."
 msgstr "&Opzioni Aggiunta File"
 
-#: kzip.cc:131
+#: arkwidget.cc:131
 msgid "Welcome to KZip..."
 msgstr "Benvenuti in KZip..."
 
-#: kzip.cc:238
+#: arkwidget.cc:238
 msgid "Can't create archive of that type"
 msgstr "Impossibile creare archivi di questo tipo"
 
-#: kzip.cc:260
+#: arkwidget.cc:260
 msgid "Create or open an archive first"
 msgstr "Prima crea o apri un archivio"
 
-#: kzip.cc:303
+#: arkwidget.cc:303
 msgid "Can't add directories with this archive type"
 msgstr "Non si possono aggiungere directory in questo tipo di archivio"
 
-#: kzip.cc:305
+#: arkwidget.cc:305
 msgid "Error saving to archive"
 msgstr "Errore salvando sull'archivio"
 
-#: kzip.cc:315
+#: arkwidget.cc:315
 msgid "Archive Dir:"
 msgstr "Directory Archivio:"
 
-#: kzip.cc:332
+#: arkwidget.cc:332
 msgid "What runs GNU tar:"
 msgstr "Cosa fa lo GNU tar:"
 
-#: kzip.cc:369 kzip.cc:571
+#: arkwidget.cc:369 arkwidget.cc:571
 msgid "Unknown archive format"
 msgstr "Formato d'archivio sconosciuto"
 
-#: kzip.cc:389
+#: arkwidget.cc:389
 msgid "Size"
 msgstr ""
 
-#: kzip.cc:395
+#: arkwidget.cc:395
 msgid "Archive directory does not exist."
 msgstr "La directory per l'archivio non esiste"
 
-#: kzip.cc:411
+#: arkwidget.cc:411
 msgid "Archive Directory"
 msgstr "Directory Archivio"

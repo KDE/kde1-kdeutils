@@ -11,8 +11,8 @@ msgstr ""
 "From: Robert Palmbos <robertp@pbnjelly>\n"
 "Xgettext-Options: --keyword=translate -C\n"
 "Files: adddlg.cc ar.cc arch.cc extractdlg.cc karch.cc kfdird.cc "
-"ktablistbox.cc kzip.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h "
-"extractdlg.h karch.h kfdird.h ktablistbox.h kzip.h lha.h tar.h text.h zip.h\n"
+"ktablistbox.cc arkwidget.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h "
+"extractdlg.h karch.h kfdird.h ktablistbox.h ark.h lha.h tar.h text.h zip.h\n"
 
 #: adddlg.cc:11
 msgid "Add File Options"
@@ -54,73 +54,73 @@ msgstr "Kiválasztott file"
 msgid "Pattern"
 msgstr "Minta"
 
-#: kzip.cc:70
+#: arkwidget.cc:70
 #, fuzzy
 msgid "&New..."
 msgstr "&Új"
 
-#: kzip.cc:73
+#: arkwidget.cc:73
 msgid "&Extract To..."
 msgstr "Kitömörítés &helye..."
 
-#: kzip.cc:78
+#: arkwidget.cc:78
 msgid "E&xtract..."
 msgstr "Ki&tömörít..."
 
-#: kzip.cc:83
+#: arkwidget.cc:83
 msgid "&Set Archive Directory..."
 msgstr "&Archív könyvtár beállítása..."
 
-#: kzip.cc:84
+#: arkwidget.cc:84
 msgid "Set &Tar Executable..."
 msgstr ""
 
-#: kzip.cc:85
+#: arkwidget.cc:85
 msgid "&File Adding Options..."
 msgstr "&File hozzáadás beállításai..."
 
-#: kzip.cc:131
+#: arkwidget.cc:131
 msgid "Welcome to KZip..."
 msgstr "Üdvözöl a KZip..."
 
-#: kzip.cc:238
+#: arkwidget.cc:238
 msgid "Can't create archive of that type"
 msgstr "Nade ilyen archív típust én nem tudok csinálni!"
 
-#: kzip.cc:260
+#: arkwidget.cc:260
 msgid "Create or open an archive first"
 msgstr "Kreálj vagy nyiss meg egy archívumot elõször"
 
-#: kzip.cc:303
+#: arkwidget.cc:303
 msgid "Can't add directories with this archive type"
 msgstr ""
 
-#: kzip.cc:305
+#: arkwidget.cc:305
 msgid "Error saving to archive"
 msgstr "Hiba az archívba mentés közben"
 
-#: kzip.cc:315
+#: arkwidget.cc:315
 msgid "Archive Dir:"
 msgstr "Archive könyvtár:"
 
-#: kzip.cc:332
+#: arkwidget.cc:332
 msgid "What runs GNU tar:"
 msgstr ""
 
-#: kzip.cc:369 kzip.cc:571
+#: arkwidget.cc:369 arkwidget.cc:571
 msgid "Unknown archive format"
 msgstr "Ismeretlen archive formátum"
 
-#: kzip.cc:389
+#: arkwidget.cc:389
 msgid "Size"
 msgstr ""
 
-#: kzip.cc:395
+#: arkwidget.cc:395
 #, fuzzy
 msgid "Archive directory does not exist."
 msgstr "Archive könyvtár"
 
-#: kzip.cc:411
+#: arkwidget.cc:411
 msgid "Archive Directory"
 msgstr "Archive könyvtár"
 
