@@ -136,7 +136,7 @@ msgstr "Enviar Documento por email"
 #: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:697
 #: keditcl2.cpp:804
 msgid "Done"
-msgstr ""
+msgstr "Feito"
 
 #: kedit.cpp:606
 msgid "Open Location:"
@@ -440,7 +440,6 @@ msgid "Find Backwards"
 msgstr "Procurar para trás"
 
 #: keditcl2.cpp:777
-#, fuzzy
 msgid "Find:"
 msgstr "&Procurar..."
 
@@ -481,13 +480,12 @@ msgid "Set Fill-Column at:"
 msgstr "Colunas por Linha:"
 
 #: filldlg.cpp:40
-#, fuzzy
 msgid "Word Wrap"
 msgstr "Mudança de Linha"
 
 #: filldlg.cpp:42
 msgid "Backup Copies"
-msgstr ""
+msgstr "Cópias de segurança"
 
 #: filldlg.cpp:46
 msgid "Mail Command:"
