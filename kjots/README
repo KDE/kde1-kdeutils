@@ -1,15 +1,14 @@
+kjots (version 0.3.0) - a note taker
+------------------------------------
 
-
-kjots version 0.2.6
--------------------
 (C) 1997 Christoph Neerfeld (Christoph.Neerfeld@home.ivm.de)
 You may distribute kjots under the terms of the GNU General Public License.
 
-kjots is a small note taker program. Name and idea are taken from
-the jots program included in the tkgoodstuff package.
-The tkgoodstuff package is copyright (C) 1995-96 by Mark Crimmins (markcrim@umich.edu).
+kjots is a small note taker program. Name and idea are taken from the jots
+program included in the tkgoodstuff package. The tkgoodstuff package is
+copyright (C) 1995-96 by Mark Crimmins (markcrim@umich.edu).
 
-You will need libqt-1.32, KDE-beta-3.
+You will need libqt-1.33, KDE-1.0.
 
 Features:
 	- you may create several folders to store small text notes
