@@ -1264,7 +1264,7 @@ void TopLevel::readSettings(){
 	str = config->readEntry( "Italic" );
 		if ( !str.isNull() )
 			if ( atoi(str.data()) != 0 )
-				generalFont.setItalic(True);
+				generalFont.setItalic(true);
 	
 	str = config->readEntry("Width");
 		if ( !str.isNull() )
