@@ -4,8 +4,8 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-04-17 02:13+0200\n"
-"PO-Revision-Date: 1998-02-01 10:17-0500\n"
+"POT-Creation-Date: 1999-01-14 01:57+0100\n"
+"PO-Revision-Date: 1998-03-26 14:25+0000\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
 
@@ -13,7 +13,7 @@ msgstr ""
 msgid "Normal:"
 msgstr "Venjulegt:"
 
-#: highlight.cpp:1725 kwdialog.cpp:495
+#: highlight.cpp:1725 kwdialog.cpp:416
 msgid "Selected:"
 msgstr "Valið:"
 
@@ -69,47 +69,47 @@ msgstr "Útlit hluta"
 msgid "Item Font"
 msgstr "Letur hluta"
 
-#: kwview.cpp:1069
+#: kwview.cpp:1057
 msgid "Vertical Selections On"
 msgstr "Lóð&rétt val virkt"
 
-#: kwview.cpp:1069
+#: kwview.cpp:1057
 msgid "Vertical Selections Off"
 msgstr "Lóð&rétt val óvirkt"
 
-#: kwview.cpp:1128
+#: kwview.cpp:1116
 msgid "The specified File does not exist"
 msgstr "Skráin sem þú valdir er ekki til"
 
-#: kwview.cpp:1138
+#: kwview.cpp:1126
 msgid "You have specified a directory"
 msgstr "Þú hefur valið möppu"
 
-#: kwview.cpp:1148
+#: kwview.cpp:1136
 msgid "You do not have read permission to this file"
 msgstr "Þú hefur ekki lesréttindi fyrir þessa skrá"
 
-#: kwview.cpp:1164 kwview.cpp:1194
+#: kwview.cpp:1152 kwview.cpp:1182
 msgid "An Error occured while trying to open this Document"
 msgstr "Villa kom upp við lestur skjalsins"
 
-#: kwview.cpp:1178
+#: kwview.cpp:1166
 msgid "You do not have write permission to this file"
 msgstr "Þú hefur ekki skrifréttindi fyrir þessa skrá"
 
-#: kwview.cpp:1231
+#: kwview.cpp:1219
 msgid "Loading..."
 msgstr "Les..."
 
-#: kwview.cpp:1239 kwview.cpp:1360
+#: kwview.cpp:1227 kwview.cpp:1348
 msgid "Inserted"
 msgstr "Skotið inn"
 
-#: kwview.cpp:1244 kwview.cpp:1369
+#: kwview.cpp:1232 kwview.cpp:1357
 msgid "Read"
 msgstr "Lesa"
 
-#: kwview.cpp:1253 kwview.cpp:1311
+#: kwview.cpp:1241 kwview.cpp:1299
 msgid ""
 "KWrite is already waiting\n"
 "for an internet job to finish\n"
@@ -121,23 +121,23 @@ msgstr ""
 "þar til því hefur lokið eða\n"
 "stöðvaðu virka ferlið."
 
-#: kwview.cpp:1261 kwview.cpp:1319
+#: kwview.cpp:1249 kwview.cpp:1307
 msgid "Waiting for KFM..."
 msgstr "Bíð eftir KFM..."
 
-#: kwview.cpp:1267 kwview.cpp:1332
+#: kwview.cpp:1255 kwview.cpp:1320
 msgid "Could not start or find KFM"
 msgstr "Gat ekki ræst eða fundið KFM"
 
-#: kwview.cpp:1294
+#: kwview.cpp:1282
 msgid "Saving..."
 msgstr "Vista..."
 
-#: kwview.cpp:1302 kwview.cpp:1379
+#: kwview.cpp:1290 kwview.cpp:1367
 msgid "Wrote"
 msgstr "Skrifaði"
 
-#: kwview.cpp:1408
+#: kwview.cpp:1396
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -145,7 +145,7 @@ msgstr ""
 "Virka skjalinu hefur verið breytt.\n"
 "Viltu vista það?"
 
-#: kwview.cpp:1419
+#: kwview.cpp:1407
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -153,11 +153,11 @@ msgstr ""
 "Gat ekki vistað skjalið.\n"
 "Viltu samt opna nýtt skjal?"
 
-#: kwview.cpp:1466
+#: kwview.cpp:1454
 msgid "No changes need to be saved"
 msgstr "Engar breytingar þurfa vistun"
 
-#: kwview.cpp:1487
+#: kwview.cpp:1475
 msgid ""
 "A Document with this Name already exists.\n"
 "Do you want to overwrite it?"
@@ -165,171 +165,171 @@ msgstr ""
 "Skjal með þessu nafni er nú þegar til.\n"
 "Viltu skrifa yfir það?"
 
-#: kwview.cpp:1690 kwview.cpp:1878
+#: kwview.cpp:1678 kwview.cpp:1866
 msgid "End of document reached"
 msgstr "Hef náð enda skjalsins"
 
-#: kwview.cpp:1691 kwview.cpp:1879
+#: kwview.cpp:1679 kwview.cpp:1867
 msgid "Continue from the beginning"
 msgstr "Halda áfram frá upphafi"
 
-#: kwview.cpp:1693 kwview.cpp:1704 kwview.cpp:1714
+#: kwview.cpp:1681 kwview.cpp:1692 kwview.cpp:1702
 msgid "Find"
 msgstr "Leita"
 
-#: kwview.cpp:1701 kwview.cpp:1890
+#: kwview.cpp:1689 kwview.cpp:1878
 msgid "Beginning of document reached"
 msgstr "Hef náð upphafi skjalsins"
 
-#: kwview.cpp:1702 kwview.cpp:1891
+#: kwview.cpp:1690 kwview.cpp:1879
 msgid "Continue from the end"
 msgstr "Halda áfram frá enda"
 
-#: kwview.cpp:1715
+#: kwview.cpp:1703
 msgid "Search string not found!"
 msgstr "Leitarstrengur fannst ekki!"
 
-#: kwview.cpp:1863 kwview.cpp:1877 kwview.cpp:1889
+#: kwview.cpp:1851 kwview.cpp:1865 kwview.cpp:1877
 msgid "replace(s) made"
 msgstr "breytingar framkvæmdar"
 
-#: kwview.cpp:2004 toplevel.cpp:477
+#: kwview.cpp:1992 toplevel.cpp:475
 msgid "Line"
 msgstr "Lína"
 
-#: kwdialog.cpp:31
+#: kwdialog.cpp:30
 msgid "&Text To Find:"
 msgstr "Lei&ta að:"
 
-#: kwdialog.cpp:43
+#: kwdialog.cpp:40
 msgid "&Replace With:"
 msgstr "B&reyta í:"
 
-#: kwdialog.cpp:57
+#: kwdialog.cpp:51
 msgid "&Case Sensitive"
 msgstr "&Háð há/lágstöfum"
 
-#: kwdialog.cpp:61
+#: kwdialog.cpp:52
 msgid "&Whole Words Only"
 msgstr "Einungis &heil orð"
 
-#: kwdialog.cpp:65
+#: kwdialog.cpp:53
 msgid "&From Cursor"
 msgstr "&Frá bendli"
 
-#: kwdialog.cpp:74
+#: kwdialog.cpp:54
 msgid "Find &Backwards"
 msgstr "Leita afturá&bak"
 
-#: kwdialog.cpp:78
+#: kwdialog.cpp:55
 msgid "&Selected Text"
 msgstr "Valinn te&xti"
 
-#: kwdialog.cpp:91
+#: kwdialog.cpp:80
 msgid "&Prompt On Replace"
 msgstr "Sp&yrja um breytingar"
 
-#: kwdialog.cpp:167
+#: kwdialog.cpp:142
 msgid "Replace this occurence?"
 msgstr "Breyta þessu?"
 
-#: kwdialog.cpp:174
+#: kwdialog.cpp:147
 msgid "&Yes"
 msgstr "&Já"
 
-#: kwdialog.cpp:182
+#: kwdialog.cpp:154
 msgid "&No"
 msgstr "&Nei"
 
-#: kwdialog.cpp:188
+#: kwdialog.cpp:159
 msgid "&All"
 msgstr "Ö&ll"
 
-#: kwdialog.cpp:251
+#: kwdialog.cpp:217
 msgid "&Goto Line:"
 msgstr "Fara í &línu:"
 
-#: kwdialog.cpp:294
+#: kwdialog.cpp:255
 msgid "Edit Options"
 msgstr "Valkostir ritils"
 
-#: kwdialog.cpp:295
+#: kwdialog.cpp:256
 msgid "Auto &Indent"
 msgstr "Sjálfvirkur &inndráttur"
 
-#: kwdialog.cpp:297
+#: kwdialog.cpp:257
 msgid "&Backspace Indent"
 msgstr "&Bakka yfir inndrætti"
 
-#: kwdialog.cpp:299
+#: kwdialog.cpp:258
 msgid "&Word Wrap"
 msgstr "Sjálf&virk línuskipting"
 
-#: kwdialog.cpp:301
+#: kwdialog.cpp:259
 msgid "Replace &Tabs"
 msgstr "Fjarlægja &TAB merki"
 
-#: kwdialog.cpp:303
+#: kwdialog.cpp:260
 msgid "Remove Trailing &Spaces"
 msgstr "&Fjarlægja óþörf bil"
 
-#: kwdialog.cpp:305
+#: kwdialog.cpp:261
 msgid "Wrap &Cursor"
 msgstr "&Línuflakk bendils"
 
-#: kwdialog.cpp:307
+#: kwdialog.cpp:262
 msgid "&Auto Brackets"
 msgstr "Sjálfv. horn&klofar"
 
-#: kwdialog.cpp:321
+#: kwdialog.cpp:290
 msgid "Select Options"
 msgstr "Valkostir vals"
 
-#: kwdialog.cpp:322
+#: kwdialog.cpp:291
 msgid "&Persistent Selections"
 msgstr "Þ&rjóskt val"
 
-#: kwdialog.cpp:324
+#: kwdialog.cpp:292
 msgid "&Multiple Selections"
 msgstr "&Fjölval"
 
-#: kwdialog.cpp:326 toplevel.cpp:233
+#: kwdialog.cpp:293 toplevel.cpp:233
 msgid "&Vertical Selections"
 msgstr "Lóð&rétt val"
 
-#: kwdialog.cpp:328
+#: kwdialog.cpp:294
 msgid "&Delete On Input"
 msgstr "&Eyða á innslætti"
 
-#: kwdialog.cpp:330
+#: kwdialog.cpp:295
 msgid "&Toggle Old"
 msgstr "&Af/virkja gamallt"
 
-#: kwdialog.cpp:345
+#: kwdialog.cpp:322
 msgid "Wrap Words At:"
 msgstr "Línulengd:"
 
-#: kwdialog.cpp:351
+#: kwdialog.cpp:332
 msgid "Tab Width:"
 msgstr "Breidd TABs:"
 
-#: kwdialog.cpp:358
+#: kwdialog.cpp:342
 msgid "Undo steps:"
 msgstr "Iðrunarskref:"
 
-#: kwdialog.cpp:479
+#: kwdialog.cpp:402
 msgid "Background:"
 msgstr "Bakgrunnur:"
 
-#: kwdialog.cpp:487
+#: kwdialog.cpp:409
 msgid "Text Background:"
 msgstr "Texti bakgrunns:"
 
-#: kwdialog.cpp:503
+#: kwdialog.cpp:423
 msgid "Found:"
 msgstr "Fundið:"
 
-#: kwdialog.cpp:511
+#: kwdialog.cpp:430
 msgid "Selected + Found:"
 msgstr "Valið + Fundið:"
 
@@ -483,6 +483,6 @@ msgstr "Opna skjal"
 msgid "Save Document"
 msgstr "Vista skjal"
 
-#: toplevel.cpp:478
+#: toplevel.cpp:476
 msgid "Col"
-msgstr "Dálk"
+msgstr "Dálkur"
