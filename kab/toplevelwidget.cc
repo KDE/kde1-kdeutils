@@ -21,7 +21,7 @@
 #include "debug.h"
 
 ABTLWidget::ABTLWidget(const char* name)
-  : KTopLevelWidget(name)
+  : KTMainWindow(name)
 {
   // ########################################################  
   timer=new QTimer(this);

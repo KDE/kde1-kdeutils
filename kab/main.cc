@@ -3,8 +3,7 @@
  * the Configuration Database library
  * copyright:  (C) Mirko Sucker, 1998
  * license:    GNU Public License, Version 2
- * mail to:    Mirko Sucker <mirko.sucker@hamburg.netsurf.de>
- *                          <mirko.sucker@unibw-hamburg.de>
+ * mail to:    Mirko Sucker <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class, Qt > 1.33,
  *             NANA (for debugging)
  * $Revision$
@@ -65,9 +64,9 @@ int main(int argc, char** argv)
   LG(GUARD, "addressbook main: installing exit handler.\n");
   atexit(exit_handler);
   LG(GUARD, "addressbook main: creating addressbook.\n");
-  ABTLWidget db;
-  app.setMainWidget(&db);
-  db.show();
+  ABTLWidget* db=new ABTLWidget;
+  app.setMainWidget(db);
+  db->show();
   LG(GUARD, "addressbook main: executing X application.\n");
   return app.exec();
   // ########################################################

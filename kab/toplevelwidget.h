@@ -19,7 +19,7 @@
 #undef ID
 #endif
 #define ID KDE_ID
-#include <ktopwidget.h>
+#include <ktmainwindow.h>
 #undef ID
 
 #include <qtimer.h>
@@ -29,7 +29,7 @@
   * has an AddressWidget as its main part.
   */
 
-class ABTLWidget : public KTopLevelWidget
+class ABTLWidget : public KTMainWindow // KTopLevelWidget
 {
   Q_OBJECT
 protected:
