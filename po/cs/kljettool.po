@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kljettool\n"
 "POT-Creation-Date: 1998-11-03 10:06+0100\n"
-"PO-Revision-Date: 1998-06-18 10:02 MET DST\n"
+"PO-Revision-Date: 1998-11-04 08:47+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -27,31 +27,31 @@ msgstr "Operace"
 
 #: PaperData.cpp:59
 msgid "Format"
-msgstr ""
+msgstr "Formát"
 
 #: PaperData.cpp:65
 msgid "Copies"
-msgstr ""
+msgstr "Poèet kopií"
 
 #: PaperData.cpp:80
 msgid "Lines"
-msgstr ""
+msgstr "Poèet øádek"
 
 #: PaperData.cpp:102
 msgid "Portrait"
-msgstr ""
+msgstr "Na vý¹ku"
 
 #: PaperData.cpp:111
 msgid "Landscape"
-msgstr ""
+msgstr "Na ¹íøku"
 
 #: PaperData.cpp:127
 msgid "Manual Feed"
-msgstr ""
+msgstr "Ruèní podávání"
 
 #: PaperData.cpp:136
 msgid "Auto Continue"
-msgstr ""
+msgstr "Auto. pokraèovat"
 
 #: FontsData.cpp:38
 msgid "Language"

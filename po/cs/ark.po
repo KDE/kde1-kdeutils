@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "POT-Creation-Date: 1998-11-03 14:32+0100\n"
-"PO-Revision-Date: 1998-10-24 20:48 CEST\n"
+"PO-Revision-Date: 1998-11-04 08:50+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -78,33 +78,28 @@ msgid "&File Adding Options..."
 msgstr "Parametry &pøidání souboru ..."
 
 #: arkwidget.cc:96
-#, fuzzy
 msgid "File Operations"
-msgstr "Parametry pro pøidání souboru"
+msgstr "Operace se soubory"
 
 #: arkwidget.cc:98
-#, fuzzy
 msgid "Extract..."
-msgstr "E&xtrahovat ..."
+msgstr "Extrahovat ..."
 
 #: arkwidget.cc:113
-#, fuzzy
 msgid "Goto Archive Dir..."
-msgstr "Na&stavit adresáø archivu ..."
+msgstr "Jít do adresáøe archivu ..."
 
 #: arkwidget.cc:116
-#, fuzzy
 msgid "Extract To.."
-msgstr "&Extrahovat do ..."
+msgstr "Extrahovat do ..."
 
 #: arkwidget.cc:120
 msgid "Exit"
-msgstr ""
+msgstr "Ukonèit"
 
 #: arkwidget.cc:127
-#, fuzzy
 msgid "Welcome to ark..."
-msgstr "Vítejte v KZipu ..."
+msgstr "Vítejte v programu ark ..."
 
 #: arkwidget.cc:234
 msgid "Can't create archive of that type"
