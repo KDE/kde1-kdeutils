@@ -14,12 +14,15 @@ khexdit_SOURCES	= hexwidget.cpp hexfile.cpp
 noinst_HEADERS = hexfile.h hexwidget.h
 khexdit_LDADD 	= @all_libraries@ -lkfm -lkdeui -lkdecore -lqt -lX11 -lXext @LIBSOCKET@ 
 BUILTSOURCES =	hexwidget.moc hexfile.moc
+DISTCLEANFILES = hexwidget.moc hexfile.moc
 
-hexwidget.cpp: hexwidget.moc
-hexfile.cpp: hexfile.moc
+hexwidget.cpp:hexwidget.moc
+hexwidget.moc: hexwidget.h
+	$(MOC) hexwidget.h -o hexwidget.moc
 
-%.moc: %.h
-	$(MOC) $< -o $@
+hexfile.cpp:hexfile.moc
+hexfile.moc: hexfile.h
+	$(MOC) hexfile.h -o hexfile.moc
 
 install-data-local: 
 	$(mkinstalldirs) $(DOCSDIR)
@@ -35,5 +38,5 @@ uninstall-local:
 	rm -f $(DOCSDIR)/$(DOCS)
 	rm -f $(APPSDIR)/Khexdit.kdelnk
 	rm -f $(ICONDIR)/khexdit.xpm
-	rm -f $(MINIICONDIR)/mini-khexdit.xpm
+	rm -f $(MINIDIR)/mini-khexdit.xpm
 
