@@ -1,12 +1,8 @@
 
 
-DOCSDIR = @kde_htmldir@/en/kljettool
-APPSDIR = @kde_appsdir@/Utilities/
-PICSDIR = @kde_datadir@/kljettool/pics/
-
-LDFLAGS	=	$(all_libraries) $(KDE_RPATH)
-LDADD   =         -lm    $(LIB_KDECORE)
-INCLUDES=	$(all_includes)
+LDFLAGS	= $(all_libraries) $(KDE_RPATH)
+LDADD   = $(LIB_KDECORE) -lm
+INCLUDES= $(all_includes)
 
 ####### Files
 

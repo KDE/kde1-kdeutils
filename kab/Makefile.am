@@ -13,7 +13,7 @@
 
 SUBDIRS = doc
 
-INCLUDES= @all_includes@ 
+INCLUDES= $(all_includes) 
 # $(MS_NANA_DEFINES)
 # -fexternal-templates 
 
