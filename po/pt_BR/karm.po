@@ -95,12 +95,12 @@ msgstr "relógio ativo"
 
 #: top.cpp:150
 msgid "Preferences"
-msgstr ""
+msgstr "Preferências"
 
 #: top.cpp:194
 #, c-format
 msgid "%s "
-msgstr ""
+msgstr "%s "
 
 #: top.cpp:200
 msgid "&Clock"
@@ -112,7 +112,7 @@ msgstr "&Tarefa"
 
 #: top.cpp:206
 msgid "&Preferences..."
-msgstr ""
+msgstr "&Preferências..."
 
 #: top.cpp:220
 msgid "S&top"
