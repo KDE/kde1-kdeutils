@@ -1,8 +1,13 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: kdeutils\n"
 "POT-Creation-Date: 1998-11-14 02:05+0100\n"
-"PO-Revision-Date: 1998-10-18 21:59+0200\n"
+"PO-Revision-Date: 1998-10-18 21:59+0100\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
+"Language-Team: Spanish <kde-es@kyb.uni-stuttgart.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
 
 #: adddlg.cc:11
 msgid "Add File Options"
@@ -155,6 +160,3 @@ msgstr "Directorio de archivos no existe."
 #: arkwidget.cc:418
 msgid "Archive Directory"
 msgstr "Directorio de archivos"
-
-#~ msgid "Files"
-#~ msgstr "Archivos"

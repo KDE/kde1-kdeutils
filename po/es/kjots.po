@@ -1,8 +1,13 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: kdeutils\n"
 "POT-Creation-Date: 1998-12-07 01:48+0100\n"
-"PO-Revision-Date: 1998-12-07 18:58+0200\n"
+"PO-Revision-Date: 1998-12-07 18:58+0100\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
+"Language-Team: Spanish <kde-es@kyb.uni-stuttgart.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
 
 #: KJotsMain.cpp:76
 msgid "Book name:"
@@ -168,6 +173,3 @@ msgstr "Seleccionar"
 #: confdialog.cpp:133
 msgid "Dolor Ipse"
 msgstr "Dolor Ipse"
-
-#~ msgid "Exit"
-#~ msgstr "Salir"

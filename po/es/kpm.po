@@ -2,10 +2,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
 "POT-Creation-Date: 1999-01-26 01:48+0100\n"
-"PO-Revision-Date: 1998-12-07 18:53+0200\n"
+"PO-Revision-Date: 1999-02-06 18:53+0100\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
-"Language-Team: Spanish <kde-es@kyb.ml.org>\n"
+"Language-Team: Spanish <kde-es@kyb.uni-stuttgart.de>\n"
 "MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
 
 #: prefs.C:33
 msgid "Graphic Load Display"
@@ -172,7 +174,6 @@ msgid "Save Settings Now"
 msgstr "Guardar Configuración Ahora"
 
 #: qps.C:196
-#, fuzzy
 msgid ""
 " - A Visual Process Manager (KDE Version)\n"
 "\n"
@@ -189,7 +190,7 @@ msgid ""
 "Public License (GNU GPL). See the file COPYING\n"
 "for details about this."
 msgstr ""
-"kpm %sk%s - Un Gestor de Procesos Visual (Versión KDE)\n"
+" - Un Gestor de Procesos Visual (Versión KDE)\n"
 "\n"
 "© 1997 Mattias Engdegård (f91-men@nada.kth.se)\n"
 "© 1998 Mario Weilguni (mweilguni@kde.org)\n"
@@ -385,31 +386,29 @@ msgstr ""
 "Solo en super-usuario y el dueño del proceso deben enviarle señales."
 
 #: scheddlg.C:22
-#, fuzzy
 msgid "Change scheduling"
-msgstr "Cambiar Planificación..."
+msgstr "Cambiar planificación"
 
 #: scheddlg.C:28
-#, fuzzy
 msgid "Scheduling Policy"
-msgstr "Planificación..."
+msgstr "Política de Planificación"
 
 #: scheddlg.C:29
 msgid "SCHED_OTHER (time-sharing)"
-msgstr ""
+msgstr "SCHED_OTHER (time-sharing)"
 
 #: scheddlg.C:36
 msgid "SCHED_FIFO (real-time)"
-msgstr ""
+msgstr "SCHED_FIFO (real-time)"
 
 #: scheddlg.C:42
 msgid "SCHED_RR (real-time)"
-msgstr ""
+msgstr "SCHED_RR (real-time)"
 
 #: scheddlg.C:67
 msgid "Priority (1-99):"
-msgstr ""
+msgstr "Prioridad (1-99):"
 
 #: scheddlg.C:114
 msgid "The priority must be in the range 1..99"
-msgstr ""
+msgstr "La prioridad debe estar en el rango 1..99"

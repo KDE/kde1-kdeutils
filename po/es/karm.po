@@ -1,9 +1,13 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: kdeutils\n"
 "POT-Creation-Date: 1999-01-11 01:57+0100\n"
-"PO-Revision-Date: 1998-10-18 13:25+0200\n"
-"First-Translator: Santiago Fernández and Jorge ValenciaFirst-Translator: "
-"<jorgev@est.unileon.es>\n"
+"PO-Revision-Date: 1999-02-06 18:34+0100\n"
+"Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
+"Language-Team: Spanish <kde-es@kyb.uni-stuttgart.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
 
 #: adddata.cpp:38
 msgid "Task Name"
@@ -95,17 +99,17 @@ msgstr "reloj activo"
 
 #: top.cpp:150
 msgid "Preferences"
-msgstr ""
+msgstr "Preferencias"
 
 #: top.cpp:194
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s %s -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
 msgstr ""
-"%s 0.3 -- Sirtaj Singh Kang\n"
+"%s %s -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "El Entorno de Escritorio K"
@@ -120,24 +124,12 @@ msgstr "&Tarea"
 
 #: top.cpp:209
 msgid "&Preferences..."
-msgstr ""
+msgstr "&Preferencias..."
 
 #: top.cpp:223
 msgid "S&top"
-msgstr "S&top"
+msgstr "De&tener"
 
 #: top.cpp:229
 msgid "&New"
 msgstr "&Nuevo"
-
-#~ msgid "&About"
-#~ msgstr "&Sobre"
-
-#~ msgid "About "
-#~ msgstr "Acerca de "
-
-#~ msgid "&Contents"
-#~ msgstr "&Contenidos"
-
-#~ msgid "&Start"
-#~ msgstr "&Inicio"

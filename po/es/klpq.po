@@ -2,8 +2,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
 "POT-Creation-Date: 1999-01-11 01:57+0100\n"
-"PO-Revision-Date: 1999-1-2 21:45+0200\n"
+"PO-Revision-Date: 1999-01-06 18:45+0100\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
+"Language-Team: Spanish <kde-es@kyb.uni-stuttgart.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
 
 #: main.cpp:178
 msgid "Sorry, can't open your printcap file."
@@ -15,8 +19,7 @@ msgstr "Lo siento, no se puede analizar su printcap."
 
 #: main.cpp:184
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
-msgstr ""
-"Por favor mande un email con su printcap a Christoph.Neerfeld@home.ivm.de"
+msgstr "Por favor envíe un email con su printcap a Christoph.Neerfeld@home.ivm.de"
 
 #: klpq.cpp:89
 msgid "Printer"
@@ -73,6 +76,9 @@ msgid ""
 "(C) by Christoph Neerfeld\n"
 "chris@kde.org"
 msgstr ""
+"Klpq %s\n"
+"(C) por Christoph Neerfeld\n"
+"chris@kde.org"
 
 #: klpq.cpp:204
 msgid "&Config"
@@ -143,34 +149,3 @@ msgstr ""
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"
 msgstr "Path de los comandos de spooling:"
-
-#~ msgid ""
-#~ "\n"
-#~ "on top of queue"
-#~ msgstr ""
-#~ "\n"
-#~ "al principio de la cola"
-
-#~ msgid "Quit"
-#~ msgstr "Salir"
-
-#~ msgid "Files"
-#~ msgstr "Ficheros"
-
-#~ msgid "Remove"
-#~ msgstr "Eliminar"
-
-#~ msgid "&Quit"
-#~ msgstr "&Salir"
-
-#~ msgid "&File"
-#~ msgstr "&Fichero"
-
-#~ msgid "&Help"
-#~ msgstr "&Ayuda"
-
-#~ msgid "Ok"
-#~ msgstr "Aceptar"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancelar"
