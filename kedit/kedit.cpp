@@ -82,14 +82,14 @@ TopLevel::TopLevel (QWidget *, const char *name)
   set_colors();
 
   if ( hide_toolbar )	
-    options->changeItem( klocale->translate("Show &Tool Bar"), toolID );
+    options->changeItem( i18n("Show &Tool Bar"), toolID );
   else
-    options->changeItem( klocale->translate("Hide &Tool Bar"), toolID );
+    options->changeItem( i18n("Hide &Tool Bar"), toolID );
 
   if ( hide_statusbar )
-    options->changeItem( klocale->translate("Show &Status Bar"), statusID );
+    options->changeItem( i18n("Show &Status Bar"), statusID );
   else
-    options->changeItem( klocale->translate("Hide &Status Bar"), statusID );
+    options->changeItem( i18n("Hide &Status Bar"), statusID );
 
   //  setCaption("KEdit "KEDITVERSION);
 
@@ -117,7 +117,7 @@ TopLevel::~TopLevel (){
 void TopLevel::setupEditWidget(){
 
   
-  eframe = new KEdit (mykapp,this, "eframe", klocale->translate("Untitled"));
+  eframe = new KEdit (mykapp,this, "eframe", i18n("Untitled"));
 
   connect(eframe, SIGNAL(CursorPositionChanged()),this,SLOT(statusbar_slot()));
   connect(eframe, SIGNAL(toggle_overwrite_signal()),this,SLOT(toggle_overwrite()));
@@ -137,23 +137,23 @@ void TopLevel::setupEditWidget(){
 
   right_mouse_button = new QPopupMenu;
 
-  right_mouse_button->insertItem (klocale->translate("Open..."),
+  right_mouse_button->insertItem (i18n("Open..."),
 				  this, 	SLOT(file_open()));
-  right_mouse_button->insertItem (klocale->translate("Save"),
+  right_mouse_button->insertItem (i18n("Save"),
 				  this, 	SLOT(file_save()));
-  right_mouse_button->insertItem (klocale->translate("Save as..."),
+  right_mouse_button->insertItem (i18n("Save as..."),
 				  this, SLOT(file_save_as()));
   right_mouse_button->insertSeparator(-1);
-  right_mouse_button->insertItem(klocale->translate("Copy"), 
+  right_mouse_button->insertItem(i18n("Copy"), 
 				 this, SLOT(copy()));
-  right_mouse_button->insertItem(klocale->translate("Paste"),
+  right_mouse_button->insertItem(i18n("Paste"),
 				 this, SLOT(paste()));
-  right_mouse_button->insertItem(klocale->translate("Cut"), 
+  right_mouse_button->insertItem(i18n("Cut"), 
 				 this, SLOT(cut()));
-  right_mouse_button->insertItem(klocale->translate("Select All"), 
+  right_mouse_button->insertItem(i18n("Select All"), 
 				 this, SLOT(select_all()));
   right_mouse_button->insertSeparator(-1);
-  right_mouse_button->insertItem(klocale->translate("Font"), 
+  right_mouse_button->insertItem(i18n("Font..."), 
 				 this,	SLOT(font()));
 
   eframe->installRBPopup(right_mouse_button);
@@ -173,18 +173,18 @@ void TopLevel::setupMenuBar(){
   colors =  	new QPopupMenu ();
   recentpopup = new QPopupMenu ();
 
-  colors->insertItem(klocale->translate("&Foreground Color"),
+  colors->insertItem(i18n("&Foreground Color"),
 		     this, SLOT(set_foreground_color()));
-  colors->insertItem(klocale->translate("&Background Color"),
+  colors->insertItem(i18n("&Background Color"),
 		     this, SLOT(set_background_color()));
 
 
 
 	/*
-  help->insertItem (klocale->translate("&Help"),
+  help->insertItem (i18n("&Help"),
 		    this, 	SLOT(helpselected()));
   help->insertSeparator();
-  help->insertItem (klocale->translate("&About..."),
+  help->insertItem (i18n("&About..."),
 		    this, 	SLOT(about()));
 		    */
   
@@ -194,31 +194,31 @@ void TopLevel::setupMenuBar(){
    // the text widget that we all rely on so much.
    // Bernd
    
-   //  file->insertItem (klocale->translate("Ne&w..."),
+   //  file->insertItem (i18n("Ne&w..."),
    //		    this, 	SLOT(file_new()), keys.openNew());
    
-     file->insertItem (klocale->translate("Ne&w..."),
+     file->insertItem (i18n("Ne&w..."),
 		    this, 	SLOT(file_new()));
    
    
-  file->insertItem (klocale->translate("&Open..."),
+  file->insertItem (i18n("&Open..."),
 		    this, 	SLOT(file_open()), keys.open());
 
-  file->insertItem (klocale->translate("Open Recen&t..."), recentpopup);
+  file->insertItem (i18n("Open Recen&t..."), recentpopup);
   connect( recentpopup, SIGNAL(activated(int)), SLOT(openRecent(int)) );
 
   file->insertSeparator (-1);
 
-  file->insertItem (klocale->translate("&Save"),
+  file->insertItem (i18n("&Save"),
 		    this, 	SLOT(file_save()), keys.save());
-  file->insertItem (klocale->translate("S&ave as..."),
+  file->insertItem (i18n("S&ave as..."),
 		    this, 	SLOT(file_save_as()));
-  file->insertItem (klocale->translate("&Close"),
+  file->insertItem (i18n("&Close"),
 		    this,	SLOT(file_close()), keys.close());
   file->insertSeparator (-1);
-  file->insertItem (klocale->translate("Open &URL..."),
+  file->insertItem (i18n("Open &URL..."),
 		    this,	SLOT(file_open_url()));
-  file->insertItem (klocale->translate("Save to U&RL..."),	
+  file->insertItem (i18n("Save to U&RL..."),	
 		    this,	SLOT(file_save_url()));
   file->insertSeparator (-1);
    
@@ -227,76 +227,76 @@ void TopLevel::setupMenuBar(){
    // CTRL P and that conflict with the emacs key bindings of
    // the text widget that we all rely on so much.
    // Bernd   
-   //  file->insertItem (klocale->translate("&Print..."),
+   //  file->insertItem (i18n("&Print..."),
    //		    this,	SLOT(print()), keys.print());
    
-  file->insertItem (klocale->translate("&Print..."),
+  file->insertItem (i18n("&Print..."),
 		    this,	SLOT(print()));
    
   file->insertSeparator (-1);
-  file->insertItem (klocale->translate("&Mail..."),
+  file->insertItem (i18n("&Mail..."),
 		    this,	SLOT(mail()) );
   //  file->insertItem ("&Fancy Print...",this,SLOT(fancyprint()) );
   file->insertSeparator (-1);
-  file->insertItem (klocale->translate("New &Window"),
+  file->insertItem (i18n("New &Window"),
 		    this,	SLOT(newTopLevel()) );
   file->insertSeparator (-1);
-  file->insertItem (klocale->translate("E&xit"),
+  file->insertItem (i18n("E&xit"),
 		    this,	SLOT(quiteditor()), keys.quit());
 
-  edit->insertItem(klocale->translate("&Copy"),
+  edit->insertItem(i18n("&Copy"),
 		   this, 	SLOT(copy()));
-  edit->insertItem(klocale->translate("&Paste"),
+  edit->insertItem(i18n("&Paste"),
 		   this, 	SLOT(paste()));
-  edit->insertItem(klocale->translate("C&ut"),
+  edit->insertItem(i18n("C&ut"),
 		   this, 	SLOT(cut()));
-  edit->insertItem(klocale->translate("&Select All"),
+  edit->insertItem(i18n("&Select All"),
 		   this, 	SLOT(select_all()));
   edit->insertSeparator(-1);
-  edit->insertItem(klocale->translate("&Insert File"),
+  edit->insertItem(i18n("&Insert File"),
 		   this, 	SLOT(insertFile()));
-  edit->insertItem(klocale->translate("Insert &Date"),
+  edit->insertItem(i18n("Insert &Date"),
 		   this, 	SLOT(insertDate()));
   edit->insertSeparator(-1);
-  edit->insertItem(klocale->translate("&Find..."),
+  edit->insertItem(i18n("&Find..."),
 		   this, 	SLOT(search()), keys.find());
-  edit->insertItem(klocale->translate("Find &Again"),
+  edit->insertItem(i18n("Find &Again"),
 		   this, 	SLOT(search_again()));
-  edit->insertItem(klocale->translate("&Replace"),
+  edit->insertItem(i18n("&Replace"),
 		   this, 	SLOT(replace()), keys.replace());
-  edit->insertItem(klocale->translate("Spellcheck..."),
+  edit->insertItem(i18n("Spellcheck..."),
 		   this, SLOT(spellcheck()));
 
 
   edit->insertSeparator(-1);
-  edit->insertItem(klocale->translate("&Goto Line..."),
+  edit->insertItem(i18n("&Goto Line..."),
 		   this, SLOT(gotoLine()));
 
   options->setCheckable(TRUE);
-  options->insertItem(klocale->translate("&Font"),
+  options->insertItem(i18n("&Font..."),
 		      this,	SLOT(font()));
-  options->insertItem(klocale->translate("Colors"), colors);
+  options->insertItem(i18n("&Colors"), colors);
   options->insertSeparator(-1);
-  options->insertItem("Spellchecker...",
+  options->insertItem("&Spellchecker...",
 		      this,  SLOT (spell_configure()));
 
-  options->insertItem(klocale->translate("KEdit &Options..."),
+  options->insertItem(i18n("KEdit &Options..."),
 		      this, 	SLOT(fill_column_slot()));
-  indentID = options->insertItem(klocale->translate("Auto &Indent"), 
+  indentID = options->insertItem(i18n("Auto &Indent"), 
 				 this, SLOT(toggle_indent_mode()));
   options->insertSeparator(-1);
-  toolID   = options->insertItem(klocale->translate("&Tool Bar"),
+  toolID   = options->insertItem(i18n("&Tool Bar"),
 				 this,SLOT(toggleToolBar()));
-  statusID = options->insertItem(klocale->translate("&Status Bar"),
+  statusID = options->insertItem(i18n("&Status Bar"),
 				 this,SLOT(toggleStatusBar()));	
   options->insertSeparator(-1);
-  options->insertItem(klocale->translate("Save Options"),
+  options->insertItem(i18n("Save Options"),
 		      this, 	SLOT(save_options()));
 
   menubar = new KMenuBar (this, "menubar");
-  menubar->insertItem (klocale->translate("&File"), file);
-  menubar->insertItem (klocale->translate("&Edit"), edit);
-  menubar->insertItem (klocale->translate("&Options"), options);
+  menubar->insertItem (i18n("&File"), file);
+  menubar->insertItem (i18n("&Edit"), edit);
+  menubar->insertItem (i18n("&Options"), options);
   menubar->insertSeparator(-1);
 
   help = mykapp->getHelpMenu(TRUE, 
@@ -309,7 +309,7 @@ void TopLevel::setupMenuBar(){
 		);
 
 
-  menubar->insertItem( klocale->translate("&Help"), help);
+  menubar->insertItem(i18n("&Help"), help);
 
   setMenu(menubar);
   
@@ -329,35 +329,35 @@ void TopLevel::setupToolBar(){
   pixmap = loader->loadIcon("filenew2.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
-		      SLOT(file_new()), TRUE, klocale->translate("New Document"));
+		      SLOT(file_new()), TRUE, i18n("New Document"));
 
 
   pixmap = loader->loadIcon("fileopen.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
-		      SLOT(file_open()), TRUE, klocale->translate("Open Document"));
+		      SLOT(file_open()), TRUE, i18n("Open Document"));
 
   pixmap = loader->loadIcon("filefloppy.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
-		      SLOT(file_save()), TRUE, klocale->translate("Save Document"));
+		      SLOT(file_save()), TRUE, i18n("Save Document"));
 
   toolbar->insertSeparator();
 
   pixmap = loader->loadIcon("editcopy.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
-		      SLOT(copy()), TRUE, klocale->translate("Copy"));
+		      SLOT(copy()), TRUE, i18n("&Copy"));
 
   pixmap = loader->loadIcon("editpaste.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
-		      SLOT(paste()), TRUE, klocale->translate("Paste"));
+		      SLOT(paste()), TRUE, i18n("&Paste"));
 
   pixmap = loader->loadIcon("editcut.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
-		      SLOT(cut()), TRUE, klocale->translate("Cut"));
+		      SLOT(cut()), TRUE, i18n("C&ut"));
 
   toolbar->insertSeparator();
 
@@ -365,19 +365,19 @@ void TopLevel::setupToolBar(){
   pixmap = loader->loadIcon("fileprint.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
-		      SLOT(print()), TRUE, klocale->translate("Print Document"));
+		      SLOT(print()), TRUE, i18n("Print Document"));
 
   pixmap = loader->loadIcon("send.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
-		      SLOT(mail()), TRUE, klocale->translate("Mail Document"));
+		      SLOT(mail()), TRUE, i18n("Mail Document"));
 
 
   toolbar->insertSeparator();
   pixmap = loader->loadIcon("help.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
-		      SLOT(helpselected()), TRUE, klocale->translate("Help"));
+		      SLOT(helpselected()), TRUE, i18n("Help"));
 
   toolbar->setBarPos( KToolBar::Top );
 
@@ -489,7 +489,7 @@ retry_insertFile:
 
   returncode = eframe->insertFile();
   if(returncode == KEdit::KEDIT_OK)
-    setGeneralStatusField(klocale->translate("Done"));
+    setGeneralStatusField(i18n("Done"));
   if(returncode == KEdit::KEDIT_RETRY)
     goto retry_insertFile;
 
@@ -577,7 +577,7 @@ tryagain_fileopen:
   case KEdit::KEDIT_OK :	
     {
       QString string;
-      setGeneralStatusField(klocale->translate("Done"));
+      setGeneralStatusField(i18n("Done"));
       add_recent_file(eframe->getName());
       break;
     }
@@ -602,7 +602,7 @@ tryagain_fileopen:
 
 void TopLevel::file_open_url(){
 
-  UrlDlg l( this, klocale->translate("Open Location:"), url_location.data());
+  UrlDlg l(this, i18n("Open Location:"), url_location.data());
   if ( l.exec() )
     {
       QString n = l.getText();
@@ -616,7 +616,7 @@ void TopLevel::file_open_url(){
 
 void TopLevel::file_save_url(){
 
-  UrlDlg l( this, klocale->translate("Save to Location:"), eframe->getName());
+  UrlDlg l( this, i18n("Save to Location:"), eframe->getName());
   if ( l.exec() )
     {
       QString n = l.getText();
@@ -642,12 +642,12 @@ void TopLevel::quiteditor(){
     }
     else{ /// modified
 
-      switch( QMessageBox::information( this,klocale->translate("Message"),
-			     klocale->translate("This Document has been modified.\n"\
+      switch( QMessageBox::information( this, i18n("Message"),
+			     i18n("This Document has been modified.\n"\
 						"Would you like to save it?"),
-					klocale->translate("Yes"),
-					klocale->translate("No"), 
-					klocale->translate("Cancel"),
+					i18n("Yes"),
+					i18n("No"), 
+					i18n("Cancel"),
 					0,      // Enter == button 0
 					2 ) ){
 
@@ -659,11 +659,11 @@ void TopLevel::quiteditor(){
 	if(result != KEdit::KEDIT_OK){
 
 
-	  switch( QMessageBox::warning( this,klocale->translate("Sorry"),
-			  klocale->translate("Could not save the file.\n"\
+	  switch( QMessageBox::warning( this, i18n("Sorry"),
+			  i18n("Could not save the file.\n"\
 					     "Exit anyways?"),
-					     klocale->translate("Yes"),
-					     klocale->translate("No"), 
+					     i18n("Yes"),
+					     i18n("No"), 
 					0,      // Enter == button 0
 					1 ) ){
 	  case 0: // yes exit
@@ -705,12 +705,12 @@ void TopLevel::quiteditor(){
 
   switch( QMessageBox::warning( 
 		    this,
-		    klocale->translate("Message"),
-		    klocale->translate("There are windows with modified content open.\n"\
+		    i18n("Message"),
+		    i18n("There are windows with modified content open.\n"\
 		    "If you exit now, you will loose those changes\n"\
 		    "Quit anyways?"),
-		     klocale->translate("Yes"),
-		     klocale->translate("No"), 
+		     i18n("Yes"),
+		     i18n("No"), 
 		    "",
 		     1,      // Enter == button 0
 		     1 ) ){
@@ -734,12 +734,12 @@ void TopLevel::openRecent(int i){
 
     switch( QMessageBox::information( 
 			    this,
-			    klocale->translate("Message"),
-			    klocale->translate("The current document has been modified.\n"\
+			    i18n("Message"),
+			    i18n("The current document has been modified.\n"\
 					       "Continue anyways ?"),
-			    klocale->translate("Yes"),
-			    klocale->translate("No"), 
-			    klocale->translate("Cancel"),
+			    i18n("Yes"),
+			    i18n("No"), 
+			    i18n("Cancel"),
 			    1,      // Enter == button 0
 			    2 ) ){
 
@@ -797,12 +797,12 @@ void TopLevel::file_close(){
   if (eframe->isModified ()) {
 
 
-      switch( QMessageBox::information( this,klocale->translate("Message"),
-			     klocale->translate("This Document has been modified.\n"\
+      switch( QMessageBox::information( this,i18n("Message"),
+			     i18n("This Document has been modified.\n"\
 						"Would you like to save it?"),
-					klocale->translate("Yes"),
-					klocale->translate("No"), 
-					klocale->translate("Cancel"),
+					i18n("Yes"),
+					i18n("No"), 
+					i18n("Cancel"),
 					0,      // Enter == button 0
 					2 ) ){
 
@@ -814,11 +814,11 @@ void TopLevel::file_close(){
 	if(result != KEdit::KEDIT_OK){
 
 
-	  switch( QMessageBox::warning( this,klocale->translate("Sorry"),
-			  klocale->translate("Could not save the file.\n"\
+	  switch( QMessageBox::warning( this,i18n("Sorry"),
+			  i18n("Could not save the file.\n"\
 					     "Exit anyways?"),
-					     klocale->translate("Yes"),
-					     klocale->translate("No"), 
+					     i18n("Yes"),
+					     i18n("No"), 
 					0,      // Enter == button 0
 					1 ) ){
 	  case 0: // yes exit
@@ -876,13 +876,13 @@ void TopLevel::file_save(){
       if ( result == KEdit::KEDIT_OK ){
 	  setFileCaption();
 	  QString string;
-	  string.sprintf(klocale->translate("Wrote: %s"),eframe->getName().data());
+	  string.sprintf(i18n("Wrote: %s"),eframe->getName().data());
 	  setGeneralStatusField(string);
       }
   }
   else
   {
-      setGeneralStatusField(klocale->translate("No changes need to be saved"));
+      setGeneralStatusField(i18n("No changes need to be saved"));
   }
 }
 
@@ -901,7 +901,7 @@ void TopLevel::file_save_as(){
   if (eframe->saveAs()== KEdit::KEDIT_OK){
     setFileCaption();
     QString string;
-    string.sprintf(klocale->translate("Saved as: %s"),eframe->getName().data());
+    string.sprintf(i18n("Saved as: %s"),eframe->getName().data());
     setGeneralStatusField(string);
   }
 }
@@ -934,14 +934,14 @@ void TopLevel::mail(){
 
   if(mailpipe == NULL){
     QString str;
-    str.sprintf(klocale->translate("Could not pipe the contents"\
+    str.sprintf(i18n("Could not pipe the contents"\
 				 "of this Document into:\n %s"),cmd.data());
 
     QMessageBox::warning(
 			 this,
-			 klocale->translate("Sorry"),
+			 i18n("Sorry"),
 			 str.data(),
-			 klocale->translate("OK"),
+			 i18n("OK"),
 			 "",
 			 "",
 			 0,0);
@@ -1028,9 +1028,9 @@ void TopLevel::toggle_indent_mode(){
   options->setItemChecked( indentID, mode);
 
   if(mode)
-    setGeneralStatusField(klocale->translate("Auto Indent Mode: On"));
+    setGeneralStatusField(i18n("Auto Indent Mode: On"));
   else
-    setGeneralStatusField(klocale->translate("Auto Indent Mode: Off"));
+    setGeneralStatusField(i18n("Auto Indent Mode: Off"));
 
 }
 
@@ -1060,14 +1060,14 @@ void TopLevel::toggleStatusBar(){
   
     hide_statusbar=FALSE;
     enableStatusBar( KStatusBar::Show );
-    options->changeItem(klocale->translate("Hide &Status Bar"), statusID);
+    options->changeItem(i18n("Hide &Status Bar"), statusID);
   
   } 
   else {
 
     hide_statusbar=TRUE;
     enableStatusBar( KStatusBar::Hide );
-    options->changeItem(klocale->translate("Show &Status Bar"), statusID);
+    options->changeItem(i18n("Show &Status Bar"), statusID);
     
   }
 
@@ -1080,14 +1080,14 @@ void TopLevel::toggleToolBar(){
 
     hide_toolbar=FALSE;
     enableToolBar( KToolBar::Show, toolbar1 );
-    options->changeItem(klocale->translate("Hide &Tool Bar"), toolID);
+    options->changeItem(i18n("Hide &Tool Bar"), toolID);
 
   } 
   else {
   
     hide_toolbar=TRUE;
     enableToolBar( KToolBar::Hide, toolbar1 );
-    options->changeItem(klocale->translate("Show &Tool Bar"), toolID);
+    options->changeItem(i18n("Show &Tool Bar"), toolID);
 
   }  
 
@@ -1126,7 +1126,7 @@ void TopLevel::statusbar_slot(){
 
   QString linenumber;
 
-  linenumber.sprintf(klocale->translate("Line: %d Col: %d"),
+  linenumber.sprintf(i18n("Line: %d Col: %d"),
 		     eframe->currentLine() + 1,
 		     eframe->currentColumn() +1
 		     );
@@ -1140,10 +1140,10 @@ void TopLevel::statusbar_slot(){
 
 void TopLevel::fill_column_slot(){
 
-
-
   FillDlg *dlg;
-  dlg = new FillDlg(this,"optionsdialog");
+
+  dlg = new FillDlg(this, "optionsdialog");
+  dlg->setCaption(i18n("KEdit Options"));
 
   struct fill_struct fillstr;
     
@@ -1185,19 +1185,19 @@ void TopLevel::print(){
   QString file;
 
   int result;
-  /*  if(strcmp(eframe->getName(), klocale->translate("Untitled"))!= 0){*/
+  /*  if(strcmp(eframe->getName(), i18n("Untitled"))!= 0){*/
 
 
   if (eframe->isModified ()) {
 
 
-      switch( QMessageBox::information( this,klocale->translate("Message"),
-			    klocale->translate("The current document has been modified.\n"\
+      switch( QMessageBox::information( this,i18n("Message"),
+			    i18n("The current document has been modified.\n"\
 					       "Would you like to save the changes before \n"\
 					       "printing this Document?"),
-			    klocale->translate("Yes"),
-			    klocale->translate("No"), 
-			    klocale->translate("Cancel"),
+			    i18n("Yes"),
+			    i18n("No"), 
+			    i18n("Cancel"),
 			    0,      // Enter == button 0
 			    2 ) ){
 
@@ -1209,11 +1209,11 @@ void TopLevel::print(){
 	if(result != KEdit::KEDIT_OK){
 
 
-	  switch( QMessageBox::warning( this,klocale->translate("Sorry"),
-			  klocale->translate("Could not save the file.\n"\
+	  switch( QMessageBox::warning( this,i18n("Sorry"),
+			  i18n("Could not save the file.\n"\
 					     "Print anyways?"),
-					     klocale->translate("Yes"),
-					     klocale->translate("No"), 
+					     i18n("Yes"),
+					     i18n("No"), 
 					0,      // Enter == button 0
 					1 ) ){
 	  case 0: // yes exit
@@ -1250,7 +1250,7 @@ void TopLevel::print(){
     pi = printing->getCommand();
 
     pi.command.detach();
-  if(strcmp(eframe->getName(), klocale->translate("Untitled"))== 0){
+  if(strcmp(eframe->getName(), i18n("Untitled"))== 0){
 
       // we go through all of this so that we can print an "Untitled" document
       // quickly without going through the hassle of saving it. This will 
@@ -1303,10 +1303,10 @@ void TopLevel::print(){
       system(com.data());
       QString string;
       if(pi.selection)
-	string.sprintf(klocale->translate("Printing: %s Untitled (Selection)")
+	string.sprintf(i18n("Printing: %s Untitled (Selection)")
 		       , command.data());
       else
-	string.sprintf(klocale->translate("Printing: %s Untitled")
+	string.sprintf(i18n("Printing: %s Untitled")
 		       , command.data());
       setGeneralStatusField(string);
 
@@ -1344,7 +1344,7 @@ void TopLevel::print(){
 	com.sprintf("%s %s &",command.data(), eframe->getName().data());
 	system(com.data());
 	QString string;	
-	string.sprintf(klocale->translate("Printing: %s"),com.data());
+	string.sprintf(i18n("Printing: %s"),com.data());
 	setGeneralStatusField(string);
       
       }
@@ -1354,7 +1354,7 @@ void TopLevel::print(){
 		  tmpname.data(),tmpname.data());
 	system(com.data());
 	QString string;	
-	string.sprintf(klocale->translate("Printing: %s %s (Selection)"),
+	string.sprintf(i18n("Printing: %s %s (Selection)"),
 		       command.data(), eframe->getName().data());
 	setGeneralStatusField(string);
       
@@ -1378,14 +1378,14 @@ void TopLevel::save_options(){
 
 void TopLevel::saving_slot(){
 
-  setGeneralStatusField(klocale->translate("Saving ..."));
+  setGeneralStatusField(i18n("Saving ..."));
 
 }
 
 
 void TopLevel::loading_slot(){
 
-  setGeneralStatusField(klocale->translate("Loading ..."));
+  setGeneralStatusField(i18n("Loading ..."));
 
 }
 
@@ -1398,9 +1398,9 @@ void TopLevel::saveNetFile( const char *_url )
     KURL u( netFile.data() );
     if ( u.isMalformed() )
     {
-	QMessageBox::message (klocale->translate("Sorry"), 
-        klocale->translate("Malformed URL"), 
-	klocale->translate("OK"));
+	QMessageBox::message (i18n("Sorry"), 
+        i18n("Malformed URL"), 
+	i18n("OK"));
 	return;
     }
 
@@ -1418,12 +1418,12 @@ void TopLevel::saveNetFile( const char *_url )
     {
 	QMessageBox::information(
 			      this,
-			      klocale->translate("Sorry"), 
-			      klocale->translate("KEdit is already waiting\n"\
+			      i18n("Sorry"), 
+			      i18n("KEdit is already waiting\n"\
 						 "for an internet job to finish\n"\
 						 "Please wait until has finished\n"\
 						 "Alternatively stop the running one."), 
-			      klocale->translate("OK"),
+			      i18n("OK"),
 			      "",
 			      "",
 			      0,0);
@@ -1435,9 +1435,9 @@ void TopLevel::saveNetFile( const char *_url )
     {
 	QMessageBox::warning(
 			     this,
-			     klocale->translate("Sorry"), 
-			     klocale->translate("Could not start or find KFM"), 
-			     klocale->translate("OK"),
+			     i18n("Sorry"), 
+			     i18n("Could not start or find KFM"), 
+			     i18n("OK"),
 			     "",
 			     "",
 			     0,0);
@@ -1478,12 +1478,12 @@ void TopLevel::openNetFile( const char *_url, int _mode )
 	}
         if (u->isMalformed()){
 	  QString string;
-	  string.sprintf(klocale->translate( "Malformed URL\n%s"),netFile.data());
+	  string.sprintf(i18n( "Malformed URL\n%s"),netFile.data());
 
   	  QMessageBox::warning(this,
-			       klocale->translate("Sorry"),
+			       i18n("Sorry"),
 			       string.data(),
-			       klocale->translate("OK"),
+			       i18n("OK"),
 			       "",
 			       "",
 			       0,0);
@@ -1498,7 +1498,7 @@ void TopLevel::openNetFile( const char *_url, int _mode )
 	QString decoded( u->path() );
 	KURL::decodeURL( decoded );
 	QString string;
-	string.sprintf(klocale->translate("Loading '%s'"),decoded.data() );
+	string.sprintf(i18n("Loading '%s'"),decoded.data() );
 	setGeneralStatusField(string);
 	eframe->loadFile( decoded, _mode );
 	add_recent_file( decoded );
@@ -1511,28 +1511,28 @@ void TopLevel::openNetFile( const char *_url, int _mode )
     {
 	QMessageBox::information(
 				 this,
-				 klocale->translate("Sorry"), 
-				 klocale->translate("KEdit is already waiting\n"\
+				 i18n("Sorry"), 
+				 i18n("KEdit is already waiting\n"\
 						    "for an internet job to finish\n"\
 						    "Please wait until has finished\n"\
 						    "Alternatively stop the running one."), 
-				 klocale->translate("OK"),
+				 i18n("OK"),
 				 "",
 				 "",
 				 0,0);
 	return;
     }
-    setGeneralStatusField(klocale->translate("Calling KFM"));
+    setGeneralStatusField(i18n("Calling KFM"));
     
     kfm = new KFM;
-    setGeneralStatusField(klocale->translate("Done"));
+    setGeneralStatusField(i18n("Done"));
     if ( !kfm->isOK() )
     {
 	QMessageBox::warning(
 			     this,
-			     klocale->translate("Sorry"), 
-			     klocale->translate("Could not start or find KFM"),
-			     klocale->translate("OK"),
+			     i18n("Sorry"), 
+			     i18n("Could not start or find KFM"),
+			     i18n("OK"),
 			     "",
 			     "",
 			     0,0);
@@ -1541,12 +1541,12 @@ void TopLevel::openNetFile( const char *_url, int _mode )
 	return;
     }
     
-    setGeneralStatusField(klocale->translate("Starting Job"));
+    setGeneralStatusField(i18n("Starting Job"));
     tmpFile.sprintf( "file:/tmp/kedit%i", time( 0L ) );
     connect( kfm, SIGNAL( finished() ), this, SLOT( slotKFMFinished() ) );
-    setGeneralStatusField(klocale->translate("Connected"));
+    setGeneralStatusField(i18n("Connected"));
     kfm->copy( netFile.data(), tmpFile.data() );
-    setGeneralStatusField(klocale->translate("Waiting..."));
+    setGeneralStatusField(i18n("Waiting..."));
     kfmAction = TopLevel::GET;
     openMode = _mode;
 }
@@ -1554,7 +1554,7 @@ void TopLevel::openNetFile( const char *_url, int _mode )
 void TopLevel::slotKFMFinished()
 {
   QString string;
-  string.sprintf(klocale->translate("Finished '%s'"),tmpFile.data());
+  string.sprintf(i18n("Finished '%s'"),tmpFile.data());
   setGeneralStatusField(string);
 
     if ( kfmAction == TopLevel::GET )
@@ -1595,17 +1595,17 @@ void TopLevel::slotDropEvent( KDNDDropZone * _dropZone )
 	}
 	else
 	{
-	    setGeneralStatusField(klocale->translate("New Window"));
+	    setGeneralStatusField(i18n("New Window"));
 	    TopLevel *t = new TopLevel ();
 	    t->show ();
 	    windowList.append( t );
-	    setGeneralStatusField(klocale->translate("New Window Created"));
+	    setGeneralStatusField(i18n("New Window Created"));
 	    QString n = s;
 	    /*	    if ( n.left(5) != "file:" && n.left(4) == "ftp:" )*/
 		t->openNetFile( n.data(), KEdit::OPEN_READWRITE );
 		/*	    else
 		t->openNetFile( n.data(), KEdit::OPEN_READWRITE );*/
-	    setGeneralStatusField(klocale->translate("Load Command Done"));
+	    setGeneralStatusField(i18n("Load Command Done"));
 	}
     }
 }
@@ -1697,7 +1697,7 @@ void TopLevel::readSettings(){
 
        	config->setGroup( "Text Font" );
 
-	generalFont = config->readFontEntry("KEditFont",&generalFont);
+	generalFont = config->readFontEntry("KEditFont", &generalFont);
 
 	/*	str = config->readEntry( "Family" );
 	if ( !str.isNull() )
@@ -2017,11 +2017,11 @@ int main (int argc, char **argv)
 		if(!file.open( IO_ReadWrite)){
 
 		  QString string;
-		  string.sprintf(klocale->translate("Can not create:\n%s"),f.data());
+		  string.sprintf(i18n("Can not create:\n%s"),f.data());
 		  QMessageBox::warning(0,
-			     klocale->translate("Sorry"),
+			     i18n("Sorry"),
 			     string.data(),
-			     klocale->translate("OK"),
+			     i18n("OK"),
 			     0,0);
 		  ok = false;
 
@@ -2054,7 +2054,9 @@ int main (int argc, char **argv)
 void TopLevel::spell_configure ()
 {
   KWM kwm;
-  QTabDialog qtd (0, "tabdialog", TRUE);
+  QTabDialog qtd (this, "tabdialog", true);
+
+  qtd.setCaption(i18n("Spellchecker Options"));
 
   KSpellConfig ksc (&qtd, 0, eframe->ksConfig());
   qtd.addTab (&ksc, "Spellchecker");
