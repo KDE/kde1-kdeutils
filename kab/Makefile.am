@@ -21,16 +21,15 @@ APPSDIR = $(kde_appsdir)/Utilities
 bin_PROGRAMS = 	kab kabapi_test
 THE_LIBS= -lkab -lkfile -lkfm -lkdeui -lkdecore -lqt -lXext \
 	-lX11 $(LIBSOCKET) -ljpeg
-
 kab_SOURCES	= main.cc \
 		AddressBookAbout.cpp \
 		AddressBookAboutData.cpp \
 		toplevelwidget.cc
-kab_LDFLAGS = $(all_libraries) $(KDE_RPATH)
+kab_LDFLAGS = @all_libraries@
 kab_LDADD   = 	$(THE_LIBS)
 
 kabapi_test_SOURCES= kabapi_test.cc
-kabapi_test_LDFLAGS = $(all_libraries) $(KDE_RPATH)
+kabapi_test_LDFLAGS = @all_libraries@
 kabapi_test_LDADD= $(THE_LIBS)
 
 
@@ -62,8 +61,6 @@ install-data-local:
 	$(mkinstalldirs) $(kde_datadir)
 	$(mkinstalldirs) $(kde_datadir)/kab/
 	$(mkinstalldirs) $(kde_datadir)/kab/pics/
-	$(INSTALL_DATA) background_1.jpg \
-		$(kde_datadir)/kab/pics/background_1.jpg
 	$(INSTALL_DATA) addressbook_logo.jpg \
 		$(kde_datadir)/kab/pics/addressbook_logo.jpg
 	

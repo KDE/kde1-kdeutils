@@ -20,8 +20,11 @@
 #ifndef KAB_DEBUG_H
 #define	KAB_DEBUG_H
 
+extern "C" {
 #include <stdio.h> // Nana needs this
 #include <errno.h>
+}
+#include "stl_headers.h"
 #include <kapp.h>
 
 // use version without Nana per default:
@@ -74,6 +77,9 @@
 #undef ENSURE
 #endif
 
+// a static string that contains the authors email address:
+extern string AuthorEmailAddress;
+
 // we use our own kind of assertions here: colorful, cute and impressive bugs!
 #if ! defined NDEBUG || defined DEBUG
 // #include "AssertDialog.h"
@@ -89,6 +95,9 @@
 #endif
 
 // the function that pops up a dialog when an assertion failes (in libkab):
-void evaluate_assertion(bool condition, const char* file, int line, const char* cond_text);
+void evaluate_assertion(bool condition, 
+			const char* file, 
+			int line, 
+			const char* cond_text);
 
 #endif // KAB_DEBUG_H
