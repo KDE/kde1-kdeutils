@@ -380,7 +380,7 @@ msgstr "Fragmento de texto"
 
 #: search.cpp:38
 msgid "Wrap search"
-msgstr ""
+msgstr "Procura Wrap"
 
 #: search.cpp:79
 msgid "Note"
