@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ktop 0.9.7\n"
 "POT-Creation-Date: 1999-03-12 14:27+0100\n"
-"PO-Revision-Date: 1999-01-29 23:00 CET\n"
+"PO-Revision-Date: 1999-03-12 15:00 CET\n"
 "Last-Translator: Francois-Xavier DURANCEAU "
 "<Francois-Xavier.Duranceau@loria.fr>\n"
 "Language-Team: Français <fr@li.org>\n"
@@ -15,39 +15,38 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: ktop.cpp:66
-#, fuzzy
 msgid "88888 Processes"
-msgstr "Tous les processus"
+msgstr "88888 Processus"
 
 #: ktop.cpp:67
 msgid "Memory: 888888 kB used, 888888 kB free"
-msgstr ""
+msgstr "Mémoire : 888888 ko utilisés, 888888 ko libres"
 
 #: ktop.cpp:69
 msgid "Swap: 888888 kB used, 888888 kB free"
-msgstr ""
+msgstr "Swap : 888888 ko utilisés, 888888 ko libres"
 
 #: ktop.cpp:76
 msgid "KDE Task Manager"
 msgstr "Getionnaire de tâches de KDE"
 
 #: ktop.cpp:137
-#, fuzzy, c-format
+#, c-format
 msgid "%d Processes"
-msgstr "Tous les processus"
+msgstr "%d processus"
 
 #: ktop.cpp:142
 #, c-format
 msgid "Memory: %d kB used, %d kB free"
-msgstr ""
+msgstr "Mémoire : %d kB utilisés, %d ko libres"
 
 #: ktop.cpp:147
 #, c-format
 msgid "Swap: %d kB used, %d kB free"
-msgstr ""
+msgstr "Swap : %d ko utilisés, %d ko libres"
 
 #: MainMenu.cpp:51
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "KDE Task Manager (KTop) Version %s\n"
 "\n"
@@ -65,35 +64,31 @@ msgstr ""
 "1997 : Ralf Mueller <ralf@bj-ig.de>\n"
 "1997-98 : Bernd Johannes Wuebben <wuebben@kde.org>\n"
 "1998 : Nicolas Leclercq <nicknet@planete.net>\n"
-"1999 : Chris Schlaeger <cs@axys.de>\n"
+"1999 : Chris Schlaeger <cs@kde.org>\n"
 
 #: MainMenu.cpp:64
 msgid "Manual Refresh"
-msgstr ""
+msgstr "Rafraîchissement manuel"
 
 #: MainMenu.cpp:65
-#, fuzzy
 msgid "Slow Refresh"
-msgstr "Rafraîchir"
+msgstr "Lent"
 
 #: MainMenu.cpp:66
 msgid "Medium Refresh"
-msgstr ""
+msgstr "Moyen"
 
 #: MainMenu.cpp:67
-#, fuzzy
 msgid "Fast Refresh"
-msgstr "Rafraîchir"
+msgstr "Rapide"
 
 #: MainMenu.cpp:79
-#, fuzzy
 msgid "&Refresh Rate"
-msgstr "Rafraîchissement : Lent"
+msgstr "&Rafraîchissement"
 
 #: MainMenu.cpp:80
-#, fuzzy
 msgid "&Process"
-msgstr "Geltillesse du processus"
+msgstr "&Processus"
 
 #: ProcessMenu.cpp:44
 msgid "Renice Task..."
@@ -129,16 +124,13 @@ msgid "Task Manager"
 msgstr "Getionnaire de tâches"
 
 #: ProcessMenu.cpp:75
-#, fuzzy
 msgid "You need to select a process first!"
-msgstr ""
-"Vous devez sélectionner un processus avant\n"
-"d'appuyer sur le bouton Tuer la tâche !\n"
+msgstr "Vous devez d'abord sélectionner un processus !"
 
 #: ProcessMenu.cpp:85 ProcessMenu.cpp:149
 #, c-format
 msgid "The process %d is no longer persistent."
-msgstr ""
+msgstr "Le processus %d n'existe plus."
 
 #: ProcessMenu.cpp:98
 msgid "SIGINT"
@@ -166,7 +158,7 @@ msgstr "SIGUSR2"
 
 #: ProcessMenu.cpp:116
 msgid "Unkown Signal"
-msgstr ""
+msgstr "Signal inconnu"
 
 #: ProcessMenu.cpp:122
 #, c-format
@@ -229,15 +221,15 @@ msgstr "Tuer la tâche"
 
 #: ProcessList.cpp:227
 msgid "Remove Column"
-msgstr ""
+msgstr "Enlever la colonne"
 
 #: ProcessList.cpp:228
 msgid "Add Column"
-msgstr ""
+msgstr "Ajouter une colonne"
 
 #: ProcessList.cpp:229
 msgid "Help on Column"
-msgstr ""
+msgstr "Aide sur la colonne"
 
 #: ProcessList.cpp:691 ProcessList.cpp:692
 msgid "Name"
@@ -281,7 +273,7 @@ msgstr "Partagé"
 
 #: ProcessList.cpp:707
 msgid "Command line"
-msgstr ""
+msgstr "Ligne de commande"
 
 #: OSProcessList.cpp:76 OSProcessList.cpp:103
 msgid ""
@@ -316,7 +308,7 @@ msgstr "Impossible d'ouvrir %s !\n"
 
 #: OSProcess.cpp:130
 msgid "The Process has been terminated!\n"
-msgstr ""
+msgstr "Le processus a été arrêté !\n"
 
 #: OSProcess.cpp:191
 msgid "Run"
@@ -353,55 +345,49 @@ msgid "Cound not send signal %d to process %d"
 msgstr "Impossible d'envoyer le signal %d au processus %d"
 
 #: PerfMonPage.cpp:49
-#, fuzzy
 msgid "CPU Load History"
-msgstr "Historique de la charge CPU"
+msgstr "Historique de Charge CPU"
 
 #: PerfMonPage.cpp:52
-#, fuzzy
 msgid "System Load History"
-msgstr "Historique de la charge CPU"
+msgstr "Historique de Charge système"
 
 #: PerfMonPage.cpp:55 PerfMonPage.cpp:113
-#, fuzzy
 msgid "User (%)"
-msgstr "Utilisateur"
+msgstr "Utilisateur (%)"
 
 #: PerfMonPage.cpp:56 PerfMonPage.cpp:114
-#, fuzzy
 msgid "Nice (%)"
-msgstr "Gentillesse"
+msgstr "Gentillesse (%)"
 
 #: PerfMonPage.cpp:57 PerfMonPage.cpp:115
 msgid "System (%)"
-msgstr ""
+msgstr "Système (%)"
 
 #: PerfMonPage.cpp:64
-#, fuzzy
 msgid "Memory Usage History"
-msgstr "Historique de l'utilisation de la mémoire"
+msgstr "Historique d'utilisation mémoire"
 
 #: PerfMonPage.cpp:66
 msgid "Program (kB)"
-msgstr ""
+msgstr "Programme (ko)"
 
 #: PerfMonPage.cpp:67
 msgid "Buffer (kB)"
-msgstr ""
+msgstr "Tampon (ko)"
 
 #: PerfMonPage.cpp:68
 msgid "Cache (kB)"
-msgstr ""
+msgstr "Cache (ko)"
 
 #: PerfMonPage.cpp:69
-#, fuzzy
 msgid "Swap (kB)"
-msgstr "Swap"
+msgstr "Swap (ko)"
 
 #: PerfMonPage.cpp:109
-#, fuzzy, c-format
+#, c-format
 msgid "CPU%d Load History"
-msgstr "Historique de la charge CPU"
+msgstr "Historique de charge CPU %d"
 
 #: OSStatus.cpp:98
 msgid ""
@@ -428,13 +414,13 @@ msgid "Cannot read memory info file '/proc/meminfo'!\n"
 msgstr "Impossible de lire les infos sur la mémoire dans '/proc/meminfo'.\n"
 
 #: OSStatus.cpp:353
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Cannot read info for %s from file '/proc/stat'!\n"
 "The kernel needs to be compiled with support\n"
 "for /proc filesystem enabled!"
 msgstr ""
-"Impossible de lire le fichier '/proc/stat'!\n"
+"Impossible de lire les infos sur %s dans le fichier '/proc/stat'!\n"
 "Le noyau doit être compilé avec le support du\n"
 "système de fichiers /proc."
 
@@ -452,10 +438,10 @@ msgstr ""
 
 #: ReniceDlg.cpp:32
 msgid "Renice Process"
-msgstr "Geltillesse du processus"
+msgstr "Gentillesse du processus"
 
 #: ReniceDlg.cpp:39
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You are about the change the scheduling priority of\n"
 "process %d. Be aware that only the Superuser (root)\n"
@@ -464,51 +450,10 @@ msgid ""
 "\n"
 "Please enter the desired nice level:"
 msgstr ""
-"Vous allez modifier la priorité d'ordonnancement d'un\n"
-"processus. Uniquement le Super-utilisateur (root)\n"
+"Vous allez modifier la priorité d'ordonnancement du\n"
+"processus %d. Uniquement le Super-utilisateur (root)\n"
 "peut diminuer la gentillesse d'un processus. Plus le\n"
 "nombre est petit, plus la priorité est élevée.\n"
 "\n"
 "Entrez la valeur de gentillesse désirée :"
 
-#~ msgid "StartUp Preferences..."
-#~ msgstr "Démarrage..."
-
-#~ msgid "KTop Preferences"
-#~ msgstr "Préférences de Ktop"
-
-#~ msgid "Start up page"
-#~ msgstr "Onglet de démarrage"
-
-#~ msgid "Processes &Tree"
-#~ msgstr "&Arbre des processus"
-
-#~ msgid "&Performance"
-#~ msgstr "&Ressources"
-
-#~ msgid "Refresh rate: Medium"
-#~ msgstr "Rafraîchissement : Moyen"
-
-#~ msgid "Refresh rate: Fast"
-#~ msgstr "Rafraîchissement : Rapide"
-
-#~ msgid "Change Root"
-#~ msgstr "A la racine"
-
-#~ msgid "Kill Task"
-#~ msgstr "Tuer la tâche"
-
-#~ msgid "Sort by ID"
-#~ msgstr "Tri par ID"
-
-#~ msgid "Sort by Name"
-#~ msgstr "Tri par Nom"
-
-#~ msgid "Sort by Owner (UID)"
-#~ msgstr "Tri par Propriétaire (UID)"
-
-#~ msgid "CPU load"
-#~ msgstr "Charge CPU"
-
-#~ msgid "Swap history"
-#~ msgstr "Historique swap"

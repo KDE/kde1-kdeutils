@@ -373,11 +373,9 @@ msgstr ""
 "Veuillez choisir un nom différent."
 
 #: docking.cpp:48
-#, fuzzy, c-format
+#, c-format
 msgid "Could not load %s !"
-msgstr ""
-"Impossible de charger :\n"
-" %s"
+msgstr "Impossible de charger %s !"
 
 #: docking.cpp:68
 msgid "Change Defaults"
