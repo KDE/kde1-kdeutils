@@ -49,6 +49,9 @@ messages:
 
 configure.in: configure.in.in subdirs
 	$(MAKE) -f admin/Makefile.common configure.in
+	if test -d kfloppy; then \
+	  (cd kfloppy/e2fs && autoconf) \
+	fi   
 
 subdirs:
 	$(MAKE) -f admin/Makefile.common subdirs
