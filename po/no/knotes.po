@@ -143,7 +143,7 @@ msgstr ""
 
 #: knotes.cpp:1329
 msgid "KNotes Configuraton"
-msgstr "KNotes konfigurasjon"
+msgstr "KNotes-konfigurasjon"
 
 #: knotes.cpp:1370
 msgid "Defaults"
