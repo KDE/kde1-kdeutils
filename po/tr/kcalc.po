@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE 1.0\n"
-"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"POT-Creation-Date: 1999-01-12 01:57+0100\n"
 "PO-Revision-Date: 1998-06-29 11:00+0200\n"
 "Last-Translator: Cevat TOPCU <bbm817@hun.edu.tr>\n"
 "Language-Team: Hacettepe Linux Users Group <hacettepe@linux.org.tr>\n"
@@ -54,7 +54,7 @@ msgstr "Öntanýmlar"
 msgid "Display Font"
 msgstr "Yazý Tipini Göster"
 
-#: kcalc_core.cpp:1145
+#: kcalc_core.cpp:1151
 msgid "Stat Mem cleared"
 msgstr "Ýstatistik Belleði Sýfýrlandý"
 

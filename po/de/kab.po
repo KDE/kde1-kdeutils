@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-01-12 01:57+0100\n"
 "PO-Revision-Date: 1998-11-17 09:30+0100\n"
 "Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 "Language-Team: de <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgstr ""
 msgid "written and maintained by"
 msgstr "Geschrieben und betreut von"
 
-#: AddressBookAboutData.cpp:61
+#: AddressBookAboutData.cpp:62
 msgid "kab 0.9.5, December 1998"
 msgstr ""
 

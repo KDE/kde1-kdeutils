@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"POT-Creation-Date: 1999-01-12 01:57+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1998-03-06 23:13:09-0500\n"
 "From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
@@ -49,7 +49,7 @@ msgstr "Oletukset"
 msgid "Display Font"
 msgstr "Näyttökirjasin"
 
-#: kcalc_core.cpp:1145
+#: kcalc_core.cpp:1151
 msgid "Stat Mem cleared"
 msgstr "Tilastomuisti puhdistettu"
 

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcalc\n"
-"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"POT-Creation-Date: 1999-01-12 01:57+0100\n"
 "PO-Revision-Date: 1998-03-06 23:13+000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt\n"
@@ -49,7 +49,7 @@ msgstr "Valores por Omissão"
 msgid "Display Font"
 msgstr "Fonte"
 
-#: kcalc_core.cpp:1145
+#: kcalc_core.cpp:1151
 msgid "Stat Mem cleared"
 msgstr "Memória estatística limpa"
 

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"POT-Creation-Date: 1999-01-12 01:57+0100\n"
 "PO-Revision-Date: 1998-03-30 21:00+0200\n"
 "Last-Translator: Nikolas Kroupis <nkroup@obelix.ee.duth.gr>\n"
 "Language-Team: GREEK <kde-team@obelix.ee.duth.gr>\n"
@@ -51,7 +51,7 @@ msgstr "Προεπιλεγμένα"
 msgid "Display Font"
 msgstr "Γραμματοσειρά Οθόνης"
 
-#: kcalc_core.cpp:1145
+#: kcalc_core.cpp:1151
 msgid "Stat Mem cleared"
 msgstr "Στατιστική μνήμη μηδενίστηκε"
 

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"POT-Creation-Date: 1999-01-12 01:57+0100\n"
 "PO-Revision-Date: 1998-02-03 16:00+0100\n"
 "Last-Translator: Andrea Rizzi <Bilibao@ouverture.it>\n"
 "Language-Team: Italiano <it@li.org>\n"
@@ -50,7 +50,7 @@ msgstr "Default"
 msgid "Display Font"
 msgstr "Caratteri Display"
 
-#: kcalc_core.cpp:1145
+#: kcalc_core.cpp:1151
 msgid "Stat Mem cleared"
 msgstr "Memoria Statistica svuotata"
 

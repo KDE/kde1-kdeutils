@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"POT-Creation-Date: 1999-01-12 01:57+0100\n"
 "PO-Revision-Date: 1998-04-21 13:50+0200\n"
 "Last-Translator: Oliver Hensel <oliver.hensel@gmx.de>\n"
 "Content-Type: text/plain; charset=\n"
@@ -51,7 +51,7 @@ msgstr "Standards"
 msgid "Display Font"
 msgstr "Darstellungs-Schrift"
 
-#: kcalc_core.cpp:1145
+#: kcalc_core.cpp:1151
 msgid "Stat Mem cleared"
 msgstr "Statistik-Speicher gelöscht"
 

@@ -98,6 +98,7 @@ msgid "Preferences"
 msgstr "Preferências"
 
 #: top.cpp:194
+#, c-format
 msgid ""
 "%s %s -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"

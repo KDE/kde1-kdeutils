@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kab\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-01-12 01:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgstr ""
 msgid "written and maintained by"
 msgstr "skrevet og vedlikehodt av"
 
-#: AddressBookAboutData.cpp:61
+#: AddressBookAboutData.cpp:62
 msgid "kab 0.9.5, December 1998"
 msgstr ""
 

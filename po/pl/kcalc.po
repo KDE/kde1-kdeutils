@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcalc \n"
-"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"POT-Creation-Date: 1999-01-12 01:57+0100\n"
 "PO-Revision-Date: 1999-01-04 01:59+0100\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -49,7 +49,7 @@ msgstr "Domy¶lne"
 msgid "Display Font"
 msgstr "Czcionka"
 
-#: kcalc_core.cpp:1145
+#: kcalc_core.cpp:1151
 msgid "Stat Mem cleared"
 msgstr "Stat Mem skasowana"
 
