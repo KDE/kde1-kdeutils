@@ -126,7 +126,7 @@ msgid ""
 "Please insert a floppy and make sure that you\n"
 "have selected a valid floppy drive.\n"
 msgstr ""
-"Flopile või flopidraivile pole võimalik juurde\n" 
+"Flopile või flopidraivile pole võimalik juurde\n"
 "pääseda. Palun aseta flopi flopi draivi ja veendu,\n"
 "et sa oled valinud õige flopi seadme.\n"
 
@@ -196,4 +196,3 @@ msgid ""
 msgstr ""
 "%s on ühendatud.\n"
 "Palun ühenda kõigepealt flopi lahti."
-

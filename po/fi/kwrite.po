@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KWRITE\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-01-14 01:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,6 +76,11 @@ msgstr "Tyypin kirjasin"
 
 #: kwview.cpp:1057
 msgid "Vertical Selections On"
+msgstr "Pystyvalinnat p‰‰ll‰"
+
+#: kwview.cpp:1057
+#, fuzzy
+msgid "Vertical Selections Off"
 msgstr "Pystyvalinnat p‰‰ll‰"
 
 #: kwview.cpp:1116

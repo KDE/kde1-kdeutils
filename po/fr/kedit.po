@@ -534,5 +534,3 @@ msgstr "Expédier"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Vous devez spécifier un destinataire"
-
-

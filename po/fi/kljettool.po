@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1998-03-06 22:44:34-0500\n"
 "From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
@@ -36,6 +36,11 @@ msgstr "Kopioita"
 #: PaperData.cpp:80
 msgid "Lines"
 msgstr "Rivejä"
+
+#: PaperData.cpp:96
+#, fuzzy
+msgid "Orientation"
+msgstr "Esitys"
 
 #: PaperData.cpp:102
 msgid "Portrait"

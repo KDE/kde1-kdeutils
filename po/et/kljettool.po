@@ -5,13 +5,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "PO-Revision-Date: 1999-01-12 HO:MI+ZONE\n"
 "Last-Translator: Hasso C. Tepper <heathcliff@iname.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: ENCODING\n"
+
+#: main.cpp:49
+#, fuzzy
+msgid "Ljet Tool"
+msgstr "KLJetTool"
 
 #: main.cpp:69
 msgid "Paper"
@@ -36,6 +41,11 @@ msgstr "Koopiaid"
 #: PaperData.cpp:80
 msgid "Lines"
 msgstr "Ridu"
+
+#: PaperData.cpp:96
+#, fuzzy
+msgid "Orientation"
+msgstr "Esinduslik"
 
 #: PaperData.cpp:102
 msgid "Portrait"
@@ -139,5 +149,14 @@ msgid "KLjetTool"
 msgstr "KLJetTool"
 
 #: about.cpp:52
-msgid "Version "
-msgstr "Vesioon "
+#, c-format
+msgid ""
+"Version %s\n"
+"\n"
+"Copyright (c) 1997\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
+msgstr ""
+
+#~ msgid "Version "
+#~ msgstr "Vesioon "
