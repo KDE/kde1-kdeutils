@@ -219,7 +219,7 @@ void TopLevel::setupMenuBar(){
   edit->insertItem(klocale->translate("C&ut"),
 		   this, 	SLOT(cut()));
   edit->insertSeparator(-1);
-  edit->insertItem(klocale->translate("Insert &File"),
+  edit->insertItem(klocale->translate("&Insert File"),
 		   this, 	SLOT(insertFile()));
   edit->insertItem(klocale->translate("Insert &Date"),
 		   this, 	SLOT(insertDate()));
