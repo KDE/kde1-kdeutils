@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-12-08 02:02+0100\n"
+"POT-Creation-Date: 1999-01-05 02:02+0100\n"
 "PO-Revision-Date: 1998-06-08 14:55+0200\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN (gb2312)\n"
@@ -57,7 +57,7 @@ msgstr "任务"
 msgid "Size"
 msgstr "大小"
 
-#: klpq.cpp:143 klpq.cpp:218
+#: klpq.cpp:143 klpq.cpp:219
 msgid "Make Top"
 msgstr "变成最前"
 
@@ -73,16 +73,24 @@ msgstr "自动更新[&A]"
 msgid "&Spooler"
 msgstr "假脱机程序[&S]"
 
-#: klpq.cpp:203
+#: klpq.cpp:199
+#, c-format
+msgid ""
+"Klpq %s\n"
+"(C) by Christoph Neerfeld\n"
+"chris@kde.org"
+msgstr ""
+
+#: klpq.cpp:204
 msgid "&Config"
 msgstr "配置[&C]"
 
-#: klpq.cpp:389
+#: klpq.cpp:390
 #, fuzzy, c-format
 msgid "Do you really want to remove job No %d"
 msgstr "你想要删除任务 "
 
-#: klpq.cpp:409
+#: klpq.cpp:410
 #, fuzzy, c-format
 msgid ""
 "Do you really want to move job No\n"
@@ -90,11 +98,11 @@ msgid ""
 "on top of queue"
 msgstr "你想要删除任务\n"
 
-#: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
+#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
 msgid "Permission denied"
 msgstr "没有权限"
 
-#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
+#: klpq.cpp:559 klpq.cpp:565 klpq.cpp:580
 msgid ""
 "This is a privileged command\n"
 "and you do not have permission to execute it."

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klpq 1.0\n"
-"POT-Creation-Date: 1998-12-08 02:02+0100\n"
+"POT-Creation-Date: 1999-01-05 02:02+0100\n"
 "PO-Revision-Date: 1998-12-10 23:15 CET\n"
 "Last-Translator: Francois-Xavier DURANCEAU "
 "<Francois-Xavier.Duranceau@loria.fr>\n"
@@ -59,7 +59,7 @@ msgstr "Job"
 msgid "Size"
 msgstr "Taille"
 
-#: klpq.cpp:143 klpq.cpp:218
+#: klpq.cpp:143 klpq.cpp:219
 msgid "Make Top"
 msgstr "Au sommet"
 
@@ -75,16 +75,24 @@ msgstr "&Rafraîchissement..."
 msgid "&Spooler"
 msgstr "&Spooler"
 
-#: klpq.cpp:203
+#: klpq.cpp:199
+#, c-format
+msgid ""
+"Klpq %s\n"
+"(C) by Christoph Neerfeld\n"
+"chris@kde.org"
+msgstr ""
+
+#: klpq.cpp:204
 msgid "&Config"
 msgstr "&Configuration"
 
-#: klpq.cpp:389
+#: klpq.cpp:390
 #, c-format
 msgid "Do you really want to remove job No %d"
 msgstr "Voulez-vous réellement supprimer le job N° %d "
 
-#: klpq.cpp:409
+#: klpq.cpp:410
 #, c-format
 msgid ""
 "Do you really want to move job No\n"
@@ -95,11 +103,11 @@ msgstr ""
 "%d\n"
 "au sommet de la file ?"
 
-#: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
+#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
 msgid "Permission denied"
 msgstr "Permission refusée"
 
-#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
+#: klpq.cpp:559 klpq.cpp:565 klpq.cpp:580
 msgid ""
 "This is a privileged command\n"
 "and you do not have permission to execute it."
