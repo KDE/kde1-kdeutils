@@ -373,9 +373,7 @@ msgstr ""
 #: docking.cpp:48
 #, fuzzy, c-format
 msgid "Could not load %s !"
-msgstr ""
-"Gat ekki opnað:\n"
-" %s"
+msgstr "Gat ekki opnað %s !"
 
 #: docking.cpp:68
 msgid "Change Defaults"
