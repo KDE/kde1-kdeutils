@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfloppy\n"
 "POT-Creation-Date: 1998-05-30 17:50+0200\n"
-"PO-Revision-Date: 1998-05-14 18:52 MET DST\n"
+"PO-Revision-Date: 1998-06-04 09:15 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -46,7 +46,7 @@ msgstr "Formátovat"
 
 #: floppy.cpp:131
 msgid "Quick Erase"
-msgstr "Rýchlé pøemazání"
+msgstr "Rychlé pøemazání"
 
 #: floppy.cpp:136
 msgid "Full Format"
@@ -62,7 +62,7 @@ msgstr "KFormátovaè disket"
 
 #: floppy.cpp:162
 msgid "KDE Floppy Formater"
-msgstr "Formátovaè diskiet pro KDE"
+msgstr "Formátovaè disket pro KDE"
 
 #: floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267
 msgid "HD"
@@ -86,7 +86,7 @@ msgid ""
 "Please install KFloppy properly."
 msgstr ""
 "Není mo¾né nálézt kfdformat\n"
-"kfdformat je souèástí distribce formátovaèe disket.\n"
+"kfdformat je souèástí distribuce formátovaèe disket.\n"
 "Prosím, nainstalujte formátovaè disket korektnì."
 
 #: floppy.cpp:349
@@ -96,7 +96,7 @@ msgid ""
 "Please install KFloppy properly."
 msgstr ""
 "Není mo¾né nálézt kmke2fs\n"
-"kmke2fs je souèástí distribce formátovaèe disket.\n"
+"kmke2fs je souèástí distribuce formátovaèe disket.\n"
 "Prosím, nainstalujte formátovaè disket korektnì."
 
 #: floppy.cpp:364
@@ -192,4 +192,4 @@ msgid ""
 "Please unmount the floppy first."
 msgstr ""
 "%s je pøipojená.\n"
-"Prosím, nejprv odpojte disketu ze systému."
+"Prosím, nejprve odpojte disketu ze systému."

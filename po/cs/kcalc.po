@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcalc\n"
 "POT-Creation-Date: 1998-05-30 17:49+0200\n"
-"PO-Revision-Date: 1998-05-14 18:50 MET DST\n"
+"PO-Revision-Date: 1998-06-04 09:19 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -23,11 +23,11 @@ msgstr "Barva pozadí:"
 
 #: configdlg.cpp:95
 msgid "Precision:"
-msgstr "Presnost:"
+msgstr "Pøesnost:"
 
 #: configdlg.cpp:116
 msgid "Set Fixed Precision at:"
-msgstr "Nastavit pevnou presnost na :"
+msgstr "Nastavit pevnou pøesnost na :"
 
 #: configdlg.cpp:145
 msgid "Beep on Error"
@@ -43,7 +43,7 @@ msgstr "Statistický re¾im"
 
 #: fontdlg.cpp:44
 msgid "Set Default Font"
-msgstr "Nastav standardné písmo"
+msgstr "Nastav standardní písmo"
 
 #: fontdlg.cpp:63
 msgid "Point Size:"
@@ -63,7 +63,7 @@ msgstr "Soustava"
 
 #: kcalc.cpp:1524
 msgid "KCalc Configuraton"
-msgstr ""
+msgstr "Nastavení KCalcu"
 
 #: kcalc.cpp:1550
 msgid "Base type: long double\n"
@@ -76,7 +76,7 @@ msgid ""
 "recompile KCalc with 'long double' precision enabled. See the README for "
 "details."
 msgstr ""
-"V dùsledky chybu v glibc, musím sní¾it pøesnost KCalcu\n"
+"V dùsledky chyby v glibc, musím sní¾it pøesnost KCalcu\n"
 "z 'long double' na 'double'. Vlastníci systémù s fungující libc\n"
 "by mìli rekompilovat KCalc se zpøístupnìnou 'long double' pøesností.\n"
 "Nahlédnìte do README kvùli delailùm."
