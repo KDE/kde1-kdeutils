@@ -5,11 +5,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpm\n"
 "POT-Creation-Date: 1999-01-26 01:48+0100\n"
-"PO-Revision-Date: 1999-01-30 20:10+MET\n"
-"Language-Team: de <LL@li.org>\n"
+"PO-Revision-Date: 1999-03-12 20:10+MET\n"
+"Language-Team: German <kde-i18n@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Gregor Zumstein <zumstein@ssd.ethz.ch>\n"
 "Translator: Thomas Diehl <th_diehl@csi.com>\n"
 
 #: prefs.C:33
@@ -38,7 +39,7 @@ msgstr "An KPanel andocken"
 
 #: prefs.C:43
 msgid "Green/Black Load Graph"
-msgstr "Grün/schwarz Graph laden"
+msgstr "Grün/schwarzer Auslastungsgraph"
 
 #: prefs.C:45
 msgid "Solid filled graph"
@@ -70,7 +71,7 @@ msgstr "Ablaufplan (Scheduling) ändern..."
 
 #: qps.C:96 qps.C:131
 msgid "Socket Info"
-msgstr "Socket-Information"
+msgstr "Socket-Information..."
 
 #: qps.C:101
 msgid "Iconify"
@@ -162,7 +163,7 @@ msgstr "Befehlspfad anzeigen"
 
 #: qps.C:182
 msgid "Show ressource info"
-msgstr "Resourcen anzeigen"
+msgstr "Ressourcen anzeigen"
 
 #: qps.C:184
 msgid "Show toolbar"
@@ -222,27 +223,27 @@ msgstr "&Signal"
 
 #: qps.C:309
 msgid "SIGQUIT (quit)"
-msgstr "SIGQUIT (verlassen)"
+msgstr "SIGQUIT (Verlassen)"
 
 #: qps.C:310
 msgid "SIGILL (illegal instruction)"
-msgstr "SIGILL (unzulässige Anweisung)"
+msgstr "SIGILL (Unzulässige Anweisung)"
 
 #: qps.C:311
 msgid "SIGABRT (abort)"
-msgstr "SIGABRT (abbrechen)"
+msgstr "SIGABRT (Abbrechen)"
 
 #: qps.C:312
 msgid "SIGFPE (floating point exception)"
-msgstr "SIGFPE (Floating Point Ausnahme)"
+msgstr "SIGFPE (Gleitkomma-Ausnahme)"
 
 #: qps.C:313
 msgid "SIGSEGV (segmentation violation)"
-msgstr "SIGSEGV (Segmentation-Verletzung)"
+msgstr "SIGSEGV (Segment-Verletzung)"
 
 #: qps.C:314
 msgid "SIGPIPE (broken pipe)"
-msgstr "SIGPIPE (gebrochene Pipe)"
+msgstr "SIGPIPE (Gebrochene Pipe)"
 
 #: qps.C:315
 msgid "SIGALRM (timer signal)"
@@ -250,27 +251,27 @@ msgstr "SIGALRM (Timer-Signal)"
 
 #: qps.C:316
 msgid "SIGUSR1 (user-defined 1)"
-msgstr "SIGUSR1 (benutzerdefiniert 1)"
+msgstr "SIGUSR1 (Benutzerdefiniert 1)"
 
 #: qps.C:317
 msgid "SIGUSR2 (user-defined 2)"
-msgstr "SIGUSR2 (benutzerdefiniert 2)"
+msgstr "SIGUSR2 (Benutzerdefiniert 2)"
 
 #: qps.C:318
 msgid "SIGCHLD (child death)"
-msgstr "SIGCHLD (Tod des Child-Prozeß)"
+msgstr "SIGCHLD (Tod des Child-Prozeßes)"
 
 #: qps.C:319
 msgid "SIGCONT (continue)"
-msgstr "SIGCONT (fortsetzen)"
+msgstr "SIGCONT (Fortsetzen)"
 
 #: qps.C:320
 msgid "SIGSTOP (stop)"
-msgstr "SIGSTOP (stoppen)"
+msgstr "SIGSTOP (Stoppen)"
 
 #: qps.C:321
 msgid "SIGTSTP (stop from tty)"
-msgstr "SIGTSTP (Stop vom tty)"
+msgstr "SIGTSTP (Stop von tty aus)"
 
 #: qps.C:322
 msgid "SIGTTIN (tty input)"
@@ -299,7 +300,7 @@ msgstr "Berechtigung verweigert"
 
 #: qps.C:701
 msgid "qps: change update period"
-msgstr "qps: ändere Update-Intervall"
+msgstr "kpm: ändere Update-Intervall"
 
 #: qps.C:702
 msgid "New update period:"
@@ -326,14 +327,14 @@ msgid ""
 "Only the process owner and the super-user\n"
 "are allowed to do that."
 msgstr ""
-"Sie haben keine Berechtigung, die Priorität zu ändern für\n"
-"den ausgewählten Prozeß %s.\n"
+"Sie haben keine Berechtigung, die Priorität für\n"
+"den ausgewählten Prozeß %s zu ändern.\n"
 "Nur der Prozeß-Eigentümer und der Systemadministrator\n"
 "haben dieses Recht."
 
 #: qps.C:846
 msgid "qps: renice process"
-msgstr "qps: Ändere Priorität für Prozeß"
+msgstr "kpm: Ändere Priorität für Prozeß"
 
 #: qps.C:847
 msgid "New nice value:"
@@ -353,13 +354,13 @@ msgid ""
 "You do not have permission to renice process %d (%s).\n"
 "Only the process owner and the super-user are allowed to do that."
 msgstr ""
-"Sie haben keine Berechtigung, die Priorität zu ändern für Prozeß %d (%s).\n"
-"Nur der Prozeß-Eigentümer und der Systemadministrator können das."
+"Sie haben keine Berechtigung, die Priorität für Prozeß %d (%s) zu ändern.\n"
+"Nur der Prozeß-Eigentümer und der Systemadministrator haben dieses Recht."
 
 #: qps.C:886
 msgid "Only the super-user may lower the nice value of a process."
 msgstr ""
-"Nur der Systemadministrator kann den Prioritätswert eines Prozesse "
+"Nur der Systemadministrator kann den Prioritätswert eines Prozesses "
 "herabsetzen."
 
 #: qps.C:909
@@ -388,7 +389,7 @@ msgid ""
 "Only the super-user and the owner of the process may send signals to it."
 msgstr ""
 "Sie haben keine Berechtigung, ein Signal an Prozeß %d (%s) zu schicken.\n"
-"Nur der Systemadministrator und der Eigentümer des Prozesses können das."
+"Nur der Systemadministrator und der Eigentümer des Prozesses dürfen dies."
 
 #: scheddlg.C:22
 msgid "Change scheduling"

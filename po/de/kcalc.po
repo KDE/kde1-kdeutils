@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "POT-Creation-Date: 1999-03-05 01:58+0100\n"
 "PO-Revision-Date: 1999-01-13 13:55+MET\n"
-"Last-Translator: Oliver Hensel <oliver.hensel@gmx.de>\n"
+"Last-Translator: Gregor Zumstein <zumstein@ssd.ethz.ch>\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1998-03-06 23:13:09-0500\n"
 "From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
@@ -59,7 +59,7 @@ msgid ""
 msgstr ""
 "Aufgrund verschiedener defekter glibcs muﬂte ich die Pr‰zision von KCalc von "
 "'long double' auf 'double' heruntersetzen. Besitzer von Systemen mit "
-"funktionierender libc sollten KCalk mit 'long double'-Pr‰zision erneut "
+"funktionierender libc sollten KCalc mit 'long double'-Pr‰zision erneut "
 "kompilieren. Weitere Informationen finden Sie in der Datei README."
 
 #: configdlg.cpp:56 kcalc.cpp:1592
@@ -68,7 +68,7 @@ msgstr "Standards"
 
 #: kcalc.cpp:1593
 msgid "Display Font"
-msgstr "Darstellungs-Schrift"
+msgstr "Anzeige-Schrift"
 
 #: kcalc.cpp:1909
 #, c-format
@@ -121,7 +121,7 @@ msgstr "Genauigkeit:"
 
 #: configdlg.cpp:116
 msgid "Set Fixed Precision at:"
-msgstr "Setze feste Genauigkeit auf:"
+msgstr "Fixkomma bei:"
 
 #: configdlg.cpp:145
 msgid "Beep on Error"
@@ -129,11 +129,11 @@ msgstr "Ton bei Fehler"
 
 #: configdlg.cpp:153
 msgid "Trigonometry Mode"
-msgstr "Trigonometrischer Modus"
+msgstr "Trigonometrie-Modus"
 
 #: configdlg.cpp:158
 msgid "Statistical Mode"
-msgstr "Statistischer Modus"
+msgstr "Statistik-Modus"
 
 #: fontdlg.cpp:44
 msgid "Set Default Font"

@@ -12,7 +12,7 @@ msgstr "Fehler beim Öffnen von %s"
 
 #: hexwidget.cpp:66
 msgid "Save &As..."
-msgstr "Speichern &unter"
+msgstr "Speichern &unter..."
 
 #: hexwidget.cpp:77
 msgid "&Toggle Toolbar"

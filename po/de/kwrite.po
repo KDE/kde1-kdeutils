@@ -2,8 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1999-01-14 01:57+0100\n"
-"PO-Revision-Date: 1999-01-14 07:45+MET\n"
-"Language-Team: de <LL@li.org>\n"
+"PO-Revision-Date: 1999-03-12 07:45+MET\n"
+"Last-Translator: Gregor Zumstein <zumstein@ssd.ethz.ch>\n"
+"Language-Team: German <kde-i18n@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -79,23 +80,23 @@ msgstr "Vertikale Auswahl: aus"
 
 #: kwview.cpp:1116
 msgid "The specified File does not exist"
-msgstr "Die angegebene Datei existiert nicht"
+msgstr "Die angegebene Datei existiert nicht."
 
 #: kwview.cpp:1126
 msgid "You have specified a directory"
-msgstr "Sie haben ein Verzeichnis angegeben"
+msgstr "Sie haben ein Verzeichnis angegeben."
 
 #: kwview.cpp:1136
 msgid "You do not have read permission to this file"
-msgstr "Sie haben kein Leserecht für die Datei"
+msgstr "Sie haben kein Leserecht für die Datei."
 
 #: kwview.cpp:1152 kwview.cpp:1182
 msgid "An Error occured while trying to open this Document"
-msgstr "Es gab einen Fehler beim Öffnen des Dokuments"
+msgstr "Es gab einen Fehler beim Öffnen des Dokuments."
 
 #: kwview.cpp:1166
 msgid "You do not have write permission to this file"
-msgstr "Sie haben kein Schreibrecht für diese Datei"
+msgstr "Sie haben kein Schreibrecht für diese Datei."
 
 #: kwview.cpp:1219
 msgid "Loading..."
@@ -127,7 +128,7 @@ msgstr "Warte auf KFM..."
 
 #: kwview.cpp:1255 kwview.cpp:1320
 msgid "Could not start or find KFM"
-msgstr "Konnte KFM nicht finden oder starten"
+msgstr "Konnte KFM nicht finden oder starten."
 
 #: kwview.cpp:1282
 msgid "Saving..."
@@ -142,8 +143,8 @@ msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
 msgstr ""
-"The current Document has been modified.\n"
-"Would you like to save it?"
+"Das aktuelle Dokument wurde geändert.\n"
+"Wollen Sie es speichern?"
 
 #: kwview.cpp:1407
 msgid ""
@@ -155,7 +156,7 @@ msgstr ""
 
 #: kwview.cpp:1454
 msgid "No changes need to be saved"
-msgstr "Es gibt keine Änderungen zu sichern"
+msgstr "Es gibt keine Änderungen zu sichern."
 
 #: kwview.cpp:1475
 msgid ""
@@ -187,7 +188,7 @@ msgstr "Vom Ende aus fortfahren"
 
 #: kwview.cpp:1703
 msgid "Search string not found!"
-msgstr "Suchstring nicht gefunden"
+msgstr "Suchbegriff nicht gefunden!"
 
 #: kwview.cpp:1851 kwview.cpp:1865 kwview.cpp:1877
 msgid "replace(s) made"
@@ -307,7 +308,7 @@ msgstr "&Alt ein/aus"
 
 #: kwdialog.cpp:322
 msgid "Wrap Words At:"
-msgstr "Wörter umbrechen bei:"
+msgstr "Zeilenumbruch bei:"
 
 #: kwdialog.cpp:332
 msgid "Tab Width:"
@@ -315,7 +316,7 @@ msgstr "Tabulator-Breite"
 
 #: kwdialog.cpp:342
 msgid "Undo steps:"
-msgstr "Rückgängig-Schritte:"
+msgstr "Anzahl Rückgängig:"
 
 #: kwdialog.cpp:402
 msgid "Background:"
@@ -351,7 +352,7 @@ msgstr "&Neu..."
 
 #: toplevel.cpp:168
 msgid "&Insert..."
-msgstr "&Einfügen..."
+msgstr "Datei &Einfügen..."
 
 #: toplevel.cpp:169
 msgid "Open Recen&t"
@@ -411,7 +412,7 @@ msgstr "Auswahl &umkehren"
 
 #: toplevel.cpp:210
 msgid "&Set Bookmark..."
-msgstr "&Lesezeichen setzen"
+msgstr "&Lesezeichen setzen..."
 
 #: toplevel.cpp:211
 msgid "&Add Bookmark"
@@ -451,7 +452,7 @@ msgstr "&Statusleiste anzeigen"
 
 #: toplevel.cpp:236
 msgid "Save Config"
-msgstr "Konfiguration sichern"
+msgstr "Einstellungen sichern"
 
 #: toplevel.cpp:249
 msgid ""
@@ -477,11 +478,11 @@ msgstr "Neues Dokument"
 
 #: toplevel.cpp:295
 msgid "Open Document"
-msgstr "Dokument ö&ffnen"
+msgstr "Dokument öffnen"
 
 #: toplevel.cpp:299
 msgid "Save Document"
-msgstr "Dokument &sichern"
+msgstr "Dokument sichern"
 
 #: toplevel.cpp:476
 msgid "Col"

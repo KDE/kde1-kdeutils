@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karm 0.3\n"
 "POT-Creation-Date: 1999-01-11 01:57+0100\n"
-"PO-Revision-Date: 1999-01-13 13:50+MET\n"
-"Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
+"PO-Revision-Date: 1999-03-12 13:50+MET\n"
+"Last-Translator: Gregor Zumstein <zumstein@ssd.ethz.ch>n"
 "Language-Team: de <kde-i18n@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
@@ -55,7 +55,7 @@ msgstr ": Projekteintrag bearbeiten"
 
 #: karm.cpp:256
 msgid "Karm::updateExistingTask called and there's no dlg!"
-msgstr "Karm::updateExistingTask ohne Dialog aufgerufen"
+msgstr "Karm::updateExistingTask ohne Dialog aufgerufen!"
 
 #: karm.cpp:280
 msgid ": Deleting Task"
@@ -103,7 +103,7 @@ msgstr "Uhr läuft"
 
 #: top.cpp:150
 msgid "Preferences"
-msgstr "Einstellungen"
+msgstr "Einstellungen..."
 
 #: top.cpp:194
 #, c-format
@@ -128,7 +128,7 @@ msgstr "&Projekt"
 
 #: top.cpp:209
 msgid "&Preferences..."
-msgstr "&Einstellungen"
+msgstr "&Einstellungen..."
 
 #: top.cpp:223
 msgid "S&top"
@@ -136,4 +136,4 @@ msgstr "S&top"
 
 #: top.cpp:229
 msgid "&New"
-msgstr "&Neu"
+msgstr "&Neu..."

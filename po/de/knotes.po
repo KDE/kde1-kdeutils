@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
-"POT-Creation-Date: 1999-03-09 01:44+0100\n"
-"PO-Revision-Date: 1998-11-17 10:31+0100\n"
-"Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
+"POT-Creation-Date: 1999-03-05 01:58+0100\n"
+"PO-Revision-Date: 1999-03-12 10:31+0100\n"
+"Last-Translator: Gregor Zumstein <zumstein@ssd.ethz.ch>\n"
 "Language-Team: German <kde-i18n@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
@@ -28,7 +28,7 @@ msgstr "Neue Notiz"
 
 #: knotes.cpp:312
 msgid "Delete Note"
-msgstr "Notiz entfernen"
+msgstr "Notiz löschen"
 
 #: knotes.cpp:314
 msgid "Rename Note..."
@@ -72,11 +72,11 @@ msgstr "Farben"
 
 #: knotes.cpp:339
 msgid "Change Defaults ..."
-msgstr "Voreinstellungen ändern"
+msgstr "Voreinstellungen ändern ..."
 
 #: knotes.cpp:340
 msgid "Dock in panel"
-msgstr ""
+msgstr "Im Panel andocken"
 
 #: knotes.cpp:368
 msgid "Insert Date"
@@ -237,7 +237,7 @@ msgstr "Breite:"
 
 #: configdlg.cpp:93
 msgid "Height:"
-msgstr "Breite:"
+msgstr "Höhe:"
 
 #: configdlg.cpp:104
 msgid "Print Command:"
@@ -253,7 +253,7 @@ msgstr "3D Rahmen"
 
 #: fontdlg.cpp:45
 msgid "Set Default Font"
-msgstr "Gesetzte Standard-Schrift"
+msgstr "Eingestellte Standard-Schrift"
 
 #: fontdlg.cpp:54
 msgid "Family:"
@@ -338,11 +338,11 @@ msgstr "nachmittags"
 
 #: bwdatetime.cpp:161
 msgid "The Time you selected is invalid"
-msgstr "Die angebene Zeit ist nicht gültig."
+msgstr "Die angegebene Zeit ist nicht gültig."
 
 #: bwdatetime.cpp:176
 msgid "The Date you selected is invalid"
-msgstr "Das angebene Datum ist nicht gültig."
+msgstr "Das angegebene Datum ist nicht gültig."
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
@@ -365,27 +365,20 @@ msgid ""
 "A KNotes note with this name already exists\n"
 "Please choose a different name"
 msgstr ""
-"Eine Notiz mit diesem Namen existiert schon\n"
+"Eine Notiz mit diesem Namen existiert schon.\n"
 "Bitte wählen Sie einen anderen Namen!"
 
-#: docking.cpp:48
-#, fuzzy, c-format
-msgid "Could not load %s !"
-msgstr ""
-"%s\n"
-"konnte nicht geladen werden"
-
-#: docking.cpp:68
+#: docking.cpp:71
 msgid "Change Defaults"
 msgstr "Voreinstellungen verändern"
 
-#: docking.cpp:73
+#: docking.cpp:76
 msgid "Exit Knotes"
 msgstr "KNotes beenden"
 
-#: docking.cpp:92
+#: docking.cpp:95
 msgid "New Knote"
-msgstr "Neue KNote"
+msgstr "Neue Notiz"
 
 #~ msgid "No Frame"
 #~ msgstr "Keinen Rahmen"

@@ -24,31 +24,31 @@ msgstr "Neues Buch"
 
 #: KJotsMain.cpp:354
 msgid "PreviousPage"
-msgstr "VorigeSeite"
+msgstr "VorherigeSeite"
 
 #: KJotsMain.cpp:355
 msgid "NextPage"
-msgstr "NächsteSeite"
+msgstr "Nächste Seite"
 
 #: KJotsMain.cpp:356
 msgid "ShowSubjectList"
-msgstr "ZeigeBetreffListe"
+msgstr "Zeige Betreff-Liste"
 
 #: KJotsMain.cpp:357
 msgid "AddNewPage"
-msgstr "NeueSeite"
+msgstr "Neue Seite"
 
 #: KJotsMain.cpp:358
 msgid "MoveFocus"
-msgstr "FokusBewegen"
+msgstr "Fokus bewegen"
 
 #: KJotsMain.cpp:359
 msgid "CopySelection"
-msgstr "KopiereAuswahl"
+msgstr "Kopiere Auswahl"
 
 #: KJotsMain.cpp:371
 msgid "&New Book"
-msgstr "&Neues Buch"
+msgstr "&Neues Buch..."
 
 #: KJotsMain.cpp:375
 msgid "Save current book"
@@ -56,11 +56,11 @@ msgstr "Buch speichern"
 
 #: KJotsMain.cpp:377
 msgid "Save book to ascii file"
-msgstr "Buch als ASCII speichern"
+msgstr "Buch als ASCII speichern..."
 
 #: KJotsMain.cpp:378
 msgid "Save page to ascii file"
-msgstr "Seite als ASCII speichern"
+msgstr "Seite als ASCII speichern..."
 
 #: KJotsMain.cpp:380 KJotsMain.cpp:661
 msgid "Delete current book"
@@ -80,7 +80,7 @@ msgstr "&Konfigurieren..."
 
 #: KJotsMain.cpp:400
 msgid "Configure &Keys"
-msgstr "Tasten konfigurieren..."
+msgstr "&Tasten konfigurieren..."
 
 #: KJotsMain.cpp:403
 msgid "Add current book to hotlist"
@@ -104,15 +104,15 @@ msgstr "von"
 
 #: KJotsMain.cpp:427
 msgid "New"
-msgstr "Neu"
+msgstr "Neue Seite"
 
 #: KJotsMain.cpp:433
 msgid "Previous"
-msgstr "Vorige"
+msgstr "Vorherige Seite"
 
 #: KJotsMain.cpp:436
 msgid "Next"
-msgstr "Nächste"
+msgstr "Nächste Seite"
 
 #: KJotsMain.cpp:440
 msgid "Subject List"
@@ -148,7 +148,7 @@ msgstr "URL"
 
 #: confdialog.cpp:72
 msgid "Specify which command to execute"
-msgstr "Auszuführendes Kommando"
+msgstr "Auszuführender Befehl"
 
 #: confdialog.cpp:78
 msgid "for HTTP:"
@@ -165,7 +165,7 @@ msgstr "( %u wird durch die gewählte URL ersetzt )"
 
 #: confdialog.cpp:111
 msgid "Font for editor:"
-msgstr "Schriftart für Editor:"
+msgstr "Editor-Schriftart:"
 
 #: confdialog.cpp:117
 msgid "Select"
