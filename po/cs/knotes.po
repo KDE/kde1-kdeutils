@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "POT-Creation-Date: 1998-05-10 21:43+0200\n"
-"PO-Revision-Date: 1998-04-17 16:01 MET DST\n"
+"PO-Revision-Date: 1998-05-14 18:30 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -87,16 +87,14 @@ msgid "Auto Indent"
 msgstr "Automatické odsazování"
 
 #: docking.cpp:71
-#, fuzzy
 msgid "Change Defaults"
-msgstr "Zmìnit nastavení .."
+msgstr "Zmìnit implicitní nastavení"
 
 #: docking.cpp:76
 msgid "Exit Knotes"
-msgstr ""
+msgstr "Ukonèit Knotes"
 
 #: docking.cpp:95
-#, fuzzy
 msgid "New Knote"
 msgstr "Nová poznámka"
 
@@ -322,6 +320,3 @@ msgid ""
 msgstr ""
 "KNotes poznámka s tímto jménem ji¾ existuje.\n"
 "Zvolte si prosím jiné jméno"
-
-#~ msgid "Hide Note"
-#~ msgstr "Schovat poznámku"

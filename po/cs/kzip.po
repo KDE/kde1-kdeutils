@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kzip\n"
 "POT-Creation-Date: 1998-05-10 17:22+0200\n"
-"PO-Revision-Date: 1998-01-22 08:55 MET\n"
+"PO-Revision-Date: 1998-05-14 18:34 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -71,11 +71,11 @@ msgstr "Na&stavit adresáø archivu ..."
 
 #: kzip.cc:81
 msgid "Set &Tar Executable..."
-msgstr ""
+msgstr "Nastavit program pro &Tar"
 
 #: kzip.cc:82
 msgid "&File Adding Options..."
-msgstr "Parametry pøidání &souboru ..."
+msgstr "Parametry &pøidání souboru ..."
 
 #: kzip.cc:128
 msgid "Welcome to KZip..."
@@ -103,16 +103,15 @@ msgstr "Adresáø archivu:"
 
 #: kzip.cc:329
 msgid "What runs GNU tar:"
-msgstr ""
+msgstr "Jaký pøíkaz vykonává GNU tar:"
 
 #: kzip.cc:366 kzip.cc:568
 msgid "Unknown archive format"
 msgstr "Neznámý formát archivu"
 
 #: kzip.cc:392
-#, fuzzy
 msgid "Archive directory does not exist."
-msgstr "Adresáø archivu"
+msgstr "Adresáø archivu neexistuje."
 
 #: kzip.cc:408
 msgid "Archive Directory"
