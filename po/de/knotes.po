@@ -150,9 +150,8 @@ msgid "3D Frame"
 msgstr "3D Rahmen"
 
 #: knotes.cpp:274
-#, fuzzy
 msgid "Font..."
-msgstr "Schriftart"
+msgstr "Schriftart..."
 
 #: knotes.cpp:275
 msgid "Colors"
