@@ -1,3 +1,10 @@
+Tue Feb 16 09:34:25 1999  David Faure  <faure@kde.org>
+
+	* Added option "dock in panel" (to disable docking)
+	Docking is automatically re-enabled if the last note is deleted
+	* Move options submenu to toplevel RMB menu (too many submenus!)
+	* Re-added "Quit" menu entry (in order to quit when docking is off)
+
 1999-02-16  Harri Porten  <porten@kde.org>
 
 	* fixed SIGSEV caused by double-clicking on empty places.

@@ -1,7 +1,5 @@
 /*
 
- $Id$
-
  KNotes -- Notes for the KDE project
 
  Copyright (C) Bernd Johannes Wuebben
@@ -161,6 +159,8 @@ public:
   static QList<KPostit>   PostitList;     
   static QStrList         PostitFilesList; 
   static QList<AlarmEntry> AlarmList;
+  static  bool dock;
+
   /*  static ConfigDlg *configdlg =0L;
   static FontDlg* fontdlg =0L;
   static QTabDialog* tabdialog =0L;
@@ -187,6 +187,7 @@ public slots:
   void  set3DFrame();
   void  setNoFrame();
   void  toggleFrame();
+  void  toggleDock();
   void  set_colors();
   void  set_background_color();
   void  set_foreground_color();
@@ -229,6 +230,7 @@ private:
   QPopupMenu *desktops;
   KFM *kfm;
   int  frame3dID;
+  int  dockID;
   QColor forecolor;
   QColor backcolor;
 
