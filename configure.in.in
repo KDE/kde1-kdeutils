@@ -110,6 +110,19 @@ if test "$kpm_compile" = "no"; then
   DO_NOT_COMPILE="$DO_NOT_COMPILE kpm"
 fi
 
+dnl Check whether ktop can run
+dnl Alpha Linux might work as well; please test and modify check
+AC_MSG_CHECKING(if ktop can be compiled)
+case "$host" in
+  *86-*-linux-*) ktop_compile=yes ;;
+  *-*-freebsd-*) ktop_compile=yes ;;
+  *) ktop_compile=no
+esac
+AC_MSG_RESULT($ktop_compile)
+if test "$ktop_compile" = "no"; then
+  DO_NOT_COMPILE="$DO_NOT_COMPILE ktop"
+fi
+
 if echo $DO_NOT_COMPILE | grep kfloppy > /dev/null; then
  ac_cv_compile_kfloppy=no
 
