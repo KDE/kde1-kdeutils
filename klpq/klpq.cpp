@@ -195,8 +195,9 @@ Klpq::Klpq(const char* name=0)
   conf_menu->insertItem(klocale->translate("&Auto update"), this, SLOT(configureAuto()) );
   conf_menu->insertItem(klocale->translate("&Spooler"), this, SLOT(configureSpooler()) );
 
-  QString about = (QString ) "Klpq " + KLPQ_VERSION + "\n(C) by Christoph Neerfeld\n" + 
-    "chris@kde.org";
+  QString about;
+  about.sprintf(i18n("Klpq %s\n(C) by Christoph Neerfeld\nchris@kde.org"),
+		KLPQ_VERSION);
   QPopupMenu *help = KApplication::getKApplication()->getHelpMenu(FALSE, about );
 
   menubar->insertItem( klocale->translate("&File"), file );
