@@ -75,37 +75,43 @@ Klpq::Klpq(const char* name=0)
   
   f_main = new QFrame( this, "Frame_1" );
   f_main->move( 0, 28 );
-  f_main->setMinimumSize( 520, 370 );
+//  f_main->setMinimumSize( 520, 370 );
   
   f_top = new QFrame( f_main, "Frame_2" );
-  f_top->setMinimumSize( 520, 28 );
+//  f_top->setMinimumSize( 520, 28 );
   f_top->setFrameStyle( 49 );
   
   cb_printer = new QComboBox( f_top, "ComboBox_1" );
-  cb_printer->setFixedSize( 120, 20 );
-  
+//  cb_printer->setFixedSize( 120, 20 );
+  cb_printer->setFixedSize( cb_printer->sizeHint() );
+
   l_printer = new QLabel( f_top, "Label_1" );
-  l_printer->setFixedSize( 48, 20 );
+//  l_printer->setFixedSize( 48, 20 );
   l_printer->setText( klocale->translate("Printer") );
-  
+  l_printer->setFixedSize( l_printer->sizeHint() );
+
   c_queuing = new QCheckBox( f_top, "CheckBox_1" );
-  c_queuing->setFixedSize( 72, 20 );
+//  c_queuing->setFixedSize( 72, 20 );
   c_queuing->setText( klocale->translate("Queuing") );
+  c_queuing->setFixedSize( c_queuing->sizeHint() );
 
   c_printing = new QCheckBox( f_top, "CheckBox_2" );
-  c_printing->setFixedSize( 72, 20 );
+//  c_printing->setFixedSize( 72, 20 );
   c_printing->setText( klocale->translate("Printing") );
-  
-  b_update = new QPushButton( f_top, "PushButton_1" );
-  b_update->setFixedSize( 84, 20 );
-  b_update->setText( klocale->translate("Update") );
-  
-  b_quit = new QPushButton( f_top, "PushButton_2" );
-  b_quit->setFixedSize( 56, 20 );
-  b_quit->setText( klocale->translate("Quit") );
+  c_printing->setFixedSize( c_printing->sizeHint() );
 
+  b_update = new QPushButton( f_top, "PushButton_1" );
+//  b_update->setFixedSize( 84, 20 );
+  b_update->setText( klocale->translate("Update") );
+  b_update->setFixedSize( b_update->sizeHint() );  
+
+  b_quit = new QPushButton( f_top, "PushButton_2" );
+//  b_quit->setFixedSize( 56, 20 );
+  b_quit->setText( klocale->translate("Quit") );
+  b_quit->setFixedSize( b_quit->sizeHint() );
+  
   f_list = new QFrame( f_main, "Frame_3" );
-  f_list->setMinimumSize( 520, 84 );
+//  f_list->setMinimumSize( 520, 84 );
   f_list->setFrameStyle( 50 );
   
   lb_list = new MyRowTable( f_list, "ListBox_1" );
@@ -135,12 +141,14 @@ Klpq::Klpq(const char* name=0)
   f_bottom->setMinimumSize( 100, 52 );
 
   b_remove = new QPushButton( f_bottom, "PushButton_3" );
-  b_remove->setFixedSize( 64, 24 );
+//  b_remove->setFixedSize( 64, 24 );
   b_remove->setText( klocale->translate("Remove") );
+  b_remove->setFixedSize( b_remove->sizeHint() );
 
   b_make_top = new QPushButton( f_bottom, "PushButton_4" );
-  b_make_top->setFixedSize( 64, 24 );
+//  b_make_top->setFixedSize( 64, 24 );
   b_make_top->setText( klocale->translate("Make Top") );
+  b_make_top->setFixedSize( b_make_top->sizeHint() );
   
   lb_status = new QListBox( f_bottom, "ListBox_2" );
   lb_status->setMinimumSize( 312, 44 );
@@ -148,9 +156,10 @@ Klpq::Klpq(const char* name=0)
   lb_status->setLineWidth( 2 );
   
   b_auto = new QPushButton( f_bottom, "PushButton_6" );
-  b_auto->setFixedSize( 48, 24 );
+//  b_auto->setFixedSize( 48, 24 );
   b_auto->setText( klocale->translate("Auto") );
   b_auto->setToggleButton( TRUE );
+  b_auto->setFixedSize( b_auto->sizeHint() );
   
   top2bottom = new QGridLayout( f_main, 3, 1, 4 );
   top2bottom->addWidget( f_top, 0, 0, AlignCenter );
@@ -276,8 +285,13 @@ Klpq::Klpq(const char* name=0)
   connect( dropzone, SIGNAL(dropAction(KDNDDropZone *)), this, SLOT(urlDroped(KDNDDropZone *)) );
 
   // resize window
-  f_main->resize( 620, 370 );
-  setMinimumSize(530, 300);
+//  f_main->resize( 620, 370 );
+//  setMinimumSize(530, 300);
+
+  int max = f_top->width();
+  if (f_bottom->width() > max) max = f_bottom->width();
+  setMinimumSize( max+10, 300 );
+
   int width, height;
   config->setGroup("klpq");
   width = config->readNumEntry("Width");
