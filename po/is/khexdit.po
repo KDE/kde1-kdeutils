@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-01-05 20:49+0200\n"
+"POT-Creation-Date: 1998-11-13 02:01+0100\n"
 "PO-Revision-Date: 1999-03-11 21:45+0200\n"
 "Last-Translator: Gudmundur Erlingsson <gerl@vortex.is>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
@@ -55,7 +55,7 @@ msgid ""
 msgstr ""
 "Skjalinu sem þú ert að vinna í hefur verið breytt.\n"
 "Viltu vista það?"
- 
+
 #: hexwidget.cpp:173
 msgid ""
 "The current file has been modified.\n"

@@ -5,20 +5,48 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/ktop\n"
-"POT-Creation-Date: 1999-03-12 01:58+0100\n"
+"POT-Creation-Date: 1999-03-12 14:27+0100\n"
 "PO-Revision-Date: 1999-03-12 14:42+0100\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO_8859-1\n"
-"Content-Transfer-Encoding: 8bit\n"        
+"Content-Transfer-Encoding: 8bit\n"
 
-#: ktop.cpp:58
+#: ktop.cpp:66
+#, fuzzy
+msgid "88888 Processes"
+msgstr "Alle processer"
+
+#: ktop.cpp:67
+msgid "Memory: 888888 kB used, 888888 kB free"
+msgstr ""
+
+#: ktop.cpp:69
+msgid "Swap: 888888 kB used, 888888 kB free"
+msgstr ""
+
+#: ktop.cpp:76
 msgid "KDE Task Manager"
 msgstr "KDE opgavemanager"
 
-#: ktop.cpp:74
+#: ktop.cpp:137
+#, fuzzy, c-format
+msgid "%d Processes"
+msgstr "Alle processer"
+
+#: ktop.cpp:142
 #, c-format
+msgid "Memory: %d kB used, %d kB free"
+msgstr ""
+
+#: ktop.cpp:147
+#, c-format
+msgid "Swap: %d kB used, %d kB free"
+msgstr ""
+
+#: MainMenu.cpp:51
+#, fuzzy, c-format
 msgid ""
 "KDE Task Manager (KTop) Version %s\n"
 "\n"
@@ -27,7 +55,7 @@ msgid ""
 "1997 : Ralf Mueller <ralf@bj-ig.de>\n"
 "1997-98 : Bernd Johannes Wuebben <wuebben@kde.org>\n"
 "1998 : Nicolas Leclercq <nicknet@planete.net>\n"
-"1999 : Chris Schlaeger <cs@axys.de>\n"
+"1999 : Chris Schlaeger <cs@kde.org>\n"
 msgstr ""
 "KDE KDE opgavemanager (KTop) Version %s\n"
 "\n"
@@ -38,87 +66,108 @@ msgstr ""
 "1998 : Nicolas Leclercq <nicknet@planete.net>\n"
 "1999 : Chris Schlaeger <cs@axys.de>\n"
 
-#: ktop.cpp:86
-msgid "StartUp Preferences..."
-msgstr "Opstarts præferencer"
+#: MainMenu.cpp:64
+msgid "Manual Refresh"
+msgstr ""
 
-#: settings.cpp:35
-msgid "KTop Preferences"
-msgstr "KTop præferencer"
+#: MainMenu.cpp:65
+#, fuzzy
+msgid "Slow Refresh"
+msgstr "Genopfrisk nu"
 
-#: settings.cpp:37
-msgid "Start up page"
-msgstr "Opstartsside"
+#: MainMenu.cpp:66
+msgid "Medium Refresh"
+msgstr ""
 
-#: TaskMan.cpp:117 settings.cpp:40
-msgid "Processes &List"
-msgstr "Proces&liste"
+#: MainMenu.cpp:67
+#, fuzzy
+msgid "Fast Refresh"
+msgstr "Genopfrisk nu"
 
-#: TaskMan.cpp:118 settings.cpp:43
-msgid "Processes &Tree"
-msgstr "Proces&træ"
+#: MainMenu.cpp:79
+#, fuzzy
+msgid "&Refresh Rate"
+msgstr "Genopfriskningsrate: langsom"
 
-#: settings.cpp:46
-msgid "Performance &Meter"
-msgstr "Ydelsesmåler"
+#: MainMenu.cpp:80
+#, fuzzy
+msgid "&Process"
+msgstr "Ændr niceproces"
 
-#: TaskMan.cpp:70
+#: ProcessMenu.cpp:44
 msgid "Renice Task..."
 msgstr "Opgave der ændrer nice..."
 
-#: TaskMan.cpp:73
+#: ProcessMenu.cpp:47
 msgid "send SIGINT\t(ctrl-c)"
 msgstr "send SIGINT\t(ctrl-c)"
 
-#: TaskMan.cpp:74
+#: ProcessMenu.cpp:48
 msgid "send SIGQUIT\t(core)"
 msgstr "send SIGQUIT\t(core)"
 
-#: TaskMan.cpp:75
+#: ProcessMenu.cpp:49
 msgid "send SIGTERM\t(term.)"
 msgstr "send SIGTERM\t(term.)"
 
-#: TaskMan.cpp:76
+#: ProcessMenu.cpp:50
 msgid "send SIGKILL\t(term.)"
 msgstr "send SIGKILL\t(term.)"
 
-#: TaskMan.cpp:78
+#: ProcessMenu.cpp:52
 msgid "send SIGUSR1\t(user1)"
 msgstr "send SIGUSR1\t(user1)"
 
-#: TaskMan.cpp:79
+#: ProcessMenu.cpp:53
 msgid "send SIGUSR2\t(user2)"
 msgstr "send SIGUSR2\t(user2)"
 
-#: TaskMan.cpp:119
-msgid "&Performance"
-msgstr "&Ydelse"
+#: ProcessMenu.cpp:74 ProcessMenu.cpp:86 ProcessMenu.cpp:150
+#: ProcessMenu.cpp:158 ProcessMenu.cpp:176
+msgid "Task Manager"
+msgstr "Opgavemanager"
 
-#: TaskMan.cpp:159
+#: ProcessMenu.cpp:75
+#, fuzzy
+msgid "You need to select a process first!"
+msgstr ""
+"Du skal vælge en proces før du trykker\n"
+"på 'dræb' knappen!\n"
+
+#: ProcessMenu.cpp:85 ProcessMenu.cpp:149
+#, c-format
+msgid "The process %d is no longer persistent."
+msgstr ""
+
+#: ProcessMenu.cpp:98
 msgid "SIGINT"
 msgstr "SIGINT"
 
-#: TaskMan.cpp:163
+#: ProcessMenu.cpp:101
 msgid "SIGQUIT"
 msgstr "SIGQUIT"
 
-#: TaskMan.cpp:167
+#: ProcessMenu.cpp:104
 msgid "SIGTERM"
 msgstr "SIGTERM"
 
-#: TaskMan.cpp:171
+#: ProcessMenu.cpp:107
 msgid "SIGKILL"
 msgstr "SIGKILL"
 
-#: TaskMan.cpp:175
+#: ProcessMenu.cpp:110
 msgid "SIGUSR1"
 msgstr "SIGUSR1"
 
-#: TaskMan.cpp:179
+#: ProcessMenu.cpp:113
 msgid "SIGUSR2"
 msgstr "SIGUSR2"
 
-#: TaskMan.cpp:255
+#: ProcessMenu.cpp:116
+msgid "Unkown Signal"
+msgstr ""
+
+#: ProcessMenu.cpp:122
 #, c-format
 msgid ""
 "Send signal %s to process %d?\n"
@@ -127,15 +176,11 @@ msgstr ""
 "Send signal %s til processen %d?\n"
 "(Procesnavn: %s Ejer: %s)\n"
 
-#: TaskMan.cpp:259
+#: ProcessMenu.cpp:126
 msgid "Abort"
 msgstr "Opgiv"
 
-#: ProcListPage.cpp:184 ProcTreePage.cpp:150 TaskMan.cpp:281 TaskMan.cpp:299
-msgid "Task Manager"
-msgstr "Opgavemanager"
-
-#: TaskMan.cpp:282 TaskMan.cpp:300
+#: ProcessMenu.cpp:159 ProcessMenu.cpp:177
 msgid ""
 "Renice error...\n"
 "Specified process does not exist\n"
@@ -145,113 +190,97 @@ msgstr ""
 "Den angivne proces eksisterer ikke\n"
 "eller tilladelse blev nægtet."
 
-#: ProcListPage.cpp:53 ProcTreePage.cpp:67
+#: TaskMan.cpp:80
+msgid "Processes &List"
+msgstr "Proces&liste"
+
+#: TaskMan.cpp:81
+msgid "Performance &Meter"
+msgstr "Ydelsesmåler"
+
+#: ProcListPage.cpp:42
 msgid "Running Processes"
 msgstr "Kørende processer"
 
-#: ProcListPage.cpp:71
-msgid "Refresh rate: Slow"
-msgstr "Genopfriskningsrate: langsom"
-
-#: ProcListPage.cpp:73
-msgid "Refresh rate: Medium"
-msgstr "Genopfriskningsrate: mellem"
-
-#: ProcListPage.cpp:75
-msgid "Refresh rate: Fast"
-msgstr "Genopfriskningsrate: hurtig"
-
-#: ProcListPage.cpp:84
+#: ProcListPage.cpp:60
 msgid "All processes"
 msgstr "Alle processer"
 
-#: ProcListPage.cpp:85
+#: ProcListPage.cpp:61
 msgid "System processes"
 msgstr "System processer"
 
-#: ProcListPage.cpp:86
+#: ProcListPage.cpp:62
 msgid "User processes"
 msgstr "Bruger processer"
 
-#: ProcListPage.cpp:87
+#: ProcListPage.cpp:63
 msgid "Own processes"
 msgstr "Egne processer"
 
-#: ProcListPage.cpp:93 ProcTreePage.cpp:82
+#: ProcListPage.cpp:79
 msgid "Refresh Now"
 msgstr "Genopfrisk nu"
 
-#: ProcListPage.cpp:98
+#: ProcListPage.cpp:85
 msgid "Kill task"
 msgstr "Dræb opgaven"
 
-#: ProcListPage.cpp:185 ProcTreePage.cpp:151
-msgid ""
-"You need to select a process before\n"
-"pressing the kill button!\n"
+#: ProcessList.cpp:227
+msgid "Remove Column"
 msgstr ""
-"Du skal vælge en proces før du trykker\n"
-"på 'dræb' knappen!\n"
 
-#: ProcTreePage.cpp:88
-msgid "Change Root"
-msgstr "Skift Root"
+#: ProcessList.cpp:228
+msgid "Add Column"
+msgstr ""
 
-#: ProcTreePage.cpp:93
-msgid "Kill Task"
-msgstr "Dræb opgaven"
+#: ProcessList.cpp:229
+msgid "Help on Column"
+msgstr ""
 
-#: ProcTreePage.cpp:101
-msgid "Sort by ID"
-msgstr "Sorter efter ID"
-
-#: ProcTreePage.cpp:102
-msgid "Sort by Name"
-msgstr "Sorter efter navn"
-
-#: ProcTreePage.cpp:103
-msgid "Sort by Owner (UID)"
-msgstr "Sorter efter ejer (UID)"
-
-#: ProcessList.cpp:411 ProcessList.cpp:412
-msgid "PID"
-msgstr "PID"
-
-#: ProcessList.cpp:415
+#: ProcessList.cpp:691 ProcessList.cpp:692
 msgid "Name"
 msgstr "Navn"
 
-#: ProcessList.cpp:416
+#: ProcessList.cpp:695 ProcessList.cpp:696
+msgid "PID"
+msgstr "PID"
+
+#: ProcessList.cpp:699
 msgid "User ID"
 msgstr "Bruger ID"
 
-#: ProcessList.cpp:417
+#: ProcessList.cpp:700
 msgid "CPU"
 msgstr "CPU"
 
-#: ProcessList.cpp:418
+#: ProcessList.cpp:701
 msgid "Time"
 msgstr "Tid"
 
-#: ProcessList.cpp:419
+#: ProcessList.cpp:702
 msgid "Nice"
 msgstr "Nice"
 
-#: ProcessList.cpp:420
+#: ProcessList.cpp:703
 msgid "Status"
 msgstr "Status"
 
-#: PerfMonPage.cpp:51 ProcessList.cpp:421
+#: ProcessList.cpp:704
 msgid "Memory"
 msgstr "Hukommelse"
 
-#: ProcessList.cpp:422
+#: ProcessList.cpp:705
 msgid "Resident"
 msgstr "Resident"
 
-#: ProcessList.cpp:423
+#: ProcessList.cpp:706
 msgid "Shared"
 msgstr "Delt"
+
+#: ProcessList.cpp:707
+msgid "Command line"
+msgstr ""
 
 #: OSProcessList.cpp:76 OSProcessList.cpp:103
 msgid ""
@@ -263,7 +292,7 @@ msgstr ""
 "Kernen skal kompileres med støtte for\n"
 "/proc filsystemet slået til!"
 
-#: OSProcessList.cpp:120
+#: OSProcessList.cpp:126
 msgid ""
 "Cannot read status of processes\n"
 "from /proc/... directories!\n"
@@ -271,70 +300,109 @@ msgstr ""
 "Kan ikke læse processens status i\n"
 "/proc/... folderne!\n"
 
-#: OSProcessList.cpp:260
+#: OSProcessList.cpp:276
 msgid "Cannot read status of processes\n"
 msgstr "Kan ikke læse processens status\n"
 
-#: OSProcessList.cpp:355
+#: OSProcessList.cpp:377
 msgid "Your OS is not supported yet.  Sorry"
 msgstr "Dit operativsystem er desvaærre ikke understøttet endnu"
 
-#: OSProcess.cpp:113 OSProcess.cpp:130
+#: OSProcess.cpp:128 OSProcess.cpp:162 OSProcess.cpp:179
 #, c-format
 msgid "Cannot open %s!\n"
 msgstr "Kan ikke åbne %s!\n"
 
-#: OSProcess.cpp:143
+#: OSProcess.cpp:130
+msgid "The Process has been terminated!\n"
+msgstr ""
+
+#: OSProcess.cpp:191
 msgid "Run"
 msgstr "Kør"
 
-#: OSProcess.cpp:146
+#: OSProcess.cpp:194
 msgid "Sleep"
 msgstr "Sov"
 
-#: OSProcess.cpp:149
+#: OSProcess.cpp:197
 msgid "Disk"
 msgstr "Disk"
 
-#: OSProcess.cpp:152
+#: OSProcess.cpp:200
 msgid "Zombie"
 msgstr "Zombie"
 
-#: OSProcess.cpp:158 PerfMonPage.cpp:63
+#: OSProcess.cpp:206
 msgid "Swap"
 msgstr "Swap"
 
-#: OSProcess.cpp:161
+#: OSProcess.cpp:209
 msgid "????"
 msgstr "????"
 
-#: OSProcess.cpp:273
+#: OSProcess.cpp:328
 #, c-format
 msgid "Could not set new nice level for process %d"
 msgstr "Kunne ikke sætte nyt nice niveau for processen %d"
 
-#: OSProcess.cpp:287
+#: OSProcess.cpp:342
 #, c-format
 msgid "Cound not send signal %d to process %d"
 msgstr "Kunne ikke sende signalet %d til processen %d"
 
-#: PerfMonPage.cpp:39
-msgid "CPU load"
-msgstr "CPU belastning"
-
-#: PerfMonPage.cpp:42
-msgid "CPU load history"
+#: PerfMonPage.cpp:49
+#, fuzzy
+msgid "CPU Load History"
 msgstr "CPU belastningshistorie"
 
-#: PerfMonPage.cpp:54
-msgid "Memory usage history"
+#: PerfMonPage.cpp:52
+#, fuzzy
+msgid "System Load History"
+msgstr "CPU belastningshistorie"
+
+#: PerfMonPage.cpp:55 PerfMonPage.cpp:113
+#, fuzzy
+msgid "User (%)"
+msgstr "Bruger ID"
+
+#: PerfMonPage.cpp:56 PerfMonPage.cpp:114
+#, fuzzy
+msgid "Nice (%)"
+msgstr "Nice"
+
+#: PerfMonPage.cpp:57 PerfMonPage.cpp:115
+msgid "System (%)"
+msgstr ""
+
+#: PerfMonPage.cpp:64
+#, fuzzy
+msgid "Memory Usage History"
 msgstr "Hukommelsesbrug historie"
 
 #: PerfMonPage.cpp:66
-msgid "Swap history"
-msgstr "Swap historie"
+msgid "Program (kB)"
+msgstr ""
 
-#: OSStatus.cpp:91
+#: PerfMonPage.cpp:67
+msgid "Buffer (kB)"
+msgstr ""
+
+#: PerfMonPage.cpp:68
+msgid "Cache (kB)"
+msgstr ""
+
+#: PerfMonPage.cpp:69
+#, fuzzy
+msgid "Swap (kB)"
+msgstr "Swap"
+
+#: PerfMonPage.cpp:109
+#, fuzzy, c-format
+msgid "CPU%d Load History"
+msgstr "CPU belastningshistorie"
+
+#: OSStatus.cpp:98
 msgid ""
 "Cannot open file '/proc/stat'!\n"
 "The kernel needs to be compiled with support\n"
@@ -344,17 +412,7 @@ msgstr ""
 "Kenren skal kompileres med støtte for\n"
 "/proc filsystemet slået til!"
 
-#: OSStatus.cpp:103 OSStatus.cpp:166
-msgid ""
-"Cannot read file '/proc/stat'!\n"
-"The kernel needs to be compiled with support\n"
-"for /proc filesystem enabled!"
-msgstr ""
-"Kan ikke læse filen '/proc/stat'!\n"
-"Kenren skal kompileres med støtte for\n"
-"/proc filsystemet slået til!"
-
-#: OSStatus.cpp:119 OSStatus.cpp:221 OSStatus.cpp:247
+#: OSStatus.cpp:120 OSStatus.cpp:302 OSStatus.cpp:377
 msgid ""
 "Cannot open file '/proc/meminfo'!\n"
 "The kernel needs to be compiled with support\n"
@@ -364,15 +422,26 @@ msgstr ""
 "Kenren skal kompileres med støtte for\n"
 "/proc filsystemet slået til!"
 
-#: OSStatus.cpp:229
+#: OSStatus.cpp:310
 msgid "Cannot read memory info file '/proc/meminfo'!\n"
 msgstr "Kan ikke læse hukommelsesinfofilen '/proc/meminfo'!\n"
 
-#: OSStatus.cpp:255
+#: OSStatus.cpp:353
+#, fuzzy, c-format
+msgid ""
+"Cannot read info for %s from file '/proc/stat'!\n"
+"The kernel needs to be compiled with support\n"
+"for /proc filesystem enabled!"
+msgstr ""
+"Kan ikke læse filen '/proc/stat'!\n"
+"Kenren skal kompileres med støtte for\n"
+"/proc filsystemet slået til!"
+
+#: OSStatus.cpp:385
 msgid "Cannot read swap info from '/proc/meminfo'!\n"
 msgstr "Kan ikke læse swapinfo fra '/proc/meminfo'!\n"
 
-#: OSStatus.cpp:356 OSStatus.cpp:369 OSStatus.cpp:378 OSStatus.cpp:387
+#: OSStatus.cpp:574 OSStatus.cpp:587 OSStatus.cpp:614 OSStatus.cpp:623
 msgid ""
 "Your system is not currently supported.\n"
 "Sorry"
@@ -380,14 +449,15 @@ msgstr ""
 "Dit system er desværre ikke understøttet\n"
 "for øjeblikket"
 
-#: ReniceDlg.cpp:31
+#: ReniceDlg.cpp:32
 msgid "Renice Process"
 msgstr "Ændr niceproces"
 
-#: ReniceDlg.cpp:37
+#: ReniceDlg.cpp:39
+#, fuzzy, c-format
 msgid ""
 "You are about the change the scheduling priority of\n"
-"a process. Be aware that only the Superuser (root)\n"
+"process %d. Be aware that only the Superuser (root)\n"
 "can decrease the nice level of a process. The smaller\n"
 "the number is the higher is the priority.\n"
 "\n"
@@ -399,3 +469,45 @@ msgstr ""
 "tallet er, jo højere er prioriteten.\n"
 "\n"
 "Angiv venligst det ønskede nice niveau:"
+
+#~ msgid "StartUp Preferences..."
+#~ msgstr "Opstarts præferencer"
+
+#~ msgid "KTop Preferences"
+#~ msgstr "KTop præferencer"
+
+#~ msgid "Start up page"
+#~ msgstr "Opstartsside"
+
+#~ msgid "Processes &Tree"
+#~ msgstr "Proces&træ"
+
+#~ msgid "&Performance"
+#~ msgstr "&Ydelse"
+
+#~ msgid "Refresh rate: Medium"
+#~ msgstr "Genopfriskningsrate: mellem"
+
+#~ msgid "Refresh rate: Fast"
+#~ msgstr "Genopfriskningsrate: hurtig"
+
+#~ msgid "Change Root"
+#~ msgstr "Skift Root"
+
+#~ msgid "Kill Task"
+#~ msgstr "Dræb opgaven"
+
+#~ msgid "Sort by ID"
+#~ msgstr "Sorter efter ID"
+
+#~ msgid "Sort by Name"
+#~ msgstr "Sorter efter navn"
+
+#~ msgid "Sort by Owner (UID)"
+#~ msgstr "Sorter efter ejer (UID)"
+
+#~ msgid "CPU load"
+#~ msgstr "CPU belastning"
+
+#~ msgid "Swap history"
+#~ msgstr "Swap historie"

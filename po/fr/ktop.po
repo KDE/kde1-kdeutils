@@ -456,4 +456,3 @@ msgstr ""
 "nombre est petit, plus la priorité est élevée.\n"
 "\n"
 "Entrez la valeur de gentillesse désirée :"
-
