@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
 "POT-Creation-Date: 1998-12-24 01:52+0100\n"
-"PO-Revision-Date: 1998-12-25 20:39 CET\n"
+"PO-Revision-Date: 1998-12-26 17:44 CET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <flidr@kky.zcu.cz>\n"
 "MIME-Version: 1.0\n"
@@ -187,7 +187,7 @@ msgstr "nahrazení provedeno(a)"
 
 #: kwview.cpp:1947 toplevel.cpp:486
 msgid "Line"
-msgstr "Èára"
+msgstr "Øádka"
 
 #: kwdialog.cpp:30
 msgid "&Text To Find:"
@@ -460,3 +460,4 @@ msgstr "Ulo¾it dokument"
 #: toplevel.cpp:487
 msgid "Col"
 msgstr "Slopec"
+
