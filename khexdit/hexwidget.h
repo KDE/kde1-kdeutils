@@ -54,7 +54,8 @@ public slots:
     void slotDropEvent( KDNDDropZone * _dropZone );
     virtual void saveProperties(KConfig*);
     virtual void readProperties(KConfig*);
-    
+    void unsaved(bool flag);
+
 private:
     QList<HexFile> files;
     HexFile *CurrentFile;

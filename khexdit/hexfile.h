@@ -46,24 +46,25 @@ private:
   QScrollBar *scrollH;
 
 protected:
-  void paintEvent(QPaintEvent*);
-  void resizeEvent(QResizeEvent*);
-  void keyPressEvent (QKeyEvent*);
-  void mousePressEvent (QMouseEvent*);
-  void mouseReleaseEvent (QMouseEvent*);
-  void focusInEvent ( QFocusEvent *);
-  void focusOutEvent ( QFocusEvent *);
-  void fillPixmap();
-  void init();
-  void changeSide();
-  void calcScrolls();
-
-  public slots:
+    void paintEvent(QPaintEvent*);
+    void resizeEvent(QResizeEvent*);
+    void keyPressEvent (QKeyEvent*);
+    void mousePressEvent (QMouseEvent*);
+    void mouseReleaseEvent (QMouseEvent*);
+    void focusInEvent ( QFocusEvent *);
+    void focusOutEvent ( QFocusEvent *);
+    void fillPixmap();
+    void init();
+    void changeSide();
+    void calcScrolls();
+    
+public slots:
     void scrolled(int);
-  void moved(int);
+    void moved(int);
 
 signals:
-  void scrolling(int);
+    void scrolling(int);
+    void unsaved(bool);
 };
 
 #endif
