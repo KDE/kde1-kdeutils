@@ -30,9 +30,11 @@
 
 #include <qpopmenu.h>
 #include <qmenubar.h>
+#include <qstrlist.h>
 #include <qapp.h>
 #include <qkeycode.h>
 #include <qaccel.h>
+#include <qregexp.h> 
 #include <qobject.h>
 #include <qmlined.h>
 #include <qlined.h>
@@ -500,6 +502,7 @@ private:
 
 private:
 
+    QString	killbufferstring;
     QWidget     *p_parent;
     QFileDialog *fbox;
     KEdSrch 	*srchdialog;
@@ -516,6 +519,9 @@ private:
     bool 	modified;
     bool 	autoIndentMode;
     bool 	can_replace;
+    bool	killing;
+    bool 	killtrue;
+    bool 	lastwasanewline;
 
     int 	edit_mode;
     int 	last_search;

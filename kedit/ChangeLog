@@ -1,3 +1,9 @@
+Sat Dec  6 03:17:49 1997  Bernd Johannes Wuebben  <wuebben@petit.cornell.edu>
+
+	* keditcl1.cpp: implemented control-k control-y emacs like kill buffer
+	  threw out KEdit.cpp KEdit.h and introduced keditcl.h keditcl1.cpp
+	  keditcl2.cpp
+
 Fri Oct 24 01:19:54 1997  Bernd Johannes Wuebben  <wuebben@petit.cornell.edu>
 
 	* kedit.cpp: lots of clean ups and fixes that were necessary because
