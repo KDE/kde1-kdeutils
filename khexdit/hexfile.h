@@ -23,7 +23,7 @@ public:
     HexFile(const char *filename,QWidget *parent=0, const char* name=0);
     HexFile(QWidget *parent=0);
     ~HexFile();
-    paint(QPaintEvent *);
+    void paint(QPaintEvent *);
     int maxLine();
     int lines();
     const char *Title();

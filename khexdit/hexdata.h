@@ -12,8 +12,8 @@ public:
     HexData(const char *filename);
     HexData();
 
-    load(const char *filename);
-    save(const char *filename);
+    int load(const char *filename);
+    int save(const char *filename);
 
     uchar operator[] (unsigned long i) const { return hexdata[i]; }
     uchar byteAt(unsigned long i) const;
