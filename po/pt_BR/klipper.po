@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-12-18 22:44+0100\n"
+"POT-Creation-Date: 1998-12-21 02:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,22 +13,22 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: toplevel.cpp:83
+#: toplevel.cpp:89
 msgid "Shortcut..."
 msgstr "Atalho..."
 
-#: toplevel.cpp:84
+#: toplevel.cpp:90
 msgid "Popup at mouse position"
 msgstr "Abrir na posição do mouse"
 
-#: toplevel.cpp:89
+#: toplevel.cpp:95
 msgid "Clipboard History"
 msgstr "Histórico da Área de Transferência"
 
-#: toplevel.cpp:93
+#: toplevel.cpp:99
 msgid "<empty clipboard>"
 msgstr "<área de transferência vazia>`"
 
-#: toplevel.cpp:105
+#: toplevel.cpp:111
 msgid "Select clipboard contents"
 msgstr "Selecionar conteúdo da área de transferência"
