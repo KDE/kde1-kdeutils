@@ -22,6 +22,10 @@
     Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
   
     $Log$
+    Revision 1.8  1997/10/24 05:52:43  wuebben
+    Bernd: Some major fix ups. Hopefully I didn't break too much. Qt 1.31
+    is nice, but it also uglified kedit, so I had to fix that.
+
     Revision 1.7  1997/08/31 21:19:58  kdecvs
     Kalle: Even more changes for the new KLocale and the new KConfig
 
@@ -94,11 +98,11 @@ PrintDialog::PrintDialog( QWidget *parent, const char *name,  bool modal)
   ok_button->setGeometry( 3*XOFFSET, 210, 80, BUTTONHEIGHT );
   ok_button->setFocus();
   connect( ok_button, SIGNAL( clicked() ), SLOT( accept() ) );	
+  
   cancel_button = new QPushButton(klocale->translate("Cancel"),this);
 
   cancel_button->setGeometry( 3*XOFFSET +100, 210, 80, BUTTONHEIGHT );
   connect( cancel_button, SIGNAL( clicked() ), SLOT( reject() ) );
-
 
   this->setFixedSize(405,240);
 

@@ -46,14 +46,16 @@
 #include <qchkbox.h>
 #include <qmsgbox.h>
 #include <qgrpbox.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
+#include <qstrlist.h>
 #include <qtooltip.h>
 #include <qregexp.h> 
 #include <qprinter.h>
 
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
 #include <sys/stat.h>
 #include <string.h>
 #include <unistd.h>
@@ -100,7 +102,7 @@ public:
 
     /// List of all windows
     static QList<TopLevel> windowList;
-    QPopupMenu *file, *edit, *help,*options,*right_mouse_button, *colors;
+    QPopupMenu *file, *edit, *help,*options,*right_mouse_button, *colors, *recentpopup;
     
     void closeEvent( QCloseEvent *e );
 
@@ -123,9 +125,10 @@ private:
     KToolBar *toolbar;
     QColor forecolor;
     QColor backcolor;
-
+    QString url_location;
     KStatusBar *statusbar;
     QTimer *statusbar_timer;
+    QStrList recent_files;
 
     int open_mode;
     int editor_width;
@@ -181,11 +184,12 @@ private:
 
     void saveProperties(KConfig*);
     void readProperties(KConfig*);
-    
+    void add_recent_file(const char*);
 
     
 public slots:
 
+    void openRecent(int);
     void set_colors();
     void gotoLine();
     void fill_column_slot();
@@ -202,6 +206,7 @@ public slots:
     void insertDate();
     void toggle_indent_mode();
     void print();
+    void select_all();
     void timer_slot();
     void save_options();
     void file_open();

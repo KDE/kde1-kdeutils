@@ -35,6 +35,7 @@
 #include <qpainter.h>
 #include <qdir.h>
 
+#include "urldlg.h"
 #include "kedit.h"
 #include "filldlg.h"
 #include "kcolordlg.h"
@@ -61,7 +62,8 @@ TopLevel::TopLevel (QWidget *, const char *name)
   setMinimumSize (100, 100);
 
   kfm = 0L;
-
+  recent_files.setAutoDelete(TRUE);
+  
   statusbar_timer = new QTimer(this);
   connect(statusbar_timer, SIGNAL(timeout()),this,SLOT(timer_slot()));
 
@@ -72,6 +74,13 @@ TopLevel::TopLevel (QWidget *, const char *name)
   setupStatusBar();
 
   readSettings();
+
+  recentpopup->clear();
+
+  for ( int i =0 ; i < (int)recent_files.count(); i++){
+    recentpopup->insertItem(recent_files.at(i));
+  
+  }
 
   setupEditWidget();
   set_colors();
@@ -86,25 +95,15 @@ TopLevel::TopLevel (QWidget *, const char *name)
   else
     options->changeItem( klocale->translate("Hide &Status Bar"), statusID );
 
-  /*  setCaption(mykapp->getCaption());*/ /* doesn't work yet*/
-      setCaption("KEdit "KEDITVERSION);
+  setCaption("KEdit "KEDITVERSION);
 
   KDNDDropZone * dropZone = new KDNDDropZone( this , DndURL);
   connect( dropZone, SIGNAL( dropAction( KDNDDropZone *) ), 
 	   this, SLOT( slotDropEvent( KDNDDropZone *) ) );
 
 
-  // Calling resize as is done here will reduce flicker considerably
-  // ktoplevelwidget updateRect will be called only twice this way instead of 4 times.
-  // If I leave the first resize out the toolbar will not be displayed and 
-  // ktoplevelwidget updateRect will be called four times. All this needs to 
-  // be looked into. ktoolbar <-> ktoplevelwidget
-
   resize(editor_width,editor_height);
 
-  // no show here! (Matthias)
-//   show();
-//   resize(editor_width,editor_height);
 }
 
 
@@ -114,6 +113,7 @@ TopLevel::~TopLevel (){
   delete edit;
   delete help;
   delete options;
+  delete recentpopup;
   delete toolbar;
 }
 
@@ -121,7 +121,7 @@ TopLevel::~TopLevel (){
 
 void TopLevel::setupEditWidget(){
 
-
+  
   eframe = new KEdit (mykapp,this, "eframe", klocale->translate("Untitled"));
 
   connect(eframe, SIGNAL(CursorPositionChanged()),this,SLOT(statusbar_slot()));
@@ -149,14 +149,16 @@ void TopLevel::setupEditWidget(){
   right_mouse_button->insertItem (klocale->translate("Save as..."),
 				  this, SLOT(file_save_as()));
   right_mouse_button->insertSeparator(-1);
-  right_mouse_button->insertItem(klocale->translate("&Copy"), 
+  right_mouse_button->insertItem(klocale->translate("Copy"), 
 				 this, SLOT(copy()));
-  right_mouse_button->insertItem(klocale->translate("&Paste"),
+  right_mouse_button->insertItem(klocale->translate("Paste"),
 				 this, SLOT(paste()));
-  right_mouse_button->insertItem(klocale->translate("C&ut"), 
+  right_mouse_button->insertItem(klocale->translate("Cut"), 
 				 this, SLOT(cut()));
+  right_mouse_button->insertItem(klocale->translate("Select All"), 
+				 this, SLOT(select_all()));
   right_mouse_button->insertSeparator(-1);
-  right_mouse_button->insertItem(klocale->translate("&Font"), 
+  right_mouse_button->insertItem(klocale->translate("Font"), 
 				 this,	SLOT(font()));
 
   eframe->installRBPopup(right_mouse_button);
@@ -172,6 +174,7 @@ void TopLevel::setupMenuBar(){
   help = 	new QPopupMenu ();
   options = 	new QPopupMenu ();
   colors =  	new QPopupMenu ();
+  recentpopup = new QPopupMenu ();
 
   colors->insertItem(klocale->translate("&Foreground Color"),
 		     this, SLOT(set_foreground_color()));
@@ -187,6 +190,12 @@ void TopLevel::setupMenuBar(){
 		    this, 	SLOT(file_new()));
   file->insertItem (klocale->translate("&Open..."),
 		    this, 	SLOT(file_open()));
+
+  file->insertItem (klocale->translate("Open Recen&t..."), recentpopup);
+  connect( recentpopup, SIGNAL(activated(int)), SLOT(openRecent(int)) );
+
+  file->insertSeparator (-1);
+
   file->insertItem (klocale->translate("&Save"),
 		    this, 	SLOT(file_save()));
   file->insertItem (klocale->translate("S&ave as..."),
@@ -220,6 +229,8 @@ void TopLevel::setupMenuBar(){
 		   this, 	SLOT(paste()));
   edit->insertItem(klocale->translate("C&ut"),
 		   this, 	SLOT(cut()));
+  edit->insertItem(klocale->translate("&Select All"),
+		   this, 	SLOT(select_all()));
   edit->insertSeparator(-1);
   edit->insertItem(klocale->translate("&Insert File"),
 		   this, 	SLOT(insertFile()));
@@ -425,6 +436,12 @@ void TopLevel::copy(){
 
 }
 
+void TopLevel::select_all(){
+  
+  eframe->selectAll();
+
+}
+
 void TopLevel::insertFile(){
 
   int returncode;
@@ -494,6 +511,7 @@ tryagain_fileopen:
     {
       QString string;
       setGeneralStatusField(klocale->translate("Done"));
+      add_recent_file(eframe->getName());
       break;
     }
 
@@ -517,14 +535,12 @@ tryagain_fileopen:
 
 void TopLevel::file_open_url(){
 
-  DlgLocation l( klocale->translate("Open Location:"), "ftp://localhost/welcome", this );
+  UrlDlg l( this, klocale->translate("Open Location:"), url_location.data());
   if ( l.exec() )
     {
       QString n = l.getText();
+      url_location = n;
       if ( n.left(5) != "file:" && n.left(4) == "ftp:" )
-	// was OPEN_WRITEONLY but that isn't really cool.
-	openNetFile( l.getText(), KEdit::OPEN_READWRITE );
-      else
 	openNetFile( l.getText(), KEdit::OPEN_READWRITE );
     }
   
@@ -533,15 +549,15 @@ void TopLevel::file_open_url(){
 
 void TopLevel::file_save_url(){
 
-  DlgLocation l( klocale->translate("Save to Location:"), eframe->getName(), this );
+  UrlDlg l( this, klocale->translate("Save to Location:"), eframe->getName());
   if ( l.exec() )
     {
       QString n = l.getText();
+      url_location = n;
       if ( n.left(5) != "file:" && n.left(4) == "ftp:" )
 	saveNetFile( l.getText() );
-      else
-	saveNetFile( l.getText() );
     }
+
   statusbar_slot();
 }
 
@@ -620,22 +636,84 @@ void TopLevel::quiteditor(){
     mykapp->quit();
   }
 
-  bool returncode;
-
-  returncode = QMessageBox::query (klocale->translate("Message"), 
+  switch( QMessageBox::warning( 
+		    this,
+		    klocale->translate("Message"),
 		    klocale->translate("There are windows with modified content open.\n"\
 		    "If you exit now, you will loose those changes\n"\
-		    "Quit anyways?"));
-
-  if (returncode){
+		    "Quit anyways?"),
+		     klocale->translate("Yes"),
+		     klocale->translate("No"), 
+		    "",
+		     1,      // Enter == button 0
+		     1 ) ){
+  case 0: // yes exit
     writeSettings();
     mykapp->quit();
+    break;
+  case 1: // no don't exit
+    return;
+    break;
   }
 
   return;
 
 }
 
+void TopLevel::openRecent(int i){
+
+  if (eframe->isModified ()) {
+
+
+    switch( QMessageBox::information( 
+			    this,
+			    klocale->translate("Message"),
+			    klocale->translate("The current document has been modified.\n"\
+					       "Continue anyways ?"),
+			    klocale->translate("Yes"),
+			    klocale->translate("No"), 
+			    klocale->translate("Cancel"),
+			    1,      // Enter == button 0
+			    2 ) ){
+
+      case 0: // Save clicked, Enter pressed.
+	break;
+
+      case 1: 
+	return;
+        break;
+    case 2: 
+        return;
+        break;
+	}
+
+  }
+  
+  openNetFile( recent_files.at(i), KEdit::OPEN_READWRITE );	  
+
+	
+}
+
+void TopLevel::add_recent_file(const char* newfile){
+
+  if(recent_files.find(newfile) != -1)
+    return; // it's already there
+
+  if( recent_files.count() < 5)
+    recent_files.insert(0,newfile);
+  else{
+    recent_files.remove(4);
+    recent_files.insert(0,newfile);
+  }
+
+  recentpopup->clear();
+
+  for ( int i =0 ; i < (int)recent_files.count(); i++){
+    recentpopup->insertItem(recent_files.at(i));
+  
+  }
+
+}
 
 void TopLevel::newTopLevel(){
 
@@ -1313,8 +1391,7 @@ void TopLevel::openNetFile( const char *_url, int _mode )
   KURL *u = new KURL( netFile.data() );
   if ( u->isMalformed() )
     {
-        delete u; // we need to re-create the URL in order 
-	          // to perform a new check for malforming
+        delete u; 
 
         if (netFile.data()[0] == '/'){
 	  // absolute path
@@ -1325,9 +1402,12 @@ void TopLevel::openNetFile( const char *_url, int _mode )
 			      QDir::currentDirPath()+QString(netFile.data())) );
 	}
         if (u->isMalformed()){
+	  QString string;
+	  string.sprintf(klocale->translate( "Malformed URL\n%s"),netFile.data());
+
   	  QMessageBox::warning(this,
 			       klocale->translate("Sorry"),
-			       klocale->translate( "Malformed URL"), 
+			       string.data(),
 			       klocale->translate("Ok"),
 			       "",
 			       "",
@@ -1344,6 +1424,7 @@ void TopLevel::openNetFile( const char *_url, int _mode )
       string.sprintf(klocale->translate("Loading '%s'"),u->path() );
       setGeneralStatusField(string);
       eframe->loadFile( u->path(), _mode );
+      add_recent_file(u->path());
       setGeneralStatusField("Done");
       delete u;
       return;
@@ -1405,7 +1486,7 @@ void TopLevel::slotKFMFinished()
 	eframe->loadFile( u.path(), openMode );
 	eframe->setName( netFile.data() );
 	setCaption( netFile.data() );
-	
+	add_recent_file(netFile.data());
 	// Clean up
 	unlink( tmpFile.data() );
 	delete kfm;
@@ -1435,9 +1516,6 @@ void TopLevel::slotDropEvent( KDNDDropZone * _dropZone )
 	    if ( n.left(5) != "file:" && n.left(4) == "ftp:" )
 	      // was OPEN_WRITEONLY but that isn't really cool.
 		openNetFile( n.data(), KEdit::OPEN_READWRITE );
-	    else
-	      openNetFile( n.data(), KEdit::OPEN_READWRITE ); 
-	   
 	}
 	else
 	{
@@ -1564,7 +1642,35 @@ void TopLevel::readSettings(){
 				generalFont.setItalic(TRUE);
 	
 	///////////////////////////////////////////////////
+
+	config->setGroup("Recently_Opened_Files");
+
+	str = config->readEntry("1","");
+	if (!str.isEmpty())
+	  recent_files.append(str.data());
+
+	str = config->readEntry("2","");
+	if (!str.isEmpty())
+	  recent_files.append(str.data());
+
+	str = config->readEntry("3","");
+	if (!str.isEmpty())
+	  recent_files.append(str.data());
+
+	str = config->readEntry("4","");
+	if (!str.isEmpty())
+	  recent_files.append(str.data());
+
+	str = config->readEntry("5","");
+	if (!str.isEmpty())
+	  recent_files.append(str.data());
+
+	///////////////////////////////////////////////////
+
 	config->setGroup("General Options");
+
+
+	url_location = config->readEntry("default_url","ftp://localhost/welcome.msg");
 
 	str = config->readEntry("MailCmd");
 		if ( !str.isNull() )
@@ -1675,7 +1781,18 @@ void TopLevel::writeSettings(){
 
 	////////////////////////////////////////////////////
 
+	config->setGroup("Recently_Opened_Files");
+
+	QString recent_number;
+	for(int i = 0; i <(int) recent_files.count();i++){
+	  recent_number.setNum(i+1);
+	  config->writeEntry(recent_number.data(),recent_files.at(i));
+	}	
+
+	////////////////////////////////////////////////////
 	config->setGroup("General Options");
+
+	config->writeEntry("default_url", url_location);
 
 	QString widthstring;
 	widthstring.sprintf("%d", this->width() );
@@ -1829,7 +1946,6 @@ int main (int argc, char **argv)
 		
 	    if( ok){
 	      t->openNetFile( f.data(), default_open );
-	      t->setCaption( f.data() );
 	    }
         }
     }

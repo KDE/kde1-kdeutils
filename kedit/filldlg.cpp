@@ -22,6 +22,7 @@ FillDlg::FillDlg(QWidget *parent, const char *name)
     mailcmdlabel->setText(klocale->translate("Mail Command:"));
     ok = new QPushButton(klocale->translate("OK"), this, "OK");
     cancel = new QPushButton(klocale->translate("Cancel"), this, "cancel");
+    cancel->setFocus();
     connect(cancel, SIGNAL(clicked()), this, SLOT(reject()));
     connect(ok, SIGNAL(clicked()), this, SLOT(checkit()));
     resize(300, 190);

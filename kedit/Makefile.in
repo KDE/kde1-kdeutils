@@ -47,13 +47,13 @@ DEFS = #-DDOCS_PATH=\"$(DOCSDIR)/\"
 ########## Files #####################
 
 SOURCES =	kedit.cpp  KEdit.cpp  print.cpp\
-		filldlg.cpp mail.cpp about.cpp
+		filldlg.cpp mail.cpp about.cpp urldlg.cpp
 HEADERS =	kedit.h  KEdit.h  print.h\
-		filldlg.h  version.h mail.h about.h
+		filldlg.h  version.h mail.h about.h urldlg.h
 OBJECTS =	kedit.o  KEdit.o print.o\
-		filldlg.o mail.o about.o
+		filldlg.o mail.o about.o urldlg.o
 SRCMETA =	kedit.moc  KEdit.moc  print.moc\
-		filldlg.moc mail.moc about.moc
+		filldlg.moc mail.moc about.moc urldlg.moc
 TARGET	=	kedit
 
 
@@ -105,7 +105,7 @@ uninstall:
 	rm -f $(TOOLPICSDIR)/send.xpm
 
 messages:
-	@XGETTEXT@ -C --keyword=translate -x ../../kdelibs/po/kde.po $(SOURCES)
+	@XGETTEXT@ -C --keyword=translate -x ../../kdelibs/po/kde.pot $(SOURCES)
 
 # DO NOT DELETE THIS LINE -- make depend depends on it.
 

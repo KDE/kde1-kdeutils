@@ -2050,10 +2050,6 @@ void KEdReplace::resizeEvent(QResizeEvent *){
 
 
 
-void KEdGotoLine::selected(int)
-{
-	accept();
-}
 
 KEdGotoLine::KEdGotoLine( QWidget *parent, const char *name)
 	: QDialog( parent, name, TRUE )
@@ -2070,6 +2066,11 @@ KEdGotoLine::KEdGotoLine( QWidget *parent, const char *name)
 	connect(ok, SIGNAL(clicked()), this, SLOT(accept()));
 	resize(300, 120); 
 
+}
+
+void KEdGotoLine::selected(int)
+{
+	accept();
 }
 
 void KEdGotoLine::resizeEvent(QResizeEvent *)

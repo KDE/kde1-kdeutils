@@ -51,7 +51,8 @@ About::About(QWidget *parent) : QDialog(parent, "About KEdit", TRUE) {
   QString s;
   s = "Version " KEDITVERSION \
   "\n\nCopyright (c) 1997\nBernd Johannes Wuebben\n"\
-  "wuebben@math.cornell.edu";
+  "wuebben@math.cornell.edu\n"
+  "wuebben@kde.org";
 
 
   l = new QLabel(s.data(), this);
