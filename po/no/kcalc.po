@@ -1,0 +1,79 @@
+
+msgid ""
+msgstr ""
+"Date: 1998-03-06 23:13:09-0500\n"
+"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, <root@petit.cornell.edu>\n"
+"Content-Type: text/plain; charset=\n"
+"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
+"Files: configdlg.cpp dlabel.cpp fontdlg.cpp kcalc.cpp kcalc_core.cpp stats.cpp\n"
+"Date: 1998-03-21 12:54-0100\n"
+"Translated by Svein Olav Aasen <soaasen@online.no / svein.aasen@caa.no)"
+
+#: configdlg.cpp:48 kcalc.cpp:1567
+msgid "Defaults"
+msgstr "Standardverdier"
+
+#: configdlg.cpp:53
+msgid "Foreground Color:"
+msgstr "Forgrunns farge:"
+
+#: configdlg.cpp:70
+msgid "Background Color:"
+msgstr "Bakgrunns farge:"
+
+#: configdlg.cpp:87
+msgid "Precision:"
+msgstr "Presisjon:"
+
+#: configdlg.cpp:108
+msgid "Set Fixed Precision at:"
+msgstr "Sett fast presisjon til:"
+
+#: configdlg.cpp:137
+msgid "Beep on Error"
+msgstr "Lydsignal ved feil"
+
+#: configdlg.cpp:145
+msgid "Trigonometry Mode"
+msgstr "Trigonometri"
+
+#: configdlg.cpp:150
+msgid "Statistical Mode"
+msgstr "Statistikk"
+
+#: fontdlg.cpp:44
+msgid "Set Default Font"
+msgstr "Sett standard skrifttype"
+
+#: fontdlg.cpp:63
+msgid "Point Size:"
+msgstr "Punkt størrelse:"
+
+#: kcalc.cpp:92
+msgid "KCalc Setup/Help"
+msgstr "KCalc oppsett/hjelp"
+
+#: kcalc.cpp:145
+msgid "Angle"
+msgstr "Vinkel"
+
+#: kcalc.cpp:185
+msgid "Base"
+msgstr "Basis"
+
+#: kcalc.cpp:1534
+msgid "Base type: long double\n"
+msgstr "Grunn type: lang dobbel\n"
+
+#: kcalc.cpp:1536
+msgid "Base type: double\n"
+msgstr "Grunn type: dobbel\n"
+
+#: kcalc.cpp:1568
+msgid "Display Font"
+msgstr "Vis skrifttype"
+
+#: kcalc_core.cpp:1125
+msgid "Stat Mem cleared"
+msgstr "Stat Mem tømt"
+
