@@ -2,6 +2,7 @@
 [KDE Desktop Entry]
 Name=addressbook
 Name[de]=Adressbuch
+Name[pt_BR]=Livro de Endereços
 Exec=kab
 Icon=kab.xpm
 TerminalOptions=
@@ -9,4 +10,5 @@ Path=
 Type=Application
 Comment=addressbook
 Comment[de]=Adressbuch
+Comment[pt_BR]=Livro de Endereços
 Terminal=0
