@@ -1,14 +1,29 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
 #: kedit.cpp:80 kedit.cpp:811
 msgid "Show &Tool Bar"
-msgstr "Werkzeugleiste anzeigen"
+msgstr "Werkzeugleiste zeigen"
 
 #: kedit.cpp:82 kedit.cpp:804
 msgid "Hide &Tool Bar"
-msgstr "Wergzeugleiste verbergen"
+msgstr "Werkzeugleiste verstecken"
 
 #: kedit.cpp:85 kedit.cpp:791
 msgid "Show &Status Bar"
-msgstr "Statusleiste anzeigen"
+msgstr "Statusleiste zeigen"
 
 #: kedit.cpp:87 kedit.cpp:784
 msgid "Hide &Status Bar"
@@ -72,7 +87,7 @@ msgstr "Speichern &unter..."
 
 #: kedit.cpp:192
 msgid "&Close"
-msgstr "Sch&liessen"
+msgstr "Sch&ließen"
 
 #: kedit.cpp:195
 msgid "Open &URL..."
@@ -132,11 +147,11 @@ msgstr "&Erweiterte Optionen..."
 
 #: kedit.cpp:244
 msgid "Auto &Indent"
-msgstr "Auto. Einrücken"
+msgstr "Autom. Einrücken"
 
 #: kedit.cpp:247
 msgid "&Tool Bar"
-msgstr "&Werzeugleiste"
+msgstr "&Werkzeugleiste"
 
 #: kedit.cpp:249
 msgid "&Status Bar"
@@ -144,7 +159,7 @@ msgstr "&Statusleiste"
 
 #: kedit.cpp:252
 msgid "Save Options"
-msgstr ""
+msgstr "Einstellungen sichern"
 
 #: kedit.cpp:256
 msgid "&File"
@@ -156,7 +171,7 @@ msgstr "&Bearbeiten"
 
 #: kedit.cpp:258
 msgid "&Options"
-msgstr "&Optionen"
+msgstr "&Einstellungen"
 
 #: kedit.cpp:280
 msgid "New Document"
@@ -188,7 +203,7 @@ msgstr "Dokument drucken"
 
 #: kedit.cpp:321
 msgid "Mail Document"
-msgstr "Dokument mit Email abschicken"
+msgstr "Dokument als Email schicken"
 
 #: KEdit.cpp:1632 KEdit.cpp:1739 kedit.cpp:374 kedit.cpp:434 kedit.cpp:1200
 msgid "Done"
@@ -236,8 +251,8 @@ msgid ""
 "If you exit now, you will loose those changes\n"
 "Quit anyways?"
 msgstr ""
-"Es sind ncoh Fenster mit ungespeicherten Dokumenten.\n"
-"Wenn Sie nun beenden, Sie werden diese Änderungen verlieren\n"
+"Es gibt noch ungespeicherte Dokumente.\n"
+"Wenn Sie nun beenden, werden Sie diese Änderungen verlieren\n"
 "Trotzdem beenden?"
 
 #: kedit.cpp:604
@@ -265,11 +280,11 @@ msgstr ""
 
 #: kedit.cpp:752
 msgid "Auto Indent Mode: On"
-msgstr "Auto. Einrücken: An"
+msgstr "Autom. Einrücken: An"
 
 #: kedit.cpp:754
 msgid "Auto Indent Mode: Off"
-msgstr "Auto. Einrücken: Aus"
+msgstr "Autom. Einrücken: Aus"
 
 #: kedit.cpp:850
 #, c-format
@@ -282,8 +297,8 @@ msgid ""
 "Would you like to save the changes before \n"
 "printing this Document?"
 msgstr ""
-"Das derzeitig geöffnete Dokument wurde geändert.\n"
-"Wollen Sie die Änderungen abspeichern, bevor\n"
+"Das aktuelle Dokument wurde geändert.\n"
+"Wollen Sie die Änderungen speichern, bevor\n"
 "Sie es drucken?"
 
 #: kedit.cpp:923
@@ -402,23 +417,23 @@ msgid ""
 "You have do not have Permission to \n"
 "read this Document"
 msgstr ""
-"Es gibt keine Zugriffsrechte, \n"
-"um das File zu lesen"
+"Sie haben nicht das Recht, \n"
+"diese Datei zu lesen."
 
 #: KEdit.cpp:182
 msgid "An Error occured while trying to open this Document"
-msgstr "Ein Fehler ist aufgetreten beim Lesen des Dokuments"
+msgstr "Ein Fehler ist beim Lesen des Dokuments aufgetreten."
 
 #: KEdit.cpp:343
 msgid "Select Document to Insert"
-msgstr "Auswahl der einzufügenden Dateo"
+msgstr "Auswahl der einzufügenden Datei"
 
 #: KEdit.cpp:377 KEdit.cpp:418
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
 msgstr ""
-"Das derzeitige Dokument wurde geändert.\n"
+"Das aktuelle Dokument wurde geändert.\n"
 "Wollen Sie es speichern?"
 
 #: KEdit.cpp:383 KEdit.cpp:424
@@ -455,7 +470,7 @@ msgstr "Sorry:"
 
 #: KEdit.cpp:906
 msgid "You do not have write permission to this file.\n"
-msgstr "Sie haben keine Schreibrechte auf dieser Datei.\n"
+msgstr "Sie haben keine Schreibrechte für diese Datei.\n"
 
 #: KEdit.cpp:1084 KEdit.cpp:1097 KEdit.cpp:1323 KEdit.cpp:1336 KEdit.cpp:1378
 #: KEdit.cpp:1404 KEdit.cpp:1417 KEdit.cpp:1620 KEdit.cpp:1629 KEdit.cpp:1730
@@ -492,7 +507,7 @@ msgstr "Suche:"
 
 #: KEdit.cpp:1722
 msgid "Replace with:"
-msgstr "Ersetzen mit:"
+msgstr "Ersetzen durch:"
 
 #: KEdit.cpp:1733
 msgid "Replace"
@@ -504,7 +519,7 @@ msgstr "Alle ersetzen"
 
 #: KEdit.cpp:1837
 msgid "Goto Line"
-msgstr "Geh zu Zeile"
+msgstr "Gehe zu Zeile"
 
 #: KEdit.cpp:1842
 msgid "Go"
