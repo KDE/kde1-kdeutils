@@ -3,7 +3,6 @@ msgstr ""
 "POT-Creation-Date: 1998-11-14 02:05+0100\n"
 "PO-Revision-Date: 1998-10-18 21:59+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
-"First-Translator: Robert Palmbos <robertp@pbnjelly>\n"
 
 #: adddlg.cc:11
 msgid "Add File Options"
@@ -18,9 +17,8 @@ msgid "Only Add Newer Files"
 msgstr "Sólo añadir archivos nuevos"
 
 #: extractdlg.cc:14
-#, fuzzy
 msgid "Extract"
-msgstr "E&xtraer..."
+msgstr "Extraer"
 
 #: extractdlg.cc:28
 msgid "Destination"
@@ -51,9 +49,8 @@ msgid "Pattern"
 msgstr "Plantilla"
 
 #: extractdlg.cc:190
-#, fuzzy
 msgid "Extract To"
-msgstr "&Extraer en..."
+msgstr "Extraer en"
 
 #: arkwidget.cc:71
 msgid "&New..."
@@ -69,12 +66,11 @@ msgstr "E&xtraer..."
 
 #: arkwidget.cc:80
 msgid "&View file"
-msgstr ""
+msgstr "&Ver archivo"
 
 #: arkwidget.cc:82
-#, fuzzy
 msgid "&Delete file"
-msgstr "Archivo seleccionado"
+msgstr "&Eliminar archivo"
 
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
@@ -89,42 +85,36 @@ msgid "&File Adding Options..."
 msgstr "&Opciones de añadir archivos..."
 
 #: arkwidget.cc:97
-#, fuzzy
 msgid "File Operations"
-msgstr "Opciones de añadir archivo"
+msgstr "Operaciones de Archivo"
 
 #: arkwidget.cc:99
-#, fuzzy
 msgid "Extract..."
-msgstr "E&xtraer..."
+msgstr "Extraer..."
 
 #: arkwidget.cc:100
 msgid "View file"
-msgstr ""
+msgstr "Ver archivo"
 
 #: arkwidget.cc:102
-#, fuzzy
 msgid "Delete file"
-msgstr "Archivo seleccionado"
+msgstr "Eliminar archivo"
 
 #: arkwidget.cc:114
-#, fuzzy
 msgid "Goto Archive Dir..."
-msgstr "S&eleccionar directorio de archivos..."
+msgstr "Ir a directorio de archivos..."
 
 #: arkwidget.cc:117
-#, fuzzy
 msgid "Extract To.."
-msgstr "&Extraer en..."
+msgstr "Extraer en..."
 
 #: arkwidget.cc:121
 msgid "Exit"
-msgstr ""
+msgstr "Salir"
 
 #: arkwidget.cc:128
-#, fuzzy
 msgid "Welcome to ark..."
-msgstr "Bienvenido a KZip..."
+msgstr "Bienvenido a ark..."
 
 #: arkwidget.cc:235
 msgid "Can't create archive of that type"
@@ -143,9 +133,8 @@ msgid "Error saving to archive"
 msgstr "Error guardando en archivo"
 
 #: arkwidget.cc:312
-#, fuzzy
 msgid "Archive Dir"
-msgstr "Directiorio de archivos:"
+msgstr "Directiorio de archivos"
 
 #: arkwidget.cc:325
 msgid "What runs GNU tar:"

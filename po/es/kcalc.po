@@ -84,7 +84,7 @@ msgstr "Fijar fuente predeterminada"
 
 #: fontdlg.cpp:53
 msgid "Family:"
-msgstr ""
+msgstr "Familia:"
 
 #: fontdlg.cpp:63
 msgid "Point Size:"
@@ -92,16 +92,16 @@ msgstr "Tamaño de punto:"
 
 #: fontdlg.cpp:76
 msgid "Style:"
-msgstr ""
+msgstr "Estilo:"
 
 #: fontdlg.cpp:91
 msgid "Weight:"
-msgstr ""
+msgstr "Peso:"
 
 #: fontdlg.cpp:101 fontdlg.cpp:134
 msgid "Bold"
-msgstr ""
+msgstr "Negrita"
 
 #: fontdlg.cpp:103 fontdlg.cpp:136
 msgid "Normal"
-msgstr ""
+msgstr "Normal"

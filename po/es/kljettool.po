@@ -1,9 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-11-03 10:06+0100\n"
-"PO-Revision-Date: 1998-10-18 19:12+0200\n"
+"PO-Revision-Date: 1998-12-07 19:12+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
-"First-Translator: Alonso Lara <jlaram@nexo.es>\n"
 
 #: main.cpp:69
 msgid "Paper"
@@ -19,31 +18,31 @@ msgstr "Operaciones"
 
 #: PaperData.cpp:59
 msgid "Format"
-msgstr ""
+msgstr "Formato"
 
 #: PaperData.cpp:65
 msgid "Copies"
-msgstr ""
+msgstr "Copias"
 
 #: PaperData.cpp:80
 msgid "Lines"
-msgstr ""
+msgstr "Lineas"
 
 #: PaperData.cpp:102
 msgid "Portrait"
-msgstr ""
+msgstr "Normal"
 
 #: PaperData.cpp:111
 msgid "Landscape"
-msgstr ""
+msgstr "Apaisado"
 
 #: PaperData.cpp:127
 msgid "Manual Feed"
-msgstr ""
+msgstr "Alimentación Manual"
 
 #: PaperData.cpp:136
 msgid "Auto Continue"
-msgstr ""
+msgstr "Auto Continuo"
 
 #: FontsData.cpp:38
 msgid "Language"

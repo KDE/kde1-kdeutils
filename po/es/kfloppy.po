@@ -2,9 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
 "POT-Creation-Date: 1998-11-17 10:55+0100\n"
-"PO-Revision-Date: 1998-05-11 21:45+0200\n"
-"Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
-"First-Translator: Jorge Valencia <jorgev@est.unileon.es>\n"
+"PO-Revision-Date: 1998-12-07 21:45+0200\n"
+"Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 
 #: about.cpp:40
 msgid "About KDE Floppy Formatter"
@@ -49,9 +48,8 @@ msgid "Create Label:"
 msgstr "Poner etiqueta:"
 
 #: floppy.cpp:148
-#, fuzzy
 msgid "KDE Floppy"
-msgstr "KDE Floppy"
+msgstr "Disquete KDE"
 
 #: floppy.cpp:162
 msgid "KDE Floppy Formatter"
@@ -63,7 +61,7 @@ msgstr "HD"
 
 #: floppy.cpp:169
 msgid "DD"
-msgstr ""
+msgstr "DD"
 
 #: floppy.cpp:292
 #, c-format

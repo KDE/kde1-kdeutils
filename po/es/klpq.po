@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdenonbeta\n"
-"POT-Creation-Date: 1998-12-08 02:02+0100\n"
-"PO-Revision-Date: 1998-06-17 21:45+0200\n"
-"Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
+"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"PO-Revision-Date: 1998-12-07 21:45+0200\n"
+"Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 
 #: main.cpp:176
 msgid "Sorry, can't open your printcap file."
@@ -71,17 +71,20 @@ msgid "&Config"
 msgstr "&Configuración"
 
 #: klpq.cpp:389
-#, fuzzy, c-format
+#, c-format
 msgid "Do you really want to remove job No %d"
-msgstr "Realmente desea eliminar el trabajo Nr. "
+msgstr "Desea realmente eliminar el trabajo No %d"
 
 #: klpq.cpp:409
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Do you really want to move job No\n"
 "%d\n"
 "on top of queue"
-msgstr "Realmente desea mover el trabajo Nr. \n"
+msgstr ""
+"Desea realmente mover el trabajo No\n"
+"%d\n"
+"al principio de la cola"
 
 #: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
 msgid "Permission denied"
@@ -129,12 +132,13 @@ msgstr ""
 "sistema BSD. Así que si no sabe cual es el spooler instalado en su "
 "ordenador, BSD será la mejor opción."
 
+#: FirstStartData.cpp:50 SpoolerConfigData.cpp:134
+msgid "Ok"
+msgstr "Aceptar"
+
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"
 msgstr "Path de los comandos de spooling:"
-
-#~ msgid "Ok"
-#~ msgstr "Aceptar"
 
 #~ msgid "Quit"
 #~ msgstr "Salir"
