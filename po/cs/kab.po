@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Martin ©pirk <spirk@kla.pvt.cz>\n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: AddressBookAbout.cpp:25
+msgid "About addressbook"
+msgstr "Adresáø - o programu"
+
+#: AddressBookAbout.cpp:35
+msgid "Image load failure"
+msgstr "Selhalo naèítání obrázku"
+
+#: AddressBookAbout.cpp:36
+msgid "Could not load addressbook logo image!"
+msgstr "Nemohu naèíst logo programu"
+
+#: AddressBookAbout.cpp:37
+msgid ""
+"Here you would see\n"
+"the addressbook logo."
+msgstr ""
+"Zde má být logo\n"
+"programu."
+
+#: AddressBookAbout.cpp:44
+msgid "written and maintained by"
+msgstr "autor programu"
+
+#: AddressBookAboutData.cpp:62
+msgid "kab 0.8, August 1998"
+msgstr "kab 0.8, srpen 1998"
+
+#: toplevelwidget.cc:35 toplevelwidget.cc:43
+msgid "Initialization failure"
+msgstr "Chyba inicializace"
+
+#: toplevelwidget.cc:37
+msgid "The program's menubar could not be constructed."
+msgstr "Nelze vytvoøit programové menu"
+
+#: toplevelwidget.cc:45
+msgid "The program's statusbar could not be constructed."
+msgstr "Nelze vytvoøit informaèní øádek programu"
+
+#: toplevelwidget.cc:58
+msgid "KDE addressbook."
+msgstr "KDE adresáø"
+
+#: toplevelwidget.cc:76
+msgid "HTML table"
+msgstr "HTML tabulka"
+
+#: toplevelwidget.cc:85
+msgid "Export"
+msgstr "Export"
+
+#: toplevelwidget.cc:87
+msgid "Search &entries"
+msgstr "&Vyhledat"
+
+#: toplevelwidget.cc:89
+msgid "&Print"
+msgstr "&Tisk"
+
+#: toplevelwidget.cc:101
+msgid "&Add entry"
+msgstr "&Pøidat polo¾ku"
+
+#: toplevelwidget.cc:103
+msgid "&Edit entry"
+msgstr "&Upravit polo¾ku"
+
+#: toplevelwidget.cc:105
+msgid "&Remove entry"
+msgstr "&Odstranit polo¾ku"
+
+#: toplevelwidget.cc:117
+msgid "&Mail"
+msgstr "Poslat &mail"
+
+#: toplevelwidget.cc:119
+msgid "&Talk"
+msgstr "Spustit &talk"
+
+#: toplevelwidget.cc:121
+msgid "&Browse"
+msgstr "Otevøít we&b"
+
+#: toplevelwidget.cc:126
+msgid "Help on Addressbook"
+msgstr "Nápovìda"
+
+#: toplevelwidget.cc:131
+msgid "About Addressbook"
+msgstr "O programu"
+
+#: toplevelwidget.cc:133
+msgid "About &Qt"
+msgstr "O &Qt"
+
+#: toplevelwidget.cc:134
+msgid "About &KDE"
+msgstr "O &KDE"
+
+#: toplevelwidget.cc:141
+msgid "&About"
+msgstr "Nápovìda"
+
+#: toplevelwidget.cc:192
+msgid "About Qt"
+msgstr "Knihovna Qt"
