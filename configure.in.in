@@ -131,7 +131,7 @@ if AC_TRY_EVAL(ac_compile); then
 else
   ac_cv_compile_kfloppy=no
 fi
-rm -r conftest.*
+rm -f conftest.*
 ])
 
 AC_MSG_RESULT($ac_cv_compile_kfloppy)
@@ -145,7 +145,7 @@ KDE_CREATE_SUBDIRSLIST
 dnl this will be replaced by Makefile.am
 AC_OUTPUT()
 
-if test "$ac_cv_compile_kfloppy" = "yes"; then
+if test -d kfloppy && test "$ac_cv_compile_kfloppy" = "yes"; then
   (cd kfloppy/e2fs && CC=$CC ./configure )
 fi
 

@@ -54,8 +54,9 @@ configure.in: configure.in.in subdirs
 	sed -e "s#AC_OUTPUT(#AC_OUTPUT($$i #" configure.in > configure.in.new \
 	 && mv configure.in.new configure.in ;\
 	done 
-	(cd kfloppy/e2fs && autoconf)
-
+	if test -d kfloppy; then
+	  (cd kfloppy/e2fs && autoconf)
+	fi
 subdirs:
 	@files=`ls -1 | sort`; \
 	dirs=`for i in $$files; do if test -d $$i; then echo $$i; fi; done`; \
@@ -68,7 +69,7 @@ subdirs:
 	fi
 	@test -r SUBDIRS && mv SUBDIRS subdirs
 
-acinclude.m4: admin/acinclude.m4.in admin/libtool.m4.in
-	@cat admin/acinclude.m4.in admin/libtool.m4.in > acinclude.m4
+$(top_srcdir)/acinclude.m4: admin/acinclude.m4.in admin/libtool.m4.in
+	@cat $(top_srcdir)/admin/acinclude.m4.in $(top_srcdir)/admin/libtool.m4.in > $(top_srcdir)/acinclude.m4
 
 MAINTAINERCLEANFILES = subdirs configure.in acinclude.m4 SUBDIRS
