@@ -1,3 +1,20 @@
+# Polish translation of KDE kfind
+# Version 0.1.0
+# (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
+
+msgid "Yes"
+msgstr "&Tak"
+
+msgid "No"
+msgstr "&Nie"
+
+msgid "Open Recen&t..."
+msgstr "Otwórz poprz&edni..."
+
+msgid "&Select All"
+msgstr "Zaz&nacz wszystko"
+
+
 #: kedit.cpp:80 kedit.cpp:811
 msgid "Show &Tool Bar"
 msgstr "Poka¿ pasek &narzêdzi"
@@ -99,7 +116,7 @@ msgid "E&xit"
 msgstr "&Wyj¶cie"
 
 #: kedit.cpp:222
-msgid "Insert &File"
+msgid "&Insert File"
 msgstr "Do³±cz &plik"
 
 #: kedit.cpp:224
@@ -240,6 +257,7 @@ msgstr ""
 "Wy¶cie spowoduje utratê tych zmian\n"
 "Wyj¶æ, pomimo tego?"
 
+
 #: kedit.cpp:604
 #, c-format
 msgid "Wrote: %s"
@@ -285,6 +303,7 @@ msgstr ""
 "Dokument zosta³ zmieniony.\n"
 "Czy chesz zachowaæ zmiany przed\n"
 "wydrukiem tego dokumentu?"
+
 
 #: kedit.cpp:923
 msgid "Could not Save the Changes\n"
@@ -421,6 +440,7 @@ msgstr ""
 "Dokument zosta³ zmieniony.\n"
 "Czy chesz zachowaæ zmiany?"
 
+
 #: KEdit.cpp:383 KEdit.cpp:424
 msgid "Could not Save the Document"
 msgstr "Nie mo¿na zachowaæ dokumentu"
@@ -460,7 +480,7 @@ msgstr "Nie masz uprawnieñ do zapisu tego pliku.\n"
 #: KEdit.cpp:1084 KEdit.cpp:1097 KEdit.cpp:1323 KEdit.cpp:1336 KEdit.cpp:1378
 #: KEdit.cpp:1404 KEdit.cpp:1417 KEdit.cpp:1620 KEdit.cpp:1629 KEdit.cpp:1730
 msgid "Find"
-msgstr "&Szukaj"
+msgstr "Szukaj"
 
 #: KEdit.cpp:1085 KEdit.cpp:1324 KEdit.cpp:1405
 msgid ""
@@ -484,7 +504,7 @@ msgstr "Rozró¿nianie wielko¶ci"
 
 #: KEdit.cpp:1627 KEdit.cpp:1727
 msgid "Find Backwards"
-msgstr "Szukaj do ty³u"
+msgstr "Szukaj wstecz"
 
 #: KEdit.cpp:1712
 msgid "Find:"
@@ -532,7 +552,7 @@ msgstr "Ró¿ne opcje"
 
 #: filldlg.cpp:15
 msgid "Set Fill-Column at:"
-msgstr "Margines od kolumny:"
+msgstr "Margines od kolumny:" 
 
 #: filldlg.cpp:19
 msgid "Word Warp"
@@ -566,11 +586,3 @@ msgstr "Musisz okre¶liæ adresata"
 msgid "About KEdit"
 msgstr "Informacje"
 
-# Polish translation of KDE kfind
-# Version 0.1.0
-# (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
-#~ msgid "Yes"
-#~ msgstr "&Tak"
-
-#~ msgid "No"
-#~ msgstr "&Nie"
