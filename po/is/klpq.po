@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-03-05 01:58+0100\n"
+"POT-Creation-Date: 1999-04-02 02:22+0200\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
 
@@ -20,55 +20,55 @@ msgstr "Ekki tókst að túlka 'printcap' skrána."
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
 msgstr "Endilega sendu Christoph.Neerfeld@home.ivm.de afrit af 'printcap'"
 
-#: klpq.cpp:89
+#: klpq.cpp:90
 msgid "Printer"
 msgstr "Prentari"
 
-#: klpq.cpp:93
+#: klpq.cpp:95
 msgid "Queuing"
 msgstr "Biðraðir"
 
-#: klpq.cpp:97
+#: klpq.cpp:100
 msgid "Printing"
 msgstr "Prentun"
 
-#: klpq.cpp:101
+#: klpq.cpp:105
 msgid "Update"
 msgstr "Uppfæra"
 
-#: klpq.cpp:119
+#: klpq.cpp:125
 msgid "Rank"
 msgstr "Staða"
 
-#: klpq.cpp:120
+#: klpq.cpp:126
 msgid "Owner"
 msgstr "Eigandi"
 
-#: klpq.cpp:121
+#: klpq.cpp:127
 msgid "Job"
 msgstr "Verk"
 
-#: klpq.cpp:123
+#: klpq.cpp:129
 msgid "Size"
 msgstr "Stærð"
 
-#: klpq.cpp:143 klpq.cpp:219
+#: klpq.cpp:150 klpq.cpp:228
 msgid "Make Top"
 msgstr "Færa fremst"
 
-#: klpq.cpp:152
+#: klpq.cpp:160
 msgid "Auto"
 msgstr "Sjálfv."
 
-#: klpq.cpp:195
+#: klpq.cpp:204
 msgid "&Auto update"
 msgstr "Sjálfvirk &uppfærsla"
 
-#: klpq.cpp:196
+#: klpq.cpp:205
 msgid "&Spooler"
 msgstr "&Prentröð"
 
-#: klpq.cpp:199
+#: klpq.cpp:208
 #, c-format
 msgid ""
 "Klpq %s\n"
@@ -79,16 +79,16 @@ msgstr ""
 "Höfundarrétt á Christoph Neerfeld\n"
 "chris@kde.org"
 
-#: klpq.cpp:204
+#: klpq.cpp:213
 msgid "&Config"
 msgstr "&Stillingar"
 
-#: klpq.cpp:390
+#: klpq.cpp:404
 #, c-format
 msgid "Do you really want to remove job No %d"
 msgstr "Viltu virkilega fjarlægja verk nr. %d"
 
-#: klpq.cpp:410
+#: klpq.cpp:424
 #, c-format
 msgid ""
 "Do you really want to move job No\n"
@@ -99,11 +99,11 @@ msgstr ""
 "%d\n"
 "fremst í biðröðina"
 
-#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
+#: klpq.cpp:572 klpq.cpp:578 klpq.cpp:593
 msgid "Permission denied"
 msgstr "Aðgangur bannaður"
 
-#: klpq.cpp:559 klpq.cpp:565 klpq.cpp:580
+#: klpq.cpp:573 klpq.cpp:579 klpq.cpp:594
 msgid ""
 "This is a privileged command\n"
 "and you do not have permission to execute it."
