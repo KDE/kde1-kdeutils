@@ -90,7 +90,7 @@ int HexWidget::initMenu() {
     view->insertItem( klocale->translate("&Toggle Toolbar"), ID_VIEW_TOOLBAR);
     //  view->insertItem( "Toggle Statusbar", ID_VIEW_STATUSBAR);
     
-    QPopupMenu *help = kapp->getHelpMenu(true, QString(klocale->translate("Hex Editor")) + KHEXDIT_VERSION +  klocale->translate("\n\nby Stephan Kulow") + " (coolo@itm.mu)");
+    QPopupMenu *help = kapp->getHelpMenu(true, QString(klocale->translate("Hex Editor")) + " " + KHEXDIT_VERSION +  klocale->translate("\n\nby Stephan Kulow") + " (coolo@itm.mu)");
 
     connect (file, SIGNAL (activated (int)), SLOT (menuCallback (int)));
     connect (edit, SIGNAL (activated (int)), SLOT (menuCallback (int)));
