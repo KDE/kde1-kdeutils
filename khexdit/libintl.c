@@ -289,8 +289,11 @@ textdomain (domainname)
   return textdomain__ (domainname);
 }
 
-
+#include <sys/param.h>
+#ifdef HAVE_ALLOCA_H
 #include <alloca.h>
+#endif
+
 #include <fcntl.h>
 #include <stdio.h>
 #include <stdlib.h>
