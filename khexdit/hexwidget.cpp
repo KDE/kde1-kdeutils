@@ -67,7 +67,7 @@ enum { ID_FILE_OPEN = 1,
 int HexWidget::initMenu() {
 
     windowList.append(this);
-    
+
     CurrentFile=new HexFile(this);
     unsaved( false );
     connect(CurrentFile, SIGNAL( unsaved(bool) ), SLOT( unsaved(bool) ));
@@ -166,7 +166,7 @@ void HexWidget::menuCallback(int item) {
 				     i18n("No")))
 		CurrentFile->save();
 	
-	QString fileName = KFileDialog::getOpenFileName(QDir::currentDirPath());
+	QString fileName = KFileDialog::getOpenFileName();
 	open(fileName, READWRITE);
 	break;
     }
