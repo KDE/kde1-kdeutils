@@ -8,7 +8,7 @@ msgstr ""
 "POT-Creation-Date: 1999-04-17 02:13+0200\n"
 "PO-Revision-Date: 1999-02-17 14:42+0100\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
-"Language-Team: da <LL@li.org>\n"
+"Language-Team: da <da@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,7 +43,7 @@ msgstr "Item:"
 
 #: highlight.cpp:1913
 msgid "Default Font"
-msgstr "Standardskrift"
+msgstr "Standardskrifttype"
 
 #: highlight.cpp:1950
 msgid "Config Select"
@@ -51,7 +51,7 @@ msgstr "Indstil valg"
 
 #: highlight.cpp:1954
 msgid "Highlight:"
-msgstr "Marker:"
+msgstr "Markér:"
 
 #: highlight.cpp:1973
 msgid "Highlight Auto Select"
@@ -59,7 +59,7 @@ msgstr "Vælg markering automatisk"
 
 #: highlight.cpp:1977
 msgid "File Extensions:"
-msgstr "Efternavn på fil:"
+msgstr "Endelse på fil:"
 
 #: highlight.cpp:1984
 msgid "Mime Types:"
@@ -71,7 +71,7 @@ msgstr "Item-stil"
 
 #: highlight.cpp:2000
 msgid "Item Font"
-msgstr "Item-skrift"
+msgstr "Item-skrifttype"
 
 #: kwview.cpp:1069
 msgid "Vertical Selections On"
@@ -255,7 +255,7 @@ msgstr "&Gå til linie:"
 
 #: kwdialog.cpp:294
 msgid "Edit Options"
-msgstr "Rediger valg"
+msgstr "Redigér valg"
 
 #: kwdialog.cpp:295
 msgid "Auto &Indent"

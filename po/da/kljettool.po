@@ -8,7 +8,7 @@ msgstr ""
 "POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "PO-Revision-Date: 1999-02-17 14:42+0100\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
-"Language-Team: da <LL@li.org>\n"
+"Language-Team: da <da@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,7 +31,7 @@ msgstr "Operationer"
 
 #: PaperData.cpp:59
 msgid "Format"
-msgstr "Format"
+msgstr "Formatér"
 
 #: PaperData.cpp:65
 msgid "Copies"

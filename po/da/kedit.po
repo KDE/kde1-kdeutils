@@ -8,7 +8,7 @@ msgstr ""
 "POT-Creation-Date: 1999-04-09 02:19+0200\n"
 "PO-Revision-Date: 1999-02-17 14:42+0100\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
-"Language-Team: da <LL@li.org>\n"
+"Language-Team: da <da@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -31,11 +31,11 @@ msgstr "Gem Status&bjælke"
 
 #: kedit.cpp:154
 msgid "Select All"
-msgstr "Marker Alt"
+msgstr "Markér Alt"
 
 #: kedit.cpp:157
 msgid "Font..."
-msgstr "Skrift..."
+msgstr "Skrifttype..."
 
 #: kedit.cpp:201
 msgid "Ne&w..."
@@ -63,7 +63,7 @@ msgstr "Nyt &Vindue"
 
 #: kedit.cpp:254
 msgid "&Select All"
-msgstr "Marker &Alt"
+msgstr "Markér &Alt"
 
 #: kedit.cpp:257
 msgid "&Insert File"
@@ -95,7 +95,7 @@ msgstr "&Gå til linie..."
 
 #: kedit.cpp:277
 msgid "&Font..."
-msgstr "S&krift"
+msgstr "S&krifttype..."
 
 #: kedit.cpp:279
 msgid "&Colors"
@@ -432,7 +432,7 @@ msgstr ""
 
 #: keditcl1.cpp:1710
 msgid "You do not have write permission to this file.\n"
-msgstr "Du har ikke skrive rettighed til denne fil.\n"
+msgstr "Du har ikke skriverettighed til denne fil.\n"
 
 #: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
 #: keditcl2.cpp:688 keditcl2.cpp:714 keditcl2.cpp:838

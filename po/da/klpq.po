@@ -8,7 +8,7 @@ msgstr ""
 "POT-Creation-Date: 1999-04-02 02:22+0200\n"
 "PO-Revision-Date: 1999-02-17 14:42+0100\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
-"Language-Team: da <LL@li.org>\n"
+"Language-Team: da <da@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -39,7 +39,7 @@ msgstr "Udskriver"
 
 #: klpq.cpp:105
 msgid "Update"
-msgstr "Opdater"
+msgstr "Opdatér"
 
 #: klpq.cpp:125
 msgid "Rank"
@@ -67,7 +67,7 @@ msgstr "Auto"
 
 #: klpq.cpp:204
 msgid "&Auto update"
-msgstr "&Auto-opdater"
+msgstr "&Auto-opdatér"
 
 #: klpq.cpp:205
 msgid "&Spooler"
