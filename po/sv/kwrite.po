@@ -1,0 +1,466 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Anders Widell <d95-awi@nada.kth.se>, 1998.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kwrite\n"
+"POT-Creation-Date: 1999-01-04 01:59+0100\n"
+"PO-Revision-Date: 1999-01-06 16:44+01:00\n"
+"Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
+"Language-Team: Swedish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8BIT\n"
+
+#: highlight.cpp:1715
+msgid "Normal:"
+msgstr "Normal:"
+
+#: highlight.cpp:1725 kwdialog.cpp:416
+msgid "Selected:"
+msgstr "Vald:"
+
+#: highlight.cpp:1732
+msgid "Bold"
+msgstr "Fet"
+
+#: highlight.cpp:1783
+msgid "Family:"
+msgstr "Familj:"
+
+#: highlight.cpp:1793
+msgid "Size:"
+msgstr "Storlek:"
+
+#: highlight.cpp:1891
+msgid "Default Item Styles"
+msgstr "Standardstilar"
+
+#: highlight.cpp:1895 highlight.cpp:1966
+msgid "Item:"
+msgstr "Del:"
+
+#: highlight.cpp:1913
+msgid "Default Font"
+msgstr "Standardtypsnitt"
+
+#: highlight.cpp:1950
+msgid "Config Select"
+msgstr "Inställningsval"
+
+#: highlight.cpp:1954
+msgid "Highlight:"
+msgstr "Färglägg:"
+
+#: highlight.cpp:1973
+msgid "Highlight Auto Select"
+msgstr "Välj färgläggning automatiskt"
+
+#: highlight.cpp:1977
+msgid "File Extensions:"
+msgstr "Filändelser:"
+
+#: highlight.cpp:1984
+msgid "Mime Types:"
+msgstr "MIME-typer:"
+
+#: highlight.cpp:1991
+msgid "Item Style"
+msgstr "Stil"
+
+#: highlight.cpp:2000
+msgid "Item Font"
+msgstr "Typsnitt"
+
+#: kwview.cpp:1098
+msgid "The specified File does not exist"
+msgstr "Den angivna filen existerar inte"
+
+#: kwview.cpp:1108
+msgid "You have specified a directory"
+msgstr "Du har angett en katalog"
+
+#: kwview.cpp:1118
+msgid "You do not have read permission to this file"
+msgstr "Du har inte rättighet att läsa den här filen"
+
+#: kwview.cpp:1134 kwview.cpp:1164
+msgid "An Error occured while trying to open this Document"
+msgstr "Ett fel inträffade när det här dokumentet skulle öppnas"
+
+#: kwview.cpp:1148
+msgid "You do not have write permission to this file"
+msgstr "Du har inte rättighet att skriva till den här filen"
+
+#: kwview.cpp:1201
+msgid "Loading..."
+msgstr "Laddar..."
+
+#: kwview.cpp:1209 kwview.cpp:1330
+msgid "Inserted"
+msgstr "Infogade"
+
+#: kwview.cpp:1214 kwview.cpp:1339
+msgid "Read"
+msgstr "Läste in"
+
+#: kwview.cpp:1223 kwview.cpp:1281
+msgid ""
+"KWrite is already waiting\n"
+"for an internet job to finish\n"
+"Please wait until it has finished\n"
+"Alternatively stop the running one."
+msgstr ""
+"KWrite väntar redan på\n"
+"att ett internet-jobb ska avsultas\n"
+"Var god vänta tills det är klart\n"
+"Alternativt avbryt det som körs."
+
+#: kwview.cpp:1231 kwview.cpp:1289
+msgid "Waiting for KFM..."
+msgstr "Väntar på KFM..."
+
+#: kwview.cpp:1237 kwview.cpp:1302
+msgid "Could not start or find KFM"
+msgstr "Kunde inte starta eller hitta KFM"
+
+#: kwview.cpp:1264
+msgid "Saving..."
+msgstr "Sparar..."
+
+#: kwview.cpp:1272 kwview.cpp:1349
+msgid "Wrote"
+msgstr "Sparade"
+
+#: kwview.cpp:1378
+msgid ""
+"The current Document has been modified.\n"
+"Would you like to save it?"
+msgstr ""
+"Det aktuella dokumentet har ändrats.\n"
+"Vill du spara det?"
+
+#: kwview.cpp:1389
+msgid ""
+"Could not save the document.\n"
+"Open a new document anyways?"
+msgstr ""
+"Kunde inte spara dokumentet.\n"
+"Öppna ett nytt dokument ändå?"
+
+#: kwview.cpp:1436
+msgid "No changes need to be saved"
+msgstr "Inga ändringar behöver sparas"
+
+#: kwview.cpp:1457
+msgid ""
+"A Document with this Name already exists.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"Ett dokument med det här namnet existerar redan.\n"
+"Vill du skriva över det?"
+
+#: kwview.cpp:1660 kwview.cpp:1848
+msgid "End of document reached"
+msgstr "Dokumentets slut har nåtts"
+
+#: kwview.cpp:1661 kwview.cpp:1849
+msgid "Continue from the beginning"
+msgstr "Fortsätta från början"
+
+#: kwview.cpp:1663 kwview.cpp:1674 kwview.cpp:1684
+msgid "Find"
+msgstr "Hitta"
+
+#: kwview.cpp:1671 kwview.cpp:1860
+msgid "Beginning of document reached"
+msgstr "Dokumentets början har nåtts"
+
+#: kwview.cpp:1672 kwview.cpp:1861
+msgid "Continue from the end"
+msgstr "Fortsätta från slutet"
+
+#: kwview.cpp:1685
+msgid "Search string not found!"
+msgstr "Söksträngen ej funnen!"
+
+#: kwview.cpp:1833 kwview.cpp:1847 kwview.cpp:1859
+msgid "replace(s) made"
+msgstr "ersättningar utfördes"
+
+#: kwview.cpp:1974 toplevel.cpp:486
+msgid "Line"
+msgstr "Rad"
+
+#: kwdialog.cpp:30
+msgid "&Text To Find:"
+msgstr "&Text att hitta:"
+
+#: kwdialog.cpp:40
+msgid "&Replace With:"
+msgstr "&Ersätt med:"
+
+#: kwdialog.cpp:51
+msgid "&Case Sensitive"
+msgstr "&germen != VERSAL"
+
+#: kwdialog.cpp:52
+msgid "&Whole Words Only"
+msgstr "Endast &hela ord"
+
+#: kwdialog.cpp:53
+msgid "&From Cursor"
+msgstr "&Från markören"
+
+#: kwdialog.cpp:54
+msgid "Find &Backwards"
+msgstr "&Hitta bakåt"
+
+#: kwdialog.cpp:55
+msgid "&Selected Text"
+msgstr "&Vald text"
+
+#: kwdialog.cpp:80
+msgid "&Prompt On Replace"
+msgstr "&Fråga vid ersättning"
+
+#: kwdialog.cpp:142
+msgid "Replace this occurence?"
+msgstr "Ersätta detta?"
+
+#: kwdialog.cpp:147
+msgid "&Yes"
+msgstr "&Ja"
+
+#: kwdialog.cpp:154
+msgid "&No"
+msgstr "&Nej"
+
+#: kwdialog.cpp:159
+msgid "&All"
+msgstr "&Alla"
+
+#: kwdialog.cpp:217
+msgid "&Goto Line:"
+msgstr "&Gå till rad:"
+
+#: kwdialog.cpp:255
+msgid "Edit Options"
+msgstr "Redigeringsinställningar"
+
+#: kwdialog.cpp:256
+msgid "Auto &Indent"
+msgstr "&Automatisk indentering"
+
+#: kwdialog.cpp:257
+msgid "&Backspace Indent"
+msgstr "&Backsteg indenterar"
+
+#: kwdialog.cpp:258
+msgid "&Word Wrap"
+msgstr "Bryt &rader"
+
+#: kwdialog.cpp:259
+msgid "Replace &Tabs"
+msgstr "&Ersätt tabulator"
+
+#: kwdialog.cpp:260
+msgid "Remove Trailing &Spaces"
+msgstr "&Inga mellanslag i radslut"
+
+#: kwdialog.cpp:261
+msgid "Wrap &Cursor"
+msgstr "&Markörradbrytning"
+
+#: kwdialog.cpp:262
+msgid "&Auto Brackets"
+msgstr "Automatiska &parenteser"
+
+#: kwdialog.cpp:290
+msgid "Select Options"
+msgstr "Markeringsinställningar"
+
+#: kwdialog.cpp:291
+msgid "&Persistent Selections"
+msgstr "&Långlivade markeringar"
+
+#: kwdialog.cpp:292
+msgid "&Multiple Selections"
+msgstr "&Flera markeringar"
+
+#: kwdialog.cpp:293 toplevel.cpp:247
+msgid "&Vertical Selections"
+msgstr "&Vertikala markeringar"
+
+#: kwdialog.cpp:294
+msgid "&Delete On Input"
+msgstr "Radera &vid inmatning"
+
+#: kwdialog.cpp:295
+msgid "&Toggle Old"
+msgstr "Växla &gammal"
+
+#: kwdialog.cpp:322
+msgid "Wrap Words At:"
+msgstr "Bryt rader vid:"
+
+#: kwdialog.cpp:332
+msgid "Tab Width:"
+msgstr "Tabulatorbredd:"
+
+#: kwdialog.cpp:342
+msgid "Undo steps:"
+msgstr "Antal ångra-steg:"
+
+#: kwdialog.cpp:402
+msgid "Background:"
+msgstr "Bakgrund:"
+
+#: kwdialog.cpp:409
+msgid "Text Background:"
+msgstr "Textbakgrund:"
+
+#: kwdialog.cpp:423
+msgid "Found:"
+msgstr "Hittad:"
+
+#: kwdialog.cpp:430
+msgid "Selected + Found:"
+msgstr "Vald + hittad:"
+
+#: toplevel.cpp:118
+msgid "Message"
+msgstr "Meddelande"
+
+#: toplevel.cpp:119
+msgid ""
+"This Document has been modified.\n"
+"Would you like to save it?"
+msgstr ""
+"Det här dokumentet har ändrats.\n"
+"Vill du spara det?"
+
+#: toplevel.cpp:177
+msgid "Ne&w..."
+msgstr "&Ny..."
+
+#: toplevel.cpp:179
+msgid "&Insert..."
+msgstr "&Infoga..."
+
+#: toplevel.cpp:194
+msgid "New &Window"
+msgstr "Nytt &fönster"
+
+#: toplevel.cpp:195
+msgid "New &View"
+msgstr "Ny &vy"
+
+#: toplevel.cpp:204
+msgid "&Find..."
+msgstr "&Hitta..."
+
+#: toplevel.cpp:205
+msgid "&Replace..."
+msgstr "&Ersätt..."
+
+#: toplevel.cpp:206
+msgid "Find &Again"
+msgstr "Hitta &igen"
+
+#: toplevel.cpp:207
+msgid "&Goto Line..."
+msgstr "&Gå till rad..."
+
+#: toplevel.cpp:209
+msgid "U&ndo"
+msgstr "Å&ngra"
+
+#: toplevel.cpp:210
+msgid "R&edo"
+msgstr "Gör &om"
+
+#: toplevel.cpp:212
+msgid "&Indent"
+msgstr "&Indentera"
+
+#: toplevel.cpp:213
+msgid "Uninden&t"
+msgstr "A&v-indentera"
+
+#: toplevel.cpp:217
+msgid "&Select All"
+msgstr "&Markera allt"
+
+#: toplevel.cpp:218
+msgid "&Deselect All"
+msgstr "&Avmarkera allt"
+
+#: toplevel.cpp:219
+msgid "In&vert Selection"
+msgstr "I&nvertera markering"
+
+#: toplevel.cpp:224
+msgid "&Set Bookmark..."
+msgstr "&Sätt bokmärke..."
+
+#: toplevel.cpp:225
+msgid "&Add Bookmark"
+msgstr "&Lägg till bokmärke"
+
+#: toplevel.cpp:226
+msgid "&Clear Bookmarks"
+msgstr "&Rensa bokmärken"
+
+#: toplevel.cpp:238
+msgid "Set Highlight"
+msgstr "Sätt färgläggning"
+
+#: toplevel.cpp:240
+msgid "&Defaults..."
+msgstr "&Standardvärden..."
+
+#: toplevel.cpp:241
+msgid "&Highlight..."
+msgstr "Färg&läggning..."
+
+#: toplevel.cpp:244
+msgid "&Options..."
+msgstr "&Inställningar..."
+
+#: toplevel.cpp:245
+msgid "&Colors..."
+msgstr "&Färger..."
+
+#: toplevel.cpp:248
+msgid "Show &Toolbar"
+msgstr "Visa v&erktygsrad"
+
+#: toplevel.cpp:249
+msgid "Show &Statusbar"
+msgstr "Visa s&tatusrad"
+
+#: toplevel.cpp:250
+msgid "Save Config"
+msgstr "Spara inställningar"
+
+#: toplevel.cpp:286
+msgid "&Bookmarks"
+msgstr "&Bokmärken"
+
+#: toplevel.cpp:305
+msgid "New Document"
+msgstr "Nytt dokument"
+
+#: toplevel.cpp:309
+msgid "Open Document"
+msgstr "Öppna dokument"
+
+#: toplevel.cpp:313
+msgid "Save Document"
+msgstr "Spara dokument"
+
+#: toplevel.cpp:487
+msgid "Col"
+msgstr "Kol"
