@@ -28,7 +28,7 @@ appsdir = $(kde_appsdir)/Utilities/
 
 install-data-local:
 	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) $(srcdir)/mini-kljettool.xpm $(kde_icondir)jettool.xpm
+	$(INSTALL_DATA) $(srcdir)/mini-kljettool.xpm $(kde_minidir)/kljettool.xpm
 	$(mkinstalldirs) $(kde_icondir)/large
 	$(INSTALL_DATA) $(srcdir)/large-kljettool.xpm $(kde_icondir)/large/kljettool.xpm
 	@echo ""
@@ -43,7 +43,7 @@ install-data-local:
 	@echo ""
 	
 uninstall-local:
-	rm -f $(kde_icondir)jettool.xpm
+	rm -f $(kde_minidir)/kljettool.xpm
 
 messages:
 	$(XGETTEXT) -C -ki18n -x $(includedir)/kde.pot $(kljettool_SOURCES) && mv messages.po ../po/kljettool.pot
