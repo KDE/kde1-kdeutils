@@ -2,10 +2,9 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: kcalc\n"
 "POT-Creation-Date: 1998-11-17 10:55+0100\n"
 "PO-Revision-Date: 1998-08-15 16:00+01\n"
 "Last-Translator: HERITIER FABRICE <fabriceh@usa.net>\n"

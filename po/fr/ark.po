@@ -5,7 +5,8 @@ msgstr ""
 "Project-Id-Version: ark\n"
 "POT-Creation-Date: 1998-11-14 02:05+0100\n"
 "PO-Revision-Date: 1998-02-04 HO:MI+ZONE\n"
-"Last-Translator: David Faure <faure@kde.org>\n"
+"Last-Translator: Francois-Xavier DURANCEAU <Francois-Xavier.Duranceau@loria.fr>\n"
+"Translator: David Faure <faure@kde.org>\n"
 "Language-Team: FRENCH <kde-i18n@kde.org>\n"
 "Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
 
@@ -71,16 +72,15 @@ msgstr "E&xtraire..."
 
 #: arkwidget.cc:80
 msgid "&View file"
-msgstr ""
+msgstr "&Voir le fichier"
 
 #: arkwidget.cc:82
-#, fuzzy
 msgid "&Delete file"
-msgstr "Fichier sélectionné"
+msgstr "&Supprimer le fichier"
 
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
-msgstr "&Spécifier le répertoire des archives"
+msgstr "&Spécifier le répertoire des archives..."
 
 #: arkwidget.cc:85
 msgid "Set &Tar Executable..."
@@ -100,12 +100,11 @@ msgstr "Extraire..."
 
 #: arkwidget.cc:100
 msgid "View file"
-msgstr ""
+msgstr "Ouverture du fichier"
 
 #: arkwidget.cc:102
-#, fuzzy
 msgid "Delete file"
-msgstr "Fichier sélectionné"
+msgstr "Suppression du fichier"
 
 #: arkwidget.cc:114
 msgid "Goto Archive Dir..."
@@ -145,7 +144,7 @@ msgstr "Répertoire des archives"
 
 #: arkwidget.cc:325
 msgid "What runs GNU tar:"
-msgstr "Ligne de commande pour GNU tar:"
+msgstr "Ligne de commande pour GNU tar :"
 
 #: arkwidget.cc:376 arkwidget.cc:578
 msgid "Unknown archive format"
