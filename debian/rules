@@ -6,7 +6,6 @@ build:
 	dh_testdir
 	( CFLAGS="-O2 -g -Wall" \
 	  CXXFLAGS="$$CFLAGS" \
-	  DO_NOT_COMPILE=kfloppy \
 	  ./configure --with-install-root=`pwd`/debian/tmp \
 	  --enable-debug --disable-rpath )
  
