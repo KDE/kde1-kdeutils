@@ -9,9 +9,9 @@ pics_DATA = keditlogo.xpm
 picsdir = $(kde_datadir)/kedit/pics
 
 install-data-local: 
-	$(INSTALL_DIR) $(kde_minidir)
-	$(INSTALL_DATA) pixmaps/mini-kedit.xpm  $(kde_minidir)/kedit.xpm
+	$(mkinstalldirs) $(kde_minidir)
+	$(INSTALL_DATA) mini-kedit.xpm  $(kde_minidir)/kedit.xpm
 
 
 uninstall-local:
-	rm -f $(MINIDIR)/kedit.xpm
+	rm -f $(kde_minidir)/kedit.xpm
