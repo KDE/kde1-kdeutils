@@ -1,6 +1,18 @@
 # Polish translation of KDE khexdit
-# Version 0.1.0
+# Version 0.1.1
 # (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
+
+msgid "Open"
+msgstr "&Otwórz..."
+
+msgid "Save"
+msgstr "&Zachowaj"
+
+msgid "Save As"
+msgstr "Zachowaj &jako..."
+
+msgid "About"
+msgstr "&Informacje..."
 
 #: hexfile.cpp:85
 #, c-format
@@ -37,7 +49,7 @@ msgstr "Brak obs³ugi"
 
 #: hexwidget.cpp:84 hexwidget.cpp:171
 msgid "About Hex Editor"
-msgstr "Hex Editor - informacje"
+msgstr "&Informacje"
 
 #: hexwidget.cpp:114
 msgid ""
@@ -65,14 +77,15 @@ msgid ""
 msgstr ""
 "Hex Editor 0.4 \n"
 "\n"
-"autor Stephan Kulow  (coolo@itm.mu-luebeck.de)"
+"autor Stephan Kulow  (coolo@itm.mu-luebeck.de)\n"
 "\n"
-"Polskie t³umaczenie (C) 1997 Piotr Roszatycki"
+"Polskie t³umaczenie\n"
+"(C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>"
 
 
 #: hexwidget.cpp:202
 msgid "Ok"
-msgstr "Ok"
+msgstr "O&k"
 
 #: hexwidget.cpp:217
 msgid ""
@@ -91,3 +104,4 @@ msgstr ""
 #: hexwidget.cpp:227
 msgid "Could not start KFM"
 msgstr "Nie mo¿na uruchomiæ KFM"
+
