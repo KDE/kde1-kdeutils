@@ -1,17 +1,24 @@
 
 SUBDIRS = de fr cs nl sv es ru hu it pl pt fi
 
-# TODO: This does not any longer work
-merge:
-	@catalogs='$(POFILES)'; \
-	for cat in $$catalogs; do \
-	name=`echo $$cat | sed -e 's/^.._//' `; \
-	echo $$cat $$name; \
-	msgmerge $$cat $$name > $$cat.new ; \
-	if diff $$cat $$cat.new; then \
-		rm $$cat.new;  \
-	else  \
-		mv $$cat.new $$cat ; \
-	fi; \
-	done
+# this is a general list for merging!
+APPS = kedit khexdit kzip
 
+merge:
+	@apps='$(APPS)'; \
+	langs='$(SUBDIRS)'; \
+	for cat in $$apps; do \
+	  echo $$cat; \
+	  for lang in $$langs; do \
+	    echo $$lang/$$cat ; \
+	    if test -r $$lang/$$cat.po; then \
+	      echo $$lang; \
+	      msgmerge -o $$cat.new $$lang/$$cat.po $$cat.pot; \
+	      if test -s $$cat.new && diff $$lang/$$cat.po $$cat.new; then \
+	        rm $$cat.new;  \
+ 	      else  \
+		mv $$cat.new $$lang/$$cat.po ; \
+	    fi; \
+	  fi ;\
+         done ;\
+	done

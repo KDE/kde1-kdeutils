@@ -1,87 +1,125 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1997 Free Software Foundation, Inc.
-# Balazs Nagy <julian7@kva.hu>, 1997.
-#
-
-msgid ""
+#: hexfile.cpp:47
+msgid "Untitled"
 msgstr ""
-"Project-Id-Version: kdehelp 0.5.2\n"
-"POT-Creation-Date: 1997-08-21 23:23-0500\n"
-"PO-Revision-Date: 1997-09-21 19:39+MET\n"
-"Last-Translator: Nagy Balazs <julian7@kva.hu>\n"
-"Language-Team: Hungarian <hu@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=Latin2\n"
-"Content-Transfer-Encoding: iso-8859-2\n"
- 
-#: hexfile.cpp:85
+
+#: hexfile.cpp:118
 #, c-format
 msgid "Error opening %s"
 msgstr "Nem lehet megnyitni %s-t!"
 
-#: hexwidget.cpp:23 hexwidget.cpp:60
-msgid "New Window"
+#: hexfile.cpp:119 hexwidget.cpp:208 hexwidget.cpp:222 hexwidget.cpp:231
+msgid "Error"
+msgstr ""
+
+#: hexfile.cpp:120
+msgid "Close"
+msgstr ""
+
+#: hexwidget.cpp:52
+#, fuzzy
+msgid "&New Window..."
 msgstr "Új ablak"
 
-#: hexwidget.cpp:33
-msgid "Toggle Toolbar"
+#: hexwidget.cpp:54
+msgid "&Open..."
+msgstr ""
+
+#: hexwidget.cpp:55
+msgid "&Save"
+msgstr ""
+
+#: hexwidget.cpp:56
+msgid "Save &As..."
+msgstr ""
+
+#: hexwidget.cpp:57
+msgid "&Close"
+msgstr ""
+
+#: hexwidget.cpp:59
+msgid "&Quit"
+msgstr ""
+
+#: hexwidget.cpp:62
+#, fuzzy
+msgid "&Toggle Toolbar"
 msgstr "Eszköztár be/ki"
 
-#: hexwidget.cpp:46
-msgid "&File"
-msgstr ""
-
-#: hexwidget.cpp:47
-msgid "&View"
-msgstr "&Nézet"
-
-#: hexwidget.cpp:49
-msgid "&Help"
-msgstr "&Segítség"
-
-#: hexwidget.cpp:66
-msgid "Save the file"
-msgstr "Mentés file-ba"
-
-#: hexwidget.cpp:70 hexwidget.cpp:73 hexwidget.cpp:76 hexwidget.cpp:80
-msgid "Not implemented"
-msgstr ""
-
-#: hexwidget.cpp:84 hexwidget.cpp:171
-msgid "About Hex Editor"
-msgstr "A Hex Editor névjegye"
-
-#: hexwidget.cpp:114
+#: hexwidget.cpp:65
+#, fuzzy
 msgid ""
-"The current file has been modified.\n"
-"\n"
-"Do you want to save it ?"
-msgstr ""
-"A jelenlegi file megváltozott.\n\n"
-"Kívánja menteni?"
-
-#: hexwidget.cpp:137
-msgid "File changed"
-msgstr "A file megváltozott"
-
-#: hexwidget.cpp:138
-msgid "Discard your changes?"
-msgstr "Eldobja a változtatásokat?"
-
-#: hexwidget.cpp:170
-msgid ""
-"Hex Editor 0.4 \n"
+"Hex Editor 0.5 \n"
 "\n"
 "by Stephan Kulow  (coolo@itm.mu-luebeck.de)"
 msgstr ""
 "Hex Editor 0.4\n"
 "Írta Stephan Kulow  (coolo@itm.mu-luebeck.de)"
 
-#: hexwidget.cpp:202
-msgid "Ok"
+#: hexwidget.cpp:73
+msgid "&File"
 msgstr ""
 
-#: hexwidget.cpp:217
+#: hexwidget.cpp:74
+msgid "&View"
+msgstr "&Nézet"
+
+#: hexwidget.cpp:76
+msgid "&Help"
+msgstr "&Segítség"
+
+#: hexwidget.cpp:84
+msgid "New Window"
+msgstr "Új ablak"
+
+#: hexwidget.cpp:86
+msgid "Open a file"
+msgstr ""
+
+#: hexwidget.cpp:88
+msgid "Save the file"
+msgstr "Mentés file-ba"
+
+#: hexwidget.cpp:91 hexwidget.cpp:93 hexwidget.cpp:95 hexwidget.cpp:98
+msgid "Not implemented"
+msgstr ""
+
+#: hexwidget.cpp:126 hexwidget.cpp:152
+msgid "Warning"
+msgstr ""
+
+#: hexwidget.cpp:127
+#, fuzzy
+msgid ""
+"The current file has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"A jelenlegi file megváltozott.\n"
+"\n"
+"Kívánja menteni?"
+
+#: hexwidget.cpp:128 hexwidget.cpp:155
+msgid "Yes"
+msgstr ""
+
+#: hexwidget.cpp:129 hexwidget.cpp:154
+msgid "No"
+msgstr ""
+
+#: hexwidget.cpp:153
+#, fuzzy
+msgid ""
+"The current file has been modified.\n"
+"Discard your changes?"
+msgstr ""
+"A jelenlegi file megváltozott.\n"
+"\n"
+"Kívánja menteni?"
+
+#: hexwidget.cpp:208
+msgid "Malformed URL"
+msgstr ""
+
+#: hexwidget.cpp:223
 msgid ""
 "KHexdit is already waiting\n"
 "for an internet job to finish\n"
@@ -94,6 +132,30 @@ msgstr ""
 "Kérem, várjon addig, amíg az véget ér,\n"
 "vagy állítsa le a jelenleg futó munkát."
 
-#: hexwidget.cpp:227
+#: hexwidget.cpp:232
 msgid "Could not start KFM"
 msgstr "A KFM nem található"
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 1997 Free Software Foundation, Inc.
+# Balazs Nagy <julian7@kva.hu>, 1997.
+#
+#~ msgid ""
+#~ msgstr ""
+#~ "Project-Id-Version: kdehelp 0.5.2\n"
+#~ "POT-Creation-Date: 1997-08-21 23:23-0500\n"
+#~ "PO-Revision-Date: 1997-09-21 19:39+MET\n"
+#~ "Last-Translator: Nagy Balazs <julian7@kva.hu>\n"
+#~ "Language-Team: Hungarian <hu@li.org>\n"
+#~ "MIME-Version: 1.0\n"
+#~ "Content-Type: text/plain; charset=Latin2\n"
+#~ "Content-Transfer-Encoding: iso-8859-2\n"
+
+#~ msgid "About Hex Editor"
+#~ msgstr "A Hex Editor névjegye"
+
+#~ msgid "File changed"
+#~ msgstr "A file megváltozott"
+
+#~ msgid "Discard your changes?"
+#~ msgstr "Eldobja a változtatásokat?"

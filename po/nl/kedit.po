@@ -1,7 +1,6 @@
 # Dutch translation of the kedit messages.
 # Copyright (C) 1997 Jeroen van der Most <jvdmost@wi.leidenuniv.nl>
 #
-
 #: kedit.cpp:80 kedit.cpp:811
 msgid "Show &Tool Bar"
 msgstr "&Werkbalk tonen"
@@ -537,7 +536,7 @@ msgstr "Diverse instellingen"
 msgid "Set Fill-Column at:"
 msgstr "Rechter kantlijn op:"
 
-#FIXME
+# FIXME
 #: filldlg.cpp:19
 msgid "Word Warp"
 msgstr ""
@@ -568,4 +567,4 @@ msgstr "Specificeer een geadresseerde"
 
 #: about.cpp:37 about.cpp:40
 msgid "About KEdit"
-msgstr "Info" 
+msgstr "Info"

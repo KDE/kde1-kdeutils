@@ -3,7 +3,6 @@
 #           Lucien Nocera <lnocera@limpet.cis.upenn.edu> and
 #           Marco Spolaore <gemini@sctrade.it>.
 # v 0.1 -- 15/10/97
- 
 #: kedit.cpp:80 kedit.cpp:811
 msgid "Show &Tool Bar"
 msgstr "Mostra &Barra Strumenti"
@@ -246,7 +245,6 @@ msgstr ""
 "stato modificato. Uscendo adesso, perderesti tutte le modifiche.\n"
 "Desideri uscire lo stesso?"
 
-
 #: kedit.cpp:604
 #, c-format
 msgid "Wrote: %s"
@@ -269,7 +267,6 @@ msgid ""
 msgstr ""
 "Impossibile transmettere (con pipe) il contenuto di questo Documento in:\n"
 " %s"
-
 
 #: kedit.cpp:752
 msgid "Auto Indent Mode: On"
@@ -410,7 +407,7 @@ msgid ""
 "You have do not have Permission to \n"
 "read this Document"
 msgstr ""
-"Non hai il permesso di \n" 
+"Non hai il permesso di \n"
 "leggere questo Documento"
 
 #: KEdit.cpp:182
@@ -428,7 +425,6 @@ msgid ""
 msgstr ""
 "Il Documento é stato modificato.\n"
 "Vuoi salvarlo?"
-
 
 #: KEdit.cpp:383 KEdit.cpp:424
 msgid "Could not Save the Document"
@@ -457,7 +453,6 @@ msgid ""
 msgstr ""
 "Un Documento con questo nome esiste già\n"
 "Volete sovrascrivere il Documento?"
-
 
 #: KEdit.cpp:905
 msgid "Sorry:"

@@ -240,7 +240,6 @@ msgstr ""
 "Si sale ahora, perderá todos los cambios\n"
 "¿Salir igualmente?"
 
-
 #: kedit.cpp:604
 #, c-format
 msgid "Wrote: %s"
@@ -422,7 +421,6 @@ msgstr ""
 "El documento actual se ha modificado.\n"
 "¿Desea guardarlo?"
 
-
 #: KEdit.cpp:383 KEdit.cpp:424
 msgid "Could not Save the Document"
 msgstr "Imposible salvar el documento"
@@ -567,5 +565,3 @@ msgstr "Debe especificar un destinatario"
 #: about.cpp:37 about.cpp:40
 msgid "About KEdit"
 msgstr "Acerca de KEdit"
-
-

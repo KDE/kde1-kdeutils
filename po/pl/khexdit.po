@@ -1,77 +1,60 @@
-# Polish translation of KDE khexdit
-# Version 0.1.1
-# (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
+#: hexfile.cpp:47
+msgid "Untitled"
+msgstr ""
 
-msgid "Open"
-msgstr "&Otwórz..."
-
-msgid "Save"
-msgstr "&Zachowaj"
-
-msgid "Save As"
-msgstr "Zachowaj &jako..."
-
-msgid "About"
-msgstr "&Informacje..."
-
-#: hexfile.cpp:85
+#: hexfile.cpp:118
 #, c-format
 msgid "Error opening %s"
 msgstr "B³±d owarcia %s"
 
-#: hexwidget.cpp:23 hexwidget.cpp:60
-msgid "New Window"
+#: hexfile.cpp:119 hexwidget.cpp:208 hexwidget.cpp:222 hexwidget.cpp:231
+msgid "Error"
+msgstr ""
+
+#: hexfile.cpp:120
+msgid "Close"
+msgstr ""
+
+#: hexwidget.cpp:52
+#, fuzzy
+msgid "&New Window..."
 msgstr "Nowe okno"
 
-#: hexwidget.cpp:33
-msgid "Toggle Toolbar"
+# Polish translation of KDE khexdit
+# Version 0.1.1
+# (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
+#: hexwidget.cpp:54
+#, fuzzy
+msgid "&Open..."
+msgstr "&Otwórz..."
+
+#: hexwidget.cpp:55
+#, fuzzy
+msgid "&Save"
+msgstr "&Zachowaj"
+
+#: hexwidget.cpp:56
+#, fuzzy
+msgid "Save &As..."
+msgstr "Zachowaj &jako..."
+
+#: hexwidget.cpp:57
+msgid "&Close"
+msgstr ""
+
+#: hexwidget.cpp:59
+msgid "&Quit"
+msgstr ""
+
+#: hexwidget.cpp:62
+#, fuzzy
+msgid "&Toggle Toolbar"
 msgstr "Prze³±cz pasek narzêdzi"
 
-#: hexwidget.cpp:46
-msgid "&File"
-msgstr "&Plik"
-
-#: hexwidget.cpp:47
-msgid "&View"
-msgstr "&Widok"
-
-#: hexwidget.cpp:49
-msgid "&Help"
-msgstr "Pomo&c"
-
-#: hexwidget.cpp:66
-msgid "Save the file"
-msgstr "Zachowaj plik"
-
-#: hexwidget.cpp:70 hexwidget.cpp:73 hexwidget.cpp:76 hexwidget.cpp:80
-msgid "Not implemented"
-msgstr "Brak obs³ugi"
-
-#: hexwidget.cpp:84 hexwidget.cpp:171
-msgid "About Hex Editor"
-msgstr "&Informacje"
-
-#: hexwidget.cpp:114
+#: hexwidget.cpp:65
+#, fuzzy
 msgid ""
-"The current file has been modified.\n"
-"\n"
-"Do you want to save it ?"
-msgstr ""
-"Bierz±cy plik zosta³ zmodyfikowany.\n"
-"\n"
-"Czy chesz go zapisaæ?"
-
-#: hexwidget.cpp:137
-msgid "File changed"
-msgstr "Plik zmieniony"
-
-#: hexwidget.cpp:138
-msgid "Discard your changes?"
-msgstr "Zaniechaæ twoich zmian?"
-
-#: hexwidget.cpp:170
-msgid ""
-"Hex Editor 0.4 \n"
+"Hex Editor 0.5 \n"
 "\n"
 "by Stephan Kulow  (coolo@itm.mu-luebeck.de)"
 msgstr ""
@@ -82,12 +65,71 @@ msgstr ""
 "Polskie t³umaczenie\n"
 "(C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>"
 
+#: hexwidget.cpp:73
+msgid "&File"
+msgstr "&Plik"
 
-#: hexwidget.cpp:202
-msgid "Ok"
-msgstr "O&k"
+#: hexwidget.cpp:74
+msgid "&View"
+msgstr "&Widok"
 
-#: hexwidget.cpp:217
+#: hexwidget.cpp:76
+msgid "&Help"
+msgstr "Pomo&c"
+
+#: hexwidget.cpp:84
+msgid "New Window"
+msgstr "Nowe okno"
+
+#: hexwidget.cpp:86
+msgid "Open a file"
+msgstr ""
+
+#: hexwidget.cpp:88
+msgid "Save the file"
+msgstr "Zachowaj plik"
+
+#: hexwidget.cpp:91 hexwidget.cpp:93 hexwidget.cpp:95 hexwidget.cpp:98
+msgid "Not implemented"
+msgstr "Brak obs³ugi"
+
+#: hexwidget.cpp:126 hexwidget.cpp:152
+msgid "Warning"
+msgstr ""
+
+#: hexwidget.cpp:127
+#, fuzzy
+msgid ""
+"The current file has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"Bierz±cy plik zosta³ zmodyfikowany.\n"
+"\n"
+"Czy chesz go zapisaæ?"
+
+#: hexwidget.cpp:128 hexwidget.cpp:155
+msgid "Yes"
+msgstr ""
+
+#: hexwidget.cpp:129 hexwidget.cpp:154
+msgid "No"
+msgstr ""
+
+#: hexwidget.cpp:153
+#, fuzzy
+msgid ""
+"The current file has been modified.\n"
+"Discard your changes?"
+msgstr ""
+"Bierz±cy plik zosta³ zmodyfikowany.\n"
+"\n"
+"Czy chesz go zapisaæ?"
+
+#: hexwidget.cpp:208
+msgid "Malformed URL"
+msgstr ""
+
+#: hexwidget.cpp:223
 msgid ""
 "KHexdit is already waiting\n"
 "for an internet job to finish\n"
@@ -101,7 +143,21 @@ msgstr ""
 "Poczekaj na zakoñczenie\n"
 "lub zatrzymaj proces."
 
-#: hexwidget.cpp:227
+#: hexwidget.cpp:232
 msgid "Could not start KFM"
 msgstr "Nie mo¿na uruchomiæ KFM"
 
+#~ msgid "About"
+#~ msgstr "&Informacje..."
+
+#~ msgid "About Hex Editor"
+#~ msgstr "&Informacje"
+
+#~ msgid "File changed"
+#~ msgstr "Plik zmieniony"
+
+#~ msgid "Discard your changes?"
+#~ msgstr "Zaniechaæ twoich zmian?"
+
+#~ msgid "Ok"
+#~ msgstr "O&k"

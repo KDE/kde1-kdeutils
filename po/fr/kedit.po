@@ -1,4 +1,3 @@
-
 #: kedit.cpp:80 kedit.cpp:811
 msgid "Show &Tool Bar"
 msgstr "Montrer la barre d'&outils"
@@ -256,9 +255,9 @@ msgid "Saved as: %s"
 msgstr "Sauveguardé en tant que: %s"
 
 #: kedit.cpp:663
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Could not pipe the contents of this Document into:\n"
+"Could not pipe the contentsof this Document into:\n"
 " %s"
 msgstr ""
 "Impossible d'executer la command suivante sur le document:\n"
@@ -421,7 +420,6 @@ msgid ""
 msgstr ""
 "Le document à été modifié.\n"
 "Voulez vous le sauveguarder ?"
-
 
 #: KEdit.cpp:383 KEdit.cpp:424
 msgid "Could not Save the Document"

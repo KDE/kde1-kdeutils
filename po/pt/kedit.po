@@ -1,4 +1,3 @@
-
 #: kedit.cpp:80 kedit.cpp:811
 msgid "Show &Tool Bar"
 msgstr "Mostrar &Barra de Ferramentas"
