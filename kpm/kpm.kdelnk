@@ -3,7 +3,7 @@
 Name=Process management
 Name[ca]=Gestió de processos
 Name[cs]=Správce procesù
-Name[da]=Proces-behandler
+Name[da]=Processtyring
 Name[de]=Prozeßmanagement
 Name[es]=Gestion de procesos
 Name[fi]=Prosessienhallinta
@@ -24,7 +24,7 @@ Name[sv]=Processhantering
 Comment=Process management tool
 Comment[ca]=Eina de gestió de processos
 Comment[cs]=Nástroj pro správu procesù
-Comment[da]=Procesbehandlingsværktøj
+Comment[da]=Værktøj til at styre jobs
 Comment[de]=Prozeßverwaltung
 Comment[es]=Herramienta de administración de procesos
 Comment[fi]=Prosessienhallintatyökalu
