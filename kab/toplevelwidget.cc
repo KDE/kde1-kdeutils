@@ -62,7 +62,8 @@ ABTLWidget::ABTLWidget(const char* name)
 bool ABTLWidget::constructMenu()
 {
   // ########################################################  
-  menu=new KMenuBar(this);
+  // menu=new KMenuBar(this);
+  menu=menuBar();
   int id;
   // -----
   // the file menu
@@ -145,7 +146,8 @@ bool ABTLWidget::constructMenu()
 bool ABTLWidget::constructStatusBar()
 {
   // ########################################################  
-  status=new KStatusBar(this);
+  // status=new KStatusBar(this);
+  status=statusBar();
   status->setInsertOrder(KStatusBar::RightToLeft);
   status->insertItem("20000/20000", Number);
   status->insertItem("", Text);

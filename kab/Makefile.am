@@ -20,7 +20,7 @@ INCLUDES= @all_includes@
 APPSDIR = $(kde_appsdir)/Utilities
 bin_PROGRAMS = 	kab kabapi_test
 THE_LIBS= -lkfile -lkfm -lkdeui -lkdecore -lqt -lX11 \
-		-lXext @LIBSOCKET@ -ljpeg -lkab
+		-lXext @LIBSOCKET@ -lkab -ljpeg
 
 kab_SOURCES	= main.cc \
 		AddressBookAbout.cpp \
