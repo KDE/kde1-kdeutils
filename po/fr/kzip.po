@@ -1,0 +1,101 @@
+# Damien COLA <damien@wanadoo.fr>, 1998.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kzip\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"PO-Revision-Date: 1998-02-04 HO:MI+ZONE\n"
+"Last-Translator: Damien COLA <damien@wanadoo.fr>\n"
+"Language-Team: FRENCH <kde-i18n@kde.org>\n"
+
+#: adddlg.cc:11
+msgid "Add File Options"
+msgstr "Ajouter un fichier d'options"
+
+#: adddlg.cc:22
+msgid "Store Full Path"
+msgstr "Sauvegarder le chemin complet"
+
+#: adddlg.cc:25
+msgid "Only Add Newer Files"
+msgstr "Ajouter uniquement les fichiers plus recents"
+
+#: extractdlg.cc:9
+msgid "Files"
+msgstr "Fichiers"
+
+#: extractdlg.cc:13
+msgid "Extract Options"
+msgstr "Options d'extraction"
+
+#: extractdlg.cc:17
+msgid "Destination"
+msgstr "Destination"
+
+#: extractdlg.cc:33
+msgid "Preserve Permissions"
+msgstr "Preserver les permissions"
+
+#: extractdlg.cc:36
+msgid "Filenames to Lowercase"
+msgstr "Noms de fichiers en minuscules"
+
+#: extractdlg.cc:39
+msgid "All Files"
+msgstr "Tous les fichiers"
+
+#: extractdlg.cc:42
+msgid "Selected File"
+msgstr "Fichier selectionne"
+
+#: extractdlg.cc:45
+msgid "Pattern"
+msgstr "Motif"
+
+#: kzip.cc:65
+msgid "&Extract To..."
+msgstr "&Extraire dans..."
+
+#: kzip.cc:70
+msgid "E&xtract..."
+msgstr "E&xtraire..."
+
+#: kzip.cc:75
+msgid "&Set Archive Directory..."
+msgstr "&Specifier le repertoire de l'archive"
+
+#: kzip.cc:76
+msgid "&File Adding Options..."
+msgstr "Options d'ajout de &Fichier..."
+
+#: kzip.cc:122
+msgid "Welcome to KZip..."
+msgstr "Bienvenue dans KZip..."
+
+#: kzip.cc:228
+msgid "Can't create archive of that type"
+msgstr "Ne peut pas creer une archive de ce type"
+
+#: kzip.cc:249 kzip.cc:286 kzip.cc:294
+msgid "Create or open an archive first"
+msgstr "Creez ou ouvrez une archive auparavant"
+
+#: kzip.cc:273
+msgid "Can't add directories with this archive type"
+msgstr "Ne peut pas ajouter de repertoires avec ce type d'archive"
+
+#: kzip.cc:275
+msgid "Error saving to archive"
+msgstr "Erreur en sauvegardant dans l'archive"
+
+#: kzip.cc:305
+msgid "Archive Dir:"
+msgstr "Repertoire de l'archive:"
+
+#: kzip.cc:342 kzip.cc:534
+msgid "Unknown archive format"
+msgstr "Format d'archive inconnu"
+
+#: kzip.cc:378
+msgid "Archive Directory"
+msgstr "Repertoire de l'archive"
