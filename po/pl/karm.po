@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
 "POT-Creation-Date: 1999-01-11 01:57+0100\n"
-"PO-Revision-Date: 1999-01-04 21:17+0100\n"
+"PO-Revision-Date: 1999-01-24 16:00+0100\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8829-2\n"
 
@@ -102,14 +102,14 @@ msgid "Preferences"
 msgstr "Ustawienia"
 
 #: top.cpp:194
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s %s -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
 msgstr ""
-"0.3 -- Sirtaj Singh Kang\n"
+"%s %s -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "¦rodowisko KDE"
@@ -134,9 +134,8 @@ msgstr "S&top"
 msgid "&New"
 msgstr "&Nowy"
 
-#, fuzzy
 #~ msgid "&About"
-#~ msgstr "Informacje o "
+#~ msgstr "&Informacje o "
 
 #~ msgid "About "
 #~ msgstr "Informacje o "

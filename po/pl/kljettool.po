@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kljettool \n"
 "POT-Creation-Date: 1999-01-18 01:54+0100\n"
-"PO-Revision-Date: 1999-01-04 21:20+0100\n"
+"PO-Revision-Date: 1999-01-24 16:06+0100\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
@@ -38,9 +38,8 @@ msgid "Lines"
 msgstr "Linie"
 
 #: PaperData.cpp:96
-#, fuzzy
 msgid "Orientation"
-msgstr "Prezentacji"
+msgstr "Orientacja"
 
 #: PaperData.cpp:102
 msgid "Portrait"
