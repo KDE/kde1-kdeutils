@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-18 14:09+0100\n"
 "PO-Revision-Date: 1998-10-24 21:03 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -69,7 +69,7 @@ msgstr "Jste si jistý, ¾e chcete smazat tuto úlohu?"
 msgid "&Yes"
 msgstr "An&o"
 
-#: top.cpp:39 top.cpp:168
+#: top.cpp:39 top.cpp:156
 msgid "clock inactive"
 msgstr "hodiny nejsou aktivní"
 
@@ -93,37 +93,10 @@ msgstr "Ú&kol"
 msgid "&New"
 msgstr "&Nový"
 
-#: top.cpp:74
-msgid "&About"
-msgstr "&Informace o aplikaci "
-
-#: top.cpp:85
-msgid "Start Clock"
-msgstr "Spustit hodiny"
-
-#: top.cpp:89
-msgid "Stop Clock"
-msgstr "Zastavit hodiny"
-
-#: top.cpp:95
-msgid "New Task"
-msgstr "Nová úloha"
-
-#: top.cpp:99
-msgid "Delete Task"
-msgstr "Smazat úlohu"
-
-#: top.cpp:104
-msgid "Edit Task"
-msgstr "Upravit úlohu"
-
-#: top.cpp:142
-msgid "About "
-msgstr "Informace "
-
-#: top.cpp:143
+#: top.cpp:71
+#, fuzzy, c-format
 msgid ""
-" 0.3 -- Sirtaj Singh Kang\n"
+"%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
@@ -133,6 +106,32 @@ msgstr ""
 "\n"
 "The K Desktop Environment"
 
-#: top.cpp:161
+#: top.cpp:86
+msgid "Start Clock"
+msgstr "Spustit hodiny"
+
+#: top.cpp:90
+msgid "Stop Clock"
+msgstr "Zastavit hodiny"
+
+#: top.cpp:96
+msgid "New Task"
+msgstr "Nová úloha"
+
+#: top.cpp:100
+msgid "Delete Task"
+msgstr "Smazat úlohu"
+
+#: top.cpp:105
+msgid "Edit Task"
+msgstr "Upravit úlohu"
+
+#: top.cpp:149
 msgid "clock active"
 msgstr "hodiny jsou aktivní"
+
+#~ msgid "&About"
+#~ msgstr "&Informace o aplikaci "
+
+#~ msgid "About "
+#~ msgstr "Informace "

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-18 14:09+0100\n"
 "PO-Revision-Date: 1998-10-18 13:25+0200\n"
 "First-Translator: Santiago Fernández and Jorge ValenciaFirst-Translator: "
 "<jorgev@est.unileon.es>\n"
@@ -61,7 +61,7 @@ msgstr "¿Está seguro de querer borrar esta tarea?"
 msgid "&Yes"
 msgstr "&Si"
 
-#: top.cpp:39 top.cpp:168
+#: top.cpp:39 top.cpp:156
 msgid "clock inactive"
 msgstr "reloj inactivo"
 
@@ -85,37 +85,10 @@ msgstr "&Tarea"
 msgid "&New"
 msgstr "&Nuevo"
 
-#: top.cpp:74
-msgid "&About"
-msgstr "&Sobre"
-
-#: top.cpp:85
-msgid "Start Clock"
-msgstr "Iniciar reloj"
-
-#: top.cpp:89
-msgid "Stop Clock"
-msgstr "Parar reloj"
-
-#: top.cpp:95
-msgid "New Task"
-msgstr "Nueva tarea"
-
-#: top.cpp:99
-msgid "Delete Task"
-msgstr "Eliminar tarea"
-
-#: top.cpp:104
-msgid "Edit Task"
-msgstr "Editar tarea"
-
-#: top.cpp:142
-msgid "About "
-msgstr "Acerca de "
-
-#: top.cpp:143
+#: top.cpp:71
+#, fuzzy, c-format
 msgid ""
-" 0.3 -- Sirtaj Singh Kang\n"
+"%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
@@ -125,9 +98,35 @@ msgstr ""
 "\n"
 "El Entorno de Escritorio K"
 
-#: top.cpp:161
+#: top.cpp:86
+msgid "Start Clock"
+msgstr "Iniciar reloj"
+
+#: top.cpp:90
+msgid "Stop Clock"
+msgstr "Parar reloj"
+
+#: top.cpp:96
+msgid "New Task"
+msgstr "Nueva tarea"
+
+#: top.cpp:100
+msgid "Delete Task"
+msgstr "Eliminar tarea"
+
+#: top.cpp:105
+msgid "Edit Task"
+msgstr "Editar tarea"
+
+#: top.cpp:149
 msgid "clock active"
 msgstr "reloj activo"
+
+#~ msgid "&About"
+#~ msgstr "&Sobre"
+
+#~ msgid "About "
+#~ msgstr "Acerca de "
 
 #~ msgid "&Contents"
 #~ msgstr "&Contenidos"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kjots revision 1.1\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-18 14:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
@@ -100,6 +100,29 @@ msgstr "&Böker"
 #: KJotsMain.cpp:415
 msgid "by"
 msgstr "av"
+
+#: KJotsMain.cpp:427
+msgid "New"
+msgstr ""
+
+#: KJotsMain.cpp:433
+#, fuzzy
+msgid "Previous"
+msgstr "FöregåendeSida"
+
+#: KJotsMain.cpp:436
+#, fuzzy
+msgid "Next"
+msgstr "NästaSida"
+
+#: KJotsMain.cpp:440
+#, fuzzy
+msgid "Subject List"
+msgstr "VisaÄmnesLista"
+
+#: KJotsMain.cpp:444
+msgid "Exit"
+msgstr ""
 
 #: KJotsMain.cpp:616
 msgid "A book with this name already exists."

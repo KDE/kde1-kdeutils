@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-18 14:09+0100\n"
 "PO-Revision-Date: 1998-09-08 09:00\n"
 "Last-Translator: Sandro Nunes Henrique <sandro@conectiva.com.br>\n"
 "Language-Team: pt_BR <LL@li.org>\n"
@@ -105,6 +105,29 @@ msgstr "&Livros"
 #: KJotsMain.cpp:415
 msgid "by"
 msgstr "por"
+
+#: KJotsMain.cpp:427
+msgid "New"
+msgstr ""
+
+#: KJotsMain.cpp:433
+#, fuzzy
+msgid "Previous"
+msgstr "Página anterior:"
+
+#: KJotsMain.cpp:436
+#, fuzzy
+msgid "Next"
+msgstr "Próxima página"
+
+#: KJotsMain.cpp:440
+#, fuzzy
+msgid "Subject List"
+msgstr "Mostrar lista de assuntos"
+
+#: KJotsMain.cpp:444
+msgid "Exit"
+msgstr ""
 
 #: KJotsMain.cpp:616
 msgid "A book with this name already exists."

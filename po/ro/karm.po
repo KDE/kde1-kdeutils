@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kde-1.0pre\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-18 14:09+0100\n"
 "PO-Revision-Date: 1998-07-04 12:00+0200\n"
 "Last-Translator: Paul Ionescu <omy@main.romsoft.ro>\n"
 "Language-Team: ??? <ro@li.org>\n"
@@ -70,7 +70,7 @@ msgstr "Sunteþi sigur cã doriþi sã ºterg acest program ?"
 msgid "&Yes"
 msgstr "&Da"
 
-#: top.cpp:39 top.cpp:168
+#: top.cpp:39 top.cpp:156
 msgid "clock inactive"
 msgstr "ceas inactiv"
 
@@ -94,38 +94,10 @@ msgstr "&Program"
 msgid "&New"
 msgstr ""
 
-#: top.cpp:74
-#, fuzzy
-msgid "&About"
-msgstr "Despre "
-
-#: top.cpp:85
-msgid "Start Clock"
-msgstr "Porneºte Ceasul"
-
-#: top.cpp:89
-msgid "Stop Clock"
-msgstr "Opreºte Ceasul"
-
-#: top.cpp:95
-msgid "New Task"
-msgstr "Program Nou"
-
-#: top.cpp:99
-msgid "Delete Task"
-msgstr "ªterge Program"
-
-#: top.cpp:104
-msgid "Edit Task"
-msgstr "Editeazã Program"
-
-#: top.cpp:142
-msgid "About "
-msgstr "Despre "
-
-#: top.cpp:143
+#: top.cpp:71
+#, fuzzy, c-format
 msgid ""
-" 0.3 -- Sirtaj Singh Kang\n"
+"%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
@@ -135,6 +107,33 @@ msgstr ""
 "\n"
 "K Desktop Environment"
 
-#: top.cpp:161
+#: top.cpp:86
+msgid "Start Clock"
+msgstr "Porneºte Ceasul"
+
+#: top.cpp:90
+msgid "Stop Clock"
+msgstr "Opreºte Ceasul"
+
+#: top.cpp:96
+msgid "New Task"
+msgstr "Program Nou"
+
+#: top.cpp:100
+msgid "Delete Task"
+msgstr "ªterge Program"
+
+#: top.cpp:105
+msgid "Edit Task"
+msgstr "Editeazã Program"
+
+#: top.cpp:149
 msgid "clock active"
 msgstr "ceas activ"
+
+#, fuzzy
+#~ msgid "&About"
+#~ msgstr "Despre "
+
+#~ msgid "About "
+#~ msgstr "Despre "

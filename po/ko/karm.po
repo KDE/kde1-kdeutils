@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-18 14:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: LinuxKorea Co. <kde@linuxkorea.co.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "이 작업을 삭제하시겠습니까?"
 msgid "&Yes"
 msgstr "예(&Y)"
 
-#: top.cpp:39 top.cpp:168
+#: top.cpp:39 top.cpp:156
 msgid "clock inactive"
 msgstr "시계 비활성화"
 
@@ -95,38 +95,10 @@ msgstr "작업(&T)"
 msgid "&New"
 msgstr ""
 
-#: top.cpp:74
-#, fuzzy
-msgid "&About"
-msgstr "정보 "
-
-#: top.cpp:85
-msgid "Start Clock"
-msgstr "시계 시작"
-
-#: top.cpp:89
-msgid "Stop Clock"
-msgstr "시계 멈춤"
-
-#: top.cpp:95
-msgid "New Task"
-msgstr "새 작업"
-
-#: top.cpp:99
-msgid "Delete Task"
-msgstr "작업 삭제"
-
-#: top.cpp:104
-msgid "Edit Task"
-msgstr "작업 편집"
-
-#: top.cpp:142
-msgid "About "
-msgstr "정보 "
-
-#: top.cpp:143
+#: top.cpp:71
+#, fuzzy, c-format
 msgid ""
-" 0.3 -- Sirtaj Singh Kang\n"
+"%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
@@ -136,6 +108,33 @@ msgstr ""
 "\n"
 "K Desktop Environment"
 
-#: top.cpp:161
+#: top.cpp:86
+msgid "Start Clock"
+msgstr "시계 시작"
+
+#: top.cpp:90
+msgid "Stop Clock"
+msgstr "시계 멈춤"
+
+#: top.cpp:96
+msgid "New Task"
+msgstr "새 작업"
+
+#: top.cpp:100
+msgid "Delete Task"
+msgstr "작업 삭제"
+
+#: top.cpp:105
+msgid "Edit Task"
+msgstr "작업 편집"
+
+#: top.cpp:149
 msgid "clock active"
 msgstr "시계 활성화"
+
+#, fuzzy
+#~ msgid "&About"
+#~ msgstr "정보 "
+
+#~ msgid "About "
+#~ msgstr "정보 "

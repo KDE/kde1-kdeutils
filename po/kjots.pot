@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-18 14:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,6 +104,26 @@ msgstr ""
 
 #: KJotsMain.cpp:415
 msgid "by"
+msgstr ""
+
+#: KJotsMain.cpp:427
+msgid "New"
+msgstr ""
+
+#: KJotsMain.cpp:433
+msgid "Previous"
+msgstr ""
+
+#: KJotsMain.cpp:436
+msgid "Next"
+msgstr ""
+
+#: KJotsMain.cpp:440
+msgid "Subject List"
+msgstr ""
+
+#: KJotsMain.cpp:444
+msgid "Exit"
 msgstr ""
 
 #: KJotsMain.cpp:616

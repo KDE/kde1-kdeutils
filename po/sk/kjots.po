@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kjots\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-18 14:09+0100\n"
 "PO-Revision-Date: 1998-08-17 10:00+0200\n"
 "Last-Translator: Juraj Bednar <bednar@isternet.sk>\n"
 "Language-Team: Slovak <sk@li.org>\n"
@@ -104,6 +104,29 @@ msgstr "&Knihy"
 #: KJotsMain.cpp:415
 msgid "by"
 msgstr "podµa"
+
+#: KJotsMain.cpp:427
+msgid "New"
+msgstr ""
+
+#: KJotsMain.cpp:433
+#, fuzzy
+msgid "Previous"
+msgstr "PredchádzajúcaStrana"
+
+#: KJotsMain.cpp:436
+#, fuzzy
+msgid "Next"
+msgstr "NasledujúcaStrana"
+
+#: KJotsMain.cpp:440
+#, fuzzy
+msgid "Subject List"
+msgstr "Uká¾ZoznamPredmetov"
+
+#: KJotsMain.cpp:444
+msgid "Exit"
+msgstr ""
 
 #: KJotsMain.cpp:616
 msgid "A book with this name already exists."

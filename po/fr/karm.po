@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-18 14:09+0100\n"
 "PO-Revision-Date: 1998-02-16 HO:MI+ZONE\n"
 "Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
 "Language-Team: Français <fr@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "Etes vous sûr de vouloir supprimer cette tâche ?"
 msgid "&Yes"
 msgstr "Oui (&Y)"
 
-#: top.cpp:39 top.cpp:168
+#: top.cpp:39 top.cpp:156
 msgid "clock inactive"
 msgstr "Chronomètre inactif"
 
@@ -95,38 +95,10 @@ msgstr "&Tâche"
 msgid "&New"
 msgstr ""
 
-#: top.cpp:74
-#, fuzzy
-msgid "&About"
-msgstr "A propos de "
-
-#: top.cpp:85
-msgid "Start Clock"
-msgstr "Démarrer le chronomètre"
-
-#: top.cpp:89
-msgid "Stop Clock"
-msgstr "Stopper le chronomètre"
-
-#: top.cpp:95
-msgid "New Task"
-msgstr "Nouvelle tâche"
-
-#: top.cpp:99
-msgid "Delete Task"
-msgstr "Supprimer la tâche"
-
-#: top.cpp:104
-msgid "Edit Task"
-msgstr "Editer la tâche"
-
-#: top.cpp:142
-msgid "About "
-msgstr "A propos de "
-
-#: top.cpp:143
+#: top.cpp:71
+#, fuzzy, c-format
 msgid ""
-" 0.3 -- Sirtaj Singh Kang\n"
+"%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
@@ -136,9 +108,36 @@ msgstr ""
 "\n"
 "The K Desktop Environment"
 
-#: top.cpp:161
+#: top.cpp:86
+msgid "Start Clock"
+msgstr "Démarrer le chronomètre"
+
+#: top.cpp:90
+msgid "Stop Clock"
+msgstr "Stopper le chronomètre"
+
+#: top.cpp:96
+msgid "New Task"
+msgstr "Nouvelle tâche"
+
+#: top.cpp:100
+msgid "Delete Task"
+msgstr "Supprimer la tâche"
+
+#: top.cpp:105
+msgid "Edit Task"
+msgstr "Editer la tâche"
+
+#: top.cpp:149
 msgid "clock active"
 msgstr "Chronomètre actif"
+
+#, fuzzy
+#~ msgid "&About"
+#~ msgstr "A propos de "
+
+#~ msgid "About "
+#~ msgstr "A propos de "
 
 #~ msgid "&Contents"
 #~ msgstr "&Contenu"

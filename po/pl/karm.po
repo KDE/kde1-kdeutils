@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-18 14:09+0100\n"
 "PO-Revision-Date: 1998-06-23 05:40+0200\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8829-2\n"
@@ -65,7 +65,7 @@ msgstr "Czy na pewno chcesz skasowaæ to zadanie?"
 msgid "&Yes"
 msgstr "&Tak"
 
-#: top.cpp:39 top.cpp:168
+#: top.cpp:39 top.cpp:156
 msgid "clock inactive"
 msgstr "zegar nieaktywny"
 
@@ -89,38 +89,10 @@ msgstr "&Zadanie"
 msgid "&New"
 msgstr ""
 
-#: top.cpp:74
-#, fuzzy
-msgid "&About"
-msgstr "Informacje o "
-
-#: top.cpp:85
-msgid "Start Clock"
-msgstr "Uruchom zegar"
-
-#: top.cpp:89
-msgid "Stop Clock"
-msgstr "Zatrzymaj zegar"
-
-#: top.cpp:95
-msgid "New Task"
-msgstr "Nowe zadanie"
-
-#: top.cpp:99
-msgid "Delete Task"
-msgstr "Skasuj zadanie"
-
-#: top.cpp:104
-msgid "Edit Task"
-msgstr "Edytuj zadanie"
-
-#: top.cpp:142
-msgid "About "
-msgstr "Informacje o "
-
-#: top.cpp:143
+#: top.cpp:71
+#, fuzzy, c-format
 msgid ""
-" 0.3 -- Sirtaj Singh Kang\n"
+"%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
@@ -130,6 +102,33 @@ msgstr ""
 "\n"
 "¦rodowisko KDE"
 
-#: top.cpp:161
+#: top.cpp:86
+msgid "Start Clock"
+msgstr "Uruchom zegar"
+
+#: top.cpp:90
+msgid "Stop Clock"
+msgstr "Zatrzymaj zegar"
+
+#: top.cpp:96
+msgid "New Task"
+msgstr "Nowe zadanie"
+
+#: top.cpp:100
+msgid "Delete Task"
+msgstr "Skasuj zadanie"
+
+#: top.cpp:105
+msgid "Edit Task"
+msgstr "Edytuj zadanie"
+
+#: top.cpp:149
 msgid "clock active"
 msgstr "zegar aktywny"
+
+#, fuzzy
+#~ msgid "&About"
+#~ msgstr "Informacje o "
+
+#~ msgid "About "
+#~ msgstr "Informacje o "

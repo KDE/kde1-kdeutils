@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdebase\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-18 14:09+0100\n"
 "PO-Revision-Date: 1998-10-15 15:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian\n"
@@ -68,7 +68,7 @@ msgstr "Da li si siguran da ¾eli¹ pobrisati ovaj zadatak"
 msgid "&Yes"
 msgstr "&Da"
 
-#: top.cpp:39 top.cpp:168
+#: top.cpp:39 top.cpp:156
 msgid "clock inactive"
 msgstr "sat neaktivan"
 
@@ -92,37 +92,10 @@ msgstr "&Zadatak"
 msgid "&New"
 msgstr ""
 
-#: top.cpp:74
-msgid "&About"
-msgstr "&O"
-
-#: top.cpp:85
-msgid "Start Clock"
-msgstr "Pokreni sat"
-
-#: top.cpp:89
-msgid "Stop Clock"
-msgstr "Zaustavi sat"
-
-#: top.cpp:95
-msgid "New Task"
-msgstr "Novi zadatak"
-
-#: top.cpp:99
-msgid "Delete Task"
-msgstr "Pobri¹i zadatak"
-
-#: top.cpp:104
-msgid "Edit Task"
-msgstr "Obradi zadatak"
-
-#: top.cpp:142
-msgid "About "
-msgstr "O "
-
-#: top.cpp:143
+#: top.cpp:71
+#, fuzzy, c-format
 msgid ""
-" 0.3 -- Sirtaj Singh Kang\n"
+"%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
@@ -132,6 +105,32 @@ msgstr ""
 "\n"
 "The K Desktop Environment"
 
-#: top.cpp:161
+#: top.cpp:86
+msgid "Start Clock"
+msgstr "Pokreni sat"
+
+#: top.cpp:90
+msgid "Stop Clock"
+msgstr "Zaustavi sat"
+
+#: top.cpp:96
+msgid "New Task"
+msgstr "Novi zadatak"
+
+#: top.cpp:100
+msgid "Delete Task"
+msgstr "Pobri¹i zadatak"
+
+#: top.cpp:105
+msgid "Edit Task"
+msgstr "Obradi zadatak"
+
+#: top.cpp:149
 msgid "clock active"
 msgstr "sat aktivan"
+
+#~ msgid "&About"
+#~ msgstr "&O"
+
+#~ msgid "About "
+#~ msgstr "O "

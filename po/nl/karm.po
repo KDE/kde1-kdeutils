@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-18 14:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Case Roole <cjr@xs4all.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,7 +70,7 @@ msgstr "Wilt u deze taak daadwerkelijk verwijderen ?"
 msgid "&Yes"
 msgstr "&Ja"
 
-#: top.cpp:39 top.cpp:168
+#: top.cpp:39 top.cpp:156
 msgid "clock inactive"
 msgstr "klok inactief"
 
@@ -94,46 +94,45 @@ msgstr "&Taak"
 msgid "&New"
 msgstr ""
 
-#: top.cpp:74
-#, fuzzy
-msgid "&About"
-msgstr "Over "
-
-#: top.cpp:85
-msgid "Start Clock"
-msgstr "Start Klok"
-
-#: top.cpp:89
-msgid "Stop Clock"
-msgstr "Stop klok"
-
-#: top.cpp:95
-msgid "New Task"
-msgstr "Nieuwe Taak"
-
-#: top.cpp:99
-msgid "Delete Task"
-msgstr "Verwijder Taak"
-
-#: top.cpp:104
-msgid "Edit Task"
-msgstr "Wijzig Taak"
-
-#: top.cpp:142
-msgid "About "
-msgstr "Over "
-
-#: top.cpp:143
+#: top.cpp:71
+#, c-format
 msgid ""
-" 0.3 -- Sirtaj Singh Kang\n"
+"%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
 msgstr ""
 
-#: top.cpp:161
+#: top.cpp:86
+msgid "Start Clock"
+msgstr "Start Klok"
+
+#: top.cpp:90
+msgid "Stop Clock"
+msgstr "Stop klok"
+
+#: top.cpp:96
+msgid "New Task"
+msgstr "Nieuwe Taak"
+
+#: top.cpp:100
+msgid "Delete Task"
+msgstr "Verwijder Taak"
+
+#: top.cpp:105
+msgid "Edit Task"
+msgstr "Wijzig Taak"
+
+#: top.cpp:149
 msgid "clock active"
 msgstr "klok actief"
+
+#, fuzzy
+#~ msgid "&About"
+#~ msgstr "Over "
+
+#~ msgid "About "
+#~ msgstr "Over "
 
 #~ msgid "&Contents"
 #~ msgstr "&Inhoud"
