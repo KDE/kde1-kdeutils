@@ -1,13 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kjots\n"
-"POT-Creation-Date: 1998-12-07 01:48+0100\n"
+"POT-Creation-Date: 1998-12-18 02:05+0100\n"
 "PO-Revision-Date: 1998-01-26 20:00+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt\n"
 "MIME-Version:\n"
 "Content-Type:\n"
-"Content-Transfer-Encoding:\n"
+"Content-Transfer-Encoding:\n"          
 
 #: KJotsMain.cpp:76
 msgid "Book name:"

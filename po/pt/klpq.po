@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klpq\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1998-12-08 02:02+0100\n"
 "PO-Revision-Date: 1998-02-17 12:00+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt\n"
@@ -9,15 +9,15 @@ msgstr ""
 "Content-Type:\n"
 "Content-Transfer-Encoding:\n"
 
-#: main.cpp:178
+#: main.cpp:176
 msgid "Sorry, can't open your printcap file."
 msgstr "Desculpe, não consigo abrir o ficheiro printcap."
 
-#: main.cpp:183
+#: main.cpp:181
 msgid "Sorry, unable to parse your printcap."
 msgstr "Desculpe, não consigo processar o seu ficheiro printcap."
 
-#: main.cpp:184
+#: main.cpp:182
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
 msgstr ""
 "Por favor envie por email o seu ficheiro printcap para\n"
@@ -55,7 +55,7 @@ msgstr "Trabalho"
 msgid "Size"
 msgstr "Tamanho"
 
-#: klpq.cpp:143 klpq.cpp:219
+#: klpq.cpp:143 klpq.cpp:218
 msgid "Make Top"
 msgstr "Topo"
 
@@ -71,39 +71,30 @@ msgstr "Actualizar &automáticamente"
 msgid "&Spooler"
 msgstr "&Spooler"
 
-#: klpq.cpp:199
-#, c-format
-msgid ""
-"Klpq %s\n"
-"(C) by Christoph Neerfeld\n"
-"chris@kde.org"
-msgstr ""
-
-#: klpq.cpp:204
+#: klpq.cpp:203
 msgid "&Config"
 msgstr "&Configuração"
 
-#: klpq.cpp:390
+#: klpq.cpp:389
 #, c-format
 msgid "Do you really want to remove job No %d"
 msgstr "Quer mesmo remover o trabalho nº %d"
 
-#: klpq.cpp:410
+#: klpq.cpp:409
 #, c-format
 msgid ""
 "Do you really want to move job No\n"
 "%d\n"
 "on top of queue"
-msgstr ""
-"Quer mesmo mover o trabalho nº \n"
+msgstr "Quer mesmo mover o trabalho nº \n"
 "%d\n"
 "para o topo da fila"
 
-#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
+#: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
 msgid "Permission denied"
 msgstr "Permissão recusada"
 
-#: klpq.cpp:559 klpq.cpp:565 klpq.cpp:580
+#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
 msgid ""
 "This is a privileged command\n"
 "and you do not have permission to execute it."
