@@ -3,11 +3,13 @@
 DocPath=kjots/index.html
 Name=KJots
 Name[pl]=KJots
+Name[hu]=Jegyzetelõ
 Comment=Note taker
 Comment[de]=Erfasst Notizen
 Comment[fi]=Muistilappuohjelma
 Name=Kjots
 Comment[pl]=System zarz±dzanie notatkami
+Comment[hu]=Jegyzetelõ rendszer
 WmCommand=
 MiniIcon=mini-doc.xpm
 Exec=kjots
