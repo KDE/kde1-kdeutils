@@ -1,4 +1,12 @@
 /*
+ * 
+ * 
+ * NOTE THIS CLASS IS NOT THE SAME AS THE ONE IN THE KDEUI LIB
+ * The difference is that this one uses KFileDialog instead of
+ * QFileDialog. So don't remove this class with the idea in mind to
+ * link against kdeui.
+ * Bernd
+
   $Id$
  
   KEdit, a simple text editor for the KDE project
