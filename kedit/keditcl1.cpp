@@ -1624,7 +1624,7 @@ int KEdit::doSave()
       QMessageBox::warning(
 			   this,
 			   klocale->translate("Sorry:"), 
-			   klocale->translate("You do not have write permission"\
+			   klocale->translate("You do not have write permission "\
 					      "to this file.\n"),
 			   klocale->translate("OK"),
 			   "",

@@ -109,7 +109,7 @@ uninstall:
 	rm -f $(TOOLPICSDIR)/send.xpm
 
 messages:
-	@XGETTEXT@ -C --keyword=translate -x ../../kdelibs/po/kde.pot $(SOURCES)
+	@XGETTEXT@ -C --keyword=translate -x ../../kdelibs/po/kde.pot $(SOURCES) && mv messages.po ../po/kedit.pot
 
 # DO NOT DELETE THIS LINE -- make depend depends on it.
 
