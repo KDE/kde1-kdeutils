@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"POT-Creation-Date: 1998-11-17 10:55+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1998-03-06 22:13:59-0500\n"
 "From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
@@ -12,9 +12,9 @@ msgstr ""
 msgid "About KDE Floppy Formatter"
 msgstr "关于 KDE 软盘格式化程序"
 
-#: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368
-#: floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721
-#: floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
+#: about.cpp:49 floppy.cpp:295 floppy.cpp:342 floppy.cpp:358 floppy.cpp:374
+#: floppy.cpp:481 floppy.cpp:584 floppy.cpp:598 floppy.cpp:713 floppy.cpp:727
+#: floppy.cpp:774 floppy.cpp:783 floppy.cpp:890 floppy.cpp:911 floppy.cpp:935
 msgid "KFloppy"
 msgstr "KFloppy"
 
@@ -34,7 +34,7 @@ msgstr "密度:"
 msgid "File System:"
 msgstr "文件系统:"
 
-#: floppy.cpp:108 floppy.cpp:408
+#: floppy.cpp:108 floppy.cpp:414
 msgid "Format"
 msgstr "格式化"
 
@@ -59,11 +59,15 @@ msgstr "KDE FLoppy"
 msgid "KDE Floppy Formatter"
 msgstr "KDE 软盘格式化程序"
 
-#: floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267
+#: floppy.cpp:168 floppy.cpp:222 floppy.cpp:240 floppy.cpp:255 floppy.cpp:273
 msgid "HD"
 msgstr "HD"
 
-#: floppy.cpp:286
+#: floppy.cpp:169
+msgid "DD"
+msgstr ""
+
+#: floppy.cpp:292
 #, c-format
 msgid ""
 "Cannot access %s\n"
@@ -73,7 +77,7 @@ msgstr ""
 "不能访问 %s\n"
 "请确定设备存在并且你有写它的权限."
 
-#: floppy.cpp:333
+#: floppy.cpp:339
 msgid ""
 "Cannot find kfdformat\n"
 "kfdformat is part of the KFloppy distribution.\n"
@@ -83,7 +87,7 @@ msgstr ""
 "kfdformat 是 KFloppy 发行版本的一部分.\n"
 "请正确安装 KFloppy."
 
-#: floppy.cpp:349
+#: floppy.cpp:355
 msgid ""
 "Cannot find kmke2fs\n"
 "kmke2fs is part of the KFloppy distribution.\n"
@@ -93,7 +97,7 @@ msgstr ""
 "kmke2fs 是 KFloppy 发行版本的一部分.\n"
 "请正确安装 KFloppy."
 
-#: floppy.cpp:364
+#: floppy.cpp:370
 msgid ""
 "Cannot find kmkdosfs\n"
 "kmkdosfs is part of the KFloppy distribution.\n"
@@ -103,15 +107,15 @@ msgstr ""
 "kmkdosfs 是 KFloppy 发行版本的一部分.\n"
 "请正确安装 KFloppy."
 
-#: floppy.cpp:424
+#: floppy.cpp:430
 msgid "Abort"
 msgstr "退出"
 
-#: floppy.cpp:472
+#: floppy.cpp:478
 msgid "Cannot start a new program: fork() failed."
 msgstr "不能启动新的程序: fork() 失败."
 
-#: floppy.cpp:572 floppy.cpp:700
+#: floppy.cpp:578 floppy.cpp:706
 msgid ""
 "Cannot access floppy or floppy drive\n"
 "Please insert a floppy and make sure that you\n"
@@ -121,7 +125,7 @@ msgstr ""
 "请插入一张软盘并且确定你选中的是\n"
 "正确的软驱.\n"
 
-#: floppy.cpp:587
+#: floppy.cpp:593
 #, c-format
 msgid ""
 "Cannot format: %s\n"
@@ -130,12 +134,12 @@ msgstr ""
 "无法格式化: %s\n"
 "%s"
 
-#: floppy.cpp:634
+#: floppy.cpp:640
 #, c-format
 msgid "Block %d is bad. Continuing ..."
 msgstr "第 %d 块是坏的. 继续..."
 
-#: floppy.cpp:717
+#: floppy.cpp:723
 #, c-format
 msgid ""
 "Cannot create a filesystem on: %s\n"
@@ -144,7 +148,7 @@ msgstr ""
 "无法在 %s 上建立一个文件系统\n"
 "%s"
 
-#: floppy.cpp:753
+#: floppy.cpp:759
 #, c-format
 msgid ""
 "The floppy was sucessfully formatted.\n"
@@ -155,19 +159,19 @@ msgstr ""
 "标为坏的块: %d\n"
 "原始容量: %d\n"
 
-#: floppy.cpp:774
+#: floppy.cpp:780
 msgid "All files were sucessfully erased."
 msgstr "成功删除所有的文件."
 
-#: floppy.cpp:832
+#: floppy.cpp:838
 msgid "Creating Filesystem ..."
 msgstr "建立文件系统 ..."
 
-#: floppy.cpp:836
+#: floppy.cpp:842
 msgid "Verifying ..."
 msgstr "检验 ..."
 
-#: floppy.cpp:881
+#: floppy.cpp:887
 msgid ""
 "Cannot start a new program\n"
 "fork() failed."
@@ -175,11 +179,11 @@ msgstr ""
 "不能启动一个新的程序\n"
 "fork() 失败."
 
-#: floppy.cpp:907
+#: floppy.cpp:913
 msgid "Error while trying to determine whether floppy is mounted\n"
 msgstr "在试图判断软盘是否被 mount 时出错\n"
 
-#: floppy.cpp:924
+#: floppy.cpp:930
 #, c-format
 msgid ""
 "%s is mounted.\n"

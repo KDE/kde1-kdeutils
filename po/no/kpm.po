@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kpm\n"
-"POT-Creation-Date: 1998-06-18 23:30+0200\n"
+"POT-Creation-Date: 1998-11-17 10:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -61,123 +61,123 @@ msgstr "Statuslinje"
 msgid "Socket Info Window"
 msgstr "Socket-infovindu"
 
-#: qps.C:84 qps.C:122
+#: qps.C:89 qps.C:127
 msgid "Renice..."
 msgstr "Endre nice..."
 
-#: qps.C:87
+#: qps.C:92
 msgid "Change Scheduling..."
 msgstr "Endre kjøreplan..."
 
-#: qps.C:91 qps.C:126
+#: qps.C:96 qps.C:131
 msgid "Socket Info"
 msgstr "Socket-info"
 
-#: qps.C:96
+#: qps.C:101
 msgid "Iconify"
 msgstr "Ikoniser"
 
-#: qps.C:104 qps.C:128
+#: qps.C:109 qps.C:133
 msgid "Terminate"
 msgstr "Avslutt"
 
-#: qps.C:107 qps.C:129
+#: qps.C:112 qps.C:134
 msgid "Hangup"
 msgstr "Legg på"
 
-#: qps.C:110 qps.C:130
+#: qps.C:115 qps.C:135
 msgid "Interrupt"
 msgstr "Avbrudd"
 
-#: qps.C:113 qps.C:132
+#: qps.C:118 qps.C:137
 msgid "Kill"
 msgstr "Drep"
 
-#: qps.C:116
+#: qps.C:121
 msgid "Other"
 msgstr "Annet"
 
-#: qps.C:123
+#: qps.C:128
 msgid "Scheduling..."
 msgstr "Kjøreplan..."
 
-#: qps.C:133
+#: qps.C:138
 msgid "Other signals"
 msgstr "Andre signaler"
 
-#: qps.C:141
+#: qps.C:146
 msgid "Remove field"
 msgstr "Fjern felt"
 
-#: qps.C:143
+#: qps.C:148
 msgid "Add field..."
 msgstr "Legg til felt..."
 
-#: qps.C:147
+#: qps.C:152
 msgid "Help on field..."
 msgstr "Hjelp om felt..."
 
-#: qps.C:152
+#: qps.C:157
 msgid "Refresh process list"
 msgstr "Oppfrisk prosessliste"
 
-#: qps.C:155
+#: qps.C:160
 msgid "All Processes"
 msgstr "Alle prosesser"
 
-#: qps.C:156
+#: qps.C:161
 msgid "Your Processes"
 msgstr "Dine prosesser"
 
-#: qps.C:157
+#: qps.C:162
 msgid "Non-Root Processes"
 msgstr "Ikke-root-prosesser"
 
-#: qps.C:158
+#: qps.C:163
 msgid "Running Processes"
 msgstr "Kjørende prosesser"
 
-#: qps.C:160
+#: qps.C:165
 msgid "User Fields"
 msgstr "Brukerfelter"
 
-#: qps.C:161
+#: qps.C:166
 msgid "Jobs Fields"
 msgstr "Jobbfelter"
 
-#: qps.C:162
+#: qps.C:167
 msgid "Memory Fields"
 msgstr "Minnefelter"
 
-#: qps.C:164
+#: qps.C:169
 msgid "Select Fields..."
 msgstr "Valgte felter..."
 
-#: qps.C:170
+#: qps.C:175
 msgid "Update Period..."
 msgstr "Oppdateringsperiode..."
 
-#: qps.C:175
+#: qps.C:180
 msgid "Show command path"
 msgstr "Vis kommandosti"
 
-#: qps.C:177
+#: qps.C:182
 msgid "Show ressource info"
 msgstr "Vis ressursinfo"
 
-#: qps.C:179
+#: qps.C:184
 msgid "Show toolbar"
 msgstr "Vis verktøylinje"
 
-#: qps.C:183
+#: qps.C:188
 msgid "Preferences..."
 msgstr "Preferanser..."
 
-#: qps.C:186
+#: qps.C:191
 msgid "Save Settings Now"
 msgstr "Lagre valg innstillinger nå"
 
-#: qps.C:190
+#: qps.C:195
 #, c-format
 msgid ""
 "kpm %sk%s - A Visual Process Manager (KDE Version)\n"
@@ -209,79 +209,79 @@ msgstr ""
 "Dette program er gittut under GNU General Public\n"
 "License (GNU GPL). Se filen COPYING for detaljer."
 
-#: qps.C:208
+#: qps.C:213
 msgid "&Window"
 msgstr "&Vindu"
 
-#: qps.C:209
+#: qps.C:214
 msgid "&Process"
 msgstr "&Process"
 
-#: qps.C:210
+#: qps.C:215
 msgid "&Signal"
 msgstr "&Signal"
 
-#: qps.C:306
+#: qps.C:311
 msgid "SIGQUIT (quit)"
 msgstr "SIGQUIT (avslutt)"
 
-#: qps.C:307
+#: qps.C:312
 msgid "SIGILL (illegal instruction)"
 msgstr "SIGILL (ulovlig instruksjon)"
 
-#: qps.C:308
+#: qps.C:313
 msgid "SIGABRT (abort)"
 msgstr "SIGABRT (avbrudd)"
 
-#: qps.C:309
+#: qps.C:314
 msgid "SIGFPE (floating point exception)"
 msgstr "SIGFPE (flytpekerunntak"
 
-#: qps.C:310
+#: qps.C:315
 msgid "SIGSEGV (segmentation violation)"
 msgstr "SIGSEGV (brudd på segmentering)"
 
-#: qps.C:311
+#: qps.C:316
 msgid "SIGPIPE (broken pipe)"
 msgstr "SIGPIPE (brukket rør)"
 
-#: qps.C:312
+#: qps.C:317
 msgid "SIGALRM (timer signal)"
 msgstr "SIGALRM (timer-signal"
 
-#: qps.C:313
+#: qps.C:318
 msgid "SIGUSR1 (user-defined 1)"
 msgstr "SIGUSR1 (brukerdefinert 1)"
 
-#: qps.C:314
+#: qps.C:319
 msgid "SIGUSR2 (user-defined 2)"
 msgstr "SIGUSR2 (brukerdefinert 2)"
 
-#: qps.C:315
+#: qps.C:320
 msgid "SIGCHLD (child death)"
 msgstr "SIGCHLD (dødt barn)"
 
-#: qps.C:316
+#: qps.C:321
 msgid "SIGCONT (continue)"
 msgstr "SIGCONT (fortsett)"
 
-#: qps.C:317
+#: qps.C:322
 msgid "SIGSTOP (stop)"
 msgstr "SIGSTOP (stopp)"
 
-#: qps.C:318
+#: qps.C:323
 msgid "SIGTSTP (stop from tty)"
 msgstr "SIGTSTP (stopp fra tty)"
 
-#: qps.C:319
+#: qps.C:324
 msgid "SIGTTIN (tty input)"
 msgstr "SIGTTIN (tty-innmating"
 
-#: qps.C:320
+#: qps.C:325
 msgid "SIGTTOU (tty output)"
 msgstr "SIGTTOU (tty-utmating)"
 
-#: qps.C:620
+#: qps.C:625
 #, c-format
 msgid ""
 "You do not have permission to view the\n"
@@ -294,23 +294,23 @@ msgstr ""
 "Bare eieren av prosessen og\n"
 "super-bruker kan gjøre det."
 
-#: qps.C:625 qps.C:834 qps.C:876 qps.C:882 qps.C:905 qps.C:941 qps.C:985
+#: qps.C:630 qps.C:839 qps.C:881 qps.C:887 qps.C:910 qps.C:946 qps.C:990
 msgid "Permission denied"
 msgstr "Tilgang nektet"
 
-#: qps.C:698
+#: qps.C:703
 msgid "qps: change update period"
 msgstr "qps: endret oppdateringsperiode"
 
-#: qps.C:699
+#: qps.C:704
 msgid "New update period:"
 msgstr "Ny oppdateringsperiode"
 
-#: qps.C:714 qps.C:853
+#: qps.C:719 qps.C:858
 msgid "Invalid input"
 msgstr "Uglyldig innmating"
 
-#: qps.C:715
+#: qps.C:720
 msgid ""
 "The time between updates should be a number, optionally followed\n"
 "by a unit (ms, s or min). If no unit is given, seconds is assumed."
@@ -319,7 +319,7 @@ msgstr ""
 "av en enhet (ms, s eller min). Hvis ingen enhet er gitt, sekund er\n"
 "antatt."
 
-#: qps.C:829
+#: qps.C:834
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
@@ -331,15 +331,15 @@ msgstr ""
 "Bare eieren av prosessen og super-bruker\n"
 "har lov til å gjøre det."
 
-#: qps.C:843
+#: qps.C:848
 msgid "qps: renice process"
 msgstr "qps: endrer nice-verdien til prosess"
 
-#: qps.C:844
+#: qps.C:849
 msgid "New nice value:"
 msgstr "Ny nice-verdi:"
 
-#: qps.C:854
+#: qps.C:859
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
@@ -347,7 +347,7 @@ msgstr ""
 "Nice-verdien skal være\n"
 "et tall mellom -20 og 20."
 
-#: qps.C:871
+#: qps.C:876
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
@@ -356,11 +356,11 @@ msgstr ""
 "Du har ikke tilgang til å endre nice-verdi for prosess %d (%s).\n"
 "Bare prosess-eieren og superbruker har lov til det."
 
-#: qps.C:883
+#: qps.C:888
 msgid "Only the super-user may lower the nice value of a process."
 msgstr "Bare super-bruker kan minske nice-verdien til en prosess."
 
-#: qps.C:906
+#: qps.C:911
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
@@ -368,7 +368,7 @@ msgstr ""
 "Bare super-bruker kan endre\n"
 "kjøreplan-politikken og statisk prioritering."
 
-#: qps.C:936
+#: qps.C:941
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
@@ -379,7 +379,7 @@ msgstr ""
 "kjøreplanen og/eller prioriteten til prosess %d (%s).\n"
 "Bare super-bruker kan gjøre det."
 
-#: qps.C:980
+#: qps.C:985
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"

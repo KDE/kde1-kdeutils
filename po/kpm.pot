@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-18 23:30+0200\n"
+"POT-Creation-Date: 1998-11-17 10:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,123 +62,123 @@ msgstr ""
 msgid "Socket Info Window"
 msgstr ""
 
-#: qps.C:84 qps.C:122
+#: qps.C:89 qps.C:127
 msgid "Renice..."
 msgstr ""
 
-#: qps.C:87
+#: qps.C:92
 msgid "Change Scheduling..."
 msgstr ""
 
-#: qps.C:91 qps.C:126
+#: qps.C:96 qps.C:131
 msgid "Socket Info"
 msgstr ""
 
-#: qps.C:96
+#: qps.C:101
 msgid "Iconify"
 msgstr ""
 
-#: qps.C:104 qps.C:128
+#: qps.C:109 qps.C:133
 msgid "Terminate"
 msgstr ""
 
-#: qps.C:107 qps.C:129
+#: qps.C:112 qps.C:134
 msgid "Hangup"
 msgstr ""
 
-#: qps.C:110 qps.C:130
+#: qps.C:115 qps.C:135
 msgid "Interrupt"
 msgstr ""
 
-#: qps.C:113 qps.C:132
+#: qps.C:118 qps.C:137
 msgid "Kill"
 msgstr ""
 
-#: qps.C:116
+#: qps.C:121
 msgid "Other"
 msgstr ""
 
-#: qps.C:123
+#: qps.C:128
 msgid "Scheduling..."
 msgstr ""
 
-#: qps.C:133
+#: qps.C:138
 msgid "Other signals"
 msgstr ""
 
-#: qps.C:141
+#: qps.C:146
 msgid "Remove field"
 msgstr ""
 
-#: qps.C:143
+#: qps.C:148
 msgid "Add field..."
 msgstr ""
 
-#: qps.C:147
+#: qps.C:152
 msgid "Help on field..."
 msgstr ""
 
-#: qps.C:152
+#: qps.C:157
 msgid "Refresh process list"
 msgstr ""
 
-#: qps.C:155
+#: qps.C:160
 msgid "All Processes"
 msgstr ""
 
-#: qps.C:156
+#: qps.C:161
 msgid "Your Processes"
 msgstr ""
 
-#: qps.C:157
+#: qps.C:162
 msgid "Non-Root Processes"
 msgstr ""
 
-#: qps.C:158
+#: qps.C:163
 msgid "Running Processes"
 msgstr ""
 
-#: qps.C:160
+#: qps.C:165
 msgid "User Fields"
 msgstr ""
 
-#: qps.C:161
+#: qps.C:166
 msgid "Jobs Fields"
 msgstr ""
 
-#: qps.C:162
+#: qps.C:167
 msgid "Memory Fields"
 msgstr ""
 
-#: qps.C:164
+#: qps.C:169
 msgid "Select Fields..."
 msgstr ""
 
-#: qps.C:170
+#: qps.C:175
 msgid "Update Period..."
 msgstr ""
 
-#: qps.C:175
+#: qps.C:180
 msgid "Show command path"
 msgstr ""
 
-#: qps.C:177
+#: qps.C:182
 msgid "Show ressource info"
 msgstr ""
 
-#: qps.C:179
+#: qps.C:184
 msgid "Show toolbar"
 msgstr ""
 
-#: qps.C:183
+#: qps.C:188
 msgid "Preferences..."
 msgstr ""
 
-#: qps.C:186
+#: qps.C:191
 msgid "Save Settings Now"
 msgstr ""
 
-#: qps.C:190
+#: qps.C:195
 #, c-format
 msgid ""
 "kpm %sk%s - A Visual Process Manager (KDE Version)\n"
@@ -197,79 +197,79 @@ msgid ""
 "for details about this."
 msgstr ""
 
-#: qps.C:208
+#: qps.C:213
 msgid "&Window"
 msgstr ""
 
-#: qps.C:209
+#: qps.C:214
 msgid "&Process"
 msgstr ""
 
-#: qps.C:210
+#: qps.C:215
 msgid "&Signal"
 msgstr ""
 
-#: qps.C:306
+#: qps.C:311
 msgid "SIGQUIT (quit)"
 msgstr ""
 
-#: qps.C:307
+#: qps.C:312
 msgid "SIGILL (illegal instruction)"
 msgstr ""
 
-#: qps.C:308
+#: qps.C:313
 msgid "SIGABRT (abort)"
 msgstr ""
 
-#: qps.C:309
+#: qps.C:314
 msgid "SIGFPE (floating point exception)"
 msgstr ""
 
-#: qps.C:310
+#: qps.C:315
 msgid "SIGSEGV (segmentation violation)"
 msgstr ""
 
-#: qps.C:311
+#: qps.C:316
 msgid "SIGPIPE (broken pipe)"
 msgstr ""
 
-#: qps.C:312
+#: qps.C:317
 msgid "SIGALRM (timer signal)"
 msgstr ""
 
-#: qps.C:313
+#: qps.C:318
 msgid "SIGUSR1 (user-defined 1)"
 msgstr ""
 
-#: qps.C:314
+#: qps.C:319
 msgid "SIGUSR2 (user-defined 2)"
 msgstr ""
 
-#: qps.C:315
+#: qps.C:320
 msgid "SIGCHLD (child death)"
 msgstr ""
 
-#: qps.C:316
+#: qps.C:321
 msgid "SIGCONT (continue)"
 msgstr ""
 
-#: qps.C:317
+#: qps.C:322
 msgid "SIGSTOP (stop)"
 msgstr ""
 
-#: qps.C:318
+#: qps.C:323
 msgid "SIGTSTP (stop from tty)"
 msgstr ""
 
-#: qps.C:319
+#: qps.C:324
 msgid "SIGTTIN (tty input)"
 msgstr ""
 
-#: qps.C:320
+#: qps.C:325
 msgid "SIGTTOU (tty output)"
 msgstr ""
 
-#: qps.C:620
+#: qps.C:625
 #, c-format
 msgid ""
 "You do not have permission to view the\n"
@@ -278,29 +278,29 @@ msgid ""
 "super-user may do that."
 msgstr ""
 
-#: qps.C:625 qps.C:834 qps.C:876 qps.C:882 qps.C:905 qps.C:941 qps.C:985
+#: qps.C:630 qps.C:839 qps.C:881 qps.C:887 qps.C:910 qps.C:946 qps.C:990
 msgid "Permission denied"
 msgstr ""
 
-#: qps.C:698
+#: qps.C:703
 msgid "qps: change update period"
 msgstr ""
 
-#: qps.C:699
+#: qps.C:704
 msgid "New update period:"
 msgstr ""
 
-#: qps.C:714 qps.C:853
+#: qps.C:719 qps.C:858
 msgid "Invalid input"
 msgstr ""
 
-#: qps.C:715
+#: qps.C:720
 msgid ""
 "The time between updates should be a number, optionally followed\n"
 "by a unit (ms, s or min). If no unit is given, seconds is assumed."
 msgstr ""
 
-#: qps.C:829
+#: qps.C:834
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
@@ -309,38 +309,38 @@ msgid ""
 "are allowed to do that."
 msgstr ""
 
-#: qps.C:843
+#: qps.C:848
 msgid "qps: renice process"
 msgstr ""
 
-#: qps.C:844
+#: qps.C:849
 msgid "New nice value:"
 msgstr ""
 
-#: qps.C:854
+#: qps.C:859
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
 msgstr ""
 
-#: qps.C:871
+#: qps.C:876
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
 "Only the process owner and the super-user are allowed to do that."
 msgstr ""
 
-#: qps.C:883
+#: qps.C:888
 msgid "Only the super-user may lower the nice value of a process."
 msgstr ""
 
-#: qps.C:906
+#: qps.C:911
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
 msgstr ""
 
-#: qps.C:936
+#: qps.C:941
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
@@ -348,7 +348,7 @@ msgid ""
 "Only the super-user may do that."
 msgstr ""
 
-#: qps.C:980
+#: qps.C:985
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"

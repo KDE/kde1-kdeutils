@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"POT-Creation-Date: 1998-11-17 10:55+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1998-03-06 22:13:59-0500\n"
 "From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
@@ -12,9 +12,9 @@ msgstr ""
 msgid "About KDE Floppy Formatter"
 msgstr "Acerca do Formatador KDE"
 
-#: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368
-#: floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721
-#: floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
+#: about.cpp:49 floppy.cpp:295 floppy.cpp:342 floppy.cpp:358 floppy.cpp:374
+#: floppy.cpp:481 floppy.cpp:584 floppy.cpp:598 floppy.cpp:713 floppy.cpp:727
+#: floppy.cpp:774 floppy.cpp:783 floppy.cpp:890 floppy.cpp:911 floppy.cpp:935
 msgid "KFloppy"
 msgstr "Formatador"
 
@@ -34,7 +34,7 @@ msgstr "Densidade:"
 msgid "File System:"
 msgstr "Sistema:"
 
-#: floppy.cpp:108 floppy.cpp:408
+#: floppy.cpp:108 floppy.cpp:414
 msgid "Format"
 msgstr "Formatar"
 
@@ -59,11 +59,15 @@ msgstr "Formatador KDE"
 msgid "KDE Floppy Formatter"
 msgstr "Formatador KDE"
 
-#: floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267
+#: floppy.cpp:168 floppy.cpp:222 floppy.cpp:240 floppy.cpp:255 floppy.cpp:273
 msgid "HD"
 msgstr "HD"
 
-#: floppy.cpp:286
+#: floppy.cpp:169
+msgid "DD"
+msgstr ""
+
+#: floppy.cpp:292
 #, c-format
 msgid ""
 "Cannot access %s\n"
@@ -74,7 +78,7 @@ msgstr ""
 "Verifique se o dispositivo existe\n"
 "e que tem permissão de escrita nele."
 
-#: floppy.cpp:333
+#: floppy.cpp:339
 msgid ""
 "Cannot find kfdformat\n"
 "kfdformat is part of the KFloppy distribution.\n"
@@ -84,7 +88,7 @@ msgstr ""
 "kfdformat faz parte deste formatador.\n"
 "Instale-o correctamente."
 
-#: floppy.cpp:349
+#: floppy.cpp:355
 msgid ""
 "Cannot find kmke2fs\n"
 "kmke2fs is part of the KFloppy distribution.\n"
@@ -94,7 +98,7 @@ msgstr ""
 "kmkde2fs faz parte deste formatador.\n"
 "Instale-o correctamente."
 
-#: floppy.cpp:364
+#: floppy.cpp:370
 msgid ""
 "Cannot find kmkdosfs\n"
 "kmkdosfs is part of the KFloppy distribution.\n"
@@ -104,15 +108,15 @@ msgstr ""
 "kmkdosfs faz parte deste formatador.\n"
 "Instale-o correctamente."
 
-#: floppy.cpp:424
+#: floppy.cpp:430
 msgid "Abort"
 msgstr "Abortar"
 
-#: floppy.cpp:472
+#: floppy.cpp:478
 msgid "Cannot start a new program: fork() failed."
 msgstr "Não consigo começar nova programa: fork() falhou."
 
-#: floppy.cpp:572 floppy.cpp:700
+#: floppy.cpp:578 floppy.cpp:706
 msgid ""
 "Cannot access floppy or floppy drive\n"
 "Please insert a floppy and make sure that you\n"
@@ -122,7 +126,7 @@ msgstr ""
 "Por favor insira uma diskette e certifique-se que\n"
 "seleccionou uma drive valida.\n"
 
-#: floppy.cpp:587
+#: floppy.cpp:593
 #, c-format
 msgid ""
 "Cannot format: %s\n"
@@ -131,12 +135,12 @@ msgstr ""
 "Não consigo formatar: %s\n"
 "%s"
 
-#: floppy.cpp:634
+#: floppy.cpp:640
 #, c-format
 msgid "Block %d is bad. Continuing ..."
 msgstr "Bloco %d está estragado. A continuar ..."
 
-#: floppy.cpp:717
+#: floppy.cpp:723
 #, c-format
 msgid ""
 "Cannot create a filesystem on: %s\n"
@@ -145,7 +149,7 @@ msgstr ""
 "Não consigo criar sistema de ficheiros em: %s\n"
 "%s"
 
-#: floppy.cpp:753
+#: floppy.cpp:759
 #, c-format
 msgid ""
 "The floppy was sucessfully formatted.\n"
@@ -156,19 +160,19 @@ msgstr ""
 "Blocos marcados estragados: %d\n"
 "Capacidade bruta: %d\n"
 
-#: floppy.cpp:774
+#: floppy.cpp:780
 msgid "All files were sucessfully erased."
 msgstr "Todos os ficheiros foram apagados."
 
-#: floppy.cpp:832
+#: floppy.cpp:838
 msgid "Creating Filesystem ..."
 msgstr "A Criar Sistema de Ficheiros..."
 
-#: floppy.cpp:836
+#: floppy.cpp:842
 msgid "Verifying ..."
 msgstr "A Verificar ..."
 
-#: floppy.cpp:881
+#: floppy.cpp:887
 msgid ""
 "Cannot start a new program\n"
 "fork() failed."
@@ -176,11 +180,11 @@ msgstr ""
 "Não consigo iniciar programa\n"
 "fork() falhou."
 
-#: floppy.cpp:907
+#: floppy.cpp:913
 msgid "Error while trying to determine whether floppy is mounted\n"
 msgstr "Erro ao tentar determinar se a diskette está montada\n"
 
-#: floppy.cpp:924
+#: floppy.cpp:930
 #, c-format
 msgid ""
 "%s is mounted.\n"

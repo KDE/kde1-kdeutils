@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kcalc\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-11-17 10:55+0100\n"
 "PO-Revision-Date: 1998-02-28 15:21+0100\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgstr "Standardverdier"
 msgid "Display Font"
 msgstr "Vis skrifttype"
 
-#: kcalc_core.cpp:1141
+#: kcalc_core.cpp:1145
 msgid "Stat Mem cleared"
 msgstr "Stattminne tømt"
 

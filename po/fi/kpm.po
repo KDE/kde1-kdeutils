@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KPM\n"
-"POT-Creation-Date: 1998-06-18 23:30+0200\n"
+"POT-Creation-Date: 1998-11-17 10:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,123 +62,123 @@ msgstr "Tilarivi"
 msgid "Socket Info Window"
 msgstr "Pistokeikkuna"
 
-#: qps.C:84 qps.C:122
+#: qps.C:89 qps.C:127
 msgid "Renice..."
 msgstr "Renice..."
 
-#: qps.C:87
+#: qps.C:92
 msgid "Change Scheduling..."
 msgstr "Muuta skedulointia..."
 
-#: qps.C:91 qps.C:126
+#: qps.C:96 qps.C:131
 msgid "Socket Info"
 msgstr "Pistoketiedot"
 
-#: qps.C:96
+#: qps.C:101
 msgid "Iconify"
 msgstr "Pienennä"
 
-#: qps.C:104 qps.C:128
+#: qps.C:109 qps.C:133
 msgid "Terminate"
 msgstr "Terminate"
 
-#: qps.C:107 qps.C:129
+#: qps.C:112 qps.C:134
 msgid "Hangup"
 msgstr "Hangup"
 
-#: qps.C:110 qps.C:130
+#: qps.C:115 qps.C:135
 msgid "Interrupt"
 msgstr "Interrupt"
 
-#: qps.C:113 qps.C:132
+#: qps.C:118 qps.C:137
 msgid "Kill"
 msgstr "Kill"
 
-#: qps.C:116
+#: qps.C:121
 msgid "Other"
 msgstr "Muuta"
 
-#: qps.C:123
+#: qps.C:128
 msgid "Scheduling..."
 msgstr "Skedulointi..."
 
-#: qps.C:133
+#: qps.C:138
 msgid "Other signals"
 msgstr "Muut signaalit"
 
-#: qps.C:141
+#: qps.C:146
 msgid "Remove field"
 msgstr "Poista kenttä"
 
-#: qps.C:143
+#: qps.C:148
 msgid "Add field..."
 msgstr "Lisää kenttä..."
 
-#: qps.C:147
+#: qps.C:152
 msgid "Help on field..."
 msgstr "Kentän ohje..."
 
-#: qps.C:152
+#: qps.C:157
 msgid "Refresh process list"
 msgstr "Päivitä prosessilista"
 
-#: qps.C:155
+#: qps.C:160
 msgid "All Processes"
 msgstr "Kaikki prosessit"
 
-#: qps.C:156
+#: qps.C:161
 msgid "Your Processes"
 msgstr "Omat prosessit"
 
-#: qps.C:157
+#: qps.C:162
 msgid "Non-Root Processes"
 msgstr "Ei root -prosessit"
 
-#: qps.C:158
+#: qps.C:163
 msgid "Running Processes"
 msgstr "Käynnissäolevat prosessit"
 
-#: qps.C:160
+#: qps.C:165
 msgid "User Fields"
 msgstr "Käyttäjän kentät"
 
-#: qps.C:161
+#: qps.C:166
 msgid "Jobs Fields"
 msgstr "Työkentät"
 
-#: qps.C:162
+#: qps.C:167
 msgid "Memory Fields"
 msgstr "Muistikentät"
 
-#: qps.C:164
+#: qps.C:169
 msgid "Select Fields..."
 msgstr "Valitse kentät..."
 
-#: qps.C:170
+#: qps.C:175
 msgid "Update Period..."
 msgstr "Päivitysjakso..."
 
-#: qps.C:175
+#: qps.C:180
 msgid "Show command path"
 msgstr "Näytä komennon polku"
 
-#: qps.C:177
+#: qps.C:182
 msgid "Show ressource info"
 msgstr "Näytä resurssitiedot"
 
-#: qps.C:179
+#: qps.C:184
 msgid "Show toolbar"
 msgstr "Näytä työkalurivi"
 
-#: qps.C:183
+#: qps.C:188
 msgid "Preferences..."
 msgstr "Asetukset..."
 
-#: qps.C:186
+#: qps.C:191
 msgid "Save Settings Now"
 msgstr "Tallenna asetukset"
 
-#: qps.C:190
+#: qps.C:195
 #, c-format
 msgid ""
 "kpm %sk%s - A Visual Process Manager (KDE Version)\n"
@@ -197,79 +197,79 @@ msgid ""
 "for details about this."
 msgstr ""
 
-#: qps.C:208
+#: qps.C:213
 msgid "&Window"
 msgstr "&Ikkuna"
 
-#: qps.C:209
+#: qps.C:214
 msgid "&Process"
 msgstr "&Prosessi"
 
-#: qps.C:210
+#: qps.C:215
 msgid "&Signal"
 msgstr "&Signaali"
 
-#: qps.C:306
+#: qps.C:311
 msgid "SIGQUIT (quit)"
 msgstr "SIGQUIT (lopeta)"
 
-#: qps.C:307
+#: qps.C:312
 msgid "SIGILL (illegal instruction)"
 msgstr "SIGILL (virheellinen komento)"
 
-#: qps.C:308
+#: qps.C:313
 msgid "SIGABRT (abort)"
 msgstr "SIGABRT (peruuta)"
 
-#: qps.C:309
+#: qps.C:314
 msgid "SIGFPE (floating point exception)"
 msgstr "SIGFPE (liukulukupoikkeus)"
 
-#: qps.C:310
+#: qps.C:315
 msgid "SIGSEGV (segmentation violation)"
 msgstr "SIGSEGV (segmentation violation)"
 
-#: qps.C:311
+#: qps.C:316
 msgid "SIGPIPE (broken pipe)"
 msgstr "SIGPIPE (katkennut putki)"
 
-#: qps.C:312
+#: qps.C:317
 msgid "SIGALRM (timer signal)"
 msgstr "SIGALRM (ajastinsignaali)"
 
-#: qps.C:313
+#: qps.C:318
 msgid "SIGUSR1 (user-defined 1)"
 msgstr "SIGUSR1 (käyttäjän 1)"
 
-#: qps.C:314
+#: qps.C:319
 msgid "SIGUSR2 (user-defined 2)"
 msgstr "SIGUSR2 (käyttäjän 2)"
 
-#: qps.C:315
+#: qps.C:320
 msgid "SIGCHLD (child death)"
 msgstr "SIGCHLD (lapsi kuoli)"
 
-#: qps.C:316
+#: qps.C:321
 msgid "SIGCONT (continue)"
 msgstr "SIGCONT (jatka)"
 
-#: qps.C:317
+#: qps.C:322
 msgid "SIGSTOP (stop)"
 msgstr "SIGSTOP (stop)"
 
-#: qps.C:318
+#: qps.C:323
 msgid "SIGTSTP (stop from tty)"
 msgstr "SIGTSTP (stop tty:tä)"
 
-#: qps.C:319
+#: qps.C:324
 msgid "SIGTTIN (tty input)"
 msgstr "SIGTTIN (tty syöte)"
 
-#: qps.C:320
+#: qps.C:325
 msgid "SIGTTOU (tty output)"
 msgstr "SIGTTOU (tty tuloste)"
 
-#: qps.C:620
+#: qps.C:625
 #, c-format
 msgid ""
 "You do not have permission to view the\n"
@@ -282,23 +282,23 @@ msgstr ""
 "Vain prosessin omistaja ja pääkäyttäjä\n"
 "voi tehdä tämän."
 
-#: qps.C:625 qps.C:834 qps.C:876 qps.C:882 qps.C:905 qps.C:941 qps.C:985
+#: qps.C:630 qps.C:839 qps.C:881 qps.C:887 qps.C:910 qps.C:946 qps.C:990
 msgid "Permission denied"
 msgstr "Oikeudet evätty"
 
-#: qps.C:698
+#: qps.C:703
 msgid "qps: change update period"
 msgstr "qps: muuta päivitysajanjaksoa"
 
-#: qps.C:699
+#: qps.C:704
 msgid "New update period:"
 msgstr "Uusi päivitysjakso:"
 
-#: qps.C:714 qps.C:853
+#: qps.C:719 qps.C:858
 msgid "Invalid input"
 msgstr "Virheellinen syöte"
 
-#: qps.C:715
+#: qps.C:720
 msgid ""
 "The time between updates should be a number, optionally followed\n"
 "by a unit (ms, s or min). If no unit is given, seconds is assumed."
@@ -306,7 +306,7 @@ msgstr ""
 "Aika päivitysten välillä pitää olla numero, voit myös antaa\n"
 "yksikön (ms, s tai min). Jos yksikköä ei anneta sekunti oletetaan."
 
-#: qps.C:829
+#: qps.C:834
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
@@ -318,15 +318,15 @@ msgstr ""
 "Vain prosessin omistaja tai pääkäyttäjä\n"
 "voi tehdä tämän."
 
-#: qps.C:843
+#: qps.C:848
 msgid "qps: renice process"
 msgstr "qps: renice prosessi"
 
-#: qps.C:844
+#: qps.C:849
 msgid "New nice value:"
 msgstr "Uusi nice arvo:"
 
-#: qps.C:854
+#: qps.C:859
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
@@ -334,7 +334,7 @@ msgstr ""
 "Nice arvon tulee olla\n"
 "välillä -20..20."
 
-#: qps.C:871
+#: qps.C:876
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
@@ -343,11 +343,11 @@ msgstr ""
 "Sinulla ei oile oikeuksia renice:tä prosessia %d (%s).\n"
 "Vain prosessin omistaja ja pääkäyttäjä voi tehdä tämän."
 
-#: qps.C:883
+#: qps.C:888
 msgid "Only the super-user may lower the nice value of a process."
 msgstr "Vain pääkäyttäjä voi laskea prosessin nice -arvoa"
 
-#: qps.C:906
+#: qps.C:911
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
@@ -355,7 +355,7 @@ msgstr ""
 "vain pääkäyttäjä voi vaihtaa\n"
 "skedulointitapaa ja staattista prioriteettia."
 
-#: qps.C:936
+#: qps.C:941
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
@@ -366,7 +366,7 @@ msgstr ""
 "skedulointia ja/tai prioriteettia prosessille %d (%s).\n"
 "Vain pääkäyttäjä voi tehdä tämän."
 
-#: qps.C:980
+#: qps.C:985
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"

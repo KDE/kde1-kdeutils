@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpm\n"
-"POT-Creation-Date: 1998-06-18 23:30+0200\n"
+"POT-Creation-Date: 1998-11-17 10:55+0100\n"
 "PO-Revision-Date: 1998-10-24 21:58 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -61,123 +61,123 @@ msgstr "Stavová li¹ta"
 msgid "Socket Info Window"
 msgstr "Okno informací o socketu"
 
-#: qps.C:84 qps.C:122
+#: qps.C:89 qps.C:127
 msgid "Renice..."
 msgstr "Zmìnit prioritu..."
 
-#: qps.C:87
+#: qps.C:92
 msgid "Change Scheduling..."
 msgstr "Zmìna plánování..."
 
-#: qps.C:91 qps.C:126
+#: qps.C:96 qps.C:131
 msgid "Socket Info"
 msgstr "Informace o socketu"
 
-#: qps.C:96
+#: qps.C:101
 msgid "Iconify"
 msgstr "Ikonifikovat"
 
-#: qps.C:104 qps.C:128
+#: qps.C:109 qps.C:133
 msgid "Terminate"
 msgstr "Ukonèit"
 
-#: qps.C:107 qps.C:129
+#: qps.C:112 qps.C:134
 msgid "Hangup"
 msgstr ""
 
-#: qps.C:110 qps.C:130
+#: qps.C:115 qps.C:135
 msgid "Interrupt"
 msgstr "Pøeru¹it"
 
-#: qps.C:113 qps.C:132
+#: qps.C:118 qps.C:137
 msgid "Kill"
 msgstr "Zabít"
 
-#: qps.C:116
+#: qps.C:121
 msgid "Other"
 msgstr "Jiné"
 
-#: qps.C:123
+#: qps.C:128
 msgid "Scheduling..."
 msgstr "Plánování..."
 
-#: qps.C:133
+#: qps.C:138
 msgid "Other signals"
 msgstr "Jiné signály"
 
-#: qps.C:141
+#: qps.C:146
 msgid "Remove field"
 msgstr "Odstranit pole..."
 
-#: qps.C:143
+#: qps.C:148
 msgid "Add field..."
 msgstr "Pøidat pole..."
 
-#: qps.C:147
+#: qps.C:152
 msgid "Help on field..."
 msgstr "Nápovìda k poli..."
 
-#: qps.C:152
+#: qps.C:157
 msgid "Refresh process list"
 msgstr "Obnovit seznam procesù"
 
-#: qps.C:155
+#: qps.C:160
 msgid "All Processes"
 msgstr "V¹echny procesy"
 
-#: qps.C:156
+#: qps.C:161
 msgid "Your Processes"
 msgstr "Va¹e procesy"
 
-#: qps.C:157
+#: qps.C:162
 msgid "Non-Root Processes"
 msgstr "Ne-rootovské procesy"
 
-#: qps.C:158
+#: qps.C:163
 msgid "Running Processes"
 msgstr "Bì¾ící procesy"
 
-#: qps.C:160
+#: qps.C:165
 msgid "User Fields"
 msgstr "U¾ivatelská pole"
 
-#: qps.C:161
+#: qps.C:166
 msgid "Jobs Fields"
 msgstr "Pole úkolù"
 
-#: qps.C:162
+#: qps.C:167
 msgid "Memory Fields"
 msgstr "Pamì»ová pole"
 
-#: qps.C:164
+#: qps.C:169
 msgid "Select Fields..."
 msgstr "Výbìr polí..."
 
-#: qps.C:170
+#: qps.C:175
 msgid "Update Period..."
 msgstr "Perioda obnovování..."
 
-#: qps.C:175
+#: qps.C:180
 msgid "Show command path"
 msgstr "Zobrazit cestu pøíkazu"
 
-#: qps.C:177
+#: qps.C:182
 msgid "Show ressource info"
 msgstr "Zobrazit informaci o prostøedcích"
 
-#: qps.C:179
+#: qps.C:184
 msgid "Show toolbar"
 msgstr "Zobrazovat li¹tu nástrojù"
 
-#: qps.C:183
+#: qps.C:188
 msgid "Preferences..."
 msgstr "Preference..."
 
-#: qps.C:186
+#: qps.C:191
 msgid "Save Settings Now"
 msgstr "Ulo¾it nastavení nyní"
 
-#: qps.C:190
+#: qps.C:195
 #, c-format
 msgid ""
 "kpm %sk%s - A Visual Process Manager (KDE Version)\n"
@@ -210,79 +210,79 @@ msgstr ""
 "Public License (GNU GPL). Pro podrobnosti nahlédnìte \n"
 "do souboru COPYING."
 
-#: qps.C:208
+#: qps.C:213
 msgid "&Window"
 msgstr "&Okno"
 
-#: qps.C:209
+#: qps.C:214
 msgid "&Process"
 msgstr "&Proces"
 
-#: qps.C:210
+#: qps.C:215
 msgid "&Signal"
 msgstr "&Signál"
 
-#: qps.C:306
+#: qps.C:311
 msgid "SIGQUIT (quit)"
 msgstr "IGQUIT (ukonèit)"
 
-#: qps.C:307
+#: qps.C:312
 msgid "SIGILL (illegal instruction)"
 msgstr "SIGILL (ilegální instrukce)"
 
-#: qps.C:308
+#: qps.C:313
 msgid "SIGABRT (abort)"
 msgstr "SIGABRT (pøeru¹it)"
 
-#: qps.C:309
+#: qps.C:314
 msgid "SIGFPE (floating point exception)"
 msgstr "SIGFPE (výjimka v øádové èárce)"
 
-#: qps.C:310
+#: qps.C:315
 msgid "SIGSEGV (segmentation violation)"
 msgstr "SIGSEGV (poru¹ení segmentace)"
 
-#: qps.C:311
+#: qps.C:316
 msgid "SIGPIPE (broken pipe)"
 msgstr "SIGPIPE (poka¾ená roura)"
 
-#: qps.C:312
+#: qps.C:317
 msgid "SIGALRM (timer signal)"
 msgstr "SIGALRM (signál èasovaèe)"
 
-#: qps.C:313
+#: qps.C:318
 msgid "SIGUSR1 (user-defined 1)"
 msgstr "SIGUSR1 (definované u¾ivatelem 1)"
 
-#: qps.C:314
+#: qps.C:319
 msgid "SIGUSR2 (user-defined 2)"
 msgstr "SIGUSR2 (definované u¾ivatelem 2)"
 
-#: qps.C:315
+#: qps.C:320
 msgid "SIGCHLD (child death)"
 msgstr "SIGCHLD (smrt potomka)"
 
-#: qps.C:316
+#: qps.C:321
 msgid "SIGCONT (continue)"
 msgstr "SIGCONT (pokraèovat)"
 
-#: qps.C:317
+#: qps.C:322
 msgid "SIGSTOP (stop)"
 msgstr "SIGSTOP (stop)"
 
-#: qps.C:318
+#: qps.C:323
 msgid "SIGTSTP (stop from tty)"
 msgstr "IGTSTP (stop z tty)"
 
-#: qps.C:319
+#: qps.C:324
 msgid "SIGTTIN (tty input)"
 msgstr "SIGTTIN (tty vstup)"
 
-#: qps.C:320
+#: qps.C:325
 msgid "SIGTTOU (tty output)"
 msgstr "SIGTTOU (tty výstup)"
 
-#: qps.C:620
+#: qps.C:625
 #, c-format
 msgid ""
 "You do not have permission to view the\n"
@@ -295,23 +295,23 @@ msgstr ""
 "Pouze vlastník procesu a superu¾ivatel\n"
 "mohou provést tuto operaci."
 
-#: qps.C:625 qps.C:834 qps.C:876 qps.C:882 qps.C:905 qps.C:941 qps.C:985
+#: qps.C:630 qps.C:839 qps.C:881 qps.C:887 qps.C:910 qps.C:946 qps.C:990
 msgid "Permission denied"
 msgstr "Zakázaný pøístup"
 
-#: qps.C:698
+#: qps.C:703
 msgid "qps: change update period"
 msgstr "qps: zmìna periody obnovování"
 
-#: qps.C:699
+#: qps.C:704
 msgid "New update period:"
 msgstr "Nová perioda obnovování:"
 
-#: qps.C:714 qps.C:853
+#: qps.C:719 qps.C:858
 msgid "Invalid input"
 msgstr "Neplatný vstup"
 
-#: qps.C:715
+#: qps.C:720
 msgid ""
 "The time between updates should be a number, optionally followed\n"
 "by a unit (ms, s or min). If no unit is given, seconds is assumed."
@@ -319,7 +319,7 @@ msgstr ""
 "Èas mezi obnovováními by mìl být èíslo, které je pøípadnì následováno \n"
 "jednotkou (ms, s nebo min). Není-li uvedeno, budou pou¾ity sekundy."
 
-#: qps.C:829
+#: qps.C:834
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
@@ -332,21 +332,21 @@ msgstr ""
 "Pouze vlastník procesu nebo superu¾ivatel\n"
 "mohou provést tuto operaci."
 
-#: qps.C:843
+#: qps.C:848
 msgid "qps: renice process"
 msgstr "qps: zmìna priority"
 
-#: qps.C:844
+#: qps.C:849
 msgid "New nice value:"
 msgstr "Nová hodnata priority:"
 
-#: qps.C:854
+#: qps.C:859
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
 msgstr "Hodnota by mìla být v rozsahu -20 a¾ 20."
 
-#: qps.C:871
+#: qps.C:876
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
@@ -355,11 +355,11 @@ msgstr ""
 "Nemáte pøístupová práva ke zmìnì priority procesu %d (%s).\n"
 "Pouze vlastník procesu nebo superu¾ivatel mohou provést tuto operaci."
 
-#: qps.C:883
+#: qps.C:888
 msgid "Only the super-user may lower the nice value of a process."
 msgstr "Pouze superu¾ivatel mù¾e sní¾it hodnotu priority procesu."
 
-#: qps.C:906
+#: qps.C:911
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
@@ -367,7 +367,7 @@ msgstr ""
 "Pouze superu¾ivatel mù¾e zmìnit\n"
 "zpùsob plánování a statickou prioritu."
 
-#: qps.C:936
+#: qps.C:941
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
@@ -378,7 +378,7 @@ msgstr ""
 "plánování nebo priority procesu %d (%s).\n"
 "Tuto operaci mù¾e provádìt pouze superu¾ivatel."
 
-#: qps.C:980
+#: qps.C:985
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"POT-Creation-Date: 1998-11-17 10:55+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: LinuxKorea Co. <kde@linuxkorea.co.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,9 +19,9 @@ msgstr ""
 msgid "About KDE Floppy Formatter"
 msgstr "KDE 플로피 포매터에 관하여"
 
-#: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368
-#: floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721
-#: floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
+#: about.cpp:49 floppy.cpp:295 floppy.cpp:342 floppy.cpp:358 floppy.cpp:374
+#: floppy.cpp:481 floppy.cpp:584 floppy.cpp:598 floppy.cpp:713 floppy.cpp:727
+#: floppy.cpp:774 floppy.cpp:783 floppy.cpp:890 floppy.cpp:911 floppy.cpp:935
 msgid "KFloppy"
 msgstr "KFloppy"
 
@@ -41,7 +41,7 @@ msgstr "용량:"
 msgid "File System:"
 msgstr "파일 시스템:"
 
-#: floppy.cpp:108 floppy.cpp:408
+#: floppy.cpp:108 floppy.cpp:414
 msgid "Format"
 msgstr "포맷"
 
@@ -67,11 +67,15 @@ msgstr "KDE 플로피"
 msgid "KDE Floppy Formatter"
 msgstr "KDE 플로피 포매터"
 
-#: floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267
+#: floppy.cpp:168 floppy.cpp:222 floppy.cpp:240 floppy.cpp:255 floppy.cpp:273
 msgid "HD"
 msgstr "HD"
 
-#: floppy.cpp:286
+#: floppy.cpp:169
+msgid "DD"
+msgstr ""
+
+#: floppy.cpp:292
 #, c-format
 msgid ""
 "Cannot access %s\n"
@@ -82,7 +86,7 @@ msgstr ""
 "장치가 존재하는지 그리고 장치에 쓰기\n"
 "허가권이 있는지 확인하십시오."
 
-#: floppy.cpp:333
+#: floppy.cpp:339
 msgid ""
 "Cannot find kfdformat\n"
 "kfdformat is part of the KFloppy distribution.\n"
@@ -92,7 +96,7 @@ msgstr ""
 "kfdformat는 KFloppy 배포판의 일부분입니다.\n"
 "KFloppy를 올바르게 설치하십시오."
 
-#: floppy.cpp:349
+#: floppy.cpp:355
 msgid ""
 "Cannot find kmke2fs\n"
 "kmke2fs is part of the KFloppy distribution.\n"
@@ -102,7 +106,7 @@ msgstr ""
 "kmke2fs는 KFloppy 배포판의 일부분입니다.\n"
 "KFloppy를 올바르게 설치하십시오."
 
-#: floppy.cpp:364
+#: floppy.cpp:370
 msgid ""
 "Cannot find kmkdosfs\n"
 "kmkdosfs is part of the KFloppy distribution.\n"
@@ -112,15 +116,15 @@ msgstr ""
 "kmkdosfs는 KFloppy 배포판의 일부분입니다.\n"
 "KFloppy를 올바르게 설치하십시오."
 
-#: floppy.cpp:424
+#: floppy.cpp:430
 msgid "Abort"
 msgstr "중지"
 
-#: floppy.cpp:472
+#: floppy.cpp:478
 msgid "Cannot start a new program: fork() failed."
 msgstr "새 프로그램을 시작할 수 없음: fork() 실패"
 
-#: floppy.cpp:572 floppy.cpp:700
+#: floppy.cpp:578 floppy.cpp:706
 msgid ""
 "Cannot access floppy or floppy drive\n"
 "Please insert a floppy and make sure that you\n"
@@ -130,7 +134,7 @@ msgstr ""
 "플로피를 넣으시고 올바르게 플로피 드라이브를\n"
 "지정했는지 확인하십시오\n"
 
-#: floppy.cpp:587
+#: floppy.cpp:593
 #, c-format
 msgid ""
 "Cannot format: %s\n"
@@ -139,12 +143,12 @@ msgstr ""
 "포맷할 수 없음: %s\n"
 "%s"
 
-#: floppy.cpp:634
+#: floppy.cpp:640
 #, c-format
 msgid "Block %d is bad. Continuing ..."
 msgstr "%d은 배드 블럭입니다. 계속 ..."
 
-#: floppy.cpp:717
+#: floppy.cpp:723
 #, c-format
 msgid ""
 "Cannot create a filesystem on: %s\n"
@@ -153,7 +157,7 @@ msgstr ""
 "파일시스템을 만들 수 없음: %s\n"
 "%s"
 
-#: floppy.cpp:753
+#: floppy.cpp:759
 #, c-format
 msgid ""
 "The floppy was sucessfully formatted.\n"
@@ -164,19 +168,19 @@ msgstr ""
 "배드 블럭: %d\n"
 "용     량: %d\n"
 
-#: floppy.cpp:774
+#: floppy.cpp:780
 msgid "All files were sucessfully erased."
 msgstr "모든 파일이 성공적으로 지워졌읍니다"
 
-#: floppy.cpp:832
+#: floppy.cpp:838
 msgid "Creating Filesystem ..."
 msgstr "파일 시스템 만들기..."
 
-#: floppy.cpp:836
+#: floppy.cpp:842
 msgid "Verifying ..."
 msgstr "확인..."
 
-#: floppy.cpp:881
+#: floppy.cpp:887
 msgid ""
 "Cannot start a new program\n"
 "fork() failed."
@@ -184,11 +188,11 @@ msgstr ""
 "새 프로그램을 시작할 수 없음\n"
 "fork() 실패"
 
-#: floppy.cpp:907
+#: floppy.cpp:913
 msgid "Error while trying to determine whether floppy is mounted\n"
 msgstr "플로피가 파일 시스템과 연결되었는가를 검사 시도하는 중 오류 발생\n"
 
-#: floppy.cpp:924
+#: floppy.cpp:930
 #, c-format
 msgid ""
 "%s is mounted.\n"
