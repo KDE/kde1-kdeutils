@@ -15,19 +15,19 @@ msgstr ""
 
 #: kedit.cpp:83 kedit.cpp:1019
 msgid "Show &Tool Bar"
-msgstr "Zapni &nástrojovú li¹tu"
+msgstr "Zapnú» &nástrojovú li¹tu"
 
 #: kedit.cpp:85 kedit.cpp:1012
 msgid "Hide &Tool Bar"
-msgstr "Vypni &nástrojovú li¹tu"
+msgstr "Vypnú» &nástrojovú li¹tu"
 
 #: kedit.cpp:88 kedit.cpp:999
 msgid "Show &Status Bar"
-msgstr "Zapni &stavový riadok"
+msgstr "Zapnú» &stavový riadok"
 
 #: kedit.cpp:90 kedit.cpp:992
 msgid "Hide &Status Bar"
-msgstr "Vypni &stavový riadok"
+msgstr "Vypnú» &stavový riadok"
 
 #: kedit.cpp:152
 msgid "Select All"
@@ -51,7 +51,7 @@ msgstr "Otvori» &URL..."
 
 #: kedit.cpp:206
 msgid "Save to U&RL..."
-msgstr "Ulo¾i» na U&RL..."
+msgstr "Ulo¾i» ku U&RL..."
 
 #: kedit.cpp:212
 msgid "&Mail..."
@@ -91,7 +91,7 @@ msgstr "&Choï na riadok..."
 
 #: kedit.cpp:247
 msgid "&Font"
-msgstr "&Znaková sada"
+msgstr "&Písmo"
 
 #: kedit.cpp:249
 msgid "Colors"
@@ -181,12 +181,12 @@ msgid ""
 "Continue anyways ?"
 msgstr ""
 "Súèasný dokument bol zmenený.\n"
-"Prajete si pokraèova»?"
+"Prajete si napriek tomu pokraèova»?"
 
 #: kedit.cpp:808
 #, c-format
 msgid "Wrote: %s"
-msgstr "%s zapísaný"
+msgstr "%s zapísaných"
 
 #: kedit.cpp:814
 msgid "No changes need to be saved"
@@ -212,7 +212,7 @@ msgstr "Automatické odsadzovanie: zapnuté"
 
 #: kedit.cpp:962
 msgid "Auto Indent Mode: Off"
-msgstr "Automatické odsadzovánie: vypnuté"
+msgstr "Automatické odsadzovanie: vypnuté"
 
 #: kedit.cpp:1058
 #, c-format
@@ -271,8 +271,8 @@ msgid ""
 "Please wait until has finished\n"
 "Alternatively stop the running one."
 msgstr ""
-"KEdit u¾ èaká na dokonèenie práce s Internetom\n"
-"Prosím èakajte na ukonèenie, prípadne ukonèite prebiehajúcu èinnos»."
+"KEdit u¾ èaká na dokonèenie úlohy na Internete\n"
+"Prosím poèkajte na ukonèenie, prípadne ukonèite prebiehajúcu èinnos»."
 
 #: kedit.cpp:1368 kedit.cpp:1463
 msgid "Could not start or find KFM"
@@ -298,7 +298,7 @@ msgstr "Volám KFM"
 
 #: kedit.cpp:1473
 msgid "Starting Job"
-msgstr "©tartujem èinnos»"
+msgstr "©tartujem úlohu"
 
 #: kedit.cpp:1476
 msgid "Connected"
@@ -336,7 +336,7 @@ msgstr ""
 
 #: print.cpp:66
 msgid "Print Dialog"
-msgstr "Tlaèový dialóg"
+msgstr "Dialóg tlaèe"
 
 #: print.cpp:70
 msgid "Print directly using lpr"
@@ -360,7 +360,7 @@ msgstr "Nastavi» ¹írku na:"
 
 #: filldlg.cpp:40
 msgid "Word Warp"
-msgstr "Lámanie slov"
+msgstr "Lámanie riadkov"
 
 #: filldlg.cpp:44
 msgid "Mail Command:"

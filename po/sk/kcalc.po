@@ -11,7 +11,7 @@ msgstr ""
 
 #: configdlg.cpp:56 kcalc.cpp:1591
 msgid "Defaults"
-msgstr "Základné"
+msgstr "Implicitné"
 
 #: configdlg.cpp:61
 msgid "Foreground Color:"
@@ -43,7 +43,7 @@ msgstr "©tatistický re¾im"
 
 #: fontdlg.cpp:44
 msgid "Set Default Font"
-msgstr "Nastav ¹tandardné písmo"
+msgstr "Nastavi» ¹tandardné písmo"
 
 #: fontdlg.cpp:63
 msgid "Point Size:"

@@ -15,11 +15,11 @@ msgstr ""
 
 #: adddlg.cc:11
 msgid "Add File Options"
-msgstr "Parametre pre pridanie súboru"
+msgstr "Voµby pre pridanie súboru"
 
 #: adddlg.cc:22
 msgid "Store Full Path"
-msgstr "Ulo¾i» s celou cestou"
+msgstr "Ulo¾i» s úplnou cestou"
 
 #: adddlg.cc:25
 msgid "Only Add Newer Files"
@@ -27,7 +27,7 @@ msgstr "Pridáva» len nov¹ie súbory"
 
 #: extractdlg.cc:13
 msgid "Extract Options"
-msgstr "Parametre rozbaµovania"
+msgstr "Voµby rozbaµovania"
 
 #: extractdlg.cc:17
 msgid "Destination"
@@ -71,7 +71,7 @@ msgstr "Nastavi» &Tar..."
 
 #: kzip.cc:82
 msgid "&File Adding Options..."
-msgstr "Parametre pridania &súboru ..."
+msgstr "Voµby pridania &súboru ..."
 
 #: kzip.cc:128
 msgid "Welcome to KZip..."
@@ -113,5 +113,3 @@ msgstr "Prieèinok archívu neexistuje."
 msgid "Archive Directory"
 msgstr "Prieèinok archívu"
 
-#~ msgid "Files"
-#~ msgstr "Súbory"

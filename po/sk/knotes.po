@@ -168,7 +168,7 @@ msgstr "Vlo¾i» dátum"
 
 #: knotes.cpp:366
 msgid "Operations"
-msgstr "Operácia"
+msgstr "Operácie"
 
 #: knotes.cpp:404 knotes.cpp:1278
 msgid "No Frame"
@@ -249,8 +249,8 @@ msgid ""
 "Alternatively stop the running one."
 msgstr ""
 "KNotes práve èaká na dokonèenie\n"
-"práce s Internetom. Èakajte prosím\n"
-"na dokonèenie alebo ju zastavte."
+"úlohy na Internete. Poèkajte prosím\n"
+"na jej dokonèenie alebo ju zastavte."
 
 #: knotes.cpp:1544
 msgid "Could not start or find KFM"
@@ -322,8 +322,6 @@ msgid ""
 "A KNotes note with this name already exists\n"
 "Please choose a different name"
 msgstr ""
-"KNotes poznámka s týmto menom u¾ existuje.\n"
+"Poznámka v KNotes s týmto menom u¾ existuje.\n"
 "Zvoµte si prosím iné meno"
 
-#~ msgid "Hide Note"
-#~ msgstr "Schova» poznámku"

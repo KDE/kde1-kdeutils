@@ -24,7 +24,7 @@ msgstr "Ulo¾i» &ako ..."
 
 #: hexwidget.cpp:91
 msgid "&Toggle Toolbar"
-msgstr "Nás&tojovú li¹tu zapnú»/vypnú»"
+msgstr "Zapnú»/vypnú» nás&tojovú li¹tu"
 
 #: hexwidget.cpp:94
 msgid "Hex Editor"
@@ -77,9 +77,9 @@ msgid ""
 "or stop the running one."
 msgstr ""
 "KHexdit u¾ èaká\n"
-"na ukonèenie práce s Internetom\n"
+"na ukonèenie úlohy na Internete\n"
 "\n"
-"Èakajte, pokiaµ táto èinnos»\n"
+"Poèkajte, pokiaµ táto èinnos»\n"
 "nebude ukonèená alebo ju zru¹te."
 
 #: hexwidget.cpp:276

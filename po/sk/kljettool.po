@@ -1,10 +1,15 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-06-16 14:24+0200\n"
-"Content-Type: text/plain; charset=\n"
 "Date: 1998-03-06 22:44:34-0500\n"
 "From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
 "<root@petit.cornell.edu>\n"
+"PO-Revision-Date: 1998-05-19 20:21 MET\n"
+"Last-Translator: Peter Iványi <ivanyi@internet.sk>\n"
+"Language-Team: Slovak <bednar@isternet.sk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
 "Files: Data.cpp Fonts.cpp FontsData.cpp Misc.cpp MiscData.cpp Paper.cpp "
 "PaperData.cpp Printer.cpp PrinterData.cpp about.cpp main.cpp\n"
@@ -24,7 +29,7 @@ msgstr "Jazyk"
 
 #: FontsData.cpp:57
 msgid "Symbol Set"
-msgstr "Symb. sada"
+msgstr "Znak. sada"
 
 #: FontsData.cpp:125
 msgid "Pitch"
@@ -40,7 +45,7 @@ msgstr "bodov"
 
 #: MiscData.cpp:43
 msgid "End of Line Mode"
-msgstr "Koniec riadku"
+msgstr "Re¾im Koniec riadku"
 
 #: MiscData.cpp:65
 msgid "PageProtect"
@@ -109,6 +114,3 @@ msgstr "Papier"
 #: main.cpp:71
 msgid "Operations"
 msgstr "Operácie"
-
-#~ msgid "Fonts"
-#~ msgstr "Fonty"

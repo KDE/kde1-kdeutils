@@ -39,7 +39,7 @@ msgstr ""
 
 #: karm.cpp:119
 msgid "Oh No!"
-msgstr "Oh Nie!"
+msgstr "Och, Nie!"
 
 #: karm.cpp:205
 msgid ": Add New Task"
@@ -129,8 +129,3 @@ msgstr ""
 msgid "clock active"
 msgstr "hodinky aktívne"
 
-#~ msgid "&Start"
-#~ msgstr "©t&art"
-
-#~ msgid "&Contents"
-#~ msgstr "&Obsah"
