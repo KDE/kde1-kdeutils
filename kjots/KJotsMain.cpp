@@ -2,7 +2,7 @@
 //  kjots
 //
 //  Copyright (C) 1997 Christoph Neerfeld
-//  email:  Christoph.Neerfeld@home.ivm.de chris@kde.org
+//  email:  Christoph.Neerfeld@home.ivm.de or chris@kde.org
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -42,8 +42,9 @@
 #include <kmenubar.h>
 #include <ktoolbar.h>
 #include <kiconloader.h>
-#include <kstdaccel.h>
+#include <kaccel.h>
 #include <kfiledialog.h>
+#include <kkeydialog.h>
 
 extern "C" {
 #include <unistd.h>
@@ -62,7 +63,6 @@ extern QString exec_http;
 extern QString exec_ftp;
 
 extern KIconLoader *global_pix_loader;
-extern KStdAccel *keys;
 
 //----------------------------------------------------------------------
 // ASKFILENAME
@@ -330,21 +330,21 @@ KJotsMain::KJotsMain(const char* name)
 
   // create menu
   QPopupMenu *file = new QPopupMenu;
-  file->insertItem(klocale->translate("&New Book"), this, SLOT(createFolder()), keys->openNew() );
+  file->insertItem(klocale->translate("&New Book"));
   file->insertSeparator();
-  file->insertItem(klocale->translate("Save current book"), this,
-		   SLOT(saveFolder()), keys->save() );
+  file->insertItem(klocale->translate("Save current book"));
   file->insertItem(klocale->translate("Save book to ascii file"), this, SLOT(writeBook()) );
   file->insertItem(klocale->translate("Save page to ascii file"), this, SLOT(writePage()) );
   file->insertSeparator();
   file->insertItem(klocale->translate("Delete current book"), this, SLOT(deleteFolder()) );
   file->insertSeparator();
-  file->insertItem(klocale->translate("&Quit"), qApp, SLOT(quit()), keys->quit() );
+  file->insertItem(klocale->translate("&Quit"));
 
   QPopupMenu *edit_menu = new QPopupMenu;
-  edit_menu->insertItem(klocale->translate("C&ut"),   me_text, SLOT(cut()),      keys->cut() );
-  edit_menu->insertItem(klocale->translate("&Copy"),  me_text, SLOT(copyText()), keys->copy() );
-  edit_menu->insertItem(klocale->translate("&Paste"), me_text, SLOT(paste()),    keys->paste() );
+
+  edit_menu->insertItem(klocale->translate("C&ut"));
+  edit_menu->insertItem(klocale->translate("&Copy"));
+  edit_menu->insertItem(klocale->translate("&Paste"));
   edit_menu->insertSeparator();
   edit_menu->insertItem(klocale->translate("&New Page"), this, SLOT(newEntry()) );
   edit_menu->insertItem(klocale->translate("&Delete Page"), this, SLOT(deleteEntry()) );
@@ -365,7 +365,7 @@ KJotsMain::KJotsMain(const char* name)
   menubar->insertItem( klocale->translate("&Options"), options );
   menubar->insertItem( klocale->translate("&Books"), folders );
   menubar->insertSeparator();
-  QString about = "KJots 0.3.0\n\r(C) ";
+  QString about = "KJots 0.3.1\n\r(C) ";
   about += (QString) klocale->translate("by") +
     " Christoph Neerfeld\n\rChristoph.Neerfeld@home.ivm.de";
   menubar->insertItem( klocale->translate("&Help"),
@@ -379,19 +379,35 @@ KJotsMain::KJotsMain(const char* name)
   // CTRL+Key_L := show subject list
   // CTRL+Key_A := add new page
   // CTRL+Key_M := move focus
-  keys->addKey("PreviousPage", CTRL+Key_J);
-  keys->addKey("NextPage", CTRL+Key_K);
-  keys->addKey("ShowSubjectList", CTRL+Key_L);
-  keys->addKey("AddNewPage", CTRL+Key_A);
-  keys->addKey("MoveFocus", CTRL+Key_M);
-  keys->addKey("CopySelection", CTRL+Key_Y);
-  keys->registerWidget("me_text", this);
-  keys->connectFunction( "me_text", "PreviousPage", this, SLOT(prevEntry()) );
-  keys->connectFunction( "me_text", "NextPage", this, SLOT(nextEntry()) );
-  keys->connectFunction( "me_text", "ShowSubjectList", this, SLOT(toggleSubjList()) );
-  keys->connectFunction( "me_text", "AddNewPage", this, SLOT(newEntry()) );
-  keys->connectFunction( "me_text", "MoveFocus", this, SLOT(moveFocus()) );
-  keys->connectFunction( "me_text", "CopySelection", this, SLOT(copySelection()) );
+
+  keys = new KAccel( this ); 
+  keys->insertStdItem( KAccel::Open ); 
+  keys->insertStdItem( KAccel::Save ); 
+  keys->insertStdItem( KAccel::Quit ); 
+  keys->insertStdItem( KAccel::Cut ); 
+  keys->insertStdItem( KAccel::Copy ); 
+  keys->insertStdItem( KAccel::Paste ); 
+
+  keys->connectItem( keys->stdAction( KAccel::Open ), this, SLOT(createFolder()) );
+  keys->connectItem( keys->stdAction( KAccel::Save ), this, SLOT(saveFolder()) );
+  keys->connectItem( keys->stdAction( KAccel::Quit ), qApp, SLOT(quit()) );
+  keys->connectItem( keys->stdAction( KAccel::Cut ), me_text, SLOT(cut()) );
+  keys->connectItem( keys->stdAction( KAccel::Copy ), me_text, SLOT(copyText()) );
+  keys->connectItem( keys->stdAction( KAccel::Paste ), me_text, SLOT(paste()) );
+
+  keys->insertItem(i18n("PreviousPage"),    "PreviousPage",    CTRL+Key_J);
+  keys->insertItem(i18n("NextPage"),        "NextPage",        CTRL+Key_K);
+  keys->insertItem(i18n("ShowSubjectList"), "ShowSubjectList", CTRL+Key_L);
+  keys->insertItem(i18n("AddNewPage"),      "AddNewPage",      CTRL+Key_A);
+  keys->insertItem(i18n("MoveFocus"),       "MoveFocus",       CTRL+Key_M);
+  keys->insertItem(i18n("CopySelection"),   "CopySelection",   CTRL+Key_Y);
+  keys->connectItem( "PreviousPage", this, SLOT(prevEntry()) );
+  keys->connectItem( "NextPage", this, SLOT(nextEntry()) );
+  keys->connectItem( "ShowSubjectList", this, SLOT(toggleSubjList()) );
+  keys->connectItem( "AddNewPage", this, SLOT(newEntry()) );
+  keys->connectItem( "MoveFocus", this, SLOT(moveFocus()) );
+  keys->connectItem( "CopySelection", this, SLOT(copySelection()) );
+  keys->readSettings();
 
   config->setGroup("kjots");
   // create toolbar
@@ -954,7 +970,11 @@ void KJotsMain::moveFocus( )
 
 void KJotsMain::configureKeys( )
 {
-  keys->configureKeys(this);
+  //keys->configureKeys(this);
+  if( KKeyDialog::configureKeys( keys ) ) 
+    {
+      keys->writeSettings();
+    }
 }
 
 void KJotsMain::copySelection( )

@@ -40,7 +40,7 @@
 
 class KJotsMain;
 class KToolBar;
-class KStdAccel;
+class KAccel;
 class SubjList;
 class CPopupMenu;
 class ConfDialog;
@@ -150,6 +150,7 @@ protected:
   QGridLayout   *bg_top_layout;
   QGridLayout   *labels_layout;
   QGridLayout   *f_text_layout;
+  KAccel        *keys;
 
   QList<TextEntry> entrylist;
   int              current;

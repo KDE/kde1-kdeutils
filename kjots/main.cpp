@@ -32,13 +32,11 @@
 #include <kapp.h>
 #include <drag.h>
 #include <kiconloader.h>
-#include <kstdaccel.h>
 
 #include "KJotsMain.h"
 
 KJotsMain *main_widget;
 KIconLoader *global_pix_loader;
-KStdAccel *keys;
 
 QString exec_http;
 QString exec_ftp;
@@ -50,7 +48,6 @@ QString exec_ftp;
 void testDir( const char *_name )
 {
   DIR *dp;
-  //QString c = getenv( "HOME" );
   QString c = KApplication::localkdedir();
   c += _name;
   dp = opendir( c.data() );
@@ -66,30 +63,15 @@ int main( int argc, char **argv )
 
   KApplication a( argc, argv, "kjots" );
 
+  // Torben
   testDir( "" );
   testDir( "/share" );  
   testDir( "/share/config" );  
   testDir( "/share/apps" );
   testDir( "/share/apps/kjots" );
 
-  // Torben
-  /* QString name = QDir::homeDirPath();
-  name += "/.kjots";
-  QFileInfo fi(name);
-  if( !(fi.exists() && fi.isDir()) )
-    {
-      QDir dir = QDir::home();
-      if( !dir.mkdir(".kjots") )
-	{
-	  debug("Kjots: can't create folder directory '.kjots' !");
-	  debug("Kjots: giving up.");
-	  KApplication::exit(1);
-	}
-    } */
-
   QString temp1, temp2;
   KConfig *config = a.getConfig();
-  keys = new KStdAccel(config);
   config->setGroup("kjots");
   if( !config->hasKey("execHttp") )
     config->writeEntry("execHttp", "kfmclient openURL %u");
