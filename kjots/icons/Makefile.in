@@ -1,8 +1,10 @@
+prefix = @prefix@
+
 INSTALL_DATA = @INSTALL@ -m 0644
 INSTALL_DIR = @INSTALL@ -d -m 0755
 PICS = OpenBook.xpm filedel.xpm
-ICONDIR=@prefix@/share/icons
-DESTDIR = @prefix@/share/apps/kjots/toolbar
+ICONDIR= $(prefix)/share/icons
+DESTDIR = $(prefix)/share/apps/kjots/toolbar
 
 all:
  
