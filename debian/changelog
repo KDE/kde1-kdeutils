@@ -1,4 +1,10 @@
-kdeutils (2:980312-5) unstable; urgency=low
+kdeutils (2:980312-6) frozen; urgency=low
+
+  * new frozen compile with latest fixed kdelibs. This time from CVS
+
+ -- Stephan Kulow <coolo@kde.org>  Fri,  3 Apr 1998 15:10:54 +0200
+
+kdeutils (2:980312-5) frozen; urgency=low
 
   * don't compile kcalc with long double
 

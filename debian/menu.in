@@ -5,5 +5,5 @@ karm x11 Apps/Tools
 kjots x11 Apps/Tools
 knotes x11 Apps/Tools
 kzip x11 Apps/Tools
-kfloppy x11 SECTION
-kljettool x11 SECTION
+kfloppy x11 Apps/Tools
+kljettool x11 Apps/Tools
