@@ -14,7 +14,7 @@ extern "C" {
 
 #define SYSTEM_MESSAGES "kde"
 
-KLocale::KLocale( const char *_catalogue )
+KLocale::KLocale( const char *_catalogue ) 
 {
     char *buffer;
 
@@ -70,4 +70,14 @@ const char *KLocale::translate(const char *index, const char *d_text)
     }
     return text;
     
+}
+
+void KLocale::alias(long index, const char* text)
+{
+    aliases.insert(index, translate(text));
+}
+
+char *KLocale::operator[] ( long key) const
+{
+    return aliases[key];
 }

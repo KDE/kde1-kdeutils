@@ -101,7 +101,7 @@ int HexWidget::initMenu() {
   resize(640,380);
   show();
   return 0;
-};
+}
 
 void HexWidget::menuCallback(int item) {
   switch (item) {
@@ -119,7 +119,7 @@ void HexWidget::menuCallback(int item) {
 
     open((const char*)fileName, READWRITE);
     break;
-  };
+  }
   case ID_FILE_SAVE:
     if (CurrentFile->isModified())
       CurrentFile->save();
@@ -131,7 +131,7 @@ void HexWidget::menuCallback(int item) {
     CurrentFile->setFileName(fileName.data());
     CurrentFile->save();
     break;
-  };
+  }
   case ID_FILE_CLOSE: {
     if (CurrentFile->isModified()) {
       if (!QMessageBox::query(trans.translate("File changed"),
@@ -139,18 +139,18 @@ void HexWidget::menuCallback(int item) {
 			      trans.translate("Yes"),
 			      trans.translate("No"))) 
 	return;
-    };
+    }
     windowList.remove(this);
     if (windowList.isEmpty())
       kapp->quit();
     else
       delete this;
     break;
-  };
+  }
   case ID_FILE_QUIT: {
     kapp->quit();
     break;
-  };
+  }
 
   case ID_VIEW_TOOLBAR: 
     enableToolBar();
@@ -163,19 +163,18 @@ void HexWidget::menuCallback(int item) {
   case ID_HELP_HELP: {
     kapp->invokeHTMLHelp( "khexdit/khexdit.html", "" );
     break;
-  };
+  }
 
   case ID_HELP_ABOUT: {
      QString str;
      str.sprintf( "Hex Editor 0.4 \n\nby Stephan Kulow  (coolo@itm.mu-luebeck.de)");
      KMsgBox::message( 0, trans.translate("About Hex Editor"), 
 		       (const char *)str,
-		       KMsgBox::INFORMATION, "Close" );
-     //     QMessageBox::message("About Hex Editor", str, "OK"); 
+		       KMsgBox::INFORMATION, trans.translate("Close") );
      break;
-  };
-  };
-};
+  }
+  }
+}
 
 void HexWidget::open(const char* fileName, KIND_OF_OPEN kind) {
   if (kind);
@@ -192,7 +191,7 @@ void HexWidget::open(const char* fileName, KIND_OF_OPEN kind) {
     update();
   }
   return;
-};
+}
 
 void HexWidget::openURL(const char *_url, KIND_OF_OPEN _mode) {
   /* This code is from KEDIT (torben's I guess) */
@@ -214,15 +213,19 @@ void HexWidget::openURL(const char *_url, KIND_OF_OPEN _mode) {
   
   if ( kfm != 0L )
     {
-      QMessageBox::message ("Error", "KHexdit is already waiting\n\rfor an internet job to finish\n\rWait until this one is finished\n\ror stop the running one.", "Ok");
-      return;
+	QMessageBox::message (trans.translate("Error"), 
+			      trans.translate("KHexdit is already waiting\n\rfor an internet job to finish\n\rWait until this one is finished\n\ror stop the running one."),
+			      trans.translate("Ok"));
+	return;
     }
   
   kfm = new KFM;
 
   if ( !kfm->isOK() )
     {
-      QMessageBox::message ("Error", "Could not start KFM", "Ok");
+      QMessageBox::message (trans.translate("Error"), 
+			    trans.translate("Could not start KFM"), 
+			    trans.translate("Ok"));
       delete kfm;
       kfm = 0L;
       return;

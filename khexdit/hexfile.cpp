@@ -18,13 +18,13 @@ HexFile::HexFile(const char *filename,QWidget *parent, const char* name) :
 {
   init();
   open(filename);
-};
+}
 
 HexFile::HexFile(QWidget *parent)  : QWidget(parent,"Nothing") {
   init();
   filename=new char[20];
   strcpy(filename,trans.translate("Untitled"));
-};
+}
 
 void HexFile::init() {
   UseBig = FALSE;
@@ -43,7 +43,7 @@ void HexFile::init() {
     char t = (UseBig) ? lineB[i] : lineL[i];
     if (maxWidth < metrics->width(t))
       maxWidth = metrics->width(t);
-  };
+  }
   hexdata.resize(0);
   LineOffset=maxWidth*49+10;
   curx = cury = horoff=lineoffset=0;
@@ -56,11 +56,11 @@ void HexFile::init() {
   scrollH=new QScrollBar(QScrollBar::Horizontal,this);
   scrollH->show();
   show();
-};
+}
 
 const char* HexFile::Title() {
   return filename;
-};
+}
 
 int HexFile::save() {
   QFile file(filename);
@@ -69,13 +69,13 @@ int HexFile::save() {
   file.close();
   modified = FALSE;
   return 0;
-};
+}
 
 void HexFile::setFileName(const char *Filename) {
   delete filename;
   filename=new char[strlen(Filename)+1];
   strcpy(this->filename,Filename);
-};
+}
 
 bool HexFile::open(const char *Filename) {
   QString fileString(Filename);
@@ -83,9 +83,10 @@ bool HexFile::open(const char *Filename) {
   if (!file.open(IO_ReadOnly | IO_Raw)) {
     QString txt;
     txt.sprintf(trans.translate("Error opening %s"),fileString.data());
-    QMessageBox::message(trans.translate("Error"),txt,"Close");
+    QMessageBox::message(trans.translate("Error"),txt,
+			 trans.translate("Close"));
     return false;
-  };
+  }
   delete filename;
   filename=new char[strlen(Filename)+1];
   strcpy(this->filename,Filename);
@@ -98,47 +99,47 @@ bool HexFile::open(const char *Filename) {
   repaint(FALSE);
   modified = FALSE;
   return true;
-};
+}
 
 void HexFile::calcScrolls() {
   scrollV->setRange(0,maxLine());
   scrollV->setSteps(1,lines());
   scrollV->setValue(lineoffset/16);
-};
+}
 
 int HexFile::maxLine() {
   int ml=(hexdata.size() / 16) - rows + 3;
   return ((ml < 0) ? 0 : ml);
-};
+}
 
 int HexFile::lines() {
   return rows;
-};
+}
 
 void HexFile::scrolled(int line) {
   lineoffset=line*16;
   if (!pixmap->isNull()) {
     fillPixmap();
     repaint(FALSE);
-  };
-};
+  }
+}
 
 void HexFile::moved(int value) {
   horoff=value;
   repaint(FALSE);
-};
+}
 
 int HexFile::NormWidth() {
   return maxWidth*65+25;
-};
+}
   
 int HexFile::HorOffset() {
   return horoff;
-};
+}
 
 const char *HexFile::FileName() {
   return filename;
-};
+}
 
 int hexvalue(int key) {
   if (key>='a' && key<='f')
@@ -146,7 +147,7 @@ int hexvalue(int key) {
   if (key>='A' && key<='F')
     return key-'A'+10;
   return key-'0'; 
-};
+}
 
 void HexFile::keyPressEvent (QKeyEvent* e) {
   int ox=curx;
@@ -171,14 +172,14 @@ void HexFile::keyPressEvent (QKeyEvent* e) {
       if (relcur==2) {
 	relcur = 0;
 	curx++;
-      };
+      }
     } else
       relcur = 0;
   } else if (key && e->key()<0x100) {
     hexdata[cury*16+curx+lineoffset] = key;
     modified = changed = true;
     curx++;
-  };
+  }
   key = e->key();
   switch (key) {
   case Key_Right:
@@ -204,56 +205,56 @@ void HexFile::keyPressEvent (QKeyEvent* e) {
     changeSide();
     changed=TRUE;
     break;
-  };
+  }
   if (curx<0) {
     if (lineoffset+cury>0) {
       curx=15;
       cury--;
     } else 
       curx=0;
-  };
+  }
   if (curx>15) {
     curx=0;
     cury++;
-  };
+  }
   if (cury<0) {
     cury=0;
     if (lineoffset>=16) {
       lineoffset-=16;
-    };
-  };
+    }
+  }
   if (cury>=rows) {
     cury=rows-1;
     if (lineoffset/16<maxLine()) {
       lineoffset +=16;
-    };
-  };
+    }
+  }
   
   if ((unsigned)(curx + lineoffset + cury *16) >= hexdata.size()) {
     curx = ox;
     cury = oy;
     lineoffset = ol;
     relcur = or;
-  };
+  }
   if (lineoffset != ol) {
     scrolled(lineoffset/16);
     return;
-  };
+  }
   if (curx != ox || cury != oy || changed || or!=relcur) {
     fillPixmap();
     repaint(FALSE);
     return;
-  };
+  }
   
   e->ignore();
-};
+}
 
 void HexFile::changeSide() {
   sideEdit = (Side)(LEFT + RIGHT - sideEdit);
   QBrush *tmp=rightM;
   rightM = leftM;
   leftM = tmp;
-};
+}
 
 void HexFile::mousePressEvent (QMouseEvent *e) {
   int neux ,neuy, mx ,cx;
@@ -266,7 +267,7 @@ void HexFile::mousePressEvent (QMouseEvent *e) {
     while ( (mx - cx)>4*maxWidth && neux<14) {
       neux += 2;
       cx += 5*maxWidth;
-    };
+    }
     if (mx - cx > 2*maxWidth)
       neux++;
     if (sideEdit != LEFT)
@@ -280,29 +281,29 @@ void HexFile::mousePressEvent (QMouseEvent *e) {
 	r='.';
       cx += metrics->width(r);
       neux++;
-    };
+    }
     if (neux)
       neux--;
     if (sideEdit != RIGHT)
       changeSide();
-  };
+  }
   cury = neuy;
   curx = neux;
   fillPixmap();
   repaint(FALSE);
-};
+}
 
 void HexFile::mouseReleaseEvent (QMouseEvent*) {
   /* TODO: for copy and paste */
-};
+}
 
 void HexFile::focusInEvent ( QFocusEvent *) {
   repaint(FALSE);
-};
+}
 
 void HexFile::focusOutEvent ( QFocusEvent *) {
   repaint(FALSE);
-};
+}
 
 void HexFile::fillPixmap() {
   if (!pixmap || pixmap->isNull())
@@ -329,7 +330,7 @@ void HexFile::fillPixmap() {
     for (int i=0;i<9;i++) {
       txt[0]=offset[i];
       p.drawText(5+i*maxWidth,y*metrics->height(),txt);
-    };
+    }
 
     w=5+9*maxWidth;
     for (x = 0; x < 8; x++) {
@@ -356,7 +357,7 @@ void HexFile::fillPixmap() {
 	txt[0]=number[i];
 	txt[1]=0;
 	p.drawText(w+i*maxWidth,y*metrics->height(),txt);
-      };
+      }
       
       if ((cury == y-1)  && (curx/2 == x)) {
 	int offw=0;
@@ -375,7 +376,7 @@ void HexFile::fillPixmap() {
 	  hilight[0] = number[ (curx % 2)*2 ];
 	  hilight[1] = number[ (curx % 2)*2 + 1 ];
 	  hilight[2] = 0;
-	};
+	}
 	
 	p.fillRect(w+offw,y*metrics->height()-metrics->ascent()+
 		   metrics->underlinePos(),
@@ -384,7 +385,7 @@ void HexFile::fillPixmap() {
 		   *leftM);
 	p.drawText(w+offw,y*metrics->height(),hilight);
 
-      };
+      }
      
 
       w+=5*maxWidth;
@@ -396,7 +397,7 @@ void HexFile::fillPixmap() {
 	buffer[2*x+1]=r2;
       else 
 	buffer[2*x+1]='.';
-    };
+    }
     if (x) {
       buffer[16]=0;
        if (cury == y-1) {
@@ -407,15 +408,15 @@ void HexFile::fillPixmap() {
 		    maxWidth,
 		    metrics->ascent(),
 		    *rightM);
-       };
+       }
        p.setPen(QColor(0x20,0x20,0x80));
        p.drawText(LineOffset+10,y*metrics->height(),buffer);
     
     } else break;
-  };
+  }
   p.drawLine(LineOffset,0,LineOffset,height());
   p.end();
-};
+}
 
 void HexFile::paintEvent(QPaintEvent *p) {
   if (pixmap && !pixmap->isNull() && pixmap->rect().intersects(p->rect()))
@@ -423,7 +424,7 @@ void HexFile::paintEvent(QPaintEvent *p) {
 	   pixmap, p->rect().left()+horoff,p->rect().top(),
 	   p->rect().width(),p->rect().height(),
 	   CopyROP);
-};
+}
 
 void HexFile::resizeEvent(QResizeEvent *) {
   int scrollVWidth,scrollHHeight;
@@ -458,7 +459,7 @@ void HexFile::resizeEvent(QResizeEvent *) {
   fillPixmap();
   if (width()>pixmap->width()+scrollHHeight)
     horoff=0;
-};
+}
 
 
 
