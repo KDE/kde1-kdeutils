@@ -35,7 +35,10 @@ msgid ""
 "\n"
 "\n"
 "by Stephan Kulow"
-msgstr "\n\npar Stephan Kulow"
+msgstr ""
+"\n"
+"\n"
+"par Stephan Kulow"
 
 #: hexwidget.cpp:115
 msgid "New Window"
