@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-12-29 01:52+0100\n"
+"POT-Creation-Date: 1999-01-04 01:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Andrea Rizzi <rizzi@kde.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,63 +13,63 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: highlight.cpp:1686
+#: highlight.cpp:1715
 msgid "Normal:"
 msgstr "Normale:"
 
-#: highlight.cpp:1696 kwdialog.cpp:416
+#: highlight.cpp:1725 kwdialog.cpp:416
 msgid "Selected:"
 msgstr "Selezionato:"
 
-#: highlight.cpp:1703
+#: highlight.cpp:1732
 msgid "Bold"
 msgstr "Grassetto"
 
-#: highlight.cpp:1754
+#: highlight.cpp:1783
 msgid "Family:"
 msgstr "Famiglia:"
 
-#: highlight.cpp:1764
+#: highlight.cpp:1793
 msgid "Size:"
 msgstr "Dimensione:"
 
-#: highlight.cpp:1862
+#: highlight.cpp:1891
 msgid "Default Item Styles"
 msgstr "Stile oggetti predefinito"
 
-#: highlight.cpp:1866 highlight.cpp:1937
+#: highlight.cpp:1895 highlight.cpp:1966
 msgid "Item:"
 msgstr "Oggetto:"
 
-#: highlight.cpp:1884
+#: highlight.cpp:1913
 msgid "Default Font"
 msgstr "Carattere predefinito"
 
-#: highlight.cpp:1921
+#: highlight.cpp:1950
 msgid "Config Select"
 msgstr ""
 
-#: highlight.cpp:1925
+#: highlight.cpp:1954
 msgid "Highlight:"
 msgstr ""
 
-#: highlight.cpp:1944
+#: highlight.cpp:1973
 msgid "Highlight Auto Select"
 msgstr "Auto selezione Highlight"
 
-#: highlight.cpp:1948
+#: highlight.cpp:1977
 msgid "File Extensions:"
 msgstr "Estensione File:"
 
-#: highlight.cpp:1955
+#: highlight.cpp:1984
 msgid "Mime Types:"
 msgstr "Tipo Mime:"
 
-#: highlight.cpp:1962
+#: highlight.cpp:1991
 msgid "Item Style"
 msgstr "Sile Oggetto"
 
-#: highlight.cpp:1971
+#: highlight.cpp:2000
 msgid "Item Font"
 msgstr "Carattere Oggetto"
 

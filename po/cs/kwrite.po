@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
-"POT-Creation-Date: 1998-12-29 01:52+0100\n"
+"POT-Creation-Date: 1999-01-04 01:59+0100\n"
 "PO-Revision-Date: 1998-12-26 17:44 CET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <flidr@kky.zcu.cz>\n"
@@ -9,63 +9,63 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: highlight.cpp:1686
+#: highlight.cpp:1715
 msgid "Normal:"
 msgstr "Normální:"
 
-#: highlight.cpp:1696 kwdialog.cpp:416
+#: highlight.cpp:1725 kwdialog.cpp:416
 msgid "Selected:"
 msgstr "Oznaèené:"
 
-#: highlight.cpp:1703
+#: highlight.cpp:1732
 msgid "Bold"
 msgstr "Tuèné"
 
-#: highlight.cpp:1754
+#: highlight.cpp:1783
 msgid "Family:"
 msgstr "Rodina:"
 
-#: highlight.cpp:1764
+#: highlight.cpp:1793
 msgid "Size:"
 msgstr "Velikost:"
 
-#: highlight.cpp:1862
+#: highlight.cpp:1891
 msgid "Default Item Styles"
 msgstr "Implicitní styly prvkù"
 
-#: highlight.cpp:1866 highlight.cpp:1937
+#: highlight.cpp:1895 highlight.cpp:1966
 msgid "Item:"
 msgstr "Prvek:"
 
-#: highlight.cpp:1884
+#: highlight.cpp:1913
 msgid "Default Font"
 msgstr "Implicitní písmo"
 
-#: highlight.cpp:1921
+#: highlight.cpp:1950
 msgid "Config Select"
 msgstr "Výbìr nastavení"
 
-#: highlight.cpp:1925
+#: highlight.cpp:1954
 msgid "Highlight:"
 msgstr "Zvýrazòování:"
 
-#: highlight.cpp:1944
+#: highlight.cpp:1973
 msgid "Highlight Auto Select"
 msgstr "Automatický výbìr zvýrazòování"
 
-#: highlight.cpp:1948
+#: highlight.cpp:1977
 msgid "File Extensions:"
 msgstr "Koncovka souboru:"
 
-#: highlight.cpp:1955
+#: highlight.cpp:1984
 msgid "Mime Types:"
 msgstr "Mime typy:"
 
-#: highlight.cpp:1962
+#: highlight.cpp:1991
 msgid "Item Style"
 msgstr "Styl prvku"
 
-#: highlight.cpp:1971
+#: highlight.cpp:2000
 msgid "Item Font"
 msgstr "Font prvku"
 

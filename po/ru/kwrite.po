@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
-"POT-Creation-Date: 1998-12-29 01:52+0100\n"
+"POT-Creation-Date: 1999-01-04 01:59+0100\n"
 "PO-Revision-Date: 1998-12-21 00:00+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -12,63 +12,63 @@ msgstr ""
 "Content-Type: text/plain; charset=koi8-r\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: highlight.cpp:1686
+#: highlight.cpp:1715
 msgid "Normal:"
 msgstr "Нормальный:"
 
-#: highlight.cpp:1696 kwdialog.cpp:416
+#: highlight.cpp:1725 kwdialog.cpp:416
 msgid "Selected:"
 msgstr "Выделенный:"
 
-#: highlight.cpp:1703
+#: highlight.cpp:1732
 msgid "Bold"
 msgstr "Жирный"
 
-#: highlight.cpp:1754
+#: highlight.cpp:1783
 msgid "Family:"
 msgstr "Семейство:"
 
-#: highlight.cpp:1764
+#: highlight.cpp:1793
 msgid "Size:"
 msgstr "Размер"
 
-#: highlight.cpp:1862
+#: highlight.cpp:1891
 msgid "Default Item Styles"
 msgstr "Стили элемента по умолчанию"
 
-#: highlight.cpp:1866 highlight.cpp:1937
+#: highlight.cpp:1895 highlight.cpp:1966
 msgid "Item:"
 msgstr "Элемент:"
 
-#: highlight.cpp:1884
+#: highlight.cpp:1913
 msgid "Default Font"
 msgstr "Шрифт по умолчанию"
 
-#: highlight.cpp:1921
+#: highlight.cpp:1950
 msgid "Config Select"
 msgstr "Выбор настроек"
 
-#: highlight.cpp:1925
+#: highlight.cpp:1954
 msgid "Highlight:"
 msgstr "Раскраска:"
 
-#: highlight.cpp:1944
+#: highlight.cpp:1973
 msgid "Highlight Auto Select"
 msgstr "Автоматический выбор раскраски"
 
-#: highlight.cpp:1948
+#: highlight.cpp:1977
 msgid "File Extensions:"
 msgstr "Расширение файла"
 
-#: highlight.cpp:1955
+#: highlight.cpp:1984
 msgid "Mime Types:"
 msgstr "Типы Mime:"
 
-#: highlight.cpp:1962
+#: highlight.cpp:1991
 msgid "Item Style"
 msgstr "Стиль элемента"
 
-#: highlight.cpp:1971
+#: highlight.cpp:2000
 msgid "Item Font"
 msgstr "Шрифт элемента"
 
