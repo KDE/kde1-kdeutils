@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE 1.0\n"
-"POT-Creation-Date: 1998-02-25 18:08+0100\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-06-29 11:00+0200\n"
 "Last-Translator: Cevat TOPCU <bbm817@hun.edu.tr>\n"
 "Language-Team: Hacettepe Linux Users Group <hacettepe@linux.org.tr>\n"
@@ -88,6 +88,15 @@ msgstr "D&ur"
 #: top.cpp:60
 msgid "&Task"
 msgstr "&Görev"
+
+#: top.cpp:61
+msgid "&New"
+msgstr ""
+
+#: top.cpp:74
+#, fuzzy
+msgid "&About"
+msgstr "Hakkýnda"
 
 #: top.cpp:85
 msgid "Start Clock"

@@ -3,12 +3,12 @@ msgstr ""
 "Project-Id-Version: knotes\n"
 "POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: 1998-11-17 10:31+0100\n"
+"Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 "Language-Team: German <kde-i18n@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: ISO-8859-1\n"
 "Translator: Oliver Hensel <oliver.hensel@gmx.de>\n"
-"Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 
 #: knotes.cpp:300
 msgid "Text Color..."

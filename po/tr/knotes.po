@@ -5,106 +5,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE 1.0\n"
-"POT-Creation-Date: 1998-02-25 18:08+0100\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: 1998-06-29 11:00+0200\n"
 "Last-Translator: Cevat TOPCU <bbm817@hun.edu.tr>\n"
 "Language-Team: Hacettepe Linux Users Group <hacettepe@linux.org.tr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ISO 8859-9\n"
-
-#: alarm.cpp:58
-#, c-format
-msgid "Alarm Timer for: %s"
-msgstr "%s için Uyarý Zamanlayýcýsý"
-
-#: alarm.cpp:72
-msgid "Unset"
-msgstr "Kurma"
-
-#: alarm.cpp:74
-msgid "Set"
-msgstr "Kur"
-
-#: alarm.cpp:153
-msgid "I am afraid you already missed your appointment."
-msgstr "Korkarým ki randevunuzu zaten kaçýrdýnýz"
-
-#: bwdatetime.cpp:44
-msgid "Day:"
-msgstr "Gün:"
-
-#: bwdatetime.cpp:50
-msgid "Month:"
-msgstr "Ay:"
-
-#: bwdatetime.cpp:57
-msgid "Year:"
-msgstr "Yýl:"
-
-#: bwdatetime.cpp:72
-msgid "Time:"
-msgstr "Zaman:"
-
-#: bwdatetime.cpp:161
-msgid "The Time you selected is invalid"
-msgstr "Seçtiðiniz zaman geçersiz"
-
-#: bwdatetime.cpp:176
-msgid "The Date you selected is invalid"
-msgstr "Seçtiðiniz tarih geçersiz"
-
-#: configdlg.cpp:50
-msgid "Text Color:"
-msgstr "Metin Rengi:"
-
-#: configdlg.cpp:64
-msgid "Background Color:"
-msgstr "Arkaplan Rengi:"
-
-#: configdlg.cpp:83
-msgid "Width:"
-msgstr "Geniþlik:"
-
-#: configdlg.cpp:93
-msgid "Height:"
-msgstr "Yükseklik:"
-
-#: configdlg.cpp:104
-msgid "Print Command:"
-msgstr "Yazma Komutu:"
-
-#: configdlg.cpp:112
-msgid "Mail Command:"
-msgstr "Mail Komutu:"
-
-#: configdlg.cpp:123
-msgid "3d Frame"
-msgstr "3 boyutlu pencere"
-
-#: configdlg.cpp:128 knotes.cpp:330
-msgid "Auto Indent"
-msgstr "Önceki Satýra Hizala"
-
-#: docking.cpp:71
-msgid "Change Defaults"
-msgstr "Öntanýmlarý Deðiþtir"
-
-#: docking.cpp:76
-msgid "Exit Knotes"
-msgstr "Knotes çýkýþ"
-
-#: docking.cpp:95
-msgid "New Knote"
-msgstr "Yeni Knote"
-
-#: fontdlg.cpp:45
-msgid "Set Default Font"
-msgstr "Öntanýmlý Yazý Tipini Belirle"
-
-#: fontdlg.cpp:64
-msgid "Point Size:"
-msgstr "Yazý Tipi Boyu:"
 
 #: knotes.cpp:300
 msgid "Text Color..."
@@ -149,6 +56,10 @@ msgstr "Notlarý Kaydet"
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"
 msgstr "3 Boyutlu Çerçeve"
+
+#: configdlg.cpp:128 knotes.cpp:330
+msgid "Auto Indent"
+msgstr "Önceki Satýra Hizala"
 
 #: knotes.cpp:332
 msgid "Font..."
@@ -196,9 +107,7 @@ msgstr "KNote alarmlarý saklanamadý\n"
 msgid ""
 "Could not pipe the contents of this KNote into:\n"
 " %s"
-msgstr ""
-"Bu KNote un içeriðini yönlendiremiyorum:"
-"%s"
+msgstr "Bu KNote un içeriðini yönlendiremiyorum:%s"
 
 #: knotes.cpp:734
 msgid ""
@@ -285,6 +194,63 @@ msgstr ""
 msgid "Inconsistency"
 msgstr "Tutarsýzlýk"
 
+#: configdlg.cpp:50
+msgid "Text Color:"
+msgstr "Metin Rengi:"
+
+#: configdlg.cpp:64
+msgid "Background Color:"
+msgstr "Arkaplan Rengi:"
+
+#: configdlg.cpp:83
+msgid "Width:"
+msgstr "Geniþlik:"
+
+#: configdlg.cpp:93
+msgid "Height:"
+msgstr "Yükseklik:"
+
+#: configdlg.cpp:104
+msgid "Print Command:"
+msgstr "Yazma Komutu:"
+
+#: configdlg.cpp:112
+msgid "Mail Command:"
+msgstr "Mail Komutu:"
+
+#: configdlg.cpp:123
+msgid "3d Frame"
+msgstr "3 boyutlu pencere"
+
+#: fontdlg.cpp:45
+msgid "Set Default Font"
+msgstr "Öntanýmlý Yazý Tipini Belirle"
+
+#: fontdlg.cpp:54
+msgid "Family:"
+msgstr ""
+
+#: fontdlg.cpp:64
+msgid "Point Size:"
+msgstr "Yazý Tipi Boyu:"
+
+#: fontdlg.cpp:75
+msgid "Style:"
+msgstr ""
+
+#: fontdlg.cpp:87
+#, fuzzy
+msgid "Weight:"
+msgstr "Yükseklik:"
+
+#: fontdlg.cpp:93 fontdlg.cpp:117 fontdlg.cpp:150
+msgid "Bold"
+msgstr ""
+
+#: fontdlg.cpp:95 fontdlg.cpp:119 fontdlg.cpp:152
+msgid "Normal"
+msgstr ""
+
 #: mail.cpp:40
 msgid "Mail Note to:"
 msgstr "Notu E-mail ile gönder:"
@@ -300,6 +266,47 @@ msgstr "Amil"
 #: mail.cpp:92
 msgid "You must specify a Recipient"
 msgstr "Bir alýcý belirtmelisiniz"
+
+#: alarm.cpp:58
+#, c-format
+msgid "Alarm Timer for: %s"
+msgstr "%s için Uyarý Zamanlayýcýsý"
+
+#: alarm.cpp:72
+msgid "Unset"
+msgstr "Kurma"
+
+#: alarm.cpp:74
+msgid "Set"
+msgstr "Kur"
+
+#: alarm.cpp:153
+msgid "I am afraid you already missed your appointment."
+msgstr "Korkarým ki randevunuzu zaten kaçýrdýnýz"
+
+#: bwdatetime.cpp:44
+msgid "Day:"
+msgstr "Gün:"
+
+#: bwdatetime.cpp:50
+msgid "Month:"
+msgstr "Ay:"
+
+#: bwdatetime.cpp:57
+msgid "Year:"
+msgstr "Yýl:"
+
+#: bwdatetime.cpp:72
+msgid "Time:"
+msgstr "Zaman:"
+
+#: bwdatetime.cpp:161
+msgid "The Time you selected is invalid"
+msgstr "Seçtiðiniz zaman geçersiz"
+
+#: bwdatetime.cpp:176
+msgid "The Date you selected is invalid"
+msgstr "Seçtiðiniz tarih geçersiz"
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
@@ -324,3 +331,15 @@ msgid ""
 msgstr ""
 "Bu isimli bir not zaten var \n"
 "Lütfen farklý bir isim seçin"
+
+#: docking.cpp:71
+msgid "Change Defaults"
+msgstr "Öntanýmlarý Deðiþtir"
+
+#: docking.cpp:76
+msgid "Exit Knotes"
+msgstr "Knotes çýkýþ"
+
+#: docking.cpp:95
+msgid "New Knote"
+msgstr "Yeni Knote"

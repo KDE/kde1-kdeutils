@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE 1.0\n"
-"POT-Creation-Date: 1998-02-25 18:08+0100\n"
+"POT-Creation-Date: 1998-11-03 10:06+0100\n"
 "PO-Revision-Date: 1998-06-29 11:00+0200\n"
 "Last-Translator: Kerem ERZURUMLU <kerem@linux.org.tr>\n"
 "Language-Team: Hacettepe Linux Users Group <hacettepe@linux.org.tr>\n"
@@ -14,14 +14,45 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ISO 8859-9\n"
 
-#: Data.cpp:123 Data.cpp:157 Data.cpp:193
-#, c-format
-msgid ""
-"Unable to print with:\n"
-" %s"
+#: main.cpp:69
+msgid "Paper"
+msgstr "Sayfa"
+
+#: PrinterData.cpp:93 main.cpp:70
+msgid "Printer"
+msgstr "Yazýcý"
+
+#: main.cpp:71
+msgid "Operations"
+msgstr "Ýþlemler"
+
+#: PaperData.cpp:59
+msgid "Format"
 msgstr ""
-"%s ile\n"
-"basýlamýyor."
+
+#: PaperData.cpp:65
+msgid "Copies"
+msgstr ""
+
+#: PaperData.cpp:80
+msgid "Lines"
+msgstr ""
+
+#: PaperData.cpp:102
+msgid "Portrait"
+msgstr ""
+
+#: PaperData.cpp:111
+msgid "Landscape"
+msgstr ""
+
+#: PaperData.cpp:127
+msgid "Manual Feed"
+msgstr ""
+
+#: PaperData.cpp:136
+msgid "Auto Continue"
+msgstr ""
 
 #: FontsData.cpp:38
 msgid "Language"
@@ -42,6 +73,30 @@ msgstr "Nokta Boyutu"
 #: FontsData.cpp:156
 msgid "points"
 msgstr "noktalar"
+
+#: PrinterData.cpp:41
+msgid "Mode"
+msgstr "Durum"
+
+#: PrinterData.cpp:47
+msgid "Economy"
+msgstr "Ekonomik"
+
+#: PrinterData.cpp:56
+msgid "Presentation"
+msgstr "Sunum"
+
+#: PrinterData.cpp:65
+msgid "Resolution"
+msgstr "Çözünürlük"
+
+#: PrinterData.cpp:87
+msgid "Density"
+msgstr "Yoðunluk"
+
+#: PrinterData.cpp:99
+msgid "Resolution Enh."
+msgstr "Çözünürlük Arttýrýmý"
 
 #: MiscData.cpp:43
 msgid "End of Line Mode"
@@ -67,33 +122,14 @@ msgstr "Sýfýrla"
 msgid "Initialize"
 msgstr "Koþulla"
 
-#: PrinterData.cpp:41
-msgid "Mode"
-msgstr "Durum"
-
-#: PrinterData.cpp:47
-msgid "Economy"
-msgstr "Ekonomik"
-
-#: PrinterData.cpp:56
-msgid "Presentation"
-msgstr "Sunum"
-
-#: PrinterData.cpp:65
-msgid "Resolution"
-msgstr "Çözünürlük"
-
-#: PrinterData.cpp:87
-msgid "Density"
-msgstr "Yoðunluk"
-
-#: PrinterData.cpp:93 main.cpp:70
-msgid "Printer"
-msgstr "Yazýcý"
-
-#: PrinterData.cpp:99
-msgid "Resolution Enh."
-msgstr "Çözünürlük Arttýrýmý"
+#: Data.cpp:123 Data.cpp:157 Data.cpp:193
+#, c-format
+msgid ""
+"Unable to print with:\n"
+" %s"
+msgstr ""
+"%s ile\n"
+"basýlamýyor."
 
 #: about.cpp:38
 msgid "About KLJetTool"
@@ -106,11 +142,3 @@ msgstr "KLJetTool"
 #: about.cpp:52
 msgid "Version "
 msgstr "Sürüm"
-
-#: main.cpp:69
-msgid "Paper"
-msgstr "Sayfa"
-
-#: main.cpp:71
-msgid "Operations"
-msgstr "Ýþlemler"
