@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "POT-Creation-Date: 1998-11-05 01:55+0100\n"
-"PO-Revision-Date: 1998-11-04 08:50+01:00\n"
+"PO-Revision-Date: 1998-11-05 07:52+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -26,9 +26,8 @@ msgid "Only Add Newer Files"
 msgstr "Pøidávat pouze novìj¹í soubory"
 
 #: extractdlg.cc:14
-#, fuzzy
 msgid "Extract"
-msgstr "Extrahovat ..."
+msgstr "Extrahovat"
 
 #: extractdlg.cc:28
 msgid "Destination"
@@ -59,9 +58,8 @@ msgid "Pattern"
 msgstr "Maska"
 
 #: extractdlg.cc:190
-#, fuzzy
 msgid "Extract To"
-msgstr "Extrahovat do ..."
+msgstr "Extrahovat do"
 
 #: arkwidget.cc:71
 msgid "&New..."
@@ -128,9 +126,8 @@ msgid "Error saving to archive"
 msgstr "Chyba pøi ukládání do archivu"
 
 #: arkwidget.cc:312
-#, fuzzy
 msgid "Archive Dir"
-msgstr "Adresáø archivu:"
+msgstr "Adresáø archivu"
 
 #: arkwidget.cc:325
 msgid "What runs GNU tar:"
