@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Date: 1998-03-06 22:06:45-0500\n"
+"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, <root@petit.cornell.edu>\n"
+"Content-Type: text/plain; charset=\n"
+"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
+"Files: hexdata.cpp hexfile.cpp hexwidget.cpp\n"
+
+#: hexdata.cpp:33
+msgid "Error opening %s"
+msgstr "Greshka pri otvaranje na %s"
+
+#: hexwidget.cpp:79
+msgid "Save &As..."
+msgstr "Snimi &kako..."
+
+#: hexwidget.cpp:90
+msgid "&Toggle Toolbar"
+msgstr "&Ukluchi toolbar"
+
+#: hexwidget.cpp:93
+msgid "Hex Editor"
+msgstr "Heksa editor"
+
+#: hexwidget.cpp:95
+msgid ""
+"\n"
+"\n"
+"by Stephan Kulow"
+msgstr ""
+"\n"
+"\n"
+"od Stephan Kulow"
+
+#: hexwidget.cpp:118
+msgid "New Window"
+msgstr "Nov Prozor"
+
+#: hexwidget.cpp:122
+msgid "Save the file"
+msgstr "Snimi go fajlot"
+
+#: hexwidget.cpp:125 hexwidget.cpp:127 hexwidget.cpp:129 hexwidget.cpp:132
+msgid "Not implemented"
+msgstr "Ne e implementirano"
+
+#: hexwidget.cpp:163
+msgid ""
+"The current file has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"Momentalniot fajl e promenet. \n"
+"Dali sakata da go snimate?"
+
+#: hexwidget.cpp:189
+msgid ""
+"The current file has been modified.\n"
+"Discard your changes?"
+msgstr ""
+"Momentalniot fajl e promenet \n"
+"Otfrlete gi promenite?"
+
+#: hexwidget.cpp:270
+msgid ""
+"KHexdit is already waiting\n"
+"for an internet job to finish\n"
+"\n"
+"Wait until this one is finished\n"
+"or stop the running one."
+msgstr ""
+"KHexdit vekje cheka\n"
+"da zavrshi eden internet proces\n"
+"\n"
+"Prichekaj dodeka toj ne zavrshi\n"
+"ili stopiraj go onoj sto se izvrshuva."
+
+#: hexwidget.cpp:278
+msgid "Could not start KFM"
+msgstr "Ne mozhe da go startuva KFM"

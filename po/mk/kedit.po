@@ -1,0 +1,391 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Macedonian <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: iso-8859-5\n"
+
+#: kedit.cpp:83 kedit.cpp:1019
+msgid "Show &Tool Bar"
+msgstr "Pokazzi &Alatki"
+
+#: kedit.cpp:85 kedit.cpp:1012
+msgid "Hide &Tool Bar"
+msgstr "Skri &Alatki"
+
+#: kedit.cpp:88 kedit.cpp:999
+msgid "Show &Status Bar"
+msgstr "Pokazzi &Pozicija"
+
+#: kedit.cpp:90 kedit.cpp:992
+msgid "Hide &Status Bar"
+msgstr "&Skri Pozicija"
+
+#: kedit.cpp:152
+msgid "Select All"
+msgstr "Izberi Se"
+
+#: kedit.cpp:183
+msgid "&About..."
+msgstr "&Za..."
+
+#: kedit.cpp:187
+msgid "Ne&w..."
+msgstr "&Nov..."
+
+#: kedit.cpp:192
+msgid "Open Recen&t..."
+msgstr "Prethodni Dokumenti&t..."
+
+#: kedit.cpp:204
+msgid "Open &URL..."
+msgstr "Otvori &URL..."
+
+#: kedit.cpp:206
+msgid "Save to U&RL..."
+msgstr "Zapamti go U&RL..."
+
+#: kedit.cpp:212
+msgid "&Mail..."
+msgstr "Po&sta..."
+
+#: kedit.cpp:216
+msgid "New &Window"
+msgstr "Nov &Prozorec"
+
+#: kedit.cpp:228
+msgid "&Select All"
+msgstr "&Izberi Se"
+
+#: kedit.cpp:231
+msgid "&Insert File"
+msgstr "&Vnesi Dokument"
+
+#: kedit.cpp:233
+msgid "Insert &Date"
+msgstr "Vnesi &Datum"
+
+#: kedit.cpp:236
+msgid "&Find..."
+msgstr "Prona&jdi..."
+
+#: kedit.cpp:238
+msgid "Find &Again"
+msgstr "Pronajdi &Ushte Ednash"
+
+#: kedit.cpp:240
+msgid "&Replace"
+msgstr "&Zameni"
+
+#: kedit.cpp:243
+msgid "&Goto Line..."
+msgstr "&Odi na Linija..."
+
+#: kedit.cpp:247
+msgid "&Font"
+msgstr "&Karakter"
+
+#: kedit.cpp:249
+msgid "Colors"
+msgstr "Boi"
+
+#: kedit.cpp:251
+msgid "KEdit &Options..."
+msgstr "KEdit &Opcii..."
+
+#: kedit.cpp:253
+msgid "Auto &Indent"
+msgstr "Avtomatski &Margini"
+
+#: kedit.cpp:256
+msgid "&Tool Bar"
+msgstr "&Alatki"
+
+#: kedit.cpp:258
+msgid "&Status Bar"
+msgstr "&Pozicija"
+
+#: kedit.cpp:261
+msgid "Save Options"
+msgstr "Zapamti gi Opciite"
+
+#: kedit.cpp:289
+msgid "New Document"
+msgstr "Nov Dokument"
+
+#: kedit.cpp:295
+msgid "Open Document"
+msgstr "Otvori Dokument"
+
+#: kedit.cpp:300
+msgid "Save Document"
+msgstr "Zapamti Dokument"
+
+#: kedit.cpp:325 print.cpp:88
+msgid "Print Document"
+msgstr "Ispechati Dokument"
+
+#: kedit.cpp:330
+msgid "Mail Document"
+msgstr "Dokument po Poshta"
+
+#: kedit.cpp:534
+msgid "Open Location:"
+msgstr "Otvori Lokacija:"
+
+#: kedit.cpp:548
+msgid "Save to Location:"
+msgstr "Zapamti Lokacija:"
+
+#: kedit.cpp:574 kedit.cpp:637 kedit.cpp:666 kedit.cpp:729 kedit.cpp:1123
+msgid "Message"
+msgstr "Poraka"
+
+#: kedit.cpp:575 kedit.cpp:730
+msgid ""
+"This Document has been modified.\n"
+"Would you like to save it?"
+msgstr ""
+"Dokumentov e preraboten.\n"
+"Dali sakate da go zapamtite?"
+
+#: kedit.cpp:592 kedit.cpp:747
+msgid ""
+"Could not save the file.\n"
+"Exit anyways?"
+msgstr ""
+"Ne mozzam da go zapamtam dokumentov.\n"
+"Dali da izlezam?"
+
+#: kedit.cpp:638
+msgid ""
+"There are windows with modified content open.\n"
+"If you exit now, you will loose those changes\n"
+"Quit anyways?"
+msgstr ""
+"Imate otvoreni prozorci so izmeneta sodrzzina.\n"
+"Ako izlezete sega, ke gi izgubite site promeni.\n"
+"Dali da izlezam?"
+
+#: kedit.cpp:667
+msgid ""
+"The current document has been modified.\n"
+"Continue anyways ?"
+msgstr "" 
+"Ovoj dokument e izmenet.\n"
+"Bez razlika na toa - sakate da prodolzzam?"
+
+#: kedit.cpp:808
+#, c-format
+msgid "Wrote: %s"
+msgstr "Zapishi: %s"
+
+#: kedit.cpp:814
+msgid "No changes need to be saved"
+msgstr "Nema promeni koi treba da se zapamtat"
+
+#: kedit.cpp:833
+#, c-format
+msgid "Saved as: %s"
+msgstr "Zapamteno kako: %s"
+
+#: kedit.cpp:866
+#, c-format
+msgid ""
+"Could not pipe the contentsof this Document into:\n"
+" %s"
+msgstr ""
+"Ne mozam da ja prosledam sodrzzinata na ovoj Dokument vo:\n"
+" %s"
+
+#: kedit.cpp:960
+msgid "Auto Indent Mode: On"
+msgstr "Avtomatski Margini: Ukluchi"
+
+#: kedit.cpp:962
+msgid "Auto Indent Mode: Off"
+msgstr "Avtomatski Margini: Iskluchi"
+
+#: kedit.cpp:1058
+#, c-format
+msgid "Line: %d Col: %d"
+msgstr "Red: %d Kolona: %d"
+
+#: kedit.cpp:1124
+msgid ""
+"The current document has been modified.\n"
+"Would you like to save the changes before \n"
+"printing this Document?"
+msgstr ""
+"Izvrshena e promena na ovoj Dokument.\n"
+"Dali sakate da gi zapamtite promenite pred \n"
+"da go ispechatite ovoj Dokument?"
+
+#: kedit.cpp:1142
+msgid ""
+"Could not save the file.\n"
+"Print anyways?"
+msgstr ""
+"Ne mozzam da go zapamtam ovoj Dokument.\n"
+"Sepak dali da go ispechatam?"
+
+#: kedit.cpp:1235
+#, c-format
+msgid "Printing: %s Untitled (Selection)"
+msgstr "Pechatam: %s Bezimen (Izbor)"
+
+#: kedit.cpp:1238
+#, c-format
+msgid "Printing: %s Untitled"
+msgstr "Pechatam: %s Bezimen"
+
+#: kedit.cpp:1276
+#, c-format
+msgid "Printing: %s"
+msgstr "Pechatam: %s"
+
+#: kedit.cpp:1286
+#, c-format
+msgid "Printing: %s %s (Selection)"
+msgstr "Pechatam: %s %s (Izbor)"
+
+#: kedit.cpp:1310
+msgid "Saving ..."
+msgstr "Zapishuvanje ..."
+
+#: kedit.cpp:1317
+msgid "Loading ..."
+msgstr "Vchituvanje ..."
+
+#: kedit.cpp:1351 kedit.cpp:1444
+msgid ""
+"KEdit is already waiting\n"
+"for an internet job to finish\n"
+"Please wait until has finished\n"
+"Alternatively stop the running one."
+msgstr ""
+"KEdit ceka druga vnatreshna\n"
+"procedura da bide zavrshena\n"
+"Prichekajte dodeka ne zavrshi\n"
+"Vo sprotivno, zaprete go procesot."
+
+#: kedit.cpp:1368 kedit.cpp:1463
+msgid "Could not start or find KFM"
+msgstr "Ne mozzam da pochnam ili da go najdam KFM"
+
+#: kedit.cpp:1410
+#, c-format
+msgid ""
+"Malformed URL\n"
+"%s"
+msgstr ""
+"Pogreshen URL\n"
+" %s"
+
+#: kedit.cpp:1430
+#, c-format
+msgid "Loading '%s'"
+msgstr "Vchituvam '%s'"
+
+#: kedit.cpp:1454
+msgid "Calling KFM"
+msgstr "Go povikuvam KFM"
+
+#: kedit.cpp:1473
+msgid "Starting Job"
+msgstr "Pochnuvam Rabota"
+
+#: kedit.cpp:1476
+msgid "Connected"
+msgstr "Se Ukluchiv"
+
+#: kedit.cpp:1478
+msgid "Waiting..."
+msgstr "Chekam..."
+
+#: kedit.cpp:1486
+#, c-format
+msgid "Finished '%s'"
+msgstr "Zavshiv '%s'"
+
+#: kedit.cpp:1527
+msgid "New Window"
+msgstr "Nov Prozorec"
+
+#: kedit.cpp:1531
+msgid "New Window Created"
+msgstr "Formiran e Nov Prozorec"
+
+#: kedit.cpp:1537
+msgid "Load Command Done"
+msgstr "Izvrshena Naredba za Vchituvanje"
+
+#: kedit.cpp:1949
+#, c-format
+msgid ""
+"Can not create:\n"
+"%s"
+msgstr ""
+"Ne mozzam da sozdadam:\n"
+"%s"
+
+#: print.cpp:66
+msgid "Print Dialog"
+msgstr "Dialog so Printerot"
+
+#: print.cpp:70
+msgid "Print directly using lpr"
+msgstr "Pechati direktno so lpr"
+
+#: print.cpp:75
+msgid "Print using Command:"
+msgstr "Pechati so Naredba:"
+
+#: print.cpp:93
+msgid "Print Selection"
+msgstr "Pechati go Izbranoto"
+
+#: filldlg.cpp:31
+msgid "KEdit Options"
+msgstr "KEdit Opcii"
+
+#: filldlg.cpp:36
+msgid "Set Fill-Column at:"
+msgstr "Izvrshi Popolni-Kolona na pozicija:"
+
+#: filldlg.cpp:40
+msgid "Word Warp"
+msgstr "Prefrluvanje na Zborovi"
+
+#: filldlg.cpp:44
+msgid "Mail Command:"
+msgstr "Poshtenska Komanda:"
+
+#: filldlg.cpp:135
+msgid "You must enter an integer."
+msgstr "Mora da vnesite Cel Broj - Integer"
+
+#: mail.cpp:37
+msgid "Mail Document to:"
+msgstr "Isprati Poshta na:"
+
+#: mail.cpp:55
+msgid "Subject:"
+msgstr "Tema:"
+
+#: mail.cpp:57
+msgid "Mail"
+msgstr "Poshta"
+
+#: mail.cpp:96
+msgid "You must specify a Recipient"
+msgstr "Mora da go vnesite Primachot"
