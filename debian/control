@@ -1,0 +1,12 @@
+Source: kdeutils
+Section: contrib/x11
+Priority: extra
+Maintainer: Stephan Kulow <coolo@kde.org>
+Standards-Version: 2.3.0.0
+
+Package: kdeutils
+Architecture: any
+Depends: ${shlibs:Depends}, kdebase
+Description: collection of useful kde utilities 
+ this collection includes karm kcalc kedit khexdit kjots knotes kzip
+ (calculator, editor, hex editor ...)
