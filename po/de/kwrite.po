@@ -4,10 +4,10 @@ msgstr ""
 "POT-Creation-Date: 1999-01-14 01:57+0100\n"
 "PO-Revision-Date: 1999-01-14 07:45+MET\n"
 "Language-Team: de <LL@li.org>\n"
-"Translator: Thomas Diehl <th_diehl@csi.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Translator: Thomas Diehl <th_diehl@csi.com>\n"
 
 #: highlight.cpp:1715
 msgid "Normal:"
