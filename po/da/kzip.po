@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kzip\n"
-"POT-Creation-Date: 1998-10-02 01:45+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-02-02 20:55+MET\n"
 "Last-Translator: Thomas Tanghus <tanghus@earthling.net>\n"
 
@@ -44,6 +44,10 @@ msgstr "Markerede filer"
 #: extractdlg.cc:45
 msgid "Pattern"
 msgstr "Maske"
+
+#: kzip.cc:70
+msgid "&New..."
+msgstr ""
 
 #: kzip.cc:73
 msgid "&Extract To..."

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kzip 0.5\n"
-"POT-Creation-Date: 1998-10-02 01:45+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-09-03 22:29:52+0600\n"
 "Last-Translator: Denis Yu. Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -55,6 +55,10 @@ msgstr "Выбранные файлы"
 #: extractdlg.cc:45
 msgid "Pattern"
 msgstr "Маска"
+
+#: kzip.cc:70
+msgid "&New..."
+msgstr ""
 
 #: kzip.cc:73
 msgid "&Extract To..."

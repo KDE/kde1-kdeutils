@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1998-10-02 01:45+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -45,6 +45,10 @@ msgstr "选中的文件"
 #: extractdlg.cc:45
 msgid "Pattern"
 msgstr "模式"
+
+#: kzip.cc:70
+msgid "&New..."
+msgstr ""
 
 #: kzip.cc:73
 msgid "&Extract To..."

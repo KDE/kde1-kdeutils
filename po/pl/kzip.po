@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kzip \n"
-"POT-Creation-Date: 1998-10-02 01:45+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-08-07 23:22+0200\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -48,6 +48,10 @@ msgstr "Zaznaczone pliki"
 #: extractdlg.cc:45
 msgid "Pattern"
 msgstr "Wzorzec"
+
+#: kzip.cc:70
+msgid "&New..."
+msgstr ""
 
 #: kzip.cc:73
 msgid "&Extract To..."

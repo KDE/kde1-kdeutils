@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-09-08 09:00\n"
 "Last-Translator: Sandro Nunes Henrique <sandro@conectiva.com.br>\n"
 "Language-Team: pt_BR <LL@li.org>\n"
@@ -22,103 +22,103 @@ msgstr "Nome do livro:"
 msgid "Open URL"
 msgstr "Abrir URL:"
 
-#: KJotsMain.cpp:343
+#: KJotsMain.cpp:344
 msgid "New Book"
 msgstr "Novo livro:"
 
-#: KJotsMain.cpp:353
+#: KJotsMain.cpp:354
 msgid "PreviousPage"
 msgstr "Página anterior:"
 
-#: KJotsMain.cpp:354
+#: KJotsMain.cpp:355
 msgid "NextPage"
 msgstr "Próxima página"
 
-#: KJotsMain.cpp:355
+#: KJotsMain.cpp:356
 msgid "ShowSubjectList"
 msgstr "Mostrar lista de assuntos"
 
-#: KJotsMain.cpp:356
+#: KJotsMain.cpp:357
 msgid "AddNewPage"
 msgstr "Adicionar nova página"
 
-#: KJotsMain.cpp:357
+#: KJotsMain.cpp:358
 msgid "MoveFocus"
 msgstr "Mover o Foco"
 
-#: KJotsMain.cpp:358
+#: KJotsMain.cpp:359
 msgid "CopySelection"
 msgstr "Copiar a seleção"
 
-#: KJotsMain.cpp:370
+#: KJotsMain.cpp:371
 msgid "&New Book"
 msgstr "&Novo livro"
 
-#: KJotsMain.cpp:374
+#: KJotsMain.cpp:375
 msgid "Save current book"
 msgstr "Salvar o livro atual"
 
-#: KJotsMain.cpp:376
+#: KJotsMain.cpp:377
 msgid "Save book to ascii file"
 msgstr "Salvar o livro para um arquivo ASCII"
 
-#: KJotsMain.cpp:377
+#: KJotsMain.cpp:378
 msgid "Save page to ascii file"
 msgstr "Salvar a página para um arquivo ASCII"
 
-#: KJotsMain.cpp:379 KJotsMain.cpp:662
+#: KJotsMain.cpp:380 KJotsMain.cpp:663
 msgid "Delete current book"
 msgstr "Apagar o livro corrente"
 
-#: KJotsMain.cpp:393
+#: KJotsMain.cpp:394
 msgid "&New Page"
 msgstr "&Nova página"
 
-#: KJotsMain.cpp:395
+#: KJotsMain.cpp:396
 msgid "&Delete Page"
 msgstr "Apagar Página"
 
-#: KJotsMain.cpp:398
+#: KJotsMain.cpp:399
 msgid "&Config"
 msgstr "&Configuração"
 
-#: KJotsMain.cpp:399
+#: KJotsMain.cpp:400
 msgid "Configure &Keys"
 msgstr "Configuração de &Teclado"
 
-#: KJotsMain.cpp:402
+#: KJotsMain.cpp:403
 msgid "Add current book to hotlist"
 msgstr "Adicionar o livro atual à Lista"
 
-#: KJotsMain.cpp:404
+#: KJotsMain.cpp:405
 msgid "Remove current book from hotlist"
 msgstr "Remover o livro atual da Lista"
 
-#: KJotsMain.cpp:409
+#: KJotsMain.cpp:410
 msgid "Hot&list"
 msgstr "Lista"
 
-#: KJotsMain.cpp:411
+#: KJotsMain.cpp:412
 msgid "&Books"
 msgstr "&Livros"
 
-#: KJotsMain.cpp:414
+#: KJotsMain.cpp:415
 msgid "by"
 msgstr "por"
 
-#: KJotsMain.cpp:615
+#: KJotsMain.cpp:616
 msgid "A book with this name already exists."
 msgstr "Já existe um livro com este nome"
 
-#: KJotsMain.cpp:663
+#: KJotsMain.cpp:664
 msgid "Are you sure you want to delete the current book ?"
 msgstr "Tem certeza que deseja apagar o livro atual?"
 
-#: KJotsMain.cpp:914 KJotsMain.cpp:943
+#: KJotsMain.cpp:915 KJotsMain.cpp:944
 msgid "File exists !"
 msgstr "O arquivo já existe!"
 
-#: KJotsMain.cpp:915 KJotsMain.cpp:944
+#: KJotsMain.cpp:916 KJotsMain.cpp:945
 msgid ""
 "File already exists. \n"
 " Do you want to overwrite it ?"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kjots revision 1.1\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
@@ -17,103 +17,103 @@ msgstr "Bok namn:"
 msgid "Open URL"
 msgstr "Öppna URL"
 
-#: KJotsMain.cpp:343
+#: KJotsMain.cpp:344
 msgid "New Book"
 msgstr "Ny bok"
 
-#: KJotsMain.cpp:353
+#: KJotsMain.cpp:354
 msgid "PreviousPage"
 msgstr "FöregåendeSida"
 
-#: KJotsMain.cpp:354
+#: KJotsMain.cpp:355
 msgid "NextPage"
 msgstr "NästaSida"
 
-#: KJotsMain.cpp:355
+#: KJotsMain.cpp:356
 msgid "ShowSubjectList"
 msgstr "VisaÄmnesLista"
 
-#: KJotsMain.cpp:356
+#: KJotsMain.cpp:357
 msgid "AddNewPage"
 msgstr "LäggTillNySida"
 
-#: KJotsMain.cpp:357
+#: KJotsMain.cpp:358
 msgid "MoveFocus"
 msgstr "FlyttaFokus"
 
-#: KJotsMain.cpp:358
+#: KJotsMain.cpp:359
 msgid "CopySelection"
 msgstr "KopieraMarkering"
 
-#: KJotsMain.cpp:370
+#: KJotsMain.cpp:371
 msgid "&New Book"
 msgstr "&Ny bok"
 
-#: KJotsMain.cpp:374
+#: KJotsMain.cpp:375
 msgid "Save current book"
 msgstr "Spara den här boken"
 
-#: KJotsMain.cpp:376
+#: KJotsMain.cpp:377
 msgid "Save book to ascii file"
 msgstr "Spara bok till en ascii fil"
 
-#: KJotsMain.cpp:377
+#: KJotsMain.cpp:378
 msgid "Save page to ascii file"
 msgstr "Spara sida till en ascii fil"
 
-#: KJotsMain.cpp:379 KJotsMain.cpp:662
+#: KJotsMain.cpp:380 KJotsMain.cpp:663
 msgid "Delete current book"
 msgstr "Radera den här boken"
 
-#: KJotsMain.cpp:393
+#: KJotsMain.cpp:394
 msgid "&New Page"
 msgstr "&Ny sida"
 
-#: KJotsMain.cpp:395
+#: KJotsMain.cpp:396
 msgid "&Delete Page"
 msgstr "&Radera sida"
 
-#: KJotsMain.cpp:398
+#: KJotsMain.cpp:399
 msgid "&Config"
 msgstr "&Konfigurera"
 
-#: KJotsMain.cpp:399
+#: KJotsMain.cpp:400
 msgid "Configure &Keys"
 msgstr "Konfigurera &tangenter"
 
-#: KJotsMain.cpp:402
+#: KJotsMain.cpp:403
 msgid "Add current book to hotlist"
 msgstr "Lägg till denna bok i Favoriter"
 
-#: KJotsMain.cpp:404
+#: KJotsMain.cpp:405
 msgid "Remove current book from hotlist"
 msgstr "Ta bort denna bok från Favoriter"
 
-#: KJotsMain.cpp:409
+#: KJotsMain.cpp:410
 msgid "Hot&list"
 msgstr "&Favoriter"
 
-#: KJotsMain.cpp:411
+#: KJotsMain.cpp:412
 msgid "&Books"
 msgstr "&Böker"
 
-#: KJotsMain.cpp:414
+#: KJotsMain.cpp:415
 msgid "by"
 msgstr "av"
 
-#: KJotsMain.cpp:615
+#: KJotsMain.cpp:616
 msgid "A book with this name already exists."
 msgstr "En bok med detta namn existerar redan."
 
-#: KJotsMain.cpp:663
+#: KJotsMain.cpp:664
 msgid "Are you sure you want to delete the current book ?"
 msgstr "Är du säker på att du vill radera den här boken ?"
 
-#: KJotsMain.cpp:914 KJotsMain.cpp:943
+#: KJotsMain.cpp:915 KJotsMain.cpp:944
 msgid "File exists !"
 msgstr "Filen existerar !"
 
-#: KJotsMain.cpp:915 KJotsMain.cpp:944
+#: KJotsMain.cpp:916 KJotsMain.cpp:945
 msgid ""
 "File already exists. \n"
 " Do you want to overwrite it ?"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kzip\n"
-"POT-Creation-Date: 1998-10-02 01:45+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-03-02 20:48+0100\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -52,6 +52,10 @@ msgstr "Valgte filer"
 #: extractdlg.cc:45
 msgid "Pattern"
 msgstr "Mønster"
+
+#: kzip.cc:70
+msgid "&New..."
+msgstr ""
 
 #: kzip.cc:73
 msgid "&Extract To..."

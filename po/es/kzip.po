@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
-"POT-Creation-Date: 1998-10-02 01:45+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-05-11 21:59+0200\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 "First-Translator: Robert Palmbos <robertp@pbnjelly>\n"
@@ -45,6 +45,10 @@ msgstr "Fichero seleccionado"
 #: extractdlg.cc:45
 msgid "Pattern"
 msgstr "Plantilla"
+
+#: kzip.cc:70
+msgid "&New..."
+msgstr ""
 
 #: kzip.cc:73
 msgid "&Extract To..."

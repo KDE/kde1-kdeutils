@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-05-11 21:25+0200\n"
 "First-Translator: Santiago Fernández and Jorge ValenciaFirst-Translator: "
 "<jorgev@est.unileon.es>\n"
@@ -82,9 +82,9 @@ msgstr "S&top"
 msgid "&Task"
 msgstr "&Tarea"
 
-#: top.cpp:71
-msgid "&Contents"
-msgstr "&Contenidos"
+#: top.cpp:61
+msgid "&New"
+msgstr ""
 
 #: top.cpp:74
 #, fuzzy
@@ -130,6 +130,9 @@ msgstr ""
 #: top.cpp:161
 msgid "clock active"
 msgstr "reloj activo"
+
+#~ msgid "&Contents"
+#~ msgstr "&Contenidos"
 
 #~ msgid "&Start"
 #~ msgstr "&Inicio"

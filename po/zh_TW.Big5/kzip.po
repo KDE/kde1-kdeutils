@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kzip\n"
-"POT-Creation-Date: 1998-10-02 01:45+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-04-21 05:01+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -52,6 +52,10 @@ msgstr "選擇的檔案"
 #: extractdlg.cc:45
 msgid "Pattern"
 msgstr "式樣"
+
+#: kzip.cc:70
+msgid "&New..."
+msgstr ""
 
 #: kzip.cc:73
 msgid "&Extract To..."

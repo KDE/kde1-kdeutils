@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-06-25 23:00+0100\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
@@ -89,8 +89,8 @@ msgstr "&Aturar"
 msgid "&Task"
 msgstr "&Tasca"
 
-#: top.cpp:71
-msgid "&Contents"
+#: top.cpp:61
+msgid "&New"
 msgstr ""
 
 #: top.cpp:74

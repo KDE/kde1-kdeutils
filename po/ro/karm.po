@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kde-1.0pre\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-07-04 12:00+0200\n"
 "Last-Translator: Paul Ionescu <omy@main.romsoft.ro>\n"
 "Language-Team: ??? <ro@li.org>\n"
@@ -90,8 +90,8 @@ msgstr "&Oprire"
 msgid "&Task"
 msgstr "&Program"
 
-#: top.cpp:71
-msgid "&Contents"
+#: top.cpp:61
+msgid "&New"
 msgstr ""
 
 #: top.cpp:74

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-05 12:37+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-04-06 23:00+0200\n"
 "Last-Translator: Kostas Papadopoulos <kpapadop@obelix.ee.duth.gr>\n"
 "Language-Team: GREEK <kde-team@obelix.ee.duth.gr>\n"
@@ -14,150 +14,155 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: kedit.cpp:85 kedit.cpp:1090
+#: kedit.cpp:85 kedit.cpp:1091
 msgid "Show &Tool Bar"
 msgstr "Δείξε την Μπάρα &Εργαλείων"
 
-#: kedit.cpp:87 kedit.cpp:1083
+#: kedit.cpp:87 kedit.cpp:1084
 msgid "Hide &Tool Bar"
 msgstr "Απόκρυψε την Μπάρα &Εργαλείων"
 
-#: kedit.cpp:90 kedit.cpp:1070
+#: kedit.cpp:90 kedit.cpp:1071
 msgid "Show &Status Bar"
 msgstr "Δείξε την Μπάρα &Κατάστασης"
 
-#: kedit.cpp:92 kedit.cpp:1063
+#: kedit.cpp:92 kedit.cpp:1064
 msgid "Hide &Status Bar"
 msgstr "Απόκρυψε την Μπάρα &Κατάστασης"
 
-#: kedit.cpp:153
+#: kedit.cpp:154
 msgid "Select All"
 msgstr "Επιλογή όλων"
 
-#: kedit.cpp:156
+#: kedit.cpp:157
 #, fuzzy
 msgid "Font..."
 msgstr "&Εύρεση"
 
-#: kedit.cpp:200
+#: kedit.cpp:201
 msgid "Ne&w..."
 msgstr "Δημιουργία"
 
-#: kedit.cpp:207
+#: kedit.cpp:208
 msgid "Open Recen&t..."
 msgstr "’νοιγμα &πρόσφατου"
 
-#: kedit.cpp:219
+#: kedit.cpp:220
 msgid "Open &URL..."
 msgstr "’νοιγμα &URL"
 
-#: kedit.cpp:221
+#: kedit.cpp:222
 msgid "Save to U&RL..."
 msgstr "Σώσιμο U&RL"
 
-#: kedit.cpp:237
+#: kedit.cpp:238
 msgid "&Mail..."
 msgstr "&Αλληλογραφία"
 
-#: kedit.cpp:241
+#: kedit.cpp:242
 msgid "New &Window"
 msgstr "Νέο &Παράθυρο"
 
-#: kedit.cpp:253
+#: kedit.cpp:254
 msgid "&Select All"
 msgstr "&Επιλογή όλων"
 
-#: kedit.cpp:256
+#: kedit.cpp:257
 msgid "&Insert File"
 msgstr "&Εισαγωγή αρχείου"
 
-#: kedit.cpp:258
+#: kedit.cpp:259
 msgid "Insert &Date"
 msgstr "Εισαγώγη Ημερομηνίας"
 
-#: kedit.cpp:261
+#: kedit.cpp:262
 msgid "&Find..."
 msgstr "&Εύρεση"
 
-#: kedit.cpp:263
+#: kedit.cpp:264
 msgid "Find &Again"
 msgstr "Εύρεση &επομένου"
 
-#: kedit.cpp:265
+#: kedit.cpp:266
 msgid "&Replace"
 msgstr "&Αντικατάσταση"
 
-#: kedit.cpp:267
+#: kedit.cpp:268
 msgid "Spellcheck..."
 msgstr ""
 
-#: kedit.cpp:272
+#: kedit.cpp:273
 msgid "&Goto Line..."
 msgstr "&Πήγαινε στην γραμμή"
 
-#: kedit.cpp:276
+#: kedit.cpp:277
 #, fuzzy
 msgid "&Font..."
 msgstr "&Γραμματοσειρά"
 
-#: kedit.cpp:278
+#: kedit.cpp:279
 #, fuzzy
 msgid "&Colors"
 msgstr "Χρώματα"
 
-#: kedit.cpp:283
+#: kedit.cpp:284
 msgid "KEdit &Options..."
 msgstr "&Επιλογές KEdit"
 
-#: kedit.cpp:285
+#: kedit.cpp:286
 msgid "Auto &Indent"
 msgstr "Αυτόματη &Περιθοροποίηση"
 
-#: kedit.cpp:288
+#: kedit.cpp:289
 msgid "&Tool Bar"
 msgstr "Μπάρα &Εργαλείων"
 
-#: kedit.cpp:290
+#: kedit.cpp:291
 msgid "&Status Bar"
 msgstr "Μπάρα &Κατάστασης"
 
-#: kedit.cpp:293
+#: kedit.cpp:294
 msgid "Save Options"
 msgstr "Επιλογές σωσίματος"
 
-#: kedit.cpp:332
+#: kedit.cpp:333
 msgid "New Document"
 msgstr "Νέο Έγραφο"
 
-#: kedit.cpp:338
+#: kedit.cpp:339
 msgid "Open Document"
 msgstr "’νοιγμα Εγγράφου"
 
-#: kedit.cpp:343
+#: kedit.cpp:344
 msgid "Save Document"
 msgstr "Σώσιμο Εγγράφου"
 
-#: kedit.cpp:368 print.cpp:91
+#: kedit.cpp:369 print.cpp:91
 msgid "Print Document"
 msgstr "Εκτύπωση Εγγράφου"
 
-#: kedit.cpp:373
+#: kedit.cpp:374
 msgid "Mail Document"
 msgstr "Επιστολή"
 
-#: kedit.cpp:605
+#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:697
+#: keditcl2.cpp:804
+msgid "Done"
+msgstr ""
+
+#: kedit.cpp:606
 msgid "Open Location:"
 msgstr "’νοιγμα Τοποθεσιάς"
 
-#: kedit.cpp:619
+#: kedit.cpp:620
 msgid "Save to Location:"
 msgstr "Σώσιμο σε Τοποθεσία"
 
-#: kedit.cpp:645 kedit.cpp:708 kedit.cpp:737 kedit.cpp:800 kedit.cpp:1194
+#: kedit.cpp:646 kedit.cpp:709 kedit.cpp:738 kedit.cpp:801 kedit.cpp:1199
 msgid "Message"
 msgstr "Μήνυμα"
 
-#: kedit.cpp:646 kedit.cpp:801
+#: kedit.cpp:647 kedit.cpp:802
 msgid ""
 "This Document has been modified.\n"
 "Would you like to save it?"
@@ -165,7 +170,7 @@ msgstr ""
 "Αυτό το έγγραφο τροποποιήθηκε.\n"
 "Θα θέλατε να αποθηκευτεί;"
 
-#: kedit.cpp:663 kedit.cpp:818
+#: kedit.cpp:664 kedit.cpp:819
 msgid ""
 "Could not save the file.\n"
 "Exit anyways?"
@@ -173,7 +178,7 @@ msgstr ""
 "Το αρχείο δεν αποθηκεύτηκε.\n"
 "Θέλετε να τερματιστεί η εφαρμογή;"
 
-#: kedit.cpp:709
+#: kedit.cpp:710
 msgid ""
 "There are windows with modified content open.\n"
 "If you exit now, you will loose those changes\n"
@@ -183,7 +188,7 @@ msgstr ""
 "Αν τερματιστεί η εφαρμογή τώρα θα χαθούν αυτλες οι αλλαγές.\n"
 "Θέλετε να τερματιστεί η εφαρμογή ούτως ή άλλως;"
 
-#: kedit.cpp:738
+#: kedit.cpp:739
 msgid ""
 "The current document has been modified.\n"
 "Continue anyways ?"
@@ -191,45 +196,45 @@ msgstr ""
 "Το παρόν κείμενο έχει τροποποιηθεί.\n"
 "Θέλετε να συνεχίσετε ούτως ή άλλως;"
 
-#: kedit.cpp:879
+#: kedit.cpp:880
 #, c-format
 msgid "Wrote: %s"
 msgstr "Γράψατε: %s"
 
-#: kedit.cpp:885
+#: kedit.cpp:886
 msgid "No changes need to be saved"
 msgstr "Δεν χρειάζεται να αποθηκευτούν οι αλλαγές"
 
-#: kedit.cpp:904
+#: kedit.cpp:905
 #, c-format
 msgid "Saved as: %s"
 msgstr "Αποθηκεύτηκε ως: %s"
 
-#: kedit.cpp:937
+#: kedit.cpp:938
 #, c-format
 msgid ""
 "Could not pipe the contentsof this Document into:\n"
 " %s"
 msgstr ""
 
-#: kedit.cpp:1031
+#: kedit.cpp:1032
 msgid "Auto Indent Mode: On"
 msgstr ""
 
-#: kedit.cpp:1033
+#: kedit.cpp:1034
 msgid "Auto Indent Mode: Off"
 msgstr ""
 
-#: kedit.cpp:1129
+#: kedit.cpp:1130
 #, c-format
 msgid "Line: %d Col: %d"
 msgstr "Γραμμή: %d Στήλη: %d"
 
-#: filldlg.cpp:31 kedit.cpp:1146
+#: filldlg.cpp:31 kedit.cpp:1147
 msgid "KEdit Options"
 msgstr "Επιλογές του KEdit"
 
-#: kedit.cpp:1195
+#: kedit.cpp:1200
 msgid ""
 "The current document has been modified.\n"
 "Would you like to save the changes before \n"
@@ -239,7 +244,7 @@ msgstr ""
 "Θα θέλατε να σώσετε της αλλαγές πριν \n"
 "εκτύπωσετε αυτό το έγγραφο;"
 
-#: kedit.cpp:1213
+#: kedit.cpp:1218
 msgid ""
 "Could not save the file.\n"
 "Print anyways?"
@@ -247,35 +252,35 @@ msgstr ""
 "Το κείμενο δεν αποθηκεύτηκε.\n"
 "Θέλετε να εκτυπωθεί ούτως ή άλλως;"
 
-#: kedit.cpp:1306
+#: kedit.cpp:1311
 #, c-format
 msgid "Printing: %s Untitled (Selection)"
 msgstr ""
 
-#: kedit.cpp:1309
+#: kedit.cpp:1314
 #, c-format
 msgid "Printing: %s Untitled"
 msgstr ""
 
-#: kedit.cpp:1347
+#: kedit.cpp:1352
 #, c-format
 msgid "Printing: %s"
 msgstr ""
 
-#: kedit.cpp:1357
+#: kedit.cpp:1362
 #, c-format
 msgid "Printing: %s %s (Selection)"
 msgstr ""
 
-#: kedit.cpp:1381
+#: kedit.cpp:1386
 msgid "Saving ..."
 msgstr ""
 
-#: kedit.cpp:1388
+#: kedit.cpp:1393
 msgid "Loading ..."
 msgstr ""
 
-#: kedit.cpp:1422 kedit.cpp:1515
+#: kedit.cpp:1427 kedit.cpp:1520
 msgid ""
 "KEdit is already waiting\n"
 "for an internet job to finish\n"
@@ -287,11 +292,11 @@ msgstr ""
 "Παρακαλώ να περιμένετε μέχρι να ολοκληρωθεί\n"
 "Διαφορετικά τερματίστε την τρέχουσα."
 
-#: kedit.cpp:1439 kedit.cpp:1534
+#: kedit.cpp:1444 kedit.cpp:1539
 msgid "Could not start or find KFM"
 msgstr ""
 
-#: kedit.cpp:1481
+#: kedit.cpp:1486
 #, c-format
 msgid ""
 "Malformed URL\n"
@@ -300,45 +305,45 @@ msgstr ""
 "Λάθος δοσμένο URL\n"
 "%s"
 
-#: kedit.cpp:1501
+#: kedit.cpp:1506
 #, c-format
 msgid "Loading '%s'"
 msgstr "Φορτώνοντας το '%s'"
 
-#: kedit.cpp:1525
+#: kedit.cpp:1530
 msgid "Calling KFM"
 msgstr "Καλώντας το KFM"
 
-#: kedit.cpp:1544
+#: kedit.cpp:1549
 msgid "Starting Job"
 msgstr "Έναρξη Εργασίας"
 
-#: kedit.cpp:1547
+#: kedit.cpp:1552
 msgid "Connected"
 msgstr "Συνδεμένος"
 
-#: kedit.cpp:1549
+#: kedit.cpp:1554
 msgid "Waiting..."
 msgstr "Περιμένοντας..."
 
-#: kedit.cpp:1557
+#: kedit.cpp:1562
 #, c-format
 msgid "Finished '%s'"
 msgstr "Ολοκληρόθηκε το '%s'"
 
-#: kedit.cpp:1598
+#: kedit.cpp:1603
 msgid "New Window"
 msgstr "Νέο Παράθυρο"
 
-#: kedit.cpp:1602
+#: kedit.cpp:1607
 msgid "New Window Created"
 msgstr "Το νέο παράθυρο δημιουργήθηκε"
 
-#: kedit.cpp:1608
+#: kedit.cpp:1613
 msgid "Load Command Done"
 msgstr "Ολοκληρόθηκε η εντολή φορτώσεως"
 
-#: kedit.cpp:2020
+#: kedit.cpp:2034
 #, c-format
 msgid ""
 "Can not create:\n"
@@ -347,7 +352,7 @@ msgstr ""
 "Δεν μπορεσα να δημιουργήσω: \n"
 "%s"
 
-#: kedit.cpp:2059
+#: kedit.cpp:2073
 #, fuzzy
 msgid "Spellchecker Options"
 msgstr "Επιλογές σωσίματος"
@@ -356,7 +361,7 @@ msgstr "Επιλογές σωσίματος"
 msgid "The specified File does not exist"
 msgstr ""
 
-#: keditcl1.cpp:150 keditcl1.cpp:423 keditcl1.cpp:507 keditcl1.cpp:1687
+#: keditcl1.cpp:150 keditcl1.cpp:423 keditcl1.cpp:507 keditcl1.cpp:1690
 msgid "Sorry:"
 msgstr ""
 
@@ -372,7 +377,7 @@ msgstr ""
 msgid "An Error occured while trying to open this Document"
 msgstr ""
 
-#: keditcl1.cpp:402 keditcl1.cpp:487 keditcl1.cpp:1629
+#: keditcl1.cpp:402 keditcl1.cpp:487 keditcl1.cpp:1632
 msgid "Warning:"
 msgstr ""
 
@@ -403,20 +408,20 @@ msgstr ""
 "Το κείμενο δεν αποθηκεύτηκε.\n"
 "Θέλετε να εκτυπωθεί ούτως ή άλλως;"
 
-#: keditcl1.cpp:1546
+#: keditcl1.cpp:1549
 #, fuzzy
 msgid "Could not save the document\n"
 msgstr ""
 "Το κείμενο δεν αποθηκεύτηκε.\n"
 "Θέλετε να εκτυπωθεί ούτως ή άλλως;"
 
-#: keditcl1.cpp:1630
+#: keditcl1.cpp:1633
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
 msgstr ""
 
-#: keditcl1.cpp:1688
+#: keditcl1.cpp:1691
 msgid "You do not have write permission to this file.\n"
 msgstr ""
 
@@ -491,14 +496,18 @@ msgid "Set Fill-Column at:"
 msgstr ""
 
 #: filldlg.cpp:40
-msgid "Word Warp"
+msgid "Word Wrap"
 msgstr ""
 
-#: filldlg.cpp:44
+#: filldlg.cpp:42
+msgid "Backup Copies"
+msgstr ""
+
+#: filldlg.cpp:46
 msgid "Mail Command:"
 msgstr ""
 
-#: filldlg.cpp:135
+#: filldlg.cpp:140
 msgid "You must enter an integer."
 msgstr "Πρέπει να εισαγάγετε ακέραιο"
 

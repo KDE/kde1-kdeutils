@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-02-03 15:00+0100\n"
 "Last-Translator: Rizzi Andrea <Bilibao@Ouverture.it>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,9 +85,9 @@ msgstr "&Ferma"
 msgid "&Task"
 msgstr "&Task"
 
-#: top.cpp:71
-msgid "&Contents"
-msgstr "&Contenuti"
+#: top.cpp:61
+msgid "&New"
+msgstr ""
 
 #: top.cpp:74
 #, fuzzy
@@ -133,6 +133,9 @@ msgstr ""
 #: top.cpp:161
 msgid "clock active"
 msgstr "orologio attivo"
+
+#~ msgid "&Contents"
+#~ msgstr "&Contenuti"
 
 #~ msgid "&Start"
 #~ msgstr "&Avvia"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KARM\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,9 +90,9 @@ msgstr "&Pysäytä"
 msgid "&Task"
 msgstr "&Tehtävä"
 
-#: top.cpp:71
-msgid "&Contents"
-msgstr "&Sisältö"
+#: top.cpp:61
+msgid "&New"
+msgstr ""
 
 #: top.cpp:74
 msgid "&About"
@@ -137,3 +137,6 @@ msgstr ""
 #: top.cpp:161
 msgid "clock active"
 msgstr "kello käynnissä"
+
+#~ msgid "&Contents"
+#~ msgstr "&Sisältö"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kzip\n"
-"POT-Creation-Date: 1998-10-02 01:45+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-05-11 14:21+0100\n"
 "Last-Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
 "Language-Team: German <de@li.org>\n"
@@ -49,6 +49,10 @@ msgstr "Ausgewählte Datei"
 #: extractdlg.cc:45
 msgid "Pattern"
 msgstr "Maske"
+
+#: kzip.cc:70
+msgid "&New..."
+msgstr ""
 
 #: kzip.cc:73
 msgid "&Extract To..."

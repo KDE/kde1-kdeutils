@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-02 01:45+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-10-09 11:06:57-0400\n"
@@ -49,6 +49,10 @@ msgstr "Seleccionado"
 #: extractdlg.cc:45
 msgid "Pattern"
 msgstr "Padrão"
+
+#: kzip.cc:70
+msgid "&New..."
+msgstr ""
 
 #: kzip.cc:73
 msgid "&Extract To..."

@@ -6,157 +6,162 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kedit\n"
-"POT-Creation-Date: 1998-10-05 12:37+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-02-21 05:28:+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: kedit.cpp:85 kedit.cpp:1090
+#: kedit.cpp:85 kedit.cpp:1091
 msgid "Show &Tool Bar"
 msgstr "顯示工作列[&T]"
 
-#: kedit.cpp:87 kedit.cpp:1083
+#: kedit.cpp:87 kedit.cpp:1084
 msgid "Hide &Tool Bar"
 msgstr "隱藏工作列[&T]"
 
-#: kedit.cpp:90 kedit.cpp:1070
+#: kedit.cpp:90 kedit.cpp:1071
 msgid "Show &Status Bar"
 msgstr "顯示狀態列[&S]"
 
-#: kedit.cpp:92 kedit.cpp:1063
+#: kedit.cpp:92 kedit.cpp:1064
 msgid "Hide &Status Bar"
 msgstr "隱藏狀態列[&S]"
 
-#: kedit.cpp:153
+#: kedit.cpp:154
 msgid "Select All"
 msgstr "選擇全部"
 
-#: kedit.cpp:156
+#: kedit.cpp:157
 #, fuzzy
 msgid "Font..."
 msgstr "尋找...[&F]"
 
-#: kedit.cpp:200
+#: kedit.cpp:201
 msgid "Ne&w..."
 msgstr "新文件...[&N]"
 
-#: kedit.cpp:207
+#: kedit.cpp:208
 msgid "Open Recen&t..."
 msgstr "開啟最近的文件...[&T]"
 
-#: kedit.cpp:219
+#: kedit.cpp:220
 msgid "Open &URL..."
 msgstr "開啟 &URL"
 
-#: kedit.cpp:221
+#: kedit.cpp:222
 msgid "Save to U&RL..."
 msgstr "儲存至 U&RL"
 
-#: kedit.cpp:237
+#: kedit.cpp:238
 msgid "&Mail..."
 msgstr "郵寄[&M]"
 
-#: kedit.cpp:241
+#: kedit.cpp:242
 msgid "New &Window"
 msgstr "新視窗 [&W]"
 
-#: kedit.cpp:253
+#: kedit.cpp:254
 msgid "&Select All"
 msgstr "選擇全部[&S]"
 
-#: kedit.cpp:256
+#: kedit.cpp:257
 msgid "&Insert File"
 msgstr "插入檔案[&I]"
 
-#: kedit.cpp:258
+#: kedit.cpp:259
 msgid "Insert &Date"
 msgstr "插入日期[&D]"
 
-#: kedit.cpp:261
+#: kedit.cpp:262
 msgid "&Find..."
 msgstr "尋找...[&F]"
 
-#: kedit.cpp:263
+#: kedit.cpp:264
 msgid "Find &Again"
 msgstr "再尋找[&A]"
 
-#: kedit.cpp:265
+#: kedit.cpp:266
 msgid "&Replace"
 msgstr "取代[&R]"
 
-#: kedit.cpp:267
+#: kedit.cpp:268
 msgid "Spellcheck..."
 msgstr ""
 
-#: kedit.cpp:272
+#: kedit.cpp:273
 msgid "&Goto Line..."
 msgstr "跳至行數...[&G]"
 
-#: kedit.cpp:276
+#: kedit.cpp:277
 #, fuzzy
 msgid "&Font..."
 msgstr "字型[&F]"
 
-#: kedit.cpp:278
+#: kedit.cpp:279
 #, fuzzy
 msgid "&Colors"
 msgstr "顏色"
 
-#: kedit.cpp:283
+#: kedit.cpp:284
 msgid "KEdit &Options..."
 msgstr "KEdit 選項[&O]"
 
-#: kedit.cpp:285
+#: kedit.cpp:286
 msgid "Auto &Indent"
 msgstr "自動換行[&I]"
 
-#: kedit.cpp:288
+#: kedit.cpp:289
 msgid "&Tool Bar"
 msgstr "工具列[&T]"
 
-#: kedit.cpp:290
+#: kedit.cpp:291
 msgid "&Status Bar"
 msgstr "狀態列[&S]"
 
-#: kedit.cpp:293
+#: kedit.cpp:294
 msgid "Save Options"
 msgstr "儲存選項"
 
-#: kedit.cpp:332
+#: kedit.cpp:333
 msgid "New Document"
 msgstr "新文件"
 
-#: kedit.cpp:338
+#: kedit.cpp:339
 msgid "Open Document"
 msgstr "開啟文件"
 
-#: kedit.cpp:343
+#: kedit.cpp:344
 msgid "Save Document"
 msgstr "儲存文件"
 
-#: kedit.cpp:368 print.cpp:91
+#: kedit.cpp:369 print.cpp:91
 msgid "Print Document"
 msgstr "列印文件"
 
-#: kedit.cpp:373
+#: kedit.cpp:374
 msgid "Mail Document"
 msgstr "郵件文件"
 
-#: kedit.cpp:605
+#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:697
+#: keditcl2.cpp:804
+msgid "Done"
+msgstr ""
+
+#: kedit.cpp:606
 msgid "Open Location:"
 msgstr "開啟位置:"
 
-#: kedit.cpp:619
+#: kedit.cpp:620
 msgid "Save to Location:"
 msgstr "儲存至位置:"
 
-#: kedit.cpp:645 kedit.cpp:708 kedit.cpp:737 kedit.cpp:800 kedit.cpp:1194
+#: kedit.cpp:646 kedit.cpp:709 kedit.cpp:738 kedit.cpp:801 kedit.cpp:1199
 msgid "Message"
 msgstr "訊息"
 
-#: kedit.cpp:646 kedit.cpp:801
+#: kedit.cpp:647 kedit.cpp:802
 msgid ""
 "This Document has been modified.\n"
 "Would you like to save it?"
@@ -164,7 +169,7 @@ msgstr ""
 "目前的文件已經被修改.\n"
 "要儲存嗎?"
 
-#: kedit.cpp:663 kedit.cpp:818
+#: kedit.cpp:664 kedit.cpp:819
 msgid ""
 "Could not save the file.\n"
 "Exit anyways?"
@@ -172,7 +177,7 @@ msgstr ""
 "不能儲存這份文件.\n"
 "直接結束嗎?"
 
-#: kedit.cpp:709
+#: kedit.cpp:710
 msgid ""
 "There are windows with modified content open.\n"
 "If you exit now, you will loose those changes\n"
@@ -182,7 +187,7 @@ msgstr ""
 "如果現在結束, 將會失去這些變更\n"
 "直接離開?"
 
-#: kedit.cpp:738
+#: kedit.cpp:739
 msgid ""
 "The current document has been modified.\n"
 "Continue anyways ?"
@@ -190,21 +195,21 @@ msgstr ""
 "目前的文件已經被修改.\n"
 "要繼續嗎 ?"
 
-#: kedit.cpp:879
+#: kedit.cpp:880
 #, c-format
 msgid "Wrote: %s"
 msgstr "寫入: %s"
 
-#: kedit.cpp:885
+#: kedit.cpp:886
 msgid "No changes need to be saved"
 msgstr "沒有需要儲存的變更"
 
-#: kedit.cpp:904
+#: kedit.cpp:905
 #, c-format
 msgid "Saved as: %s"
 msgstr "儲存成: %s"
 
-#: kedit.cpp:937
+#: kedit.cpp:938
 #, c-format
 msgid ""
 "Could not pipe the contentsof this Document into:\n"
@@ -213,24 +218,24 @@ msgstr ""
 "無法將文件內容經由管線輸入至:\n"
 " %s"
 
-#: kedit.cpp:1031
+#: kedit.cpp:1032
 msgid "Auto Indent Mode: On"
 msgstr "自動換行模式: 開啟"
 
-#: kedit.cpp:1033
+#: kedit.cpp:1034
 msgid "Auto Indent Mode: Off"
 msgstr "自動換行模式: 關閉"
 
-#: kedit.cpp:1129
+#: kedit.cpp:1130
 #, c-format
 msgid "Line: %d Col: %d"
 msgstr "行數: %d 列數: %d"
 
-#: filldlg.cpp:31 kedit.cpp:1146
+#: filldlg.cpp:31 kedit.cpp:1147
 msgid "KEdit Options"
 msgstr "KEdit 選項"
 
-#: kedit.cpp:1195
+#: kedit.cpp:1200
 msgid ""
 "The current document has been modified.\n"
 "Would you like to save the changes before \n"
@@ -240,7 +245,7 @@ msgstr ""
 "在印這份文件之前,\n"
 "要儲存變更嗎?"
 
-#: kedit.cpp:1213
+#: kedit.cpp:1218
 msgid ""
 "Could not save the file.\n"
 "Print anyways?"
@@ -248,35 +253,35 @@ msgstr ""
 "不能儲存此檔案.\n"
 "直接印出來?"
 
-#: kedit.cpp:1306
+#: kedit.cpp:1311
 #, c-format
 msgid "Printing: %s Untitled (Selection)"
 msgstr "列印中: %s 未命名 (選定)"
 
-#: kedit.cpp:1309
+#: kedit.cpp:1314
 #, c-format
 msgid "Printing: %s Untitled"
 msgstr "列印中: %s 未命名"
 
-#: kedit.cpp:1347
+#: kedit.cpp:1352
 #, c-format
 msgid "Printing: %s"
 msgstr "列印中: %s"
 
-#: kedit.cpp:1357
+#: kedit.cpp:1362
 #, c-format
 msgid "Printing: %s %s (Selection)"
 msgstr "列印: %s %s (選定)"
 
-#: kedit.cpp:1381
+#: kedit.cpp:1386
 msgid "Saving ..."
 msgstr "儲存中..."
 
-#: kedit.cpp:1388
+#: kedit.cpp:1393
 msgid "Loading ..."
 msgstr "載入中..."
 
-#: kedit.cpp:1422 kedit.cpp:1515
+#: kedit.cpp:1427 kedit.cpp:1520
 msgid ""
 "KEdit is already waiting\n"
 "for an internet job to finish\n"
@@ -284,11 +289,11 @@ msgid ""
 "Alternatively stop the running one."
 msgstr ""
 
-#: kedit.cpp:1439 kedit.cpp:1534
+#: kedit.cpp:1444 kedit.cpp:1539
 msgid "Could not start or find KFM"
 msgstr "無法開啟或找不到 KFM"
 
-#: kedit.cpp:1481
+#: kedit.cpp:1486
 #, c-format
 msgid ""
 "Malformed URL\n"
@@ -297,45 +302,45 @@ msgstr ""
 "不正確的 URL\n"
 "%s"
 
-#: kedit.cpp:1501
+#: kedit.cpp:1506
 #, c-format
 msgid "Loading '%s'"
 msgstr "'%s' 載入中"
 
-#: kedit.cpp:1525
+#: kedit.cpp:1530
 msgid "Calling KFM"
 msgstr "呼叫 KFM 中"
 
-#: kedit.cpp:1544
+#: kedit.cpp:1549
 msgid "Starting Job"
 msgstr "開始工作中"
 
-#: kedit.cpp:1547
+#: kedit.cpp:1552
 msgid "Connected"
 msgstr "連接"
 
-#: kedit.cpp:1549
+#: kedit.cpp:1554
 msgid "Waiting..."
 msgstr "等待中..."
 
-#: kedit.cpp:1557
+#: kedit.cpp:1562
 #, c-format
 msgid "Finished '%s'"
 msgstr "結束 '%s'"
 
-#: kedit.cpp:1598
+#: kedit.cpp:1603
 msgid "New Window"
 msgstr "新視窗"
 
-#: kedit.cpp:1602
+#: kedit.cpp:1607
 msgid "New Window Created"
 msgstr "新視窗開啟"
 
-#: kedit.cpp:1608
+#: kedit.cpp:1613
 msgid "Load Command Done"
 msgstr "載入命令完畢 "
 
-#: kedit.cpp:2020
+#: kedit.cpp:2034
 #, c-format
 msgid ""
 "Can not create:\n"
@@ -344,7 +349,7 @@ msgstr ""
 "無法 create:\n"
 "%s"
 
-#: kedit.cpp:2059
+#: kedit.cpp:2073
 #, fuzzy
 msgid "Spellchecker Options"
 msgstr "儲存選項"
@@ -353,7 +358,7 @@ msgstr "儲存選項"
 msgid "The specified File does not exist"
 msgstr ""
 
-#: keditcl1.cpp:150 keditcl1.cpp:423 keditcl1.cpp:507 keditcl1.cpp:1687
+#: keditcl1.cpp:150 keditcl1.cpp:423 keditcl1.cpp:507 keditcl1.cpp:1690
 msgid "Sorry:"
 msgstr ""
 
@@ -369,7 +374,7 @@ msgstr ""
 msgid "An Error occured while trying to open this Document"
 msgstr ""
 
-#: keditcl1.cpp:402 keditcl1.cpp:487 keditcl1.cpp:1629
+#: keditcl1.cpp:402 keditcl1.cpp:487 keditcl1.cpp:1632
 msgid "Warning:"
 msgstr ""
 
@@ -400,20 +405,20 @@ msgstr ""
 "不能儲存此檔案.\n"
 "直接印出來?"
 
-#: keditcl1.cpp:1546
+#: keditcl1.cpp:1549
 #, fuzzy
 msgid "Could not save the document\n"
 msgstr ""
 "不能儲存此檔案.\n"
 "直接印出來?"
 
-#: keditcl1.cpp:1630
+#: keditcl1.cpp:1633
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
 msgstr ""
 
-#: keditcl1.cpp:1688
+#: keditcl1.cpp:1691
 msgid "You do not have write permission to this file.\n"
 msgstr ""
 
@@ -488,14 +493,19 @@ msgid "Set Fill-Column at:"
 msgstr ""
 
 #: filldlg.cpp:40
-msgid "Word Warp"
+#, fuzzy
+msgid "Word Wrap"
 msgstr "字迴繞"
 
-#: filldlg.cpp:44
+#: filldlg.cpp:42
+msgid "Backup Copies"
+msgstr ""
+
+#: filldlg.cpp:46
 msgid "Mail Command:"
 msgstr "郵寄命令"
 
-#: filldlg.cpp:135
+#: filldlg.cpp:140
 msgid "You must enter an integer."
 msgstr "必須輸入一個整數 "
 

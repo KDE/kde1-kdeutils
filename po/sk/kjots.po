@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kjots\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-08-17 10:00+0200\n"
 "Last-Translator: Juraj Bednar <bednar@isternet.sk>\n"
 "Language-Team: Slovak <sk@li.org>\n"
@@ -21,103 +21,103 @@ msgstr "Názov knihy:"
 msgid "Open URL"
 msgstr "Otvori» URL"
 
-#: KJotsMain.cpp:343
+#: KJotsMain.cpp:344
 msgid "New Book"
 msgstr "Nová kniha"
 
-#: KJotsMain.cpp:353
+#: KJotsMain.cpp:354
 msgid "PreviousPage"
 msgstr "PredchádzajúcaStrana"
 
-#: KJotsMain.cpp:354
+#: KJotsMain.cpp:355
 msgid "NextPage"
 msgstr "NasledujúcaStrana"
 
-#: KJotsMain.cpp:355
+#: KJotsMain.cpp:356
 msgid "ShowSubjectList"
 msgstr "Uká¾ZoznamPredmetov"
 
-#: KJotsMain.cpp:356
+#: KJotsMain.cpp:357
 msgid "AddNewPage"
 msgstr "PridajNovúStranu"
 
-#: KJotsMain.cpp:357
+#: KJotsMain.cpp:358
 msgid "MoveFocus"
 msgstr "PresuòZameranie"
 
-#: KJotsMain.cpp:358
+#: KJotsMain.cpp:359
 msgid "CopySelection"
 msgstr "KopírujVoµbu"
 
-#: KJotsMain.cpp:370
+#: KJotsMain.cpp:371
 msgid "&New Book"
 msgstr "&Nová kniha"
 
-#: KJotsMain.cpp:374
+#: KJotsMain.cpp:375
 msgid "Save current book"
 msgstr "Ulo¾ súèasnú knihu"
 
-#: KJotsMain.cpp:376
+#: KJotsMain.cpp:377
 msgid "Save book to ascii file"
 msgstr "Ulo¾i» knihu do ASCII súboru"
 
-#: KJotsMain.cpp:377
+#: KJotsMain.cpp:378
 msgid "Save page to ascii file"
 msgstr "Ulo¾i» stranu do ASCII súboru"
 
-#: KJotsMain.cpp:379 KJotsMain.cpp:662
+#: KJotsMain.cpp:380 KJotsMain.cpp:663
 msgid "Delete current book"
 msgstr "Zmaza» súèasnú knihu"
 
-#: KJotsMain.cpp:393
+#: KJotsMain.cpp:394
 msgid "&New Page"
 msgstr "&Nová strana"
 
-#: KJotsMain.cpp:395
+#: KJotsMain.cpp:396
 msgid "&Delete Page"
 msgstr "&Zmaza» stranu"
 
-#: KJotsMain.cpp:398
+#: KJotsMain.cpp:399
 msgid "&Config"
 msgstr "&Nastavi»"
 
-#: KJotsMain.cpp:399
+#: KJotsMain.cpp:400
 msgid "Configure &Keys"
 msgstr "Nastavi» &Klávesy"
 
-#: KJotsMain.cpp:402
+#: KJotsMain.cpp:403
 msgid "Add current book to hotlist"
 msgstr "Prida» súèasnú knihu do hotlistu"
 
-#: KJotsMain.cpp:404
+#: KJotsMain.cpp:405
 msgid "Remove current book from hotlist"
 msgstr "Zru¹i» súèasnú knihu z hotlistu"
 
-#: KJotsMain.cpp:409
+#: KJotsMain.cpp:410
 msgid "Hot&list"
 msgstr "Hot&list"
 
-#: KJotsMain.cpp:411
+#: KJotsMain.cpp:412
 msgid "&Books"
 msgstr "&Knihy"
 
-#: KJotsMain.cpp:414
+#: KJotsMain.cpp:415
 msgid "by"
 msgstr "podµa"
 
-#: KJotsMain.cpp:615
+#: KJotsMain.cpp:616
 msgid "A book with this name already exists."
 msgstr "Kniha s takým menom u¾ existuje."
 
-#: KJotsMain.cpp:663
+#: KJotsMain.cpp:664
 msgid "Are you sure you want to delete the current book ?"
 msgstr "Ste si istý, ¾e chcete zmaza» súèasnú knihu ?"
 
-#: KJotsMain.cpp:914 KJotsMain.cpp:943
+#: KJotsMain.cpp:915 KJotsMain.cpp:944
 msgid "File exists !"
 msgstr "Súbor existuje !"
 
-#: KJotsMain.cpp:915 KJotsMain.cpp:944
+#: KJotsMain.cpp:916 KJotsMain.cpp:945
 msgid ""
 "File already exists. \n"
 " Do you want to overwrite it ?"

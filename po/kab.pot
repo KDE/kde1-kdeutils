@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-04 18:28+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,66 +48,66 @@ msgstr ""
 msgid "KDE addressbook."
 msgstr ""
 
-#: toplevelwidget.cc:75
+#: toplevelwidget.cc:76
 msgid "HTML table"
 msgstr ""
 
-#: toplevelwidget.cc:84
+#: toplevelwidget.cc:85
 msgid "Export"
 msgstr ""
 
-#: toplevelwidget.cc:86
+#: toplevelwidget.cc:87
 msgid "Search &entries"
 msgstr ""
 
-#: toplevelwidget.cc:88
+#: toplevelwidget.cc:89
 msgid "&Print"
 msgstr ""
 
-#: toplevelwidget.cc:100
+#: toplevelwidget.cc:101
 msgid "&Add entry"
 msgstr ""
 
-#: toplevelwidget.cc:102
+#: toplevelwidget.cc:103
 msgid "&Edit entry"
 msgstr ""
 
-#: toplevelwidget.cc:104
+#: toplevelwidget.cc:105
 msgid "&Remove entry"
 msgstr ""
 
-#: toplevelwidget.cc:116
+#: toplevelwidget.cc:117
 msgid "&Mail"
 msgstr ""
 
-#: toplevelwidget.cc:118
+#: toplevelwidget.cc:119
 msgid "&Talk"
 msgstr ""
 
-#: toplevelwidget.cc:120
+#: toplevelwidget.cc:121
 msgid "&Browse"
 msgstr ""
 
-#: toplevelwidget.cc:125
+#: toplevelwidget.cc:126
 msgid "Help on Addressbook"
 msgstr ""
 
-#: toplevelwidget.cc:130
+#: toplevelwidget.cc:131
 msgid "About Addressbook"
 msgstr ""
 
-#: toplevelwidget.cc:132
+#: toplevelwidget.cc:133
 msgid "About &Qt"
 msgstr ""
 
-#: toplevelwidget.cc:133
+#: toplevelwidget.cc:134
 msgid "About &KDE"
 msgstr ""
 
-#: toplevelwidget.cc:140
+#: toplevelwidget.cc:141
 msgid "&About"
 msgstr ""
 
-#: toplevelwidget.cc:190
+#: toplevelwidget.cc:192
 msgid "About Qt"
 msgstr ""

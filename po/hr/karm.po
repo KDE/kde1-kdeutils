@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-03-15 20:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian\n"
@@ -89,9 +89,9 @@ msgstr "Zau&stavi"
 msgid "&Task"
 msgstr "&Zadatak"
 
-#: top.cpp:71
-msgid "&Contents"
-msgstr "Sa&dr¾aj"
+#: top.cpp:61
+msgid "&New"
+msgstr ""
 
 #: top.cpp:74
 #, fuzzy
@@ -137,6 +137,9 @@ msgstr ""
 #: top.cpp:161
 msgid "clock active"
 msgstr "sat aktivan"
+
+#~ msgid "&Contents"
+#~ msgstr "Sa&dr¾aj"
 
 #~ msgid "&Start"
 #~ msgstr "&Pokreni"

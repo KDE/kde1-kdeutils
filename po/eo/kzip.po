@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kzip 1.0pre2\n"
-"POT-Creation-Date: 1998-10-02 01:45+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-07-19 10:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -53,6 +53,10 @@ msgstr "Elektitaj"
 #: extractdlg.cc:45
 msgid "Pattern"
 msgstr "laý Þablono"
+
+#: kzip.cc:70
+msgid "&New..."
+msgstr ""
 
 #: kzip.cc:73
 msgid "&Extract To..."

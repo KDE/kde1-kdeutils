@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kzip\n"
-"POT-Creation-Date: 1998-10-02 01:45+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-06-13 01:28+0100\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
@@ -52,6 +52,10 @@ msgstr "Fitxer seleccionat"
 #: extractdlg.cc:45
 msgid "Pattern"
 msgstr "Patró"
+
+#: kzip.cc:70
+msgid "&New..."
+msgstr ""
 
 #: kzip.cc:73
 msgid "&Extract To..."

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kzip\n"
-"POT-Creation-Date: 1998-10-02 01:45+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: 1998-06-20 17:03 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -52,6 +52,10 @@ msgstr "Vybrané"
 #: extractdlg.cc:45
 msgid "Pattern"
 msgstr "Maska"
+
+#: kzip.cc:70
+msgid "&New..."
+msgstr ""
 
 #: kzip.cc:73
 msgid "&Extract To..."
