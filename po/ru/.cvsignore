@@ -2,3 +2,5 @@ Makefile.in
 Makefile
 khexdit.gmo
 kedit.gmo
+knotes.gmo
+kzip.gmo
