@@ -8,7 +8,7 @@ msgstr ""
 "POT-Creation-Date: 1999-01-26 01:48+0100\n"
 "PO-Revision-Date: 1999-01-31 19:30+0100\n"
 "Last-Translator: Francois-Xavier Duranceau "
-"<Francois-Xavier.Duranceau@loria.fr>\n"
+"<duranceau@kde.org>\n"
 "Language-Team: Français <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
@@ -36,7 +36,7 @@ msgstr "Graphe de charge en icône"
 
 #: prefs.C:38
 msgid "Dock into kpanel"
-msgstr "Insérer dans le panneau"
+msgstr "Placer sur le tableau de bord"
 
 #: prefs.C:43
 msgid "Green/Black Load Graph"
@@ -44,11 +44,11 @@ msgstr "Graphe de charge en Vert/Noir"
 
 #: prefs.C:45
 msgid "Solid filled graph"
-msgstr ""
+msgstr "Graphe plein"
 
 #: prefs.C:50
 msgid "Host Name Lookup"
-msgstr ""
+msgstr "Recherche du nom de l'hôte"
 
 #: prefs.C:55
 msgid "Auto Save Settings on Exit"
@@ -64,7 +64,7 @@ msgstr "Fenêtre Info Socket"
 
 #: qps.C:89 qps.C:127
 msgid "Renice..."
-msgstr "Gentillesse..."
+msgstr "Courtoisie (nice)..."
 
 #: qps.C:92
 msgid "Change Scheduling..."
@@ -327,25 +327,25 @@ msgid ""
 "Only the process owner and the super-user\n"
 "are allowed to do that."
 msgstr ""
-"Vous n'avez pas la permission de changer la valeur\n"
-"de gentillesse du processus sélectionné %s.\n"
+"Vous n'avez pas la permission de changer\n"
+"la courtoisie (nice) du processus sélectionné %s.\n"
 "Seulement le super-utilisateur et le propriétaire\n"
 "du processus peuvent faire cela."
 
 #: qps.C:846
 msgid "qps: renice process"
-msgstr "qps : gentillesse du processus"
+msgstr "qps : courtoisie (nice) du processus"
 
 #: qps.C:847
 msgid "New nice value:"
-msgstr "Nouvelle valeur de gentillesse :"
+msgstr "Nouvelle valeur de courtoisie (nice) du processus :"
 
 #: qps.C:857
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
 msgstr ""
-"La valeur de gentillesse doit être\n"
+"La valeur nice doit être\n"
 "dans l'intervalle -20 à 20."
 
 #: qps.C:874
@@ -354,7 +354,7 @@ msgid ""
 "You do not have permission to renice process %d (%s).\n"
 "Only the process owner and the super-user are allowed to do that."
 msgstr ""
-"Vous n'avez pas la permisssion de modifier la gentillesse du processus %d "
+"Vous n'avez pas la permisssion de modifier la valeur nice du processus %d "
 "(%s).\n"
 "Seulement le super-utilisateur et le propriétaire du processus peuvent faire "
 "cela."
@@ -362,7 +362,7 @@ msgstr ""
 #: qps.C:886
 msgid "Only the super-user may lower the nice value of a process."
 msgstr ""
-"Seulement le super-utilisateur peut diminuer la gentillesse d'un processus."
+"Seulement le super-utilisateur peut diminuer la valeur nice d'un processus."
 
 #: qps.C:909
 msgid ""

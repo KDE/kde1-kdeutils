@@ -312,7 +312,7 @@ msgstr "Sélec&tion simple"
 
 #: kwdialog.cpp:341
 msgid "Wrap Words At:"
-msgstr "Couper les mots à :"
+msgstr "Couper à la colonne :"
 
 #: kwdialog.cpp:347
 msgid "Tab Width:"
