@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwrite 0.95\n"
-"POT-Creation-Date: 1998-12-24 01:52+0100\n"
+"POT-Creation-Date: 1998-12-29 01:52+0100\n"
 "PO-Revision-Date: 1998-12-16 21:35 CET\n"
 "Last-Translator: Francois-Xavier DURANCEAU "
 "<Francois-Xavier.Duranceau@loria.fr>\n"
@@ -74,39 +74,39 @@ msgstr "Style de l'élément"
 msgid "Item Font"
 msgstr "Police de l'élément"
 
-#: kwview.cpp:1074
+#: kwview.cpp:1098
 msgid "The specified File does not exist"
 msgstr "Le fichier spécifié n'existe pas"
 
-#: kwview.cpp:1084
+#: kwview.cpp:1108
 msgid "You have specified a directory"
 msgstr "Vous avez choisi un répertoire"
 
-#: kwview.cpp:1094
+#: kwview.cpp:1118
 msgid "You do not have read permission to this file"
 msgstr "Vous n'avez pas la permission de lire ce fichier"
 
-#: kwview.cpp:1110 kwview.cpp:1140
+#: kwview.cpp:1134 kwview.cpp:1164
 msgid "An Error occured while trying to open this Document"
 msgstr "Une erreur s'est produite pendant l'ouverture du document"
 
-#: kwview.cpp:1124
+#: kwview.cpp:1148
 msgid "You do not have write permission to this file"
 msgstr "Vous n'avez pas la permission d'écrire ce fichier"
 
-#: kwview.cpp:1177
+#: kwview.cpp:1201
 msgid "Loading..."
 msgstr "Chargement..."
 
-#: kwview.cpp:1185 kwview.cpp:1306
+#: kwview.cpp:1209 kwview.cpp:1330
 msgid "Inserted"
 msgstr "Inséré"
 
-#: kwview.cpp:1190 kwview.cpp:1315
+#: kwview.cpp:1214 kwview.cpp:1339
 msgid "Read"
 msgstr "Lu"
 
-#: kwview.cpp:1199 kwview.cpp:1257
+#: kwview.cpp:1223 kwview.cpp:1281
 msgid ""
 "KWrite is already waiting\n"
 "for an internet job to finish\n"
@@ -118,23 +118,23 @@ msgstr ""
 "Veuillez attendre la fin de cette tâche\n"
 "ou annulez-la manuellement."
 
-#: kwview.cpp:1207 kwview.cpp:1265
+#: kwview.cpp:1231 kwview.cpp:1289
 msgid "Waiting for KFM..."
 msgstr "En attente de KFM..."
 
-#: kwview.cpp:1213 kwview.cpp:1278
+#: kwview.cpp:1237 kwview.cpp:1302
 msgid "Could not start or find KFM"
 msgstr "Impossible de démarrer ou trouver KFM"
 
-#: kwview.cpp:1240
+#: kwview.cpp:1264
 msgid "Saving..."
 msgstr "Enregistrement..."
 
-#: kwview.cpp:1248 kwview.cpp:1325
+#: kwview.cpp:1272 kwview.cpp:1349
 msgid "Wrote"
 msgstr "Ecrit"
 
-#: kwview.cpp:1351
+#: kwview.cpp:1378
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -142,7 +142,7 @@ msgstr ""
 "Le document courant a été modifié.\n"
 "Voulez-vous l'enregistrer ?"
 
-#: kwview.cpp:1362
+#: kwview.cpp:1389
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -150,11 +150,11 @@ msgstr ""
 "Impossible d'enregistrer le document.\n"
 "Ouvrir néanmoins un nouveau document ?"
 
-#: kwview.cpp:1409
+#: kwview.cpp:1436
 msgid "No changes need to be saved"
 msgstr "Aucun changement à enregistrer"
 
-#: kwview.cpp:1430
+#: kwview.cpp:1457
 msgid ""
 "A Document with this Name already exists.\n"
 "Do you want to overwrite it?"
@@ -162,35 +162,35 @@ msgstr ""
 "Un document ayant le même nom existe déjà.\n"
 "Voulez-vous l'écraser ?"
 
-#: kwview.cpp:1633 kwview.cpp:1821
+#: kwview.cpp:1660 kwview.cpp:1848
 msgid "End of document reached"
 msgstr "Fin du document atteinte"
 
-#: kwview.cpp:1634 kwview.cpp:1822
+#: kwview.cpp:1661 kwview.cpp:1849
 msgid "Continue from the beginning"
 msgstr "Continuer à partir du début"
 
-#: kwview.cpp:1636 kwview.cpp:1647 kwview.cpp:1657
+#: kwview.cpp:1663 kwview.cpp:1674 kwview.cpp:1684
 msgid "Find"
 msgstr "Chercher"
 
-#: kwview.cpp:1644 kwview.cpp:1833
+#: kwview.cpp:1671 kwview.cpp:1860
 msgid "Beginning of document reached"
 msgstr "Début du document atteint"
 
-#: kwview.cpp:1645 kwview.cpp:1834
+#: kwview.cpp:1672 kwview.cpp:1861
 msgid "Continue from the end"
 msgstr "Continuer à partir de la fin"
 
-#: kwview.cpp:1658
+#: kwview.cpp:1685
 msgid "Search string not found!"
 msgstr "Chaîne de caractères introuvable !"
 
-#: kwview.cpp:1806 kwview.cpp:1820 kwview.cpp:1832
+#: kwview.cpp:1833 kwview.cpp:1847 kwview.cpp:1859
 msgid "replace(s) made"
 msgstr "remplacement(s) effectué(s)"
 
-#: kwview.cpp:1947 toplevel.cpp:486
+#: kwview.cpp:1974 toplevel.cpp:486
 msgid "Line"
 msgstr "Ligne"
 

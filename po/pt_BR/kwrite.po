@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-12-24 01:52+0100\n"
+"POT-Creation-Date: 1998-12-29 01:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Elvis Pfützenreuter <epx@netville.com.br>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,39 +73,39 @@ msgstr "Estilo de Item"
 msgid "Item Font"
 msgstr "Tipo de letra de Item"
 
-#: kwview.cpp:1074
+#: kwview.cpp:1098
 msgid "The specified File does not exist"
 msgstr "O arquivo especificado não existe"
 
-#: kwview.cpp:1084
+#: kwview.cpp:1108
 msgid "You have specified a directory"
 msgstr "Você especificou um diretório"
 
-#: kwview.cpp:1094
+#: kwview.cpp:1118
 msgid "You do not have read permission to this file"
 msgstr "Você não tem permissão de leitura a esse arquivo"
 
-#: kwview.cpp:1110 kwview.cpp:1140
+#: kwview.cpp:1134 kwview.cpp:1164
 msgid "An Error occured while trying to open this Document"
 msgstr "Um erro ocorreu ao tentar abrir este documento"
 
-#: kwview.cpp:1124
+#: kwview.cpp:1148
 msgid "You do not have write permission to this file"
 msgstr "Você não tem permissão de escrita a esse arquivo"
 
-#: kwview.cpp:1177
+#: kwview.cpp:1201
 msgid "Loading..."
 msgstr "Carregando..."
 
-#: kwview.cpp:1185 kwview.cpp:1306
+#: kwview.cpp:1209 kwview.cpp:1330
 msgid "Inserted"
 msgstr "Inserido"
 
-#: kwview.cpp:1190 kwview.cpp:1315
+#: kwview.cpp:1214 kwview.cpp:1339
 msgid "Read"
 msgstr "Lido"
 
-#: kwview.cpp:1199 kwview.cpp:1257
+#: kwview.cpp:1223 kwview.cpp:1281
 msgid ""
 "KWrite is already waiting\n"
 "for an internet job to finish\n"
@@ -117,23 +117,23 @@ msgstr ""
 "Aguarde até que tenha terminado.\n"
 "Alternativamente, pare o serviço corrente."
 
-#: kwview.cpp:1207 kwview.cpp:1265
+#: kwview.cpp:1231 kwview.cpp:1289
 msgid "Waiting for KFM..."
 msgstr "Aguardando pelo KFM..."
 
-#: kwview.cpp:1213 kwview.cpp:1278
+#: kwview.cpp:1237 kwview.cpp:1302
 msgid "Could not start or find KFM"
 msgstr "Não pude iniciar ou encontrar o KFM"
 
-#: kwview.cpp:1240
+#: kwview.cpp:1264
 msgid "Saving..."
 msgstr "Salvando..."
 
-#: kwview.cpp:1248 kwview.cpp:1325
+#: kwview.cpp:1272 kwview.cpp:1349
 msgid "Wrote"
 msgstr "Escreveu"
 
-#: kwview.cpp:1351
+#: kwview.cpp:1378
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -141,7 +141,7 @@ msgstr ""
 "O documento corrente foi modificado.\n"
 "Você gostaria de salvá-lo ?"
 
-#: kwview.cpp:1362
+#: kwview.cpp:1389
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -149,11 +149,11 @@ msgstr ""
 "Não pude salvar o documento.\n"
 "Abrir um novo documento ?"
 
-#: kwview.cpp:1409
+#: kwview.cpp:1436
 msgid "No changes need to be saved"
 msgstr "Nenhuma mudança a ser salva"
 
-#: kwview.cpp:1430
+#: kwview.cpp:1457
 msgid ""
 "A Document with this Name already exists.\n"
 "Do you want to overwrite it?"
@@ -161,35 +161,35 @@ msgstr ""
 "Já existe um documento com este nome.\n"
 "Você quer sobreescrevê-lo ?"
 
-#: kwview.cpp:1633 kwview.cpp:1821
+#: kwview.cpp:1660 kwview.cpp:1848
 msgid "End of document reached"
 msgstr "Atingido fim do documento"
 
-#: kwview.cpp:1634 kwview.cpp:1822
+#: kwview.cpp:1661 kwview.cpp:1849
 msgid "Continue from the beginning"
 msgstr "Continuar do começo"
 
-#: kwview.cpp:1636 kwview.cpp:1647 kwview.cpp:1657
+#: kwview.cpp:1663 kwview.cpp:1674 kwview.cpp:1684
 msgid "Find"
 msgstr "Procurar"
 
-#: kwview.cpp:1644 kwview.cpp:1833
+#: kwview.cpp:1671 kwview.cpp:1860
 msgid "Beginning of document reached"
 msgstr "Início do documento foi atingido"
 
-#: kwview.cpp:1645 kwview.cpp:1834
+#: kwview.cpp:1672 kwview.cpp:1861
 msgid "Continue from the end"
 msgstr "Continuar do fim"
 
-#: kwview.cpp:1658
+#: kwview.cpp:1685
 msgid "Search string not found!"
 msgstr "Texto não encontrado!"
 
-#: kwview.cpp:1806 kwview.cpp:1820 kwview.cpp:1832
+#: kwview.cpp:1833 kwview.cpp:1847 kwview.cpp:1859
 msgid "replace(s) made"
 msgstr "substituições efetuadas"
 
-#: kwview.cpp:1947 toplevel.cpp:486
+#: kwview.cpp:1974 toplevel.cpp:486
 msgid "Line"
 msgstr "Linha"
 
