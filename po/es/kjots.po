@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-11-18 14:09+0100\n"
+"POT-Creation-Date: 1998-12-07 01:48+0100\n"
 "PO-Revision-Date: 1998-12-07 18:58+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 
@@ -56,7 +56,7 @@ msgstr "Guardar libro en archivo ascii"
 msgid "Save page to ascii file"
 msgstr "Guardar página en archivo ascii"
 
-#: KJotsMain.cpp:380 KJotsMain.cpp:663
+#: KJotsMain.cpp:380 KJotsMain.cpp:661
 msgid "Delete current book"
 msgstr "Suprimir libro actual"
 
@@ -112,23 +112,19 @@ msgstr "Siguiente"
 msgid "Subject List"
 msgstr "Lista de Temas"
 
-#: KJotsMain.cpp:444
-msgid "Exit"
-msgstr "Salir"
-
-#: KJotsMain.cpp:616
+#: KJotsMain.cpp:614
 msgid "A book with this name already exists."
 msgstr "Ya existe un libro con este nombre."
 
-#: KJotsMain.cpp:664
+#: KJotsMain.cpp:662
 msgid "Are you sure you want to delete the current book ?"
 msgstr "¿Está seguro de querer suprimir el libro actual?"
 
-#: KJotsMain.cpp:915 KJotsMain.cpp:944
+#: KJotsMain.cpp:913 KJotsMain.cpp:942
 msgid "File exists !"
 msgstr "¡El archivo existe!"
 
-#: KJotsMain.cpp:916 KJotsMain.cpp:945
+#: KJotsMain.cpp:914 KJotsMain.cpp:943
 msgid ""
 "File already exists. \n"
 " Do you want to overwrite it ?"
@@ -172,3 +168,6 @@ msgstr "Seleccionar"
 #: confdialog.cpp:133
 msgid "Dolor Ipse"
 msgstr "Dolor Ipse"
+
+#~ msgid "Exit"
+#~ msgstr "Salir"

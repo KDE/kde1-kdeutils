@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdenonbeta\n"
-"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"POT-Creation-Date: 1998-12-08 02:02+0100\n"
 "PO-Revision-Date: 1998-12-07 21:45+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 
@@ -132,13 +132,12 @@ msgstr ""
 "sistema BSD. Así que si no sabe cual es el spooler instalado en su "
 "ordenador, BSD será la mejor opción."
 
-#: FirstStartData.cpp:50 SpoolerConfigData.cpp:134
-msgid "Ok"
-msgstr "Aceptar"
-
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"
 msgstr "Path de los comandos de spooling:"
+
+#~ msgid "Ok"
+#~ msgstr "Aceptar"
 
 #~ msgid "Quit"
 #~ msgstr "Salir"
