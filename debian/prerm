@@ -2,7 +2,7 @@
 
 if [ "$1" != "upgrade" ]
 then
-  update-alternatives --remove editor /usr/X11R6/bin/kedit
+  update-alternatives --remove editor /usr/bin/kedit
 fi
 
 exit 0
