@@ -371,6 +371,7 @@ msgstr ""
 "Dibabit mar plij un anv all"
 
 #: docking.cpp:48
+#, c-format
 msgid "Could not load %s !"
 msgstr "Ne m'eus ket gallet kargañ %s !"
 
