@@ -37,12 +37,12 @@ APPSDIR = $(prefix)/share/applnk/Applications
 ########### File Formats ###########
 
 DEFS = #-DDOCS_PATH=\"$(DOCSDIR)/\"
-.SUFFIXES: .cpp
+.SUFFIXES: .cpp .moc
 
 .cpp.o:
 	$(CXX) $(DEFS) -c $(CXXFLAGS) $<
 
-%.moc: %.h
+.h.moc: 
 	$(MOC) $< -o $@
 
 ########## Files #####################
