@@ -359,7 +359,8 @@ msgstr ""
 
 #: qps.C:888
 msgid "Only the super-user may lower the nice value of a process."
-msgstr "Endast systemadministratören får minska snällhetsvärdet för en process."
+msgstr ""
+"Endast systemadministratören får minska snällhetsvärdet för en process."
 
 #: qps.C:911
 msgid ""
