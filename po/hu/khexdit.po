@@ -1,19 +1,22 @@
-#: hexfile.cpp:47
-msgid "Untitled"
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 1997 Free Software Foundation, Inc.
+# Balazs Nagy <julian7@kva.hu>, 1997.
+#
+msgid ""
 msgstr ""
+"Project-Id-Version: kdehelp 0.5.2\n"
+"POT-Creation-Date: 1997-11-06 19:25+0100\n"
+"PO-Revision-Date: 1997-09-21 19:39+MET\n"
+"Last-Translator: Nagy Balazs <julian7@kva.hu>\n"
+"Language-Team: Hungarian <hu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=Latin2\n"
+"Content-Transfer-Encoding: iso-8859-2\n"
 
 #: hexfile.cpp:118
 #, c-format
 msgid "Error opening %s"
 msgstr "Nem lehet megnyitni %s-t!"
-
-#: hexfile.cpp:119 hexwidget.cpp:208 hexwidget.cpp:222 hexwidget.cpp:231
-msgid "Error"
-msgstr ""
-
-#: hexfile.cpp:120
-msgid "Close"
-msgstr ""
 
 #: hexwidget.cpp:52
 #, fuzzy
@@ -71,20 +74,12 @@ msgstr "&Segítség"
 msgid "New Window"
 msgstr "Új ablak"
 
-#: hexwidget.cpp:86
-msgid "Open a file"
-msgstr ""
-
 #: hexwidget.cpp:88
 msgid "Save the file"
 msgstr "Mentés file-ba"
 
 #: hexwidget.cpp:91 hexwidget.cpp:93 hexwidget.cpp:95 hexwidget.cpp:98
 msgid "Not implemented"
-msgstr ""
-
-#: hexwidget.cpp:126 hexwidget.cpp:152
-msgid "Warning"
 msgstr ""
 
 #: hexwidget.cpp:127
@@ -97,14 +92,6 @@ msgstr ""
 "\n"
 "Kívánja menteni?"
 
-#: hexwidget.cpp:128 hexwidget.cpp:155
-msgid "Yes"
-msgstr ""
-
-#: hexwidget.cpp:129 hexwidget.cpp:154
-msgid "No"
-msgstr ""
-
 #: hexwidget.cpp:153
 #, fuzzy
 msgid ""
@@ -114,10 +101,6 @@ msgstr ""
 "A jelenlegi file megváltozott.\n"
 "\n"
 "Kívánja menteni?"
-
-#: hexwidget.cpp:208
-msgid "Malformed URL"
-msgstr ""
 
 #: hexwidget.cpp:223
 msgid ""
@@ -135,21 +118,6 @@ msgstr ""
 #: hexwidget.cpp:232
 msgid "Could not start KFM"
 msgstr "A KFM nem található"
-
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1997 Free Software Foundation, Inc.
-# Balazs Nagy <julian7@kva.hu>, 1997.
-#
-#~ msgid ""
-#~ msgstr ""
-#~ "Project-Id-Version: kdehelp 0.5.2\n"
-#~ "POT-Creation-Date: 1997-08-21 23:23-0500\n"
-#~ "PO-Revision-Date: 1997-09-21 19:39+MET\n"
-#~ "Last-Translator: Nagy Balazs <julian7@kva.hu>\n"
-#~ "Language-Team: Hungarian <hu@li.org>\n"
-#~ "MIME-Version: 1.0\n"
-#~ "Content-Type: text/plain; charset=Latin2\n"
-#~ "Content-Transfer-Encoding: iso-8859-2\n"
 
 #~ msgid "About Hex Editor"
 #~ msgstr "A Hex Editor névjegye"

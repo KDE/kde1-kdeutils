@@ -1,19 +1,23 @@
-#: hexfile.cpp:47
-msgid "Untitled"
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1997-11-06 19:25+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
 
 #: hexfile.cpp:118
 #, c-format
 msgid "Error opening %s"
 msgstr "Errore in apertura di %s"
-
-#: hexfile.cpp:119 hexwidget.cpp:208 hexwidget.cpp:222 hexwidget.cpp:231
-msgid "Error"
-msgstr ""
-
-#: hexfile.cpp:120
-msgid "Close"
-msgstr ""
 
 #: hexwidget.cpp:52
 #, fuzzy
@@ -72,10 +76,6 @@ msgstr "&Aiuto"
 msgid "New Window"
 msgstr "Nuova Finestra"
 
-#: hexwidget.cpp:86
-msgid "Open a file"
-msgstr ""
-
 #: hexwidget.cpp:88
 msgid "Save the file"
 msgstr "Salva il file"
@@ -83,10 +83,6 @@ msgstr "Salva il file"
 #: hexwidget.cpp:91 hexwidget.cpp:93 hexwidget.cpp:95 hexwidget.cpp:98
 msgid "Not implemented"
 msgstr "Non implementato"
-
-#: hexwidget.cpp:126 hexwidget.cpp:152
-msgid "Warning"
-msgstr ""
 
 #: hexwidget.cpp:127
 #, fuzzy
@@ -98,14 +94,6 @@ msgstr ""
 "\n"
 "Vuoi salvarlo ?"
 
-#: hexwidget.cpp:128 hexwidget.cpp:155
-msgid "Yes"
-msgstr ""
-
-#: hexwidget.cpp:129 hexwidget.cpp:154
-msgid "No"
-msgstr ""
-
 #: hexwidget.cpp:153
 #, fuzzy
 msgid ""
@@ -115,10 +103,6 @@ msgstr ""
 "Il file corrente e' stato modificato\n"
 "\n"
 "Vuoi salvarlo ?"
-
-#: hexwidget.cpp:208
-msgid "Malformed URL"
-msgstr ""
 
 #: hexwidget.cpp:223
 msgid ""
