@@ -2,7 +2,6 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -136,9 +135,9 @@ msgid ""
 "So if you don't know which spooler is installed on your system, BSD is "
 "probably a good choice."
 msgstr ""
-"Per favore imposta il sistema di spooling che usi. Molti sistemi usano lo spooler BSD. "
-"Quindi se non conosci lo spooler installato sul tuo sistema, BSD probailmente "
-"è la scelta migliore."
+"Per favore imposta il sistema di spooling che usi. Molti sistemi usano lo "
+"spooler BSD. Quindi se non conosci lo spooler installato sul tuo sistema, "
+"BSD probailmente è la scelta migliore."
 
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"

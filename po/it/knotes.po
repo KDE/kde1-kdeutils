@@ -242,8 +242,8 @@ msgstr "Dimensioni punto:"
 msgid "Style:"
 msgstr "Stile:"
 
-#: fontdlg.cpp:87
 #
+#: fontdlg.cpp:87
 msgid "Weight:"
 msgstr "Spessore:"
 

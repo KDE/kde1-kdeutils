@@ -22,8 +22,8 @@ msgstr "Salva Il Percorso Completo"
 msgid "Only Add Newer Files"
 msgstr "Aggiungi Solo File Nuovi"
 
-#: extractdlg.cc:14
 #
+#: extractdlg.cc:14
 msgid "Extract"
 msgstr "Estrai"
 
@@ -55,8 +55,8 @@ msgstr "File Selezionato"
 msgid "Pattern"
 msgstr "Modello"
 
-#: extractdlg.cc:190
 #
+#: extractdlg.cc:190
 msgid "Extract To"
 msgstr "Estrai In"
 
@@ -76,8 +76,8 @@ msgstr "Estrai..."
 msgid "&View file"
 msgstr "&Visualizza file"
 
-#: arkwidget.cc:82
 #
+#: arkwidget.cc:82
 msgid "&Delete file"
 msgstr "&Elimina file"
 
@@ -93,13 +93,12 @@ msgstr "Imposta &Tar Eseguibili..."
 msgid "&File Adding Options..."
 msgstr "&Opzioni Aggiunta File"
 
-#: arkwidget.cc:97
 #
+#: arkwidget.cc:97
 msgid "File Operations"
 msgstr "Operazioni File"
 
 #: arkwidget.cc:99
-#,
 msgid "Extract..."
 msgstr "Estrai..."
 
@@ -107,18 +106,18 @@ msgstr "Estrai..."
 msgid "View file"
 msgstr "Visualizza file"
 
-#: arkwidget.cc:102
 #
+#: arkwidget.cc:102
 msgid "Delete file"
 msgstr "Elimina file"
 
-#: arkwidget.cc:114
 #
+#: arkwidget.cc:114
 msgid "Goto Archive Dir..."
 msgstr "Vai nella Directory di Archivio..."
 
-#: arkwidget.cc:117
 #
+#: arkwidget.cc:117
 msgid "Extract To.."
 msgstr "Estrai In..."
 
@@ -126,8 +125,8 @@ msgstr "Estrai In..."
 msgid "Exit"
 msgstr "Esci"
 
-#: arkwidget.cc:128
 #
+#: arkwidget.cc:128
 msgid "Welcome to ark..."
 msgstr "Benvenuti in ark..."
 
@@ -147,8 +146,8 @@ msgstr "Non si possono aggiungere directory in questo tipo di archivio"
 msgid "Error saving to archive"
 msgstr "Errore salvando sull'archivio"
 
-#: arkwidget.cc:312
 #
+#: arkwidget.cc:312
 msgid "Archive Dir"
 msgstr "Directory Archivio"
 

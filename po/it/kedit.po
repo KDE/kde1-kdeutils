@@ -30,7 +30,6 @@ msgid "Select All"
 msgstr "Select All"
 
 #: kedit.cpp:157
-#, 
 msgid "Font..."
 msgstr "Caratteri..."
 
@@ -90,13 +89,12 @@ msgstr ""
 msgid "&Goto Line..."
 msgstr "Vai alla linea..."
 
-#: kedit.cpp:277
 #
+#: kedit.cpp:277
 msgid "&Font..."
 msgstr "C&arattere..."
 
 #: kedit.cpp:279
-#,
 msgid "&Colors"
 msgstr "&Colori"
 
@@ -350,7 +348,6 @@ msgstr ""
 "%s"
 
 #: kedit.cpp:2074
-#, 
 msgid "Spellchecker Options"
 msgstr "Opzioni Controllo ortografia"
 
@@ -379,7 +376,6 @@ msgid "Warning:"
 msgstr "Attenzione:"
 
 #: keditcl1.cpp:418 keditcl1.cpp:502
-#, 
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -387,8 +383,8 @@ msgstr ""
 "Questo Documento é stato modificato.\n"
 "Vuoi salvarlo?"
 
-#: keditcl1.cpp:439
 #
+#: keditcl1.cpp:439
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -396,8 +392,8 @@ msgstr ""
 "Impossibile salvare il file.\n"
 "Apro un nuovo documento comunque?"
 
-#: keditcl1.cpp:522
 #
+#: keditcl1.cpp:522
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
@@ -405,11 +401,10 @@ msgstr ""
 "Impossibile salvare il file.\n"
 "Creo un nuovo documento comunque?"
 
-#: keditcl1.cpp:1569
 #
+#: keditcl1.cpp:1569
 msgid "Could not save the document\n"
 msgstr "Impossibile salvare il file.\n"
-
 
 #: keditcl1.cpp:1651
 msgid ""
@@ -418,7 +413,6 @@ msgid ""
 msgstr ""
 "Un documento con questo Nome esiste gia'\n"
 "Vuoi sovrascriverlo ? "
-
 
 #: keditcl1.cpp:1709
 msgid "You do not have write permission to this file.\n"
@@ -453,23 +447,23 @@ msgstr "Maiuscole/Minuscole"
 msgid "Find Backwards"
 msgstr "Cerca indietro"
 
-#: keditcl2.cpp:777
 #
+#: keditcl2.cpp:777
 msgid "Find:"
 msgstr "Cerca:"
 
-#: keditcl2.cpp:787
 #
+#: keditcl2.cpp:787
 msgid "Replace with:"
 msgstr "Sostituisci con:"
 
-#: keditcl2.cpp:801
 #
+#: keditcl2.cpp:801
 msgid "Replace All"
 msgstr "Sostituisci Tutti"
 
-#: keditcl2.cpp:898
 #
+#: keditcl2.cpp:898
 msgid "Goto Line"
 msgstr "Va alla linea"
 

@@ -2,7 +2,6 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -337,6 +336,7 @@ msgid ""
 msgstr ""
 "Questo documento è stato modificato.\n"
 "Vuoi salvarlo ?"
+
 #: toplevel.cpp:177
 msgid "Ne&w..."
 msgstr "N&uovo..."

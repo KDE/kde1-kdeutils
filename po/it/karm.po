@@ -90,7 +90,7 @@ msgid "&New"
 msgstr "&Nuovo"
 
 #: top.cpp:71
-#, , c-format
+#, c-format
 msgid ""
 "%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
@@ -126,7 +126,6 @@ msgstr "Modifica Task"
 msgid "clock active"
 msgstr "orologio attivo"
 
-#, zzy
 #~ msgid "&About"
 #~ msgstr "Info su..."
 

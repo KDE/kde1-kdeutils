@@ -98,7 +98,6 @@ msgstr ""
 "kmke2fs è una parte della distribuzione di KFloppy.\n"
 "Installa KFloppy correttamente, grazie."
 
-
 #: floppy.cpp:370
 msgid ""
 "Cannot find kmkdosfs\n"

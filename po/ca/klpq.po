@@ -135,9 +135,9 @@ msgid ""
 "So if you don't know which spooler is installed on your system, BSD is "
 "probably a good choice."
 msgstr ""
-"Si us plau, seleccioneu el sistema d'espuler. Gran part de sistemes "
-"fan servir l'espuler BSD. Per tant, si no sabeu quin espuler es instal·lat "
-"al vostre sistema, BSD és una bona tria."
+"Si us plau, seleccioneu el sistema d'espuler. Gran part de sistemes fan "
+"servir l'espuler BSD. Per tant, si no sabeu quin espuler es instal·lat al "
+"vostre sistema, BSD és una bona tria."
 
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"

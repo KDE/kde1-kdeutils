@@ -161,7 +161,6 @@ msgstr ""
 "Samalla nimellä on jo olemassa asiakirja.\n"
 "Haluatko ylikirjoittaa sen?"
 
-
 #: kwview.cpp:1633 kwview.cpp:1821
 msgid "End of document reached"
 msgstr "Asiakirjan loppu saavutettu"

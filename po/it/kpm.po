@@ -245,7 +245,6 @@ msgstr "SIGUSR1 (definito dall'utente 1)"
 msgid "SIGUSR2 (user-defined 2)"
 msgstr "SIGUSR2 (definito dall'utente 2)"
 
-
 #: qps.C:320
 msgid "SIGCHLD (child death)"
 msgstr "SIGCHLD (morte figlio)"
