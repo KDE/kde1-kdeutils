@@ -90,6 +90,16 @@ AC_SUBST(topdir)
 dnl Perform program name transformation
 AC_ARG_PROGRAM
 
+AC_MSG_CHECKING(if kpm can be compiled)
+case "$host" in 
+  *86-*-linux-*) kpm_compile=yes ;;
+  *) kpm_compile=no
+esac
+AC_MSG_RESULT($kpm_compile)
+if test "kpm_compile" = "no"; then
+  DO_NOT_COMPILE="$DO_NOT_COMPILE kpm"
+fi
+
 if echo $DO_NOT_COMPILE | grep kfloppy > /dev/null; then
  ac_cv_compile_kfloppy=no
 
