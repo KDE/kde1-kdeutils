@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kab\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-03 10:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -13,19 +13,19 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: AddressBookAbout.cpp:33
+#: AddressBookAbout.cpp:25
 msgid "About addressbook"
 msgstr "Om adressebok"
 
-#: AddressBookAbout.cpp:43
+#: AddressBookAbout.cpp:35
 msgid "Image load failure"
 msgstr "Bildelasting mislyktes"
 
-#: AddressBookAbout.cpp:44
+#: AddressBookAbout.cpp:36
 msgid "Could not load addressbook logo image!"
 msgstr "Kunne ikke laste adressebok-logo!"
 
-#: AddressBookAbout.cpp:46
+#: AddressBookAbout.cpp:37
 msgid ""
 "Here you would see\n"
 "the addressbook logo."
@@ -33,17 +33,26 @@ msgstr ""
 "Her vil du se\n"
 "adresseboklogoen."
 
+#: AddressBookAbout.cpp:44
+msgid "written and maintained by"
+msgstr ""
+
+#: AddressBookAboutData.cpp:62
+msgid "kab 0.8, August 1998"
+msgstr ""
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
 msgstr "Initialisering mislyktes"
 
 #: toplevelwidget.cc:37
-msgid "The programs menubar could not be constructed."
+#, fuzzy
+msgid "The program's menubar could not be constructed."
 msgstr "Programmenes menylinje kunne ikke bli konstruert."
 
 #: toplevelwidget.cc:45
-msgid "The programs statusbar could not be constructed."
+#, fuzzy
+msgid "The program's statusbar could not be constructed."
 msgstr "Programmenes statuslinje kunne ikke bli konstruert."
 
 #: toplevelwidget.cc:58

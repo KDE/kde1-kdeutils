@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klpq\n"
-"POT-Creation-Date: 1998-10-30 12:45+0100\n"
+"POT-Creation-Date: 1998-11-03 10:06+0100\n"
 "PO-Revision-Date: 1998-02-17 12:00+0000\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
@@ -104,10 +104,6 @@ msgstr "Configurar Actualização Automática"
 msgid "Update frequency in seconds:"
 msgstr "Frequencia de actualização (s):"
 
-#: ConfAutoUpdateData.cpp:32 FirstStartData.cpp:50 SpoolerConfigData.cpp:134
-msgid "Ok"
-msgstr "Ok"
-
 #: klpqspooler.cpp:197 klpqspooler.cpp:267
 msgid "Can't find your lpc program !"
 msgstr "Não consigo achar o seu programa lpc !"
@@ -133,6 +129,10 @@ msgstr ""
 "Por favor seleccione o sistema de spooling que usa. A maioria dos sistemas "
 "usa o spooler BSD. Por isso se não sabe qual é o spooler instalado no seu "
 "sistema, BSD é provávelmente uma boa escolha."
+
+#: FirstStartData.cpp:50 SpoolerConfigData.cpp:134
+msgid "Ok"
+msgstr "Ok"
 
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"

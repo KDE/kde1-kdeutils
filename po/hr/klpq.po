@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-30 12:45+0100\n"
+"POT-Creation-Date: 1998-11-03 10:06+0100\n"
 "PO-Revision-Date: 1998-03-15 20:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian\n"
@@ -110,10 +110,6 @@ msgstr "Podesi Auto Osvje¾avanje"
 msgid "Update frequency in seconds:"
 msgstr "Frekvencija osvje¾avanja u sekundama:"
 
-#: ConfAutoUpdateData.cpp:32 FirstStartData.cpp:50 SpoolerConfigData.cpp:134
-msgid "Ok"
-msgstr "U redu"
-
 #: klpqspooler.cpp:197 klpqspooler.cpp:267
 msgid "Can't find your lpc program !"
 msgstr "Ne mogu naæi lpc program !"
@@ -139,6 +135,10 @@ msgstr ""
 "Izaberi posrednièki sustav koji koristi¹. Veæina sustava koristi BSD "
 "posrednika. Ako ne zna¹ koji posrednik ima¹ instaliran BSD je vjerojatno "
 "dobar izbor."
+
+#: FirstStartData.cpp:50 SpoolerConfigData.cpp:134
+msgid "Ok"
+msgstr "U redu"
 
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"

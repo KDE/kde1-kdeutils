@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-30 12:45+0100\n"
+"POT-Creation-Date: 1998-11-03 10:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,10 +109,6 @@ msgstr ""
 msgid "Update frequency in seconds:"
 msgstr ""
 
-#: ConfAutoUpdateData.cpp:32 FirstStartData.cpp:50 SpoolerConfigData.cpp:134
-msgid "Ok"
-msgstr ""
-
 #: klpqspooler.cpp:197 klpqspooler.cpp:267
 msgid "Can't find your lpc program !"
 msgstr ""
@@ -132,6 +128,10 @@ msgid ""
 "Please select the spooling system you use. Most systems use the BSD spooler. "
 "So if you don't know which spooler is installed on your system, BSD is "
 "probably a good choice."
+msgstr ""
+
+#: FirstStartData.cpp:50 SpoolerConfigData.cpp:134
+msgid "Ok"
 msgstr ""
 
 #: SpoolerConfigData.cpp:99

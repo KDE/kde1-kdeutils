@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-30 12:45+0100\n"
+"POT-Creation-Date: 1998-11-03 10:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Peter Ivanyi <ivanyi@internet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -79,15 +79,18 @@ msgid "&Config"
 msgstr "&Nastavenie"
 
 #: klpq.cpp:389
+#, c-format
 msgid "Do you really want to remove job No %d"
 msgstr "Skutoène odstráni» úlohu è. %d"
 
 #: klpq.cpp:409
+#, c-format
 msgid ""
 "Do you really want to move job No\n"
 "%d\n"
 "on top of queue"
-msgstr "Skutoène presunú» úlohu è.\n"
+msgstr ""
+"Skutoène presunú» úlohu è.\n"
 "%d\n"
 "na vrchol fronty"
 
@@ -110,10 +113,6 @@ msgstr "Nastavi» automatickú aktualizáciu"
 #: ConfAutoUpdateData.cpp:17
 msgid "Update frequency in seconds:"
 msgstr "Frekvencia aktualizácie v sekundách:"
-
-#: ConfAutoUpdateData.cpp:32 FirstStartData.cpp:50 SpoolerConfigData.cpp:134
-msgid "Ok"
-msgstr "Ok"
 
 #: klpqspooler.cpp:197 klpqspooler.cpp:267
 msgid "Can't find your lpc program !"
@@ -140,6 +139,10 @@ msgstr ""
 "Prosím, vyberte Vá¹ systém na spooling. Väè¹ina systémov pou¾íva BSD "
 "spooler. Ak neviete, aký spooler je nain¹talovaný na Va¹om systéme, BSD je "
 "pravdepodobne dobrou voµbou."
+
+#: FirstStartData.cpp:50 SpoolerConfigData.cpp:134
+msgid "Ok"
+msgstr "Ok"
 
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KLPQ\n"
-"POT-Creation-Date: 1998-10-30 12:45+0100\n"
+"POT-Creation-Date: 1998-11-03 10:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -114,10 +114,6 @@ msgstr "Aseta automaattipäivitystä"
 msgid "Update frequency in seconds:"
 msgstr "Päivitystaajuus sekunneissa:"
 
-#: ConfAutoUpdateData.cpp:32 FirstStartData.cpp:50 SpoolerConfigData.cpp:134
-msgid "Ok"
-msgstr "Ok"
-
 #: klpqspooler.cpp:197 klpqspooler.cpp:267
 msgid "Can't find your lpc program !"
 msgstr "En löydä lpc -ohjelmaasi !"
@@ -140,8 +136,12 @@ msgid ""
 "So if you don't know which spooler is installed on your system, BSD is "
 "probably a good choice."
 msgstr ""
-"Valitse käyttämäsi jonosysteemi. Yleensä BSD jono. "
-"Jos et tiedä mikä koneellesi on asennettu BSD on hyvä arvaus."
+"Valitse käyttämäsi jonosysteemi. Yleensä BSD jono. Jos et tiedä mikä "
+"koneellesi on asennettu BSD on hyvä arvaus."
+
+#: FirstStartData.cpp:50 SpoolerConfigData.cpp:134
+msgid "Ok"
+msgstr "Ok"
 
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"

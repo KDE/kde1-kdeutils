@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/klpq\n"
-"POT-Creation-Date: 1998-08-16 14:59+0200\n"
+"POT-Creation-Date: 1998-11-03 10:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -13,15 +13,15 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: main.cpp:171
+#: main.cpp:176
 msgid "Sorry, can't open your printcap file."
 msgstr "Beklager, kan ikke åpne printcap-filen din."
 
-#: main.cpp:176
+#: main.cpp:181
 msgid "Sorry, unable to parse your printcap."
 msgstr "Beklager, kan ikke tolke printcapen din."
 
-#: main.cpp:177
+#: main.cpp:182
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
 msgstr "Vennligst epost din printcap til Christoph.Neerfeld@home.ivm.de"
 
@@ -41,10 +41,6 @@ msgstr "Skrver ut"
 msgid "Update"
 msgstr "Oppdater"
 
-#: klpq.cpp:105
-msgid "Quit"
-msgstr "Gå ut"
-
 #: klpq.cpp:119
 msgid "Rank"
 msgstr "Rangering"
@@ -57,17 +53,9 @@ msgstr "Eier"
 msgid "Job"
 msgstr "Jobb"
 
-#: klpq.cpp:122
-msgid "Files"
-msgstr "Filer"
-
 #: klpq.cpp:123
 msgid "Size"
 msgstr "Størrelse"
-
-#: klpq.cpp:139 klpq.cpp:217
-msgid "Remove"
-msgstr "Fjern"
 
 #: klpq.cpp:143 klpq.cpp:218
 msgid "Make Top"
@@ -77,10 +65,6 @@ msgstr "Lag topp"
 msgid "Auto"
 msgstr "Auto"
 
-#: klpq.cpp:192
-msgid "&Quit"
-msgstr "&Gå ut"
-
 #: klpq.cpp:195
 msgid "&Auto update"
 msgstr "&Auto-oppdater"
@@ -89,17 +73,9 @@ msgstr "&Auto-oppdater"
 msgid "&Spooler"
 msgstr "&Spole"
 
-#: klpq.cpp:202
-msgid "&File"
-msgstr "&Fil"
-
 #: klpq.cpp:203
 msgid "&Config"
 msgstr "&Konfig"
-
-#: klpq.cpp:205
-msgid "&Help"
-msgstr "&Hjelp"
 
 #: klpq.cpp:389
 #, c-format
@@ -137,14 +113,6 @@ msgstr "Konfigurer auto-oppdater"
 msgid "Update frequency in seconds:"
 msgstr "Oppdateringsfrekvens i sekunder:"
 
-#: ConfAutoUpdateData.cpp:32 FirstStartData.cpp:50 SpoolerConfigData.cpp:134
-msgid "Ok"
-msgstr "OK"
-
-#: ConfAutoUpdateData.cpp:36 SpoolerConfigData.cpp:142
-msgid "Cancel"
-msgstr "Avbryt"
-
 #: klpqspooler.cpp:197 klpqspooler.cpp:267
 msgid "Can't find your lpc program !"
 msgstr "Kan ikke finne ditt lpc-program !"
@@ -167,10 +135,35 @@ msgid ""
 "So if you don't know which spooler is installed on your system, BSD is "
 "probably a good choice."
 msgstr ""
-"Vennligst velg spolesystemet systemet ditt bruker. De fleste systemer "
-"bruker BSD-spole. BSD er trolig et godt valg hvis du ikke vet hva slags "
-"spole som er installert."
+"Vennligst velg spolesystemet systemet ditt bruker. De fleste systemer bruker "
+"BSD-spole. BSD er trolig et godt valg hvis du ikke vet hva slags spole som "
+"er installert."
+
+#: FirstStartData.cpp:50 SpoolerConfigData.cpp:134
+msgid "Ok"
+msgstr "OK"
 
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"
 msgstr "Stil til spolekommandoer:"
+
+#~ msgid "Quit"
+#~ msgstr "Gå ut"
+
+#~ msgid "Files"
+#~ msgstr "Filer"
+
+#~ msgid "Remove"
+#~ msgstr "Fjern"
+
+#~ msgid "&Quit"
+#~ msgstr "&Gå ut"
+
+#~ msgid "&File"
+#~ msgstr "&Fil"
+
+#~ msgid "&Help"
+#~ msgstr "&Hjelp"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"

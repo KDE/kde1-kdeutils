@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kljettool \n"
-"POT-Creation-Date: 1998-10-01 13:43+0200\n"
+"POT-Creation-Date: 1998-11-03 10:06+0100\n"
 "PO-Revision-Date: 1998-06-23 06:50+0200\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -20,6 +20,34 @@ msgstr "Drukarka"
 #: main.cpp:71
 msgid "Operations"
 msgstr "Czynno¶ci"
+
+#: PaperData.cpp:59
+msgid "Format"
+msgstr ""
+
+#: PaperData.cpp:65
+msgid "Copies"
+msgstr ""
+
+#: PaperData.cpp:80
+msgid "Lines"
+msgstr ""
+
+#: PaperData.cpp:102
+msgid "Portrait"
+msgstr ""
+
+#: PaperData.cpp:111
+msgid "Landscape"
+msgstr ""
+
+#: PaperData.cpp:127
+msgid "Manual Feed"
+msgstr ""
+
+#: PaperData.cpp:136
+msgid "Auto Continue"
+msgstr ""
 
 #: FontsData.cpp:38
 msgid "Language"

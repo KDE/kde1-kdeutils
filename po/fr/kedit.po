@@ -449,7 +449,7 @@ msgid ""
 msgstr ""
 "Le debut du document a été atteint.\n"
 "Désirez-vous recommencer par la fin ?"
- 
+
 #: keditcl2.cpp:691 keditcl2.cpp:789
 msgid "Case Sensitive"
 msgstr ""

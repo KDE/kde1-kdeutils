@@ -1,23 +1,23 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-03 10:06+0100\n"
 "PO-Revision-Date: 1998-10-18 18:37+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "First-Translator: Alonso Lara <jlaram@nexo.es>\n"
 
-#: AddressBookAbout.cpp:33
+#: AddressBookAbout.cpp:25
 msgid "About addressbook"
 msgstr "Sobre addressbook"
 
-#: AddressBookAbout.cpp:43
+#: AddressBookAbout.cpp:35
 msgid "Image load failure"
 msgstr "Fallo en la carga de la imagen"
 
-#: AddressBookAbout.cpp:44
+#: AddressBookAbout.cpp:36
 msgid "Could not load addressbook logo image!"
 msgstr "No se pudo cargar el logo de addressbook!"
 
-#: AddressBookAbout.cpp:46
+#: AddressBookAbout.cpp:37
 msgid ""
 "Here you would see\n"
 "the addressbook logo."
@@ -25,16 +25,26 @@ msgstr ""
 "Aquí debería ver el\n"
 "logo de Addressbook."
 
+#: AddressBookAbout.cpp:44
+msgid "written and maintained by"
+msgstr ""
+
+#: AddressBookAboutData.cpp:62
+msgid "kab 0.8, August 1998"
+msgstr ""
+
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
 msgstr "Fallo de inicialización"
 
 #: toplevelwidget.cc:37
-msgid "The programs menubar could not be constructed."
+#, fuzzy
+msgid "The program's menubar could not be constructed."
 msgstr "La barra de menú de programas no pudo ser construida."
 
 #: toplevelwidget.cc:45
-msgid "The programs statusbar could not be constructed."
+#, fuzzy
+msgid "The program's statusbar could not be constructed."
 msgstr "La barra de estado de programas no pudo ser construida."
 
 #: toplevelwidget.cc:58

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KAB\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-11-03 10:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,19 +14,19 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: AddressBookAbout.cpp:33
+#: AddressBookAbout.cpp:25
 msgid "About addressbook"
 msgstr "Tietoja osoitekirjasta"
 
-#: AddressBookAbout.cpp:43
+#: AddressBookAbout.cpp:35
 msgid "Image load failure"
 msgstr "Kuvanlatausvirhe"
 
-#: AddressBookAbout.cpp:44
+#: AddressBookAbout.cpp:36
 msgid "Could not load addressbook logo image!"
 msgstr "En saanut ladattua osoitekirjan logoa!"
 
-#: AddressBookAbout.cpp:46
+#: AddressBookAbout.cpp:37
 msgid ""
 "Here you would see\n"
 "the addressbook logo."
@@ -34,16 +34,26 @@ msgstr ""
 "Tässä näkyisi\n"
 "osoitekirjan logo."
 
+#: AddressBookAbout.cpp:44
+msgid "written and maintained by"
+msgstr ""
+
+#: AddressBookAboutData.cpp:62
+msgid "kab 0.8, August 1998"
+msgstr ""
+
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
 msgstr "Alustusvirhe"
 
 #: toplevelwidget.cc:37
-msgid "The programs menubar could not be constructed."
+#, fuzzy
+msgid "The program's menubar could not be constructed."
 msgstr "Ohjelman valikkorivia ei saatu tehtyä."
 
 #: toplevelwidget.cc:45
-msgid "The programs statusbar could not be constructed."
+#, fuzzy
+msgid "The program's statusbar could not be constructed."
 msgstr "Ohjelman tilariviä ei saatu tehtyä."
 
 #: toplevelwidget.cc:58
