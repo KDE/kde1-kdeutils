@@ -99,7 +99,7 @@ msgstr "Formato de arquivo desconhecido"
 
 #: kzip.cc:389
 msgid "Size"
-msgstr ""
+msgstr "Tamanho"
 
 #: kzip.cc:395
 msgid "Archive directory does not exist."

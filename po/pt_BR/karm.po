@@ -86,9 +86,8 @@ msgid "&Contents"
 msgstr "&Conteúdo"
 
 #: top.cpp:74
-#, fuzzy
 msgid "&About"
-msgstr "Sobre o "
+msgstr "So&bre"
 
 #: top.cpp:85
 msgid "Start Clock"

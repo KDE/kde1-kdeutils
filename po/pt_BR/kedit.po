@@ -26,9 +26,8 @@ msgid "Select All"
 msgstr "Selecionar Tudo"
 
 #: kedit.cpp:156
-#, fuzzy
 msgid "Font..."
-msgstr "&Procurar..."
+msgstr "Tipo de letra..."
 
 #: kedit.cpp:200
 msgid "Ne&w..."
@@ -80,21 +79,19 @@ msgstr "&Substituir"
 
 #: kedit.cpp:267
 msgid "Spellcheck..."
-msgstr ""
+msgstr "Checagem ortográfica..."
 
 #: kedit.cpp:272
 msgid "&Goto Line..."
 msgstr "&Ir para a Linha..."
 
 #: kedit.cpp:276
-#, fuzzy
 msgid "&Font..."
-msgstr "&Fonte"
+msgstr "&Letra..."
 
 #: kedit.cpp:278
-#, fuzzy
 msgid "&Colors"
-msgstr "Cores"
+msgstr "&Cores"
 
 #: kedit.cpp:283
 msgid "KEdit &Options..."
@@ -341,36 +338,34 @@ msgstr ""
 "%s"
 
 #: kedit.cpp:2059
-#, fuzzy
 msgid "Spellchecker Options"
-msgstr "Opções de Salvamento"
+msgstr "Opções de Verificador"
 
 #: keditcl1.cpp:137
 msgid "The specified File does not exist"
-msgstr ""
+msgstr "O arquivo especificado não existe"
 
 #: keditcl1.cpp:150 keditcl1.cpp:423 keditcl1.cpp:507 keditcl1.cpp:1687
 msgid "Sorry:"
-msgstr ""
+msgstr "Desculpe:"
 
 #: keditcl1.cpp:151
 msgid "You have specificated a directory"
-msgstr ""
+msgstr "Você especificou um diretório"
 
 #: keditcl1.cpp:166 keditcl1.cpp:187
 msgid "You do not have read permission to this file."
-msgstr ""
+msgstr "Você não tem permissão de leitura para esse arquivo"
 
 #: keditcl1.cpp:200
 msgid "An Error occured while trying to open this Document"
-msgstr ""
+msgstr "Um erro ocorreu ao tentar abrir esse documento"
 
 #: keditcl1.cpp:402 keditcl1.cpp:487 keditcl1.cpp:1629
 msgid "Warning:"
-msgstr ""
+msgstr "Aviso:"
 
 #: keditcl1.cpp:403 keditcl1.cpp:488
-#, fuzzy
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -379,89 +374,86 @@ msgstr ""
 "Deseja gravá-lo?"
 
 #: keditcl1.cpp:424
-#, fuzzy
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
 "Não foi possível gravar o arquivo.\n"
-"Imprimir de qualquer modo?"
+"Abrir um novo documento mesmo assim ?"
 
 #: keditcl1.cpp:508
-#, fuzzy
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
 msgstr ""
 "Não foi possível gravar o arquivo.\n"
-"Imprimir de qualquer modo?"
+"Criar um novo documento mesmo assim ?"
 
 #: keditcl1.cpp:1546
-#, fuzzy
 msgid "Could not save the document\n"
 msgstr ""
 "Não foi possível gravar o arquivo.\n"
-"Imprimir de qualquer modo?"
 
 #: keditcl1.cpp:1630
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
 msgstr ""
+"Um documento com esse nome já existe.\n"
+"Deseja sobreescrevê-lo ?"
 
 #: keditcl1.cpp:1688
 msgid "You do not have write permission to this file.\n"
-msgstr ""
+msgstr "Você não tem permissões de escrita para esse arquivo.\n"
 
 #: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
 #: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
-#, fuzzy
 msgid "Find"
-msgstr "&Procurar..."
+msgstr "Procurar..."
 
 #: keditcl2.cpp:113 keditcl2.cpp:370 keditcl2.cpp:463
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
 msgstr ""
+   "Atingido fim do documento.\n"
+    "Continuar do começo ?"
 
 #: keditcl2.cpp:130 keditcl2.cpp:387 keditcl2.cpp:433 keditcl2.cpp:480
 msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
 msgstr ""
+   "Atingido início do documento.\n"
+    "Continuar do fim ?"
 
 #: keditcl2.cpp:691 keditcl2.cpp:789
 msgid "Case Sensitive"
-msgstr ""
+msgstr "Distinguir Maiúsculas/Minúsculas"
 
 #: keditcl2.cpp:692 keditcl2.cpp:792
 msgid "Find Backwards"
-msgstr ""
+msgstr "Procurar para trás"
 
 #: keditcl2.cpp:777
-#, fuzzy
-msgid "Find:"
+msgid "&Find:"
 msgstr "&Procurar..."
 
 #: keditcl2.cpp:787
-#, fuzzy
 msgid "Replace with:"
-msgstr "&Substituir"
+msgstr "Substituir por:"
 
 #: keditcl2.cpp:801
-#, fuzzy
 msgid "Replace All"
-msgstr "&Substituir"
+msgstr "Substituir Tudo"
 
 #: keditcl2.cpp:898
-#, fuzzy
 msgid "Goto Line"
-msgstr "&Ir para a Linha..."
+msgstr "Ir para a Linha"
 
 #: keditcl2.cpp:903
 msgid "Go"
-msgstr ""
+msgstr "Ir"
 
 #: print.cpp:69
 msgid "Print Dialog"
