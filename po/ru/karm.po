@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karm 0.3\n"
 "POT-Creation-Date: 1999-01-09 01:54+0100\n"
-"PO-Revision-Date: 1998-12-21 02:00+0600\n"
+"PO-Revision-Date: 1999-01-09 02:00+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -102,12 +102,12 @@ msgstr "будильник включен"
 
 #: top.cpp:150
 msgid "Preferences"
-msgstr ""
+msgstr "Настройки"
 
 #: top.cpp:194
 #, c-format
 msgid "%s "
-msgstr ""
+msgstr "%s "
 
 #: top.cpp:200
 msgid "&Clock"
@@ -119,7 +119,7 @@ msgstr "&Задача"
 
 #: top.cpp:206
 msgid "&Preferences..."
-msgstr ""
+msgstr "Настройки..."
 
 #: top.cpp:220
 msgid "S&top"

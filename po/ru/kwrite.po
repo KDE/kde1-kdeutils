@@ -349,9 +349,8 @@ msgid "&Insert..."
 msgstr "Вставить..."
 
 #: toplevel.cpp:169
-#, fuzzy
 msgid "Open Recen&t"
-msgstr "Открыть документ"
+msgstr "Открыть недавний"
 
 #: toplevel.cpp:180
 msgid "New &Window"
