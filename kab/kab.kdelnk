@@ -1,6 +1,7 @@
 # KDE Config File
 [KDE Desktop Entry]
-Name=addressbook
+Name=Address book
+Name[no]=Adressebok
 Name[cs]=Kniha adres
 Name[es]=Libro de direcciones
 Name[de]=Adressbuch
@@ -10,7 +11,8 @@ Icon=kab.xpm
 TerminalOptions=
 Path=
 Type=Application
-Comment=addressbook
+Comment=Address book
+Comment[no]=Adressebok
 Comment[cs]=Kniha adres
 Comment[de]=Adressbuch
 Comment[es]=Libro de direcciones
