@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes 0.3\n"
 "POT-Creation-Date: 1999-03-09 01:44+0100\n"
-"PO-Revision-Date: 1999-02-09 22:36+0600\n"
+"PO-Revision-Date: 1999-06-05 19:36+07:00\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -82,7 +82,7 @@ msgstr "Изменить установки..."
 
 #: knotes.cpp:340
 msgid "Dock in panel"
-msgstr ""
+msgstr "Прицепить к панели"
 
 #: knotes.cpp:368
 msgid "Insert Date"
@@ -376,11 +376,9 @@ msgstr ""
 "Пожалуйста выберите другое имя."
 
 #: docking.cpp:48
-#, fuzzy, c-format
+#, c-format
 msgid "Could not load %s !"
-msgstr ""
-"Не могу загрузить:\n"
-" %s"
+msgstr "Не могу загрузить %s !"
 
 #: docking.cpp:68
 msgid "Change Defaults"
@@ -393,6 +391,3 @@ msgstr "Выйти из заметок"
 #: docking.cpp:92
 msgid "New Knote"
 msgstr "Новая заметка"
-
-#~ msgid "No Frame"
-#~ msgstr "Без рамки"

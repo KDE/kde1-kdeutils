@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kedit\n"
 "POT-Creation-Date: 1999-04-09 02:19+0200\n"
-"PO-Revision-Date: 1999-02-09 01:50+0600\n"
+"PO-Revision-Date: 1999-06-05 19:35+07:00\n"
 "Last-Translator: Denis pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -283,7 +283,7 @@ msgstr "Печать: %s"
 #: kedit.cpp:1362
 #, c-format
 msgid "Printing: %s %s (Selection)"
-msgstr "Печать: %s (выделение)"
+msgstr "Печать: %s %s (выделение)"
 
 #: kedit.cpp:1386
 msgid "Saving ..."
