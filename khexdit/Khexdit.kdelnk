@@ -1,0 +1,10 @@
+# KDE Config File
+[KDE Desktop Entry]
+Name=Hex Editor
+Name[de]Hex-Editor
+Exec=khexdit
+Icon=edit.xpm
+DocPath=khexdit/khexdit.html
+Info=A simple Hex editor
+Info[de]=Ein Editor fuer binaere Dateien
+Terminal=0
