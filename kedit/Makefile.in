@@ -1,0 +1,74 @@
+# kedit Makefile
+#
+# $Id$
+#
+
+CXXFLAGS= @all_includes@ -DHAVE_CONFIG_H -I..
+LDFLAGS	+= @all_libraries@ -lkfm -lkdecore -lqt -lXext -lX11 -lkdeui @LIBSOCKET@
+CXX	= @CXX@
+MOC	= @MOC@
+
+############# INSTALL #################
+
+INSTALL = @INSTALL@ -m 0755 -s
+INSTALL_DATA = @INSTALL@ -m 0644
+INSTALL_DIR = @mkinstalldirs@
+INSTALL_DIR_PRIVATE = @INSTALL@ -d -m 0700
+
+prefix = @prefix@
+KDEINC = $(prefix)/include
+BINDIR = $(prefix)/bin
+LIBDIR = $(prefix)/lib
+PICSDIR = $(LIBDIR)/pics
+DOCSDIR = $(prefix)/doc/HTML
+
+########### File Formats ###########
+
+DEFS = -DDOCS_PATH=\"$(DOCSDIR)/\"
+.SUFFIXES: .cpp
+
+.cpp.o:
+	$(CXX) $(DEFS) $(CXXFLAGS) -c $<
+
+
+########## Files #####################
+
+SOURCES =	Kedit.cpp fileselect.cpp 
+HEADERS =	Kedit.h fileselect.h constants.h
+OBJECTS =	Kedit.o fileselect.o
+SRCMETA =	Kedit.moc fileselect.moc 
+TARGET	=	kedit
+
+
+######### build rules ################
+
+all: $(TARGET)
+
+$(TARGET): $(SRCMETA) $(OBJECTS)
+	$(CXX) $(OBJECTS) -o $(TARGET) $(LDFLAGS)
+
+depend:
+	@makedepend $(SOURCES) 2> /dev/null
+
+showfiles:
+	@echo $(SOURCES) $(HEADERS) Makefile
+
+clean:
+	-rm -f *.o *.bak *~ *% #*
+	-rm -f $(SRCMETA) $(TARGET)
+
+install:
+	$(INSTALL_DIR) $(BINDIR)
+	$(INSTALL) $(TARGET) $(BINDIR)
+	$(INSTALL_DIR) $(DOCSDIR)
+	$(INSTALL_DATA) kedit.html $(DOCSDIR)
+
+# dependencies for meta code files
+
+Kedit.moc: Kedit.h
+	$(MOC) Kedit.h -o Kedit.moc
+fileselect.moc: fileselect.h
+	$(MOC) fileselect.h -o fileselect.moc
+        
+# DO NOT DELETE THIS LINE -- make depend depends on it.
+

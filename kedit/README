@@ -1,0 +1,71 @@
+-------------------------------
+ $Id$
+-------------------------------
+
+     Kedit 0.3.1, small editor for the KDE project.
+     
+     
+Kedit is a small, simple and almost featureless :) editor, just like
+the well-known Notepad. It is suitable only for small editing tasks, or
+as a simple textfile browser.
+
+Currently, kedit is in a very early development stage. It can load,
+save/saveas files, and - of course - it can edit those files :) There is
+some room for improvements, but I really want this editor to be small and
+simple.
+
+Kedit can open multiple windows (so you can edit multiple files), without
+having multiple copies of the whole program in memory.
+
+Some technical stuff:
+
+Kedit itself is only a wrapper for my KEdit widget. This widget is a sub-
+classed QMultiLineEdit (and therefore needs qt-1.1 or higher). The widget
+is able to load and save textfiles, it has it's own fileselector (which isn't
+initialized at creation time, so you can use your own without wasting memory).
+Furthermore, KEdit has it's own search dialog and a littly context menu and
+of course, some public methods for loading, saving, searching and so on.
+
+Changes
+=======
+
+Version 0.3.1 (Martin Hartig, hartig@mathematik.uni-kl.de, 21.2.97)
+
+- usage of the kdehelp browser, HTML help text added
+
+Version 0.3 (Torben Weiss, weiss@kde.org, 4.2.97 )
+
+- Drag and Drop added
+
+- Added network access. Can load any file kfm can. To use this feature you
+  must run kfm. If none is running kedit will start one on demand.
+
+- Can save files everywhere kfm can, this means right now that you can
+  write to ftp servers.
+
+- Using libkdecore and libkfm. This means you need libkde-0.61 and
+  kfm-0.51 or greater installed
+
+- Fixed some bugs
+
+- Works with any amount of windows now
+
+- Changed some key bindings, but not all
+
+- You can call
+  make
+  make install
+ 
+
+TODO:
+        Implement search again (and maybe replace), including regexp
+        support. At the moment, only the search dialog has been implemented.
+
+        Clean up some stuff, make it more user-friendly(tm).
+        
+	Keybindings: I'am sure, they are currently not kde-conform.
+        
+	Use (a not existing) KFileDialog that lets you enter URLs
+
+
+
