@@ -1,0 +1,390 @@
+# KEDIT CATALAN TRANSLATION
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Sebastià Pla <sastia@redestb.es>, 1998.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kedit\n"
+"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"PO-Revision-Date: 1998-06-11 23:25+0100\n"
+"Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
+"Language-Team: CATALAN <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: kedit.cpp:83 kedit.cpp:1019
+msgid "Show &Tool Bar"
+msgstr "Mostrar barra d'&Eines"
+
+#: kedit.cpp:85 kedit.cpp:1012
+msgid "Hide &Tool Bar"
+msgstr "Ocultar barra d'&Eines"
+
+#: kedit.cpp:88 kedit.cpp:999
+msgid "Show &Status Bar"
+msgstr "Mostrar barra d'E&stat"
+
+#: kedit.cpp:90 kedit.cpp:992
+msgid "Hide &Status Bar"
+msgstr "Ocultar barra d'E&stat"
+
+#: kedit.cpp:152
+msgid "Select All"
+msgstr "Seleccionar tot"
+
+#: kedit.cpp:183
+msgid "&About..."
+msgstr "&Quant a..."
+
+#: kedit.cpp:187
+msgid "Ne&w..."
+msgstr "&Nou..."
+
+#: kedit.cpp:192
+msgid "Open Recen&t..."
+msgstr "Obrir &Recent..."
+
+#: kedit.cpp:204
+msgid "Open &URL..."
+msgstr "Obrir &URL..."
+
+#: kedit.cpp:206
+msgid "Save to U&RL..."
+msgstr "Desar a UR&L..."
+
+#: kedit.cpp:212
+msgid "&Mail..."
+msgstr "&Correu..."
+
+#: kedit.cpp:216
+msgid "New &Window"
+msgstr "&Finestra Nova"
+
+#: kedit.cpp:228
+msgid "&Select All"
+msgstr "&Seleccionar tot"
+
+#: kedit.cpp:231
+msgid "&Insert File"
+msgstr "Insertar &Fitxer"
+
+#: kedit.cpp:233
+msgid "Insert &Date"
+msgstr "Insertar &Data"
+
+#: kedit.cpp:236
+msgid "&Find..."
+msgstr "&Buscar..."
+
+#: kedit.cpp:238
+msgid "Find &Again"
+msgstr "Seguir b&uscant"
+
+#: kedit.cpp:240
+msgid "&Replace"
+msgstr "Subst&ituir"
+
+#: kedit.cpp:243
+msgid "&Goto Line..."
+msgstr "&Anar a línia..."
+
+#: kedit.cpp:247
+msgid "&Font"
+msgstr "&Font"
+
+#: kedit.cpp:249
+msgid "Colors"
+msgstr "&Colors"
+
+#: kedit.cpp:251
+msgid "KEdit &Options..."
+msgstr "&Opcions KEdit..."
+
+#: kedit.cpp:253
+msgid "Auto &Indent"
+msgstr "&Auto Entrada"
+
+#: kedit.cpp:256
+msgid "&Tool Bar"
+msgstr "Barra d'&Eines"
+
+#: kedit.cpp:258
+msgid "&Status Bar"
+msgstr "Barra d'&Estat"
+
+#: kedit.cpp:261
+msgid "Save Options"
+msgstr "&Desar Opcions"
+
+#: kedit.cpp:289
+msgid "New Document"
+msgstr "Document nou"
+
+#: kedit.cpp:295
+msgid "Open Document"
+msgstr "Obrir document"
+
+#: kedit.cpp:300
+msgid "Save Document"
+msgstr "Desar document"
+
+#: kedit.cpp:325 print.cpp:88
+msgid "Print Document"
+msgstr "Imprimir document"
+
+#: kedit.cpp:330
+msgid "Mail Document"
+msgstr "Enviar per Correu"
+
+#: kedit.cpp:534
+msgid "Open Location:"
+msgstr "Obrir Localització:"
+
+#: kedit.cpp:548
+msgid "Save to Location:"
+msgstr "Desar a Localització:"
+
+#: kedit.cpp:574 kedit.cpp:637 kedit.cpp:666 kedit.cpp:729 kedit.cpp:1123
+msgid "Message"
+msgstr "Missatge"
+
+#: kedit.cpp:575 kedit.cpp:730
+msgid ""
+"This Document has been modified.\n"
+"Would you like to save it?"
+msgstr ""
+"Aquest document ha estat modificat.\n"
+"Voleu desar-lo?"
+
+#: kedit.cpp:592 kedit.cpp:747
+msgid ""
+"Could not save the file.\n"
+"Exit anyways?"
+msgstr ""
+"No s'ha pogut desar el fitxer.\n"
+"Cal sortir?"
+
+#: kedit.cpp:638
+msgid ""
+"There are windows with modified content open.\n"
+"If you exit now, you will loose those changes\n"
+"Quit anyways?"
+msgstr ""
+"Hi ha finestres obertes amb el contingut modificat.\n"
+"Si sortiu ara, perdreu aquests canvis\n"
+"Cal abandonar?"
+
+#: kedit.cpp:667
+msgid ""
+"The current document has been modified.\n"
+"Continue anyways ?"
+msgstr ""
+"El document actual ha estat modificat.\n"
+"Cal continuar?"
+
+#: kedit.cpp:808
+#, c-format
+msgid "Wrote: %s"
+msgstr "Escrit: %s"
+
+#: kedit.cpp:814
+msgid "No changes need to be saved"
+msgstr "No hi ha canvis per desar"
+
+#: kedit.cpp:833
+#, c-format
+msgid "Saved as: %s"
+msgstr "Desat com: %s"
+
+#: kedit.cpp:866
+#, c-format
+msgid ""
+"Could not pipe the contentsof this Document into:\n"
+" %s"
+msgstr ""
+"No s'ha pogut enviar el contingut del document a:\n"
+" %s"
+
+#: kedit.cpp:960
+msgid "Auto Indent Mode: On"
+msgstr "Mode auto entrada: Sí"
+
+#: kedit.cpp:962
+msgid "Auto Indent Mode: Off"
+msgstr "Mode auto entrada: No"
+
+#: kedit.cpp:1058
+#, c-format
+msgid "Line: %d Col: %d"
+msgstr "Línia: %d Col: %d"
+
+#: kedit.cpp:1124
+msgid ""
+"The current document has been modified.\n"
+"Would you like to save the changes before \n"
+"printing this Document?"
+msgstr ""
+"El document actual ha estat modificat.\n"
+"Voleu desar els canvis abans d'imprimir-lo?"
+
+#: kedit.cpp:1142
+msgid ""
+"Could not save the file.\n"
+"Print anyways?"
+msgstr ""
+"No s'ha pogut desar el fitxer.\n"
+"Cal imprimir-lo?"
+
+#: kedit.cpp:1235
+#, c-format
+msgid "Printing: %s Untitled (Selection)"
+msgstr "Imprimint: %s Sense títol (Selecció)"
+
+#: kedit.cpp:1238
+#, c-format
+msgid "Printing: %s Untitled"
+msgstr "Imprimint: %s Sense títol"
+
+#: kedit.cpp:1276
+#, c-format
+msgid "Printing: %s"
+msgstr "Imprimint: %s"
+
+#: kedit.cpp:1286
+#, c-format
+msgid "Printing: %s %s (Selection)"
+msgstr "Imprimint: %s %s (Selecció)"
+
+#: kedit.cpp:1310
+msgid "Saving ..."
+msgstr "Desant..."
+
+#: kedit.cpp:1317
+msgid "Loading ..."
+msgstr "Carregant ..."
+
+#: kedit.cpp:1351 kedit.cpp:1444
+msgid ""
+"KEdit is already waiting\n"
+"for an internet job to finish\n"
+"Please wait until has finished\n"
+"Alternatively stop the running one."
+msgstr ""
+"KEdit està esperant\n"
+"que acabi un treball internet.\n"
+"Si us plau, espereu a que acabi.\n"
+"O bé atureu-lo."
+
+#: kedit.cpp:1368 kedit.cpp:1463
+msgid "Could not start or find KFM"
+msgstr "No s'ha pogut engegar o trobar KFM"
+
+#: kedit.cpp:1410
+#, c-format
+msgid ""
+"Malformed URL\n"
+"%s"
+msgstr ""
+"URL erroni\n"
+"%s"
+
+#: kedit.cpp:1430
+#, c-format
+msgid "Loading '%s'"
+msgstr "Carregant '%s'"
+
+#: kedit.cpp:1454
+msgid "Calling KFM"
+msgstr "Cridant a KFM"
+
+#: kedit.cpp:1473
+msgid "Starting Job"
+msgstr "Engegant treball"
+
+#: kedit.cpp:1476
+msgid "Connected"
+msgstr "Connectat"
+
+#: kedit.cpp:1478
+msgid "Waiting..."
+msgstr "Esperant..."
+
+#: kedit.cpp:1486
+#, c-format
+msgid "Finished '%s'"
+msgstr "Acabat '%s'"
+
+#: kedit.cpp:1527
+msgid "New Window"
+msgstr "Nova Finestra"
+
+#: kedit.cpp:1531
+msgid "New Window Created"
+msgstr "S'ha creat la nova finestra"
+
+#: kedit.cpp:1537
+msgid "Load Command Done"
+msgstr "S'ha efectuat l'ordre de càrrega "
+
+#: kedit.cpp:1949
+#, c-format
+msgid ""
+"Can not create:\n"
+"%s"
+msgstr ""
+"No es pot crear:\n"
+"%s"
+
+#: print.cpp:66
+msgid "Print Dialog"
+msgstr "Diàleg d'impressió"
+
+#: print.cpp:70
+msgid "Print directly using lpr"
+msgstr "Imprimir directament mitjançant lpr"
+
+#: print.cpp:75
+msgid "Print using Command:"
+msgstr "Imprimir utilitzant l'ordre:"
+
+#: print.cpp:93
+msgid "Print Selection"
+msgstr "Imprimir selecció"
+
+#: filldlg.cpp:31
+msgid "KEdit Options"
+msgstr "Opcions KEdit"
+
+#: filldlg.cpp:36
+msgid "Set Fill-Column at:"
+msgstr "Omplir fins a la columna:"
+
+#: filldlg.cpp:40
+msgid "Word Warp"
+msgstr "Salt de línia"
+
+#: filldlg.cpp:44
+msgid "Mail Command:"
+msgstr "Ordre de correu:"
+
+#: filldlg.cpp:135
+msgid "You must enter an integer."
+msgstr "Heu d'entrar un enter."
+
+#: mail.cpp:37
+msgid "Mail Document to:"
+msgstr "Enviar document a:"
+
+#: mail.cpp:55
+msgid "Subject:"
+msgstr "Assumpte:"
+
+#: mail.cpp:57
+msgid "Mail"
+msgstr "Correu"
+
+#: mail.cpp:96
+msgid "You must specify a Recipient"
+msgstr "Heu d'especificar un destinatari"
+
