@@ -1,6 +1,6 @@
 /*
- * 
- * 
+ *
+ *
  * NOTE THIS CLASS IS NOT THE SAME AS THE ONE IN THE KDEUI LIB
  * The difference is that this one uses KFileDialog instead of
  * QFileDialog. So don't remove this class with the idea in mind to
@@ -8,26 +8,26 @@
  * Bernd
 
   $Id$
- 
+
   KEdit, a simple text editor for the KDE project
 
-  Copyright (C) 1996 Bernd Johannes Wuebben   
+  Copyright (C) 1996 Bernd Johannes Wuebben
                      wuebben@math.cornell.edu
-  
+
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
   the Free Software Foundation; either version 2 of the License, or
   (at your option) any later version.
-  
+
   This program is distributed in the hope that it will be useful,
   but WITHOUT ANY WARRANTY; without even the implied warranty of
   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   GNU General Public License for more details.
-  
+
   You should have received a copy of the GNU General Public License
   along with this program; if not, write to the Free Software
   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
-   
+
   */
 
 
@@ -40,7 +40,7 @@
 #include <qapp.h>
 #include <qkeycode.h>
 #include <qaccel.h>
-#include <qregexp.h> 
+#include <qregexp.h>
 #include <qobject.h>
 #include <qmlined.h>
 #include <qlined.h>
@@ -54,7 +54,7 @@
 #include <qregexp.h>
 #include <qtstream.h>
 #include <qkeycode.h>
-#include <qfileinf.h> 
+#include <qfileinf.h>
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -68,7 +68,7 @@
 #include <fcntl.h>
 #include <ctype.h>
 #include <pwd.h>
-  
+
 #include <kapp.h>
 #include <kfontdialog.h>
 #include <kfiledialog.h>
@@ -80,17 +80,17 @@ class KIntLineEdit : public QLineEdit
   Q_OBJECT
 
 public:
-  KIntLineEdit( QWidget *parent = 0, const char *name = 0 ) 
+  KIntLineEdit( QWidget *parent = 0, const char *name = 0 )
     : QLineEdit( parent, name ) {};
-  
+
   int getValue() { return atoi( text() ); };
 
 protected:
 	
   void keyPressEvent( QKeyEvent *e ) {
     char key = e->ascii();
-    
-    if( isdigit( key ) 
+
+    if( isdigit( key )
 	|| ( e->key() == Key_Return) || ( e->key() == Key_Enter    )
 	|| ( e->key() == Key_Delete) || ( e->key() == Key_Backspace)
 	|| ( e->key() == Key_Left  ) || ( e->key() == Key_Right    )){
@@ -159,7 +159,7 @@ signals:
     void search_done_signal();
 
 public slots:
-     
+
     void done_slot();
     void ok_slot();
 
@@ -204,7 +204,7 @@ signals:
     void replace_done_signal();
 
 public slots:
-     
+
     void done_slot();
     void replace_slot();
     void replace_all_slot();
@@ -217,29 +217,29 @@ public slots:
 class KEdit : public QMultiLineEdit
 {
     Q_OBJECT
-    
+
 public:
 
-    KEdit (KApplication *a=NULL,QWidget *parent=NULL, const char *name=NULL, 
+    KEdit (KApplication *a=NULL,QWidget *parent=NULL, const char *name=NULL,
 	   const char *filename=NULL);
 
     ~KEdit();
 
-    
-    enum { NONE, 
-	   FORWARD, 
+
+    enum { NONE,
+	   FORWARD,
 	   BACKWARD };
 
-    enum { KEDIT_OK 		= 0, 
-	   KEDIT_OS_ERROR 	= 1, 
+    enum { KEDIT_OK 		= 0,
+	   KEDIT_OS_ERROR 	= 1,
 	   KEDIT_USER_CANCEL 	= 2 ,
 	   KEDIT_RETRY 		= 3,
 	   KEDIT_NOPERMISSIONS 	= 4};
 
-    enum { OPEN_READWRITE 	= 1, 
-	   OPEN_READONLY 	= 2, 
+    enum { OPEN_READWRITE 	= 1,
+	   OPEN_READONLY 	= 2,
 	   OPEN_INSERT 		= 4 };
-    
+
 
     /// Opens a new untitled document in the text widget
       /** Opens a new untitled document in the text widget The user is given
@@ -271,12 +271,12 @@ public:
 	KEDIT_OS_ERROR. The user will be given a chance to save the current file if
 	it has been modified. mode is one of OPEN_READONLY, OPEN_READWRITE.
 	OPEN_READONLY means  that the user will not be able to insert characters
-	into the document. 
+	into the document.
      */
     int 	openFile( int mode );
 
     /// Lets the user insert a file at the current cursor position
-    /** Calling this method will let the user insert a file at the current cursor 
+    /** Calling this method will let the user insert a file at the current cursor
         position. Return codes are KEDIT_OK, KEDIT_USER_CANCEL, KDEDIT_OS_ERROR.
     */
     int 	insertFile();
@@ -289,16 +289,16 @@ public:
 	    into the current document at the current cursor position.
 	   */
     int 	loadFile( QString filename , int mode );
-      
+
 
     /// Returns the filename of the current file.
-    /** Returns the filename of the currnet file. You can use setName() to set the 
+    /** Returns the filename of the currnet file. You can use setName() to set the
         filename of the current file
     */
     QString 	getName();
 
     /// Sets the filename of the current file.
-    /** Sets the filename of the currnet file. You can use getName() to set the 
+    /** Sets the filename of the currnet file. You can use getName() to set the
         filename of the current file
     */
     void 	setName( const char *_name );
@@ -309,7 +309,7 @@ public:
     QString 	markedText();
 
     /// Lets the user select a font and sets the font of the textwidget.
-    /** Lets the user select a font and sets the font of the textwidget to that 
+    /** Lets the user select a font and sets the font of the textwidget to that
         selected font.
     */
     void 	selectFont();
@@ -318,7 +318,7 @@ public:
     /** Presents a search dialog to the user
      */
     void 	Search();
-    
+
     /// Repeats the last search specified on the search dialog.
     /** Repeasts the last search specified on the search dialog. If the user
         hasn't searched for anything until now, this method will simply return
@@ -340,25 +340,25 @@ public:
     /**Returns true if the document has been modified.
     */
     bool 	isModified();
-    
+
     /// Toggles the modification status of the document
-    /** Toggles the modification status of the document. TRUE = Modified, 
+    /** Toggles the modification status of the document. TRUE = Modified,
         FALSE = UNMODIFIED. Methods such as doSave() rely on this to see whether
 	the document needs to be saved.
     */
     void 	toggleModified( bool );
 
     ///  Sets Indent Mode
-    /**  Sets the Indent Mode. TRUE = Indent  mode on, FALSE = Indent mode off. 
+    /**  Sets the Indent Mode. TRUE = Indent  mode on, FALSE = Indent mode off.
      */
     void 	setAutoIndentMode( bool );
 
-    /// Returns the Indent Mode  
-    /** Returns the Indent Mode. TRUE = Indent  mode on, FALSE = Indent mode off. 
+    /// Returns the Indent Mode
+    /** Returns the Indent Mode. TRUE = Indent  mode on, FALSE = Indent mode off.
      */
     bool        AutoIndentMode(){ return autoIndentMode; };
 
-    /// Install a Popup Menue for KEdit. 
+    /// Install a Popup Menue for KEdit.
     /** Install a Popup Menue for KEdit. The Popup Menu will be activated on
         a right mouse button press event.
      */
@@ -373,7 +373,7 @@ public:
 	  /** This returns the actual column number the cursor is on. This call differs
 	    from QMultiLineEdit::getCursorPosition in that it returns the actual cursor
 	    position and not the character position. Use currentLine() and currentColumn()
-	    if you want to display the current line or column in the status bar for 
+	    if you want to display the current line or column in the status bar for
 	    example.
 	    */
     int 	currentColumn();
@@ -384,12 +384,12 @@ public:
 	       */
     bool 	WordWrap();
 
-    /// Turn word wrap mode on or off. 
+    /// Turn word wrap mode on or off.
 	   /** You also need to specify the fill column
 	       with setFillColumnMode() otherwise wordwrap is not in effect.
 	       */
     void 	setWordWrap(bool );
-    
+
     /// Returns TRUE if fill column mode is on
 	   /**  Returns TRUE if fill column mode is on, that is if the line will
 	        be broken automatically when if a character is to be inserted past
@@ -401,7 +401,7 @@ public:
 	   /**  Set the fill column to column col, if col is strictly larger than 0.
 	        If col  is 0, fill column mode is turned off.
 	        In fill column mode, the line will
-	        be broken automatically at column col, when a character is 
+	        be broken automatically at column col, when a character is
 		inserted past column col..
 		*/
     void  	setFillColumnMode(int line, bool set);
@@ -413,7 +413,7 @@ public:
 	    */
     void       saveBackupCopy(bool copy);
 
-    /// set the name of the file 
+    /// set the name of the file
 	  /** Sets the name of the file if a file is open.
 	    */
     void       setFileName(char* name);
@@ -457,7 +457,7 @@ signals:
     /**
      * Emitted when spellcheck is complete.
      **/
-    void spellcheck_done ();       
+    void spellcheck_done ();
 
     /// This signal is emitted when the document in the textwidget has changed
 	  /** This signal is emitted when the document in the textwidget has changed
@@ -466,11 +466,11 @@ signals:
 
     ///  This signal is emitted whenever the cursor position changed.
 	   /** This signal is emitted whenever the cursor position changed.
-	       Use this in conjunction with currentLine(), currentColumn() 
+	       Use this in conjunction with currentLine(), currentColumn()
 	       if you need to know the cursor position.
 	       */
     void 	CursorPositionChanged();
-    
+
     /// This signal is emitted just before saving a file.
 	  /** This signal is emitted just before saving a file. Since KEdit calls
 	      kapp->processEvents(), you have a chance to let the user know what's 	
@@ -495,10 +495,10 @@ signals:
 
 
 public slots:
-    
+
     void spellResult (char *newtext);
     void corrected (char *originalword, char *newword, unsigned pos);
-    void misspelling (char *word, QStrList *, unsigned pos);    
+    void misspelling (char *word, QStrList *, unsigned pos);
     void spellcheck();
     void spellcheck2(KSpell*);
 
@@ -518,16 +518,21 @@ public slots:
     void replacedone_slot();
 
     void computePosition();
+    
+    void repaintAll();
 
 
 protected:
+#if QT_VERSION >= 142
+    QTimer* repaintTimer;
+#endif
 
     int 	saveFile();
 
-    int 	doSearch(QString s_pattern, bool case_sensitive, 
+    int 	doSearch(QString s_pattern, bool case_sensitive,
 			 bool regex, bool forward,int line, int col);
 
-    int 	doReplace(QString s_pattern, bool case_sensitive, 
+    int 	doReplace(QString s_pattern, bool case_sensitive,
 			  bool regex, bool forward,int line, int col,bool replace);
 
 
@@ -551,7 +556,7 @@ private:
 
 private:
 
-    // Spellchecking    
+    // Spellchecking
     KSpell *kspell;
     KSpellConfig *ksc;
     int spell_offset;
@@ -591,7 +596,7 @@ private:
     bool        word_wrap_is_set;
     int         fill_column_value;
     bool        make_backup_copies;
-    
+
 };
 
 
