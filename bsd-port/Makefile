@@ -12,7 +12,10 @@ CATEGORIES=	misc kde
 
 MAINTAINER=	garbanzo@hooked.net
 
-BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt
+BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt \
+		autoconf:${PORTSDIR}/devel/autoconf \
+		automake:${PORTSDIR}/devel/automake
+
 LIB_DEPENDS=	qt\\.1\\.3[1-9]:${PORTSDIR}/x11/qt \
 		gif\\.[23]\\.:${PORTSDIR}/graphics/giflib \
 		jpeg\\.8\\.:${PORTSDIR}/graphics/jpeg \
