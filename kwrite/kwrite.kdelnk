@@ -1,10 +1,12 @@
 # KDE Config File
 [KDE Desktop Entry]
-Comment[C]=A powerful text editor
+Comment=A powerful text editor
 Comment[de]=Ein leistungsfähiger Texteditor
+Comment[no]=En kraftig tekstredigerer
 BinaryPattern=
-Name[C]=KDE Editor
+Name=KDE Editor
 Name[de]=KDE Editor
+Name[no]=KDE Redigerer
 MimeType=
 Exec=kwrite %i %m %f
 TerminalOptions=
