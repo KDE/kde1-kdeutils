@@ -240,6 +240,22 @@ void HexWidget::openURL(const char *_url, KIND_OF_OPEN _mode) {
   //openMode = _mode;
 }
 
+void HexWidget::saveProperties(KConfig *config )
+{
+    config->setGroup("File");
+    config->writeEntry("Name", CurrentFile->Title());
+}
+
+
+void HexWidget::readProperties(KConfig *config)
+{
+    config->setGroup("File");
+    QString entry = config->readEntry("Name"); // no defaul
+    if (entry.isNull())
+	return;
+    open(entry, READWRITE );
+}
+
 HexWidget::HexWidget() {
   initMenu();
   setCaption(kapp->getCaption());
@@ -298,26 +314,33 @@ void HexWidget::slotDropEvent( KDNDDropZone * _dropZone ) {
 int main(int argc, char **argv) {
   KApplication a(argc,argv,"khexdit");  
 
-  if (argc>1) {
-    for (int i=1; i < argc; i++) {
-      if (*argv[i] == '-')	/* ignore options */
-	continue;
-      
-      QString f = argv[i];
-      
-      if ( f.find( ":/" ) == -1 && f.left(1) != "/" )
-	{
-	  char buffer[ 1024 ];
-	  getcwd( buffer, 1023 );
-	  f.sprintf( "file:%s/%s", buffer, argv[i] );
-	}
-      
-      new HexWidget(f.data());
-    }
-  } else {
-    HexWidget *hw = new HexWidget();
-    a.setMainWidget(hw);
-  }
+  if ( a.isRestored() ) {
+      int n = 1;
+      while (KTopLevelWidget::canBeRestored(n)) {
+	  HexWidget *hw = new HexWidget();
+	  hw->restore(n++);
+      }
+  } else
+      if (argc>1) {
+	  for (int i=1; i < argc; i++) {
+	      if (*argv[i] == '-')	/* ignore options */
+		  continue;
+	      
+	      QString f = argv[i];
+	      
+	      if ( f.find( ":/" ) == -1 && f.left(1) != "/" )
+		  {
+		      char buffer[ 1024 ];
+		      getcwd( buffer, 1023 );
+		      f.sprintf( "file:%s/%s", buffer, argv[i] );
+		  }
+	      
+	      new HexWidget(f.data());
+	  }
+      } else {
+	  HexWidget *hw = new HexWidget();
+	  a.setMainWidget(hw);
+      }
   
   return a.exec();
 }

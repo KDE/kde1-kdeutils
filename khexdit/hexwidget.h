@@ -34,25 +34,27 @@
 #define ID_HELP_HELP  101
 
 class HexWidget : public KTopLevelWidget {
-  Q_OBJECT
+    Q_OBJECT
     
 public:
 
-  enum KIND_OF_OPEN {
-    READONLY, READWRITE
-  };
-  enum action { GET, PUT };
-  
-  HexWidget();
-  HexWidget(const char*);
-  ~HexWidget();
-  void open(const char*, KIND_OF_OPEN kind);
-  void openURL(const char *fileName, KIND_OF_OPEN kind);
-
-  public slots:
+    enum KIND_OF_OPEN {
+	READONLY, READWRITE
+    };
+    enum action { GET, PUT };
+    
+    HexWidget();
+    HexWidget(const char*);
+    ~HexWidget();
+    void open(const char*, KIND_OF_OPEN kind);
+    void openURL(const char *fileName, KIND_OF_OPEN kind);
+    
+public slots:
     void menuCallback(int);
-  void slotDropEvent( KDNDDropZone * _dropZone );
-  
+    void slotDropEvent( KDNDDropZone * _dropZone );
+    virtual void saveProperties(KConfig*);
+    virtual void readProperties(KConfig*);
+    
 private:
     QList<HexFile> files;
     HexFile *CurrentFile;
