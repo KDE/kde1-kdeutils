@@ -217,7 +217,7 @@ msgstr "Innfærsluhamur: Af"
 #: kedit.cpp:1129
 #, c-format
 msgid "Line: %d Col: %d"
-msgstr "Lína: &d Dálkur: %d"
+msgstr "Lína: %d Dálkur: %d"
 
 #: kedit.cpp:1195
 msgid ""
