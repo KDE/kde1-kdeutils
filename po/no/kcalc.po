@@ -17,11 +17,11 @@ msgstr "Standardverdier"
 
 #: configdlg.cpp:61
 msgid "Foreground Color:"
-msgstr "Forgrunns farge:"
+msgstr "Forgrunnsfarge:"
 
 #: configdlg.cpp:78
 msgid "Background Color:"
-msgstr "Bakgrunns farge:"
+msgstr "Bakgrunnsfarge:"
 
 #: configdlg.cpp:95
 msgid "Precision:"
@@ -49,11 +49,11 @@ msgstr "Sett standard skrifttype"
 
 #: fontdlg.cpp:63
 msgid "Point Size:"
-msgstr "Punkt størrelse:"
+msgstr "Punktstørrelse:"
 
 #: kcalc.cpp:99
 msgid "KCalc Setup/Help"
-msgstr "KCalc oppsett/hjelp"
+msgstr "KCalc-oppsett/hjelp"
 
 #: kcalc.cpp:152
 msgid "Angle"
@@ -65,7 +65,7 @@ msgstr "Basis"
 
 #: kcalc.cpp:1524
 msgid "KCalc Configuraton"
-msgstr ""
+msgstr "KCalc-konfigurasjon"
 
 #: kcalc.cpp:1550
 msgid "Base type: long double\n"
@@ -78,6 +78,10 @@ msgid ""
 "recompile KCalc with 'long double' precision enabled. See the README for "
 "details."
 msgstr ""
+"PÅ grunn av at glibcs er totalødelagt ble jeg nødt til å redusere KCalcs "
+"persisjon fra 'long double' til 'double'. Eiere av systemer med en "
+"fungerende libc skal rekompilere kCalc med 'long double'-presjons på. Se "
+"README for detaljer."
 
 #: kcalc.cpp:1592
 msgid "Display Font"
@@ -85,7 +89,4 @@ msgstr "Vis skrifttype"
 
 #: kcalc_core.cpp:1138
 msgid "Stat Mem cleared"
-msgstr "Stat Mem tømt"
-
-#~ msgid "Base type: double\n"
-#~ msgstr "Grunn type: dobbel\n"
+msgstr "Stattminne tømt"

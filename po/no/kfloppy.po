@@ -13,7 +13,7 @@ msgstr ""
 
 #: about.cpp:40
 msgid "About KDE Floppy Formater"
-msgstr "Om KDE floppy formatering"
+msgstr "Om KDE floppyformatering"
 
 #: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368
 #: floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721

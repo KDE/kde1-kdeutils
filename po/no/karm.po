@@ -133,6 +133,3 @@ msgstr ""
 #: top.cpp:161
 msgid "clock active"
 msgstr "ur aktivt"
-
-#~ msgid "&Contents"
-#~ msgstr "&Innhold"
