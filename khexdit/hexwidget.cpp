@@ -34,8 +34,8 @@ int HexWidget::initMenu() {
   //  view->insertItem( "Toggle Statusbar", ID_VIEW_STATUSBAR);
   
   QPopupMenu *help = new QPopupMenu;
-  help->insertItem( "Help on KHexdit", ID_HELP_HELP);
-  help->insertItem( "About KHexdit", ID_HELP_ABOUT);
+  help->insertItem( "Contents", ID_HELP_HELP);
+  help->insertItem( "About", ID_HELP_ABOUT);
   
   connect (file, SIGNAL (activated (int)), SLOT (menuCallback (int)));
   connect (help, SIGNAL (activated (int)), SLOT (menuCallback (int)));
@@ -73,7 +73,7 @@ int HexWidget::initMenu() {
   toolbar->insertItem(pixmap,ID_FILE_PRINT, FALSE, "Not Implemendted");
   toolbar->insertSeparator();
   pixmap.load(PIXDIR + "help.xpm");
-  toolbar->insertItem(pixmap,ID_HELP_ABOUT, TRUE, "About Hexdit");
+  toolbar->insertItem(pixmap,ID_HELP_ABOUT, TRUE, "About Hex Editor");
 
   addToolBar(toolbar);
   toolbar->setPos(KToolBar::Top);
@@ -149,16 +149,16 @@ void HexWidget::menuCallback(int item) {
     break;
 
   case ID_HELP_HELP: {
-    kapp->invokeHTMLHelp( "khexdit.html", "" );
+    kapp->invokeHTMLHelp( "khexdit/khexdit.html", "" );
     break;
   };
 
   case ID_HELP_ABOUT: {
      QString str;
-     str.sprintf( "KHexdit 0.4 \n\nby Stephan Kulow  (coolo@itm.mu-luebeck.de)");
-     KMsgBox::message( 0, "About KHexdit", (const char *)str,
+     str.sprintf( "Hex Editor 0.4 \n\nby Stephan Kulow  (coolo@itm.mu-luebeck.de)");
+     KMsgBox::message( 0, "About Hex Editor", (const char *)str,
 		       KMsgBox::INFORMATION, "Close" );
-     //     QMessageBox::message("About KHexdit", str, "OK"); 
+     //     QMessageBox::message("About Hex Editor", str, "OK"); 
      break;
   };
   };
@@ -174,7 +174,7 @@ void HexWidget::open(const char* fileName, KIND_OF_OPEN kind) {
       CurrentFile->open(fileName);
     CurrentFile->setFocus();
     char Caption[300];
-    sprintf(Caption,"KHexdit: %s",CurrentFile->Title());
+    sprintf(Caption,"Hex Editor: %s",CurrentFile->Title());
     setCaption(Caption);
     update();
   }
@@ -226,7 +226,7 @@ void HexWidget::openURL(const char *_url, KIND_OF_OPEN _mode) {
 
 HexWidget::HexWidget() {
   initMenu();
-  setCaption("KHexdit");
+  setCaption("Hex Editor");
 };
 
 HexWidget::HexWidget(const char* file) {
