@@ -1,0 +1,14 @@
+# KDE Config File
+[KDE Desktop Entry]
+Comment[C]=A powerful text editor
+Comment[de]=Ein leistungsfähiger Texteditor
+BinaryPattern=
+Name[C]=KDE Editor
+Name[de]=KDE Editor
+MimeType=
+Exec=kwrite
+TerminalOptions=
+Icon=kwrite.xpm
+Path=
+Type=Application
+Terminal=0
