@@ -1,0 +1,15 @@
+# KDE Config File
+[KDE Desktop Entry]
+Comment[C]=LaserJet Control
+BinaryPattern=ljettool;
+Protocols=
+Name[C]=KLaserJet
+MimeType=
+Comment=
+DocPath=kljettool/kljettool.html
+Exec=kljettool
+Icon=kljettool.xpm
+TerminalOptions=
+Path=
+Type=Application
+Terminal=0
