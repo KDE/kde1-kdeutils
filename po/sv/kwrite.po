@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
-"POT-Creation-Date: 1999-01-14 01:57+0100\n"
+"POT-Creation-Date: 1999-04-03 02:07+0200\n"
 "PO-Revision-Date: 1999-01-06 16:44+01:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
@@ -17,7 +17,7 @@ msgstr ""
 msgid "Normal:"
 msgstr "Normal:"
 
-#: highlight.cpp:1725 kwdialog.cpp:416
+#: highlight.cpp:1725 kwdialog.cpp:488
 msgid "Selected:"
 msgstr "Vald:"
 
@@ -203,139 +203,139 @@ msgstr "ersättningar utfördes"
 msgid "Line"
 msgstr "Rad"
 
-#: kwdialog.cpp:30
+#: kwdialog.cpp:31
 msgid "&Text To Find:"
 msgstr "&Text att hitta:"
 
-#: kwdialog.cpp:40
+#: kwdialog.cpp:43
 msgid "&Replace With:"
 msgstr "&Ersätt med:"
 
-#: kwdialog.cpp:51
+#: kwdialog.cpp:57
 msgid "&Case Sensitive"
 msgstr "&germen != VERSAL"
 
-#: kwdialog.cpp:52
+#: kwdialog.cpp:61
 msgid "&Whole Words Only"
 msgstr "Endast &hela ord"
 
-#: kwdialog.cpp:53
+#: kwdialog.cpp:65
 msgid "&From Cursor"
 msgstr "&Från markören"
 
-#: kwdialog.cpp:54
+#: kwdialog.cpp:74
 msgid "Find &Backwards"
 msgstr "&Hitta bakåt"
 
-#: kwdialog.cpp:55
+#: kwdialog.cpp:78
 msgid "&Selected Text"
 msgstr "&Vald text"
 
-#: kwdialog.cpp:80
+#: kwdialog.cpp:91
 msgid "&Prompt On Replace"
 msgstr "&Fråga vid ersättning"
 
-#: kwdialog.cpp:142
+#: kwdialog.cpp:166
 msgid "Replace this occurence?"
 msgstr "Ersätta detta?"
 
-#: kwdialog.cpp:147
+#: kwdialog.cpp:173
 msgid "&Yes"
 msgstr "&Ja"
 
-#: kwdialog.cpp:154
+#: kwdialog.cpp:181
 msgid "&No"
 msgstr "&Nej"
 
-#: kwdialog.cpp:159
+#: kwdialog.cpp:187
 msgid "&All"
 msgstr "&Alla"
 
-#: kwdialog.cpp:217
+#: kwdialog.cpp:249
 msgid "&Goto Line:"
 msgstr "&Gå till rad:"
 
-#: kwdialog.cpp:255
+#: kwdialog.cpp:290
 msgid "Edit Options"
 msgstr "Redigeringsinställningar"
 
-#: kwdialog.cpp:256
+#: kwdialog.cpp:291
 msgid "Auto &Indent"
 msgstr "&Automatisk indentering"
 
-#: kwdialog.cpp:257
+#: kwdialog.cpp:293
 msgid "&Backspace Indent"
 msgstr "&Backsteg indenterar"
 
-#: kwdialog.cpp:258
+#: kwdialog.cpp:295
 msgid "&Word Wrap"
 msgstr "Bryt &rader"
 
-#: kwdialog.cpp:259
+#: kwdialog.cpp:297
 msgid "Replace &Tabs"
 msgstr "&Ersätt tabulator"
 
-#: kwdialog.cpp:260
+#: kwdialog.cpp:299
 msgid "Remove Trailing &Spaces"
 msgstr "&Inga mellanslag i radslut"
 
-#: kwdialog.cpp:261
+#: kwdialog.cpp:301
 msgid "Wrap &Cursor"
 msgstr "&Markörradbrytning"
 
-#: kwdialog.cpp:262
+#: kwdialog.cpp:303
 msgid "&Auto Brackets"
 msgstr "Automatiska &parenteser"
 
-#: kwdialog.cpp:290
+#: kwdialog.cpp:317
 msgid "Select Options"
 msgstr "Markeringsinställningar"
 
-#: kwdialog.cpp:291
+#: kwdialog.cpp:318
 msgid "&Persistent Selections"
 msgstr "&Långlivade markeringar"
 
-#: kwdialog.cpp:292
+#: kwdialog.cpp:320
 msgid "&Multiple Selections"
 msgstr "&Flera markeringar"
 
-#: kwdialog.cpp:293 toplevel.cpp:233
+#: kwdialog.cpp:322 toplevel.cpp:233
 msgid "&Vertical Selections"
 msgstr "&Vertikala markeringar"
 
-#: kwdialog.cpp:294
+#: kwdialog.cpp:324
 msgid "&Delete On Input"
 msgstr "Radera &vid inmatning"
 
-#: kwdialog.cpp:295
+#: kwdialog.cpp:326
 msgid "&Toggle Old"
 msgstr "Växla &gammal"
 
-#: kwdialog.cpp:322
+#: kwdialog.cpp:341
 msgid "Wrap Words At:"
 msgstr "Bryt rader vid:"
 
-#: kwdialog.cpp:332
+#: kwdialog.cpp:347
 msgid "Tab Width:"
 msgstr "Tabulatorbredd:"
 
-#: kwdialog.cpp:342
+#: kwdialog.cpp:354
 msgid "Undo steps:"
 msgstr "Antal ångra-steg:"
 
-#: kwdialog.cpp:402
+#: kwdialog.cpp:472
 msgid "Background:"
 msgstr "Bakgrund:"
 
-#: kwdialog.cpp:409
+#: kwdialog.cpp:480
 msgid "Text Background:"
 msgstr "Textbakgrund:"
 
-#: kwdialog.cpp:423
+#: kwdialog.cpp:496
 msgid "Found:"
 msgstr "Hittad:"
 
-#: kwdialog.cpp:430
+#: kwdialog.cpp:504
 msgid "Selected + Found:"
 msgstr "Vald + hittad:"
 
