@@ -109,7 +109,7 @@ msgstr ""
 
 #: floppy.cpp:430
 msgid "Abort"
-msgstr "Aflýsa"
+msgstr "Hætta við"
 
 #: floppy.cpp:478
 msgid "Cannot start a new program: fork() failed."

@@ -4,103 +4,107 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-12-19 02:08+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
 
-#: highlight.cpp:1443
+#: highlight.cpp:1715
 msgid "Normal:"
 msgstr "Venjulegt:"
 
-#: highlight.cpp:1453 kwdialog.cpp:416
+#: highlight.cpp:1725 kwdialog.cpp:416
 msgid "Selected:"
 msgstr "Valið:"
 
-#: highlight.cpp:1460
+#: highlight.cpp:1732
 msgid "Bold"
 msgstr "Feitletrað"
 
-#: highlight.cpp:1511
+#: highlight.cpp:1783
 msgid "Family:"
 msgstr "Fjölskylda:"
 
-#: highlight.cpp:1521
+#: highlight.cpp:1793
 msgid "Size:"
 msgstr "Stærð:"
 
-#: highlight.cpp:1619
+#: highlight.cpp:1891
 msgid "Default Item Styles"
 msgstr "Sjálfgefið útlit hluta"
 
-#: highlight.cpp:1623 highlight.cpp:1694
+#: highlight.cpp:1895 highlight.cpp:1966
 msgid "Item:"
 msgstr "Hlutur:"
 
-#: highlight.cpp:1641
+#: highlight.cpp:1913
 msgid "Default Font"
 msgstr "Sjálfgefið letur"
 
-#: highlight.cpp:1678
+#: highlight.cpp:1950
 msgid "Config Select"
 msgstr "Stilla hlut"
 
-#: highlight.cpp:1682
+#: highlight.cpp:1954
 msgid "Highlight:"
 msgstr "Litun:"
 
-#: highlight.cpp:1701
+#: highlight.cpp:1973
 msgid "Highlight Auto Select"
 msgstr "Sjálfval litunar"
 
-#: highlight.cpp:1705
+#: highlight.cpp:1977
 msgid "File Extensions:"
 msgstr "Skráarendingar:"
 
-#: highlight.cpp:1712
+#: highlight.cpp:1984
 msgid "Mime Types:"
 msgstr "Mime tög:"
 
-#: highlight.cpp:1719
+#: highlight.cpp:1991
 msgid "Item Style"
 msgstr "Útlit hluta"
 
-#: highlight.cpp:1728
+#: highlight.cpp:2000
 msgid "Item Font"
 msgstr "Letur hluta"
 
-#: kwview.cpp:1074
+#: kwview.cpp:1057
+msgid "Vertical Selections On"
+msgstr "Lóð&rétt val virkt"
+
+#: kwview.cpp:1116
 msgid "The specified File does not exist"
 msgstr "Valda skráin er ekki til"
 
-#: kwview.cpp:1084
+#: kwview.cpp:1126
 msgid "You have specified a directory"
 msgstr "Þú hefur valið möppu"
 
-#: kwview.cpp:1094
+#: kwview.cpp:1136
 msgid "You do not have read permission to this file"
 msgstr "Þú hefur ekki lesréttindi fyrir þessa skrá"
 
-#: kwview.cpp:1110 kwview.cpp:1140
+#: kwview.cpp:1152 kwview.cpp:1182
 msgid "An Error occured while trying to open this Document"
 msgstr "Villa kom upp við lestur skjalsins"
 
-#: kwview.cpp:1124
+#: kwview.cpp:1166
 msgid "You do not have write permission to this file"
 msgstr "Þú hefur ekki skrifréttindi fyrir þessa skrá"
 
-#: kwview.cpp:1177
+#: kwview.cpp:1219
 msgid "Loading..."
 msgstr "Les..."
 
-#: kwview.cpp:1185 kwview.cpp:1306
+#: kwview.cpp:1227 kwview.cpp:1348
 msgid "Inserted"
 msgstr "Skotið inn"
 
-#: kwview.cpp:1190 kwview.cpp:1315
+#: kwview.cpp:1232 kwview.cpp:1357
 msgid "Read"
 msgstr "Lesa"
 
-#: kwview.cpp:1199 kwview.cpp:1257
+#: kwview.cpp:1241 kwview.cpp:1299
 msgid ""
 "KWrite is already waiting\n"
 "for an internet job to finish\n"
@@ -112,23 +116,23 @@ msgstr ""
 "þar til því hefur lokið, eða\n"
 "stöðvaðu virka ferlið."
 
-#: kwview.cpp:1207 kwview.cpp:1265
+#: kwview.cpp:1249 kwview.cpp:1307
 msgid "Waiting for KFM..."
 msgstr "Bíð eftir KFM..."
 
-#: kwview.cpp:1213 kwview.cpp:1278
+#: kwview.cpp:1255 kwview.cpp:1320
 msgid "Could not start or find KFM"
 msgstr "Gat ekki ræst eða fundið KFM"
 
-#: kwview.cpp:1240
+#: kwview.cpp:1282
 msgid "Saving..."
 msgstr "Vista..."
 
-#: kwview.cpp:1248 kwview.cpp:1325
+#: kwview.cpp:1290 kwview.cpp:1367
 msgid "Wrote"
 msgstr "Skrifaði"
 
-#: kwview.cpp:1351
+#: kwview.cpp:1396
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -136,7 +140,7 @@ msgstr ""
 "Virka skjalinu hefur verið breytt.\n"
 "Viltu vista það?"
 
-#: kwview.cpp:1362
+#: kwview.cpp:1407
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -144,11 +148,11 @@ msgstr ""
 "Gat ekki vistað skjalið.\n"
 "Viltu opna nýtt skjal samt?"
 
-#: kwview.cpp:1409
+#: kwview.cpp:1454
 msgid "No changes need to be saved"
 msgstr "Engar breytingar þurfa vistun"
 
-#: kwview.cpp:1430
+#: kwview.cpp:1475
 msgid ""
 "A Document with this Name already exists.\n"
 "Do you want to overwrite it?"
@@ -156,35 +160,35 @@ msgstr ""
 "Skjal með þessu nafni er nú þegar til.\n"
 "Viltu skrifa yfir það?"
 
-#: kwview.cpp:1633 kwview.cpp:1821
+#: kwview.cpp:1678 kwview.cpp:1866
 msgid "End of document reached"
 msgstr "Hef náð enda skjalsins"
 
-#: kwview.cpp:1634 kwview.cpp:1822
+#: kwview.cpp:1679 kwview.cpp:1867
 msgid "Continue from the beginning"
 msgstr "Halda áfram frá upphafi"
 
-#: kwview.cpp:1636 kwview.cpp:1647 kwview.cpp:1657
+#: kwview.cpp:1681 kwview.cpp:1692 kwview.cpp:1702
 msgid "Find"
 msgstr "Leita"
 
-#: kwview.cpp:1644 kwview.cpp:1833
+#: kwview.cpp:1689 kwview.cpp:1878
 msgid "Beginning of document reached"
 msgstr "Hef náð upphafi skjalsins"
 
-#: kwview.cpp:1645 kwview.cpp:1834
+#: kwview.cpp:1690 kwview.cpp:1879
 msgid "Continue from the end"
 msgstr "Halda áfram frá enda"
 
-#: kwview.cpp:1658
+#: kwview.cpp:1703
 msgid "Search string not found!"
 msgstr "Leitarstrengur fannst ekki!"
 
-#: kwview.cpp:1806 kwview.cpp:1820 kwview.cpp:1832
+#: kwview.cpp:1851 kwview.cpp:1865 kwview.cpp:1877
 msgid "replace(s) made"
 msgstr "breytingar framkvæmdar"
 
-#: kwview.cpp:1947 toplevel.cpp:486
+#: kwview.cpp:1992 toplevel.cpp:475
 msgid "Line"
 msgstr "Lína"
 
@@ -198,7 +202,7 @@ msgstr "B&reyta í:"
 
 #: kwdialog.cpp:51
 msgid "&Case Sensitive"
-msgstr "&Næmt f. Há/lágstöfum"
+msgstr "&Háð há/lágstöfum"
 
 #: kwdialog.cpp:52
 msgid "&Whole Words Only"
@@ -284,7 +288,7 @@ msgstr "Þ&rjóskt val"
 msgid "&Multiple Selections"
 msgstr "&Fjölval"
 
-#: kwdialog.cpp:293 toplevel.cpp:247
+#: kwdialog.cpp:293 toplevel.cpp:233
 msgid "&Vertical Selections"
 msgstr "Lóð&rétt val"
 
@@ -324,11 +328,11 @@ msgstr "Fundið:"
 msgid "Selected + Found:"
 msgstr "Valið + Fundið:"
 
-#: toplevel.cpp:118
+#: toplevel.cpp:102
 msgid "Message"
 msgstr "Skilaboð"
 
-#: toplevel.cpp:119
+#: toplevel.cpp:103
 msgid ""
 "This Document has been modified.\n"
 "Would you like to save it?"
@@ -336,126 +340,139 @@ msgstr ""
 "Þessu skjali hefur verið breytt.\n"
 "Viltu vista það?"
 
-#: toplevel.cpp:177
+#: toplevel.cpp:166
 msgid "Ne&w..."
 msgstr "&Nýtt"
 
-#: toplevel.cpp:179
+#: toplevel.cpp:168
 msgid "&Insert..."
 msgstr "S&kjóta inn..."
 
-#: toplevel.cpp:194
+#: toplevel.cpp:169
+msgid "Open Recen&t"
+msgstr "Opna nýle&gt"
+
+#: toplevel.cpp:180
 msgid "New &Window"
 msgstr "Nýr &gluggi"
 
-#: toplevel.cpp:195
+#: toplevel.cpp:181
 msgid "New &View"
 msgstr "Ný &sýn"
 
-#: toplevel.cpp:204
+#: toplevel.cpp:190
 msgid "&Find..."
 msgstr "Lei&ta..."
 
-#: toplevel.cpp:205
+#: toplevel.cpp:191
 msgid "&Replace..."
 msgstr "&Breyta..."
 
-#: toplevel.cpp:206
+#: toplevel.cpp:192
 msgid "Find &Again"
 msgstr "Leita &aftur"
 
-#: toplevel.cpp:207
+#: toplevel.cpp:193
 msgid "&Goto Line..."
 msgstr "&Fara í línu..."
 
-#: toplevel.cpp:209
+#: toplevel.cpp:195
 msgid "U&ndo"
 msgstr "&Iðrast"
 
-#: toplevel.cpp:210
+#: toplevel.cpp:196
 msgid "R&edo"
-msgstr "&Syndga"
+msgstr "&Endurtaka"
 
-#: toplevel.cpp:212
+#: toplevel.cpp:198
 msgid "&Indent"
 msgstr "I&nndráttur"
 
-#: toplevel.cpp:213
+#: toplevel.cpp:199
 msgid "Uninden&t"
 msgstr "&Enginn inndráttur"
 
-#: toplevel.cpp:217
+#: toplevel.cpp:203
 msgid "&Select All"
 msgstr "&Velja allt"
 
-#: toplevel.cpp:218
+#: toplevel.cpp:204
 msgid "&Deselect All"
 msgstr "Velja e&kkert"
 
-#: toplevel.cpp:219
+#: toplevel.cpp:205
 msgid "In&vert Selection"
 msgstr "Ví&xla vali"
 
-#: toplevel.cpp:224
+#: toplevel.cpp:210
 msgid "&Set Bookmark..."
 msgstr "&Velja bókamerki..."
 
-#: toplevel.cpp:225
+#: toplevel.cpp:211
 msgid "&Add Bookmark"
 msgstr "&Setja bókamerki"
 
-#: toplevel.cpp:226
+#: toplevel.cpp:212
 msgid "&Clear Bookmarks"
 msgstr "&Eyða bókamerkjum"
 
-#: toplevel.cpp:238
+#: toplevel.cpp:224
 msgid "Set Highlight"
 msgstr "Velja litun"
 
-#: toplevel.cpp:240
+#: toplevel.cpp:226
 msgid "&Defaults..."
 msgstr "Sjálfgefin &gildi..."
 
-#: toplevel.cpp:241
+#: toplevel.cpp:227
 msgid "&Highlight..."
 msgstr "&Lita..."
 
-#: toplevel.cpp:244
+#: toplevel.cpp:230
 msgid "&Options..."
 msgstr "&Valkostir..."
 
-#: toplevel.cpp:245
+#: toplevel.cpp:231
 msgid "&Colors..."
 msgstr "Lit&ir..."
 
-#: toplevel.cpp:248
+#: toplevel.cpp:234
 msgid "Show &Toolbar"
 msgstr "Sýna &tækjaslá"
 
-#: toplevel.cpp:249
+#: toplevel.cpp:235
 msgid "Show &Statusbar"
 msgstr "Sýna &stöðuslá"
 
-#: toplevel.cpp:250
+#: toplevel.cpp:236
 msgid "Save Config"
 msgstr "Vista &uppsetningu"
 
-#: toplevel.cpp:286
+#: toplevel.cpp:249
+msgid ""
+"KWrite 0.98\n"
+"\n"
+"Copyright 1998\n"
+"Jochen Wilhelmy\n"
+"digisnap@cs.tu-berlin.de"
+msgstr ""
+
+#: toplevel.cpp:272
 msgid "&Bookmarks"
 msgstr "&Bókamerki"
 
-#: toplevel.cpp:305
+#: toplevel.cpp:291
 msgid "New Document"
 msgstr "Nýtt skjal"
 
-#: toplevel.cpp:309
+#: toplevel.cpp:295
 msgid "Open Document"
 msgstr "Opna skjal"
 
-#: toplevel.cpp:313
+#: toplevel.cpp:299
 msgid "Save Document"
 msgstr "Vista skjal"
 
-#: toplevel.cpp:487
+#: toplevel.cpp:476
 msgid "Col"
 msgstr "Dálk"

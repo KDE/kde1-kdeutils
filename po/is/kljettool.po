@@ -2,11 +2,15 @@
 # Copyright (C) 1998 Bjarni R. Einarsson
 # Bjarni R. Einarsson, <bre@mmedia.is>, 1998
 #
-msgid ""	
+msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
+
+#: main.cpp:49
+msgid "Ljet Tool"
+msgstr "Ljet tól"
 
 #: main.cpp:69
 msgid "Paper"
@@ -134,5 +138,14 @@ msgid "KLjetTool"
 msgstr "KLJetTól"
 
 #: about.cpp:52
-msgid "Version "
-msgstr "Útgáfa"
+#, c-format
+msgid ""
+"Version %s\n"
+"\n"
+"Copyright (c) 1997\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
+msgstr ""
+
+#~ msgid "Version "
+#~ msgstr "Útgáfa"

@@ -4,19 +4,19 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-12-08 02:02+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
 
-#: main.cpp:176
+#: main.cpp:178
 msgid "Sorry, can't open your printcap file."
-msgstr "Það mistókst að opna 'printcap' skrána."
+msgstr "Ekki tókst að opna 'printcap' skrána."
 
-#: main.cpp:181
+#: main.cpp:183
 msgid "Sorry, unable to parse your printcap."
-msgstr "Það mistókst að túlka 'printcap' skrána."
+msgstr "Ekki tókst að túlka 'printcap' skrána."
 
-#: main.cpp:182
+#: main.cpp:184
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
 msgstr "Endilega sendu Christoph.Neerfeld@home.ivm.de afrit af 'printcap'"
 
@@ -52,7 +52,7 @@ msgstr "Verk"
 msgid "Size"
 msgstr "Stærð"
 
-#: klpq.cpp:143 klpq.cpp:218
+#: klpq.cpp:143 klpq.cpp:219
 msgid "Make Top"
 msgstr "Færa fremst"
 
@@ -68,16 +68,24 @@ msgstr "Sjálfvirk &uppfærsla"
 msgid "&Spooler"
 msgstr "&Prentröð"
 
-#: klpq.cpp:203
+#: klpq.cpp:199
+#, c-format
+msgid ""
+"Klpq %s\n"
+"(C) by Christoph Neerfeld\n"
+"chris@kde.org"
+msgstr ""
+
+#: klpq.cpp:204
 msgid "&Config"
 msgstr "&Stillingar"
 
-#: klpq.cpp:389
+#: klpq.cpp:390
 #, c-format
 msgid "Do you really want to remove job No %d"
 msgstr "Viltu virkilega fjarlægja verk nr. %d"
 
-#: klpq.cpp:409
+#: klpq.cpp:410
 #, c-format
 msgid ""
 "Do you really want to move job No\n"
@@ -88,11 +96,11 @@ msgstr ""
 "%d\n"
 "fremst í biðröðina"
 
-#: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
+#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
 msgid "Permission denied"
 msgstr "Aðgangur bannaður"
 
-#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
+#: klpq.cpp:559 klpq.cpp:565 klpq.cpp:580
 msgid ""
 "This is a privileged command\n"
 "and you do not have permission to execute it."
