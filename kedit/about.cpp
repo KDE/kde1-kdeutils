@@ -29,6 +29,7 @@
 #include <kapp.h>
 
 #include <klocale.h>
+#include <kiconloader.h>
 
 extern KApplication *mykapp;
 
@@ -39,8 +40,7 @@ About::About(QWidget *parent) : QDialog(parent,
   setFixedSize(size());
   setCaption(klocale->translate("About KEdit"));
 
-  QString pixdir = mykapp->kdedir() + QString("/lib/pics/");  
-  QPixmap pm((pixdir + "keditlogo.xpm").data());
+  QPixmap pm = kapp->getIconLoader()->loadIcon("keditlogo.xpm");
   QLabel *logo = new QLabel(this);
   logo->setPixmap(pm);
   logo->setGeometry(20, (height()-pm.height())/2 - 20, pm.width(), pm.height());

@@ -45,6 +45,7 @@
 #include "kedit.moc"
 
 #include <klocale.h>
+#include <kiconloader.h>
 
 QList<TopLevel> TopLevel::windowList;
 
@@ -269,39 +270,39 @@ void TopLevel::setupToolBar(){
 
   toolbar = new KToolBar( this );
 
-  QString pixdir = mykapp->kdedir() + QString("/lib/pics/toolbar/");  
+  KIconLoader *loader = kapp->getIconLoader();
 
   QPixmap pixmap;
 
-  pixmap.load(pixdir+"filenew2.xpm");
+  pixmap = loader->loadIcon("filenew2.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
 		      SLOT(file_new()), TRUE, klocale->translate("New Document"));
 
 
-  pixmap.load(pixdir+"fileopen.xpm");
+  pixmap = loader->loadIcon("fileopen.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
 		      SLOT(file_open()), TRUE, klocale->translate("Open Document"));
 
-  pixmap.load(pixdir+"filefloppy.xpm");
+  pixmap = loader->loadIcon("filefloppy.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
 		      SLOT(file_save()), TRUE, klocale->translate("Save Document"));
 
   toolbar->insertSeparator();
 
-  pixmap.load(pixdir+"editcopy.xpm");
+  pixmap = loader->loadIcon("editcopy.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
 		      SLOT(copy()), TRUE, klocale->translate("Copy"));
 
-  pixmap.load(pixdir+"editpaste.xpm");
+  pixmap = loader->loadIcon("editpaste.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
 		      SLOT(paste()), TRUE, klocale->translate("Paste"));
 
-  pixmap.load(pixdir+"editcut.xpm");
+  pixmap = loader->loadIcon("editcut.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
 		      SLOT(cut()), TRUE, klocale->translate("Cut"));
@@ -309,19 +310,19 @@ void TopLevel::setupToolBar(){
   toolbar->insertSeparator();
 
 
-  pixmap.load(pixdir+"fileprint.xpm");
+  pixmap = loader->loadIcon("fileprint.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
 		      SLOT(print()), TRUE, klocale->translate("Print Document"));
 
-  pixmap.load(pixdir+"send.xpm");
+  pixmap = loader->loadIcon("send.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
 		      SLOT(mail()), TRUE, klocale->translate("Mail Document"));
 
 
   toolbar->insertSeparator();
-  pixmap.load(pixdir+"help.xpm");
+  pixmap = loader->loadIcon("help.xpm");
   toolbar->insertButton(pixmap, 0,
 		      SIGNAL(clicked()), this,
 		      SLOT(helpselected()), TRUE, klocale->translate("Help"));
