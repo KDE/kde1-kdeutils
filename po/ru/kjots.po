@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kjots\n"
 "POT-Creation-Date: 1998-10-13 13:36+0200\n"
-"PO-Revision-Date: 1998-09-09 00:05+0600\n"
+"PO-Revision-Date: 1998-11-08 00:05+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -103,7 +103,7 @@ msgstr "Книги"
 
 #: KJotsMain.cpp:415
 msgid "by"
-msgstr ""
+msgstr " "
 
 #: KJotsMain.cpp:616
 msgid "A book with this name already exists."
@@ -131,7 +131,7 @@ msgstr "Настройка KJots"
 
 #: confdialog.cpp:43
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: confdialog.cpp:72
 msgid "Specify which command to execute"
@@ -160,4 +160,4 @@ msgstr "Выделить"
 
 #: confdialog.cpp:133
 msgid "Dolor Ipse"
-msgstr ""
+msgstr "Тест шрифта"

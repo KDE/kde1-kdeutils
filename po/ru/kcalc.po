@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcalc\n"
 "POT-Creation-Date: 1998-10-01 13:42+0200\n"
-"PO-Revision-Date: 1998-09-03 23:11+0600\n"
+"PO-Revision-Date: 1998-11-08 23:11+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 
 #: kcalc.cpp:99
 msgid "KCalc Setup/Help"
-msgstr ""
+msgstr "Установка/Помощь KCalc"
 
 #: kcalc.cpp:152
 msgid "Angle"
@@ -40,9 +40,9 @@ msgid ""
 "details."
 msgstr ""
 "Вследствии ошибки в GLIBC я вынужден уменьшить точность KCalc'а с 'long "
-"double' до 'double'. Владельцы систем с работаэщим GLIBC должны "
+"double' до 'double'. Владельцы систем с работающим GLIBC должны "
 "перекомпилировать KCalc с включенной поддержкой 'long double'. "
-"СмотритеREADME."
+"Смотрите README."
 
 #: configdlg.cpp:56 kcalc.cpp:1591
 msgid "Defaults"
@@ -90,7 +90,7 @@ msgstr "Установить шрифт по умолчанию"
 
 #: fontdlg.cpp:53
 msgid "Family:"
-msgstr ""
+msgstr "Семейство:"
 
 #: fontdlg.cpp:63
 msgid "Point Size:"
@@ -98,16 +98,16 @@ msgstr "Размер точки:"
 
 #: fontdlg.cpp:76
 msgid "Style:"
-msgstr ""
+msgstr "Стиль:"
 
 #: fontdlg.cpp:91
 msgid "Weight:"
-msgstr ""
+msgstr "Ширина:"
 
 #: fontdlg.cpp:101 fontdlg.cpp:134
 msgid "Bold"
-msgstr ""
+msgstr "Жирный"
 
 #: fontdlg.cpp:103 fontdlg.cpp:136
 msgid "Normal"
-msgstr ""
+msgstr "Нормальный"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfloppy\n"
 "POT-Creation-Date: 1998-05-30 17:50+0200\n"
-"PO-Revision-Date: 1998-09-09 00:46+0600\n"
+"PO-Revision-Date: 1998-11-08 00:46+0600\n"
 "Last-Translator: Denis pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr "О KDE Floppy Formater"
 #: floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721
 #: floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
 msgid "KFloppy"
-msgstr ""
+msgstr "KFloppy"
 
 #: about.cpp:54
 msgid "Version "
@@ -57,15 +57,15 @@ msgstr "Метка:"
 
 #: floppy.cpp:148
 msgid "KDE Floppy"
-msgstr ""
+msgstr "KDE Floppy"
 
 #: floppy.cpp:162
 msgid "KDE Floppy Formatter"
-msgstr ""
+msgstr "Форматировщик дискет KDE"
 
 #: floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267
 msgid "HD"
-msgstr ""
+msgstr "HD"
 
 #: floppy.cpp:286
 #, c-format

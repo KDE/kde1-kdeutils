@@ -1,0 +1,146 @@
+# Перевод klpq.
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Denis Pershin <dyp@inetlab.com>, 1998.
+msgid ""
+msgstr ""
+"Project-Id-Version: klpq\n"
+"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"PO-Revision-Date: 1998-11-08 23:23+0600\n"
+"Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=koi8-r\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: main.cpp:176
+msgid "Sorry, can't open your printcap file."
+msgstr "Не могу открыть ваш файл printcap."
+
+#: main.cpp:181
+msgid "Sorry, unable to parse your printcap."
+msgstr "Не могу обработать ваш файл printcap."
+
+#: main.cpp:182
+msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
+msgstr "Отправьте почтой ваш файл printcap Christoph.Neerfeld@home.ivm.de"
+
+#: klpq.cpp:89
+msgid "Printer"
+msgstr "Принтер"
+
+#: klpq.cpp:93
+msgid "Queuing"
+msgstr "В очереди"
+
+#: klpq.cpp:97
+msgid "Printing"
+msgstr "Печатается"
+
+#: klpq.cpp:101
+msgid "Update"
+msgstr "Обновить"
+
+#: klpq.cpp:119
+msgid "Rank"
+msgstr "Ранг"
+
+#: klpq.cpp:120
+msgid "Owner"
+msgstr "Владелец"
+
+#: klpq.cpp:121
+msgid "Job"
+msgstr "Задание"
+
+#: klpq.cpp:123
+msgid "Size"
+msgstr "Размер"
+
+#: klpq.cpp:143 klpq.cpp:218
+msgid "Make Top"
+msgstr "Перенести наверх"
+
+#: klpq.cpp:152
+msgid "Auto"
+msgstr "Авто"
+
+#: klpq.cpp:195
+msgid "&Auto update"
+msgstr "Авто обновление"
+
+#: klpq.cpp:196
+msgid "&Spooler"
+msgstr "Спулер"
+
+#: klpq.cpp:203
+msgid "&Config"
+msgstr "Настройки"
+
+#: klpq.cpp:389
+#, c-format
+msgid "Do you really want to remove job No %d"
+msgstr "Вы действительно хотите удалить задание No %d"
+
+#: klpq.cpp:409
+#, c-format
+msgid ""
+"Do you really want to move job No\n"
+"%d\n"
+"on top of queue"
+msgstr ""
+"Вы действительно хотите переместить задание No\n"
+"%d\n"
+"в верх очереди"
+
+#: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
+msgid "Permission denied"
+msgstr "Доступ запрещен"
+
+#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
+msgid ""
+"This is a privileged command\n"
+"and you do not have permission to execute it."
+msgstr ""
+"Это привелегированная команда\n"
+"и вы не имеете прав ее запускать."
+
+#: ConfAutoUpdate.cpp:10
+msgid "Configure Auto Update"
+msgstr "Настроить Авто обновление"
+
+#: ConfAutoUpdateData.cpp:17
+msgid "Update frequency in seconds:"
+msgstr "Частота обновления в секундах:"
+
+#: klpqspooler.cpp:197 klpqspooler.cpp:267
+msgid "Can't find your lpc program !"
+msgstr "Не могу найти вашу программу lpc!"
+
+#: klpqspooler.cpp:198 klpqspooler.cpp:268
+msgid ""
+"Sorry, I can't find your lpc program.\n"
+"Please check the configuration under Config->Spooler."
+msgstr ""
+"Не могу найти программу lpc.\n"
+"Проверьте настройки в Настройки->Спулер."
+
+#: FirstStart.cpp:21 SpoolerConfig.cpp:21 SpoolerConfigData.cpp:151
+msgid "Select your spooling system"
+msgstr "Выберите вашу систему очереди"
+
+#: FirstStartData.cpp:42
+msgid ""
+"Please select the spooling system you use. Most systems use the BSD spooler. "
+"So if you don't know which spooler is installed on your system, BSD is "
+"probably a good choice."
+msgstr ""
+"Выберите, какую систему очереди вы используете. Большинство систем используют "
+"систему очереди BSD. Поэтому, если вы не знаете, выбирайте BSD."
+
+#: FirstStartData.cpp:50 SpoolerConfigData.cpp:134
+msgid "Ok"
+msgstr "Ок"
+
+#: SpoolerConfigData.cpp:99
+msgid "Paths of spooling commands:"
+msgstr "Путь к командам управления очередью:"

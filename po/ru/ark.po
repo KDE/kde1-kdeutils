@@ -1,12 +1,12 @@
 # Локализация для ark.
-# Denis Yu. Pershin <dyp@inetlab.com>, 1997, 1998.
+# Denis Pershin <dyp@inetlab.com>, 1997, 1998.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ark 0.5\n"
 "POT-Creation-Date: 1998-11-05 01:55+0100\n"
-"PO-Revision-Date: 1998-09-03 22:29:52+0600\n"
-"Last-Translator: Denis Yu. Pershin <dyp@inetlab.com>\n"
+"PO-Revision-Date: 1998-11-08 22:29:52+0600\n"
+"Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=koi8-r\n"
@@ -30,9 +30,8 @@ msgid "Only Add Newer Files"
 msgstr "Добавлять только новые файлы"
 
 #: extractdlg.cc:14
-#, fuzzy
 msgid "Extract"
-msgstr "Распаковать..."
+msgstr "Распаковать"
 
 #: extractdlg.cc:28
 msgid "Destination"
@@ -63,13 +62,12 @@ msgid "Pattern"
 msgstr "Маска"
 
 #: extractdlg.cc:190
-#, fuzzy
 msgid "Extract To"
-msgstr "Распаковать в..."
+msgstr "Распаковать в"
 
 #: arkwidget.cc:71
 msgid "&New..."
-msgstr ""
+msgstr "Новый..."
 
 #: arkwidget.cc:74
 msgid "&Extract To..."
@@ -92,33 +90,28 @@ msgid "&File Adding Options..."
 msgstr "Опции добавления файлов"
 
 #: arkwidget.cc:97
-#, fuzzy
 msgid "File Operations"
-msgstr "Опции добавить файл"
+msgstr "Операции с файлами"
 
 #: arkwidget.cc:99
-#, fuzzy
 msgid "Extract..."
 msgstr "Распаковать..."
 
 #: arkwidget.cc:114
-#, fuzzy
 msgid "Goto Archive Dir..."
 msgstr "Установить подкаталог архивации.."
 
 #: arkwidget.cc:117
-#, fuzzy
 msgid "Extract To.."
 msgstr "Распаковать в..."
 
 #: arkwidget.cc:121
 msgid "Exit"
-msgstr ""
+msgstr "Выйти"
 
 #: arkwidget.cc:128
-#, fuzzy
 msgid "Welcome to ark..."
-msgstr "Добро пожаловать в KZip..."
+msgstr "Добро пожаловать в ark..."
 
 #: arkwidget.cc:235
 msgid "Can't create archive of that type"
@@ -137,9 +130,8 @@ msgid "Error saving to archive"
 msgstr "Ошибка записи в архив"
 
 #: arkwidget.cc:312
-#, fuzzy
 msgid "Archive Dir"
-msgstr "Подкаталог архивации:"
+msgstr "Подкаталог архивации"
 
 #: arkwidget.cc:325
 msgid "What runs GNU tar:"
@@ -151,7 +143,7 @@ msgstr "Неизвестный формат архива"
 
 #: arkwidget.cc:396
 msgid "Size"
-msgstr ""
+msgstr "Размер"
 
 #: arkwidget.cc:402
 msgid "Archive directory does not exist."

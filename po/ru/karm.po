@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karm 0.3\n"
 "POT-Creation-Date: 1998-10-13 13:36+0200\n"
-"PO-Revision-Date: 1998-09-03 23:00+0600\n"
+"PO-Revision-Date: 1998-11-08 23:00+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -82,7 +82,7 @@ msgstr "&Часы"
 
 #: top.cpp:58
 msgid "S&top"
-msgstr ""
+msgstr "Остановить"
 
 #: top.cpp:60
 msgid "&Task"
@@ -90,12 +90,11 @@ msgstr "&Задача"
 
 #: top.cpp:61
 msgid "&New"
-msgstr ""
+msgstr "Новый"
 
 #: top.cpp:74
-#, fuzzy
 msgid "&About"
-msgstr "О программе "
+msgstr "О программе"
 
 #: top.cpp:85
 msgid "Start Clock"
