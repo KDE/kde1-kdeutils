@@ -1,13 +1,18 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Christer Gustavsson <f93-cgn@sm.luth.se>, 1998.
+# Anders Widell <d95-awi@nada.kth.se>, 1998.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: ark revision 1.6\n"
+"Project-Id-Version: kfm\n"
 "POT-Creation-Date: 1998-11-14 02:05+0100\n"
-"PO-Revision-Date: 1998-11-21 HO:MI+ZONE\n"
-"Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
-"Language-Team: SWEDISH <LL@li.org>\n"
+"PO-Revision-Date: 1998-12-31 01:59+01:00\n"
+"Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
+"Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8BIT\n"
 
 #: adddlg.cc:11
 msgid "Add File Options"
@@ -22,9 +27,8 @@ msgid "Only Add Newer Files"
 msgstr "Lägg bara till nya filer"
 
 #: extractdlg.cc:14
-#, fuzzy
 msgid "Extract"
-msgstr "P&acka upp..."
+msgstr "Packa upp"
 
 #: extractdlg.cc:28
 msgid "Destination"
@@ -55,9 +59,8 @@ msgid "Pattern"
 msgstr "Mönster"
 
 #: extractdlg.cc:190
-#, fuzzy
 msgid "Extract To"
-msgstr "&Packa upp till..."
+msgstr "Packa upp till"
 
 #: arkwidget.cc:71
 msgid "&New..."
@@ -69,16 +72,15 @@ msgstr "&Packa upp till..."
 
 #: arkwidget.cc:79
 msgid "E&xtract..."
-msgstr "P&acka upp..."
+msgstr "&Packa upp..."
 
 #: arkwidget.cc:80
 msgid "&View file"
 msgstr "&Visa fil"
 
 #: arkwidget.cc:82
-#, fuzzy
 msgid "&Delete file"
-msgstr "R&adera fil"
+msgstr "&Radera fil"
 
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
@@ -93,40 +95,34 @@ msgid "&File Adding Options..."
 msgstr "Inställningar för &Lägg till fil..."
 
 #: arkwidget.cc:97
-#, fuzzy
 msgid "File Operations"
-msgstr "Filinställningar"
+msgstr "Filoperationer"
 
 #: arkwidget.cc:99
-#, fuzzy
 msgid "Extract..."
-msgstr "P&acka upp..."
+msgstr "Packa upp..."
 
 #: arkwidget.cc:100
 msgid "View file"
 msgstr "Visa fil"
 
 #: arkwidget.cc:102
-#, fuzzy
 msgid "Delete file"
 msgstr "Radera fil"
 
 #: arkwidget.cc:114
-#, fuzzy
 msgid "Goto Archive Dir..."
-msgstr "&Välj arkivkatalog..."
+msgstr "Gå til arkivkatalogen..."
 
 #: arkwidget.cc:117
-#, fuzzy
 msgid "Extract To.."
-msgstr "&Packa upp till..."
+msgstr "Packa upp till..."
 
 #: arkwidget.cc:121
 msgid "Exit"
 msgstr "Avsluta"
 
 #: arkwidget.cc:128
-#, fuzzy
 msgid "Welcome to ark..."
 msgstr "Välkommen till ark..."
 
@@ -147,7 +143,6 @@ msgid "Error saving to archive"
 msgstr "Fel då arkivet sparades"
 
 #: arkwidget.cc:312
-#, fuzzy
 msgid "Archive Dir"
 msgstr "Arkivkatalog"
 

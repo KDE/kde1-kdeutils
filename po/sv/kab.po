@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kab 0.8\n"
 "POT-Creation-Date: 1998-11-23 01:47+0100\n"
-"PO-Revision-Date: 1998-10-29 15:04+01:00\n"
+"PO-Revision-Date: 1998-12-30 13:32+01:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -35,19 +35,17 @@ msgstr ""
 
 #: AddressBookAbout.cpp:44
 msgid "written and maintained by"
-msgstr ""
+msgstr "skriven och underhålls av"
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
 msgstr "Initieringsfel"
 
 #: toplevelwidget.cc:37
-#, fuzzy
 msgid "The program's menubar could not be constructed."
 msgstr "Kunde inte skapa programmets menyrad."
 
 #: toplevelwidget.cc:45
-#, fuzzy
 msgid "The program's statusbar could not be constructed."
 msgstr "Kunde inte skapa programmets statusrad."
 

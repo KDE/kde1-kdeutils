@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-11-17 10:55+0100\n"
-"PO-Revision-Date:  1998-08-17 00:00+0200\n"
+"PO-Revision-Date: 1998-12-30 13:34+01:00\n"
 "Last-Translator: Anders Bengtsson <d96-abe@nada.kth.se>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -88,7 +88,7 @@ msgstr "Välj standardtypsnitt"
 
 #: fontdlg.cpp:53
 msgid "Family:"
-msgstr ""
+msgstr "Familj:"
 
 #: fontdlg.cpp:63
 msgid "Point Size:"
@@ -96,16 +96,16 @@ msgstr "Punktstorlek:"
 
 #: fontdlg.cpp:76
 msgid "Style:"
-msgstr ""
+msgstr "Stil:"
 
 #: fontdlg.cpp:91
 msgid "Weight:"
-msgstr ""
+msgstr "Vikt:"
 
 #: fontdlg.cpp:101 fontdlg.cpp:134
 msgid "Bold"
-msgstr ""
+msgstr "Fet"
 
 #: fontdlg.cpp:103 fontdlg.cpp:136
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
