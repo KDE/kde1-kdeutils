@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwrite 0.95\n"
-"POT-Creation-Date: 1998-12-19 02:08+0100\n"
+"POT-Creation-Date: 1998-12-24 01:52+0100\n"
 "PO-Revision-Date: 1998-12-16 21:35 CET\n"
 "Last-Translator: Francois-Xavier DURANCEAU "
 "<Francois-Xavier.Duranceau@loria.fr>\n"
@@ -14,63 +14,63 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: highlight.cpp:1443
+#: highlight.cpp:1686
 msgid "Normal:"
 msgstr "Normal :"
 
-#: highlight.cpp:1453 kwdialog.cpp:416
+#: highlight.cpp:1696 kwdialog.cpp:416
 msgid "Selected:"
 msgstr "Sélectionné :"
 
-#: highlight.cpp:1460
+#: highlight.cpp:1703
 msgid "Bold"
 msgstr "Gras"
 
-#: highlight.cpp:1511
+#: highlight.cpp:1754
 msgid "Family:"
 msgstr "Famille :"
 
-#: highlight.cpp:1521
+#: highlight.cpp:1764
 msgid "Size:"
 msgstr "Taille :"
 
-#: highlight.cpp:1619
+#: highlight.cpp:1862
 msgid "Default Item Styles"
 msgstr "Styles par défaut des éléments"
 
-#: highlight.cpp:1623 highlight.cpp:1694
+#: highlight.cpp:1866 highlight.cpp:1937
 msgid "Item:"
 msgstr "Elément :"
 
-#: highlight.cpp:1641
+#: highlight.cpp:1884
 msgid "Default Font"
 msgstr "Police par défaut"
 
-#: highlight.cpp:1678
+#: highlight.cpp:1921
 msgid "Config Select"
 msgstr "Configurer la sélection"
 
-#: highlight.cpp:1682
+#: highlight.cpp:1925
 msgid "Highlight:"
 msgstr "Surbrillance :"
 
-#: highlight.cpp:1701
+#: highlight.cpp:1944
 msgid "Highlight Auto Select"
 msgstr "Surbrillance auto pour la sélection"
 
-#: highlight.cpp:1705
+#: highlight.cpp:1948
 msgid "File Extensions:"
 msgstr "Extensions des fichiers :"
 
-#: highlight.cpp:1712
+#: highlight.cpp:1955
 msgid "Mime Types:"
 msgstr "Types MIME :"
 
-#: highlight.cpp:1719
+#: highlight.cpp:1962
 msgid "Item Style"
 msgstr "Style de l'élément"
 
-#: highlight.cpp:1728
+#: highlight.cpp:1971
 msgid "Item Font"
 msgstr "Police de l'élément"
 
