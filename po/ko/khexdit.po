@@ -83,7 +83,6 @@ msgstr ""
 "작업이 종료될 때까지 기다리거나\n"
 "다른 작업을 정지시키십시오."
 
-
 #: hexwidget.cpp:276
 msgid "Could not start KFM"
 msgstr "KFM을 시작할 수 없습니다"

@@ -15,7 +15,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8BIT\n"
 
 #: about.cpp:40
-msgid "About KDE Floppy Formater"
+#, fuzzy
+msgid "About KDE Floppy Formatter"
 msgstr "KDE 플로피 포매터에 관하여"
 
 #: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368
@@ -57,11 +58,13 @@ msgid "Create Label:"
 msgstr "라벨 생성:"
 
 #: floppy.cpp:148
-msgid "KDE FLoppy"
+#, fuzzy
+msgid "KDE Floppy"
 msgstr "KDE 플로피"
 
 #: floppy.cpp:162
-msgid "KDE Floppy Formater"
+#, fuzzy
+msgid "KDE Floppy Formatter"
 msgstr "KDE 플로피 포매터"
 
 #: floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267

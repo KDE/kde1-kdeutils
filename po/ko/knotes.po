@@ -6,106 +6,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: LinuxKorea Co. <kde@linuxkorea.co.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8BIT\n"
-
-#: alarm.cpp:58
-#, c-format
-msgid "Alarm Timer for: %s"
-msgstr "알람 타이머: %s"
-
-#: alarm.cpp:72
-msgid "Unset"
-msgstr "취소"
-
-#: alarm.cpp:74
-msgid "Set"
-msgstr "설정"
-
-#: alarm.cpp:153
-msgid "I am afraid you already missed your appointment."
-msgstr "약속을 잊지 않으셨읍니까?"
-
-#: bwdatetime.cpp:44
-msgid "Day:"
-msgstr "날짜:"
-
-#: bwdatetime.cpp:50
-msgid "Month:"
-msgstr "달:"
-
-#: bwdatetime.cpp:57
-msgid "Year:"
-msgstr "년:"
-
-#: bwdatetime.cpp:72
-msgid "Time:"
-msgstr "시간:"
-
-#: bwdatetime.cpp:161
-msgid "The Time you selected is invalid"
-msgstr "선택한 시간이 유효하지 않습니다"
-
-#: bwdatetime.cpp:176
-msgid "The Date you selected is invalid"
-msgstr "선택한 날짜가 유효하지 않습니다"
-
-#: configdlg.cpp:50
-msgid "Text Color:"
-msgstr "글자 색:"
-
-#: configdlg.cpp:64
-msgid "Background Color:"
-msgstr "배경 색:"
-
-#: configdlg.cpp:83
-msgid "Width:"
-msgstr "넓이:"
-
-#: configdlg.cpp:93
-msgid "Height:"
-msgstr "높이:"
-
-#: configdlg.cpp:104
-msgid "Print Command:"
-msgstr "인쇄 명령:"
-
-#: configdlg.cpp:112
-msgid "Mail Command:"
-msgstr "전자우편 명령:"
-
-#: configdlg.cpp:123
-msgid "3d Frame"
-msgstr "3차원 프레임"
-
-#: configdlg.cpp:128 knotes.cpp:330
-msgid "Auto Indent"
-msgstr "자동 들여쓰기"
-
-#: docking.cpp:71
-msgid "Change Defaults"
-msgstr "기본설정 바꾸기"
-
-#: docking.cpp:76
-msgid "Exit Knotes"
-msgstr "Knotes 끝내기"
-
-#: docking.cpp:95
-msgid "New Knote"
-msgstr "새 Knote"
-
-#: fontdlg.cpp:45
-msgid "Set Default Font"
-msgstr "기본 글꼴 설정"
-
-#: fontdlg.cpp:64
-msgid "Point Size:"
-msgstr "포인트 크기:"
 
 #: knotes.cpp:300
 msgid "Text Color..."
@@ -150,6 +57,10 @@ msgstr "노트 저장"
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"
 msgstr "3차원 프레임"
+
+#: configdlg.cpp:128 knotes.cpp:330
+msgid "Auto Indent"
+msgstr "자동 들여쓰기"
 
 #: knotes.cpp:332
 msgid "Font..."
@@ -287,6 +198,63 @@ msgstr ""
 msgid "Inconsistency"
 msgstr "모순됨"
 
+#: configdlg.cpp:50
+msgid "Text Color:"
+msgstr "글자 색:"
+
+#: configdlg.cpp:64
+msgid "Background Color:"
+msgstr "배경 색:"
+
+#: configdlg.cpp:83
+msgid "Width:"
+msgstr "넓이:"
+
+#: configdlg.cpp:93
+msgid "Height:"
+msgstr "높이:"
+
+#: configdlg.cpp:104
+msgid "Print Command:"
+msgstr "인쇄 명령:"
+
+#: configdlg.cpp:112
+msgid "Mail Command:"
+msgstr "전자우편 명령:"
+
+#: configdlg.cpp:123
+msgid "3d Frame"
+msgstr "3차원 프레임"
+
+#: fontdlg.cpp:45
+msgid "Set Default Font"
+msgstr "기본 글꼴 설정"
+
+#: fontdlg.cpp:54
+msgid "Family:"
+msgstr ""
+
+#: fontdlg.cpp:64
+msgid "Point Size:"
+msgstr "포인트 크기:"
+
+#: fontdlg.cpp:75
+msgid "Style:"
+msgstr ""
+
+#: fontdlg.cpp:87
+#, fuzzy
+msgid "Weight:"
+msgstr "높이:"
+
+#: fontdlg.cpp:93 fontdlg.cpp:117 fontdlg.cpp:150
+msgid "Bold"
+msgstr ""
+
+#: fontdlg.cpp:95 fontdlg.cpp:119 fontdlg.cpp:152
+msgid "Normal"
+msgstr ""
+
 #: mail.cpp:40
 msgid "Mail Note to:"
 msgstr "전자우편로 보내기:"
@@ -302,6 +270,47 @@ msgstr "전자우편"
 #: mail.cpp:92
 msgid "You must specify a Recipient"
 msgstr "받을 사람을 지정하셔야 합니다"
+
+#: alarm.cpp:58
+#, c-format
+msgid "Alarm Timer for: %s"
+msgstr "알람 타이머: %s"
+
+#: alarm.cpp:72
+msgid "Unset"
+msgstr "취소"
+
+#: alarm.cpp:74
+msgid "Set"
+msgstr "설정"
+
+#: alarm.cpp:153
+msgid "I am afraid you already missed your appointment."
+msgstr "약속을 잊지 않으셨읍니까?"
+
+#: bwdatetime.cpp:44
+msgid "Day:"
+msgstr "날짜:"
+
+#: bwdatetime.cpp:50
+msgid "Month:"
+msgstr "달:"
+
+#: bwdatetime.cpp:57
+msgid "Year:"
+msgstr "년:"
+
+#: bwdatetime.cpp:72
+msgid "Time:"
+msgstr "시간:"
+
+#: bwdatetime.cpp:161
+msgid "The Time you selected is invalid"
+msgstr "선택한 시간이 유효하지 않습니다"
+
+#: bwdatetime.cpp:176
+msgid "The Date you selected is invalid"
+msgstr "선택한 날짜가 유효하지 않습니다"
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
@@ -326,3 +335,15 @@ msgid ""
 msgstr ""
 "이 이름의 Knotes 노트가 이미 존재합니다\n"
 "다른 이름을 선택해 주십시오"
+
+#: docking.cpp:71
+msgid "Change Defaults"
+msgstr "기본설정 바꾸기"
+
+#: docking.cpp:76
+msgid "Exit Knotes"
+msgstr "Knotes 끝내기"
+
+#: docking.cpp:95
+msgid "New Knote"
+msgstr "새 Knote"

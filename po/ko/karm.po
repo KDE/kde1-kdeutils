@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:24+0200\n"
+"POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: LinuxKorea Co. <kde@linuxkorea.co.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,7 +55,8 @@ msgid ": Edit Task Entry"
 msgstr ": 작업 항목 편집"
 
 #: karm.cpp:256
-msgid "Karm::updateExistingTask called and there's no dialog!"
+#, fuzzy
+msgid "Karm::updateExistingTask called and there's no dlg!"
 msgstr "Karm::기존 작업 갱신 기능이 호출되었습니다. 대화창이 없습니다!"
 
 #: karm.cpp:280
@@ -89,6 +90,15 @@ msgstr "멈춤(&t)"
 #: top.cpp:60
 msgid "&Task"
 msgstr "작업(&T)"
+
+#: top.cpp:61
+msgid "&New"
+msgstr ""
+
+#: top.cpp:74
+#, fuzzy
+msgid "&About"
+msgstr "정보 "
 
 #: top.cpp:85
 msgid "Start Clock"
