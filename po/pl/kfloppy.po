@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfloppy \n"
 "POT-Creation-Date: 1998-11-17 10:55+0100\n"
-"PO-Revision-Date: 1998-06-23 06:30+0200\n"
+"PO-Revision-Date: 1999-01-04 21:15+0100\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
@@ -37,7 +37,7 @@ msgstr "System plików:"
 
 #: floppy.cpp:108 floppy.cpp:414
 msgid "Format"
-msgstr "Formatu"
+msgstr "Formatuj"
 
 #: floppy.cpp:131
 msgid "Quick Erase"
@@ -52,7 +52,6 @@ msgid "Create Label:"
 msgstr "Utwórz etykietê:"
 
 #: floppy.cpp:148
-#, fuzzy
 msgid "KDE Floppy"
 msgstr "KDE Floppy"
 
@@ -66,7 +65,7 @@ msgstr "HD"
 
 #: floppy.cpp:169
 msgid "DD"
-msgstr ""
+msgstr "DD"
 
 #: floppy.cpp:292
 #, c-format

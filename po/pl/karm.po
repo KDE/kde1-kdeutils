@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
 "POT-Creation-Date: 1998-11-18 14:09+0100\n"
-"PO-Revision-Date: 1998-06-23 05:40+0200\n"
+"PO-Revision-Date: 1999-01-04 21:17+0100\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8829-2\n"
 
@@ -87,7 +87,7 @@ msgstr "&Zadanie"
 
 #: top.cpp:61
 msgid "&New"
-msgstr ""
+msgstr "&Nowy"
 
 #: top.cpp:71
 #, fuzzy, c-format

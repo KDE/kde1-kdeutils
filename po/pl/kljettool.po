@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kljettool \n"
 "POT-Creation-Date: 1998-11-03 10:06+0100\n"
-"PO-Revision-Date: 1998-06-23 06:50+0200\n"
+"PO-Revision-Date: 1999-01-04 21:20+0100\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
@@ -23,31 +23,31 @@ msgstr "Czynno¶ci"
 
 #: PaperData.cpp:59
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 #: PaperData.cpp:65
 msgid "Copies"
-msgstr ""
+msgstr "Ilo¶æ kopii"
 
 #: PaperData.cpp:80
 msgid "Lines"
-msgstr ""
+msgstr "Linie"
 
 #: PaperData.cpp:102
 msgid "Portrait"
-msgstr ""
+msgstr "Portret"
 
 #: PaperData.cpp:111
 msgid "Landscape"
-msgstr ""
+msgstr "Pejza¿"
 
 #: PaperData.cpp:127
 msgid "Manual Feed"
-msgstr ""
+msgstr "Podawanie rêczne"
 
 #: PaperData.cpp:136
 msgid "Auto Continue"
-msgstr ""
+msgstr "Automatyczne kontynuowanie"
 
 #: FontsData.cpp:38
 msgid "Language"

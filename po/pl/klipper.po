@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: klipper\n"
+"POT-Creation-Date: 1998-12-21 02:02+0100\n"
+"PO-Revision-Date: 1999-01-04 21:51+0100\n"
+"Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
+"Language-Team: Polish <pl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+
+#: toplevel.cpp:89
+msgid "Shortcut..."
+msgstr "Skrót klawiaturowy..."
+
+#: toplevel.cpp:90
+msgid "Popup at mouse position"
+msgstr "Poka¿ siê w po³o¿eniu kursora myszki"
+
+#: toplevel.cpp:95
+msgid "Clipboard History"
+msgstr "Historia schowka"
+
+#: toplevel.cpp:99
+msgid "<empty clipboard>"
+msgstr "<pusty schowek>"
+
+#: toplevel.cpp:111
+msgid "Select clipboard contents"
+msgstr "Wybierz zawarto¶æ schowka"
