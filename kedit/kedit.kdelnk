@@ -7,6 +7,6 @@ Icon=kedit.xpm
 DocPath=kedit/kedit.html
 Comment=A Simple Text Editor
 Comment[de]=Ein einfacher Text-Editor
-Comment[pl]=Prosty edytor tekstowy.
+Comment[pl]=Prosty edytor tekstu
 Terminal=0
 Type=Application

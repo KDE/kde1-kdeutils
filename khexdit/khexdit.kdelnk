@@ -9,6 +9,6 @@ Type=Application
 DocPath=khexdit/khexdit.html
 Comment=A simple Hex editor
 Comment[de]=Ein Editor für binäre Dateien
-Comment[pl]=Prosty edytor plików binarnych.
+Comment[pl]=Prosty edytor plików binarnych
 Terminal=0
 MiniIcon=khexdit.xpm
