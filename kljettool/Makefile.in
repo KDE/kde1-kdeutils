@@ -2,6 +2,7 @@
 
 prefix  = @prefix@
 install_root = @install_root@
+exec_prefix = @exec_prefix@
 BINDIR  = @kde_bindir@
 DOCSDIR = @kde_htmldir@/en/kljettool
 APPSDIR = @kde_appsdir@/Utilities/

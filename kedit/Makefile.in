@@ -12,7 +12,7 @@ qt_libraries = @qt_libraries@
 top_builddir = ..
 LIBTOOL = @LIBTOOL@
 KDE_RPATH = @KDE_RPATH@
-
+exec_prefix = @exec_prefix@
 
 CXXFLAGS= @CXXFLAGS@ @all_includes@ -DHAVE_CONFIG_H -I..
 LDFLAGS	= @LDFLAGS@ @all_libraries@ -lkfm -lkdecore -lkdeui -lqt -lXext -lX11 @LIBSOCKET@
