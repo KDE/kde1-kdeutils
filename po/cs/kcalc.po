@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcalc\n"
 "POT-Creation-Date: 1999-01-13 01:49+0100\n"
-"PO-Revision-Date: 1999-01-16 10:29+01:00\n"
+"PO-Revision-Date: 1999-02-04 11:37+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -79,7 +79,7 @@ msgstr ""
 
 #: kcalc_core.cpp:1111
 msgid "Last stat item erased"
-msgstr ""
+msgstr "Poslední smazaná pozoce statistik"
 
 #: kcalc_core.cpp:1151
 msgid "Stat Mem cleared"

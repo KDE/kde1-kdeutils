@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "POT-Creation-Date: 1999-01-18 01:54+0100\n"
-"PO-Revision-Date: 1999-01-18 08:31+01:00\n"
+"PO-Revision-Date: 1999-02-04 11:30+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: knotes.cpp:263
 msgid "Hello"
-msgstr ""
+msgstr "Ahoj"
 
 #: knotes.cpp:301
 msgid "Text Color..."

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpm\n"
 "POT-Creation-Date: 1999-01-26 01:48+0100\n"
-"PO-Revision-Date: 1999-01-18 08:33+01:00\n"
+"PO-Revision-Date: 1999-02-04 11:28+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -83,7 +83,7 @@ msgstr "Ukonèit"
 
 #: qps.C:112 qps.C:134
 msgid "Hangup"
-msgstr ""
+msgstr "Hangup"
 
 #: qps.C:115 qps.C:135
 msgid "Interrupt"
@@ -178,7 +178,6 @@ msgid "Save Settings Now"
 msgstr "Ulo¾it nastavení nyní"
 
 #: qps.C:196
-#, fuzzy
 msgid ""
 " - A Visual Process Manager (KDE Version)\n"
 "\n"

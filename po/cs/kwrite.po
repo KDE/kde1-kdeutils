@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
 "POT-Creation-Date: 1999-01-14 01:57+0100\n"
-"PO-Revision-Date: 1999-01-16 10:24+01:00\n"
+"PO-Revision-Date: 1999-02-04 11:30+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <flidr@kky.zcu.cz>\n"
 "MIME-Version: 1.0\n"
@@ -275,7 +275,7 @@ msgstr "Od&stranit nadbyteèné mezery"
 
 #: kwdialog.cpp:261
 msgid "Wrap &Cursor"
-msgstr ""
+msgstr "Zarovnat u &kurzoru"
 
 #: kwdialog.cpp:262
 msgid "&Auto Brackets"
@@ -303,7 +303,7 @@ msgstr "&Smazat pøi vkládání"
 
 #: kwdialog.cpp:295
 msgid "&Toggle Old"
-msgstr ""
+msgstr "&Pøepnout starý"
 
 #: kwdialog.cpp:322
 msgid "Wrap Words At:"
