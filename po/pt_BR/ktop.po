@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: ISO-8859-1\n"
 
 #: ktop.cpp:66
-msgid  "88888 Processes"
+msgid "88888 Processes"
 msgstr "88888 processos"
 
 #: ktop.cpp:67
@@ -30,6 +30,7 @@ msgid "KDE Task Manager"
 msgstr "Gerenciador de Tarefas do KDE"
 
 #: ktop.cpp:137
+#, c-format
 msgid "%d Processes"
 msgstr "%d processos"
 
@@ -44,6 +45,7 @@ msgid "Swap: %d kB used, %d kB free"
 msgstr "Virtual: %d kB utilizados, %d kB livres"
 
 #: MainMenu.cpp:51
+#, c-format
 msgid ""
 "KDE Task Manager (KTop) Version %s\n"
 "\n"
@@ -324,6 +326,7 @@ msgid "????"
 msgstr "????"
 
 #: OSProcess.cpp:320
+#, c-format
 msgid "Could not set new nice level for process %d"
 msgstr "Não foi possível alterar a prioridade do processo %d"
 
@@ -373,6 +376,7 @@ msgid "Swap (kB)"
 msgstr "Troca (kB)"
 
 #: PerfMonPage.cpp:109
+#, c-format
 msgid "CPU%d Load History"
 msgstr "Histórico de carga da CPU%d"
 
@@ -403,6 +407,7 @@ msgstr ""
 "informações sobre a memória!\n"
 
 #: OSStatus.cpp:354
+#, c-format
 msgid ""
 "Cannot read info for %s from file '/proc/stat'!\n"
 "The kernel needs to be compiled with support\n"
@@ -431,6 +436,7 @@ msgid "Renice Process"
 msgstr "Alterar a prioridade do processo"
 
 #: ReniceDlg.cpp:39
+#, c-format
 msgid ""
 "You are about the change the scheduling priority of\n"
 "process %d. Be aware that only the Superuser (root)\n"
