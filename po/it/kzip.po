@@ -1,170 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
-msgstr ""
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
-"Content-Type: text/plain; charset=\n"
-"Date: 1997-10-09 11:06:57-0400\n"
-"From: Robert Palmbos <robertp@pbnjelly>\n"
-"Xgettext-Options: --keyword=translate -C\n"
-"Files: adddlg.cc ar.cc arch.cc extractdlg.cc karch.cc kfdird.cc "
-"ktablistbox.cc kzip.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h "
-"extractdlg.h karch.h kfdird.h ktablistbox.h kzip.h lha.h tar.h text.h zip.h\n"
-"Translated by: Andrea Rizzi <bilibao@ouverture.it>\n"
+msgstr "Project-Id-Version: PACKAGE VERSION"
+"POT-Creation-Date: 1998-01-03 22:39+0100\n"
+"PO-Revision-Date: 1998-02-03 16:00+0100nLast-Translator: Andrea Rizzi <Bilibao@ouverture.it>\n"
+"Language-Team: Italiano <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+""
 
 #: adddlg.cc:11
 msgid "Add File Options"
-msgstr "Opzioni aggiunta file"
+msgstr ""
 
 #: adddlg.cc:22
 msgid "Store Full Path"
-msgstr "Archivia Path completo"
+msgstr ""
 
 #: adddlg.cc:25
 msgid "Only Add Newer Files"
-msgstr "Aggiungi solo file più recenti"
+msgstr ""
 
 #: extractdlg.cc:9
 msgid "Files"
-msgstr "File"
+msgstr ""
 
 #: extractdlg.cc:13
 msgid "Extract Options"
-msgstr "Opzioni Estrazione"
+msgstr ""
 
 #: extractdlg.cc:17
 msgid "Destination"
-msgstr "Destinazione"
+msgstr ""
 
 #: extractdlg.cc:33
 msgid "Preserve Permissions"
-msgstr "Preserva Permessi"
+msgstr ""
 
 #: extractdlg.cc:36
 msgid "Filenames to Lowercase"
-msgstr "Nomifile minuscoli"
+msgstr ""
 
 #: extractdlg.cc:39
 msgid "All Files"
-msgstr "Tutti i file"
+msgstr ""
 
 #: extractdlg.cc:42
 msgid "Selected File"
-msgstr "File selezionato"
+msgstr ""
 
 #: extractdlg.cc:45
 msgid "Pattern"
-msgstr "Motivo"
+msgstr ""
 
 #: kzip.cc:65
 msgid "&Extract To..."
-msgstr "&Estrai in..."
+msgstr ""
 
 #: kzip.cc:70
 msgid "E&xtract..."
-msgstr "E&strai..."
+msgstr ""
 
 #: kzip.cc:75
 msgid "&Set Archive Directory..."
-msgstr "&Imposta Directory Archivio..."
+msgstr ""
 
 #: kzip.cc:76
 msgid "&File Adding Options..."
-msgstr "&Opzioni aggiunta file..."
+msgstr ""
 
 #: kzip.cc:122
 msgid "Welcome to KZip..."
-msgstr "Benvenuto in KZip..."
+msgstr ""
 
 #: kzip.cc:228
 msgid "Can't create archive of that type"
-msgstr "Non si può creare un archivio di quel tipo"
+msgstr ""
 
 #: kzip.cc:249 kzip.cc:286 kzip.cc:294
 msgid "Create or open an archive first"
-msgstr "Prima crea o apri un archivio"
+msgstr ""
 
 #: kzip.cc:273
 msgid "Can't add directories with this archive type"
-msgstr ""
+msgstr "Non si possono aggiungere directory in questo tipo di archivio"
 
 #: kzip.cc:275
 msgid "Error saving to archive"
-msgstr "Errore durante il salvataggio nell'archivio"
+msgstr ""
 
 #: kzip.cc:305
 msgid "Archive Dir:"
-msgstr "Dir. Archivio:"
+msgstr ""
 
 #: kzip.cc:342 kzip.cc:534
 msgid "Unknown archive format"
-msgstr "Formato archivio sconosciuto"
+msgstr ""
 
 #: kzip.cc:378
 msgid "Archive Directory"
-msgstr "Directory Archivio"
+msgstr ""
 
-#~ msgid "Ok"
-#~ msgstr "Ok"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancella"
-
-#~ msgid "Browse..."
-#~ msgstr "Sfoglia..."
-
-#~ msgid "&New"
-#~ msgstr "&Nuovo"
-
-#~ msgid "&Open..."
-#~ msgstr "&Apri"
-
-#~ msgid "&Close"
-#~ msgstr "&Chiudi"
-
-#~ msgid "E&xit"
-#~ msgstr "&Esci"
-
-#~ msgid "&View"
-#~ msgstr "&Visualizza"
-
-#~ msgid "&Delete"
-#~ msgstr "&Cancella"
-
-#~ msgid "&Help..."
-#~ msgstr "&Aiuto"
-
-#~ msgid "&About..."
-#~ msgstr "&Info su..."
-
-#~ msgid "&File"
-#~ msgstr "&File"
-
-#~ msgid "&Edit"
-#~ msgstr "Modifica"
-
-#~ msgid "&Options"
-#~ msgstr "Opzioni"
-
-#~ msgid "&Help"
-#~ msgstr "&Aiuto"
-
-#~ msgid "None"
-#~ msgstr "Nessuno"
-
-#~ msgid "Open With: (program)"
-#~ msgstr "Apri con: (programma)"
-
-#~ msgid "Permissions\tOwner/Group\tSize      \tTimeStamp         \tName\t"
-#~ msgstr "Permessi\tProprietario/gruppo\tDimensione  \tOrario     \tNome\t"
-
-#~ msgid ""
-#~ "Permsissions\tOwner/Group\tPacked      \tSize         "
-#~ "\tRatio\tCRC\tTimeStamp     \tName\t"
-#~ msgstr "Permessi\tProprietario/gruppo\tCompresso"
-
-#~ msgid "Permissions\tOwner/Group\tSize        \tTimeStamp\tName\t"
-#~ msgstr "Permessi\tProprietario/gruppo\tDimensione\t Orario\t Nome\t"
-
-#~ msgid ""
-#~ "Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
-#~ msgstr ""
-#~ "Lunghezza\tMetodo\tDimensione\tRatio\tData   \tOrario\tCRC-32\tNome\t"
