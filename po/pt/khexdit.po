@@ -1,0 +1,87 @@
+
+#: hexfile.cpp:85
+#, c-format
+msgid "Error opening %s"
+msgstr "Erro na abertura de %s"
+
+#: hexwidget.cpp:23 hexwidget.cpp:60
+msgid "New Window"
+msgstr "Nova Janela"
+
+#: hexwidget.cpp:33
+msgid "Toggle Toolbar"
+msgstr "Esconder/Mostrar Barra de Ferramentas"
+
+#: hexwidget.cpp:46
+msgid "&File"
+msgstr "&Ficheiro"
+
+#: hexwidget.cpp:47
+msgid "&View"
+msgstr "&Ver"
+
+#: hexwidget.cpp:49
+msgid "&Help"
+msgstr "&Ajuda"
+
+#: hexwidget.cpp:66
+msgid "Save the file"
+msgstr "Gravar o ficheiro"
+
+#: hexwidget.cpp:70 hexwidget.cpp:73 hexwidget.cpp:76 hexwidget.cpp:80
+msgid "Not implemented"
+msgstr "Não implementado"
+
+#: hexwidget.cpp:84 hexwidget.cpp:171
+msgid "About Hex Editor"
+msgstr "Acerca do Hex Editor"
+
+#: hexwidget.cpp:114
+msgid ""
+"The current file has been modified.\n"
+"\n"
+"Do you want to save it ?"
+msgstr ""
+"O ficheiro actual foi modificado.\n"
+"\n"
+"Deseja grava-lo ?"
+
+#: hexwidget.cpp:137
+msgid "File changed"
+msgstr "Ficheiro modificado"
+
+#: hexwidget.cpp:138
+msgid "Discard your changes?"
+msgstr "Discartar as alteracões?"
+
+#: hexwidget.cpp:170
+msgid ""
+"Hex Editor 0.4 \n"
+"\n"
+"by Stephan Kulow  (coolo@itm.mu-luebeck.de)"
+msgstr ""
+"Hex Editor 0.4 \n"
+"\n"
+"por Stephan Kulow (coolo@itm.mu-luebeck.de)"
+
+#: hexwidget.cpp:202
+msgid "Ok"
+msgstr "Ok"
+
+#: hexwidget.cpp:217
+msgid ""
+"KHexdit is already waiting\n"
+"for an internet job to finish\n"
+"\n"
+"Wait until this one is finished\n"
+"or stop the running one."
+msgstr ""
+"KHexdit já está á espera\n"
+"de que um trabalho internet termine\n"
+"\n"
+"Espero que este termine\n"
+"ou pare o actualmente a ser executado."
+
+#: hexwidget.cpp:227
+msgid "Could not start KFM"
+msgstr "Não foi possivel iniciar o KFM"
