@@ -1,73 +1,76 @@
-#: hexfile.cpp:85
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1997-12-31 15:20+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: hexdata.cpp:25
 #, c-format
 msgid "Error opening %s"
 msgstr "Αποτυχία κατά το άνοιγμα %s"
 
-#: hexwidget.cpp:23 hexwidget.cpp:60
+#: hexwidget.cpp:79
+msgid "Save &As..."
+msgstr ""
+
+#: hexwidget.cpp:90
+#, fuzzy
+msgid "&Toggle Toolbar"
+msgstr "Mπάρα εργαλειών"
+
+#: hexwidget.cpp:93
+#, fuzzy
+msgid "Hex Editor"
+msgstr "Περί του Hex Editor"
+
+#: hexwidget.cpp:93
+msgid ""
+"\n"
+"\n"
+"by Stephan Kulow"
+msgstr ""
+
+#: hexwidget.cpp:115
 msgid "New Window"
 msgstr "Νέο παράθυρο"
 
-#: hexwidget.cpp:33
-msgid "Toggle Toolbar"
-msgstr "Mπάρα εργαλειών"
-
-#: hexwidget.cpp:46
-msgid "&File"
-msgstr "&Αρχείο"
-
-#: hexwidget.cpp:47
-msgid "&View"
-msgstr "&Προβολή"
-
-#: hexwidget.cpp:49
-msgid "&Help"
-msgstr "&Βοήθεια"
-
-#: hexwidget.cpp:66
+#: hexwidget.cpp:119
 msgid "Save the file"
 msgstr "Αποθήκευση αρχείου"
 
-#: hexwidget.cpp:70 hexwidget.cpp:73 hexwidget.cpp:76 hexwidget.cpp:80
+#: hexwidget.cpp:122 hexwidget.cpp:124 hexwidget.cpp:126 hexwidget.cpp:129
 msgid "Not implemented"
 msgstr "Όχι συμπληρωμένο"
 
-#: hexwidget.cpp:84 hexwidget.cpp:171
-msgid "About Hex Editor"
-msgstr "Περί του Hex Editor"
-
-#: hexwidget.cpp:114
+#: hexwidget.cpp:158
+#, fuzzy
 msgid ""
 "The current file has been modified.\n"
-"\n"
-"Do you want to save it ?"
+"Do you want to save it?"
 msgstr ""
-"Το τρέχον αρχείο έχει αλλάξει."
-"\n"
-"Θέλετε να το αποθηκέυσετε ?" 
+"Το τρέχον αρχείο έχει αλλάξει.\n"
+"Θέλετε να το αποθηκέυσετε ?"
 
-#: hexwidget.cpp:137
-msgid "File changed"
-msgstr "Το αρχείο αλλάχτηκε"
-
-#: hexwidget.cpp:138
-msgid "Discard your changes?"
-msgstr "Ακύρωση των αλλαγών"
-
-#: hexwidget.cpp:170
+#: hexwidget.cpp:184
+#, fuzzy
 msgid ""
-"Hex Editor 0.4 \n"
-"\n"
-"by Stephan Kulow  (coolo@itm.mu-luebeck.de)"
+"The current file has been modified.\n"
+"Discard your changes?"
 msgstr ""
-"Hex Editor 0.4 \n"
-"\n"
-"από τον Stephan Kulow  (coolo@itm.mu-luebeck.de)"
+"Το τρέχον αρχείο έχει αλλάξει.\n"
+"Θέλετε να το αποθηκέυσετε ?"
 
-#: hexwidget.cpp:202
-msgid "Ok"
-msgstr "Eντάξει"
-
-#: hexwidget.cpp:217
+#: hexwidget.cpp:265
 msgid ""
 "KHexdit is already waiting\n"
 "for an internet job to finish\n"
@@ -81,7 +84,33 @@ msgstr ""
 "Περιμένετε μέχρι αυτή να τερματιστεί\n"
 "ή σταματήστε την ήδη τρέχουσα."
 
-
-#: hexwidget.cpp:227
+#: hexwidget.cpp:273
 msgid "Could not start KFM"
 msgstr "Αδύνατη η εκκίνηση του KFM"
+
+#~ msgid "&File"
+#~ msgstr "&Αρχείο"
+
+#~ msgid "&View"
+#~ msgstr "&Προβολή"
+
+#~ msgid "&Help"
+#~ msgstr "&Βοήθεια"
+
+#~ msgid "File changed"
+#~ msgstr "Το αρχείο αλλάχτηκε"
+
+#~ msgid "Discard your changes?"
+#~ msgstr "Ακύρωση των αλλαγών"
+
+#~ msgid ""
+#~ "Hex Editor 0.4 \n"
+#~ "\n"
+#~ "by Stephan Kulow  (coolo@itm.mu-luebeck.de)"
+#~ msgstr ""
+#~ "Hex Editor 0.4 \n"
+#~ "\n"
+#~ "από τον Stephan Kulow  (coolo@itm.mu-luebeck.de)"
+
+#~ msgid "Ok"
+#~ msgstr "Eντάξει"
