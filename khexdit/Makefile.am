@@ -1,4 +1,4 @@
- 
+
 APPSDIR = $(kde_appsdir)/Utilities
 INCLUDES= $(all_includes)
 
@@ -22,17 +22,17 @@ hexfile.cpp:hexfile.moc
 hexfile.moc: hexfile.h
 	$(MOC) hexfile.h -o hexfile.moc
 
+appsdir = $(kde_appsdir)/Utilities
+apps_DATA = khexdit.kdelnk
+
+icondir = $(kde_icondir)
+icon_DATA = khexdit.xpm
+
 install-data-local: 
-	$(mkinstalldirs) $(APPSDIR)
-	$(INSTALL_DATA) khexdit.kdelnk $(APPSDIR)
-	$(mkinstalldirs) $(kde_icondir)
-	$(INSTALL_DATA) khexdit.xpm $(kde_icondir)
 	$(mkinstalldirs) $(kde_minidir)
 	$(INSTALL_DATA) mini-khexdit.xpm $(kde_minidir)/khexdit.xpm
 
 uninstall-local:
-	rm -f $(APPSDIR)/khexdit.kdelnk
-	rm -f $(kde_icondir)/khexdit.xpm
 	rm -f $(kde_minidir)/khexdit.xpm
 
 messages:
