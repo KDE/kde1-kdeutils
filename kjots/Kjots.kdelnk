@@ -2,6 +2,7 @@
 [KDE Desktop Entry]
 DocPath=kjots/index.html
 Name=KJots
+Name[ca]=Anotador
 Name[da]=KJot
 Name[es]=Gestor de notas
 Name[hu]=Jegyzetelõ
@@ -10,6 +11,7 @@ Name[no]=Notisorganiserer
 Name[ro]=Bileþele
 Name[sv]=Anteckningsblock
 Comment=Note taker
+Comment[ca]=Anotador
 Comment[cs]=Poznámky
 Comment[da]=Tager noter
 Comment[de]=Erfasst Notizen

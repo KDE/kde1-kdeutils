@@ -1,6 +1,7 @@
 # KDE Config File 
 [KDE Desktop Entry]
 Name=Hex Editor
+Name[ca]=Editor hexadecimal
 Name[cs]=Hexa editor
 Name[da]=Hex editor
 Name[de]=Hexeditor
@@ -23,6 +24,7 @@ Icon=khexdit.xpm
 Type=Application
 DocPath=khexdit/index.html
 Comment=A simple Hex editor
+Comment[ca]=Un editor hexadecimal senzill
 Comment[cs]=Jednoduchý hexadecimální editor
 Comment[da]=En enkel hex-editor
 Comment[de]=Ein Editor für binäre Dateien
