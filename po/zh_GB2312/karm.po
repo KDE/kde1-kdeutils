@@ -36,7 +36,7 @@ msgstr "喔! 不!"
 
 #: karm.cpp:205
 msgid ": Add New Task"
-msgstr ": 增添新任务"
+msgstr ": 添加新任务"
 
 #: karm.cpp:216
 msgid "Karm::createNewTask called and there's no dialog!"
@@ -121,6 +121,10 @@ msgid ""
 "\n"
 "The K Desktop Environment"
 msgstr ""
+" 0.3 -- Sirtaj Singh Kang\n"
+"taj@kde.org, Oct 1997\n"
+"\n"
+"The K Desktop Environment"
 
 #: top.cpp:164
 msgid "clock active"

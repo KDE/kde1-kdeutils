@@ -16,7 +16,7 @@ msgstr "解除"
 
 #: alarm.cpp:74
 msgid "Set"
-msgstr "设定"
+msgstr "设置"
 
 #: alarm.cpp:153
 msgid "I am afraid you already missed your appointment."
@@ -84,7 +84,7 @@ msgstr "设定缺省字体"
 
 #: fontdlg.cpp:64
 msgid "Point Size:"
-msgstr ""
+msgstr "点的大小:"
 
 #: knotes.cpp:268
 msgid "Text Color..."
@@ -183,7 +183,7 @@ msgstr ""
 msgid ""
 "You have exeeded the arbitrary and unjustly set limit of 50 knotes.\n"
 " Please complain to the author."
-msgstr ""
+msgstr "你已经超过了 50 个 knotes 的限制.请向作者询问."
 
 #: knotes.cpp:847
 msgid "Question"
@@ -222,6 +222,9 @@ msgid ""
 "Please wait until it has finished\n"
 "Alternatively stop the running one."
 msgstr ""
+"KNote 正在等待一个 internet\n"
+"任务执行完. 请等待它执行完,\n"
+"或者终止正在运行的任务."
 
 #: knotes.cpp:1470
 msgid "Could not start or find KFM"
@@ -244,15 +247,20 @@ msgid ""
 "\n"
 "I will correct the Problem for you."
 msgstr ""
+"发现一个定时器 , 它的 KNotes 文件\n"
+"%s\n"
+"不在存在.\n"
+"\n"
+"我将更正这个错误."
 
 #: knotes.cpp:1612
 msgid "Inconsistency"
 msgstr "不一致"
 
+#
 #: mail.cpp:40
-#, fuzzy
 msgid "Mail Note to:"
-msgstr "邮寄 Note ..."
+msgstr "邮寄 Note 给:"
 
 #: mail.cpp:49
 msgid "Subject:"
@@ -260,7 +268,7 @@ msgstr "标题:"
 
 #: mail.cpp:51
 msgid "Mail"
-msgstr ""
+msgstr "Mail"
 
 #: mail.cpp:92
 msgid "You must specify a Recipient"

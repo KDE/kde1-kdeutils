@@ -24,7 +24,7 @@ msgstr "隐藏状态行[&S]"
 
 #: kedit.cpp:152
 msgid "Select All"
-msgstr "选择全部"
+msgstr "全部选中"
 
 #: kedit.cpp:183
 msgid "&About..."
@@ -128,7 +128,7 @@ msgstr "打印文件"
 
 #: kedit.cpp:330
 msgid "Mail Document"
-msgstr "邮件文件"
+msgstr "邮寄文件"
 
 #: kedit.cpp:534
 msgid "Open Location:"
@@ -155,7 +155,7 @@ msgid ""
 "Could not save the file.\n"
 "Exit anyways?"
 msgstr ""
-"不能保存这份文件.\n"
+"不能保存文件.\n"
 "直接结束吗?"
 
 #: kedit.cpp:638
@@ -165,7 +165,7 @@ msgid ""
 "Quit anyways?"
 msgstr ""
 "还有一些修改过内容的窗口打开着.\n"
-"如果现在退出, 将会丢失这些修改\n"
+"如果现在退出, 将会丢失这些改动,\n"
 "直接离开?"
 
 #: kedit.cpp:667
@@ -188,7 +188,7 @@ msgstr "没有修改需要保存"
 #: kedit.cpp:833
 #, c-format
 msgid "Saved as: %s"
-msgstr "保存成: %s"
+msgstr "存为: %s"
 
 #: kedit.cpp:866
 #, c-format
@@ -196,6 +196,8 @@ msgid ""
 "Could not pipe the contentsof this Document into:\n"
 " %s"
 msgstr ""
+"不能通过管道将此文件内容传至:\n"
+" %s"
 
 #: kedit.cpp:960
 msgid "Auto Indent Mode: On"
@@ -263,6 +265,9 @@ msgid ""
 "Please wait until has finished\n"
 "Alternatively stop the running one."
 msgstr ""
+"KEdit 正在等待一个 internet\n"
+"任务执行完. 请等待它执行完 ,\n"
+"或者终止正在运行的任务."
 
 #: kedit.cpp:1368 kedit.cpp:1463
 msgid "Could not start or find KFM"
@@ -296,7 +301,7 @@ msgstr "连接上"
 
 #: kedit.cpp:1478
 msgid "Waiting..."
-msgstr "等待中..."
+msgstr "等待..."
 
 #: kedit.cpp:1486
 #, c-format
@@ -346,7 +351,7 @@ msgstr "KEdit 选项"
 
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"
-msgstr ""
+msgstr "设置填充列为 :"
 
 #: filldlg.cpp:40
 msgid "Word Warp"
@@ -368,10 +373,10 @@ msgstr "邮寄文件至:"
 msgid "Subject:"
 msgstr "标题:"
 
+#
 #: mail.cpp:57
-#, fuzzy
 msgid "Mail"
-msgstr "邮件[&M]"
+msgstr "邮件"
 
 #: mail.cpp:96
 msgid "You must specify a Recipient"

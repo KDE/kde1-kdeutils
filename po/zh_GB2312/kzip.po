@@ -8,7 +8,7 @@ msgstr ""
 
 #: adddlg.cc:11
 msgid "Add File Options"
-msgstr "加入文件选项"
+msgstr "添加文件选项"
 
 #: adddlg.cc:22
 msgid "Store Full Path"
@@ -16,7 +16,7 @@ msgstr "保存完整路径"
 
 #: adddlg.cc:25
 msgid "Only Add Newer Files"
-msgstr "只加入新的文件"
+msgstr "只添加新的文件"
 
 #: extractdlg.cc:9
 msgid "Files"
@@ -64,7 +64,7 @@ msgstr "设定压缩文件目录[&S]..."
 
 #: kzip.cc:76
 msgid "&File Adding Options..."
-msgstr "文件增加选项[&F]"
+msgstr "文件添加选项[&F]"
 
 #: kzip.cc:122
 msgid "Welcome to KZip..."
