@@ -102,7 +102,7 @@ int HexWidget::initMenu() {
     
     menu = new KMenuBar( this );
     CHECK_PTR( menu );
-    menu->insertItem( i18n("&  File"), file );
+    menu->insertItem( i18n("&File"), file );
     menu->insertItem( i18n("&Edit"), edit);
     menu->insertItem( i18n("&View"), view );
     menu->insertSeparator();
