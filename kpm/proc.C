@@ -172,7 +172,7 @@ void Procinfo::read_loadavg()
 void Procinfo::read_common()
 {
     char path[80];
-    char buf[512];
+    char buf[1024];
 
     // read memory info
     strcpy(path, procdir);
