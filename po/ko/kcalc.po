@@ -32,7 +32,7 @@ msgstr "KCalc ¼³Á¤"
 
 #: kcalc.cpp:1550
 msgid "Base type: long double\n"
-msgstr "¹Ø¼ö À¯Çü: "
+msgstr "¹Ø¼ö À¯Çü:\n"
 
 #: kcalc.cpp:1552
 msgid ""

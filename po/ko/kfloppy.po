@@ -186,7 +186,7 @@ msgstr ""
 
 #: floppy.cpp:907
 msgid "Error while trying to determine whether floppy is mounted\n"
-msgstr "플로피가 파일 시스템과 연결되었는가를 검사 시도하는 중 오류 발생"
+msgstr "플로피가 파일 시스템과 연결되었는가를 검사 시도하는 중 오류 발생\n"
 
 #: floppy.cpp:924
 #, c-format
