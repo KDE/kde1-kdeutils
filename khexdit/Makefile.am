@@ -1,6 +1,8 @@
  
 DOCSDIR = $(prefix)/share/doc/HTML/khexdit
 APPSDIR = $(prefix)/share/applnk/Utilities
+ICONDIR = $(prefix)/share/icons/
+MINIDIR = $(prefix)/share/icons/mini
 
 INCLUDES= @all_includes@
 MOC	= @MOC@
@@ -24,9 +26,14 @@ install-data-local:
 	$(INSTALL_DATA) khexdit.html $(DOCSDIR)
 	$(mkinstalldirs) $(APPSDIR)
 	$(INSTALL_DATA) Khexdit.kdelnk $(APPSDIR)
+	$(mkinstalldirs) $(ICONDIR)
+	$(INSTALL_DATA) khexdit.xpm $(ICONDIR)
+	$(mkinstalldirs) $(MINIDIR)
+	$(INSTALL_DATA) mini-khexdit.xpm $(MINIDIR)
 
 uninstall-local:
 	rm -f $(DOCSDIR)/$(DOCS)
 	rm -f $(APPSDIR)/Khexdit.kdelnk
-
+	rm -f $(ICONDIR)/khexdit.xpm
+	rm -f $(MINIICONDIR)/mini-khexdit.xpm
 

@@ -17,15 +17,18 @@
 #include "hexwidget.h"
 #include "klocale.h"
 #include <kiconloader.h>
+#include <kwm.h>
 
 QList<HexWidget> HexWidget::windowList;
 
 int HexWidget::initMenu() {
 
-
   windowList.append(this);
+  KWM::setIcon(winId(), kapp->getIconLoader()->loadIcon("khexdit.xpm"));
+  KWM::setMiniIcon(winId(), kapp->getIconLoader()->loadIcon("mini-khexdit.xpm"));
+  
   CurrentFile=new HexFile(this);
-
+  
   QPopupMenu *file = new QPopupMenu;
   file->insertItem( klocale->translate("New Window"), ID_FILE_NEWWIN);
   file->insertSeparator();
@@ -294,7 +297,10 @@ void HexWidget::slotDropEvent( KDNDDropZone * _dropZone ) {
 
 int main(int argc, char **argv) {
   KApplication a(argc,argv,"khexdit");  
- 
+  QString path = a.kdedir();
+  a.getIconLoader()->insertDirectory(1, path + "/share/icons");
+  a.getIconLoader()->insertDirectory(2, path + "/share/icons/mini");
+
   if (argc>1) {
     for (int i=1; i < argc; i++) {
       if (*argv[i] == '-')	/* ignore options */

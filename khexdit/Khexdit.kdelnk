@@ -3,7 +3,7 @@
 Name=Hex Editor
 Name[de]=Hexeditor
 Exec=khexdit
-Icon=edit.xpm
+Icon=khexdit.xpm
 Type=Application
 DocPath=khexdit/khexdit.html
 Info=A simple Hex editor
