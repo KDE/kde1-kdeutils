@@ -6,7 +6,8 @@
 #include <qmsgbox.h>
 
 HexData::HexData() {
-    hexdata = data_size = 0;
+    hexdata = 0;
+    data_size = 0;
 }
 
 int HexData::save(const char *filename) {
@@ -22,9 +23,9 @@ int HexData::load(const char *Filename) {
     QFile file(fileString);
     if (!file.open(IO_ReadOnly | IO_Raw)) {
 	QString txt;
-	txt.sprintf(klocale->translate("Error opening %s"),fileString.data());
-	QMessageBox::message(klocale->translate("Error"),txt,
-			     klocale->translate("Close"));
+	txt.sprintf(i18n("Error opening %s"),fileString.data());
+	QMessageBox::message(i18n("Error"),txt,
+			     i18n("Close"));
 	return -1;
     }
     hexdata = (unsigned char*)mmap(0, file.size(),  PROT_READ | PROT_WRITE, MAP_PRIVATE,

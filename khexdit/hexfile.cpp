@@ -52,7 +52,7 @@ HexFile::HexFile(const char *filename,QWidget *parent, const char* name) :
 HexFile::HexFile(QWidget *parent)  : QWidget(parent,"HexFile") {
     init();
     filename=new char[20];
-    strcpy(filename,klocale->translate("Untitled"));
+    strcpy(filename,i18n("Untitled"));
 }
 
 void HexFile::init() {
