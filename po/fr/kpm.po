@@ -83,7 +83,7 @@ msgstr "Terminer"
 
 #: qps.C:112 qps.C:134
 msgid "Hangup"
-msgstr ""
+msgstr "Suspendre"
 
 #: qps.C:115 qps.C:135
 msgid "Interrupt"
