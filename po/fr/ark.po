@@ -5,9 +5,10 @@ msgstr ""
 "Project-Id-Version: ark\n"
 "POT-Creation-Date: 1998-11-14 02:05+0100\n"
 "PO-Revision-Date: 1998-02-04 HO:MI+ZONE\n"
-"Last-Translator: Francois-Xavier DURANCEAU <Francois-Xavier.Duranceau@loria.fr>\n"
-"Translator: David Faure <faure@kde.org>\n"
+"Last-Translator: Francois-Xavier DURANCEAU "
+"<Francois-Xavier.Duranceau@loria.fr>\n"
 "Language-Team: FRENCH <kde-i18n@kde.org>\n"
+"Translator: David Faure <faure@kde.org>\n"
 "Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
 
 #: adddlg.cc:11
