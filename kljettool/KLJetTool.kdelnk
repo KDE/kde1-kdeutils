@@ -3,7 +3,7 @@
 Comment[C]=KLJetTool: so you can configure your LaserJet from your desk
 Comment[is_IS]=kljettool:  LaserJet prentstjóri
 Comment[es]=Controlador de impresoras LaserJet
-Comment[fi]=LaserJet hallinta
+Comment[fi]=LaserJet tulostimen hallintaohjelma
 Comment[de]=LaserJet-Konfiguration
 Comment[no]=LaserJet-konfigurasjon
 Comment[pl]=Konfiguracja LasetJet
@@ -23,7 +23,7 @@ Name[es]=HP LaserJet
 Name[de]=KLaserJet
 Name[no]=KLaserJet
 Name[pl]=KLaserJet
-Name[fr]=KLaserJet
+Name[fr]=HP LaserJet hallinta
 Name[hu]=LaserJet irányító
 Name[pt]=Comando de LaserJets
 Name[pt_BR]=Comando de LaserJets
