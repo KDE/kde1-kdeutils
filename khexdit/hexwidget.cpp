@@ -36,7 +36,6 @@
 #include "hexwidget.h"
 #include "klocale.h"
 #include <kiconloader.h>
-#include <kwm.h>
 
 QList<HexWidget> HexWidget::windowList;
 
@@ -87,11 +86,11 @@ int HexWidget::initMenu() {
     toolbar->insertButton(loader->loadIcon("filefloppy.xpm"), ID_FILE_SAVE, TRUE, 
 			  klocale->translate("Save the file"));
     toolbar->insertSeparator();
-    toolbar->insertButton(loader->loadIcon("page.xpm"),ID_EDIT_CUT, FALSE, 
+    toolbar->insertButton(loader->loadIcon("editcut.xpm"),ID_EDIT_CUT, FALSE, 
 			  klocale->translate("Not implemented"));
-    toolbar->insertButton(loader->loadIcon("contents.xpm"),ID_EDIT_COPY, FALSE, 
+    toolbar->insertButton(loader->loadIcon("editcopy.xpm"),ID_EDIT_COPY, FALSE, 
 			  klocale->translate("Not implemented"));
-    toolbar->insertButton(loader->loadIcon("devious.xpm"),ID_EDIT_PASTE, FALSE, 
+    toolbar->insertButton(loader->loadIcon("editpaste.xpm"),ID_EDIT_PASTE, FALSE, 
 			  klocale->translate("Not implemented"));
     toolbar->insertSeparator();
     toolbar->insertButton(loader->loadIcon("fileprint.xpm"),ID_FILE_PRINT, FALSE, 
