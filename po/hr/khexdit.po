@@ -13,17 +13,15 @@ msgstr "Gre¹ka prilikom otvaranja %s"
 
 #: hexwidget.cpp:79
 msgid "Save &As..."
-msgstr ""
+msgstr "Spremi pod novim &imenom..."
 
 #: hexwidget.cpp:90
-#, fuzzy
 msgid "&Toggle Toolbar"
-msgstr "Uklj./isklj. Alate"
+msgstr "Uklj./isklj. &Alate"
 
 #: hexwidget.cpp:93
-#, fuzzy
 msgid "Hex Editor"
-msgstr "O Hex Editoru"
+msgstr "Hex Editoru"
 
 #: hexwidget.cpp:95
 msgid ""
@@ -31,6 +29,9 @@ msgid ""
 "\n"
 "by Stephan Kulow"
 msgstr ""
+"\n"
+"\n"
+"Stephan Kulow"
 
 #: hexwidget.cpp:118
 msgid "New Window"
@@ -45,24 +46,20 @@ msgid "Not implemented"
 msgstr "Nije ugraðeno"
 
 #: hexwidget.cpp:163
-#, fuzzy
 msgid ""
 "The current file has been modified.\n"
 "Do you want to save it?"
 msgstr ""
 "Datoteka je mijenjana.\n"
-"\n"
 "®elite li je spremiti ?"
 
 #: hexwidget.cpp:189
-#, fuzzy
 msgid ""
 "The current file has been modified.\n"
 "Discard your changes?"
 msgstr ""
 "Datoteka je mijenjana.\n"
-"\n"
-"®elite li je spremiti ?"
+"®elite odbaciti promjene ?"
 
 #: hexwidget.cpp:270
 msgid ""
@@ -78,30 +75,3 @@ msgstr ""
 #: hexwidget.cpp:278
 msgid "Could not start KFM"
 msgstr "Ne mogu pokrenuti KFM"
-
-#~ msgid "&File"
-#~ msgstr "&Datoteka"
-
-#~ msgid "&View"
-#~ msgstr "Po&gled"
-
-#~ msgid "&Help"
-#~ msgstr "&Pomoæ"
-
-#~ msgid "File changed"
-#~ msgstr "Datoteka promijenjena"
-
-#~ msgid "Discard your changes?"
-#~ msgstr "®elite li odbaciti promjene?"
-
-#~ msgid ""
-#~ "Hex Editor 0.4 \n"
-#~ "\n"
-#~ "by Stephan Kulow  (coolo@itm.mu-luebeck.de)"
-#~ msgstr ""
-#~ "Hex Editor 0.4 \n"
-#~ "\n"
-#~ "Stephen Kulow (coolo@itm.mu-luebeck.de)"
-
-#~ msgid "Ok"
-#~ msgstr "U redu"

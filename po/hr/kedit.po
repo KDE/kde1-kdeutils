@@ -2,17 +2,16 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1998-01-25 13:24+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 1998-03-15 20:00-0500\n"
+"Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
+"Language-Team: Croatian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: iso-8859-2\n"
 
 #: kedit.cpp:83 kedit.cpp:1019
 msgid "Show &Tool Bar"
@@ -31,9 +30,8 @@ msgid "Hide &Status Bar"
 msgstr "Sakrij st&atus"
 
 #: kedit.cpp:152
-#, fuzzy
 msgid "Select All"
-msgstr "Zamijeni sve"
+msgstr "Izaberi sve"
 
 #: kedit.cpp:183
 msgid "&About..."
@@ -44,9 +42,8 @@ msgid "Ne&w..."
 msgstr "&Novi..."
 
 #: kedit.cpp:192
-#, fuzzy
 msgid "Open Recen&t..."
-msgstr "Otvori &URL..."
+msgstr "Otvori sko&ra¹nji..."
 
 #: kedit.cpp:204
 msgid "Open &URL..."
@@ -65,12 +62,10 @@ msgid "New &Window"
 msgstr "Novi p&rozor"
 
 #: kedit.cpp:228
-#, fuzzy
 msgid "&Select All"
-msgstr "Zamijeni sve"
+msgstr "&Izaberi Sve"
 
 #: kedit.cpp:231
-#, fuzzy
 msgid "&Insert File"
 msgstr "Umetni &datoteku"
 
@@ -80,7 +75,7 @@ msgstr "Umetni datu&m"
 
 #: kedit.cpp:236
 msgid "&Find..."
-msgstr "&Naði"
+msgstr "&Naði..."
 
 #: kedit.cpp:238
 msgid "Find &Again"
@@ -103,9 +98,8 @@ msgid "Colors"
 msgstr "Boje"
 
 #: kedit.cpp:251
-#, fuzzy
 msgid "KEdit &Options..."
-msgstr "Razne odrednice..."
+msgstr "KEdit &Opcije..."
 
 #: kedit.cpp:253
 msgid "Auto &Indent"
@@ -182,13 +176,12 @@ msgstr ""
 "®elite li ipak izaæi?"
 
 #: kedit.cpp:667
-#, fuzzy
 msgid ""
 "The current document has been modified.\n"
 "Continue anyways ?"
 msgstr ""
 "Trenutni dokument je promijenjen.\n"
-"®elite li ga spremiti?"
+"Ipak nastaviti?"
 
 #: kedit.cpp:808
 #, c-format
@@ -237,13 +230,12 @@ msgstr ""
 "prije ispisa dokumenta?"
 
 #: kedit.cpp:1142
-#, fuzzy
 msgid ""
 "Could not save the file.\n"
 "Print anyways?"
 msgstr ""
 "Ne mogu spremiti datoteku.\n"
-"Da ipak izaðem?"
+"Da ipak ispi¹em?"
 
 #: kedit.cpp:1235
 #, c-format
@@ -357,9 +349,8 @@ msgid "Print Selection"
 msgstr "Pi¹i oznaèeno"
 
 #: filldlg.cpp:31
-#, fuzzy
 msgid "KEdit Options"
-msgstr "&Pode¹avanja"
+msgstr "KEdit Opcije"
 
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"
@@ -367,7 +358,7 @@ msgstr "Namjesti stupac popunjavanja na:"
 
 #: filldlg.cpp:40
 msgid "Word Warp"
-msgstr "Prelom rijeèi"
+msgstr "Prijelom rijeèi"
 
 #: filldlg.cpp:44
 msgid "Mail Command:"
@@ -392,170 +383,3 @@ msgstr "Po¹ta"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Morate navesti primatelja"
-
-#~ msgid "Open..."
-#~ msgstr "Otvori..."
-
-#~ msgid "Save as..."
-#~ msgstr "Spremi kao..."
-
-#~ msgid "&Copy"
-#~ msgstr "&Kopiraj"
-
-#~ msgid "&Paste"
-#~ msgstr "&Umetni"
-
-#~ msgid "C&ut"
-#~ msgstr "&Izre¾i"
-
-#~ msgid "&Foreground Color"
-#~ msgstr "Boja s&lova"
-
-#~ msgid "&Background Color"
-#~ msgstr "&Boja pozadine"
-
-#~ msgid "&Help"
-#~ msgstr "&Pomoæ"
-
-#~ msgid "&Open..."
-#~ msgstr "&Otvori..."
-
-#~ msgid "&Save"
-#~ msgstr "&Spremi"
-
-#~ msgid "S&ave as..."
-#~ msgstr "S&nimi kao..."
-
-#~ msgid "&Close"
-#~ msgstr "Za&tvori"
-
-#~ msgid "&Print..."
-#~ msgstr "Is&pis..."
-
-#~ msgid "E&xit"
-#~ msgstr "&Zavr¹i"
-
-#~ msgid "&File"
-#~ msgstr "&Datoteka"
-
-#~ msgid "&Edit"
-#~ msgstr "&Urednik"
-
-#~ msgid "Copy"
-#~ msgstr "Kopiraj"
-
-#~ msgid "Paste"
-#~ msgstr "Umetni"
-
-#~ msgid "Cut"
-#~ msgstr "Izre¾i"
-
-#~ msgid "Done"
-#~ msgstr "Gotovo"
-
-#~ msgid "Sorry"
-#~ msgstr "®alim"
-
-#~ msgid "Could not Save the Changes\n"
-#~ msgstr "Ne mogu spremiti promjene\n"
-
-#~ msgid "Saved: %s"
-#~ msgstr "Snimljeno: %s"
-
-#~ msgid "Saved"
-#~ msgstr "Snimljeno"
-
-#~ msgid "Load file:"
-#~ msgstr "Uèitaj datoteku:"
-
-#~ msgid "The specified File does not exist"
-#~ msgstr "Navedena datoteka ne postoji"
-
-#~ msgid "You have specificated a directory"
-#~ msgstr "Naveli ste direktorij"
-
-#~ msgid "You do not have read permission to this file."
-#~ msgstr "Nemate ovlast èitanja ove datoteke."
-
-#~ msgid ""
-#~ "You have do not have Permission to \n"
-#~ "read this Document"
-#~ msgstr "Nemate ovlast èitanja ovog dokumenta"
-
-#~ msgid "An Error occured while trying to open this Document"
-#~ msgstr "Gre¹ka prilikom otvaranja dokumenta"
-
-#~ msgid "Select Document to Insert"
-#~ msgstr "Birajte dokument za umetanje"
-
-#~ msgid "Could not Save the Document"
-#~ msgstr "Ne mogu spremiti dokument"
-
-#~ msgid "Select Document to Open"
-#~ msgstr "Birajte dokument koji ¾elite otvoriti"
-
-#~ msgid "Could not save the document\n"
-#~ msgstr "Ne mogu spremiti dokument\n"
-
-#~ msgid "Save Document As"
-#~ msgstr "Spremi dokument kao"
-
-#~ msgid "Warning:"
-#~ msgstr "Upozorenje:"
-
-#~ msgid ""
-#~ "A Document with this Name exists already\n"
-#~ "Do you want to overwrite it ?"
-#~ msgstr ""
-#~ "Dokument istog naziva veæ postoji\n"
-#~ "®elite li spremiti preko njega?"
-
-#~ msgid "Sorry:"
-#~ msgstr "®alim:"
-
-#~ msgid "You do not have write permission to this file.\n"
-#~ msgstr "Nemate ovlast pisanja nad tom datotekom.\n"
-
-#~ msgid "Find"
-#~ msgstr "Naði"
-
-#~ msgid ""
-#~ "End of document reached.\n"
-#~ "Continue from the beginning?"
-#~ msgstr ""
-#~ "Do¹ao sam do kraja dokumenta.\n"
-#~ "Da nastavim od poèetka?"
-
-#~ msgid ""
-#~ "Beginning of document reached.\n"
-#~ "Continue from the end?"
-#~ msgstr ""
-#~ "Do¹ao sam do poèetka dokumenta.\n"
-#~ "Da nastavim s kraja?"
-
-#~ msgid "Case Sensitive"
-#~ msgstr "Razlikuj velika i mala slova"
-
-#~ msgid "Find Backwards"
-#~ msgstr "Tra¾i unazad"
-
-#~ msgid "Find:"
-#~ msgstr "Naði:"
-
-#~ msgid "Replace with:"
-#~ msgstr "Zamijeni sa:"
-
-#~ msgid "Replace"
-#~ msgstr "Zamijeni"
-
-#~ msgid "Goto Line"
-#~ msgstr "Idi na"
-
-#~ msgid "Go"
-#~ msgstr "Kreni"
-
-#~ msgid "Miscellaneous Options"
-#~ msgstr "Razne odrednice"
-
-#~ msgid "About KEdit"
-#~ msgstr "O programu KEdit"

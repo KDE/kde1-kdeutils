@@ -83,7 +83,7 @@ msgstr "Prvo naèinite ili otvorite arhivu"
 
 #: kzip.cc:273
 msgid "Can't add directories with this archive type"
-msgstr ""
+msgstr "Ne mogu dodati direktorije sa ovom vrstom arhive"
 
 #: kzip.cc:275
 msgid "Error saving to archive"
@@ -100,72 +100,3 @@ msgstr "Nepoznata vrsta arhive"
 #: kzip.cc:378
 msgid "Archive Directory"
 msgstr "Direktorij arhive:"
-
-#~ msgid "Ok"
-#~ msgstr "U redu"
-
-#~ msgid "Cancel"
-#~ msgstr "Odustani"
-
-#~ msgid "Browse..."
-#~ msgstr "Potra¾i..."
-
-#~ msgid "&New"
-#~ msgstr "&Novi"
-
-#~ msgid "&Open..."
-#~ msgstr "&Otvori..."
-
-#~ msgid "&Close"
-#~ msgstr "Za&tvori"
-
-#~ msgid "E&xit"
-#~ msgstr "&Zavr¹i"
-
-#~ msgid "&View"
-#~ msgstr "Po&gledaj"
-
-#~ msgid "&Delete"
-#~ msgstr "O&bri¹i"
-
-#~ msgid "&Help..."
-#~ msgstr "&Pomoæ..."
-
-#~ msgid "&About..."
-#~ msgstr "&O programu..."
-
-#~ msgid "&File"
-#~ msgstr "&Datoteka"
-
-#~ msgid "&Edit"
-#~ msgstr "&Urednik"
-
-#~ msgid "&Options"
-#~ msgstr "P&ode¹avanja"
-
-#~ msgid "&Help"
-#~ msgstr "&Pomoæ"
-
-#~ msgid "None"
-#~ msgstr "Ni¹ta"
-
-#~ msgid "Open With: (program)"
-#~ msgstr "Otvori s: (program)"
-
-#~ msgid "Permissions\tOwner/Group\tSize      \tTimeStamp         \tName\t"
-#~ msgstr "Dozvole   \tVlasnik/Grupa\tVelièina    \tVrijeme         \tNaziv\t"
-
-#~ msgid ""
-#~ "Permsissions\tOwner/Group\tPacked      \tSize         "
-#~ "\tRatio\tCRC\tTimeStamp     \tName\t"
-#~ msgstr ""
-#~ "Dozvole    \tVlasnik/Grupa\tPakirano  \tVelièina     \tOmjer\tCRC\tVrijeme   "
-#~ "    \tNaziv\t "
-
-#~ msgid "Permissions\tOwner/Group\tSize        \tTimeStamp\tName\t"
-#~ msgstr "Dozvole   \tVlasnik/Grupa\tVelièina  \tVrijeme  \tNaziv\t"
-
-#~ msgid ""
-#~ "Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
-#~ msgstr ""
-#~ "Duljina   \tNaèin \tVelièina     \tOmjer\tDatum    \tVrijeme\tCRC-32\tNaziv\t"

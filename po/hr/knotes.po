@@ -164,7 +164,7 @@ msgstr "Bez okvira"
 #: knotes.cpp:402 knotes.cpp:406 knotes.cpp:600 knotes.cpp:810 knotes.cpp:814
 #: timer.cpp:87 timer.cpp:110
 msgid "Note: "
-msgstr ""
+msgstr "Bilje¹ka: "
 
 #: knotes.cpp:459
 msgid ""
@@ -187,13 +187,12 @@ msgstr ""
 " %s"
 
 #: knotes.cpp:687
-#, fuzzy
 msgid ""
 "You have exeeded the arbitrary and unjustly set limit of 50 knotes.\n"
 " Please complain to the author."
 msgstr ""
 "Prema¹ili ste odoka i nepravedno odreðeni maksimum od 50 knotes bilje¹ki.\n"
-" Molimo, ¾alite se autoru."
+" Molim, ¾alite se autoru."
 
 #: knotes.cpp:847
 msgid "Question"
@@ -278,15 +277,15 @@ msgstr "Po¹alji po¹tom bilje¹ku ..."
 
 #: mail.cpp:49
 msgid "Subject:"
-msgstr ""
+msgstr "Tema:"
 
 #: mail.cpp:51
 msgid "Mail"
-msgstr ""
+msgstr "Po¹alji"
 
 #: mail.cpp:92
 msgid "You must specify a Recipient"
-msgstr ""
+msgstr "Morate navesti primaoca"
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
@@ -311,31 +310,3 @@ msgid ""
 msgstr ""
 "KNotes bilje¹ka tog imena veæ postoji\n"
 "Molim, odaberite neko drugo ime"
-
-#~ msgid "Sorry"
-#~ msgstr "®alim"
-
-#~ msgid "Change"
-#~ msgstr "Promijeni"
-
-#~ msgid "Italic"
-#~ msgstr "Kurziv"
-
-#~ msgid "Roman"
-#~ msgstr "Roman"
-
-#~ msgid "Clear"
-#~ msgstr "Prazno"
-
-#~ msgid "Options"
-#~ msgstr "Opcije"
-
-#~ msgid ""
-#~ "Could not pipe the contents of this KNotes into:\n"
-#~ " %s"
-#~ msgstr ""
-#~ "Ne mogu preusmjeriti sadr¾aj ove KNotes u:\n"
-#~ " %s"
-
-#~ msgid "You can't delete the last KNote."
-#~ msgstr "Ne mo¾ete obrisati zadnju KNote bilje¹ku."
