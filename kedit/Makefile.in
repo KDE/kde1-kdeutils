@@ -21,6 +21,7 @@ BINDIR = $(prefix)/bin
 LIBDIR = $(prefix)/lib
 PICSDIR = $(LIBDIR)/pics
 DOCSDIR = $(prefix)/doc/HTML
+APPSDIR = $(prefix)/apps/Utilities
 
 ########### File Formats ###########
 
@@ -62,10 +63,13 @@ install:
 	$(INSTALL) $(TARGET) $(BINDIR)
 	$(INSTALL_DIR) $(DOCSDIR)
 	$(INSTALL_DATA) kedit.html $(DOCSDIR)
+	$(INSTALL_DIR) $(APPSDIR)
+	$(INSTALL_DATA) kedit.kdelnk $(APPSDIR)
 
 uninstall:
 	rm -f $(BINDIR)/$(TARGET)
 	rm -f $(DOCSDIR)/kedit.html
+	rm -f $(APPSDIR)/kedit.kdelnk
 
 # dependencies for meta code files
 
