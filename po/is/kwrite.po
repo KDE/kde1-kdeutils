@@ -1,70 +1,70 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Icelandic translation.
+# Copyright (C) 1998 Bjarni R. Einarsson
+# Bjarni R. Einarsson, <bre@mmedia.is>, 1998
 #
-#, fuzzy
 msgid ""
 msgstr ""
+"POT-Creation-Date: 1998-12-19 02:08+0100\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
 
-#: highlight.cpp:1448
+#: highlight.cpp:1443
 msgid "Normal:"
 msgstr "Venjulegt:"
 
-#: highlight.cpp:1458 kwdialog.cpp:416
+#: highlight.cpp:1453 kwdialog.cpp:416
 msgid "Selected:"
 msgstr "Valið:"
 
-#: highlight.cpp:1465
+#: highlight.cpp:1460
 msgid "Bold"
 msgstr "Feitletrað"
 
-#: highlight.cpp:1516
+#: highlight.cpp:1511
 msgid "Family:"
 msgstr "Fjölskylda:"
 
-#: highlight.cpp:1526
+#: highlight.cpp:1521
 msgid "Size:"
 msgstr "Stærð:"
 
-#: highlight.cpp:1624
+#: highlight.cpp:1619
 msgid "Default Item Styles"
 msgstr "Sjálfgefið útlit hluta"
 
-#: highlight.cpp:1628 highlight.cpp:1699
+#: highlight.cpp:1623 highlight.cpp:1694
 msgid "Item:"
 msgstr "Hlutur:"
 
-#: highlight.cpp:1646
+#: highlight.cpp:1641
 msgid "Default Font"
 msgstr "Sjálfgefið letur"
 
-#: highlight.cpp:1683
+#: highlight.cpp:1678
 msgid "Config Select"
 msgstr "Stilla hlut"
 
-#: highlight.cpp:1687
+#: highlight.cpp:1682
 msgid "Highlight:"
 msgstr "Litun:"
 
-#: highlight.cpp:1706
+#: highlight.cpp:1701
 msgid "Highlight Auto Select"
 msgstr "Sjálfval litunar"
 
-#: highlight.cpp:1710
+#: highlight.cpp:1705
 msgid "File Extensions:"
 msgstr "Skráarendingar:"
 
-#: highlight.cpp:1717
+#: highlight.cpp:1712
 msgid "Mime Types:"
 msgstr "Mime tög:"
 
-#: highlight.cpp:1724
+#: highlight.cpp:1719
 msgid "Item Style"
 msgstr "Útlit hluta"
 
-#: highlight.cpp:1733
+#: highlight.cpp:1728
 msgid "Item Font"
 msgstr "Letur hluta"
 

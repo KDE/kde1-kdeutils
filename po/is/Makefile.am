@@ -1,6 +1,8 @@
 
 # This has to be set. The rest should be reusable
-GMOFILES = kedit.gmo knotes.gmo kwrite.gmo
+GMOFILES = kedit.gmo knotes.gmo kwrite.gmo ark.gmo kab.gmo kcalc.gmo \
+	   kfloppy.gmo kjots.gmo klipper.gmo kljettool.gmo klpq.gmo \
+	   kpm.gmo
 POFILES = $(GMOFILES:.gmo=.po)
 
 LANG = is

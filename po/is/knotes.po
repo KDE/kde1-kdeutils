@@ -1,10 +1,10 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Icelandic translation.
+# Copyright (C) 1998 Bjarni R. Einarsson
+# Bjarni R. Einarsson, <bre@mmedia.is>, 1998
 #
-#, fuzzy
 msgid ""
 msgstr ""
+"POT-Creation-Date: 1998-11-26 01:48+0100\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
 
@@ -38,7 +38,7 @@ msgstr "Dagatal"
 
 #: knotes.cpp:318
 msgid "Mail Note ..."
-msgstr "Senda miða ..."
+msgstr "Póstleggja miða ..."
 
 #: knotes.cpp:320
 msgid "Print Note"
@@ -250,7 +250,7 @@ msgstr ""
 
 #: mail.cpp:40
 msgid "Mail Note to:"
-msgstr "Senda miða með pósti til:"
+msgstr "Senda miða með til:"
 
 #: mail.cpp:49
 msgid "Subject:"

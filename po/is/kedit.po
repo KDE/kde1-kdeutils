@@ -1,155 +1,159 @@
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Logi Ragnarsson <logir@img.au.dk>, 1998.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-01 13:42+0200\n"
+"POT-Creation-Date: 1998-12-18 02:05+0100\n"
 "PO-Revision-Date: 1998-10-31 15:08+0100\n"
 "Last-Translator: Logi Ragnarsson <logir@img.au.dk>\n"
 "Language-Team: is\n"
 
-#: kedit.cpp:85 kedit.cpp:1090
+#: kedit.cpp:85 kedit.cpp:1092
 msgid "Show &Tool Bar"
 msgstr "Sýna &tækjaslá"
 
-#: kedit.cpp:87 kedit.cpp:1083
+#: kedit.cpp:87 kedit.cpp:1085
 msgid "Hide &Tool Bar"
 msgstr "Fela &tækjaslá"
 
-#: kedit.cpp:90 kedit.cpp:1070
+#: kedit.cpp:90 kedit.cpp:1072
 msgid "Show &Status Bar"
 msgstr "Sýna &stöðuslá"
 
-#: kedit.cpp:92 kedit.cpp:1063
+#: kedit.cpp:92 kedit.cpp:1065
 msgid "Hide &Status Bar"
 msgstr "Fela &stöðuslá"
 
-#: kedit.cpp:153
+#: kedit.cpp:154
 msgid "Select All"
 msgstr "Vel&ja allt"
 
-#: kedit.cpp:200
+#: kedit.cpp:157
+msgid "Font..."
+msgstr "&Letur..."
+
+#: kedit.cpp:201
 msgid "Ne&w..."
 msgstr "&Nýtt skjal..."
 
-#: kedit.cpp:207
+#: kedit.cpp:208
 msgid "Open Recen&t..."
 msgstr "Opn&a nýlegt..."
 
-#: kedit.cpp:219
+#: kedit.cpp:220
 msgid "Open &URL..."
 msgstr "Opna slóð..."
 
-#: kedit.cpp:221
+#: kedit.cpp:222
 msgid "Save to U&RL..."
 msgstr "Vista á slóð..."
 
-#: kedit.cpp:237
+#: kedit.cpp:238
 msgid "&Mail..."
 msgstr "Póstl&eggja..."
 
-#: kedit.cpp:241
+#: kedit.cpp:242
 msgid "New &Window"
 msgstr "Nýr &gluggi"
 
-#: kedit.cpp:253
+#: kedit.cpp:254
 msgid "&Select All"
 msgstr "&Velja allt"
 
-#: kedit.cpp:256
+#: kedit.cpp:257
 msgid "&Insert File"
 msgstr "Stinga inn s&krá"
 
-#: kedit.cpp:258
+#: kedit.cpp:259
 msgid "Insert &Date"
 msgstr "Stinga inn &dagsetningu"
 
-#: kedit.cpp:261
+#: kedit.cpp:262
 msgid "&Find..."
 msgstr "&Finna..."
 
-#: kedit.cpp:263
+#: kedit.cpp:264
 msgid "Find &Again"
 msgstr "Finna a&ftur"
 
-#: kedit.cpp:265
+#: kedit.cpp:266
 msgid "&Replace"
 msgstr "&Skipta út"
 
-#: kedit.cpp:267
+#: kedit.cpp:268
 msgid "Spellcheck..."
 msgstr "Skoða s&tafsetningu..."
 
-#: Added manually
-msgid "Spellchecker..."
-msgstr "&Stafsetning..."
-
-#: kedit.cpp:272
+#: kedit.cpp:273
 msgid "&Goto Line..."
 msgstr "Fa&ra á línu..."
 
-#: kedit.cpp:276
+#: kedit.cpp:277
 msgid "&Font..."
 msgstr "&Letur..."
 
-#: kedit.cpp:278
+#: kedit.cpp:279
 msgid "&Colors"
 msgstr "&Litir"
 
-#: kedit.cpp:283
+#: kedit.cpp:284
 msgid "KEdit &Options..."
 msgstr "S&tillingar KRitils..."
 
-#: kedit.cpp:285
+#: kedit.cpp:286
 msgid "Auto &Indent"
 msgstr "&Innfæra sjálfvirkt"
 
-#: kedit.cpp:288
+#: kedit.cpp:289
 msgid "&Tool Bar"
 msgstr "&Tækjaslá"
 
-#: kedit.cpp:290
+#: kedit.cpp:291
 msgid "&Status Bar"
 msgstr "&Stöðuslá"
 
-#: kedit.cpp:293
+#: kedit.cpp:294
 msgid "Save Options"
 msgstr "Vista stillingar"
 
-#: kedit.cpp:332
+#: kedit.cpp:333
 msgid "New Document"
 msgstr "Nýtt skjal"
 
-#: kedit.cpp:338
+#: kedit.cpp:339
 msgid "Open Document"
 msgstr "Opna skjal"
 
-#: kedit.cpp:343
+#: kedit.cpp:344
 msgid "Save Document"
 msgstr "Vista skjal"
 
-#: kedit.cpp:368 print.cpp:91
+#: kedit.cpp:369 print.cpp:91
 msgid "Print Document"
 msgstr "Prenta skjal"
 
-#: kedit.cpp:373
+#: kedit.cpp:374
 msgid "Mail Document"
 msgstr "Póstleggja skjal"
 
-#: kedit.cpp:605
+#: kedit.cpp:494 kedit.cpp:582 kedit.cpp:1534 keditcl2.cpp:697
+#: keditcl2.cpp:804
+msgid "Done"
+msgstr "Búin"
+
+#: kedit.cpp:607
 msgid "Open Location:"
 msgstr "Opna stað:"
 
-#: kedit.cpp:619
+#: kedit.cpp:621
 msgid "Save to Location:"
 msgstr "Vista á stað:"
 
-#: kedit.cpp:645 kedit.cpp:708 kedit.cpp:737 kedit.cpp:800 kedit.cpp:1194
+#: kedit.cpp:647 kedit.cpp:710 kedit.cpp:739 kedit.cpp:802 kedit.cpp:1200
 msgid "Message"
 msgstr "Skilaboð"
 
-#: kedit.cpp:646 kedit.cpp:801
+#: kedit.cpp:648 kedit.cpp:803
 msgid ""
 "This Document has been modified.\n"
 "Would you like to save it?"
@@ -157,7 +161,7 @@ msgstr ""
 "Þessu skjali hefur verið breytt.\n"
 "Viltu vista það?"
 
-#: kedit.cpp:663 kedit.cpp:818
+#: kedit.cpp:665 kedit.cpp:820
 msgid ""
 "Could not save the file.\n"
 "Exit anyways?"
@@ -165,7 +169,7 @@ msgstr ""
 "Ekki tókst að vista skrána.\n"
 "Viltu hætta samt?"
 
-#: kedit.cpp:709
+#: kedit.cpp:711
 msgid ""
 "There are windows with modified content open.\n"
 "If you exit now, you will loose those changes\n"
@@ -175,7 +179,7 @@ msgstr ""
 "Ef þú hættir núna glatast breytingarnar.\n"
 "Viltu samt hætta?"
 
-#: kedit.cpp:738
+#: kedit.cpp:740
 msgid ""
 "The current document has been modified.\n"
 "Continue anyways ?"
@@ -183,21 +187,21 @@ msgstr ""
 "Núverandi skjal hefur breyst.\n"
 "Viltu samt halda áfram?"
 
-#: kedit.cpp:879
+#: kedit.cpp:881
 #, c-format
 msgid "Wrote: %s"
 msgstr "Skrifaði: %s"
 
-#: kedit.cpp:885
+#: kedit.cpp:887
 msgid "No changes need to be saved"
 msgstr "Engar breytingar til að vista"
 
-#: kedit.cpp:904
+#: kedit.cpp:906
 #, c-format
 msgid "Saved as: %s"
 msgstr "Vistað sem: %s"
 
-#: kedit.cpp:937
+#: kedit.cpp:939
 #, c-format
 msgid ""
 "Could not pipe the contentsof this Document into:\n"
@@ -206,20 +210,24 @@ msgstr ""
 "Ekki tókst að pípa þessu skjali í:\n"
 " %s"
 
-#: kedit.cpp:1031
+#: kedit.cpp:1033
 msgid "Auto Indent Mode: On"
 msgstr "Innfærsluhamur: Á"
 
-#: kedit.cpp:1033
+#: kedit.cpp:1035
 msgid "Auto Indent Mode: Off"
 msgstr "Innfærsluhamur: Af"
 
-#: kedit.cpp:1129
+#: kedit.cpp:1131
 #, c-format
 msgid "Line: %d Col: %d"
 msgstr "Lína: %d Dálkur: %d"
 
-#: kedit.cpp:1195
+#: filldlg.cpp:31 kedit.cpp:1148
+msgid "KEdit Options"
+msgstr "Stillingar KRitils"
+
+#: kedit.cpp:1201
 msgid ""
 "The current document has been modified.\n"
 "Would you like to save the changes before \n"
@@ -229,7 +237,7 @@ msgstr ""
 "Viltu vista breytingarnar áður\n"
 "en þú prenntar skjalið?"
 
-#: kedit.cpp:1213
+#: kedit.cpp:1219
 msgid ""
 "Could not save the file.\n"
 "Print anyways?"
@@ -237,35 +245,35 @@ msgstr ""
 "Ekki tókst að vista skjalið.\n"
 "Viltu samt prennta?"
 
-#: kedit.cpp:1306
+#: kedit.cpp:1312
 #, c-format
 msgid "Printing: %s Untitled (Selection)"
 msgstr "Prennta: %s ónefnt (val)"
 
-#: kedit.cpp:1309
+#: kedit.cpp:1315
 #, c-format
 msgid "Printing: %s Untitled"
 msgstr "Prennta: %s ónefnt"
 
-#: kedit.cpp:1347
+#: kedit.cpp:1353
 #, c-format
 msgid "Printing: %s"
 msgstr "Prennta: %s"
 
-#: kedit.cpp:1357
+#: kedit.cpp:1363
 #, c-format
 msgid "Printing: %s %s (Selection)"
 msgstr "Prennta %s %s (val)"
 
-#: kedit.cpp:1381
+#: kedit.cpp:1387
 msgid "Saving ..."
 msgstr "Vista..."
 
-#: kedit.cpp:1388
+#: kedit.cpp:1394
 msgid "Loading ..."
 msgstr "Les..."
 
-#: kedit.cpp:1422 kedit.cpp:1515
+#: kedit.cpp:1428 kedit.cpp:1521
 msgid ""
 "KEdit is already waiting\n"
 "for an internet job to finish\n"
@@ -275,11 +283,11 @@ msgstr ""
 "KEdit bíður nú þegar eftir að netverkefni klárist.\n"
 "Þú getur beðið eftir að það klárist eða stöðvað það."
 
-#: kedit.cpp:1439 kedit.cpp:1534
+#: kedit.cpp:1445 kedit.cpp:1540
 msgid "Could not start or find KFM"
 msgstr "Ekki tókst að keyra eða finna KFM"
 
-#: kedit.cpp:1481
+#: kedit.cpp:1487
 #, c-format
 msgid ""
 "Malformed URL\n"
@@ -288,45 +296,45 @@ msgstr ""
 "Gölluð slóð\n"
 "%s"
 
-#: kedit.cpp:1501
+#: kedit.cpp:1507
 #, c-format
 msgid "Loading '%s'"
 msgstr "Les '%s'"
 
-#: kedit.cpp:1525
+#: kedit.cpp:1531
 msgid "Calling KFM"
 msgstr "Kalla KFM"
 
-#: kedit.cpp:1544
+#: kedit.cpp:1550
 msgid "Starting Job"
 msgstr "Hef verkefni"
 
-#: kedit.cpp:1547
+#: kedit.cpp:1553
 msgid "Connected"
 msgstr "Tengd"
 
-#: kedit.cpp:1549
+#: kedit.cpp:1555
 msgid "Waiting..."
 msgstr "Bíð"
 
-#: kedit.cpp:1557
+#: kedit.cpp:1563
 #, c-format
 msgid "Finished '%s'"
 msgstr "Lokið '%s'"
 
-#: kedit.cpp:1598
+#: kedit.cpp:1604
 msgid "New Window"
 msgstr "Nýr gluggi"
 
-#: kedit.cpp:1602
+#: kedit.cpp:1608
 msgid "New Window Created"
 msgstr "Nýr gluggi búinn til"
 
-#: kedit.cpp:1608
+#: kedit.cpp:1614
 msgid "Load Command Done"
 msgstr "Lesskipun lokið"
 
-#: kedit.cpp:2020
+#: kedit.cpp:2035
 #, c-format
 msgid ""
 "Can not create:\n"
@@ -335,31 +343,36 @@ msgstr ""
 "Ekki tóksta að búa til:\n"
 "%s"
 
-#: keditcl1.cpp:137
+# Added manually
+#: kedit.cpp:2074
+msgid "Spellchecker Options"
+msgstr "&Stafsetning..."
+
+#: keditcl1.cpp:149
 msgid "The specified File does not exist"
 msgstr "Tiltekin skrá er ekki til"
 
-#: keditcl1.cpp:150 keditcl1.cpp:423 keditcl1.cpp:507 keditcl1.cpp:1687
+#: keditcl1.cpp:162 keditcl1.cpp:438 keditcl1.cpp:521 keditcl1.cpp:1708
 msgid "Sorry:"
 msgstr "Afsakið:"
 
-#: keditcl1.cpp:151
+#: keditcl1.cpp:163
 msgid "You have specificated a directory"
 msgstr "Þú tiltókst möppu"
 
-#: keditcl1.cpp:166 keditcl1.cpp:187
+#: keditcl1.cpp:178 keditcl1.cpp:199
 msgid "You do not have read permission to this file."
 msgstr "Þú hefur ekki lesréttindi á þessa skrá."
 
-#: keditcl1.cpp:200
+#: keditcl1.cpp:212
 msgid "An Error occured while trying to open this Document"
 msgstr "Villa kom upp þegar reynt var að opna skjalið"
 
-#: keditcl1.cpp:402 keditcl1.cpp:487 keditcl1.cpp:1629
+#: keditcl1.cpp:417 keditcl1.cpp:501 keditcl1.cpp:1650
 msgid "Warning:"
 msgstr "Aðvörun:"
 
-#: keditcl1.cpp:403 keditcl1.cpp:488
+#: keditcl1.cpp:418 keditcl1.cpp:502
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -367,7 +380,7 @@ msgstr ""
 "Núverandi skjal hefur breyst.\n"
 "Viltu vista það?"
 
-#: keditcl1.cpp:424
+#: keditcl1.cpp:439
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -375,7 +388,7 @@ msgstr ""
 "Ekki tókst að vista skjalið.\n"
 "Viltu samt opna nýja skrá?"
 
-#: keditcl1.cpp:508
+#: keditcl1.cpp:522
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
@@ -383,12 +396,11 @@ msgstr ""
 "Ekki tóksta að vista skjalið.\n"
 "Viltu samt búa til nýtt skjal?"
 
-#: keditcl1.cpp:1546
+#: keditcl1.cpp:1569
 msgid "Could not save the document\n"
-msgstr ""
-"Ekki tókst að vista skjalið\n"
+msgstr "Ekki tókst að vista skjalið\n"
 
-#: keditcl1.cpp:1630
+#: keditcl1.cpp:1651
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
@@ -396,9 +408,14 @@ msgstr ""
 "Nú þegar er til skrá með þessu nafni\n"
 "Viltu skrifa yfir hana?"
 
-#: keditcl1.cpp:1688
+#: keditcl1.cpp:1709
 msgid "You do not have write permission to this file.\n"
 msgstr "Þú hefur ekki skrifréttindi í þessa skrá.\n"
+
+#: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
+#: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
+msgid "Find"
+msgstr "Finna:"
 
 #: keditcl2.cpp:113 keditcl2.cpp:370 keditcl2.cpp:463
 msgid ""
@@ -460,23 +477,23 @@ msgstr "Prennta með skipun:"
 msgid "Print Selection"
 msgstr "Prennta val"
 
-#: filldlg.cpp:31
-msgid "KEdit Options"
-msgstr "Stillingar KRitils"
-
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"
-msgstr "Dálkafjöldi"  
+msgstr "Dálkafjöldi"
 
 #: filldlg.cpp:40
-msgid "Word Warp"
+msgid "Word Wrap"
 msgstr "Orðahlaup"
 
-#: filldlg.cpp:44
+#: filldlg.cpp:42
+msgid "Backup Copies"
+msgstr "Öryggisafrit"
+
+#: filldlg.cpp:46
 msgid "Mail Command:"
 msgstr "Póstskipun:"
 
-#: filldlg.cpp:135
+#: filldlg.cpp:140
 msgid "You must enter an integer."
 msgstr "Þú verður að slá inn heiltölu."
 
@@ -495,4 +512,3 @@ msgstr "Póstleggja"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Þú verður að tiltaka viðtakanda"
-

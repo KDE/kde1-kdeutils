@@ -1,0 +1,139 @@
+# Icelandic translation.
+# Copyright (C) 1998 Bjarni R. Einarsson
+# Bjarni R. Einarsson, <bre@mmedia.is>, 1998
+#
+msgid ""
+msgstr ""
+"POT-Creation-Date: 1998-12-08 02:02+0100\n"
+"Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
+"Language-Team: is <kde-isl@mmedia.is>\n"
+
+#: main.cpp:176
+msgid "Sorry, can't open your printcap file."
+msgstr "Það mistókst að opna 'printcap' skrána."
+
+#: main.cpp:181
+msgid "Sorry, unable to parse your printcap."
+msgstr "Það mistókst að túlka 'printcap' skrána."
+
+#: main.cpp:182
+msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
+msgstr "Endilega sendu Christoph.Neerfeld@home.ivm.de afrit af 'printcap'"
+
+#: klpq.cpp:89
+msgid "Printer"
+msgstr "Prentari"
+
+#: klpq.cpp:93
+msgid "Queuing"
+msgstr "Biðraðir"
+
+#: klpq.cpp:97
+msgid "Printing"
+msgstr "Prentun"
+
+#: klpq.cpp:101
+msgid "Update"
+msgstr "Uppfæra"
+
+#: klpq.cpp:119
+msgid "Rank"
+msgstr "Staða"
+
+#: klpq.cpp:120
+msgid "Owner"
+msgstr "Eigandi"
+
+#: klpq.cpp:121
+msgid "Job"
+msgstr "Verk"
+
+#: klpq.cpp:123
+msgid "Size"
+msgstr "Stærð"
+
+#: klpq.cpp:143 klpq.cpp:218
+msgid "Make Top"
+msgstr "Færa fremst"
+
+#: klpq.cpp:152
+msgid "Auto"
+msgstr "Sjálfv."
+
+#: klpq.cpp:195
+msgid "&Auto update"
+msgstr "Sjálfvirk &uppfærsla"
+
+#: klpq.cpp:196
+msgid "&Spooler"
+msgstr "&Prentröð"
+
+#: klpq.cpp:203
+msgid "&Config"
+msgstr "&Stillingar"
+
+#: klpq.cpp:389
+#, c-format
+msgid "Do you really want to remove job No %d"
+msgstr "Viltu virkilega fjarlægja verk nr. %d"
+
+#: klpq.cpp:409
+#, c-format
+msgid ""
+"Do you really want to move job No\n"
+"%d\n"
+"on top of queue"
+msgstr ""
+"Viltu örugglega færa verk nr.\n"
+"%d\n"
+"fremst í biðröðina"
+
+#: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
+msgid "Permission denied"
+msgstr "Aðgangur bannaður"
+
+#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
+msgid ""
+"This is a privileged command\n"
+"and you do not have permission to execute it."
+msgstr ""
+"Þú hefur ekki heimildir til að framkvæma\n"
+"þessa aðgerð."
+
+#: ConfAutoUpdate.cpp:10
+msgid "Configure Auto Update"
+msgstr "Stilla sjálfvirka uppfærslu"
+
+#: ConfAutoUpdateData.cpp:17
+msgid "Update frequency in seconds:"
+msgstr "Tíðni uppfærslna í sekúndum:"
+
+#: klpqspooler.cpp:197 klpqspooler.cpp:267
+msgid "Can't find your lpc program !"
+msgstr "Fann ekki 'lpc' forritið!"
+
+#: klpqspooler.cpp:198 klpqspooler.cpp:268
+msgid ""
+"Sorry, I can't find your lpc program.\n"
+"Please check the configuration under Config->Spooler."
+msgstr ""
+"Því miður fannst 'lpc' forritið ekki, athugaðu\n"
+"stillingarnar undir Stillingar->Prentröð."
+
+#: FirstStart.cpp:21 SpoolerConfig.cpp:21 SpoolerConfigData.cpp:151
+msgid "Select your spooling system"
+msgstr "Veldu prentröðunarkerfi"
+
+#: FirstStartData.cpp:42
+msgid ""
+"Please select the spooling system you use. Most systems use the BSD spooler. "
+"So if you don't know which spooler is installed on your system, BSD is "
+"probably a good choice."
+msgstr ""
+"Vinsamlegast gefðu til kynna hvaða prentröðunarkerfi þú notar.  Flest kerfi "
+"nota BSD röðun, þ.a. þú ættir að prófa það ef þú veist ekki hvaða kerfi þú "
+"ert með."
+
+#: SpoolerConfigData.cpp:99
+msgid "Paths of spooling commands:"
+msgstr "Slóðir að skipunum prentraðarinnar:"
