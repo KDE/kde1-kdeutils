@@ -42,6 +42,9 @@ DOCS    =	khexdit.html
 
 all: $(TARGET)
 
+Makefile: Makefile.in
+	cd .. && CONFIG_FILES=khexdit/$@ CONFIG_HEADERS= $(SHELL) ./config.status
+
 $(TARGET): $(SRCMETA) $(OBJECTS) 
 	$(CXX) $(OBJECTS) -o $(TARGET) $(LDFLAGS)
 

@@ -52,7 +52,7 @@ int HexWidget::initMenu() {
 
   QString PIXDIR=kapp->kdedir();
   PIXDIR += "/lib/pics/toolbar/";
-  KPixmap pixmap;
+  QPixmap pixmap;
   
   KToolBar *toolbar = new KToolBar(this);
   pixmap.load(PIXDIR + "filenew.xpm");

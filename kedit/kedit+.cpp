@@ -37,6 +37,7 @@
 #include "filldlg.h"
 
 // 
+#include <qpainter.h>
 #include <qstrlist.h> 
 
 #define TOOLBAR_HEIGHT 26

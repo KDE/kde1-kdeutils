@@ -50,6 +50,9 @@ TARGET	=	kedit+
 
 all: $(TARGET)
 
+Makefile: Makefile.in
+	cd .. && CONFIG_FILES=kedit/$@ CONFIG_HEADERS= $(SHELL) ./config.status
+
 $(TARGET): $(SRCMETA) $(OBJECTS)
 	$(CXX) $(OBJECTS) -o $(TARGET) $(LDFLAGS)
 
@@ -66,7 +69,7 @@ clean:
 distclean: clean
 	rm -f Makefile
 
-install:
+install: all
 	$(INSTALL_DIR) $(BINDIR)
 	$(INSTALL) $(TARGET) $(BINDIR)
 	$(INSTALL_DIR) $(DOCSDIR)
