@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kjots\n"
+"POT-Creation-Date: 1998-07-30 23:38+0200\n"
+"PO-Revision-Date: 1998-07-30 23:55+MET\n"
+"Last-Translator: Gregor Zumstein <zumstein@ssd.ethz.ch>\n"
+"Language-Team: German <kde-i18n@kde.org>\n"
+
+#: confdialog.cpp:39
+msgid "Configure KJots"
+msgstr "KJots konfigurieren"
+
+#: confdialog.cpp:43
+msgid "URL"
+msgstr "URL"
+
+#: confdialog.cpp:45
+msgid "Fonts"
+msgstr "Schriften"
+
+#: KJotsMain.cpp:78 KJotsMain.cpp:592 confdialog.cpp:47
+msgid "Ok"
+msgstr "Ok"
+
+#: confdialog.cpp:49
+msgid "Apply"
+msgstr "Übernehmen"
+
+#: KJotsMain.cpp:79 confdialog.cpp:51
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: confdialog.cpp:72
+msgid "Specify which command to execute"
+msgstr "Auszuführendes Kommando"
+
+#: confdialog.cpp:78
+msgid "for HTTP:"
+msgstr "für HTTP:"
+
+#: confdialog.cpp:84
+msgid "for FTP:"
+msgstr "für FTP:"
+
+#: confdialog.cpp:104
+#, c-format
+msgid "( %u is replaced with the selected URL )"
+msgstr "( %u wird durch die gewählte URL ersetzt )"
+
+#: confdialog.cpp:111
+msgid "Font for editor:"
+msgstr "Schriftart für den Editor:"
+
+#: confdialog.cpp:117
+msgid "Select"
+msgstr "Auswählen"
+
+#: confdialog.cpp:133
+msgid "Dolor Ipse"
+msgstr "Dolor Ipse"
+
+#: KJotsMain.cpp:76
+msgid "Book name:"
+msgstr "Buchname:"
+
+#: KJotsMain.cpp:101
+msgid "Open URL"
+msgstr "Öffne URL"
+
+#: KJotsMain.cpp:333
+msgid "&New Book"
+msgstr "&Neues Buch"
+
+#: KJotsMain.cpp:335
+msgid "Save current book"
+msgstr "Buch speichern"
+
+#: KJotsMain.cpp:337
+msgid "Save book to ascii file"
+msgstr "Buch als ASCII speichern"
+
+#: KJotsMain.cpp:338
+msgid "Save page to ascii file"
+msgstr "Seite als ASCII speichern"
+
+#: KJotsMain.cpp:340 KJotsMain.cpp:638
+msgid "Delete current book"
+msgstr "Buch löschen"
+
+#: KJotsMain.cpp:342
+msgid "&Quit"
+msgstr "&Ende"
+
+#: KJotsMain.cpp:345
+msgid "C&ut"
+msgstr "Aus&schneiden"
+
+#: KJotsMain.cpp:346
+msgid "&Copy"
+msgstr "&Kopieren"
+
+#: KJotsMain.cpp:347
+msgid "&Paste"
+msgstr "&Einfügen"
+
+#: KJotsMain.cpp:349
+msgid "&New Page"
+msgstr "&Neue Seite"
+
+#: KJotsMain.cpp:350
+msgid "&Delete Page"
+msgstr "Seite &löschen"
+
+#: KJotsMain.cpp:353
+msgid "&Config"
+msgstr "&Konfigurieren..."
+
+#: KJotsMain.cpp:354
+msgid "Configure &Keys"
+msgstr "Tasten konfigurieren..."
+
+#: KJotsMain.cpp:357
+msgid "Add current book to hotlist"
+msgstr "Buch zu Favoriten hinzufügen"
+
+#: KJotsMain.cpp:359
+msgid "Remove current book from hotlist"
+msgstr "Buch von Favoriten entfernen"
+
+#: KJotsMain.cpp:362
+msgid "&File"
+msgstr "&Datei"
+
+#: KJotsMain.cpp:363
+msgid "&Edit"
+msgstr "&Bearbeiten"
+
+#: KJotsMain.cpp:364
+msgid "Hot&list"
+msgstr "&Favoriten"
+
+#: KJotsMain.cpp:365
+msgid "&Options"
+msgstr "&Optionen"
+
+#: KJotsMain.cpp:366
+msgid "&Books"
+msgstr "&Bücher"
+
+#: KJotsMain.cpp:369
+msgid "by"
+msgstr "von"
+
+#: KJotsMain.cpp:371
+msgid "&Help"
+msgstr "&Hilfe"
+
+#: KJotsMain.cpp:590
+msgid "Warning"
+msgstr "Warnung"
+
+#: KJotsMain.cpp:591
+msgid "A book with this name already exists."
+msgstr "Ein Buch mit diesem Namen existiert bereits."
+
+#: KJotsMain.cpp:639
+msgid "Are you sure you want to delete the current book ?"
+msgstr "Wollen Sie das Buch wirklich löschen ?"
+
+#: KJotsMain.cpp:640
+msgid "Yes"
+msgstr "Ja"
+
+#: KJotsMain.cpp:640
+msgid "No"
+msgstr "Nein"
+
+#: KJotsMain.cpp:890 KJotsMain.cpp:919
+msgid "File exists !"
+msgstr "Datei existiert !"
+
+#: KJotsMain.cpp:891 KJotsMain.cpp:920
+msgid ""
+"File already exists. \n"
+" Do you want to overwrite it ?"
+msgstr ""
+"Die Datei existiert bereits. \n"
+" Wollen Sie sie überschreiben ?"
+
+#: SubjList.cpp:34
+msgid "Close"
+msgstr "Schliessen"
