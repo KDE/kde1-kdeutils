@@ -36,7 +36,7 @@ msgid ""
 "Time accumulated this session will NOT be saved!\n"
 msgstr ""
 "Nastala chyba pri zapisovaní vá¹ho dátového súboru.\n"
-"Èas nazbieraný v tejto seanse NEBUDE ulo¾ený!\n"
+"Èas nazbieraný pri tomto sedení NEBUDE ulo¾ený!\n"
 
 #: karm.cpp:119
 msgid "Oh No!"
@@ -52,7 +52,7 @@ msgstr "Karm::createNewTask zavolaný a nie je tu dialógové okno!"
 
 #: karm.cpp:243
 msgid ": Edit Task Entry"
-msgstr ": Edituj úlohu"
+msgstr ": Editova» úlohu"
 
 #: karm.cpp:256
 msgid "Karm::updateExistingTask called and there's no dlg!"
@@ -76,7 +76,7 @@ msgstr "hodinky neaktívne"
 
 #: top.cpp:40
 msgid "This session:"
-msgstr "Táto senasa:"
+msgstr "Toto sedenie:"
 
 #: top.cpp:56
 msgid "&Clock"
@@ -100,11 +100,11 @@ msgstr "&Obsah"
 
 #: top.cpp:85
 msgid "Start Clock"
-msgstr "Spusti hodinky"
+msgstr "Spusti» hodinky"
 
 #: top.cpp:90
 msgid "Stop Clock"
-msgstr "Zastav hodinky"
+msgstr "Zastavi» hodinky"
 
 #: top.cpp:97
 msgid "New Task"
@@ -112,11 +112,11 @@ msgstr "Nová úloha"
 
 #: top.cpp:102
 msgid "Delete Task"
-msgstr "Zma¾ úlohu"
+msgstr "Zmaza» úlohu"
 
 #: top.cpp:107
 msgid "Edit Task"
-msgstr "Uprav úlohu"
+msgstr "Upravi» úlohu"
 
 #: top.cpp:145
 msgid "About "

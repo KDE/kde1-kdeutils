@@ -31,11 +31,11 @@ msgstr "Nastavi» pevnú presnos» na :"
 
 #: configdlg.cpp:137
 msgid "Beep on Error"
-msgstr "Zvonèek pri chybe"
+msgstr "Pípnu» pri chybe"
 
 #: configdlg.cpp:145
 msgid "Trigonometry Mode"
-msgstr "Trigonometrický re¾im"
+msgstr "Trojuhoµníkový re¾im"
 
 #: configdlg.cpp:150
 msgid "Statistical Mode"
@@ -75,4 +75,4 @@ msgstr "Písmo"
 
 #: kcalc_core.cpp:1125
 msgid "Stat Mem cleared"
-msgstr "Pamä» zmazaná"
+msgstr "Pamä» vymazaná"

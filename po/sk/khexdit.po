@@ -46,7 +46,7 @@ msgstr "Nové okno"
 
 #: hexwidget.cpp:119
 msgid "Save the file"
-msgstr "Ulo¾ súbor"
+msgstr "Ulo¾i» súbor"
 
 #: hexwidget.cpp:122 hexwidget.cpp:124 hexwidget.cpp:126 hexwidget.cpp:129
 msgid "Not implemented"
@@ -80,7 +80,7 @@ msgstr ""
 "na ukonèenie práce s Internetom\n"
 "\n"
 "Èakajte, pokiaµ táto èinnos»\n"
-"nebude ukonèená alebo ju zru¹."
+"nebude ukonèená alebo ju zru¹te."
 
 #: hexwidget.cpp:273
 msgid "Could not start KFM"

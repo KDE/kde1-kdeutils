@@ -31,7 +31,7 @@ msgstr "Súbory"
 
 #: extractdlg.cc:13
 msgid "Extract Options"
-msgstr "Parametre robaµovania"
+msgstr "Parametre rozbaµovania"
 
 #: extractdlg.cc:17
 msgid "Destination"
@@ -43,7 +43,7 @@ msgstr "Zachova» prístupové práva"
 
 #: extractdlg.cc:36
 msgid "Filenames to Lowercase"
-msgstr "Pøevies» na malé písmená"
+msgstr "Previes» mená súborov na malé písmená"
 
 #: extractdlg.cc:39
 msgid "All Files"
@@ -91,7 +91,7 @@ msgstr "Nemô¾em prida» prieèinky s týmto typom archívu"
 
 #: kzip.cc:275
 msgid "Error saving to archive"
-msgstr "Chyba pri ulladaní do archívu"
+msgstr "Chyba pri ukladaní do archívu"
 
 #: kzip.cc:305
 msgid "Archive Dir:"

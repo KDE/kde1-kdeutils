@@ -83,7 +83,7 @@ msgstr "Znovu ná&js»"
 
 #: kedit.cpp:240
 msgid "&Replace"
-msgstr "Nah&raï"
+msgstr "Nah&radi»"
 
 #: kedit.cpp:243
 msgid "&Goto Line..."
@@ -115,7 +115,7 @@ msgstr "&Stavový riadok"
 
 #: kedit.cpp:261
 msgid "Save Options"
-msgstr "Ulo¾ nastavenie"
+msgstr "Ulo¾i» nastavenie"
 
 #: kedit.cpp:289
 msgid "New Document"
@@ -123,27 +123,27 @@ msgstr "Nový dokument"
 
 #: kedit.cpp:295
 msgid "Open Document"
-msgstr "Otvor dokument"
+msgstr "Otvori» dokument"
 
 #: kedit.cpp:300
 msgid "Save Document"
-msgstr "Ulo¾ dokument"
+msgstr "Ulo¾i» dokument"
 
 #: kedit.cpp:325 print.cpp:88
 msgid "Print Document"
-msgstr "Tlaè dokument"
+msgstr "Tlaèi» dokument"
 
 #: kedit.cpp:330
 msgid "Mail Document"
-msgstr "Odo¹li dokument po¹tou"
+msgstr "Odosla» dokument po¹tou"
 
 #: kedit.cpp:534
 msgid "Open Location:"
-msgstr "Otvor miesto:"
+msgstr "Otvori» miesto:"
 
 #: kedit.cpp:548
 msgid "Save to Location:"
-msgstr "Ulo¾ na miesto:"
+msgstr "Ulo¾i» na miesto:"
 
 #: kedit.cpp:574 kedit.cpp:637 kedit.cpp:666 kedit.cpp:729 kedit.cpp:1123
 msgid "Message"
@@ -163,7 +163,7 @@ msgid ""
 "Exit anyways?"
 msgstr ""
 "Nebolo mo¾né ulo¾i» súbor.\n"
-"Odís» aj tak ?"
+"Ukonèi» aj napriek tomu ?"
 
 #: kedit.cpp:638
 msgid ""
@@ -171,9 +171,9 @@ msgid ""
 "If you exit now, you will loose those changes\n"
 "Quit anyways?"
 msgstr ""
-"Je otvorené príli¹ mnoho dokumentov so zmeneným obsahom.\n"
+"Je otvorených príli¹ mnoho dokumentov so zmeneným obsahom.\n"
 "Ak teraz skonèíte, stratíte tieto zmeny.\n"
-"Naozaj chcete ukonèi»?"
+"Ukonèi» aj napriek tomu ?"
 
 #: kedit.cpp:667
 msgid ""
@@ -190,7 +190,7 @@ msgstr "%s zapísaný"
 
 #: kedit.cpp:814
 msgid "No changes need to be saved"
-msgstr "Nie je nutné ulo¾i» zmeny"
+msgstr "Nie je nutné ulo¾i» ¾iadne zmeny"
 
 #: kedit.cpp:833
 #, c-format
@@ -271,7 +271,7 @@ msgid ""
 "Please wait until has finished\n"
 "Alternatively stop the running one."
 msgstr ""
-"KEdit ú¾ èaká na dokonèenie práce s Internetom\n"
+"KEdit u¾ èaká na dokonèenie práce s Internetom\n"
 "Prosím èakajte na ukonèenie, prípadne ukonèite prebiehajúcu èinnos»."
 
 #: kedit.cpp:1368 kedit.cpp:1463
@@ -340,15 +340,15 @@ msgstr "Tlaèový dialóg"
 
 #: print.cpp:70
 msgid "Print directly using lpr"
-msgstr "Tlaè priamo s pou¾itím lpr"
+msgstr "Tlaèi» priamo s pou¾itím lpr"
 
 #: print.cpp:75
 msgid "Print using Command:"
-msgstr "Tlaè pomocou príkazu:"
+msgstr "Tlaèi» pomocou príkazu:"
 
 #: print.cpp:93
 msgid "Print Selection"
-msgstr "Tlaè výber"
+msgstr "Tlaèi» výber"
 
 #: filldlg.cpp:31
 msgid "KEdit Options"
@@ -356,7 +356,7 @@ msgstr "Nastavenie KEditu"
 
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"
-msgstr "Nastav ¹írku na:"
+msgstr "Nastavi» ¹írku na:"
 
 #: filldlg.cpp:40
 msgid "Word Warp"
@@ -372,7 +372,7 @@ msgstr "Musíte vlo¾i» celé èíslo"
 
 #: mail.cpp:37
 msgid "Mail Document to:"
-msgstr "Odo¹li dokument na:"
+msgstr "Odosla» dokument na:"
 
 #: mail.cpp:55
 msgid "Subject:"
@@ -380,7 +380,7 @@ msgstr "Subjekt:"
 
 #: mail.cpp:57
 msgid "Mail"
-msgstr "Odo¹li"
+msgstr "Odosla»"
 
 #: mail.cpp:96
 msgid "You must specify a Recipient"
