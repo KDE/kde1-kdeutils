@@ -28,12 +28,16 @@
 #include <qpixmap.h>
 #include <kapp.h>
 
+#include <klocale.h>
+#define klocale KLocale::klocale()
 extern KApplication *mykapp;
 
-About::About(QWidget *parent) : QDialog(parent, "About KEdit", TRUE) {
+
+About::About(QWidget *parent) : QDialog(parent,
+					klocale->translate("About KEdit"), TRUE) {
   resize(450, 320);
   setFixedSize(size());
-  setCaption("About KEdit");
+  setCaption(klocale->translate("About KEdit"));
 
   QString pixdir = mykapp->kdedir() + QString("/lib/pics/");  
   QPixmap pm((pixdir + "keditlogo.xpm").data());

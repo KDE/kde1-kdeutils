@@ -22,6 +22,9 @@
     Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
   
     $Log$
+    Revision 1.5  1997/07/22 03:16:46  wuebben
+    implemented mailing
+
     Revision 1.1  1997/05/16 04:45:07  wuebben
     Initial revision
 
@@ -55,6 +58,9 @@
 
 #include "print.moc"
 
+#include <klocale.h>
+#define klocale KLocale::klocale()
+
 
 PrintDialog::PrintDialog( QWidget *parent, const char *name,  bool modal)
     : QDialog( parent, name, modal )
@@ -63,7 +69,7 @@ PrintDialog::PrintDialog( QWidget *parent, const char *name,  bool modal)
 
 
   
-  setCaption("Print Dialog");
+  setCaption(klocale->translate("Print Dialog"));
   /*  box1 = new QGroupBox(this, "Box1");
   box1->setGeometry(XOFFSET,YOFFSET,SIZE_X -  XOFFSET
 		   ,145);
@@ -76,10 +82,12 @@ PrintDialog::PrintDialog( QWidget *parent, const char *name,  bool modal)
   commandbox = new QLineEdit(bg,"command");
   commandbox->setGeometry(165,50,205,25);
 
-  commandbutton = new QRadioButton("Print using Command:",bg,"commandbutton");
+  commandbutton = new QRadioButton(klocale->translate("Print using Command:")
+				   ,bg,"commandbutton");
   commandbutton->setGeometry(15,50,140,25);
 
-  rawbutton = new QRadioButton("Print directly using lpr",bg,"rawbutton");
+  rawbutton = new QRadioButton(klocale->translate("Print directly using lpr")
+			       ,bg,"rawbutton");
   rawbutton->setGeometry(15,20,200,25);
   rawbutton->setChecked(TRUE);
 
@@ -88,21 +96,23 @@ PrintDialog::PrintDialog( QWidget *parent, const char *name,  bool modal)
 
   bg1 = new QButtonGroup(this,"bg1");
 
-  allbutton = new QRadioButton("Print Document",bg1,"documentbutton");
+  allbutton = new QRadioButton(klocale->translate("Print Document")
+			       ,bg1,"documentbutton");
   allbutton->setGeometry(15,10,130,25);
   allbutton->setChecked(TRUE);
 
-  selectionbutton = new QRadioButton("Print Selection",bg1,"selectionbutton");
+  selectionbutton = new QRadioButton(klocale->translate("Print Selection"),
+				     bg1,"selectionbutton");
   selectionbutton->setGeometry(15,40,130,25);
   
   bg1->setGeometry(10,115,385,80);
   
-  cancel_button = new QPushButton("Cancel",this);
+  cancel_button = new QPushButton(klocale->translate("Cancel"),this);
 
   cancel_button->setGeometry( 3*XOFFSET +100, 210, 80, BUTTONHEIGHT );
   connect( cancel_button, SIGNAL( clicked() ), SLOT( reject() ) );
 
-  ok_button = new QPushButton( "Ok", this );
+  ok_button = new QPushButton(klocale->translate( "Ok"), this );
   ok_button->setGeometry( 3*XOFFSET, 210, 80, BUTTONHEIGHT );
   connect( ok_button, SIGNAL( clicked() ), SLOT( accept() ) );	
 

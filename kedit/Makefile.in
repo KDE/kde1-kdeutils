@@ -98,5 +98,8 @@ uninstall:
 	rm -f $(TOOLPICSDIR)/filenew2.xpm
 	rm -f $(TOOLPICSDIR)/send.xpm
 
+messages:
+	@XGETTEXT@ -C --keyword=translate -x ../../kdelibs/po/kde.po $(SOURCES)
+
 # DO NOT DELETE THIS LINE -- make depend depends on it.
 

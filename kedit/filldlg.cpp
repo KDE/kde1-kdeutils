@@ -1,23 +1,28 @@
 #include "filldlg.h"
 
+#include <klocale.h>
+#define klocale KLocale::klocale()
+
 
 FillDlg::FillDlg(QWidget *parent, const char *name)
      : QDialog(parent, name, TRUE)
-
 {
-    frame1 = new QGroupBox("Miscellaneous Options", this, "frame1");
+    frame1 = new QGroupBox(klocale->translate("Miscellaneous Options"), 
+			   this, "frame1");
     values = new QLineEdit( this, "values");
     this->setFocusPolicy(QWidget::StrongFocus);
     connect(values, SIGNAL(returnPressed()), this, SLOT(checkit()));
-    fill_column = new QCheckBox("Set Fill-Column at:", frame1, "fill");
+    fill_column = new QCheckBox(klocale->translate("Set Fill-Column at:"),
+				frame1, "fill");
     connect(fill_column, SIGNAL(toggled(bool)),this,SLOT(synchronize(bool)));
 
-    word_wrap = new QCheckBox("Word Warp", frame1, "word");
+    word_wrap = new QCheckBox(klocale->translate("Word Warp"), 
+			      frame1, "word");
     mailcmd = new QLineEdit(this,"mailcmd");
     mailcmdlabel = new QLabel(this,"mailcmdlable");
-    mailcmdlabel->setText("Mail Command:");
-    ok = new QPushButton("OK", this, "OK");
-    cancel = new QPushButton("Cancel", this, "cancel");
+    mailcmdlabel->setText(klocale->translate("Mail Command:"));
+    ok = new QPushButton(klocale->translate("OK"), this, "OK");
+    cancel = new QPushButton(klocale->translate("Cancel"), this, "cancel");
     connect(cancel, SIGNAL(clicked()), this, SLOT(reject()));
     connect(ok, SIGNAL(clicked()), this, SLOT(checkit()));
     resize(300, 190);
@@ -104,7 +109,9 @@ void FillDlg::checkit(){
     accept();
   }
  
-  QMessageBox::message("Sorry","You must enter an integer.","OK");
+  QMessageBox::message(klocale->translate("Sorry"),
+		       klocale->translate("You must enter an integer."),
+		       klocale->translate("OK"));
 
 }
 
