@@ -23,15 +23,15 @@ msgstr "Verzia"
 
 #: floppy.cpp:56
 msgid "Floppy Drive:"
-msgstr "Disketová mechanika:"
+msgstr "Mechanika:"
 
 #: floppy.cpp:65
 msgid "Density:"
-msgstr "Hustota záznamu:"
+msgstr "Hustota zázn.:"
 
 #: floppy.cpp:74
 msgid "File System:"
-msgstr "Súborový systém:"
+msgstr "Súborový sys.:"
 
 #: floppy.cpp:108 floppy.cpp:408
 msgid "Format"
@@ -47,15 +47,15 @@ msgstr "Úplne formátova»"
 
 #: floppy.cpp:142
 msgid "Create Label:"
-msgstr "Vytori» menovku disku"
+msgstr "Nastavi» názov disku:"
 
 #: floppy.cpp:148
 msgid "KDE FLoppy"
-msgstr "KFormátovaè diskiet"
+msgstr "Formátovaè diskiet"
 
 #: floppy.cpp:162
 msgid "KDE Floppy Formater"
-msgstr "KFormátovaè diskiet"
+msgstr "Formátovaè diskiet"
 
 #: floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267
 msgid "HD"
@@ -69,7 +69,7 @@ msgid ""
 msgstr ""
 "Nemô¾em pristupova» k %s\n"
 "Uistite sa, ¾e zariadenie existuje,\n"
-"a ¾e máte právo zápisu naò"
+"a ¾e máte doò právo zapisova»"
 
 #: floppy.cpp:333
 msgid ""
@@ -78,8 +78,8 @@ msgid ""
 "Please install KFloppy properly."
 msgstr ""
 "Nemô¾em nájs» kfdformat\n"
-"kfdformat je súèas»ou distribúcie KFormátovaèa diskiet.\n"
-"Prosím, nain¹talujte KFormátovaè diskiet korektne."
+"kfdformat je súèas»ou distribúcie Formátovaèa diskiet.\n"
+"Prosím, nain¹talujte Formátovaè diskiet korektne."
 
 #: floppy.cpp:349
 msgid ""
@@ -88,8 +88,8 @@ msgid ""
 "Please install KFloppy properly."
 msgstr ""
 "Nemô¾em nájs» kmke2fs\n"
-"kmke2fs je súèas»ou distribúcie KFormátovaèa diskiet.\n"
-"Prosím, nain¹talujte KFormátovaè diskiet korektne."
+"kmke2fs je súèas»ou distribúcie Formátovaèa diskiet.\n"
+"Prosím, nain¹talujte Formátovaè diskiet korektne."
 
 #: floppy.cpp:364
 msgid ""
@@ -98,8 +98,8 @@ msgid ""
 "Please install KFloppy properly."
 msgstr ""
 "Nemô¾em nájs» kmkdosfs\n"
-"kmkdosfs je súèas»ou distribúcie KFormátovaèa diskiet.\n"
-"Prosím, nain¹talujte KFormátovaè diskiet korektne."
+"kmkdosfs je súèas»ou distribúcie Formátovaèa diskiet.\n"
+"Prosím, nain¹talujte Formátovaè diskiet korektne."
 
 #: floppy.cpp:424
 msgid "Abort"
@@ -179,4 +179,4 @@ msgid ""
 "Please unmount the floppy first."
 msgstr ""
 "%s je pripojená.\n"
-"Prosím, najprv odpojte disketu k systému."
+"Prosím, najprv odpojte disketu zo systému."

@@ -22,7 +22,7 @@ msgstr "Jazyk"
 
 #: FontsData.cpp:57
 msgid "Symbol Set"
-msgstr "Znaková sada"
+msgstr "Symb. sada"
 
 #: FontsData.cpp:125
 msgid "Pitch"
@@ -30,7 +30,7 @@ msgstr "Stupeò"
 
 #: FontsData.cpp:141
 msgid "Point Size"
-msgstr "Bodová veµkos»"
+msgstr "Veµk. bodu"
 
 #: FontsData.cpp:156
 msgid "points"
@@ -38,19 +38,19 @@ msgstr "bodov"
 
 #: MiscData.cpp:43
 msgid "End of Line Mode"
-msgstr "Koniec riadkového re¾imu"
+msgstr "Koniec riadku"
 
 #: MiscData.cpp:65
 msgid "PageProtect"
-msgstr "Ochrana dokumentu rezervovaním pamäte"
+msgstr "Ochrana strany"
 
 #: MiscData.cpp:80
 msgid "Powersave Time"
-msgstr ""
+msgstr "©etriaci mód"
 
 #: MiscData.cpp:99
 msgid "Eject"
-msgstr "Vysunú» papier"
+msgstr "Vysunú»"
 
 #: MiscData.cpp:106
 msgid "Reset"
@@ -58,7 +58,7 @@ msgstr "Resetova»"
 
 #: MiscData.cpp:113
 msgid "initialize"
-msgstr "inicializova»"
+msgstr "Inicializ."
 
 #: PrinterData.cpp:41
 msgid "Mode"
@@ -70,7 +70,7 @@ msgstr "Ekonomický"
 
 #: PrinterData.cpp:56
 msgid "Presentation"
-msgstr "Prezentácia"
+msgstr "Prezentaèný"
 
 #: PrinterData.cpp:65
 msgid "Resolution"
@@ -86,7 +86,7 @@ msgstr "Tlaèiareò"
 
 #: PrinterData.cpp:99
 msgid "Resolution Enh."
-msgstr "Rozlí¹enie roz¹ír."
+msgstr "Roz¹ír. rozlí¹."
 
 #: about.cpp:38
 msgid "About KLJetTool"
