@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kzip\n"
 "POT-Creation-Date: 1998-06-16 14:24+0200\n"
-"PO-Revision-Date: 1998-06-18 10:02 MET DST\n"
+"PO-Revision-Date: 1998-06-20 17:03 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -43,11 +43,11 @@ msgstr "Pøevést na malá písmena"
 
 #: extractdlg.cc:39
 msgid "All Files"
-msgstr "V¹echny soubory"
+msgstr "V¹echny"
 
 #: extractdlg.cc:42
 msgid "Selected File"
-msgstr "Vybrané soubory"
+msgstr "Vybrané"
 
 #: extractdlg.cc:45
 msgid "Pattern"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kedit\n"
 "POT-Creation-Date: 1998-05-30 17:49+0200\n"
-"PO-Revision-Date: 1998-01-22 08:54 MET\n"
+"PO-Revision-Date: 1998-06-20 17:08 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -47,11 +47,11 @@ msgstr "Otevøi Ne&dávný ..."
 
 #: kedit.cpp:204
 msgid "Open &URL..."
-msgstr "Otevøi &URL..."
+msgstr "Otevøi U&RL..."
 
 #: kedit.cpp:206
 msgid "Save to U&RL..."
-msgstr "Ulo¾ na U&RL..."
+msgstr "Ulo¾ n&a URL..."
 
 #: kedit.cpp:212
 msgid "&Mail..."
