@@ -394,7 +394,7 @@ public:
 	        be broken automatically at column col, when a character is 
 		inserted past column col..
 		*/
-    void 	setFillColumnMode(int col );
+    void  	setFillColumnMode(int line, bool set);
 
     /// save a backup copy
 	  /** If copy is TRUE KEdit will make a backup copy of the document that
@@ -412,10 +412,18 @@ public:
 	  /** saves the current file as 'name'
 	    */
 
+
     void       saveasfile(char* name);
 
+    /// remove tabs and whitespace on the end of lines during a justify operation
+	  /** remove tabs and whitespace on the end of lines during a justify operation
+	    */
+    void       setReduceWhiteOnJustify(bool reduce);
+
     bool 	format(QStrList& );
+    bool 	format2(QStrList& par, int& upperbound);
     void 	getpar(int line,QStrList& par);
+    void 	getpar2(int line,QStrList& par,int& upperbound,QString &prefix);
 
 signals:
 
@@ -525,6 +533,7 @@ private:
     bool	killing;
     bool 	killtrue;
     bool 	lastwasanewline;
+    bool        reduce_white_on_justify;
     int		cursor_offset;
     int 	edit_mode;
     int 	last_search;

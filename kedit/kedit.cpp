@@ -124,7 +124,7 @@ void TopLevel::setupEditWidget(){
 
   setView(eframe,FALSE);
 
-  eframe->setFillColumnMode(fill_column_value);
+  eframe->setFillColumnMode(fill_column_value,fill_column_is_set);
   eframe->setWordWrap(word_wrap_is_set);
   eframe->setFont(generalFont);
 
@@ -1093,10 +1093,10 @@ void TopLevel::fill_column_slot(){
     fill_column_is_set = fillstr.fill_column_is_set;
     fill_column_value = fillstr.fill_column_value;;
 
-    if(fill_column_is_set)
-      eframe->setFillColumnMode(fill_column_value);
-    else	
-      eframe->setFillColumnMode(0);
+    //    if(fill_column_is_set)
+      eframe->setFillColumnMode(fill_column_value,fill_column_is_set);
+    /*    else	
+      eframe->setFillColumnMode(0);*/
 
   }
 

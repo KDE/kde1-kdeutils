@@ -27,7 +27,6 @@
   */
 
 #include "keditcl.h"
-
 #include <klocale.h>
 #include <kapp.h>
 
@@ -51,6 +50,7 @@ KEdit::KEdit(KApplication *a, QWidget *parent, const char *name,
     word_wrap_is_set = TRUE;
     fill_column_value = 80;
     autoIndentMode = false;
+    reduce_white_on_justify = true;
 
     current_directory = QDir::currentDirPath();
 
@@ -106,16 +106,10 @@ bool  KEdit::FillColumnMode(){
   return fill_column_is_set;
 }
 
-void  KEdit::setFillColumnMode(int line){
+void  KEdit::setFillColumnMode(int line, bool set){
+  fill_column_is_set = set;
+  fill_column_value = line;
 
-  if (line <= 0) {
-    fill_column_is_set = FALSE;
-    fill_column_value = 0;
-  }
-  else{
-    fill_column_is_set = TRUE;
-    fill_column_value = line;
-  }
 
 }
 
@@ -669,6 +663,64 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
     return;
   }
 
+  if( fill_column_value > 20 ){
+
+    if ((e->state() & ControlButton ) && (e->key() == Key_J) ){
+
+	int templine,tempcol;
+	getCursorPosition(&templine,&tempcol);	
+	setAutoUpdate(false);
+	int upperbound;
+
+	bool did_format = format2(par,upperbound);
+
+	if(!did_format)
+	  return;
+    
+	int num_of_rows = 0;
+	QString newpar;
+
+	for( int k = 0; k < (int)par.count(); k++){
+	  newpar += par.at(k);
+	  if(k != (int)par.count() -1 )
+	    newpar += '\n';
+	}
+	insertLine(newpar,upperbound);
+	//printf("%s\n",newpar.data());
+	newpar = "";
+	num_of_rows = par.count();
+	par.clear();
+    
+	setCursorPosition(templine,tempcol);
+
+	setAutoUpdate(true);
+
+	// Let's try to reduce flicker by updating only what we need to update
+	// printf("NUMOFROWS %d\n",num_of_rows);
+
+	int y1  = -1;
+	int y2  = -1;
+
+	rowYPos(upperbound,&y1);
+	rowYPos(upperbound + num_of_rows -1,&y2);
+    
+	if(y1 == -1)
+	  y1 = 0;
+
+	if(y2 == -1)
+	  y2 = this->height();
+
+	repaint(0,y1,this->width(),y2);
+    
+	computePosition();
+	setModified();
+	emit CursorPositionChanged();
+
+	return;
+    }
+  }
+
+  
   if(fill_column_is_set && word_wrap_is_set ){
 
     // word break algorithm
@@ -850,7 +902,9 @@ bool KEdit::format(QStrList& par){
   if( l <= fill_column_value)
     return false;
 
+  // ########################## TODO consider a autoupdate(false) aroudn getpar #####
   getpar(templine,par);
+  // ########################## TODO consider a autoupdate(false) aroudn getpar #####
 
   /*
     printf("\n");
@@ -975,6 +1029,305 @@ void KEdit::getpar(int line,QStrList& par){
       break;
     par.append(linestr);
     removeLine(line);
+  }
+
+}
+
+
+bool KEdit::format2(QStrList& par, int& upperbound){
+
+  QString mstring;
+  QString pstring;
+  QString prefix;
+  int right, space_pos;
+  int fill_column = fill_column_value;
+
+  int templine,tempcol;
+  getCursorPosition(&templine,&tempcol);
+
+  // ########################## TODO consider a autoupdate(false) around getpar #####
+  getpar2(templine,par,upperbound,prefix);
+  // ########################## TODO consider a autoupdate(false) around getpar #####
+
+  int k = 0;
+  int l = 0;
+  int last_ok = 0;
+
+  for( k = 0, l = 0; k < (int) prefix.length(); k++){
+    
+    if(prefix.data()[k] == '\t')
+      l +=8 - l%8;
+    else
+      l ++;
+  }
+
+  fill_column_value = fill_column_value - l;
+
+  // safety net --
+  if(fill_column_value < 10 )
+    fill_column_value = 10;
+
+  if(par.count() == 0 ){
+    fill_column_value = fill_column;
+    return false;
+  }
+  
+  /*
+   printf("PASS 1\n");	
+   for ( int i = 0 ; i < (int)par.count() ; i ++){
+     printf("%s\n",par.at(i));
+   }
+   printf("\n");
+   */
+   // first pass: break overfull lines
+
+  for ( int i = 0 ; i < (int)par.count() ; i ++){
+    //    printf("par.count %d line %d\n",par.count(),i);
+    k = 0;
+    l = 0;
+    last_ok = 0;
+    pstring = par.at(i);
+
+    for( k = 0, l = 0; k < (int) pstring.length() && l <= fill_column_value; k++){
+    
+      if(pstring.data()[k] == '\t')
+        l +=8 - l%8;
+      else
+	l ++;
+
+      if( l <= fill_column_value )
+	last_ok = k;
+    }
+
+    if( l <= fill_column_value)
+      continue;
+
+    mstring = pstring.left( k );
+    space_pos = mstring.findRev( " ", -1, TRUE );
+    if(space_pos == -1) // well let try to find a TAB then ..
+          space_pos = mstring.findRev( "\t", -1, TRUE );
+
+    right = col_pos - space_pos - 1;
+  
+    if( space_pos == -1 ){ 
+
+      // no space to be found on line, just break, what else could we do?
+      par.remove(i);
+      par.insert(i,pstring.left(last_ok+1));
+
+      if(i < (int)par.count() - 1){
+	QString temp1 = par.at(i+1);
+	QString temp2;
+	if(autoIndentMode){
+	  temp1 = temp1.mid(prefixString(temp1).length(),temp1.length());
+	}
+	temp2 = pstring.mid(last_ok +1,pstring.length()) + (QString) " " + temp1;
+	temp1 = temp2.copy();
+	if(autoIndentMode)
+	  temp1 = prefixString(pstring) + temp1;
+	par.remove(i+1);
+	par.insert(i+1,temp1);
+
+      }
+      else{
+	if(autoIndentMode)
+	  par.append(prefixString(pstring) + pstring.mid(last_ok + 1,pstring.length()));
+	else
+	  par.append(pstring.mid(last_ok +1,pstring.length()));
+      }
+      if(i==0){
+	cursor_offset = pstring.length() - last_ok -1;
+	if(autoIndentMode)
+	  cursor_offset += prefixString(pstring).length();
+	//printf("CURSOROFFSET1 %d\n",cursor_offset);
+      }
+    }
+    else{
+    
+      par.remove(i);
+      par.insert(i,pstring.left(space_pos));
+
+      if(i < (int)par.count() - 1){
+	QString temp1 = par.at(i+1);
+	QString temp2;
+	if(autoIndentMode){
+	  temp1 = temp1.mid(prefixString(temp1).length(),temp1.length());
+	}
+	temp2 = pstring.mid(space_pos +1,pstring.length()) + (QString) " " + temp1;
+	temp1 = temp2.copy();
+	if(autoIndentMode)
+	  temp1 = prefixString(pstring) + temp1;
+	par.remove(i+1);
+	par.insert(i+1,temp1);
+      }
+      else{
+	if(autoIndentMode)
+	  par.append(prefixString(pstring) + pstring.mid(space_pos + 1,pstring.length()));
+	else
+	  par.append(pstring.mid(space_pos+1,pstring.length()));
+      }
+      if(i==0){
+	cursor_offset = pstring.length() - space_pos -1;
+	if(autoIndentMode)
+	  cursor_offset += prefixString(pstring).length();
+	//	printf("CURSOROFFSET2 %d\n",cursor_offset);
+      }
+    }
+    
+  }
+
+  // Second Pass let's see whether we can fill each line more
+  /*
+   printf("PASS 2\n");	
+   for ( int i = 0 ; i < (int)par.count() ; i ++){
+     printf("%s\n",par.at(i));
+   }
+   printf("\n");
+   */
+  for ( int i = 0 ; i < (int)par.count() - 1 ; i ++){
+    //    printf("par.count %d line %d\n",par.count(),i);
+    int k = 0;
+    int l = 0;
+    int last_ok = 0;
+    int free = 0;
+    pstring = par.at(i);
+
+    // printf("LENGTH of line %d = %d\n",i,pstring.length());
+
+    for( k = 0, l = 0; k < (int) pstring.length() && l <= fill_column_value; k++){
+    
+      if(pstring.data()[k] == '\t')
+        l +=8 - l%8;
+      else
+	l ++;
+
+      if( l <= fill_column_value )
+	last_ok = k;
+    }
+
+    if( l >= fill_column_value) // line is full go on to next line
+      continue;
+
+    free = fill_column_value - l -1; // -1 for the extra space we need to insert
+    //    printf("free %d\n",free);
+
+    mstring = par.at(i+1);
+
+    for( k = 0, l = 0; k < (int) mstring.length() && l <= fill_column_value; k++){
+    
+      if(mstring.data()[k] == '\t')
+        l +=8 - l%8;
+      else
+	l ++;
+
+      if( l <= free )
+	last_ok = k;
+    }
+
+    if( (int) l <= free){
+      
+      pstring = pstring + QString(" ") + mstring;
+      par.remove(i);
+      par.insert(i,pstring);
+      par.remove(i+1);
+      i --; // check again whether line i is full now
+
+    }
+    else{
+
+      space_pos = mstring.findRev( " ", QMIN(free,last_ok), TRUE );
+      if(space_pos == -1) // well let's try to find a TAB then ..
+	space_pos = mstring.findRev( "\t", QMIN(free,last_ok), TRUE );
+
+      if(space_pos == -1)
+	continue; // can't find a word to add to the previous line
+    
+      pstring = pstring + QString(" ") + mstring.left(space_pos );
+      //printf("adding: %s %d\n",mstring.left(space_pos).data(),space_pos);
+      par.remove(i);
+      par.insert(i,pstring);
+      mstring = mstring.mid(space_pos + 1,mstring.length());
+      par.remove(i+1);
+      par.insert(i+1,mstring);
+    }
+    
+  }
+
+  /*   printf("PASS 3\n");	
+   for ( int i = 0 ; i < (int)par.count() ; i ++){
+     printf("%s\n",par.at(i));
+   }
+   printf("\n");
+   */
+   QString prerun;
+   for ( int i = 0 ; i < (int)par.count() ; i ++){
+     prerun = prefix + (QString) par.at(i);
+     par.remove(i);
+     par.insert(i,prerun);
+   }
+   /*
+   printf("PASS 4\n");	
+   for ( int i = 0 ; i < (int)par.count() ; i ++){
+     printf("%s\n",par.at(i));
+   }
+   printf("\n");
+   */
+   fill_column_value = fill_column;
+   return true;
+
+}
+
+
+void KEdit::getpar2(int line,QStrList& par,int& upperbound,QString& prefix){
+
+  QString linestr;
+  QString string, string2;
+  bool foundone = false;
+
+  int line2;
+  line2 = line;
+
+  string  = textLine(line2);
+  string = string.stripWhiteSpace();
+
+  if(string.isEmpty()){
+    upperbound = 0;
+    par.clear();
+    return;
+  }	
+
+
+  while(line2 >= 0){
+    string  = textLine(line2);
+    string2 = string.stripWhiteSpace();
+
+    if(string2.isEmpty()){
+      foundone = true;
+      break;
+    }
+
+    line2 --;
+  }
+
+  if(foundone)
+    line2 ++;
+
+  upperbound = line2;
+
+  par.clear();
+  prefix = prefixString(textLine(line2));
+
+  int num = numLines();
+  for(int i = line2 ; i < num ; i++){
+    linestr = textLine(line2);
+
+    if((linestr.stripWhiteSpace()).isEmpty())
+      break;
+    if(reduce_white_on_justify){
+      linestr = linestr.stripWhiteSpace();
+    }
+    par.append(linestr);
+    removeLine(line2);
   }
 
 }
@@ -1423,4 +1776,10 @@ void KEdit::doGotoLine() {
 		emit CursorPositionChanged();
 		setFocus();
 	}
+}
+
+void  KEdit::setReduceWhiteOnJustify(bool reduce){
+
+  reduce_white_on_justify = reduce;
+
 }

@@ -10,7 +10,7 @@
 
 <title>The KEdit Handbook
 <author>Bernd Johannes Wuebben, <tt/wuebben@kde.org/
-<date>Version 0.7, Dec 6 1997
+<date>Version 0.7.3, Dec 10 1997
 <abstract>This Handbook describes KEdit Version 0.7
 
 <!-- Table of contents -->
@@ -29,6 +29,15 @@ to be a programmers editor, in particular it is not meant to replace any of the
 more powerful editors such as XEmacs or Emacs. KEdit's functionality will intentionally
 remain rather limited to ensure that KEdit will start  up reasonably fast.
 <p>
+<sect1>New<p>
+<itemize>
+<item>Word-wrap works now ( hopefully ;-) )
+<item>Emacs like kill-ring implemented Ctrl-k Ctrl-y
+<item>Paragraph formatting Ctrl-j. Use this in conjunction with
+AutoIndent and this feature becomes quite powerfull.
+</itemize>
+
+<P>
 I hope you will enjoy this editor,
 <p>
 <tt>Bernd Johannes Wuebben</tt>
@@ -161,6 +170,7 @@ KEdit honors the following key bindings.
 <item><tt/Control-E/ Move the cursor to the end of the line 
 <item><tt/Control-F/ Move the cursor one character rightwards 
 <item><tt/Control-H/ Delete the character to the left of the cursor 
+<item><tt/Control-J/ Format Paragraph
 <item><tt/Control-K/ Delete to end of line and place content into the kill-buffer
 <item><tt/Control-N/ Move the cursor one line downwards 
 <item><tt/Control-P/ Move the cursor one line upwards 
