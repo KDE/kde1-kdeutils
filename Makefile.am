@@ -11,14 +11,13 @@ install-data-local:
 	@echo ""
 	@echo "*************** Important *************************"
 	@echo ""
-	@echo " Set KDEDIR to "$(prefix)
 	@echo " Add "$(bindir)" to your PATH"
 	@echo ""
 	@echo " Please report bugs with our web form at"
 	@echo " http://buglist.kde.org."
 	@echo ""
-	@echo " Stephan Kulow <coolo@kde.org>, and all the KDE"
-	@echo " developers, wish you fun with the KDE."
+	@echo " Stephan Kulow <coolo@kde.org> and all the KDE"
+	@echo " developers wish you fun with the KDE."
 	@echo "****************************************************"
 	@echo ""
 
