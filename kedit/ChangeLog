@@ -1,3 +1,9 @@
+Fri Oct 24 01:19:54 1997  Bernd Johannes Wuebben  <wuebben@petit.cornell.edu>
+
+	* kedit.cpp: lots of clean ups and fixes that were necessary because
+	  of Qt 1.31. I replaced at message and query dialogs with the new 
+	  warning and information dialogs. 
+
 Thu Sep 25 22:37:22 1997  Bernd Johannes Wuebben  <wuebben@petit.cornell.edu>
 
 	* non-modal search and replace dialogs

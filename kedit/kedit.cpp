@@ -548,9 +548,7 @@ void TopLevel::file_save_url(){
 void TopLevel::quiteditor(){
   
   bool frame_modified = false;
-  bool result;
-  bool result1;
-
+  int result;
 
   // check the normal case of only 1 editor window
   if(windowList.count() == 1){
@@ -560,25 +558,54 @@ void TopLevel::quiteditor(){
       return;
     }
     else{ /// modified
-      result = QMessageBox::query (klocale->translate("Message"), 
-				 klocale->translate("This Document has been modified.\n"\
-				 "Would you like to save it?"));      
 
-      if (result){ //modified we want to save
-	if (eframe->doSave () != KEdit::KEDIT_OK){
-	  result1 = QMessageBox::query (klocale->translate("Sorry"), 
-					klocale->translate("Could not save the file.\n"\
-					"Exit anyways?"));
+      switch( QMessageBox::information( this,klocale->translate("Message"),
+			     klocale->translate("This Document has been modified.\n"\
+						"Would you like to save it?"),
+					klocale->translate("Yes"),
+					klocale->translate("No"), 
+					klocale->translate("Cancel"),
+					0,      // Enter == button 0
+					2 ) ){
 
-	  if (!result1)
-	    return;         // we don't want to exit.
+      case 0: // Save clicked, Enter pressed.
+	result = eframe->doSave();
+	
+	if( result == KEdit::KEDIT_USER_CANCEL)
+	  return;
+	if(result != KEdit::KEDIT_OK){
+
+
+	  switch( QMessageBox::warning( this,klocale->translate("Sorry"),
+			  klocale->translate("Could not save the file.\n"\
+					     "Exit anyways?"),
+					     klocale->translate("Yes"),
+					     klocale->translate("No"), 
+					0,      // Enter == button 0
+					1 ) ){
+	  case 0: // yes exit
+	    break;
+	  case 1: // no don't exit
+	    return;
+	    break;
+	  }
 	}
-      }
+	  
+	break;
+    case 1: // Don't Save clicked 
+        // don't save but exit
+        break;
+    case 2: // Cancel clicked, Alt-C or Escape pressed
+        return;
+        break;
+	}
+
+
+    }
       writeSettings();
       mykapp->quit();
       return;
 	
-    }
   }
 
 
@@ -620,25 +647,55 @@ void TopLevel::newTopLevel(){
 
 void TopLevel::file_close(){
 
-  bool result;
-  bool result1;
+  int result;
 
   if (eframe->isModified ()) {
-    result = QMessageBox::message(klocale->translate("Message"), 
-	     klocale->translate("This Document has been modified.\n"\
-				 "Would you like to save it?"));
-    
-    if (result){
-      if (eframe->doSave () != KEdit::KEDIT_OK){
-	result1 = QMessageBox::query (klocale->translate("Sorry"), 
-	          klocale->translate("Could not save the file.\n"\
-				      "Exit anyways?"));
 
-	if (!result1){
-	    return;         // we don't want to exit.
+
+      switch( QMessageBox::information( this,klocale->translate("Message"),
+			     klocale->translate("This Document has been modified.\n"\
+						"Would you like to save it?"),
+					klocale->translate("Yes"),
+					klocale->translate("No"), 
+					klocale->translate("Cancel"),
+					0,      // Enter == button 0
+					2 ) ){
+
+      case 0: // Save clicked, Enter pressed.
+
+	result = eframe->doSave();
+	if( result == KEdit::KEDIT_USER_CANCEL)
+	  return;
+	if(result != KEdit::KEDIT_OK){
+
+
+	  switch( QMessageBox::warning( this,klocale->translate("Sorry"),
+			  klocale->translate("Could not save the file.\n"\
+					     "Exit anyways?"),
+					     klocale->translate("Yes"),
+					     klocale->translate("No"), 
+					0,      // Enter == button 0
+					1 ) ){
+	  case 0: // yes exit
+	    break;
+	  case 1: // no don't exit
+	    return;
+	    break;
 	  }
-      }
-    }
+	}
+	  
+	break;
+
+    case 1: // Don't Save clicked 
+        // don't save but exit
+        break;
+    case 2: // Cancel clicked, Alt-C or Escape pressed
+        return;
+        break;
+	}
+
+
+
   }
 
   if ( windowList.count() > 1 ){  /* more than one window is open */
@@ -725,8 +782,14 @@ void TopLevel::mail(){
     str.sprintf(klocale->translate("Could not pipe the contents"\
 				 "of this Document into:\n %s"),cmd.data());
 
-    QMessageBox::message(klocale->translate("Sorry"),str.data(),
-			 klocale->translate("OK"));
+    QMessageBox::warning(
+			 this,
+			 klocale->translate("Sorry"),
+			 str.data(),
+			 klocale->translate("OK"),
+			 "",
+			 "",
+			 0,0);
     return;
   }
 
@@ -966,32 +1029,59 @@ void TopLevel::print(){
   QString com;
   QString file;
 
+  int result;
+  /*  if(strcmp(eframe->getName(), klocale->translate("Untitled"))!= 0){*/
 
-  // TODO much better error checking. Does the system call succeed?
-  // set the Statusbar accordingly
 
-  if(strcmp(eframe->getName(), klocale->translate("Untitled"))!= 0){
+  if (eframe->isModified ()) {
 
-    if(eframe->isModified()) {           /* save old file */
-      if((QMessageBox::query(klocale->translate("Message"), 
-	       klocale->translate("The current document has been modified.\n"\
-			     "Would you like to save the changes before \n"\
-			     "printing this Document?")))) {
 
-	if (eframe->doSave() != KEdit::KEDIT_OK){
-	
-	  QMessageBox::message(klocale->translate("Sorry"), 
-          klocale->translate("Could not Save the Changes\n"),
-	  klocale->translate("OK"));
+      switch( QMessageBox::information( this,klocale->translate("Message"),
+			    klocale->translate("The current document has been modified.\n"\
+					       "Would you like to save the changes before \n"\
+					       "printing this Document?"),
+			    klocale->translate("Yes"),
+			    klocale->translate("No"), 
+			    klocale->translate("Cancel"),
+			    0,      // Enter == button 0
+			    2 ) ){
+
+      case 0: // Save clicked, Enter pressed.
+
+	result = eframe->doSave();
+	if( result == KEdit::KEDIT_USER_CANCEL)
+	  return;
+	if(result != KEdit::KEDIT_OK){
+
+
+	  switch( QMessageBox::warning( this,klocale->translate("Sorry"),
+			  klocale->translate("Could not save the file.\n"\
+					     "Print anyways?"),
+					     klocale->translate("Yes"),
+					     klocale->translate("No"), 
+					0,      // Enter == button 0
+					1 ) ){
+	  case 0: // yes exit
+	    break;
+	  case 1: // no don't exit
+	    return;
+	    break;
+	  }
 	}
-	else{
-	  QString string;
-	  string.sprintf(klocale->translate("Saved: %s"),eframe->getName().data());
-	  setGeneralStatusField(string);
+	  
+	break;
+
+    case 1: // Don't Save clicked 
+        // don't save but exit
+        break;
+    case 2: // Cancel clicked, Alt-C or Escape pressed
+        return;
+        break;
 	}
-      }
-    }
+
   }
+
+  /*  }*/
 
   PrintDialog *printing;
   printing = new PrintDialog(this,"print",true);
@@ -1173,21 +1263,31 @@ void TopLevel::saveNetFile( const char *_url )
     
     if ( kfm != 0L )
     {
-	QMessageBox::message (klocale->translate("Sorry"), 
+	QMessageBox::information(
+			      this,
+			      klocale->translate("Sorry"), 
 			      klocale->translate("KEdit is already waiting\n"\
-			      "for an internet job to finish\n"\
-			      "Please wait until has finished\n"\
-			      "Alternatively stop the running one."), 
-			      klocale->translate("Ok"));
+						 "for an internet job to finish\n"\
+						 "Please wait until has finished\n"\
+						 "Alternatively stop the running one."), 
+			      klocale->translate("Ok"),
+			      "",
+			      "",
+			      0,0);
 	return;
     }
 
     kfm = new KFM;
     if ( !kfm->isOK() )
     {
-	QMessageBox::message (klocale->translate("Sorry"), 
-			      klocale->translate("Could not start or find KFM"), 
-			      klocale->translate("Ok"));
+	QMessageBox::warning(
+			     this,
+			     klocale->translate("Sorry"), 
+			     klocale->translate("Could not start or find KFM"), 
+			     klocale->translate("Ok"),
+			     "",
+			     "",
+			     0,0);
 	delete kfm;
 	kfm = 0L;
 	return;
@@ -1225,9 +1325,13 @@ void TopLevel::openNetFile( const char *_url, int _mode )
 			      QDir::currentDirPath()+QString(netFile.data())) );
 	}
         if (u->isMalformed()){
-  	  QMessageBox::message (klocale->translate("Sorry"),
-				klocale->translate( "Malformed URL"), 
-				klocale->translate("Ok"));
+  	  QMessageBox::warning(this,
+			       klocale->translate("Sorry"),
+			       klocale->translate( "Malformed URL"), 
+			       klocale->translate("Ok"),
+			       "",
+			       "",
+			       0,0);
 	  delete u;
           return;
 	}
@@ -1247,12 +1351,17 @@ void TopLevel::openNetFile( const char *_url, int _mode )
     
     if ( kfm != 0L )
     {
-	QMessageBox::message (klocale->translate("Sorry"), 
-			      klocale->translate("KEdit is already waiting\n"\
-			      "for an internet job to finish\n"\
-			      "Please wait until has finished\n"\
-			      "Alternatively stop the running one."), 
-			      klocale->translate("Ok"));
+	QMessageBox::information(
+				 this,
+				 klocale->translate("Sorry"), 
+				 klocale->translate("KEdit is already waiting\n"\
+						    "for an internet job to finish\n"\
+						    "Please wait until has finished\n"\
+						    "Alternatively stop the running one."), 
+				 klocale->translate("Ok"),
+				 "",
+				 "",
+				 0,0);
 	return;
     }
     setGeneralStatusField(klocale->translate("Calling KFM"));
@@ -1261,8 +1370,14 @@ void TopLevel::openNetFile( const char *_url, int _mode )
     setGeneralStatusField(klocale->translate("Done"));
     if ( !kfm->isOK() )
     {
-	QMessageBox::message (klocale->translate("Sorry"), 
-			      klocale->translate("Could not start or find KFM"), 		                      klocale->translate("Ok"));
+	QMessageBox::warning(
+			     this,
+			     klocale->translate("Sorry"), 
+			     klocale->translate("Could not start or find KFM"),
+			     klocale->translate("Ok"),
+			     "",
+			     "",
+			     0,0);
 	delete kfm;
 	kfm = 0L;
 	return;
@@ -1667,9 +1782,12 @@ int main (int argc, char **argv)
      */
 
         for (int i = 1; i < argc; i++) {
-            if (*argv[i] == '-')	/* ignore options */
-                continue;
 
+	  bool ok = true;
+	  
+	  if (*argv[i] == '-')	/* ignore options */
+	    continue;
+	    
 	    TopLevel *t = new TopLevel ();
 	    t->show ();
 	    TopLevel::windowList.append( t );
@@ -1682,9 +1800,37 @@ int main (int argc, char **argv)
 		getcwd( buffer, 1023 );
 		f.sprintf( "%s/%s", buffer, argv[i] );
 	    }
+	    if( f.find(":/") == -1){
+	      // a normal file, let's see whether it exists. If it doesn't
+	      // exist try to creat  and open it
+
+	      QFileInfo info(f.data());
+
+	      if ( !info.exists()){
+
+		QFile file(f.data());
+
+		if(!file.open( IO_ReadWrite)){
+
+		  QString string;
+		  string.sprintf(klocale->translate("Can not create:\n%s"),f.data());
+		  QMessageBox::warning(0,
+			     klocale->translate("Sorry"),
+			     string.data(),
+			     klocale->translate("Ok"),
+			     0,0);
+		  ok = false;
+
+		}
+		file.close();
+	      }
+
+	    }
 		
-            t->openNetFile( f.data(), default_open );
-            t->setCaption( f.data() );
+	    if( ok){
+	      t->openNetFile( f.data(), default_open );
+	      t->setCaption( f.data() );
+	    }
         }
     }
     else

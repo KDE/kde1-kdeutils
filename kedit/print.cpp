@@ -22,23 +22,8 @@
     Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
   
     $Log$
-    Revision 1.6  1997/08/30 21:20:47  kdecvs
-    Bernd -- added klocale
-
-    Revision 1.5  1997/07/22 03:16:46  wuebben
-    implemented mailing
-
-    Revision 1.1  1997/05/16 04:45:07  wuebben
-    Initial revision
-
-    Revision 1.1  1997/05/03 17:20:56  wuebben
-    Initial revision
-
-    Revision 1.1  1997/04/20 00:18:15  wuebben
-    Initial revision
-
-    Revision 1.1  1997/01/04 17:36:44  wuebben
-    Initial revision
+    Revision 1.7  1997/08/31 21:19:58  kdecvs
+    Kalle: Even more changes for the new KLocale and the new KConfig
 
 
 */
@@ -72,26 +57,21 @@ PrintDialog::PrintDialog( QWidget *parent, const char *name,  bool modal)
 
   
   setCaption(klocale->translate("Print Dialog"));
-  /*  box1 = new QGroupBox(this, "Box1");
-  box1->setGeometry(XOFFSET,YOFFSET,SIZE_X -  XOFFSET
-		   ,145);
-  box1->setTitle("Print");
-  */
-
 
   bg = new QButtonGroup(this,"bg");
   
-  commandbox = new QLineEdit(bg,"command");
-  commandbox->setGeometry(165,50,205,25);
+  rawbutton = new QRadioButton(klocale->translate("Print directly using lpr")
+			       ,bg,"rawbutton");
+  rawbutton->setGeometry(15,20,200,25);
+  rawbutton->setChecked(TRUE);
 
   commandbutton = new QRadioButton(klocale->translate("Print using Command:")
 				   ,bg,"commandbutton");
   commandbutton->setGeometry(15,50,140,25);
 
-  rawbutton = new QRadioButton(klocale->translate("Print directly using lpr")
-			       ,bg,"rawbutton");
-  rawbutton->setGeometry(15,20,200,25);
-  rawbutton->setChecked(TRUE);
+  commandbox = new QLineEdit(bg,"command");
+  commandbox->setGeometry(165,50,205,25);
+
 
   bg->setGeometry(10,10,385,90);
   
@@ -109,14 +89,15 @@ PrintDialog::PrintDialog( QWidget *parent, const char *name,  bool modal)
   
   bg1->setGeometry(10,115,385,80);
   
+
+  ok_button = new QPushButton(klocale->translate( "Ok"), this );
+  ok_button->setGeometry( 3*XOFFSET, 210, 80, BUTTONHEIGHT );
+  ok_button->setFocus();
+  connect( ok_button, SIGNAL( clicked() ), SLOT( accept() ) );	
   cancel_button = new QPushButton(klocale->translate("Cancel"),this);
 
   cancel_button->setGeometry( 3*XOFFSET +100, 210, 80, BUTTONHEIGHT );
   connect( cancel_button, SIGNAL( clicked() ), SLOT( reject() ) );
-
-  ok_button = new QPushButton(klocale->translate( "Ok"), this );
-  ok_button->setGeometry( 3*XOFFSET, 210, 80, BUTTONHEIGHT );
-  connect( ok_button, SIGNAL( clicked() ), SLOT( accept() ) );	
 
 
   this->setFixedSize(405,240);

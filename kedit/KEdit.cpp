@@ -130,36 +130,50 @@ int KEdit::loadFile(QString name, int mode){
 
     int fdesc;
     struct stat s;
-    const char *mb_caption = klocale->translate("Load file:");
     char *addr;
     QFileInfo info(name);
 
     if(!info.exists()){
-      QMessageBox::message(
-		  klocale->translate("Sorry"),
+      QMessageBox::warning(
+		  this,
+		  klocale->translate("Sorry:"),
 		  klocale->translate("The specified File does not exist"),
-		  klocale->translate("OK"));
+		  klocale->translate("OK"),
+		  "",
+		  "",
+		  0,0
+		  );
 
-// TODO: finer error control
       return KEDIT_RETRY;
     }
 
     if(info.isDir()){
-      QMessageBox::message(klocale->translate("Sorry"),
+      QMessageBox::warning(
+		   this,
+		   klocale->translate("Sorry:"),
 		   klocale->translate("You have specificated a directory"),
-		   klocale->translate("OK"));		
-// TODO: finer error control
-//       change to directory ? 
+		   klocale->translate("OK"),
+		  "",
+		  "",
+		  0,0
+		   );		
+
       return KEDIT_RETRY;
     }
 
 
    if(!info.isReadable()){
-      QMessageBox::message(klocale->translate("Sorry"),
-      klocale->translate("You do not have read permission to this file."),
-      klocale->translate("OK"));
+      QMessageBox::warning(
+		  this,
+		  klocale->translate("Sorry"),
+                  klocale->translate("You do not have read permission to this file."),
+                  klocale->translate("OK"),
+		  "",
+		  "",
+		  0,0
+		  );
 
-// TODO: finer error control
+
       return KEDIT_RETRY;
     }
 
@@ -169,18 +183,29 @@ int KEdit::loadFile(QString name, int mode){
     if(fdesc == -1) {
         switch(errno) {
         case EACCES:
-            QMessageBox::message(klocale->translate("Sorry"), 
-	      klocale->translate("You have do not have Permission to \n"\
-				 "read this Document"), 
-	      klocale->translate("Ok"));
 
-// TODO: finer error control
-            return KEDIT_OS_ERROR;
+	  QMessageBox::warning(
+		  this,
+		  klocale->translate("Sorry"),
+                  klocale->translate("You do not have read permission to this file."),
+                  klocale->translate("OK"),
+		  "",
+		  "",
+		  0,0
+		  );
+
+	  return KEDIT_OS_ERROR;
 
         default:
-            QMessageBox::message(mb_caption, 
-	   klocale->translate("An Error occured while trying to open this Document"),				 klocale->translate("Ok"));
-// TODO: finer error control
+            QMessageBox::warning(
+		  this, 
+		  klocale->translate("Sorry"),				 
+		  klocale->translate("An Error occured while trying to open this Document"),
+                  klocale->translate("OK"),
+		  "",
+		  "",
+		  0,0
+		  );
             return KEDIT_OS_ERROR;
         }
     }
@@ -370,22 +395,63 @@ int KEdit::openFile(int mode)
 {
     QString fname;
     QFileDialog *box;
-    
+
+  int result;
 
     if( isModified() ) {           
-      if((QMessageBox::query(klocale->translate("Message"), 
-			     klocale->translate("The current Document has been modified.\n"\
-			     "Would you like to save it?")))) {
+      switch( QMessageBox::warning( 
+			 this,
+			 klocale->translate("Warning:"), 	
+			 klocale->translate("The current Document has been modified.\n"\
+					    "Would you like to save it?"),
+			 klocale->translate("Yes"),
+			 klocale->translate("No"),
+			 klocale->translate("Cancel"),
+                                  0, 2 
+			 )
+	      )
+	{
+	case 0: // Yes or Enter
 
-	if (doSave() != KEDIT_OK){
-	  
-	  QMessageBox::message(klocale->translate("Sorry"), 
-			       klocale->translate("Could not Save the Document"), 
-			       klocale->translate("OK"));
-	  return KEDIT_OS_ERROR;     
+	result = doSave();
+
+	if ( result == KEDIT_USER_CANCEL)
+	  return KEDIT_USER_CANCEL;
+
+	if (result != KEDIT_OK){
+
+	  switch(QMessageBox::warning(
+			   this,
+			   klocale->translate("Sorry:"), 
+			   klocale->translate("Could not save the document.\n"\
+                                              "Open a new document anyways?"), 
+			   klocale->translate("Yes"),
+                           klocale->translate("No"),
+			       "",
+			       0,1
+			   )
+		 )
+	    {
+
+	    case 0:
+	      break;
+	    case 1:
+	      return KEDIT_USER_CANCEL;
+	      break;
+	    }
 
 	}
-      }
+
+        break;
+
+	case 1: // No 
+
+	  break;
+	case 2: // cancel
+	  return KEDIT_USER_CANCEL;
+	  break;
+
+	}
     }
             
     box = getFileDialog(klocale->translate("Select Document to Open"));
@@ -400,34 +466,73 @@ int KEdit::openFile(int mode)
     
     fname =  box->selectedFile();
     
-    int result =  loadFile(fname, mode);
+    int result2 =  loadFile(fname, mode);
     
-    if ( result == KEDIT_OK )
+    if ( result2 == KEDIT_OK )
       toggleModified(FALSE);
     
-    return result;
+    return result2;
 	
         
 }
 
 int KEdit::newFile(){
 
+  int result;
 
     if( isModified() ) {           
-      if((QMessageBox::query(klocale->translate("Message"), 
-			     klocale->translate("The current Document has been modified.\n"\
-			     "Would you like to save it?")))) {
+      switch( QMessageBox::warning( 
+			 this,
+			 klocale->translate("Warning:"), 	
+			 klocale->translate("The current Document has been modified.\n"\
+					    "Would you like to save it?"),
+			 klocale->translate("Yes"),
+			 klocale->translate("No"),
+			 klocale->translate("Cancel"),
+                                  0, 2 )
+	      )
+	{
+	
+	case 0: // Yes or Enter
 
-	if (doSave() != KEDIT_OK){
-	  
-	  QMessageBox::message(klocale->translate("Sorry"), 
-			       klocale->translate("Could not Save the Document"), 
-			       klocale->translate("OK"));
-	  return KEDIT_OS_ERROR;     
+	  result = doSave();
+
+	  if ( result == KEDIT_USER_CANCEL)
+	    return KEDIT_USER_CANCEL;
+
+	  if (result != KEDIT_OK){
+
+	    switch(QMessageBox::warning(this,
+			   klocale->translate("Sorry:"), 
+			   klocale->translate("Could not save the document.\n"\
+                                              "Create a new document anyways?"), 
+			   klocale->translate("Yes"),
+                           klocale->translate("No"),
+			       "",
+			       0,1
+				      )){
+
+	  case 0:
+	    break;
+	  case 1:
+	    return KEDIT_USER_CANCEL;
+	    break;
+	  }
 
 	}
+
+        break;
+
+      case 1: // No 
+
+        break;
+      case 2: // cancel
+	 return KEDIT_USER_CANCEL;
+	 break;
+
       }
     }
+    
 
     this->clear();
     toggleModified(FALSE);
@@ -793,9 +898,15 @@ int KEdit::saveFile(){
 
     if( !file.open( IO_WriteOnly | IO_Truncate )) {
       rename(backup_filename.data(),filename.data());
-      QMessageBox::message(klocale->translate("Sorry"),
+      QMessageBox::warning(
+			   this,
+			   klocale->translate("Sorry"),
 			   klocale->translate("Could not save the document\n"),
-			   klocale->translate("OK"));
+			   klocale->translate("OK"),
+			   "",
+			   "",
+			   0,0
+			   );
       return KEDIT_OS_ERROR;
     }
 
@@ -862,7 +973,14 @@ int KEdit::saveAs(){
   
   box = getFileDialog(klocale->translate("Save Document As"));
 
+  QPoint point = this->mapToGlobal (QPoint (0,0));
+
+  QRect pos = this->geometry();
+  box->setGeometry(point.x() + pos.width()/2  - box->width()/2,
+		   point.y() + pos.height()/2 - box->height()/2, 
+		   box->width(),box->height());
 try_again:
+
 
   box->show();
   
@@ -878,11 +996,24 @@ try_again:
   info.setFile(box->selectedFile());
   
   if(info.exists()){
-    if(!(QMessageBox::query(klocale->translate("Warning:"), 	
-	 klocale->translate("A Document with this Name exists already\n"\
-			    "Do you want to overwrite it ?"))))
-	  goto try_again;  	
-    
+
+    switch( QMessageBox::warning( 
+			   this,
+			   klocale->translate("Warning:"), 	
+			   klocale->translate("A Document with this Name exists already\n"\
+						     "Do you want to overwrite it ?"),
+                           klocale->translate("Yes"),
+			   klocale->translate("No"),
+				  "",
+                                  1, 1 )
+	    ){
+    case 0: // Yes or Enter
+        // try again
+        break;
+    case 1: // No or Escape
+        goto try_again;
+        break;
+    }
   }
   
   
@@ -920,10 +1051,19 @@ int KEdit::doSave()
     }
 
     QFileInfo info(filename);
+
     if(info.exists() && !info.isWritable()){
-      QMessageBox::message(klocale->translate("Sorry:"), 
-      klocale->translate("You do not have write permission to this file.\n"),
-			   klocale->translate("OK"));
+
+      QMessageBox::warning(
+			   this,
+			   klocale->translate("Sorry:"), 
+			   klocale->translate("You do not have write permission to this file.\n"),
+			   klocale->translate("OK"),
+			   "",
+			   "",
+			   0,0
+			   );
+
       return KEDIT_NOPERMISSIONS;
     }
     
@@ -1126,12 +1266,16 @@ again:
   if(result == 0){
     if(!srchdialog->get_direction()){ // forward search
     
-      int query = QMessageBox::query(klocale->translate("Find"), 
-		  klocale->translate("End of document reached.\n"\
-				   "Continue from the beginning?"), 
-				     klocale->translate("Yes"),
-				     klocale->translate("No"));
-      if (query){
+      int query = QMessageBox::information(
+					   this,
+					   klocale->translate("Find"), 
+					   klocale->translate("End of document reached.\n"\
+							      "Continue from the beginning?"), 
+					   klocale->translate("Yes"),
+					   klocale->translate("No"),
+					   "",
+					   0,1);
+      if (query == 0){
 	line = 0;
 	col = 0;
 	goto again;
@@ -1139,12 +1283,16 @@ again:
     }
     else{ //backward search
       
-      int query = QMessageBox::query(klocale->translate("Find"), 
-		       klocale->translate("Beginning of document reached.\n"\
-				   "Continue from the end?"), 
-				     klocale->translate("Yes"),
-				     klocale->translate("No"));
-      if (query){
+      int query = QMessageBox::information(
+					   this,
+					   klocale->translate("Find"), 
+					   klocale->translate("Beginning of document reached.\n"\
+							      "Continue from the end?"), 
+					   klocale->translate("Yes"),
+					   klocale->translate("No"),
+					   "",
+					   0,1);
+      if (query == 0){
 	QString string = textLine( numLines() - 1 );
 	line = numLines() - 1;
 	col  = string.length();
@@ -1375,12 +1523,16 @@ again:
     
   if(!replace_dialog->get_direction()){ // forward search
     
-    int query = QMessageBox::query(klocale->translate("Find"), 
+    int query = QMessageBox::information(
+				   this,
+				   klocale->translate("Find"), 
 				   klocale->translate("End of document reached.\n"\
-				   "Continue from the beginning?"), 
+						      "Continue from the beginning?"), 
 				   klocale->translate("Yes"),
-				   klocale->translate("No"));
-    if (query){
+				   klocale->translate("No"),
+				   "",
+				   0,1);
+    if (query == 0){
       replace_all_line = 0;
       replace_all_col = 0;
       goto again;
@@ -1388,12 +1540,16 @@ again:
   }
   else{ //backward search
     
-    int query = QMessageBox::query(klocale->translate("Find"), 
+    int query = QMessageBox::information(
+				   this,
+				   klocale->translate("Find"), 
 				   klocale->translate("Beginning of document reached.\n"\
-				   "Continue from the end?"), 
+						      "Continue from the end?"), 
 				   klocale->translate("Yes"),
-				   klocale->translate("No"));
-    if (query){
+				   klocale->translate("No"),
+				   "",
+				   0,1);
+    if (query == 0){
       QString string = textLine( numLines() - 1 );
       replace_all_line = numLines() - 1;
       replace_all_col  = string.length();
@@ -1430,13 +1586,17 @@ void KEdit::replace_search_slot(){
       }
       else{
 
-	int query = QMessageBox::query(klocale->translate("Find"), 
+	int query = QMessageBox::information(
+			 this,
+			 klocale->translate("Replace"), 
 			 klocale->translate("Beginning of document reached.\n"\
-			"Continue from the end?"), 
-			klocale->translate("Yes"),
-		       klocale->translate("No"));
+					    "Continue from the end?"), 
+			 klocale->translate("Yes"),
+			 klocale->translate("No"),
+			 "",
+			 0,1);
 
-	if (query){
+	if (query == 0){
 	  QString string = textLine( numLines() - 1 );
 	  line = numLines() - 1;
 	  col  = string.length();
@@ -1456,12 +1616,16 @@ again:
   if(result == 0){
     if(!replace_dialog->get_direction()){ // forward search
     
-      int query = QMessageBox::query(klocale->translate("Find"), 
-	       klocale->translate("End of document reached.\n"\
-				   "Continue from the beginning?"), 
+      int query = QMessageBox::information(
+				     this,
+				     klocale->translate("Replace"), 
+				     klocale->translate("End of document reached.\n"\
+							"Continue from the beginning?"), 
 				     klocale->translate("Yes"),
-				     klocale->translate("No"));
-      if (query){
+				     klocale->translate("No"),
+				     "",
+				     0,1);
+      if (query == 0){
 	line = 0;
 	col = 0;
 	goto again;
@@ -1469,11 +1633,16 @@ again:
     }
     else{ //backward search
       
-      int query = QMessageBox::query(klocale->translate("Find"), 
-	    klocale->translate("Beginning of document reached.\n"\
-				   "Continue from the end?"), 
-		 klocale->translate("Yes"),klocale->translate("No"));
-      if (query){
+      int query = QMessageBox::information(
+					   this,
+					   klocale->translate("Replace"), 
+					   klocale->translate("Beginning of document reached.\n"\
+							      "Continue from the end?"), 
+					   klocale->translate("Yes"),
+					   klocale->translate("No"),
+					   "",
+					   0,1);
+      if (query == 0){
 	QString string = textLine( numLines() - 1 );
 	line = numLines() - 1;
 	col  = string.length();
