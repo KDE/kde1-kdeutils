@@ -69,11 +69,11 @@ icondir = $(kde_icondir)
 # use mkinstalldirs, not "install -d"
 # don't install a list of file. Just one file per install.
 # if you have more of them, create a subdirectory with an extra Makefile 
-install-data-local: 
-	$(mkinstalldirs) $(APPSDIR)
-	$(INSTALL_DATA) kpm.kdelnk $(APPSDIR)
-	$(mkinstalldirs) $(kde_minidir)/kpm.xpm
-	$(INSTALL_DATA) mini-xpm $(kde_minidir)
+#install-data-local: 
+#	$(mkinstalldirs) $(APPSDIR)
+#	$(INSTALL_DATA) kpm.kdelnk $(APPSDIR)
+#	$(mkinstalldirs) $(kde_minidir)/kpm.xpm
+#	$(INSTALL_DATA) mini-xpm $(kde_minidir)
 
 # remove ALL you have installed in install-data-local or install-exec-local
 uninstall-local:
