@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klpq\n"
-"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"POT-Creation-Date: 1998-12-08 02:02+0100\n"
 "PO-Revision-Date: 1998-11-08 23:23+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -137,10 +137,9 @@ msgstr ""
 "Выберите, какую систему очереди вы используете. Большинство систем "
 "используют систему очереди BSD. Поэтому, если вы не знаете, выбирайте BSD."
 
-#: FirstStartData.cpp:50 SpoolerConfigData.cpp:134
-msgid "Ok"
-msgstr "Ок"
-
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"
 msgstr "Путь к командам управления очередью:"
+
+#~ msgid "Ok"
+#~ msgstr "Ок"

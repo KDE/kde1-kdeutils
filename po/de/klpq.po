@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klpq\n"
-"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"POT-Creation-Date: 1998-12-08 02:02+0100\n"
 "PO-Revision-Date: 1998-11-14 20:56+0100\n"
 "Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 "Language-Team: German <kde-n18i@kde.org>\n"
@@ -140,10 +140,9 @@ msgstr ""
 "verwenden den BSD-Spooler. Falls Sie nicht wissen, welcher Spooler "
 "installiert ist, sollten Sie BSD auswählen."
 
-#: FirstStartData.cpp:50 SpoolerConfigData.cpp:134
-msgid "Ok"
-msgstr "Ok"
-
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"
 msgstr "Pfad des Spoolingbefehls:"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"

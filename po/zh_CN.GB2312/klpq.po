@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"POT-Creation-Date: 1998-12-08 02:02+0100\n"
 "PO-Revision-Date: 1998-06-08 14:55+0200\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN (gb2312)\n"
@@ -136,13 +136,12 @@ msgstr ""
 "所以如果你不知道在你的系统中安装的是什么假脱机程序 ,\n"
 "BSD 是一个好的选择."
 
-#: FirstStartData.cpp:50 SpoolerConfigData.cpp:134
-msgid "Ok"
-msgstr "确定"
-
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"
 msgstr "假脱机程序的路径:"
+
+#~ msgid "Ok"
+#~ msgstr "确定"
 
 #~ msgid "Quit"
 #~ msgstr "退出"

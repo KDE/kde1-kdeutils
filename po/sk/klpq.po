@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"POT-Creation-Date: 1998-12-08 02:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Peter Ivanyi <ivanyi@internet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -140,10 +140,9 @@ msgstr ""
 "spooler. Ak neviete, aký spooler je nain¹talovaný na Va¹om systéme, BSD je "
 "pravdepodobne dobrou voµbou."
 
-#: FirstStartData.cpp:50 SpoolerConfigData.cpp:134
-msgid "Ok"
-msgstr "Ok"
-
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"
 msgstr "Cesta príkazu na spooling:"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
