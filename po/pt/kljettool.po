@@ -1,13 +1,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kljettool.po\n"
-"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "PO-Revision-Date: 1998-03-06 22:44:34-0500\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt\n"
 "MIME-Version:\n"
 "Content-Type:\n"
 "Content-Transfer-Encoding:\n"
+
+#: main.cpp:49
+#, fuzzy
+msgid "Ljet Tool"
+msgstr "KLjetTool"
 
 #: main.cpp:69
 msgid "Paper"
@@ -32,6 +37,11 @@ msgstr "Cópias"
 #: PaperData.cpp:80
 msgid "Lines"
 msgstr "Linhas"
+
+#: PaperData.cpp:96
+#, fuzzy
+msgid "Orientation"
+msgstr "Apresentação"
 
 #: PaperData.cpp:102
 msgid "Portrait"
@@ -135,5 +145,14 @@ msgid "KLjetTool"
 msgstr "KLjetTool"
 
 #: about.cpp:52
-msgid "Version "
-msgstr "Versão "
+#, c-format
+msgid ""
+"Version %s\n"
+"\n"
+"Copyright (c) 1997\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
+msgstr ""
+
+#~ msgid "Version "
+#~ msgstr "Versão "
