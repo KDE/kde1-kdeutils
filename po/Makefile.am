@@ -1,6 +1,6 @@
 
 SUBDIRS = br de da fr cs nl sv es ru hu it pl pt fi hr el ro no \
-	zh_TW.Big5 zh_CN.GB2312 sk mk ca pt_BR eo ko tr he et is hs ja
+	zh_TW.Big5 zh_CN.GB2312 sk mk ca pt_BR eo ko tr he et is hs ja sl
 
 # this is a general list for merging!
 APPS = kab karm kcalc kedit kfloppy khexdit kjots kljettool knotes kpm ark klpq kwrite klipper ktop
