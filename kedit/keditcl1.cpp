@@ -45,18 +45,17 @@ KEdit::KEdit(KApplication *a, QWidget *parent, const char *name,
 
     mykapp = a;
     filename = fname;
-    filename.detach();
     rb_popup =  0L;
     modified = FALSE;
 
-    
+
     // fancy optimized refreshing (Matthias and Paul)
 #if QT_VERSION >= 142
     repaintTimer = new QTimer(this);
     connect(repaintTimer, SIGNAL(timeout()), this, SLOT(repaintAll()));
-#endif    
-    
-    
+#endif
+
+
     // set some defaults
 
     line_pos = col_pos = 0;
@@ -359,7 +358,6 @@ int KEdit::loadFile(QString name, int mode){
 
     if(!(mode == OPEN_INSERT)){
         filename = name;
-	filename.detach();
     }
 
     if( mode == OPEN_READONLY)
@@ -390,7 +388,6 @@ int KEdit::insertFile(){
       d.sprintf( QDir::currentDirPath() );
 
     file_to_insert = KFileDialog::getOpenFileName(d.data(),"*");
-    file_to_insert.detach();
 
     if (file_to_insert.isEmpty()) {
       return KEDIT_USER_CANCEL;
@@ -478,7 +475,6 @@ int KEdit::openFile(int mode)
       d.sprintf( QDir::currentDirPath() );
 
     fname = KFileDialog::getOpenFileName(d.data(),"*");
-    fname.detach();
 
     if (fname.isEmpty()) {
       return KEDIT_USER_CANCEL;
@@ -634,7 +630,6 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
 
     getCursorPosition(&line,&col);
     killstring = textLine(line);
-    killstring.detach();
     killstring = killstring.mid(col,killstring.length());
 
 
@@ -1559,7 +1554,6 @@ int KEdit::saveFile(){
       stat_ok = stat(filename.data(), &st);
       if(make_backup_copies){
         backup_filename = filename;
-        backup_filename.detach();
         backup_filename += '~';
 
         rename(filename.data(),backup_filename.data());
@@ -1605,7 +1599,6 @@ int KEdit::saveFile(){
 void KEdit::setFileName(char* name){
 
   filename = name;
-  filename.detach();
 
 }
 
@@ -1613,8 +1606,8 @@ void KEdit::saveasfile(char* name){
 
   QString filenamebackup;
   filenamebackup = filename;
+  filenamebackup.detach();
   filename = name;
-  filename.detach();
   saveFile();
   filename = filenamebackup;
   filename.detach();
@@ -1643,7 +1636,6 @@ try_again:
       d.sprintf( QDir::currentDirPath() );
 
     tmpfilename2 = KFileDialog::getSaveFileName(d.data(),"*");
-    tmpfilename2.detach();
 
     if (tmpfilename2.isEmpty()) {
       return KEDIT_USER_CANCEL;
@@ -1735,7 +1727,6 @@ int KEdit::doSave( const char *_name ){
 
     QString temp  = filename;
     filename =  _name;
-    filename.detach();
 
     int result = saveFile();
 
@@ -1748,7 +1739,6 @@ int KEdit::doSave( const char *_name ){
 void KEdit::setName( const char *_name ){
 
     filename = _name;
-    filename.detach();
 }
 
 

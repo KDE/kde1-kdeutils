@@ -1,8 +1,8 @@
     /*
 
     $Id$
-       
-    Copyright (C) 1997 Bernd Johannes Wuebben   
+
+    Copyright (C) 1997 Bernd Johannes Wuebben
                        wuebben@math.cornell.edu
 
     This program is free software; you can redistribute it and/or modify
@@ -22,9 +22,9 @@
     */
 
 #include <time.h>
- 
+
 #include <qfile.h>
-#include <qstrlist.h> 
+#include <qstrlist.h>
 #include <qpainter.h>
 #include <qdir.h>
 #include <qtabdlg.h>
@@ -59,7 +59,7 @@ TopLevel::TopLevel (QWidget *, const char *name)
 
   kfm = 0L;
   recent_files.setAutoDelete(TRUE);
-  
+
   statusbar_timer = new QTimer(this);
   connect(statusbar_timer, SIGNAL(timeout()),this,SLOT(timer_slot()));
 
@@ -75,7 +75,7 @@ TopLevel::TopLevel (QWidget *, const char *name)
 
   for ( int i =0 ; i < (int)recent_files.count(); i++){
     recentpopup->insertItem(recent_files.at(i));
-  
+
   }
 
   setupEditWidget();
@@ -94,7 +94,7 @@ TopLevel::TopLevel (QWidget *, const char *name)
   //  setCaption("KEdit "KEDITVERSION);
 
   KDNDDropZone * dropZone = new KDNDDropZone( this , DndURL);
-  connect( dropZone, SIGNAL( dropAction( KDNDDropZone *) ), 
+  connect( dropZone, SIGNAL( dropAction( KDNDDropZone *) ),
 	   this, SLOT( slotDropEvent( KDNDDropZone *) ) );
 
 
@@ -116,7 +116,7 @@ TopLevel::~TopLevel (){
 
 void TopLevel::setupEditWidget(){
 
-  
+
   eframe = new KEdit (mykapp,this, "eframe", i18n("Untitled"));
 
   connect(eframe, SIGNAL(CursorPositionChanged()),this,SLOT(statusbar_slot()));
@@ -145,16 +145,16 @@ void TopLevel::setupEditWidget(){
   right_mouse_button->insertItem (i18n("Save as..."),
 				  this, SLOT(file_save_as()));
   right_mouse_button->insertSeparator(-1);
-  right_mouse_button->insertItem(i18n("Copy"), 
+  right_mouse_button->insertItem(i18n("Copy"),
 				 this, SLOT(copy()));
   right_mouse_button->insertItem(i18n("Paste"),
 				 this, SLOT(paste()));
-  right_mouse_button->insertItem(i18n("Cut"), 
+  right_mouse_button->insertItem(i18n("Cut"),
 				 this, SLOT(cut()));
-  right_mouse_button->insertItem(i18n("Select All"), 
+  right_mouse_button->insertItem(i18n("Select All"),
 				 this, SLOT(select_all()));
   right_mouse_button->insertSeparator(-1);
-  right_mouse_button->insertItem(i18n("Font..."), 
+  right_mouse_button->insertItem(i18n("Font..."),
 				 this,	SLOT(font()));
 
   eframe->installRBPopup(right_mouse_button);
@@ -188,20 +188,20 @@ void TopLevel::setupMenuBar(){
   help->insertItem (i18n("&About..."),
 		    this, 	SLOT(about()));
 		    */
-  
-   // DO NOT use keys.openNew() here until we have actual key 
+
+   // DO NOT use keys.openNew() here until we have actual key
    // management in KDE. keys.openNew() currently evalutates to
    // CTRL N and that conflict with the emacs key bindings of
    // the text widget that we all rely on so much.
    // Bernd
-   
+
    //  file->insertItem (i18n("Ne&w..."),
    //		    this, 	SLOT(file_new()), keys.openNew());
-   
+
      file->insertItem (i18n("Ne&w..."),
 		    this, 	SLOT(file_new()));
-   
-   
+
+
   file->insertItem (i18n("&Open..."),
 		    this, 	SLOT(file_open()), keys.open());
 
@@ -222,18 +222,18 @@ void TopLevel::setupMenuBar(){
   file->insertItem (i18n("Save to U&RL..."),	
 		    this,	SLOT(file_save_url()));
   file->insertSeparator (-1);
-   
-   // DO NOT use keys.print() here until we have actual key 
+
+   // DO NOT use keys.print() here until we have actual key
    // management in KDE. keys.print() currently evalutates to
    // CTRL P and that conflict with the emacs key bindings of
    // the text widget that we all rely on so much.
-   // Bernd   
+   // Bernd
    //  file->insertItem (i18n("&Print..."),
    //		    this,	SLOT(print()), keys.print());
-   
+
   file->insertItem (i18n("&Print..."),
 		    this,	SLOT(print()));
-   
+
   file->insertSeparator (-1);
   file->insertItem (i18n("&Mail..."),
 		    this,	SLOT(mail()) );
@@ -283,7 +283,7 @@ void TopLevel::setupMenuBar(){
 
   options->insertItem(i18n("KEdit &Options..."),
 		      this, 	SLOT(fill_column_slot()));
-  indentID = options->insertItem(i18n("Auto &Indent"), 
+  indentID = options->insertItem(i18n("Auto &Indent"),
 				 this, SLOT(toggle_indent_mode()));
   options->insertSeparator(-1);
   toolID   = options->insertItem(i18n("&Tool Bar"),
@@ -300,7 +300,7 @@ void TopLevel::setupMenuBar(){
   menubar->insertItem (i18n("&Options"), options);
   menubar->insertSeparator(-1);
 
-  help = mykapp->getHelpMenu(TRUE, 
+  help = mykapp->getHelpMenu(TRUE,
 		"\n"\
 		"KEdit "\
  	         KEDITVERSION "\n\n"\
@@ -313,7 +313,7 @@ void TopLevel::setupMenuBar(){
   menubar->insertItem(i18n("&Help"), help);
 
   setMenu(menubar);
-  
+
 
 }
 
@@ -414,6 +414,9 @@ void TopLevel::setupStatusBar(){
 
 void TopLevel::saveProperties(KConfig* config){
 
+    if(strcmp(eframe->getName(), i18n("Untitled"))== 0 && !eframe->isModified())
+	return;
+    
     config->writeEntry("filename",eframe->getName().data());
     config->writeEntry("modified",eframe->isModified());
 
@@ -432,9 +435,7 @@ void TopLevel::saveProperties(KConfig* config){
       }
 
       fullname += eframe->getName().data();
-      const char *tpn = mykapp->tempSaveName(fullname.data());
-      QString string = tpn;
-      string.detach();
+      QString string = mykapp->tempSaveName(fullname);
       eframe->saveasfile(string.data());
 
     }
@@ -471,13 +472,13 @@ void TopLevel::readProperties(KConfig* config){
 
 
 void TopLevel::copy(){
-  
+
   eframe->copyText();
 
 }
 
 void TopLevel::select_all(){
-  
+
   eframe->selectAll();
 
 }
@@ -501,7 +502,7 @@ retry_insertFile:
 
 
 void TopLevel::insertDate(){
-  
+
   int line, column;
 
   QString string;
@@ -567,14 +568,14 @@ void TopLevel::spell_done()
 }
 
 void TopLevel::file_open(){
-  
+
   int result;
 
 tryagain_fileopen:
 
   result = eframe->openFile(KEdit::OPEN_READWRITE);
   switch (result){
-  
+
   case KEdit::KEDIT_OK :	
     {
       QString string;
@@ -595,7 +596,7 @@ tryagain_fileopen:
   default:
     break;
   }
-  
+
   statusbar_slot();
 
 }
@@ -611,7 +612,7 @@ void TopLevel::file_open_url(){
       /*      if ( n.left(5) != "file:" && n.left(4) == "ftp:" )*/
       openNetFile( l.getText(), KEdit::OPEN_READWRITE );
     }
-  
+
   statusbar_slot();
 }
 
@@ -630,7 +631,7 @@ void TopLevel::file_save_url(){
 }
 
 void TopLevel::quiteditor(){
-  
+
   bool frame_modified = false;
   int result;
 
@@ -647,7 +648,7 @@ void TopLevel::quiteditor(){
 			     i18n("This Document has been modified.\n"\
 						"Would you like to save it?"),
 					i18n("Yes"),
-					i18n("No"), 
+					i18n("No"),
 					i18n("Cancel"),
 					0,      // Enter == button 0
 					2 ) ){
@@ -664,7 +665,7 @@ void TopLevel::quiteditor(){
 			  i18n("Could not save the file.\n"\
 					     "Exit anyways?"),
 					     i18n("Yes"),
-					     i18n("No"), 
+					     i18n("No"),
 					0,      // Enter == button 0
 					1 ) ){
 	  case 0: // yes exit
@@ -674,9 +675,9 @@ void TopLevel::quiteditor(){
 	    break;
 	  }
 	}
-	  
+	
 	break;
-    case 1: // Don't Save clicked 
+    case 1: // Don't Save clicked
         // don't save but exit
         break;
     case 2: // Cancel clicked, Alt-C or Escape pressed
@@ -704,14 +705,14 @@ void TopLevel::quiteditor(){
     mykapp->quit();
   }
 
-  switch( QMessageBox::warning( 
+  switch( QMessageBox::warning(
 		    this,
 		    i18n("Message"),
 		    i18n("There are windows with modified content open.\n"\
 		    "If you exit now, you will loose those changes\n"\
 		    "Quit anyways?"),
 		     i18n("Yes"),
-		     i18n("No"), 
+		     i18n("No"),
 		    "",
 		     1,      // Enter == button 0
 		     1 ) ){
@@ -733,13 +734,13 @@ void TopLevel::openRecent(int i){
   if (eframe->isModified ()) {
 
 
-    switch( QMessageBox::information( 
+    switch( QMessageBox::information(
 			    this,
 			    i18n("Message"),
 			    i18n("The current document has been modified.\n"\
 					       "Continue anyways ?"),
 			    i18n("Yes"),
-			    i18n("No"), 
+			    i18n("No"),
 			    i18n("Cancel"),
 			    1,      // Enter == button 0
 			    2 ) ){
@@ -747,17 +748,17 @@ void TopLevel::openRecent(int i){
       case 0: // Save clicked, Enter pressed.
 	break;
 
-      case 1: 
+      case 1:
 	return;
         break;
-    case 2: 
+    case 2:
         return;
         break;
 	}
 
   }
-  
-  openNetFile( recent_files.at(i), KEdit::OPEN_READWRITE );	  
+
+  openNetFile( recent_files.at(i), KEdit::OPEN_READWRITE );	
 
 	
 }
@@ -778,7 +779,7 @@ void TopLevel::add_recent_file(const char* newfile){
 
   for ( int i =0 ; i < (int)recent_files.count(); i++){
     recentpopup->insertItem(recent_files.at(i));
-  
+
   }
 
 }
@@ -802,7 +803,7 @@ void TopLevel::file_close(){
 			     i18n("This Document has been modified.\n"\
 						"Would you like to save it?"),
 					i18n("Yes"),
-					i18n("No"), 
+					i18n("No"),
 					i18n("Cancel"),
 					0,      // Enter == button 0
 					2 ) ){
@@ -819,7 +820,7 @@ void TopLevel::file_close(){
 			  i18n("Could not save the file.\n"\
 					     "Exit anyways?"),
 					     i18n("Yes"),
-					     i18n("No"), 
+					     i18n("No"),
 					0,      // Enter == button 0
 					1 ) ){
 	  case 0: // yes exit
@@ -829,10 +830,10 @@ void TopLevel::file_close(){
 	    break;
 	  }
 	}
-	  
+	
 	break;
 
-    case 1: // Don't Save clicked 
+    case 1: // Don't Save clicked
         // don't save but exit
         break;
     case 2: // Cancel clicked, Alt-C or Escape pressed
@@ -845,7 +846,7 @@ void TopLevel::file_close(){
   }
 
   if ( windowList.count() > 1 ){  /* more than one window is open */
-    
+
     windowList.remove( this );
     delete this;
   }	
@@ -863,17 +864,17 @@ void TopLevel::file_save(){
       KURL u( eframe->getName() );
       if ( !u.isMalformed() && strcmp( u.protocol(), "file" ) != 0L )
       {
-	  
+	
 	  url_location = eframe->getName();
 	  saveNetFile( url_location );
 	  statusbar_slot();
 	  return;
       }
-      
+
       int result = KEdit::KEDIT_OK;
-      
+
       result =  eframe->doSave(); // error messages are handled by ::KEdit
-      
+
       if ( result == KEdit::KEDIT_OK ){
 	  setFileCaption();
 	  QString string;
@@ -893,7 +894,7 @@ void TopLevel::setGeneralStatusField(QString text){
 
     statusbar->changeItem(text.data(),ID_GENERAL);
     statusbar_timer->start(10000,TRUE); // single shot
-    
+
 }
 
 
@@ -910,7 +911,7 @@ void TopLevel::file_save_as(){
 void TopLevel::mail(){
 
   Mail* maildlg ;
-  
+
   maildlg = new Mail(this,"maildialog");
 
   if(!maildlg->exec()){
@@ -921,7 +922,7 @@ void TopLevel::mail(){
   mykapp->flushX();
 
   FILE* mailpipe;
-  
+
   QString cmd;
   /*  cmd = mailcmd.copy();*/
   cmd = cmd.sprintf(mailcmd.data(),
@@ -957,7 +958,7 @@ void TopLevel::mail(){
     t << eframe->textLine(i) << '\n';
   }
   pclose(mailpipe);
-  
+
 }
 
 
@@ -967,7 +968,7 @@ void TopLevel::fancyprint(){
   QPrinter prt;
   char buf[200];
   if ( prt.setup(0) ) {
-    
+
     int y =10;
     QPainter p;
     p.begin( &prt );
@@ -979,7 +980,7 @@ void TopLevel::fancyprint(){
       y += fm.ascent();
       QString line;
       line = eframe->textLine(i);
-      line.replace( QRegExp("\t"), "        " );         
+      line.replace( QRegExp("\t"), "        " );
       strncpy(buf,line.data(),160);
       for (int j = 0 ; j <150; j++){
 	if (!isprint(buf[j]))
@@ -987,7 +988,7 @@ void TopLevel::fancyprint(){
       }
       buf[line.length()] = '\0';
       p.drawText( 10, y, buf );
-      y += fm.descent();    
+      y += fm.descent();
     }
 
     p.end();
@@ -1004,7 +1005,7 @@ void TopLevel::about(){
 
   QRect pos = this->geometry();
   dlg->setGeometry(point.x() + pos.width()/2  - dlg->width()/2,
-		   point.y() + pos.height()/2 - dlg->height()/2, 
+		   point.y() + pos.height()/2 - dlg->height()/2,
 		   dlg->width(),dlg->height());
 
   dlg->exec();
@@ -1012,7 +1013,7 @@ void TopLevel::about(){
 }
 */
 void TopLevel::helpselected(){
-  
+
   mykapp->invokeHTMLHelp( "" , "" );
 
 }
@@ -1056,20 +1057,20 @@ void TopLevel::font(){
 
 
 void TopLevel::toggleStatusBar(){
-  
+
   if(hide_statusbar) {
-  
+
     hide_statusbar=FALSE;
     enableStatusBar( KStatusBar::Show );
     options->changeItem(i18n("Hide &Status Bar"), statusID);
-  
-  } 
+
+  }
   else {
 
     hide_statusbar=TRUE;
     enableStatusBar( KStatusBar::Hide );
     options->changeItem(i18n("Show &Status Bar"), statusID);
-    
+
   }
 
 }
@@ -1083,14 +1084,14 @@ void TopLevel::toggleToolBar(){
     enableToolBar( KToolBar::Show, toolbar1 );
     options->changeItem(i18n("Hide &Tool Bar"), toolID);
 
-  } 
+  }
   else {
-  
+
     hide_toolbar=TRUE;
     enableToolBar( KToolBar::Hide, toolbar1 );
     options->changeItem(i18n("Show &Tool Bar"), toolID);
 
-  }  
+  }
 
 }	
 
@@ -1133,7 +1134,7 @@ void TopLevel::statusbar_slot(){
 		     );
 
   statusbar->changeItem(linenumber.data(),ID_LINE_COLUMN);
-  
+
 }
 
 
@@ -1147,20 +1148,20 @@ void TopLevel::fill_column_slot(){
   dlg->setCaption(i18n("KEdit Options"));
 
   struct fill_struct fillstr;
-    
+
   fillstr.fill_column_is_set  = fill_column_is_set;
   fillstr.word_wrap_is_set    = word_wrap_is_set;
   fillstr.backup_copies_is_set= backup_copies_is_set;
   fillstr.fill_column_value   = fill_column_value;
   fillstr.mailcmd 	      = mailcmd.copy();
-  
+
   dlg->setWidgets(fillstr);
 
 
   if(dlg->exec() == QDialog::Accepted){
 
     struct fill_struct fillstr = dlg->getFillCol();
-    
+
     word_wrap_is_set = fillstr.word_wrap_is_set;;
     eframe->setWordWrap(word_wrap_is_set);
 
@@ -1201,7 +1202,7 @@ void TopLevel::print(){
 					       "Would you like to save the changes before \n"\
 					       "printing this Document?"),
 			    i18n("Yes"),
-			    i18n("No"), 
+			    i18n("No"),
 			    i18n("Cancel"),
 			    0,      // Enter == button 0
 			    2 ) ){
@@ -1218,7 +1219,7 @@ void TopLevel::print(){
 			  i18n("Could not save the file.\n"\
 					     "Print anyways?"),
 					     i18n("Yes"),
-					     i18n("No"), 
+					     i18n("No"),
 					0,      // Enter == button 0
 					1 ) ){
 	  case 0: // yes exit
@@ -1228,10 +1229,10 @@ void TopLevel::print(){
 	    break;
 	  }
 	}
-	  
+	
 	break;
 
-    case 1: // Don't Save clicked 
+    case 1: // Don't Save clicked
         // don't save but exit
         break;
     case 2: // Cancel clicked, Alt-C or Escape pressed
@@ -1258,12 +1259,12 @@ void TopLevel::print(){
   if(strcmp(eframe->getName(), i18n("Untitled"))== 0){
 
       // we go through all of this so that we can print an "Untitled" document
-      // quickly without going through the hassle of saving it. This will 
+      // quickly without going through the hassle of saving it. This will
       // however result in a temporary filename and your printout will
       // usually show that temp name, such as /tmp/00432aaa
-      // for a non "untitled" document we don't want that to happen so 
+      // for a non "untitled" document we don't want that to happen so
       // we asked the user to save before we print the document.
-    
+
       // TODO find a smarter solution for the above!
 
       QString tmpname = tmpnam(NULL);
@@ -1273,8 +1274,8 @@ void TopLevel::print(){
 
 
       if(pi.selection){
-	if(file.writeBlock(eframe->markedText().data(), 
-			 eframe->markedText().length()) == -1) { 
+	if(file.writeBlock(eframe->markedText().data(),
+			 eframe->markedText().length()) == -1) {
 	  result = KEdit::KEDIT_OS_ERROR;
 	}
 	else {
@@ -1282,8 +1283,8 @@ void TopLevel::print(){
 	}
       }
       else{
-	if(file.writeBlock(eframe->text().data(), 
-			   eframe->text().length()) == -1) { 
+	if(file.writeBlock(eframe->text().data(),
+			   eframe->text().length()) == -1) {
 	  result = KEdit::KEDIT_OS_ERROR;
 	}
 	else {
@@ -1293,7 +1294,7 @@ void TopLevel::print(){
 
       file.close();
       // TODO error handling
-    
+
       if (pi.raw){
 	command = "lpr";
       }	
@@ -1301,7 +1302,7 @@ void TopLevel::print(){
 	command = pi.command;
 	command.detach();
       }
-  
+
       com.sprintf("%s %s ; rm %s &",command.data(),
 		  tmpname.data(),tmpname.data());
 
@@ -1327,12 +1328,12 @@ void TopLevel::print(){
 	file.open(IO_WriteOnly);
 
 
-	if(file.writeBlock(eframe->markedText().data(), 
-			 eframe->markedText().length()) == -1) { 
+	if(file.writeBlock(eframe->markedText().data(),
+			 eframe->markedText().length()) == -1) {
 	  result = KEdit::KEDIT_OS_ERROR;
 	}
 	file.close();
-      
+
 	// TODO error handling
       }
 
@@ -1343,7 +1344,7 @@ void TopLevel::print(){
 	command = pi.command;
 	command.detach();
       }
-      
+
       if(!pi.selection){ // print the whole file
 	
 	com.sprintf("%s %s &",command.data(), eframe->getName().data());
@@ -1351,18 +1352,18 @@ void TopLevel::print(){
 	QString string;	
 	string.sprintf(i18n("Printing: %s"),com.data());
 	setGeneralStatusField(string);
-      
+
       }
       else{ // print only the selection
 	
-	com.sprintf("%s %s ; rm %s &",command.data(), 
+	com.sprintf("%s %s ; rm %s &",command.data(),
 		  tmpname.data(),tmpname.data());
 	system(com.data());
 	QString string;	
 	string.sprintf(i18n("Printing: %s %s (Selection)"),
 		       command.data(), eframe->getName().data());
 	setGeneralStatusField(string);
-      
+
       }
       printf("%s\n",com.data());
     }
@@ -1397,19 +1398,19 @@ void TopLevel::loading_slot(){
 
 void TopLevel::saveNetFile( const char *_url )
 {
-    
+
     netFile = _url;
     netFile.detach();
     KURL u( netFile.data() );
     if ( u.isMalformed() )
     {
-	QMessageBox::message (i18n("Sorry"), 
-        i18n("Malformed URL"), 
+	QMessageBox::message (i18n("Sorry"),
+        i18n("Malformed URL"),
 	i18n("OK"));
 	return;
     }
 
-    
+
     // Just a usual file ?
     if ( strcmp( u.protocol(), "file" ) == 0 )
    {
@@ -1418,16 +1419,16 @@ void TopLevel::saveNetFile( const char *_url )
       eframe->doSave( u.path() );
       return;
     }
-    
+
     if ( kfm != 0L )
     {
 	QMessageBox::information(
 			      this,
-			      i18n("Sorry"), 
+			      i18n("Sorry"),
 			      i18n("KEdit is already waiting\n"\
 						 "for an internet job to finish\n"\
 						 "Please wait until has finished\n"\
-						 "Alternatively stop the running one."), 
+						 "Alternatively stop the running one."),
 			      i18n("OK"),
 			      "",
 			      "",
@@ -1440,8 +1441,8 @@ void TopLevel::saveNetFile( const char *_url )
     {
 	QMessageBox::warning(
 			     this,
-			     i18n("Sorry"), 
-			     i18n("Could not start or find KFM"), 
+			     i18n("Sorry"),
+			     i18n("Could not start or find KFM"),
 			     i18n("OK"),
 			     "",
 			     "",
@@ -1450,13 +1451,13 @@ void TopLevel::saveNetFile( const char *_url )
 	kfm = 0L;
 	return;
     }
-    
+
     tmpFile.sprintf( "file:/tmp/kedit%i", time( 0L ) );
 
     eframe->toggleModified( TRUE );
     eframe->doSave( tmpFile.data() + 5 );
     eframe->toggleModified( TRUE );
-    
+
     connect( kfm, SIGNAL( finished() ), this, SLOT( slotKFMFinished() ) );
     kfm->copy( tmpFile.data(), netFile.data() );
     kfmAction = TopLevel::PUT;
@@ -1464,14 +1465,14 @@ void TopLevel::saveNetFile( const char *_url )
 
 void TopLevel::openNetFile( const char *_url, int _mode )
 {
-    
+
   QString string;
   netFile = _url;
   netFile.detach();
   KURL *u = new KURL( netFile.data() );
   if ( u->isMalformed() )
     {
-        delete u; 
+        delete u;
 
         if (netFile.data()[0] == '/'){
 	  // absolute path
@@ -1511,16 +1512,16 @@ void TopLevel::openNetFile( const char *_url, int _mode )
 	delete u;
 	return;
     }
-    
+
     if ( kfm != 0L )
     {
 	QMessageBox::information(
 				 this,
-				 i18n("Sorry"), 
+				 i18n("Sorry"),
 				 i18n("KEdit is already waiting\n"\
 						    "for an internet job to finish\n"\
 						    "Please wait until has finished\n"\
-						    "Alternatively stop the running one."), 
+						    "Alternatively stop the running one."),
 				 i18n("OK"),
 				 "",
 				 "",
@@ -1528,14 +1529,14 @@ void TopLevel::openNetFile( const char *_url, int _mode )
 	return;
     }
     setGeneralStatusField(i18n("Calling KFM"));
-    
+
     kfm = new KFM;
     setGeneralStatusField(i18n("Done"));
     if ( !kfm->isOK() )
     {
 	QMessageBox::warning(
 			     this,
-			     i18n("Sorry"), 
+			     i18n("Sorry"),
 			     i18n("Could not start or find KFM"),
 			     i18n("OK"),
 			     "",
@@ -1545,7 +1546,7 @@ void TopLevel::openNetFile( const char *_url, int _mode )
 	kfm = 0L;
 	return;
     }
-    
+
     setGeneralStatusField(i18n("Starting Job"));
     tmpFile.sprintf( "file:/tmp/kedit%i", time( 0L ) );
     connect( kfm, SIGNAL( finished() ), this, SLOT( slotKFMFinished() ) );
@@ -1586,7 +1587,7 @@ void TopLevel::slotKFMFinished()
 void TopLevel::slotDropEvent( KDNDDropZone * _dropZone )
 {
     QStrList & list = _dropZone->getURLList();
-    
+
     char *s;
 
     for ( s = list.first(); s != 0L; s = list.next() )
@@ -1625,12 +1626,12 @@ void TopLevel::timer_slot(){
 void TopLevel::set_foreground_color(){
 
   QColor color;
-  
+
   color = forecolor;
-  
+
   if(KColorDialog::getColor(color) != QDialog::Accepted)
     return;
-  
+
   forecolor = color;
   set_colors();
 
@@ -1646,15 +1647,15 @@ void TopLevel::set_background_color(){
 
   if( KColorDialog::getColor(color) != QDialog::Accepted)
     return;
-  
+
   backcolor = color;
   set_colors();
-    
+
 }
 
 
 void TopLevel::set_colors(){
- 
+
 
   QPalette mypalette = (eframe->palette()).copy();
 
@@ -1668,13 +1669,13 @@ void TopLevel::set_colors(){
 
   eframe->setPalette(mypalette);
   eframe->setBackgroundColor(backcolor);
- 
+
 }
 
 
 void TopLevel::readSettings(){
 
-	// let's set the defaults 
+	// let's set the defaults
 
 	generalFont = QFont ("courier", 12, QFont::Normal);
 	editor_width = 550;
@@ -1824,7 +1825,7 @@ void TopLevel::readSettings(){
 			toolbar->setBarPos( KToolBar::Bottom );
 		} else
 			toolbar->setBarPos( KToolBar::Top );
-	}			         
+	}			
 
 	///////////////////////////////////////////////////
 
@@ -1915,12 +1916,12 @@ void TopLevel::writeSettings(){
 	config->writeEntry("FillColumn", string);
 
 	string="";
-	string.sprintf("#%02x%02x%02x", forecolor.red(), 
+	string.sprintf("#%02x%02x%02x", forecolor.red(),
 		       forecolor.green(), forecolor.blue());
 	config->writeEntry( "ForeColor", string );
 
 	string="";
-	string.sprintf("#%02x%02x%02x", backcolor.red(), 
+	string.sprintf("#%02x%02x%02x", backcolor.red(),
 		       backcolor.green(), backcolor.blue());
 	config->writeEntry( "BackColor", string );
 	
@@ -1985,7 +1986,7 @@ int main (int argc, char **argv)
 	  have_top_window = true;
       }
 
-  } 
+  }
   else{
 
     have_top_window = false;
@@ -1999,19 +2000,19 @@ int main (int argc, char **argv)
         for (int i = 1; i < argc; i++) {
 
 	  bool ok = true;
-	  
+	
 	  if (*argv[i] == '-'){
 	    fprintf(stderr,"%s: %s -- no such option\n",argv[0],argv[i]);
 	    continue;
 	  }
-	    
+	
 	    TopLevel *t = new TopLevel ();
 	    t->show ();
 	    TopLevel::windowList.append( t );
 	    have_top_window = true;
 
 	    QString f = argv[i];
-	    
+	
 	    if ( f.find( ":/" ) == -1 && f.left(1) != "/" )
 	    {
 		char buffer[ 1024 ];
@@ -2078,7 +2079,7 @@ void TopLevel::spell_configure ()
 
   //  qtd.resize (ksc.sizeHint().width(), ksc.sizeHint().height());
   kwm.setMiniIcon (qtd.winId(), kapp->getMiniIcon());
- 
+
   if (qtd.exec())
     {
       ksc.writeGlobalSettings();
