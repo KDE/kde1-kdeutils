@@ -37,6 +37,7 @@ void HexFile::init() {
     setBackgroundColor( QColor( 220, 220, 220));
     metrics = new QFontMetrics(fontMetrics());
     maxWidth = 0;
+    rows = 0;
     relcur = curx = cury = 0;
     char lineB[]="ABCDEF0123456789";
     char lineL[]="abcdef0123456789";
@@ -97,7 +98,8 @@ bool HexFile::open(const char *Filename) {
     file.readBlock(data,file.size());
     hexdata.duplicate(data,file.size());
     calcScrolls();
-    delete data;
+    if (data)
+	delete data;
     fillPixmap();
     repaint( false );
     modified = false;
