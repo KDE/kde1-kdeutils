@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
 "POT-Creation-Date: 1998-05-30 17:49+0200\n"
-"PO-Revision-Date: 1998-05-11 21:29+0200\n"
-"Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
+"PO-Revision-Date: 1998-06-17 21:31+0200\n"
 "First-Translator: Jorge Valencia Alvarez <jorgev@est.unileon.es>\n"
+"Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
 #: configdlg.cpp:56 kcalc.cpp:1591
 msgid "Defaults"
@@ -60,7 +60,7 @@ msgstr "Base"
 
 #: kcalc.cpp:1524
 msgid "KCalc Configuraton"
-msgstr ""
+msgstr "Configuración"
 
 #: kcalc.cpp:1550
 msgid "Base type: long double\n"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
 "POT-Creation-Date: 1998-05-30 17:50+0200\n"
-"PO-Revision-Date: 1998-05-11 21:52+0200\n"
+"PO-Revision-Date: 1998-06-17 21:32+0200\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
 #: alarm.cpp:58
@@ -135,9 +135,8 @@ msgid "Print Note"
 msgstr "Imprimir nota"
 
 #: knotes.cpp:323
-#, fuzzy
 msgid "Save Notes"
-msgstr "Nueva nota"
+msgstr "Guardar notas"
 
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"
@@ -268,9 +267,12 @@ msgid ""
 "\n"
 "I will correct the Problem for you."
 msgstr ""
-"Se ha encontrado una alarma, de la cual\n"
+"Se ha encontrado una alarma de la cual\n"
 "no se encuentra su fichero KNotes:\n"
-"%s"
+"%s\n"
+" ya no existe.\n"
+"\n"
+"El problema será corregido."
 
 #: knotes.cpp:1686
 msgid "Inconsistency"
@@ -306,12 +308,12 @@ msgid ""
 "Please choose a different name"
 msgstr ""
 "El nombre \"xyalarms\" está reservada para uso interno.\n"
-"Por favor, elige un nombre distinto"
+"Por favor elija un nombre distinto"
 
 #: renamedlg.cpp:92
 msgid ""
 "A KNotes note with this name already exists\n"
 "Please choose a different name"
 msgstr ""
-"Ya existe una nota con este mismo nombre\n"
-"Por favor, elige un nombre distinto"
+"Ya existe una nota con este nombre\n"
+"Por favor elija un nombre distinto"
