@@ -17,9 +17,8 @@ msgstr ""
 
 # about.cpp:47
 #: main.cpp:49
-#, fuzzy
 msgid "Ljet Tool"
-msgstr "KLjetTool"
+msgstr "Alat za LaseJet"
 
 # main.cpp:69
 #: main.cpp:69
@@ -50,9 +49,8 @@ msgstr "Broj linija"
 
 # PrinterData.cpp:56
 #: PaperData.cpp:96
-#, fuzzy
 msgid "Orientation"
-msgstr "Prezentacija"
+msgstr "Orijentacija"
 
 #: PaperData.cpp:102
 msgid "Portrait"
@@ -184,7 +182,9 @@ msgid ""
 "Bernd Johannes Wuebben\n"
 "wuebben@kde.org"
 msgstr ""
+"Inaèica %s\n"
+"\n"
+"Copyright (c) 1997\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
 
-# about.cpp:52
-#~ msgid "Version "
-#~ msgstr "Inaèica "
