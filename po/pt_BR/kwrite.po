@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-01-14 01:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Elvis Pfützenreuter <epx@netville.com.br>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,6 +75,11 @@ msgstr "Tipo de letra de Item"
 
 #: kwview.cpp:1057
 msgid "Vertical Selections On"
+msgstr "Seleções Verticais Ligadas"
+
+#: kwview.cpp:1057
+#, fuzzy
+msgid "Vertical Selections Off"
 msgstr "Seleções Verticais Ligadas"
 
 #: kwview.cpp:1116

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-01-14 01:57+0100\n"
 "PO-Revision-Date: 1998-12-26 20:00+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt\n"
@@ -72,6 +72,11 @@ msgstr "Fonte do Item"
 #: kwview.cpp:1057
 #, fuzzy
 msgid "Vertical Selections On"
+msgstr "Selecções Ver&ticais"
+
+#: kwview.cpp:1057
+#, fuzzy
+msgid "Vertical Selections Off"
 msgstr "Selecções Ver&ticais"
 
 #: kwview.cpp:1116

@@ -69,7 +69,9 @@ msgstr "Fonte"
 msgid ""
 "KCalc %s\n"
 "Copyright 1997 Bernd Johannes Wuebben <wuebben@kde.org>\n"
-msgstr "KCalc %s\nCopyright 1997 Bernd Johannes Wuebben <wuebben@kde.org>\n"
+msgstr ""
+"KCalc %s\n"
+"Copyright 1997 Bernd Johannes Wuebben <wuebben@kde.org>\n"
 
 #: kcalc_core.cpp:1111
 msgid "Last stat item erased"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-01-14 01:57+0100\n"
 "PO-Revision-Date: 1998-12-26 17:44 CET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <flidr@kky.zcu.cz>\n"
@@ -72,6 +72,11 @@ msgstr "Font prvku"
 #: kwview.cpp:1057
 #, fuzzy
 msgid "Vertical Selections On"
+msgstr "&Vertikální výbìry"
+
+#: kwview.cpp:1057
+#, fuzzy
+msgid "Vertical Selections Off"
 msgstr "&Vertikální výbìry"
 
 #: kwview.cpp:1116

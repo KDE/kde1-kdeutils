@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-01-14 01:57+0100\n"
 "PO-Revision-Date: 1998-12-07 23:56+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "Language-Team: Spanish <kde-es@kyb.ml.org>\n"
@@ -72,6 +72,11 @@ msgstr "Fuente del Item"
 #: kwview.cpp:1057
 #, fuzzy
 msgid "Vertical Selections On"
+msgstr "Selecciones &Verticales"
+
+#: kwview.cpp:1057
+#, fuzzy
+msgid "Vertical Selections Off"
 msgstr "Selecciones &Verticales"
 
 #: kwview.cpp:1116
