@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-12-08 02:02+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: 1998-03-15 20:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian\n"
@@ -13,15 +13,15 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: iso-8859-2\n"
 
-#: main.cpp:176
+#: main.cpp:178
 msgid "Sorry, can't open your printcap file."
 msgstr "®alim, ne mogu otvoriti printcap datoteku."
 
-#: main.cpp:181
+#: main.cpp:183
 msgid "Sorry, unable to parse your printcap."
 msgstr "®alim, ne mogu analizirati printcap datoteku."
 
-#: main.cpp:182
+#: main.cpp:184
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
 msgstr "Molim po¹aljite va¹ printcap na Christoph.Neerfeld@home.ivm.de"
 
@@ -57,7 +57,7 @@ msgstr "Posao"
 msgid "Size"
 msgstr "Velièina"
 
-#: klpq.cpp:143 klpq.cpp:218
+#: klpq.cpp:143 klpq.cpp:219
 msgid "Make Top"
 msgstr "Stavi na vrh"
 
@@ -73,31 +73,39 @@ msgstr "Osvje¾i &automatski..."
 msgid "&Spooler"
 msgstr "&Posrednik"
 
-#: klpq.cpp:203
+#: klpq.cpp:199
+#, c-format
+msgid ""
+"Klpq %s\n"
+"(C) by Christoph Neerfeld\n"
+"chris@kde.org"
+msgstr ""
+
+#: klpq.cpp:204
 msgid "&Config"
 msgstr "&Postava"
 
-#: klpq.cpp:389
+#: klpq.cpp:390
 #, c-format
 msgid "Do you really want to remove job No %d"
 msgstr "Da li zbilja ¾elite ukloniti posao br. %d"
 
-#: klpq.cpp:409
+#: klpq.cpp:410
 #, c-format
 msgid ""
 "Do you really want to move job No\n"
 "%d\n"
 "on top of queue"
-msgstr 
+msgstr ""
 "Da li zbilja ¾elite pomaknuti posao br.\n"
 "%d\n"
 "na vrh reda"
 
-#: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
+#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
 msgid "Permission denied"
 msgstr "Pristup odbijen"
 
-#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
+#: klpq.cpp:559 klpq.cpp:565 klpq.cpp:580
 msgid ""
 "This is a privileged command\n"
 "and you do not have permission to execute it."
