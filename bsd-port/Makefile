@@ -5,8 +5,7 @@
 #
 # $Id$
 #
-
-#DISTNAME=	kdeutils-`date "+%y%m%d"`
+BROKEN=		"Until someone has the time to fix this up a bit."
 PKGNAME=	kdeutils-`date "+%y%m%d"`
 CATEGORIES=	misc kde
 
@@ -16,7 +15,7 @@ BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt \
 		autoconf:${PORTSDIR}/devel/autoconf \
 		automake:${PORTSDIR}/devel/automake
 
-LIB_DEPENDS=	qt\\.1\\.3[1-9]:${PORTSDIR}/x11/qt \
+LIB_DEPENDS=	qt\\.1\\.3[0-9]:${PORTSDIR}/x11/qt \
 		gif\\.[23]\\.:${PORTSDIR}/graphics/giflib \
 		jpeg\\.8\\.:${PORTSDIR}/graphics/jpeg \
 		kdecore\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
@@ -25,7 +24,7 @@ LIB_DEPENDS=	qt\\.1\\.3[1-9]:${PORTSDIR}/x11/qt \
 		khtmlw\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
 		kfm\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \
 		mediatool\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs
-
+NO_MTREE=	yup
 USE_GMAKE=	"without a doubt"
 NO_WRKDIR=	"Cause, you've obviously got the source in the parent directory"
 WRKSRC=		../
@@ -47,5 +46,15 @@ pre-clean:
 # We need to go through Makefile.cvs before anything else.
 pre-configure:
 		cd $(WRKSRC);rm -f config.cache;$(GMAKE) -f Makefile.cvs
+
+make-plist:
+		cd ${INSTALL_ROOT} && \
+			find . -type f|sed 's,^\./,,'|sort > $(PLIST)
+		cd ${INSTALL_ROOT} && \
+			find . -type l|sed 's,^\./,,'|sort > $(PLIST)
+		@echo "@exec /sbin/ldconfig -m %B" >> $(PLIST)
+		cd ${INSTALL_ROOT} && \
+			find . -type d|sed 's,^\./,@dirrm ,'|sort > $(PLIST)
+		@echo "@unexec /sbin/ldconfig -R" >> $(PLIST)
 
 .include <bsd.port.mk>
