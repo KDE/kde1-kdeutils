@@ -16,7 +16,7 @@ msgstr ""
 
 #: toplevel.cpp:76
 msgid "Shortcut..."
-msgstr "Raccourci..."
+msgstr "Raccourci clavier..."
 
 #: toplevel.cpp:77
 msgid "Popup at mouse position"
