@@ -1,0 +1,181 @@
+msgid ""
+msgstr ""
+"Date: 1997-10-09 11:06:57-0400\n"
+"From: Robert Palmbos <robertp@pbnjelly>\n"
+"Content-Type: text/plain; charset=\n"
+"Xgettext-Options: --keyword=translate -C\n"
+"Files: adddlg.cc ar.cc arch.cc extractdlg.cc karch.cc kfdird.cc ktablistbox.cc kzip.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h extractdlg.h karch.h kfdird.h ktablistbox.h kzip.h lha.h tar.h text.h zip.h\n"
+"Translated by: Andrea Rizzi <bilibao@ouverture.it>"
+
+#: adddlg.cc:9
+msgid "Add File Options"
+msgstr "Opzioni aggiunta file"
+
+#: adddlg.cc:13 extractdlg.cc:69
+msgid "Ok"
+msgstr "Ok"
+
+#: adddlg.cc:16 arch.cc:33 extractdlg.cc:73
+msgid "Cancel"
+msgstr "Cancella"
+
+#: adddlg.cc:20
+msgid "Store Full Path"
+msgstr "Archivia Path completo"
+
+#: adddlg.cc:23
+msgid "Only Add Newer Files"
+msgstr "Aggiungi solo file più recenti"
+
+#: extractdlg.cc:7
+msgid "Files"
+msgstr "File"
+
+#: extractdlg.cc:11
+msgid "Extract Options"
+msgstr "Opzioni Estrazione"
+
+#: extractdlg.cc:15
+msgid "Destination"
+msgstr "Destinazione"
+
+#: extractdlg.cc:23
+msgid "Browse..."
+msgstr "Sfoglia..."
+
+#: extractdlg.cc:30
+msgid "Preserve Permissions"
+msgstr "Preserva Permessi"
+
+#: extractdlg.cc:33
+msgid "Filenames to Lowercase"
+msgstr "Nomifile minuscoli"
+
+#: extractdlg.cc:36
+msgid "All Files"
+msgstr "Tutti i file"
+
+#: extractdlg.cc:39
+msgid "Selected File"
+msgstr "File selezionato"
+
+#: extractdlg.cc:42
+msgid "Pattern"
+msgstr "Motivo"
+
+#: kzip.cc:36
+msgid "&New"
+msgstr "&Nuovo"
+
+#: kzip.cc:37
+msgid "&Open..."
+msgstr "&Apri"
+
+#: kzip.cc:39
+msgid "&Extract To..."
+msgstr "&Estrai in..."
+
+#: kzip.cc:41
+msgid "&Close"
+msgstr "&Chiudi"
+
+#: kzip.cc:42
+msgid "E&xit"
+msgstr "&Esci"
+
+#: kzip.cc:44
+msgid "E&xtract..."
+msgstr "E&strai..."
+
+#: kzip.cc:45
+msgid "&View"
+msgstr "&Visualizza"
+
+#: kzip.cc:47
+msgid "&Delete"
+msgstr "&Cancella"
+
+#: kzip.cc:49
+msgid "&Set Archive Directory..."
+msgstr "&Imposta Directory Archivio..."
+
+#: kzip.cc:50
+msgid "&File Adding Options..."
+msgstr "&Opzioni aggiunta file..."
+
+#: kzip.cc:52
+msgid "&Help..."
+msgstr "&Aiuto"
+
+#: kzip.cc:54
+msgid "&About..."
+msgstr "&Info su..."
+
+#: kzip.cc:56
+msgid "&File"
+msgstr "&File"
+
+#: kzip.cc:57
+msgid "&Edit"
+msgstr "Modifica"
+
+#: kzip.cc:58
+msgid "&Options"
+msgstr "Opzioni"
+
+#: kzip.cc:60
+msgid "&Help"
+msgstr "&Aiuto"
+
+#: kzip.cc:87
+msgid "Welcome to KZip..."
+msgstr "Benvenuto in KZip..."
+
+#: kzip.cc:139
+msgid "Can't create archive of that type"
+msgstr "Non si può creare un archivio di quel tipo"
+
+#: kzip.cc:160 kzip.cc:194 kzip.cc:201
+msgid "Create or open an archive first"
+msgstr "Prima crea o apri un archivio"
+
+#: kzip.cc:183
+msgid "Error saving to archive"
+msgstr "Errore durante il salvataggio nell'archivio"
+
+#: kzip.cc:212
+msgid "Archive Dir:"
+msgstr "Dir. Archivio:"
+
+#: kzip.cc:251 kzip.cc:422
+msgid "Unknown archive format"
+msgstr "Formato archivio sconosciuto"
+
+#: kzip.cc:286
+msgid "Archive Directory"
+msgstr "Directory Archivio"
+
+#: kzip.cc:327
+msgid "None"
+msgstr "Nessuno"
+
+#: kzip.cc:362
+msgid "Open With: (program)"
+msgstr "Apri con: (programma)"
+
+#: ar.h:24
+msgid "Permissions\tOwner/Group\tSize      \tTimeStamp         \tName\t"
+msgstr "Permessi\tProprietario/gruppo\tDimensione  \tOrario     \tNome\t"
+
+#: lha.h:24
+msgid "Permsissions\tOwner/Group\tPacked      \tSize         \tRatio\tCRC\tTimeStamp     \tName\t"
+msgstr "Permessi\tProprietario/gruppo\tCompresso"
+
+#: tar.h:22
+msgid "Permissions\tOwner/Group\tSize        \tTimeStamp\tName\t"
+msgstr "Permessi\tProprietario/gruppo\tDimensione\t Orario\t Nome\t"
+
+#: zip.h:24
+msgid "Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
+msgstr "Lunghezza\tMetodo\tDimensione\tRatio\tData   \tOrario\tCRC-32\tNome\t"
+
