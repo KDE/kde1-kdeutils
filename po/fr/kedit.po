@@ -131,6 +131,11 @@ msgid ""
 "Bernd Johannes Wuebben\n"
 "wuebben@kde.org"
 msgstr ""
+"KEdit %s\n"
+"\n"
+"Copyright 1997-98\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
 
 #: kedit.cpp:332
 msgid "New Document"
@@ -237,7 +242,7 @@ msgstr "Indentation automatique : inactive"
 #: kedit.cpp:1130
 #, c-format
 msgid "Line: %d Col: %d"
-msgstr "Ligne : %d, Col : %d"
+msgstr "Lig : %d, Col : %d"
 
 #: filldlg.cpp:31 kedit.cpp:1147
 msgid "KEdit Options"
@@ -447,7 +452,7 @@ msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
 msgstr ""
-"Le debut du document a été atteint.\n"
+"Le début du document a été atteint.\n"
 "Désirez-vous recommencer par la fin ?"
 
 #: keditcl2.cpp:691 keditcl2.cpp:789
@@ -496,7 +501,7 @@ msgstr "Imprimer la sélection"
 
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"
-msgstr "Largeur colonne :"
+msgstr "Couper les colonnes à :"
 
 #: filldlg.cpp:40
 msgid "Word Wrap"
@@ -508,7 +513,7 @@ msgstr "Copies de secours"
 
 #: filldlg.cpp:46
 msgid "Mail Command:"
-msgstr "Commande d'expédition :"
+msgstr "Envoi de courrier :"
 
 #: filldlg.cpp:140
 msgid "You must enter an integer."
@@ -530,5 +535,4 @@ msgstr "Expédier"
 msgid "You must specify a Recipient"
 msgstr "Vous devez spécifier un destinataire"
 
-#~ msgid "&About..."
-#~ msgstr "A &propos..."
+

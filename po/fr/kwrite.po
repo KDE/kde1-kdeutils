@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwrite 0.95\n"
 "POT-Creation-Date: 1999-01-14 01:57+0100\n"
-"PO-Revision-Date: 1998-12-16 21:35 CET\n"
+"PO-Revision-Date: 1999-01-16 16:15 CET\n"
 "Last-Translator: Francois-Xavier DURANCEAU "
 "<Francois-Xavier.Duranceau@loria.fr>\n"
 "Language-Team: Français <fr@li.org>\n"
@@ -75,14 +75,12 @@ msgid "Item Font"
 msgstr "Police de l'élément"
 
 #: kwview.cpp:1057
-#, fuzzy
 msgid "Vertical Selections On"
-msgstr "Sélections &verticales"
+msgstr "Sélections verticales actives"
 
 #: kwview.cpp:1057
-#, fuzzy
 msgid "Vertical Selections Off"
-msgstr "Sélections &verticales"
+msgstr "Sélections verticales inactives"
 
 #: kwview.cpp:1116
 msgid "The specified File does not exist"
@@ -361,13 +359,12 @@ msgid "&Insert..."
 msgstr "&Insérer..."
 
 #: toplevel.cpp:169
-#, fuzzy
 msgid "Open Recen&t"
-msgstr "Ouvrir un document"
+msgstr "Récemmen&t ouvert"
 
 #: toplevel.cpp:180
 msgid "New &Window"
-msgstr "Nouvelle &fenêtre"
+msgstr "No&uvelle fenêtre"
 
 #: toplevel.cpp:181
 msgid "New &View"
@@ -469,6 +466,11 @@ msgid ""
 "Jochen Wilhelmy\n"
 "digisnap@cs.tu-berlin.de"
 msgstr ""
+"KWrite 0.98\n"
+"\n"
+"Copyright 1998\n"
+"Jochen Wilhelmy\n"
+"digisnap@cs.tu-berlin.de"
 
 #: toplevel.cpp:272
 msgid "&Bookmarks"

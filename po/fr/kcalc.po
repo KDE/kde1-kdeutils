@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcalc\n"
 "POT-Creation-Date: 1999-01-13 01:49+0100\n"
-"PO-Revision-Date: 1998-08-15 16:00+01\n"
-"Last-Translator: HERITIER FABRICE <fabriceh@usa.net>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 1999-01-16 16:00+01\n"
+"Last-Translator: Francois-Xavier DURANCEAU <Francois-Xavier.Duranceau@loria.fr>\n"
+"Language-Team: Français <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
@@ -40,6 +40,13 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
+"KCalc %s\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@math.cornell.edu\n"
+"wuebben@kde.org\n"
+"Copyright (C) 1996-98\n"
+"\n"
+"\n"
 
 #: kcalc.cpp:1551
 msgid "Base type: long double\n"
@@ -52,14 +59,14 @@ msgid ""
 "recompile KCalc with 'long double' precision enabled. See the README for "
 "details."
 msgstr ""
-"A cause de probleme avec glibc, J'ai du reduire la precision de KCalc de "
+"A cause de problème avec glibc, j'ai du réduire la précision de KCalc de "
 "'long double' à 'double'. Les posseseurs d'un système avec une libc qui "
-"fonctionne peuvent recompiler KCalc avec la precision 'long double'. "
+"fonctionne peuvent recompiler KCalc avec la précision 'long double'. "
 "Consulter le fichier README pour des détails."
 
 #: configdlg.cpp:56 kcalc.cpp:1592
 msgid "Defaults"
-msgstr "Defauts"
+msgstr "Défaut"
 
 #: kcalc.cpp:1593
 msgid "Display Font"
@@ -71,6 +78,8 @@ msgid ""
 "KCalc %s\n"
 "Copyright 1997 Bernd Johannes Wuebben <wuebben@kde.org>\n"
 msgstr ""
+"KCalc %s\n"
+"Copyright 1997 Bernd Johannes Wuebben <wuebben@kde.org>\n"
 
 #: kcalc_core.cpp:1111
 msgid "Last stat item erased"
@@ -82,47 +91,47 @@ msgstr "Mem Stat Effacée"
 
 #: kcalc_core.cpp:1627
 msgid "Stack processing error - right_op"
-msgstr ""
+msgstr "Erreur de traitement de la pile - right_op"
 
 #: kcalc_core.cpp:1635
 msgid "Stack processing error - function"
-msgstr ""
+msgstr "Erreur de traitement de la pile - function"
 
 #: kcalc_core.cpp:1644
 msgid "Stack processing error - left_op"
-msgstr ""
+msgstr "Erreur de traitement de la pile - left_op"
 
 #: kcalc_core.cpp:1948 kcalc_core.cpp:1956
 msgid "Emergency"
-msgstr ""
+msgstr "Urgence"
 
 #: kcalc_core.cpp:1948 kcalc_core.cpp:1956
 msgid "Stack Error!"
-msgstr ""
+msgstr "Erreur de la pile !"
 
 #: configdlg.cpp:61
 msgid "Foreground Color:"
-msgstr "Couleur du premier plan:"
+msgstr "Couleur des chiffres :"
 
 #: configdlg.cpp:78
 msgid "Background Color:"
-msgstr "Couleur de l'arrière plan:"
+msgstr "Couleur du fond :"
 
 #: configdlg.cpp:95
 msgid "Precision:"
-msgstr "Precision:"
+msgstr "Précision :"
 
 #: configdlg.cpp:116
 msgid "Set Fixed Precision at:"
-msgstr "Fixer la précision à"
+msgstr "Fixer la précision à :"
 
 #: configdlg.cpp:145
 msgid "Beep on Error"
-msgstr "Beeper en cas d'erreur"
+msgstr "Bip en cas d'erreur"
 
 #: configdlg.cpp:153
 msgid "Trigonometry Mode"
-msgstr "Mode Trigonometrie"
+msgstr "Mode Trigonométrique"
 
 #: configdlg.cpp:158
 msgid "Statistical Mode"
@@ -130,23 +139,23 @@ msgstr "Mode Statistique"
 
 #: fontdlg.cpp:44
 msgid "Set Default Font"
-msgstr "Selectionner la police par defaut"
+msgstr "Police par défaut"
 
 #: fontdlg.cpp:53
 msgid "Family:"
-msgstr "Famille:"
+msgstr "Famille :"
 
 #: fontdlg.cpp:63
 msgid "Point Size:"
-msgstr "Taille:"
+msgstr "Taille :"
 
 #: fontdlg.cpp:76
 msgid "Style:"
-msgstr "Style:"
+msgstr "Style :"
 
 #: fontdlg.cpp:91
 msgid "Weight:"
-msgstr "Epaisseur:"
+msgstr "Epaisseur :"
 
 #: fontdlg.cpp:101 fontdlg.cpp:134
 msgid "Bold"

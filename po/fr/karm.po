@@ -107,20 +107,20 @@ msgstr "Chronomètre actif"
 
 #: top.cpp:150
 msgid "Preferences"
-msgstr ""
+msgstr "Préférences"
 
 #: top.cpp:194
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s %s -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
 msgstr ""
-"%s 0.3 -- Sirtaj Singh Kang\n"
+"%s %s -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
-"The K Desktop Environment"
+"L'environnement de bureau KDE"
 
 #: top.cpp:200
 msgid "&Clock"
@@ -132,7 +132,7 @@ msgstr "&Tâche"
 
 #: top.cpp:209
 msgid "&Preferences..."
-msgstr ""
+msgstr "&Préférences..."
 
 #: top.cpp:223
 msgid "S&top"
@@ -142,14 +142,3 @@ msgstr "S&top"
 msgid "&New"
 msgstr "&Nouvelle"
 
-#~ msgid "&About"
-#~ msgstr "&A propos de"
-
-#~ msgid "About "
-#~ msgstr "A propos de "
-
-#~ msgid "&Contents"
-#~ msgstr "&Contenu"
-
-#~ msgid "&Start"
-#~ msgstr "Démarrer (&S)"
