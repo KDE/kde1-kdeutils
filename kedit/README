@@ -1,12 +1,8 @@
-
-
 kedit 0.7
 =========
 
-	Fixed up word wrap in auto-indent and normal mode and implemented
-	emacs still ctrl-k ctrl-y kill-ring. KEdit should be quite usable
-	now.
-	
+Fixed up word wrap in auto-indent and normal mode and implemented emacs
+still ctrl-k ctrl-y kill-ring. KEdit should be quite usable now.
 
 kedit 0.5
 =========
@@ -35,10 +31,8 @@ basic functionality. Please test kedit and let me know immediately if
 you think you found a bug. I will fix the problem as soon as
 possible.
 
-
 Note: You need smgl-tools 0.99 if you want to regenerate the provided
       documentation in ps, html, dvi format for the sgml source.
-
 
 Changes:
 	o adopted new kde look
@@ -86,12 +80,10 @@ Bernd
 wuebben@kde.org
 wuebben@math.cornell.edu
 
-
 kedit+ 0.4.1
 ============
 
 Solved the "tab" problem. kedit+ is now Makefile proof. :-)
-
 
 kedit+ 0.4
 ==========
@@ -115,8 +107,8 @@ Best Regards, Bernd
 wuebben@kde.org
 wuebben@math.cornell.edu
 
-==================================================================
-Readme for version 0.2:
+kedit+ 0.2
+==========
 
 This is kedit+ a simple text editor for the KDE project. I have taken 
 Alex Sanda's kedit and turned it into what I believe to be
@@ -200,5 +192,4 @@ TODO:
 	Use (a not existing) KFileDialog that lets you enter URLs
 
 
-
-                         Ber
+                         Bernd
