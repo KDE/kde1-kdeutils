@@ -255,7 +255,7 @@ msgstr ""
 "KNotes sta acnora\n"
 "aspettando la fine di un lavoro\n "
 "su internet. Per favore aspetta\n"
-"la fine o arresta quello avviato\n"
+"la fine o arresta quello avviato"
 
 #: knotes.cpp:1221
 msgid "Could not start or find KFM"
