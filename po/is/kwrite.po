@@ -79,7 +79,7 @@ msgstr "Lóð&rétt val óvirkt"
 
 #: kwview.cpp:1116
 msgid "The specified File does not exist"
-msgstr "Skain sem þú valdir er ekki til"
+msgstr "Skráin sem þú valdir er ekki til"
 
 #: kwview.cpp:1126
 msgid "You have specified a directory"
