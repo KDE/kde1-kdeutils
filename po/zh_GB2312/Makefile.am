@@ -3,7 +3,7 @@
 GMFILES = kedit.gmo khexdit.gmo knotes.gmo kzip.gmo karm.gmo 
 POFILES = $(GMFILES:.gmo=.po)
 
-LANG = de
+LANG = zh_GB2312
 
 localedir = $(kde_locale)
 
