@@ -8,6 +8,7 @@
 #include <qaccel.h>
 #include <qlayout.h>
 #include <kbuttonbox.h>
+#include <kapp.h> // for i18n
 #include "fieldsel.h"
 
 FieldSelect::FieldSelect(Procview *pv, Proc *proc)
