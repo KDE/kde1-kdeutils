@@ -66,6 +66,11 @@ AC_SUBST(topdir)
 dnl Perform program name transformation
 AC_ARG_PROGRAM
 
+if echo $DO_NOT_COMPILE | grep -q kfloppy > /dev/null; then
+ ac_cv_compile_kfloppy=no
+
+else
+
 AC_MSG_CHECKING(if kfloppy's headers are installed)
 AC_CACHE_VAL(ac_cv_compile_kfloppy,
 [
@@ -89,4 +94,5 @@ AC_MSG_RESULT($ac_cv_compile_kfloppy)
 if test "$ac_cv_compile_kfloppy" = "no"; then
   DO_NOT_COMPILE="$DO_NOT_COMPILE kfloppy"
 fi
+fi 
 
