@@ -165,7 +165,7 @@ void ConfigDlg::help(){
 
 void ConfigDlg::okButton(){
 
-  printf("entering okButon\n");
+  //  printf("entering okButon\n");
     defst->width      = width->getValue();
     defst->height     = height->getValue();
 
@@ -173,7 +173,7 @@ void ConfigDlg::okButton(){
     defst->printcommand = print->text();
     defst->mailcommand.detach();
     defst->printcommand.detach();
-  printf("leaving okButon\n");
+    //  printf("leaving okButon\n");
   
 
 }

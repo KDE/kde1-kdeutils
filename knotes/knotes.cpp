@@ -649,7 +649,7 @@ void KPostit::print(){
   QString cmd;
   cmd = postitdefaults.printcommand.copy();
   cmd = cmd.sprintf(postitdefaults.printcommand.data(),name.data());
-  printf("%s\n",cmd.data());
+  //  printf("%s\n",cmd.data());
 
   printpipe = popen(cmd.data(),"w");
 
@@ -1385,7 +1385,7 @@ void KPostit::defaults()
 
   if(tabdialog->exec()){
 
-    printf("Returned from exec() accepted.\n");
+    //    printf("Returned from exec() accepted.\n");
     postitdefaults.forecolor  = newdefstruct.forecolor;
     postitdefaults.backcolor  = newdefstruct.backcolor;
     postitdefaults.width      = newdefstruct.width;
@@ -1399,10 +1399,10 @@ void KPostit::defaults()
   }
   else{
 
-    printf("Returned from exec() not accepted\n");
+    //    printf("Returned from exec() not accepted\n");
   }
 
-  printf("leaving\n");
+  //  printf("leaving\n");
 }
 
 
@@ -1553,7 +1553,7 @@ void KPostit::insertNetFile( const char *_url)
 	return;
     }
 
-    tmpFile.sprintf( "file:/tmp/knotes%i", time( 0L ) );
+    tmpFile.sprintf( "file:/tmp/knotes%lu", time( 0L ) );
     connect( kfm, SIGNAL( finished() ), this, SLOT( slotKFMFinished() ) );
     kfm->copy( netFile.data(), tmpFile.data() );
 
