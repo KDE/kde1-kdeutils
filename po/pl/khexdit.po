@@ -1,8 +1,6 @@
 # KTranslator Generated File
-
-#Major part translated by Piotr Roszatycki <dexter@fnet.pl>
-#Minor latest updates by Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>
-
+# Major part translated by Piotr Roszatycki <dexter@fnet.pl>
+# Minor latest updates by Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>
 msgid ""
 msgstr ""
 "Project-Id-Version: khexdit \n"
