@@ -1,0 +1,20 @@
+# KDE Config File
+[KDE Desktop Entry]
+Type=Application
+Exec=klpq -caption "%c" %u
+Icon=printer.xpm
+MiniIcon=
+DocPath=klpq/index.html
+Comment=Displays Printer Queue
+Comment[fr]=Statut de la file d'impression
+Comment[de]=Zeigt die Druckerwarteschlange
+Comment[no]=Viser utskriftskøen
+Comment[pt]=Status da Fila de Impressão
+Comment[pt_BR]=Status da Fila de Impressão
+Terminal=0
+Name=Printer Queue
+Name[fr]=File d'impression
+Name[de]=Druckerwarteschlange
+Name[no]=Utskriftskø
+Name[pt]=Fila de Impressão
+Name[pt_BR]=Fila de Impressão
