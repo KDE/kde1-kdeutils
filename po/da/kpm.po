@@ -352,8 +352,8 @@ msgid ""
 "You do not have permission to renice process %d (%s).\n"
 "Only the process owner and the super-user are allowed to do that."
 msgstr ""
-"Du har ikke ret til at ændre nice-verdi for process %d (%s).\n"
-"Kun process-ejeren og superbruger har lov til det."
+"Du har ikke ret til at ændre nice-værdi for proces %d (%s).\n"
+"Kun proces-ejeren og superbruger har lov til det."
 
 #: qps.C:886
 msgid "Only the super-user may lower the nice value of a process."
