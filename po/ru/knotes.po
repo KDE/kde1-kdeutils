@@ -1,18 +1,16 @@
 # Локализация для knotes.
 # Denis Yu. Pershin <dyp@inetlab.com>, 1997.
 #
-
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes 0.3\n"
-"POT-Creation-Date: 1997-10-09 11:06:57-0400\n"
+"POT-Creation-Date: 1997-12-28 13:51+0100\n"
 "PO-Revision-Date: 1997-11-19 22:50:52+0600\n"
 "Last-Translator: Denis Yu. Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=koi8-r\n"
 "Content-Transfer-Encoding: 8-bit\n"
-
 
 #: alarm.cpp:58
 #, c-format
@@ -27,14 +25,14 @@ msgstr "Очистить"
 msgid "Set"
 msgstr "Установить"
 
-#: alarm.cpp:150 bwdatetime.cpp:158 bwdatetime.cpp:170 knotes.cpp:245
-#: knotes.cpp:260 knotes.cpp:416 knotes.cpp:499 knotes.cpp:545 knotes.cpp:688
-#: knotes.cpp:869 knotes.cpp:1193 knotes.cpp:1208 knotes.cpp:1220
-#: knotes.cpp:1240 renamedlg.cpp:75 renamedlg.cpp:85
+#: alarm.cpp:152 bwdatetime.cpp:160 bwdatetime.cpp:175 knotes.cpp:435
+#: knotes.cpp:457 knotes.cpp:519 knotes.cpp:614 knotes.cpp:663 knotes.cpp:1000
+#: knotes.cpp:1400 knotes.cpp:1417 knotes.cpp:1431 knotes.cpp:1453
+#: renamedlg.cpp:77 renamedlg.cpp:91
 msgid "Sorry"
 msgstr "Извините"
 
-#: alarm.cpp:151
+#: alarm.cpp:153
 msgid "I am afraid you already missed your appointment."
 msgstr "Боюсь, что вы уже опоздали на встречу."
 
@@ -54,11 +52,11 @@ msgstr "Год:"
 msgid "Time:"
 msgstr "Время:"
 
-#: bwdatetime.cpp:159
+#: bwdatetime.cpp:161
 msgid "The Time you selected is invalid"
 msgstr "Вы выбрали недопустимое время"
 
-#: bwdatetime.cpp:171
+#: bwdatetime.cpp:176
 msgid "The Date you selected is invalid"
 msgstr "Вы выбрали недопустимую дату"
 
@@ -94,7 +92,7 @@ msgstr "Команда почта"
 msgid "3d Frame"
 msgstr "3-ая рамка"
 
-#: configdlg.cpp:129 knotes.cpp:134
+#: configdlg.cpp:129 knotes.cpp:272
 msgid "Auto Indent"
 msgstr ""
 
@@ -114,79 +112,89 @@ msgstr "Наклонный"
 msgid "Roman"
 msgstr "Роман"
 
-#: knotes.cpp:107
+#: knotes.cpp:245
 msgid "Text Color"
 msgstr "Цвет Текста"
 
-#: knotes.cpp:108
+#: knotes.cpp:246
 msgid "Background Color"
 msgstr "Цвет фона"
 
-#: knotes.cpp:111
+#: knotes.cpp:249
 msgid "Clear"
 msgstr "Очистить"
 
-#: knotes.cpp:114
+#: knotes.cpp:252
 msgid "New Note"
 msgstr "Новая памятка"
 
-#: knotes.cpp:116
+#: knotes.cpp:254
 msgid "Delete Note"
 msgstr "Удалить памятка"
 
-#: knotes.cpp:118
+#: knotes.cpp:256
 msgid "Rename Note"
 msgstr "Переименовать памятку"
 
-#: knotes.cpp:120
+#: knotes.cpp:258
 msgid "Alarm ..."
 msgstr "Будильник..."
 
-#: knotes.cpp:123
+#: knotes.cpp:261
 msgid "Calendar"
 msgstr "Календарь"
 
-#: knotes.cpp:125
+#: knotes.cpp:263
 msgid "Mail Note ..."
 msgstr "Памятка по почте..."
 
-#: knotes.cpp:127
+#: knotes.cpp:265
 msgid "Print Note"
 msgstr "Напечатать памятку..."
 
-#: knotes.cpp:133 knotes.cpp:181
+#: knotes.cpp:271 knotes.cpp:342
 msgid "3D Frame"
 msgstr "3-ая рамка"
 
-#: knotes.cpp:136
+#: knotes.cpp:274
 msgid "Font"
 msgstr "Шрифт"
 
-#: knotes.cpp:137
+#: knotes.cpp:275
 msgid "Colors"
 msgstr "Цвета"
 
-#: knotes.cpp:139
+#: knotes.cpp:277
 msgid "Change Defaults ..."
 msgstr "Изменить установки..."
 
-#: knotes.cpp:145
+#: knotes.cpp:284
 msgid "Options"
 msgstr "Опции"
 
-#: knotes.cpp:160
+#: knotes.cpp:303
+#, fuzzy
+msgid "Hide Note"
+msgstr "Новая памятка"
+
+#: knotes.cpp:305
 msgid "Insert Date"
 msgstr "Втавить дату"
 
-#: knotes.cpp:163
+#: knotes.cpp:308
 msgid "Operations"
 msgstr "Операции"
 
-#: knotes.cpp:185
+#: knotes.cpp:346
 msgid "No Frame"
 msgstr "Без рамки"
 
-#: knotes.cpp:246
+#: knotes.cpp:379 knotes.cpp:383 knotes.cpp:577 knotes.cpp:787 knotes.cpp:791
+#: timer.cpp:87 timer.cpp:110
+msgid "Note: "
+msgstr ""
+
+#: knotes.cpp:436
 msgid ""
 "Could not save a KNote.\n"
 "Quit anyways?"
@@ -194,11 +202,11 @@ msgstr ""
 "Памятка не записана.\n"
 "Выйти?"
 
-#: knotes.cpp:259
+#: knotes.cpp:454
 msgid "Could not save KNote Alarms\n"
 msgstr "Не могу записать Будильник\n"
 
-#: knotes.cpp:415
+#: knotes.cpp:515
 #, c-format
 msgid ""
 "Could not pipe the contents of this KNote into:\n"
@@ -207,7 +215,7 @@ msgstr ""
 "Не могу перенаправить содержимое памятки в:\n"
 " %s"
 
-#: knotes.cpp:498
+#: knotes.cpp:608
 #, c-format
 msgid ""
 "Could not pipe the contents of this KNotes into:\n"
@@ -216,7 +224,7 @@ msgstr ""
 "Не могу перенаправить содержимое памяток в:\n"
 " %s"
 
-#: knotes.cpp:545
+#: knotes.cpp:664
 msgid ""
 "You have exeeded the arbitrary and unjustly setlimit of 50 knotes.\n"
 " Please complain to the author."
@@ -224,15 +232,11 @@ msgstr ""
 "Вы превзошли установленный предел в 50 памяток.\n"
 "Пожалуйста обращайтесь к автору."
 
-#: knotes.cpp:689
-msgid "You can't delete the last KNote."
-msgstr "Вы не можете удалить последнюю памятку."
-
-#: knotes.cpp:694
+#: knotes.cpp:824
 msgid "Question"
 msgstr "Вопрос"
 
-#: knotes.cpp:695
+#: knotes.cpp:825
 msgid ""
 "Are you sure you want to delete this\n"
 "note permanently?"
@@ -240,7 +244,7 @@ msgstr ""
 "Вы уверены, что хотите удалить памятку\n"
 "навсегда?"
 
-#: knotes.cpp:868
+#: knotes.cpp:997
 #, c-format
 msgid ""
 "Could not load:\n"
@@ -249,19 +253,19 @@ msgstr ""
 "Не могу загрузить:\n"
 " %s"
 
-#: knotes.cpp:1042
+#: knotes.cpp:1217
 msgid "KNotes Configuraton"
 msgstr "Опции"
 
-#: knotes.cpp:1079
+#: knotes.cpp:1270
 msgid "Defaults"
 msgstr "Установки"
 
-#: knotes.cpp:1080
+#: knotes.cpp:1271
 msgid "More ..."
 msgstr "Еще..."
 
-#: knotes.cpp:1209
+#: knotes.cpp:1418
 msgid ""
 "KNotes is already waiting\n"
 "for an internet job to finish\n"
@@ -273,11 +277,11 @@ msgstr ""
 "Пожайлуста подождите, пока оно будеи завершено\n"
 "или остановите его."
 
-#: knotes.cpp:1221
+#: knotes.cpp:1432
 msgid "Could not start or find KFM"
 msgstr "Не могу запустить или найти KFM"
 
-#: knotes.cpp:1241
+#: knotes.cpp:1454
 msgid ""
 "Could not save the KNotes.\n"
 "Close anyways?"
@@ -285,7 +289,7 @@ msgstr ""
 "Памятки не записаны.\n"
 "Закрыть?"
 
-#: knotes.cpp:1319
+#: knotes.cpp:1566
 #, c-format
 msgid ""
 "Found an alarm to which the underlying\n"
@@ -302,7 +306,7 @@ msgstr ""
 "\n"
 "Я исправлю проблему."
 
-#: knotes.cpp:1325
+#: knotes.cpp:1574
 msgid "Inconsistency"
 msgstr "Противоречие"
 
@@ -314,7 +318,7 @@ msgstr "Переименовать памятку в"
 msgid "Rename"
 msgstr "Переименовать"
 
-#: renamedlg.cpp:76
+#: renamedlg.cpp:79
 msgid ""
 "The name \"xyalarms\" is reserved for internal usage.\n"
 "Please choose a different name"
@@ -322,10 +326,13 @@ msgstr ""
 "Имя \"xyalarms\" зарезервировано для внутреннего использования.\n"
 "Пожайлуста выберите другое имя."
 
-#: renamedlg.cpp:86
+#: renamedlg.cpp:92
 msgid ""
 "A KNotes note with this name already exists\n"
 "Please choose a different name"
 msgstr ""
 "Памятка с таким именем уже существует\n"
 "Пожайлуста выберите другое имя."
+
+#~ msgid "You can't delete the last KNote."
+#~ msgstr "Вы не можете удалить последнюю памятку."
