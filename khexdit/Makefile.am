@@ -35,3 +35,5 @@ uninstall-local:
 	rm -f $(kde_icondir)/khexdit.xpm
 	rm -f $(kde_minidir)/khexdit.xpm
 
+messages:
+	@XGETTEXT@ -C -ktranslate *.cpp && mv messages.po ../po/khexdit.pot
