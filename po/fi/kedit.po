@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: kedit.cpp:83 kedit.cpp:1019
@@ -20,7 +20,7 @@ msgstr "N‰yt‰ &painikepalkki"
 
 #: kedit.cpp:85 kedit.cpp:1012
 msgid "Hide &Tool Bar"
-msgstr "Piiloita &painikepalkki"
+msgstr "Piilota &painikepalkki"
 
 #: kedit.cpp:88 kedit.cpp:999
 msgid "Show &Status Bar"
@@ -28,7 +28,7 @@ msgstr "N‰yt‰ t&ilarivi"
 
 #: kedit.cpp:90 kedit.cpp:992
 msgid "Hide &Status Bar"
-msgstr "Piiloita t&ilarivi"
+msgstr "Piilota t&ilarivi"
 
 #: kedit.cpp:152
 msgid "Select All"
@@ -56,7 +56,7 @@ msgstr "Tallenna U&RL ..."
 
 #: kedit.cpp:212
 msgid "&Mail..."
-msgstr "&Postita..."
+msgstr "&L‰het‰..."
 
 #: kedit.cpp:216
 msgid "New &Window"
@@ -136,7 +136,7 @@ msgstr "Tulosta asiakirja"
 
 #: kedit.cpp:330
 msgid "Mail Document"
-msgstr "Postita asiakirja"
+msgstr "L‰het‰ asiakirja"
 
 #: kedit.cpp:534
 msgid "Open Location:"
@@ -370,7 +370,7 @@ msgstr "Sanankierr‰tys"
 
 #: filldlg.cpp:44
 msgid "Mail Command:"
-msgstr "Postituskomento:"
+msgstr "L‰hetyskomento:"
 
 #: filldlg.cpp:135
 msgid "You must enter an integer."
@@ -378,7 +378,7 @@ msgstr "Sinun pit‰‰ antaa kokonaisluku."
 
 #: mail.cpp:37
 msgid "Mail Document to:"
-msgstr "Postita dokumentti osoitteeseen:"
+msgstr "L‰het‰ dokumentti osoitteeseen:"
 
 #: mail.cpp:55
 msgid "Subject:"
@@ -386,7 +386,7 @@ msgstr "Aihe:"
 
 #: mail.cpp:57
 msgid "Mail"
-msgstr "Postita"
+msgstr "L‰het‰"
 
 #: mail.cpp:96
 msgid "You must specify a Recipient"

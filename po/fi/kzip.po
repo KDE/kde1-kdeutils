@@ -11,12 +11,12 @@ msgstr ""
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: adddlg.cc:11
 msgid "Add File Options"
-msgstr "Tiedoston lisäyksen asetukset"
+msgstr "Tiedostonlisäyksen asetukset"
 
 #: adddlg.cc:22
 msgid "Store Full Path"

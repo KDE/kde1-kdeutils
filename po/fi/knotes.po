@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: alarm.cpp:58
@@ -73,11 +73,11 @@ msgstr "Korkeus:"
 
 #: configdlg.cpp:104
 msgid "Print Command:"
-msgstr "Tulosta komento:"
+msgstr "Tulostuskomento:"
 
 #: configdlg.cpp:112
 msgid "Mail Command:"
-msgstr "Postitus komento:"
+msgstr "Lähetyskomento:"
 
 #: configdlg.cpp:124
 msgid "3d Frame"
@@ -125,7 +125,7 @@ msgstr "Kalenteri"
 
 #: knotes.cpp:286
 msgid "Mail Note ..."
-msgstr "Postita viesti..."
+msgstr "Lähetä viesti..."
 
 #: knotes.cpp:288
 msgid "Print Note"
