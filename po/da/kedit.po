@@ -1,0 +1,382 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: knotes\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"PO-Revision-Date: 1998-02-02 19:17+01\n"
+"Last-Translator: Thomas Tanghus <tanghus@earthling.net>\n"
+
+#: kedit.cpp:83 kedit.cpp:1019
+msgid "Show &Tool Bar"
+msgstr "Vis &Værktøjsbjælke"
+
+#: kedit.cpp:85 kedit.cpp:1012
+msgid "Hide &Tool Bar"
+msgstr "Gem &Værktøjsbjælke"
+
+#: kedit.cpp:88 kedit.cpp:999
+msgid "Show &Status Bar"
+msgstr "Vis &Statusbjælke"
+
+#: kedit.cpp:90 kedit.cpp:992
+msgid "Hide &Status Bar"
+msgstr "Gem &Statusbjælke"
+
+#: kedit.cpp:152
+msgid "Select All"
+msgstr "Marker Alt"
+
+#: kedit.cpp:183
+msgid "&About..."
+msgstr "&Om"
+
+#: kedit.cpp:187
+msgid "Ne&w..."
+msgstr "&Nyt dokument..."
+
+#: kedit.cpp:192
+msgid "Open Recen&t..."
+msgstr "&Åben nyligt..."
+
+#: kedit.cpp:204
+msgid "Open &URL..."
+msgstr "Åben &URL..."
+
+#: kedit.cpp:206
+msgid "Save to U&RL..."
+msgstr "Gem til U&RL..."
+
+#: kedit.cpp:212
+msgid "&Mail..."
+msgstr "Send som E-&Post..."
+
+#: kedit.cpp:216
+msgid "New &Window"
+msgstr "Nyt &Vindue"
+
+#: kedit.cpp:228
+msgid "&Select All"
+msgstr "Marker &Alt"
+
+#: kedit.cpp:231
+msgid "&Insert File"
+msgstr "&Indsæt Fil"
+
+#: kedit.cpp:233
+msgid "Insert &Date"
+msgstr "Indsæt &Dato"
+
+#: kedit.cpp:236
+msgid "&Find..."
+msgstr "&Find..."
+
+#: kedit.cpp:238
+msgid "Find &Again"
+msgstr "Find I&gen"
+
+#: kedit.cpp:240
+msgid "&Replace"
+msgstr "&Erstat"
+
+#: kedit.cpp:243
+msgid "&Goto Line..."
+msgstr "&Gå til..."
+
+#: kedit.cpp:247
+msgid "&Font"
+msgstr "&Skriftsnit"
+
+#: kedit.cpp:249
+msgid "Colors"
+msgstr "Farver"
+
+#: kedit.cpp:251
+msgid "KEdit &Options..."
+msgstr "Kedit &Indstillinger.."
+
+#: kedit.cpp:253
+msgid "Auto &Indent"
+msgstr "Auto &Indryk"
+
+#: kedit.cpp:256
+msgid "&Tool Bar"
+msgstr "&Værktøjsbjælke"
+
+#: kedit.cpp:258
+msgid "&Status Bar"
+msgstr "&Statusbjælke"
+
+#: kedit.cpp:261
+msgid "Save Options"
+msgstr "Gem Indstillinger"
+
+#: kedit.cpp:289
+msgid "New Document"
+msgstr "Nyt Dokument"
+
+#: kedit.cpp:295
+msgid "Open Document"
+msgstr "Åben Dokument"
+
+#: kedit.cpp:300
+msgid "Save Document"
+msgstr "Gem Dokument"
+
+#: kedit.cpp:325 print.cpp:88
+msgid "Print Document"
+msgstr "Udskriv Dokument"
+
+#: kedit.cpp:330
+msgid "Mail Document"
+msgstr "Send Dokument som E-Post"
+
+#: kedit.cpp:534
+msgid "Open Location:"
+msgstr "Åben URL:"
+
+#: kedit.cpp:548
+msgid "Save to Location:"
+msgstr "Gem til URL:"
+
+#: kedit.cpp:574 kedit.cpp:637 kedit.cpp:666 kedit.cpp:729 kedit.cpp:1123
+msgid "Message"
+msgstr "Besked"
+
+#: kedit.cpp:575 kedit.cpp:730
+msgid ""
+"This Document has been modified.\n"
+"Would you like to save it?"
+msgstr ""
+"Dokumentet er ændret!\n"
+"Vil du gemme det?"
+
+#: kedit.cpp:592 kedit.cpp:747
+msgid ""
+"Could not save the file.\n"
+"Exit anyways?"
+msgstr ""
+"Kunne ikke gemme dokumentet!\n"
+"Afslut alligevel?"
+
+#: kedit.cpp:638
+msgid ""
+"There are windows with modified content open.\n"
+"If you exit now, you will loose those changes\n"
+"Quit anyways?"
+msgstr ""
+"Der er endnu ugemte dokumenter.\n"
+"Afslutter du nu vil ændringerne mistes.\n"
+"Afslut alligevel?"
+
+#: kedit.cpp:667
+msgid ""
+"The current document has been modified.\n"
+"Continue anyways ?"
+msgstr ""
+"Det aktuelle Dokument er ændret.\n"
+"Fortsæt alligevel?"
+
+#: kedit.cpp:808
+#, c-format
+msgid "Wrote: %s"
+msgstr "Gemte: %s"
+
+#: kedit.cpp:814
+msgid "No changes need to be saved"
+msgstr "Ingen ændringer at gemme"
+
+#: kedit.cpp:833
+#, c-format
+msgid "Saved as: %s"
+msgstr "Gemt som: %s"
+
+#: kedit.cpp:866
+#, c-format
+msgid ""
+"Could not pipe the contentsof this Document into:\n"
+" %s"
+msgstr ""
+"Det var ikke muligt at udføre nedenstående kommando på indholdet af dette dokument:\n"
+" %s"
+
+#: kedit.cpp:960
+msgid "Auto Indent Mode: On"
+msgstr "Auto Indryk: Aktiveret"
+
+#: kedit.cpp:962
+msgid "Auto Indent Mode: Off"
+msgstr "Auto Indryk: Deaktiveret"
+
+#: kedit.cpp:1058
+#, c-format
+msgid "Line: %d Col: %d"
+msgstr "Linie: %d Række: %d"
+
+#: kedit.cpp:1124
+msgid ""
+"The current document has been modified.\n"
+"Would you like to save the changes before \n"
+"printing this Document?"
+msgstr ""
+"Det aktuelle Dokument er ændret.\n"
+"Vil du gemme det før du\n"
+"udskriver det?"
+
+#: kedit.cpp:1142
+msgid ""
+"Could not save the file.\n"
+"Print anyways?"
+msgstr ""
+"Kunne ikke gemme filen!\n"
+"Udskriv alligevel?"
+
+#: kedit.cpp:1235
+#, c-format
+msgid "Printing: %s Untitled (Selection)"
+msgstr "Udskriver: %s Uden navn (Markering)"
+
+#: kedit.cpp:1238
+#, c-format
+msgid "Printing: %s Untitled"
+msgstr "Udskriver: %s Uden navn"
+
+#: kedit.cpp:1276
+#, c-format
+msgid "Printing: %s"
+msgstr "Udskriver: %s"
+
+#: kedit.cpp:1286
+#, c-format
+msgid "Printing: %s %s (Selection)"
+msgstr "Udskriver: %s %s (Markering)"
+
+#: kedit.cpp:1310
+msgid "Saving ..."
+msgstr "Gemmer..."
+
+#: kedit.cpp:1317
+msgid "Loading ..."
+msgstr "Indlæser..."
+
+#: kedit.cpp:1351 kedit.cpp:1444
+msgid ""
+"KEdit is already waiting\n"
+"for an internet job to finish\n"
+"Please wait until has finished\n"
+"Alternatively stop the running one."
+msgstr ""
+"KEdit er allerede igang med at\n"
+"færdiggøre et Internet job.\n"
+"Vent venligst til det er færdigt eller\n"
+"afslut det allerede kørende."
+
+#: kedit.cpp:1368 kedit.cpp:1463
+msgid "Could not start or find KFM"
+msgstr "Kunne ikke starte eller finde KFM."
+
+#: kedit.cpp:1410
+#, c-format
+msgid ""
+"Malformed URL\n"
+"%s"
+msgstr ""
+"Fejlagtigt URL:\n"
+"%s"
+
+#: kedit.cpp:1430
+#, c-format
+msgid "Loading '%s'"
+msgstr "Indlæser '%s'"
+
+#: kedit.cpp:1454
+msgid "Calling KFM"
+msgstr "Starter KFM"
+
+#: kedit.cpp:1473
+msgid "Starting Job"
+msgstr "Starter Internet job"
+
+#: kedit.cpp:1476
+msgid "Connected"
+msgstr "Forbindelse"
+
+#: kedit.cpp:1478
+msgid "Waiting..."
+msgstr "Venter..."
+
+#: kedit.cpp:1486
+#, c-format
+msgid "Finished '%s'"
+msgstr "Indlæst '%s'"
+
+#: kedit.cpp:1527
+msgid "New Window"
+msgstr "Nyt Vindue"
+
+#: kedit.cpp:1531
+msgid "New Window Created"
+msgstr "Nyt vindue oprettet"
+
+#: kedit.cpp:1537
+msgid "Load Command Done"
+msgstr "Indlæs kommando afsluttet"
+
+#: kedit.cpp:1949
+#, c-format
+msgid ""
+"Can not create:\n"
+"%s"
+msgstr ""
+"Kan ikke oprette:\n"
+"%s"
+
+#: print.cpp:66
+msgid "Print Dialog"
+msgstr "Udskrivnings indstillinger"
+
+#: print.cpp:70
+msgid "Print directly using lpr"
+msgstr "Udskriv via lpr"
+
+#: print.cpp:75
+msgid "Print using Command:"
+msgstr "Kommando til udskrivning:"
+
+#: print.cpp:93
+msgid "Print Selection"
+msgstr "Udskriv markering"
+
+#: filldlg.cpp:31
+msgid "KEdit Options"
+msgstr "Indstillinger"
+
+#: filldlg.cpp:36
+msgid "Set Fill-Column at:"
+msgstr "Ombryd ved:"
+
+#: filldlg.cpp:40
+msgid "Word Warp"
+msgstr ""
+
+#: filldlg.cpp:44
+msgid "Mail Command:"
+msgstr "E-Post Kommando: "
+
+#: filldlg.cpp:135
+msgid "You must enter an integer."
+msgstr "Du skal skrive et heltal."
+
+#: mail.cpp:37
+msgid "Mail Document to:"
+msgstr "Send dokument til:"
+
+#: mail.cpp:55
+msgid "Subject:"
+msgstr "Emne:"
+
+#: mail.cpp:57
+msgid "Mail"
+msgstr "E-Post"
+
+#: mail.cpp:96
+msgid "You must specify a Recipient"
+msgstr "Du skal specificere en modtager"
