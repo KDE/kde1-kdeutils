@@ -76,7 +76,7 @@ int HexFile::save() {
 }
 
 void HexFile::setFileName(const char *Filename) {
-    delete filename;
+    delete [] filename;
     filename=new char[strlen(Filename)+1];
     strcpy(this->filename,Filename);
 }
@@ -91,7 +91,7 @@ bool HexFile::open(const char *Filename) {
 			     klocale->translate("Close"));
 	return false;
     }
-    delete filename;
+    delete [] filename;
     filename=new char[strlen(Filename)+1];
     strcpy(this->filename,Filename);
     char *data=new char[file.size()];
@@ -99,7 +99,7 @@ bool HexFile::open(const char *Filename) {
     hexdata.duplicate(data,file.size());
     calcScrolls();
     if (data)
-	delete data;
+      delete [] data;
     fillPixmap();
     repaint( false );
     modified = false;
