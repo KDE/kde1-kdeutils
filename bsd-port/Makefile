@@ -52,7 +52,7 @@ pre-configure:
 		rm -f $(PLIST)
 post-install:
 		${MAKE} PREFIX=${PREFIX} make-plist
-		mv ${INSTALL_ROOT}/* /
+		cp -R ${INSTALL_ROOT}/* /
 		rm -rf ${INSTALL_ROOT}
 
 # This is still imperfect, as it _still_ 
