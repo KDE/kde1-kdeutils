@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: main.cpp:176
+msgid "Sorry, can't open your printcap file."
+msgstr "Desculpe, você não pode abrir o arquivo printcap."
+
+#: main.cpp:181
+msgid "Sorry, unable to parse your printcap."
+msgstr "Desculpe, impossível analisar seu printcap."
+
+#: main.cpp:182
+msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
+msgstr "Queira mandar seu printcap via e-mail para Christoph.Neerfeld@home.ivm.de"
+
+#: klpq.cpp:89
+msgid "Printer"
+msgstr "Impressora"
+
+#: klpq.cpp:93
+msgid "Queuing"
+msgstr "Na fila"
+
+#: klpq.cpp:97
+msgid "Printing"
+msgstr "Imprimindo"
+
+#: klpq.cpp:101
+msgid "Update"
+msgstr "Atualizar"
+
+#: klpq.cpp:119
+msgid "Rank"
+msgstr "Classificação"
+
+#: klpq.cpp:120
+msgid "Owner"
+msgstr "Dono"
+
+#: klpq.cpp:121
+msgid "Job"
+msgstr "Serviço"
+
+#: klpq.cpp:123
+msgid "Size"
+msgstr "Tamanho"
+
+#: klpq.cpp:143 klpq.cpp:218
+msgid "Make Top"
+msgstr "Colocar no Topo"
+
+#: klpq.cpp:152
+msgid "Auto"
+msgstr "Auto"
+
+#: klpq.cpp:195
+msgid "&Auto update"
+msgstr "&Auto atualizar"
+
+#: klpq.cpp:196
+msgid "&Spooler"
+msgstr "&Fila"
+
+#: klpq.cpp:203
+msgid "&Config"
+msgstr "&Configuração"
+
+#: klpq.cpp:389
+#, c-format
+msgid "Do you really want to remove job No %d"
+msgstr "Você quer mesmo remover o serviço nr. %d"
+
+#: klpq.cpp:409
+#, c-format
+msgid ""
+"Do you really want to move job No\n"
+"%d\n"
+"on top of queue"
+msgstr "Você quer mesmo mover o serviço nr. %d\n para o topo da fila"
+
+#: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
+msgid "Permission denied"
+msgstr "Permissão negada"
+
+#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
+msgid ""
+"This is a privileged command\n"
+"and you do not have permission to execute it."
+msgstr "Este é um comando privilegiado e você\nnão tem permissão para executá-lo."
+
+#: ConfAutoUpdate.cpp:10
+msgid "Configure Auto Update"
+msgstr "Configurar auto-atualização"
+
+#: ConfAutoUpdateData.cpp:17
+msgid "Update frequency in seconds:"
+msgstr "Freqüência de atualização em segundos:"
+
+#: klpqspooler.cpp:197 klpqspooler.cpp:267
+msgid "Can't find your lpc program !"
+msgstr "Programa lpc não encontrado !"
+
+#: klpqspooler.cpp:198 klpqspooler.cpp:268
+msgid ""
+"Sorry, I can't find your lpc program.\n"
+"Please check the configuration under Config->Spooler."
+msgstr "Não pude encontrar o programa lpc.\nCheque a configuração em Configuração->Fila."
+
+#: FirstStart.cpp:21 SpoolerConfig.cpp:21 SpoolerConfigData.cpp:151
+msgid "Select your spooling system"
+msgstr "Selecione seu sistema de fila"
+
+#: FirstStartData.cpp:42
+msgid ""
+"Please select the spooling system you use. Most systems use the BSD spooler. "
+"So if you don't know which spooler is installed on your system, BSD is "
+"probably a good choice."
+msgstr "Selecione o sistema de fila que você usa. Muitos sistema usam a fila "
+       "do BSD. Se você não sabe que fila está instalada em seu sistema, o "
+       "BSD é a escolha mais provável."
+
+#: FirstStartData.cpp:50 SpoolerConfigData.cpp:134
+msgid "Ok"
+msgstr "Ok"
+
+#: SpoolerConfigData.cpp:99
+msgid "Paths of spooling commands:"
+msgstr "Caminhos dos comandos de fila:"
