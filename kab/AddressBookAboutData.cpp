@@ -59,7 +59,7 @@ AddressBookAboutData::AddressBookAboutData
 		QPalette palette( normal, disabled, active );
 		labelVersion->setPalette( palette );
 	}
-	labelVersion->setText( i18n("kab 0.9.5, December 1998") );
+	labelVersion->setText( i18n("kab 1.0, May 1999") );
 	labelVersion->setAlignment( 292 );
 	labelVersion->setMargin( -1 );
 
