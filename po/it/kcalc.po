@@ -1,0 +1,81 @@
+# KTranslator Generated File
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-04-17 23:25+0200\n"
+"PO-Revision-Date: 1998-02-03 16:00+0100\n"
+"Last-Translator: Andrea Rizzi <Bilibao@ouverture.it>\n"
+"Language-Team: Italiano <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+""
+
+#: configdlg.cpp:48 kcalc.cpp:1567
+msgid "Defaults"
+msgstr "Default"
+
+#: configdlg.cpp:53
+msgid "Foreground Color:"
+msgstr "Colore PrimoPiano:"
+
+#: configdlg.cpp:70
+msgid "Background Color:"
+msgstr "Colore sfondo:"
+
+#: configdlg.cpp:87
+msgid "Precision:"
+msgstr "Precisione:"
+
+#: configdlg.cpp:108
+msgid "Set Fixed Precision at:"
+msgstr "Imposta Precisione Fissa a:"
+
+#: configdlg.cpp:137
+msgid "Beep on Error"
+msgstr "Suona in caso di Errore"
+
+#: configdlg.cpp:145
+msgid "Trigonometry Mode"
+msgstr "Modalità Trigonometrica"
+
+#: configdlg.cpp:150
+msgid "Statistical Mode"
+msgstr "Modalità Statistica"
+
+#: fontdlg.cpp:44
+msgid "Set Default Font"
+msgstr "Imposta Font di default"
+
+#: fontdlg.cpp:63
+msgid "Point Size:"
+msgstr "Dimensioni punto:"
+
+#: kcalc.cpp:92
+msgid "KCalc Setup/Help"
+msgstr "KCalc Impostazioni/Aiuto"
+
+#: kcalc.cpp:145
+msgid "Angle"
+msgstr "Angolo"
+
+#: kcalc.cpp:185
+msgid "Base"
+msgstr "Base"
+
+#: kcalc.cpp:1534
+msgid "Base type: long double\n"
+msgstr "Tipo Base:long double\n"
+
+#: kcalc.cpp:1536
+msgid "Base type: double\n"
+msgstr "Tipo Base: double\n"
+
+#: kcalc.cpp:1568
+msgid "Display Font"
+msgstr "Caratteri Display"
+
+#: kcalc_core.cpp:1125
+msgid "Stat Mem cleared"
+msgstr "Memoria Statistica svuotata"
