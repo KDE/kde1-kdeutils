@@ -4,6 +4,8 @@
        
     Copyright (C) 1997 Bernd Johannes Wuebben   
                        wuebben@math.cornell.edu
+		       
+    this file adopted from about.cpp written by Mario Weilguni 
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -39,25 +41,27 @@ About::About(QWidget *parent) : QDialog(parent, "About KEdit", TRUE) {
   QPixmap pm((pixdir + "keditlogo.xpm").data());
   QLabel *logo = new QLabel(this);
   logo->setPixmap(pm);
-  logo->setGeometry(20, (height()-pm.height())/2 - 20, pm.width(), pm.height());
+  logo->setGeometry(20, (height()-pm.height())/2 - 25, pm.width(), pm.height());
 
   QLabel *l;
   l = new QLabel("KEdit", this);
-  l->setFont(QFont("Utopia", 26, QFont::Normal));
-  l->setGeometry((width() - l->sizeHint().width())/2, 20,
-		 l->sizeHint().width(), 
-		 l->sizeHint().height());
+  l->setFont(QFont("Helvetica", 19, QFont::Bold));
+  l->setGeometry(145,40,100,30);
 
   QString s;
   s = "Version " KEDITVERSION \
   "\n\nCopyright (c) 1997\nBernd Johannes Wuebben\n"\
-  "wuebben@math.cornell.edu\n"
   "wuebben@kde.org";
 
-
   l = new QLabel(s.data(), this);
-  l->setGeometry(145, 70, 230, 200);
+  l->setGeometry(145, 70, 230, 170);
   l->setAlignment(AlignLeft|WordBreak|ExpandTabs);
+
+  QFrame *f1 = new QFrame(this);
+  f1->setLineWidth(1);
+  f1->setFrameStyle(QFrame::HLine | QFrame::Sunken);
+  f1->setGeometry(10,180,330,4);
+
 
   QPushButton *b_ok = new QPushButton("Ok", this);
   b_ok->setGeometry(width()/2-40, height() - 48, 80, 32);

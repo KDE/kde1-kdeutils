@@ -540,8 +540,8 @@ void TopLevel::file_open_url(){
     {
       QString n = l.getText();
       url_location = n;
-      if ( n.left(5) != "file:" && n.left(4) == "ftp:" )
-	openNetFile( l.getText(), KEdit::OPEN_READWRITE );
+      /*      if ( n.left(5) != "file:" && n.left(4) == "ftp:" )*/
+      openNetFile( l.getText(), KEdit::OPEN_READWRITE );
     }
   
   statusbar_slot();
@@ -554,8 +554,8 @@ void TopLevel::file_save_url(){
     {
       QString n = l.getText();
       url_location = n;
-      if ( n.left(5) != "file:" && n.left(4) == "ftp:" )
-	saveNetFile( l.getText() );
+      /*if ( n.left(5) != "file:" && n.left(4) == "ftp:" )*/
+      saveNetFile( l.getText() );
     }
 
   statusbar_slot();
@@ -1331,11 +1331,9 @@ void TopLevel::saveNetFile( const char *_url )
     // Just a usual file ?
     if ( strcmp( u.protocol(), "file" ) == 0 )
    {
-     printf("usual file:%s\n",u.path());
       QString string;
       setGeneralStatusField(string);
       eframe->doSave( u.path() );
-      setGeneralStatusField(klocale->translate("Saved"));
       return;
     }
     
