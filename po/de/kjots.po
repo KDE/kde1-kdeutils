@@ -15,36 +15,32 @@ msgid "Open URL"
 msgstr "Öffne URL"
 
 #: KJotsMain.cpp:343
-#, fuzzy
 msgid "New Book"
-msgstr "&Neues Buch"
+msgstr "Neues Buch"
 
 #: KJotsMain.cpp:353
 msgid "PreviousPage"
-msgstr ""
+msgstr "VorigeSeite"
 
 #: KJotsMain.cpp:354
-#, fuzzy
 msgid "NextPage"
-msgstr "&Neue Seite"
+msgstr "NächsteSeite"
 
 #: KJotsMain.cpp:355
 msgid "ShowSubjectList"
-msgstr ""
+msgstr "ZeigeBetreffListe"
 
 #: KJotsMain.cpp:356
-#, fuzzy
 msgid "AddNewPage"
-msgstr "&Neue Seite"
+msgstr "NeueSeite"
 
 #: KJotsMain.cpp:357
 msgid "MoveFocus"
-msgstr ""
+msgstr "FokusBewegen"
 
 #: KJotsMain.cpp:358
-#, fuzzy
 msgid "CopySelection"
-msgstr "Auswählen"
+msgstr "KopiereAuswahl"
 
 #: KJotsMain.cpp:370
 msgid "&New Book"

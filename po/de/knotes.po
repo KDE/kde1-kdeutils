@@ -227,7 +227,7 @@ msgstr "Gesetzte Standard-Schriftart"
 
 #: fontdlg.cpp:54
 msgid "Family:"
-msgstr ""
+msgstr "Familie:"
 
 #: fontdlg.cpp:64
 msgid "Point Size:"
@@ -235,20 +235,19 @@ msgstr "Punkt-Grösse"
 
 #: fontdlg.cpp:75
 msgid "Style:"
-msgstr ""
+msgstr "Schnitt:"
 
 #: fontdlg.cpp:87
-#, fuzzy
 msgid "Weight:"
-msgstr "Breite"
+msgstr "Stärke:"
 
 #: fontdlg.cpp:93 fontdlg.cpp:117 fontdlg.cpp:150
 msgid "Bold"
-msgstr ""
+msgstr "Fett"
 
 #: fontdlg.cpp:95 fontdlg.cpp:119 fontdlg.cpp:152
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: mail.cpp:40
 msgid "Mail Note to:"
