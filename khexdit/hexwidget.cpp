@@ -27,7 +27,8 @@
 #include <qpopmenu.h>
 #include <qkeycode.h>
 #include <qaccel.h> 
-#include <qfiledlg.h> 
+#include <kfiledialog.h> 
+#include <qdir.h>
 #include <string.h>
 #include <stdlib.h>
 #include <qmsgbox.h> 
@@ -165,7 +166,7 @@ void HexWidget::menuCallback(int item) {
 				     i18n("No")))
 		CurrentFile->save();
 	
-	QString fileName = QFileDialog::getOpenFileName(QDir::currentDirPath() + "test.txt");
+	QString fileName = KFileDialog::getOpenFileName(QDir::currentDirPath());
 	open(fileName, READWRITE);
 	break;
     }
@@ -174,7 +175,7 @@ void HexWidget::menuCallback(int item) {
 	    CurrentFile->save();
 	break;
     case ID_FILE_SAVEAS: {
-	QString fileName = QFileDialog::getSaveFileName();
+	QString fileName = KFileDialog::getSaveFileName();
 	
 	CurrentFile->setFileName(fileName.data());
 	CurrentFile->save();
