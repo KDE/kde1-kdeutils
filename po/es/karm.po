@@ -1,8 +1,7 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: kdeutils\n"
 "POT-Creation-Date: 1998-10-13 13:36+0200\n"
-"PO-Revision-Date: 1998-05-11 21:25+0200\n"
+"PO-Revision-Date: 1998-10-18 13:25+0200\n"
 "First-Translator: Santiago Fernández and Jorge ValenciaFirst-Translator: "
 "<jorgev@est.unileon.es>\n"
 
@@ -84,12 +83,11 @@ msgstr "&Tarea"
 
 #: top.cpp:61
 msgid "&New"
-msgstr ""
+msgstr "&Nuevo"
 
 #: top.cpp:74
-#, fuzzy
 msgid "&About"
-msgstr "Acerca de "
+msgstr "&Sobre"
 
 #: top.cpp:85
 msgid "Start Clock"
@@ -125,7 +123,7 @@ msgstr ""
 " 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
-"The K Desktop Environment"
+"El Entorno de Escritorio K"
 
 #: top.cpp:161
 msgid "clock active"
