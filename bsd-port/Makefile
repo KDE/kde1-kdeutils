@@ -52,8 +52,10 @@ pre-configure:
 		rm -f $(PLIST)
 post-install:
 		${MAKE} PREFIX=${PREFIX} make-plist
-		mv -i ${INSTALL_ROOT}/* /
+		mv ${INSTALL_ROOT}/* /
 
+# This is still imperfect, as it _still_ 
+# adds a null item to the plist.  *sigh* Some things don't change.
 make-plist:
 		cd ${INSTALL_ROOT}/${PREFIX} && \
 			find . -type f|sed 's,^\./,,'|sort > $(PLIST)
