@@ -11,6 +11,7 @@
  *********************************************************************/
 
 #include "AddressBookAboutData.h"
+#include <kapp.h>
 
 #define Inherited QDialog
 
