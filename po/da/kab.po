@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kab\n"
 "POT-Creation-Date: 1999-01-12 01:57+0100\n"
-"PO-Revision-Date: 1999-01-26 14:42+0100\n"
+"PO-Revision-Date: 1999-02-17 14:42+0100\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -47,11 +47,11 @@ msgstr "Initialisering mislykkedes"
 
 #: toplevelwidget.cc:37
 msgid "The program's menubar could not be constructed."
-msgstr "Programmets menulinie kunne ikke konstrueres."
+msgstr "Programmets menubjælke kunne ikke konstrueres."
 
 #: toplevelwidget.cc:45
 msgid "The program's statusbar could not be constructed."
-msgstr "Programmets statuslinie kunne ikke konstrueres."
+msgstr "Programmets statusbjælke kunne ikke konstrueres."
 
 #: toplevelwidget.cc:58
 msgid "KDE addressbook."

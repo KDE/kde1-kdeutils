@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/ark\n"
 "POT-Creation-Date: 1998-11-14 02:05+0100\n"
-"PO-Revision-Date: 1999-01-26 14:42+0100\n"
+"PO-Revision-Date: 1999-02-17 14:42+0100\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr "Bestemmelsessted"
 
 #: extractdlg.cc:44
 msgid "Extract Options"
-msgstr "Udpaknings indstillinger"
+msgstr "Udpakningsindstillinger"
 
 #: extractdlg.cc:52
 msgid "Preserve Permissions"
@@ -87,11 +87,11 @@ msgstr "&Sæt arkiv folder..."
 
 #: arkwidget.cc:85
 msgid "Set &Tar Executable..."
-msgstr "Sæt tar program..."
+msgstr "Sæt &tar program..."
 
 #: arkwidget.cc:86
 msgid "&File Adding Options..."
-msgstr "&Tilføjelses indstillinger..."
+msgstr "&Tilføjelsesindstillinger..."
 
 #: arkwidget.cc:97
 msgid "File Operations"
@@ -159,8 +159,8 @@ msgstr "Størrelse"
 
 #: arkwidget.cc:402
 msgid "Archive directory does not exist."
-msgstr "Arkiv folderen eksisterer ikke."
+msgstr "Arkivfolderen eksisterer ikke."
 
 #: arkwidget.cc:418
 msgid "Archive Directory"
-msgstr "Arkiv folder"
+msgstr "Arkivfolder"

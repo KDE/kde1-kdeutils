@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kjots\n"
 "POT-Creation-Date: 1998-12-07 01:48+0100\n"
-"PO-Revision-Date: 1999-01-28 14:42+0100\n"
+"PO-Revision-Date: 1999-02-17 14:42+0100\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -127,7 +127,7 @@ msgstr "En bog med dette navn eksisterer allerede."
 
 #: KJotsMain.cpp:662
 msgid "Are you sure you want to delete the current book ?"
-msgstr "Er du sikker på at du ønsker at slette nuværende bok?"
+msgstr "Er du sikker på at du ønsker at slette nuværende bog?"
 
 #: KJotsMain.cpp:913 KJotsMain.cpp:942
 msgid "File exists !"

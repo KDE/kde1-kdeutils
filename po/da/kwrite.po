@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kwrite\n"
 "POT-Creation-Date: 1999-01-14 01:57+0100\n"
-"PO-Revision-Date: 1999-01-28 14:42+0100\n"
+"PO-Revision-Date: 1999-02-17 14:42+0100\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "Item:"
 
 #: highlight.cpp:1913
 msgid "Default Font"
-msgstr "Standard skrift"
+msgstr "Standardskrift"
 
 #: highlight.cpp:1950
 msgid "Config Select"
@@ -195,7 +195,7 @@ msgstr "Søgestreng ikke fundet!"
 
 #: kwview.cpp:1851 kwview.cpp:1865 kwview.cpp:1877
 msgid "replace(s) made"
-msgstr "erstatning(er) gjort"
+msgstr "erstatning(er) lavet"
 
 #: kwview.cpp:1992 toplevel.cpp:475
 msgid "Line"
@@ -223,7 +223,7 @@ msgstr "&Fra markør"
 
 #: kwdialog.cpp:54
 msgid "Find &Backwards"
-msgstr "Finn &baglæns"
+msgstr "Find &baglæns"
 
 #: kwdialog.cpp:55
 msgid "&Selected Text"
@@ -387,7 +387,7 @@ msgstr "&Gå til linie..."
 
 #: toplevel.cpp:195
 msgid "U&ndo"
-msgstr "&Angre"
+msgstr "&Fortryd"
 
 #: toplevel.cpp:196
 msgid "R&edo"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kedit\n"
 "POT-Creation-Date: 1999-01-11 01:57+0100\n"
-"PO-Revision-Date: 1999-01-28 14:42+0100\n"
+"PO-Revision-Date: 1999-02-17 14:42+0100\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -43,11 +43,11 @@ msgstr "N&yt..."
 
 #: kedit.cpp:208
 msgid "Open Recen&t..."
-msgstr "&Åben nylig..."
+msgstr "&Åbn nylig..."
 
 #: kedit.cpp:220
 msgid "Open &URL..."
-msgstr "Åben &URL..."
+msgstr "Åbn &URL..."
 
 #: kedit.cpp:222
 msgid "Save to U&RL..."
@@ -195,7 +195,7 @@ msgid ""
 "If you exit now, you will loose those changes\n"
 "Quit anyways?"
 msgstr ""
-"Der er endnu ugemte dokumenter.\n"
+"Der er vinduer med ændret indhold åbne.\n"
 "Afslutter du nu vil ændringerne mistes.\n"
 "Afslut alligevel?"
 
@@ -227,8 +227,8 @@ msgid ""
 "Could not pipe the contentsof this Document into:\n"
 " %s"
 msgstr ""
-"Det var ikke muligt at udføre nedenstående kommando på indholdet af dette "
-"dokument:\n"
+"Det var ikke muligt at udføre nedenstående kommando\n"
+"på indholdet af dette dokument:\n"
 " %s"
 
 #: kedit.cpp:1032
@@ -368,7 +368,7 @@ msgstr ""
 
 #: kedit.cpp:2073
 msgid "Spellchecker Options"
-msgstr "Stavekontrol Indstillinger"
+msgstr "Stavekontrolindstillinger"
 
 #: keditcl1.cpp:149
 msgid "The specified File does not exist"
@@ -533,4 +533,4 @@ msgstr "E-Post"
 
 #: mail.cpp:96
 msgid "You must specify a Recipient"
-msgstr "Du skal specificere en modtager"
+msgstr "Du skal angive en modtager"
