@@ -249,11 +249,11 @@ msgstr "Spessore:"
 
 #: fontdlg.cpp:93 fontdlg.cpp:117 fontdlg.cpp:150
 msgid "Bold"
-msgstr ""
+msgstr "Grassetto"
 
 #: fontdlg.cpp:95 fontdlg.cpp:119 fontdlg.cpp:152
 msgid "Normal"
-msgstr ""
+msgstr "Normale"
 
 #
 #: mail.cpp:40
