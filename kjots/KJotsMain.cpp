@@ -406,7 +406,7 @@ KJotsMain::KJotsMain(const char* name)
 
 KJotsMain::~KJotsMain()
 {
-  saveProperties( (void *) 0 );
+  saveProperties( (KConfig *) 0 );
   /*
   KConfig *config = KApplication::getKApplication()->getConfig();
   button_list.clear();
