@@ -93,21 +93,11 @@ msgstr "Stavekontroll..."
 msgid "&Goto Line..."
 msgstr "&Gå til linje..."
 
-<<<<<<< kedit.po
-#: kedit.cpp:276
-=======
 #: kedit.cpp:277
-#, fuzzy
->>>>>>> 1.13
 msgid "&Font..."
 msgstr "&Skrifttype..."
 
-<<<<<<< kedit.po
-#: kedit.cpp:278
-=======
 #: kedit.cpp:279
-#, fuzzy
->>>>>>> 1.13
 msgid "&Colors"
 msgstr "&Farger"
 
@@ -360,12 +350,7 @@ msgstr ""
 "Kan ikke lage:\n"
 "%s"
 
-<<<<<<< kedit.po
-#: kedit.cpp:2059
-=======
 #: kedit.cpp:2073
-#, fuzzy
->>>>>>> 1.13
 msgid "Spellchecker Options"
 msgstr "Stavekontrollvalg"
 
