@@ -84,7 +84,7 @@ msgstr "3d rámèek"
 
 #: configdlg.cpp:128 knotes.cpp:325
 msgid "Auto Indent"
-msgstr "Automatické odsadzovanie"
+msgstr "Auto. odsadzovanie"
 
 #: docking.cpp:71
 msgid "Change Defaults"
