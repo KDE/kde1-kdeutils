@@ -1,3 +1,6 @@
+Changes from kpm-1.3k4:
+	* fixed a segfault when doing QString::sprintf() in qps.C
+
 Changes from kpm-1.3k3:
 	* added an external program to dock into the panel
 	* fixed tons of compiler warnings when compiling with egcs

@@ -40,7 +40,7 @@
 #include "locale.h"
 
 #define QPS_VERSION "1.3"
-#define KPM_VERSION "3"
+#define KPM_VERSION "4"
 
 const int Qps::load_update_period = 4800;	// in ms
 const int Qps::icon_width = 48;
@@ -191,21 +191,19 @@ Qps::Qps(QWidget *parent, const char *name)
   m_options->insertItem(TRANS("Save Settings Now"), this, 
 			SLOT(menu_savenow()));
 
-  QString s(512);
-  s.sprintf(TRANS("kpm %sk%s" 
-		  " - A Visual Process Manager (KDE Version)\n\n"
-		  "© 1997 Mattias Engdegård (f91-men@nada.kth.se)\n"
-		  "© 1998 Mario Weilguni (mweilguni@kde.org)\n\n"
-		  "kpm is the KDE version of qps, written by Matthias\n"
-		    "Engdegård. The port to KDE was done by Mario\n"
-		  "Weilguni. If you are interested on the original\n"
-		  "qps, you can find it at the following location:\n"
-		  "    ftp://sunsite.unc.edu/pub/linux/system/status\n\n"
-		  "This program is published under the GNU General\n"
-		    "Public License (GNU GPL). See the file COPYING\n"
-		  "for details about this."), 
-	    QPS_VERSION,
-	    KPM_VERSION);
+  QString s;
+  s.sprintf("kpm %sk%s", QPS_VERSION, KPM_VERSION);
+  s += TRANS(" - A Visual Process Manager (KDE Version)\n\n"
+	     "© 1997 Mattias Engdegård (f91-men@nada.kth.se)\n"
+	     "© 1998 Mario Weilguni (mweilguni@kde.org)\n\n"
+	     "kpm is the KDE version of qps, written by Matthias\n"
+	     "Engdegård. The port to KDE was done by Mario\n"
+	     "Weilguni. If you are interested on the original\n"
+	     "qps, you can find it at the following location:\n"
+	     "    ftp://sunsite.unc.edu/pub/linux/system/status\n\n"
+	     "This program is published under the GNU General\n"
+	     "Public License (GNU GPL). See the file COPYING\n"
+	     "for details about this.");
 
   QPopupMenu *help = kapp->getHelpMenu(TRUE, s.data());
 
