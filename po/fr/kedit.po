@@ -31,12 +31,12 @@ msgstr "Cacher la barre d'état"
 
 #: kedit.cpp:154
 msgid "Select All"
-msgstr "Sélectionner tout"
+msgstr "Tout Sélectionner"
 
 #: kedit.cpp:157
 #, fuzzy
 msgid "Font..."
-msgstr "C&hercher..."
+msgstr "Police..."
 
 #: kedit.cpp:201
 msgid "Ne&w..."
@@ -64,7 +64,7 @@ msgstr "Nouvelle &fenêtre"
 
 #: kedit.cpp:254
 msgid "&Select All"
-msgstr "&Sélectionner tout"
+msgstr "Tout &Sélectionner"
 
 #: kedit.cpp:257
 msgid "&Insert File"
@@ -360,27 +360,27 @@ msgstr "Enregistrer les options"
 
 #: keditcl1.cpp:150
 msgid "The specified File does not exist"
-msgstr ""
+msgstr "Le fichier spécifié n'existe pas"
 
 #: keditcl1.cpp:163 keditcl1.cpp:441 keditcl1.cpp:525 keditcl1.cpp:1716
 msgid "Sorry:"
-msgstr ""
+msgstr "Désolé:"
 
 #: keditcl1.cpp:164
 msgid "You have specificated a directory"
-msgstr ""
+msgstr "Vous avez spécifié un répertoire"
 
 #: keditcl1.cpp:179 keditcl1.cpp:200
 msgid "You do not have read permission to this file."
-msgstr ""
+msgstr "Vous n'avez pas la permission de lire ce fichier"
 
 #: keditcl1.cpp:213
 msgid "An Error occured while trying to open this Document"
-msgstr ""
+msgstr "Une erreur a été rencontrée lors de l'ouverture de ce fichier"
 
 #: keditcl1.cpp:420 keditcl1.cpp:505 keditcl1.cpp:1658
 msgid "Warning:"
-msgstr ""
+msgstr "Attention:"
 
 #: keditcl1.cpp:421 keditcl1.cpp:506
 #, fuzzy
@@ -421,10 +421,12 @@ msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
 msgstr ""
+"Un document ayant le même nom existe dejà\n"
+"Voulez-vous l'écraser ?"
 
 #: keditcl1.cpp:1717
 msgid "You do not have write permission to this file.\n"
-msgstr ""
+msgstr "Vous n'avez pas la permission d'écrire dans ce fichier.\n"
 
 #: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
 #: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
@@ -437,13 +439,17 @@ msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
 msgstr ""
+"La fin du document a été atteinte.\n"
+"Désirez-vous recommencer par le debut ?"
 
 #: keditcl2.cpp:130 keditcl2.cpp:387 keditcl2.cpp:433 keditcl2.cpp:480
 msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
 msgstr ""
-
+"Le debut du document a été atteint.\n"
+"Désirez-vous recommencer par la fin ?"
+ 
 #: keditcl2.cpp:691 keditcl2.cpp:789
 msgid "Case Sensitive"
 msgstr ""
@@ -455,17 +461,17 @@ msgstr ""
 #: keditcl2.cpp:777
 #, fuzzy
 msgid "Find:"
-msgstr "C&hercher..."
+msgstr "C&hercher:"
 
 #: keditcl2.cpp:787
 #, fuzzy
 msgid "Replace with:"
-msgstr "&Remplacer"
+msgstr "&Remplacer avec:"
 
 #: keditcl2.cpp:801
 #, fuzzy
 msgid "Replace All"
-msgstr "&Remplacer"
+msgstr "Tout &Remplacer"
 
 #: keditcl2.cpp:898
 #, fuzzy
@@ -511,7 +517,7 @@ msgstr "Commande d'expédition :"
 
 #: filldlg.cpp:140
 msgid "You must enter an integer."
-msgstr "Vous devez entrer un nombre."
+msgstr "Vous devez entrer un entier."
 
 #: mail.cpp:37
 msgid "Mail Document to:"

@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-10-30 12:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: main.cpp:176
+msgid "Sorry, can't open your printcap file."
+msgstr "Désolé,impossible d'ouvrir votre fichier printcap."
+
+#: main.cpp:181
+msgid "Sorry, unable to parse your printcap."
+msgstr "Désolé,impossible de comprendre votre fichier printcap."
+
+#: main.cpp:182
+msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
+msgstr "Pourriez-vous envoyer votre fichier printcap a Christoph.Neerfeld@home.ivm.de"
+
+#: klpq.cpp:89
+msgid "Printer"
+msgstr "Imprimante"
+
+#: klpq.cpp:93
+msgid "Queuing"
+msgstr ""
+
+#: klpq.cpp:97
+msgid "Printing"
+msgstr ""
+
+#: klpq.cpp:101
+msgid "Update"
+msgstr ""
+
+#: klpq.cpp:119
+msgid "Rank"
+msgstr ""
+
+#: klpq.cpp:120
+msgid "Owner"
+msgstr ""
+
+#: klpq.cpp:121
+msgid "Job"
+msgstr "Job"
+
+#: klpq.cpp:123
+msgid "Size"
+msgstr "Taille"
+
+#: klpq.cpp:143 klpq.cpp:218
+msgid "Make Top"
+msgstr ""
+
+#: klpq.cpp:152
+msgid "Auto"
+msgstr ""
+
+#: klpq.cpp:195
+msgid "&Auto update"
+msgstr ""
+
+#: klpq.cpp:196
+msgid "&Spooler"
+msgstr ""
+
+#: klpq.cpp:203
+msgid "&Config"
+msgstr ""
+
+#: klpq.cpp:389
+#, c-format
+msgid "Do you really want to remove job No %d"
+msgstr "Voulez-vous réellement effacer le job No %d ?"
+
+#: klpq.cpp:409
+#, c-format
+msgid ""
+"Do you really want to move job No\n"
+"%d\n"
+"on top of queue"
+msgstr ""
+"Voulez-vous réellement déplacer le job No\n"
+"%d\n"
+"au sommet de la file ?"
+
+#: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
+msgid "Permission denied"
+msgstr ""
+
+#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
+msgid ""
+"This is a privileged command\n"
+"and you do not have permission to execute it."
+msgstr ""
+
+#: ConfAutoUpdate.cpp:10
+msgid "Configure Auto Update"
+msgstr ""
+
+#: ConfAutoUpdateData.cpp:17
+msgid "Update frequency in seconds:"
+msgstr ""
+
+#: ConfAutoUpdateData.cpp:32 FirstStartData.cpp:50 SpoolerConfigData.cpp:134
+msgid "Ok"
+msgstr "Ok"
+
+#: klpqspooler.cpp:197 klpqspooler.cpp:267
+msgid "Can't find your lpc program !"
+msgstr "Impossible de trouver le programme lpc !"
+
+#: klpqspooler.cpp:198 klpqspooler.cpp:268
+msgid ""
+"Sorry, I can't find your lpc program.\n"
+"Please check the configuration under Config->Spooler."
+msgstr ""
+
+#: FirstStart.cpp:21 SpoolerConfig.cpp:21 SpoolerConfigData.cpp:151
+msgid "Select your spooling system"
+msgstr ""
+
+#: FirstStartData.cpp:42
+msgid ""
+"Please select the spooling system you use. Most systems use the BSD spooler. "
+"So if you don't know which spooler is installed on your system, BSD is "
+"probably a good choice."
+msgstr ""
+
+#: SpoolerConfigData.cpp:99
+msgid "Paths of spooling commands:"
+msgstr ""
