@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-06-18 22:51+0200\n"
+"PO-Revision-Date: 1998-06-08 14:55+0200\n"
+"Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
+"Language-Team: zh_CN (gb2312)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: main.cpp:208
+msgid "Sorry, can't open your printcap file."
+msgstr "抱歉 , 无法打开你的 printcap 文件."
+
+#: main.cpp:213
+msgid "Sorry, unable to parse your printcap."
+msgstr "抱歉 , 无法解析你的 printcap."
+
+#: main.cpp:214
+msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
+msgstr "请把你的 printcap 邮寄给 Christoph.Neerfeld@home.ivm.de"
+
+#: klpq.cpp:89
+msgid "Printer"
+msgstr "打印机"
+
+#: klpq.cpp:93
+msgid "Queuing"
+msgstr "队列"
+
+#: klpq.cpp:97
+msgid "Printing"
+msgstr "打印"
+
+#: klpq.cpp:101
+msgid "Update"
+msgstr "更新"
+
+#: klpq.cpp:105
+msgid "Quit"
+msgstr "退出"
+
+#: klpq.cpp:119
+msgid "Rank"
+msgstr "等级"
+
+#: klpq.cpp:120
+msgid "Owner"
+msgstr "属主"
+
+#: klpq.cpp:121
+msgid "Job"
+msgstr "任务"
+
+#: klpq.cpp:122
+msgid "Files"
+msgstr "文件"
+
+#: klpq.cpp:123
+msgid "Size"
+msgstr "大小"
+
+#: klpq.cpp:139 klpq.cpp:217
+msgid "Remove"
+msgstr "删除"
+
+#: klpq.cpp:143 klpq.cpp:218
+msgid "Make Top"
+msgstr "变成最前"
+
+#: klpq.cpp:152
+msgid "Auto"
+msgstr "自动"
+
+#: klpq.cpp:192
+msgid "&Quit"
+msgstr "退出[&Q]"
+
+#: klpq.cpp:195
+msgid "&Auto update"
+msgstr "自动更新[&A]"
+
+#: klpq.cpp:196
+msgid "&Spooler"
+msgstr "假脱机程序[&S]"
+
+#: klpq.cpp:202
+msgid "&File"
+msgstr "文件[&F]"
+
+#: klpq.cpp:203
+msgid "&Config"
+msgstr "配置[&C]"
+
+#: klpq.cpp:205
+msgid "&Help"
+msgstr "帮助[&H]"
+
+#: klpq.cpp:383
+msgid "Do you realy want to remove job Nr. "
+msgstr "你想要删除任务 "
+
+#: klpq.cpp:403
+msgid "Do you realy want to move job Nr.\n"
+msgstr "你想要删除任务\n"
+
+#: klpq.cpp:404
+msgid ""
+"\n"
+"on top of queue"
+msgstr ""
+"\n"
+"在队列最前面"
+
+#: klpq.cpp:586 klpq.cpp:612 klpq.cpp:638
+msgid "Permission denied"
+msgstr "没有权限"
+
+#: klpq.cpp:587 klpq.cpp:613 klpq.cpp:639
+msgid ""
+"This is a privileged command\n"
+"and you do not have permission to execute it."
+msgstr ""
+"这是一个特权命令, \n"
+"你没有权限执行."
+
+#: ConfAutoUpdate.cpp:10
+msgid "Configure Auto Update"
+msgstr "配置自动更新"
+
+#: ConfAutoUpdateData.cpp:17
+msgid "Update frequency in seconds:"
+msgstr "用秒表示的更新频度:"
+
+#: ConfAutoUpdateData.cpp:32 FirstStartData.cpp:50 SpoolerConfigData.cpp:134
+msgid "Ok"
+msgstr "确定"
+
+#: ConfAutoUpdateData.cpp:36 SpoolerConfigData.cpp:142
+msgid "Cancel"
+msgstr "取消"
+
+#: klpqspooler.cpp:120 klpqspooler.cpp:190
+msgid "Can't find your lpc program !"
+msgstr "无法找到 lpc 程序 !"
+
+#: klpqspooler.cpp:121 klpqspooler.cpp:191
+msgid ""
+"Sorry, I can't find your lpc program.\n"
+"Please check the configuration under Config->Spooler."
+msgstr ""
+"抱歉 , 无法找到 lpc 程序.\n"
+"请在 配置->假脱机程序 中检查配置."
+
+#: FirstStart.cpp:21 SpoolerConfig.cpp:21 SpoolerConfigData.cpp:151
+msgid "Select your spooling system"
+msgstr "选择你的假脱机系统"
+
+#: FirstStartData.cpp:42
+msgid ""
+"Please select the spooling system you use. Most systems use the BSD spooler. "
+"So if you don't know which spooler is installed on your system, BSD is "
+"probably a good choice."
+msgstr ""
+"请选择你使用的假脱机系统. 大多数的系统使用 BSD 假脱机程序.\n"
+"所以如果你不知道在你的系统中安装的是什么假脱机程序 ,\n"
+"BSD 是一个好的选择."
+
+#: SpoolerConfigData.cpp:99
+msgid "Paths of spooling commands:"
+msgstr "假脱机程序的路径:"

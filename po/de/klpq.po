@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: klpq\n"
+"POT-Creation-Date: 1998-06-18 22:51+0200\n"
+"PO-Revision-Date: 1998-05-03 20:56+0100\n"
+"Last-Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
+"Language-Team: German <kde-n18i@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: iso-8859-1\n"
+
+#: main.cpp:208
+msgid "Sorry, can't open your printcap file."
+msgstr "printcap-Datei kann nicht gelesen werden."
+
+#: main.cpp:213
+msgid "Sorry, unable to parse your printcap."
+msgstr "printcap kann nicht analysiert werden."
+
+#: main.cpp:214
+msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
+msgstr "Bitte senden Sie Ihre printcap an Christoph.Neerfeld@home.ivm.de"
+
+#: klpq.cpp:89
+msgid "Printer"
+msgstr "Drucker"
+
+#: klpq.cpp:93
+msgid "Queuing"
+msgstr "Warten"
+
+#: klpq.cpp:97
+msgid "Printing"
+msgstr "Drucken"
+
+#: klpq.cpp:101
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: klpq.cpp:105
+msgid "Quit"
+msgstr "Beenden"
+
+#: klpq.cpp:119
+msgid "Rank"
+msgstr "Rang"
+
+#: klpq.cpp:120
+msgid "Owner"
+msgstr "Besitzer"
+
+#: klpq.cpp:121
+msgid "Job"
+msgstr "Job"
+
+#: klpq.cpp:122
+msgid "Files"
+msgstr "Dateien"
+
+#: klpq.cpp:123
+msgid "Size"
+msgstr "Größe"
+
+#: klpq.cpp:139 klpq.cpp:217
+msgid "Remove"
+msgstr "Entfernen"
+
+#: klpq.cpp:143 klpq.cpp:218
+msgid "Make Top"
+msgstr "Als oberstes"
+
+#: klpq.cpp:152
+msgid "Auto"
+msgstr "Auto"
+
+#: klpq.cpp:192
+msgid "&Quit"
+msgstr "Be&enden"
+
+#: klpq.cpp:195
+msgid "&Auto update"
+msgstr "&Auto-Aktualisierung"
+
+#: klpq.cpp:196
+msgid "&Spooler"
+msgstr "&Spooler"
+
+#: klpq.cpp:202
+msgid "&File"
+msgstr "&Datei"
+
+#: klpq.cpp:203
+msgid "&Config"
+msgstr "&Konfigurieren"
+
+#: klpq.cpp:205
+msgid "&Help"
+msgstr "&Hilfe"
+
+#: klpq.cpp:383
+msgid "Do you realy want to remove job Nr. "
+msgstr "Entfernen von Job Nr."
+
+#: klpq.cpp:403
+msgid "Do you realy want to move job Nr.\n"
+msgstr "Wechseln zu Job Nr.\n"
+
+#: klpq.cpp:404
+msgid ""
+"\n"
+"on top of queue"
+msgstr ""
+"\n"
+"zu oberst der Druckerwarteschlange"
+
+#: klpq.cpp:586 klpq.cpp:612 klpq.cpp:638
+msgid "Permission denied"
+msgstr "Zugriff verweigtert"
+
+#: klpq.cpp:587 klpq.cpp:613 klpq.cpp:639
+msgid ""
+"This is a privileged command\n"
+"and you do not have permission to execute it."
+msgstr ""
+"Dies ist ein privilegierter Befehl\n"
+"und Sie haben kein Recht ihn auszuführen."
+
+#: ConfAutoUpdate.cpp:10
+msgid "Configure Auto Update"
+msgstr "Konfiguriere Auto-Aktualisierung"
+
+#: ConfAutoUpdateData.cpp:17
+msgid "Update frequency in seconds:"
+msgstr "Aktualisierungsfrequenz in Sekunden:"
+
+#: ConfAutoUpdateData.cpp:32 FirstStartData.cpp:50 SpoolerConfigData.cpp:134
+msgid "Ok"
+msgstr "Ok"
+
+#: ConfAutoUpdateData.cpp:36 SpoolerConfigData.cpp:142
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: klpqspooler.cpp:120 klpqspooler.cpp:190
+msgid "Can't find your lpc program !"
+msgstr "Kann Ihr lpc-Progamm nicht finden!"
+
+#: klpqspooler.cpp:121 klpqspooler.cpp:191
+msgid ""
+"Sorry, I can't find your lpc program.\n"
+"Please check the configuration under Config->Spooler."
+msgstr ""
+"Ihr lpc-Programm kann nicht gefunden werden.\n"
+"Bitte Überprüfen Sie die Konfiguration unter Konfiguration->Spooler."
+
+#: FirstStart.cpp:21 SpoolerConfig.cpp:21 SpoolerConfigData.cpp:151
+msgid "Select your spooling system"
+msgstr "Wählen Sie Ihr Spooling-System aus"
+
+#: FirstStartData.cpp:42
+msgid ""
+"Please select the spooling system you use. Most systems use the BSD spooler. "
+"So if you don't know which spooler is installed on your system, BSD is "
+"probably a good choice."
+msgstr ""
+"Bitte wählen Sie das zu verwendende Spooling-System aus. Die meisen "
+"Systemeverwenden den BSD-Spooler. Falls Sie nicht wissen, welcher Spooler "
+"installiert ist, sollten Sie BSD auswählen."
+
+#: SpoolerConfigData.cpp:99
+msgid "Paths of spooling commands:"
+msgstr "Pfad des Druckbefehles:"

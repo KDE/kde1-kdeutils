@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdenonbeta\n"
+"POT-Creation-Date: 1998-06-18 22:51+0200\n"
+"PO-Revision-Date: 1998-06-17 21:45+0200\n"
+"Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
+
+#: main.cpp:208
+msgid "Sorry, can't open your printcap file."
+msgstr "Lo siento, no se puede abrir el archivo printcap"
+
+#: main.cpp:213
+msgid "Sorry, unable to parse your printcap."
+msgstr "Lo siento, no se puede analizar su printcap."
+
+#: main.cpp:214
+msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
+msgstr ""
+"Por favor mande un email con su printcap a Christoph.Neerfeld@home.ivm.de"
+
+#: klpq.cpp:89
+msgid "Printer"
+msgstr "Impresora"
+
+#: klpq.cpp:93
+msgid "Queuing"
+msgstr "Encolando"
+
+#: klpq.cpp:97
+msgid "Printing"
+msgstr "Imprimiendo"
+
+#: klpq.cpp:101
+msgid "Update"
+msgstr "Actualizar"
+
+#: klpq.cpp:105
+msgid "Quit"
+msgstr "Salir"
+
+#: klpq.cpp:119
+msgid "Rank"
+msgstr "Ordenar"
+
+#: klpq.cpp:120
+msgid "Owner"
+msgstr "Dueño"
+
+#: klpq.cpp:121
+msgid "Job"
+msgstr "Trabajo"
+
+#: klpq.cpp:122
+msgid "Files"
+msgstr "Ficheros"
+
+#: klpq.cpp:123
+msgid "Size"
+msgstr "Tamaño"
+
+#: klpq.cpp:139 klpq.cpp:217
+msgid "Remove"
+msgstr "Eliminar"
+
+#: klpq.cpp:143 klpq.cpp:218
+msgid "Make Top"
+msgstr "Poner el primero"
+
+#: klpq.cpp:152
+msgid "Auto"
+msgstr "Auto"
+
+#: klpq.cpp:192
+msgid "&Quit"
+msgstr "&Salir"
+
+#: klpq.cpp:195
+msgid "&Auto update"
+msgstr "Actualizar &Automáticamente"
+
+#: klpq.cpp:196
+msgid "&Spooler"
+msgstr "&Spooler"
+
+#: klpq.cpp:202
+msgid "&File"
+msgstr "&Fichero"
+
+#: klpq.cpp:203
+msgid "&Config"
+msgstr "&Configuración"
+
+#: klpq.cpp:205
+msgid "&Help"
+msgstr "&Ayuda"
+
+#: klpq.cpp:383
+msgid "Do you realy want to remove job Nr. "
+msgstr "Realmente desea eliminar el trabajo Nr. "
+
+#: klpq.cpp:403
+msgid "Do you realy want to move job Nr.\n"
+msgstr "Realmente desea mover el trabajo Nr. \n"
+
+#: klpq.cpp:404
+msgid ""
+"\n"
+"on top of queue"
+msgstr ""
+"\n"
+"al principio de la cola"
+
+#: klpq.cpp:586 klpq.cpp:612 klpq.cpp:638
+msgid "Permission denied"
+msgstr "Permiso denegado"
+
+#: klpq.cpp:587 klpq.cpp:613 klpq.cpp:639
+msgid ""
+"This is a privileged command\n"
+"and you do not have permission to execute it."
+msgstr ""
+"Esto es un comando especial\n"
+"y no tiene permiso para ejecutarlo."
+
+#: ConfAutoUpdate.cpp:10
+msgid "Configure Auto Update"
+msgstr "Configurar la Autoactualización"
+
+#: ConfAutoUpdateData.cpp:17
+msgid "Update frequency in seconds:"
+msgstr "Frecuencia de actualización en segundos:"
+
+#: ConfAutoUpdateData.cpp:32 FirstStartData.cpp:50 SpoolerConfigData.cpp:134
+msgid "Ok"
+msgstr "Aceptar"
+
+#: ConfAutoUpdateData.cpp:36 SpoolerConfigData.cpp:142
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: klpqspooler.cpp:120 klpqspooler.cpp:190
+msgid "Can't find your lpc program !"
+msgstr "¡ No se pudo encontrar el programa lpc !"
+
+#: klpqspooler.cpp:121 klpqspooler.cpp:191
+msgid ""
+"Sorry, I can't find your lpc program.\n"
+"Please check the configuration under Config->Spooler."
+msgstr ""
+"Lo siento, no se puede encontrar el programa lpc.\n"
+"Por favor compruebe la configuración de Config->Spooler."
+
+#: FirstStart.cpp:21 SpoolerConfig.cpp:21 SpoolerConfigData.cpp:151
+msgid "Select your spooling system"
+msgstr "Seleccione el sistema de spooling"
+
+#: FirstStartData.cpp:42
+msgid ""
+"Please select the spooling system you use. Most systems use the BSD spooler. "
+"So if you don't know which spooler is installed on your system, BSD is "
+"probably a good choice."
+msgstr ""
+"Por favor seleccione el sistema de spooling que usa. La mayoría usa el "
+"sistema BSD. Así que si no sabe cual es el spooler instalado en su "
+"ordenador, BSD será la mejor opción."
+
+#: SpoolerConfigData.cpp:99
+msgid "Paths of spooling commands:"
+msgstr "Path de los comandos de spooling:"

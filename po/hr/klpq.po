@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-06-18 22:51+0200\n"
+"PO-Revision-Date: 1998-03-15 20:00-0500\n"
+"Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
+"Language-Team: Croatian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: iso-8859-2\n"
+
+#: main.cpp:208
+msgid "Sorry, can't open your printcap file."
+msgstr "®alim, ne mogu otvoriti printcap datoteku."
+
+#: main.cpp:213
+msgid "Sorry, unable to parse your printcap."
+msgstr "®alim, ne mogu analizirati printcap datoteku."
+
+#: main.cpp:214
+msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
+msgstr "Molim po¹aljite va¹ printcap na Christoph.Neerfeld@home.ivm.de"
+
+#: klpq.cpp:89
+msgid "Printer"
+msgstr "Pisaè"
+
+#: klpq.cpp:93
+msgid "Queuing"
+msgstr "Stavljam u red"
+
+#: klpq.cpp:97
+msgid "Printing"
+msgstr "Ispisujem"
+
+#: klpq.cpp:101
+msgid "Update"
+msgstr "Osvje¾i"
+
+#: klpq.cpp:105
+msgid "Quit"
+msgstr "Zavr¹i"
+
+#: klpq.cpp:119
+msgid "Rank"
+msgstr "Rang"
+
+#: klpq.cpp:120
+msgid "Owner"
+msgstr "Vlasnik"
+
+#: klpq.cpp:121
+msgid "Job"
+msgstr "Posao"
+
+#: klpq.cpp:122
+msgid "Files"
+msgstr "Datoteke"
+
+#: klpq.cpp:123
+msgid "Size"
+msgstr "Velièina"
+
+#: klpq.cpp:139 klpq.cpp:217
+msgid "Remove"
+msgstr "Ukloni"
+
+#: klpq.cpp:143 klpq.cpp:218
+msgid "Make Top"
+msgstr "Stavi na vrh"
+
+#: klpq.cpp:152
+msgid "Auto"
+msgstr "Auto"
+
+#: klpq.cpp:192
+msgid "&Quit"
+msgstr "&Zavr¹i"
+
+#: klpq.cpp:195
+msgid "&Auto update"
+msgstr "&Automatski osvje¾i"
+
+#: klpq.cpp:196
+msgid "&Spooler"
+msgstr "&Posrednik"
+
+#: klpq.cpp:202
+msgid "&File"
+msgstr "&Datoteka"
+
+#: klpq.cpp:203
+msgid "&Config"
+msgstr "&Postava"
+
+#: klpq.cpp:205
+msgid "&Help"
+msgstr "&Pomoæ"
+
+#: klpq.cpp:383
+msgid "Do you realy want to remove job Nr. "
+msgstr "Da li ¾elis ukloniti posao br.  "
+
+#: klpq.cpp:403
+msgid "Do you realy want to move job Nr.\n"
+msgstr "Da li ¾elis pomaknuti posao br.\n"
+
+#: klpq.cpp:404
+msgid ""
+"\n"
+"on top of queue"
+msgstr ""
+"\n"
+"na vrh reda"
+
+#: klpq.cpp:586 klpq.cpp:612 klpq.cpp:638
+msgid "Permission denied"
+msgstr "Pristup odbijen"
+
+#: klpq.cpp:587 klpq.cpp:613 klpq.cpp:639
+msgid ""
+"This is a privileged command\n"
+"and you do not have permission to execute it."
+msgstr ""
+"Ovo je privilegirana komanda\n"
+"a ti nema¹ privilegije da ju izvr¹i¹."
+
+#: ConfAutoUpdate.cpp:10
+msgid "Configure Auto Update"
+msgstr "Podesi Auto Osvje¾avanje"
+
+#: ConfAutoUpdateData.cpp:17
+msgid "Update frequency in seconds:"
+msgstr "Frekvencija osvje¾avanja u sekundama:"
+
+#: ConfAutoUpdateData.cpp:32 FirstStartData.cpp:50 SpoolerConfigData.cpp:134
+msgid "Ok"
+msgstr "U redu"
+
+#: ConfAutoUpdateData.cpp:36 SpoolerConfigData.cpp:142
+msgid "Cancel"
+msgstr "Poni¹ti"
+
+#: klpqspooler.cpp:120 klpqspooler.cpp:190
+msgid "Can't find your lpc program !"
+msgstr "Ne mogu naæi lpc program !"
+
+#: klpqspooler.cpp:121 klpqspooler.cpp:191
+msgid ""
+"Sorry, I can't find your lpc program.\n"
+"Please check the configuration under Config->Spooler."
+msgstr ""
+"®alim, ne mogu naæi lpc program.\n"
+"Provjerite postavu pod Postava->Posrednik."
+
+#: FirstStart.cpp:21 SpoolerConfig.cpp:21 SpoolerConfigData.cpp:151
+msgid "Select your spooling system"
+msgstr "Izaberi posrednièki sustav"
+
+#: FirstStartData.cpp:42
+msgid ""
+"Please select the spooling system you use. Most systems use the BSD spooler. "
+"So if you don't know which spooler is installed on your system, BSD is "
+"probably a good choice."
+msgstr ""
+"Izaberi posrednièki sustav koji koristi¹. Veæina sustava koristi BSD "
+"posrednika. Ako ne zna¹ koji posrednik ima¹ instaliran BSD je vjerojatno "
+"dobar izbor."
+
+#: SpoolerConfigData.cpp:99
+msgid "Paths of spooling commands:"
+msgstr "Putevi posrednièkih komandi:"

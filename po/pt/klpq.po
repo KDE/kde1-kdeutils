@@ -1,0 +1,170 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: klpq\n"
+"POT-Creation-Date: 1998-06-18 22:51+0200\n"
+"PO-Revision-Date: 1998-02-17 12:00+0000\n"
+"Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
+
+#: main.cpp:208
+msgid "Sorry, can't open your printcap file."
+msgstr "Desculpe, não consigo abrir o ficheiro printcap."
+
+#: main.cpp:213
+msgid "Sorry, unable to parse your printcap."
+msgstr "Desculpe, não consigo processar o seu ficheiro printcap."
+
+#: main.cpp:214
+msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
+msgstr ""
+"Por favor envie por email o seu ficheiro printcap para\n"
+"Christoph.Neerfeld@home.ivm.de"
+
+#: klpq.cpp:89
+msgid "Printer"
+msgstr "Impressora"
+
+#: klpq.cpp:93
+msgid "Queuing"
+msgstr "A colocar na fila de espera"
+
+#: klpq.cpp:97
+msgid "Printing"
+msgstr "Impressão"
+
+#: klpq.cpp:101
+msgid "Update"
+msgstr "Actualizar"
+
+#: klpq.cpp:105
+msgid "Quit"
+msgstr "Sair"
+
+#: klpq.cpp:119
+msgid "Rank"
+msgstr "Posição"
+
+#: klpq.cpp:120
+msgid "Owner"
+msgstr "Dono"
+
+#: klpq.cpp:121
+msgid "Job"
+msgstr "Trabalho"
+
+#: klpq.cpp:122
+msgid "Files"
+msgstr "Ficheiros"
+
+#: klpq.cpp:123
+msgid "Size"
+msgstr "Tamanho"
+
+#: klpq.cpp:139 klpq.cpp:217
+msgid "Remove"
+msgstr "Remover"
+
+#: klpq.cpp:143 klpq.cpp:218
+msgid "Make Top"
+msgstr "Colocar no Topo"
+
+#: klpq.cpp:152
+msgid "Auto"
+msgstr "Auto"
+
+#: klpq.cpp:192
+msgid "&Quit"
+msgstr "&Sair"
+
+#: klpq.cpp:195
+msgid "&Auto update"
+msgstr "Actualizar &automáticamente"
+
+#: klpq.cpp:196
+msgid "&Spooler"
+msgstr "&Spooler"
+
+#: klpq.cpp:202
+msgid "&File"
+msgstr "&Ficheiro"
+
+#: klpq.cpp:203
+msgid "&Config"
+msgstr "&Configuração"
+
+#: klpq.cpp:205
+msgid "&Help"
+msgstr "&Ajuda"
+
+#: klpq.cpp:383
+msgid "Do you realy want to remove job Nr. "
+msgstr "Quer mesmo remover o trabalho n. "
+
+#: klpq.cpp:403
+msgid "Do you realy want to move job Nr.\n"
+msgstr "Quer mesmo mover o trabalho n.\n"
+
+#: klpq.cpp:404
+msgid ""
+"\n"
+"on top of queue"
+msgstr ""
+"\n"
+"para o topo da fila de espera"
+
+#: klpq.cpp:586 klpq.cpp:612 klpq.cpp:638
+msgid "Permission denied"
+msgstr "Permissão recusada"
+
+#: klpq.cpp:587 klpq.cpp:613 klpq.cpp:639
+msgid ""
+"This is a privileged command\n"
+"and you do not have permission to execute it."
+msgstr ""
+"Este é um comando previlegiado\n"
+" e você não têm previlégios para o executar."
+
+#: ConfAutoUpdate.cpp:10
+msgid "Configure Auto Update"
+msgstr "Configurar Actualização Automática"
+
+#: ConfAutoUpdateData.cpp:17
+msgid "Update frequency in seconds:"
+msgstr "Frequencia de actualização (s):"
+
+#: ConfAutoUpdateData.cpp:32 FirstStartData.cpp:50 SpoolerConfigData.cpp:134
+msgid "Ok"
+msgstr "Ok"
+
+#: ConfAutoUpdateData.cpp:36 SpoolerConfigData.cpp:142
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: klpqspooler.cpp:120 klpqspooler.cpp:190
+msgid "Can't find your lpc program !"
+msgstr "Não consigo achar o seu programa lpc !"
+
+#: klpqspooler.cpp:121 klpqspooler.cpp:191
+msgid ""
+"Sorry, I can't find your lpc program.\n"
+"Please check the configuration under Config->Spooler."
+msgstr ""
+"Desculpe, não consigo achar o seu programa lpc.\n"
+"Por favor verifique a configuração em Configuração->Spooler."
+
+#: FirstStart.cpp:21 SpoolerConfig.cpp:21 SpoolerConfigData.cpp:151
+msgid "Select your spooling system"
+msgstr "Seleccione o seu sistema de spooling"
+
+#: FirstStartData.cpp:42
+msgid ""
+"Please select the spooling system you use. Most systems use the BSD spooler. "
+"So if you don't know which spooler is installed on your system, BSD is "
+"probably a good choice."
+msgstr ""
+"Por favor seleccione o sistema de spooling que usa. A maioria dos sistemas "
+"usa o spooler BSD. Por isso se não sabe qual é o spooler instalado no seu "
+"sistema, BSD é provávelmente uma boa escolha."
+
+#: SpoolerConfigData.cpp:99
+msgid "Paths of spooling commands:"
+msgstr "Localizaçao dos comandos de spooling:"
