@@ -38,7 +38,7 @@ msgstr "napisao i odr¾ava"
 
 #: AddressBookAboutData.cpp:62
 msgid "kab 1.0, May 1999"
-msgstr ""
+msgstr "kab 1.0, Svibanj 1999"
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
@@ -74,7 +74,7 @@ msgstr "Is&pi¹i"
 
 #: toplevelwidget.cc:98
 msgid "&Add entry"
-msgstr "&Dodaj zapis"
+msgstr "&Dodaj novi zapis"
 
 #: toplevelwidget.cc:100
 msgid "&Edit entry"
@@ -119,6 +119,3 @@ msgstr "O progr&amu"
 #: toplevelwidget.cc:190
 msgid "About Qt"
 msgstr "O Qt"
-
-#~ msgid "kab 0.9.5, December 1998"
-#~ msgstr "kab 0.9.5, December 1998"
