@@ -14,39 +14,36 @@ msgstr ""
 "Content-Transfer-Encoding: ISO-8859-1\n"
 
 #: ktop.cpp:66
-#, fuzzy
-msgid "88888 Processes"
-msgstr "Todos os processos"
+msgid  "88888 Processes"
+msgstr "88888 processos"
 
 #: ktop.cpp:67
 msgid "Memory: 888888 kB used, 888888 kB free"
-msgstr ""
+msgstr "Memória: 888888 kB utilizados, 888888 kB livres"
 
 #: ktop.cpp:69
 msgid "Swap: 888888 kB used, 888888 kB free"
-msgstr ""
+msgstr "Virtual: 888888 kB utilizados, 888888 kB livres"
 
 #: ktop.cpp:76
 msgid "KDE Task Manager"
 msgstr "Gerenciador de Tarefas do KDE"
 
 #: ktop.cpp:137
-#, fuzzy, c-format
 msgid "%d Processes"
-msgstr "Todos os processos"
+msgstr "%d processos"
 
 #: ktop.cpp:142
 #, c-format
 msgid "Memory: %d kB used, %d kB free"
-msgstr ""
+msgstr "Memória: %d kB utilizados, %d kB livres"
 
 #: ktop.cpp:147
 #, c-format
 msgid "Swap: %d kB used, %d kB free"
-msgstr ""
+msgstr "Virtual: %d kB utilizados, %d kB livres"
 
 #: MainMenu.cpp:51
-#, fuzzy, c-format
 msgid ""
 "KDE Task Manager (KTop) Version %s\n"
 "\n"
@@ -68,35 +65,31 @@ msgstr ""
 
 #: MainMenu.cpp:64
 msgid "Manual Refresh"
-msgstr ""
+msgstr "Atualização Manual"
 
 #: MainMenu.cpp:65
-#, fuzzy
 msgid "Slow Refresh"
-msgstr "Atualizar agora"
+msgstr "Atualização Lenta"
 
 #: MainMenu.cpp:66
 msgid "Medium Refresh"
-msgstr ""
+msgstr "Atualização Média"
 
 #: MainMenu.cpp:67
-#, fuzzy
 msgid "Fast Refresh"
-msgstr "Atualizar agora"
+msgstr "Atualização Rápida"
 
 #: MainMenu.cpp:79
-#, fuzzy
 msgid "&Refresh Rate"
-msgstr "Taxa de Atualização: Lenta"
+msgstr "&Taxa de Atualização"
 
 #: MainMenu.cpp:80
-#, fuzzy
 msgid "&Process"
-msgstr "&Lista de Processos"
+msgstr "&Processos"
 
 #: ProcessMenu.cpp:44
 msgid "Renice Task..."
-msgstr "Fazer renice em Tarefa..."
+msgstr "Repriorizar Tarefa..."
 
 #: ProcessMenu.cpp:47
 msgid "send SIGINT\t(ctrl-c)"
@@ -124,18 +117,17 @@ msgstr "enviar SIGUSR2\t(user2)"
 
 #: ProcessMenu.cpp:74 ProcessMenu.cpp:86 ProcessMenu.cpp:150
 #: ProcessMenu.cpp:158 ProcessMenu.cpp:176
-#, fuzzy
 msgid "Task Manager"
-msgstr "Gerenciador de Tarefas do KDE"
+msgstr "Gerenciador de Tarefas"
 
 #: ProcessMenu.cpp:75
 msgid "You need to select a process first!"
-msgstr ""
+msgstr "Você precisa selecionar um processo."
 
 #: ProcessMenu.cpp:85 ProcessMenu.cpp:149
 #, c-format
 msgid "The process %d is no longer persistent."
-msgstr ""
+msgstr "O processo %d não é mais persistente."
 
 #: ProcessMenu.cpp:98
 msgid "SIGINT"
@@ -163,7 +155,7 @@ msgstr "SIGUSR2"
 
 #: ProcessMenu.cpp:116
 msgid "Unkown Signal"
-msgstr ""
+msgstr "Sinal Desconhecido"
 
 #: ProcessMenu.cpp:122
 #, c-format
@@ -184,7 +176,7 @@ msgid ""
 "Specified process does not exist\n"
 "or permission denied."
 msgstr ""
-"Erro de renice...\n"
+"Erro na mudança de prioridade ...\n"
 "O processo especificado não existe\n"
 "ou a permissão foi negada."
 
@@ -202,7 +194,7 @@ msgstr "Processos Rodando"
 
 #: ProcListPage.cpp:49
 msgid "Show Tree"
-msgstr ""
+msgstr "Mostrar Árvore"
 
 #: ProcListPage.cpp:60
 msgid "All processes"
@@ -230,15 +222,15 @@ msgstr "Matar tarefa"
 
 #: ProcessList.cpp:227
 msgid "Remove Column"
-msgstr ""
+msgstr "Remover Coluna"
 
 #: ProcessList.cpp:228
 msgid "Add Column"
-msgstr ""
+msgstr "Adicionar Coluna"
 
 #: ProcessList.cpp:229
 msgid "Help on Column"
-msgstr ""
+msgstr "Ajuda na Coluna"
 
 #: ProcessList.cpp:691 ProcessList.cpp:692
 msgid "Name"
@@ -262,7 +254,7 @@ msgstr "Tempo"
 
 #: ProcessList.cpp:702
 msgid "Nice"
-msgstr ""
+msgstr "Prioridade"
 
 #: ProcessList.cpp:703
 msgid "Status"
@@ -282,7 +274,7 @@ msgstr "Compartilhada"
 
 #: ProcessList.cpp:707
 msgid "Command line"
-msgstr ""
+msgstr "Linha de comando"
 
 #: OSProcessList.cpp:76 OSProcessList.cpp:104
 msgid ""
@@ -332,7 +324,6 @@ msgid "????"
 msgstr "????"
 
 #: OSProcess.cpp:320
-#, fuzzy, c-format
 msgid "Could not set new nice level for process %d"
 msgstr "Não foi possível alterar a prioridade do processo %d"
 
@@ -342,54 +333,48 @@ msgid "Cound not send signal %d to process %d"
 msgstr "Não foi possível enviar o sinal %d para o processo %d"
 
 #: PerfMonPage.cpp:49
-#, fuzzy
 msgid "CPU Load History"
 msgstr "Histórico de carga da CPU"
 
 #: PerfMonPage.cpp:52
-#, fuzzy
 msgid "System Load History"
-msgstr "Histórico de carga da CPU"
+msgstr "Histórico de carga do sistema"
 
 #: PerfMonPage.cpp:55 PerfMonPage.cpp:113
-#, fuzzy
 msgid "User (%)"
-msgstr "ID do dono"
+msgstr "Usuário (%)"
 
 #: PerfMonPage.cpp:56 PerfMonPage.cpp:114
 msgid "Nice (%)"
-msgstr ""
+msgstr "Baixa prioridade (%)"
 
 #: PerfMonPage.cpp:57 PerfMonPage.cpp:115
 msgid "System (%)"
-msgstr ""
+msgstr "Sistema (%)"
 
 #: PerfMonPage.cpp:64
-#, fuzzy
 msgid "Memory Usage History"
 msgstr "Histórico de utilização de memória"
 
 #: PerfMonPage.cpp:66
 msgid "Program (kB)"
-msgstr ""
+msgstr "Programa (kB)"
 
 #: PerfMonPage.cpp:67
 msgid "Buffer (kB)"
-msgstr ""
+msgstr "Buffer (kB)"
 
 #: PerfMonPage.cpp:68
 msgid "Cache (kB)"
-msgstr ""
+msgstr "Cache (kB)"
 
 #: PerfMonPage.cpp:69
-#, fuzzy
 msgid "Swap (kB)"
-msgstr "Troca"
+msgstr "Troca (kB)"
 
 #: PerfMonPage.cpp:109
-#, fuzzy, c-format
 msgid "CPU%d Load History"
-msgstr "Histórico de carga da CPU"
+msgstr "Histórico de carga da CPU%d"
 
 #: OSStatus.cpp:98
 msgid ""
@@ -418,13 +403,12 @@ msgstr ""
 "informações sobre a memória!\n"
 
 #: OSStatus.cpp:354
-#, fuzzy, c-format
 msgid ""
 "Cannot read info for %s from file '/proc/stat'!\n"
 "The kernel needs to be compiled with support\n"
 "for /proc filesystem enabled!"
 msgstr ""
-"Não foi possível ler o arquivo '/proc/stat'\n"
+"Não foi possível ler informações sobre %s.\n"
 "O kernel tem que ser compilado com o suporte\n"
 "ao sistema de arquivos /proc habilitado!"
 
@@ -443,12 +427,10 @@ msgstr ""
 "Desculpe"
 
 #: ReniceDlg.cpp:32
-#, fuzzy
 msgid "Renice Process"
-msgstr "Processos Rodando"
+msgstr "Alterar a prioridade do processo"
 
 #: ReniceDlg.cpp:39
-#, fuzzy, c-format
 msgid ""
 "You are about the change the scheduling priority of\n"
 "process %d. Be aware that only the Superuser (root)\n"
@@ -458,64 +440,8 @@ msgid ""
 "Please enter the desired nice level:"
 msgstr ""
 "Você está prestes a mudar a prioridade de agendamento\n"
-"de um processo. Esteja ciente de que somente o Super\n"
+"do processo %d. Esteja ciente de que somente o Super\n"
 "Usuário (root) pode aumentar a prioridade de um processo.\n"
 "Quanto menor o número, maior a prioridade.\n"
 "\n"
 "Entre com a prioridade desejada:"
-
-#, fuzzy
-#~ msgid ""
-#~ "Cannot read status of processes\n"
-#~ "from /proc/... directories!\n"
-#~ msgstr ""
-#~ "Não foi possível ler o status dos processos a partir dos\n"
-#~ "diretórios /proc/...!\n"
-
-#~ msgid "StartUp Preferences..."
-#~ msgstr "Preferências de Inicialização..."
-
-#~ msgid "KTop Preferences"
-#~ msgstr "Preferências do KTop"
-
-#~ msgid "Start up page"
-#~ msgstr "Página de Inicialização"
-
-#~ msgid "Processes &Tree"
-#~ msgstr "Árvore de &Processos"
-
-#~ msgid "&Performance"
-#~ msgstr "&Performance"
-
-#~ msgid "ktop"
-#~ msgstr "ktop"
-
-#~ msgid "Refresh rate: Medium"
-#~ msgstr "Taxa de Atualização: Média"
-
-#~ msgid "Refresh rate: Fast"
-#~ msgstr "Taxa de atualização: Rápida"
-
-#~ msgid "Change Root"
-#~ msgstr "Alterar raiz"
-
-#~ msgid "Kill Task"
-#~ msgstr "Matar tarefa"
-
-#~ msgid "Sort by ID"
-#~ msgstr "Ordenar por ID"
-
-#~ msgid "Sort by Name"
-#~ msgstr "Ordenar por Nome"
-
-#~ msgid "Sort by Owner (UID)"
-#~ msgstr "Ordenar por Dono (UID)"
-
-#~ msgid "Prior."
-#~ msgstr "Prior."
-
-#~ msgid "CPU load"
-#~ msgstr "Carga da CPU"
-
-#~ msgid "Swap history"
-#~ msgstr "Histórico de Troca (swap)"
