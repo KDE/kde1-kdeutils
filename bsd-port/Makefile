@@ -14,9 +14,9 @@ BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt \
 		autoconf:${PORTSDIR}/devel/autoconf \
 		automake:${PORTSDIR}/devel/automake
 INSTALL_ROOT?=	${.CURDIR}/${PKGNAME}
-LIB_DEPENDS=	qt\\.1\\.3[0-9]:${PORTSDIR}/x11/qt \
+LIB_DEPENDS=	qt\\.1\\.3[0-9]:${PORTSDIR}/x11/qt133 \
 		gif\\.[23]\\.:${PORTSDIR}/graphics/giflib \
-		jpeg\\.8\\.:${PORTSDIR}/graphics/jpeg \
+		jpeg\\.9\\.:${PORTSDIR}/graphics/jpeg \
 		kdecore\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
 		kdeui\\.0\\.9[1-9]:${PORTSDIR}/x11/kdelibs \
 		jscript\\.0\\.9[0-9]:${PORTSDIR}/x11/kdelibs \
@@ -50,15 +50,18 @@ pre-clean:
 pre-configure:
 		cd $(WRKSRC);rm -f config.cache;$(GMAKE) -f Makefile.cvs
 		rm -f $(PLIST)
+post-install:
+		${MAKE} PREFIX=${PREFIX} make-plist
+		mv -i ${INSTALL_ROOT}/* /
 
 make-plist:
-		cd ${INSTALL_ROOT} && \
+		cd ${INSTALL_ROOT}/${PREFIX} && \
 			find . -type f|sed 's,^\./,,'|sort > $(PLIST)
-		cd ${INSTALL_ROOT} && \
-			find . -type l|sed 's,^\./,,'|sort > $(PLIST)
+		cd ${INSTALL_ROOT}/${PREFIX} && \
+			find . -type l|sed 's,^\./,,'|sort >> $(PLIST)
 		@echo "@exec /sbin/ldconfig -m %B" >> $(PLIST)
-		cd ${INSTALL_ROOT} && \
-			find . -type d|sed 's,^\./,@dirrm ,'|sort > $(PLIST)
+		cd ${INSTALL_ROOT}/${PREFIX} && \
+			find . -type d|sed 's,^\.,@dirrm ,'|sed 's,^\@dirrm /,@dirrm ,'|sort >> $(PLIST)
 		@echo "@unexec /sbin/ldconfig -R" >> $(PLIST)
 
 .include <bsd.port.mk>
