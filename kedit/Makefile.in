@@ -78,8 +78,7 @@ distclean: clean
 install: all
 	$(INSTALL_DIR) $(BINDIR)
 	$(INSTALL) $(TARGET) $(BINDIR)
-	$(INSTALL_DIR) $(DOCSDIR)
-	$(INSTALL_DATA) docs/k* $(DOCSDIR)
+	(cd docs && $(MAKE) install)
 	$(INSTALL_DIR) $(APPSDIR)/Applications
 	$(INSTALL_DATA) kedit.kdelnk $(APPSDIR)/Applications/kedit.kdelnk 
 	$(INSTALL_DIR) $(TOOLPICSDIR)
@@ -92,9 +91,12 @@ install: all
 
 uninstall:
 	rm -f $(BINDIR)/$(TARGET)
-	rm -f $(DOCSDIR)/kedit.html
-	rm -f $(DOCSDIR)/kedit.gif
-	rm -f $(APPSDIR)/Utilities/kedit.kdelnk
+	(cd docs && $(MAKE) uninstall)
+	rm -f $(APPSDIR)/Applications/kedit.kdelnk
+	rm -f $(PICSDIR)/kedit.xpm
+	rm -f $(PICSDIR)/keditlogo.xpm
+	rm -f $(TOOLPICSDIR)/filenew2.xpm
+	rm -f $(TOOLPICSDIR)/send.xpm
 
 # DO NOT DELETE THIS LINE -- make depend depends on it.
 
