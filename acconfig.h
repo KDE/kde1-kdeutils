@@ -32,3 +32,4 @@
 /* Define if you have an HP like STL implementation */
 #undef HAVE_HP_STL
 
+#undef HAVE_FUNC_ISINF

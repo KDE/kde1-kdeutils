@@ -85,9 +85,13 @@ fi
 ])
 KDE_C_LONG_DOUBLE
 
+AC_LANG_C
+AC_CHECK_LIB(m, isinf, [
+AC_DEFINE_UNQUOTED(HAVE_FUNC_ISINF)
+])
+
 dnl Checks for library functions. MISCOBJS is for kdecore
 AC_CHECK_FUNCS(socket fabsl strdup) 
-AC_CHECK_SETENV
 
 dnl output files
 topdir=`pwd`
