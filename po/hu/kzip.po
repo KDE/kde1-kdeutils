@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1997-12-31 15:20+0100\n"
+"POT-Creation-Date: 1998-01-02 21:12+0100\n"
 "PO-Revision-Date: 1997-11-13 12:20+0100\n"
 "Last-Translator: John Zero <johnzero@telnet.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -38,10 +38,6 @@ msgstr "Kitömörítési beállítások"
 msgid "Destination"
 msgstr "Cél"
 
-#: extractdlg.cc:26
-msgid "Browse..."
-msgstr "Tallóz..."
-
 #: extractdlg.cc:33
 msgid "Preserve Permissions"
 msgstr "Õrizd meg a jogokat"
@@ -62,15 +58,6 @@ msgstr "Kiválasztott file"
 msgid "Pattern"
 msgstr "Minta"
 
-#: kzip.cc:60
-msgid "New &Window..."
-msgstr ""
-
-#: kzip.cc:62
-#, fuzzy
-msgid "&New..."
-msgstr "&Új"
-
 #: kzip.cc:65
 msgid "&Extract To..."
 msgstr "Kitömörítés &helye..."
@@ -78,10 +65,6 @@ msgstr "Kitömörítés &helye..."
 #: kzip.cc:70
 msgid "E&xtract..."
 msgstr "Ki&tömörít..."
-
-#: kzip.cc:73
-msgid "&Delete"
-msgstr "&Töröl"
 
 #: kzip.cc:75
 msgid "&Set Archive Directory..."
@@ -95,33 +78,43 @@ msgstr "&File hozzáadás beállításai..."
 msgid "Welcome to KZip..."
 msgstr "Üdvözöl a KZip..."
 
-#: kzip.cc:199
+#: kzip.cc:228
 msgid "Can't create archive of that type"
 msgstr "Nade ilyen archív típust én nem tudok csinálni!"
 
-#: kzip.cc:220 kzip.cc:257 kzip.cc:265
+#: kzip.cc:249 kzip.cc:286 kzip.cc:294
 msgid "Create or open an archive first"
 msgstr "Kreálj vagy nyiss meg egy archívumot elõször"
 
-#: kzip.cc:244
-msgid "Can't add directorys with this archive type"
+#: kzip.cc:273
+msgid "Can't add directories with this archive type"
 msgstr ""
 
-#: kzip.cc:246
+#: kzip.cc:275
 msgid "Error saving to archive"
 msgstr "Hiba az archívba mentés közben"
 
-#: kzip.cc:276
+#: kzip.cc:305
 msgid "Archive Dir:"
 msgstr "Archive könyvtár:"
 
-#: kzip.cc:313 kzip.cc:505
+#: kzip.cc:342 kzip.cc:534
 msgid "Unknown archive format"
 msgstr "Ismeretlen archive formátum"
 
-#: kzip.cc:349
+#: kzip.cc:378
 msgid "Archive Directory"
 msgstr "Archive könyvtár"
+
+#, fuzzy
+#~ msgid "&New..."
+#~ msgstr "&Új"
+
+#~ msgid "&Delete"
+#~ msgstr "&Töröl"
+
+#~ msgid "Browse..."
+#~ msgstr "Tallóz..."
 
 #~ msgid "&Open..."
 #~ msgstr "&Megnyit..."

@@ -509,4 +509,3 @@ msgstr "Email"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Sie müssen einen Empfänger eingeben"
-

@@ -75,4 +75,3 @@ msgstr ""
 #: hexwidget.cpp:273
 msgid "Could not start KFM"
 msgstr "KFM konnte nicht gestartet werden."
-

@@ -288,4 +288,3 @@ msgid ""
 msgstr ""
 "Eine Notiz mit diesem Namen existiert schon\n"
 "Bitte wählen Sie einen anderen Namen!"
-
