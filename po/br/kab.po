@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kab1.1\n"
-"POT-Creation-Date: 1999-01-12 01:57+0100\n"
+"POT-Creation-Date: 1999-03-24 02:39+0100\n"
 "PO-Revision-Date: 1999-03-01 17:10+0100\n"
 "Last-Translator: FULL NAME Jañ-Mai Drapier <jdrapier@club-internet.fr>\n"
 "Language-Team: Brezhoneg <Suav.Icb@wanadoo.fr>\n"
@@ -40,8 +40,8 @@ msgid "written and maintained by"
 msgstr "skrivet ha ratreet gant"
 
 #: AddressBookAboutData.cpp:62
-msgid "kab 0.9.5, December 1998"
-msgstr "kab 0.9.5, miz du  1998"
+msgid "kab 1.0, May 1999"
+msgstr ""
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
@@ -122,3 +122,6 @@ msgstr "&Diwar-benn"
 #: toplevelwidget.cc:190
 msgid "About Qt"
 msgstr "Diwar-benn Qt"
+
+#~ msgid "kab 0.9.5, December 1998"
+#~ msgstr "kab 0.9.5, miz du  1998"

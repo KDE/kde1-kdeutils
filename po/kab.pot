@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-12 01:57+0100\n"
+"POT-Creation-Date: 1999-03-24 02:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgid "written and maintained by"
 msgstr ""
 
 #: AddressBookAboutData.cpp:62
-msgid "kab 0.9.5, December 1998"
+msgid "kab 1.0, May 1999"
 msgstr ""
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43

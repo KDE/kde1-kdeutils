@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
-"POT-Creation-Date: 1999-01-12 01:57+0100\n"
+"POT-Creation-Date: 1999-03-24 02:39+0100\n"
 "PO-Revision-Date: 1999-01-28 20:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -37,8 +37,8 @@ msgid "written and maintained by"
 msgstr "napisao i odr¾ava"
 
 #: AddressBookAboutData.cpp:62
-msgid "kab 0.9.5, December 1998"
-msgstr "kab 0.9.5, December 1998"
+msgid "kab 1.0, May 1999"
+msgstr ""
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
@@ -119,3 +119,6 @@ msgstr "O progr&amu"
 #: toplevelwidget.cc:190
 msgid "About Qt"
 msgstr "O Qt"
+
+#~ msgid "kab 0.9.5, December 1998"
+#~ msgstr "kab 0.9.5, December 1998"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-12 01:57+0100\n"
+"POT-Creation-Date: 1999-03-24 02:39+0100\n"
 "PO-Revision-Date: 1999-01-13 13:40+MET\n"
 "Last-Translator: Gregor Zumstein <zumstein@ssd.ethz.ch>\n"
 "Language-Team: de <LL@li.org>\n"
@@ -38,8 +38,8 @@ msgid "written and maintained by"
 msgstr "Geschrieben und betreut von"
 
 #: AddressBookAboutData.cpp:62
-msgid "kab 0.9.5, December 1998"
-msgstr "kab 0.9.5, Dezember 1998"
+msgid "kab 1.0, May 1999"
+msgstr ""
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
@@ -120,3 +120,6 @@ msgstr "Ü&ber"
 #: toplevelwidget.cc:190
 msgid "About Qt"
 msgstr "Über Qt..."
+
+#~ msgid "kab 0.9.5, December 1998"
+#~ msgstr "kab 0.9.5, Dezember 1998"

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kab\n"
-"POT-Creation-Date: 1999-01-12 01:57+0100\n"
+"POT-Creation-Date: 1999-03-24 02:39+0100\n"
 "PO-Revision-Date: 1999-02-09 23:00+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -37,8 +37,8 @@ msgid "written and maintained by"
 msgstr "написана и поддерживается"
 
 #: AddressBookAboutData.cpp:62
-msgid "kab 0.9.5, December 1998"
-msgstr "kab 0.9.5, Декабрь 1998"
+msgid "kab 1.0, May 1999"
+msgstr ""
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
@@ -119,6 +119,9 @@ msgstr "О программе"
 #: toplevelwidget.cc:190
 msgid "About Qt"
 msgstr "О Qt"
+
+#~ msgid "kab 0.9.5, December 1998"
+#~ msgstr "kab 0.9.5, Декабрь 1998"
 
 #~ msgid "kab 0.8, August 1998"
 #~ msgstr "kab 0.8, Август 1998"

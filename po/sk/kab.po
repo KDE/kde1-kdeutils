@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kab\n"
-"POT-Creation-Date: 1999-01-12 01:57+0100\n"
+"POT-Creation-Date: 1999-03-24 02:39+0100\n"
 "Last-Translator: Juraj Bednar <bednar@isternet.sk>\n"
 "Language-Team: Slovak <sk@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -37,8 +37,8 @@ msgid "written and maintained by"
 msgstr "napísal a spravuje"
 
 #: AddressBookAboutData.cpp:62
-msgid "kab 0.9.5, December 1998"
-msgstr "kab 0.9.5, December 1998"
+msgid "kab 1.0, May 1999"
+msgstr ""
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
@@ -119,6 +119,9 @@ msgstr "&Informácie"
 #: toplevelwidget.cc:190
 msgid "About Qt"
 msgstr "Informácie o Qt"
+
+#~ msgid "kab 0.9.5, December 1998"
+#~ msgstr "kab 0.9.5, December 1998"
 
 #~ msgid "kab 0.8, August 1998"
 #~ msgstr "kab 0.8, August 1998"

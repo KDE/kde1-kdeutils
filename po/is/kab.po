@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-01-12 01:57+0100\n"
+"POT-Creation-Date: 1999-03-24 02:39+0100\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
 
@@ -33,8 +33,8 @@ msgid "written and maintained by"
 msgstr "skrifað og viðhaldið af"
 
 #: AddressBookAboutData.cpp:62
-msgid "kab 0.9.5, December 1998"
-msgstr "kab 0.9.5, desember 1998"
+msgid "kab 1.0, May 1999"
+msgstr ""
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
@@ -115,3 +115,6 @@ msgstr "&Um"
 #: toplevelwidget.cc:190
 msgid "About Qt"
 msgstr "Um &Qt"
+
+#~ msgid "kab 0.9.5, December 1998"
+#~ msgstr "kab 0.9.5, desember 1998"
