@@ -10,5 +10,6 @@ Exec=kedit %u
 Icon=kedit.xpm
 TerminalOptions=
 Path=
+DocPath=kedit/index.html
 Type=Application
 Terminal=0

@@ -1,6 +1,6 @@
 # KDE Config File
 [KDE Desktop Entry]
-DocPath=kjots/kjots.html
+DocPath=kjots/index.html
 Name=KJots
 Comment=Note taker
 Comment[de]=Erfasst Notizen
