@@ -51,7 +51,7 @@ msgstr "Motif"
 
 #: arkwidget.cc:70
 msgid "&New..."
-msgstr ""
+msgstr "&Nouveau..."
 
 #: arkwidget.cc:73
 msgid "&Extract To..."
@@ -107,7 +107,7 @@ msgstr "Format d'archive inconnu"
 
 #: arkwidget.cc:389
 msgid "Size"
-msgstr ""
+msgstr "Taille"
 
 #: arkwidget.cc:395
 msgid "Archive directory does not exist."
