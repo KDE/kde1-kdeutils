@@ -43,7 +43,7 @@ msgstr "Grønn/sort last-graf"
 
 #: prefs.C:45
 msgid "Solid filled graph"
-msgstr "Solid fyllt graf"
+msgstr "Solid fylt graf"
 
 #: prefs.C:50
 msgid "Host Name Lookup"
