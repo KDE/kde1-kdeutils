@@ -258,7 +258,7 @@ msgid ""
 msgstr ""
 "Se ha encontrado una alarma, de la cual\n"
 "no se encuentra su fichero KNotes:\n"
-"%s\n"
+"%s"
 
 #: knotes.cpp:1574
 msgid "Inconsistency"

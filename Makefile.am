@@ -14,9 +14,8 @@ install-data-local:
 	@echo " Set KDEDIR to "$(prefix)
 	@echo " Add "$(bindir)" to your PATH"
 	@echo ""
-	@echo " Please report bugs to the buglist maintainer."
-	@echo " He will forward it to the right developer."
-	@echo " You can reach him under kde-bugs@kde.org"
+	@echo " Please report bugs with our web form at"
+	@echo " http://buglist.kde.org."
 	@echo ""
 	@echo " Stephan Kulow <coolo@kde.org>, and all the KDE"
 	@echo " developers, wish you fun with the KDE."
