@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kzip\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-05-10 17:22+0200\n"
 "PO-Revision-Date: 1998-02-04 HO:MI+ZONE\n"
 "Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
 "Language-Team: FRENCH <kde-i18n@kde.org>\n"
@@ -52,50 +52,63 @@ msgstr "Fichier sélectionné"
 msgid "Pattern"
 msgstr "Motif"
 
-#: kzip.cc:65
+#: kzip.cc:70
 msgid "&Extract To..."
 msgstr "&Extraire dans ..."
 
-#: kzip.cc:70
+#: kzip.cc:75
 msgid "E&xtract..."
 msgstr "E&xtraire ..."
 
-#: kzip.cc:75
+#: kzip.cc:80
 msgid "&Set Archive Directory..."
 msgstr "&Spécifier le répertoire de l'archive"
 
-#: kzip.cc:76
+#: kzip.cc:81
+msgid "Set &Tar Executable..."
+msgstr ""
+
+#: kzip.cc:82
 msgid "&File Adding Options..."
 msgstr "Options d'ajout de &fichier ..."
 
-#: kzip.cc:122
+#: kzip.cc:128
 msgid "Welcome to KZip..."
 msgstr "Bienvenue dans KZip ..."
 
-#: kzip.cc:228
+#: kzip.cc:235
 msgid "Can't create archive of that type"
 msgstr "Impossible de créer une archive de ce type"
 
-#: kzip.cc:249 kzip.cc:286 kzip.cc:294
+#: kzip.cc:257
 msgid "Create or open an archive first"
 msgstr "Créez ou ouvrez d'abord une archive"
 
-#: kzip.cc:273
+#: kzip.cc:300
 msgid "Can't add directories with this archive type"
 msgstr "Impossible d'ajouter des répertoires avec ce type d'archive"
 
-#: kzip.cc:275
+#: kzip.cc:302
 msgid "Error saving to archive"
 msgstr "Erreur lors de la sauvegarde dans l'archive"
 
-#: kzip.cc:305
+#: kzip.cc:312
 msgid "Archive Dir:"
 msgstr "Répertoire de l'archive :"
 
-#: kzip.cc:342 kzip.cc:534
+#: kzip.cc:329
+msgid "What runs GNU tar:"
+msgstr ""
+
+#: kzip.cc:366 kzip.cc:568
 msgid "Unknown archive format"
 msgstr "Format d'archive inconnu"
 
-#: kzip.cc:378
+#: kzip.cc:392
+#, fuzzy
+msgid "Archive directory does not exist."
+msgstr "Répertoire de l'archive"
+
+#: kzip.cc:408
 msgid "Archive Directory"
 msgstr "Répertoire de l'archive"

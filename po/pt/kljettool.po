@@ -1,5 +1,6 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 1998-05-10 17:22+0200\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1998-03-06 22:44:34-0500\n"
 "From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
@@ -9,6 +10,7 @@ msgstr ""
 "PaperData.cpp Printer.cpp PrinterData.cpp about.cpp main.cpp\n"
 
 #: Data.cpp:123 Data.cpp:157 Data.cpp:193
+#, c-format
 msgid ""
 "Unable to print with:\n"
 " %s"
@@ -57,7 +59,8 @@ msgid "Reset"
 msgstr "Reiniciar"
 
 #: MiscData.cpp:113
-msgid "initialize"
+#, fuzzy
+msgid "Initialize"
 msgstr "initializar"
 
 #: PrinterData.cpp:41

@@ -1,27 +1,28 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-05-10 17:22+0200\n"
 "PO-Revision-Date: 1997-12-28 19:17+01\n"
 "Last-Translator: Stephan Kulow <coolo@kde.org>\n"
 
 #: hexdata.cpp:33
+#, c-format
 msgid "Error opening %s"
 msgstr "Fehler beim Öffnen von %s"
 
-#: hexwidget.cpp:79
+#: hexwidget.cpp:80
 msgid "Save &As..."
 msgstr "Speichern &unter"
 
-#: hexwidget.cpp:90
+#: hexwidget.cpp:91
 msgid "&Toggle Toolbar"
 msgstr "&Werkzeugleiste ein-/ausblenden"
 
-#: hexwidget.cpp:93
+#: hexwidget.cpp:94
 msgid "Hex Editor"
 msgstr "Hex-Editor"
 
-#: hexwidget.cpp:95
+#: hexwidget.cpp:96
 msgid ""
 "\n"
 "\n"
@@ -31,19 +32,19 @@ msgstr ""
 "\n"
 "von Stephan Kulow"
 
-#: hexwidget.cpp:118
+#: hexwidget.cpp:119
 msgid "New Window"
 msgstr "Neues &Fenster"
 
-#: hexwidget.cpp:122
+#: hexwidget.cpp:123
 msgid "Save the file"
 msgstr "Aktuelle Datei speichern"
 
-#: hexwidget.cpp:125 hexwidget.cpp:127 hexwidget.cpp:129 hexwidget.cpp:132
+#: hexwidget.cpp:126 hexwidget.cpp:128 hexwidget.cpp:130 hexwidget.cpp:133
 msgid "Not implemented"
 msgstr "Nicht implementiert"
 
-#: hexwidget.cpp:163
+#: hexwidget.cpp:164
 msgid ""
 "The current file has been modified.\n"
 "Do you want to save it?"
@@ -51,7 +52,7 @@ msgstr ""
 "Die Änderungen wurden nicht gespeichert!\n"
 "Wollen Sie sie jetzt speichern?"
 
-#: hexwidget.cpp:189
+#: hexwidget.cpp:187
 msgid ""
 "The current file has been modified.\n"
 "Discard your changes?"
@@ -59,7 +60,7 @@ msgstr ""
 "Die Änderungen wurden nicht gespeichert!\n"
 "Wollen Sie sie jetzt speichern?"
 
-#: hexwidget.cpp:270
+#: hexwidget.cpp:268
 msgid ""
 "KHexdit is already waiting\n"
 "for an internet job to finish\n"
@@ -71,6 +72,6 @@ msgstr ""
 "zur Zeit möglich. Warten Sie, solange der\n"
 "erste läuft, oder beenden Sie ihn!"
 
-#: hexwidget.cpp:278
+#: hexwidget.cpp:276
 msgid "Could not start KFM"
 msgstr "KFM konnte nicht gestartet werden."

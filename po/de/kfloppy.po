@@ -1,6 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kfloppy\n"
+"POT-Creation-Date: 1998-05-10 17:22+0200\n"
 "PO-Revision-Date: 1998-05-02 10:25+0100\n"
 "Last-Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
 "Language-Team: German <de@li.org>\n"
@@ -68,6 +69,7 @@ msgid "HD"
 msgstr "HD - Hoch"
 
 #: floppy.cpp:286
+#, c-format
 msgid ""
 "Cannot access %s\n"
 "Make sure that the device exists and that\n"
@@ -126,6 +128,7 @@ msgstr ""
 "ein gültiges Laufwerk ausgewählt haben.\n"
 
 #: floppy.cpp:587
+#, c-format
 msgid ""
 "Cannot format: %s\n"
 "%s"
@@ -134,10 +137,12 @@ msgstr ""
 "%s"
 
 #: floppy.cpp:634
+#, c-format
 msgid "Block %d is bad. Continuing ..."
 msgstr "Block %d ist fehlerhaft. Fahre mit dem Formatiern fort ..."
 
 #: floppy.cpp:717
+#, c-format
 msgid ""
 "Cannot create a filesystem on: %s\n"
 "%s"
@@ -146,6 +151,7 @@ msgstr ""
 "%s"
 
 #: floppy.cpp:753
+#, c-format
 msgid ""
 "The floppy was sucessfully formatted.\n"
 "Blocks marked bad: %d\n"
@@ -180,6 +186,7 @@ msgid "Error while trying to determine whether floppy is mounted\n"
 msgstr "Fehler beim Feststellen, ob das Laufwerk gemountet ist\n"
 
 #: floppy.cpp:924
+#, c-format
 msgid ""
 "%s is mounted.\n"
 "Please unmount the floppy first."

@@ -1,5 +1,6 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 1998-05-10 17:22+0200\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1998-03-06 22:06:45-0500\n"
 "From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
@@ -8,22 +9,23 @@ msgstr ""
 "Files: hexdata.cpp hexfile.cpp hexwidget.cpp\n"
 
 #: hexdata.cpp:33
+#, c-format
 msgid "Error opening %s"
 msgstr "Gre¹ka prilikom otvaranja %s"
 
-#: hexwidget.cpp:79
+#: hexwidget.cpp:80
 msgid "Save &As..."
 msgstr "Spremi pod novim &imenom..."
 
-#: hexwidget.cpp:90
+#: hexwidget.cpp:91
 msgid "&Toggle Toolbar"
 msgstr "Uklj./isklj. &Alate"
 
-#: hexwidget.cpp:93
+#: hexwidget.cpp:94
 msgid "Hex Editor"
 msgstr "Hex Editoru"
 
-#: hexwidget.cpp:95
+#: hexwidget.cpp:96
 msgid ""
 "\n"
 "\n"
@@ -33,19 +35,19 @@ msgstr ""
 "\n"
 "Stephan Kulow"
 
-#: hexwidget.cpp:118
+#: hexwidget.cpp:119
 msgid "New Window"
 msgstr "Novi prozor"
 
-#: hexwidget.cpp:122
+#: hexwidget.cpp:123
 msgid "Save the file"
 msgstr "Spremi datoteku"
 
-#: hexwidget.cpp:125 hexwidget.cpp:127 hexwidget.cpp:129 hexwidget.cpp:132
+#: hexwidget.cpp:126 hexwidget.cpp:128 hexwidget.cpp:130 hexwidget.cpp:133
 msgid "Not implemented"
 msgstr "Nije ugraðeno"
 
-#: hexwidget.cpp:163
+#: hexwidget.cpp:164
 msgid ""
 "The current file has been modified.\n"
 "Do you want to save it?"
@@ -53,7 +55,7 @@ msgstr ""
 "Datoteka je mijenjana.\n"
 "®elite li je spremiti ?"
 
-#: hexwidget.cpp:189
+#: hexwidget.cpp:187
 msgid ""
 "The current file has been modified.\n"
 "Discard your changes?"
@@ -61,7 +63,7 @@ msgstr ""
 "Datoteka je mijenjana.\n"
 "®elite odbaciti promjene ?"
 
-#: hexwidget.cpp:270
+#: hexwidget.cpp:268
 msgid ""
 "KHexdit is already waiting\n"
 "for an internet job to finish\n"
@@ -72,6 +74,6 @@ msgstr ""
 "KHexedit veæ èeka na jedan posao\n"
 "Èekajte da posao zavr¹i ili ga zaustavite."
 
-#: hexwidget.cpp:278
+#: hexwidget.cpp:276
 msgid "Could not start KFM"
 msgstr "Ne mogu pokrenuti KFM"

@@ -1,6 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kljettool\n"
+"POT-Creation-Date: 1998-05-10 17:22+0200\n"
 "PO-Revision-Date: 1998-05-02 10:25+0100\n"
 "Last-Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
 "Language-Team: German <de@li.org>\n"
@@ -15,6 +16,7 @@ msgstr ""
 "PaperData.cpp Printer.cpp PrinterData.cpp about.cpp main.cpp\n"
 
 #: Data.cpp:123 Data.cpp:157 Data.cpp:193
+#, c-format
 msgid ""
 "Unable to print with:\n"
 " %s"
@@ -63,7 +65,8 @@ msgid "Reset"
 msgstr "Zurücksetzen"
 
 #: MiscData.cpp:113
-msgid "initialize"
+#, fuzzy
+msgid "Initialize"
 msgstr "Initialisieren"
 
 #: PrinterData.cpp:41

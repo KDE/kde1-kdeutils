@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-may-2 09:54+0100\n"
+"POT-Creation-Date: 1998-05-10 17:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Jorge Valencia <jorgev@est.unileon.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,6 +75,7 @@ msgid "HD"
 msgstr "HD"
 
 #: floppy.cpp:286
+#, c-format
 msgid ""
 "Cannot access %s\n"
 "Make sure that the device exists and that\n"
@@ -133,6 +134,7 @@ msgstr ""
 "seleccionado una unidad de disco flexible valida.\n"
 
 #: floppy.cpp:587
+#, c-format
 msgid ""
 "Cannot format: %s\n"
 "%s"
@@ -141,10 +143,12 @@ msgstr ""
 "%s"
 
 #: floppy.cpp:634
+#, c-format
 msgid "Block %d is bad. Continuing ..."
 msgstr "Bloque %d esta mal. Continuando ..."
 
 #: floppy.cpp:717
+#, c-format
 msgid ""
 "Cannot create a filesystem on: %s\n"
 "%s"
@@ -153,6 +157,7 @@ msgstr ""
 "%s"
 
 #: floppy.cpp:753
+#, c-format
 msgid ""
 "The floppy was sucessfully formatted.\n"
 "Blocks marked bad: %d\n"
@@ -187,6 +192,7 @@ msgid "Error while trying to determine whether floppy is mounted\n"
 msgstr "Error mientras se intentaba determinar si el disco estaba montado\n"
 
 #: floppy.cpp:924
+#, c-format
 msgid ""
 "%s is mounted.\n"
 "Please unmount the floppy first."

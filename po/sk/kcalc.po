@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcalc\n"
-"POT-Creation-Date: 1998-03-05 12:11+0100\n"
+"POT-Creation-Date: 1998-05-10 17:22+0200\n"
 "PO-Revision-Date: 1998-03-20 12:20 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -9,35 +9,35 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: configdlg.cpp:48 kcalc.cpp:1567
+#: configdlg.cpp:56 kcalc.cpp:1591
 msgid "Defaults"
 msgstr "Základné"
 
-#: configdlg.cpp:53
+#: configdlg.cpp:61
 msgid "Foreground Color:"
 msgstr "Farba textu:"
 
-#: configdlg.cpp:70
+#: configdlg.cpp:78
 msgid "Background Color:"
 msgstr "Farba pozadia:"
 
-#: configdlg.cpp:87
+#: configdlg.cpp:95
 msgid "Precision:"
 msgstr "Presnos»:"
 
-#: configdlg.cpp:108
+#: configdlg.cpp:116
 msgid "Set Fixed Precision at:"
 msgstr "Nastavi» pevnú presnos» na :"
 
-#: configdlg.cpp:137
+#: configdlg.cpp:145
 msgid "Beep on Error"
 msgstr "Pípnu» pri chybe"
 
-#: configdlg.cpp:145
+#: configdlg.cpp:153
 msgid "Trigonometry Mode"
 msgstr "Trojuhoµníkový re¾im"
 
-#: configdlg.cpp:150
+#: configdlg.cpp:158
 msgid "Statistical Mode"
 msgstr "©tatistický re¾im"
 
@@ -49,30 +49,37 @@ msgstr "Nastav ¹tandardné písmo"
 msgid "Point Size:"
 msgstr "Veµkos»:"
 
-#: kcalc.cpp:92
+#: kcalc.cpp:99
 msgid "KCalc Setup/Help"
 msgstr "KCalc Nastavenie/pomocník"
 
-#: kcalc.cpp:145
+#: kcalc.cpp:152
 msgid "Angle"
 msgstr "Uhol"
 
-#: kcalc.cpp:185
+#: kcalc.cpp:192
 msgid "Base"
 msgstr "Sústava"
 
-#: kcalc.cpp:1534
+#: kcalc.cpp:1550
 msgid "Base type: long double\n"
 msgstr "Základný typ:long double\n"
 
-#: kcalc.cpp:1536
-msgid "Base type: double\n"
-msgstr "Základný typ: double\n"
+#: kcalc.cpp:1552
+msgid ""
+"Due to broken glibc's everywhere, I had to reduce KCalc's precision from "
+"'long double' to 'double'. Owners of systems with a working libc should "
+"recompile KCalc with 'long double' precision enabled. See the README for "
+"details."
+msgstr ""
 
-#: kcalc.cpp:1568
+#: kcalc.cpp:1592
 msgid "Display Font"
 msgstr "Písmo"
 
-#: kcalc_core.cpp:1125
+#: kcalc_core.cpp:1138
 msgid "Stat Mem cleared"
 msgstr "Pamä» vymazaná"
+
+#~ msgid "Base type: double\n"
+#~ msgstr "Základný typ: double\n"

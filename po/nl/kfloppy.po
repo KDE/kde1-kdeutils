@@ -1,5 +1,6 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 1998-05-10 17:22+0200\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1998-03-06 22:13:59-0500\n"
 "From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
@@ -62,6 +63,7 @@ msgid "HD"
 msgstr "HD"
 
 #: floppy.cpp:286
+#, c-format
 msgid ""
 "Cannot access %s\n"
 "Make sure that the device exists and that\n"
@@ -121,6 +123,7 @@ msgstr ""
 "u een correcte floppy speler hebt gekozen.\n"
 
 #: floppy.cpp:587
+#, c-format
 msgid ""
 "Cannot format: %s\n"
 "%s"
@@ -129,10 +132,12 @@ msgstr ""
 "%s"
 
 #: floppy.cpp:634
+#, c-format
 msgid "Block %d is bad. Continuing ..."
 msgstr "Blok %d is slecht. Ga verder ..."
 
 #: floppy.cpp:717
+#, c-format
 msgid ""
 "Cannot create a filesystem on: %s\n"
 "%s"
@@ -141,6 +146,7 @@ msgstr ""
 "%s"
 
 #: floppy.cpp:753
+#, c-format
 msgid ""
 "The floppy was sucessfully formatted.\n"
 "Blocks marked bad: %d\n"
@@ -175,6 +181,7 @@ msgid "Error while trying to determine whether floppy is mounted\n"
 msgstr "Fout bij het bepalen van de wijze van aansluiting van floppy\n"
 
 #: floppy.cpp:924
+#, c-format
 msgid ""
 "%s is mounted.\n"
 "Please unmount the floppy first."

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-11-08 23:50+0100\n"
+"POT-Creation-Date: 1998-05-10 17:22+0200\n"
 "PO-Revision-Date: 1998-03-19 20:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian\n"
@@ -80,6 +80,7 @@ msgstr "HD"
 
 # floppy.cpp:286
 #: floppy.cpp:286
+#, c-format
 msgid ""
 "Cannot access %s\n"
 "Make sure that the device exists and that\n"
@@ -145,6 +146,7 @@ msgstr ""
 
 # floppy.cpp:587
 #: floppy.cpp:587
+#, c-format
 msgid ""
 "Cannot format: %s\n"
 "%s"
@@ -154,11 +156,13 @@ msgstr ""
 
 # floppy.cpp:634
 #: floppy.cpp:634
+#, c-format
 msgid "Block %d is bad. Continuing ..."
 msgstr "Block %d je lo¹. Nastavljam ..."
 
 # floppy.cpp:717
 #: floppy.cpp:717
+#, c-format
 msgid ""
 "Cannot create a filesystem on: %s\n"
 "%s"
@@ -168,6 +172,7 @@ msgstr ""
 
 # floppy.cpp:753
 #: floppy.cpp:753
+#, c-format
 msgid ""
 "The floppy was sucessfully formatted.\n"
 "Blocks marked bad: %d\n"
@@ -208,6 +213,7 @@ msgstr "Gre¹ka prilikom poku¹aja da utvrdim da li je disk namontiran\n"
 
 # floppy.cpp:924
 #: floppy.cpp:924
+#, c-format
 msgid ""
 "%s is mounted.\n"
 "Please unmount the floppy first."

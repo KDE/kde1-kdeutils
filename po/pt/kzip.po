@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-05-10 17:22+0200\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-10-09 11:06:57-0400\n"
@@ -54,50 +54,63 @@ msgstr "Seleccionado"
 msgid "Pattern"
 msgstr "Padrão"
 
-#: kzip.cc:65
+#: kzip.cc:70
 msgid "&Extract To..."
 msgstr "&Extrair Para..."
 
-#: kzip.cc:70
+#: kzip.cc:75
 msgid "E&xtract..."
 msgstr "E&xtrair"
 
-#: kzip.cc:75
+#: kzip.cc:80
 msgid "&Set Archive Directory..."
 msgstr "&Definir Directoria de Arquivo..."
 
-#: kzip.cc:76
+#: kzip.cc:81
+msgid "Set &Tar Executable..."
+msgstr ""
+
+#: kzip.cc:82
 msgid "&File Adding Options..."
 msgstr "Opções de Adição de &Ficheiros"
 
-#: kzip.cc:122
+#: kzip.cc:128
 msgid "Welcome to KZip..."
 msgstr "Bemvindo ao KZip..."
 
-#: kzip.cc:228
+#: kzip.cc:235
 msgid "Can't create archive of that type"
 msgstr "Não posso criar arquivo desse tipo"
 
-#: kzip.cc:249 kzip.cc:286 kzip.cc:294
+#: kzip.cc:257
 msgid "Create or open an archive first"
 msgstr "Crie ou abra um arquivo primeiro"
 
-#: kzip.cc:273
+#: kzip.cc:300
 msgid "Can't add directories with this archive type"
 msgstr "Impossível adicionar directorias com este tipo de arquivo"
 
-#: kzip.cc:275
+#: kzip.cc:302
 msgid "Error saving to archive"
 msgstr "Erro ao gravar para o arquivo"
 
-#: kzip.cc:305
+#: kzip.cc:312
 msgid "Archive Dir:"
 msgstr "Directoria de Arquivo:"
 
-#: kzip.cc:342 kzip.cc:534
+#: kzip.cc:329
+msgid "What runs GNU tar:"
+msgstr ""
+
+#: kzip.cc:366 kzip.cc:568
 msgid "Unknown archive format"
 msgstr "Formato de arquivo desconhecido"
 
-#: kzip.cc:378
+#: kzip.cc:392
+#, fuzzy
+msgid "Archive directory does not exist."
+msgstr "Directoria de Arquivo"
+
+#: kzip.cc:408
 msgid "Archive Directory"
 msgstr "Directoria de Arquivo"

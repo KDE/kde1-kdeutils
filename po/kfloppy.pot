@@ -1,16 +1,26 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Date: 1998-03-06 22:13:59-0500\n"
-"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, <root@petit.cornell.edu>\n"
-"Content-Type: text/plain; charset=\n"
-"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
-"Files: about.cpp floppy.cpp main.cpp\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
 
 #: about.cpp:40
 msgid "About KDE Floppy Formater"
 msgstr ""
 
-#: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368 floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721 floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
+#: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368
+#: floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721
+#: floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
 msgid "KFloppy"
 msgstr ""
 
@@ -59,6 +69,7 @@ msgid "HD"
 msgstr ""
 
 #: floppy.cpp:286
+#, c-format
 msgid ""
 "Cannot access %s\n"
 "Make sure that the device exists and that\n"
@@ -102,22 +113,26 @@ msgid ""
 msgstr ""
 
 #: floppy.cpp:587
+#, c-format
 msgid ""
 "Cannot format: %s\n"
 "%s"
 msgstr ""
 
 #: floppy.cpp:634
+#, c-format
 msgid "Block %d is bad. Continuing ..."
 msgstr ""
 
 #: floppy.cpp:717
+#, c-format
 msgid ""
 "Cannot create a filesystem on: %s\n"
 "%s"
 msgstr ""
 
 #: floppy.cpp:753
+#, c-format
 msgid ""
 "The floppy was sucessfully formatted.\n"
 "Blocks marked bad: %d\n"
@@ -147,6 +162,7 @@ msgid "Error while trying to determine whether floppy is mounted\n"
 msgstr ""
 
 #: floppy.cpp:924
+#, c-format
 msgid ""
 "%s is mounted.\n"
 "Please unmount the floppy first."

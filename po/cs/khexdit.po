@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: khexdit\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-05-10 17:22+0200\n"
 "PO-Revision-Date: 1998-01-27 14:49 MET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -14,22 +14,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: hexdata.cpp:33
+#, c-format
 msgid "Error opening %s"
 msgstr "Chyba pøi otevírání %s"
 
-#: hexwidget.cpp:79
+#: hexwidget.cpp:80
 msgid "Save &As..."
 msgstr "Ulo¾it &jako ..."
 
-#: hexwidget.cpp:90
+#: hexwidget.cpp:91
 msgid "&Toggle Toolbar"
 msgstr "Nás&tojovou li¹tu zapnout/vypnout"
 
-#: hexwidget.cpp:93
+#: hexwidget.cpp:94
 msgid "Hex Editor"
 msgstr "Hexa Editor"
 
-#: hexwidget.cpp:95
+#: hexwidget.cpp:96
 msgid ""
 "\n"
 "\n"
@@ -39,19 +40,19 @@ msgstr ""
 "\n"
 "napsal Stephan Kulow"
 
-#: hexwidget.cpp:118
+#: hexwidget.cpp:119
 msgid "New Window"
 msgstr "Nové okno"
 
-#: hexwidget.cpp:122
+#: hexwidget.cpp:123
 msgid "Save the file"
 msgstr "Ulo¾ soubor"
 
-#: hexwidget.cpp:125 hexwidget.cpp:127 hexwidget.cpp:129 hexwidget.cpp:132
+#: hexwidget.cpp:126 hexwidget.cpp:128 hexwidget.cpp:130 hexwidget.cpp:133
 msgid "Not implemented"
 msgstr "Není implementováno"
 
-#: hexwidget.cpp:163
+#: hexwidget.cpp:164
 msgid ""
 "The current file has been modified.\n"
 "Do you want to save it?"
@@ -59,7 +60,7 @@ msgstr ""
 "Souèasný soubor byl modifikován.\n"
 "Pøejete si ho ulo¾it?"
 
-#: hexwidget.cpp:189
+#: hexwidget.cpp:187
 msgid ""
 "The current file has been modified.\n"
 "Discard your changes?"
@@ -67,7 +68,7 @@ msgstr ""
 "Souèasný soubor byl modifikován.\n"
 "Pøejete si zru¹it v¹echny zmìny?"
 
-#: hexwidget.cpp:270
+#: hexwidget.cpp:268
 msgid ""
 "KHexdit is already waiting\n"
 "for an internet job to finish\n"
@@ -81,6 +82,6 @@ msgstr ""
 "Èekej dokud tato èinnost nebude\n"
 "ukonèena nebo ji zastav."
 
-#: hexwidget.cpp:278
+#: hexwidget.cpp:276
 msgid "Could not start KFM"
 msgstr "Nemohu spustit KFM"

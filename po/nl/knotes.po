@@ -1,5 +1,6 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 1998-05-10 17:22+0200\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1998-03-06 22:22:24-0500\n"
 "From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
@@ -9,6 +10,7 @@ msgstr ""
 "mail.cpp renamedlg.cpp savealarm.cpp spin.cpp timer.cpp\n"
 
 #: alarm.cpp:58
+#, c-format
 msgid "Alarm Timer for: %s"
 msgstr "Alarm Klok voor: %s"
 
@@ -72,13 +74,27 @@ msgstr "Afdruk opdracht:"
 msgid "Mail Command:"
 msgstr "Mail opdracht:"
 
-#: configdlg.cpp:124
+#: configdlg.cpp:123
 msgid "3d Frame"
 msgstr "3D Frame"
 
-#: configdlg.cpp:129 knotes.cpp:295
+#: configdlg.cpp:128 knotes.cpp:325
 msgid "Auto Indent"
 msgstr "Automatisch Indenteren"
+
+#: docking.cpp:71
+#, fuzzy
+msgid "Change Defaults"
+msgstr "Wijzig Standaardwaarden ..."
+
+#: docking.cpp:76
+msgid "Exit Knotes"
+msgstr ""
+
+#: docking.cpp:95
+#, fuzzy
+msgid "New Knote"
+msgstr "Nieuwe Blad"
 
 #: fontdlg.cpp:45
 msgid "Set Default Font"
@@ -88,80 +104,76 @@ msgstr "Stel Standaard Lettertype In"
 msgid "Point Size:"
 msgstr "Punt Grootte:"
 
-#: knotes.cpp:268
+#: knotes.cpp:298
 msgid "Text Color..."
 msgstr "Tekst Kleur..."
 
-#: knotes.cpp:269
+#: knotes.cpp:299
 msgid "Background Color..."
 msgstr "Achtergrond Kleur..."
 
-#: knotes.cpp:275
+#: knotes.cpp:305
 msgid "New Note"
 msgstr "Nieuwe Blad"
 
-#: knotes.cpp:277
+#: knotes.cpp:307
 msgid "Delete Note"
 msgstr "Verwijder Blad"
 
-#: knotes.cpp:279
+#: knotes.cpp:309
 msgid "Rename Note..."
 msgstr "Hernoem Blad..."
 
-#: knotes.cpp:281
+#: knotes.cpp:311
 msgid "Alarm ..."
 msgstr "Alarm ..."
 
-#: knotes.cpp:284
+#: knotes.cpp:314
 msgid "Calendar"
 msgstr "Kalender"
 
-#: knotes.cpp:286
+#: knotes.cpp:316
 msgid "Mail Note ..."
 msgstr "Verzendt blad ..."
 
-#: knotes.cpp:288
+#: knotes.cpp:318
 msgid "Print Note"
 msgstr "Druk Blad Af"
 
-#: knotes.cpp:294 knotes.cpp:365
+#: knotes.cpp:324 knotes.cpp:395
 msgid "3D Frame"
 msgstr "3D Frame"
 
-#: knotes.cpp:297
+#: knotes.cpp:327
 msgid "Font..."
 msgstr "Lettertype..."
 
-#: knotes.cpp:298
+#: knotes.cpp:328
 msgid "Colors"
 msgstr "Kleuren"
 
-#: knotes.cpp:300
+#: knotes.cpp:330
 msgid "Change Defaults ..."
 msgstr "Wijzig Standaardwaarden ..."
 
-#: knotes.cpp:326
-msgid "Hide Note"
-msgstr "Verberg Blad"
-
-#: knotes.cpp:328
+#: knotes.cpp:358
 msgid "Insert Date"
 msgstr "Voer Datum In"
 
-#: knotes.cpp:331
+#: knotes.cpp:361
 msgid "Operations"
 msgstr "Opdrachten"
 
-#: knotes.cpp:369
+#: knotes.cpp:399
 msgid "No Frame"
 msgstr "Geen Frame"
 
-#: knotes.cpp:402 knotes.cpp:406 knotes.cpp:600 knotes.cpp:810 knotes.cpp:814
+#: knotes.cpp:432 knotes.cpp:436 knotes.cpp:630 knotes.cpp:846 knotes.cpp:850
 #: timer.cpp:87 timer.cpp:110
 msgid "Note: "
 msgstr "Blad:"
 
-#: knotes.cpp:459
+#: knotes.cpp:489
 msgid ""
 "Could not save a KNote.\n"
 "Quit anyways?"
@@ -169,11 +181,12 @@ msgstr ""
 "Kan een KNote Blad niet opslaan.\n"
 "Toch afsluiten ?"
 
-#: knotes.cpp:477
+#: knotes.cpp:507
 msgid "Could not save KNote Alarms\n"
 msgstr "Kan KNote Alarm gegevens niet opslaan\n"
 
-#: knotes.cpp:538 knotes.cpp:631
+#: knotes.cpp:568 knotes.cpp:661
+#, c-format
 msgid ""
 "Could not pipe the contents of this KNote into:\n"
 " %s"
@@ -182,7 +195,7 @@ msgstr ""
 " %s"
 
 # FIXME: 'exeeded' instead of 'exceeded'
-#: knotes.cpp:687
+#: knotes.cpp:717
 msgid ""
 "You have exeeded the arbitrary and unjustly set limit of 50 knotes.\n"
 " Please complain to the author."
@@ -190,11 +203,11 @@ msgstr ""
 "U hebt de volslagen willekeurige limiet van 50 knotes overschreden.\n"
 " Wendt u a.u.b. tot de auteur om uw beklag te doen."
 
-#: knotes.cpp:847
+#: knotes.cpp:884
 msgid "Question"
 msgstr "Vraag"
 
-#: knotes.cpp:848
+#: knotes.cpp:885
 msgid ""
 "Are you sure you want to delete this\n"
 "note permanently?"
@@ -202,7 +215,8 @@ msgstr ""
 "Bent u zeker dat u dit blad permanent\n"
 "wilt wissen ?"
 
-#: knotes.cpp:1020
+#: knotes.cpp:1061
+#, c-format
 msgid ""
 "Could not load:\n"
 " %s"
@@ -210,19 +224,19 @@ msgstr ""
 "Kan niet laden:\n"
 " %s"
 
-#: knotes.cpp:1255
+#: knotes.cpp:1312
 msgid "KNotes Configuraton"
 msgstr "KNotes Instellingen"
 
-#: knotes.cpp:1308
+#: knotes.cpp:1352
 msgid "Defaults"
 msgstr "Standaardwaarden"
 
-#: knotes.cpp:1309
+#: knotes.cpp:1353
 msgid "More ..."
 msgstr "Meer ..."
 
-#: knotes.cpp:1456
+#: knotes.cpp:1512
 msgid ""
 "KNotes is already waiting\n"
 "for an internet job to finish\n"
@@ -234,11 +248,11 @@ msgstr ""
 "Wacht a.u.b. tot deze is beeindigd.\n"
 "Eventueel kunt u de lopende taak stoppen."
 
-#: knotes.cpp:1470
+#: knotes.cpp:1526
 msgid "Could not start or find KFM"
 msgstr "Kan KFM niet starten of vinden"
 
-#: knotes.cpp:1492
+#: knotes.cpp:1548
 msgid ""
 "Could not save the KNotes.\n"
 "Close anyways?"
@@ -246,7 +260,8 @@ msgstr ""
 "Kan de KNote Bladen niet opslaan.\n"
 "Toch afsluiten ?"
 
-#: knotes.cpp:1604
+#: knotes.cpp:1660
+#, c-format
 msgid ""
 "Found an alarm to which the underlying\n"
 "KNotes file:\n"
@@ -262,7 +277,7 @@ msgstr ""
 "\n"
 "Ik zal het probleem voor u afhandelen."
 
-#: knotes.cpp:1612
+#: knotes.cpp:1668
 msgid "Inconsistency"
 msgstr "Tegenspraak"
 
@@ -305,3 +320,6 @@ msgid ""
 msgstr ""
 "Eeen KNotes blad met deze naam bestaat reeds.\n"
 "Kies a.u.b. een andere naam."
+
+#~ msgid "Hide Note"
+#~ msgstr "Verberg Blad"
