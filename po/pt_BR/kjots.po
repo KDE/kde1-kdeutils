@@ -1,3 +1,4 @@
+#
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -6,153 +7,155 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-08-13 00:40+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 1998-08-03 21:27+0200\n"
+"PO-Revision-Date: 1998-09-08 09:00\n"
+"Last-Translator: Sandro Nunes Henrique <sandro@conectiva.com.br>\n"
+"Language-Team: pt_BR <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: KJotsMain.cpp:76
 msgid "Book name:"
-msgstr ""
+msgstr "Nome do livro:"
 
 #: KJotsMain.cpp:101
 msgid "Open URL"
-msgstr ""
+msgstr "Abrir URL:"
 
 #: KJotsMain.cpp:343
 msgid "New Book"
-msgstr ""
+msgstr "Novo livro:"
 
 #: KJotsMain.cpp:353
 msgid "PreviousPage"
-msgstr ""
+msgstr "Página anterior:"
 
 #: KJotsMain.cpp:354
 msgid "NextPage"
-msgstr ""
+msgstr "Próxima página"
 
 #: KJotsMain.cpp:355
 msgid "ShowSubjectList"
-msgstr ""
+msgstr "Mostrar lista de assuntos"
 
 #: KJotsMain.cpp:356
 msgid "AddNewPage"
-msgstr ""
+msgstr "Adicionar nova página"
 
 #: KJotsMain.cpp:357
 msgid "MoveFocus"
-msgstr ""
+msgstr "Mover o Foco"
 
 #: KJotsMain.cpp:358
 msgid "CopySelection"
-msgstr ""
+msgstr "Copiar a seleção"
 
 #: KJotsMain.cpp:370
 msgid "&New Book"
-msgstr ""
+msgstr "&Novo livro"
 
 #: KJotsMain.cpp:374
 msgid "Save current book"
-msgstr ""
+msgstr "Salvar o livro atual"
 
 #: KJotsMain.cpp:376
 msgid "Save book to ascii file"
-msgstr ""
+msgstr "Salvar o livro para um arquivo ASCII"
 
 #: KJotsMain.cpp:377
 msgid "Save page to ascii file"
-msgstr ""
+msgstr "Salvar a página para um arquivo ASCII"
 
 #: KJotsMain.cpp:379 KJotsMain.cpp:662
 msgid "Delete current book"
-msgstr ""
+msgstr "Apagar o livro corrente"
 
 #: KJotsMain.cpp:393
 msgid "&New Page"
-msgstr ""
+msgstr "&Nova página"
 
 #: KJotsMain.cpp:395
 msgid "&Delete Page"
-msgstr ""
+msgstr "Apagar Página"
 
 #: KJotsMain.cpp:398
 msgid "&Config"
-msgstr ""
+msgstr "&Configuração"
 
 #: KJotsMain.cpp:399
 msgid "Configure &Keys"
-msgstr ""
+msgstr "Configuração de &Teclado"
 
 #: KJotsMain.cpp:402
 msgid "Add current book to hotlist"
-msgstr ""
+msgstr "Adicionar o livro atual à lista dos mais interessantes"
 
 #: KJotsMain.cpp:404
 msgid "Remove current book from hotlist"
-msgstr ""
+msgstr "Remover o livro atual da lista dos mais interessantes"
 
 #: KJotsMain.cpp:409
 msgid "Hot&list"
-msgstr ""
+msgstr "Mais interessantes"
 
 #: KJotsMain.cpp:411
 msgid "&Books"
-msgstr ""
+msgstr "&Livros"
 
 #: KJotsMain.cpp:414
 msgid "by"
-msgstr ""
+msgstr "por"
 
 #: KJotsMain.cpp:615
 msgid "A book with this name already exists."
-msgstr ""
+msgstr "Já existe um livro com este nome"
 
 #: KJotsMain.cpp:663
 msgid "Are you sure you want to delete the current book ?"
-msgstr ""
+msgstr "Tem certeza que deseja apagar o livro atual?"
 
 #: KJotsMain.cpp:914 KJotsMain.cpp:943
 msgid "File exists !"
-msgstr ""
+msgstr "O arquivo já existe!"
 
 #: KJotsMain.cpp:915 KJotsMain.cpp:944
 msgid ""
 "File already exists. \n"
 " Do you want to overwrite it ?"
-msgstr ""
+msgstr "O arquivo já existe. \n"
+" Você deseja regravá-lo? "
 
 #: confdialog.cpp:39
 msgid "Configure KJots"
-msgstr ""
+msgstr "Configurar KJots"
 
 #: confdialog.cpp:43
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: confdialog.cpp:72
 msgid "Specify which command to execute"
-msgstr ""
+msgstr "Especifique qual comando deve ser executado!"
 
 #: confdialog.cpp:78
 msgid "for HTTP:"
-msgstr ""
+msgstr "para HTTP:"
 
 #: confdialog.cpp:84
 msgid "for FTP:"
-msgstr ""
+msgstr "para FTP:"
 
 #: confdialog.cpp:104
 #, c-format
 msgid "( %u is replaced with the selected URL )"
-msgstr ""
+msgstr "( %u foi substituído pela URL selecionada )"
 
 #: confdialog.cpp:111
 msgid "Font for editor:"
-msgstr ""
+msgstr "Fonte para edição:"
 
 #: confdialog.cpp:117
 msgid "Select"
-msgstr ""
+msgstr "Selecionar"
+
