@@ -17,17 +17,14 @@ $(BUILDDIR)/build-stamp:
 	CFLAGS="-g -O2 -Wall" \
 	CXXFLAGS="$$CFLAGS" \
 	../configure --with-install-root=`pwd`/../debian/tmp \
-	  --enable-debug --disable-rpath --prefix=/usr
+	  --disable-rpath --prefix=/usr
 	make -C $(BUILDDIR)
  
 	touch $(BUILDDIR)/build-stamp
 
 clean: debian-clean
 	-rm -rf $(BUILDDIR)
-	-rm -f debian/files
-	-rm -f debian/substvars
 	-rm -f debian/menu
-	-rm -f configure
 	dh_clean -k
 
 debian-clean:

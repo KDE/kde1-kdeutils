@@ -1,3 +1,10 @@
+kdeutils (4:1.1.1-19990706-1) unstable; urgency=low
+
+  * new upstream CVS version
+  * Fixes kfloppy issue with /dev/fd0u1440
+
+ -- Ivan E. Moore II <rkrusty@debian.org>  Tue, 06 Jun 1999 01:05:57 -0500
+
 kdeutils (4:1.1.1-19990701-1) unstable; urgency=low     
 
   * new upstream CVS version 
