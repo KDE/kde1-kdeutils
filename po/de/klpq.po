@@ -6,8 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klpq\n"
 "POT-Creation-Date: 1998-11-03 10:06+0100\n"
-"PO-Revision-Date: 1998-05-03 20:56+0100\n"
-"Last-Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
+"PO-Revision-Date: 1998-11-14 20:56+0100\n"
+"Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
+"Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 "Language-Team: German <kde-n18i@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
@@ -23,7 +24,7 @@ msgstr "printcap kann nicht analysiert werden."
 
 #: main.cpp:182
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
-msgstr "Bitte senden Sie Ihre printcap an Christoph.Neerfeld@home.ivm.de"
+msgstr "Bitte mailen Sie Ihre printcap an Christoph.Neerfeld@home.ivm.de"
 
 #: klpq.cpp:89
 msgid "Printer"
@@ -78,17 +79,20 @@ msgid "&Config"
 msgstr "&Konfigurieren"
 
 #: klpq.cpp:389
-#, fuzzy, c-format
+#, c-format
 msgid "Do you really want to remove job No %d"
-msgstr "Entfernen von Job Nr."
+msgstr "Entfernen von Job Nr. %d"
 
 #: klpq.cpp:409
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Do you really want to move job No\n"
 "%d\n"
 "on top of queue"
-msgstr "Wechseln zu Job Nr.\n"
+msgstr ""
+"Möchten Sie wirklich den Job Nr.\n"
+"%d\n"
+"an die Spitze der Warteschlange verschieben?"
 
 #: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
 msgid "Permission denied"
@@ -99,7 +103,7 @@ msgid ""
 "This is a privileged command\n"
 "and you do not have permission to execute it."
 msgstr ""
-"Dies ist ein privilegierter Befehl\n"
+"Dies ist ein privilegierter Befehl,\n"
 "und Sie haben kein Recht ihn auszuführen."
 
 #: ConfAutoUpdate.cpp:10
@@ -120,7 +124,7 @@ msgid ""
 "Please check the configuration under Config->Spooler."
 msgstr ""
 "Ihr lpc-Programm kann nicht gefunden werden.\n"
-"Bitte Überprüfen Sie die Konfiguration unter Konfiguration->Spooler."
+"Bitte überprüfen Sie die Konfiguration unter Konfiguration->Spooler."
 
 #: FirstStart.cpp:21 SpoolerConfig.cpp:21 SpoolerConfigData.cpp:151
 msgid "Select your spooling system"
@@ -133,7 +137,7 @@ msgid ""
 "probably a good choice."
 msgstr ""
 "Bitte wählen Sie das zu verwendende Spooling-System aus. Die meisen "
-"Systemeverwenden den BSD-Spooler. Falls Sie nicht wissen, welcher Spooler "
+"Systeme verwenden den BSD-Spooler. Falls Sie nicht wissen, welcher Spooler "
 "installiert ist, sollten Sie BSD auswählen."
 
 #: FirstStartData.cpp:50 SpoolerConfigData.cpp:134
@@ -142,32 +146,4 @@ msgstr "Ok"
 
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"
-msgstr "Pfad des Druckbefehles:"
-
-#~ msgid "Quit"
-#~ msgstr "Beenden"
-
-#~ msgid "Files"
-#~ msgstr "Dateien"
-
-#~ msgid "Remove"
-#~ msgstr "Entfernen"
-
-#~ msgid "&Quit"
-#~ msgstr "Be&enden"
-
-#~ msgid "&File"
-#~ msgstr "&Datei"
-
-#~ msgid "&Help"
-#~ msgstr "&Hilfe"
-
-#~ msgid ""
-#~ "\n"
-#~ "on top of queue"
-#~ msgstr ""
-#~ "\n"
-#~ "zu oberst der Druckerwarteschlange"
-
-#~ msgid "Cancel"
-#~ msgstr "Abbrechen"
+msgstr "Pfad des Spoolingbefehls:"
