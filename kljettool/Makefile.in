@@ -3,7 +3,7 @@
 prefix  = @prefix@
 BINDIR  = $(prefix)/bin
 LIBDIR  = $(prefix)/lib
-DOCSDIR = $(prefix)/share/doc/HTML/default/kljettool
+DOCSDIR = $(prefix)/share/doc/HTML/en/kljettool
 APPSDIR = $(prefix)/share/applnk/Utilities/
 PICSDIR = $(prefix)/share/apps/kljettool/pics/
 
