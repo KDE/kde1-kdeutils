@@ -62,14 +62,11 @@ ABTLWidget::ABTLWidget(const char* name)
 bool ABTLWidget::constructMenu()
 {
   // ############################################################################
-  // menu=new KMenuBar(this);
   menu=menuBar();
-  int id;
-  // -----
-  // the file menu
-  QPopupMenu* file=new QPopupMenu;
+  // ----- the file menu
+  file=new QPopupMenu;
   CHECK(file!=0);
-  id=file->insertItem(i18n("&Save"), widget, SLOT(save()),
+  saveItemID=file->insertItem(i18n("&Save"), widget, SLOT(save()),
 		      CTRL+Key_S);
   QPopupMenu *_export=new QPopupMenu;
   _export->insertItem
@@ -82,27 +79,27 @@ bool ABTLWidget::constructMenu()
     export->insertItem
     (i18n("TeX labels"), widget, SLOT(exportTeXLabels()));
   */
-  file->insertItem(i18n("Export"), _export);
+  exportItemID=file->insertItem(i18n("Export"), _export);
   file->insertSeparator();
-  file->insertItem(i18n("Search &entries"), widget, 
-		   SLOT(search()), CTRL+Key_F);
-  file->insertItem(i18n("&Print"), widget, SLOT(print()),
+  searchItemID=file->insertItem(i18n("Search &entries"), widget, 
+				SLOT(search()), CTRL+Key_F);
+  printItemID=file->insertItem(i18n("&Print"), widget, SLOT(print()),
 		   CTRL+Key_P);
   file->insertSeparator();
   file->insertItem(i18n("&Quit"), 
 		   KApplication::getKApplication(), 
 		   SLOT(quit()), CTRL+Key_Q);
-  // the edit menu
-  QPopupMenu* edit=new QPopupMenu;
+  // ----- the edit menu
+  edit=new QPopupMenu;
   CHECK(edit!=0);
-  edit->insertItem(i18n("&Copy"), widget, SLOT(copy()),
-		   CTRL+Key_W);
+  copyItemID=edit->insertItem(i18n("&Copy"), widget, SLOT(copy()),
+			      CTRL+Key_W);
   edit->insertSeparator();
-  id=edit->insertItem(i18n("&Add entry"), widget, SLOT(add()), 
+  edit->insertItem(i18n("&Add entry"), widget, SLOT(add()), 
 		      CTRL+Key_N);
-  id=edit->insertItem(i18n("&Edit entry"), widget, SLOT(edit()), 
+  editItemID=edit->insertItem(i18n("&Edit entry"), widget, SLOT(edit()), 
 		      CTRL+Key_E);
-  id=edit->insertItem(i18n("&Remove entry"), widget, 
+  removeItemID=edit->insertItem(i18n("&Remove entry"), widget, 
 		      SLOT(remove()), CTRL+Key_R);
   edit->insertSeparator();
   /* I had to disable it as it is not implemented and 
@@ -177,8 +174,9 @@ void ABTLWidget::createConnections()
   connect(widget, SIGNAL(sizeChanged()),
 	  SLOT(updateRects()));
   // ----- to set status messages
-  connect(widget, SIGNAL(setStatus(const char*)),
-	  SLOT(setStatus(const char*)));
+  connect(widget, SIGNAL(setStatus(const char*)), SLOT(setStatus(const char*)));
+  // ----- to enable or disable menu items:
+  connect(widget, SIGNAL(statusChanged(int)), SLOT(enableWidgets(int)));
   // ----- to clean up before closing:
   connect(KApplication::getKApplication(),
 	  SIGNAL(saveYourself()),
@@ -244,5 +242,30 @@ void ABTLWidget::saveOurselfes()
   // ############################################################################
 }
 
+void ABTLWidget::enableWidgets(int noOfEntries)
+{
+  // ############################################################################
+  const int FileMenuItems[]= { 
+    saveItemID, exportItemID, printItemID
+  };
+  const int EditMenuItems[]= { 
+    mailItemID, browseItemID, talkItemID, 
+    editItemID, removeItemID, copyItemID  
+  };
+  const int NoOfFileMenuItems=sizeof(FileMenuItems)/sizeof(FileMenuItems[0]);
+  const int NoOfEditMenuItems=sizeof(EditMenuItems)/sizeof(EditMenuItems[0]);
+  int count;
+  // -----
+  for(count=0; count<NoOfFileMenuItems; count++)
+    {
+      file->setItemEnabled(FileMenuItems[count], noOfEntries!=0);
+    }
+  for(count=0; count<NoOfEditMenuItems; count++)
+    {
+      edit->setItemEnabled(EditMenuItems[count], noOfEntries!=0);
+    }
+  file->setItemEnabled(searchItemID, noOfEntries>1);
+  // ############################################################################
+}
 
 #include "toplevelwidget.moc"

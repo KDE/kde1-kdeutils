@@ -35,9 +35,9 @@ class ABTLWidget : public KTMainWindow // KTopLevelWidget
 protected:
   // menubar, statusbar
   KMenuBar* menu;
-  int mailItemID;
-  int browseItemID;
-  int talkItemID;
+  QPopupMenu *edit, *file;
+  int mailItemID, browseItemID, talkItemID, editItemID, removeItemID,
+    exportItemID, searchItemID, printItemID, saveItemID, copyItemID;
   KStatusBar* status;
   // the AddressWidget object
   AddressWidget* widget;
@@ -58,6 +58,8 @@ public slots:
   void timeOut();
   // ----- called by saveYourself signal:
   void saveOurselfes();
+  // ----- enables or disables menu items:
+  void enableWidgets(int noOfEntries);
 };
 
 #endif // ADDRESSBOOK_TLW_INCL
