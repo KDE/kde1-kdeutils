@@ -143,9 +143,8 @@ msgid "Print Note"
 msgstr "Ispi¹i bilje¹ku"
 
 #: knotes.cpp:323
-#, fuzzy
 msgid "Save Notes"
-msgstr "Nova bilje¹ka"
+msgstr "Spremi bilje¹ke"
 
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"

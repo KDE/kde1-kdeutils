@@ -70,7 +70,7 @@ msgstr "Baza"
 
 #: kcalc.cpp:1524
 msgid "KCalc Configuraton"
-msgstr ""
+msgstr "KCalc Postava"
 
 #: kcalc.cpp:1550
 msgid "Base type: long double\n"
