@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kedit\n"
 "POT-Creation-Date: 1998-10-30 12:45+0100\n"
-"PO-Revision-Date: 1998-01-25 22:25 CET\n"
-"Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
+"PO-Revision-Date: 1998-12-06 22:25 CET\n"
+"Last-Translator: Francois-Xavier DURANCEAU <Francois-Xavier.Duranceau@loria.fr>\n"
 "Language-Team: Français\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; \n"
@@ -23,18 +23,17 @@ msgstr "Cacher la barre d'&outils"
 
 #: kedit.cpp:90 kedit.cpp:1071
 msgid "Show &Status Bar"
-msgstr "Afficher la barre d'état"
+msgstr "Afficher la barre d'é&tat"
 
 #: kedit.cpp:92 kedit.cpp:1064
 msgid "Hide &Status Bar"
-msgstr "Cacher la barre d'état"
+msgstr "Cacher la barre d'é&tat"
 
 #: kedit.cpp:154
 msgid "Select All"
 msgstr "Tout Sélectionner"
 
 #: kedit.cpp:157
-#, fuzzy
 msgid "Font..."
 msgstr "Police..."
 
@@ -80,7 +79,7 @@ msgstr "C&hercher..."
 
 #: kedit.cpp:264
 msgid "Find &Again"
-msgstr "Chercher de &nouveau..."
+msgstr "Chercher de &nouveau"
 
 #: kedit.cpp:266
 msgid "&Replace"
@@ -88,25 +87,23 @@ msgstr "&Remplacer"
 
 #: kedit.cpp:268
 msgid "Spellcheck..."
-msgstr ""
+msgstr "Orthographe..."
 
 #: kedit.cpp:273
 msgid "&Goto Line..."
 msgstr "&Aller à la ligne..."
 
 #: kedit.cpp:277
-#, fuzzy
 msgid "&Font..."
-msgstr "&Police"
+msgstr "&Police..."
 
 #: kedit.cpp:279
-#, fuzzy
 msgid "&Colors"
-msgstr "Couleurs"
+msgstr "&Couleurs"
 
 #: kedit.cpp:284
 msgid "KEdit &Options..."
-msgstr "Options..."
+msgstr "&Options..."
 
 #: kedit.cpp:286
 msgid "Auto &Indent"
@@ -122,7 +119,7 @@ msgstr "Barre d'é&tat"
 
 #: kedit.cpp:294
 msgid "Save Options"
-msgstr "Enregistrer les options"
+msgstr "&Enregistrer les options"
 
 #: kedit.cpp:333
 msgid "New Document"
@@ -147,7 +144,7 @@ msgstr "Expédier le document"
 #: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:697
 #: keditcl2.cpp:804
 msgid "Done"
-msgstr ""
+msgstr "Fermer"
 
 #: kedit.cpp:606
 msgid "Open Location:"
@@ -229,11 +226,11 @@ msgstr "Indentation automatique : inactive"
 #: kedit.cpp:1130
 #, c-format
 msgid "Line: %d Col: %d"
-msgstr "Ligne : %d,  colonne : %d"
+msgstr "Ligne : %d, Col : %d"
 
 #: filldlg.cpp:31 kedit.cpp:1147
 msgid "KEdit Options"
-msgstr "Options"
+msgstr "Options de KEdit"
 
 #: kedit.cpp:1200
 msgid ""
@@ -251,7 +248,7 @@ msgid ""
 "Print anyways?"
 msgstr ""
 "Impossible d'enregistrer le fichier.\n"
-"Désirez-vous quand même l'imprimer?"
+"Désirez-vous quand même l'imprimer ?"
 
 #: kedit.cpp:1311
 #, c-format
@@ -354,9 +351,8 @@ msgstr ""
 "%s"
 
 #: kedit.cpp:2073
-#, fuzzy
 msgid "Spellchecker Options"
-msgstr "Enregistrer les options"
+msgstr "Options du vérificateur d'orthographe"
 
 #: keditcl1.cpp:150
 msgid "The specified File does not exist"
@@ -364,7 +360,7 @@ msgstr "Le fichier spécifié n'existe pas"
 
 #: keditcl1.cpp:163 keditcl1.cpp:441 keditcl1.cpp:525 keditcl1.cpp:1716
 msgid "Sorry:"
-msgstr "Désolé:"
+msgstr "Désolé :"
 
 #: keditcl1.cpp:164
 msgid "You have specificated a directory"
@@ -380,10 +376,9 @@ msgstr "Une erreur a été rencontrée lors de l'ouverture de ce fichier"
 
 #: keditcl1.cpp:420 keditcl1.cpp:505 keditcl1.cpp:1658
 msgid "Warning:"
-msgstr "Attention:"
+msgstr "Attention :"
 
 #: keditcl1.cpp:421 keditcl1.cpp:506
-#, fuzzy
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -392,36 +387,31 @@ msgstr ""
 "Désirez-vous l'enregistrer ?"
 
 #: keditcl1.cpp:442
-#, fuzzy
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
 "Impossible d'enregistrer le fichier.\n"
-"Désirez-vous quand même l'imprimer?"
+"Désirez-vous quand même ouvrir un nouveau document ?"
 
 #: keditcl1.cpp:526
-#, fuzzy
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
 msgstr ""
 "Impossible d'enregistrer le fichier.\n"
-"Désirez-vous quand même l'imprimer?"
+"Désirez-vous quand même créer un nouveau document ?"
 
 #: keditcl1.cpp:1575
-#, fuzzy
 msgid "Could not save the document\n"
-msgstr ""
-"Impossible d'enregistrer le fichier.\n"
-"Désirez-vous quand même l'imprimer?"
+msgstr "Impossible d'enregistrer le document\n"
 
 #: keditcl1.cpp:1659
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
 msgstr ""
-"Un document ayant le même nom existe dejà\n"
+"Un document ayant le même nom existe déjà\n"
 "Voulez-vous l'écraser ?"
 
 #: keditcl1.cpp:1717
@@ -430,9 +420,8 @@ msgstr "Vous n'avez pas la permission d'écrire dans ce fichier.\n"
 
 #: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
 #: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
-#, fuzzy
 msgid "Find"
-msgstr "C&hercher..."
+msgstr "Chercher"
 
 #: keditcl2.cpp:113 keditcl2.cpp:370 keditcl2.cpp:463
 msgid ""
@@ -452,35 +441,31 @@ msgstr ""
 
 #: keditcl2.cpp:691 keditcl2.cpp:789
 msgid "Case Sensitive"
-msgstr ""
+msgstr "Respecter la casse"
 
 #: keditcl2.cpp:692 keditcl2.cpp:792
 msgid "Find Backwards"
 msgstr ""
 
 #: keditcl2.cpp:777
-#, fuzzy
 msgid "Find:"
-msgstr "C&hercher:"
+msgstr "Chercher :"
 
 #: keditcl2.cpp:787
-#, fuzzy
 msgid "Replace with:"
-msgstr "&Remplacer avec:"
+msgstr "Remplacer par :"
 
 #: keditcl2.cpp:801
-#, fuzzy
 msgid "Replace All"
-msgstr "Tout &Remplacer"
+msgstr "Tout Remplacer"
 
 #: keditcl2.cpp:898
-#, fuzzy
 msgid "Goto Line"
-msgstr "&Aller à la ligne..."
+msgstr "Aller à la ligne"
 
 #: keditcl2.cpp:903
 msgid "Go"
-msgstr ""
+msgstr "Aller à"
 
 #: print.cpp:69
 msgid "Print Dialog"
@@ -503,13 +488,12 @@ msgid "Set Fill-Column at:"
 msgstr "Largeur colonne :"
 
 #: filldlg.cpp:40
-#, fuzzy
 msgid "Word Wrap"
 msgstr "Césure automatique"
 
 #: filldlg.cpp:42
 msgid "Backup Copies"
-msgstr ""
+msgstr "Copies de secours"
 
 #: filldlg.cpp:46
 msgid "Mail Command:"
@@ -535,5 +519,5 @@ msgstr "Expédier"
 msgid "You must specify a Recipient"
 msgstr "Vous devez spécifier un destinataire"
 
-#~ msgid "&About..."
-#~ msgstr "A &propos..."
+msgid "&About..."
+msgstr "A &propos..."

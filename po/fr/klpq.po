@@ -2,87 +2,86 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-12-08 02:02+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: klpq 1.0\n"
+"POT-Creation-Date: 1998-11-16 02:46+0100\n"
+"PO-Revision-Date: 1998-12-10 23:15 CET\n"
+"Last-Translator: Francois-Xavier DURANCEAU "
+"<Francois-Xavier.Duranceau@loria.fr>\n"
+"Language-Team: Français <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: main.cpp:176
+#: main.cpp:208
 msgid "Sorry, can't open your printcap file."
-msgstr "Désolé,impossible d'ouvrir votre fichier printcap."
+msgstr "Désolé, impossible d'ouvrir votre fichier printcap."
 
-#: main.cpp:181
+#: main.cpp:213
 msgid "Sorry, unable to parse your printcap."
-msgstr "Désolé,impossible de comprendre votre fichier printcap."
+msgstr "Désolé, impossible de comprendre votre fichier printcap."
 
-#: main.cpp:182
+#: main.cpp:214
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
 msgstr ""
 "Pourriez-vous envoyer votre fichier printcap a Christoph.Neerfeld@home.ivm.de"
 
-#: klpq.cpp:89
+#: klpq.cpp:97
 msgid "Printer"
 msgstr "Imprimante"
 
-#: klpq.cpp:93
-msgid "Queuing"
-msgstr ""
-
-#: klpq.cpp:97
-msgid "Printing"
-msgstr ""
-
 #: klpq.cpp:101
+msgid "Queuing"
+msgstr "File d'impression"
+
+#: klpq.cpp:105
+msgid "Printing"
+msgstr "Impression"
+
+#: klpq.cpp:109
 msgid "Update"
-msgstr ""
+msgstr "Rafraîchir"
 
-#: klpq.cpp:119
+#: klpq.cpp:127
 msgid "Rank"
-msgstr ""
+msgstr "Rang"
 
-#: klpq.cpp:120
+#: klpq.cpp:128
 msgid "Owner"
-msgstr ""
+msgstr "Propriétaire"
 
-#: klpq.cpp:121
+#: klpq.cpp:129
 msgid "Job"
 msgstr "Job"
 
-#: klpq.cpp:123
+#: klpq.cpp:131
 msgid "Size"
 msgstr "Taille"
 
-#: klpq.cpp:143 klpq.cpp:218
+#: klpq.cpp:151 klpq.cpp:226
 msgid "Make Top"
-msgstr ""
+msgstr "Au sommet"
 
-#: klpq.cpp:152
+#: klpq.cpp:160
 msgid "Auto"
-msgstr ""
-
-#: klpq.cpp:195
-msgid "&Auto update"
-msgstr ""
-
-#: klpq.cpp:196
-msgid "&Spooler"
-msgstr ""
+msgstr "Auto"
 
 #: klpq.cpp:203
-msgid "&Config"
-msgstr ""
+msgid "&Auto update..."
+msgstr "&Rafraîchissement..."
 
-#: klpq.cpp:389
-#, c-format
-msgid "Do you really want to remove job No %d"
-msgstr "Voulez-vous réellement effacer le job No %d ?"
+#: klpq.cpp:204
+msgid "&Spooler..."
+msgstr "&Spooler..."
+
+#: klpq.cpp:211
+msgid "&Config"
+msgstr "&Configuration"
+
+#: klpq.cpp:391
+msgid "Do you really want to remove job No %d "
+msgstr "Voulez-vous réellement effacer le job N° %d "
 
 #: klpq.cpp:409
 #, c-format
@@ -95,37 +94,42 @@ msgstr ""
 "%d\n"
 "au sommet de la file ?"
 
-#: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
-msgid "Permission denied"
-msgstr ""
 
-#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
+#: klpq.cpp:594 klpq.cpp:620 klpq.cpp:646
+msgid "Permission denied"
+msgstr "Permission refusée"
+
+#: klpq.cpp:595 klpq.cpp:621 klpq.cpp:647
 msgid ""
 "This is a privileged command\n"
 "and you do not have permission to execute it."
 msgstr ""
+"Ceci est une commande soumise à privilèges\n"
+"et vous n'avez pas la permission de l'exécuter."
 
 #: ConfAutoUpdate.cpp:10
 msgid "Configure Auto Update"
-msgstr ""
+msgstr "Configuration du rafraîchissement"
 
 #: ConfAutoUpdateData.cpp:17
 msgid "Update frequency in seconds:"
-msgstr ""
+msgstr "Fréquence de rafraîchissement en secondes :"
 
-#: klpqspooler.cpp:197 klpqspooler.cpp:267
+#: klpqspooler.cpp:120 klpqspooler.cpp:190
 msgid "Can't find your lpc program !"
 msgstr "Impossible de trouver le programme lpc !"
 
-#: klpqspooler.cpp:198 klpqspooler.cpp:268
+#: klpqspooler.cpp:121 klpqspooler.cpp:191
 msgid ""
 "Sorry, I can't find your lpc program.\n"
 "Please check the configuration under Config->Spooler."
 msgstr ""
+"Désolé, je ne peux pas trouver le programme lpc.\n"
+"Vérifiez la configuration dans Configuration->Spooler."
 
 #: FirstStart.cpp:21 SpoolerConfig.cpp:21 SpoolerConfigData.cpp:151
 msgid "Select your spooling system"
-msgstr ""
+msgstr "Sélectionnez votre système de spooling"
 
 #: FirstStartData.cpp:42
 msgid ""
@@ -133,10 +137,14 @@ msgid ""
 "So if you don't know which spooler is installed on your system, BSD is "
 "probably a good choice."
 msgstr ""
+"Sélectionnez le système de spooling que vous utilisez. La plupart des "
+"systèmes utilisent le spooler BSD. Donc, si vous ne savez pas quel spooler "
+"est installé, BSD est probablement le bon choix."
 
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"
-msgstr ""
+msgstr "Chemins d'accès aux commandes de spooling :"
+
 
 #~ msgid "Ok"
 #~ msgstr "Ok"
