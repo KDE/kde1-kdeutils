@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "POT-Creation-Date: 1999-03-09 01:44+0100\n"
-"PO-Revision-Date: 1999-02-04 11:30+01:00\n"
+"PO-Revision-Date: 1999-07-03 14:43+02:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -79,7 +79,7 @@ msgstr "Zmìnit nastavení .."
 
 #: knotes.cpp:340
 msgid "Dock in panel"
-msgstr ""
+msgstr "Pohltit v panelu"
 
 #: knotes.cpp:368
 msgid "Insert Date"
@@ -370,11 +370,9 @@ msgstr ""
 "Zvolte si prosím jiné jméno"
 
 #: docking.cpp:48
-#, fuzzy, c-format
+#, c-format
 msgid "Could not load %s !"
-msgstr ""
-"Není mo¾né naèíst:\n"
-" %s"
+msgstr "Není mo¾né naèíst %s !"
 
 #: docking.cpp:68
 msgid "Change Defaults"
@@ -387,6 +385,3 @@ msgstr "Ukonèit Knotes"
 #: docking.cpp:92
 msgid "New Knote"
 msgstr "Nová poznámka"
-
-#~ msgid "No Frame"
-#~ msgstr "®ádný rámeèek"

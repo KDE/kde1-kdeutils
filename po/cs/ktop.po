@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktop\n"
 "POT-Creation-Date: 1999-03-19 01:51+0100\n"
-"PO-Revision-Date: 1999-02-09 08:48+01:00\n"
+"PO-Revision-Date: 1999-07-03 14:42+02:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <flidr@kky.zcu.cz>\n"
 "MIME-Version: 1.0\n"
@@ -14,39 +14,38 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ktop.cpp:66
-#, fuzzy
 msgid "88888 Processes"
-msgstr "V¹echny procesy"
+msgstr "88888 procesù"
 
 #: ktop.cpp:67
 msgid "Memory: 888888 kB used, 888888 kB free"
-msgstr ""
+msgstr "Pamì»: 888888 kB pou¾itá, 888888 kB volná"
 
 #: ktop.cpp:69
 msgid "Swap: 888888 kB used, 888888 kB free"
-msgstr ""
+msgstr "Swap: 888888 kB pou¾itá, 888888 kB volná"
 
 #: ktop.cpp:76
 msgid "KDE Task Manager"
 msgstr "KDE správce úloh"
 
 #: ktop.cpp:137
-#, fuzzy, c-format
+#, c-format
 msgid "%d Processes"
-msgstr "V¹echny procesy"
+msgstr "%d procesù"
 
 #: ktop.cpp:142
 #, c-format
 msgid "Memory: %d kB used, %d kB free"
-msgstr ""
+msgstr "Pamì»: %d kB pou¾itá, %d kB volná"
 
 #: ktop.cpp:147
 #, c-format
 msgid "Swap: %d kB used, %d kB free"
-msgstr ""
+msgstr "Swap: %d kB pou¾itá, %d kB volná"
 
 #: MainMenu.cpp:51
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "KDE Task Manager (KTop) Version %s\n"
 "\n"
@@ -64,35 +63,31 @@ msgstr ""
 "1997 : Ralf Mueller <ralf@bj-ig.de>\n"
 "1997-98 : Bernd Johannes Wuebben <wuebben@kde.org>\n"
 "1998 : Nicolas Leclercq <nicknet@planete.net>\n"
-"1999 : Chris Schlaeger <cs@axys.de>\n"
+"1999 : Chris Schlaeger <cs@kde.de>\n"
 
 #: MainMenu.cpp:64
 msgid "Manual Refresh"
-msgstr ""
+msgstr "Ruèní obnovování"
 
 #: MainMenu.cpp:65
-#, fuzzy
 msgid "Slow Refresh"
-msgstr "Aktualizovat nyní"
+msgstr "Pomalé obnovování"
 
 #: MainMenu.cpp:66
 msgid "Medium Refresh"
-msgstr ""
+msgstr "Støední obnovování"
 
 #: MainMenu.cpp:67
-#, fuzzy
 msgid "Fast Refresh"
-msgstr "Aktualizovat nyní"
+msgstr "Rychlé obnovování"
 
 #: MainMenu.cpp:79
-#, fuzzy
 msgid "&Refresh Rate"
-msgstr "Frekvence aktualizace: Pomalá"
+msgstr "F&rekvence obnovování"
 
 #: MainMenu.cpp:80
-#, fuzzy
 msgid "&Process"
-msgstr "Pøeplánovat process"
+msgstr "&Process"
 
 #: ProcessMenu.cpp:44
 msgid "Renice Task..."
@@ -128,16 +123,13 @@ msgid "Task Manager"
 msgstr "Správce úloh"
 
 #: ProcessMenu.cpp:75
-#, fuzzy
 msgid "You need to select a process first!"
-msgstr ""
-"Je nutné zvolit proces pøed\n"
-"stisknutím tlaèítka Zabít!\n"
+msgstr "Nejprve je nutné zvolit proces!"
 
 #: ProcessMenu.cpp:85 ProcessMenu.cpp:149
 #, c-format
 msgid "The process %d is no longer persistent."
-msgstr ""
+msgstr "Proces %d ji¾ není dostupný."
 
 #: ProcessMenu.cpp:98
 msgid "SIGINT"
@@ -165,7 +157,7 @@ msgstr "SIGUSR2"
 
 #: ProcessMenu.cpp:116
 msgid "Unkown Signal"
-msgstr ""
+msgstr "Neznámý signál"
 
 #: ProcessMenu.cpp:122
 #, c-format
@@ -204,7 +196,7 @@ msgstr "Be¾ící procesy"
 
 #: ProcListPage.cpp:49
 msgid "Show Tree"
-msgstr ""
+msgstr "Zobrazit strom"
 
 #: ProcListPage.cpp:60
 msgid "All processes"
@@ -232,15 +224,15 @@ msgstr "Ukonèit úlohu"
 
 #: ProcessList.cpp:227
 msgid "Remove Column"
-msgstr ""
+msgstr "Odstranit sloupec"
 
 #: ProcessList.cpp:228
 msgid "Add Column"
-msgstr ""
+msgstr "Pøidat sloupec"
 
 #: ProcessList.cpp:229
 msgid "Help on Column"
-msgstr ""
+msgstr "Nápovìda k sloupci"
 
 #: ProcessList.cpp:691 ProcessList.cpp:692
 msgid "Name"
@@ -284,7 +276,7 @@ msgstr "Sdílená"
 
 #: ProcessList.cpp:707
 msgid "Command line"
-msgstr ""
+msgstr "Pøíkazová øádka"
 
 #: OSProcessList.cpp:76 OSProcessList.cpp:104
 msgid ""
@@ -344,55 +336,49 @@ msgid "Cound not send signal %d to process %d"
 msgstr "Není mo¾né odeslat signál %d procesu %d"
 
 #: PerfMonPage.cpp:49
-#, fuzzy
 msgid "CPU Load History"
 msgstr "Historie zatí¾ení CPU"
 
 #: PerfMonPage.cpp:52
-#, fuzzy
 msgid "System Load History"
-msgstr "Historie zatí¾ení CPU"
+msgstr "Historie zatí¾ení Systému"
 
 #: PerfMonPage.cpp:55 PerfMonPage.cpp:113
-#, fuzzy
 msgid "User (%)"
-msgstr "ID u¾ivatele"
+msgstr "U¾ivatel (%)"
 
 #: PerfMonPage.cpp:56 PerfMonPage.cpp:114
-#, fuzzy
 msgid "Nice (%)"
-msgstr "Priorita"
+msgstr "Nice (%)"
 
 #: PerfMonPage.cpp:57 PerfMonPage.cpp:115
 msgid "System (%)"
-msgstr ""
+msgstr "Sytém (%)"
 
 #: PerfMonPage.cpp:64
-#, fuzzy
 msgid "Memory Usage History"
 msgstr "Historie vyu¾ití pamìti"
 
 #: PerfMonPage.cpp:66
 msgid "Program (kB)"
-msgstr ""
+msgstr "Program (kB)"
 
 #: PerfMonPage.cpp:67
 msgid "Buffer (kB)"
-msgstr ""
+msgstr "Buffer (kB)"
 
 #: PerfMonPage.cpp:68
 msgid "Cache (kB)"
-msgstr ""
+msgstr "Cache (kB)"
 
 #: PerfMonPage.cpp:69
-#, fuzzy
 msgid "Swap (kB)"
-msgstr "Swap"
+msgstr "Swap (kB)"
 
 #: PerfMonPage.cpp:109
-#, fuzzy, c-format
+#, c-format
 msgid "CPU%d Load History"
-msgstr "Historie zatí¾ení CPU"
+msgstr "Historie zatí¾ení CPU%d"
 
 #: OSStatus.cpp:98
 msgid ""
@@ -419,13 +405,13 @@ msgid "Cannot read memory info file '/proc/meminfo'!\n"
 msgstr "Není mo¾né èíst soubor informací opamìti '/proc/meminfo'!\n"
 
 #: OSStatus.cpp:354
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Cannot read info for %s from file '/proc/stat'!\n"
 "The kernel needs to be compiled with support\n"
 "for /proc filesystem enabled!"
 msgstr ""
-"Není mo¾né èíst soubor '/proc/stat'!\n"
+"Není mo¾né èíst informaci o %s ze souboru '/proc/stat'!\n"
 "Je nutné zkompilovat kernel s podporou\n"
 "pro souborový systém /proc!"
 
@@ -446,7 +432,7 @@ msgid "Renice Process"
 msgstr "Pøeplánovat process"
 
 #: ReniceDlg.cpp:39
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You are about the change the scheduling priority of\n"
 "process %d. Be aware that only the Superuser (root)\n"
@@ -455,58 +441,9 @@ msgid ""
 "\n"
 "Please enter the desired nice level:"
 msgstr ""
-"Chystáte se zmìnit plánovanou prioritu procesu.\n"
+"Chystáte se zmìnit plánovanou prioritu procesu %d.\n"
 "Buïte si vìdom(a), ¾e pouze Superu¾ivatel (root)\n"
 "mù¾e zvy¹ovat prioritu procesu. Èím men¹í zadáte\n"
 "hodnotu, tím vìt¹í bude priorita.\n"
 "\n"
 "Prosím vlo¾te po¾adovanou prioritu:"
-
-#~ msgid ""
-#~ "Cannot read status of processes\n"
-#~ "from /proc/... directories!\n"
-#~ msgstr ""
-#~ "Není mo¾né èíst stav procesù\n"
-#~ " z adresáøù/proc/...!\n"
-
-#~ msgid "StartUp Preferences..."
-#~ msgstr "Nastavení pro spu¹tìní ..."
-
-#~ msgid "KTop Preferences"
-#~ msgstr "Nastavení KTopu"
-
-#~ msgid "Start up page"
-#~ msgstr "Poèáteèní stránka"
-
-#~ msgid "Processes &Tree"
-#~ msgstr "S&trom procesù"
-
-#~ msgid "&Performance"
-#~ msgstr "&Výkon"
-
-#~ msgid "Refresh rate: Medium"
-#~ msgstr "Frekvence aktualizace: Støední"
-
-#~ msgid "Refresh rate: Fast"
-#~ msgstr "Frekvence aktualizace: Rychlá"
-
-#~ msgid "Change Root"
-#~ msgstr "Zmìnit koøen"
-
-#~ msgid "Kill Task"
-#~ msgstr "Ukonèit úlohu"
-
-#~ msgid "Sort by ID"
-#~ msgstr "Setøídit podle ID"
-
-#~ msgid "Sort by Name"
-#~ msgstr "Setøídit podle jména"
-
-#~ msgid "Sort by Owner (UID)"
-#~ msgstr "Setøídit podle vlastníka (UID)"
-
-#~ msgid "CPU load"
-#~ msgstr "Zatí¾ení CPU"
-
-#~ msgid "Swap history"
-#~ msgstr "Historie zatí¾ení swapu"
