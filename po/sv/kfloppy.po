@@ -1,18 +1,20 @@
+# 
+# Karl Backström <karl_b@geocities.com>, 1998
+# Anders Bengtsson <d96-abe@nada.kth.se>, 1998
+#
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-05-30 17:50+0200\n"
-"PO-Revision-Date:  1998-05-25 17:28+0800\n"
-"Last-Translator: Karl Backström <karl_b@geocities.com\n"
-"Content-Type: text/plain; charset=\n"
-"Date: 1998-03-06 22:13:59-0500\n"
-"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
-"<root@petit.cornell.edu>\n"
-"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
-"Files: about.cpp floppy.cpp main.cpp\n"
+"PO-Revision-Date:  1998-08-17 00:00+0200\n"
+"Last-Translator: Anders Bengtsson <d96-abe@nada.kth.se>\n"
+"Language-Team: Swedish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8BIT\n"
 
 #: about.cpp:40
 msgid "About KDE Floppy Formater"
-msgstr "Om KDE floppy formatering"
+msgstr "Om KDE KFloppy"
 
 #: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368
 #: floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721
@@ -26,7 +28,7 @@ msgstr "Version "
 
 #: floppy.cpp:56
 msgid "Floppy Drive:"
-msgstr "Diskett Enhet:"
+msgstr "Diskettenhet:"
 
 #: floppy.cpp:65
 msgid "Density:"
@@ -34,7 +36,7 @@ msgstr "Täthet:"
 
 #: floppy.cpp:74
 msgid "File System:"
-msgstr "Fil system:"
+msgstr "Filsystem:"
 
 #: floppy.cpp:108 floppy.cpp:408
 msgid "Format"
@@ -42,23 +44,23 @@ msgstr "Formatera"
 
 #: floppy.cpp:131
 msgid "Quick Erase"
-msgstr "Snabb Rensning"
+msgstr "Snabbradering"
 
 #: floppy.cpp:136
 msgid "Full Format"
-msgstr "Full formatering"
+msgstr "Fullständig formatering"
 
 #: floppy.cpp:142
 msgid "Create Label:"
-msgstr "Ge disketten ett namn:"
+msgstr "Ange etikett:"
 
 #: floppy.cpp:148
 msgid "KDE FLoppy"
-msgstr "KDE floppy"
+msgstr "KDE-diskett"
 
 #: floppy.cpp:162
 msgid "KDE Floppy Formater"
-msgstr "KDE diskett formatering"
+msgstr "KDE Diskettformaterare"
 
 #: floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267
 msgid "HD"
@@ -71,9 +73,9 @@ msgid ""
 "Make sure that the device exists and that\n"
 "you have write permission to it."
 msgstr ""
-"Har ej tillgång till %s\n"
-"Var säker på att enheten exsisterar och att\n"
-"du har skrivrättigheter på den."
+"Kan ej komma åt %s\n"
+"Se till att enheten existerar och att\n"
+"du har skrivrättigheter."
 
 #: floppy.cpp:333
 msgid ""
@@ -81,9 +83,9 @@ msgid ""
 "kfdformat is part of the KFloppy distribution.\n"
 "Please install KFloppy properly."
 msgstr ""
-"Gick ej att hitta kfdformat\n"
-"kfdformat är en del av KFloppy programmet. \n"
-"Verifeiera att KFloppy är helt installerat."
+"Hittade inte kfdformat\n"
+"kfdformat distribueras med KFloppy.\n"
+"Se till att KFloppy är korrekt installerat."
 
 #: floppy.cpp:349
 msgid ""
@@ -91,9 +93,9 @@ msgid ""
 "kmke2fs is part of the KFloppy distribution.\n"
 "Please install KFloppy properly."
 msgstr ""
-"Gick ej att hitta kmke2fs\n"
-"kmke2fs är en del av KFloppy programmet. \n"
-"Verifeiera att KFloppy är helt installerat."
+"Hittade inte kmke2fs\n"
+"kmke2fs distribueras med KFloppy.\n"
+"Se till att KFloppy är korrekt installerat."
 
 #: floppy.cpp:364
 msgid ""
@@ -101,9 +103,9 @@ msgid ""
 "kmkdosfs is part of the KFloppy distribution.\n"
 "Please install KFloppy properly."
 msgstr ""
-"Gick ej att hitta  kmkdosfs\n"
-"kmkdosfs är en del av KFloppy programmet. \n"
-"Verifeiera att KFloppy är helt installerat."
+"Hittade inte kmkdosfs\n"
+"kmkdosfs distribueras med KFloppy.\n"
+"Se till att KFloppy är korrekt installerat."
 
 #: floppy.cpp:424
 msgid "Abort"
@@ -111,7 +113,7 @@ msgstr "Avbryt"
 
 #: floppy.cpp:472
 msgid "Cannot start a new program: fork() failed."
-msgstr "Kan inte starta ett nytt program: fork() fungerar inte."
+msgstr "Kan inte starta ett nytt program: fork() misslyckades."
 
 #: floppy.cpp:572 floppy.cpp:700
 msgid ""
@@ -119,9 +121,9 @@ msgid ""
 "Please insert a floppy and make sure that you\n"
 "have selected a valid floppy drive.\n"
 msgstr ""
-"Har inte tillgång till disketten eller diskett enheten\n"
-"Sätt i en diskett och verifiera att du\n"
-"har valt en giltig diskett station.\n"
+"Kommer inte åt disketten eller diskettenheten.\n"
+"Se till att en diskett sitter i och att\n"
+"diskettenheten du valt är giltig.\n"
 
 #: floppy.cpp:587
 #, c-format
@@ -129,13 +131,13 @@ msgid ""
 "Cannot format: %s\n"
 "%s"
 msgstr ""
-"Gick ej att formatera: %s\n"
+"Kunde ej formatera: %s\n"
 "%s"
 
 #: floppy.cpp:634
 #, c-format
 msgid "Block %d is bad. Continuing ..."
-msgstr "Block %d är dåligt. Fortsätter ..."
+msgstr "Block %d är trasigt. Fortsätter ..."
 
 #: floppy.cpp:717
 #, c-format
@@ -153,13 +155,13 @@ msgid ""
 "Blocks marked bad: %d\n"
 "Raw Capacity: %d\n"
 msgstr ""
-"Disketten blev formaterad.\n"
-"Dåliga block är markerat: %d\n"
-"Rå kapasitet: %d\n"
+"Disketten är formaterad.\n"
+"Dåliga block markerade: %d\n"
+"Kapacitet: %d\n"
 
 #: floppy.cpp:774
 msgid "All files were sucessfully erased."
-msgstr "Alla filer blev borttagna."
+msgstr "Alla filer togs bort."
 
 #: floppy.cpp:832
 msgid "Creating Filesystem ..."
@@ -175,11 +177,11 @@ msgid ""
 "fork() failed."
 msgstr ""
 "Kan inte starta ett nytt program\n"
-"fork() fungerar inte."
+"fork() misslyckades."
 
 #: floppy.cpp:907
 msgid "Error while trying to determine whether floppy is mounted\n"
-msgstr "Fel under försöken att avgöra om disketten är monterad\n"
+msgstr "Fel uppstod vid försök att kontrollera om disketten är monterad\n"
 
 #: floppy.cpp:924
 #, c-format
@@ -187,5 +189,5 @@ msgid ""
 "%s is mounted.\n"
 "Please unmount the floppy first."
 msgstr ""
-"%s är mounted. \n"
-"Omontera disketten först, tack."
+"%s är monterad.\n"
+"Avmontera disketten först."
