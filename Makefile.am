@@ -21,7 +21,6 @@ install-data-local:
 	@echo "****************************************************"
 	@echo ""
 
-
 messages:
 	rm -rf po.backup
 	mkdir po.backup
@@ -29,10 +28,12 @@ messages:
 	  grep -v "\"POT-Creation" po/$$i > po.backup/$$i ; \
 	  cp po/$$i po.backup/backup_$$i ;  \
 	done
-	@for subdir in $(SUBDIRS); do \
-	echo "Making messages in $$subdir"; \
-	  (cd $$subdir && $(MAKE) messages) \
-	done 
+	files=`ls -1`; \
+	dirs=`for i in $$files; do if test -d $$i && test -r $$i/Makefile.am; then echo $$i; fi; done`; \
+	for subdir in $$dirs; do \
+	  echo "Making messages in $$subdir"; \
+	  (cd $$subdir && $(MAKE) -f Makefile.am messages) \
+	done
 	for  i in `ls -1 po/*.pot | sed -e "s#po/##"`; do \
 	  grep -v "POT-Creation-Date:" po/$$i > temp.pot ;\
 	  if diff -q temp.pot po.backup/$$i; then \
@@ -44,4 +45,5 @@ messages:
 	done
 	rm -f temp.pot
 	rm -rf po.backup
-	(cd po && $(MAKE) merge)
+	(cd po && $(MAKE) -f Makefile.am merge)
+
