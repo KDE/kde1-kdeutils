@@ -515,8 +515,11 @@ QString Cat_time::string(Procinfo *p)
     if(t >= 100 * 60) {
 	if(t >= 100 * 3600) {
 	    int d = t / 86400;
-	    t &= 86400;
-	    s.sprintf("%dd%dh", d, t / 3600);
+	    t /= 3600;
+            if(d >= 100)
+              s.sprintf("%d.%dd", d, ((t - 24*d)*10)/24);
+            else
+	      s.sprintf("%dd%2dh", d, t - 24*d);
 	} else {
 	    int h = t / 3600;
 	    t %= 3600;
