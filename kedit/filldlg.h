@@ -87,7 +87,6 @@ private:
     QCheckBox *word_wrap;
     QCheckBox *backup_copies;
     QGroupBox *frame1;
-    void resizeEvent(QResizeEvent *);
 
 public slots:
 

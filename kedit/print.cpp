@@ -22,6 +22,9 @@
     Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
   
     $Log$
+    Revision 1.10  1998/09/14 20:45:05  kulow
+    I know, Ok is ok too, but OK is more OK some GUI guides say :)
+
     Revision 1.9  1997/10/24 19:25:19  wuebben
     Lot's of fixes and improvements. Kedit was pretty screwed up.
 
@@ -53,61 +56,77 @@
 
 #include "print.moc"
 
+#include <qlayout.h>
 #include <klocale.h>
 #include <kapp.h>
 
 PrintDialog::PrintDialog( QWidget *parent, const char *name,  bool modal)
     : QDialog( parent, name, modal )
 {
-
-
-
+  QVBoxLayout * mainLayout = new QVBoxLayout(this, 10);
+  int fontHeight = 2*fontMetrics().height();
   
   setCaption(klocale->translate("Print Dialog"));
 
   bg = new QButtonGroup(this,"bg");
-  
+  mainLayout->addWidget(bg);
+  QVBoxLayout * frameLayout = new QVBoxLayout(bg, 15);
+ 
   rawbutton = new QRadioButton(klocale->translate("Print directly using lpr")
 			       ,bg,"rawbutton");
-  rawbutton->setGeometry(15,20,200,25);
   rawbutton->setChecked(TRUE);
+  rawbutton->setFixedSize( rawbutton->sizeHint() );
+  frameLayout->addWidget(rawbutton, 0, AlignLeft);
 
+  QHBoxLayout * hLay = new QHBoxLayout();
+  frameLayout->addLayout(hLay);
   commandbutton = new QRadioButton(klocale->translate("Print using Command:")
 				   ,bg,"commandbutton");
-  commandbutton->setGeometry(15,50,140,25);
+  commandbutton->setFixedSize( commandbutton->sizeHint() );
+  hLay->addWidget(commandbutton);
 
   commandbox = new QLineEdit(bg,"command");
-  commandbox->setGeometry(165,50,205,25);
+  commandbox->setMinimumWidth(200);
+  commandbox->setFixedHeight(fontHeight);
+  hLay->addWidget(commandbox);
 
-
-  bg->setGeometry(10,10,385,90);
-  
 
   bg1 = new QButtonGroup(this,"bg1");
+  mainLayout->addWidget(bg1);
+  frameLayout = new QVBoxLayout(bg1, 15);
 
   allbutton = new QRadioButton(klocale->translate("Print Document")
 			       ,bg1,"documentbutton");
-  allbutton->setGeometry(15,10,130,25);
+  allbutton->setFixedSize( allbutton->sizeHint() );
+  frameLayout->addWidget(allbutton, 0, AlignLeft);
   allbutton->setChecked(TRUE);
 
   selectionbutton = new QRadioButton(klocale->translate("Print Selection"),
 				     bg1,"selectionbutton");
-  selectionbutton->setGeometry(15,40,130,25);
+  selectionbutton->setFixedSize( selectionbutton->sizeHint() );
+  frameLayout->addWidget(selectionbutton, 0, AlignLeft);
   
-  bg1->setGeometry(10,115,385,80);
-  
+  hLay = new QHBoxLayout();
+  mainLayout->addLayout(hLay);
 
   ok_button = new QPushButton(klocale->translate( "OK"), this );
-  ok_button->setGeometry( 3*XOFFSET, 210, 80, BUTTONHEIGHT );
   ok_button->setFocus();
+  ok_button->setFixedSize(ok_button->sizeHint()); 
+  hLay->addStretch();
+  hLay->addWidget(ok_button);
+  hLay->addStretch();
   connect( ok_button, SIGNAL( clicked() ), SLOT( accept() ) );	
   
   cancel_button = new QPushButton(klocale->translate("Cancel"),this);
 
   cancel_button->setGeometry( 3*XOFFSET +100, 210, 80, BUTTONHEIGHT );
   connect( cancel_button, SIGNAL( clicked() ), SLOT( reject() ) );
+  cancel_button->setFixedSize(cancel_button->sizeHint()); 
+  hLay->addWidget(cancel_button);
+  hLay->addStretch();
 
-  this->setFixedSize(405,240);
+  mainLayout->activate();
+  resize(minimumSize());
 
 }
 

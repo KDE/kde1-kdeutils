@@ -682,23 +682,52 @@ KEdSrch::KEdSrch(QWidget *parent, const char *name)
     : QDialog(parent, name,FALSE){
 
     this->setFocusPolicy(QWidget::StrongFocus);
-    frame1 = new QGroupBox(klocale->translate("Find"), this, "frame1");
+    int fontHeight = 2*fontMetrics().height();
+    QVBoxLayout * mainLayout = new QVBoxLayout(this, 10);
 
-    value = new QLineEdit( this, "value");
+    frame1 = new QGroupBox(klocale->translate("Find"), this, "frame1");
+    mainLayout->addWidget(frame1);
+    QVBoxLayout * frameLayout = new QVBoxLayout(frame1, 15);
+
+    value = new QLineEdit( frame1, "value");
     value->setFocus();
+    value->setMinimumWidth(200);
+    value->setFixedHeight(fontHeight);
+    frameLayout->addWidget(value);
     connect(value, SIGNAL(returnPressed()), this, SLOT(ok_slot()));
 
-    sensitive = new QCheckBox(klocale->translate("Case Sensitive"), this, "case");
-    direction = new QCheckBox(klocale->translate("Find Backwards"), this, "direction");
+    QHBoxLayout * hLay = new QHBoxLayout();
+    frameLayout->addLayout(hLay);
+    sensitive = new QCheckBox(klocale->translate("Case Sensitive"), frame1, "case");
+    sensitive->setFixedSize( sensitive->sizeHint() );
+    hLay->addWidget(sensitive);
+    direction = new QCheckBox(klocale->translate("Find Backwards"), frame1, "direction");
+    direction->setFixedSize( direction->sizeHint() );
+    hLay->addWidget(direction);
 
+    frameLayout->addStretch(10); // so that frame doesn't grow
+    mainLayout->addStretch(10);
+
+    hLay = new QHBoxLayout();
+    mainLayout->addLayout(hLay);
     ok = new QPushButton(klocale->translate("Find"), this, "find");
     connect(ok, SIGNAL(clicked()), this, SLOT(ok_slot()));
+    ok->setFixedSize(ok->sizeHint()); 
+    hLay->addStretch();
+    hLay->addWidget(ok);
+    hLay->addStretch();
 
     cancel = new QPushButton(klocale->translate("Done"), this, "cancel");
+    cancel->setFixedSize(cancel->sizeHint()); 
+    hLay->addWidget(cancel);
+    hLay->addStretch();
+    cancel->setFocus();
+
     connect(cancel, SIGNAL(clicked()), this, SLOT(done_slot()));
     //    connect(cancel, SIGNAL(clicked()), this, SLOT(reject()));
 
-    setFixedSize(330, 130);
+    mainLayout->activate();
+    resize(minimumSize());
 
 }
 
@@ -748,18 +777,6 @@ void KEdSrch::ok_slot(){
 }
 
 
-void KEdSrch::resizeEvent(QResizeEvent *){
-
-
-    frame1->setGeometry(5, 5, width() - 10, 80);
-    cancel->setGeometry(width() - 80, height() - 30, 70, 25);
-    ok->setGeometry(10, height() - 30, 70, 25);
-    value->setGeometry(20, 25, width() - 40, 25);
-    sensitive->setGeometry(20, 55, 110, 25);
-    direction->setGeometry(width()- 20 - 130, 55, 130, 25);
-
-}
-
 
 
 ////////////////////////////////////////////////////////////////////
@@ -773,39 +790,77 @@ KEdReplace::KEdReplace(QWidget *parent, const char *name)
 
 
     this->setFocusPolicy(QWidget::StrongFocus);
+    int fontHeight = 2*fontMetrics().height();
+    QVBoxLayout * mainLayout = new QVBoxLayout(this, 10);
 
     frame1 = new QGroupBox(klocale->translate("Find:"), this, "frame1");
+    mainLayout->addWidget(frame1);
+    QVBoxLayout * frameLayout = new QVBoxLayout(frame1, 20);
 
-    value = new QLineEdit( this, "value");
+    value = new QLineEdit( frame1, "value");
     value->setFocus();
+    value->setMinimumWidth(200);
+    value->setFixedHeight(fontHeight);
+    frameLayout->addWidget(value);
     connect(value, SIGNAL(returnPressed()), this, SLOT(ok_slot()));
 
-    replace_value = new QLineEdit( this, "replac_value");
+    label = new QLabel(frame1,"Rlabel");
+    label->setText(klocale->translate("Replace with:"));
+    label->setFixedSize( label->sizeHint() );
+    frameLayout->addWidget(label);
+
+    replace_value = new QLineEdit( frame1, "replac_value");
+    replace_value->setMinimumWidth(200);
+    replace_value->setFixedHeight(fontHeight);
+    frameLayout->addWidget(replace_value);
     connect(replace_value, SIGNAL(returnPressed()), this, SLOT(ok_slot()));
 
-    label = new QLabel(this,"Rlabel");
-    label->setText(klocale->translate("Replace with:"));
+    QHBoxLayout * hLay = new QHBoxLayout();
+    frameLayout->addLayout(hLay);
 
-    sensitive = new QCheckBox(klocale->translate("Case Sensitive"), this, "case");
+    sensitive = new QCheckBox(klocale->translate("Case Sensitive"), frame1, "case");
     sensitive->setChecked(TRUE);
+    sensitive->setMinimumSize( sensitive->sizeHint() );
+    hLay->addWidget(sensitive);
 
     direction = new QCheckBox(klocale->translate("Find Backwards")
-			      , this, "direction");
+			      , frame1, "direction");
+    direction->setMinimumSize( direction->sizeHint() );
+    hLay->addWidget(direction);
+
+    frameLayout->addStretch(10); // so that frame doesn't grow
+    mainLayout->addStretch(10);
+
+    hLay = new QHBoxLayout();
+    mainLayout->addLayout(hLay);
     
     ok = new QPushButton(klocale->translate("Find"), this, "find");
     connect(ok, SIGNAL(clicked()), this, SLOT(ok_slot()));
+    ok->setFixedSize(ok->sizeHint()); 
+    hLay->addStretch();
+    hLay->addWidget(ok);
+    hLay->addStretch();
 
     replace = new QPushButton(klocale->translate("Replace"), this, "rep");
     connect(replace, SIGNAL(clicked()), this, SLOT(replace_slot()));
+    replace->setFixedSize(replace->sizeHint()); 
+    hLay->addWidget(replace);
+    hLay->addStretch();
 
     replace_all = new QPushButton(klocale->translate("Replace All"), this, "repall");
     connect(replace_all, SIGNAL(clicked()), this, SLOT(replace_all_slot()));
+    replace_all->setFixedSize(replace_all->sizeHint()); 
+    hLay->addWidget(replace_all);
+    hLay->addStretch();
 
     cancel = new QPushButton(klocale->translate("Done"), this, "cancel");
     connect(cancel, SIGNAL(clicked()), this, SLOT(done_slot()));
+    cancel->setFixedSize(cancel->sizeHint()); 
+    hLay->addWidget(cancel);
+    hLay->addStretch();
 
-    setFixedSize(330, 180);
-
+    mainLayout->activate();
+    resize(minimumSize());
 }
 
 
@@ -868,28 +923,6 @@ void KEdReplace::ok_slot(){
     emit find_signal();
 
 }
-
-
-void KEdReplace::resizeEvent(QResizeEvent *){
-
-    frame1->setGeometry(5, 5, width() - 10, 135);
-
-    cancel->setGeometry(width() - 80, height() - 30, 70, 25);
-    ok->setGeometry(10, height() - 30, 70, 25);
-    replace->setGeometry(85, height() - 30, 70, 25);
-    replace_all->setGeometry(160, height() - 30, 85, 25);
-
-    value->setGeometry(20, 25, width() - 40, 25);
-    replace_value->setGeometry(20, 80, width() - 40, 25);
-    
-    label->setGeometry(20,55,80,20);
-    sensitive->setGeometry(20, 110, 110, 25);
-    direction->setGeometry(width()- 20 - 130, 110, 130, 25);
-
-}
-
-
-
 
 
 KEdGotoLine::KEdGotoLine( QWidget *parent, const char *name)

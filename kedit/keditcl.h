@@ -143,7 +143,6 @@ public:
 
 protected:
     void focusInEvent( QFocusEvent *);
-    void resizeEvent(QResizeEvent *);
 
 private:
 
@@ -186,7 +185,6 @@ public:
 protected:
 
     void focusInEvent( QFocusEvent *);
-    void resizeEvent ( QResizeEvent *);
 
 private:
 

@@ -22,34 +22,79 @@
     */
 
 #include "filldlg.h"
+#include <qlayout.h>
 #include <klocale.h>
 #include <kapp.h>
 
 FillDlg::FillDlg(QWidget *parent, const char *name)
      : QDialog(parent, name, TRUE)
 {
+    this->setFocusPolicy(QWidget::StrongFocus);
+    QVBoxLayout * mainLayout = new QVBoxLayout(this, 10);
+    // The unique groupbox, around everything
     frame1 = new QGroupBox(klocale->translate("KEdit Options"), 
 			   this, "frame1");
-    values = new QLineEdit( this, "values");
-    this->setFocusPolicy(QWidget::StrongFocus);
+    mainLayout->addWidget(frame1);
+    // The vertical layout for its items
+    QVBoxLayout * frameLayout = new QVBoxLayout(frame1, 15);
+
+    // First item : fill-column checkbox + lineedit
+    QHBoxLayout * hLay = new QHBoxLayout();
+    frameLayout->addLayout(hLay);
+    values = new QLineEdit( frame1, "values");
     connect(values, SIGNAL(returnPressed()), this, SLOT(checkit()));
     fill_column = new QCheckBox(klocale->translate("Set Fill-Column at:"),
 				frame1, "fill");
     connect(fill_column, SIGNAL(toggled(bool)),this,SLOT(synchronize(bool)));
+    int fontHeight = 2*fontMetrics().height();
+    values->setMinimumWidth(200);
+    values->setFixedHeight(fontHeight);
+    fill_column->setFixedSize( fill_column->sizeHint() );
+    hLay->addWidget(fill_column);
+    hLay->addWidget(values);
 
+    // Second item : word wrap
     word_wrap = new QCheckBox(klocale->translate("Word Wrap"), 
 			      frame1, "word");
+    word_wrap->setMinimumSize( word_wrap->sizeHint() );
+    frameLayout->addWidget(word_wrap);
+
+    // Third item : back copies
     backup_copies = new QCheckBox(klocale->translate("Backup Copies"), 
 			      frame1, "backup");
-    mailcmd = new QLineEdit(this,"mailcmd");
-    mailcmdlabel = new QLabel(this,"mailcmdlable");
+    backup_copies->setMinimumSize( backup_copies->sizeHint() );
+    frameLayout->addWidget(backup_copies);
+
+    // Fourth item : mail command
+    hLay = new QHBoxLayout();
+    frameLayout->addLayout(hLay);
+    mailcmd = new QLineEdit(frame1,"mailcmd");
+    mailcmd->setMinimumWidth(200);
+    mailcmd->setFixedHeight(fontHeight);
+    mailcmdlabel = new QLabel(frame1,"mailcmdlable");
     mailcmdlabel->setText(klocale->translate("Mail Command:"));
+    mailcmdlabel->setFixedSize( mailcmdlabel->sizeHint() );
+    hLay->addWidget(mailcmdlabel);
+    hLay->addWidget(mailcmd);
+    frameLayout->addStretch(10); // so that frame doesn't grow
+    mainLayout->addStretch(10);
+
+    hLay = new QHBoxLayout();
+    mainLayout->addLayout(hLay);
     ok = new QPushButton(klocale->translate("OK"), this, "OK");
+    ok->setFixedSize(ok->sizeHint()); 
+    hLay->addStretch();
+    hLay->addWidget(ok);
+    hLay->addStretch();
     cancel = new QPushButton(klocale->translate("Cancel"), this, "cancel");
+    cancel->setFixedSize(cancel->sizeHint()); 
+    hLay->addWidget(cancel);
+    hLay->addStretch();
     cancel->setFocus();
     connect(cancel, SIGNAL(clicked()), this, SLOT(reject()));
     connect(ok, SIGNAL(clicked()), this, SLOT(checkit()));
-    resize(300, 225);
+    mainLayout->activate();
+    resize(minimumSize());
 }
 
 struct fill_struct  FillDlg::getFillCol() { 
@@ -109,20 +154,6 @@ bool FillDlg::wordwrap(){
     return false;
 
 };
-
-
-void FillDlg::resizeEvent(QResizeEvent *)
-{
-    frame1->setGeometry(5, 5, width() - 10, height() - 45);
-    cancel->setGeometry(width() - 80, height() - 30, 70, 25);
-    ok->setGeometry(width() - 160, height() - 30, 70, 25);
-    values->setGeometry(170, 35, 70, 25);
-    mailcmd->setGeometry(120, 140, 160, 25);
-    mailcmdlabel->setGeometry(25, 140, 90, 25);
-    fill_column->setGeometry(20, 30, 140, 25);
-    word_wrap->setGeometry(20, 65, 140, 25);
-    backup_copies->setGeometry(20, 100, 140, 25);
-}
 
 void FillDlg::checkit(){
 
