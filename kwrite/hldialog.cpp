@@ -19,7 +19,7 @@ AttribPage::AttribPage(QList<Attribute> &al, QWidget *parent, const char *name)
   vbox->addWidget(f);
 
   QGridLayout *bottom = new QGridLayout(4,7);
-  vbox->addLayout(bottom,0);
+  vbox->addLayout(bottom/*,0*/);
 
   font = new QCheckBox(i18n("Font"),this);
   font->setFixedSize(font->sizeHint()+QSize(20,0));
@@ -71,7 +71,7 @@ AttribPage::AttribPage(QList<Attribute> &al, QWidget *parent, const char *name)
     
   bottom->setColStretch(6,1);
 
-  bottom->activate();
+  //  bottom->activate();
   vbox->activate();
 
   fillList();
@@ -190,6 +190,15 @@ void AttribPage::selectionChanged(const QColor &newColor)
 
 void AttribPage::selectFont()
 {
+  //CT 28Oct1998 - fix crash at first startup of font selection 
+  //  (item not selected)
+
+  if (current < 0 /*CT no way to do this, no needed too, maybe*  || current > nameList->count() -1*/) {
+    current = 0;
+    nameList->setCurrent(current);
+  }
+  //CT
+
   Attribute *att = attributes.at(current);
   QFont font = att->getFont();
   
