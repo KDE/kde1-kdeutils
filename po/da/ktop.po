@@ -1,0 +1,401 @@
+# Danish translations for KDE Utils, ktop
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Erik Kjær Pedersen <erik@binghamton.edu>, 1999.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: KDE UTILS/ktop\n"
+"POT-Creation-Date: 1999-03-12 01:58+0100\n"
+"PO-Revision-Date: 1999-03-12 14:42+0100\n"
+"Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
+"Language-Team: da <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO_8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"        
+
+#: ktop.cpp:58
+msgid "KDE Task Manager"
+msgstr "KDE opgavemanager"
+
+#: ktop.cpp:74
+#, c-format
+msgid ""
+"KDE Task Manager (KTop) Version %s\n"
+"\n"
+"Copyright:\n"
+"1996 : A. Sanda <alex@darkstar.ping.at>\n"
+"1997 : Ralf Mueller <ralf@bj-ig.de>\n"
+"1997-98 : Bernd Johannes Wuebben <wuebben@kde.org>\n"
+"1998 : Nicolas Leclercq <nicknet@planete.net>\n"
+"1999 : Chris Schlaeger <cs@axys.de>\n"
+msgstr ""
+"KDE KDE opgavemanager (KTop) Version %s\n"
+"\n"
+"Copyright:\n"
+"1996 : A. Sanda <alex@darkstar.ping.at>\n"
+"1997 : Ralf Mueller <ralf@bj-ig.de>\n"
+"1997-98 : Bernd Johannes Wuebben <wuebben@kde.org>\n"
+"1998 : Nicolas Leclercq <nicknet@planete.net>\n"
+"1999 : Chris Schlaeger <cs@axys.de>\n"
+
+#: ktop.cpp:86
+msgid "StartUp Preferences..."
+msgstr "Opstarts præferencer"
+
+#: settings.cpp:35
+msgid "KTop Preferences"
+msgstr "KTop præferencer"
+
+#: settings.cpp:37
+msgid "Start up page"
+msgstr "Opstartsside"
+
+#: TaskMan.cpp:117 settings.cpp:40
+msgid "Processes &List"
+msgstr "Proces&liste"
+
+#: TaskMan.cpp:118 settings.cpp:43
+msgid "Processes &Tree"
+msgstr "Proces&træ"
+
+#: settings.cpp:46
+msgid "Performance &Meter"
+msgstr "Ydelsesmåler"
+
+#: TaskMan.cpp:70
+msgid "Renice Task..."
+msgstr "Opgave der ændrer nice..."
+
+#: TaskMan.cpp:73
+msgid "send SIGINT\t(ctrl-c)"
+msgstr "send SIGINT\t(ctrl-c)"
+
+#: TaskMan.cpp:74
+msgid "send SIGQUIT\t(core)"
+msgstr "send SIGQUIT\t(core)"
+
+#: TaskMan.cpp:75
+msgid "send SIGTERM\t(term.)"
+msgstr "send SIGTERM\t(term.)"
+
+#: TaskMan.cpp:76
+msgid "send SIGKILL\t(term.)"
+msgstr "send SIGKILL\t(term.)"
+
+#: TaskMan.cpp:78
+msgid "send SIGUSR1\t(user1)"
+msgstr "send SIGUSR1\t(user1)"
+
+#: TaskMan.cpp:79
+msgid "send SIGUSR2\t(user2)"
+msgstr "send SIGUSR2\t(user2)"
+
+#: TaskMan.cpp:119
+msgid "&Performance"
+msgstr "&Ydelse"
+
+#: TaskMan.cpp:159
+msgid "SIGINT"
+msgstr "SIGINT"
+
+#: TaskMan.cpp:163
+msgid "SIGQUIT"
+msgstr "SIGQUIT"
+
+#: TaskMan.cpp:167
+msgid "SIGTERM"
+msgstr "SIGTERM"
+
+#: TaskMan.cpp:171
+msgid "SIGKILL"
+msgstr "SIGKILL"
+
+#: TaskMan.cpp:175
+msgid "SIGUSR1"
+msgstr "SIGUSR1"
+
+#: TaskMan.cpp:179
+msgid "SIGUSR2"
+msgstr "SIGUSR2"
+
+#: TaskMan.cpp:255
+#, c-format
+msgid ""
+"Send signal %s to process %d?\n"
+"(Process name: %s  Owner: %s)\n"
+msgstr ""
+"Send signal %s til processen %d?\n"
+"(Procesnavn: %s Ejer: %s)\n"
+
+#: TaskMan.cpp:259
+msgid "Abort"
+msgstr "Opgiv"
+
+#: ProcListPage.cpp:184 ProcTreePage.cpp:150 TaskMan.cpp:281 TaskMan.cpp:299
+msgid "Task Manager"
+msgstr "Opgavemanager"
+
+#: TaskMan.cpp:282 TaskMan.cpp:300
+msgid ""
+"Renice error...\n"
+"Specified process does not exist\n"
+"or permission denied."
+msgstr ""
+"Fejl ved ændring af nice...\n"
+"Den angivne proces eksisterer ikke\n"
+"eller tilladelse blev nægtet."
+
+#: ProcListPage.cpp:53 ProcTreePage.cpp:67
+msgid "Running Processes"
+msgstr "Kørende processer"
+
+#: ProcListPage.cpp:71
+msgid "Refresh rate: Slow"
+msgstr "Genopfriskningsrate: langsom"
+
+#: ProcListPage.cpp:73
+msgid "Refresh rate: Medium"
+msgstr "Genopfriskningsrate: mellem"
+
+#: ProcListPage.cpp:75
+msgid "Refresh rate: Fast"
+msgstr "Genopfriskningsrate: hurtig"
+
+#: ProcListPage.cpp:84
+msgid "All processes"
+msgstr "Alle processer"
+
+#: ProcListPage.cpp:85
+msgid "System processes"
+msgstr "System processer"
+
+#: ProcListPage.cpp:86
+msgid "User processes"
+msgstr "Bruger processer"
+
+#: ProcListPage.cpp:87
+msgid "Own processes"
+msgstr "Egne processer"
+
+#: ProcListPage.cpp:93 ProcTreePage.cpp:82
+msgid "Refresh Now"
+msgstr "Genopfrisk nu"
+
+#: ProcListPage.cpp:98
+msgid "Kill task"
+msgstr "Dræb opgaven"
+
+#: ProcListPage.cpp:185 ProcTreePage.cpp:151
+msgid ""
+"You need to select a process before\n"
+"pressing the kill button!\n"
+msgstr ""
+"Du skal vælge en proces før du trykker\n"
+"på 'dræb' knappen!\n"
+
+#: ProcTreePage.cpp:88
+msgid "Change Root"
+msgstr "Skift Root"
+
+#: ProcTreePage.cpp:93
+msgid "Kill Task"
+msgstr "Dræb opgaven"
+
+#: ProcTreePage.cpp:101
+msgid "Sort by ID"
+msgstr "Sorter efter ID"
+
+#: ProcTreePage.cpp:102
+msgid "Sort by Name"
+msgstr "Sorter efter navn"
+
+#: ProcTreePage.cpp:103
+msgid "Sort by Owner (UID)"
+msgstr "Sorter efter ejer (UID)"
+
+#: ProcessList.cpp:411 ProcessList.cpp:412
+msgid "PID"
+msgstr "PID"
+
+#: ProcessList.cpp:415
+msgid "Name"
+msgstr "Navn"
+
+#: ProcessList.cpp:416
+msgid "User ID"
+msgstr "Bruger ID"
+
+#: ProcessList.cpp:417
+msgid "CPU"
+msgstr "CPU"
+
+#: ProcessList.cpp:418
+msgid "Time"
+msgstr "Tid"
+
+#: ProcessList.cpp:419
+msgid "Nice"
+msgstr "Nice"
+
+#: ProcessList.cpp:420
+msgid "Status"
+msgstr "Status"
+
+#: PerfMonPage.cpp:51 ProcessList.cpp:421
+msgid "Memory"
+msgstr "Hukommelse"
+
+#: ProcessList.cpp:422
+msgid "Resident"
+msgstr "Resident"
+
+#: ProcessList.cpp:423
+msgid "Shared"
+msgstr "Delt"
+
+#: OSProcessList.cpp:76 OSProcessList.cpp:103
+msgid ""
+"Cannot open directory '/proc'!\n"
+"The kernel needs to be compiled with support\n"
+"for /proc filesystem enabled!"
+msgstr ""
+"Kan ikke åbne folderen '/proc'!\n"
+"Kernen skal kompileres med støtte for\n"
+"/proc filsystemet slået til!"
+
+#: OSProcessList.cpp:120
+msgid ""
+"Cannot read status of processes\n"
+"from /proc/... directories!\n"
+msgstr ""
+"Kan ikke læse processens status i\n"
+"/proc/... folderne!\n"
+
+#: OSProcessList.cpp:260
+msgid "Cannot read status of processes\n"
+msgstr "Kan ikke læse processens status\n"
+
+#: OSProcessList.cpp:355
+msgid "Your OS is not supported yet.  Sorry"
+msgstr "Dit operativsystem er desvaærre ikke understøttet endnu"
+
+#: OSProcess.cpp:113 OSProcess.cpp:130
+#, c-format
+msgid "Cannot open %s!\n"
+msgstr "Kan ikke åbne %s!\n"
+
+#: OSProcess.cpp:143
+msgid "Run"
+msgstr "Kør"
+
+#: OSProcess.cpp:146
+msgid "Sleep"
+msgstr "Sov"
+
+#: OSProcess.cpp:149
+msgid "Disk"
+msgstr "Disk"
+
+#: OSProcess.cpp:152
+msgid "Zombie"
+msgstr "Zombie"
+
+#: OSProcess.cpp:158 PerfMonPage.cpp:63
+msgid "Swap"
+msgstr "Swap"
+
+#: OSProcess.cpp:161
+msgid "????"
+msgstr "????"
+
+#: OSProcess.cpp:273
+#, c-format
+msgid "Could not set new nice level for process %d"
+msgstr "Kunne ikke sætte nyt nice niveau for processen %d"
+
+#: OSProcess.cpp:287
+#, c-format
+msgid "Cound not send signal %d to process %d"
+msgstr "Kunne ikke sende signalet %d til processen %d"
+
+#: PerfMonPage.cpp:39
+msgid "CPU load"
+msgstr "CPU belastning"
+
+#: PerfMonPage.cpp:42
+msgid "CPU load history"
+msgstr "CPU belastningshistorie"
+
+#: PerfMonPage.cpp:54
+msgid "Memory usage history"
+msgstr "Hukommelsesbrug historie"
+
+#: PerfMonPage.cpp:66
+msgid "Swap history"
+msgstr "Swap historie"
+
+#: OSStatus.cpp:91
+msgid ""
+"Cannot open file '/proc/stat'!\n"
+"The kernel needs to be compiled with support\n"
+"for /proc filesystem enabled!"
+msgstr ""
+"Kan ikke åbne filen '/proc/stat'!\n"
+"Kenren skal kompileres med støtte for\n"
+"/proc filsystemet slået til!"
+
+#: OSStatus.cpp:103 OSStatus.cpp:166
+msgid ""
+"Cannot read file '/proc/stat'!\n"
+"The kernel needs to be compiled with support\n"
+"for /proc filesystem enabled!"
+msgstr ""
+"Kan ikke læse filen '/proc/stat'!\n"
+"Kenren skal kompileres med støtte for\n"
+"/proc filsystemet slået til!"
+
+#: OSStatus.cpp:119 OSStatus.cpp:221 OSStatus.cpp:247
+msgid ""
+"Cannot open file '/proc/meminfo'!\n"
+"The kernel needs to be compiled with support\n"
+"for /proc filesystem enabled!"
+msgstr ""
+"Kan ikke åbne filen '/proc/meminfo'!\n"
+"Kenren skal kompileres med støtte for\n"
+"/proc filsystemet slået til!"
+
+#: OSStatus.cpp:229
+msgid "Cannot read memory info file '/proc/meminfo'!\n"
+msgstr "Kan ikke læse hukommelsesinfofilen '/proc/meminfo'!\n"
+
+#: OSStatus.cpp:255
+msgid "Cannot read swap info from '/proc/meminfo'!\n"
+msgstr "Kan ikke læse swapinfo fra '/proc/meminfo'!\n"
+
+#: OSStatus.cpp:356 OSStatus.cpp:369 OSStatus.cpp:378 OSStatus.cpp:387
+msgid ""
+"Your system is not currently supported.\n"
+"Sorry"
+msgstr ""
+"Dit system er desværre ikke understøttet\n"
+"for øjeblikket"
+
+#: ReniceDlg.cpp:31
+msgid "Renice Process"
+msgstr "Ændr niceproces"
+
+#: ReniceDlg.cpp:37
+msgid ""
+"You are about the change the scheduling priority of\n"
+"a process. Be aware that only the Superuser (root)\n"
+"can decrease the nice level of a process. The smaller\n"
+"the number is the higher is the priority.\n"
+"\n"
+"Please enter the desired nice level:"
+msgstr ""
+"Du er ifærd med at ændre køreplanen for en\n"
+"proces. Bemærk at kun superbrugeren (root) kan\n"
+"formindske niceniveauet for en proces. Jo mindre\n"
+"tallet er, jo højere er prioriteten.\n"
+"\n"
+"Angiv venligst det ønskede nice niveau:"
