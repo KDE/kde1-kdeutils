@@ -36,6 +36,8 @@
 
 #define HAVE_MEDIATOOL 1
 
+#undef KDEMAXPATHLEN
+
 #ifndef HAVE_BOOL
 #define HAVE_BOOL
 typedef int bool;
