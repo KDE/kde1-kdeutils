@@ -62,6 +62,8 @@ KEdit::KEdit(KApplication *a, QWidget *parent, const char *name,
 
     srchdialog = NULL;
     replace_dialog= NULL;
+    file_dialog = NULL;
+    gotodialog = NULL;
 
     connect(this, SIGNAL(textChanged()), this, SLOT(setModified()));
     setContextSens();

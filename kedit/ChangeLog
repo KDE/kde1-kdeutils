@@ -1,3 +1,9 @@
+Sat Aug  2 22:55:53 1997  Bernd Johannes Wuebben  <wuebben@petit.cornell.edu>
+
+	* KEdit.cpp: various fixes
+	* kedit.cpp  fixed the 'malformed URL' bug that popped up
+	  since KURL had changed its behaviour
+
 Thu Jul 24 20:13:53 1997  Bernd Johannes Wuebben  <wuebben@petit.cornell.edu>
 
 	* kedit.cpp: made kedit work with the new libs

@@ -82,8 +82,10 @@ install: all
 	$(INSTALL_DATA) docs/k* $(DOCSDIR)
 	$(INSTALL_DIR) $(APPSDIR)/Applications
 	$(INSTALL_DATA) kedit.kdelnk $(APPSDIR)/Applications/kedit.kdelnk 
+	$(INSTALL_DIR) $(TOOLPICSDIR)
 	$(INSTALL_DATA) pixmaps/filenew2.xpm $(TOOLPICSDIR)
 	$(INSTALL_DATA) pixmaps/send.xpm $(TOOLPICSDIR)
+	$(INSTALL_DIR) $(PICSDIR)
 	$(INSTALL_DATA) kedit.xpm  $(PICSDIR)
 
 

@@ -31,6 +31,7 @@
 #include <qfile.h>
 #include <qstrlist.h> 
 #include <qpainter.h>
+#include <qdir.h>
 
 #include "kedit.h"
 #include "filldlg.h"
@@ -1089,21 +1090,36 @@ void TopLevel::openNetFile( const char *_url, int _mode )
   QString string;
   netFile = _url;
   netFile.detach();
-  KURL u( netFile.data() );
-  if ( u.isMalformed() )
+  KURL *u = new KURL( netFile.data() );
+  if ( u->isMalformed() )
     {
-	QMessageBox::message ("Sorry", "Malformed URL", "Ok");
-	return;
+        delete u; // we need to re-create the URL in order 
+	          // to perform a new check for malforming
+
+        if (netFile.data()[0] == '/'){
+	  // absolute path
+          u=new KURL( QString(QString("file:")+QString(netFile.data())) );
+	}
+        else{
+          u=new KURL( QString(QString("file:")+
+			      QDir::currentDirPath()+QString(netFile.data())) );
+	}
+        if (u->isMalformed()){
+  	  QMessageBox::message ("Sorry", "Malformed URL", "Ok");
+	  delete u;
+          return;
+	}
     }
 
     // Just a usual file ?
-    if ( strcmp( u.protocol(), "file" ) == 0 )
+    if ( strcmp( u->protocol(), "file" ) == 0 )
     {
       QString string;
-      string.sprintf("Loading '%s'",u.path() );
+      string.sprintf("Loading '%s'",u->path() );
       setGeneralStatusField(string);
-      eframe->loadFile( u.path(), _mode );
+      eframe->loadFile( u->path(), _mode );
       setGeneralStatusField("Done");
+      delete u;
       return;
     }
     
@@ -1112,7 +1128,7 @@ void TopLevel::openNetFile( const char *_url, int _mode )
 	QMessageBox::message ("Sorry", 
 			      "KEdit is already waiting\n"\
 			      "for an internet job to finish\n"\
-			      "Please wait until has finished\n"\
+			      "Please wait until has finished.\n"\
 			      "Alternatively stop the running one.", "Ok");
 	return;
     }
