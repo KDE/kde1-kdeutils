@@ -64,7 +64,7 @@ msgstr "Base"
 
 #: kcalc.cpp:1524
 msgid "KCalc Configuraton"
-msgstr ""
+msgstr "Configurazione KCalc"
 
 #: kcalc.cpp:1550
 msgid "Base type: long double\n"
@@ -77,6 +77,10 @@ msgid ""
 "recompile KCalc with 'long double' precision enabled. See the README for "
 "details."
 msgstr ""
+"A causa dia alcuni errori con le glibc, ho dovuto ridure la precisione di "
+"KCalc da 'long double' a 'double'. Chi avesse sistemi che non hanno problemi"
+" con le libc possono ricompilare KCalc con il 'long double" abilitato. "
+"Consultate  il file readme per maggiori dettagli."
 
 #: kcalc.cpp:1592
 msgid "Display Font"

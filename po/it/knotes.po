@@ -1,9 +1,3 @@
-# KTranslator Generated File
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -90,18 +84,16 @@ msgid "Auto Indent"
 msgstr "Auto Indentazione"
 
 #: docking.cpp:71
-#, fuzzy
 msgid "Change Defaults"
-msgstr "Cambia parametri di default..."
+msgstr "Cambia parametri predefiniti"
 
 #: docking.cpp:76
 msgid "Exit Knotes"
-msgstr ""
+msgstr "Esci da KNotes"
 
 #: docking.cpp:95
-#, fuzzy
 msgid "New Knote"
-msgstr "Nuova nota"
+msgstr "Nuova nota KDE"
 
 #: fontdlg.cpp:45
 msgid "Set Default Font"
@@ -151,9 +143,8 @@ msgid "Print Note"
 msgstr "Stampa Nota"
 
 #: knotes.cpp:323
-#, fuzzy
 msgid "Save Notes"
-msgstr "Nuova nota"
+msgstr "Salva Note"
 
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"
@@ -336,35 +327,3 @@ msgid ""
 msgstr ""
 "Una nota con questo nome esiste già\n"
 "per favore scegli un nome differente"
-
-#
-#~ msgid "Hide Note"
-#~ msgstr "Nascondi nota"
-
-#~ msgid "Sorry"
-#~ msgstr "Mi dispiace"
-
-#~ msgid "Change"
-#~ msgstr "Cancella"
-
-#~ msgid "Italic"
-#~ msgstr "italico"
-
-#~ msgid "Roman"
-#~ msgstr "romano"
-
-#~ msgid "Clear"
-#~ msgstr "Chiudi"
-
-#~ msgid "Options"
-#~ msgstr "Opzioni"
-
-#~ msgid ""
-#~ "Could not pipe the contents of this KNotes into:\n"
-#~ " %s"
-#~ msgstr ""
-#~ "Impossibile trasmettere il contenuto di questa Knote a:\n"
-#~ "%s"
-
-#~ msgid "You can't delete the last KNote."
-#~ msgstr "Non puoi cancellare l'ultima KNote"
