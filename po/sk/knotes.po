@@ -79,7 +79,7 @@ msgstr "Zmeni» nastavenie .."
 
 #: knotes.cpp:340
 msgid "Dock in panel"
-msgstr ""
+msgstr "Do panelu"
 
 #: knotes.cpp:368
 msgid "Insert Date"
@@ -371,11 +371,8 @@ msgstr ""
 "Zvoµte si prosím iné meno"
 
 #: docking.cpp:48
-#, fuzzy, c-format
 msgid "Could not load %s !"
-msgstr ""
-"Nemô¾em naèíta»:\n"
-" %s"
+msgstr "Nemô¾em naèíta» %s !"
 
 #: docking.cpp:68
 msgid "Change Defaults"
