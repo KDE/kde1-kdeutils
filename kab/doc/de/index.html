@@ -23,10 +23,10 @@ Ein stabiles Programm ist der Lohn der (h&auml;ufig gro&szlig;en) M&uuml;he
 der freiwilligen Tester, wof&uuml;r ich mich im voraus bedanke.&nbsp;
 <HR>
 <H1>
-Inhalt</H1>
+<A NAME="Inhalt"></A>Inhalt</H1>
 
 <H2>
-Funktions&uuml;bersicht</H2>
+<A NAME="Funktionsübersicht"></A>Funktions&uuml;bersicht</H2>
 Das Adre&szlig;buch stellt die folgenden Grundfunktionen zur Verf&uuml;gung:
 <UL>
 <LI>
@@ -38,19 +38,24 @@ Bereitstellen dieser Daten f&uuml;r andere KDE-Anwendungen,</LI>
 
 <LI>
 Starten des vom Benutzer gew&auml;hlten&nbsp; Email-Programms zum Editieren
-einer Email an die angezeigte Person und</LI>
+einer Email an die angezeigte Person,</LI>
 
 <LI>
-Importieren und Exportieren von vCards(1), dem verbreiteten Standard zum
-Austausch von Personendaten (nicht implementiert).</LI>
+Starten des vom Benutzer gew&auml;hlten Talk-Programms f&uuml;r direkte
+Kommunikation mit demjenigen welchen, und</LI>
+
+<LI>
+Anzeigen der Homepage der ausgew&auml;hlten Person &uuml;ber KDE's Browser
+kfm oder einen anderen Web-Browser.</LI>
 </UL>
-Ziel der Entwicklung war das Bereitstellen einfach zu bedienender, stabiler
+Es gibt einige weitere Details, aber das sind die Hauptfunktionen. Ziel
+der Entwicklung war das Bereitstellen einfach zu bedienender, stabiler
 Grundfunktionalit&auml;t.
 <H2>
-Erl&auml;uterung der einzelnen Funktionen</H2>
+<A NAME="Funktionen"></A>Erl&auml;uterung der einzelnen Funktionen</H2>
 
 <H3>
-Die Oberfl&auml;che</H3>
+<A NAME="Die Oberfläche"></A>Die Oberfl&auml;che</H3>
 Nach dem Start zeigt das Adre&szlig;buch ein Fenster an, dessen Hauptteil
 eine Visitenkarte abbildet. Jeder Eintrag stellt die Daten einer Person
 dar, mit den Tasten "&lt;-" und "->" kann zwischen den Eintr&auml;gen hin-
@@ -60,10 +65,11 @@ leeres Feld an.
 wenn der Mauszeiger &uuml;ber ihnen stehengelassen wird. Die Funktionen
 der Schaltfl&auml;chen sind auch &uuml;ber das Menu erreichbar.
 <BR>Die Statuszeile am Boden des Fensters zeigt die Anzahl der Eintr&auml;ge
-und die laufende Nummer des aktuellen Eintrages an.
+und die laufende Nummer des aktuellen Eintrages sowie Meldungen des Programms
+an.
 <H3>
-Der Einstieg</H3>
-Die neu angelegte Datenbank ist leer. Um die Daten einer Pereson abzulegen,
+<A NAME="Der Einstieg"></A>Der Einstieg</H3>
+Die neu angelegte Datenbank ist leer. Um die Daten einer Person abzulegen,
 mu&szlig; ein neuer Eintrag angelegt werden. Dazu klickt man auf das Feld
 mit der stilisierten Karteikarte, worauf sich ein Dialog &ouml;ffnet, in
 dem die einzelnen Daten eingetragen werden k&ouml;nnen. Die Bedeutung der
@@ -80,11 +86,13 @@ der Tastenkombination STRG und M) das KDE Email-Programm starten, welches
 Ihnen anbietet, den Text der Email einzugeben.
 <BR><I>(Hinweis: dazu ist es m&ouml;glicherweise notwendig, das Email-Kommando
 und die Email-Parameter zu setzen. Dazu editiert man (leider noch) die
-Datei $HOME/.kde/share/apps/addressbook.database mit einem Editor und ver&auml;ndert
-dort die entsprechenden Werte. Setzen Sie keine nicht notwendigen Leerzeichen,
-ver&auml;ndern Sie die Schl&uuml;ssel (links vom Gleichheitszeichen) nicht
-und beachten Sie die gro&szlig;- und Kleinschreibung. Das Schl&uuml;sselwort
-&lt;person> in den Email-Parametern wird mit der Email-Adresse ersetzt.)</I>
+<A HREF="#kab's Dateien">Adre&szlig;buch-Datendatei</A> mit einem Editor
+und ver&auml;ndert dort die entsprechenden Werte. Setzen Sie keine nicht
+notwendigen Leerzeichen, ver&auml;ndern Sie die Schl&uuml;ssel (links vom
+Gleichheitszeichen) nicht und beachten Sie die gro&szlig;- und Kleinschreibung.
+Das Schl&uuml;sselwort </I>&lt;person><I> in den Email-Parametern wird
+mit der Email-Adresse ersetzt, das Schl&uuml;sselwort </I>&lt;subject><I>
+mit einem eventuellen Thema.)</I>
 <H3>
 <A NAME="Browser aufrufen"></A>Browser aufrufen</H3>
 Ein Datensatz, der die Internet-Adresse der Homepage des betreffenden enth&auml;lt,
@@ -92,16 +100,20 @@ erm&ouml;glicht es Ihnen, durch Aktivieren des Menupunkts "Editieren->Browser
 starten" (oder der Tastenkombination STRG und B) die Seite vom Dateimanager
 anzeigen zu lassen.
 <H3>
-Eintr&auml;ge durchsuchen</H3>
-Unter dem Menupunkt "Datei->Eintr&auml;ge durchsuchen" findet sich Funktionalit&auml;t,
-um bestimmte Datenfelder der Eintr&auml;ge nach bestimmten Inhalten zu
-durchsuchen. Die Treffer werden danach vom Programm angezeigt. Geben Sie
-zum Beispiel "Meier" ein und selektieren Sie das Datenfeld "Name", um alle
-Eintr&auml;ge, deren Name "Meier" <I>enth&auml;lt</I>, herauszufinden.
-Die Suchergebnisse werden im Programmfenster angezeigt, durch Anklicken
-eines Eintrags in der Liste wird dieser dargestellt.
+<A NAME="Einträge durchsuchen"></A>Eintr&auml;ge durchsuchen</H3>
+Unter dem Menupunkt "Datei->Eintr&auml;ge durchsuchen" k&ouml;nnen Sie
+bestimmte Datenfelder der Eintr&auml;ge nach Mustern durchsuchen. Geben
+Sie zum Beispiel "Meier" ein und selektieren Sie das Datenfeld "Name",
+um alle Eintr&auml;ge, deren Name "Meier" ist, herauszufinden. Die Suchergebnisse
+werden im Programmfenster angezeigt, durch Anklicken eines Eintrags in
+der Liste wird dieser dargestellt.
+<BR>Sie k&ouml;nnen f&uuml;r die Suche Muster verwenden. Diese Muster entsprechen
+denen, die Sie (m&ouml;glicherweise) aus dem Filtern von Verzeichnisansichten
+kennen, also etwa ein Stern f&uuml;r eine beliebige Zeichenfolge. Das Suchmuster
+"*er" angewandt auf das Namensfeld findet alle Eintr&auml;ge, bei denen
+der Name auf "er" endet.
 <H2>
-Die einzelnen Datenfelder</H2>
+<A NAME="Die einzelnen Datenfelder"></A>Die einzelnen Datenfelder</H2>
 Die Anzahl der verschiedenen m&ouml;glichen Daten einer Person ist verh&auml;ltnism&auml;&szlig;ig
 gro&szlig;, gleichzeitig machen bestimmte Daten nicht bei allen Personen
 Sinn. Deshalb zeigt das Adre&szlig;buch nur die Daten im Visitenkartenfeld
@@ -130,17 +142,74 @@ und einen <I>Kommentar</I> eingeben. Zum Eingeben des Geburtstages doppelklicken
 Sie auf das Geburtstagsfeld, es erscheint ein Dialog, in dem Sie ein Datum
 ausw&auml;hlen k&ouml;nnen.
 <H2>
-Konfiguration</H2>
+<A NAME="Konfiguration"></A>Konfiguration</H2>
 Die Konfiguration ist noch nicht komfortabel implementiert. Risikofreudige
-Anwender k&ouml;nnen die Adre&szlig;buchdatenbank editieren, wodurch die
-meisten Konfigurationsm&ouml;glichkeiten bereits jetzt zur Verf&uuml;gung
-stehen, sollten die Datei vorher aber absichern. Viel Gl&uuml;ck.
+Anwender k&ouml;nnen die <A HREF="#kab's Dateien">Adre&szlig;buchdatenbank</A>
+editieren, wodurch die meisten Konfigurationsm&ouml;glichkeiten bereits
+jetzt zur Verf&uuml;gung stehen, sollten die Datei vorher aber absichern.
+Viel Gl&uuml;ck.
 <BR>Ich werde in der Zwischenzeit die grafische Konfiguration programmieren.
 <H2>
-Fehlerbehandlung</H2>
-Wenn Sie den folgenden Dialog sehen, ist ein Fehler in kab entdeckt worden.
+<A NAME="kab's Dateien"></A>kab's Dateien</H2>
+<I>kab</I> erstellt einige Dateien in Ihrem Home-Verzeichnis, die allerdings
+versteckt sind. Sie finden sie im Verzeichnis
+<UL><TT>$HOME/.kde/share/apps/kab/</TT></UL>
+Das Verzeichnis enth&auml;lt die Datei <TT>addressbook.database</TT>, welche
+wiederum die Adressen enth&auml;lt, und (insofern Sie <I>kab</I> bereits
+mindestens zum zweiten Mal gestartet haben) eine zweite Datei namens <TT>addressbook.database.backup</TT>.
+Solange Sie <I>kab</I> nutzen, k&ouml;nnen sich im Datenverzeichnis weitere
+Dateien befinden, die <I>kab</I> zum Betrieb ben&ouml;tigt.
+<H2>
+<A NAME="Das Backup-File"></A>Das Backup-File</H2>
+<I>kab</I> erstellt bei jedem Start eine Kopie Ihrer Adre&szlig;buch-Datei
+in seinem (versteckten) <A HREF="#kab's Dateien">Datenverzeichnis</A>.
+Diese Datei enth&auml;lt den Stand Ihres Adre&szlig;buchs, den kab <I>beim
+letzten Start des Programms</I> vorgefunden hat. Wenn Sie <I>kab</I> jetzt
+im Augenblick gestartet haben, enth&auml;lt die Datei den Stand beim Start
+des jetzt laufenden Prozesses.
+<BR>Sollten Sie aufgrund eines Programmabsturzes oder einer "gewaltsamen"
+Beendigung des Programms nach dem <A HREF="#Fehlerbehandlung">Abfangen
+eines Fehlers</A> bef&uuml;rchten, da&szlig; Ihre Adre&szlig;buch-Datenbank
+besch&auml;digt wurde, kopieren Sie Sich die Backup-Datei an einen sicheren
+(anderen!) Ort, <I>bevor (!) Sie </I>kab<I> ein weiteres Mal starten</I>
+(zum Kopieren &ouml;ffnen Sie kab's Datenverzeichnis mit dem KDE Dateimanager
+und ziehen die Backup-Datei auf den Desktop. Best&auml;tigen Sie mit "Kopieren".)
+Ist Ihre Datei tats&auml;chlich besch&auml;digt worden, &uuml;berschreiben
+Sie die Adre&szlig;buch-Datei mit Ihrer Kopie des Backups.
+<H2>
+<A NAME="Fehlerbehandlung"></A>Fehlerbehandlung</H2>
+Wenn Sie den folgenden Dialog sehen, ist ein Fehler in <I>kab</I> entdeckt
+worden.
+<CENTER><IMG SRC="fehler.gif" ALT="(Fehler-Anzeige)" NOSAVE HEIGHT=213 WIDTH=413 ALIGN=RIGHT></CENTER>
 Sie haben nun drei M&ouml;glichkeiten, darauf zu reagieren:
-<BR>&nbsp;
+<OL>
+<LI>
+Sie ignorieren den Fehler. <I>kab</I> f&auml;ngt viele Fehler ab, die nicht
+wirklich kritisch sind. Trotzdem ist es m&ouml;glich (und auch recht wahrscheinlich),
+da&szlig; der Fehler kritisch ist. In diesem Fall wird das Programm Fehler
+begehen, die Ihre Daten gef&auml;hrden k&ouml;nnen. Speichern Sie also
+nach einer Fehlermeldung ab und beenden Sie <I>kab</I>. Nach einem Neustart
+k&ouml;nnten Ihre Daten noch vorhanden sein (sollte Ihnen ein solcher Fehler
+das erste Mal auffallen, lesen Sie in jedem Fall den Abschnitt <A HREF="#Das Backup-File">Das
+Backup-File</A>).</LI>
+
+<LI>
+Sie beenden da&szlig; Programm (was hier auf eine recht rigide Weise erfolgt).
+Alle &Auml;nderungen, die Sie eingegeben haben und die noch nicht abgespeichert
+wurden, sind unwiederbringlich verloren. Nun, nicht ganz unwiederbringlich,
+siehe Abschnitt <A HREF="#Das Backup-File">Das Backup-File</A>.</LI>
+
+<LI>
+Sie senden eine Email an den <A HREF="mailto:mirko@kde.org">Autor</A> des
+Programs. Diese Funktion sollten Sie nur nutzen, wenn dieser (genau dieser)
+Fehler bei Ihnen zum ersten Mal auftritt. Das Programm wird selbst&auml;ndig
+einige Informationen &uuml;ber den Fehler hinzuf&uuml;gen. Details &uuml;ber
+Ihren Rechner werden nicht ausspioniert, versprochen.</LI>
+</OL>
+Das Versenden einer Email kann fehlschlagen, wenn kab bereits zu sehr durcheinandergeraten
+ist. In diesem Fall k&ouml;nnen Sie Sich die kryptischen Angaben notieren,
+die im Fehlerfenster angezeigt werden und mit Ihrem Lieblingsmailprogramm
+an den Autor versenden.
 <H2>
 Technischer Anhang</H2>
 Sp&auml;ter.
@@ -154,7 +223,7 @@ AT&amp;T, IBM und Siemens.</LI>
 
 <HR WIDTH="100%">
 <ADDRESS>
-<A HREF="mailto:mirko.sucker@hamburg.netsurf.de">Mirko Sucker</A></ADDRESS>
+<A HREF="mailto:mirko@kde.org">Mirko Sucker</A></ADDRESS>
 
 <BR><!-- Created: Wed Feb  4 20:39:53 MET 1998 --><!-- hhmts start -->Last
 modified: Wed Feb 4 20:52:25 MET 1998&nbsp;<!-- hhmts end -->
