@@ -91,7 +91,7 @@ msgstr "Ú&loha"
 
 #: top.cpp:61
 msgid "&New"
-msgstr ""
+msgstr "&Nový"
 
 #: top.cpp:74
 msgid "&About"

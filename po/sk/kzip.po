@@ -55,7 +55,7 @@ msgstr "Maska"
 
 #: kzip.cc:70
 msgid "&New..."
-msgstr ""
+msgstr "&Nový..."
 
 #: kzip.cc:73
 msgid "&Extract To..."

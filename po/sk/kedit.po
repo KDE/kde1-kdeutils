@@ -144,7 +144,7 @@ msgstr "Odosla» dokument po¹tou"
 #: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:697
 #: keditcl2.cpp:804
 msgid "Done"
-msgstr ""
+msgstr "Hotovo"
 
 #: kedit.cpp:606
 msgid "Open Location:"
@@ -485,13 +485,12 @@ msgid "Set Fill-Column at:"
 msgstr "Nastavi» ¹írku na:"
 
 #: filldlg.cpp:40
-#, fuzzy
 msgid "Word Wrap"
 msgstr "Lámanie riadkov"
 
 #: filldlg.cpp:42
 msgid "Backup Copies"
-msgstr ""
+msgstr "Zálo¾né kópie"
 
 #: filldlg.cpp:46
 msgid "Mail Command:"
