@@ -1,4 +1,5 @@
 Makefile
+Makefile.in
 adddata.o
 adddlg.o
 karm
