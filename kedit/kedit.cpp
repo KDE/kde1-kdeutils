@@ -1628,7 +1628,9 @@ void TopLevel::readSettings(){
 
        	config->setGroup( "Text Font" );
 
-	str = config->readEntry( "Family" );
+	generalFont = config->readFontEntry("KEditFont",&generalFont);
+
+	/*	str = config->readEntry( "Family" );
 	if ( !str.isNull() )
 		generalFont.setFamily(str.data());
 		
@@ -1647,7 +1649,7 @@ void TopLevel::readSettings(){
 		if ( !str.isNull() )
 			if ( atoi(str.data()) != 0 )
 				generalFont.setItalic(TRUE);
-	
+				*/
 	///////////////////////////////////////////////////
 
 	config->setGroup("Recently_Opened_Files");
@@ -1772,6 +1774,9 @@ void TopLevel::writeSettings(){
 
 	config->setGroup( "Text Font" );
 
+	config->writeEntry("KEditFont",generalFont);
+
+	/*
 	config->writeEntry("Family", generalFont.family());
 	
 	QString pointSizeStr;
@@ -1785,7 +1790,7 @@ void TopLevel::writeSettings(){
 	QString italicStr;
 	italicStr.sprintf("%d", (int)generalFont.italic() );
 	config->writeEntry("Italic", italicStr);
-
+	*/
 	////////////////////////////////////////////////////
 
 	config->setGroup("Recently_Opened_Files");
