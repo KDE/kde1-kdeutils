@@ -6,65 +6,160 @@ msgstr ""
 "Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 
-msgid "3D Frame"
-msgstr "3D 外框"
-
-msgid "3d Frame"
-msgstr "3D 外框"
-
-msgid ""
-"A KNotes note with this name already exists\n"
-"Please choose a different name"
-msgstr ""
-"存在相同名字的 note \n"
-"请选另一个不同的名字"
-
-msgid "Alarm ..."
-msgstr "闹钟 ..."
-
+#: alarm.cpp:58
 msgid "Alarm Timer for: %s"
 msgstr "闹钟定时器: %s"
 
-msgid ""
-"Are you sure you want to delete this\n"
-"note permanently?"
-msgstr "确定要永久的删除这份 Note?"
+#: alarm.cpp:72
+msgid "Unset"
+msgstr "解除"
 
-msgid "Auto Indent"
-msgstr "自动缩进"
+#: alarm.cpp:74
+msgid "Set"
+msgstr "设定"
 
-msgid "Background Color..."
-msgstr "背景颜色..."
+#: alarm.cpp:153
+msgid "I am afraid you already missed your appointment."
+msgstr "恐怕您已经错过您的约会了."
 
+#: bwdatetime.cpp:44
+msgid "Day:"
+msgstr "日期:"
+
+#: bwdatetime.cpp:50
+msgid "Month:"
+msgstr "月份:"
+
+#: bwdatetime.cpp:57
+msgid "Year:"
+msgstr "年份:"
+
+#: bwdatetime.cpp:72
+msgid "Time:"
+msgstr "时间:"
+
+#: bwdatetime.cpp:161
+msgid "The Time you selected is invalid"
+msgstr "您选择的时间是无效的."
+
+#: bwdatetime.cpp:176
+msgid "The Date you selected is invalid"
+msgstr "您选择的日期是无效的."
+
+#: configdlg.cpp:50
+msgid "Text Color:"
+msgstr "文字颜色:"
+
+#: configdlg.cpp:64
 msgid "Background Color:"
 msgstr "背景颜色:"
 
+#: configdlg.cpp:83
+msgid "Width:"
+msgstr "宽度:"
+
+#: configdlg.cpp:93
+msgid "Height:"
+msgstr "高度:"
+
+#: configdlg.cpp:104
+msgid "Print Command:"
+msgstr "打印命令:"
+
+#: configdlg.cpp:112
+msgid "Mail Command:"
+msgstr "邮寄命令"
+
+#: configdlg.cpp:124
+msgid "3d Frame"
+msgstr "3D 外框"
+
+#: configdlg.cpp:129 knotes.cpp:295
+msgid "Auto Indent"
+msgstr "自动缩进"
+
+#: fontdlg.cpp:45
+msgid "Set Default Font"
+msgstr "设定缺省字体"
+
+#: fontdlg.cpp:64
+msgid "Point Size:"
+msgstr ""
+
+#: knotes.cpp:268
+msgid "Text Color..."
+msgstr "文字颜色..."
+
+#: knotes.cpp:269
+msgid "Background Color..."
+msgstr "背景颜色..."
+
+#: knotes.cpp:275
+msgid "New Note"
+msgstr "新的 Note"
+
+#: knotes.cpp:277
+msgid "Delete Note"
+msgstr "删除 Note"
+
+#: knotes.cpp:279
+msgid "Rename Note..."
+msgstr "重新命名 Note ..."
+
+#: knotes.cpp:281
+msgid "Alarm ..."
+msgstr "闹钟 ..."
+
+#: knotes.cpp:284
 msgid "Calendar"
 msgstr "日历"
 
-msgid "Change Defaults ..."
-msgstr "改变缺省值 ..."
+#: knotes.cpp:286
+msgid "Mail Note ..."
+msgstr "邮寄 Note ..."
 
+#: knotes.cpp:288
+msgid "Print Note"
+msgstr "打印 Note"
+
+#: knotes.cpp:294 knotes.cpp:365
+msgid "3D Frame"
+msgstr "3D 外框"
+
+#: knotes.cpp:297
+msgid "Font..."
+msgstr "字体..."
+
+#: knotes.cpp:298
 msgid "Colors"
 msgstr "颜色"
 
-msgid ""
-"Could not load:\n"
-" %s"
-msgstr ""
-"无法载入:\n"
-" %s"
+#: knotes.cpp:300
+msgid "Change Defaults ..."
+msgstr "改变缺省值 ..."
 
-msgid ""
-"Could not pipe the contents of this KNote into:\n"
-" %s"
-msgstr ""
-"无法将这个 KNote 的内容经由管道输出至:\n"
-" %s"
+#: knotes.cpp:326
+msgid "Hide Note"
+msgstr "隐藏 Note"
 
-msgid "Could not save KNote Alarms\n"
-msgstr "无法保存 KNote 闹钟\n"
+#: knotes.cpp:328
+msgid "Insert Date"
+msgstr "插入日期"
 
+#: knotes.cpp:331
+msgid "Operations"
+msgstr "操作"
+
+#: knotes.cpp:369
+msgid "No Frame"
+msgstr "没有外框"
+
+#: knotes.cpp:402 knotes.cpp:406 knotes.cpp:600 knotes.cpp:810 knotes.cpp:814
+#: timer.cpp:87 timer.cpp:110
+msgid "Note: "
+msgstr "Note: "
+
+#: knotes.cpp:459
 msgid ""
 "Could not save a KNote.\n"
 "Quit anyways?"
@@ -72,6 +167,67 @@ msgstr ""
 "无法保存 KNote.\n"
 "直接离开?"
 
+#: knotes.cpp:477
+msgid "Could not save KNote Alarms\n"
+msgstr "无法保存 KNote 闹钟\n"
+
+#: knotes.cpp:538 knotes.cpp:631
+msgid ""
+"Could not pipe the contents of this KNote into:\n"
+" %s"
+msgstr ""
+"无法将这个 KNote 的内容经由管道输出至:\n"
+" %s"
+
+#: knotes.cpp:687
+msgid ""
+"You have exeeded the arbitrary and unjustly set limit of 50 knotes.\n"
+" Please complain to the author."
+msgstr ""
+
+#: knotes.cpp:847
+msgid "Question"
+msgstr "问题"
+
+#: knotes.cpp:848
+msgid ""
+"Are you sure you want to delete this\n"
+"note permanently?"
+msgstr "确定要永久的删除这份 Note?"
+
+#: knotes.cpp:1020
+msgid ""
+"Could not load:\n"
+" %s"
+msgstr ""
+"无法载入:\n"
+" %s"
+
+#: knotes.cpp:1255
+msgid "KNotes Configuraton"
+msgstr "KNotes 配置"
+
+#: knotes.cpp:1308
+msgid "Defaults"
+msgstr "缺省"
+
+#: knotes.cpp:1309
+msgid "More ..."
+msgstr "更多 ..."
+
+#: knotes.cpp:1456
+msgid ""
+"KNotes is already waiting\n"
+"for an internet job to finish\n"
+"Please wait until it has finished\n"
+"Alternatively stop the running one."
+msgstr ""
+
+#: knotes.cpp:1470
+msgid "Could not start or find KFM"
+msgstr "无法运行或找不到 KFM"
+
+#: knotes.cpp:1492
 msgid ""
 "Could not save the KNotes.\n"
 "Close anyways?"
@@ -79,102 +235,46 @@ msgstr ""
 "无法保存此份 KNotes.\n"
 "直接关闭?"
 
-msgid "Could not start or find KFM"
-msgstr "无法运行或找不到 KFM"
+#: knotes.cpp:1604
+msgid ""
+"Found an alarm to which the underlying\n"
+"KNotes file:\n"
+"%s\n"
+" no longer exists.\n"
+"\n"
+"I will correct the Problem for you."
+msgstr ""
 
-msgid "Day:"
-msgstr "日期:"
-
-msgid "Defaults"
-msgstr "缺省"
-
-msgid "Delete Note"
-msgstr "删除 Note"
-
-msgid "Font..."
-msgstr "字体..."
-
-msgid "Height:"
-msgstr "高度:"
-
-msgid "Hide Note"
-msgstr "隐藏 Note"
-
-msgid "I am afraid you already missed your appointment."
-msgstr "恐怕您已经错过您的约会了."
-
+#: knotes.cpp:1612
 msgid "Inconsistency"
 msgstr "不一致"
 
-msgid "Insert Date"
-msgstr "插入日期"
-
-msgid "KNotes Configuraton"
-msgstr "KNotes 配置"
-
-msgid "Mail Command:"
-msgstr "邮寄命令"
-
-msgid "Mail Note ..."
+#: mail.cpp:40
+#, fuzzy
+msgid "Mail Note to:"
 msgstr "邮寄 Note ..."
 
-msgid "Month:"
-msgstr "月份:"
-
-msgid "More ..."
-msgstr "更多 ..."
-
-msgid "New Note"
-msgstr "新的 Note"
-
-msgid "No Frame"
-msgstr "没有外框"
-
-msgid "Note: "
-msgstr "Note: "
-
-msgid "Operations"
-msgstr "操作"
-
-msgid "Print Command:"
-msgstr "打印命令:"
-
-msgid "Print Note"
-msgstr "打印 Note"
-
-msgid "Question"
-msgstr "问题"
-
-msgid "Rename"
-msgstr "更改文件名"
-
-msgid "Rename Note..."
-msgstr "重新命名 Note ..."
-
-msgid "Rename this note to"
-msgstr "重新命名 note 到"
-
-msgid "Set"
-msgstr "设定"
-
-msgid "Set Default Font"
-msgstr "设定缺省字体"
-
+#: mail.cpp:49
 msgid "Subject:"
 msgstr "标题:"
 
-msgid "Text Color..."
-msgstr "文字颜色..."
+#: mail.cpp:51
+msgid "Mail"
+msgstr ""
 
-msgid "Text Color:"
-msgstr "文字颜色:"
+#: mail.cpp:92
+msgid "You must specify a Recipient"
+msgstr "必须指定收件人"
 
-msgid "The Date you selected is invalid"
-msgstr "您选择的日期是无效的."
+#: renamedlg.cpp:39
+msgid "Rename this note to"
+msgstr "重新命名 note 到"
 
-msgid "The Time you selected is invalid"
-msgstr "您选择的时间是无效的."
+#: renamedlg.cpp:44
+msgid "Rename"
+msgstr "更改文件名"
 
+#: renamedlg.cpp:79
 msgid ""
 "The name \"xyalarms\" is reserved for internal usage.\n"
 "Please choose a different name"
@@ -182,17 +282,10 @@ msgstr ""
 "\"xyalarms\" 已经被保留给内部使用.\n"
 "请选另一个不同的名字"
 
-msgid "Time:"
-msgstr "时间:"
-
-msgid "Unset"
-msgstr "解除"
-
-msgid "Width:"
-msgstr "宽度:"
-
-msgid "Year:"
-msgstr "年份:"
-
-msgid "You must specify a Recipient"
-msgstr "必须指定收件人"
+#: renamedlg.cpp:92
+msgid ""
+"A KNotes note with this name already exists\n"
+"Please choose a different name"
+msgstr ""
+"存在相同名字的 note \n"
+"请选另一个不同的名字"

@@ -6,30 +6,50 @@ msgstr ""
 "Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 
-msgid "&Toggle Toolbar"
-msgstr "切换工具条[&T]"
-
-msgid "Could not start KFM"
-msgstr "不能运行 KFM"
-
+#: hexdata.cpp:33
 msgid "Error opening %s"
 msgstr "打开 %s 时发生错误"
 
-msgid "Hex Editor"
-msgstr "十六进制编辑器(Hex Editor)"
-
-msgid "New Window"
-msgstr "新窗口"
-
-msgid "Not implemented"
-msgstr "尚未实现"
-
+#: hexwidget.cpp:79
 msgid "Save &As..."
 msgstr "另存新文件[&A]..."
 
+#: hexwidget.cpp:90
+msgid "&Toggle Toolbar"
+msgstr "切换工具条[&T]"
+
+#: hexwidget.cpp:93
+msgid "Hex Editor"
+msgstr "十六进制编辑器(Hex Editor)"
+
+#: hexwidget.cpp:95
+msgid ""
+"\n"
+"\n"
+"by Stephan Kulow"
+msgstr ""
+
+#: hexwidget.cpp:118
+msgid "New Window"
+msgstr "新窗口"
+
+#: hexwidget.cpp:122
 msgid "Save the file"
 msgstr "保存此文件"
 
+#: hexwidget.cpp:125 hexwidget.cpp:127 hexwidget.cpp:129 hexwidget.cpp:132
+msgid "Not implemented"
+msgstr "尚未实现"
+
+#: hexwidget.cpp:163
+msgid ""
+"The current file has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"当前的文件已经被修改.\n"
+"要保存吗?"
+
+#: hexwidget.cpp:189
 msgid ""
 "The current file has been modified.\n"
 "Discard your changes?"
@@ -37,9 +57,15 @@ msgstr ""
 "当前的文件已经被修改.\n"
 "放弃修改?"
 
+#: hexwidget.cpp:270
 msgid ""
-"The current file has been modified.\n"
-"Do you want to save it?"
+"KHexdit is already waiting\n"
+"for an internet job to finish\n"
+"\n"
+"Wait until this one is finished\n"
+"or stop the running one."
 msgstr ""
-"当前的文件已经被修改.\n"
-"要保存吗?"
+
+#: hexwidget.cpp:278
+msgid "Could not start KFM"
+msgstr "不能运行 KFM"

@@ -6,61 +6,151 @@ msgstr ""
 "Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 
+#: kedit.cpp:83 kedit.cpp:1019
+msgid "Show &Tool Bar"
+msgstr "显示工具条[&T]"
+
+#: kedit.cpp:85 kedit.cpp:1012
+msgid "Hide &Tool Bar"
+msgstr "隐藏工具条[&T]"
+
+#: kedit.cpp:88 kedit.cpp:999
+msgid "Show &Status Bar"
+msgstr "显示状态行[&S]"
+
+#: kedit.cpp:90 kedit.cpp:992
+msgid "Hide &Status Bar"
+msgstr "隐藏状态行[&S]"
+
+#: kedit.cpp:152
+msgid "Select All"
+msgstr "选择全部"
+
+#: kedit.cpp:183
 msgid "&About..."
 msgstr "有关[&A]..."
 
-msgid "&Find..."
-msgstr "寻找...[&F]"
+#: kedit.cpp:187
+msgid "Ne&w..."
+msgstr "新文件...[&N]"
 
-msgid "&Font"
-msgstr "字体[&F]"
+#: kedit.cpp:192
+msgid "Open Recen&t..."
+msgstr "打开最近的文件...[&T]"
 
-msgid "&Goto Line..."
-msgstr "跳至行数...[&G]"
+#: kedit.cpp:204
+msgid "Open &URL..."
+msgstr "打开 &URL"
 
-msgid "&Insert File"
-msgstr "插入文件[&I]"
+#: kedit.cpp:206
+msgid "Save to U&RL..."
+msgstr "保存到 U&RL"
 
+#: kedit.cpp:212
 msgid "&Mail..."
 msgstr "邮件[&M]"
 
-msgid "&Replace"
-msgstr "替换[&R]"
+#: kedit.cpp:216
+msgid "New &Window"
+msgstr "新窗口 [&W]"
 
+#: kedit.cpp:228
 msgid "&Select All"
 msgstr "选择全部[&S]"
 
-msgid "&Status Bar"
-msgstr "状态行[&S]"
+#: kedit.cpp:231
+msgid "&Insert File"
+msgstr "插入文件[&I]"
 
-msgid "&Tool Bar"
-msgstr "工具条[&T]"
+#: kedit.cpp:233
+msgid "Insert &Date"
+msgstr "插入日期[&D]"
 
-msgid "Auto &Indent"
-msgstr "自动缩进[&I]"
+#: kedit.cpp:236
+msgid "&Find..."
+msgstr "寻找...[&F]"
 
-msgid "Auto Indent Mode: Off"
-msgstr "自动缩进模式: 关闭"
+#: kedit.cpp:238
+msgid "Find &Again"
+msgstr "再寻找[&A]"
 
-msgid "Auto Indent Mode: On"
-msgstr "自动缩进模式: 打开"
+#: kedit.cpp:240
+msgid "&Replace"
+msgstr "替换[&R]"
 
-msgid "Calling KFM"
-msgstr "正在调用 KFM"
+#: kedit.cpp:243
+msgid "&Goto Line..."
+msgstr "跳至行数...[&G]"
 
-msgid ""
-"Can not create:\n"
-"%s"
-msgstr ""
-"无法建立:\n"
-"%s"
+#: kedit.cpp:247
+msgid "&Font"
+msgstr "字体[&F]"
 
+#: kedit.cpp:249
 msgid "Colors"
 msgstr "颜色"
 
-msgid "Connected"
-msgstr "连接上"
+#: kedit.cpp:251
+msgid "KEdit &Options..."
+msgstr "KEdit 选项[&O]"
 
+#: kedit.cpp:253
+msgid "Auto &Indent"
+msgstr "自动缩进[&I]"
+
+#: kedit.cpp:256
+msgid "&Tool Bar"
+msgstr "工具条[&T]"
+
+#: kedit.cpp:258
+msgid "&Status Bar"
+msgstr "状态行[&S]"
+
+#: kedit.cpp:261
+msgid "Save Options"
+msgstr "保存选项"
+
+#: kedit.cpp:289
+msgid "New Document"
+msgstr "新文件"
+
+#: kedit.cpp:295
+msgid "Open Document"
+msgstr "打开文件"
+
+#: kedit.cpp:300
+msgid "Save Document"
+msgstr "保存文件"
+
+#: kedit.cpp:325 print.cpp:88
+msgid "Print Document"
+msgstr "打印文件"
+
+#: kedit.cpp:330
+msgid "Mail Document"
+msgstr "邮件文件"
+
+#: kedit.cpp:534
+msgid "Open Location:"
+msgstr "打开位置:"
+
+#: kedit.cpp:548
+msgid "Save to Location:"
+msgstr "保存到位置:"
+
+#: kedit.cpp:574 kedit.cpp:637 kedit.cpp:666 kedit.cpp:729 kedit.cpp:1123
+msgid "Message"
+msgstr "消息"
+
+#: kedit.cpp:575 kedit.cpp:730
+msgid ""
+"This Document has been modified.\n"
+"Would you like to save it?"
+msgstr ""
+"当前的文件被修改过.\n"
+"要保存吗?"
+
+#: kedit.cpp:592 kedit.cpp:747
 msgid ""
 "Could not save the file.\n"
 "Exit anyways?"
@@ -68,174 +158,7 @@ msgstr ""
 "不能保存这份文件.\n"
 "直接结束吗?"
 
-msgid ""
-"Could not save the file.\n"
-"Print anyways?"
-msgstr ""
-"不能保存此文件.\n"
-"直接打印?"
-
-msgid "Could not start or find KFM"
-msgstr "无法运行或找不到 KFM"
-
-msgid "Find &Again"
-msgstr "再寻找[&A]"
-
-msgid "Finished '%s'"
-msgstr "结束 '%s'"
-
-msgid "Hide &Status Bar"
-msgstr "隐藏状态行[&S]"
-
-msgid "Hide &Tool Bar"
-msgstr "隐藏工具条[&T]"
-
-msgid "Insert &Date"
-msgstr "插入日期[&D]"
-
-msgid "KEdit &Options..."
-msgstr "KEdit 选项[&O]"
-
-msgid "KEdit Options"
-msgstr "KEdit 选项"
-
-msgid "Line: %d Col: %d"
-msgstr "行数: %d 列数: %d"
-
-msgid "Load Command Done"
-msgstr "载入命令完毕 "
-
-msgid "Loading '%s'"
-msgstr "正在载入'%s'"
-
-msgid "Loading ..."
-msgstr "正在载入..."
-
-msgid "Mail Command:"
-msgstr "邮寄命令"
-
-msgid "Mail Document"
-msgstr "邮件文件"
-
-msgid "Mail Document to:"
-msgstr "邮寄文件至:"
-
-msgid ""
-"Malformed URL\n"
-"%s"
-msgstr ""
-"不正确的 URL\n"
-"%s"
-
-msgid "Message"
-msgstr "消息"
-
-msgid "Ne&w..."
-msgstr "新文件...[&N]"
-
-msgid "New &Window"
-msgstr "新窗口 [&W]"
-
-msgid "New Document"
-msgstr "新文件"
-
-msgid "New Window"
-msgstr "新窗口"
-
-msgid "New Window Created"
-msgstr "建立新窗口"
-
-msgid "No changes need to be saved"
-msgstr "没有修改需要保存"
-
-msgid "Open &URL..."
-msgstr "打开 &URL"
-
-msgid "Open Document"
-msgstr "打开文件"
-
-msgid "Open Location:"
-msgstr "打开位置:"
-
-msgid "Open Recen&t..."
-msgstr "打开最近的文件...[&T]"
-
-msgid "Print Dialog"
-msgstr "打印对话框"
-
-msgid "Print Document"
-msgstr "打印文件"
-
-msgid "Print Selection"
-msgstr "打印选择"
-
-msgid "Print directly using lpr"
-msgstr "直接使用 lpr 打印"
-
-msgid "Print using Command:"
-msgstr "使用命令打印:"
-
-msgid "Printing: %s"
-msgstr "正在打印: %s"
-
-msgid "Printing: %s %s (Selection)"
-msgstr "正在打印: %s %s (选定)"
-
-msgid "Printing: %s Untitled"
-msgstr "正在打印: %s 未命名"
-
-msgid "Printing: %s Untitled (Selection)"
-msgstr "正在打印: %s 未命名 (选定)"
-
-msgid "Save Document"
-msgstr "保存文件"
-
-msgid "Save Options"
-msgstr "保存选项"
-
-msgid "Save to Location:"
-msgstr "保存到位置:"
-
-msgid "Save to U&RL..."
-msgstr "保存到 U&RL"
-
-msgid "Saved as: %s"
-msgstr "保存成: %s"
-
-msgid "Saving ..."
-msgstr "保存中..."
-
-msgid "Select All"
-msgstr "选择全部"
-
-msgid "Show &Status Bar"
-msgstr "显示状态行[&S]"
-
-msgid "Show &Tool Bar"
-msgstr "显示工具条[&T]"
-
-msgid "Starting Job"
-msgstr "开始任务中"
-
-msgid "Subject:"
-msgstr "标题:"
-
-msgid ""
-"The current document has been modified.\n"
-"Continue anyways ?"
-msgstr ""
-"当前的文件已经被修改.\n"
-"要继续吗 ?"
-
-msgid ""
-"The current document has been modified.\n"
-"Would you like to save the changes before \n"
-"printing this Document?"
-msgstr ""
-"当前的文件已经被修改.\n"
-"在打印这份文件之前,\n"
-"要保存修改吗?"
-
+#: kedit.cpp:638
 msgid ""
 "There are windows with modified content open.\n"
 "If you exit now, you will loose those changes\n"
@@ -245,24 +168,211 @@ msgstr ""
 "如果现在退出, 将会丢失这些修改\n"
 "直接离开?"
 
+#: kedit.cpp:667
 msgid ""
-"This Document has been modified.\n"
-"Would you like to save it?"
+"The current document has been modified.\n"
+"Continue anyways ?"
 msgstr ""
-"当前的文件被修改过.\n"
-"要保存吗?"
+"当前的文件已经被修改.\n"
+"要继续吗 ?"
 
-msgid "Waiting..."
-msgstr "等待中..."
-
-msgid "Word Warp"
-msgstr "字回绕"
-
+#: kedit.cpp:808
+#, c-format
 msgid "Wrote: %s"
 msgstr "写入: %s"
 
+#: kedit.cpp:814
+msgid "No changes need to be saved"
+msgstr "没有修改需要保存"
+
+#: kedit.cpp:833
+#, c-format
+msgid "Saved as: %s"
+msgstr "保存成: %s"
+
+#: kedit.cpp:866
+#, c-format
+msgid ""
+"Could not pipe the contentsof this Document into:\n"
+" %s"
+msgstr ""
+
+#: kedit.cpp:960
+msgid "Auto Indent Mode: On"
+msgstr "自动缩进模式: 打开"
+
+#: kedit.cpp:962
+msgid "Auto Indent Mode: Off"
+msgstr "自动缩进模式: 关闭"
+
+#: kedit.cpp:1058
+#, c-format
+msgid "Line: %d Col: %d"
+msgstr "行数: %d 列数: %d"
+
+#: kedit.cpp:1124
+msgid ""
+"The current document has been modified.\n"
+"Would you like to save the changes before \n"
+"printing this Document?"
+msgstr ""
+"当前的文件已经被修改.\n"
+"在打印这份文件之前,\n"
+"要保存修改吗?"
+
+#: kedit.cpp:1142
+msgid ""
+"Could not save the file.\n"
+"Print anyways?"
+msgstr ""
+"不能保存此文件.\n"
+"直接打印?"
+
+#: kedit.cpp:1235
+#, c-format
+msgid "Printing: %s Untitled (Selection)"
+msgstr "正在打印: %s 未命名 (选定)"
+
+#: kedit.cpp:1238
+#, c-format
+msgid "Printing: %s Untitled"
+msgstr "正在打印: %s 未命名"
+
+#: kedit.cpp:1276
+#, c-format
+msgid "Printing: %s"
+msgstr "正在打印: %s"
+
+#: kedit.cpp:1286
+#, c-format
+msgid "Printing: %s %s (Selection)"
+msgstr "正在打印: %s %s (选定)"
+
+#: kedit.cpp:1310
+msgid "Saving ..."
+msgstr "保存中..."
+
+#: kedit.cpp:1317
+msgid "Loading ..."
+msgstr "正在载入..."
+
+#: kedit.cpp:1351 kedit.cpp:1444
+msgid ""
+"KEdit is already waiting\n"
+"for an internet job to finish\n"
+"Please wait until has finished\n"
+"Alternatively stop the running one."
+msgstr ""
+
+#: kedit.cpp:1368 kedit.cpp:1463
+msgid "Could not start or find KFM"
+msgstr "无法运行或找不到 KFM"
+
+#: kedit.cpp:1410
+#, c-format
+msgid ""
+"Malformed URL\n"
+"%s"
+msgstr ""
+"不正确的 URL\n"
+"%s"
+
+#: kedit.cpp:1430
+#, c-format
+msgid "Loading '%s'"
+msgstr "正在载入'%s'"
+
+#: kedit.cpp:1454
+msgid "Calling KFM"
+msgstr "正在调用 KFM"
+
+#: kedit.cpp:1473
+msgid "Starting Job"
+msgstr "开始任务中"
+
+#: kedit.cpp:1476
+msgid "Connected"
+msgstr "连接上"
+
+#: kedit.cpp:1478
+msgid "Waiting..."
+msgstr "等待中..."
+
+#: kedit.cpp:1486
+#, c-format
+msgid "Finished '%s'"
+msgstr "结束 '%s'"
+
+#: kedit.cpp:1527
+msgid "New Window"
+msgstr "新窗口"
+
+#: kedit.cpp:1531
+msgid "New Window Created"
+msgstr "建立新窗口"
+
+#: kedit.cpp:1537
+msgid "Load Command Done"
+msgstr "载入命令完毕 "
+
+#: kedit.cpp:1949
+#, c-format
+msgid ""
+"Can not create:\n"
+"%s"
+msgstr ""
+"无法建立:\n"
+"%s"
+
+#: print.cpp:66
+msgid "Print Dialog"
+msgstr "打印对话框"
+
+#: print.cpp:70
+msgid "Print directly using lpr"
+msgstr "直接使用 lpr 打印"
+
+#: print.cpp:75
+msgid "Print using Command:"
+msgstr "使用命令打印:"
+
+#: print.cpp:93
+msgid "Print Selection"
+msgstr "打印选择"
+
+#: filldlg.cpp:31
+msgid "KEdit Options"
+msgstr "KEdit 选项"
+
+#: filldlg.cpp:36
+msgid "Set Fill-Column at:"
+msgstr ""
+
+#: filldlg.cpp:40
+msgid "Word Warp"
+msgstr "字回绕"
+
+#: filldlg.cpp:44
+msgid "Mail Command:"
+msgstr "邮寄命令"
+
+#: filldlg.cpp:135
 msgid "You must enter an integer."
 msgstr "必须输入一个整数 "
 
+#: mail.cpp:37
+msgid "Mail Document to:"
+msgstr "邮寄文件至:"
+
+#: mail.cpp:55
+msgid "Subject:"
+msgstr "标题:"
+
+#: mail.cpp:57
+#, fuzzy
+msgid "Mail"
+msgstr "邮件[&M]"
+
+#: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "必须指定收件人"
