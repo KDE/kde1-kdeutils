@@ -178,7 +178,7 @@ msgstr "Det finnes åpne vindu med endret innhold.\n"
 msgid ""
 "The current document has been modified.\n"
 "Continue anyways ?"
-msgstr "Dokument i bruk er endret.\"
+msgstr "Dokument i bruk er endret.\n"
 "Fortsette likevel ?"
 
 #: kedit.cpp:808
@@ -200,7 +200,7 @@ msgstr "Lagre som: %s"
 msgid ""
 "Could not pipe the contentsof this Document into:\n"
 " %s"
-msgstr "Kunne ikke overføre ("pipe") innholdet av dette dokument inn i:\n"
+msgstr "Kunne ikke overføre (\"pipe\") innholdet av dette dokument inn i:\n"
 " %s"
 
 #: kedit.cpp:960
@@ -286,7 +286,7 @@ msgstr "Feil på URL\n"
 #: kedit.cpp:1430
 #, c-format
 msgid "Loading '%s'"
-msgstr "Laster inn '%s'""
+msgstr "Laster inn '%s'"
 
 #: kedit.cpp:1454
 msgid "Calling KFM"
@@ -355,7 +355,7 @@ msgstr "Set Fill-Column at:"
 
 #: filldlg.cpp:40
 msgid "Word Warp"
-msgstr "Ord "warp""
+msgstr "Ord \"warp\""
 
 #: filldlg.cpp:44
 msgid "Mail Command:"
