@@ -1,18 +1,10 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: kedit \n"
 "POT-Creation-Date: 1998-01-03 22:56+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"PO-Revision-Date: 1998-01-03 17:23+0100\n"
+"Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
 
 #: kedit.cpp:82 kedit.cpp:1018
 msgid "Show &Tool Bar"
@@ -31,9 +23,8 @@ msgid "Hide &Status Bar"
 msgstr "Ukryj pasek &stanu"
 
 #: kedit.cpp:151
-#, fuzzy
 msgid "Select All"
-msgstr "Zaz&nacz wszystko"
+msgstr "Zaznacz wszystko"
 
 #: kedit.cpp:180
 msgid "&About..."
@@ -68,7 +59,6 @@ msgid "&Select All"
 msgstr "Zaz&nacz wszystko"
 
 #: kedit.cpp:230
-#, fuzzy
 msgid "&Insert File"
 msgstr "Do³±cz &plik"
 
@@ -101,13 +91,12 @@ msgid "Colors"
 msgstr "Kolory"
 
 #: kedit.cpp:250
-#, fuzzy
 msgid "KEdit &Options..."
-msgstr "Ró¿ne &opcje..."
+msgstr "&Opcje KEdit..."
 
 #: kedit.cpp:252
 msgid "Auto &Indent"
-msgstr "Auto &wciêcie"
+msgstr "Auto&wciêcie"
 
 #: kedit.cpp:255
 msgid "&Tool Bar"
@@ -180,7 +169,6 @@ msgstr ""
 "Wyj¶æ, pomimo tego?"
 
 #: kedit.cpp:666
-#, fuzzy
 msgid ""
 "The current document has been modified.\n"
 "Continue anyways ?"
@@ -235,13 +223,12 @@ msgstr ""
 "wydrukiem tego dokumentu?"
 
 #: kedit.cpp:1141
-#, fuzzy
 msgid ""
 "Could not save the file.\n"
 "Print anyways?"
 msgstr ""
 "Nie mo¿na zachowaæ pliku.\n"
-"Wyj¶æ, pomimo tego?"
+"Wydrukowaæ, pomimo tego?"
 
 #: kedit.cpp:1234
 #, c-format
@@ -338,6 +325,8 @@ msgid ""
 "Can not create:\n"
 "%s"
 msgstr ""
+"Nie mo¿na utworzyæ:\n"
+"%s"
 
 #: print.cpp:66
 msgid "Print Dialog"
@@ -356,9 +345,8 @@ msgid "Print Selection"
 msgstr "Drukuj zaznaczone"
 
 #: filldlg.cpp:31
-#, fuzzy
 msgid "KEdit Options"
-msgstr "&Opcje"
+msgstr "Opcje KEdit"
 
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"
@@ -396,7 +384,7 @@ msgstr "Musisz okre¶liæ adresata"
 #~ msgstr "Wybrany plik nie istnieje"
 
 #~ msgid "Sorry:"
-#~ msgstr "Przykro mi:"
+#~ msgstr "Niestety:"
 
 #~ msgid "You have specificated a directory"
 #~ msgstr "Wybra³e¶ katalog"
@@ -420,7 +408,6 @@ msgstr "Musisz okre¶liæ adresata"
 #~ "Dokument zosta³ zmieniony.\n"
 #~ "Czy chesz zachowaæ zmiany?"
 
-#, fuzzy
 #~ msgid ""
 #~ "Could not save the document.\n"
 #~ "Open a new document anyways?"
@@ -431,13 +418,12 @@ msgstr "Musisz okre¶liæ adresata"
 #~ msgid "Select Document to Open"
 #~ msgstr "Wybierz dokument do otwarcia"
 
-#, fuzzy
 #~ msgid ""
 #~ "Could not save the document.\n"
 #~ "Create a new document anyways?"
 #~ msgstr ""
 #~ "Nie mo¿na zachowaæ pliku.\n"
-#~ "Wyj¶æ, pomimo tego?"
+#~ "Utworzyæ nowy, pomimo tego?"
 
 #~ msgid "Could not save the document\n"
 #~ msgstr "Nie mo¿na zachowaæ dokumentu\n"
@@ -452,7 +438,6 @@ msgstr "Musisz okre¶liæ adresata"
 #~ "Dokument o tej samej nazwie ju¿ istnieje\n"
 #~ "Czy chcesz go nadpisaæ?"
 
-#, fuzzy
 #~ msgid "You do not have write permission to this file.\n"
 #~ msgstr "Nie masz uprawnieñ do zapisu tego pliku.\n"
 
@@ -496,110 +481,3 @@ msgstr "Musisz okre¶liæ adresata"
 
 #~ msgid "Go"
 #~ msgstr "Id¼"
-
-#~ msgid "&Open..."
-#~ msgstr "&Otwórz..."
-
-#~ msgid "Open..."
-#~ msgstr "Otwórz..."
-
-#~ msgid "Save as..."
-#~ msgstr "Zachowaj &jako..."
-
-#~ msgid "Copy"
-#~ msgstr "Kopiuj"
-
-#~ msgid "Paste"
-#~ msgstr "Wklej"
-
-#~ msgid "Cut"
-#~ msgstr "Wytnij"
-
-#, fuzzy
-#~ msgid "Font"
-#~ msgstr "&Czcionka"
-
-#~ msgid "&Foreground Color"
-#~ msgstr "Kolor te&kstu"
-
-#~ msgid "&Background Color"
-#~ msgstr "Kolor &t³a"
-
-#~ msgid "&Help"
-#~ msgstr "Pomo&c"
-
-#~ msgid "&Save"
-#~ msgstr "&Zapisz"
-
-#~ msgid "S&ave as..."
-#~ msgstr "Zapisz &jako..."
-
-#~ msgid "&Close"
-#~ msgstr "&Zamknij"
-
-#~ msgid "&Print..."
-#~ msgstr "&Drukuj..."
-
-#~ msgid "E&xit"
-#~ msgstr "&Wyj¶cie"
-
-#~ msgid "&Copy"
-#~ msgstr "&Kopiuj"
-
-#~ msgid "&Paste"
-#~ msgstr "&Wklej"
-
-#~ msgid "C&ut"
-#~ msgstr "&Wytnij"
-
-#~ msgid "&File"
-#~ msgstr "&Plik"
-
-#~ msgid "&Edit"
-#~ msgstr "&Edycja"
-
-#~ msgid "&Options"
-#~ msgstr "&Opcje"
-
-#~ msgid "Done"
-#~ msgstr "O&K"
-
-#~ msgid "Sorry"
-#~ msgstr "Przykro mi"
-
-#~ msgid "Could not Save the Changes\n"
-#~ msgstr "Nie mo¿na zachowaæ zmian\n"
-
-#~ msgid "Saved: %s"
-#~ msgstr "Zachowany: %s"
-
-#~ msgid "Saved"
-#~ msgstr "Zachowany"
-
-#~ msgid "Load file:"
-#~ msgstr "£aduj plik:"
-
-#~ msgid ""
-#~ "You have do not have Permission to \n"
-#~ "read this Document"
-#~ msgstr ""
-#~ "Nie masz uprawnieñ do odczytu\n"
-#~ "tego dokumentu"
-
-#~ msgid "Could not Save the Document"
-#~ msgstr "Nie mo¿na zachowaæ dokumentu"
-
-#~ msgid "Miscellaneous Options"
-#~ msgstr "Ró¿ne opcje"
-
-#~ msgid "About KEdit"
-#~ msgstr "Informacje"
-
-# Polish translation of KDE kfind
-# Version 0.1.0
-# (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
-#~ msgid "Yes"
-#~ msgstr "&Tak"
-
-#~ msgid "No"
-#~ msgstr "&Nie"
