@@ -30,9 +30,8 @@ msgid "Only Add Newer Files"
 msgstr "Samo dodaj novije datoteke"
 
 #: extractdlg.cc:14
-#, fuzzy
 msgid "Extract"
-msgstr "&Raspakiraj..."
+msgstr "Raspakiraj..."
 
 #: extractdlg.cc:28
 msgid "Destination"
@@ -63,9 +62,8 @@ msgid "Pattern"
 msgstr "Uzorak"
 
 #: extractdlg.cc:190
-#, fuzzy
 msgid "Extract To"
-msgstr "&Raspakiraj u..."
+msgstr "Raspakiraj u..."
 
 #: arkwidget.cc:71
 msgid "&New..."
@@ -81,12 +79,11 @@ msgstr "&Raspakiraj..."
 
 #: arkwidget.cc:80
 msgid "&View file"
-msgstr ""
+msgstr "P&rika¾i datoteku"
 
 #: arkwidget.cc:82
-#, fuzzy
 msgid "&Delete file"
-msgstr "Izabrana datoteka"
+msgstr "&Obri¹i datoteku"
 
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
@@ -101,42 +98,36 @@ msgid "&File Adding Options..."
 msgstr "Pode¹avanja dodavanja &datoteka"
 
 #: arkwidget.cc:97
-#, fuzzy
 msgid "File Operations"
-msgstr "Postavke za dodavanje datoteka"
+msgstr ""
 
 #: arkwidget.cc:99
-#, fuzzy
 msgid "Extract..."
-msgstr "&Raspakiraj..."
+msgstr "Raspakiraj..."
 
 #: arkwidget.cc:100
 msgid "View file"
-msgstr ""
+msgstr "Prika¾i datoteku"
 
 #: arkwidget.cc:102
-#, fuzzy
 msgid "Delete file"
-msgstr "Izabrana datoteka"
+msgstr "Obri¹i datoteku"
 
 #: arkwidget.cc:114
-#, fuzzy
 msgid "Goto Archive Dir..."
-msgstr "Pos&tavi direktorij arhive..."
+msgstr "Idi u direktorij arhive..."
 
 #: arkwidget.cc:117
-#, fuzzy
 msgid "Extract To.."
-msgstr "&Raspakiraj u..."
+msgstr "Raspakiraj u..."
 
 #: arkwidget.cc:121
 msgid "Exit"
-msgstr ""
+msgstr "Izlaz"
 
 #: arkwidget.cc:128
-#, fuzzy
 msgid "Welcome to ark..."
-msgstr "Dobrodo¹li u KZip..."
+msgstr "Dobrodo¹li u ark..."
 
 #: arkwidget.cc:235
 msgid "Can't create archive of that type"

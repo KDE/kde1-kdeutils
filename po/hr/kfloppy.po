@@ -16,7 +16,6 @@ msgstr ""
 
 # about.cpp:40
 #: about.cpp:40
-#, fuzzy
 msgid "About KDE Floppy Formatter"
 msgstr "O KDE programu za formatiranje"
 
@@ -69,13 +68,11 @@ msgstr "Naèini Oznaku:"
 
 # floppy.cpp:148
 #: floppy.cpp:148
-#, fuzzy
 msgid "KDE Floppy"
 msgstr "KDE Floppy"
 
 # floppy.cpp:162
 #: floppy.cpp:162
-#, fuzzy
 msgid "KDE Floppy Formatter"
 msgstr "KDE program za formatiranje disketa"
 
@@ -86,7 +83,7 @@ msgstr "HD"
 
 #: floppy.cpp:169
 msgid "DD"
-msgstr ""
+msgstr "DD"
 
 # floppy.cpp:286
 #: floppy.cpp:292

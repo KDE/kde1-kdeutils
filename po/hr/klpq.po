@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-03 10:06+0100\n"
+"POT-Creation-Date: 1998-11-16 02:46+0100\n"
 "PO-Revision-Date: 1998-03-15 20:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian\n"
@@ -13,88 +13,91 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: iso-8859-2\n"
 
-#: main.cpp:176
+#: main.cpp:208
 msgid "Sorry, can't open your printcap file."
 msgstr "®alim, ne mogu otvoriti printcap datoteku."
 
-#: main.cpp:181
+#: main.cpp:213
 msgid "Sorry, unable to parse your printcap."
 msgstr "®alim, ne mogu analizirati printcap datoteku."
 
-#: main.cpp:182
+#: main.cpp:214
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
 msgstr "Molim po¹aljite va¹ printcap na Christoph.Neerfeld@home.ivm.de"
 
-#: klpq.cpp:89
+#: klpq.cpp:97
 msgid "Printer"
 msgstr "Pisaè"
 
-#: klpq.cpp:93
+#: klpq.cpp:101
 msgid "Queuing"
 msgstr "Stavljam u red"
 
-#: klpq.cpp:97
+#: klpq.cpp:105
 msgid "Printing"
 msgstr "Ispisujem"
 
-#: klpq.cpp:101
+#: klpq.cpp:109
 msgid "Update"
 msgstr "Osvje¾i"
 
-#: klpq.cpp:119
+#: klpq.cpp:127
 msgid "Rank"
 msgstr "Rang"
 
-#: klpq.cpp:120
+#: klpq.cpp:128
 msgid "Owner"
 msgstr "Vlasnik"
 
-#: klpq.cpp:121
+#: klpq.cpp:129
 msgid "Job"
 msgstr "Posao"
 
-#: klpq.cpp:123
+#: klpq.cpp:131
 msgid "Size"
 msgstr "Velièina"
 
-#: klpq.cpp:143 klpq.cpp:218
+#: klpq.cpp:151 klpq.cpp:226
 msgid "Make Top"
 msgstr "Stavi na vrh"
 
-#: klpq.cpp:152
+#: klpq.cpp:160
 msgid "Auto"
 msgstr "Auto"
 
-#: klpq.cpp:195
-msgid "&Auto update"
-msgstr "&Automatski osvje¾i"
-
-#: klpq.cpp:196
-msgid "&Spooler"
-msgstr "&Posrednik"
-
 #: klpq.cpp:203
+msgid "&Auto update..."
+msgstr "Osvje¾i &automatski..."
+
+#: klpq.cpp:204
+msgid "&Spooler..."
+msgstr "&Posrednik..."
+
+#: klpq.cpp:211
 msgid "&Config"
 msgstr "&Postava"
 
-#: klpq.cpp:389
-#, fuzzy, c-format
-msgid "Do you really want to remove job No %d"
+#: klpq.cpp:391
+msgid "Do you realy want to remove job Nr. "
 msgstr "Da li ¾elis ukloniti posao br.  "
 
-#: klpq.cpp:409
-#, fuzzy, c-format
-msgid ""
-"Do you really want to move job No\n"
-"%d\n"
-"on top of queue"
+#: klpq.cpp:411
+msgid "Do you realy want to move job Nr.\n"
 msgstr "Da li ¾elis pomaknuti posao br.\n"
 
-#: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
+#: klpq.cpp:412
+msgid ""
+"\n"
+"on top of queue"
+msgstr ""
+"\n"
+"na vrh reda"
+
+#: klpq.cpp:594 klpq.cpp:620 klpq.cpp:646
 msgid "Permission denied"
 msgstr "Pristup odbijen"
 
-#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
+#: klpq.cpp:595 klpq.cpp:621 klpq.cpp:647
 msgid ""
 "This is a privileged command\n"
 "and you do not have permission to execute it."
@@ -110,11 +113,11 @@ msgstr "Podesi Auto Osvje¾avanje"
 msgid "Update frequency in seconds:"
 msgstr "Frekvencija osvje¾avanja u sekundama:"
 
-#: klpqspooler.cpp:197 klpqspooler.cpp:267
+#: klpqspooler.cpp:120 klpqspooler.cpp:190
 msgid "Can't find your lpc program !"
 msgstr "Ne mogu naæi lpc program !"
 
-#: klpqspooler.cpp:198 klpqspooler.cpp:268
+#: klpqspooler.cpp:121 klpqspooler.cpp:191
 msgid ""
 "Sorry, I can't find your lpc program.\n"
 "Please check the configuration under Config->Spooler."
@@ -136,38 +139,6 @@ msgstr ""
 "posrednika. Ako ne zna¹ koji posrednik ima¹ instaliran BSD je vjerojatno "
 "dobar izbor."
 
-#: FirstStartData.cpp:50 SpoolerConfigData.cpp:134
-msgid "Ok"
-msgstr "U redu"
-
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"
 msgstr "Putevi posrednièkih komandi:"
-
-#~ msgid "Quit"
-#~ msgstr "Zavr¹i"
-
-#~ msgid "Files"
-#~ msgstr "Datoteke"
-
-#~ msgid "Remove"
-#~ msgstr "Ukloni"
-
-#~ msgid "&Quit"
-#~ msgstr "&Zavr¹i"
-
-#~ msgid "&File"
-#~ msgstr "&Datoteka"
-
-#~ msgid "&Help"
-#~ msgstr "&Pomoæ"
-
-#~ msgid ""
-#~ "\n"
-#~ "on top of queue"
-#~ msgstr ""
-#~ "\n"
-#~ "na vrh reda"
-
-#~ msgid "Cancel"
-#~ msgstr "Poni¹ti"

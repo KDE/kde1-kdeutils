@@ -50,7 +50,7 @@ msgstr "Karm::createNewTask je pozvan ali nema dijaloga"
 
 #: karm.cpp:243
 msgid ": Edit Task Entry"
-msgstr ": Obradi unos zadatka"
+msgstr ": Promijeni zapis zadatka"
 
 #: karm.cpp:256
 msgid "Karm::updateExistingTask called and there's no dlg!"
@@ -90,10 +90,10 @@ msgstr "&Zadatak"
 
 #: top.cpp:61
 msgid "&New"
-msgstr ""
+msgstr "&Novi"
 
 #: top.cpp:71
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
@@ -119,18 +119,12 @@ msgstr "Novi zadatak"
 
 #: top.cpp:100
 msgid "Delete Task"
-msgstr "Pobri¹i zadatak"
+msgstr "Obri¹i zadatak"
 
 #: top.cpp:105
 msgid "Edit Task"
-msgstr "Obradi zadatak"
+msgstr "Promijeni zadatak"
 
 #: top.cpp:149
 msgid "clock active"
 msgstr "sat aktivan"
-
-#~ msgid "&About"
-#~ msgstr "&O"
-
-#~ msgid "About "
-#~ msgstr "O "

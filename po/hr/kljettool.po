@@ -32,31 +32,31 @@ msgstr "Operacije"
 
 #: PaperData.cpp:59
 msgid "Format"
-msgstr ""
+msgstr "Format"
 
 #: PaperData.cpp:65
 msgid "Copies"
-msgstr ""
+msgstr "Broj kopija"
 
 #: PaperData.cpp:80
 msgid "Lines"
-msgstr ""
+msgstr "Broj linija"
 
 #: PaperData.cpp:102
 msgid "Portrait"
-msgstr ""
+msgstr "Uspravno"
 
 #: PaperData.cpp:111
 msgid "Landscape"
-msgstr ""
+msgstr "Polo¾eno"
 
 #: PaperData.cpp:127
 msgid "Manual Feed"
-msgstr ""
+msgstr "Umeæi ruèno"
 
 #: PaperData.cpp:136
 msgid "Auto Continue"
-msgstr ""
+msgstr "Auto. vuci papir"
 
 # FontsData.cpp:38
 #: FontsData.cpp:38
@@ -76,7 +76,7 @@ msgstr "Jaèina otiska"
 # FontsData.cpp:141
 #: FontsData.cpp:141
 msgid "Point Size"
-msgstr "Velièina Toèke"
+msgstr "Velièina toèke"
 
 # FontsData.cpp:156
 #: FontsData.cpp:156
@@ -86,7 +86,7 @@ msgstr "toèaka"
 # PrinterData.cpp:41
 #: PrinterData.cpp:41
 msgid "Mode"
-msgstr "Naèin"
+msgstr "Kvaliteta otiska"
 
 # PrinterData.cpp:47
 #: PrinterData.cpp:47
@@ -126,7 +126,7 @@ msgstr "PageProtect"
 # MiscData.cpp:80
 #: MiscData.cpp:80
 msgid "Powersave Time"
-msgstr "©tednja nakon(sec)"
+msgstr "©tednja (sec)"
 
 # MiscData.cpp:99
 #: MiscData.cpp:99
