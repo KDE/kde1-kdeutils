@@ -7,11 +7,12 @@
 #include <kprocess.h>
 #include <qpopmenu.h>
 #include <kquickhelp.h>
+#include <ktmainwindow.h>
 
 #define ICONWIDTH 24
 #define ICONHEIGHT 24
 
-class Sysload : public QWidget {
+class Sysload : public KTMainWindow {
   Q_OBJECT
 public:
   Sysload();

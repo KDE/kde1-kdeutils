@@ -5,6 +5,7 @@
 #include <kwm.h>
 #include <qpainter.h>
 #include <stdlib.h>
+#include <time.h>
 #include "docked.h"
 
 #define PROCFILE "/proc/loadavg"
@@ -49,7 +50,7 @@ QString FQFN(const char *fn) {
 }
 
 
-Sysload::Sysload() : QWidget(0) {
+Sysload::Sysload() : KTMainWindow() {
   conf = kapp->getConfig();
 
   clearHistory();
@@ -191,8 +192,6 @@ bool Sysload::sysload(float *av1, float *av2, float *av3) {
 
   if(f) {
     char buf[128];    
-
-    rewind(f);
     fgets(buf, sizeof(buf), f);
     fclose(f);
     buf[sizeof(buf)-1] = 0;
@@ -273,10 +272,16 @@ int main(int argc, char **argv) {
   Sysload sl;
   kapp->enableSessionManagement(true);
   kapp->setWmCommand(FQFN(argv[0]));
+  kapp->setTopWidget(&sl);
 
-//   FILE *f = fopen("/home/mario/x.log", "a");
-//   fprintf(f, "STARTED AS %s, FQ=%s\n", argv[0], FQFN(argv[0]).data());
-//   fclose(f);
+#ifdef DEBUGGING
+  FILE *f = fopen("/home/mario/x.log", "a");
+  time_t t;
+  time(&t);
+  struct tm *tm = localtime(&t);
+  fprintf(f, "\n\n%s\tSTARTED AS %s, FQ=%s\n", asctime(tm), argv[0], FQFN(argv[0]).data());
+  fclose(f);
+#endif
  
   return a.exec();
 #else
