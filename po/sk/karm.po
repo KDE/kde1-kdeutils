@@ -103,18 +103,17 @@ msgstr "hodinky aktívne"
 
 #: top.cpp:150
 msgid "Preferences"
-msgstr ""
+msgstr "Vlastnosti"
 
 #: top.cpp:194
-#, fuzzy, c-format
 msgid ""
 "%s %s -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
 msgstr ""
-"%s 0.3 -- Sirtaj Singh Kang\n"
-"taj@kde.org, Október 1997\n"
+"%s %s -- Sirtaj Singh Kang\n"
+"taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
 
@@ -128,7 +127,7 @@ msgstr "Ú&loha"
 
 #: top.cpp:209
 msgid "&Preferences..."
-msgstr ""
+msgstr "&Vlastnosti..."
 
 #: top.cpp:223
 msgid "S&top"
@@ -137,12 +136,3 @@ msgstr "S&top"
 #: top.cpp:229
 msgid "&New"
 msgstr "&Nový"
-
-#~ msgid "&About"
-#~ msgstr "&Informácie..."
-
-#~ msgid "About "
-#~ msgstr "Informácie..."
-
-#~ msgid "&Contents"
-#~ msgstr "&Obsah"

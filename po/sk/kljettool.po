@@ -15,9 +15,8 @@ msgstr ""
 "PaperData.cpp Printer.cpp PrinterData.cpp about.cpp main.cpp\n"
 
 #: main.cpp:49
-#, fuzzy
 msgid "Ljet Tool"
-msgstr "KLJetTool"
+msgstr "LJet Tool"
 
 #: main.cpp:69
 msgid "Paper"
@@ -44,9 +43,8 @@ msgid "Lines"
 msgstr "Èiary"
 
 #: PaperData.cpp:96
-#, fuzzy
 msgid "Orientation"
-msgstr "Prezentaèný"
+msgstr "Orientácia"
 
 #: PaperData.cpp:102
 msgid "Portrait"
@@ -158,6 +156,8 @@ msgid ""
 "Bernd Johannes Wuebben\n"
 "wuebben@kde.org"
 msgstr ""
-
-#~ msgid "Version "
-#~ msgstr "Verzia"
+"Version %s\n"
+"\n"
+"Copyright (c) 1997\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"

@@ -74,14 +74,12 @@ msgid "Item Font"
 msgstr "Písmo"
 
 #: kwview.cpp:1057
-#, fuzzy
 msgid "Vertical Selections On"
-msgstr "&Vertikálne voµby"
+msgstr "Vertikálne voµby zapnú»"
 
 #: kwview.cpp:1057
-#, fuzzy
 msgid "Vertical Selections Off"
-msgstr "&Vertikálne voµby"
+msgstr "Vertikálne voµby vypnú»"
 
 #: kwview.cpp:1116
 msgid "The specified File does not exist"
@@ -360,9 +358,8 @@ msgid "&Insert..."
 msgstr "&Vlo¾i»..."
 
 #: toplevel.cpp:169
-#, fuzzy
 msgid "Open Recen&t"
-msgstr "Otvori» dokument"
+msgstr "Otvori» ne&dávny"
 
 #: toplevel.cpp:180
 msgid "New &Window"
@@ -468,6 +465,11 @@ msgid ""
 "Jochen Wilhelmy\n"
 "digisnap@cs.tu-berlin.de"
 msgstr ""
+"KWrite 0.98\n"
+"\n"
+"Copyright 1998\n"
+"Jochen Wilhelmy\n"
+"digisnap@cs.tu-berlin.de"
 
 #: toplevel.cpp:272
 msgid "&Bookmarks"

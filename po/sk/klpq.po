@@ -23,7 +23,7 @@ msgstr "¥utujem, nemo¾em analyzova» vá¹ printcap súbor"
 
 #: main.cpp:184
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
-msgstr ""
+msgstr "Prosím po¹lite vá¹ printcap na Christoph.Neerfeld@home.ivm.de"
 "Prosím mailnite vá¹ printcap na adresu Christoph.Neerfeld@home.ivm.deProsím, "
 "po¹lite svoj súbor printcap na adresu Christoph.Neerfeld@home.ivm.de"
 
@@ -82,6 +82,9 @@ msgid ""
 "(C) by Christoph Neerfeld\n"
 "chris@kde.org"
 msgstr ""
+"Klpq %s\n"
+"(C) by Christoph Neerfeld\n"
+"chris@kde.org"
 
 #: klpq.cpp:204
 msgid "&Config"

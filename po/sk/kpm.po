@@ -178,7 +178,6 @@ msgid "Save Settings Now"
 msgstr "Ulo¾i» nastavenie"
 
 #: qps.C:196
-#, fuzzy
 msgid ""
 " - A Visual Process Manager (KDE Version)\n"
 "\n"
@@ -195,7 +194,7 @@ msgid ""
 "Public License (GNU GPL). See the file COPYING\n"
 "for details about this."
 msgstr ""
-"kpm %sk%s - Vizuálny mana¾ér procesov (KDE Verzia)\n"
+" - Vizuálny mana¾ér procesov (KDE Verzia)\n"
 "\n"
 "(c) 1997 Mattias Engdegård (f91-men@nada.kth.se)\n"
 "(c) 1998 Mario Weilguni (mweilguni@kde.org)\n"
@@ -204,7 +203,7 @@ msgstr ""
 "Engdegård. Port pre KDE spravil Mario Weilguni.\n"
 "Ak vás zaujíma originálny qps, mô¾ete\n"
 "ho nájs» na tomto mieste:\n"
-"    ftp://sunsite.unc.edu/pub/linux/system/status\n"
+"    ftp://metalab.unc.edu/pub/linux/system/status\n"
 "\n"
 "Tento program je publikovaný pod GNU General\n"
 "Public License (GNU GPL). Pozrite súbor COPYING\n"
@@ -390,31 +389,29 @@ msgstr ""
 "Iba superu¾ívateµ a jeho vlastník mu mô¾e posiela» signály."
 
 #: scheddlg.C:22
-#, fuzzy
 msgid "Change scheduling"
-msgstr "Zmeni» scheduling..."
+msgstr "Zmeni» scheduling"
 
 #: scheddlg.C:28
-#, fuzzy
 msgid "Scheduling Policy"
-msgstr "Scheduling..."
+msgstr "Scheduling"
 
 #: scheddlg.C:29
 msgid "SCHED_OTHER (time-sharing)"
-msgstr ""
+msgstr "SCHED_OSTATNÉ (èasový-sharing)"
 
 #: scheddlg.C:36
 msgid "SCHED_FIFO (real-time)"
-msgstr ""
+msgstr "SCHED_FIFO (reálny-èas)"
 
 #: scheddlg.C:42
 msgid "SCHED_RR (real-time)"
-msgstr ""
+msgstr "SCHED_RR (reálny-èas)"
 
 #: scheddlg.C:67
 msgid "Priority (1-99):"
-msgstr ""
+msgstr "Priorita (1-99):"
 
 #: scheddlg.C:114
 msgid "The priority must be in the range 1..99"
-msgstr ""
+msgstr "Priorita musí by» v rozmedzí 1..99"
