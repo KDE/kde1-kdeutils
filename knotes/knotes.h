@@ -184,11 +184,9 @@ protected:
 
 public slots:
 
-  void  wm_saveyourself();
   void  set3DFrame();
   void  setNoFrame();
   void  toggleFrame();
-  void  dummy();
   void  set_colors();
   void  set_background_color();
   void  set_foreground_color();
@@ -197,7 +195,6 @@ public slots:
   bool  savenotes();
   void  quit();
   void  insertDate();
-  void  toggleshow();
   void  insertNetFile( const char *_url);
   bool  insertFile(const char* filename);
   void  slotDropEvent( KDNDDropZone * _dropZone );
@@ -242,6 +239,15 @@ private:
   bool dragging;
   int sticky_id;
 
+};
+
+class sessionWidget : public QWidget {
+  Q_OBJECT
+public:
+  sessionWidget();
+  ~sessionWidget() {};
+public slots:
+  void wm_saveyourself();
 };
 
 #endif
