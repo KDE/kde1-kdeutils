@@ -79,7 +79,7 @@ msgstr "Skift standarder..."
 
 #: knotes.cpp:340
 msgid "Dock in panel"
-msgstr ""
+msgstr "Dyk ned i panelet"
 
 #: knotes.cpp:368
 msgid "Insert Date"

@@ -95,7 +95,7 @@ msgstr "Fjern nuværende bog fra hurtiglisten"
 
 #: KJotsMain.cpp:410
 msgid "Hot&list"
-msgstr "&Hurtigliste"
+msgstr "H&urtigliste"
 
 #: KJotsMain.cpp:412
 msgid "&Books"

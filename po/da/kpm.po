@@ -210,7 +210,7 @@ msgstr ""
 
 #: qps.C:211
 msgid "&Window"
-msgstr "&Vindue"
+msgstr "Vind&ue"
 
 #: qps.C:212
 msgid "&Process"

@@ -75,7 +75,7 @@ msgstr "&Udpak..."
 
 #: arkwidget.cc:80
 msgid "&View file"
-msgstr "&Se filen"
+msgstr "Se &filen"
 
 #: arkwidget.cc:82
 msgid "&Delete file"
@@ -87,7 +87,7 @@ msgstr "&Sæt arkiv folder..."
 
 #: arkwidget.cc:85
 msgid "Set &Tar Executable..."
-msgstr "Sæt &tar program..."
+msgstr "Sæt tar &program..."
 
 #: arkwidget.cc:86
 msgid "&File Adding Options..."

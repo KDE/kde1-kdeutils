@@ -359,7 +359,7 @@ msgstr "&Indsæt..."
 
 #: toplevel.cpp:169
 msgid "Open Recen&t"
-msgstr "Åbn ny&lig"
+msgstr "Åbn n&ylig"
 
 #: toplevel.cpp:180
 msgid "New &Window"
@@ -367,7 +367,7 @@ msgstr "Nyt &vindue"
 
 #: toplevel.cpp:181
 msgid "New &View"
-msgstr "Ny &visning"
+msgstr "Ny vi&sning"
 
 #: toplevel.cpp:190
 msgid "&Find..."
@@ -379,7 +379,7 @@ msgstr "&Erstat..."
 
 #: toplevel.cpp:192
 msgid "Find &Again"
-msgstr "Find &igen"
+msgstr "Find ige&n"
 
 #: toplevel.cpp:193
 msgid "&Goto Line..."
@@ -395,7 +395,7 @@ msgstr "&Gør om"
 
 #: toplevel.cpp:198
 msgid "&Indent"
-msgstr "&Indryk"
+msgstr "Ind&ryk"
 
 #: toplevel.cpp:199
 msgid "Uninden&t"
@@ -407,11 +407,11 @@ msgstr "&Marker alt"
 
 #: toplevel.cpp:204
 msgid "&Deselect All"
-msgstr "&Fjern markering"
+msgstr "Fjern m&arkering"
 
 #: toplevel.cpp:205
 msgid "In&vert Selection"
-msgstr "Ind&ryk markeret tekst"
+msgstr "Indr&yk markeret tekst"
 
 #: toplevel.cpp:210
 msgid "&Set Bookmark..."
@@ -447,7 +447,7 @@ msgstr "&Farver..."
 
 #: toplevel.cpp:234
 msgid "Show &Toolbar"
-msgstr "Vis &værktøjsbjælke"
+msgstr "Vis værktøjs&bjælke"
 
 #: toplevel.cpp:235
 msgid "Show &Statusbar"
