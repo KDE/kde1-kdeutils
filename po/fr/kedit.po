@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kedit\n"
-"POT-Creation-Date: 1999-03-05 01:58+0100\n"
-"PO-Revision-Date: 1998-12-15 22:25 CET\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"PO-Revision-Date: 1999-03-04 22:25 CET\n"
 "Last-Translator: Francois-Xavier DURANCEAU "
 "<Francois-Xavier.Duranceau@loria.fr>\n"
 "Language-Team: Français\n"
@@ -32,7 +32,7 @@ msgstr "Cacher la barre d'é&tat"
 
 #: kedit.cpp:154
 msgid "Select All"
-msgstr "Tout Sélectionner"
+msgstr "Sélectionner tout"
 
 #: kedit.cpp:157
 msgid "Font..."
@@ -64,7 +64,7 @@ msgstr "Nouvelle &fenêtre"
 
 #: kedit.cpp:254
 msgid "&Select All"
-msgstr "Tout &Sélectionner"
+msgstr "&Sélectionner tout"
 
 #: kedit.cpp:257
 msgid "&Insert File"
@@ -180,7 +180,7 @@ msgid ""
 "Would you like to save it?"
 msgstr ""
 "Ce document à été modifié.\n"
-"Désirez-vous l'enregistrer ?"
+"Voulez-vous l'enregistrer ?"
 
 #: kedit.cpp:664 kedit.cpp:819
 msgid ""
@@ -206,7 +206,7 @@ msgid ""
 "Continue anyways ?"
 msgstr ""
 "Le document en cours a été modifié.\n"
-"Désirez-vous quand même continuer?"
+"Désirez-vous quand même continuer ?"
 
 #: kedit.cpp:880
 #, c-format
@@ -370,39 +370,39 @@ msgstr ""
 msgid "Spellchecker Options"
 msgstr "Options du vérificateur d'orthographe"
 
-#: keditcl1.cpp:150
+#: keditcl1.cpp:149
 msgid "The specified File does not exist"
 msgstr "Le fichier spécifié n'existe pas"
 
-#: keditcl1.cpp:163 keditcl1.cpp:439 keditcl1.cpp:522 keditcl1.cpp:1709
+#: keditcl1.cpp:162 keditcl1.cpp:438 keditcl1.cpp:521 keditcl1.cpp:1708
 msgid "Sorry:"
 msgstr "Désolé :"
 
-#: keditcl1.cpp:164
+#: keditcl1.cpp:163
 msgid "You have specificated a directory"
 msgstr "Vous avez spécifié un répertoire"
 
-#: keditcl1.cpp:179 keditcl1.cpp:200
+#: keditcl1.cpp:178 keditcl1.cpp:199
 msgid "You do not have read permission to this file."
 msgstr "Vous n'avez pas la permission de lire ce fichier"
 
-#: keditcl1.cpp:213
+#: keditcl1.cpp:212
 msgid "An Error occured while trying to open this Document"
-msgstr "Une erreur a été rencontrée lors de l'ouverture de ce fichier"
+msgstr "Une erreur est survenue pendant l'ouverture de ce fichier"
 
-#: keditcl1.cpp:418 keditcl1.cpp:502 keditcl1.cpp:1651
+#: keditcl1.cpp:417 keditcl1.cpp:501 keditcl1.cpp:1650
 msgid "Warning:"
 msgstr "Attention :"
 
-#: keditcl1.cpp:419 keditcl1.cpp:503
+#: keditcl1.cpp:418 keditcl1.cpp:502
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
 msgstr ""
 "Ce document à été modifié.\n"
-"Désirez-vous l'enregistrer ?"
+"Voulez-vous l'enregistrer ?"
 
-#: keditcl1.cpp:440
+#: keditcl1.cpp:439
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -410,7 +410,7 @@ msgstr ""
 "Impossible d'enregistrer le fichier.\n"
 "Désirez-vous quand même ouvrir un nouveau document ?"
 
-#: keditcl1.cpp:523
+#: keditcl1.cpp:522
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
@@ -418,11 +418,11 @@ msgstr ""
 "Impossible d'enregistrer le fichier.\n"
 "Désirez-vous quand même créer un nouveau document ?"
 
-#: keditcl1.cpp:1570
+#: keditcl1.cpp:1569
 msgid "Could not save the document\n"
 msgstr "Impossible d'enregistrer le document\n"
 
-#: keditcl1.cpp:1652
+#: keditcl1.cpp:1651
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
@@ -430,7 +430,7 @@ msgstr ""
 "Un document ayant le même nom existe déjà\n"
 "Voulez-vous l'écraser ?"
 
-#: keditcl1.cpp:1710
+#: keditcl1.cpp:1709
 msgid "You do not have write permission to this file.\n"
 msgstr "Vous n'avez pas la permission d'écrire dans ce fichier.\n"
 
@@ -461,7 +461,7 @@ msgstr "Respecter la casse"
 
 #: keditcl2.cpp:692 keditcl2.cpp:792
 msgid "Find Backwards"
-msgstr "Recherche en arrière"
+msgstr "Chercher en arrière"
 
 #: keditcl2.cpp:777
 msgid "Find:"
@@ -473,7 +473,7 @@ msgstr "Remplacer par :"
 
 #: keditcl2.cpp:801
 msgid "Replace All"
-msgstr "Tout Remplacer"
+msgstr "Remplacer tout"
 
 #: keditcl2.cpp:898
 msgid "Goto Line"
@@ -501,7 +501,7 @@ msgstr "Imprimer la sélection"
 
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"
-msgstr "Couper les colonnes à :"
+msgstr "Couper à la colonne :"
 
 #: filldlg.cpp:40
 msgid "Word Wrap"
@@ -513,11 +513,11 @@ msgstr "Copies de secours"
 
 #: filldlg.cpp:46
 msgid "Mail Command:"
-msgstr "Envoi de courrier :"
+msgstr "Envoi de mail :"
 
 #: filldlg.cpp:140
 msgid "You must enter an integer."
-msgstr "Vous devez entrer un entier."
+msgstr "Vous devez saisir un entier."
 
 #: mail.cpp:37
 msgid "Mail Document to:"

@@ -56,7 +56,7 @@ msgstr "Formattage complet"
 
 #: floppy.cpp:142
 msgid "Create Label:"
-msgstr "Label :"
+msgstr "Etiquette :"
 
 #: floppy.cpp:148
 msgid "KDE Floppy"
@@ -64,7 +64,7 @@ msgstr "Disquette KDE"
 
 #: floppy.cpp:162
 msgid "KDE Floppy Formatter"
-msgstr "Formatteur Disquette KDE"
+msgstr "Formatteur de Disquette KDE"
 
 #: floppy.cpp:168 floppy.cpp:222 floppy.cpp:240 floppy.cpp:255 floppy.cpp:273
 msgid "HD"
@@ -81,8 +81,8 @@ msgid ""
 "Make sure that the device exists and that\n"
 "you have write permission to it."
 msgstr ""
-"Impossible d'accéder %s\n"
-"Assurez-vous que le périphérique existe de que\n"
+"Impossible d'accéder à %s\n"
+"Assurez-vous que le périphérique existe et que\n"
 "vous avez les permissions en écriture."
 
 #: floppy.cpp:339
@@ -130,8 +130,8 @@ msgid ""
 "have selected a valid floppy drive.\n"
 msgstr ""
 "Impossible d'accéder à la disquette ou au lecteur\n"
-"Insérez une disquette et assurez-vous que vous avez sélectionné un lecteur "
-"de disquettes valide.\n"
+"Insérez une disquette et assurez-vous que vous avez\n"
+"sélectionné un lecteur de disquettes valide.\n"
 
 #: floppy.cpp:593
 #, c-format
@@ -139,7 +139,7 @@ msgid ""
 "Cannot format: %s\n"
 "%s"
 msgstr ""
-"Impossible de formater: %s\n"
+"Impossible de formater : %s\n"
 "%s"
 
 #: floppy.cpp:640
@@ -153,7 +153,7 @@ msgid ""
 "Cannot create a filesystem on: %s\n"
 "%s"
 msgstr ""
-"Impossible de créer un système de fichiers sur: %s\n"
+"Impossible de créer un système de fichiers sur : %s\n"
 "%s"
 
 #: floppy.cpp:759
@@ -164,8 +164,8 @@ msgid ""
 "Raw Capacity: %d\n"
 msgstr ""
 "La disquette a été formatée avec succès.\n"
-"Nombre de blocks défectueux: %d\n"
-"Capacité brute: %d\n"
+"Nombre de blocs défectueux : %d\n"
+"Capacité brute : %d\n"
 
 #: floppy.cpp:780
 msgid "All files were sucessfully erased."

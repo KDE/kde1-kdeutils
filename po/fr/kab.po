@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kab\n"
 "POT-Creation-Date: 1999-01-12 01:57+0100\n"
-"PO-Revision-Date: 1998-12-08 18:30 CET\n"
+"PO-Revision-Date: 1999-03-04 18:30 CET\n"
 "Last-Translator: Francois-Xavier DURANCEAU "
 "<Francois-Xavier.Duranceau@loria.fr>\n"
 "Language-Team: Français <fr@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 
 #: AddressBookAbout.cpp:25
 msgid "About addressbook"
-msgstr "A propos d'Addressbook"
+msgstr "A propos du Carnet d'adresses"
 
 #: AddressBookAbout.cpp:35
 msgid "Image load failure"
-msgstr "L'image n'a pu être chargée"
+msgstr "Echec du chargement de l'image"
 
 #: AddressBookAbout.cpp:36
 msgid "Could not load addressbook logo image!"
@@ -45,7 +45,7 @@ msgstr "kab 0.9.5, Décembre 1998"
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
-msgstr "L'initialisation n'a pu être faite"
+msgstr "Echec de l'initialisation"
 
 #: toplevelwidget.cc:37
 msgid "The program's menubar could not be constructed."
@@ -57,7 +57,7 @@ msgstr "La barre d'état du programme ne peut pas être construite."
 
 #: toplevelwidget.cc:58
 msgid "KDE addressbook."
-msgstr "carnet d'adresses de KDE."
+msgstr "Carnet d'adresses de KDE."
 
 #: toplevelwidget.cc:73
 msgid "HTML table"
@@ -101,11 +101,11 @@ msgstr "&Navigateur"
 
 #: toplevelwidget.cc:123
 msgid "Help on Addressbook"
-msgstr "Aide sur Address&book"
+msgstr "Aide du &Carnet d'adresses"
 
 #: toplevelwidget.cc:128
 msgid "About Addressbook"
-msgstr "A propos d'&Addressbook"
+msgstr "A propos du Carnet d'&Adresses"
 
 #: toplevelwidget.cc:130
 msgid "About &Qt"
