@@ -111,7 +111,7 @@ void HexWidget::menuCallback(int item) {
   case ID_FILE_OPEN: {
     if (CurrentFile->isModified()) 
       if (QMessageBox::query(trans.translate("Warning"), 
-			     trans.translate("_Changed","The current file has been modified.\n\nDo you want to save it ?")))
+			     trans.translate("The current file has been modified.\n\nDo you want to save it ?")))
 	  CurrentFile->save();
     
     QFileDialog *log=new QFileDialog;
@@ -167,7 +167,7 @@ void HexWidget::menuCallback(int item) {
 
   case ID_HELP_ABOUT: {
      QString str;
-     str.sprintf( "Hex Editor 0.4 \n\nby Stephan Kulow  (coolo@itm.mu-luebeck.de)");
+     str.sprintf( trans.translate("Hex Editor 0.4 \n\nby Stephan Kulow  (coolo@itm.mu-luebeck.de)") );
      KMsgBox::message( 0, trans.translate("About Hex Editor"), 
 		       (const char *)str,
 		       KMsgBox::INFORMATION, trans.translate("Close") );
@@ -199,7 +199,7 @@ void HexWidget::openURL(const char *_url, KIND_OF_OPEN _mode) {
   netFile.detach();
   KURL u( netFile.data() );
   if ( u.isMalformed())   {
-    QMessageBox::message (trans.translate("Error"), trans.translate("Malformed URL"), "Ok");
+    QMessageBox::message (trans.translate("Error"), trans.translate("Malformed URL"), trans.translate("Ok"));
     return;
   }
   
