@@ -35,23 +35,21 @@ msgstr ""
 
 #: AddressBookAbout.cpp:44
 msgid "written and maintained by"
-msgstr ""
+msgstr "escrito e mantido por"
 
 #: AddressBookAboutData.cpp:62
 msgid "kab 0.8, August 1998"
-msgstr ""
+msgstr "Kab 0.8, agosto de 1998"
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
 msgstr "Falha na iniciação"
 
 #: toplevelwidget.cc:37
-#, fuzzy
 msgid "The program's menubar could not be constructed."
 msgstr "A barra de menu do programa não pôde ser construída."
 
 #: toplevelwidget.cc:45
-#, fuzzy
 msgid "The program's statusbar could not be constructed."
 msgstr "A barra de status do programa não pôde ser construída."
 
