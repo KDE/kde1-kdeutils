@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-12-31 15:20+0100\n"
+"POT-Creation-Date: 1998-01-03 22:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -340,138 +340,6 @@ msgid ""
 "%s"
 msgstr ""
 
-#: keditcl1.cpp:128
-msgid "The specified File does not exist"
-msgstr "Navedena datoteka ne postoji"
-
-#: keditcl1.cpp:141 keditcl1.cpp:413 keditcl1.cpp:494 keditcl1.cpp:1626
-msgid "Sorry:"
-msgstr "®alim:"
-
-#: keditcl1.cpp:142
-msgid "You have specificated a directory"
-msgstr "Naveli ste direktorij"
-
-#: keditcl1.cpp:157 keditcl1.cpp:178
-msgid "You do not have read permission to this file."
-msgstr "Nemate ovlast èitanja ove datoteke."
-
-#: keditcl1.cpp:191
-msgid "An Error occured while trying to open this Document"
-msgstr "Gre¹ka prilikom otvaranja dokumenta"
-
-#: keditcl1.cpp:356
-msgid "Select Document to Insert"
-msgstr "Birajte dokument za ubacivanje"
-
-#: keditcl1.cpp:392 keditcl1.cpp:474 keditcl1.cpp:1569
-msgid "Warning:"
-msgstr "Upozorenje:"
-
-#: keditcl1.cpp:393 keditcl1.cpp:475
-msgid ""
-"The current Document has been modified.\n"
-"Would you like to save it?"
-msgstr ""
-"Trenutni dokument je promijenjen.\n"
-"®elite li ga snimiti?"
-
-#: keditcl1.cpp:414
-#, fuzzy
-msgid ""
-"Could not save the document.\n"
-"Open a new document anyways?"
-msgstr ""
-"Ne mogu snimiti datoteku.\n"
-"Da ipak izaðem?"
-
-#: keditcl1.cpp:445
-msgid "Select Document to Open"
-msgstr "Birajte dokument koji ¾elite otvoriti"
-
-#: keditcl1.cpp:495
-#, fuzzy
-msgid ""
-"Could not save the document.\n"
-"Create a new document anyways?"
-msgstr ""
-"Ne mogu snimiti datoteku.\n"
-"Da ipak izaðem?"
-
-#: keditcl1.cpp:1471
-msgid "Could not save the document\n"
-msgstr "Ne mogu snimiti dokument\n"
-
-#: keditcl1.cpp:1541
-msgid "Save Document As"
-msgstr "Snimi dokument kao"
-
-#: keditcl1.cpp:1570
-msgid ""
-"A Document with this Name exists already\n"
-"Do you want to overwrite it ?"
-msgstr ""
-"Dokument istog naziva veæ postoji\n"
-"®elite li snimiti preko njega?"
-
-#: keditcl1.cpp:1627
-#, fuzzy
-msgid "You do not have write permission to this file.\n"
-msgstr "Nemate ovlast pisanja nad tom datotekom.\n"
-
-#: keditcl2.cpp:105 keditcl2.cpp:122 keditcl2.cpp:362 keditcl2.cpp:379
-#: keditcl2.cpp:678 keditcl2.cpp:687 keditcl2.cpp:788
-msgid "Find"
-msgstr "Naði"
-
-#: keditcl2.cpp:106 keditcl2.cpp:363 keditcl2.cpp:456
-msgid ""
-"End of document reached.\n"
-"Continue from the beginning?"
-msgstr ""
-"Do¹ao sam do kraja dokumenta.\n"
-"Da nastavim od poèetka?"
-
-#: keditcl2.cpp:123 keditcl2.cpp:380 keditcl2.cpp:426 keditcl2.cpp:473
-msgid ""
-"Beginning of document reached.\n"
-"Continue from the end?"
-msgstr ""
-"Do¹ao sam do poèetka dokumenta.\n"
-"Da nastavim s kraja?"
-
-#: keditcl2.cpp:425 keditcl2.cpp:455 keditcl2.cpp:472 keditcl2.cpp:791
-msgid "Replace"
-msgstr "Zamijeni"
-
-#: keditcl2.cpp:684 keditcl2.cpp:782
-msgid "Case Sensitive"
-msgstr "Razlikuj velika i mala slova"
-
-#: keditcl2.cpp:685 keditcl2.cpp:785
-msgid "Find Backwards"
-msgstr "Tra¾i unazad"
-
-#: keditcl2.cpp:770
-msgid "Find:"
-msgstr "Naði:"
-
-#: keditcl2.cpp:780
-msgid "Replace with:"
-msgstr "Zamijeni sa:"
-
-#: keditcl2.cpp:794
-msgid "Replace All"
-msgstr "Zamijeni sve"
-
-#: keditcl2.cpp:891
-msgid "Goto Line"
-msgstr "Idi na"
-
-#: keditcl2.cpp:896
-msgid "Go"
-msgstr "Kreni"
-
 #: print.cpp:66
 msgid "Print Dialog"
 msgstr "Ispi¹i dialog"
@@ -524,6 +392,111 @@ msgstr "Po¹ta"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Morate navesti primatelja"
+
+#~ msgid "The specified File does not exist"
+#~ msgstr "Navedena datoteka ne postoji"
+
+#~ msgid "Sorry:"
+#~ msgstr "®alim:"
+
+#~ msgid "You have specificated a directory"
+#~ msgstr "Naveli ste direktorij"
+
+#~ msgid "You do not have read permission to this file."
+#~ msgstr "Nemate ovlast èitanja ove datoteke."
+
+#~ msgid "An Error occured while trying to open this Document"
+#~ msgstr "Gre¹ka prilikom otvaranja dokumenta"
+
+#~ msgid "Select Document to Insert"
+#~ msgstr "Birajte dokument za ubacivanje"
+
+#~ msgid "Warning:"
+#~ msgstr "Upozorenje:"
+
+#~ msgid ""
+#~ "The current Document has been modified.\n"
+#~ "Would you like to save it?"
+#~ msgstr ""
+#~ "Trenutni dokument je promijenjen.\n"
+#~ "®elite li ga snimiti?"
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not save the document.\n"
+#~ "Open a new document anyways?"
+#~ msgstr ""
+#~ "Ne mogu snimiti datoteku.\n"
+#~ "Da ipak izaðem?"
+
+#~ msgid "Select Document to Open"
+#~ msgstr "Birajte dokument koji ¾elite otvoriti"
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not save the document.\n"
+#~ "Create a new document anyways?"
+#~ msgstr ""
+#~ "Ne mogu snimiti datoteku.\n"
+#~ "Da ipak izaðem?"
+
+#~ msgid "Could not save the document\n"
+#~ msgstr "Ne mogu snimiti dokument\n"
+
+#~ msgid "Save Document As"
+#~ msgstr "Snimi dokument kao"
+
+#~ msgid ""
+#~ "A Document with this Name exists already\n"
+#~ "Do you want to overwrite it ?"
+#~ msgstr ""
+#~ "Dokument istog naziva veæ postoji\n"
+#~ "®elite li snimiti preko njega?"
+
+#, fuzzy
+#~ msgid "You do not have write permission to this file.\n"
+#~ msgstr "Nemate ovlast pisanja nad tom datotekom.\n"
+
+#~ msgid "Find"
+#~ msgstr "Naði"
+
+#~ msgid ""
+#~ "End of document reached.\n"
+#~ "Continue from the beginning?"
+#~ msgstr ""
+#~ "Do¹ao sam do kraja dokumenta.\n"
+#~ "Da nastavim od poèetka?"
+
+#~ msgid ""
+#~ "Beginning of document reached.\n"
+#~ "Continue from the end?"
+#~ msgstr ""
+#~ "Do¹ao sam do poèetka dokumenta.\n"
+#~ "Da nastavim s kraja?"
+
+#~ msgid "Replace"
+#~ msgstr "Zamijeni"
+
+#~ msgid "Case Sensitive"
+#~ msgstr "Razlikuj velika i mala slova"
+
+#~ msgid "Find Backwards"
+#~ msgstr "Tra¾i unazad"
+
+#~ msgid "Find:"
+#~ msgstr "Naði:"
+
+#~ msgid "Replace with:"
+#~ msgstr "Zamijeni sa:"
+
+#~ msgid "Replace All"
+#~ msgstr "Zamijeni sve"
+
+#~ msgid "Goto Line"
+#~ msgstr "Idi na"
+
+#~ msgid "Go"
+#~ msgstr "Kreni"
 
 #~ msgid "&Open..."
 #~ msgstr "&Otvori..."

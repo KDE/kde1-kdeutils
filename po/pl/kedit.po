@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-12-31 15:20+0100\n"
+"POT-Creation-Date: 1998-01-03 22:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -339,138 +339,6 @@ msgid ""
 "%s"
 msgstr ""
 
-#: keditcl1.cpp:128
-msgid "The specified File does not exist"
-msgstr "Wybrany plik nie istnieje"
-
-#: keditcl1.cpp:141 keditcl1.cpp:413 keditcl1.cpp:494 keditcl1.cpp:1626
-msgid "Sorry:"
-msgstr "Przykro mi:"
-
-#: keditcl1.cpp:142
-msgid "You have specificated a directory"
-msgstr "Wybra³e¶ katalog"
-
-#: keditcl1.cpp:157 keditcl1.cpp:178
-msgid "You do not have read permission to this file."
-msgstr "Nie masz uprawnieñ do odczytu tego pliku"
-
-#: keditcl1.cpp:191
-msgid "An Error occured while trying to open this Document"
-msgstr "B³±d podczas próby otwarcia dokumentud"
-
-#: keditcl1.cpp:356
-msgid "Select Document to Insert"
-msgstr "Wybierz dokument do wstawienia"
-
-#: keditcl1.cpp:392 keditcl1.cpp:474 keditcl1.cpp:1569
-msgid "Warning:"
-msgstr "Ostrze¿enie:"
-
-#: keditcl1.cpp:393 keditcl1.cpp:475
-msgid ""
-"The current Document has been modified.\n"
-"Would you like to save it?"
-msgstr ""
-"Dokument zosta³ zmieniony.\n"
-"Czy chesz zachowaæ zmiany?"
-
-#: keditcl1.cpp:414
-#, fuzzy
-msgid ""
-"Could not save the document.\n"
-"Open a new document anyways?"
-msgstr ""
-"Nie mo¿na zachowaæ pliku.\n"
-"Wyj¶æ, pomimo tego?"
-
-#: keditcl1.cpp:445
-msgid "Select Document to Open"
-msgstr "Wybierz dokument do otwarcia"
-
-#: keditcl1.cpp:495
-#, fuzzy
-msgid ""
-"Could not save the document.\n"
-"Create a new document anyways?"
-msgstr ""
-"Nie mo¿na zachowaæ pliku.\n"
-"Wyj¶æ, pomimo tego?"
-
-#: keditcl1.cpp:1471
-msgid "Could not save the document\n"
-msgstr "Nie mo¿na zachowaæ dokumentu\n"
-
-#: keditcl1.cpp:1541
-msgid "Save Document As"
-msgstr "Zachowaj dokument jako"
-
-#: keditcl1.cpp:1570
-msgid ""
-"A Document with this Name exists already\n"
-"Do you want to overwrite it ?"
-msgstr ""
-"Dokument o tej samej nazwie ju¿ istnieje\n"
-"Czy chcesz go nadpisaæ?"
-
-#: keditcl1.cpp:1627
-#, fuzzy
-msgid "You do not have write permission to this file.\n"
-msgstr "Nie masz uprawnieñ do zapisu tego pliku.\n"
-
-#: keditcl2.cpp:105 keditcl2.cpp:122 keditcl2.cpp:362 keditcl2.cpp:379
-#: keditcl2.cpp:678 keditcl2.cpp:687 keditcl2.cpp:788
-msgid "Find"
-msgstr "Szukaj"
-
-#: keditcl2.cpp:106 keditcl2.cpp:363 keditcl2.cpp:456
-msgid ""
-"End of document reached.\n"
-"Continue from the beginning?"
-msgstr ""
-"Osi±gniêto koniec dokumentu.\n"
-"Czy zacz±æ od pocz±tku?"
-
-#: keditcl2.cpp:123 keditcl2.cpp:380 keditcl2.cpp:426 keditcl2.cpp:473
-msgid ""
-"Beginning of document reached.\n"
-"Continue from the end?"
-msgstr ""
-"Osi±gniêto pocz±tek dokumentu.\n"
-"Czy zacz±æ od koñca?"
-
-#: keditcl2.cpp:425 keditcl2.cpp:455 keditcl2.cpp:472 keditcl2.cpp:791
-msgid "Replace"
-msgstr "Zamieñ"
-
-#: keditcl2.cpp:684 keditcl2.cpp:782
-msgid "Case Sensitive"
-msgstr "Rozró¿nianie wielko¶ci"
-
-#: keditcl2.cpp:685 keditcl2.cpp:785
-msgid "Find Backwards"
-msgstr "Szukaj wstecz"
-
-#: keditcl2.cpp:770
-msgid "Find:"
-msgstr "Szukaj:"
-
-#: keditcl2.cpp:780
-msgid "Replace with:"
-msgstr "Zamieñ z:"
-
-#: keditcl2.cpp:794
-msgid "Replace All"
-msgstr "Zamieñ wszystkie"
-
-#: keditcl2.cpp:891
-msgid "Goto Line"
-msgstr "Id¼ do linii"
-
-#: keditcl2.cpp:896
-msgid "Go"
-msgstr "Id¼"
-
 #: print.cpp:66
 msgid "Print Dialog"
 msgstr "Drukowanie"
@@ -523,6 +391,111 @@ msgstr "Poczta"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Musisz okre¶liæ adresata"
+
+#~ msgid "The specified File does not exist"
+#~ msgstr "Wybrany plik nie istnieje"
+
+#~ msgid "Sorry:"
+#~ msgstr "Przykro mi:"
+
+#~ msgid "You have specificated a directory"
+#~ msgstr "Wybra³e¶ katalog"
+
+#~ msgid "You do not have read permission to this file."
+#~ msgstr "Nie masz uprawnieñ do odczytu tego pliku"
+
+#~ msgid "An Error occured while trying to open this Document"
+#~ msgstr "B³±d podczas próby otwarcia dokumentud"
+
+#~ msgid "Select Document to Insert"
+#~ msgstr "Wybierz dokument do wstawienia"
+
+#~ msgid "Warning:"
+#~ msgstr "Ostrze¿enie:"
+
+#~ msgid ""
+#~ "The current Document has been modified.\n"
+#~ "Would you like to save it?"
+#~ msgstr ""
+#~ "Dokument zosta³ zmieniony.\n"
+#~ "Czy chesz zachowaæ zmiany?"
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not save the document.\n"
+#~ "Open a new document anyways?"
+#~ msgstr ""
+#~ "Nie mo¿na zachowaæ pliku.\n"
+#~ "Wyj¶æ, pomimo tego?"
+
+#~ msgid "Select Document to Open"
+#~ msgstr "Wybierz dokument do otwarcia"
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not save the document.\n"
+#~ "Create a new document anyways?"
+#~ msgstr ""
+#~ "Nie mo¿na zachowaæ pliku.\n"
+#~ "Wyj¶æ, pomimo tego?"
+
+#~ msgid "Could not save the document\n"
+#~ msgstr "Nie mo¿na zachowaæ dokumentu\n"
+
+#~ msgid "Save Document As"
+#~ msgstr "Zachowaj dokument jako"
+
+#~ msgid ""
+#~ "A Document with this Name exists already\n"
+#~ "Do you want to overwrite it ?"
+#~ msgstr ""
+#~ "Dokument o tej samej nazwie ju¿ istnieje\n"
+#~ "Czy chcesz go nadpisaæ?"
+
+#, fuzzy
+#~ msgid "You do not have write permission to this file.\n"
+#~ msgstr "Nie masz uprawnieñ do zapisu tego pliku.\n"
+
+#~ msgid "Find"
+#~ msgstr "Szukaj"
+
+#~ msgid ""
+#~ "End of document reached.\n"
+#~ "Continue from the beginning?"
+#~ msgstr ""
+#~ "Osi±gniêto koniec dokumentu.\n"
+#~ "Czy zacz±æ od pocz±tku?"
+
+#~ msgid ""
+#~ "Beginning of document reached.\n"
+#~ "Continue from the end?"
+#~ msgstr ""
+#~ "Osi±gniêto pocz±tek dokumentu.\n"
+#~ "Czy zacz±æ od koñca?"
+
+#~ msgid "Replace"
+#~ msgstr "Zamieñ"
+
+#~ msgid "Case Sensitive"
+#~ msgstr "Rozró¿nianie wielko¶ci"
+
+#~ msgid "Find Backwards"
+#~ msgstr "Szukaj wstecz"
+
+#~ msgid "Find:"
+#~ msgstr "Szukaj:"
+
+#~ msgid "Replace with:"
+#~ msgstr "Zamieñ z:"
+
+#~ msgid "Replace All"
+#~ msgstr "Zamieñ wszystkie"
+
+#~ msgid "Goto Line"
+#~ msgstr "Id¼ do linii"
+
+#~ msgid "Go"
+#~ msgstr "Id¼"
 
 #~ msgid "&Open..."
 #~ msgstr "&Otwórz..."

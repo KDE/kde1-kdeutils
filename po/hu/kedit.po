@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdehelp 0.5.2\n"
-"POT-Creation-Date: 1997-12-31 15:20+0100\n"
+"POT-Creation-Date: 1998-01-03 22:56+0100\n"
 "PO-Revision-Date: 1997-09-21 19:39+MET\n"
 "Last-Translator: Nagy Balazs <julian7@kva.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -339,138 +339,6 @@ msgid ""
 "%s"
 msgstr ""
 
-#: keditcl1.cpp:128
-msgid "The specified File does not exist"
-msgstr "A file nem létezik"
-
-#: keditcl1.cpp:141 keditcl1.cpp:413 keditcl1.cpp:494 keditcl1.cpp:1626
-msgid "Sorry:"
-msgstr "Elnézést:"
-
-#: keditcl1.cpp:142
-msgid "You have specificated a directory"
-msgstr "A megadott név könyvtárnév"
-
-#: keditcl1.cpp:157 keditcl1.cpp:178
-msgid "You do not have read permission to this file."
-msgstr "Nincs olvasási jogosultsága a file-hoz."
-
-#: keditcl1.cpp:191
-msgid "An Error occured while trying to open this Document"
-msgstr "Hiba történt a dokumentum megnyitása közben"
-
-#: keditcl1.cpp:356
-msgid "Select Document to Insert"
-msgstr "Válassza ki a beszúrandó dokumentumot"
-
-#: keditcl1.cpp:392 keditcl1.cpp:474 keditcl1.cpp:1569
-msgid "Warning:"
-msgstr "Figyelem:"
-
-#: keditcl1.cpp:393 keditcl1.cpp:475
-msgid ""
-"The current Document has been modified.\n"
-"Would you like to save it?"
-msgstr ""
-"A jelenlegi dokumentum megváltozott.\n"
-"El kívánja menteni?"
-
-#: keditcl1.cpp:414
-#, fuzzy
-msgid ""
-"Could not save the document.\n"
-"Open a new document anyways?"
-msgstr ""
-"Nem lehet a file-ba menteni.\n"
-"Mégis kilép?"
-
-#: keditcl1.cpp:445
-msgid "Select Document to Open"
-msgstr "Válassza ki a megnyitandó dokumentumot"
-
-#: keditcl1.cpp:495
-#, fuzzy
-msgid ""
-"Could not save the document.\n"
-"Create a new document anyways?"
-msgstr ""
-"Nem lehet a file-ba menteni.\n"
-"Mégis kilép?"
-
-#: keditcl1.cpp:1471
-msgid "Could not save the document\n"
-msgstr "Nem lehet kimenteni a dokumentumot\n"
-
-#: keditcl1.cpp:1541
-msgid "Save Document As"
-msgstr "Dokumentum mentése másként"
-
-#: keditcl1.cpp:1570
-msgid ""
-"A Document with this Name exists already\n"
-"Do you want to overwrite it ?"
-msgstr ""
-"Ezen a néven már létezik egy dokumentum.\n"
-"Felül kívánja írni?"
-
-#: keditcl1.cpp:1627
-#, fuzzy
-msgid "You do not have write permission to this file.\n"
-msgstr "Nincs írási jogosultsága a file-hoz.\n"
-
-#: keditcl2.cpp:105 keditcl2.cpp:122 keditcl2.cpp:362 keditcl2.cpp:379
-#: keditcl2.cpp:678 keditcl2.cpp:687 keditcl2.cpp:788
-msgid "Find"
-msgstr "Keres"
-
-#: keditcl2.cpp:106 keditcl2.cpp:363 keditcl2.cpp:456
-msgid ""
-"End of document reached.\n"
-"Continue from the beginning?"
-msgstr ""
-"A dokumentum végére ért.\n"
-"Folytatni kívánja az elejérõl?"
-
-#: keditcl2.cpp:123 keditcl2.cpp:380 keditcl2.cpp:426 keditcl2.cpp:473
-msgid ""
-"Beginning of document reached.\n"
-"Continue from the end?"
-msgstr ""
-"A dokumentum elejére ért.\n"
-"Folytatni kívánja a végérõl?"
-
-#: keditcl2.cpp:425 keditcl2.cpp:455 keditcl2.cpp:472 keditcl2.cpp:791
-msgid "Replace"
-msgstr "Csere"
-
-#: keditcl2.cpp:684 keditcl2.cpp:782
-msgid "Case Sensitive"
-msgstr "Kis / nagybetûk"
-
-#: keditcl2.cpp:685 keditcl2.cpp:785
-msgid "Find Backwards"
-msgstr "Visszafelé"
-
-#: keditcl2.cpp:770
-msgid "Find:"
-msgstr "Mit:"
-
-#: keditcl2.cpp:780
-msgid "Replace with:"
-msgstr "Mire:"
-
-#: keditcl2.cpp:794
-msgid "Replace All"
-msgstr "Mindent cserél"
-
-#: keditcl2.cpp:891
-msgid "Goto Line"
-msgstr "Sorra ugrás"
-
-#: keditcl2.cpp:896
-msgid "Go"
-msgstr "Ugrás"
-
 #: print.cpp:66
 msgid "Print Dialog"
 msgstr "Nyomtatás párbeszédablak"
@@ -523,6 +391,111 @@ msgstr "Küldés"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Kérem, írja be a címzettet"
+
+#~ msgid "The specified File does not exist"
+#~ msgstr "A file nem létezik"
+
+#~ msgid "Sorry:"
+#~ msgstr "Elnézést:"
+
+#~ msgid "You have specificated a directory"
+#~ msgstr "A megadott név könyvtárnév"
+
+#~ msgid "You do not have read permission to this file."
+#~ msgstr "Nincs olvasási jogosultsága a file-hoz."
+
+#~ msgid "An Error occured while trying to open this Document"
+#~ msgstr "Hiba történt a dokumentum megnyitása közben"
+
+#~ msgid "Select Document to Insert"
+#~ msgstr "Válassza ki a beszúrandó dokumentumot"
+
+#~ msgid "Warning:"
+#~ msgstr "Figyelem:"
+
+#~ msgid ""
+#~ "The current Document has been modified.\n"
+#~ "Would you like to save it?"
+#~ msgstr ""
+#~ "A jelenlegi dokumentum megváltozott.\n"
+#~ "El kívánja menteni?"
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not save the document.\n"
+#~ "Open a new document anyways?"
+#~ msgstr ""
+#~ "Nem lehet a file-ba menteni.\n"
+#~ "Mégis kilép?"
+
+#~ msgid "Select Document to Open"
+#~ msgstr "Válassza ki a megnyitandó dokumentumot"
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not save the document.\n"
+#~ "Create a new document anyways?"
+#~ msgstr ""
+#~ "Nem lehet a file-ba menteni.\n"
+#~ "Mégis kilép?"
+
+#~ msgid "Could not save the document\n"
+#~ msgstr "Nem lehet kimenteni a dokumentumot\n"
+
+#~ msgid "Save Document As"
+#~ msgstr "Dokumentum mentése másként"
+
+#~ msgid ""
+#~ "A Document with this Name exists already\n"
+#~ "Do you want to overwrite it ?"
+#~ msgstr ""
+#~ "Ezen a néven már létezik egy dokumentum.\n"
+#~ "Felül kívánja írni?"
+
+#, fuzzy
+#~ msgid "You do not have write permission to this file.\n"
+#~ msgstr "Nincs írási jogosultsága a file-hoz.\n"
+
+#~ msgid "Find"
+#~ msgstr "Keres"
+
+#~ msgid ""
+#~ "End of document reached.\n"
+#~ "Continue from the beginning?"
+#~ msgstr ""
+#~ "A dokumentum végére ért.\n"
+#~ "Folytatni kívánja az elejérõl?"
+
+#~ msgid ""
+#~ "Beginning of document reached.\n"
+#~ "Continue from the end?"
+#~ msgstr ""
+#~ "A dokumentum elejére ért.\n"
+#~ "Folytatni kívánja a végérõl?"
+
+#~ msgid "Replace"
+#~ msgstr "Csere"
+
+#~ msgid "Case Sensitive"
+#~ msgstr "Kis / nagybetûk"
+
+#~ msgid "Find Backwards"
+#~ msgstr "Visszafelé"
+
+#~ msgid "Find:"
+#~ msgstr "Mit:"
+
+#~ msgid "Replace with:"
+#~ msgstr "Mire:"
+
+#~ msgid "Replace All"
+#~ msgstr "Mindent cserél"
+
+#~ msgid "Goto Line"
+#~ msgstr "Sorra ugrás"
+
+#~ msgid "Go"
+#~ msgstr "Ugrás"
 
 #~ msgid "&Open..."
 #~ msgstr "&Megnyitás..."

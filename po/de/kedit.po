@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
-"POT-Creation-Date: 1997-12-31 15:20+0100\n"
+"POT-Creation-Date: 1998-01-03 22:56+0100\n"
 "PO-Revision-Date: 1997-12-28 19:17+01\n"
 "Last-Translator: Stephan Kulow <coolo@kde.org>\n"
 
@@ -329,135 +329,6 @@ msgstr ""
 "Kann nicht erstellen:\n"
 "%s"
 
-#: keditcl1.cpp:128
-msgid "The specified File does not exist"
-msgstr "Die angegebene Datei existiert nicht"
-
-#: keditcl1.cpp:141 keditcl1.cpp:413 keditcl1.cpp:494 keditcl1.cpp:1626
-msgid "Sorry:"
-msgstr "Sorry:"
-
-#: keditcl1.cpp:142
-msgid "You have specificated a directory"
-msgstr "Der angebene Name ist ein Verzeichnis"
-
-#: keditcl1.cpp:157 keditcl1.cpp:178
-msgid "You do not have read permission to this file."
-msgstr "Die Zugriffsrechte für diese Datei erlauben kein Lesen"
-
-#: keditcl1.cpp:191
-msgid "An Error occured while trying to open this Document"
-msgstr "Ein Fehler ist beim Lesen des Dokuments aufgetreten."
-
-#: keditcl1.cpp:356
-msgid "Select Document to Insert"
-msgstr "Auswahl der einzufügenden Datei"
-
-#: keditcl1.cpp:392 keditcl1.cpp:474 keditcl1.cpp:1569
-msgid "Warning:"
-msgstr "Warnung:"
-
-#: keditcl1.cpp:393 keditcl1.cpp:475
-msgid ""
-"The current Document has been modified.\n"
-"Would you like to save it?"
-msgstr ""
-"Das aktuelle Dokument wurde geändert.\n"
-"Wollen Sie es speichern?"
-
-#: keditcl1.cpp:414
-msgid ""
-"Could not save the document.\n"
-"Open a new document anyways?"
-msgstr ""
-"Konnte die Datei nicht speichern!\n"
-"Wollen Sie trotzdem eine neue öffnen?"
-
-#: keditcl1.cpp:445
-msgid "Select Document to Open"
-msgstr "Auswahl der zu öffnenden Datei"
-
-#: keditcl1.cpp:495
-msgid ""
-"Could not save the document.\n"
-"Create a new document anyways?"
-msgstr ""
-"Konnte das Dokument nicht speichern!\n"
-"Wollen Sie trotzdem ein neues erstellen?"
-
-#: keditcl1.cpp:1471
-msgid "Could not save the document\n"
-msgstr "Konnte das Dokument nicht speichern\n"
-
-#: keditcl1.cpp:1541
-msgid "Save Document As"
-msgstr "Speichere Dokument als"
-
-#: keditcl1.cpp:1570
-msgid ""
-"A Document with this Name exists already\n"
-"Do you want to overwrite it ?"
-msgstr ""
-"Ein Dokument mit diesem Namen existiert schon\n"
-"Wollen Sie es überschreiben?"
-
-#: keditcl1.cpp:1627
-msgid "You do not have write permission to this file.\n"
-msgstr "Sie haben keine Schreibrechte für diese Datei.\n"
-
-#: keditcl2.cpp:105 keditcl2.cpp:122 keditcl2.cpp:362 keditcl2.cpp:379
-#: keditcl2.cpp:678 keditcl2.cpp:687 keditcl2.cpp:788
-msgid "Find"
-msgstr "Suche"
-
-#: keditcl2.cpp:106 keditcl2.cpp:363 keditcl2.cpp:456
-msgid ""
-"End of document reached.\n"
-"Continue from the beginning?"
-msgstr ""
-"Das Ende des Dokumentes ist erreicht.\n"
-"Am Anfang forsetzen?"
-
-#: keditcl2.cpp:123 keditcl2.cpp:380 keditcl2.cpp:426 keditcl2.cpp:473
-msgid ""
-"Beginning of document reached.\n"
-"Continue from the end?"
-msgstr ""
-"Anfang des Dokumentes ist erreicht.\n"
-"Am Ende fortsetzen?"
-
-#: keditcl2.cpp:425 keditcl2.cpp:455 keditcl2.cpp:472 keditcl2.cpp:791
-msgid "Replace"
-msgstr "Ersetzen"
-
-#: keditcl2.cpp:684 keditcl2.cpp:782
-msgid "Case Sensitive"
-msgstr "Groß/Kleinschreibung"
-
-#: keditcl2.cpp:685 keditcl2.cpp:785
-msgid "Find Backwards"
-msgstr "Suche rückwärts"
-
-#: keditcl2.cpp:770
-msgid "Find:"
-msgstr "Suche:"
-
-#: keditcl2.cpp:780
-msgid "Replace with:"
-msgstr "Ersetzen durch:"
-
-#: keditcl2.cpp:794
-msgid "Replace All"
-msgstr "Alle ersetzen"
-
-#: keditcl2.cpp:891
-msgid "Goto Line"
-msgstr "Gehe zu Zeile"
-
-#: keditcl2.cpp:896
-msgid "Go"
-msgstr "Gehe zu"
-
 #: print.cpp:66
 msgid "Print Dialog"
 msgstr "Druckeinstellungen"
@@ -509,3 +380,4 @@ msgstr "Email"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Sie müssen einen Empfänger eingeben"
+

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-12-31 15:20+0100\n"
+"POT-Creation-Date: 1998-01-03 22:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -341,138 +341,6 @@ msgid ""
 "%s"
 msgstr ""
 
-#: keditcl1.cpp:128
-msgid "The specified File does not exist"
-msgstr "O ficheiro especificado não existe"
-
-#: keditcl1.cpp:141 keditcl1.cpp:413 keditcl1.cpp:494 keditcl1.cpp:1626
-msgid "Sorry:"
-msgstr "Lamento:"
-
-#: keditcl1.cpp:142
-msgid "You have specificated a directory"
-msgstr "Especificou uma directoria"
-
-#: keditcl1.cpp:157 keditcl1.cpp:178
-msgid "You do not have read permission to this file."
-msgstr "Não tem permissões de leitura para este ficheiro."
-
-#: keditcl1.cpp:191
-msgid "An Error occured while trying to open this Document"
-msgstr "Ocorreu um Erro ao tentar abrir este Documento"
-
-#: keditcl1.cpp:356
-msgid "Select Document to Insert"
-msgstr "Seleccione o Documento a Inserir"
-
-#: keditcl1.cpp:392 keditcl1.cpp:474 keditcl1.cpp:1569
-msgid "Warning:"
-msgstr "Aviso:"
-
-#: keditcl1.cpp:393 keditcl1.cpp:475
-msgid ""
-"The current Document has been modified.\n"
-"Would you like to save it?"
-msgstr ""
-"O Documento actual foi modificado.\n"
-"Deseja grava-lo?"
-
-#: keditcl1.cpp:414
-#, fuzzy
-msgid ""
-"Could not save the document.\n"
-"Open a new document anyways?"
-msgstr ""
-"Não foi possivel gravar o ficheiro.\n"
-"Sair mesmo assim?"
-
-#: keditcl1.cpp:445
-msgid "Select Document to Open"
-msgstr "Seleccione o Documento para Abrir"
-
-#: keditcl1.cpp:495
-#, fuzzy
-msgid ""
-"Could not save the document.\n"
-"Create a new document anyways?"
-msgstr ""
-"Não foi possivel gravar o ficheiro.\n"
-"Sair mesmo assim?"
-
-#: keditcl1.cpp:1471
-msgid "Could not save the document\n"
-msgstr "Não foi possivel gravar o Documento\n"
-
-#: keditcl1.cpp:1541
-msgid "Save Document As"
-msgstr "Gravar Documento Como"
-
-#: keditcl1.cpp:1570
-msgid ""
-"A Document with this Name exists already\n"
-"Do you want to overwrite it ?"
-msgstr ""
-"Já existe um Documento com este Nome\n"
-"Deseja escrever por cima ?"
-
-#: keditcl1.cpp:1627
-#, fuzzy
-msgid "You do not have write permission to this file.\n"
-msgstr "Não tem permissões para escrever para este ficheiro.\n"
-
-#: keditcl2.cpp:105 keditcl2.cpp:122 keditcl2.cpp:362 keditcl2.cpp:379
-#: keditcl2.cpp:678 keditcl2.cpp:687 keditcl2.cpp:788
-msgid "Find"
-msgstr "Encontrar"
-
-#: keditcl2.cpp:106 keditcl2.cpp:363 keditcl2.cpp:456
-msgid ""
-"End of document reached.\n"
-"Continue from the beginning?"
-msgstr ""
-"Fim do documento atingido.\n"
-"Continuar desde o inicio?"
-
-#: keditcl2.cpp:123 keditcl2.cpp:380 keditcl2.cpp:426 keditcl2.cpp:473
-msgid ""
-"Beginning of document reached.\n"
-"Continue from the end?"
-msgstr ""
-"Inicio do documento atingido.\n"
-"Continuar desde o fim?"
-
-#: keditcl2.cpp:425 keditcl2.cpp:455 keditcl2.cpp:472 keditcl2.cpp:791
-msgid "Replace"
-msgstr "Substituir"
-
-#: keditcl2.cpp:684 keditcl2.cpp:782
-msgid "Case Sensitive"
-msgstr "Sensivel a Maiusculas/Minusculas"
-
-#: keditcl2.cpp:685 keditcl2.cpp:785
-msgid "Find Backwards"
-msgstr "Encontrar para tras"
-
-#: keditcl2.cpp:770
-msgid "Find:"
-msgstr "Encontrar"
-
-#: keditcl2.cpp:780
-msgid "Replace with:"
-msgstr "Subsitituir com:"
-
-#: keditcl2.cpp:794
-msgid "Replace All"
-msgstr "Substituir Todos"
-
-#: keditcl2.cpp:891
-msgid "Goto Line"
-msgstr "Ir Para Linha"
-
-#: keditcl2.cpp:896
-msgid "Go"
-msgstr "Ir"
-
 #: print.cpp:66
 msgid "Print Dialog"
 msgstr "Imprimir Dialogo"
@@ -525,6 +393,111 @@ msgstr ""
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Tem que especificar um Receptor"
+
+#~ msgid "The specified File does not exist"
+#~ msgstr "O ficheiro especificado não existe"
+
+#~ msgid "Sorry:"
+#~ msgstr "Lamento:"
+
+#~ msgid "You have specificated a directory"
+#~ msgstr "Especificou uma directoria"
+
+#~ msgid "You do not have read permission to this file."
+#~ msgstr "Não tem permissões de leitura para este ficheiro."
+
+#~ msgid "An Error occured while trying to open this Document"
+#~ msgstr "Ocorreu um Erro ao tentar abrir este Documento"
+
+#~ msgid "Select Document to Insert"
+#~ msgstr "Seleccione o Documento a Inserir"
+
+#~ msgid "Warning:"
+#~ msgstr "Aviso:"
+
+#~ msgid ""
+#~ "The current Document has been modified.\n"
+#~ "Would you like to save it?"
+#~ msgstr ""
+#~ "O Documento actual foi modificado.\n"
+#~ "Deseja grava-lo?"
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not save the document.\n"
+#~ "Open a new document anyways?"
+#~ msgstr ""
+#~ "Não foi possivel gravar o ficheiro.\n"
+#~ "Sair mesmo assim?"
+
+#~ msgid "Select Document to Open"
+#~ msgstr "Seleccione o Documento para Abrir"
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not save the document.\n"
+#~ "Create a new document anyways?"
+#~ msgstr ""
+#~ "Não foi possivel gravar o ficheiro.\n"
+#~ "Sair mesmo assim?"
+
+#~ msgid "Could not save the document\n"
+#~ msgstr "Não foi possivel gravar o Documento\n"
+
+#~ msgid "Save Document As"
+#~ msgstr "Gravar Documento Como"
+
+#~ msgid ""
+#~ "A Document with this Name exists already\n"
+#~ "Do you want to overwrite it ?"
+#~ msgstr ""
+#~ "Já existe um Documento com este Nome\n"
+#~ "Deseja escrever por cima ?"
+
+#, fuzzy
+#~ msgid "You do not have write permission to this file.\n"
+#~ msgstr "Não tem permissões para escrever para este ficheiro.\n"
+
+#~ msgid "Find"
+#~ msgstr "Encontrar"
+
+#~ msgid ""
+#~ "End of document reached.\n"
+#~ "Continue from the beginning?"
+#~ msgstr ""
+#~ "Fim do documento atingido.\n"
+#~ "Continuar desde o inicio?"
+
+#~ msgid ""
+#~ "Beginning of document reached.\n"
+#~ "Continue from the end?"
+#~ msgstr ""
+#~ "Inicio do documento atingido.\n"
+#~ "Continuar desde o fim?"
+
+#~ msgid "Replace"
+#~ msgstr "Substituir"
+
+#~ msgid "Case Sensitive"
+#~ msgstr "Sensivel a Maiusculas/Minusculas"
+
+#~ msgid "Find Backwards"
+#~ msgstr "Encontrar para tras"
+
+#~ msgid "Find:"
+#~ msgstr "Encontrar"
+
+#~ msgid "Replace with:"
+#~ msgstr "Subsitituir com:"
+
+#~ msgid "Replace All"
+#~ msgstr "Substituir Todos"
+
+#~ msgid "Goto Line"
+#~ msgstr "Ir Para Linha"
+
+#~ msgid "Go"
+#~ msgstr "Ir"
 
 #~ msgid "&Open..."
 #~ msgstr "&Abrir..."

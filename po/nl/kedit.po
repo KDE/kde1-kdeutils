@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-12-31 15:20+0100\n"
+"POT-Creation-Date: 1998-01-03 22:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -343,138 +343,6 @@ msgid ""
 "%s"
 msgstr ""
 
-#: keditcl1.cpp:128
-msgid "The specified File does not exist"
-msgstr "Het gespecificeerde bestand bestaat niet"
-
-#: keditcl1.cpp:141 keditcl1.cpp:413 keditcl1.cpp:494 keditcl1.cpp:1626
-msgid "Sorry:"
-msgstr "Sorry:"
-
-#: keditcl1.cpp:142
-msgid "You have specificated a directory"
-msgstr "De aangegeven naam is een map"
-
-#: keditcl1.cpp:157 keditcl1.cpp:178
-msgid "You do not have read permission to this file."
-msgstr "Niet genoeg rechten om het bestand te lezen."
-
-#: keditcl1.cpp:191
-msgid "An Error occured while trying to open this Document"
-msgstr "Tijdens het openen van dit document is een fout opgetreden"
-
-#: keditcl1.cpp:356
-msgid "Select Document to Insert"
-msgstr "Selecteer een document om in te voegen"
-
-#: keditcl1.cpp:392 keditcl1.cpp:474 keditcl1.cpp:1569
-msgid "Warning:"
-msgstr "Waarschuwing:"
-
-#: keditcl1.cpp:393 keditcl1.cpp:475
-msgid ""
-"The current Document has been modified.\n"
-"Would you like to save it?"
-msgstr ""
-"Het huidige document is gewijzigd.\n"
-"Moet het opgeslagen worden ?"
-
-#: keditcl1.cpp:414
-#, fuzzy
-msgid ""
-"Could not save the document.\n"
-"Open a new document anyways?"
-msgstr ""
-"Kon het bestand niet opslaan.\n"
-"Toch kedit afsluiten ?"
-
-#: keditcl1.cpp:445
-msgid "Select Document to Open"
-msgstr "Selecteer het te openen document"
-
-#: keditcl1.cpp:495
-#, fuzzy
-msgid ""
-"Could not save the document.\n"
-"Create a new document anyways?"
-msgstr ""
-"Kon het bestand niet opslaan.\n"
-"Toch kedit afsluiten ?"
-
-#: keditcl1.cpp:1471
-msgid "Could not save the document\n"
-msgstr "Kon het document niet opslaan\n"
-
-#: keditcl1.cpp:1541
-msgid "Save Document As"
-msgstr "Sla document op als"
-
-#: keditcl1.cpp:1570
-msgid ""
-"A Document with this Name exists already\n"
-"Do you want to overwrite it ?"
-msgstr ""
-"Een document met die naam bestaat reeds\n"
-"Moet het overschreven worden ?"
-
-#: keditcl1.cpp:1627
-#, fuzzy
-msgid "You do not have write permission to this file.\n"
-msgstr "Niet voldoende rechten om naar dit bestand te schrijven\n"
-
-#: keditcl2.cpp:105 keditcl2.cpp:122 keditcl2.cpp:362 keditcl2.cpp:379
-#: keditcl2.cpp:678 keditcl2.cpp:687 keditcl2.cpp:788
-msgid "Find"
-msgstr "Zoeken"
-
-#: keditcl2.cpp:106 keditcl2.cpp:363 keditcl2.cpp:456
-msgid ""
-"End of document reached.\n"
-"Continue from the beginning?"
-msgstr ""
-"Het einde van het document is bereikt.\n"
-"Aan het begin van het document doorgaan ?"
-
-#: keditcl2.cpp:123 keditcl2.cpp:380 keditcl2.cpp:426 keditcl2.cpp:473
-msgid ""
-"Beginning of document reached.\n"
-"Continue from the end?"
-msgstr ""
-"Het begin van het document is bereikt.\n"
-"Aan het einde van het document doorgaan ?"
-
-#: keditcl2.cpp:425 keditcl2.cpp:455 keditcl2.cpp:472 keditcl2.cpp:791
-msgid "Replace"
-msgstr "Vervang"
-
-#: keditcl2.cpp:684 keditcl2.cpp:782
-msgid "Case Sensitive"
-msgstr "Onderscheid tussen hoofd en kleine letters"
-
-#: keditcl2.cpp:685 keditcl2.cpp:785
-msgid "Find Backwards"
-msgstr "Achterwaards zoeken"
-
-#: keditcl2.cpp:770
-msgid "Find:"
-msgstr "Zoek:"
-
-#: keditcl2.cpp:780
-msgid "Replace with:"
-msgstr "Vervangen met:"
-
-#: keditcl2.cpp:794
-msgid "Replace All"
-msgstr "Alles vervangen"
-
-#: keditcl2.cpp:891
-msgid "Goto Line"
-msgstr "Ga naar regel"
-
-#: keditcl2.cpp:896
-msgid "Go"
-msgstr "Ga naar"
-
 #: print.cpp:66
 msgid "Print Dialog"
 msgstr "Document afdrukken"
@@ -528,6 +396,111 @@ msgstr "Email"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Specificeer een geadresseerde"
+
+#~ msgid "The specified File does not exist"
+#~ msgstr "Het gespecificeerde bestand bestaat niet"
+
+#~ msgid "Sorry:"
+#~ msgstr "Sorry:"
+
+#~ msgid "You have specificated a directory"
+#~ msgstr "De aangegeven naam is een map"
+
+#~ msgid "You do not have read permission to this file."
+#~ msgstr "Niet genoeg rechten om het bestand te lezen."
+
+#~ msgid "An Error occured while trying to open this Document"
+#~ msgstr "Tijdens het openen van dit document is een fout opgetreden"
+
+#~ msgid "Select Document to Insert"
+#~ msgstr "Selecteer een document om in te voegen"
+
+#~ msgid "Warning:"
+#~ msgstr "Waarschuwing:"
+
+#~ msgid ""
+#~ "The current Document has been modified.\n"
+#~ "Would you like to save it?"
+#~ msgstr ""
+#~ "Het huidige document is gewijzigd.\n"
+#~ "Moet het opgeslagen worden ?"
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not save the document.\n"
+#~ "Open a new document anyways?"
+#~ msgstr ""
+#~ "Kon het bestand niet opslaan.\n"
+#~ "Toch kedit afsluiten ?"
+
+#~ msgid "Select Document to Open"
+#~ msgstr "Selecteer het te openen document"
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not save the document.\n"
+#~ "Create a new document anyways?"
+#~ msgstr ""
+#~ "Kon het bestand niet opslaan.\n"
+#~ "Toch kedit afsluiten ?"
+
+#~ msgid "Could not save the document\n"
+#~ msgstr "Kon het document niet opslaan\n"
+
+#~ msgid "Save Document As"
+#~ msgstr "Sla document op als"
+
+#~ msgid ""
+#~ "A Document with this Name exists already\n"
+#~ "Do you want to overwrite it ?"
+#~ msgstr ""
+#~ "Een document met die naam bestaat reeds\n"
+#~ "Moet het overschreven worden ?"
+
+#, fuzzy
+#~ msgid "You do not have write permission to this file.\n"
+#~ msgstr "Niet voldoende rechten om naar dit bestand te schrijven\n"
+
+#~ msgid "Find"
+#~ msgstr "Zoeken"
+
+#~ msgid ""
+#~ "End of document reached.\n"
+#~ "Continue from the beginning?"
+#~ msgstr ""
+#~ "Het einde van het document is bereikt.\n"
+#~ "Aan het begin van het document doorgaan ?"
+
+#~ msgid ""
+#~ "Beginning of document reached.\n"
+#~ "Continue from the end?"
+#~ msgstr ""
+#~ "Het begin van het document is bereikt.\n"
+#~ "Aan het einde van het document doorgaan ?"
+
+#~ msgid "Replace"
+#~ msgstr "Vervang"
+
+#~ msgid "Case Sensitive"
+#~ msgstr "Onderscheid tussen hoofd en kleine letters"
+
+#~ msgid "Find Backwards"
+#~ msgstr "Achterwaards zoeken"
+
+#~ msgid "Find:"
+#~ msgstr "Zoek:"
+
+#~ msgid "Replace with:"
+#~ msgstr "Vervangen met:"
+
+#~ msgid "Replace All"
+#~ msgstr "Alles vervangen"
+
+#~ msgid "Goto Line"
+#~ msgstr "Ga naar regel"
+
+#~ msgid "Go"
+#~ msgstr "Ga naar"
 
 #~ msgid "&Open..."
 #~ msgstr "&Openen..."

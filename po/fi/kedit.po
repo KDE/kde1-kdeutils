@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-12-31 15:20+0100\n"
+"POT-Creation-Date: 1998-01-03 22:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -344,134 +344,6 @@ msgid ""
 "%s"
 msgstr ""
 
-#: keditcl1.cpp:128
-msgid "The specified File does not exist"
-msgstr "M‰‰ritetty‰ tiedostoa ei ole olemassa"
-
-#: keditcl1.cpp:141 keditcl1.cpp:413 keditcl1.cpp:494 keditcl1.cpp:1626
-msgid "Sorry:"
-msgstr "Valitettavasti:"
-
-#: keditcl1.cpp:142
-msgid "You have specificated a directory"
-msgstr "M‰‰rittelit hakemiston"
-
-#: keditcl1.cpp:157 keditcl1.cpp:178
-msgid "You do not have read permission to this file."
-msgstr "Sinulla ei ole lukuoikeutta t‰h‰n tiedostoon."
-
-#: keditcl1.cpp:191
-msgid "An Error occured while trying to open this Document"
-msgstr "Virhe luettaessa t‰t‰ asiakirjaa"
-
-#: keditcl1.cpp:356
-msgid "Select Document to Insert"
-msgstr "Valitse asiakirja liitt‰‰ksesi"
-
-#: keditcl1.cpp:392 keditcl1.cpp:474 keditcl1.cpp:1569
-msgid "Warning:"
-msgstr "Varoitus:"
-
-#: keditcl1.cpp:393 keditcl1.cpp:475
-msgid ""
-"The current Document has been modified.\n"
-"Would you like to save it?"
-msgstr ""
-"Nykyist‰ asiakirjaa on muokattu.\n"
-"Haluatko tallentaa sen?"
-
-#: keditcl1.cpp:414
-#, fuzzy
-msgid ""
-"Could not save the document.\n"
-"Open a new document anyways?"
-msgstr ""
-"Tiedoston tallennus ep‰onnistui.\n"
-"Lopetetaanko kuitenkin?"
-
-#: keditcl1.cpp:445
-msgid "Select Document to Open"
-msgstr "Valitse avattava asiakirja"
-
-#: keditcl1.cpp:495
-#, fuzzy
-msgid ""
-"Could not save the document.\n"
-"Create a new document anyways?"
-msgstr ""
-"Tiedoston tallennus ep‰onnistui.\n"
-"Lopetetaanko kuitenkin?"
-
-#: keditcl1.cpp:1471
-msgid "Could not save the document\n"
-msgstr "Asiakirjan tallentaminen ep‰onnistui\n"
-
-#: keditcl1.cpp:1541
-msgid "Save Document As"
-msgstr "Tallenna asiakirja nimell‰"
-
-#: keditcl1.cpp:1570
-msgid ""
-"A Document with this Name exists already\n"
-"Do you want to overwrite it ?"
-msgstr ""
-"Asiakirja on jo olemassa.\n"
-"Haluatko tallentaa sen p‰‰lle?"
-
-#: keditcl1.cpp:1627
-#, fuzzy
-msgid "You do not have write permission to this file.\n"
-msgstr "Sinulla ei ole lukuoikeutta t‰h‰n tiedostoon."
-
-#: keditcl2.cpp:105 keditcl2.cpp:122 keditcl2.cpp:362 keditcl2.cpp:379
-#: keditcl2.cpp:678 keditcl2.cpp:687 keditcl2.cpp:788
-msgid "Find"
-msgstr ""
-
-#: keditcl2.cpp:106 keditcl2.cpp:363 keditcl2.cpp:456
-msgid ""
-"End of document reached.\n"
-"Continue from the beginning?"
-msgstr ""
-
-#: keditcl2.cpp:123 keditcl2.cpp:380 keditcl2.cpp:426 keditcl2.cpp:473
-msgid ""
-"Beginning of document reached.\n"
-"Continue from the end?"
-msgstr ""
-
-#: keditcl2.cpp:425 keditcl2.cpp:455 keditcl2.cpp:472 keditcl2.cpp:791
-msgid "Replace"
-msgstr ""
-
-#: keditcl2.cpp:684 keditcl2.cpp:782
-msgid "Case Sensitive"
-msgstr ""
-
-#: keditcl2.cpp:685 keditcl2.cpp:785
-msgid "Find Backwards"
-msgstr ""
-
-#: keditcl2.cpp:770
-msgid "Find:"
-msgstr ""
-
-#: keditcl2.cpp:780
-msgid "Replace with:"
-msgstr ""
-
-#: keditcl2.cpp:794
-msgid "Replace All"
-msgstr ""
-
-#: keditcl2.cpp:891
-msgid "Goto Line"
-msgstr ""
-
-#: keditcl2.cpp:896
-msgid "Go"
-msgstr ""
-
 #: print.cpp:66
 msgid "Print Dialog"
 msgstr ""
@@ -524,6 +396,70 @@ msgstr ""
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr ""
+
+#~ msgid "The specified File does not exist"
+#~ msgstr "M‰‰ritetty‰ tiedostoa ei ole olemassa"
+
+#~ msgid "Sorry:"
+#~ msgstr "Valitettavasti:"
+
+#~ msgid "You have specificated a directory"
+#~ msgstr "M‰‰rittelit hakemiston"
+
+#~ msgid "You do not have read permission to this file."
+#~ msgstr "Sinulla ei ole lukuoikeutta t‰h‰n tiedostoon."
+
+#~ msgid "An Error occured while trying to open this Document"
+#~ msgstr "Virhe luettaessa t‰t‰ asiakirjaa"
+
+#~ msgid "Select Document to Insert"
+#~ msgstr "Valitse asiakirja liitt‰‰ksesi"
+
+#~ msgid "Warning:"
+#~ msgstr "Varoitus:"
+
+#~ msgid ""
+#~ "The current Document has been modified.\n"
+#~ "Would you like to save it?"
+#~ msgstr ""
+#~ "Nykyist‰ asiakirjaa on muokattu.\n"
+#~ "Haluatko tallentaa sen?"
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not save the document.\n"
+#~ "Open a new document anyways?"
+#~ msgstr ""
+#~ "Tiedoston tallennus ep‰onnistui.\n"
+#~ "Lopetetaanko kuitenkin?"
+
+#~ msgid "Select Document to Open"
+#~ msgstr "Valitse avattava asiakirja"
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not save the document.\n"
+#~ "Create a new document anyways?"
+#~ msgstr ""
+#~ "Tiedoston tallennus ep‰onnistui.\n"
+#~ "Lopetetaanko kuitenkin?"
+
+#~ msgid "Could not save the document\n"
+#~ msgstr "Asiakirjan tallentaminen ep‰onnistui\n"
+
+#~ msgid "Save Document As"
+#~ msgstr "Tallenna asiakirja nimell‰"
+
+#~ msgid ""
+#~ "A Document with this Name exists already\n"
+#~ "Do you want to overwrite it ?"
+#~ msgstr ""
+#~ "Asiakirja on jo olemassa.\n"
+#~ "Haluatko tallentaa sen p‰‰lle?"
+
+#, fuzzy
+#~ msgid "You do not have write permission to this file.\n"
+#~ msgstr "Sinulla ei ole lukuoikeutta t‰h‰n tiedostoon."
 
 #~ msgid "&Open..."
 #~ msgstr "&Avaa..."

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-12-31 15:20+0100\n"
+"POT-Creation-Date: 1998-01-03 22:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -342,138 +342,6 @@ msgid ""
 "%s"
 msgstr ""
 
-#: keditcl1.cpp:128
-msgid "The specified File does not exist"
-msgstr "Den angivna filen finns inte"
-
-#: keditcl1.cpp:141 keditcl1.cpp:413 keditcl1.cpp:494 keditcl1.cpp:1626
-msgid "Sorry:"
-msgstr "Tyvärr:"
-
-#: keditcl1.cpp:142
-msgid "You have specificated a directory"
-msgstr "Du angav en katalog"
-
-#: keditcl1.cpp:157 keditcl1.cpp:178
-msgid "You do not have read permission to this file."
-msgstr "Du har inte läsrättigheter till den här filen."
-
-#: keditcl1.cpp:191
-msgid "An Error occured while trying to open this Document"
-msgstr "Ett fel inträffade under läsningen av det här dokumentet"
-
-#: keditcl1.cpp:356
-msgid "Select Document to Insert"
-msgstr "Välg dokument att infoga"
-
-#: keditcl1.cpp:392 keditcl1.cpp:474 keditcl1.cpp:1569
-msgid "Warning:"
-msgstr "Varning:"
-
-#: keditcl1.cpp:393 keditcl1.cpp:475
-msgid ""
-"The current Document has been modified.\n"
-"Would you like to save it?"
-msgstr ""
-"Det nuvarande dokumentet har ändrats.\n"
-"Vill du spara det?"
-
-#: keditcl1.cpp:414
-#, fuzzy
-msgid ""
-"Could not save the document.\n"
-"Open a new document anyways?"
-msgstr ""
-"Kunde inte spara filen.\n"
-"Avsluta ändå?"
-
-#: keditcl1.cpp:445
-msgid "Select Document to Open"
-msgstr "Väl dokument att öppna"
-
-#: keditcl1.cpp:495
-#, fuzzy
-msgid ""
-"Could not save the document.\n"
-"Create a new document anyways?"
-msgstr ""
-"Kunde inte spara filen.\n"
-"Avsluta ändå?"
-
-#: keditcl1.cpp:1471
-msgid "Could not save the document\n"
-msgstr "Kunde inte spara dokumentet\n"
-
-#: keditcl1.cpp:1541
-msgid "Save Document As"
-msgstr "Spara dokument som"
-
-#: keditcl1.cpp:1570
-msgid ""
-"A Document with this Name exists already\n"
-"Do you want to overwrite it ?"
-msgstr ""
-"Ett dokument med det angivna namnet finns redan\n"
-"Vill du skriva över det?"
-
-#: keditcl1.cpp:1627
-#, fuzzy
-msgid "You do not have write permission to this file.\n"
-msgstr "Du har inte skrivrättigheter till den angivna filen.\n"
-
-#: keditcl2.cpp:105 keditcl2.cpp:122 keditcl2.cpp:362 keditcl2.cpp:379
-#: keditcl2.cpp:678 keditcl2.cpp:687 keditcl2.cpp:788
-msgid "Find"
-msgstr "Sök"
-
-#: keditcl2.cpp:106 keditcl2.cpp:363 keditcl2.cpp:456
-msgid ""
-"End of document reached.\n"
-"Continue from the beginning?"
-msgstr ""
-"Dokumentets slutt nått.\n"
-"Vill du söka från början?"
-
-#: keditcl2.cpp:123 keditcl2.cpp:380 keditcl2.cpp:426 keditcl2.cpp:473
-msgid ""
-"Beginning of document reached.\n"
-"Continue from the end?"
-msgstr ""
-"Dokumentets början nådd.\n"
-"Vill du söka från slutet?"
-
-#: keditcl2.cpp:425 keditcl2.cpp:455 keditcl2.cpp:472 keditcl2.cpp:791
-msgid "Replace"
-msgstr "Ersätt"
-
-#: keditcl2.cpp:684 keditcl2.cpp:782
-msgid "Case Sensitive"
-msgstr "Gör skillnad på små och stora bokstäver"
-
-#: keditcl2.cpp:685 keditcl2.cpp:785
-msgid "Find Backwards"
-msgstr "Sök baklänges"
-
-#: keditcl2.cpp:770
-msgid "Find:"
-msgstr "Sök:"
-
-#: keditcl2.cpp:780
-msgid "Replace with:"
-msgstr "Ersätt med:"
-
-#: keditcl2.cpp:794
-msgid "Replace All"
-msgstr "Ersätt alla"
-
-#: keditcl2.cpp:891
-msgid "Goto Line"
-msgstr "Gå till rad"
-
-#: keditcl2.cpp:896
-msgid "Go"
-msgstr "Gå"
-
 #: print.cpp:66
 msgid "Print Dialog"
 msgstr "Utskriftsdialog"
@@ -526,6 +394,111 @@ msgstr "Posta"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Du måste ange en mottagare"
+
+#~ msgid "The specified File does not exist"
+#~ msgstr "Den angivna filen finns inte"
+
+#~ msgid "Sorry:"
+#~ msgstr "Tyvärr:"
+
+#~ msgid "You have specificated a directory"
+#~ msgstr "Du angav en katalog"
+
+#~ msgid "You do not have read permission to this file."
+#~ msgstr "Du har inte läsrättigheter till den här filen."
+
+#~ msgid "An Error occured while trying to open this Document"
+#~ msgstr "Ett fel inträffade under läsningen av det här dokumentet"
+
+#~ msgid "Select Document to Insert"
+#~ msgstr "Välg dokument att infoga"
+
+#~ msgid "Warning:"
+#~ msgstr "Varning:"
+
+#~ msgid ""
+#~ "The current Document has been modified.\n"
+#~ "Would you like to save it?"
+#~ msgstr ""
+#~ "Det nuvarande dokumentet har ändrats.\n"
+#~ "Vill du spara det?"
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not save the document.\n"
+#~ "Open a new document anyways?"
+#~ msgstr ""
+#~ "Kunde inte spara filen.\n"
+#~ "Avsluta ändå?"
+
+#~ msgid "Select Document to Open"
+#~ msgstr "Väl dokument att öppna"
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not save the document.\n"
+#~ "Create a new document anyways?"
+#~ msgstr ""
+#~ "Kunde inte spara filen.\n"
+#~ "Avsluta ändå?"
+
+#~ msgid "Could not save the document\n"
+#~ msgstr "Kunde inte spara dokumentet\n"
+
+#~ msgid "Save Document As"
+#~ msgstr "Spara dokument som"
+
+#~ msgid ""
+#~ "A Document with this Name exists already\n"
+#~ "Do you want to overwrite it ?"
+#~ msgstr ""
+#~ "Ett dokument med det angivna namnet finns redan\n"
+#~ "Vill du skriva över det?"
+
+#, fuzzy
+#~ msgid "You do not have write permission to this file.\n"
+#~ msgstr "Du har inte skrivrättigheter till den angivna filen.\n"
+
+#~ msgid "Find"
+#~ msgstr "Sök"
+
+#~ msgid ""
+#~ "End of document reached.\n"
+#~ "Continue from the beginning?"
+#~ msgstr ""
+#~ "Dokumentets slutt nått.\n"
+#~ "Vill du söka från början?"
+
+#~ msgid ""
+#~ "Beginning of document reached.\n"
+#~ "Continue from the end?"
+#~ msgstr ""
+#~ "Dokumentets början nådd.\n"
+#~ "Vill du söka från slutet?"
+
+#~ msgid "Replace"
+#~ msgstr "Ersätt"
+
+#~ msgid "Case Sensitive"
+#~ msgstr "Gör skillnad på små och stora bokstäver"
+
+#~ msgid "Find Backwards"
+#~ msgstr "Sök baklänges"
+
+#~ msgid "Find:"
+#~ msgstr "Sök:"
+
+#~ msgid "Replace with:"
+#~ msgstr "Ersätt med:"
+
+#~ msgid "Replace All"
+#~ msgstr "Ersätt alla"
+
+#~ msgid "Goto Line"
+#~ msgstr "Gå till rad"
+
+#~ msgid "Go"
+#~ msgstr "Gå"
 
 #~ msgid "&Open..."
 #~ msgstr "&Öppna"
