@@ -19,18 +19,18 @@ INCLUDES= @all_includes@
 
 APPSDIR = $(kde_appsdir)/Utilities
 bin_PROGRAMS = 	kab kabapi_test
-THE_LIBS= -lkfile -lkfm -lkdeui -lkdecore -lqt -lX11 \
-		-lXext @LIBSOCKET@ -lkab -ljpeg
+THE_LIBS= -lkab -lkfile -lkfm -lkdeui -lkdecore -lqt -lXext \
+	-lX11 $(LIBSOCKET) -ljpeg
 
 kab_SOURCES	= main.cc \
 		AddressBookAbout.cpp \
 		AddressBookAboutData.cpp \
 		toplevelwidget.cc
-kab_LDFLAGS = @all_libraries@
+kab_LDFLAGS = $(all_libraries) $(KDE_RPATH)
 kab_LDADD   = 	$(THE_LIBS)
 
 kabapi_test_SOURCES= kabapi_test.cc
-kabapi_test_LDFLAGS = @all_libraries@
+kabapi_test_LDFLAGS = $(all_libraries) $(KDE_RPATH)
 kabapi_test_LDADD= $(THE_LIBS)
 
 
