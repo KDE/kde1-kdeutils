@@ -254,7 +254,7 @@ msgstr "&Mine reale:"
 
 #: kwdialog.cpp:255
 msgid "Edit Options"
-msgstr "Redigeerimise valikuid"
+msgstr "Redigeerimise valikud"
 
 #: kwdialog.cpp:256
 msgid "Auto &Indent"
