@@ -40,6 +40,7 @@ extern "C" {
 #include "KJotsMain.h"
 #include "SubjList.h"
 #include "ReadListConf.h"
+#include "cpopmenu.h"
 
 const unsigned int HOT_LIST_SIZE = 8;
 const unsigned int BUTTON_WIDTH = 56;
@@ -76,6 +77,8 @@ MyMultiEdit::MyMultiEdit (QWidget* parent=0, const char* name=0)
   : QMultiLineEdit(parent, name)
 {
   initMetaObject();
+  web_menu = new CPopupMenu;
+  web_menu->insertItem("Open URL", this, SLOT(openUrl()) );
 }
 
 void MyMultiEdit::keyPressEvent( QKeyEvent *e )
@@ -87,6 +90,46 @@ void MyMultiEdit::keyPressEvent( QKeyEvent *e )
     }
   QMultiLineEdit::keyPressEvent(e);
   return;
+}
+
+void MyMultiEdit::mousePressEvent( QMouseEvent *e )
+{
+  if( e->button() == RightButton )
+    {
+      if( hasMarkedText() )
+	{
+	  QString marked = markedText();
+	  if( marked.left(7) == "http://" || marked.left(6) == "ftp://" )
+	    {
+	      web_menu->popup(QCursor::pos());
+	      web_menu->grabMouse();
+	    }
+	}
+      return;
+    }
+  QMultiLineEdit::mousePressEvent(e);
+  return;
+}
+
+void MyMultiEdit::openUrl()
+{
+  QString command;
+  if( hasMarkedText() )
+    {
+      QString marked = markedText();
+      if( marked.left(7) == "http://" )
+	{
+	  command = "kfmclient openURL ";
+	  command += marked;
+	  system((const char *) command);
+	}
+      else if( marked.left(6) == "ftp://" )
+	{
+	  command = "kfmclient openURL ";
+	  command += marked;
+	  system((const char *) command);
+	}
+    }
 }
 
 //----------------------------------------------------------------------
@@ -107,6 +150,7 @@ KJotsMain::KJotsMain(QWidget* parent, const char* name)
 	   SLOT(rebuildList( QList<TextEntry> *)) );
   connect( this, SIGNAL(entryMoved(int)), subj_list, SLOT( select(int)) );
   connect( subj_list, SIGNAL(entryMoved(int)), this, SLOT( barMoved(int)) );
+  //  connect( subj_list, SIGNAL(selected(int)), this, SLOT( toggleSubjList()) );
   connect( le_subject, SIGNAL(textChanged(const char *)), subj_list,
 	   SLOT(entryChanged(const char*)) );
 
@@ -225,7 +269,7 @@ KJotsMain::KJotsMain(QWidget* parent, const char* name)
 
   menubar->insertItem( "&File", file );
   menubar->insertItem( "&Edit", edit_menu, ALT+Key_E );
-  menubar->insertItem( "F&onds", fonds, ALT+Key_O );
+  menubar->insertItem( "F&onts", fonds, ALT+Key_O );
   menubar->insertItem( "Hot&list", hotlist, ALT+Key_L );
   menubar->insertSeparator();
   menubar->insertItem( "&Help", help, ALT+Key_H );
@@ -438,7 +482,6 @@ void KJotsMain::deleteFolder()
   folder_list.remove(index);
   int id = folders->idAt(index);
   folders->removeItemAt(index);
-  //int pos;
   if( hotlist.contains(name) )
     {
       hotlist.remove(name);
@@ -542,15 +585,16 @@ void KJotsMain::deleteEntry()
   entrylist.remove(current);
   if( current >= (int) entrylist.count() - 1 )
     {
-      current--;
+      if( current )
+	current--;
       s_bar->setValue(current);
       s_bar->setRange(0, entrylist.count()-1 );
     }
   me_text->setText( entrylist.at(current)->text );
+  emit entryMoved(current);
   le_subject->setText( entrylist.at(current)->subject );
   s_bar->setRange(0, entrylist.count()-1 );
   emit folderChanged(&entrylist);
-  emit entryMoved(current);
 }
 
 void KJotsMain::barMoved( int new_value )

@@ -1,6 +1,6 @@
 
 
-kjots version 0.2.2
+kjots version 0.2.3
 -------------------
 (C) 1997 Christoph Neerfeld (Christoph.Neerfeld@mail.bonn.netsurf.de)
 You may distribute kjots under the terms of the GNU General Public License.
@@ -9,13 +9,9 @@ kjots is a small note taker program. Name and idea are taken from
 the jots program included in the tkgoodstuff package.
 The tkgoodstuff package is copyright (C) 1995-96 by Mark Crimmins (markcrim@umich.edu).
 
-You will need libqt-1.2 (maybe qt-1.1 works), libkde-0.7.2 and ktoolpics-0.2 .
+You will need libqt-1.2, libkde-970510 and ktoolpics-0.2 .
 
-The binary is compiled against libqt-1.2 and libkde-0.7.2.
-NOTE: If you use libkde-0.7.1 then you may need a patch to libkde that I posted some
-time ago. Otherwise kjots won't find its config file. If you use libkde-0.7.2, then
-you don't need the patch!
-
+The binary is compiled against libqt-1.2 and libkde-970510.
 
 Features:
 	- you may create several folders to store small text notes
@@ -28,9 +24,6 @@ TODO:
 
 Install:
 	see INSTALL for details
-
-Upgrade:
-	see INSTALL (please do!)
 
 If you find bugs or have suggestions, send me an email
 

@@ -1,6 +1,6 @@
 Hi !
 
-I have just uploaded a new version (v0.2.2) of kjots to ftp.kde.org
+I have just uploaded a new version (v0.2.3) of kjots to ftp.kde.org
 in /pub/kde/apps/Incoming. I expect it will move to /pub/kde/apps/utils.
 
 What is kjots
@@ -15,9 +15,14 @@ paper lying on your desk.
 New in this version
 -------------------
 
-- some bug fixes
-- please use libkde-0.7.2
-- NOTE: please read the file INSTALL even if you upgrade !
+- compiles with libkde-970510   NOTE: this version is needed !
+- shouldn't segfault, if you delete pages
+- double clicking on an entry in the subjectlist closes the subjectlist window
+- fixed fonds -> fonts ;)
+
+I'm working on a new version. I just wanted to get this out because
+the old version does not compile with the new library.
+
 
 Regards.
 

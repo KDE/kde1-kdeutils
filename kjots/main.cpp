@@ -27,12 +27,13 @@
 
 #include <kapp.h>
 #include <drag.h>
+#include <kiconloader.h>
 
 #include "KJotsMain.h"
-#include "pixloader.h"
+//#include "pixloader.h"
 
 KJotsMain *main_widget;
-PixmapLoader *global_pix_loader;
+KIconLoader *global_pix_loader;
 
 int main( int argc, char **argv )
 {
@@ -60,18 +61,17 @@ debug ( "[kjots] started-------------------------" );
   if( !config->hasKey("Path") )
      {
        temp1 = (QString) getenv("KDEDIR");
-       temp1 += "/lib/pics";
+       temp1 += "/lib/pics/toolbar";
        config->writeEntry("Path", temp1);
      }
   config->setGroup("kjots");
-  temp2 = config->readEntry("helpfile");
-  if( temp2.isEmpty() )
+  if( !config->hasKey("helpfile") )
     {
       temp2 = (QString) getenv("KDEDIR");
       temp2 += "/doc/HTML/kjots/kjots.html";
       config->writeEntry("helpfile", temp2);
     }
-  global_pix_loader = new PixmapLoader( config, "Icons", "Path" );
+  global_pix_loader = new KIconLoader( config, "Icons", "Path" );
   KJotsMain jots;
   main_widget = &jots;
   a.setMainWidget( (QWidget *) &jots );

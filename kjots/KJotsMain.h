@@ -39,6 +39,7 @@
 
 class KJotsMain;
 class SubjList;
+class CPopupMenu;
 
 class TextEntry
 {
@@ -60,8 +61,14 @@ public:
   MyMultiEdit (QWidget* parent=0, const char* name=0);
   ~MyMultiEdit () {}
 
+protected slots:
+  void openUrl();
+
 protected:
   virtual void keyPressEvent (QKeyEvent* e);
+  virtual void mousePressEvent (QMouseEvent *e);
+
+  CPopupMenu *web_menu;
 };
 
 class AskFileName : public QDialog

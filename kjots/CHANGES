@@ -1,3 +1,9 @@
+new in version 0.2.3
+- compiles with libkde-970510   NOTE: this version is needed !
+- shouldn't segfault, if you delete pages
+- double clicking on an entry in the subjectlist closes the subjectlist window
+- fixed fonds -> fonts ;)
+
 new in version 0.2.2
 - compiles with libkde-0.7.2
 - several bug fixes

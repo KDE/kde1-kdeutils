@@ -22,11 +22,13 @@
 #include <qtooltip.h>
 #include <qapp.h>
 
+#include <kiconloader.h>
+
 #include "KJotsMainData.h"
 #include "KJotsMain.h"
-#include "pixloader.h"
+//#include "pixloader.h"
 
-extern PixmapLoader *global_pix_loader;
+extern KIconLoader *global_pix_loader;
 
 KJotsMainData::KJotsMainData
 (
@@ -60,33 +62,33 @@ KJotsMainData::KJotsMainData
 	b_new = new QPushButton( bg_bot, "PushButton_1" );
 	//b_new->setMinimumSize( 55, 24 );
 	b_new->setMinimumSize( 24, 20 );
-	b_new->setPixmap( global_pix_loader->loadPixmap("filenew.xpm") );
+	b_new->setPixmap( global_pix_loader->loadIcon("filenew.xpm") );
 	QToolTip::add( b_new, "New" );
 
 	b_delete = new QPushButton( bg_bot, "PushButton_2" );
 	b_delete->setMinimumSize( 24, 20 );
-	b_delete->setPixmap( global_pix_loader->loadPixmap("filedel.xpm") );
+	b_delete->setPixmap( global_pix_loader->loadIcon("filedel.xpm") );
 	QToolTip::add( b_delete, "Delete" );
 
 	b_prev = new QPushButton( bg_bot, "PushButton_3" );
 	b_prev->setMinimumSize( 24, 20 );
-	b_prev->setPixmap( global_pix_loader->loadPixmap("back.xpm") );
+	b_prev->setPixmap( global_pix_loader->loadIcon("back.xpm") );
 	QToolTip::add( b_prev, "Previous" );
 
 	b_next = new QPushButton( bg_bot, "PushButton_4" );
 	b_next->setMinimumSize( 24, 20 );
-	b_next->setPixmap( global_pix_loader->loadPixmap("forward.xpm") );
+	b_next->setPixmap( global_pix_loader->loadIcon("forward.xpm") );
 	QToolTip::add( b_next, "Next" );
 
 	b_list = new QPushButton( bg_bot, "b_list" );
 	b_list->setToggleButton( TRUE );
 	b_list->setMinimumSize( 24, 20 );
-	b_list->setPixmap( global_pix_loader->loadPixmap("OpenBook.xpm") );
+	b_list->setPixmap( global_pix_loader->loadIcon("OpenBook.xpm") );
 	QToolTip::add( b_list, "Subject List" );
 
 	b_exit = new QPushButton( bg_bot, "PushButton_5" );
 	b_exit->setMinimumSize( 24, 20 );
-	b_exit->setPixmap( global_pix_loader->loadPixmap("exit.xpm") );
+	b_exit->setPixmap( global_pix_loader->loadIcon("exit.xpm") );
 	QToolTip::add( b_exit, "Exit" );
 
 	s_bar = new QScrollBar( f_main, "ScrollBar_1" );

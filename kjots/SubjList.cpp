@@ -39,6 +39,7 @@ SubjList::SubjList( QWidget* parent = NULL, const char* name = NULL )
   top2bottom->activate();
 
   connect( b_ok, SIGNAL(clicked()), this, SLOT(hideMyself()) );
+  connect( lb_subj, SIGNAL(selected(int)), this, SLOT(hideMyself()) );
 }
 
 void SubjList::rebuildList( QList<TextEntry> * new_list )
