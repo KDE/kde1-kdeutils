@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Date: 1998-03-06 22:13:59-0500\n"
+"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, <root@petit.cornell.edu>\n"
+"Content-Type: text/plain; charset=\n"
+"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
+"Files: about.cpp floppy.cpp main.cpp\n"
+
+#: about.cpp:40
+msgid "About KDE Floppy Formater"
+msgstr "Tietoja KDE Levykkeenalustajasta"
+
+#: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368 floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721 floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
+msgid "KFloppy"
+msgstr "Klevyke"
+
+#: about.cpp:54
+msgid "Version "
+msgstr "Versio "
+
+#: floppy.cpp:56
+msgid "Floppy Drive:"
+msgstr "Levykeasema:"
+
+#: floppy.cpp:65
+msgid "Density:"
+msgstr "Tiheys:"
+
+#: floppy.cpp:74
+msgid "File System:"
+msgstr "Tyyppi:"
+
+#: floppy.cpp:108 floppy.cpp:408
+msgid "Format"
+msgstr "Formatoi"
+
+#: floppy.cpp:131
+msgid "Quick Erase"
+msgstr "Pikatyhjenn‰"
+
+#: floppy.cpp:136
+msgid "Full Format"
+msgstr "T‰ydellinen alustus"
+
+#: floppy.cpp:142
+msgid "Create Label:"
+msgstr "Levyn nimi:"
+
+#: floppy.cpp:148
+msgid "KDE FLoppy"
+msgstr "KDE Levyke"
+
+#: floppy.cpp:162
+msgid "KDE Floppy Formater"
+msgstr "KDE Levykkeenalustaja"
+
+#: floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267
+msgid "HD"
+msgstr "HD"
+
+#: floppy.cpp:286
+msgid ""
+"Cannot access %s\n"
+"Make sure that the device exists and that\n"
+"you have write permission to it."
+msgstr ""
+"En voi k‰ytt‰‰ %s\n"
+"Varmista ett‰ laite on olemassa ja ett‰\n"
+"sinulla on kirjoitusoikeudet siihen."
+
+#: floppy.cpp:333
+msgid ""
+"Cannot find kfdformat\n"
+"kfdformat is part of the KFloppy distribution.\n"
+"Please install KFloppy properly."
+msgstr ""
+"En lˆyd‰ kfdformat ohjelmaa\n"
+"kfdformat on osa KLevyke ohjelmaa.\n"
+"Asenna KLevyke kunnolla."
+
+#: floppy.cpp:349
+msgid ""
+"Cannot find kmke2fs\n"
+"kmke2fs is part of the KFloppy distribution.\n"
+"Please install KFloppy properly."
+msgstr ""
+"En lˆyd‰ kmke2fs ohjelmaa\n"
+"kmke2fs on osa KLevyke ohjelmaa.\n"
+"Asenna KLevyke kunnolla."
+
+#: floppy.cpp:364
+msgid ""
+"Cannot find kmkdosfs\n"
+"kmkdosfs is part of the KFloppy distribution.\n"
+"Please install KFloppy properly."
+msgstr ""
+"En lˆyd‰ kmkdosfs ohjelmaa\n"
+"kmkdosfs  on osa KLevyke ohjelmaa.\n"
+"Asenna KLevyke kunnolla."
+
+#: floppy.cpp:424
+msgid "Abort"
+msgstr "Peruuta"
+
+#: floppy.cpp:472
+msgid "Cannot start a new program: fork() failed."
+msgstr "En voi k‰ynnist‰‰ uutta ohjelmaa: fork() ep‰onnistui."
+
+#: floppy.cpp:572 floppy.cpp:700
+msgid ""
+"Cannot access floppy or floppy drive\n"
+"Please insert a floppy and make sure that you\n"
+"have selected a valid floppy drive.\n"
+msgstr ""
+"En voi k‰ytt‰‰ levykeasemaa.\n"
+"Aseta levyke asemaan ja varmista\n"
+"ett‰ olet valinnut olemassaolevan levykeaseman.\n"
+
+#: floppy.cpp:587
+msgid ""
+"Cannot format: %s\n"
+"%s"
+msgstr ""
+"En voi alustaa: %s\n"
+"%s"
+
+#: floppy.cpp:634
+msgid "Block %d is bad. Continuing ..."
+msgstr "Blokki %d on viallinen. Jatkan ..."
+
+#: floppy.cpp:717
+msgid ""
+"Cannot create a filesystem on: %s\n"
+"%s"
+msgstr ""
+"En voi luoda tiedostoj‰rjestelm‰‰: %s\n"
+"%s"
+
+#: floppy.cpp:753
+msgid ""
+"The floppy was sucessfully formatted.\n"
+"Blocks marked bad: %d\n"
+"Raw Capacity: %d\n"
+msgstr ""
+"Levykkeen alustus onnistui.\n"
+"Viallisia blokkeja: %d\n"
+"Raakakapasiteetti: %d\n"
+
+#: floppy.cpp:774
+msgid "All files were sucessfully erased."
+msgstr "Kaikki tiedostot on poistettu."
+
+#: floppy.cpp:832
+msgid "Creating Filesystem ..."
+msgstr "Luon tiedostoj‰rjestelm‰‰ ..."
+
+#: floppy.cpp:836
+msgid "Verifying ..."
+msgstr "Varmistan ..."
+
+#: floppy.cpp:881
+msgid ""
+"Cannot start a new program\n"
+"fork() failed."
+msgstr ""
+"En voi k‰ynnist‰‰ uutta ohjelmaa\n"
+"fork() ep‰onnistui."
+
+#: floppy.cpp:907
+msgid "Error while trying to determine whether floppy is mounted\n"
+msgstr "Virhe tarkastettaessa onko levyke jo liitetty tiedostoj‰rjestelm‰‰n\n"
+
+#: floppy.cpp:924
+msgid ""
+"%s is mounted.\n"
+"Please unmount the floppy first."
+msgstr ""
+"%s on liitetty tiedostoj‰rjestelm‰‰n.\n"
+"Poista levykkeen liitos ensin."
