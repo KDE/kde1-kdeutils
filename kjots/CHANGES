@@ -1,3 +1,7 @@
+new in version 0.3.0
+- added lots of keyboard shortcuts
+- added klocale->translate()
+
 new in version 0.2.6
 - icons should be visible in the toolbar
 

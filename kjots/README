@@ -2,14 +2,14 @@
 
 kjots version 0.2.6
 -------------------
-(C) 1997 Christoph Neerfeld (Christoph.Neerfeld@mail.bonn.netsurf.de)
+(C) 1997 Christoph Neerfeld (Christoph.Neerfeld@home.ivm.de)
 You may distribute kjots under the terms of the GNU General Public License.
 
 kjots is a small note taker program. Name and idea are taken from
 the jots program included in the tkgoodstuff package.
 The tkgoodstuff package is copyright (C) 1995-96 by Mark Crimmins (markcrim@umich.edu).
 
-You will need libqt-1.2, libkde-970703.
+You will need libqt-1.32, KDE-beta-3.
 
 Features:
 	- you may create several folders to store small text notes
@@ -25,4 +25,4 @@ Install:
 
 If you find bugs or have suggestions, send me an email
 
-Christoph.Neerfeld@mail.bonn.netsurf.de
+Christoph.Neerfeld@home.ivm.de

@@ -4,7 +4,7 @@
 //  kjots
 //
 //  Copyright (C) 1997 Christoph Neerfeld
-//  email:  Christoph.Neerfeld@mail.bonn.netsurf.de
+//  email:  Christoph.Neerfeld@home.ivm.de or chris@kde.org
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -32,11 +32,13 @@
 #include <kapp.h>
 #include <drag.h>
 #include <kiconloader.h>
+#include <kstdaccel.h>
 
 #include "KJotsMain.h"
 
 KJotsMain *main_widget;
 KIconLoader *global_pix_loader;
+KStdAccel *keys;
 
 QString exec_http;
 QString exec_ftp;
@@ -86,17 +88,7 @@ int main( int argc, char **argv )
 
   QString temp1, temp2;
   KConfig *config = a.getConfig();
-  // Torben
-  /* config->setGroup("KDE Setup");
-  if( !config->hasKey("IconPath") )
-     {
-       temp1 = KApplication::kdedir();
-       temp1 += "/lib/pics:";
-       temp1 += KApplication::kdedir();
-       temp1 += "/lib/pics/toolbar";
-       config->writeEntry("IconPath", temp1);
-       config->sync();
-     } */
+  keys = new KStdAccel(config);
   config->setGroup("kjots");
   if( !config->hasKey("execHttp") )
     config->writeEntry("execHttp", "kfmclient openURL %u");
@@ -127,6 +119,7 @@ int main( int argc, char **argv )
   jots.resize(jots.size());
   return a.exec();
 }
+
 
 
 

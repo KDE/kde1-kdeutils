@@ -4,7 +4,7 @@
 //  kjots
 //
 //  Copyright (C) 1997 Christoph Neerfeld
-//  email:  Christoph.Neerfeld@mail.bonn.netsurf.de
+//  email:  Christoph.Neerfeld@home.ivm.de or chris@kde.org
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -36,19 +36,19 @@
 ConfDialog::ConfDialog ()
 {
   initMetaObject();
-  setCaption("Configure KJots");
+  setCaption(klocale->translate("Configure KJots"));
   tabbar = new KTabCtl(this);
   tabbar->setGeometry(10,10, 300, 200);
   QFrame *f_url = new QFrame(tabbar);
-  tabbar->addTab(f_url, "URL");
+  tabbar->addTab(f_url, klocale->translate("URL"));
   QFrame *f_fonts = new QFrame(tabbar);
-  tabbar->addTab(f_fonts, "Fonts");
+  tabbar->addTab(f_fonts, klocale->translate("Fonts"));
 
-  b_ok = new QPushButton("Ok", this);
+  b_ok = new QPushButton(klocale->translate("Ok"), this);
   b_ok->setFixedSize(80, 24);
-  b_apply = new QPushButton("Apply", this);
+  b_apply = new QPushButton(klocale->translate("Apply"), this);
   b_apply->setFixedSize(80, 24);
-  b_cancel = new QPushButton("Cancel", this);
+  b_cancel = new QPushButton(klocale->translate("Cancel"), this);
   b_cancel->setFixedSize(80, 24);
 
   QGridLayout *l_top_down = new QGridLayout(this, 2, 1, 4);
@@ -69,19 +69,19 @@ ConfDialog::ConfDialog ()
   QLabel* tmpQLabel;
   tmpQLabel = new QLabel( f_url, "Label_1" );
   tmpQLabel->setGeometry( 8, 16, 208, 24 );
-  tmpQLabel->setText( "Specify which command to execute" );
+  tmpQLabel->setText( klocale->translate("Specify which command to execute") );
   tmpQLabel->setAlignment( 289 );
   tmpQLabel->setMargin( -1 );
 
   tmpQLabel = new QLabel( f_url, "Label_2" );
   tmpQLabel->setGeometry( 16, 48, 56, 24 );
-  tmpQLabel->setText( "for HTTP:" );
+  tmpQLabel->setText( klocale->translate("for HTTP:") );
   tmpQLabel->setAlignment( 289 );
   tmpQLabel->setMargin( -1 );
   
   tmpQLabel = new QLabel( f_url, "Label_3" );
   tmpQLabel->setGeometry( 24, 88, 48, 24 );
-  tmpQLabel->setText( "for FTP:" );
+  tmpQLabel->setText( klocale->translate("for FTP:") );
   tmpQLabel->setAlignment( 289 );
   tmpQLabel->setMargin( -1 );
   
@@ -101,20 +101,20 @@ ConfDialog::ConfDialog ()
 
   tmpQLabel = new QLabel( f_url, "Label_4" );
   tmpQLabel->setGeometry( 16, 120, 240, 24 );
-  tmpQLabel->setText( "( %u is replaced with the selected URL )" );
+  tmpQLabel->setText( klocale->translate("( %u is replaced with the selected URL )") );
   tmpQLabel->setAlignment( 289 );
   tmpQLabel->setMargin( -1 );
 
   // generate fonts dialog
   tmpQLabel = new QLabel( f_fonts, "Label_1" );
   tmpQLabel->setGeometry( 8, 16, 80, 24 );
-  tmpQLabel->setText( "Font for editor:" );
+  tmpQLabel->setText( klocale->translate("Font for editor:") );
   tmpQLabel->setAlignment( 289 );
   tmpQLabel->setMargin( -1 );
 
   b_sel_ed_font = new QPushButton( f_fonts, "PushButton_1" );
   b_sel_ed_font->setGeometry( 168, 64, 100, 32 );
-  b_sel_ed_font->setText( "Select" );
+  b_sel_ed_font->setText( klocale->translate("Select") );
   b_sel_ed_font->setAutoRepeat( FALSE );
   b_sel_ed_font->setAutoResize( FALSE );
   connect(b_sel_ed_font, SIGNAL(clicked()), this, SLOT(selectEdFont()) );
@@ -130,7 +130,7 @@ ConfDialog::ConfDialog ()
   }
   l_ed_font->setFrameStyle( 51 );
   l_ed_font->setLineWidth( 2 );
-  l_ed_font->setText( "Dolor Ipse" );
+  l_ed_font->setText( klocale->translate("Dolor Ipse") );
   l_ed_font->setAlignment( 292 );
   l_ed_font->setMargin( -1 );
 

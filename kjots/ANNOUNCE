@@ -1,7 +1,7 @@
 Hi !
 
-New versions of kjots go directly into the kdeapps distribution.
-This is for version 0.2.6.
+New versions of kjots go directly into the kdeutils distribution.
+This is for version 0.3.0.
 
 What is kjots
 -------------
@@ -15,8 +15,7 @@ paper lying on your desk.
 New in this version
 -------------------
 
-- icons in toolbar should be visible
-
+- added lots of keyboard shortcuts
 
 
 Regards.

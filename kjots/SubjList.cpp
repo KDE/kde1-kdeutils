@@ -2,7 +2,7 @@
 //  kjots
 //
 //  Copyright (C) 1997 Christoph Neerfeld
-//  email:  Christoph.Neerfeld@mail.bonn.netsurf.de
+//  email:  Christoph.Neerfeld@home.ivm.de chris@kde.org
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -19,11 +19,11 @@
 //  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 //
 
+#include <kapp.h>
 
 #include "SubjList.h"
 #include "KJotsMain.h"
 
-//SubjList::SubjList( QWidget* parent = NULL, const char* name = NULL )
 SubjList::SubjList( QWidget*, const char* )
 {
   initMetaObject();
@@ -31,7 +31,7 @@ SubjList::SubjList( QWidget*, const char* )
   lb_subj = new QListBox(this);
   lb_subj->setFocus();
   connect( lb_subj, SIGNAL(highlighted(int)), this, SLOT(highlighted(int)) );
-  b_ok = new QPushButton("Close", this);
+  b_ok = new QPushButton(klocale->translate("Close"), this);
   b_ok->setFixedSize(54, 24);
   top2bottom = new QGridLayout( this, 2, 1, 4 );
   top2bottom->addWidget(lb_subj, 0, 0, AlignCenter);

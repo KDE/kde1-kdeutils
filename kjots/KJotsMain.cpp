@@ -2,7 +2,7 @@
 //  kjots
 //
 //  Copyright (C) 1997 Christoph Neerfeld
-//  email:  Christoph.Neerfeld@bonn.netsurf.de
+//  email:  Christoph.Neerfeld@home.ivm.de chris@kde.org
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -34,6 +34,7 @@
 #include <qtooltip.h>
 #include <qscrbar.h>
 #include <qobjcoll.h>
+#include <qclipbrd.h>
 
 #include <kapp.h>
 #include <ktabctl.h>
@@ -41,6 +42,7 @@
 #include <kmenubar.h>
 #include <ktoolbar.h>
 #include <kiconloader.h>
+#include <kstdaccel.h>
 
 extern "C" {
 #include <unistd.h>
@@ -59,6 +61,7 @@ extern QString exec_http;
 extern QString exec_ftp;
 
 extern KIconLoader *global_pix_loader;
+extern KStdAccel *keys;
 
 //----------------------------------------------------------------------
 // ASKFILENAME
@@ -69,14 +72,15 @@ AskFileName::AskFileName(QWidget* parent, const char* name)
 {
   initMetaObject();
   resize(300, 80);
-  QLabel *l_name = new QLabel( "Book name:", this );
+  QLabel *l_name = new QLabel( klocale->translate("Book name:"), this );
   i_name = new QLineEdit( this );
-  QPushButton *b_ok = new QPushButton("Ok", this);
-  QPushButton *b_cancel = new QPushButton("Cancel", this);
+  QPushButton *b_ok = new QPushButton(klocale->translate("Ok"), this);
+  QPushButton *b_cancel = new QPushButton(klocale->translate("Cancel"), this);
 
   l_name->setGeometry(10, 10, 80, 24);
   i_name->setGeometry(100, 10, 190, 24);
   b_ok->setGeometry(20, 44, 60, 24);
+  b_ok->setDefault(TRUE);
   b_cancel->setGeometry(220, 44, 60, 24);
 
   i_name->setFocus();
@@ -93,7 +97,7 @@ MyMultiEdit::MyMultiEdit (QWidget* parent, const char* name)
 {
   initMetaObject();
   web_menu = new CPopupMenu;
-  web_menu->insertItem("Open URL", this, SLOT(openUrl()) );
+  web_menu->insertItem(klocale->translate("Open URL"), this, SLOT(openUrl()) );
 }
 
 void MyMultiEdit::keyPressEvent( QKeyEvent *e )
@@ -222,7 +226,7 @@ KJotsMain::KJotsMain(const char* name)
   s_bar->setMinimumSize( 452, 16 );
   s_bar->setOrientation( QScrollBar::Horizontal );
   
-  me_text = new MyMultiEdit( f_text, "MultiLineEdit_1" );
+  me_text = new MyMultiEdit( f_text, "me_text" );
   me_text->setMinimumSize( 436, 30 );
   me_text->insertLine( "" );
 
@@ -246,6 +250,7 @@ KJotsMain::KJotsMain(const char* name)
   this->setMinimumSize(500, 211);
   
   KConfig *config = KApplication::getKApplication()->getConfig();
+
   config->setGroup("kjots");
   entrylist.setAutoDelete(TRUE);
   button_list.setAutoDelete(TRUE);
@@ -324,42 +329,70 @@ KJotsMain::KJotsMain(const char* name)
 
   // create menu
   QPopupMenu *file = new QPopupMenu;
-  file->insertItem("Open Book", folders );
-  file->insertItem("New Book", this, SLOT(createFolder()) );
+  file->insertItem(klocale->translate("&New Book"), this, SLOT(createFolder()), keys->openNew() );
   file->insertSeparator();
-  file->insertItem("Save current book", this, SLOT(saveFolder()), CTRL+Key_S );
-  file->insertItem("Save book to ascii file", this, SLOT(writeBook()) );
-  file->insertItem("Save page to ascii file", this, SLOT(writePage()) );
+  file->insertItem(klocale->translate("Save current book"), this,
+		   SLOT(saveFolder()), keys->save() );
+  file->insertItem(klocale->translate("Save book to ascii file"), this, SLOT(writeBook()) );
+  file->insertItem(klocale->translate("Save page to ascii file"), this, SLOT(writePage()) );
   file->insertSeparator();
-  file->insertItem("Delete current book", this, SLOT(deleteFolder()) );
+  file->insertItem(klocale->translate("Delete current book"), this, SLOT(deleteFolder()) );
   file->insertSeparator();
-  file->insertItem("Quit", qApp, SLOT(quit()), CTRL+Key_Q);
+  file->insertItem(klocale->translate("&Quit"), qApp, SLOT(quit()), keys->quit() );
 
   QPopupMenu *edit_menu = new QPopupMenu;
-  edit_menu->insertItem("Cut", me_text, SLOT(cut()) );
-  edit_menu->insertItem("Copy", me_text, SLOT(copyText()) );
-  edit_menu->insertItem("Paste", me_text, SLOT(paste()) );
+  edit_menu->insertItem(klocale->translate("C&ut"),   me_text, SLOT(cut()),      keys->cut() );
+  edit_menu->insertItem(klocale->translate("&Copy"),  me_text, SLOT(copyText()), keys->copy() );
+  edit_menu->insertItem(klocale->translate("&Paste"), me_text, SLOT(paste()),    keys->paste() );
+  edit_menu->insertSeparator();
+  edit_menu->insertItem(klocale->translate("&New Page"), this, SLOT(newEntry()) );
+  edit_menu->insertItem(klocale->translate("&Delete Page"), this, SLOT(deleteEntry()) );
 
   QPopupMenu *options = new QPopupMenu;
-  options->insertItem("Config", this, SLOT(configure()) );
+  options->insertItem(klocale->translate("&Config"), this, SLOT(configure()) );
+  options->insertItem(klocale->translate("Configure &Keys"), this, SLOT(configureKeys()) );
 
   QPopupMenu *hotlist = new QPopupMenu;
-  hotlist->insertItem("Add current book to hotlist", this, SLOT(addToHotlist()) );
-  hotlist->insertItem("Remove current book from hotlist", this, SLOT(removeFromHotlist()) );
+  hotlist->insertItem(klocale->translate("Add current book to hotlist"), 
+		      this, SLOT(addToHotlist()) );
+  hotlist->insertItem(klocale->translate("Remove current book from hotlist"),
+		      this, SLOT(removeFromHotlist()) );
 
-  QPopupMenu *help = new QPopupMenu;
-  help->insertItem("Help", this, SLOT(startHelp()), CTRL+Key_H );
-  help->insertItem("About", this, SLOT(about()) );
-
-  menubar->insertItem( "&File", file );
-  menubar->insertItem( "&Edit", edit_menu, ALT+Key_E );
-  menubar->insertItem( "Hot&list", hotlist, ALT+Key_L );
-  menubar->insertItem( "&Options", options, ALT+Key_O );
+  menubar->insertItem( klocale->translate("&File"), file );
+  menubar->insertItem( klocale->translate("&Edit"), edit_menu );
+  menubar->insertItem( klocale->translate("Hot&list"), hotlist );
+  menubar->insertItem( klocale->translate("&Options"), options );
+  menubar->insertItem( klocale->translate("&Books"), folders );
   menubar->insertSeparator();
-  menubar->insertItem( "&Help", help, ALT+Key_H );
+  QString about = "KJots 0.3.0\n\r(C) ";
+  about += (QString) klocale->translate("by") +
+    " Christoph Neerfeld\n\rChristoph.Neerfeld@home.ivm.de";
+  menubar->insertItem( klocale->translate("&Help"),
+		       KApplication::getKApplication()->getHelpMenu(TRUE, about ) );
 
   updateConfiguration();
 
+  // creat keyboard shortcuts
+  // CTRL+Key_J := previous page
+  // CTRL+Key_K := next page
+  // CTRL+Key_L := show subject list
+  // CTRL+Key_A := add new page
+  // CTRL+Key_M := move focus
+  keys->addKey("PreviousPage", CTRL+Key_J);
+  keys->addKey("NextPage", CTRL+Key_K);
+  keys->addKey("ShowSubjectList", CTRL+Key_L);
+  keys->addKey("AddNewPage", CTRL+Key_A);
+  keys->addKey("MoveFocus", CTRL+Key_M);
+  keys->addKey("CopySelection", CTRL+Key_Y);
+  keys->registerWidget("me_text", this);
+  keys->connectFunction( "me_text", "PreviousPage", this, SLOT(prevEntry()) );
+  keys->connectFunction( "me_text", "NextPage", this, SLOT(nextEntry()) );
+  keys->connectFunction( "me_text", "ShowSubjectList", this, SLOT(toggleSubjList()) );
+  keys->connectFunction( "me_text", "AddNewPage", this, SLOT(newEntry()) );
+  keys->connectFunction( "me_text", "MoveFocus", this, SLOT(moveFocus()) );
+  keys->connectFunction( "me_text", "CopySelection", this, SLOT(copySelection()) );
+
+  config->setGroup("kjots");
   // create toolbar
   toolbar = new KToolBar(this);
   QPixmap temp_pix;
@@ -407,25 +440,12 @@ KJotsMain::KJotsMain(const char* name)
 KJotsMain::~KJotsMain()
 {
   saveProperties( (KConfig *) 0 );
-  /*
-  KConfig *config = KApplication::getKApplication()->getConfig();
-  button_list.clear();
-  if( folderOpen )
-    {
-      QFileInfo fi(current_folder_name);
-      config->writeEntry("LastOpenFolder", fi.fileName());
-    }
-  saveFolder();
-  config->writeEntry("Width", width());
-  config->writeEntry("Height", height());
-  config->writeEntry("ToolBarPos", (int) toolbar->barPos() );
-  config->sync();
-  */
 }
 
 void KJotsMain::saveProperties(KConfig*)
 {
   KConfig *config = KApplication::getKApplication()->getConfig();
+  config->setGroup("kjots");
   button_list.clear();
   if( folderOpen )
     {
@@ -564,7 +584,9 @@ void KJotsMain::createFolder()
   delete ask;
   if( folder_list.contains(name) )
     {
-      QMessageBox::message("Warning", "A book with this name already exists.", "Ok", this);
+      QMessageBox::message(klocale->translate("Warning"), 
+			   klocale->translate("A book with this name already exists."), 
+			   klocale->translate("Ok"), this);
       return;
     }
   saveFolder();
@@ -608,9 +630,9 @@ void KJotsMain::deleteFolder()
 {
   if( !folderOpen )
     return;
-  if( !QMessageBox::query("Delete current book", \
-			  "Are you sure you want to delete the current book ?",\
-			  "Yes", "No", this) )
+  if( !QMessageBox::query(klocale->translate("Delete current book"),
+			  klocale->translate("Are you sure you want to delete the current book ?"),
+			  klocale->translate("Yes"), klocale->translate("No"), this) )
     return;
   QFileInfo fi(current_folder_name);
   QDir dir = fi.dir(TRUE);
@@ -756,17 +778,6 @@ void KJotsMain::barMoved( int new_value )
   s_bar->setValue(new_value);
 }
 
-void KJotsMain::startHelp()
-{
-  KApplication::getKApplication()->invokeHTMLHelp("", "");
-}
-
-void KJotsMain::about()
-{
-  QMessageBox::message( "About", \
-                        "Kjots 0.2.6\n\r(c) by Christoph Neerfeld\n\rChristoph.Neerfeld@bonn.netsurf.de", "Ok" );
-}
-
 void KJotsMain::addToHotlist()
 {
   if( hotlist.count() == HOT_LIST_SIZE )
@@ -870,8 +881,8 @@ void KJotsMain::writeBook()
       QFileInfo f_info(name);
       if( f_info.exists() )
 	{
-	  if( KMsgBox::yesNo(this, "File exists !",
-			     "File already exists. \n Do you want to overwrite it ?") == 2 )
+	  if( KMsgBox::yesNo(this, klocale->translate("File exists !"),
+			     klocale->translate("File already exists. \n Do you want to overwrite it ?")) == 2 )
 	    name = NULL;
 	}
     }
@@ -899,8 +910,8 @@ void KJotsMain::writePage()
       QFileInfo f_info(name);
       if( f_info.exists() )
 	{
-	  if( KMsgBox::yesNo(this, "File exists !",
-			     "File already exists. \n Do you want to overwrite it ?") == 2 )
+	  if( KMsgBox::yesNo(this, klocale->translate("File exists !"),
+			     klocale->translate("File already exists. \n Do you want to overwrite it ?")) == 2 )
 	    name = NULL;
 	}
     }
@@ -927,3 +938,21 @@ void KJotsMain::writeEntry( QTextStream &st, TextEntry *entry )
   st << '\n';
 }
 
+void KJotsMain::moveFocus( )
+{
+  if( me_text->hasFocus() )
+    le_subject->setFocus();
+  else
+    me_text->setFocus();
+}
+
+void KJotsMain::configureKeys( )
+{
+  keys->configureKeys(this);
+}
+
+void KJotsMain::copySelection( )
+{
+  me_text->copyText();
+  le_subject->setText(QApplication::clipboard()->text());
+}

@@ -4,7 +4,7 @@
 //  kjots
 //
 //  Copyright (C) 1997 Christoph Neerfeld
-//  email:  Christoph.Neerfeld@mail.bonn.netsurf.de
+//  email:  Christoph.Neerfeld@home.ivm.de or chris@kde.org
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -40,6 +40,7 @@
 
 class KJotsMain;
 class KToolBar;
+class KStdAccel;
 class SubjList;
 class CPopupMenu;
 class ConfDialog;
@@ -122,8 +123,6 @@ protected slots:
   void newEntry();
   void deleteEntry();
   void barMoved(int);
-  void startHelp();
-  void about();
   void addToHotlist();
   void removeFromHotlist();
   void toggleSubjList();
@@ -132,6 +131,9 @@ protected slots:
   void updateConfiguration();
   void writeBook();
   void writePage();
+  void moveFocus();
+  void configureKeys();
+  void copySelection();
   
 protected:
   virtual void resizeEvent ( QResizeEvent *e );
