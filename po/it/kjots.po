@@ -39,7 +39,7 @@ msgstr "Aggiungi Pagina"
 
 #: KJotsMain.cpp:358
 msgid "MoveFocus"
-msgstr ""
+msgstr "SpostaFocus"
 
 #: KJotsMain.cpp:359
 msgid "CopySelection"
@@ -164,7 +164,7 @@ msgstr "( %u viene sostituito con l'URL selezionata)"
 
 #: confdialog.cpp:111
 msgid "Font for editor:"
-msgstr "Caratteri per l'editor:"
+msgstr "Caratteri editor:"
 
 #: confdialog.cpp:117
 msgid "Select"

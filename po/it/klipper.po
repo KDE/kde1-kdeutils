@@ -19,7 +19,7 @@ msgstr "Compari alla posizione del mouse"
 
 #: toplevel.cpp:95
 msgid "Clipboard History"
-msgstr "Storia degli appunti"
+msgstr "Storia appunti"
 
 #: toplevel.cpp:99
 msgid "<empty clipboard>"
@@ -27,4 +27,4 @@ msgstr "<appunti vuoti>"
 
 #: toplevel.cpp:111
 msgid "Select clipboard contents"
-msgstr ""
+msgstr "Scegli appunti"

@@ -62,7 +62,7 @@ msgstr "Estrai In"
 
 #: arkwidget.cc:71
 msgid "&New..."
-msgstr ""
+msgstr "&Nuovo..."
 
 #: arkwidget.cc:74
 msgid "&Extract To..."

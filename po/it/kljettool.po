@@ -1,8 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -40,11 +36,11 @@ msgstr "Linee"
 
 #: PaperData.cpp:102
 msgid "Portrait"
-msgstr ""
+msgstr "Verticale"
 
 #: PaperData.cpp:111
 msgid "Landscape"
-msgstr ""
+msgstr "Orizzontale"
 
 #: PaperData.cpp:127
 msgid "Manual Feed"
