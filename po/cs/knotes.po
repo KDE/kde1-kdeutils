@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "POT-Creation-Date: 1998-10-01 13:42+0200\n"
-"PO-Revision-Date: 1998-06-20 17:15 CEST\n"
+"PO-Revision-Date: 1998-10-24 20:47 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -230,7 +230,7 @@ msgstr "Nastavení implicitního fontu"
 
 #: fontdlg.cpp:54
 msgid "Family:"
-msgstr ""
+msgstr "Rodina:"
 
 #: fontdlg.cpp:64
 msgid "Point Size:"
@@ -238,20 +238,19 @@ msgstr "Velikost:"
 
 #: fontdlg.cpp:75
 msgid "Style:"
-msgstr ""
+msgstr "Styl:"
 
 #: fontdlg.cpp:87
-#, fuzzy
 msgid "Weight:"
 msgstr "Vý¹ka:"
 
 #: fontdlg.cpp:93 fontdlg.cpp:117 fontdlg.cpp:150
 msgid "Bold"
-msgstr ""
+msgstr "Tuèné"
 
 #: fontdlg.cpp:95 fontdlg.cpp:119 fontdlg.cpp:152
 msgid "Normal"
-msgstr ""
+msgstr "Normální"
 
 #: mail.cpp:40
 msgid "Mail Note to:"

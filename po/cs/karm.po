@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
 "POT-Creation-Date: 1998-10-13 13:36+0200\n"
-"PO-Revision-Date: 1998-07-12 15:53 CEST\n"
+"PO-Revision-Date: 1998-10-24 21:03 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -91,12 +91,11 @@ msgstr "Ú&kol"
 
 #: top.cpp:61
 msgid "&New"
-msgstr ""
+msgstr "&Nový"
 
 #: top.cpp:74
-#, fuzzy
 msgid "&About"
-msgstr "Informace "
+msgstr "&Informace o aplikaci "
 
 #: top.cpp:85
 msgid "Start Clock"

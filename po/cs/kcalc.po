@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcalc\n"
 "POT-Creation-Date: 1998-10-01 13:42+0200\n"
-"PO-Revision-Date: 1998-06-20 17:26 CEST\n"
+"PO-Revision-Date: 1998-10-24 21:02 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -88,7 +88,7 @@ msgstr "Nastav standardní písmo"
 
 #: fontdlg.cpp:53
 msgid "Family:"
-msgstr ""
+msgstr "Rodina:"
 
 #: fontdlg.cpp:63
 msgid "Point Size:"
@@ -96,16 +96,16 @@ msgstr "Velikost:"
 
 #: fontdlg.cpp:76
 msgid "Style:"
-msgstr ""
+msgstr "Styl:"
 
 #: fontdlg.cpp:91
 msgid "Weight:"
-msgstr ""
+msgstr "Váha:"
 
 #: fontdlg.cpp:101 fontdlg.cpp:134
 msgid "Bold"
-msgstr ""
+msgstr "Tuèné"
 
 #: fontdlg.cpp:103 fontdlg.cpp:136
 msgid "Normal"
-msgstr ""
+msgstr "Normální"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kedit\n"
 "POT-Creation-Date: 1998-10-13 13:36+0200\n"
-"PO-Revision-Date: 1998-06-20 17:08 CEST\n"
+"PO-Revision-Date: 1998-10-24 21:00 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -34,9 +34,8 @@ msgid "Select All"
 msgstr "Vybrat v¹e"
 
 #: kedit.cpp:157
-#, fuzzy
 msgid "Font..."
-msgstr "&Nalézt..."
+msgstr "Font..."
 
 #: kedit.cpp:201
 msgid "Ne&w..."
@@ -88,21 +87,19 @@ msgstr "Nah&raï"
 
 #: kedit.cpp:268
 msgid "Spellcheck..."
-msgstr ""
+msgstr "Kontrola pravopisu..."
 
 #: kedit.cpp:273
 msgid "&Goto Line..."
 msgstr "&Jdi na øádku..."
 
 #: kedit.cpp:277
-#, fuzzy
 msgid "&Font..."
-msgstr "&Znaková sada"
+msgstr "&Font..."
 
 #: kedit.cpp:279
-#, fuzzy
 msgid "&Colors"
-msgstr "Barvy"
+msgstr "&Barvy"
 
 #: kedit.cpp:284
 msgid "KEdit &Options..."
@@ -147,7 +144,7 @@ msgstr "Ode¹li dokument po¹tou"
 #: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:697
 #: keditcl2.cpp:804
 msgid "Done"
-msgstr ""
+msgstr "Hotovo"
 
 #: kedit.cpp:606
 msgid "Open Location:"
@@ -351,127 +348,121 @@ msgstr ""
 "%s"
 
 #: kedit.cpp:2073
-#, fuzzy
 msgid "Spellchecker Options"
-msgstr "Ulo¾ nastavení"
+msgstr "Nastavení kontroly pravopisu"
 
 #: keditcl1.cpp:137
 msgid "The specified File does not exist"
-msgstr ""
+msgstr "Uvedený soubor neexistuje"
 
 #: keditcl1.cpp:150 keditcl1.cpp:423 keditcl1.cpp:507 keditcl1.cpp:1690
 msgid "Sorry:"
-msgstr ""
+msgstr "lituji:"
 
 #: keditcl1.cpp:151
 msgid "You have specificated a directory"
-msgstr ""
+msgstr "Uvedl(a) jste adresáø"
 
 #: keditcl1.cpp:166 keditcl1.cpp:187
 msgid "You do not have read permission to this file."
-msgstr ""
+msgstr "Nemáte pøístupová práva k tomuto souboru."
 
 #: keditcl1.cpp:200
 msgid "An Error occured while trying to open this Document"
-msgstr ""
+msgstr "Vyskytla se chyba pøi otevírání tohoto dokumentu"
 
 #: keditcl1.cpp:402 keditcl1.cpp:487 keditcl1.cpp:1632
 msgid "Warning:"
-msgstr ""
+msgstr "Varování:"
 
 #: keditcl1.cpp:403 keditcl1.cpp:488
-#, fuzzy
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
 msgstr ""
-"Tento dokument byl modifikován.\n"
+"Souèasný dokument byl modifikován.\n"
 "Pøejete si ho ulo¾it?"
 
 #: keditcl1.cpp:424
-#, fuzzy
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
 "Nebylo mo¾né ulo¾it soubor.\n"
-"Stále jej chcete vytisknout?"
+"Stále si pøejete otevøít nový dokument?"
 
 #: keditcl1.cpp:508
-#, fuzzy
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
 msgstr ""
 "Nebylo mo¾né ulo¾it soubor.\n"
-"Stále jej chcete vytisknout?"
+"Stále si pøejete vytvoøit nový dokument?"
 
 #: keditcl1.cpp:1549
-#, fuzzy
 msgid "Could not save the document\n"
-msgstr ""
-"Nebylo mo¾né ulo¾it soubor.\n"
-"Stále jej chcete vytisknout?"
+msgstr "Nebylo mo¾né ulo¾it soubor\n"
 
 #: keditcl1.cpp:1633
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
 msgstr ""
+"Dokument s tímto jménem ji¾ existuje.\n"
+"Pøejete si jej pøepsat?"
 
 #: keditcl1.cpp:1691
 msgid "You do not have write permission to this file.\n"
-msgstr ""
+msgstr "Nemáte práva k zápisu do tohoto souboru.\n"
 
 #: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
 #: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
-#, fuzzy
 msgid "Find"
-msgstr "&Nalézt..."
+msgstr "Hledat"
 
 #: keditcl2.cpp:113 keditcl2.cpp:370 keditcl2.cpp:463
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
 msgstr ""
+"Dosa¾eno konce dokumentu.\n"
+"Pokraèovat od zaèátku?"
 
 #: keditcl2.cpp:130 keditcl2.cpp:387 keditcl2.cpp:433 keditcl2.cpp:480
 msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
 msgstr ""
+"Dosa¾eno zaèátku dokumentu.\n"
+"Pokraèovat od konce?"
 
 #: keditcl2.cpp:691 keditcl2.cpp:789
 msgid "Case Sensitive"
-msgstr ""
+msgstr "Rozli¹ovat velikost"
 
 #: keditcl2.cpp:692 keditcl2.cpp:792
 msgid "Find Backwards"
-msgstr ""
+msgstr "Hledat zpìtnì"
 
 #: keditcl2.cpp:777
-#, fuzzy
 msgid "Find:"
-msgstr "&Nalézt..."
+msgstr "Hledat:"
 
 #: keditcl2.cpp:787
-#, fuzzy
 msgid "Replace with:"
-msgstr "Nah&raï"
+msgstr "Nahradit s:"
 
 #: keditcl2.cpp:801
-#, fuzzy
 msgid "Replace All"
-msgstr "Nah&raï"
+msgstr "Nahradit v¹e"
 
 #: keditcl2.cpp:898
-#, fuzzy
 msgid "Goto Line"
-msgstr "&Jdi na øádku..."
+msgstr "Jdi na øádku"
 
 #: keditcl2.cpp:903
 msgid "Go"
-msgstr ""
+msgstr "Jdi"
 
 #: print.cpp:69
 msgid "Print Dialog"
@@ -494,13 +485,12 @@ msgid "Set Fill-Column at:"
 msgstr "Nastav ¹íøku na:"
 
 #: filldlg.cpp:40
-#, fuzzy
 msgid "Word Wrap"
 msgstr "Lámání slov"
 
 #: filldlg.cpp:42
 msgid "Backup Copies"
-msgstr ""
+msgstr "Zálo¾ní kopie"
 
 #: filldlg.cpp:46
 msgid "Mail Command:"
@@ -525,6 +515,3 @@ msgstr "Ode¹li"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Musíte urèit pøíjemce"
-
-#~ msgid "&About..."
-#~ msgstr "&Informace..."

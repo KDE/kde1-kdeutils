@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kzip\n"
 "POT-Creation-Date: 1998-10-13 13:36+0200\n"
-"PO-Revision-Date: 1998-06-20 17:03 CEST\n"
+"PO-Revision-Date: 1998-10-24 20:48 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,7 @@ msgstr "Maska"
 
 #: kzip.cc:70
 msgid "&New..."
-msgstr ""
+msgstr "&Nový..."
 
 #: kzip.cc:73
 msgid "&Extract To..."
@@ -111,7 +111,7 @@ msgstr "Neznámý formát archivu"
 
 #: kzip.cc:389
 msgid "Size"
-msgstr ""
+msgstr "Velikost"
 
 #: kzip.cc:395
 msgid "Archive directory does not exist."
