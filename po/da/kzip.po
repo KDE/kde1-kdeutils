@@ -2,48 +2,48 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kzip\n"
 "POT-Creation-Date: 1998-01-25 13:24+0100\n"
-"PO-Revision-Date: 1997-01-02 20:55+MET\n"
-"Last-Translator: Stephan Kulow <coolo@kde.org>\n"
+"PO-Revision-Date: 1998-02-02 20:55+MET\n"
+"Last-Translator: Thomas Tanghus <tanghus@earthling.net>\n"
 
 #: adddlg.cc:11
 msgid "Add File Options"
-msgstr "Einstellung für das Datei-Hinzufügen"
+msgstr "Tilføj filindstillinger"
 
 #: adddlg.cc:22
 msgid "Store Full Path"
-msgstr "Ganzen Pfad abspeichern"
+msgstr "Gem absolut stil"
 
 #: adddlg.cc:25
 msgid "Only Add Newer Files"
-msgstr "Nur neuere Dateien speichern"
+msgstr "Tilføj kun nyere filer"
 
 #: extractdlg.cc:9
 msgid "Files"
-msgstr "Dateien"
+msgstr "Filer"
 
 #: extractdlg.cc:13
 msgid "Extract Options"
-msgstr "Option"
+msgstr "Udpaknings indstillinger"
 
 #: extractdlg.cc:17
 msgid "Destination"
-msgstr "Ziel"
+msgstr ""
 
 #: extractdlg.cc:33
 msgid "Preserve Permissions"
-msgstr "Berechtigungen erhalten"
+msgstr "Oprethold tilladelser"
 
 #: extractdlg.cc:36
 msgid "Filenames to Lowercase"
-msgstr "Dateinamen in Kleinbuchstaben"
+msgstr "Filnavne til små bogstaver"
 
 #: extractdlg.cc:39
 msgid "All Files"
-msgstr "Alle Dateien"
+msgstr "Alle filer"
 
 #: extractdlg.cc:42
 msgid "Selected File"
-msgstr "Ausgewählte Datei"
+msgstr "Markerede filer"
 
 #: extractdlg.cc:45
 msgid "Pattern"
@@ -51,48 +51,48 @@ msgstr "Maske"
 
 #: kzip.cc:65
 msgid "&Extract To..."
-msgstr "&Entpacken nach..."
+msgstr "Udpak &til..."
 
 #: kzip.cc:70
 msgid "E&xtract..."
-msgstr "Ent&packen..."
+msgstr "&Udpak..."
 
 #: kzip.cc:75
 msgid "&Set Archive Directory..."
-msgstr "Archiv-Verzeichnis &setzen"
+msgstr "&Sæt arkiv folder..."
 
 #: kzip.cc:76
 msgid "&File Adding Options..."
-msgstr "&Hinzufüge-Optionen"
+msgstr "&Tilføjelses indstillinger..."
 
 #: kzip.cc:122
 msgid "Welcome to KZip..."
-msgstr "Willkommen zu KZip..."
+msgstr "Velkomment til KZip..."
 
 #: kzip.cc:228
 msgid "Can't create archive of that type"
-msgstr "Kann Archiv mit diesem Typen nicht erstellen"
+msgstr "Kan ikke oprette arkiv af denne type"
 
 #: kzip.cc:249 kzip.cc:286 kzip.cc:294
-msgid "Create or open an archive first"
-msgstr "Erstellen oder Öffnen Sie zuerst ein Archiv"
+msgid "Create or open archive first"
+msgstr "Opret eller åben arkiv først"
 
 #: kzip.cc:273
 msgid "Can't add directories with this archive type"
-msgstr "Zu diesem Typ von Archiv können keine Verzeichnisse hinzugefügt werden"
+msgstr "Kan ikke tilføje foldere til et arkiv af denne type"
 
 #: kzip.cc:275
 msgid "Error saving to archive"
-msgstr "Fehler beim Speichern des Archivs"
+msgstr "Fejl ved skrivning af arkiv"
 
 #: kzip.cc:305
 msgid "Archive Dir:"
-msgstr "Archiv-Verzeichnis:"
+msgstr "Arkiv folder:"
 
 #: kzip.cc:342 kzip.cc:534
 msgid "Unknown archive format"
-msgstr "Unbekanntes Archiv-Format"
+msgstr "Ukendt arkiv format"
 
 #: kzip.cc:378
 msgid "Archive Directory"
-msgstr "Archive-Verzeichnis"
+msgstr "Arkiv folder"
