@@ -1,1 +1,1 @@
-#define KEDITVERSION "1.0"
+#define KEDITVERSION "1.0.1"

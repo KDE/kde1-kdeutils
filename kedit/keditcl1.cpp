@@ -815,7 +815,7 @@ void KEdit::keyPressEvent ( QKeyEvent *e){
 	  if(y1 == -1)
 	    y1 = 0;
 
-	  if(y2 == -1)
+	  //	  if(y2 == -1)
 	    y2 = this->height();
 
 	  repaint(0,y1,this->width(),y2);
