@@ -42,6 +42,8 @@ protected:
     virtual void paintCell(QPainter *p, int row, int col);
     virtual int cellWidth(int col);
     virtual void mousePressEvent(QMouseEvent *e);
+    void drawMacPanel(QPainter *p, int x, int y, int w, int h, bool sunken);
+
 
     void setBackground();
 

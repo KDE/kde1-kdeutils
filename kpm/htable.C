@@ -63,7 +63,7 @@ void TableHead::setBackground()
     }
 }
 
-void drawMacPanel(QPainter *p, int x, int y, int w, int h,
+void TableHead::drawMacPanel(QPainter *p, int x, int y, int w, int h,
 		  bool sunken)
 {
     QColor nw1, se1, c1;

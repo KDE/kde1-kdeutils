@@ -1,3 +1,14 @@
+Changes from kpm-1.3k6:
+	* when backporting the rightclick-patch I did not change
+	  htable.o to correspond to the new htable.h. Fixed.
+
+Changes from kpm-1.3k5:
+	* fixed a segfault for Linux kernel > 2.2.2
+	* some color and style improvements
+	* more KDE-compliant table style
+	* removed obsolete "Dock into panel" option
+	* does not crash anymore when rightclicking on empty area
+
 Changes from kpm-1.3k4:
 	* fixed a segfault when doing QString::sprintf() in qps.C
 

@@ -40,7 +40,7 @@
 #include "locale.h"
 
 #define QPS_VERSION "1.3"
-#define KPM_VERSION "4"
+#define KPM_VERSION "6"
 
 const int Qps::load_update_period = 4800;	// in ms
 const int Qps::icon_width = 48;
@@ -774,6 +774,7 @@ void Qps::config_change()
   pstable->setAppearance(old_style_tables ?
 			 HeadedTable::macOS7
 			 : HeadedTable::macOS8);
+  pstable->setAppearance(HeadedTable::macOS7);
   details.first();
   Details *d = 0;
   while((d = details.current()) != 0) {

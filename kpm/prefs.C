@@ -35,7 +35,7 @@ struct Boxvar
     {TRANS("Graphic Memory Display"), &Qps::show_mem_bar},
     {TRANS("Graphic Swap Display"), &Qps::show_swap_bar},
     {TRANS("Load Graph in Icon"), &Qps::load_in_icon},
-    {TRANS("Dock into kpanel"), &Qps::panel_docking},
+    //    {TRANS("Dock into kpanel"), &Qps::panel_docking},
     {0, 0}
 };
 
