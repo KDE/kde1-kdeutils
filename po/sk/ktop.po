@@ -25,6 +25,7 @@ msgid "KDE Task Manager"
 msgstr "KDE mana¾ér úloh"
 
 #: ktop.cpp:137
+#, c-format
 msgid "%d Processes"
 msgstr "%d Procesov"
 
@@ -39,6 +40,7 @@ msgid "Swap: %d kB used, %d kB free"
 msgstr "Swap: %d kB pou¾itých, %d kB voµných"
 
 #: MainMenu.cpp:51
+#, c-format
 msgid ""
 "KDE Task Manager (KTop) Version %s\n"
 "\n"
@@ -369,6 +371,7 @@ msgid "Swap (kB)"
 msgstr "Swap (kB)"
 
 #: PerfMonPage.cpp:109
+#, c-format
 msgid "CPU%d Load History"
 msgstr "História za»a¾enia CPU%d"
 
@@ -417,7 +420,7 @@ msgid ""
 "Sorry"
 msgstr ""
 "Vá¹ systém bohu¾iaµ nie je momentálne\n"
-"podporovaný." 
+"podporovaný."
 
 #: ReniceDlg.cpp:32
 msgid "Renice Process"
@@ -433,8 +436,8 @@ msgid ""
 "\n"
 "Please enter the desired nice level:"
 msgstr ""
-"Práve chcete zmeni» prioritu èasovania procesu %d\n."
-"Nezabudnite, ¾e len Superu¾ívateµ (root) mô¾e zní¾i»\n"
+"Práve chcete zmeni» prioritu èasovania procesu %d\n"
+".Nezabudnite, ¾e len Superu¾ívateµ (root) mô¾e zní¾i»\n"
 "nice hodnotu procesu. Èím ni¾¹ie èíslo, tým vy¹¹ia priorita.\n"
 "\n"
 "Prosím zadajte ¾iadanú hodnotu nice:"

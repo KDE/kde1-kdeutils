@@ -371,6 +371,7 @@ msgstr ""
 "Zvoµte si prosím iné meno"
 
 #: docking.cpp:48
+#, c-format
 msgid "Could not load %s !"
 msgstr "Nemô¾em naèíta» %s !"
 
