@@ -402,7 +402,18 @@ public:
 	      suffix ~. The default is TRUE.
 	    */
     void       saveBackupCopy(bool copy);
-    
+
+    /// set the name of the file 
+	  /** Sets the name of the file if a file is open.
+	    */
+    void       setFileName(char* name);
+
+    /// save the current file as 'name'
+	  /** saves the current file as 'name'
+	    */
+
+    void       saveasfile(char* name);
+
 signals:
 
     /// This signal is emitted when the document in the textwidget has changed
@@ -436,6 +447,7 @@ signals:
 	     He can do so by pressing the "Insert" Button on a PC keyboard.
 	     */
     void 	toggle_overwrite_signal();
+
 
 
 public slots:

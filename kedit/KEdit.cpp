@@ -820,6 +820,25 @@ int KEdit::saveFile(){
 
 }
 
+void KEdit::setFileName(char* name){
+
+  filename = name;
+  filename.detach();
+
+}
+
+void KEdit::saveasfile(char* name){
+
+  QString filenamebackup;
+  filenamebackup = filename;
+  filename = name;
+  filename.detach();
+  saveFile();
+  filename = filenamebackup;
+  filename.detach();
+
+}
+
 QFileDialog* KEdit::getFileDialog(const char* captiontext){
 
   if(!file_dialog){

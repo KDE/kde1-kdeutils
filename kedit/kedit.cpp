@@ -360,17 +360,64 @@ void TopLevel::setupStatusBar(){
 
 
 
-//Matthias
+
 void TopLevel::saveProperties(KConfig* config){
-    config->writeEntry("file",eframe->getName().data());
+
+    config->writeEntry("filename",eframe->getName().data());
+    config->writeEntry("modified",eframe->isModified());
+
+    if(eframe->isModified()){
+
+      QString fullname;
+      //make sure eframe->getName() is a full pathname !!!
+
+      if (eframe->getName().data()[0] != '/'){
+
+	char* s = new char[1024];
+	fullname =(getcwd(s, 1024));
+	fullname +="/";
+	delete [] s;
+
+      }
+
+      fullname += eframe->getName().data();
+      const char *tpn = mykapp->tempSaveName(fullname.data());
+      QString string = tpn;
+      string.detach();
+      eframe->saveasfile(string.data());
+
+    }
 }
 
-//Matthias
+
 void TopLevel::readProperties(KConfig* config){
-    QString file = config->readEntry("file","");
-    if(!file.isEmpty())
-	eframe->loadFile(file,KEdit::OPEN_INSERT);
+
+    QString filename = config->readEntry("filename","");
+    int modified = config->readNumEntry("modified",0);
+
+    if(!filename.isEmpty() && modified){
+        bool ok;
+
+        const char* fn = mykapp->checkRecoverFile(filename.data(),ok);
+
+	if(ok){
+	  QString file = fn;
+	  file.detach();
+	  eframe->loadFile(file,KEdit::OPEN_READWRITE);
+	  eframe->setModified();
+	  eframe->setFileName(filename.data());
+	  setFileCaption();
+
+	}
+    }
+    else{
+
+      if(!filename.isEmpty()){
+	eframe->loadFile(filename,KEdit::OPEN_READWRITE);
+      }
+    }
 }
+
 
 void TopLevel::copy(){
   
@@ -577,7 +624,7 @@ void TopLevel::file_close(){
   bool result1;
 
   if (eframe->isModified ()) {
-    result = QMessageBox::query (klocale->translate("Message"), 
+    result = QMessageBox::message(klocale->translate("Message"), 
 	     klocale->translate("This Document has been modified.\n"\
 				 "Would you like to save it?"));
     
@@ -1601,10 +1648,6 @@ int main (int argc, char **argv)
   if ( mykapp->isRestored() ) {
 
       int n = 1;
-      KConfig *config;
-      config = mykapp->getSessionConfig();
-      config->setGroup("restorableFiles");
-      QString number;
 
       while (KTopLevelWidget::canBeRestored(n)) {
 	  TopLevel *tl = new TopLevel();
@@ -1612,8 +1655,6 @@ int main (int argc, char **argv)
 	  TopLevel::windowList.append( tl );
           n++;
       }
-
-      delete config;
 
   } 
   else{

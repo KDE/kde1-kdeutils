@@ -56,6 +56,7 @@
 
 #include <sys/stat.h>
 #include <string.h>
+#include <unistd.h>
 
 #include <kfm.h>
 #include <kapp.h>
@@ -176,8 +177,8 @@ private:
 
     //QString helpurl;
 
+    // Session management 
 
-    // Session management (Matthias)
     void saveProperties(KConfig*);
     void readProperties(KConfig*);
     
