@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "POT-Creation-Date: 1999-01-18 01:54+0100\n"
-"PO-Revision-Date: 1998-10-24 20:47 CEST\n"
+"PO-Revision-Date: 1999-01-18 08:31+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -162,6 +162,15 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
+"KNotes %s\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@math.cornell.edu\n"
+"wuebben@kde.org\n"
+"Copyright (C) 1997\n"
+"\n"
+"S pøispìním:\n"
+"Matthiase Ettricha <ettrich@kde.org>\n"
+"\n"
 
 #: configdlg.cpp:46 knotes.cpp:1376
 msgid "Defaults"
@@ -322,11 +331,11 @@ msgstr "Èas:"
 
 #: bwdatetime.cpp:85
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #: bwdatetime.cpp:86
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: bwdatetime.cpp:161
 msgid "The Time you selected is invalid"

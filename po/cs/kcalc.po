@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcalc\n"
 "POT-Creation-Date: 1999-01-13 01:49+0100\n"
-"PO-Revision-Date: 1998-12-18 11:51+01:00\n"
+"PO-Revision-Date: 1999-01-16 10:29+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -36,6 +36,12 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
+"KCalc %s\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@math.cornell.edu\n"
+"wuebben@kde.org\n"
+"Copyright (C) 1996-98\n"
+"\n"
 
 #: kcalc.cpp:1551
 msgid "Base type: long double\n"
@@ -68,6 +74,8 @@ msgid ""
 "KCalc %s\n"
 "Copyright 1997 Bernd Johannes Wuebben <wuebben@kde.org>\n"
 msgstr ""
+"KCalc %s\n"
+"Copyright 1997 Bernd Johannes Wuebben <wuebben@kde.org>\n"
 
 #: kcalc_core.cpp:1111
 msgid "Last stat item erased"
@@ -79,23 +87,23 @@ msgstr "Pamì» vymazána"
 
 #: kcalc_core.cpp:1627
 msgid "Stack processing error - right_op"
-msgstr ""
+msgstr "Chyba pøi zpacovávání zásobníku - pravý_op"
 
 #: kcalc_core.cpp:1635
 msgid "Stack processing error - function"
-msgstr ""
+msgstr "Chyba pøi zpacovávání zásobníku - funkce"
 
 #: kcalc_core.cpp:1644
 msgid "Stack processing error - left_op"
-msgstr ""
+msgstr "Chyba pøi zpacovávání zásobníku - levý_op"
 
 #: kcalc_core.cpp:1948 kcalc_core.cpp:1956
 msgid "Emergency"
-msgstr ""
+msgstr "Pohotovost"
 
 #: kcalc_core.cpp:1948 kcalc_core.cpp:1956
 msgid "Stack Error!"
-msgstr ""
+msgstr "Chyba zásobníku!"
 
 #: configdlg.cpp:61
 msgid "Foreground Color:"

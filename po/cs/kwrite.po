@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
 "POT-Creation-Date: 1999-01-14 01:57+0100\n"
-"PO-Revision-Date: 1998-12-26 17:44 CET\n"
+"PO-Revision-Date: 1999-01-16 10:24+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <flidr@kky.zcu.cz>\n"
 "MIME-Version: 1.0\n"
@@ -70,14 +70,12 @@ msgid "Item Font"
 msgstr "Font prvku"
 
 #: kwview.cpp:1057
-#, fuzzy
 msgid "Vertical Selections On"
-msgstr "&Vertikální výbìry"
+msgstr "Vertikální výbìr zapnut"
 
 #: kwview.cpp:1057
-#, fuzzy
 msgid "Vertical Selections Off"
-msgstr "&Vertikální výbìry"
+msgstr "Vertikální výbìr vypnut"
 
 #: kwview.cpp:1116
 msgid "The specified File does not exist"
@@ -356,9 +354,8 @@ msgid "&Insert..."
 msgstr "&Vlo¾it..."
 
 #: toplevel.cpp:169
-#, fuzzy
 msgid "Open Recen&t"
-msgstr "Otevøít dokument"
+msgstr "Otevøít nedávný"
 
 #: toplevel.cpp:180
 msgid "New &Window"
@@ -464,6 +461,11 @@ msgid ""
 "Jochen Wilhelmy\n"
 "digisnap@cs.tu-berlin.de"
 msgstr ""
+"KWrite 0.98\n"
+"\n"
+"Copyright 1998\n"
+"Jochen Wilhelmy\n"
+"digisnap@cs.tu-berlin.de"
 
 #: toplevel.cpp:272
 msgid "&Bookmarks"

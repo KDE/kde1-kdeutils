@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
 "POT-Creation-Date: 1999-01-11 01:57+0100\n"
-"PO-Revision-Date: 1998-12-18 11:52+01:00\n"
+"PO-Revision-Date: 1999-01-16 10:29+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -103,17 +103,17 @@ msgstr "hodiny jsou aktivní"
 
 #: top.cpp:150
 msgid "Preferences"
-msgstr ""
+msgstr "Preference"
 
 #: top.cpp:194
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s %s -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
 msgstr ""
-"%s 0.3 -- Sirtaj Singh Kang\n"
+"%s %s -- Sirtaj Singh Kang\n"
 "taj@kde.org, Øíjen 1997\n"
 "\n"
 "The K Desktop Environment"
@@ -128,7 +128,7 @@ msgstr "Ú&kol"
 
 #: top.cpp:209
 msgid "&Preferences..."
-msgstr ""
+msgstr "&Preference..."
 
 #: top.cpp:223
 msgid "S&top"
