@@ -8,5 +8,5 @@ pkgdir = $(kde_htmldir)/en/kpm
 
 install-data-local:
 	-rm -f $(pkgdir)/index.html
-	-ln -s $(pkgdir)/kpm.html $(pkgdir)/index.html
+	-ln -s kpm.html $(pkgdir)/index.html
 
