@@ -24,8 +24,6 @@ QList<HexWidget> HexWidget::windowList;
 int HexWidget::initMenu() {
 
   windowList.append(this);
-  KWM::setIcon(winId(), kapp->getIcon());
-  KWM::setMiniIcon(winId(), kapp->getMiniIcon());
   
   CurrentFile=new HexFile(this);
   

@@ -22,14 +22,14 @@ hexfile.moc: hexfile.h
 
 install-data-local: 
 	$(mkinstalldirs) $(APPSDIR)
-	$(INSTALL_DATA) Khexdit.kdelnk $(APPSDIR)
+	$(INSTALL_DATA) khexdit.kdelnk $(APPSDIR)
 	$(mkinstalldirs) $(kde_icondir)
 	$(INSTALL_DATA) khexdit.xpm $(kde_icondir)
 	$(mkinstalldirs) $(kde_minidir)
 	$(INSTALL_DATA) mini-khexdit.xpm $(kde_minidir)/khexdit.xpm
 
 uninstall-local:
-	rm -f $(APPSDIR)/Khexdit.kdelnk
+	rm -f $(APPSDIR)/khexdit.kdelnk
 	rm -f $(kde_icondir)/khexdit.xpm
 	rm -f $(kde_minidir)/khexdit.xpm
 
