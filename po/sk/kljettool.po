@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Date: 1998-03-06 22:44:34-0500\n"
+"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, <root@petit.cornell.edu>\n"
+"Content-Type: text/plain; charset=\n"
+"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
+"Files: Data.cpp Fonts.cpp FontsData.cpp Misc.cpp MiscData.cpp Paper.cpp PaperData.cpp Printer.cpp PrinterData.cpp about.cpp main.cpp\n"
+
+#: Data.cpp:123 Data.cpp:157 Data.cpp:193
+msgid ""
+"Unable to print with:\n"
+" %s"
+msgstr ""
+"Nemô¾em tlaèi» s:\n"
+" %s"
+
+#: FontsData.cpp:38
+msgid "Language"
+msgstr "Jazyk"
+
+#: FontsData.cpp:57
+msgid "Symbol Set"
+msgstr "Znaková sada"
+
+#: FontsData.cpp:125
+msgid "Pitch"
+msgstr "Stupeò"
+
+#: FontsData.cpp:141
+msgid "Point Size"
+msgstr "Bodová veµkos»"
+
+#: FontsData.cpp:156
+msgid "points"
+msgstr "bodov"
+
+#: MiscData.cpp:43
+msgid "End of Line Mode"
+msgstr "Koniec riadkového re¾imu"
+
+#: MiscData.cpp:65
+msgid "PageProtect"
+msgstr "Ochrana dokumentu rezervovaním pamäte"
+
+#: MiscData.cpp:80
+msgid "Powersave Time"
+msgstr ""
+
+#: MiscData.cpp:99
+msgid "Eject"
+msgstr "Vysunú» papier"
+
+#: MiscData.cpp:106
+msgid "Reset"
+msgstr "Resetova»"
+
+#: MiscData.cpp:113
+msgid "initialize"
+msgstr "inicializova»"
+
+#: PrinterData.cpp:41
+msgid "Mode"
+msgstr "Re¾im"
+
+#: PrinterData.cpp:47
+msgid "Economy"
+msgstr "Ekonomický"
+
+#: PrinterData.cpp:56
+msgid "Presentation"
+msgstr "Prezentácia"
+
+#: PrinterData.cpp:65
+msgid "Resolution"
+msgstr "Rozlí¹enie"
+
+#: PrinterData.cpp:87
+msgid "Density"
+msgstr "Svetlos»"
+
+#: PrinterData.cpp:93 main.cpp:70
+msgid "Printer"
+msgstr "Tlaèiareò"
+
+#: PrinterData.cpp:99
+msgid "Resolution Enh."
+msgstr "Rozlí¹enie roz¹ír."
+
+#: about.cpp:38
+msgid "About KLJetTool"
+msgstr "O KLJetTool"
+
+#: about.cpp:47
+msgid "KLjetTool"
+msgstr "KLJetTool"
+
+#: about.cpp:52
+msgid "Version "
+msgstr "Verzia"
+
+#: main.cpp:69
+msgid "Paper"
+msgstr "Papier"
+
+#: main.cpp:71
+msgid "Operations"
+msgstr "Operácie"
+
+#: main.cpp:73
+msgid "Fonts"
+msgstr "Fonty"

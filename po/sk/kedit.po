@@ -298,7 +298,7 @@ msgstr "Volám KFM"
 
 #: kedit.cpp:1473
 msgid "Starting Job"
-msgstr "©tartujem èinnost"
+msgstr "©tartujem èinnos»"
 
 #: kedit.cpp:1476
 msgid "Connected"

@@ -1,7 +1,7 @@
 
 # This has to be set. The rest should be reusable
 GMFILES = kedit.gmo khexdit.gmo knotes.gmo kzip.gmo karm.gmo \
-	kcalc.gmo
+	kcalc.gmo kljettool.gmo kfloppy.gmo
 
 POFILES = $(GMFILES:.gmo=.po)
 

@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Date: 1998-03-06 22:13:59-0500\n"
+"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, <root@petit.cornell.edu>\n"
+"Content-Type: text/plain; charset=\n"
+"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
+"Files: about.cpp floppy.cpp main.cpp\n"
+
+#: about.cpp:40
+msgid "About KDE Floppy Formater"
+msgstr "O KDE formátovaèi diskiet "
+
+#: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368 floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721 floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
+msgid "KFloppy"
+msgstr "KFormátovaè diskiet"
+
+#: about.cpp:54
+msgid "Version "
+msgstr "Verzia"
+
+#: floppy.cpp:56
+msgid "Floppy Drive:"
+msgstr "Disketová mechanika:"
+
+#: floppy.cpp:65
+msgid "Density:"
+msgstr "Hustota záznamu:"
+
+#: floppy.cpp:74
+msgid "File System:"
+msgstr "Súborový systém:"
+
+#: floppy.cpp:108 floppy.cpp:408
+msgid "Format"
+msgstr "Formátova»"
+
+#: floppy.cpp:131
+msgid "Quick Erase"
+msgstr "Rýchlo zmaza»"
+
+#: floppy.cpp:136
+msgid "Full Format"
+msgstr "Úplne formátova»"
+
+#: floppy.cpp:142
+msgid "Create Label:"
+msgstr "Vytori» menovku disku"
+
+#: floppy.cpp:148
+msgid "KDE FLoppy"
+msgstr "KFormátovaè diskiet"
+
+#: floppy.cpp:162
+msgid "KDE Floppy Formater"
+msgstr "KFormátovaè diskiet"
+
+#: floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267
+msgid "HD"
+msgstr "Pevný disk"
+
+#: floppy.cpp:286
+msgid ""
+"Cannot access %s\n"
+"Make sure that the device exists and that\n"
+"you have write permission to it."
+msgstr ""
+"Nemô¾em pristupova» k %s\n"
+"Uistite sa, ¾e zariadenie existuje,\n"
+"a ¾e máte právo zápisu naò"
+
+#: floppy.cpp:333
+msgid ""
+"Cannot find kfdformat\n"
+"kfdformat is part of the KFloppy distribution.\n"
+"Please install KFloppy properly."
+msgstr ""
+"Nemô¾em nájs» kfdformat\n"
+"kfdformat je súèas»ou distribúcie KFormátovaèa diskiet.\n"
+"Prosím, nain¹talujte KFormátovaè diskiet korektne."
+
+#: floppy.cpp:349
+msgid ""
+"Cannot find kmke2fs\n"
+"kmke2fs is part of the KFloppy distribution.\n"
+"Please install KFloppy properly."
+msgstr ""
+"Nemô¾em nájs» kmke2fs\n"
+"kmke2fs je súèas»ou distribúcie KFormátovaèa diskiet.\n"
+"Prosím, nain¹talujte KFormátovaè diskiet korektne."
+
+#: floppy.cpp:364
+msgid ""
+"Cannot find kmkdosfs\n"
+"kmkdosfs is part of the KFloppy distribution.\n"
+"Please install KFloppy properly."
+msgstr ""
+"Nemô¾em nájs» kmkdosfs\n"
+"kmkdosfs je súèas»ou distribúcie KFormátovaèa diskiet.\n"
+"Prosím, nain¹talujte KFormátovaè diskiet korektne."
+
+#: floppy.cpp:424
+msgid "Abort"
+msgstr "Zru¹i»"
+
+#: floppy.cpp:472
+msgid "Cannot start a new program: fork() failed."
+msgstr "Nemô¾em spusti» nový program: fork() zlyhal."
+
+#: floppy.cpp:572 floppy.cpp:700
+msgid ""
+"Cannot access floppy or floppy drive\n"
+"Please insert a floppy and make sure that you\n"
+"have selected a valid floppy drive.\n"
+msgstr ""
+"Nemô¾em pristupova» k diskete alebo k disketovej jednotke\n"
+"Prosím, vlo¾te disketu a uistite sa, ¾e ste\n"
+"vybrali správnu disketovú mechaniku.\n"
+
+#: floppy.cpp:587
+msgid ""
+"Cannot format: %s\n"
+"%s"
+msgstr ""
+"Nemô¾em formátova»: %s\n"
+"%s"
+
+#: floppy.cpp:634
+msgid "Block %d is bad. Continuing ..."
+msgstr "Blok %d je vadný. Pokraèujem ..."
+
+#: floppy.cpp:717
+msgid ""
+"Cannot create a filesystem on: %s\n"
+"%s"
+msgstr ""
+"Nemô¾em vytvori» súborový systém na: %s\n"
+"%s"
+
+#: floppy.cpp:753
+msgid ""
+"The floppy was sucessfully formatted.\n"
+"Blocks marked bad: %d\n"
+"Raw Capacity: %d\n"
+msgstr ""
+"Disketa bola úspe¹ne naformátovaná.\n"
+"Bloky oznaèené ako vadné: %d\n"
+"Hrubá kapacita: %d\n"
+
+#: floppy.cpp:774
+msgid "All files were sucessfully erased."
+msgstr "V¹etky súbory boli úspe¹ne vymazané."
+
+#: floppy.cpp:832
+msgid "Creating Filesystem ..."
+msgstr "Vytváram súborový systém ..."
+
+#: floppy.cpp:836
+msgid "Verifying ..."
+msgstr "Porovnávam ..."
+
+#: floppy.cpp:881
+msgid ""
+"Cannot start a new program\n"
+"fork() failed."
+msgstr ""
+"Nemô¾em spusti» nový program\n"
+"fork() zlyhal."
+
+#: floppy.cpp:907
+msgid "Error while trying to determine whether floppy is mounted\n"
+msgstr "Chyba pri zis»ovaní, èi je disketa pripojená k systému\n"
+
+#: floppy.cpp:924
+msgid ""
+"%s is mounted.\n"
+"Please unmount the floppy first."
+msgstr ""
+"%s je pripojená.\n"
+"Prosím, najprv odpojte disketu k systému."
