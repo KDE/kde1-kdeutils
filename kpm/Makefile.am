@@ -23,9 +23,10 @@ SUBDIRS = docs icons
 
 ####### This part is very kpm specific
 # you can add here more. This one gets installed 
-bin_PROGRAMS = 	kpm
+bin_PROGRAMS = 	kpm kpmdocked
 
 # Which sources should be compiled for kpm
+kpmdocked_SOURCES = docked.C
 kpm_SOURCES =	dialogs.C infobar.C pstable.C svec.C \
 		wchan.C \
 		fieldsel.C prefs.C qps.C ttystr.C \
@@ -33,22 +34,25 @@ kpm_SOURCES =	dialogs.C infobar.C pstable.C svec.C \
 		moc.C buttongroup.C
 
 # the library search path. 
+kpmdocked_LDFLAGS = $(all_libraries) $(KDE_RPATH)
 kpm_LDFLAGS = $(all_libraries) $(KDE_RPATH)
 
 # the libraries to link against. Be aware of the order. First the libraries,
 # that depend on the following ones.
+kpmdocked_LDADD   = -lkdeui -lkdecore -lqt -lXext -lX11 $(LIBSOCKET)
 kpm_LDADD   = -lkdeui -lkdecore -lqt -lXext -lX11 $(LIBSOCKET)
 
 # this option you can leave out. Just, if you use "make dist", you need it
 noinst_HEADERS = dialogs.h infobar.h pstable.h svec.h wchan.h \
 		 fieldsel.h prefs.h qps.h ttystr.h \
 		 details.h htable.h proc.h scheddlg.h uidstr.h \
-		 buttongroup.h
+		 buttongroup.h docked.h
 
 # just to make sure, automake makes them 
 BUILTSOURCES =	dialogs.moc infobar.moc pstable.moc svec.moc wchan.moc \
 		fieldsel.moc prefs.moc qps.moc ttystr.moc \
-		details.moc htable.moc proc.moc scheddlg.moc uidstr.moc
+		details.moc htable.moc proc.moc scheddlg.moc uidstr.moc \
+		docked.moc
 
 # if you "make distclean", this files get removed. If you want to remove
 # them while "make clean", use CLEANFILES
@@ -102,3 +106,7 @@ qps.moc: qps.h
 
 scheddlg.moc: scheddlg.h
 	$(MOC) scheddlg.h -o scheddlg.moc
+
+docked.C: docked.moc
+docked.moc: docked.h
+	$(MOC) docked.h -o docked.moc

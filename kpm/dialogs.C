@@ -12,6 +12,13 @@
 #include <kmsgbox.h>
 #include <kbuttonbox.h>
 
+const int MessageDialog::button_minwidth = 64;
+const int MessageDialog::margin_top = 16;		// above text
+const int MessageDialog::margin_middle = 16;	// between text and button
+const int MessageDialog::margin_bottom = 16;	// below button
+const int MessageDialog::margin_side = 32;		// to the left and right of text
+
+
 // ValueDialog: modal dialog to input a single string value
 
 ValueDialog::ValueDialog(const char *caption, const char *msg,

@@ -1,3 +1,7 @@
+Changes from kpm-1.3k3:
+	* added an external program to dock into the panel
+	* fixed tons of compiler warnings when compiling with egcs
+
 Changes from kpm-1.3k2:
 	* fixes for DEC Alpha/Linux
 	* hideable toolbar

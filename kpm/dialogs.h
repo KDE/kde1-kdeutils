@@ -77,11 +77,11 @@ public:
 
 private:
     // geometry constants:
-    const int button_minwidth = 64;
-    const int margin_top = 16;		// above text
-    const int margin_middle = 16;	// between text and button
-    const int margin_bottom = 16;	// below button
-    const int margin_side = 32;		// to the left and right of text
+    static const int button_minwidth;
+    static const int margin_top;		// above text
+    static const int margin_middle;	// between text and button
+    static const int margin_bottom;	// below button
+    static const int margin_side;		// to the left and right of text
 
     QLabel *label;
     QPushButton *button;

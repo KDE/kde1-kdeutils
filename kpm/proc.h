@@ -146,9 +146,13 @@ public:
 
     // from /proc/stat
     enum { CPU_USER, CPU_NICE, CPU_SYSTEM, CPU_IDLE };
-    const int CPUTIMES = CPU_IDLE + 1;
+    static const int CPUTIMES;
+
+  // this little hack prevents a compiler warning under egcs
+#define CPUTIMES (CPU_IDLE+1)
     static unsigned cpu_time[CPUTIMES];
     static unsigned old_cpu_time[CPUTIMES];
+#undef CPUTIMES
     static unsigned boot_time;
 
     // from /proc/uptime
@@ -166,7 +170,7 @@ public:
     bool selected;	// true if selected in current view
     bool viewed;	// true if part of current process view
 
-    const MAX_CMD_LEN = 4096;
+    static const int MAX_CMD_LEN;
     static int pagesize;
 };
 
@@ -380,7 +384,7 @@ public:
 
     static float avg_factor;		// exponential factor for averaging
 
-    const int cpu_avg_time = 30 * 1000;	// averaging time for WCPU (ms)
+    static const int cpu_avg_time;	// averaging time for WCPU (ms)
 
 private:
     static Category *static_sortcat;	// kludge: to be used by compare

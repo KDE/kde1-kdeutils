@@ -13,6 +13,13 @@
 #include <dirent.h>
 #include "ttystr.h"
 
+const int Ttystr::DEVNAMELEN = 8;
+const int Ttystr::NMAJORS = sizeof(major_numbers) / sizeof(dev_t);
+const int Ttystr::NMINORS = 256;
+const int Ttystr::NDEVS = Ttystr::NMAJORS * Ttystr::NMINORS;
+const int Ttystr::DEVTABSIZE = Ttystr::NDEVS * Ttystr::DEVNAMELEN;
+
+
 char *Ttystr::tab = 0;
 dev_t Ttystr::major_numbers[6] = {2, 3, 4, 5, 19, 20};
 

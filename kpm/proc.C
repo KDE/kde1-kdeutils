@@ -19,6 +19,10 @@
 #include "wchan.h"
 #include "details.h"
 
+const int Procinfo::CPUTIMES = CPU_IDLE + 1;
+const int Procinfo::MAX_CMD_LEN = 4096;
+const int Procview::cpu_avg_time = 30 * 1000;	// averaging time for WCPU (ms)
+
 char *procdir = "/proc";
 
 int Procinfo::pagesize = getpagesize();

@@ -11,6 +11,9 @@
 #include "proc.h"
 #include "qps.h"
 
+const int BarGraph::label_width = 50;
+const int BarGraph::title_width = 28;
+const int LoadGraph::history_scale = 100;
 
 Infobar::Infobar(QWidget *parent, const char *name)
        : QWidget(parent, name)

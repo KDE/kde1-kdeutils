@@ -21,12 +21,13 @@ private:
 
     static char *tab;
     
-    const int DEVNAMELEN = 8;
+    static const int DEVNAMELEN;
     static dev_t major_numbers[6];	// {2, 3, 4, 5, 19, 20}
-    const int NMAJORS = sizeof(major_numbers) / sizeof(dev_t);
-    const int NMINORS = 256;
-    const int NDEVS = NMAJORS * NMINORS;
-    const int DEVTABSIZE = NDEVS * DEVNAMELEN;
+    static const int NMAJORS;
+    static const int NMINORS;
+    static const int NDEVS;
+    static const int DEVTABSIZE;
 };
 
 #endif	// TTYSTR_H
+

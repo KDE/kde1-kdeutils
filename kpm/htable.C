@@ -19,8 +19,9 @@
 #include "htable.h"
 #include "svec.C"
 
-// HeadingTip: tooltips for headings
+const int TableBody::scroll_delay = 10; // time delay when autoscrolling, in ms
 
+// HeadingTip: tooltips for headings
 HeadingTip::HeadingTip(QWidget *parent)
           : QToolTip(parent)
 {}

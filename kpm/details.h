@@ -74,7 +74,7 @@ private:
     static QIntDict<Hostnode> hostdict;
     static Hostnode hostlru;
 
-    const int hostname_cache_size = 400; // don't cache more than this
+    static const int hostname_cache_size; // don't cache more than this
 };
 
 #endif	// DETAILS_H

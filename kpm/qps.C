@@ -42,6 +42,11 @@
 #define QPS_VERSION "1.3"
 #define KPM_VERSION "3"
 
+const int Qps::load_update_period = 4800;	// in ms
+const int Qps::icon_width = 48;
+const int Qps::icon_height = 48;
+
+
 // default values of settings, overridden by $HOME/.qps-settings if present
 bool Qps::show_cmd_path = TRUE;
 bool Qps::show_infobar = TRUE;

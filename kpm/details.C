@@ -29,6 +29,7 @@ extern "C" {
 
 // declaration of static members
 bool Details::have_services = FALSE;
+const int Details::hostname_cache_size = 400; // don't cache more than this
 QIntDict<char> Details::servdict(101);
 QIntDict<Hostnode> Details::hostdict(hostname_cache_size + 1);
 Hostnode Details::hostlru;
@@ -305,7 +306,7 @@ QString Details::hostname(unsigned addr)
 	hostlru.moveToFront(hn);
     } else {
 	hn = new Hostnode(addr);
-	if(hostdict.count() >= hostname_cache_size) {
+	if(hostdict.count() >= (uint)hostname_cache_size) {
 	    // remove least recently used item
 	    hostdict.remove(hostlru.last()->ipaddr);
 	    hostlru.deleteLast();
@@ -372,3 +373,4 @@ void Hostnode::insertFirst(Hostnode *node)
     next->prev = node;
     next = node;
 }
+

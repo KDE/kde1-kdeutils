@@ -63,8 +63,8 @@ private:
     const char *caption;
     bool no_legend;
 
-    const int label_width = 50;
-    const int title_width = 28;
+    static const int label_width;
+    static const int title_width;
 };
 
 class LoadGraph : public QFrame
@@ -91,7 +91,7 @@ protected:
 private:
     int max_points;		// history buffer size
     int npoints;		// nr of history points currently remembered
-    const int history_scale = 100;
+    static const int history_scale ;
     short *history;		// (circular) history buffer
     int h_index;		// next history index to use
 

@@ -89,7 +89,7 @@ protected:
     int prev_drag_row;		// row where drag was at last event
     bool autoscrolling;		// true if we are autoscrolling right now
     enum { UP, DOWN } scrolldir;
-    const int scroll_delay = 10; // time delay when autoscrolling, in ms
+    static const int scroll_delay; // time delay when autoscrolling, in ms
     QColor background;
 
     friend class HeadedTable;
@@ -179,7 +179,7 @@ private:
     int nrows;
     int ncols;
 
-    Svec<bool> selected;
+    Svec<int> selected;
     int nselected;
 
     Svec<int> widths;

@@ -147,12 +147,12 @@ private:
     int update_period;				// in ms
     // the Linux kernel updates its load average counters every 5 seconds
     // (kernel 2.0.29), so there is no point in reading it too often
-    const int load_update_period = 4800;	// in ms
+    static const int load_update_period;	// in ms
     int update_load_time;			// time left to update load
 
     // size of our icon
-    const int icon_width = 48;
-    const int icon_height = 48;
+    static const int icon_width;
+    static const int icon_height;
     QPixmap *default_icon;
     bool default_icon_set;	// true if default icon is current icon
 
