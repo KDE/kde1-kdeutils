@@ -35,7 +35,7 @@ msgstr "scritto e mantenuto da"
 
 #: AddressBookAboutData.cpp:62
 msgid "kab 0.9.5, December 1998"
-msgstr ""
+msgstr "kab 0.9.5, Dicembre 1998"
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"

@@ -1,7 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -51,11 +47,11 @@ msgstr ""
 
 #: highlight.cpp:1954
 msgid "Highlight:"
-msgstr ""
+msgstr "Evidenziazione:"
 
 #: highlight.cpp:1973
 msgid "Highlight Auto Select"
-msgstr "Auto selezione Highlight"
+msgstr "Auto selezione Evidenziazione"
 
 #: highlight.cpp:1977
 msgid "File Extensions:"
@@ -74,14 +70,13 @@ msgid "Item Font"
 msgstr "Carattere Oggetto"
 
 #: kwview.cpp:1057
-#, fuzzy
+#
 msgid "Vertical Selections On"
-msgstr "Selezioni &Verticali"
+msgstr "Selezioni &Verticali Attive"
 
 #: kwview.cpp:1057
-#, fuzzy
 msgid "Vertical Selections Off"
-msgstr "Selezioni &Verticali"
+msgstr "Selezioni &Verticali Disattive"
 
 #: kwview.cpp:1116
 msgid "The specified File does not exist"
@@ -122,6 +117,10 @@ msgid ""
 "Please wait until it has finished\n"
 "Alternatively stop the running one."
 msgstr ""
+"KWrite sta aspettando che un\n"
+"job internet finisca\n"
+"Per favore aspetta la fine di questo\n"
+"Altrimenti ferma adesso quello in corso."
 
 #: kwview.cpp:1249 kwview.cpp:1307
 msgid "Waiting for KFM..."
@@ -353,12 +352,12 @@ msgstr "N&uovo..."
 
 #: toplevel.cpp:168
 msgid "&Insert..."
-msgstr "&Inserisci"
+msgstr "&Inserisci..."
 
 #: toplevel.cpp:169
-#, fuzzy
+#,
 msgid "Open Recen&t"
-msgstr "Apri Documento"
+msgstr "Apri Recen&ti"
 
 #: toplevel.cpp:180
 msgid "New &Window"
@@ -464,6 +463,11 @@ msgid ""
 "Jochen Wilhelmy\n"
 "digisnap@cs.tu-berlin.de"
 msgstr ""
+"KWrite 0.98\n"
+"\n"
+"Copyright 1998\n"
+"Jochen Wilhelmy\n"
+"digisnap@cs.tu-berlin.de"
 
 #: toplevel.cpp:272
 msgid "&Bookmarks"

@@ -10,9 +10,9 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: main.cpp:49
-#, fuzzy
+#
 msgid "Ljet Tool"
-msgstr "KLjetTool"
+msgstr "Ljet Tool"
 
 #: main.cpp:69
 msgid "Paper"
@@ -39,9 +39,9 @@ msgid "Lines"
 msgstr "Linee"
 
 #: PaperData.cpp:96
-#, fuzzy
+#,
 msgid "Orientation"
-msgstr "Presentazione"
+msgstr "Orientazione"
 
 #: PaperData.cpp:102
 msgid "Portrait"
@@ -117,15 +117,15 @@ msgstr ""
 
 #: MiscData.cpp:99
 msgid "Eject"
-msgstr ""
+msgstr "Espulsione"
 
 #: MiscData.cpp:106
 msgid "Reset"
-msgstr ""
+msgstr "Reset"
 
 #: MiscData.cpp:113
 msgid "Initialize"
-msgstr "Inizializa"
+msgstr "Inizializza"
 
 #: Data.cpp:123 Data.cpp:157 Data.cpp:193
 #, c-format
