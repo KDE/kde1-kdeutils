@@ -1,0 +1,88 @@
+# Dutch translation of the khexdit messages.
+# Copyright (C) 1997 Jeroen van der Most <jvdmost@wi.leidenuniv.nl>
+#
+
+#: hexfile.cpp:85
+#, c-format
+msgid "Error opening %s"
+msgstr "Fout tijdens het openen van %s"
+
+#: hexwidget.cpp:23 hexwidget.cpp:60
+msgid "New Window"
+msgstr "Nieuw Venster"
+
+#: hexwidget.cpp:33
+msgid "Toggle Toolbar"
+msgstr "Werkbalk aan/uitzetten"
+
+#: hexwidget.cpp:46
+msgid "&File"
+msgstr "&Bestand"
+
+#: hexwidget.cpp:47
+msgid "&View"
+msgstr "&Beeld"
+
+#: hexwidget.cpp:49
+msgid "&Help"
+msgstr "&Help"
+
+#: hexwidget.cpp:66
+msgid "Save the file"
+msgstr "Bewaar het bestand"
+
+#: hexwidget.cpp:70 hexwidget.cpp:73 hexwidget.cpp:76 hexwidget.cpp:80
+msgid "Not implemented"
+msgstr "Niet geïmplementeerd"
+
+#: hexwidget.cpp:84 hexwidget.cpp:171
+msgid "About Hex Editor"
+msgstr "Informatie over de Hex Editor"
+
+#: hexwidget.cpp:114
+msgid ""
+"The current file has been modified.\n"
+"\n"
+"Do you want to save it ?"
+msgstr ""
+"Het huidige bestand is gewijzigd!\n"
+"\n"
+"Wilt u het opslaan?"
+
+#: hexwidget.cpp:137
+msgid "File changed"
+msgstr "Bestands gewijzigd"
+
+#: hexwidget.cpp:138
+msgid "Discard your changes?"
+msgstr "Wijzigingen verliezen?"
+
+#: hexwidget.cpp:170
+msgid ""
+"Hex Editor 0.4 \n"
+"\n"
+"by Stephan Kulow  (coolo@itm.mu-luebeck.de)"
+msgstr ""
+"Hex Editor 0.4 \n"
+"\n"
+"door Stephan Kulow (coolo@itm.mu-luebeck.de)"
+
+#: hexwidget.cpp:202
+msgid "Ok"
+msgstr "Ok"
+
+#: hexwidget.cpp:217
+msgid ""
+"KHexdit is already waiting\n"
+"for an internet job to finish\n"
+"\n"
+"Wait until this one is finished\n"
+"or stop the running one."
+msgstr ""
+"KHexedit wacht al op een internet taak\n"
+"Wacht tot de huidige taak klaar is\n"
+"of breek hem af."
+
+#: hexwidget.cpp:227
+msgid "Could not start KFM"
+msgstr "KFM kon niet gestart worden"
