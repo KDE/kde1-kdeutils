@@ -1,7 +1,6 @@
 # Локализация для kzip.
 # Denis Yu. Pershin <dyp@inetlab.com>, 1997.
 #
-
 msgid ""
 msgstr ""
 "Project-Id-Version: kzip 0.5\n"
@@ -13,7 +12,9 @@ msgstr ""
 "Content-Type: text/plain; charset=koi8-r\n"
 "Content-Transfer-Encoding: 8-bit\n"
 "Xgettext-Options: --keyword=translate -C\n"
-"Files: adddlg.cc ar.cc arch.cc extractdlg.cc karch.cc kfdird.cc ktablistbox.cc kzip.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h extractdlg.h karch.h kfdird.h ktablistbox.h kzip.h lha.h tar.h text.h zip.h\n"
+"Files: adddlg.cc ar.cc arch.cc extractdlg.cc karch.cc kfdird.cc "
+"ktablistbox.cc kzip.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h "
+"extractdlg.h karch.h kfdird.h ktablistbox.h kzip.h lha.h tar.h text.h zip.h\n"
 
 #: adddlg.cc:9
 msgid "Add File Options"
@@ -176,7 +177,9 @@ msgid "Permissions\tOwner/Group\tSize      \tTimeStamp         \tName\t"
 msgstr "Права\tВладелец/Группа\tРазмер\tВремя\tИмя\t"
 
 #: lha.h:24
-msgid "Permsissions\tOwner/Group\tPacked      \tSize         \tRatio\tCRC\tTimeStamp     \tName\t"
+msgid ""
+"Permsissions\tOwner/Group\tPacked      \tSize         "
+"\tRatio\tCRC\tTimeStamp     \tName\t"
 msgstr "Права\tВладелец/Группа\tЗапакованный\tРазмер\tСжатие\tВремя\tИмя\t"
 
 #: tar.h:22
@@ -184,5 +187,6 @@ msgid "Permissions\tOwner/Group\tSize        \tTimeStamp\tName\t"
 msgstr "Права\tВладелец/Группа\tРазмер\tВремя\tИмя\t"
 
 #: zip.h:24
-msgid "Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
+msgid ""
+"Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
 msgstr "Длина\tМетод\tРазмер\tСжатие\tДата\tВремя\tCRC-32\tИмя\t"

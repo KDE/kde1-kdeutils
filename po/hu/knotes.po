@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-12-28 14:25+0100\n"
+"POT-Creation-Date: 1997-12-28 19:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,11 +118,13 @@ msgid "Roman"
 msgstr ""
 
 #: knotes.cpp:245
-msgid "Text Color"
+#, fuzzy
+msgid "Text Color..."
 msgstr "Szöveg színe"
 
 #: knotes.cpp:246
-msgid "Background Color"
+#, fuzzy
+msgid "Background Color..."
 msgstr "Háttér színe"
 
 #: knotes.cpp:249
@@ -138,7 +140,8 @@ msgid "Delete Note"
 msgstr "Cetli törlése"
 
 #: knotes.cpp:256
-msgid "Rename Note"
+#, fuzzy
+msgid "Rename Note..."
 msgstr "Cetli átnevezése"
 
 #: knotes.cpp:258
@@ -162,7 +165,8 @@ msgid "3D Frame"
 msgstr "3D keret"
 
 #: knotes.cpp:274
-msgid "Font"
+#, fuzzy
+msgid "Font..."
 msgstr "Font"
 
 #: knotes.cpp:275

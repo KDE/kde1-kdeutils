@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1997-12-28 14:25+0100\n"
+"POT-Creation-Date: 1997-12-28 19:16+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-11-16 21:27:00+0100\n"
 "From: didier Belot <dib@avo.fr>\n"
@@ -110,11 +110,13 @@ msgid "Roman"
 msgstr "Roman"
 
 #: knotes.cpp:245
-msgid "Text Color"
+#, fuzzy
+msgid "Text Color..."
 msgstr "Couleur du texte"
 
 #: knotes.cpp:246
-msgid "Background Color"
+#, fuzzy
+msgid "Background Color..."
 msgstr "Couleur du fond"
 
 #: knotes.cpp:249
@@ -130,7 +132,8 @@ msgid "Delete Note"
 msgstr "Supprimer la note"
 
 #: knotes.cpp:256
-msgid "Rename Note"
+#, fuzzy
+msgid "Rename Note..."
 msgstr "Renommer la note"
 
 #: knotes.cpp:258
@@ -154,7 +157,8 @@ msgid "3D Frame"
 msgstr "Cadre 3D"
 
 #: knotes.cpp:274
-msgid "Font"
+#, fuzzy
+msgid "Font..."
 msgstr "Police"
 
 #: knotes.cpp:275

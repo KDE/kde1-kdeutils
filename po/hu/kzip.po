@@ -1,16 +1,17 @@
 msgid ""
 msgstr ""
-"Date: 1997-10-09 11:06:57-0400\n"
-"From: Robert Palmbos <robertp@pbnjelly>\n"
-"Content-Type: text/plain; charset=\n"
-"Xgettext-Options: --keyword=translate -C\n"
-"Files: adddlg.cc ar.cc arch.cc extractdlg.cc karch.cc kfdird.cc ktablistbox.cc kzip.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h extractdlg.h karch.h kfdird.h ktablistbox.h kzip.h lha.h tar.h text.h zip.h\n"
 "PO-Revision-Date: 1997-11-13 12:20+0100\n"
 "Last-Translator: John Zero <johnzero@telnet.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-2\n"
 "Content-Transfer-Encoding: 8-bit\n"
+"Date: 1997-10-09 11:06:57-0400\n"
+"From: Robert Palmbos <robertp@pbnjelly>\n"
+"Xgettext-Options: --keyword=translate -C\n"
+"Files: adddlg.cc ar.cc arch.cc extractdlg.cc karch.cc kfdird.cc "
+"ktablistbox.cc kzip.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h "
+"extractdlg.h karch.h kfdird.h ktablistbox.h kzip.h lha.h tar.h text.h zip.h\n"
 
 #: adddlg.cc:9
 msgid "Add File Options"
@@ -173,14 +174,19 @@ msgid "Permissions\tOwner/Group\tSize      \tTimeStamp         \tName\t"
 msgstr "Jogosultság\tTulaj/Csop.\tMéret     \tDátum/idõ         \tNév \t"
 
 #: lha.h:24
-msgid "Permsissions\tOwner/Group\tPacked      \tSize         \tRatio\tCRC\tTimeStamp     \tName\t"
-msgstr "Jogosultság \tTulaj/Csop.\tTömörítve   \tMéret        \tArány\tCRC\tDátum/idõ     \tNév \t"
+msgid ""
+"Permsissions\tOwner/Group\tPacked      \tSize         "
+"\tRatio\tCRC\tTimeStamp     \tName\t"
+msgstr ""
+"Jogosultság \tTulaj/Csop.\tTömörítve   \tMéret        "
+"\tArány\tCRC\tDátum/idõ     \tNév \t"
 
 #: tar.h:22
 msgid "Permissions\tOwner/Group\tSize        \tTimeStamp\tName\t"
 msgstr "Jogosultság\tTulaj/Csop.\tMéret       \tTimeStamp\tName\t"
 
 #: zip.h:24
-msgid "Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
-msgstr "Hossz      \tMód   \tMéret        \tArány\tDátum    \tIdõ \tCRC-32\tNév\t"
-
+msgid ""
+"Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
+msgstr ""
+"Hossz      \tMód   \tMéret        \tArány\tDátum    \tIdõ \tCRC-32\tNév\t"

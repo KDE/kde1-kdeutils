@@ -1,11 +1,10 @@
 # Локализация для khexedit.
 # Denis Yu. Pershin <dyp@inetlab.com>, 1997.
 #
-
 msgid ""
 msgstr ""
 "Project-Id-Version: khexedit 0.4\n"
-"POT-Creation-Date: 1997-10-09 11:06:57-0400\n"
+"POT-Creation-Date: 1997-11-06 19:25+0100\n"
 "PO-Revision-Date: 1997-11-19 22:50:52+0600\n"
 "Last-Translator: Denis Yu. Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -120,4 +119,3 @@ msgstr ""
 #: hexwidget.cpp:232
 msgid "Could not start KFM"
 msgstr "Невозможно запустить KFM"
-

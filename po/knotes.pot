@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-12-28 14:25+0100\n"
+"POT-Creation-Date: 1997-12-28 19:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -115,11 +115,11 @@ msgid "Roman"
 msgstr ""
 
 #: knotes.cpp:245
-msgid "Text Color"
+msgid "Text Color..."
 msgstr ""
 
 #: knotes.cpp:246
-msgid "Background Color"
+msgid "Background Color..."
 msgstr ""
 
 #: knotes.cpp:249
@@ -135,7 +135,7 @@ msgid "Delete Note"
 msgstr ""
 
 #: knotes.cpp:256
-msgid "Rename Note"
+msgid "Rename Note..."
 msgstr ""
 
 #: knotes.cpp:258
@@ -159,7 +159,7 @@ msgid "3D Frame"
 msgstr ""
 
 #: knotes.cpp:274
-msgid "Font"
+msgid "Font..."
 msgstr ""
 
 #: knotes.cpp:275
