@@ -140,12 +140,14 @@ if test "$ac_cv_compile_kfloppy" = "no"; then
 fi
 fi 
 
+dnl configure in kfloppy/e2fs, if kfloppy will be built.
+dnl AC_CONFIG_SUBDIRS has to be done before KDE_CREATE_SUBDIRSLIST
+if test -d kfloppy && test "$ac_cv_compile_kfloppy" = "yes"; then
+  AC_CONFIG_SUBDIRS("kfloppy/e2fs")
+fi
+
 KDE_CREATE_SUBDIRSLIST
 
 dnl this will be replaced by Makefile.am
 AC_OUTPUT()
-
-if test -d kfloppy && test "$ac_cv_compile_kfloppy" = "yes"; then
-  (cd kfloppy/e2fs && CC=$CC ./configure )
-fi
 
