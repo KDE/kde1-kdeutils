@@ -67,17 +67,17 @@ int HexWidget::initMenu() {
   toolbar->insertSeparator();
   pixmap.load(PIXDIR + "page.xpm");
   toolbar->insertButton(pixmap,ID_EDIT_CUT, FALSE, 
-			trans.translate("Not Implemented"));
+			trans.translate("Not implemented"));
   pixmap.load(PIXDIR + "contents.xpm");
   toolbar->insertButton(pixmap,ID_EDIT_COPY, FALSE, 
-			trans.translate("Not Implemented"));
+			trans.translate("Not implemented"));
   pixmap.load(PIXDIR + "devious.xpm");
   toolbar->insertButton(pixmap,ID_EDIT_PASTE, FALSE, 
-			trans.translate("Not Implemented"));
+			trans.translate("Not implemented"));
   toolbar->insertSeparator();
   pixmap.load(PIXDIR + "fileprint.xpm");
   toolbar->insertButton(pixmap,ID_FILE_PRINT, FALSE, 
-			trans.translate("Not Implemendted"));
+			trans.translate("Not implemented"));
   toolbar->insertSeparator();
   pixmap.load(PIXDIR + "help.xpm");
   toolbar->insertButton(pixmap,ID_HELP_ABOUT, TRUE, 
@@ -111,7 +111,7 @@ void HexWidget::menuCallback(int item) {
   case ID_FILE_OPEN: {
     if (CurrentFile->isModified()) 
       if (QMessageBox::query(trans.translate("Warning"), 
-			     trans.translate("_Changed","The current file has been modified.\n\rDo you want to save it ?")))
+			     trans.translate("_Changed","The current file has been modified.\n\nDo you want to save it ?")))
 	  CurrentFile->save();
     
     QFileDialog *log=new QFileDialog;
@@ -214,8 +214,8 @@ void HexWidget::openURL(const char *_url, KIND_OF_OPEN _mode) {
   if ( kfm != 0L )
     {
 	QMessageBox::message (trans.translate("Error"), 
-			      trans.translate("KHexdit is already waiting\n\rfor an internet job to finish\n\rWait until this one is finished\n\ror stop the running one."),
-			      trans.translate("Ok"));
+			      trans.translate("KHexdit is already waiting\nfor an internet job to finish\n\nWait until this one is finished\nor stop the running one."),
+			      trans.translate("OK"));
 	return;
     }
   
@@ -225,7 +225,7 @@ void HexWidget::openURL(const char *_url, KIND_OF_OPEN _mode) {
     {
       QMessageBox::message (trans.translate("Error"), 
 			    trans.translate("Could not start KFM"), 
-			    trans.translate("Ok"));
+			    trans.translate("OK"));
       delete kfm;
       kfm = 0L;
       return;
