@@ -1,6 +1,6 @@
 # New ports collection makefile for:   kdeutils
 # Version required:    1.0
-# Date created:        28 October 1997
+# Date created:        18 June 1998
 # Whom:                Alex Zepeda <garbanzo@hooked.net>
 #
 # $Id$
