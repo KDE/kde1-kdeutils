@@ -26,9 +26,8 @@ msgid "Only Add Newer Files"
 msgstr "Bare legg til nye filer"
 
 #: extractdlg.cc:14
-#, fuzzy
 msgid "Extract"
-msgstr "P&akk ut..."
+msgstr "Pakk ut"
 
 #: extractdlg.cc:28
 msgid "Destination"
@@ -59,9 +58,8 @@ msgid "Pattern"
 msgstr "Mønster"
 
 #: extractdlg.cc:190
-#, fuzzy
 msgid "Extract To"
-msgstr "Pakk &ut til..."
+msgstr "Pakk ut til"
 
 #: arkwidget.cc:71
 msgid "&New..."
@@ -128,9 +126,8 @@ msgid "Error saving to archive"
 msgstr "Feil ved lagring til arkiv"
 
 #: arkwidget.cc:312
-#, fuzzy
 msgid "Archive Dir"
-msgstr "Arkivmappe:"
+msgstr "Arkivmappe"
 
 #: arkwidget.cc:325
 msgid "What runs GNU tar:"
