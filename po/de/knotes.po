@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
 "POT-Creation-Date: 1999-03-09 01:44+0100\n"
-"PO-Revision-Date: 1999-03-12 10:31+0100\n"
+"PO-Revision-Date: 1999-04-08 10:31+0100\n"
 "Last-Translator: Gregor Zumstein <zumstein@ssd.ethz.ch>\n"
 "Language-Team: German <kde-i18n@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -369,11 +369,8 @@ msgstr ""
 "Bitte wählen Sie einen anderen Namen!"
 
 #: docking.cpp:48
-#, fuzzy, c-format
 msgid "Could not load %s !"
-msgstr ""
-"%s\n"
-"konnte nicht geladen werden"
+msgstr "%s konnte nicht geladen werden"
 
 #: docking.cpp:68
 msgid "Change Defaults"
