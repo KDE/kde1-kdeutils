@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-11-13 02:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9,24 +9,24 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: hexdata.cpp:33
+#: hexdata.cpp:39
 #, c-format
 msgid "Error opening %s"
 msgstr "Errore in apertura di %s"
 
-#: hexwidget.cpp:80
+#: hexwidget.cpp:66
 msgid "Save &As..."
 msgstr "Salva con &nome..."
 
-#: hexwidget.cpp:91
+#: hexwidget.cpp:77
 msgid "&Toggle Toolbar"
 msgstr "&Attiva/Disattiva Barra Strumenti"
 
-#: hexwidget.cpp:94
+#: hexwidget.cpp:80
 msgid "Hex Editor"
 msgstr "Editor Esadecimale"
 
-#: hexwidget.cpp:96
+#: hexwidget.cpp:82
 msgid ""
 "\n"
 "\n"
@@ -36,19 +36,19 @@ msgstr ""
 "\n"
 "di Stephan Kulow"
 
-#: hexwidget.cpp:119
+#: hexwidget.cpp:105
 msgid "New Window"
 msgstr "Nuova Finestra"
 
-#: hexwidget.cpp:123
+#: hexwidget.cpp:109
 msgid "Save the file"
 msgstr "Salva il file"
 
-#: hexwidget.cpp:126 hexwidget.cpp:128 hexwidget.cpp:130 hexwidget.cpp:133
+#: hexwidget.cpp:112 hexwidget.cpp:114 hexwidget.cpp:116 hexwidget.cpp:119
 msgid "Not implemented"
 msgstr "Non implementato"
 
-#: hexwidget.cpp:164
+#: hexwidget.cpp:150
 msgid ""
 "The current file has been modified.\n"
 "Do you want to save it?"
@@ -56,7 +56,7 @@ msgstr ""
 "Il file corrente e' stato modificato\n"
 "Vuoi salvarlo ?"
 
-#: hexwidget.cpp:187
+#: hexwidget.cpp:173
 msgid ""
 "The current file has been modified.\n"
 "Discard your changes?"
@@ -64,7 +64,7 @@ msgstr ""
 "Il file corrente e' stato modificato\n"
 "Ignoro le modifiche ?"
 
-#: hexwidget.cpp:268
+#: hexwidget.cpp:254
 msgid ""
 "KHexdit is already waiting\n"
 "for an internet job to finish\n"
@@ -78,6 +78,6 @@ msgstr ""
 "Attendi il termine dell'esecuzione di\n"
 "questo oppure fermalo."
 
-#: hexwidget.cpp:276
+#: hexwidget.cpp:262
 msgid "Could not start KFM"
 msgstr "Non posso far partire KFM"

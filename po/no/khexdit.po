@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/khexdit\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-11-13 02:01+0100\n"
 "PO-Revision-Date: 1998-02-27 11:19+0+0100\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -13,24 +13,24 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: hexdata.cpp:33
+#: hexdata.cpp:39
 #, c-format
 msgid "Error opening %s"
 msgstr "Feil ved åpning av %s"
 
-#: hexwidget.cpp:80
+#: hexwidget.cpp:66
 msgid "Save &As..."
 msgstr "Lagre &som..."
 
-#: hexwidget.cpp:91
+#: hexwidget.cpp:77
 msgid "&Toggle Toolbar"
 msgstr "V&is/skjul verktøylinje"
 
-#: hexwidget.cpp:94
+#: hexwidget.cpp:80
 msgid "Hex Editor"
 msgstr "Hex Editor"
 
-#: hexwidget.cpp:96
+#: hexwidget.cpp:82
 msgid ""
 "\n"
 "\n"
@@ -40,19 +40,19 @@ msgstr ""
 "\n"
 "av Stephan Kulow"
 
-#: hexwidget.cpp:119
+#: hexwidget.cpp:105
 msgid "New Window"
 msgstr "Nytt vindu"
 
-#: hexwidget.cpp:123
+#: hexwidget.cpp:109
 msgid "Save the file"
 msgstr "Lagre filen"
 
-#: hexwidget.cpp:126 hexwidget.cpp:128 hexwidget.cpp:130 hexwidget.cpp:133
+#: hexwidget.cpp:112 hexwidget.cpp:114 hexwidget.cpp:116 hexwidget.cpp:119
 msgid "Not implemented"
 msgstr "Ikke implementert"
 
-#: hexwidget.cpp:164
+#: hexwidget.cpp:150
 msgid ""
 "The current file has been modified.\n"
 "Do you want to save it?"
@@ -60,7 +60,7 @@ msgstr ""
 "Fil i bruk er endret.\n"
 "Vil du lagre den?"
 
-#: hexwidget.cpp:187
+#: hexwidget.cpp:173
 msgid ""
 "The current file has been modified.\n"
 "Discard your changes?"
@@ -68,7 +68,7 @@ msgstr ""
 "Fil i bruk er endret.\n"
 "Forkaste endringene?"
 
-#: hexwidget.cpp:268
+#: hexwidget.cpp:254
 msgid ""
 "KHexdit is already waiting\n"
 "for an internet job to finish\n"
@@ -80,6 +80,6 @@ msgstr ""
 "Vennligst vent til denne jobb er ferdig\n"
 "eller avslutt jobb som kjøres."
 
-#: hexwidget.cpp:276
+#: hexwidget.cpp:262
 msgid "Could not start KFM"
 msgstr "Kunne ikke starte KFM"

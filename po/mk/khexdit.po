@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: khexdit\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-11-13 02:01+0100\n"
 "PO-Revision-Date: 1998-05-17 20:00-0500-\n"
 "Last-Translator: Vlatko Cingoski <vlatko@eml.hiroshima-u.ac.jp>\n"
 "Language-Team: Macedonian\n"
@@ -15,24 +15,24 @@ msgstr ""
 "Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
 "Files: hexdata.cpp hexfile.cpp hexwidget.cpp\n"
 
-#: hexdata.cpp:33
+#: hexdata.cpp:39
 #, c-format
 msgid "Error opening %s"
 msgstr "Greshka pri otvaranje na %s"
 
-#: hexwidget.cpp:80
+#: hexwidget.cpp:66
 msgid "Save &As..."
 msgstr "Snimi &kako..."
 
-#: hexwidget.cpp:91
+#: hexwidget.cpp:77
 msgid "&Toggle Toolbar"
 msgstr "&Ukluchi toolbar"
 
-#: hexwidget.cpp:94
+#: hexwidget.cpp:80
 msgid "Hex Editor"
 msgstr "Heksa editor"
 
-#: hexwidget.cpp:96
+#: hexwidget.cpp:82
 msgid ""
 "\n"
 "\n"
@@ -42,19 +42,19 @@ msgstr ""
 "\n"
 "od Stephan Kulow"
 
-#: hexwidget.cpp:119
+#: hexwidget.cpp:105
 msgid "New Window"
 msgstr "Nov Prozor"
 
-#: hexwidget.cpp:123
+#: hexwidget.cpp:109
 msgid "Save the file"
 msgstr "Snimi go fajlot"
 
-#: hexwidget.cpp:126 hexwidget.cpp:128 hexwidget.cpp:130 hexwidget.cpp:133
+#: hexwidget.cpp:112 hexwidget.cpp:114 hexwidget.cpp:116 hexwidget.cpp:119
 msgid "Not implemented"
 msgstr "Ne e implementirano"
 
-#: hexwidget.cpp:164
+#: hexwidget.cpp:150
 msgid ""
 "The current file has been modified.\n"
 "Do you want to save it?"
@@ -62,7 +62,7 @@ msgstr ""
 "Momentalniot fajl e promenet. \n"
 "Dali sakata da go snimate?"
 
-#: hexwidget.cpp:187
+#: hexwidget.cpp:173
 msgid ""
 "The current file has been modified.\n"
 "Discard your changes?"
@@ -70,7 +70,7 @@ msgstr ""
 "Momentalniot fajl e promenet \n"
 "Otfrlete gi promenite?"
 
-#: hexwidget.cpp:268
+#: hexwidget.cpp:254
 msgid ""
 "KHexdit is already waiting\n"
 "for an internet job to finish\n"
@@ -84,6 +84,6 @@ msgstr ""
 "Prichekaj dodeka toj ne zavrshi\n"
 "ili stopiraj go onoj sto se izvrshuva."
 
-#: hexwidget.cpp:276
+#: hexwidget.cpp:262
 msgid "Could not start KFM"
 msgstr "Ne mozhe da go startuva KFM"

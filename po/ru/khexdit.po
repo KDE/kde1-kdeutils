@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: khexedit 0.4\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-11-13 02:01+0100\n"
 "PO-Revision-Date: 1998-09-03 22:34:52+0600\n"
 "Last-Translator: Denis Yu. Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -12,25 +12,25 @@ msgstr ""
 "Content-Type: text/plain; charset=koi8-r\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: hexdata.cpp:33
+#: hexdata.cpp:39
 #, c-format
 msgid "Error opening %s"
 msgstr "Ошибка открытия %s"
 
-#: hexwidget.cpp:80
+#: hexwidget.cpp:66
 msgid "Save &As..."
 msgstr "Записать как..."
 
 #
-#: hexwidget.cpp:91
+#: hexwidget.cpp:77
 msgid "&Toggle Toolbar"
 msgstr "Вкл/выкл Toolbar"
 
-#: hexwidget.cpp:94
+#: hexwidget.cpp:80
 msgid "Hex Editor"
 msgstr "Бинарный редактор"
 
-#: hexwidget.cpp:96
+#: hexwidget.cpp:82
 msgid ""
 "\n"
 "\n"
@@ -40,20 +40,20 @@ msgstr ""
 "\n"
 "Степаном Куловым"
 
-#: hexwidget.cpp:119
+#: hexwidget.cpp:105
 msgid "New Window"
 msgstr "Новое окно"
 
-#: hexwidget.cpp:123
+#: hexwidget.cpp:109
 msgid "Save the file"
 msgstr "Записать файл"
 
-#: hexwidget.cpp:126 hexwidget.cpp:128 hexwidget.cpp:130 hexwidget.cpp:133
+#: hexwidget.cpp:112 hexwidget.cpp:114 hexwidget.cpp:116 hexwidget.cpp:119
 msgid "Not implemented"
 msgstr "Не реализовано"
 
 #
-#: hexwidget.cpp:164
+#: hexwidget.cpp:150
 msgid ""
 "The current file has been modified.\n"
 "Do you want to save it?"
@@ -63,7 +63,7 @@ msgstr ""
 "Вы желаете его записать ?"
 
 #
-#: hexwidget.cpp:187
+#: hexwidget.cpp:173
 msgid ""
 "The current file has been modified.\n"
 "Discard your changes?"
@@ -72,7 +72,7 @@ msgstr ""
 "\n"
 "Не сохранять?"
 
-#: hexwidget.cpp:268
+#: hexwidget.cpp:254
 msgid ""
 "KHexdit is already waiting\n"
 "for an internet job to finish\n"
@@ -86,6 +86,6 @@ msgstr ""
 "Подождите пока оно завершится\n"
 "или остановите его"
 
-#: hexwidget.cpp:276
+#: hexwidget.cpp:262
 msgid "Could not start KFM"
 msgstr "Невозможно запустить KFM"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-11-13 02:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,45 +17,45 @@ msgstr ""
 # Dutch translation of the khexdit messages.
 # Copyright (C) 1997 Jeroen van der Most <jvdmost@wi.leidenuniv.nl>
 #
-#: hexdata.cpp:33
+#: hexdata.cpp:39
 #, c-format
 msgid "Error opening %s"
 msgstr "Fout tijdens het openen van %s"
 
-#: hexwidget.cpp:80
+#: hexwidget.cpp:66
 msgid "Save &As..."
 msgstr ""
 
-#: hexwidget.cpp:91
+#: hexwidget.cpp:77
 #, fuzzy
 msgid "&Toggle Toolbar"
 msgstr "Werkbalk aan/uitzetten"
 
-#: hexwidget.cpp:94
+#: hexwidget.cpp:80
 #, fuzzy
 msgid "Hex Editor"
 msgstr "Informatie over de Hex Editor"
 
-#: hexwidget.cpp:96
+#: hexwidget.cpp:82
 msgid ""
 "\n"
 "\n"
 "by Stephan Kulow"
 msgstr ""
 
-#: hexwidget.cpp:119
+#: hexwidget.cpp:105
 msgid "New Window"
 msgstr "Nieuw Venster"
 
-#: hexwidget.cpp:123
+#: hexwidget.cpp:109
 msgid "Save the file"
 msgstr "Bewaar het bestand"
 
-#: hexwidget.cpp:126 hexwidget.cpp:128 hexwidget.cpp:130 hexwidget.cpp:133
+#: hexwidget.cpp:112 hexwidget.cpp:114 hexwidget.cpp:116 hexwidget.cpp:119
 msgid "Not implemented"
 msgstr "Niet geïmplementeerd"
 
-#: hexwidget.cpp:164
+#: hexwidget.cpp:150
 #, fuzzy
 msgid ""
 "The current file has been modified.\n"
@@ -65,7 +65,7 @@ msgstr ""
 "\n"
 "Wilt u het opslaan?"
 
-#: hexwidget.cpp:187
+#: hexwidget.cpp:173
 #, fuzzy
 msgid ""
 "The current file has been modified.\n"
@@ -75,7 +75,7 @@ msgstr ""
 "\n"
 "Wilt u het opslaan?"
 
-#: hexwidget.cpp:268
+#: hexwidget.cpp:254
 msgid ""
 "KHexdit is already waiting\n"
 "for an internet job to finish\n"
@@ -87,7 +87,7 @@ msgstr ""
 "Wacht tot de huidige taak klaar is\n"
 "of breek hem af."
 
-#: hexwidget.cpp:276
+#: hexwidget.cpp:262
 msgid "Could not start KFM"
 msgstr "KFM kon niet gestart worden"
 
