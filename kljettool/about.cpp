@@ -63,7 +63,7 @@ MyAbout::MyAbout(QWidget *parent) : QDialog(parent, "About KLJetTool", TRUE) {
   f1->setGeometry(10,180,330,4);
 
 
-  QPushButton *b_ok = new QPushButton("OK", this);
+  QPushButton *b_ok = new QPushButton(i18n("OK"), this);
   b_ok->setGeometry(width()/2-40, height() - 48, 80, 32);
   b_ok->setDefault(TRUE);
   b_ok->setAutoDefault(TRUE);

@@ -93,7 +93,7 @@ PaperData::PaperData
 	OrientButtonGroup = new QButtonGroup( this, "OrientationGroup" );
 	OrientButtonGroup->setGeometry( 145, 30, 170, 90 );
 	OrientButtonGroup->setFrameStyle( 49 );
-	OrientButtonGroup->setTitle( "Orientation" );
+	OrientButtonGroup->setTitle( i18n("Orientation") );
        	OrientButtonGroup->setAlignment( 1 );
 
 	PortraitCheckBox = new QRadioButton( OrientButtonGroup, "RadioButton_1" );
