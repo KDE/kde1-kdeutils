@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwrite-1.1\n"
-"POT-Creation-Date: 1999-01-14 01:57+0100\n"
+"POT-Creation-Date: 1999-04-03 02:07+0200\n"
 "PO-Revision-Date: 1999-03-05 12:37+0100\n"
 "Last-Translator: Jañ-Mai Drapier <jdrapier@club-internet.fr>\n"
 "Language-Team: Brezhoneg <Suav.Icb@wanadoo.fr>\n"
@@ -19,7 +19,7 @@ msgstr ""
 msgid "Normal:"
 msgstr "Boas :"
 
-#: highlight.cpp:1725 kwdialog.cpp:416
+#: highlight.cpp:1725 kwdialog.cpp:488
 msgid "Selected:"
 msgstr "Diuzet :"
 
@@ -203,139 +203,139 @@ msgstr "erlec'hiañ graet"
 msgid "Line"
 msgstr "Linenn"
 
-#: kwdialog.cpp:30
+#: kwdialog.cpp:31
 msgid "&Text To Find:"
 msgstr "&Skrid da gavout :"
 
-#: kwdialog.cpp:40
+#: kwdialog.cpp:43
 msgid "&Replace With:"
 msgstr "&Erlec'hiañ gant :"
 
-#: kwdialog.cpp:51
+#: kwdialog.cpp:57
 msgid "&Case Sensitive"
 msgstr "E&vezhiek ouzh ar c'hef"
 
-#: kwdialog.cpp:52
+#: kwdialog.cpp:61
 msgid "&Whole Words Only"
 msgstr "Gerioù &klok hepken"
 
-#: kwdialog.cpp:53
+#: kwdialog.cpp:65
 msgid "&From Cursor"
 msgstr "&Adalek ar reti"
 
-#: kwdialog.cpp:54
+#: kwdialog.cpp:74
 msgid "Find &Backwards"
 msgstr "Kavout &war-gil"
 
-#: kwdialog.cpp:55
+#: kwdialog.cpp:78
 msgid "&Selected Text"
 msgstr "&Skrid diuzet"
 
-#: kwdialog.cpp:80
+#: kwdialog.cpp:91
 msgid "&Prompt On Replace"
 msgstr "&Goulenn pa erlec'hier"
 
-#: kwdialog.cpp:142
+#: kwdialog.cpp:166
 msgid "Replace this occurence?"
 msgstr "Erlec'hiañ ar reveziadenn-mañ ?"
 
-#: kwdialog.cpp:147
+#: kwdialog.cpp:173
 msgid "&Yes"
 msgstr "&Ya"
 
-#: kwdialog.cpp:154
+#: kwdialog.cpp:181
 msgid "&No"
 msgstr "&Nann"
 
-#: kwdialog.cpp:159
+#: kwdialog.cpp:187
 msgid "&All"
 msgstr "&An holl"
 
-#: kwdialog.cpp:217
+#: kwdialog.cpp:249
 msgid "&Goto Line:"
 msgstr "&Kit d'al linenn :"
 
-#: kwdialog.cpp:255
+#: kwdialog.cpp:290
 msgid "Edit Options"
 msgstr "Dibaboù aozañ"
 
-#: kwdialog.cpp:256
+#: kwdialog.cpp:291
 msgid "Auto &Indent"
 msgstr "&Kefoskañ emgefreek"
 
-#: kwdialog.cpp:257
+#: kwdialog.cpp:293
 msgid "&Backspace Indent"
 msgstr "Kefoskañ &War-gil"
 
-#: kwdialog.cpp:258
+#: kwdialog.cpp:295
 msgid "&Word Wrap"
 msgstr "&Plegañ ar gerioù"
 
-#: kwdialog.cpp:259
+#: kwdialog.cpp:297
 msgid "Replace &Tabs"
 msgstr "Erlec'hiañ an &taolennata"
 
-#: kwdialog.cpp:260
+#: kwdialog.cpp:299
 msgid "Remove Trailing &Spaces"
 msgstr "Lemel an &esaou en dibenn"
 
-#: kwdialog.cpp:261
+#: kwdialog.cpp:301
 msgid "Wrap &Cursor"
 msgstr "Plegañ er &reti"
 
-#: kwdialog.cpp:262
+#: kwdialog.cpp:303
 msgid "&Auto Brackets"
 msgstr "Kromelloù &emgefreek"
 
-#: kwdialog.cpp:290
+#: kwdialog.cpp:317
 msgid "Select Options"
 msgstr "Dibaboù war an diuz"
 
-#: kwdialog.cpp:291
+#: kwdialog.cpp:318
 msgid "&Persistent Selections"
 msgstr "Diuzadenn &padus"
 
-#: kwdialog.cpp:292
+#: kwdialog.cpp:320
 msgid "&Multiple Selections"
 msgstr "&Diuzadenn liessek"
 
-#: kwdialog.cpp:293 toplevel.cpp:233
+#: kwdialog.cpp:322 toplevel.cpp:233
 msgid "&Vertical Selections"
 msgstr "Diuzadenn &a-serzh"
 
-#: kwdialog.cpp:294
+#: kwdialog.cpp:324
 msgid "&Delete On Input"
 msgstr "&Lemel pa vizskriver"
 
-#: kwdialog.cpp:295
+#: kwdialog.cpp:326
 msgid "&Toggle Old"
 msgstr "&Gwintañ ar re gent"
 
-#: kwdialog.cpp:322
+#: kwdialog.cpp:341
 msgid "Wrap Words At:"
 msgstr "Plegañ ar gerioù da :"
 
-#: kwdialog.cpp:332
+#: kwdialog.cpp:347
 msgid "Tab Width:"
 msgstr "Ledander an taolennata :"
 
-#: kwdialog.cpp:342
+#: kwdialog.cpp:354
 msgid "Undo steps:"
 msgstr "Lankadoù dizober :"
 
-#: kwdialog.cpp:402
+#: kwdialog.cpp:472
 msgid "Background:"
 msgstr "Drekleur :"
 
-#: kwdialog.cpp:409
+#: kwdialog.cpp:480
 msgid "Text Background:"
 msgstr "Drekleur ar skrid :"
 
-#: kwdialog.cpp:423
+#: kwdialog.cpp:496
 msgid "Found:"
 msgstr "Kavet :"
 
-#: kwdialog.cpp:430
+#: kwdialog.cpp:504
 msgid "Selected + Found:"
 msgstr "Kavet + diuzet :"
 

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-14 01:57+0100\n"
+"POT-Creation-Date: 1999-04-03 02:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 msgid "Normal:"
 msgstr ""
 
-#: highlight.cpp:1725 kwdialog.cpp:416
+#: highlight.cpp:1725 kwdialog.cpp:488
 msgid "Selected:"
 msgstr ""
 
@@ -192,139 +192,139 @@ msgstr ""
 msgid "Line"
 msgstr ""
 
-#: kwdialog.cpp:30
+#: kwdialog.cpp:31
 msgid "&Text To Find:"
 msgstr ""
 
-#: kwdialog.cpp:40
+#: kwdialog.cpp:43
 msgid "&Replace With:"
 msgstr ""
 
-#: kwdialog.cpp:51
+#: kwdialog.cpp:57
 msgid "&Case Sensitive"
 msgstr ""
 
-#: kwdialog.cpp:52
+#: kwdialog.cpp:61
 msgid "&Whole Words Only"
 msgstr ""
 
-#: kwdialog.cpp:53
+#: kwdialog.cpp:65
 msgid "&From Cursor"
 msgstr ""
 
-#: kwdialog.cpp:54
+#: kwdialog.cpp:74
 msgid "Find &Backwards"
 msgstr ""
 
-#: kwdialog.cpp:55
+#: kwdialog.cpp:78
 msgid "&Selected Text"
 msgstr ""
 
-#: kwdialog.cpp:80
+#: kwdialog.cpp:91
 msgid "&Prompt On Replace"
 msgstr ""
 
-#: kwdialog.cpp:142
+#: kwdialog.cpp:166
 msgid "Replace this occurence?"
 msgstr ""
 
-#: kwdialog.cpp:147
+#: kwdialog.cpp:173
 msgid "&Yes"
 msgstr ""
 
-#: kwdialog.cpp:154
+#: kwdialog.cpp:181
 msgid "&No"
 msgstr ""
 
-#: kwdialog.cpp:159
+#: kwdialog.cpp:187
 msgid "&All"
 msgstr ""
 
-#: kwdialog.cpp:217
+#: kwdialog.cpp:249
 msgid "&Goto Line:"
 msgstr ""
 
-#: kwdialog.cpp:255
+#: kwdialog.cpp:290
 msgid "Edit Options"
 msgstr ""
 
-#: kwdialog.cpp:256
+#: kwdialog.cpp:291
 msgid "Auto &Indent"
 msgstr ""
 
-#: kwdialog.cpp:257
+#: kwdialog.cpp:293
 msgid "&Backspace Indent"
 msgstr ""
 
-#: kwdialog.cpp:258
+#: kwdialog.cpp:295
 msgid "&Word Wrap"
 msgstr ""
 
-#: kwdialog.cpp:259
+#: kwdialog.cpp:297
 msgid "Replace &Tabs"
 msgstr ""
 
-#: kwdialog.cpp:260
+#: kwdialog.cpp:299
 msgid "Remove Trailing &Spaces"
 msgstr ""
 
-#: kwdialog.cpp:261
+#: kwdialog.cpp:301
 msgid "Wrap &Cursor"
 msgstr ""
 
-#: kwdialog.cpp:262
+#: kwdialog.cpp:303
 msgid "&Auto Brackets"
 msgstr ""
 
-#: kwdialog.cpp:290
+#: kwdialog.cpp:317
 msgid "Select Options"
 msgstr ""
 
-#: kwdialog.cpp:291
+#: kwdialog.cpp:318
 msgid "&Persistent Selections"
 msgstr ""
 
-#: kwdialog.cpp:292
+#: kwdialog.cpp:320
 msgid "&Multiple Selections"
 msgstr ""
 
-#: kwdialog.cpp:293 toplevel.cpp:233
+#: kwdialog.cpp:322 toplevel.cpp:233
 msgid "&Vertical Selections"
 msgstr ""
 
-#: kwdialog.cpp:294
+#: kwdialog.cpp:324
 msgid "&Delete On Input"
 msgstr ""
 
-#: kwdialog.cpp:295
+#: kwdialog.cpp:326
 msgid "&Toggle Old"
 msgstr ""
 
-#: kwdialog.cpp:322
+#: kwdialog.cpp:341
 msgid "Wrap Words At:"
 msgstr ""
 
-#: kwdialog.cpp:332
+#: kwdialog.cpp:347
 msgid "Tab Width:"
 msgstr ""
 
-#: kwdialog.cpp:342
+#: kwdialog.cpp:354
 msgid "Undo steps:"
 msgstr ""
 
-#: kwdialog.cpp:402
+#: kwdialog.cpp:472
 msgid "Background:"
 msgstr ""
 
-#: kwdialog.cpp:409
+#: kwdialog.cpp:480
 msgid "Text Background:"
 msgstr ""
 
-#: kwdialog.cpp:423
+#: kwdialog.cpp:496
 msgid "Found:"
 msgstr ""
 
-#: kwdialog.cpp:430
+#: kwdialog.cpp:504
 msgid "Selected + Found:"
 msgstr ""
 

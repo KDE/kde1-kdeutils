@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
-"POT-Creation-Date: 1999-01-14 01:57+0100\n"
+"POT-Creation-Date: 1999-04-03 02:07+0200\n"
 "PO-Revision-Date: 1999-02-05 23:15+0100\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 msgid "Normal:"
 msgstr "Normal:"
 
-#: highlight.cpp:1725 kwdialog.cpp:416
+#: highlight.cpp:1725 kwdialog.cpp:488
 msgid "Selected:"
 msgstr "Seleccionat:"
 
@@ -201,139 +201,139 @@ msgstr "s'ha(n) fet el(s) canvi(s)"
 msgid "Line"
 msgstr "Línia"
 
-#: kwdialog.cpp:30
+#: kwdialog.cpp:31
 msgid "&Text To Find:"
 msgstr "Busca &text:"
 
-#: kwdialog.cpp:40
+#: kwdialog.cpp:43
 msgid "&Replace With:"
 msgstr "&Substitueix amb:"
 
-#: kwdialog.cpp:51
+#: kwdialog.cpp:57
 msgid "&Case Sensitive"
 msgstr "Sensible a &caixa"
 
-#: kwdialog.cpp:52
+#: kwdialog.cpp:61
 msgid "&Whole Words Only"
 msgstr "Paraules sen&zeres"
 
-#: kwdialog.cpp:53
+#: kwdialog.cpp:65
 msgid "&From Cursor"
 msgstr "&Des d'el cursor"
 
-#: kwdialog.cpp:54
+#: kwdialog.cpp:74
 msgid "Find &Backwards"
 msgstr "Busca &enrere"
 
-#: kwdialog.cpp:55
+#: kwdialog.cpp:78
 msgid "&Selected Text"
 msgstr "Text &seleccionat"
 
-#: kwdialog.cpp:80
+#: kwdialog.cpp:91
 msgid "&Prompt On Replace"
 msgstr "&Demana al substituir"
 
-#: kwdialog.cpp:142
+#: kwdialog.cpp:166
 msgid "Replace this occurence?"
 msgstr "Substitueixo aquesta ocurrència?"
 
-#: kwdialog.cpp:147
+#: kwdialog.cpp:173
 msgid "&Yes"
 msgstr "&Sí"
 
-#: kwdialog.cpp:154
+#: kwdialog.cpp:181
 msgid "&No"
 msgstr "&No"
 
-#: kwdialog.cpp:159
+#: kwdialog.cpp:187
 msgid "&All"
 msgstr "&Totes"
 
-#: kwdialog.cpp:217
+#: kwdialog.cpp:249
 msgid "&Goto Line:"
 msgstr "&Vés a la línia:"
 
-#: kwdialog.cpp:255
+#: kwdialog.cpp:290
 msgid "Edit Options"
 msgstr "Opcions d'edició"
 
-#: kwdialog.cpp:256
+#: kwdialog.cpp:291
 msgid "Auto &Indent"
 msgstr "Auto &entrada"
 
-#: kwdialog.cpp:257
+#: kwdialog.cpp:293
 msgid "&Backspace Indent"
 msgstr "Entrada e&nrere"
 
-#: kwdialog.cpp:258
+#: kwdialog.cpp:295
 msgid "&Word Wrap"
 msgstr "&Salt de línia"
 
-#: kwdialog.cpp:259
+#: kwdialog.cpp:297
 msgid "Replace &Tabs"
 msgstr "Substitueix &tabulacions"
 
-#: kwdialog.cpp:260
+#: kwdialog.cpp:299
 msgid "Remove Trailing &Spaces"
 msgstr "E&limina espais addicionals"
 
-#: kwdialog.cpp:261
+#: kwdialog.cpp:301
 msgid "Wrap &Cursor"
 msgstr "Salt al &cursor"
 
-#: kwdialog.cpp:262
+#: kwdialog.cpp:303
 msgid "&Auto Brackets"
 msgstr "&Autoparèntesis"
 
-#: kwdialog.cpp:290
+#: kwdialog.cpp:317
 msgid "Select Options"
 msgstr "Selecciona opcions"
 
-#: kwdialog.cpp:291
+#: kwdialog.cpp:318
 msgid "&Persistent Selections"
 msgstr "Seleccions &persistents"
 
-#: kwdialog.cpp:292
+#: kwdialog.cpp:320
 msgid "&Multiple Selections"
 msgstr "Seleccions &múltiples"
 
-#: kwdialog.cpp:293 toplevel.cpp:233
+#: kwdialog.cpp:322 toplevel.cpp:233
 msgid "&Vertical Selections"
 msgstr "Seleccions &verticals"
 
-#: kwdialog.cpp:294
+#: kwdialog.cpp:324
 msgid "&Delete On Input"
 msgstr "Es&borra en entrar"
 
-#: kwdialog.cpp:295
+#: kwdialog.cpp:326
 msgid "&Toggle Old"
 msgstr "&Marca antic"
 
-#: kwdialog.cpp:322
+#: kwdialog.cpp:341
 msgid "Wrap Words At:"
 msgstr "Salt de línia a:"
 
-#: kwdialog.cpp:332
+#: kwdialog.cpp:347
 msgid "Tab Width:"
 msgstr "Tabulador:"
 
-#: kwdialog.cpp:342
+#: kwdialog.cpp:354
 msgid "Undo steps:"
 msgstr "Passos al desfer:"
 
-#: kwdialog.cpp:402
+#: kwdialog.cpp:472
 msgid "Background:"
 msgstr "Fons:"
 
-#: kwdialog.cpp:409
+#: kwdialog.cpp:480
 msgid "Text Background:"
 msgstr "Fons del text:"
 
-#: kwdialog.cpp:423
+#: kwdialog.cpp:496
 msgid "Found:"
 msgstr "Trobat:"
 
-#: kwdialog.cpp:430
+#: kwdialog.cpp:504
 msgid "Selected + Found:"
 msgstr "Seleccionat i trobat:"
 

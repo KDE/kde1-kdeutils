@@ -16,7 +16,6 @@ msgstr ""
 # ++Gib: Note du traducteur
 # J'ai déliberement choisi de traduire book par carnet,
 # ce qui me semble plus adapté au contexte que livre ou cahier
-
 #: KJotsMain.cpp:76
 msgid "Book name:"
 msgstr "Nom du carnet :"
@@ -45,9 +44,9 @@ msgstr "Monter table des matières"
 msgid "AddNewPage"
 msgstr "Ajouter nouvelle page"
 
-#: KJotsMain.cpp:358
 # ++Gib: permet le tranfert du curseur dans l'autre 
 # boite de saisie
+#: KJotsMain.cpp:358
 msgid "MoveFocus"
 msgstr "Transférer le curseur"
 
@@ -162,13 +161,13 @@ msgstr "Commande à exécuter"
 #: confdialog.cpp:78
 msgid "for HTTP:"
 msgstr "HTTP :"
-# ++gib: PB de taille
 
+# ++gib: PB de taille
 #: confdialog.cpp:84
 msgid "for FTP:"
 msgstr "FTP :"
-# ++gib: PB de taille
 
+# ++gib: PB de taille
 #: confdialog.cpp:104
 #, c-format
 msgid "( %u is replaced with the selected URL )"
@@ -177,8 +176,8 @@ msgstr "( %u est remplacé par l'URL sélectionné )"
 #: confdialog.cpp:111
 msgid "Font for editor:"
 msgstr "Police :"
-# ++Gib: PB de place
 
+# ++Gib: PB de place
 #: confdialog.cpp:117
 msgid "Select"
 msgstr "Choisir"
