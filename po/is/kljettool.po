@@ -5,13 +5,14 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1999-01-18 01:54+0100\n"
+"PO-Revision-Date: 1998-02-01 10:35-0500\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
 
 # main.cpp:49
 #: main.cpp:49
 msgid "Ljet Tool"
-msgstr "Ljet tól"
+msgstr "LJetTól"
 
 # main.cpp:69
 #: main.cpp:69
@@ -47,17 +48,17 @@ msgstr "Línur"
 #: PaperData.cpp:96
 #, fuzzy
 msgid "Orientation"
-msgstr "Há gæði"
+msgstr "Afstaða"
 
 # PaperData.cpp:102
 #: PaperData.cpp:102
 msgid "Portrait"
-msgstr "Venjuleg"
+msgstr "Skammsnið"
 
 # PaperData.cpp:111
 #: PaperData.cpp:111
 msgid "Landscape"
-msgstr "Þversum"
+msgstr "Langsnið"
 
 # PaperData.cpp:127
 #: PaperData.cpp:127

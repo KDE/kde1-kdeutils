@@ -5,6 +5,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1999-01-14 01:57+0100\n"
+"PO-Revision-Date: 1998-02-01 10:17-0500\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
 
@@ -73,9 +74,8 @@ msgid "Vertical Selections On"
 msgstr "Lóð&rétt val virkt"
 
 #: kwview.cpp:1057
-#, fuzzy
 msgid "Vertical Selections Off"
-msgstr "Lóð&rétt val virkt"
+msgstr "Lóð&rétt val óvirkt"
 
 #: kwview.cpp:1116
 msgid "The specified File does not exist"
@@ -118,7 +118,7 @@ msgid ""
 msgstr ""
 "Ritillinn bíður nú þegar eftir\n"
 "að netferli ljúki sér af.  Bíddu\n"
-"þar til því hefur lokið, eða\n"
+"þar til því hefur lokið eða\n"
 "stöðvaðu virka ferlið."
 
 #: kwview.cpp:1249 kwview.cpp:1307
@@ -151,7 +151,7 @@ msgid ""
 "Open a new document anyways?"
 msgstr ""
 "Gat ekki vistað skjalið.\n"
-"Viltu opna nýtt skjal samt?"
+"Viltu samt opna nýtt skjal?"
 
 #: kwview.cpp:1454
 msgid "No changes need to be saved"
@@ -431,7 +431,7 @@ msgstr "Sjálfgefin &gildi..."
 
 #: toplevel.cpp:227
 msgid "&Highlight..."
-msgstr "&Lita..."
+msgstr "Nota &liti..."
 
 #: toplevel.cpp:230
 msgid "&Options..."
