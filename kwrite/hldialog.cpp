@@ -88,6 +88,8 @@ AttribPage::AttribPage(QList<Attribute> &al, QWidget *parent, const char *name)
   connect(selection, SIGNAL(clicked()), this, SLOT(flagChanged()));
   connect(nameList, SIGNAL(entryAdded(const char *,int)), this, SLOT(entryAdded(const char *,int)));
   connect(nameList, SIGNAL(entryRemoved(const char *,int)), this, SLOT(entryDeleted(const char *,int)));
+
+  update();
 }
 
 
@@ -109,6 +111,12 @@ void AttribPage::entryHighlighted(const char *, int index)
 
 void AttribPage::update()
 {
+  if (current < 0)
+  {
+    current = 0;
+    nameList->setCurrent(current);
+  }
+
   Attribute *att = attributes.at(current);
 
   // set the overriding flags
@@ -190,15 +198,6 @@ void AttribPage::selectionChanged(const QColor &newColor)
 
 void AttribPage::selectFont()
 {
-  //CT 28Oct1998 - fix crash at first startup of font selection 
-  //  (item not selected)
-
-  if (current < 0 /*CT no way to do this, no needed too, maybe*  || current > nameList->count() -1*/) {
-    current = 0;
-    nameList->setCurrent(current);
-  }
-  //CT
-
   Attribute *att = attributes.at(current);
   QFont font = att->getFont();
   
