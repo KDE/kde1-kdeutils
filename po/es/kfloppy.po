@@ -7,7 +7,7 @@ msgstr ""
 "First-Translator: Jorge Valencia <jorgev@est.unileon.es>\n"
 
 #: about.cpp:40
-msgid "About KDE Floppy Formater"
+msgid "About KDE Floppy Formatter"
 msgstr "Acerca del formateador de discos de KDE"
 
 #: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368
@@ -53,7 +53,7 @@ msgid "KDE FLoppy"
 msgstr "KDE Floppy"
 
 #: floppy.cpp:162
-msgid "KDE Floppy Formater"
+msgid "KDE Floppy Formatter"
 msgstr "Formateador de discos de KDE"
 
 #: floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267

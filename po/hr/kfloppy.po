@@ -13,7 +13,7 @@ msgstr ""
 
 # about.cpp:40
 #: about.cpp:40
-msgid "About KDE Floppy Formater"
+msgid "About KDE Floppy Formatter"
 msgstr "O KDE programu za formatiranje"
 
 # about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368 floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721 floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
@@ -70,7 +70,7 @@ msgstr "KDE Floppy"
 
 # floppy.cpp:162
 #: floppy.cpp:162
-msgid "KDE Floppy Formater"
+msgid "KDE Floppy Formatter"
 msgstr "KDE program za formatiranje disketa"
 
 # floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267

@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 
 #: about.cpp:40
-msgid "About KDE Floppy Formater"
+msgid "About KDE Floppy Formatter"
 msgstr "Quant al Formatador de Disquet KDE"
 
 #: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368
@@ -60,7 +60,7 @@ msgid "KDE FLoppy"
 msgstr "Disquet KDE"
 
 #: floppy.cpp:162
-msgid "KDE Floppy Formater"
+msgid "KDE Floppy Formatter"
 msgstr "Formatador de Disquet KDE"
 
 #: floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267
