@@ -78,7 +78,7 @@ msgstr "Sjálfgefin gildi ..."
 
 #: knotes.cpp:340
 msgid "Dock in panel"
-msgstr ""
+msgstr "Setja á spjaldið"
 
 #: knotes.cpp:368
 msgid "Insert Date"
@@ -371,9 +371,8 @@ msgstr ""
 "Veldu annað nafn"
 
 #: docking.cpp:48
-#, fuzzy, c-format
 msgid "Could not load %s !"
-msgstr "Gat ekki opnað %s !"
+msgstr "Gat ekki lesið %s !"
 
 #: docking.cpp:68
 msgid "Change Defaults"

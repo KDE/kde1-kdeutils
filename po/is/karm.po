@@ -110,6 +110,10 @@ msgid ""
 "\n"
 "The K Desktop Environment"
 msgstr ""
+"%s %s -- Sirtaj Singh Kang\n"
+"taj@kde.org, Okt 1997\n"
+"\n"
+"K Skjáborðsumhverfið"
 
 #: top.cpp:200
 msgid "&Clock"
