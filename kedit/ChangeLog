@@ -1,3 +1,7 @@
+Mon Jul 21 22:43:07 1997  Bernd Johannes Wuebben  <wuebben@petit.cornell.edu>
+
+	* kedit.cpp: implemented mailing
+
 Sun Jul 20 16:59:27 1997  Bernd Johannes Wuebben  <wuebben@petit.cornell.edu>
 
 	* KEdit.cpp: Fixed permissions bug

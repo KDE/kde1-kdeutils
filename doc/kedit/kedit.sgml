@@ -197,6 +197,11 @@ Allows the user to save to a file on the internet.
 <sect2>Print
 <p>
 Open the print dialog and lets the user print the whole document or the current selection.
+
+<sect2>Mail <p>
+Brings up a mail dialog. Make sure you have checked and if necessary modified the
+mail command on the 'Misc Options' dialog on the 'Options' menu.
+
 <sect2>New Window
 <p>
 <sect2>Exit
@@ -244,9 +249,10 @@ fonts within a document.
 <sect2>Colors
 <p>
 Allows the user to select fore and background color of KEdit's text display area.
-<sect2>Fill Column
+<sect2>Misc Options
 <p>
-Allows the user to set a fill column as well as to enable word wrap.
+Allows the user to set a fill column as well as to enable word wrap and set the mail
+command suitable for his system.
 <sect2>Auto Indent
 <p>
 Allows the user to switch to auto indent mode and back. In auto indent mode the 

@@ -35,6 +35,7 @@
 #include "kedit.h"
 #include "filldlg.h"
 #include "kcolordlg.h"
+#include "mail.h"
 #include "KEdit.h"
 
 #include "kedit.moc"
@@ -170,6 +171,8 @@ void TopLevel::setupMenuBar(){
   file->insertItem ("Save to U&RL...",	this,	SLOT(file_save_url()));
   file->insertSeparator (-1);
   file->insertItem ("&Print...",	this,	SLOT(print()) );
+  file->insertSeparator (-1);
+  file->insertItem ("&Mail...",	this,	SLOT(mail()) );
   //  file->insertItem ("&Fancy Print...",this,SLOT(fancyprint()) );
   file->insertSeparator (-1);
   file->insertItem ("New &Window",	this,	SLOT(newTopLevel()) );
@@ -195,7 +198,7 @@ void TopLevel::setupMenuBar(){
   options->insertItem("&Font", 		this,	SLOT(font()));
   options->insertItem("Colors", colors);
   options->insertSeparator(-1);
-  options->insertItem("Fill &Column...",this, 	SLOT(fill_column_slot()));
+  options->insertItem("Misc &Options...",this, 	SLOT(fill_column_slot()));
   indentID = options->insertItem("Auto &Indent", this, SLOT(toggle_indent_mode()));
   options->insertSeparator(-1);
   toolID   = options->insertItem("&Tool Bar",this,SLOT(toggleToolBar()));
@@ -260,10 +263,17 @@ void TopLevel::setupToolBar(){
 
   toolbar->insertSeparator();
 
+
   pixmap.load(pixdir+"fileprint.xpm");
   toolbar->insertItem(pixmap, 0,
 		      SIGNAL(clicked()), this,
 		      SLOT(print()), TRUE, "Print Document");
+
+  pixmap.load(pixdir+"send.xpm");
+  toolbar->insertItem(pixmap, 0,
+		      SIGNAL(clicked()), this,
+		      SLOT(mail()), TRUE, "Mail Document");
+
 
   toolbar->insertSeparator();
   pixmap.load(pixdir+"help.xpm");
@@ -576,7 +586,52 @@ void TopLevel::file_save_as(){
   }
 }
 
+void TopLevel::mail(){
 
+  Mail* maildlg ;
+  
+  maildlg = new Mail(this,"maildialog");
+
+  if(!maildlg->exec()){
+    return;
+  }
+
+  mykapp->processEvents();
+  mykapp->flushX();
+
+  FILE* mailpipe;
+  
+  QString cmd;
+  /*  cmd = mailcmd.copy();*/
+  cmd = cmd.sprintf(mailcmd.data(),
+		    maildlg->getSubject().data(),maildlg->getRecipient().data());
+
+  printf("%s\n",cmd.data());
+
+  delete maildlg;
+
+  mailpipe = popen(cmd.data(),"w");
+
+  if(mailpipe == NULL){
+    QString str;
+    str.sprintf("Could not pipe the contents of this Document into:\n %s",cmd.data());
+    QMessageBox::message("Sorry",str.data(),"OK");
+    return;
+  }
+
+  QTextStream t(mailpipe,IO_WriteOnly );
+
+  int line_count = eframe->numLines();
+
+  for(int i = 0 ; i < line_count ; i++){
+    t << eframe->textLine(i) << '\n';
+  }
+  pclose(mailpipe);
+  
+}
+
+
+/*
 void TopLevel::fancyprint(){
 
   QPrinter prt;
@@ -609,18 +664,14 @@ void TopLevel::fancyprint(){
   }
   return ;
 }
-
+*/
 
 void TopLevel::about(){
 
   QMessageBox::message ("About KEdit", "KEdit Version "KEDITVERSION"\n"\
 			"Copyright 1997\nBernd Johannes Wuebben\n"\
 			"wuebben@math.cornell.edu\n"\
-			"wuebben@kde.org\n"\
-			"                                                      \n"\
-			"Parts:\n"\
-			"Copyright 1997 Alexander Sanda\n"\
-			"alex@darkstar.ping.at","Ok");
+			"wuebben@kde.org\n","Ok");
 
 }
 
@@ -765,13 +816,14 @@ void TopLevel::fill_column_slot(){
 
 
   FillDlg *dlg;
-  dlg = new FillDlg(this,"print");
+  dlg = new FillDlg(this,"optionsdialog");
 
   struct fill_struct fillstr;
     
   fillstr.fill_column_is_set  = fill_column_is_set;
-  fillstr.word_wrap_is_set    = word_wrap_is_set;;
-  fillstr.fill_column_value   = fill_column_value;;
+  fillstr.word_wrap_is_set    = word_wrap_is_set;
+  fillstr.fill_column_value   = fill_column_value;
+  fillstr.mailcmd 	      = mailcmd.copy();
   
   dlg->setWidgets(fillstr);
 
@@ -1220,6 +1272,7 @@ void TopLevel::readSettings(){
 	fill_column_is_set = true;
 	word_wrap_is_set = true;
 	fill_column_value = 79;
+	mailcmd = "mail -s \"%s\" \"%s\"";
 
 	pi.command = "enscript -2rG";
 	pi.raw = 1;
@@ -1257,6 +1310,10 @@ void TopLevel::readSettings(){
 	
 	///////////////////////////////////////////////////
 	config->setGroup("General Options");
+
+	str = config->readEntry("MailCmd");
+		if ( !str.isNull() )
+		  mailcmd = str.data();
 
 	str = config->readEntry("Width");
 		if ( !str.isNull() )
@@ -1376,6 +1433,7 @@ void TopLevel::writeSettings(){
 
 	config->writeEntry( "StatusBar", hide_statusbar ? "off" : "on" );
 	config->writeEntry( "ToolBar", hide_toolbar ? "off" : "on" );
+	config->writeEntry("MailCmd",mailcmd);
 
 	QString string;
 	string.sprintf("%d", fill_column_is_set );

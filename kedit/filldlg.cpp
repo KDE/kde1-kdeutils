@@ -5,7 +5,7 @@ FillDlg::FillDlg(QWidget *parent, const char *name)
      : QDialog(parent, name, TRUE)
 
 {
-    frame1 = new QGroupBox("Fill Column", this, "frame1");
+    frame1 = new QGroupBox("Miscellaneous Options", this, "frame1");
     values = new QLineEdit( this, "values");
     this->setFocusPolicy(QWidget::StrongFocus);
     connect(values, SIGNAL(returnPressed()), this, SLOT(checkit()));
@@ -13,11 +13,14 @@ FillDlg::FillDlg(QWidget *parent, const char *name)
     connect(fill_column, SIGNAL(toggled(bool)),this,SLOT(synchronize(bool)));
 
     word_wrap = new QCheckBox("Word Warp", frame1, "word");
+    mailcmd = new QLineEdit(this,"mailcmd");
+    mailcmdlabel = new QLabel(this,"mailcmdlable");
+    mailcmdlabel->setText("Mail Command:");
     ok = new QPushButton("OK", this, "OK");
     cancel = new QPushButton("Cancel", this, "cancel");
     connect(cancel, SIGNAL(clicked()), this, SLOT(reject()));
     connect(ok, SIGNAL(clicked()), this, SLOT(checkit()));
-    resize(300, 150);
+    resize(300, 190);
 }
 
 struct fill_struct  FillDlg::getFillCol() { 
@@ -26,7 +29,8 @@ struct fill_struct  FillDlg::getFillCol() {
 
   fillstr.word_wrap_is_set = word_wrap->isChecked();
   fillstr.fill_column_is_set = fill_column->isChecked();
-
+  fillstr.mailcmd = mailcmd->text();
+  fillstr.mailcmd.detach();
   string = values->text();  
   fillstr.fill_column_value = string.toInt();
 
@@ -62,6 +66,7 @@ void FillDlg::setWidgets(struct fill_struct fill){
   fill_column->setChecked(fill.fill_column_is_set);
   word_wrap->setChecked(fill.word_wrap_is_set);
   values->setText(string.setNum(fill.fill_column_value));
+  mailcmd->setText(fill.mailcmd.data());
 
 }
 
@@ -81,6 +86,8 @@ void FillDlg::resizeEvent(QResizeEvent *)
     cancel->setGeometry(width() - 80, height() - 30, 70, 25);
     ok->setGeometry(width() - 160, height() - 30, 70, 25);
     values->setGeometry(170, 35, 70, 25);
+    mailcmd->setGeometry(120, 105, 160, 25);
+    mailcmdlabel->setGeometry(25, 105, 90, 25);
     fill_column->setGeometry(20, 30, 140, 25);
     word_wrap->setGeometry(20, 65, 140, 25);
 }

@@ -137,7 +137,8 @@ private:
     bool fill_column_is_set;
     bool word_wrap_is_set;
     int fill_column_value;
-    
+    QString mailcmd;
+
     QFont generalFont;
     KConfig *config;
 
@@ -180,7 +181,8 @@ public slots:
     void set_colors();
     void gotoLine();
     void fill_column_slot();
-    void fancyprint();
+    void mail();
+    /*    void fancyprint();*/
     void set_foreground_color();
     void set_background_color();
     void saving_slot();

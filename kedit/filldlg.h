@@ -45,6 +45,7 @@
 #include <qcombo.h>
 #include <qpushbt.h>
 #include <qgrpbox.h>
+#include <qlabel.h>
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -60,7 +61,7 @@ struct fill_struct{
   bool fill_column_is_set;
   bool word_wrap_is_set;
   int  fill_column_value;
-
+  QString mailcmd;
 };
 
 class FillDlg : public QDialog
@@ -75,6 +76,8 @@ public:
     bool fill();
     bool wordwrap();
     QLineEdit *values;
+    QLineEdit *mailcmd;
+    QLabel *mailcmdlabel;
     void setWidgets(struct fill_struct);
 
 private:
