@@ -1,0 +1,12 @@
+# KDE Config File
+[KDE Desktop Entry]
+Name=addressbook
+Name[de]=Adressbuch
+Exec=kab
+Icon=kab.xpm
+TerminalOptions=
+Path=
+Type=Application
+Comment=addressbook
+Comment[de]=Adressbuch
+Terminal=0

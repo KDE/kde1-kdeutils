@@ -20,4 +20,8 @@
 /* Define to 1 if NLS is requested.  */
 #undef ENABLE_NLS
 
+/* Define if you have an SGI like STL implementation */
+#undef HAVE_SGI_STL
 
+/* Define if you have an HP like STL implementation */
+#undef HAVE_HP_STL
