@@ -89,29 +89,3 @@ msgstr ""
 msgid "Could not start KFM"
 msgstr "KFM:‰‰ ei voitu k‰ynnist‰‰."
 
-#, fuzzy
-#~ msgid "&New Window..."
-#~ msgstr "Uusi ikkuna"
-
-#~ msgid "&View"
-#~ msgstr "&N‰yt‰"
-
-#, fuzzy
-#~ msgid ""
-#~ "Hex Editor 0.5 \n"
-#~ "\n"
-#~ "by Stephan Kulow  (coolo@itm.mu-luebeck.de)"
-#~ msgstr ""
-#~ "Ohjelma: khexdit\n"
-#~ "Versio: 0.4\n"
-#~ "\n"
-#~ "Stephan Kulow (coolo@itm.mu-luebeck.de)"
-
-#~ msgid "&File"
-#~ msgstr "&Tiedosto"
-
-#~ msgid "&Help"
-#~ msgstr "&Ohje"
-
-#~ msgid "File changed"
-#~ msgstr "Tiedostoa muutettu"
