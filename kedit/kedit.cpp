@@ -1511,8 +1511,7 @@ void TopLevel::slotDropEvent( KDNDDropZone * _dropZone )
 	if ( s == list.getFirst() && !eframe->isModified() )
 	{
 	    QString n = s;
-	    if ( n.left(5) != "file:" && n.left(4) == "ftp:" )
-	      // was OPEN_WRITEONLY but that isn't really cool.
+	    /*	    if ( n.left(5) != "file:" && n.left(4) == "ftp:" )*/
 		openNetFile( n.data(), KEdit::OPEN_READWRITE );
 	}
 	else
@@ -1523,10 +1522,10 @@ void TopLevel::slotDropEvent( KDNDDropZone * _dropZone )
 	    windowList.append( t );
 	    setGeneralStatusField(klocale->translate("New Window Created"));
 	    QString n = s;
-	    if ( n.left(5) != "file:" && n.left(4) == "ftp:" )
+	    /*	    if ( n.left(5) != "file:" && n.left(4) == "ftp:" )*/
 		t->openNetFile( n.data(), KEdit::OPEN_READWRITE );
-	    else
-		t->openNetFile( n.data(), KEdit::OPEN_READWRITE );
+		/*	    else
+		t->openNetFile( n.data(), KEdit::OPEN_READWRITE );*/
 	    setGeneralStatusField(klocale->translate("Load Command Done"));
 	}
     }
