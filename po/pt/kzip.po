@@ -72,7 +72,7 @@ msgstr "Opções de Adição de &Ficheiros"
 
 #: kzip.cc:122
 msgid "Welcome to KZip..."
-msgstr "Bem-vindo ao KZip..."
+msgstr "Bemvindo ao KZip..."
 
 #: kzip.cc:228
 msgid "Can't create archive of that type"

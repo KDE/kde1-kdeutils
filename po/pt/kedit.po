@@ -43,7 +43,7 @@ msgstr "Abrir &URL"
 
 #: kedit.cpp:206
 msgid "Save to U&RL..."
-msgstr "Gravar para U&RL..."
+msgstr "Gravar para UR&L..."
 
 #: kedit.cpp:212
 msgid "&Mail..."
@@ -67,11 +67,11 @@ msgstr "Inserir &Data"
 
 #: kedit.cpp:236
 msgid "&Find..."
-msgstr "&Encontrar..."
+msgstr "&Procurar..."
 
 #: kedit.cpp:238
 msgid "Find &Again"
-msgstr "Encontrar &Novamente"
+msgstr "Procurar &Novamente"
 
 #: kedit.cpp:240
 msgid "&Replace"
@@ -200,11 +200,11 @@ msgstr ""
 
 #: kedit.cpp:960
 msgid "Auto Indent Mode: On"
-msgstr "Modo de Auto Indentação: Ligado"
+msgstr "Indentação Automática: Ligada"
 
 #: kedit.cpp:962
 msgid "Auto Indent Mode: Off"
-msgstr "Modo de Auto Indentação: Desligado"
+msgstr "Indentação Automática: Desligada"
 
 #: kedit.cpp:1058
 #, c-format
@@ -351,7 +351,7 @@ msgstr "Opções do KEdit"
 
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"
-msgstr "Estabelecer Coluna para Encher em:"
+msgstr "Colunas por Linha:"
 
 #: filldlg.cpp:40
 msgid "Word Warp"
