@@ -4,6 +4,7 @@ DocPath=kjots/index.html
 Name=KJots
 Comment=Note taker
 Comment[de]=Erfasst Notizen
+Comment[fi]=Muistilappuohjelma
 Name=Kjots
 Comment[pl]=System zarz±dzanie notatkami
 WmCommand=
