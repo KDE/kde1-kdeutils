@@ -1,0 +1,76 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkpanel\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"PO-Revision-Date: 1998-02-21 05:04+0800\n"
+"Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
+"Language-Team: zh_CN ( gb2312 )\n"
+
+msgid "&Extract To..."
+msgstr "解压缩至...[&E]"
+
+msgid "&File Adding Options..."
+msgstr "文件增加选项[&F]"
+
+msgid "&Set Archive Directory..."
+msgstr "设定压缩文件目录[&S]..."
+
+msgid "Add File Options"
+msgstr "加入文件选项"
+
+msgid "All Files"
+msgstr "全部文件"
+
+msgid "Archive Dir:"
+msgstr "压缩文件目录:"
+
+msgid "Archive Directory"
+msgstr "压缩文件目录"
+
+msgid "Can't add directories with this archive type"
+msgstr "无法在此种压缩格式中加入目录"
+
+msgid "Can't create archive of that type"
+msgstr "无法建立此类型的压缩文件"
+
+msgid "Create or open an archive first"
+msgstr "请先建立或打开一个压缩文件"
+
+msgid "Destination"
+msgstr "目的地"
+
+msgid "E&xtract..."
+msgstr "解压缩...[&X]"
+
+msgid "Error saving to archive"
+msgstr "保存至压缩文件时发生错误"
+
+msgid "Extract Options"
+msgstr "解压缩选项"
+
+msgid "Filenames to Lowercase"
+msgstr "文件名改成小写"
+
+msgid "Files"
+msgstr "文件"
+
+msgid "Only Add Newer Files"
+msgstr "只加入新的文件"
+
+msgid "Pattern"
+msgstr "模式"
+
+msgid "Preserve Permissions"
+msgstr "保留权限"
+
+msgid "Selected File"
+msgstr "选中的文件"
+
+msgid "Store Full Path"
+msgstr "保存完整路径"
+
+msgid "Unknown archive format"
+msgstr "未知的压缩文件格式"
+
+msgid "Welcome to KZip..."
+msgstr "欢迎来到 KZip..."

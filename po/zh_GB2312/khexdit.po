@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkpanel\n"
+"POT-Creation-Date: 1998-02-25 16:11+0100\n"
+"PO-Revision-Date: 1998-02-21 05:04+0800\n"
+"Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
+"Language-Team: zh_CN ( gb2312 )\n"
+
+msgid "&Toggle Toolbar"
+msgstr "切换工具条[&T]"
+
+msgid "Could not start KFM"
+msgstr "不能运行 KFM"
+
+msgid "Error opening %s"
+msgstr "打开 %s 时发生错误"
+
+msgid "Hex Editor"
+msgstr "十六进制编辑器(Hex Editor)"
+
+msgid "New Window"
+msgstr "新窗口"
+
+msgid "Not implemented"
+msgstr "尚未实现"
+
+msgid "Save &As..."
+msgstr "另存新文件[&A]..."
+
+msgid "Save the file"
+msgstr "保存此文件"
+
+msgid ""
+"The current file has been modified.\n"
+"Discard your changes?"
+msgstr ""
+"当前的文件已经被修改.\n"
+"放弃修改?"
+
+msgid ""
+"The current file has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"当前的文件已经被修改.\n"
+"要保存吗?"
