@@ -110,7 +110,7 @@ MiscData::MiscData
 	Initialize = new QPushButton( this, "PushButton_3" );
 	Initialize->setGeometry( 25, 205, 80, 25 );
 	connect( Initialize, SIGNAL(clicked()), SLOT(InitializeClicked()) );
-	Initialize->setText(i18n( "initialize") );
+	Initialize->setText(i18n( "Initialize") );
 	Initialize->setAutoRepeat( FALSE );
 	Initialize->setAutoResize( FALSE );
 
