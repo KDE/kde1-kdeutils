@@ -1,0 +1,16 @@
+Sun Jul 20 16:59:27 1997  Bernd Johannes Wuebben  <wuebben@petit.cornell.edu>
+
+	* KEdit.cpp: Fixed permissions bug
+	             Change line and column numbering to start at 1 
+		     instead of 0
+
+Mon Jun 16 18:33:56 1997  Bernd Johannes Wuebben  <wuebben@petit.cornell.edu>
+
+	* kedit.cpp: files dropped onto kedit are now opened with read and 
+	             write permissions.
+
+Thu May 22 15:02:23 1997  Bernd Johannes Wuebben  <wuebben@petit.cornell.edu>
+
+	* KEdit.cpp: the file open dialogs will now remember the last
+	             directory visited.
+
