@@ -1,3 +1,5 @@
+SUBDIRS = de
+
 prefix = @prefix@
 
 data_DATA = index-1.html index-2.html index-3.html index-4.html \
