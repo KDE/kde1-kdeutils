@@ -1,3 +1,9 @@
+/*
+ *   khexdit - a little hex editor
+ *   Copyright (C) 1996,97,98  Stephan Kulow
+ *
+ */
+
 #include <qstring.h>
 
 class HexData : protected QByteArray {
