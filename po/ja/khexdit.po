@@ -1,0 +1,91 @@
+# KTranslator Generated File
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: KTranslator 0.3.1\n"
+"POT-Creation-Date: 1998-04-27 19:21:33+0200\n"
+"PO-Revision-Date: Thu Jan 28 1999 15:44:08+0900\n"
+"Last-Translator: 井村 竜一郎 <imura@cs.titech.ac.jp>\n"
+"Language-Team: 日本語 <kde-jp@albert.nikkeibp.co.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"X-Generator: KTranslator v 0.4.0"
+
+#: hexdata.cpp:39
+#, c-format
+msgid "Error opening %s"
+msgstr "%s を開くのにエラーが生じました"
+
+#: hexwidget.cpp:66
+msgid "Save &As..."
+msgstr "セーブ (&A)"
+
+#: hexwidget.cpp:77
+msgid "&Toggle Toolbar"
+msgstr "ツールバーを隠す (&T)"
+
+#: hexwidget.cpp:80
+msgid "Hex Editor"
+msgstr "16進 エディタ"
+
+#: hexwidget.cpp:82
+msgid ""
+"\n"
+"\n"
+"by Stephan Kulow"
+msgstr ""
+"\n"
+"\n"
+"by Stephan Kulow"
+
+#: hexwidget.cpp:105
+msgid "New Window"
+msgstr "新しいウィンドウ"
+
+#: hexwidget.cpp:109
+msgid "Save the file"
+msgstr "セーブする"
+
+#: hexwidget.cpp:112 hexwidget.cpp:114 hexwidget.cpp:116 hexwidget.cpp:119
+msgid "Not implemented"
+msgstr "実行できませんでした"
+
+#: hexwidget.cpp:150
+msgid ""
+"The current file has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"ファイルに手が加えられています。\n"
+"セーブしますか？"
+
+#: hexwidget.cpp:173
+msgid ""
+"The current file has been modified.\n"
+"Discard your changes?"
+msgstr ""
+"ファイルに手が加えられています。\n"
+"修正を破棄しますか？"
+
+#: hexwidget.cpp:254
+msgid ""
+"KHexdit is already waiting\n"
+"for an internet job to finish\n"
+"\n"
+"Wait until this one is finished\n"
+"or stop the running one."
+msgstr ""
+"KHexdit はインターネット上での\n"
+"作業が終了するのを待っています。\n"
+"\n"
+"これが終了するのを待つか、\n"
+"強制終了してください。"
+
+#: hexwidget.cpp:262
+msgid "Could not start KFM"
+msgstr "KFM を起動できません"

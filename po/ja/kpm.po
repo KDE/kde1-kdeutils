@@ -1,0 +1,409 @@
+# KTranslator Generated File
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+# KTranslator Generated File
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1999-04-17 02:13+0200\n"
+"PO-Revision-Date: Sun May 9 1999 12:16:07+0900\n"
+"Last-Translator: 井村 竜一郎 <imura@cs.titech.ac.jp>\n"
+"Language-Team: 日本語 <kde-jp@albert.nikkeibp.co.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=euc-jp\n"
+"Content-Transfer-Encoding: 8bit"
+"X-Generator: KTranslator v 0.4.0"
+
+#: prefs.C:33
+msgid "Graphic Load Display"
+msgstr "負荷のグラフ表示"
+
+#: prefs.C:34
+msgid "Graphic CPU Display"
+msgstr "CPUのグラフ表示"
+
+#: prefs.C:35
+msgid "Graphic Memory Display"
+msgstr "メモリのグラフ表示"
+
+#: prefs.C:36
+msgid "Graphic Swap Display"
+msgstr "スワップのグラフ表示"
+
+#: prefs.C:37
+msgid "Load Graph in Icon"
+msgstr "負荷グラフをアイコンで"
+
+#: prefs.C:38
+msgid "Dock into kpanel"
+msgstr "パネルに格納"
+
+#: prefs.C:43
+msgid "Green/Black Load Graph"
+msgstr "黒/青 負荷グラフ"
+
+#: prefs.C:45
+msgid "Solid filled graph"
+msgstr "立体的なグラフ"
+
+#: prefs.C:50
+msgid "Host Name Lookup"
+msgstr "ホストネーム参照"
+
+#: prefs.C:55
+msgid "Auto Save Settings on Exit"
+msgstr "終了するときは自動的に設定をセーブ"
+
+#: prefs.C:67
+msgid "Status Bar"
+msgstr "ステータスバー"
+
+#: prefs.C:69
+msgid "Socket Info Window"
+msgstr "ソケットインフォウィンドウ"
+
+#: qps.C:88 qps.C:126
+msgid "Renice..."
+msgstr ""
+
+#: qps.C:91
+msgid "Change Scheduling..."
+msgstr "スケジューリングを変更..."
+
+#: qps.C:95 qps.C:130
+msgid "Socket Info"
+msgstr "ソケットインフォ"
+
+#: qps.C:100
+msgid "Iconify"
+msgstr "アイコン化"
+
+#: qps.C:108 qps.C:132
+msgid "Terminate"
+msgstr "終了"
+
+#: qps.C:111 qps.C:133
+msgid "Hangup"
+msgstr "中止"
+
+#: qps.C:114 qps.C:134
+msgid "Interrupt"
+msgstr "中断"
+
+#: qps.C:117 qps.C:136
+msgid "Kill"
+msgstr "強制終了"
+
+#: qps.C:120
+msgid "Other"
+msgstr "他"
+
+#: qps.C:127
+msgid "Scheduling..."
+msgstr "スケジューリング..."
+
+#: qps.C:137
+msgid "Other signals"
+msgstr "他のシグナル"
+
+#: qps.C:145
+msgid "Remove field"
+msgstr "削除失敗"
+
+#: qps.C:147
+msgid "Add field..."
+msgstr "追加失敗..."
+
+#: qps.C:151
+msgid "Help on field..."
+msgstr "フィールドのヘルプ..."
+
+#: qps.C:156
+msgid "Refresh process list"
+msgstr "プロセスリストを更新"
+
+#: qps.C:159
+msgid "All Processes"
+msgstr "すべてのプロセス"
+
+#: qps.C:160
+msgid "Your Processes"
+msgstr "あなたのプロセス"
+
+#: qps.C:161
+msgid "Non-Root Processes"
+msgstr "root でないプロセス"
+
+#: qps.C:162
+msgid "Running Processes"
+msgstr "実行中のプロセス"
+
+#: qps.C:164
+msgid "User Fields"
+msgstr "ユーザフィールド"
+
+#: qps.C:165
+msgid "Jobs Fields"
+msgstr "ジョブフィールド"
+
+#: qps.C:166
+msgid "Memory Fields"
+msgstr "メモリフィールド"
+
+#: qps.C:168
+msgid "Select Fields..."
+msgstr "フィールド選択"
+
+#: qps.C:174
+msgid "Update Period..."
+msgstr "Periodの更新..."
+
+#: qps.C:179
+msgid "Show command path"
+msgstr "コマンドのパスを表示"
+
+#: qps.C:181
+msgid "Show ressource info"
+msgstr "リソースの情報を表示"
+
+#: qps.C:183
+msgid "Show toolbar"
+msgstr "ツールバーを表示"
+
+#: qps.C:187
+msgid "Preferences..."
+msgstr "設定..."
+
+#: qps.C:190
+msgid "Save Settings Now"
+msgstr "いますぐ設定をセーブ"
+
+#: qps.C:195
+msgid ""
+" - A Visual Process Manager (KDE Version)\n"
+"\n"
+") 1997 Mattias Engdegerd (f91-men@nada.kth.se)\n"
+") 1998 Mario Weilguni (mweilguni@kde.org)\n"
+"\n"
+"kpm is the KDE version of qps, written by Matthias\n"
+"Engdegerd. The port to KDE was done by Mario\n"
+"Weilguni. If you are interested on the original\n"
+"qps, you can find it at the following location:\n"
+"    ftp://sunsite.unc.edu/pub/linux/system/status\n"
+"\n"
+"This program is published under the GNU General\n"
+"Public License (GNU GPL). See the file COPYING\n"
+"for details about this."
+msgstr ""
+
+#: qps.C:210
+msgid "&Window"
+msgstr "ウィンドウ(&W)"
+
+#: qps.C:211
+msgid "&Process"
+msgstr "プロセス(&P)"
+
+#: qps.C:212
+msgid "&Signal"
+msgstr "シグナル(&S)"
+
+#: qps.C:308
+msgid "SIGQUIT (quit)"
+msgstr "SIGQUIT (終了)"
+
+#: qps.C:309
+msgid "SIGILL (illegal instruction)"
+msgstr "SIGILL (不正命令)"
+
+#: qps.C:310
+msgid "SIGABRT (abort)"
+msgstr "SIGABORT (内因中止)"
+
+#: qps.C:311
+msgid "SIGFPE (floating point exception)"
+msgstr "SIGFPE (算術例外)"
+
+#: qps.C:312
+msgid "SIGSEGV (segmentation violation)"
+msgstr "SIGSEGV (セグメント違反)"
+
+#: qps.C:313
+msgid "SIGPIPE (broken pipe)"
+msgstr "SIGPIPE (パイプ破損)"
+
+#: qps.C:314
+msgid "SIGALRM (timer signal)"
+msgstr "SIGALRM (アラームクロック)"
+
+#: qps.C:315
+msgid "SIGUSR1 (user-defined 1)"
+msgstr "SIGUSR1 (ユーザ定義 1)"
+
+#: qps.C:316
+msgid "SIGUSR2 (user-defined 2)"
+msgstr "SIGUSR2 (ユーザ定義 2)"
+
+#: qps.C:317
+msgid "SIGCHLD (child death)"
+msgstr "SIGCHLD (子ステータスの変更)"
+
+#: qps.C:318
+msgid "SIGCONT (continue)"
+msgstr "SIGCONT (停止後に継続)"
+
+#: qps.C:319
+msgid "SIGSTOP (stop)"
+msgstr "SIGSTOP (外因停止)"
+
+#: qps.C:320
+msgid "SIGTSTP (stop from tty)"
+msgstr "SIGTSTP (tty からの停止)"
+
+#: qps.C:321
+msgid "SIGTTIN (tty input)"
+msgstr "SIGTTIN (ttyからの読み込み)"
+
+#: qps.C:322
+msgid "SIGTTOU (tty output)"
+msgstr "SIGTTOU (ttyからの書き込み)"
+
+#: qps.C:622
+#, c-format
+msgid ""
+"You do not have permission to view the\n"
+"open sockets of process %d (%s).\n"
+"Only the owner of the process and the\n"
+"super-user may do that."
+msgstr ""
+"あなたにはプロセス %d (%s)\n"
+"のソケットをみる権限がありません。\n"
+"プロセスの所有者かスーパーユーザのみが\n"
+"実行できます。"
+
+#: qps.C:627 qps.C:836 qps.C:878 qps.C:884 qps.C:907 qps.C:943 qps.C:987
+msgid "Permission denied"
+msgstr "あなたには権限がありません"
+
+#: qps.C:700
+msgid "qps: change update period"
+msgstr "qps: 更新された period の変更"
+
+#: qps.C:701
+msgid "New update period:"
+msgstr "新しく更新された period:"
+
+#: qps.C:716 qps.C:855 scheddlg.C:113
+msgid "Invalid input"
+msgstr "不正な入力"
+
+#: qps.C:717
+msgid ""
+"The time between updates should be a number, optionally followed\n"
+"by a unit (ms, s or min). If no unit is given, seconds is assumed."
+msgstr ""
+"更新間隔は数字でなければなりません。オプションとして"
+"単位(ms, s, min)がつけられます。何もなければ秒になります。"
+
+#: qps.C:831
+#, c-format
+msgid ""
+"You do not have permission to renice the\n"
+"selected process%s.\n"
+"Only the process owner and the super-user\n"
+"are allowed to do that."
+msgstr ""
+"あなたには今選んだプロセス%s を\n"
+"renice する権限がありません。\n"
+"そのプロセスの所有者かスーパーユーザ\n"
+"のみに許されています。"
+
+#: qps.C:845
+msgid "qps: renice process"
+msgstr "qps: プロセスの優先度を変える"
+
+#: qps.C:846
+msgid "New nice value:"
+msgstr "新しい nice の値"
+
+#: qps.C:856
+msgid ""
+"The nice value should be\n"
+"in the range -20 to 20."
+msgstr ""
+"nice の値は -20 〜 20 で\n"
+"なければなりません。"
+
+#: qps.C:873
+#, c-format
+msgid ""
+"You do not have permission to renice process %d (%s).\n"
+"Only the process owner and the super-user are allowed to do that."
+msgstr ""
+"あなたにはプロセス %d (%s) を renice する権限がありません。\n"
+"プロセスの所有者かスーパーユーザのみが許されています。"
+
+#: qps.C:885
+msgid "Only the super-user may lower the nice value of a process."
+msgstr "スーパーユーザしかプロセスの優先度を下げられません。"
+
+#: qps.C:908
+msgid ""
+"Only the super-user may change the\n"
+"scheduling policy and static priority."
+msgstr ""
+"スーパーユーザのみがスケジューリング方針や\n"
+"静的な優先度を変えることができます。"
+
+#: qps.C:938
+#, c-format
+msgid ""
+"You do not have permission to change the\n"
+"scheduling and/or priority of process %d (%s).\n"
+"Only the super-user may do that."
+msgstr ""
+"あなたにはスケジューリングを変更したり、\n"
+"プロセス %d (%s) の優先度を変更できる権限がありません。\n"
+"スーパーユーザのみが許されています。"
+
+#: qps.C:982
+#, c-format
+msgid ""
+"You do not have permission to send a signal to process %d (%s).\n"
+"Only the super-user and the owner of the process may send signals to it."
+msgstr ""
+"あなたにはプロセス %d (%s) にシグナルを送る権限がありません。\n"
+"プロセスの所有者かスーパーユーザのみが許されています。"
+
+#: scheddlg.C:22
+msgid "Change scheduling"
+msgstr "スケジューリングの変更"
+
+#: scheddlg.C:28
+msgid "Scheduling Policy"
+msgstr "スケジューリング方針"
+
+#: scheddlg.C:29
+msgid "SCHED_OTHER (time-sharing)"
+msgstr "SCHED_OTHER (時分割)"
+
+#: scheddlg.C:36
+msgid "SCHED_FIFO (real-time)"
+msgstr "SCHED_FIFO (実時間)"
+
+#: scheddlg.C:42
+msgid "SCHED_RR (real-time)"
+msgstr "SCHED_RR (実時間)"
+
+#: scheddlg.C:67
+msgid "Priority (1-99):"
+msgstr "優先度 (1-99):"
+
+#: scheddlg.C:114
+msgid "The priority must be in the range 1..99"
+msgstr "優先度は 1〜99 でなければなりません"

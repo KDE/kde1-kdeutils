@@ -1,0 +1,471 @@
+# KTranslator Generated File
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-12-19 02:08+0100\n"
+"PO-Revision-Date: Sat Jan 30 1999 21:08:35+0900\n"
+"Last-Translator: 石倉 大基 <ishikura@math.titech.ac.jp>\n"
+"Language-Team: 日本語 <kde-jp@albert.nikkeibp.co.jp>\n"
+"Content-Type: text/plain; charset=euc-jp\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"X-Generator: KTranslator v 0.4.0"
+
+#: highlight.cpp:1443
+msgid "Normal:"
+msgstr "通常："
+
+#: highlight.cpp:1453 kwdialog.cpp:416
+msgid "Selected:"
+msgstr "選択されたもの："
+
+#: highlight.cpp:1460
+msgid "Bold"
+msgstr "ボールド"
+
+#: highlight.cpp:1511
+msgid "Family:"
+msgstr "ファミリ:"
+
+#: highlight.cpp:1521
+msgid "Size:"
+msgstr "サイズ:"
+
+#: highlight.cpp:1619
+msgid "Default Item Styles"
+msgstr "スタイルのデフォルト"
+
+#: highlight.cpp:1623 highlight.cpp:1694
+msgid "Item:"
+msgstr "アイテム："
+
+#: highlight.cpp:1641
+msgid "Default Font"
+msgstr "デフォルトフォント"
+
+#: highlight.cpp:1678
+msgid "Config Select"
+msgstr "コンフィグの選択"
+
+#: highlight.cpp:1682
+msgid "Highlight:"
+msgstr "ハイライト："
+
+#: highlight.cpp:1701
+msgid "Highlight Auto Select"
+msgstr "ハイライトの自動選択"
+
+#: highlight.cpp:1705
+msgid "File Extensions:"
+msgstr "ファイルの拡張子:"
+""
+
+#: highlight.cpp:1712
+msgid "Mime Types:"
+msgstr "マイムタイプ:"
+
+#: highlight.cpp:1719
+msgid "Item Style"
+msgstr "スタイル"
+
+#: highlight.cpp:1728
+msgid "Item Font"
+msgstr "フォント"
+
+#: kwview.cpp:1074
+msgid "The specified File does not exist"
+msgstr "指定されたファイルはありません"
+
+#: kwview.cpp:1084
+msgid "You have specified a directory"
+msgstr "ディレクトリを指定しました"
+
+#: kwview.cpp:1094
+msgid "You do not have read permission to this file"
+msgstr "このファイルには読み込みパーミッシヨンがかかっています"
+
+#: kwview.cpp:1110 kwview.cpp:1140
+msgid "An Error occured while trying to open this Document"
+msgstr "この文書を開くときにエラーが発生しました"
+
+#: kwview.cpp:1124
+msgid "You do not have write permission to this file"
+msgstr "このファイルには書き込みパーミッションがかかっています"
+
+#: kwview.cpp:1177
+msgid "Loading..."
+msgstr "ロード中..."
+
+#: kwview.cpp:1185 kwview.cpp:1306
+msgid "Inserted"
+msgstr "インサートされたもの"
+
+#: kwview.cpp:1190 kwview.cpp:1315
+msgid "Read"
+msgstr "読む"
+
+#: kwview.cpp:1199 kwview.cpp:1257
+msgid ""
+"KWrite is already waiting\n"
+"for an internet job to finish\n"
+"Please wait until it has finished\n"
+"Alternatively stop the running one."
+msgstr "KWriteはインターネットの作業が\n"
+"終るのを待っています\n"
+"作業が終るまで待つか\n"
+"作業を終了させてください"
+
+#: kwview.cpp:1207 kwview.cpp:1265
+msgid "Waiting for KFM..."
+msgstr "KFMの起動を待っています"
+
+#: kwview.cpp:1213 kwview.cpp:1278
+msgid "Could not start or find KFM"
+msgstr "KFMを起動もしくは見付けられません"
+
+#: kwview.cpp:1240
+msgid "Saving..."
+msgstr "セーブ中..."
+
+#: kwview.cpp:1248 kwview.cpp:1325
+msgid "Wrote"
+msgstr "書かれた"
+
+#: kwview.cpp:1351
+msgid ""
+"The current Document has been modified.\n"
+"Would you like to save it?"
+msgstr ""
+"現在の文書は変更されています.\n"
+"保存しますか？"
+
+#: kwview.cpp:1362
+msgid ""
+"Could not save the document.\n"
+"Open a new document anyways?"
+msgstr ""
+"この文書を保存できませんでした\n"
+"それでも新しい文書を開きますか？"
+
+#: kwview.cpp:1409
+msgid "No changes need to be saved"
+msgstr "セーブする必要はありません"
+
+#: kwview.cpp:1430
+msgid ""
+"A Document with this Name already exists.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"この名前のファイルは既に存在します\n"
+"上書きしますか？"
+
+#: kwview.cpp:1633 kwview.cpp:1821
+msgid "End of document reached"
+msgstr "ドキュメントの末端です"
+
+#: kwview.cpp:1634 kwview.cpp:1822
+msgid "Continue from the beginning"
+msgstr "始めから続ける"
+
+#: kwview.cpp:1636 kwview.cpp:1647 kwview.cpp:1657
+msgid "Find"
+msgstr "検索"
+
+#: kwview.cpp:1644 kwview.cpp:1833
+msgid "Beginning of document reached"
+msgstr "ドキュメントの頭です"
+
+#: kwview.cpp:1645 kwview.cpp:1834
+msgid "Continue from the end"
+msgstr "終りから続ける"
+
+#: kwview.cpp:1658
+msgid "Search string not found!"
+msgstr "なかったよ！！"
+
+#: kwview.cpp:1806 kwview.cpp:1820 kwview.cpp:1832
+msgid "replace(s) made"
+msgstr "箇所が変更されました"
+
+#: kwview.cpp:1947 toplevel.cpp:486
+msgid "Line"
+msgstr "行"
+
+#: kwdialog.cpp:30
+msgid "&Text To Find:"
+msgstr "検索したい文字列(&T)"
+
+#: kwdialog.cpp:40
+msgid "&Replace With:"
+msgstr "代りに入力する文字列(&R)"
+
+#: kwdialog.cpp:51
+msgid "&Case Sensitive"
+msgstr "大小文字の区別(&C)"
+
+#: kwdialog.cpp:52
+msgid "&Whole Words Only"
+msgstr "全語一致のみ(&W)"
+
+#: kwdialog.cpp:53
+msgid "&From Cursor"
+msgstr "カーソル位置から(&F)"
+
+#: kwdialog.cpp:54
+msgid "Find &Backwards"
+msgstr "後ろから検索(&B)"
+
+#: kwdialog.cpp:55
+msgid "&Selected Text"
+msgstr "選択された文章(&S)"
+
+#: kwdialog.cpp:80
+msgid "&Prompt On Replace"
+msgstr "すぐに置換するか(&P)"
+
+#: kwdialog.cpp:142
+msgid "Replace this occurence?"
+msgstr "この文字列を置換しますか？"
+
+#: kwdialog.cpp:147
+msgid "&Yes"
+msgstr "はい (&Y)"
+
+#: kwdialog.cpp:154
+msgid "&No"
+msgstr "いいえ (&N)"
+
+#: kwdialog.cpp:159
+msgid "&All"
+msgstr "全部(&A)"
+
+#: kwdialog.cpp:217
+msgid "&Goto Line:"
+msgstr "指定された行へワープ(&G)"
+
+#: kwdialog.cpp:255
+msgid "Edit Options"
+msgstr "エディットオプション"
+
+#: kwdialog.cpp:256
+msgid "Auto &Indent"
+msgstr "自動字下げ(&I)"
+
+#: kwdialog.cpp:257
+msgid "&Backspace Indent"
+msgstr ""
+
+#: kwdialog.cpp:258
+msgid "&Word Wrap"
+msgstr "行の文字数指定(&W)"
+
+#: kwdialog.cpp:259
+msgid "Replace &Tabs"
+msgstr "タブを使用するか(&T)"
+
+#: kwdialog.cpp:260
+msgid "Remove Trailing &Spaces"
+msgstr ""
+
+#: kwdialog.cpp:261
+msgid "Wrap &Cursor"
+msgstr "カーソルを行末以降\n"
+"行かせない(&C)"
+
+#: kwdialog.cpp:262
+msgid "&Auto Brackets"
+msgstr "自動括弧製造機(&A)"
+
+#: kwdialog.cpp:290
+msgid "Select Options"
+msgstr "選択機能のオプション"
+
+#: kwdialog.cpp:291
+msgid "&Persistent Selections"
+msgstr "選択領域の保存(&P)"
+
+#: kwdialog.cpp:292
+msgid "&Multiple Selections"
+msgstr "追加選択機能(&M)"
+
+#: kwdialog.cpp:293 toplevel.cpp:247
+msgid "&Vertical Selections"
+msgstr "縦列選択機能(&V)"
+
+#: kwdialog.cpp:294
+msgid "&Delete On Input"
+msgstr "キー入力による\n"
+"選択領域の消去(&D)"
+
+#: kwdialog.cpp:295
+msgid "&Toggle Old"
+msgstr ""
+
+#: kwdialog.cpp:322
+msgid "Wrap Words At:"
+msgstr "行の文字数："
+
+#: kwdialog.cpp:332
+msgid "Tab Width:"
+msgstr "タブによる移動文字数："
+
+#: kwdialog.cpp:342
+msgid "Undo steps:"
+msgstr "戻すステップ数："
+
+#: kwdialog.cpp:402
+msgid "Background:"
+msgstr "背景："
+
+#: kwdialog.cpp:409
+msgid "Text Background:"
+msgstr "文字の背景："
+
+#: kwdialog.cpp:423
+msgid "Found:"
+msgstr "見付かったもの："
+
+#: kwdialog.cpp:430
+msgid "Selected + Found:"
+msgstr "選択領域 ＋ 検索"
+
+#: toplevel.cpp:118
+msgid "Message"
+msgstr "メッセージ"
+
+#: toplevel.cpp:119
+msgid ""
+"This Document has been modified.\n"
+"Would you like to save it?"
+msgstr ""
+"ドキュメントは変更されています\n"
+"保存しますか？"
+
+#: toplevel.cpp:177
+msgid "Ne&w..."
+msgstr "新規作成(&w)"
+
+#: toplevel.cpp:179
+msgid "&Insert..."
+msgstr "挿入...(&I)"
+
+#: toplevel.cpp:194
+msgid "New &Window"
+msgstr "新しいウィンドウを開く(&W)"
+
+#: toplevel.cpp:195
+msgid "New &View"
+msgstr "別のKwriteを開く(&V)"
+
+#: toplevel.cpp:204
+msgid "&Find..."
+msgstr "検索... (&F)"
+
+#: toplevel.cpp:205
+msgid "&Replace..."
+msgstr "置き換え...(&R)"
+
+#: toplevel.cpp:206
+msgid "Find &Again"
+msgstr "再度検索(&A)"
+
+#: toplevel.cpp:207
+msgid "&Goto Line..."
+msgstr "指定行へワープ...(&G)"
+
+#: toplevel.cpp:209
+msgid "U&ndo"
+msgstr "戻す(&n)"
+
+#: toplevel.cpp:210
+msgid "R&edo"
+msgstr "再実行(&e)"
+
+#: toplevel.cpp:212
+msgid "&Indent"
+msgstr "字下げ(&I)"
+
+#: toplevel.cpp:213
+msgid "Uninden&t"
+msgstr "字下げを戻す(&t)"
+
+#: toplevel.cpp:217
+msgid "&Select All"
+msgstr "すべて選択(&S)"
+
+#: toplevel.cpp:218
+msgid "&Deselect All"
+msgstr "選択領域の解除(&D)"
+
+#: toplevel.cpp:219
+msgid "In&vert Selection"
+msgstr "選択領域の反転(&v)"
+
+#: toplevel.cpp:224
+msgid "&Set Bookmark..."
+msgstr "ブックマークのセット(&S)"
+
+#: toplevel.cpp:225
+msgid "&Add Bookmark"
+msgstr "ブックマークの追加(&A)"
+
+#: toplevel.cpp:226
+msgid "&Clear Bookmarks"
+msgstr "ブックマークを初期化(&C)"
+
+#: toplevel.cpp:238
+msgid "Set Highlight"
+msgstr "ハイライトのセット"
+
+#: toplevel.cpp:240
+msgid "&Defaults..."
+msgstr "デフォルト(&D)"
+
+#: toplevel.cpp:241
+msgid "&Highlight..."
+msgstr "ハイライト...(&H)"
+
+#: toplevel.cpp:244
+msgid "&Options..."
+msgstr "オプション(&O)"
+
+#: toplevel.cpp:245
+msgid "&Colors..."
+msgstr "色の設定...(&C)"
+
+#: toplevel.cpp:248
+msgid "Show &Toolbar"
+msgstr "ツールバーを表示 (&T)"
+
+#: toplevel.cpp:249
+msgid "Show &Statusbar"
+msgstr "ステータスバーを表示(&S)"
+
+#: toplevel.cpp:250
+msgid "Save Config"
+msgstr "コンフィグの保存"
+
+#: toplevel.cpp:286
+msgid "&Bookmarks"
+msgstr "ブックマーク(&B)"
+
+#: toplevel.cpp:305
+msgid "New Document"
+msgstr "ドキュメントの新規作成"
+
+#: toplevel.cpp:309
+msgid "Open Document"
+msgstr "ドキュメントを開く"
+
+#: toplevel.cpp:313
+msgid "Save Document"
+msgstr "ドキュメントの保存"
+
+#: toplevel.cpp:487
+msgid "Col"
+msgstr "縦列"
