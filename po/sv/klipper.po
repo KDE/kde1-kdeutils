@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-12-21 02:02+0100\n"
+"POT-Creation-Date: 1999-01-15 01:58+0100\n"
 "PO-Revision-Date: 1998-12-13 16:52+0100\n"
 "Last-Translator: Karl Backström <backstrom@kde.org>\n"
 "Language-Team: Sv <LL@li.org>\n"
@@ -13,22 +13,22 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: toplevel.cpp:89
+#: toplevel.cpp:79
 msgid "Shortcut..."
 msgstr "Genväg..."
 
-#: toplevel.cpp:90
+#: toplevel.cpp:80
 msgid "Popup at mouse position"
 msgstr "Popupmeny vid muspekaren"
 
-#: toplevel.cpp:95
+#: toplevel.cpp:85
 msgid "Clipboard History"
 msgstr "Klippbordets historia"
 
-#: toplevel.cpp:99
+#: toplevel.cpp:89
 msgid "<empty clipboard>"
 msgstr "<tomt klippbord>"
 
-#: toplevel.cpp:111
+#: toplevel.cpp:101
 msgid "Select clipboard contents"
 msgstr "Välj klippbordets innehåll"

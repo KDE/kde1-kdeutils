@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
-"POT-Creation-Date: 1998-12-21 02:02+0100\n"
+"POT-Creation-Date: 1999-01-15 01:58+0100\n"
 "PO-Revision-Date: 1999-01-01 12:12+0001\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <sk@li.org>\n"
@@ -13,22 +13,22 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: Slovak\n"
 
-#: toplevel.cpp:89
+#: toplevel.cpp:79
 msgid "Shortcut..."
 msgstr "Odkaz..."
 
-#: toplevel.cpp:90
+#: toplevel.cpp:80
 msgid "Popup at mouse position"
 msgstr "Na pozícii my¹ky"
 
-#: toplevel.cpp:95
+#: toplevel.cpp:85
 msgid "Clipboard History"
 msgstr "História schránky"
 
-#: toplevel.cpp:99
+#: toplevel.cpp:89
 msgid "<empty clipboard>"
 msgstr "<prázdna schránka>"
 
-#: toplevel.cpp:111
+#: toplevel.cpp:101
 msgid "Select clipboard contents"
 msgstr "Zvoli» obsah schránky"

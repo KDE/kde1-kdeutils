@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KLIPPER\n"
-"POT-Creation-Date: 1998-12-21 02:02+0100\n"
+"POT-Creation-Date: 1999-01-15 01:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,22 +14,22 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: toplevel.cpp:89
+#: toplevel.cpp:79
 msgid "Shortcut..."
 msgstr "Lyhytvalinta..."
 
-#: toplevel.cpp:90
+#: toplevel.cpp:80
 msgid "Popup at mouse position"
 msgstr "Valikko kohdistimen paikkaan"
 
-#: toplevel.cpp:95
+#: toplevel.cpp:85
 msgid "Clipboard History"
 msgstr "Leikepöydän historia"
 
-#: toplevel.cpp:99
+#: toplevel.cpp:89
 msgid "<empty clipboard>"
 msgstr "<tyhjä leikepöytä>"
 
-#: toplevel.cpp:111
+#: toplevel.cpp:101
 msgid "Select clipboard contents"
 msgstr "Valitse leikepöydän sisältö"
