@@ -4,17 +4,55 @@
 #include <qtimer.h>
 #include <kwm.h>
 #include <qpainter.h>
+#include <stdlib.h>
 #include "docked.h"
 
 #define PROCFILE "/proc/loadavg"
+#define PROCFILE1 "/proc/stat"
 
-float history[ICONWIDTH];
+#define M_OPEN_KPM 1
+#define M_EXIT 1000
+
+
+QString FQFN(const char *fn) {
+  QString s = fn;
+
+  // check for full path
+  if(s[0] == '/')
+    return s;
+  
+  // check path
+  char buf[1024];
+  if(getenv("PATH")) {
+    strcpy(buf, getenv("PATH"));
+    char *p = strtok(buf, ":");
+    while(p) {
+      s = p;
+      s.append("/");
+      s.append(fn);
+      if(access(s.data(), X_OK) == 0) {
+	if(s.left(2) == "./") {
+	  char pathbuf[1024];
+	  getcwd(pathbuf, sizeof(pathbuf));
+	  s = pathbuf;
+	  s.append("/");
+	  s.append(fn);
+	}
+	return s;
+      }
+      p = strtok(NULL, ":");
+    }
+  }
+
+  s = fn;
+  return s;
+}
+
 
 Sysload::Sysload() : QWidget(0) {
-  idx = 0;
-  for(int i = 0; i < ICONWIDTH; i++)
-    history[i] = -1;
+  conf = kapp->getConfig();
 
+  clearHistory();
   QTimer *t = new QTimer(this);
   connect(t, SIGNAL(timeout()),
 	  this, SLOT(doUpdate()));
@@ -24,29 +62,88 @@ Sysload::Sysload() : QWidget(0) {
   show();
   doUpdate();
   proc << "kpm";
+
+  // cpu load
+  idle = -1;
+  QTimer *t1 = new QTimer(this);
+  connect(t1, SIGNAL(timeout()),
+	  this, SLOT(updateCPULoad()));
+  t1->start(1000);
+
+  // make popup menu  
+  menu = new QPopupMenu;
+  options = new QPopupMenu;
+  options->setCheckable(true);
+  int id;
+  id = options->insertItem(i18n("Show CPU load"), this, SLOT(showCPULoad()));
+  id = options->insertItem(i18n("Show system load"), this, SLOT(showSysLoad()));
+  menu->insertItem(i18n("Open system monitor"), M_OPEN_KPM);
+  menu->insertItem(i18n("Options"), options);
+  menu->insertSeparator();
+  menu->insertItem(i18n("Exit"), M_EXIT);
+
+  connect(menu, SIGNAL(activated(int)),
+	  this, SLOT(menuCallback(int)));
+
+  qh = new KQuickHelpWindow();
 }
+
+
+void Sysload::showCPULoad() {
+    conf->writeEntry("ShowCPULoad", 1);
+    conf->writeEntry("ShowSysLoad", 0);
+    conf->sync();
+    clearHistory();
+    doUpdate();
+}
+
+
+void Sysload::showSysLoad() {
+    conf->writeEntry("ShowCPULoad", 0);
+    conf->writeEntry("ShowSysLoad", 1);
+    conf->sync();
+    clearHistory();
+    doUpdate();
+}
+
 
 void Sysload::mousePressEvent(QMouseEvent *e) {
   if(e->button() == LeftButton)
-    clicked();
+    toggleKPM();
+  else if(e->button() == RightButton) {
+    QPoint p;
+    p = mapToGlobal(e->pos());
+    popupMenu(p);
+  } else if(e->button() == MidButton) {
+    QPoint p;
+    p = mapToGlobal(e->pos());
+    QString s(2048);
+    s.sprintf("<+><bold>Load average</b><-><br><i+>Last minute: %0.2f"
+	      "<br>Last 5 minutes: %0.2f<br>Last 15 minutes: %0.2f<i->"
+	      "<br><br><+><b>CPU load:</b> %0.0f%%<->",
+	      av1, av2, av3, 100.0*cpuload <= 100 ? 100*cpuload : 100); 
+
+    qh->popup(s.data(), p.x(), p.y());
+  }
 }
 
-void Sysload::clicked() {
-  if(!proc.isRunning()) {
-    proc.clearArguments();
-    proc << "kpm";
-    proc.start();
-  }  else
-    proc.kill();
+
+void Sysload::clearHistory() {
+  idx = ICONWIDTH-1;
+  for(int i = 0; i < ICONWIDTH; i++)
+    history[i] = -1;
 }
+
 
 void Sysload::doUpdate() {
-  if(idx == ICONWIDTH-1) {
-    for(int i = 0; i < ICONWIDTH-2; i++)
-      history[i] = history[i+1];
-    history[idx] = sysload();
-  } else
-    history[idx++] = sysload();
+  sysload(&av1, &av2, &av3);
+
+  idx = (idx+1) % ICONWIDTH;
+  
+  if(conf->readNumEntry("ShowSysLoad", 1))
+    history[idx] = av1;
+  else if(conf->readNumEntry("ShowCPULoad", 0))
+    history[idx] = cpuload;
 
   // find highest load
   float max_load = history[0];
@@ -70,34 +167,93 @@ void Sysload::doUpdate() {
   p.drawLine(0, ICONHEIGHT-1, ICONWIDTH, ICONHEIGHT-1);
 
   // draw graph
-  p.setPen(red);
-  for(int i = 0; i < idx; i++)
-    p.drawLine(i, ICONHEIGHT, i, ICONHEIGHT-(history[i] / max_load) * ICONHEIGHT +1); 
+  p.setPen(red); 
+  int midx = idx;
+  for(int i = 0; i < ICONWIDTH; i++) {
+    midx = (midx+1) % ICONWIDTH;
+    p.drawLine(i, ICONHEIGHT, i, ICONHEIGHT-(history[midx] / max_load) * ICONHEIGHT +1);
+  }
 
-  // draw scale
-  p.setPen(black);
-  for(int j = 1; j < (int)max_load; j++)
-    p.drawLine(0, int(j / max_load * ICONHEIGHT), ICONWIDTH, int((j / max_load) * ICONHEIGHT));
+  if(conf->readNumEntry("ShowSysLoad", 1)) {
+    // draw scale
+    p.setPen(black);
+    for(int j = 1; j < (int)max_load; j++)
+      p.drawLine(0, int(j / max_load * ICONHEIGHT), ICONWIDTH, int((j / max_load) * ICONHEIGHT));
+  }
 
   p.end();
   setBackgroundPixmap(pm);
 }
 
-float Sysload::sysload() {
+
+bool Sysload::sysload(float *av1, float *av2, float *av3) {
   FILE *f = fopen(PROCFILE, "r");
 
   if(f) {
-    char buf[128];
-    float load;
+    char buf[128];    
 
     rewind(f);
     fgets(buf, sizeof(buf), f);
-    buf[sizeof(buf)-1] = 0;
-    sscanf(buf, "%f", &load);
     fclose(f);
-    return load;
+    buf[sizeof(buf)-1] = 0;
+    sscanf(buf, "%f %f %f", av1, av2, av3);
+    return true;
   } else
-    return 0.0;
+    return false;
+}
+
+
+void Sysload::updateCPULoad() {
+  FILE *f = fopen(PROCFILE1, "r");
+  if(f) {
+    char buf[128];
+    int newidle;
+
+    fgets(buf, sizeof(buf), f);
+    fclose(f);
+    buf[sizeof(buf)-1] = 0;
+    sscanf(buf, "%*s %*d %*d %*d %d", &newidle);
+    if(idle == -1)
+      cpuload = 0;
+    else
+      cpuload = (float)(100-(newidle-idle))/100.0;
+    idle = newidle;
+  } else
+    cpuload = 0;
+}
+ 
+
+void Sysload::menuCallback(int id) {
+  switch(id) {
+  case M_EXIT:
+    kapp->quit();
+    break;
+  case M_OPEN_KPM:
+    toggleKPM();
+    break;
+  }
+}
+
+
+void Sysload::popupMenu(QPoint p) {
+  if(proc.isRunning())
+    menu->changeItem(i18n("Close system monitor"), M_OPEN_KPM);
+  else
+    menu->changeItem(i18n("Open system monitor"), M_OPEN_KPM);
+
+  options->setItemChecked(-2, conf->readNumEntry("ShowCPULoad", 0));
+  options->setItemChecked(-3, conf->readNumEntry("ShowSysLoad", 1));
+  menu->popup(p);
+}
+
+
+void Sysload::toggleKPM() {
+  if(!proc.isRunning()) {
+    proc.clearArguments();
+    proc << "kpm";
+    proc.start();
+  }  else
+    proc.kill();
 }
 
 int main(int argc, char **argv) {
@@ -115,7 +271,13 @@ int main(int argc, char **argv) {
   }
 
   Sysload sl;
-  
+  kapp->enableSessionManagement(true);
+  kapp->setWmCommand(FQFN(argv[0]));
+
+//   FILE *f = fopen("/home/mario/x.log", "a");
+//   fprintf(f, "STARTED AS %s, FQ=%s\n", argv[0], FQFN(argv[0]).data());
+//   fclose(f);
+ 
   return a.exec();
 #else
     QMessageBox::warning(0,
