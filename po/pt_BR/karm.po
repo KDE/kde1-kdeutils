@@ -129,18 +129,3 @@ msgstr "&Parar"
 #: top.cpp:229
 msgid "&New"
 msgstr "&Novo"
-
-#~ msgid "%s "
-#~ msgstr "%s "
-
-#~ msgid "&About"
-#~ msgstr "So&bre"
-
-#~ msgid "About "
-#~ msgstr "Sobre o "
-
-#~ msgid "&Contents"
-#~ msgstr "&Conteúdo"
-
-#~ msgid "&Start"
-#~ msgstr "&Começar"

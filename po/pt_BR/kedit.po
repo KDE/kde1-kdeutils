@@ -525,6 +525,3 @@ msgstr "Correio"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Informe um Destinatário"
-
-#~ msgid "&About..."
-#~ msgstr "&Sobre..."
