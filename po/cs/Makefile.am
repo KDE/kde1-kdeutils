@@ -3,7 +3,7 @@
 GMFILES = khexdit.gmo kedit.gmo
 POFILES = $(GMFILES:.gmo=.po)
 
-LANG = cz
+LANG = cs
 
 localedir = $(prefix)/share/locale
 
