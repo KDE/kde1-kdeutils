@@ -95,6 +95,9 @@ class MyButtonGroup : public QButtonGroup
 public:
   MyButtonGroup (QWidget* parent=0, const char* name=0);
   ~MyButtonGroup () {}
+  
+  void forceResize() { resizeEvent(0); }                    // Sorry last minute hack
+
 protected:
   virtual void resizeEvent ( QResizeEvent *e );
 };

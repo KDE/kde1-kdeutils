@@ -808,7 +808,7 @@ void KJotsMain::addToHotlist()
   but->setFixedSize(BUTTON_WIDTH,24);
   but->show();
   but->setOn(TRUE);
-  resize(size());
+  bg_top->forceResize();
 }
 
 void KJotsMain::removeFromHotlist()
@@ -829,7 +829,7 @@ void KJotsMain::removeFromHotlist()
   config->setGroup("kjots");
   config->writeEntry( "Hotlist", hotlist );
   config->sync();
-  resize(size());
+  bg_top->forceResize();
 }
 
 void KJotsMain::toggleSubjList()
