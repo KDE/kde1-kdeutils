@@ -34,6 +34,7 @@
 
 #include "keditcl.h"
 #include <klocale.h>
+#include <kmsgbox.h>
 #include <kapp.h>
 
 
@@ -951,31 +952,33 @@ void KEdit::spellcheck2(KSpell *)
 
 	setReadOnly (TRUE);
 
-	connect (kspell, SIGNAL (misspelling (char *, QStrList *, int)),
-		 this, SLOT (misspelling (char *, QStrList *, int)));
+	connect (kspell, SIGNAL (misspelling (char *, QStrList *, unsigned)),
+		 this, SLOT (misspelling (char *, QStrList *, unsigned)));
 	connect (kspell, SIGNAL (corrected (char *,
-						 char *, int)),
+						 char *, unsigned)),
 		 this, SLOT (corrected (char *,
-					char *, int)));
+					char *, unsigned)));
+
+       connect (kspell, SIGNAL (progress (unsigned)),
+                this, SIGNAL (spellcheck_progress (unsigned)) );
 
 	connect (kspell, SIGNAL (done(char *)),
 		 this, SLOT (spellResult (char *)));
 	
+	kspell->setProgressResolution (2);
 
 	kspell->check (text().data());
 	
       }
     else
       {
-	QMessageBox::warning(this, 
-			     "KEdit: Error", 
-			     "Error starting KSpell.\n"\
-			     "Please make sure you have ISpell properly configured."
-			     );
+	KMsgBox::message(this,"KEdit: Error","Error starting KSpell.\n"\
+			 "Please make sure you have ISpell properly configured and in your PATH.", KMsgBox::STOP);
       }
 }
 
-void KEdit::misspelling (char *word, QStrList *, int pos) {
+void KEdit::misspelling (char *word, QStrList *, unsigned pos)
+{
 
   int l, cnt=0;
 
@@ -1004,7 +1007,7 @@ void KEdit::misspelling (char *word, QStrList *, int pos) {
 }
 
 //need to use pos for insert, not cur, so forget cur altogether
-void KEdit::corrected (char *originalword, char *newword, int pos)
+void KEdit::corrected (char *originalword, char *newword, unsigned pos)
 {
   //we'll reselect the original word in case the user has played with
   //the selection in eframe or the word was auto-replaced
@@ -1038,8 +1041,15 @@ void KEdit::spellResult (char *newtext)
 {
   spell_offset=0;
   deselect();
-  //  setText (newtext);
+
+
+  //This has to be here in case the spellcheck is CANCELed.
+  setText (newtext);
+
+
   setReadOnly (FALSE);
   setModified();
   delete kspell;
+
+  emit spellcheck_done();
 }

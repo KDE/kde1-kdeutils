@@ -236,6 +236,9 @@ public slots:
     void spellcheck();
     void spell_configure();
 
+    void spell_progress (unsigned percent);
+    void spell_done();
+
     /// Drag and Drop
     void slotDropEvent( KDNDDropZone * _dropZone );
 };

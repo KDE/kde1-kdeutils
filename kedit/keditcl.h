@@ -448,6 +448,17 @@ public:
 
 signals:
 
+     /**
+     * This says spellchecking is <i>percent</i> done.
+     * It is emitted every 10% during spellchecking.
+     **/
+    void  spellcheck_progress (unsigned percent);
+
+    /**
+     * Emitted when spellcheck is complete.
+     **/
+    void spellcheck_done ();       
+
     /// This signal is emitted when the document in the textwidget has changed
 	  /** This signal is emitted when the document in the textwidget has changed
 	   */
@@ -486,8 +497,8 @@ signals:
 public slots:
     
     void spellResult (char *newtext);
-    void corrected (char *originalword, char *newword, int pos);
-    void misspelling (char *word, QStrList *, int pos);    
+    void corrected (char *originalword, char *newword, unsigned pos);
+    void misspelling (char *word, QStrList *, unsigned pos);    
     void spellcheck();
     void spellcheck2(KSpell*);
 

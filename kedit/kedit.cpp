@@ -539,9 +539,30 @@ void TopLevel::file_new(){
 
 void TopLevel::spellcheck()
 {
+
+  statusbar->changeItem("Spellcheck:  Started.", ID_GENERAL);
+
+  connect (eframe, SIGNAL (spellcheck_progress (unsigned)),
+          this, SLOT (spell_progress (unsigned)));
+  connect (eframe, SIGNAL (spellcheck_done()),
+          this, SLOT (spell_done ()));
+
   if(eframe){
     eframe->spellcheck();
   }
+}
+
+void TopLevel::spell_progress (unsigned percent)
+{
+  char s[100];
+  sprintf (s,"Spellcheck:  %d%% complete",percent);
+
+  statusbar->changeItem (s, ID_GENERAL);
+}
+
+void TopLevel::spell_done()
+{
+  statusbar->changeItem ("Spellcheck:  Complete", ID_GENERAL);
 }
 
 void TopLevel::file_open(){
