@@ -280,9 +280,7 @@ msgstr ""
 
 #: kedit.cpp:1368 kedit.cpp:1463
 msgid "Could not start or find KFM"
-msgstr ""
-"KFM:n käynnistäminen epäonnistui\n"
-"tai sitä ei löydy"
+msgstr "KFM ei käynnistynyt tai löytynyt"
 
 #: kedit.cpp:1410
 #, c-format

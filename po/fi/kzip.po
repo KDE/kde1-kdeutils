@@ -72,7 +72,7 @@ msgstr "&Aseta paketin hakemisto..."
 
 #: kzip.cc:76
 msgid "&File Adding Options..."
-msgstr "&Tiedoston lisäyksen asetukset..."
+msgstr "&Tiedostonlisäyksen asetukset..."
 
 #: kzip.cc:122
 msgid "Welcome to KZip..."
