@@ -29,6 +29,7 @@ prefix = @prefix@
 BINDIR = $(prefix)/bin
 TOOLPICSDIR = $(prefix)/share/apps/kedit/toolbar
 ICONDIR = $(prefix)/share/icons
+MINIDIR = $(prefix)/share/icons/mini
 PICSDIR = $(prefix)/share/apps/kedit/pics
 DOCSDIR = $(prefix)/share/doc/HTML/en/kedit
 APPSDIR = $(prefix)/share/applnk/Applications
@@ -90,9 +91,11 @@ install: all
 	$(INSTALL_DATA) pixmaps/filenew2.xpm $(TOOLPICSDIR)
 	$(INSTALL_DATA) pixmaps/send.xpm $(TOOLPICSDIR)
 	$(INSTALL_DIR) $(PICSDIR)
+	$(INSTALL_DATA) pixmaps/keditlogo.xpm  $(PICSDIR)
 	$(INSTALL_DIR) $(ICONDIR)
 	$(INSTALL_DATA) pixmaps/kedit.xpm  $(ICONDIR)
-	$(INSTALL_DATA) pixmaps/keditlogo.xpm  $(PICSDIR)
+	$(INSTALL_DIR) $(MINIDIR)
+	$(INSTALL_DATA) pixmaps/mini-kedit.xpm  $(MINIDIR)/kedit.xpm
 
 
 uninstall:
@@ -100,6 +103,7 @@ uninstall:
 	(cd docs && $(MAKE) uninstall)
 	rm -f $(APPSDIR)/KEdit.kdelnk
 	rm -f $(ICONDIR)/kedit.xpm
+	rm -f $(MINIDIR)/kedit.xpm
 	rm -f $(PICSDIR)/keditlogo.xpm
 	rm -f $(TOOLPICSDIR)/filenew2.xpm
 	rm -f $(TOOLPICSDIR)/send.xpm

@@ -1,25 +1,33 @@
 /* XPM */
-static char *mini-khexdit[] = {
-/* width height num_colors chars_per_pixel */
-"    14    14        3            1",
-/* colors */
-". c #ffffff",
-"# c #ffffff",
-"a c #0000ff",
-/* pixels */
-"#.##.##.##.##.",
-".##.##.##.##.#",
-"#.##.##.##.##.",
-"##.##.##.##.##",
-"##.aa.##.a#.##",
-"#.#aa##.#a.##.",
-".##aa#.##a##.#",
-"##.aaaaaaa#.a#",
-"###aa####a##aa",
-"##.aa.##.a#.a#",
-"#.#aa##.#a.#a.",
-"#.#aa##.#a.#aa",
-"##aaaa#aaaaa#a",
-"##############"
-};
-SIMPLE  =                    T                                                  BITPIX  =                    8                                                  NAXIS   =                    2                                                  NAXIS1  =                   14                                                  NAXIS2  =                   14                                                  HISTORY Written by XV 3.10a                                                     END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ''''ÿ'''''ÿ'ÿÿÿ''ÿÿÿÿ'ÿÿ''ÿÿÿ''ÿÿÿÿ'ÿÿ'ÿÿÿÿ''ÿÿÿÿ'ÿÿ'ÿÿÿÿ''ÿÿÿÿ'ÿÿ''ÿÿÿ'''''''ÿÿ'ÿÿÿÿ''ÿÿÿÿ'ÿÿÿÿÿÿÿ''ÿÿÿÿ'ÿÿÿÿÿÿÿ''ÿÿÿÿ'ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+/* Drawn  by Nico Schwiring and Mark Donohoe for the K Desktop Environment */
+/* See http://www.kde.org */
+static char*khexdit[]={
+"16 16 11 1",
+"# c #000000",
+"f c #ff8000",
+"c c #c0c0c0",
+"g c #a0a0a4",
+"i c #c0c0c0",
+"e c #ffffbe",
+"d c #585858",
+"h c #a0a0a4",
+"a c #bebeff",
+"b c #ffffff",
+". c None",
+".....###........",
+"....#a#a#.......",
+".####aaa####....",
+"#bbbb###cbbb#...",
+"#bbbbbbbbbbb#...",
+"#baaac#aaaab#.#.",
+"#bbbbdc#bbbb##e#",
+"#bacdbdc#aab#ef#",
+"#bb#cd#ddbb#ef#.",
+"#bag#cdhaa#ef#..",
+"#bbbi#dbb#ef#...",
+"#baaahaa#ef##...",
+"#bbbbbb#cf#c#...",
+"#baaaaa###ab#...",
+"#bbbbbbbbbbb#...",
+".###########...."};
+
