@@ -301,11 +301,11 @@ KJotsMain::KJotsMain(const char* name)
   me_text->setFocusPolicy(QWidget::StrongFocus);
 
   // read hotlist
-  readListConf( config, "Hotlist", hotlist );
+  config->readListEntry( "Hotlist", hotlist );
   while( hotlist.count() > HOT_LIST_SIZE )
     hotlist.removeLast();
   // read list of folders
-  readListConf( config, "Folders", folder_list );
+  config->readListEntry( "Folders", folder_list );
 
   QString temp;
   folders = new QPopupMenu;
@@ -611,7 +611,7 @@ void KJotsMain::createFolder()
   le_subject->setText(entrylist.first()->subject);
 
   folder_list.append(name);
-  if( folders->text(folders->idAt(0)) == NULL )
+  if( folders->text(folders->idAt(0)) == 0 )
     folders->removeItemAt(0);
   folders->insertItem(name, unique_id++);
   //QDir dir = QDir::home();
@@ -623,11 +623,11 @@ void KJotsMain::createFolder()
   current_folder_name += name;
   KConfig *config = KApplication::getKApplication()->getConfig();
   config->setGroup("kjots");
-  writeListConf(config, "Folders", folder_list );
+  config->writeEntry( "Folders", folder_list );
   config->sync();
   l_folder->setText(name);
   QPushButton *but;
-  for( but = button_list.first(); but != NULL; but = button_list.next() )
+  for( but = button_list.first(); but != 0; but = button_list.next() )
     but->setOn(FALSE);
 }
 
@@ -659,8 +659,8 @@ void KJotsMain::deleteFolder()
     }
   KConfig *config = KApplication::getKApplication()->getConfig();
   config->setGroup("kjots");
-  writeListConf( config, "Folders", folder_list );
-  writeListConf( config, "Hotlist", hotlist );
+  config->writeEntry( "Folders", folder_list );
+  config->writeEntry( "Hotlist", hotlist );
   config->sync();
   entrylist.clear();
   current_folder_name = "";
@@ -801,7 +801,7 @@ void KJotsMain::addToHotlist()
   bg_top->insert(but, id);
   KConfig *config = KApplication::getKApplication()->getConfig();
   config->setGroup("kjots");
-  writeListConf( config, "Hotlist", hotlist );
+  config->writeEntry( "Hotlist", hotlist );
   config->sync();
   but->setFocusPolicy(QWidget::ClickFocus);
   but->setToggleButton(TRUE);
@@ -827,7 +827,7 @@ void KJotsMain::removeFromHotlist()
   button_list.remove( (QPushButton *) but );
   KConfig *config = KApplication::getKApplication()->getConfig();
   config->setGroup("kjots");
-  writeListConf( config, "Hotlist", hotlist );
+  config->writeEntry( "Hotlist", hotlist );
   config->sync();
   resize(size());
 }
