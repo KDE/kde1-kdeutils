@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kcmkpanel\n"
 "POT-Creation-Date: 1998-06-16 14:24+0200\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
-"Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
+"Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 
 #: adddlg.cc:11
@@ -60,7 +60,7 @@ msgstr "设定压缩文件目录[&S]..."
 
 #: kzip.cc:81
 msgid "Set &Tar Executable..."
-msgstr ""
+msgstr "设定 &Tar 可执行文件..."
 
 #: kzip.cc:82
 msgid "&File Adding Options..."
@@ -92,7 +92,7 @@ msgstr "压缩文件目录:"
 
 #: kzip.cc:329
 msgid "What runs GNU tar:"
-msgstr ""
+msgstr "用什么运行 GNU tar:"
 
 #: kzip.cc:366 kzip.cc:568
 msgid "Unknown archive format"

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kcmkpanel\n"
 "POT-Creation-Date: 1998-05-30 17:50+0200\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
-"Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
+"Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 
 #: alarm.cpp:58
@@ -82,7 +82,7 @@ msgstr "自动缩进"
 #
 #: docking.cpp:71
 msgid "Change Defaults"
-msgstr "改变缺省值"
+msgstr "改变默认值"
 
 #: docking.cpp:76
 msgid "Exit Knotes"
@@ -95,7 +95,7 @@ msgstr "新的 Note"
 
 #: fontdlg.cpp:45
 msgid "Set Default Font"
-msgstr "设定缺省字体"
+msgstr "设定默认字体"
 
 #: fontdlg.cpp:64
 msgid "Point Size:"
@@ -137,10 +137,10 @@ msgstr "邮寄 Note ..."
 msgid "Print Note"
 msgstr "打印 Note"
 
+#
 #: knotes.cpp:323
-#, fuzzy
 msgid "Save Notes"
-msgstr "新的 Note"
+msgstr "保存 Notes"
 
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"
@@ -156,7 +156,7 @@ msgstr "颜色"
 
 #: knotes.cpp:335
 msgid "Change Defaults ..."
-msgstr "改变缺省值 ..."
+msgstr "改变默认值 ..."
 
 #: knotes.cpp:363
 msgid "Insert Date"
@@ -227,7 +227,7 @@ msgstr "KNotes 配置"
 
 #: knotes.cpp:1370
 msgid "Defaults"
-msgstr "缺省"
+msgstr "默认"
 
 #: knotes.cpp:1371
 msgid "More ..."
