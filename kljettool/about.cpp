@@ -49,10 +49,9 @@ MyAbout::MyAbout(QWidget *parent) : QDialog(parent, "About KLJetTool", TRUE) {
   l->setGeometry(145,40,100,30);
 
   QString s;
-  s = i18n("Version ");
-  s += KLJETVERSION \
-  "\n\nCopyright (c) 1997\nBernd Johannes Wuebben\n"\
-  "wuebben@kde.org";
+  s.sprintf(i18n("Version %s"
+  "\n\nCopyright (c) 1997\nBernd Johannes Wuebben\n"
+  "wuebben@kde.org"), KLJETVERSION);
 
   l = new QLabel(s.data(), this);
   l->setGeometry(145, 70, 230, 170);

@@ -33,7 +33,7 @@ PaperData::PaperData
 {
   	QFrame* tmpQFrame;
 	tmpQFrame = new QFrame( this, "Frame_1" );
-	tmpQFrame->setGeometry( 10, 10, 290, 235 );
+	tmpQFrame->setGeometry( 10, 10, 320, 235 );
 	tmpQFrame->setFrameStyle( 49 );
 	
 
@@ -91,7 +91,7 @@ PaperData::PaperData
 		SLOT(linesChanged(const char*)));
 
 	OrientButtonGroup = new QButtonGroup( this, "OrientationGroup" );
-	OrientButtonGroup->setGeometry( 145, 30, 140, 90 );
+	OrientButtonGroup->setGeometry( 145, 30, 170, 90 );
 	OrientButtonGroup->setFrameStyle( 49 );
 	OrientButtonGroup->setTitle( "Orientation" );
        	OrientButtonGroup->setAlignment( 1 );
@@ -114,7 +114,7 @@ PaperData::PaperData
 
 
 	MiscButtonGroup = new QButtonGroup( this, "Miscellaneous" );
-	MiscButtonGroup->setGeometry( 145, 135, 140, 80 );
+	MiscButtonGroup->setGeometry( 145, 135, 170, 80 );
 	MiscButtonGroup->setFrameStyle( 49 );
 	MiscButtonGroup->setTitle( i18n("Miscellaneous") );
 	MiscButtonGroup->setAlignment( 1 );
@@ -138,7 +138,7 @@ PaperData::PaperData
 	AutoContinueCheckBox->setAutoResize( TRUE );
 
 
-	resize( 310, 255 );
+	resize( 330, 255 );
 }
 
 

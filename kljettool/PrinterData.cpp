@@ -31,12 +31,12 @@ PrinterData::PrinterData
 {
 	QFrame* tmpQFrame;
 	tmpQFrame = new QFrame( this, "Frame_2" );
-	tmpQFrame->setGeometry( 10, 10, 290, 235 );
+	tmpQFrame->setGeometry( 10, 10, 320, 235 );
 	tmpQFrame->setFrameStyle( 49 );
 
 
 	EconomyButtonGroup = new QButtonGroup( this, "ButtonGroup_3" );
-	EconomyButtonGroup->setGeometry( 20, 20, 130, 95 );
+	EconomyButtonGroup->setGeometry( 20, 20, 145, 95 );
 	EconomyButtonGroup->setFrameStyle( 49 );
 	EconomyButtonGroup->setTitle(i18n( "Mode") );
 	EconomyButtonGroup->setAlignment( 1 );
@@ -60,7 +60,7 @@ PrinterData::PrinterData
 
 
 	DpiButtonGroup = new QButtonGroup( this, "ButtonGroup_4" );
-	DpiButtonGroup->setGeometry( 165, 20, 125, 95 );
+	DpiButtonGroup->setGeometry( 180, 20, 140, 95 );
 	DpiButtonGroup->setFrameStyle( 49 );
 	DpiButtonGroup->setTitle(i18n( "Resolution" ));
 	DpiButtonGroup->setAlignment( 1 );
@@ -83,7 +83,7 @@ PrinterData::PrinterData
 
 	QLabel* tmpQLabel;
 	tmpQLabel = new QLabel( this, "Label_11" );
-	tmpQLabel->setGeometry( 165, 125, 100, 20 );
+	tmpQLabel->setGeometry( 180, 125, 100, 20 );
 	tmpQLabel->setText(i18n( "Density") );
 	tmpQLabel->setAlignment( 289 );
 	tmpQLabel->setMargin( -1 );
@@ -95,7 +95,7 @@ PrinterData::PrinterData
 	tmpQLabel->setMargin( -1 );
 
 	tmpQLabel = new QLabel( this, "Label_12" );
-	tmpQLabel->setGeometry( 165, 185, 115, 20 );
+	tmpQLabel->setGeometry( 180, 185, 115, 20 );
 	tmpQLabel->setText(i18n( "Resolution Enh.") );
 	tmpQLabel->setAlignment( 289 );
 	tmpQLabel->setMargin( -1 );
@@ -110,7 +110,7 @@ PrinterData::PrinterData
 	PrinterComboBox->setAutoResize( FALSE );
 
 	DensityComboBox = new QComboBox( FALSE, this, "ComboBox_4" );
-	DensityComboBox->setGeometry( 165, 150, 105, 25 );
+	DensityComboBox->setGeometry( 180, 150, 105, 25 );
 	connect( DensityComboBox, SIGNAL(activated(const char*)), 
 		 SLOT(DensityComboClicked(const char*)) );
 
@@ -123,7 +123,7 @@ PrinterData::PrinterData
 	DensityComboBox->insertItem( "very dark" );
 
 	ResolutionComboBox = new QComboBox( FALSE, this, "ComboBox_5" );
-	ResolutionComboBox->setGeometry( 165, 210, 105, 25 );
+	ResolutionComboBox->setGeometry( 180, 210, 105, 25 );
 	connect( ResolutionComboBox, SIGNAL(activated(const char*)), 
 		 SLOT(ResolutionComboBoxClicked(const char*)) );
 
@@ -134,7 +134,7 @@ PrinterData::PrinterData
 	ResolutionComboBox->insertItem( "medium" );
 	ResolutionComboBox->insertItem( "dark" );
 
-	resize( 310, 255 );
+	resize( 330, 255 );
 
 }
 

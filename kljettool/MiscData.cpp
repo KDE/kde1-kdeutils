@@ -33,7 +33,7 @@ MiscData::MiscData
 {
 	QFrame* tmpQFrame;
 	tmpQFrame = new QFrame( this, "Frame_5" );
-	tmpQFrame->setGeometry( 10, 10, 290, 235 );
+	tmpQFrame->setGeometry( 10, 10, 320, 235 );
 	tmpQFrame->setFrameStyle( 49 );
 
 
@@ -94,21 +94,21 @@ MiscData::MiscData
 	PowerSaveCombo->insertItem( "180" );
 
 	EjectButton = new QPushButton( this, "PushButton_1" );
-	EjectButton->setGeometry( 120, 165, 80, 25 );
+	EjectButton->setGeometry( 130, 165, 90, 25 );
 	connect( EjectButton, SIGNAL(clicked()), SLOT(EjectButtonClicked()) );
 	EjectButton->setText(i18n( "Eject") );
 	EjectButton->setAutoRepeat( FALSE );
 	EjectButton->setAutoResize( FALSE );
 
 	ResetButton = new QPushButton( this, "PushButton_2" );
-	ResetButton->setGeometry( 25, 165, 80, 25 );
+	ResetButton->setGeometry( 25, 165, 90, 25 );
 	connect( ResetButton, SIGNAL(clicked()), SLOT(ResetButtonClicked()) );
 	ResetButton->setText(i18n( "Reset") );
 	ResetButton->setAutoRepeat( FALSE );
 	ResetButton->setAutoResize( FALSE );
 
 	Initialize = new QPushButton( this, "PushButton_3" );
-	Initialize->setGeometry( 25, 205, 80, 25 );
+	Initialize->setGeometry( 25, 205, 90, 25 );
 	connect( Initialize, SIGNAL(clicked()), SLOT(InitializeClicked()) );
 	Initialize->setText(i18n( "Initialize") );
 	Initialize->setAutoRepeat( FALSE );
@@ -116,7 +116,7 @@ MiscData::MiscData
 
 
 	Help = new QPushButton( this, "PushButton_4" );
-	Help->setGeometry( 120, 205, 80, 25 );
+	Help->setGeometry( 130, 205, 90, 25 );
 	connect( Help, SIGNAL(clicked()), SLOT(HelpClicked()) );
 	Help->setText( i18n("Help") );
 	Help->setAutoRepeat( FALSE );
@@ -124,14 +124,14 @@ MiscData::MiscData
 
 
 	About = new QPushButton( this, "PushButton_4" );
-	About->setGeometry( 210, 205, 80, 25 );
+	About->setGeometry( 230, 205, 90, 25 );
 	connect( About, SIGNAL(clicked()), SLOT(AboutClicked()) );
 	About->setText( i18n("About") );
 	About->setAutoRepeat( FALSE );
 	About->setAutoResize( FALSE );
 
 
-	resize( 310, 255 );
+	resize( 330, 255 );
 
 }
 

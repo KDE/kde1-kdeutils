@@ -46,7 +46,7 @@ LJET::LJET(){
 	
 	mainWindow = new QTabDialog( 0, 0, TRUE );
 
-	mainWindow->setCaption( "KDE Ljet Tool" );
+	mainWindow->setCaption( i18n("Ljet Tool") );
 	mainWindow->setCancelButton( i18n("Cancel") );
 	mainWindow->setApplyButton( i18n("Apply") );
 
@@ -71,8 +71,8 @@ LJET::LJET(){
 	mainWindow->addTab( misc, i18n("Operations"));
 
       	mainWindow->addTab( fonts, i18n("Fonts") );
-	mainWindow->resize(325,325);
-	mainWindow->setFixedSize(325,325);
+	mainWindow->resize(355,325);
+	mainWindow->setFixedSize(355,325);
 
 }
 

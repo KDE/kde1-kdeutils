@@ -29,7 +29,7 @@ FontsData::FontsData
 {
 	QFrame* tmpQFrame;
 	tmpQFrame = new QFrame( this, "Frame_4" );
-	tmpQFrame->setGeometry( 10, 10, 290, 235 );
+	tmpQFrame->setGeometry( 10, 10, 320, 235 );
 	tmpQFrame->setFrameStyle( 49 );
 
 	QLabel* tmpQLabel;
@@ -157,7 +157,7 @@ FontsData::FontsData
 	tmpQLabel->setAlignment( 289 );
 	tmpQLabel->setMargin( -1 );
 
-	resize( 310, 255 );
+	resize( 330, 255 );
 }
 
 
