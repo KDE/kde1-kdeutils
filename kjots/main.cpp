@@ -49,14 +49,15 @@ QString exec_ftp;
 // Torben
 void testDir( const char *_name )
 {
-    DIR *dp;
-    QString c = getenv( "HOME" );
-    c += _name;
-    dp = opendir( c.data() );
-    if ( dp == NULL )
-	::mkdir( c.data(), S_IRWXU );
-    else
-	closedir( dp );
+  DIR *dp;
+  //QString c = getenv( "HOME" );
+  QString c = KApplication::localkdedir();
+  c += _name;
+  dp = opendir( c.data() );
+  if ( dp == NULL )
+    ::mkdir( c.data(), S_IRWXU );
+  else
+    closedir( dp );
 }
 
 int main( int argc, char **argv )
@@ -65,11 +66,11 @@ int main( int argc, char **argv )
 
   KApplication a( argc, argv, "kjots" );
 
-  testDir( "/.kde" );
-  testDir( "/.kde/share" );  
-  testDir( "/.kde/share/config" );  
-  testDir( "/.kde/share/apps" );
-  testDir( "/.kde/share/apps/kjots" );
+  testDir( "" );
+  testDir( "/share" );  
+  testDir( "/share/config" );  
+  testDir( "/share/apps" );
+  testDir( "/share/apps/kjots" );
 
   // Torben
   /* QString name = QDir::homeDirPath();

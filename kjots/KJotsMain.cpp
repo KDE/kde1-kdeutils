@@ -43,6 +43,7 @@
 #include <ktoolbar.h>
 #include <kiconloader.h>
 #include <kstdaccel.h>
+#include <kfiledialog.h>
 
 extern "C" {
 #include <unistd.h>
@@ -544,8 +545,10 @@ void KJotsMain::openFolder(int id)
   but = (QPushButton *) bg_top->find(id);
   if( but )
     but->setOn(TRUE);
-  QDir dir = QDir::home();
-  dir.cd(".kde/share/apps/kjots");
+  //QDir dir = QDir::home();
+  //dir.cd(".kde/share/apps/kjots");
+  QDir dir = QDir( KApplication::localkdedir().data() );
+  dir.cd("share/apps/kjots");
   QString file_name = dir.absPath();
   file_name += '/';
   file_name += folder_list.at( folders->indexOf(id) );
@@ -611,8 +614,10 @@ void KJotsMain::createFolder()
   if( folders->text(folders->idAt(0)) == NULL )
     folders->removeItemAt(0);
   folders->insertItem(name, unique_id++);
-  QDir dir = QDir::home();
-  dir.cd(".kde/share/apps/kjots");
+  //QDir dir = QDir::home();
+  //dir.cd(".kde/share/apps/kjots");
+  QDir dir = QDir( KApplication::localkdedir().data() );
+  dir.cd("share/apps/kjots");
   current_folder_name = dir.absPath();
   current_folder_name += '/';
   current_folder_name += name;
@@ -876,7 +881,7 @@ void KJotsMain::writeBook()
   QString name;
   while( name.isNull() )
     {
-      name =  QFileDialog::getSaveFileName();
+      name =  KFileDialog::getSaveFileName();
       if ( name.isNull() )
 	return;
       QFileInfo f_info(name);
@@ -905,7 +910,7 @@ void KJotsMain::writePage()
   QString name;
   while( name.isNull() )
     {
-      name =  QFileDialog::getSaveFileName();
+      name =  KFileDialog::getSaveFileName();
       if ( name.isNull() )
 	return;
       QFileInfo f_info(name);
