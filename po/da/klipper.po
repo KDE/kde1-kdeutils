@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/klipper\n"
-"POT-Creation-Date: 1999-01-15 01:58+0100\n"
+"POT-Creation-Date: 1999-02-01 01:52+0100\n"
 "PO-Revision-Date: 1999-01-28 14:42+0100\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
@@ -13,22 +13,22 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: toplevel.cpp:79
+#: toplevel.cpp:76
 msgid "Shortcut..."
 msgstr "Genvej..."
 
-#: toplevel.cpp:80
+#: toplevel.cpp:77
 msgid "Popup at mouse position"
 msgstr "Duk op ved musepositionen"
 
-#: toplevel.cpp:85
+#: toplevel.cpp:82
 msgid "Clipboard History"
 msgstr "klippebordets historie"
 
-#: toplevel.cpp:89
+#: toplevel.cpp:86
 msgid "<empty clipboard>"
 msgstr "<tomt klippebord>"
 
-#: toplevel.cpp:101
+#: toplevel.cpp:98
 msgid "Select clipboard contents"
 msgstr "Vælg indhold fra klippebord"

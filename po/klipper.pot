@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-15 01:58+0100\n"
+"POT-Creation-Date: 1999-02-01 01:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,22 +14,22 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: toplevel.cpp:79
+#: toplevel.cpp:76
 msgid "Shortcut..."
 msgstr ""
 
-#: toplevel.cpp:80
+#: toplevel.cpp:77
 msgid "Popup at mouse position"
 msgstr ""
 
-#: toplevel.cpp:85
+#: toplevel.cpp:82
 msgid "Clipboard History"
 msgstr ""
 
-#: toplevel.cpp:89
+#: toplevel.cpp:86
 msgid "<empty clipboard>"
 msgstr ""
 
-#: toplevel.cpp:101
+#: toplevel.cpp:98
 msgid "Select clipboard contents"
 msgstr ""

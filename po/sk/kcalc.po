@@ -77,7 +77,6 @@ msgstr ""
 "KCalc %s\n"
 "Copyright 1997 Bernd Johannes Wuebben <wuebben@kde.org>\n"
 
-
 #: kcalc_core.cpp:1111
 msgid "Last stat item erased"
 msgstr "Posledná stat polo¾ka zmazaná"

@@ -4,88 +4,92 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-11-26 01:48+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
 
-#: knotes.cpp:300
+#: knotes.cpp:263
+msgid "Hello"
+msgstr ""
+
+#: knotes.cpp:301
 msgid "Text Color..."
 msgstr "Litur texta..."
 
-#: knotes.cpp:301
+#: knotes.cpp:302
 msgid "Background Color..."
 msgstr "Litur bakgrunns..."
 
-#: knotes.cpp:307
+#: knotes.cpp:308
 msgid "New Note"
 msgstr "Nýr miði"
 
-#: knotes.cpp:309
+#: knotes.cpp:310
 msgid "Delete Note"
 msgstr "Eyða miða"
 
-#: knotes.cpp:311
+#: knotes.cpp:312
 msgid "Rename Note..."
 msgstr "Breyta nafni..."
 
-#: knotes.cpp:313
+#: knotes.cpp:314
 msgid "Alarm ..."
 msgstr "Vakning ..."
 
-#: knotes.cpp:316
+#: knotes.cpp:317
 msgid "Calendar"
 msgstr "Dagatal"
 
-#: knotes.cpp:318
+#: knotes.cpp:319
 msgid "Mail Note ..."
 msgstr "Póstleggja miða ..."
 
-#: knotes.cpp:320
+#: knotes.cpp:321
 msgid "Print Note"
 msgstr "Prenta miða"
 
-#: knotes.cpp:323
+#: knotes.cpp:324
 msgid "Save Notes"
 msgstr "Vista miða"
 
-#: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1290
+#: knotes.cpp:330 knotes.cpp:401 knotes.cpp:1291
 msgid "3D Frame"
 msgstr "Rammi"
 
-#: configdlg.cpp:128 knotes.cpp:330
+#: configdlg.cpp:128 knotes.cpp:331
 msgid "Auto Indent"
 msgstr "Sjálfvirkur inndráttur"
 
-#: knotes.cpp:332
+#: knotes.cpp:333
 msgid "Font..."
 msgstr "Letur..."
 
-#: knotes.cpp:333
+#: knotes.cpp:334
 msgid "Colors"
 msgstr "Litir"
 
-#: knotes.cpp:335
+#: knotes.cpp:336
 msgid "Change Defaults ..."
 msgstr "Sjálfgefin gildi ..."
 
-#: knotes.cpp:363
+#: knotes.cpp:364
 msgid "Insert Date"
 msgstr "Skjóta inn dags."
 
-#: knotes.cpp:366
+#: knotes.cpp:367
 msgid "Operations"
 msgstr "Aðgerðir"
 
-#: knotes.cpp:404 knotes.cpp:1280
+#: knotes.cpp:405 knotes.cpp:1281
 msgid "No Frame"
 msgstr "Án ramma"
 
-#: knotes.cpp:437 knotes.cpp:441 knotes.cpp:635 knotes.cpp:863 knotes.cpp:867
+#: knotes.cpp:438 knotes.cpp:442 knotes.cpp:636 knotes.cpp:864 knotes.cpp:868
 #: timer.cpp:87 timer.cpp:110
 msgid "Note: "
 msgstr "Miði:"
 
-#: knotes.cpp:494
+#: knotes.cpp:495
 msgid ""
 "Could not save a KNote.\n"
 "Quit anyways?"
@@ -93,11 +97,11 @@ msgstr ""
 "Gat ekki vistað einhvern miða.\n"
 "Hætta samt?"
 
-#: knotes.cpp:512
+#: knotes.cpp:513
 msgid "Could not save KNote Alarms\n"
 msgstr "Gat ekki vistað vakningar\n"
 
-#: knotes.cpp:573 knotes.cpp:678
+#: knotes.cpp:574 knotes.cpp:679
 #, c-format
 msgid ""
 "Could not pipe the contents of this KNote into:\n"
@@ -106,7 +110,7 @@ msgstr ""
 "Gat ekki dælt innihald miðans inn í:\n"
 " %s"
 
-#: knotes.cpp:734
+#: knotes.cpp:735
 msgid ""
 "You have exeeded the arbitrary and unjustly set limit of 50 knotes.\n"
 " Please complain to the author."
@@ -114,11 +118,11 @@ msgstr ""
 "Þú hefur farið yfir hið innbyggða, ósanngjarna hámark: 50 miðar.\n"
 " Vinsamlegast kvartaðu til höfundar."
 
-#: knotes.cpp:902
+#: knotes.cpp:903
 msgid "Question"
 msgstr "Spurning"
 
-#: knotes.cpp:903
+#: knotes.cpp:904
 msgid ""
 "Are you sure you want to delete this\n"
 "note permanently?"
@@ -126,7 +130,7 @@ msgstr ""
 "Ertu viss um að þú viljir eyða\n"
 "þessum miða endanlega?"
 
-#: knotes.cpp:1079
+#: knotes.cpp:1080
 #, c-format
 msgid ""
 "Could not load:\n"
@@ -135,19 +139,34 @@ msgstr ""
 "Gat ekki opnað:\n"
 " %s"
 
-#: knotes.cpp:1331
+#: knotes.cpp:1332
 msgid "KNotes Configuraton"
 msgstr "Stillingar miðanna"
 
-#: knotes.cpp:1374
+#: knotes.cpp:1349
+#, c-format
+msgid ""
+"KNotes %s\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@math.cornell.edu\n"
+"wuebben@kde.org\n"
+"Copyright (C) 1997\n"
+"\n"
+"With contributions by:\n"
+"Matthias Ettrich <ettrich@kde.org>\n"
+"\n"
+"\n"
+msgstr ""
+
+#: configdlg.cpp:46 knotes.cpp:1376
 msgid "Defaults"
 msgstr "Sjálfgefið"
 
-#: knotes.cpp:1375
+#: knotes.cpp:1377
 msgid "More ..."
 msgstr "Meira ..."
 
-#: knotes.cpp:1534
+#: knotes.cpp:1536
 msgid ""
 "KNotes is already waiting\n"
 "for an internet job to finish\n"
@@ -159,11 +178,11 @@ msgstr ""
 "Vinsamlegast bíddu þangað til, eða\n"
 "stöðvaðu virka ferlið."
 
-#: knotes.cpp:1548
+#: knotes.cpp:1550
 msgid "Could not start or find KFM"
 msgstr "Gat ekki ræst eða fundið KFM"
 
-#: knotes.cpp:1570
+#: knotes.cpp:1572
 msgid ""
 "Could not save the KNotes.\n"
 "Close anyways?"
@@ -171,7 +190,7 @@ msgstr ""
 "Gat ekki vistað miðana.\n"
 "Loka samt?"
 
-#: knotes.cpp:1682
+#: knotes.cpp:1684
 #, c-format
 msgid ""
 "Found an alarm to which the underlying\n"
@@ -188,7 +207,7 @@ msgstr ""
 "\n"
 "Ég mun leiðrétta þetta fyrir þig."
 
-#: knotes.cpp:1690
+#: knotes.cpp:1692
 msgid "Inconsistency"
 msgstr "Ósamræmi"
 
@@ -296,6 +315,14 @@ msgstr "Ár:"
 #: bwdatetime.cpp:72
 msgid "Time:"
 msgstr "Tími:"
+
+#: bwdatetime.cpp:85
+msgid "AM"
+msgstr ""
+
+#: bwdatetime.cpp:86
+msgid "PM"
+msgstr ""
 
 #: bwdatetime.cpp:161
 msgid "The Time you selected is invalid"

@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-01-14 01:57+0100\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
 
@@ -70,6 +70,11 @@ msgstr "Letur hluta"
 
 #: kwview.cpp:1057
 msgid "Vertical Selections On"
+msgstr "Lóð&rétt val virkt"
+
+#: kwview.cpp:1057
+#, fuzzy
+msgid "Vertical Selections Off"
 msgstr "Lóð&rétt val virkt"
 
 #: kwview.cpp:1116

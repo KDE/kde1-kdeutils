@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"POT-Creation-Date: 1999-01-26 01:48+0100\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
 
@@ -172,10 +172,10 @@ msgstr "Stillingar..."
 msgid "Save Settings Now"
 msgstr "Vista stillingar"
 
-#: qps.C:195
-#, c-format
+#: qps.C:196
+#, fuzzy
 msgid ""
-"kpm %sk%s - A Visual Process Manager (KDE Version)\n"
+" - A Visual Process Manager (KDE Version)\n"
 "\n"
 "© 1997 Mattias Engdegård (f91-men@nada.kth.se)\n"
 "© 1998 Mario Weilguni (mweilguni@kde.org)\n"
@@ -205,79 +205,79 @@ msgstr ""
 "skilmálunum.  Skráin COPYING sem fylgir forrits-\n"
 "texta kpm skýrir þetta nánar."
 
-#: qps.C:213
+#: qps.C:211
 msgid "&Window"
 msgstr "&Gluggi"
 
-#: qps.C:214
+#: qps.C:212
 msgid "&Process"
 msgstr "&Ferli"
 
-#: qps.C:215
+#: qps.C:213
 msgid "&Signal"
 msgstr "&Boð"
 
-#: qps.C:311
+#: qps.C:309
 msgid "SIGQUIT (quit)"
 msgstr "SIGQUIT (hætta)"
 
-#: qps.C:312
+#: qps.C:310
 msgid "SIGILL (illegal instruction)"
 msgstr "SIGILL (ólögleg skipun)"
 
-#: qps.C:313
+#: qps.C:311
 msgid "SIGABRT (abort)"
 msgstr "SIGABRT (hætta við)"
 
-#: qps.C:314
+#: qps.C:312
 msgid "SIGFPE (floating point exception)"
 msgstr "SIGFPE (villa í fleytitölureikningum)"
 
-#: qps.C:315
+#: qps.C:313
 msgid "SIGSEGV (segmentation violation)"
 msgstr "SIGSEGV (ólögleg minnisaðgerð)"
 
-#: qps.C:316
+#: qps.C:314
 msgid "SIGPIPE (broken pipe)"
 msgstr "SIGPIPE (rofin pípa)"
 
-#: qps.C:317
+#: qps.C:315
 msgid "SIGALRM (timer signal)"
 msgstr "SIGALRM (klukkutif)"
 
-#: qps.C:318
+#: qps.C:316
 msgid "SIGUSR1 (user-defined 1)"
 msgstr "SIGUSR1 (notandaboð 1)"
 
-#: qps.C:319
+#: qps.C:317
 msgid "SIGUSR2 (user-defined 2)"
 msgstr "SIGUSR 2 (notandaboð 2)"
 
-#: qps.C:320
+#: qps.C:318
 msgid "SIGCHLD (child death)"
 msgstr "SIGCHLD (undirferli dó)"
 
-#: qps.C:321
+#: qps.C:319
 msgid "SIGCONT (continue)"
 msgstr "SIGCONT (halda áfram)"
 
-#: qps.C:322
+#: qps.C:320
 msgid "SIGSTOP (stop)"
 msgstr "SIGSTOP (stöðva)"
 
-#: qps.C:323
+#: qps.C:321
 msgid "SIGTSTP (stop from tty)"
 msgstr "SIGSTP (stöðva frá tty)"
 
-#: qps.C:324
+#: qps.C:322
 msgid "SIGTTIN (tty input)"
 msgstr "SIGTTIN (tty inntak)"
 
-#: qps.C:325
+#: qps.C:323
 msgid "SIGTTOU (tty output)"
 msgstr "SIGTTOUT (tty úttak)"
 
-#: qps.C:625
+#: qps.C:623
 #, c-format
 msgid ""
 "You do not have permission to view the\n"
@@ -290,23 +290,23 @@ msgstr ""
 "Einungis eigandi ferlisins og ofurpaurinn\n"
 "hafa heimildir til þess."
 
-#: qps.C:630 qps.C:839 qps.C:881 qps.C:887 qps.C:910 qps.C:946 qps.C:990
+#: qps.C:628 qps.C:837 qps.C:879 qps.C:885 qps.C:908 qps.C:944 qps.C:988
 msgid "Permission denied"
 msgstr "Aðgerð bönnuð"
 
-#: qps.C:703
+#: qps.C:701
 msgid "qps: change update period"
 msgstr "qps: breyta uppfærslutíðni"
 
-#: qps.C:704
+#: qps.C:702
 msgid "New update period:"
 msgstr "Tími milli uppfærslna:"
 
-#: qps.C:719 qps.C:858
+#: qps.C:717 qps.C:856 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Ógilt inntak"
 
-#: qps.C:720
+#: qps.C:718
 msgid ""
 "The time between updates should be a number, optionally followed\n"
 "by a unit (ms, s or min). If no unit is given, seconds is assumed."
@@ -314,7 +314,7 @@ msgstr ""
 "Tíminn á milli uppfærslna á að vera tala.  Taka má fram einingu\n"
 "(ms, s, eða min) á eftir tölunni.  Sjálfgefin eining er sekúnda."
 
-#: qps.C:834
+#: qps.C:832
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
@@ -327,15 +327,15 @@ msgstr ""
 "Einungis eigandi ferilsins og ofurpaurinn\n"
 "hafa slíkar heimildir."
 
-#: qps.C:848
+#: qps.C:846
 msgid "qps: renice process"
 msgstr "qps: forgangsraða"
 
-#: qps.C:849
+#: qps.C:847
 msgid "New nice value:"
 msgstr "Nýr forgangur:"
 
-#: qps.C:859
+#: qps.C:857
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
@@ -343,7 +343,7 @@ msgstr ""
 "Forgangur skal vera á\n"
 "bilinu -20 til 20."
 
-#: qps.C:876
+#: qps.C:874
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
@@ -352,11 +352,11 @@ msgstr ""
 "Þú hefur ekki heimildir til að forgangsraða %d (%s).\n"
 "Einungis eigandi ferlisins og ofurpaurinn hafa slíkar heimildir."
 
-#: qps.C:888
+#: qps.C:886
 msgid "Only the super-user may lower the nice value of a process."
 msgstr "Einungis ofurpaurinn getur lækkað forgangstölu ferlis."
 
-#: qps.C:911
+#: qps.C:909
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
@@ -364,7 +364,7 @@ msgstr ""
 "Einungis ofurpaurinn getur breytt for-\n"
 "gangsflokkuninni og 'static' eiginleikanum."
 
-#: qps.C:941
+#: qps.C:939
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
@@ -375,7 +375,7 @@ msgstr ""
 "gangsflokkun og/eða forgangi ferlisins %d (%s).\n"
 "Einungiss ofurpaurinn hefur þær."
 
-#: qps.C:985
+#: qps.C:983
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"
@@ -383,3 +383,33 @@ msgid ""
 msgstr ""
 "Þú hefur ekki heimildir til að senda boð til ferlisins %d (%s).\n"
 "Einungis eigandi ferlisins og ofurpaurinn hafa slíkar heimildir."
+
+#: scheddlg.C:22
+#, fuzzy
+msgid "Change scheduling"
+msgstr "Forgangsflokkun..."
+
+#: scheddlg.C:28
+#, fuzzy
+msgid "Scheduling Policy"
+msgstr "Forgangsflokkun..."
+
+#: scheddlg.C:29
+msgid "SCHED_OTHER (time-sharing)"
+msgstr ""
+
+#: scheddlg.C:36
+msgid "SCHED_FIFO (real-time)"
+msgstr ""
+
+#: scheddlg.C:42
+msgid "SCHED_RR (real-time)"
+msgstr ""
+
+#: scheddlg.C:67
+msgid "Priority (1-99):"
+msgstr ""
+
+#: scheddlg.C:114
+msgid "The priority must be in the range 1..99"
+msgstr ""

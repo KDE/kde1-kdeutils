@@ -9,8 +9,8 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: main.cpp:49
 #
+#: main.cpp:49
 msgid "Ljet Tool"
 msgstr "Ljet Tool"
 
@@ -39,7 +39,6 @@ msgid "Lines"
 msgstr "Linee"
 
 #: PaperData.cpp:96
-#,
 msgid "Orientation"
 msgstr "Orientazione"
 

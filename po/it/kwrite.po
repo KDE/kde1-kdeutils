@@ -69,8 +69,8 @@ msgstr "Sile Oggetto"
 msgid "Item Font"
 msgstr "Carattere Oggetto"
 
-#: kwview.cpp:1057
 #
+#: kwview.cpp:1057
 msgid "Vertical Selections On"
 msgstr "Selezioni &Verticali Attive"
 
@@ -355,7 +355,6 @@ msgid "&Insert..."
 msgstr "&Inserisci..."
 
 #: toplevel.cpp:169
-#,
 msgid "Open Recen&t"
 msgstr "Apri Recen&ti"
 
