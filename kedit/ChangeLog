@@ -1,3 +1,7 @@
+Fri Jan  9 18:04:16 MET 1998 Stefan Taferner <taferner@kde.org>
+
+	* Added standard accelerator keys
+
 Sat Dec  6 03:17:49 1997  Bernd Johannes Wuebben  <wuebben@petit.cornell.edu>
 
 	* Finally implemented word wrap correctly. Should work fine now

@@ -39,6 +39,7 @@
 #include "kedit.moc"
 
 #include <klocale.h>
+#include <kstdaccel.h>
 #include <kiconloader.h>
 
 QList<TopLevel> TopLevel::windowList;
@@ -162,6 +163,8 @@ void TopLevel::setupEditWidget(){
 
 void TopLevel::setupMenuBar(){
 
+  KStdAccel keys(mykapp->getConfig());
+
   file = 	new QPopupMenu ();
   edit = 	new QPopupMenu ();
   help = 	new QPopupMenu ();
@@ -182,9 +185,9 @@ void TopLevel::setupMenuBar(){
 
   
   file->insertItem (klocale->translate("Ne&w..."),
-		    this, 	SLOT(file_new()));
+		    this, 	SLOT(file_new()), keys.openNew());
   file->insertItem (klocale->translate("&Open..."),
-		    this, 	SLOT(file_open()));
+		    this, 	SLOT(file_open()), keys.open());
 
   file->insertItem (klocale->translate("Open Recen&t..."), recentpopup);
   connect( recentpopup, SIGNAL(activated(int)), SLOT(openRecent(int)) );
@@ -192,11 +195,11 @@ void TopLevel::setupMenuBar(){
   file->insertSeparator (-1);
 
   file->insertItem (klocale->translate("&Save"),
-		    this, 	SLOT(file_save()));
+		    this, 	SLOT(file_save()), keys.save());
   file->insertItem (klocale->translate("S&ave as..."),
 		    this, 	SLOT(file_save_as()));
   file->insertItem (klocale->translate("&Close"),
-		    this,	SLOT(file_close()));
+		    this,	SLOT(file_close()), keys.close());
   file->insertSeparator (-1);
   file->insertItem (klocale->translate("Open &URL..."),
 		    this,	SLOT(file_open_url()));
@@ -204,7 +207,7 @@ void TopLevel::setupMenuBar(){
 		    this,	SLOT(file_save_url()));
   file->insertSeparator (-1);
   file->insertItem (klocale->translate("&Print..."),
-		    this,	SLOT(print()) );
+		    this,	SLOT(print()), keys.print());
   file->insertSeparator (-1);
   file->insertItem (klocale->translate("&Mail..."),
 		    this,	SLOT(mail()) );
@@ -214,12 +217,10 @@ void TopLevel::setupMenuBar(){
 		    this,	SLOT(newTopLevel()) );
   file->insertSeparator (-1);
   file->insertItem (klocale->translate("E&xit"),
-		    this,	SLOT(quiteditor()));
-
+		    this,	SLOT(quiteditor()), keys.quit());
 
   edit->insertItem(klocale->translate("&Copy"),
 		   this, 	SLOT(copy()));
-
   edit->insertItem(klocale->translate("&Paste"),
 		   this, 	SLOT(paste()));
   edit->insertItem(klocale->translate("C&ut"),
@@ -233,11 +234,11 @@ void TopLevel::setupMenuBar(){
 		   this, 	SLOT(insertDate()));
   edit->insertSeparator(-1);
   edit->insertItem(klocale->translate("&Find..."),
-		   this, 	SLOT(search()));
+		   this, 	SLOT(search()), keys.find());
   edit->insertItem(klocale->translate("Find &Again"),
 		   this, 	SLOT(search_again()));
   edit->insertItem(klocale->translate("&Replace"),
-		   this, 	SLOT(replace()));
+		   this, 	SLOT(replace()), keys.replace());
   edit->insertSeparator(-1);
   edit->insertItem(klocale->translate("&Goto Line..."),
 		   this, SLOT(gotoLine()));
