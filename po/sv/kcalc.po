@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"Content-Type: text/plain; charset=\n"
+"Date: 1998-03-06 23:13:09-0500\n"
+"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
+"<root@petit.cornell.edu>\n"
+"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
+"Files: configdlg.cpp dlabel.cpp fontdlg.cpp kcalc.cpp kcalc_core.cpp "
+"stats.cpp\n"
+"Date: 1998-05-25 17:45:00+0800\n"
+"Translated by Karl Backström <karl_b@geocities.com>\n"
+
+#: configdlg.cpp:56 kcalc.cpp:1591
+msgid "Defaults"
+msgstr "Standardvärden"
+
+#: configdlg.cpp:61
+msgid "Foreground Color:"
+msgstr "Förgrunds färger:"
+
+#: configdlg.cpp:78
+msgid "Background Color:"
+msgstr "Bakgrunds färger:"
+
+#: configdlg.cpp:95
+msgid "Precision:"
+msgstr "Presision:"
+
+#: configdlg.cpp:116
+msgid "Set Fixed Precision at:"
+msgstr "Sätt fast presision till:"
+
+#: configdlg.cpp:145
+msgid "Beep on Error"
+msgstr "Ljudsignal vid fel"
+
+#: configdlg.cpp:153
+msgid "Trigonometry Mode"
+msgstr "Trigonometri"
+
+#: configdlg.cpp:158
+msgid "Statistical Mode"
+msgstr "Statistik"
+
+#: fontdlg.cpp:44
+msgid "Set Default Font"
+msgstr "Sätt standard font"
+
+#: fontdlg.cpp:63
+msgid "Point Size:"
+msgstr "Punkt storlek:"
+
+#: kcalc.cpp:99
+msgid "KCalc Setup/Help"
+msgstr "KCalc Inställningar/Hjälp"
+
+#: kcalc.cpp:152
+msgid "Angle"
+msgstr "Vinkel"
+
+#: kcalc.cpp:192
+msgid "Base"
+msgstr "Bas"
+
+#: kcalc.cpp:1550
+msgid "Base type: long double\n"
+msgstr "Bas typ: lång dubbel\n"
+
+#: kcalc.cpp:1552
+msgid ""
+"Due to broken glibc's everywhere, I had to reduce KCalc's precision from "
+"'long double' to 'double'. Owners of systems with a working libc should "
+"recompile KCalc with 'long double' precision enabled. See the README for "
+"details."
+msgstr ""
+
+#: kcalc.cpp:1592
+msgid "Display Font"
+msgstr "Visa font"
+
+#: kcalc_core.cpp:1138
+msgid "Stat Mem cleared"
+msgstr "Stat Mem tömt"
+
+#~ msgid "Base type: double\n"
+#~ msgstr "Bas typ: dubbel\n"
+
