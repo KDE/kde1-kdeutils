@@ -26,8 +26,7 @@
 
 #include "mail.h"
 #include <klocale.h>
-#define klocale KLocale::klocale()
-
+#include <kapp.h>
 
 Mail::Mail(TopLevel *parent, const char *name)
     : QDialog(parent, name,TRUE){

@@ -1,8 +1,7 @@
 #include "filldlg.h"
 
 #include <klocale.h>
-#define klocale KLocale::klocale()
-
+#include <kapp.h>
 
 FillDlg::FillDlg(QWidget *parent, const char *name)
      : QDialog(parent, name, TRUE)

@@ -35,8 +35,7 @@
 #include "KEdit.h"
 
 #include <klocale.h>
-#define klocale KLocale::klocale()
-
+#include <kapp.h>
 #include "KEdit.moc"
 
 

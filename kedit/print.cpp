@@ -22,6 +22,9 @@
     Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
   
     $Log$
+    Revision 1.6  1997/08/30 21:20:47  kdecvs
+    Bernd -- added klocale
+
     Revision 1.5  1997/07/22 03:16:46  wuebben
     implemented mailing
 
@@ -59,8 +62,7 @@
 #include "print.moc"
 
 #include <klocale.h>
-#define klocale KLocale::klocale()
-
+#include <kapp.h>
 
 PrintDialog::PrintDialog( QWidget *parent, const char *name,  bool modal)
     : QDialog( parent, name, modal )

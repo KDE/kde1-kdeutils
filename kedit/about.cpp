@@ -29,7 +29,7 @@
 #include <kapp.h>
 
 #include <klocale.h>
-#define klocale KLocale::klocale()
+
 extern KApplication *mykapp;
 
 
