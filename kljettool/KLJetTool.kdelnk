@@ -3,6 +3,7 @@
 Comment[C]=LaserJet Control
 Comment[fi]=LaserJet hallinta
 Comment[de]=LaserJet-Konfiguration
+Comment[no]=LaserJet-konfigurasjon
 Comment[pl]=Konfiguracja LasetJet
 Comment[fr]=Contrôle des imprimantes LaserJet
 Comment[hu]=LaserJet Irányító
@@ -14,6 +15,7 @@ BinaryPattern=ljettool;
 Protocols=
 Name[C]=KLaserJet
 Name[de]=KLaserJet
+Name[no]=KLaserJet
 Name[pl]=KLaserJet
 Name[fr]=KLaserJet
 Name[hu]=LaserJet irányító

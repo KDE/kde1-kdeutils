@@ -2,6 +2,7 @@
 [KDE Desktop Entry]
 Name=Hex Editor
 Name[de]=Hexeditor
+Name[no]=Hexredigerer
 Name[pl]=HexEdytor
 Name[fi]=Heksadesimaalieditori
 Name[fr]=Editeur hexa
@@ -16,6 +17,7 @@ Type=Application
 DocPath=khexdit/index.html
 Comment=A simple Hex editor
 Comment[de]=Ein Editor für binäre Dateien
+Comment[no]=En redigerer for binærfiler
 Comment[pl]=Prosty edytor plików binarnych
 Comment[fi]=Yksinkertainen heksadesimaalieditori
 Comment[fr]=Editeur hexadécimal

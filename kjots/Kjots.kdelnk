@@ -3,6 +3,7 @@
 DocPath=kjots/index.html
 Name=KJots
 Name[pl]=KJots
+Name[no]=KJots
 Name[fr]=KJots
 Name[hu]=Jegyzetelõ
 Name[pt]=KJots
@@ -11,6 +12,7 @@ Name[cs]=KJots
 Name[hr]=KJots
 Comment=Note taker
 Comment[de]=Erfasst Notizen
+Comment[no]=Registrerer notiser
 Comment[fr]=Gestionnaire de notes
 Comment[fi]=Muistilappuohjelma
 Comment[pt]=Para tirar pequenos apontamentos
