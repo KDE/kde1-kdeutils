@@ -201,9 +201,9 @@ void HexFile::keyPressEvent (QKeyEvent* e) {
     int ox=curx;
     int oy=cury;
     int new_lineoffset = lineoffset;
-    int ol=lineoffset;
+    int oldl=lineoffset;
     bool changed = false;
-    int or=relcur;
+    int oldr=relcur;
     int key = e->ascii();
     if (sideEdit == LEFT) {
 	if ((key>='a' && key<='f') || 
@@ -303,16 +303,16 @@ void HexFile::keyPressEvent (QKeyEvent* e) {
     if ((unsigned)(curx + new_lineoffset + cury *16) >= data->size()) {
 	curx = ox;
 	cury = oy;
-	new_lineoffset = ol;
-	relcur = or;
+	new_lineoffset = oldl;
+	relcur = oldr;
     }
 
-    if (new_lineoffset != ol) {
+    if (new_lineoffset != oldl) {
 	scrolled(new_lineoffset/16);
 	return;
     }
 
-    if (curx != ox || cury != oy || changed || or!=relcur) {
+    if (curx != ox || cury != oy || changed || oldr!=relcur) {
 	if (changed)
 	    fillPixmap();
 	repaint( false );
