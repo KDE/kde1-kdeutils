@@ -1,7 +1,7 @@
 
 INCLUDES = $(all_includes)
 LDFLAGS   = $(all_libraries) $(KDE_RPATH)
-LDADD =  -lkfile -lkfm -lkdeui -lkdecore -lqt -lXext -lX11 -lm $(LIBSOCKET)
+LDADD =  $(LIB_KFILE)
 
 bin_PROGRAMS = kjots
 
@@ -22,7 +22,7 @@ appsdir = $(kde_appsdir)/Utilities
 apps_DATA = Kjots.kdelnk
 
 messages:
-	$(XGETTEXT) -C -ktranslate -ki18n -x $(includedir)/kde.pot $(kjots_SOURCES) && mv messages.po ../po/kjots.pot
+	$(XGETTEXT) -C -ktranslate -ki18n -x $(includedir)/kde.pot *.cpp && mv messages.po ../po/kjots.pot
 
 ####### Meta objects
 
