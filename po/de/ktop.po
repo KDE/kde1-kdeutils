@@ -257,7 +257,7 @@ msgstr "Zeit"
 
 #: ProcessList.cpp:702
 msgid "Nice"
-msgstr "Priorität"
+msgstr "Prioritätswert"
 
 #: ProcessList.cpp:703
 msgid "Status"
@@ -350,7 +350,7 @@ msgstr "Anwendungen (%)"
 
 #: PerfMonPage.cpp:56 PerfMonPage.cpp:114
 msgid "Nice (%)"
-msgstr "Geniced (%)"
+msgstr "Prioritätswert (%)"
 
 #: PerfMonPage.cpp:57 PerfMonPage.cpp:115
 msgid "System (%)"
