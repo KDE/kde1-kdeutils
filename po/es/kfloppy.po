@@ -11,10 +11,11 @@ msgstr ""
 "Last-Translator: Jorge Valencia <jorgev@est.unileon.es>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=\n"
 "Content-Transfer-Encoding: ENCODING\n"
 "Date: 1998-03-06 22:13:59-0500\n"
-"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, <root@petit.cornell.edu>\n"
-"Content-Type: text/plain; charset=\n"
+"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
+"<root@petit.cornell.edu>\n"
 "Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
 "Files: about.cpp floppy.cpp main.cpp\n"
 
@@ -22,7 +23,9 @@ msgstr ""
 msgid "About KDE Floppy Formater"
 msgstr "Acerca del Formateador de Dicos de KDE"
 
-#: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368 floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721 floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
+#: about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368
+#: floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721
+#: floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
 msgid "KFloppy"
 msgstr "KFloppy"
 
@@ -59,7 +62,8 @@ msgid "Create Label:"
 msgstr "Poner Etiqueta:"
 
 #: floppy.cpp:148
-msgid "KDE Floppy"
+#, fuzzy
+msgid "KDE FLoppy"
 msgstr "KDE Floppy"
 
 #: floppy.cpp:162

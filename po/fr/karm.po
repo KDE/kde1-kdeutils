@@ -34,7 +34,8 @@ msgid ""
 "There was an error trying to save your data file.\n"
 "Time accumulated this session will NOT be saved!\n"
 msgstr ""
-"Une erreur s'est produite lors de la sauvegarde de votre fichier de données.\n"
+"Une erreur s'est produite lors de la sauvegarde de votre fichier de "
+"données.\n"
 "Le temps écoulé pendant cette session NE SERA PAS sauvegardé !\n"
 
 #: karm.cpp:119
@@ -55,7 +56,8 @@ msgstr ": Editer les données de la tâche"
 
 #: karm.cpp:256
 msgid "Karm::updateExistingTask called and there's no dlg!"
-msgstr "Appel de Karm::updateExistingTask et il n'y a pas de boîte de dialogue !"
+msgstr ""
+"Appel de Karm::updateExistingTask et il n'y a pas de boîte de dialogue !"
 
 #: karm.cpp:280
 msgid ": Deleting Task"

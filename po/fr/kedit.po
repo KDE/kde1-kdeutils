@@ -198,9 +198,9 @@ msgid "Saved as: %s"
 msgstr "Enregistré sous : %s"
 
 #: kedit.cpp:866
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Could not pipe the contents of this Document into:\n"
+"Could not pipe the contentsof this Document into:\n"
 " %s"
 msgstr ""
 "Impossible de rediriger ce document vers :\n"
