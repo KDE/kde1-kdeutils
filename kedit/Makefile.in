@@ -3,14 +3,14 @@
 # $Id$
 #
 
-CXXFLAGS= @all_includes@ -DHAVE_CONFIG_H -I.. -I../kfm/libkfm
-LDFLAGS	+= @all_libraries@ -lkfm -lkdecore -lkdeui -L../kfm/libkfm -lqt -lXext -lX11 @LIBSOCKET@ 
+CXXFLAGS= @CXXFLAGS@ @all_includes@ -DHAVE_CONFIG_H -I.. -I../kfm/libkfm
+LDFLAGS	= @LDFLAGS@ @all_libraries@ -lkfm -lkdecore -lkdeui -L../kfm/libkfm -lqt -lXext -lX11 @LIBSOCKET@ 
 CXX	= @CXX@
 MOC	= @MOC@
 
 ############# INSTALL #################
 
-INSTALL = @INSTALL@ -m 0755 -s
+INSTALL = @INSTALL@ -m 0755 
 INSTALL_DATA = @INSTALL@ -m 0644
 INSTALL_DIR = @INSTALL@ -d -m 0755
 INSTALL_DIR_PRIVATE = @INSTALL@ -d -m 0700
