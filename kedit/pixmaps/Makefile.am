@@ -12,7 +12,7 @@ EXTRA_DIST = $(icon_DATA) $(toolbar_DATA) $(pics_DATA) mini-kedit.xpm
 
 install-data-local: 
 	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) mini-kedit.xpm  $(kde_minidir)/kedit.xpm
+	$(INSTALL_DATA) $(srcdir)/mini-kedit.xpm  $(kde_minidir)/kedit.xpm
 
 
 uninstall-local:

@@ -20,7 +20,7 @@ kde_icon_DATA = khexdit.xpm
 
 install-data-local: 
 	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) mini-khexdit.xpm $(kde_minidir)/khexdit.xpm
+	$(INSTALL_DATA) $(srcdir)/mini-khexdit.xpm $(kde_minidir)/khexdit.xpm
 
 uninstall-local:
 	rm -f $(kde_minidir)/khexdit.xpm

@@ -1,7 +1,7 @@
 
 INCLUDES = $(all_includes)
 LDFLAGS  = $(all_libraries) $(KDE_RPATH)
-LDADD =          -lm $(LIB_KFILE)
+LDADD =  $(LIB_KFILE) -lm
 
 SUBDIRS = doc
 
@@ -35,7 +35,7 @@ kde_icon_DATA = klpq.xpm
 
 install-data-local:
 	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) mini-klpq.xpm $(kde_minidir)/klpq.xpm
+	$(INSTALL_DATA) $(srcdir)/mini-klpq.xpm $(kde_minidir)/klpq.xpm
 
 uninstall-local:
 	rm -f $(kde_minidir)/klpq.xpm
