@@ -276,11 +276,11 @@ msgstr "Remplacer les &tabulations"
 
 #: kwdialog.cpp:260
 msgid "Remove Trailing &Spaces"
-msgstr ""
+msgstr "Enlever les espaces en fin de ligne"
 
 #: kwdialog.cpp:261
 msgid "Wrap &Cursor"
-msgstr ""
+msgstr "Retour &curseur début/fin de ligne"
 
 #: kwdialog.cpp:262
 msgid "&Auto Brackets"
@@ -304,11 +304,11 @@ msgstr "Sélections &verticales"
 
 #: kwdialog.cpp:294
 msgid "&Delete On Input"
-msgstr ""
+msgstr "La frappe efface la sélection"
 
 #: kwdialog.cpp:295
 msgid "&Toggle Old"
-msgstr ""
+msgstr "Sélec&tion simple"
 
 #: kwdialog.cpp:322
 msgid "Wrap Words At:"
