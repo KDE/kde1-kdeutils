@@ -93,6 +93,7 @@ TopLevel::TopLevel (QWidget *, const char *name)
   connect( dropZone, SIGNAL( dropAction( KDNDDropZone *) ), 
 	   this, SLOT( slotDropEvent( KDNDDropZone *) ) );
 
+  connect(mykapp,SIGNAL(saveYourself()),this,SLOT(wm_save_slot()));
 
 
   // Calling resize as is done here will reduce flicker considerably
@@ -115,6 +116,7 @@ TopLevel::~TopLevel (){
   delete options;
   delete toolbar;
 }
+
 
 
 void TopLevel::setupEditWidget(){
@@ -356,6 +358,18 @@ void TopLevel::setupStatusBar(){
 
 }
 
+
+void TopLevel::wm_save_slot(){
+
+  KConfig *config = mykapp->getSessionConfig();
+  config->setGroup("restorableFiles");
+  int number = windowList.find(this); /* goes from 0 to n */
+  number ++;  /* need to have 1 to n */
+  QString num;
+  num.setNum(number);
+  config->writeEntry(num.data(),eframe->getName().data());
+  
+}
 
 void TopLevel::copy(){
   
@@ -734,15 +748,6 @@ void TopLevel::helpselected(){
   
   mykapp->invokeHTMLHelp( "" , "" );
 
-/*  if ( fork() == 0 ) 
-    {
-      QString path = DOCS_PATH;
-      path += "/kedit.html";
-      execlp( "kdehelp", "kdehelp", path.data(), 0 );
-      ::exit( 1 );      
-      
-    }	 
-    */
 }
 
 void TopLevel::toggle_indent_mode(){
@@ -1589,20 +1594,43 @@ void TopLevel::toggle_overwrite(){
 
 int main (int argc, char **argv)
 {
-    if (!strcmp (argv[0], "kless"))
-       default_open = KEdit::OPEN_READONLY;
-    else
-       default_open = KEdit::OPEN_READWRITE;
 
-    mykapp = new KApplication (argc, argv, "kedit");
+  mykapp = new KApplication (argc, argv, "kedit");
 
+  if ( mykapp->isRestored() ) {
+
+      int n = 1;
+      KConfig *config;
+      config = mykapp->getSessionConfig();
+      config->setGroup("restorableFiles");
+      QString number;
+
+      while (KTopLevelWidget::canBeRestored(n)) {
+
+	  TopLevel *tl = new TopLevel();
+	  tl->restore(n);
+	  TopLevel::windowList.append( tl );
+
+	  number.setNum(n);
+	  QString file = config->readEntry(number.data(),"");
+printf("%d RESTORING FILE: %s\n",n,file.data());
+	  if(!file.isEmpty())
+	    tl->eframe->loadFile(file,KEdit::OPEN_INSERT);
+          n++;
+      }
+
+      delete config;
+
+  } 
+  else{
+
+    if (argc > 1) {
 
     /*
      * check cmdline args
      * FIXME: not completely done yet
      */
 
-    if (argc > 1) {
         for (int i = 1; i < argc; i++) {
             if (*argv[i] == '-')	/* ignore options */
                 continue;
@@ -1630,6 +1658,7 @@ int main (int argc, char **argv)
 	t->show ();
 	TopLevel::windowList.append( t );
     }
-    
+  }
     return mykapp->exec ();
 }
+

@@ -178,6 +178,7 @@ private:
     
 public slots:
 
+    void wm_save_slot();
     void set_colors();
     void gotoLine();
     void fill_column_slot();
