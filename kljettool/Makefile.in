@@ -3,6 +3,12 @@
 prefix  = @prefix@
 install_root = @install_root@
 exec_prefix = @exec_prefix@
+kde_libraries = @kde_libraries@
+qt_libraries = @qt_libraries@
+top_builddir = ..
+LIBTOOL = @LIBTOOL@
+KDE_RPATH = @KDE_RPATH@
+
 BINDIR  = @kde_bindir@
 DOCSDIR = @kde_htmldir@/en/kljettool
 APPSDIR = @kde_appsdir@/Utilities/
@@ -49,7 +55,7 @@ Makefile: Makefile.in
 	cd .. && CONFIG_FILES=kljettool/$@ CONFIG_HEADERS= $(SHELL) ./config.status
 
 $(TARGET): $(SOURCES) $(SRCMETA) $(OBJECTS) $(HEADER)
-	$(CXX) $(OBJECTS) -o $(TARGET) $(LDFLAGS)
+	$(LIBTOOL) --mode=link $(CXX) $(OBJECTS) -o $(TARGET) $(LDFLAGS) $(KDE_RPATH)
 
 depend:
 	@makedepend -I$(INCDIR) $(SOURCES) 2> /dev/null
