@@ -83,7 +83,7 @@ msgstr "Sostituisci"
 
 #: kedit.cpp:268
 msgid "Spellcheck..."
-msgstr ""
+msgstr "Controllo ortografia..."
 
 #: kedit.cpp:273
 msgid "&Goto Line..."
@@ -141,7 +141,7 @@ msgstr "Posta Documento"
 #: kedit.cpp:494 kedit.cpp:582 kedit.cpp:1534 keditcl2.cpp:697
 #: keditcl2.cpp:804
 msgid "Done"
-msgstr ""
+msgstr "Fatto"
 
 #: kedit.cpp:607
 msgid "Open Location:"
