@@ -70,10 +70,7 @@
 #include "KEdit.h"
 #include "print.h"
 #include "filldlg.h"
-
-#ifndef DOCS_PATH
-#define DOCS_PATH "/usr/local/kde/doc/HTML/kedit/kedit.html"
-#endif
+#include "version.h"
 
 // StatusBar field IDs
 #define ID_LINE_COLUMN 1
@@ -196,6 +193,7 @@ public slots:
     void toggle_indent_mode();
     void print();
     void timer_slot();
+    void save_options();
     void file_open();
     void file_new();
     void insertFile();

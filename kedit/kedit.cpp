@@ -58,7 +58,7 @@ TopLevel::TopLevel (QWidget *, const char *name)
   statusbar_timer = new QTimer(this);
   connect(statusbar_timer, SIGNAL(timeout()),this,SLOT(timer_slot()));
 
-  //  connect(mykapp,SIGNAL(kdisplayPaletteChanged()),this,SLOT(set_colors()));
+  connect(mykapp,SIGNAL(kdisplayPaletteChanged()),this,SLOT(set_colors()));
 
   setupMenuBar();
   setupToolBar();
@@ -90,7 +90,7 @@ TopLevel::TopLevel (QWidget *, const char *name)
   // ktoplevelwidget updateRect will be called only twice this way instead of 4 times.
   // If I leave the first resize out the toolbar will not be displayed and 
   // ktoplevelwidget updateRect will be called four times. All this needs to 
-  // be loocked into. ktoolbar <-> ktoplevelwidget
+  // be looked into. ktoolbar <-> ktoplevelwidget
 
   resize(editor_width,editor_height);
   show();
@@ -118,10 +118,6 @@ void TopLevel::setupEditWidget(){
   connect(eframe, SIGNAL(saving()),this,SLOT(saving_slot()));
 
   setView(eframe,FALSE);
-
-
-  //////////////////////////////////////////////////////////////////
-  /// TODO write proper eframe methods for this
 
   eframe->setFillColumnMode(fill_column_value);
   eframe->setWordWrap(word_wrap_is_set);
@@ -173,7 +169,7 @@ void TopLevel::setupMenuBar(){
   file->insertItem ("Save to U&RL...",	this,	SLOT(file_save_url()));
   file->insertSeparator (-1);
   file->insertItem ("&Print...",	this,	SLOT(print()) );
-  //  file->insertItem ("&Print...",this,SLOT(fancyprint()) );
+  //  file->insertItem ("&Fancy Print...",this,SLOT(fancyprint()) );
   file->insertSeparator (-1);
   file->insertItem ("New &Window",	this,	SLOT(newTopLevel()) );
   file->insertSeparator (-1);
@@ -203,7 +199,8 @@ void TopLevel::setupMenuBar(){
   options->insertSeparator(-1);
   toolID   = options->insertItem("&Tool Bar",this,SLOT(toggleToolBar()));
   statusID = options->insertItem("&Status Bar",this,SLOT(toggleStatusBar()));	
-
+  options->insertSeparator(-1);
+  options->insertItem("Save Options",this, 	SLOT(save_options()));
 
   menubar = new KMenuBar (this, "menubar");
   menubar->insertItem ("&File", file);
@@ -406,9 +403,10 @@ void TopLevel::file_open_url(){
     {
       QString n = l.getText();
       if ( n.left(5) != "file:" && n.left(4) == "ftp:" )
+	// was OPEN_WRITEONLY but that isn't really cool.
 	openNetFile( l.getText(), KEdit::OPEN_READWRITE );
       else
-	openNetFile( l.getText(), KEdit::OPEN_READONLY );
+	openNetFile( l.getText(), KEdit::OPEN_READWRITE );
     }
   
   statusbar_slot();
@@ -464,14 +462,18 @@ void TopLevel::quiteditor(){
     }
   }
 
-  // there is more than one window open. We need to ask a bit differently
 
   TopLevel *ptoplevel;
   for ( ptoplevel=windowList.first(); ptoplevel!= 0; ptoplevel=windowList.next() ){
     if (ptoplevel->eframe->isModified())
       frame_modified = true;
   }
-  
+
+  if(!frame_modified){ // no frame was modified
+    writeSettings();
+    mykapp->quit();
+  }
+
   bool returncode;
 
   returncode = QMessageBox::query ("Message", 
@@ -610,7 +612,7 @@ void TopLevel::fancyprint(){
 
 void TopLevel::about(){
 
-  QMessageBox::message ("About KEdit", "KEdit Version 0.5\n"\
+  QMessageBox::message ("About KEdit", "KEdit Version "KEDITVERSION"\n"\
 			"Copyright 1997\nBernd Johannes Wuebben\n"\
 			"wuebben@math.cornell.edu\n"\
 			"wuebben@kde.org\n"\
@@ -954,6 +956,11 @@ void TopLevel::setSensitivity (){
 
 }
 
+void TopLevel::save_options(){
+
+  writeSettings();
+
+}
 
 void TopLevel::saving_slot(){
 
@@ -1118,9 +1125,11 @@ void TopLevel::slotDropEvent( KDNDDropZone * _dropZone )
 	{
 	    QString n = s;
 	    if ( n.left(5) != "file:" && n.left(4) == "ftp:" )
+	      // was OPEN_WRITEONLY but that isn't really cool.
 		openNetFile( n.data(), KEdit::OPEN_READWRITE );
 	    else
-		openNetFile( n.data(), KEdit::OPEN_READONLY );
+	      openNetFile( n.data(), KEdit::OPEN_READWRITE ); 
+	   
 	}
 	else
 	{
@@ -1133,7 +1142,7 @@ void TopLevel::slotDropEvent( KDNDDropZone * _dropZone )
 	    if ( n.left(5) != "file:" && n.left(4) == "ftp:" )
 		t->openNetFile( n.data(), KEdit::OPEN_READWRITE );
 	    else
-		t->openNetFile( n.data(), KEdit::OPEN_READONLY );
+		t->openNetFile( n.data(), KEdit::OPEN_READWRITE );
 	    setGeneralStatusField("Load Command Done");
 	}
     }
@@ -1178,7 +1187,7 @@ void TopLevel::set_background_color(){
 
 
 void TopLevel::set_colors(){
-
+ 
 
   QPalette mypalette = (eframe->palette()).copy();
 
@@ -1192,7 +1201,7 @@ void TopLevel::set_colors(){
 
   eframe->setPalette(mypalette);
   eframe->setBackgroundColor(backcolor);
-
+ 
 }
 
 

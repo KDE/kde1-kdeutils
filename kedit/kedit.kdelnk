@@ -1,5 +1,5 @@
 [KDE Desktop Entry]
-Exec=kedit
+Exec=kedit %u
 Icon=edit.xpm
 DocPath=kedit.html
 Info=A Simple Text Editor

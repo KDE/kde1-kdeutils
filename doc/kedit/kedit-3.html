@@ -14,7 +14,14 @@
 will have no problems with KEdit. </P>
 
 
-<H2><A NAME="ss3.1">3.1 Editing files on the internet</A></H2>
+<H2><A NAME="ss3.1">3.1 Drag and Drop</A></H2>
+
+<P>KEdit makes use of the KDE Drag and Drop protocol. This means that you can darg
+and drop files form the Desktop or kfm or some remote ftp site that you have
+open in one of kfm's windows on to KEdit. </P>
+
+
+<H2><A NAME="ss3.2">3.2 Editing files on the internet</A></H2>
 
 <P>You can open and save files transparently on the internet. Try the the following at the
 command-line prompt to see an example of this.</P>
@@ -27,11 +34,59 @@ command-line prompt to see an example of this.</P>
 </P>
 
 
-<H2><A NAME="ss3.2">3.2 Key Bindings</A></H2>
+
+<H2><A NAME="ss3.3">3.3 Printing</A></H2>
+
+<P>KEdit supports printing. You can either print the document your are editing
+or the selection you made directly to your default printer. Optionally you can
+specify the printing command of your choice. There exist a number of
+printing utilities in the Unix world  which are excellent. It would
+make little sense to try reimplement their efforts. Explicitely let me
+mention to you the following two printing utilites.</P>
+
+<P>
+<DL>
+<DT><B>GNU enscript.</B><DD><P>Markku Rossi has written a powerful reincarnation
+of Adobe's enscript ascii to postscript utility. My favorite usage is
+enscript -2rG text.txt, but GNU enscript goes far beyond that. Make
+sure you have the latest version from 
+<A HREF="http://www.hut.fi/~mtr/genscript/">http://www.hut.fi/~mtr/genscript/</A>, or any GNU mirror.</P>
+
+<DT><B>a2ps</B><DD><P>Akim Demaille and Miguel Santana have written a powerful
+ascii to Postscript conversion utility which will format your output
+depending on the documentype. Whether you want to print out C++
+sources or a email message, the default styles are very nice. Get
+it from:
+<A HREF="http://www-inf.enst.fr/~demaille/a2ps.html">http://www-inf.enst.fr/~demaille/a2ps.html</A></P>
+</DL>
+</P>
+<P>The above two utilities are an absolute must. If you don't have them,
+get them and become familiar with their usage. Learning how to use
+them is no longer a problem due to our great html/texinfo/man viewer
+<CODE>kdehelp</CODE>. These utilities are your friends when it comes to printing
+in the UNIX world. Due to their power and many options once you know how to use 
+them properly, you will always miss them should they ever not be available 
+to you, even under Windows95.</P>
+
+<P>Make sure your system is set up for printing PostScript documents. If you
+don't have a native PostScript printer ( who does?) get yourself
+ghostscript/ghostview version 4.03 or higher  from
+<A HREF="http://www.cs.wisc.edu/%7Eghost/">http://www.cs.wisc.edu/%7Eghost/</A>. Note, that there are now
+commercial grade ps fonts available that come with the ghostview/ghostscript
+package. These fonts are a must for any quality printing of Postscript documents
+on a non-postscript printer. If you were dissapointed by the results you got
+from ghostscript on your printer so far - get the new fonts, this
+will give you the best possible results. </P>
+
+
+
+<H2><A NAME="ss3.4">3.4 Key Bindings</A></H2>
 
 <P>KEdit honors the following key bindings.</P>
+
 <P>
 <UL>
+<LI><CODE>Insert</CODE> Toggle between Insert and Overwrite mode</LI>
 <LI><CODE>Left Arrow</CODE> Move the cursor one character leftwards </LI>
 <LI><CODE>Right Arrow</CODE> Move the cursor one character rightwards </LI>
 <LI><CODE>Up Arrow</CODE> Move the cursor one line upwards </LI>
