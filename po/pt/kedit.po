@@ -131,7 +131,7 @@ msgstr "Enviar Documento por email"
 
 #: kedit.cpp:534
 msgid "Open Location:"
-msgstr "Abrir Localização"
+msgstr "Abrir Localização:"
 
 #: kedit.cpp:548
 msgid "Save to Location:"
@@ -178,11 +178,11 @@ msgstr ""
 #: kedit.cpp:808
 #, c-format
 msgid "Wrote: %s"
-msgstr "Escreveu: %s"
+msgstr "Escrito: %s"
 
 #: kedit.cpp:814
 msgid "No changes need to be saved"
-msgstr "Nenhumas mudanças necessitam de ser gravadas"
+msgstr "Nenhumas mudanças necessitam ser gravadas"
 
 #: kedit.cpp:833
 #, c-format
@@ -335,7 +335,7 @@ msgstr "Diálogo de Impressão"
 
 #: print.cpp:70
 msgid "Print directly using lpr"
-msgstr "Imprimir directamente usando lpr"
+msgstr "Imprimir usando lpr"
 
 #: print.cpp:75
 msgid "Print using Command:"
@@ -347,7 +347,7 @@ msgstr "Imprimir Selecção"
 
 #: filldlg.cpp:31
 msgid "KEdit Options"
-msgstr "Opções do KEdit"
+msgstr "Opções do Editor"
 
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"
