@@ -5,7 +5,6 @@
 #
 # $Id$
 #
-BROKEN=		"Until someone has the time to fix this up a bit."
 PKGNAME=	kdeutils-`date "+%y%m%d"`
 CATEGORIES=	misc kde
 
@@ -14,7 +13,7 @@ MAINTAINER=	garbanzo@hooked.net
 BUILD_DEPENDS=	moc:${PORTSDIR}/x11/qt \
 		autoconf:${PORTSDIR}/devel/autoconf \
 		automake:${PORTSDIR}/devel/automake
-
+INSTALL_ROOT?=	${.CURDIR}/${PKGNAME}
 LIB_DEPENDS=	qt\\.1\\.3[0-9]:${PORTSDIR}/x11/qt \
 		gif\\.[23]\\.:${PORTSDIR}/graphics/giflib \
 		jpeg\\.8\\.:${PORTSDIR}/graphics/jpeg \
@@ -31,9 +30,13 @@ WRKSRC=		../
 NO_EXTRACT=	"yes, please"
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	"--prefix=$(PREFIX)" \
+		"--x-inc=$(X11BASE)/include" \
+		"--x-lib=$(X11BASE)/lib" \
+		"--with-install-root=$(INSTALL_ROOT)" \
 		"--with-extra-includes=$(PREFIX)/include/giflib"
 
 CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \
+		install_root=$(INSTALL_ROOT) \
 		INSTALL_SCRIPT="install -c -m 555"
 
 # Since there's nothing to fetch, we might as well use a dummy target
@@ -46,6 +49,7 @@ pre-clean:
 # We need to go through Makefile.cvs before anything else.
 pre-configure:
 		cd $(WRKSRC);rm -f config.cache;$(GMAKE) -f Makefile.cvs
+		rm -f $(PLIST)
 
 make-plist:
 		cd ${INSTALL_ROOT} && \
