@@ -1,22 +1,22 @@
 # KDE Config File
 [KDE Desktop Entry]
 Name=Process management
+Name[de]=Prozeß-Management
 Name[cs]=Správce procesù
 Name[es]=Gestion de procesos
-Name[de]=Prozeß-Management
-Name[no]=Prosessbehandler
 Name[fi]=Prosessienhallinta
+Name[no]=Prosessbehandler
 Comment=Process management tool
-Commnet[cs]=Nástroj pro správu procesù
-Comment[es]=Herramienta de gestión de procesos
 Comment[de]=Prozeß-Management
-Comment[no]=Prosessbehandlingsverktøy
-Comment[pt]=Ferramenta de gestão de processos
-Comment[pt_BR]=Ferramenta de gerenciamento de processos
-Comment[hr]=Upravljanje procesima
 Comment[fr]=Gestionnaire de tâches
-Comment[sk]=Mene¾ment procesov
+Comment[es]=Herramienta de gestión de procesos
 Comment[ru]=õĞÒÁ×ÌÅÎÉÅ ĞÒÏÃÅÓÓÁÍÉ
+Comment[pt]=Ferramenta de gestão de processos
+Comment[hr]=Upravljanje procesima
+Comment[no]=Prosessbehandlingsverktøy
+Comment[sk]=Mene¾ment procesov
+Comment[pt_BR]=Ferramenta de gerenciamento de processos
+Commnet[cs]=Nástroj pro správu procesù
 Xomment[fi]=Prossienhallintatyökalu
 BinaryPattern=kpm;
 Protocols=
