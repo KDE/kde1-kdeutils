@@ -387,4 +387,3 @@ msgstr "Correu"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Heu d'especificar un destinatari"
-

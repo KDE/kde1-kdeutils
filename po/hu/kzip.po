@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-06-16 14:24+0200\n"
 "PO-Revision-Date: 1997-11-13 12:20+0100\n"
 "Last-Translator: John Zero <johnzero@telnet.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -25,10 +25,6 @@ msgstr "Tárold a teljes útvonalat"
 #: adddlg.cc:25
 msgid "Only Add Newer Files"
 msgstr "Csak az újabb file-okat add"
-
-#: extractdlg.cc:9
-msgid "Files"
-msgstr "File-ok"
 
 #: extractdlg.cc:13
 msgid "Extract Options"
@@ -118,6 +114,9 @@ msgstr "Archive könyvtár"
 #: kzip.cc:408
 msgid "Archive Directory"
 msgstr "Archive könyvtár"
+
+#~ msgid "Files"
+#~ msgstr "File-ok"
 
 #, fuzzy
 #~ msgid "&New..."

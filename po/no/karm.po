@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"POT-Creation-Date: 1998-06-16 14:24+0200\n"
 "PO-Revision-Date: 1998-02-28 15:21+0100\n"
 "Last-Translator: Svein Olav Aasen <soaasen@online.no / svein.aasen@caa.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -81,10 +81,6 @@ msgstr "Denne sesjon:"
 msgid "&Clock"
 msgstr "&Ur"
 
-#: top.cpp:57
-msgid "&Start"
-msgstr "&Start"
-
 #: top.cpp:58
 msgid "S&top"
 msgstr "S&topp"
@@ -132,3 +128,6 @@ msgstr ""
 #: top.cpp:161
 msgid "clock active"
 msgstr "ur aktivt"
+
+#~ msgid "&Start"
+#~ msgstr "&Start"

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-06-16 14:24+0200\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-10-09 11:06:57-0400\n"
@@ -21,10 +21,6 @@ msgstr "Armazenar Caminho"
 #: adddlg.cc:25
 msgid "Only Add Newer Files"
 msgstr "Apenas Recentes"
-
-#: extractdlg.cc:9
-msgid "Files"
-msgstr "Ficheiros"
 
 #: extractdlg.cc:13
 msgid "Extract Options"
@@ -113,3 +109,6 @@ msgstr "Directoria de arquivo não existe."
 #: kzip.cc:408
 msgid "Archive Directory"
 msgstr "Directoria de Arquivo"
+
+#~ msgid "Files"
+#~ msgstr "Ficheiros"

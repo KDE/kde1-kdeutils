@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-06-16 14:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,10 +25,6 @@ msgstr "Tallenna koko polku"
 #: adddlg.cc:25
 msgid "Only Add Newer Files"
 msgstr "Lis‰‰ vain uudet"
-
-#: extractdlg.cc:9
-msgid "Files"
-msgstr "Tiedostot"
 
 #: extractdlg.cc:13
 msgid "Extract Options"
@@ -117,3 +113,6 @@ msgstr "Paketin hakemistoa ei ole olemassa."
 #: kzip.cc:408
 msgid "Archive Directory"
 msgstr "Paketin hakemisto"
+
+#~ msgid "Files"
+#~ msgstr "Tiedostot"

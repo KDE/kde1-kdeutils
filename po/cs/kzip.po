@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kzip\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-06-16 14:24+0200\n"
 "PO-Revision-Date: 1998-05-14 18:34 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -24,10 +24,6 @@ msgstr "Ulo¾it s celou cestou"
 #: adddlg.cc:25
 msgid "Only Add Newer Files"
 msgstr "Pøidávat pouze novìj¹í soubory"
-
-#: extractdlg.cc:9
-msgid "Files"
-msgstr "Soubory"
 
 #: extractdlg.cc:13
 msgid "Extract Options"
@@ -116,3 +112,6 @@ msgstr "Adresáø archivu neexistuje."
 #: kzip.cc:408
 msgid "Archive Directory"
 msgstr "Adresáø archivu"
+
+#~ msgid "Files"
+#~ msgstr "Soubory"

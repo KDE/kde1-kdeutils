@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kzip \n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-06-16 14:24+0200\n"
 "PO-Revision-Date: 1998-01-03 19:17+0100\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -17,10 +17,6 @@ msgstr "Zachowaj pe³n± ¶cie¿kê"
 #: adddlg.cc:25
 msgid "Only Add Newer Files"
 msgstr "Dodaj tylko nowe pliki"
-
-#: extractdlg.cc:9
-msgid "Files"
-msgstr "Pliki"
 
 #: extractdlg.cc:13
 msgid "Extract Options"
@@ -110,3 +106,6 @@ msgstr "Katalog archiwum"
 #: kzip.cc:408
 msgid "Archive Directory"
 msgstr "Katalog archiwum"
+
+#~ msgid "Files"
+#~ msgstr "Pliki"

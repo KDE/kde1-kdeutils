@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kzip\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-06-16 14:24+0200\n"
 "PO-Revision-Date: 1998-02-02 20:55+MET\n"
 "Last-Translator: Thomas Tanghus <tanghus@earthling.net>\n"
 
@@ -16,10 +16,6 @@ msgstr "Gem absolut stil"
 #: adddlg.cc:25
 msgid "Only Add Newer Files"
 msgstr "Tilføj kun nyere filer"
-
-#: extractdlg.cc:9
-msgid "Files"
-msgstr "Filer"
 
 #: extractdlg.cc:13
 msgid "Extract Options"
@@ -110,3 +106,6 @@ msgstr "Arkiv folder"
 #: kzip.cc:408
 msgid "Archive Directory"
 msgstr "Arkiv folder"
+
+#~ msgid "Files"
+#~ msgstr "Filer"

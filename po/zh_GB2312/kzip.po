@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-06-16 14:24+0200\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -17,10 +17,6 @@ msgstr "保存完整路径"
 #: adddlg.cc:25
 msgid "Only Add Newer Files"
 msgstr "只添加新的文件"
-
-#: extractdlg.cc:9
-msgid "Files"
-msgstr "文件"
 
 #: extractdlg.cc:13
 msgid "Extract Options"
@@ -110,3 +106,6 @@ msgstr "压缩文件目录不存在."
 #: kzip.cc:408
 msgid "Archive Directory"
 msgstr "压缩文件目录"
+
+#~ msgid "Files"
+#~ msgstr "文件"

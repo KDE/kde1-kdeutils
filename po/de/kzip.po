@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kzip\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-06-16 14:24+0200\n"
 "PO-Revision-Date: 1998-05-11 14:21+0100\n"
 "Last-Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
 "Language-Team: German <de@li.org>\n"
@@ -21,10 +21,6 @@ msgstr "Ganzen Pfad abspeichern"
 #: adddlg.cc:25
 msgid "Only Add Newer Files"
 msgstr "Nur neuere Dateien speichern"
-
-#: extractdlg.cc:9
-msgid "Files"
-msgstr "Dateien"
 
 #: extractdlg.cc:13
 msgid "Extract Options"
@@ -113,3 +109,6 @@ msgstr "Archiv-Verzeichnis existiert nicht."
 #: kzip.cc:408
 msgid "Archive Directory"
 msgstr "Archive-Verzeichnis"
+
+#~ msgid "Files"
+#~ msgstr "Dateien"

@@ -4,7 +4,7 @@
 #     
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-06-16 14:24+0200\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-10-09 11:06:57-0400\n"
 "From: Robert Palmbos <robertp@pbnjelly>\n"
@@ -24,10 +24,6 @@ msgstr "Spremi cijelu stazu"
 #: adddlg.cc:25
 msgid "Only Add Newer Files"
 msgstr "Samo dodaj novije datoteke"
-
-#: extractdlg.cc:9
-msgid "Files"
-msgstr "Datoteke"
 
 #: extractdlg.cc:13
 msgid "Extract Options"
@@ -116,3 +112,6 @@ msgstr "Direktorij arhive ne postoji."
 #: kzip.cc:408
 msgid "Archive Directory"
 msgstr "Direktorij arhive:"
+
+#~ msgid "Files"
+#~ msgstr "Datoteke"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karm\n"
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"POT-Creation-Date: 1998-06-16 14:24+0200\n"
 "PO-Revision-Date: 1998-03-08 10:42 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -81,10 +81,6 @@ msgstr "Toto sedenie:"
 msgid "&Clock"
 msgstr "&Hodinky"
 
-#: top.cpp:57
-msgid "&Start"
-msgstr "©t&art"
-
 #: top.cpp:58
 msgid "S&top"
 msgstr "S&top"
@@ -132,6 +128,9 @@ msgstr ""
 #: top.cpp:161
 msgid "clock active"
 msgstr "hodinky aktívne"
+
+#~ msgid "&Start"
+#~ msgstr "©t&art"
 
 #~ msgid "&Contents"
 #~ msgstr "&Obsah"

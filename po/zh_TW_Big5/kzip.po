@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kzip\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-06-16 14:24+0200\n"
 "PO-Revision-Date: 1998-04-21 05:01+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -24,10 +24,6 @@ msgstr "儲存完整路徑"
 #: adddlg.cc:25
 msgid "Only Add Newer Files"
 msgstr "只加入新的檔案"
-
-#: extractdlg.cc:9
-msgid "Files"
-msgstr "檔案"
 
 #: extractdlg.cc:13
 msgid "Extract Options"
@@ -117,3 +113,6 @@ msgstr "壓縮檔目錄"
 #: kzip.cc:408
 msgid "Archive Directory"
 msgstr "壓縮檔目錄"
+
+#~ msgid "Files"
+#~ msgstr "檔案"

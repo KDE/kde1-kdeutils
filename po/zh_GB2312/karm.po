@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"POT-Creation-Date: 1998-06-16 14:24+0200\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -74,10 +74,6 @@ msgstr "这个会话:"
 msgid "&Clock"
 msgstr "计时器[&C]"
 
-#: top.cpp:57
-msgid "&Start"
-msgstr "开始[&S]"
-
 #: top.cpp:58
 msgid "S&top"
 msgstr "停止[&S]"
@@ -125,6 +121,9 @@ msgstr ""
 #: top.cpp:161
 msgid "clock active"
 msgstr "计时器生效"
+
+#~ msgid "&Start"
+#~ msgstr "开始[&S]"
 
 #~ msgid "&Contents"
 #~ msgstr "内容[&C]"
