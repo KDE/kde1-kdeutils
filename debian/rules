@@ -2,27 +2,28 @@
 # Made with the aid of debmake, by Christoph Lameter,
 # games on the sample debian/rules file for GNU hello by Ian Jackson.
 
-BUILDDIR = ../build_kdeutils
+BUILDDIR = ./build
 
-build: $(BUILDDIR)/build
+build: $(BUILDDIR)/build-stamp
 
-$(BUILDDIR)/build:
+$(BUILDDIR)/build-stamp:
 	dh_testdir
 	if test ! -f configure; then \
 	  $(MAKE) -f admin/Makefile.common ;\
 	fi 
-	pwd=`pwd` ;\
 	test -d $(BUILDDIR) || mkdir $(BUILDDIR) ;\
 	cd $(BUILDDIR) ;\
 	CFLAGS="-g -O2 -Wall" \
 	CXXFLAGS="$$CFLAGS" \
-	$$pwd/configure --with-install-root=`pwd`/debian/tmp \
-	  --enable-debug --disable-rpath && make
+	../configure --with-install-root=`pwd`/../debian/tmp \
+	  --enable-debug --disable-rpath 
+	make -C $(BUILDDIR)
  
-	touch $(BUILDDIR)/build
+	touch $(BUILDDIR)/build-stamp
 
 clean: debian-clean
 	-rm -rf $(BUILDDIR)
+	dh_clean -k
 
 debian-clean:
 	dh_testdir
@@ -39,12 +40,7 @@ binary-arch: build
 	dh_testdir
 	dh_testroot
 	dh_clean -k
-	rm -rf $(BUILDDIR)/debian
-	cp -ra debian $(BUILDDIR)/debian
-	(cd $(BUILDDIR) && $(MAKE) -f debian/rules binary-arch2)
-
-binary-arch2:
-	make install 
+	make -C $(BUILDDIR) install 
 	perl -w debian/kderules
 	dh_movefiles
 	dh_undocumented `cat debian/man-pages`
