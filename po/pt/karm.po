@@ -120,9 +120,3 @@ msgstr ""
 #: top.cpp:161
 msgid "clock active"
 msgstr "relógio activo"
-
-#~ msgid "&Start"
-#~ msgstr "&Começar"
-
-#~ msgid "&Contents"
-#~ msgstr "&Conteúdo"

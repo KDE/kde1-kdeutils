@@ -109,6 +109,3 @@ msgstr "Papel"
 #: main.cpp:71
 msgid "Operations"
 msgstr "Operagues"
-
-#~ msgid "Fonts"
-#~ msgstr "Fontes"

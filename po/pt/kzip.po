@@ -109,6 +109,3 @@ msgstr "Directoria de arquivo não existe."
 #: kzip.cc:408
 msgid "Archive Directory"
 msgstr "Directoria de Arquivo"
-
-#~ msgid "Files"
-#~ msgstr "Ficheiros"
