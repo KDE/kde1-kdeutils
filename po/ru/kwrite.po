@@ -94,7 +94,7 @@ msgstr "Вы не имеете права читать этот файл"
 
 #: kwview.cpp:1164 kwview.cpp:1194
 msgid "An Error occured while trying to open this Document"
-msgstr "Произошла ошибка при попытке открытия отого документа"
+msgstr "Произошла ошибка при попытке открытия этого документа"
 
 #: kwview.cpp:1178
 msgid "You do not have write permission to this file"
@@ -121,7 +121,7 @@ msgid ""
 msgstr ""
 "KWrite ожидает\n"
 "завершения интернет задачи\n"
-"Пожайлуста подождите\n"
+"Пожалуйста подождите\n"
 "Либо остановите."
 
 #: kwview.cpp:1261 kwview.cpp:1319
@@ -182,7 +182,7 @@ msgstr "Искать"
 
 #: kwview.cpp:1701 kwview.cpp:1890
 msgid "Beginning of document reached"
-msgstr "Достугнуто начало документа"
+msgstr "Достигнуто начало документа"
 
 #: kwview.cpp:1702 kwview.cpp:1891
 msgid "Continue from the end"
@@ -258,7 +258,7 @@ msgstr "Параметры редактирования"
 
 #: kwdialog.cpp:295
 msgid "Auto &Indent"
-msgstr "Автоотступ"
+msgstr "Авто отступ"
 
 #: kwdialog.cpp:297
 msgid "&Backspace Indent"
@@ -282,7 +282,7 @@ msgstr "Курсор при разрыве"
 
 #: kwdialog.cpp:307
 msgid "&Auto Brackets"
-msgstr "Автоскобки"
+msgstr "Авто скобки"
 
 #: kwdialog.cpp:321
 msgid "Select Options"

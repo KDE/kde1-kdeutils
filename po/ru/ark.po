@@ -87,11 +87,11 @@ msgstr "Удалить файл"
 
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
-msgstr "Установить подкаталог архивации.."
+msgstr "Установить каталог архивации.."
 
 #: arkwidget.cc:85
 msgid "Set &Tar Executable..."
-msgstr "Установить исполняемы файл tar..."
+msgstr "Установить исполняемый файл tar..."
 
 #: arkwidget.cc:86
 msgid "&File Adding Options..."
@@ -115,7 +115,7 @@ msgstr "Удалить файл"
 
 #: arkwidget.cc:114
 msgid "Goto Archive Dir..."
-msgstr "Установить подкаталог архивации.."
+msgstr "Установить каталог архивации.."
 
 #: arkwidget.cc:117
 msgid "Extract To.."
@@ -139,7 +139,7 @@ msgstr "Вначале откройте или создайте архив"
 
 #: arkwidget.cc:300
 msgid "Can't add directories with this archive type"
-msgstr "Не могу добавить подкаталоги в архив этого типа"
+msgstr "Не могу добавить каталоги в архив этого типа"
 
 #: arkwidget.cc:302
 msgid "Error saving to archive"
@@ -147,7 +147,7 @@ msgstr "Ошибка записи в архив"
 
 #: arkwidget.cc:312
 msgid "Archive Dir"
-msgstr "Подкаталог архивации"
+msgstr "Каталог архивации"
 
 #: arkwidget.cc:325
 msgid "What runs GNU tar:"
@@ -163,8 +163,8 @@ msgstr "Размер"
 
 #: arkwidget.cc:402
 msgid "Archive directory does not exist."
-msgstr "Подкаталог архивации не существует."
+msgstr "Каталог архивации не существует."
 
 #: arkwidget.cc:418
 msgid "Archive Directory"
-msgstr "Подкаталог архивации"
+msgstr "Каталог архивации"

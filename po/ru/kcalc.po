@@ -58,7 +58,7 @@ msgid ""
 "recompile KCalc with 'long double' precision enabled. See the README for "
 "details."
 msgstr ""
-"Вследствии ошибки в GLIBC я вынужден уменьшить точность KCalc'а с 'long "
+"В следствии ошибки в GLIBC я вынужден уменьшить точность KCalc'а с 'long "
 "double' до 'double'. Владельцы систем с работающим GLIBC должны "
 "перекомпилировать KCalc с включенной поддержкой 'long double'. Смотрите "
 "README."
@@ -90,15 +90,15 @@ msgstr "Статистическая память очищена"
 
 #: kcalc_core.cpp:1632
 msgid "Stack processing error - right_op"
-msgstr "Ошибка обработки стэка - правый операнд"
+msgstr "Ошибка обработки стека - правый операнд"
 
 #: kcalc_core.cpp:1640
 msgid "Stack processing error - function"
-msgstr "Ошибка обработки стэка - функция"
+msgstr "Ошибка обработки стека - функция"
 
 #: kcalc_core.cpp:1649
 msgid "Stack processing error - left_op"
-msgstr "Ошибка обработки стэка - левый операнд"
+msgstr "Ошибка обработки стека - левый операнд"
 
 #: kcalc_core.cpp:1953 kcalc_core.cpp:1961
 msgid "Emergency"
@@ -106,7 +106,7 @@ msgstr "Внимание"
 
 #: kcalc_core.cpp:1953 kcalc_core.cpp:1961
 msgid "Stack Error!"
-msgstr "Ошибка стэка!"
+msgstr "Ошибка стека!"
 
 #: configdlg.cpp:61
 msgid "Foreground Color:"
@@ -122,7 +122,7 @@ msgstr "Точность:"
 
 #: configdlg.cpp:116
 msgid "Set Fixed Precision at:"
-msgstr "Установить фискированную точность:"
+msgstr "Установить фиксированную точность:"
 
 #: configdlg.cpp:145
 msgid "Beep on Error"

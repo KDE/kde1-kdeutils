@@ -112,7 +112,7 @@ msgid ""
 "This is a privileged command\n"
 "and you do not have permission to execute it."
 msgstr ""
-"Это привелегированная команда\n"
+"Это привилегированная команда\n"
 "и вы не имеете прав ее запускать."
 
 #: ConfAutoUpdate.cpp:10
@@ -152,5 +152,3 @@ msgstr ""
 msgid "Paths of spooling commands:"
 msgstr "Путь к командам управления очередью:"
 
-#~ msgid "Ok"
-#~ msgstr "Ок"

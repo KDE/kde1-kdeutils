@@ -65,7 +65,7 @@ msgstr "3-ая рамка"
 
 #: configdlg.cpp:128 knotes.cpp:333
 msgid "Auto Indent"
-msgstr "Автовыравнивание"
+msgstr "Авто выравнивание"
 
 #
 #: knotes.cpp:336
@@ -86,7 +86,7 @@ msgstr ""
 
 #: knotes.cpp:368
 msgid "Insert Date"
-msgstr "Втавить дату"
+msgstr "Вставить дату"
 
 #: knotes.cpp:371
 msgid "Operations"
@@ -194,7 +194,7 @@ msgid ""
 msgstr ""
 "KNotes уже ждет завершения\n"
 "internet задания\n"
-"Пожайлуста подождите, пока оно будеи завершено\n"
+"Пожалуйста подождите, пока оно будет завершено\n"
 "или остановите его."
 
 #: knotes.cpp:1549
@@ -365,7 +365,7 @@ msgid ""
 "Please choose a different name"
 msgstr ""
 "Имя \"xyalarms\" зарезервировано для внутреннего использования.\n"
-"Пожайлуста выберите другое имя."
+"Пожалуйста выберите другое имя."
 
 #: renamedlg.cpp:92
 msgid ""
@@ -373,7 +373,7 @@ msgid ""
 "Please choose a different name"
 msgstr ""
 "Заметка с таким именем уже существует\n"
-"Пожайлуста выберите другое имя."
+"Пожалуйста выберите другое имя."
 
 #: docking.cpp:48
 #, fuzzy, c-format
