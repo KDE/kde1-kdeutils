@@ -71,7 +71,7 @@ msgstr "Mudar Valores Padrão ..."
 
 #: knotes.cpp:340
 msgid "Dock in panel"
-msgstr ""
+msgstr "Embutir no Painel"
 
 #: knotes.cpp:368
 msgid "Insert Date"
