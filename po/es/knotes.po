@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
-"POT-Creation-Date: 1999-01-18 01:54+0100\n"
+"POT-Creation-Date: 1999-03-05 01:58+0100\n"
 "PO-Revision-Date: 1999-02-06 18:32+0100\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "Language-Team: Spanish <kde-es@kyb.uni-stuttgart.de>\n"
@@ -9,88 +9,88 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: knotes.cpp:263
+#: knotes.cpp:265
 msgid "Hello"
 msgstr "Hola"
 
-#: knotes.cpp:301
+#: knotes.cpp:303
 msgid "Text Color..."
 msgstr "Color del texto..."
 
-#: knotes.cpp:302
+#: knotes.cpp:304
 msgid "Background Color..."
 msgstr "Color del fondo..."
 
-#: knotes.cpp:308
+#: knotes.cpp:310
 msgid "New Note"
 msgstr "Nueva Nota"
 
-#: knotes.cpp:310
+#: knotes.cpp:312
 msgid "Delete Note"
 msgstr "Borrar Nota"
 
-#: knotes.cpp:312
+#: knotes.cpp:314
 msgid "Rename Note..."
 msgstr "Renombrar Nota..."
 
-#: knotes.cpp:314
+#: knotes.cpp:316
 msgid "Alarm ..."
 msgstr "Alarma ..."
 
-#: knotes.cpp:317
+#: knotes.cpp:319
 msgid "Calendar"
 msgstr "Calendario"
 
-#: knotes.cpp:319
+#: knotes.cpp:321
 msgid "Mail Note ..."
 msgstr "Nota por correo..."
 
-#: knotes.cpp:321
+#: knotes.cpp:323
 msgid "Print Note"
 msgstr "Imprimir nota"
 
-#: knotes.cpp:324
+#: knotes.cpp:326
 msgid "Save Notes"
 msgstr "Guardar notas"
 
-#: knotes.cpp:330 knotes.cpp:401 knotes.cpp:1291
+#: knotes.cpp:332
 msgid "3D Frame"
 msgstr "Marco 3D"
 
-#: configdlg.cpp:128 knotes.cpp:331
+#: configdlg.cpp:128 knotes.cpp:333
 msgid "Auto Indent"
 msgstr "Indentado automático"
 
-#: knotes.cpp:333
+#: knotes.cpp:336
 msgid "Font..."
 msgstr "Fuente..."
 
-#: knotes.cpp:334
+#: knotes.cpp:337
 msgid "Colors"
 msgstr "Colores"
 
-#: knotes.cpp:336
+#: knotes.cpp:339
 msgid "Change Defaults ..."
 msgstr "Modificar Opciones..."
 
-#: knotes.cpp:364
+#: knotes.cpp:340
+msgid "Dock in panel"
+msgstr ""
+
+#: knotes.cpp:368
 msgid "Insert Date"
 msgstr "Insertar fecha"
 
-#: knotes.cpp:367
+#: knotes.cpp:371
 msgid "Operations"
 msgstr "Operaciones"
 
-#: knotes.cpp:405 knotes.cpp:1281
-msgid "No Frame"
-msgstr "Sin marco"
-
-#: knotes.cpp:438 knotes.cpp:442 knotes.cpp:636 knotes.cpp:864 knotes.cpp:868
+#: knotes.cpp:445 knotes.cpp:449 knotes.cpp:618 knotes.cpp:845 knotes.cpp:849
 #: timer.cpp:87 timer.cpp:110
 msgid "Note: "
 msgstr "Nota: "
 
-#: knotes.cpp:495
+#: knotes.cpp:477
 msgid ""
 "Could not save a KNote.\n"
 "Quit anyways?"
@@ -98,11 +98,11 @@ msgstr ""
 "No se ha podido guardar la nota.\n"
 "¿Salir de todas formas?"
 
-#: knotes.cpp:513
+#: knotes.cpp:495
 msgid "Could not save KNote Alarms\n"
 msgstr "No se han podido guardar las alarmas de KNote\n"
 
-#: knotes.cpp:574 knotes.cpp:679
+#: knotes.cpp:556 knotes.cpp:661
 #, c-format
 msgid ""
 "Could not pipe the contents of this KNote into:\n"
@@ -111,7 +111,7 @@ msgstr ""
 "No se pudo enviar (pipe) el contenido de esta Knota a:\n"
 " %s"
 
-#: knotes.cpp:735
+#: knotes.cpp:717
 msgid ""
 "You have exeeded the arbitrary and unjustly set limit of 50 knotes.\n"
 " Please complain to the author."
@@ -119,11 +119,11 @@ msgstr ""
 "Ha excedido el arbitrario e injustificable límite de 50 kntes.\n"
 " Quéjese con el autor."
 
-#: knotes.cpp:903
+#: knotes.cpp:893
 msgid "Question"
 msgstr "Pregunta"
 
-#: knotes.cpp:904
+#: knotes.cpp:894
 msgid ""
 "Are you sure you want to delete this\n"
 "note permanently?"
@@ -131,7 +131,7 @@ msgstr ""
 "¿Seguro que quieres borrar esta nota\n"
 "de forma permanente?"
 
-#: knotes.cpp:1080
+#: knotes.cpp:1072
 #, c-format
 msgid ""
 "Could not load:\n"
@@ -140,11 +140,11 @@ msgstr ""
 "No se puede caargar:\n"
 " %s"
 
-#: knotes.cpp:1332
+#: knotes.cpp:1331
 msgid "KNotes Configuraton"
 msgstr "Configuración de KNotes"
 
-#: knotes.cpp:1349
+#: knotes.cpp:1348
 #, c-format
 msgid ""
 "KNotes %s\n"
@@ -169,15 +169,15 @@ msgstr ""
 "\n"
 "\n"
 
-#: configdlg.cpp:46 knotes.cpp:1376
+#: configdlg.cpp:46 knotes.cpp:1375
 msgid "Defaults"
 msgstr "Opciones por defecto"
 
-#: knotes.cpp:1377
+#: knotes.cpp:1376
 msgid "More ..."
 msgstr "Más ..."
 
-#: knotes.cpp:1536
+#: knotes.cpp:1535
 msgid ""
 "KNotes is already waiting\n"
 "for an internet job to finish\n"
@@ -189,11 +189,11 @@ msgstr ""
 "Por favor, espera hasta que éste haya finalizado\n"
 "Alternativamente, puedes parar el proceso intermedio."
 
-#: knotes.cpp:1550
+#: knotes.cpp:1549
 msgid "Could not start or find KFM"
 msgstr "No se ha podido ejecutar o encontrar el KFM"
 
-#: knotes.cpp:1572
+#: knotes.cpp:1571
 msgid ""
 "Could not save the KNotes.\n"
 "Close anyways?"
@@ -201,7 +201,7 @@ msgstr ""
 "No se han podido guardar las KNotes.\n"
 "¿Salir de todas formas?"
 
-#: knotes.cpp:1684
+#: knotes.cpp:1683
 #, c-format
 msgid ""
 "Found an alarm to which the underlying\n"
@@ -218,7 +218,7 @@ msgstr ""
 "\n"
 "El problema será corregido."
 
-#: knotes.cpp:1692
+#: knotes.cpp:1691
 msgid "Inconsistency"
 msgstr "Inconsistencia"
 
@@ -378,3 +378,6 @@ msgstr "Salir de KNotes"
 #: docking.cpp:95
 msgid "New Knote"
 msgstr "Nueva nota"
+
+#~ msgid "No Frame"
+#~ msgstr "Sin marco"

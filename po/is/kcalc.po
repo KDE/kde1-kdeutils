@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-02-04 01:52+0100\n"
+"POT-Creation-Date: 1999-03-05 01:58+0100\n"
 "PO-Revision-Date: 1999-02-15 00:22-0500\n"
 "Last-Translator: Thorarinn R. Einarsson <thori@mindspring.com>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
@@ -56,9 +56,9 @@ msgid ""
 "details."
 msgstr ""
 "Sökum galla í 'glibc', hefur þurft að draga nákvæmni reiknivélarinnar "
-"úr'long double' í 'double'.  Þeir sem eru með gallalaust 'libc' ættu "
-"að endurvistþýða KCalc með 'long double' nákvæmni.  Nánari upplýsingar "
-"eru í README skránni."
+"úr'long double' í 'double'.  Þeir sem eru með gallalaust 'libc' ættu að "
+"endurvistþýða KCalc með 'long double' nákvæmni.  Nánari upplýsingar eru í "
+"README skránni."
 
 #: configdlg.cpp:56 kcalc.cpp:1592
 msgid "Defaults"
@@ -77,31 +77,31 @@ msgstr ""
 "KCalc %s\n"
 "Copyright 1997 Bernd Johannes Wuebben <wuebben@kde.org>\n"
 
-#: kcalc_core.cpp:1111
+#: kcalc_core.cpp:1115
 msgid "Last stat item erased"
 msgstr "Síðasta stat atriði eytt"
 
-#: kcalc_core.cpp:1151
+#: kcalc_core.cpp:1155
 msgid "Stat Mem cleared"
 msgstr "Stat minni tæmt"
 
-#: kcalc_core.cpp:1628
+#: kcalc_core.cpp:1632
 msgid "Stack processing error - right_op"
 msgstr "Stakkvilla: right_op"
 
-#: kcalc_core.cpp:1636
+#: kcalc_core.cpp:1640
 msgid "Stack processing error - function"
 msgstr "Stakkvilla: function"
 
-#: kcalc_core.cpp:1645
+#: kcalc_core.cpp:1649
 msgid "Stack processing error - left_op"
 msgstr "Stakkvilla: left_op"
 
-#: kcalc_core.cpp:1949 kcalc_core.cpp:1957
+#: kcalc_core.cpp:1953 kcalc_core.cpp:1961
 msgid "Emergency"
 msgstr "Neyðartilfelli"
 
-#: kcalc_core.cpp:1949 kcalc_core.cpp:1957
+#: kcalc_core.cpp:1953 kcalc_core.cpp:1961
 msgid "Stack Error!"
 msgstr "Stakkvilla!"
 

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-02-04 01:52+0100\n"
+"POT-Creation-Date: 1999-03-05 01:58+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1998-03-06 23:13:09-0500\n"
 "From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
@@ -67,31 +67,31 @@ msgid ""
 "Copyright 1997 Bernd Johannes Wuebben <wuebben@kde.org>\n"
 msgstr ""
 
-#: kcalc_core.cpp:1111
+#: kcalc_core.cpp:1115
 msgid "Last stat item erased"
 msgstr ""
 
-#: kcalc_core.cpp:1151
+#: kcalc_core.cpp:1155
 msgid "Stat Mem cleared"
 msgstr "¾²Ì¬´æ´¢Çå³ý"
 
-#: kcalc_core.cpp:1628
+#: kcalc_core.cpp:1632
 msgid "Stack processing error - right_op"
 msgstr ""
 
-#: kcalc_core.cpp:1636
+#: kcalc_core.cpp:1640
 msgid "Stack processing error - function"
 msgstr ""
 
-#: kcalc_core.cpp:1645
+#: kcalc_core.cpp:1649
 msgid "Stack processing error - left_op"
 msgstr ""
 
-#: kcalc_core.cpp:1949 kcalc_core.cpp:1957
+#: kcalc_core.cpp:1953 kcalc_core.cpp:1961
 msgid "Emergency"
 msgstr ""
 
-#: kcalc_core.cpp:1949 kcalc_core.cpp:1957
+#: kcalc_core.cpp:1953 kcalc_core.cpp:1961
 msgid "Stack Error!"
 msgstr ""
 

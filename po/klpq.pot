@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-03-05 01:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -117,11 +117,11 @@ msgstr ""
 msgid "Update frequency in seconds:"
 msgstr ""
 
-#: klpqspooler.cpp:197 klpqspooler.cpp:267
+#: klpqspooler.cpp:199 klpqspooler.cpp:269
 msgid "Can't find your lpc program !"
 msgstr ""
 
-#: klpqspooler.cpp:198 klpqspooler.cpp:268
+#: klpqspooler.cpp:200 klpqspooler.cpp:270
 msgid ""
 "Sorry, I can't find your lpc program.\n"
 "Please check the configuration under Config->Spooler."

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-02-04 01:52+0100\n"
+"POT-Creation-Date: 1999-03-05 01:58+0100\n"
 "PO-Revision-Date: 1999-01-13 13:55+MET\n"
 "Last-Translator: Oliver Hensel <oliver.hensel@gmx.de>\n"
 "Content-Type: text/plain; charset=\n"
@@ -79,31 +79,31 @@ msgstr ""
 "KCalc %s\n"
 "Copyright 1997 Bernd Johannes Wuebben <wuebben@kde.org>\n"
 
-#: kcalc_core.cpp:1111
+#: kcalc_core.cpp:1115
 msgid "Last stat item erased"
 msgstr "Letzte gelöschte Statistik-Position"
 
-#: kcalc_core.cpp:1151
+#: kcalc_core.cpp:1155
 msgid "Stat Mem cleared"
 msgstr "Statistik-Speicher gelöscht"
 
-#: kcalc_core.cpp:1628
+#: kcalc_core.cpp:1632
 msgid "Stack processing error - right_op"
 msgstr "Stapelverarbeitungsfehler - right_op"
 
-#: kcalc_core.cpp:1636
+#: kcalc_core.cpp:1640
 msgid "Stack processing error - function"
 msgstr "Stapelverarbeitungsfehler - function"
 
-#: kcalc_core.cpp:1645
+#: kcalc_core.cpp:1649
 msgid "Stack processing error - left_op"
 msgstr "Stapelverarbeitungsfehler - left_op"
 
-#: kcalc_core.cpp:1949 kcalc_core.cpp:1957
+#: kcalc_core.cpp:1953 kcalc_core.cpp:1961
 msgid "Emergency"
 msgstr "Notfall"
 
-#: kcalc_core.cpp:1949 kcalc_core.cpp:1957
+#: kcalc_core.cpp:1953 kcalc_core.cpp:1961
 msgid "Stack Error!"
 msgstr "Stapelverarbeitungsfehler!"
 

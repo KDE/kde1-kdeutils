@@ -3,7 +3,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-03-05 01:58+0100\n"
 "PO-Revision-Date: 1998-10-31 15:08+0100\n"
 "Last-Translator: Logi Ragnarsson <logir@img.au.dk>\n"
 "Language-Team: is\n"
@@ -363,31 +363,31 @@ msgstr ""
 msgid "Spellchecker Options"
 msgstr "&Stafsetning..."
 
-#: keditcl1.cpp:149
+#: keditcl1.cpp:150
 msgid "The specified File does not exist"
 msgstr "Tiltekin skrá er ekki til"
 
-#: keditcl1.cpp:162 keditcl1.cpp:438 keditcl1.cpp:521 keditcl1.cpp:1708
+#: keditcl1.cpp:163 keditcl1.cpp:439 keditcl1.cpp:522 keditcl1.cpp:1709
 msgid "Sorry:"
 msgstr "Afsakið:"
 
-#: keditcl1.cpp:163
+#: keditcl1.cpp:164
 msgid "You have specificated a directory"
 msgstr "Þú tiltókst möppu"
 
-#: keditcl1.cpp:178 keditcl1.cpp:199
+#: keditcl1.cpp:179 keditcl1.cpp:200
 msgid "You do not have read permission to this file."
 msgstr "Þú hefur ekki lesréttindi á þessa skrá."
 
-#: keditcl1.cpp:212
+#: keditcl1.cpp:213
 msgid "An Error occured while trying to open this Document"
 msgstr "Villa kom upp þegar reynt var að opna skjalið"
 
-#: keditcl1.cpp:417 keditcl1.cpp:501 keditcl1.cpp:1650
+#: keditcl1.cpp:418 keditcl1.cpp:502 keditcl1.cpp:1651
 msgid "Warning:"
 msgstr "Aðvörun:"
 
-#: keditcl1.cpp:418 keditcl1.cpp:502
+#: keditcl1.cpp:419 keditcl1.cpp:503
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -395,7 +395,7 @@ msgstr ""
 "Virka skjalið hefur breyst.\n"
 "Viltu vista það?"
 
-#: keditcl1.cpp:439
+#: keditcl1.cpp:440
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -403,7 +403,7 @@ msgstr ""
 "Ekki tókst að vista skjalið.\n"
 "Viltu samt opna nýja skrá?"
 
-#: keditcl1.cpp:522
+#: keditcl1.cpp:523
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
@@ -411,11 +411,11 @@ msgstr ""
 "Ekki tóksta að vista skjalið.\n"
 "Viltu samt búa til nýtt skjal?"
 
-#: keditcl1.cpp:1569
+#: keditcl1.cpp:1570
 msgid "Could not save the document\n"
 msgstr "Ekki tókst að vista skjalið\n"
 
-#: keditcl1.cpp:1651
+#: keditcl1.cpp:1652
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
@@ -423,7 +423,7 @@ msgstr ""
 "Nú þegar er til skrá með þessu nafni\n"
 "Viltu skrifa yfir hana?"
 
-#: keditcl1.cpp:1709
+#: keditcl1.cpp:1710
 msgid "You do not have write permission to this file.\n"
 msgstr "Þú hefur ekki skrifréttindi í þessa skrá.\n"
 

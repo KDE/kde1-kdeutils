@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kedit\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-03-05 01:58+0100\n"
 "PO-Revision-Date: 1998-03-08 10:42 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -366,31 +366,31 @@ msgstr ""
 msgid "Spellchecker Options"
 msgstr "Nastavenie kontroly pravopisu"
 
-#: keditcl1.cpp:149
+#: keditcl1.cpp:150
 msgid "The specified File does not exist"
 msgstr "©pecifikovaný súbor neexistuje"
 
-#: keditcl1.cpp:162 keditcl1.cpp:438 keditcl1.cpp:521 keditcl1.cpp:1708
+#: keditcl1.cpp:163 keditcl1.cpp:439 keditcl1.cpp:522 keditcl1.cpp:1709
 msgid "Sorry:"
 msgstr "Je mi µúto:"
 
-#: keditcl1.cpp:163
+#: keditcl1.cpp:164
 msgid "You have specificated a directory"
 msgstr "©pecifikovali ste prieèinok"
 
-#: keditcl1.cpp:178 keditcl1.cpp:199
+#: keditcl1.cpp:179 keditcl1.cpp:200
 msgid "You do not have read permission to this file."
 msgstr "Nemáte právo na èítanie tohto súboru."
 
-#: keditcl1.cpp:212
+#: keditcl1.cpp:213
 msgid "An Error occured while trying to open this Document"
 msgstr "Nastala chyba pri pokuse o otvorenie tohto dokumentu"
 
-#: keditcl1.cpp:417 keditcl1.cpp:501 keditcl1.cpp:1650
+#: keditcl1.cpp:418 keditcl1.cpp:502 keditcl1.cpp:1651
 msgid "Warning:"
 msgstr "Varovanie:"
 
-#: keditcl1.cpp:418 keditcl1.cpp:502
+#: keditcl1.cpp:419 keditcl1.cpp:503
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -398,7 +398,7 @@ msgstr ""
 "Tento dokument bol zmenený.\n"
 "Prajete si ho ulo¾i»?"
 
-#: keditcl1.cpp:439
+#: keditcl1.cpp:440
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -406,7 +406,7 @@ msgstr ""
 "Nebolo mo¾né ulo¾i» súbor.\n"
 "Otvori» nový dokument aj napriek tomu?"
 
-#: keditcl1.cpp:522
+#: keditcl1.cpp:523
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
@@ -414,11 +414,11 @@ msgstr ""
 "Nebolo mo¾né ulo¾i» súbor.\n"
 "Vytvori» nový dokument aj napriek tomu?"
 
-#: keditcl1.cpp:1569
+#: keditcl1.cpp:1570
 msgid "Could not save the document\n"
 msgstr "Nebolo mo¾né ulo¾i» súbor.\n"
 
-#: keditcl1.cpp:1651
+#: keditcl1.cpp:1652
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
@@ -426,7 +426,7 @@ msgstr ""
 "Dokument s týmto menom u¾ existuje\n"
 "Prajete si ho prepísa» ?"
 
-#: keditcl1.cpp:1709
+#: keditcl1.cpp:1710
 msgid "You do not have write permission to this file.\n"
 msgstr "Nemáte právo zapisova» do tohto súboru.\n"
 

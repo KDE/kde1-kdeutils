@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/klpq\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-03-05 01:58+0100\n"
 "PO-Revision-Date: 1999-02-17 14:42+0100\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
@@ -124,11 +124,11 @@ msgstr "Indstil auto-opdater"
 msgid "Update frequency in seconds:"
 msgstr "Opdateringsfrekvens i sekunder:"
 
-#: klpqspooler.cpp:197 klpqspooler.cpp:267
+#: klpqspooler.cpp:199 klpqspooler.cpp:269
 msgid "Can't find your lpc program !"
 msgstr "Kan ikke finde dit lpc-program !"
 
-#: klpqspooler.cpp:198 klpqspooler.cpp:268
+#: klpqspooler.cpp:200 klpqspooler.cpp:270
 msgid ""
 "Sorry, I can't find your lpc program.\n"
 "Please check the configuration under Config->Spooler."

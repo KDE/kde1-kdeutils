@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-03-05 01:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -379,31 +379,31 @@ msgstr ""
 msgid "Spellchecker Options"
 msgstr "Instellingen opslaan"
 
-#: keditcl1.cpp:149
+#: keditcl1.cpp:150
 msgid "The specified File does not exist"
 msgstr "Het gespecificeerde bestand bestaat niet"
 
-#: keditcl1.cpp:162 keditcl1.cpp:438 keditcl1.cpp:521 keditcl1.cpp:1708
+#: keditcl1.cpp:163 keditcl1.cpp:439 keditcl1.cpp:522 keditcl1.cpp:1709
 msgid "Sorry:"
 msgstr "Sorry:"
 
-#: keditcl1.cpp:163
+#: keditcl1.cpp:164
 msgid "You have specificated a directory"
 msgstr "De aangegeven naam is een map"
 
-#: keditcl1.cpp:178 keditcl1.cpp:199
+#: keditcl1.cpp:179 keditcl1.cpp:200
 msgid "You do not have read permission to this file."
 msgstr "Niet genoeg rechten om het bestand te lezen."
 
-#: keditcl1.cpp:212
+#: keditcl1.cpp:213
 msgid "An Error occured while trying to open this Document"
 msgstr "Tijdens het openen van dit document is een fout opgetreden"
 
-#: keditcl1.cpp:417 keditcl1.cpp:501 keditcl1.cpp:1650
+#: keditcl1.cpp:418 keditcl1.cpp:502 keditcl1.cpp:1651
 msgid "Warning:"
 msgstr "Waarschuwing:"
 
-#: keditcl1.cpp:418 keditcl1.cpp:502
+#: keditcl1.cpp:419 keditcl1.cpp:503
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -411,7 +411,7 @@ msgstr ""
 "Het huidige document is gewijzigd.\n"
 "Moet het opgeslagen worden ?"
 
-#: keditcl1.cpp:439
+#: keditcl1.cpp:440
 #, fuzzy
 msgid ""
 "Could not save the document.\n"
@@ -420,7 +420,7 @@ msgstr ""
 "Kon het bestand niet opslaan.\n"
 "Toch kedit afsluiten ?"
 
-#: keditcl1.cpp:522
+#: keditcl1.cpp:523
 #, fuzzy
 msgid ""
 "Could not save the document.\n"
@@ -429,11 +429,11 @@ msgstr ""
 "Kon het bestand niet opslaan.\n"
 "Toch kedit afsluiten ?"
 
-#: keditcl1.cpp:1569
+#: keditcl1.cpp:1570
 msgid "Could not save the document\n"
 msgstr "Kon het document niet opslaan\n"
 
-#: keditcl1.cpp:1651
+#: keditcl1.cpp:1652
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
@@ -441,7 +441,7 @@ msgstr ""
 "Een document met die naam bestaat reeds\n"
 "Moet het overschreven worden ?"
 
-#: keditcl1.cpp:1709
+#: keditcl1.cpp:1710
 #, fuzzy
 msgid "You do not have write permission to this file.\n"
 msgstr "Niet voldoende rechten om naar dit bestand te schrijven\n"

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdebase\n"
-"POT-Creation-Date: 1999-01-18 01:54+0100\n"
+"POT-Creation-Date: 1999-03-05 01:58+0100\n"
 "PO-Revision-Date: 1998-10-15 15:00-0500\n"
 "Last-Translator: Radoslav Dejanovic <rdejanov@public.srce.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -15,88 +15,88 @@ msgstr ""
 "Files: alarm.cpp bwdatetime.cpp configdlg.cpp fontdlg.cpp knotes.cpp "
 "mail.cpp renamedlg.cpp savealarm.cpp spin.cpp timer.cpp\n"
 
-#: knotes.cpp:263
+#: knotes.cpp:265
 msgid "Hello"
 msgstr "Zdravo"
 
-#: knotes.cpp:301
+#: knotes.cpp:303
 msgid "Text Color..."
 msgstr "Boja teksta..."
 
-#: knotes.cpp:302
+#: knotes.cpp:304
 msgid "Background Color..."
 msgstr "Boja pozadine..."
 
-#: knotes.cpp:308
+#: knotes.cpp:310
 msgid "New Note"
 msgstr "Nova bilje¹ka"
 
-#: knotes.cpp:310
+#: knotes.cpp:312
 msgid "Delete Note"
 msgstr "Obri¹i bilje¹ku"
 
-#: knotes.cpp:312
+#: knotes.cpp:314
 msgid "Rename Note..."
 msgstr "Preimenuj bilje¹ku..."
 
-#: knotes.cpp:314
+#: knotes.cpp:316
 msgid "Alarm ..."
 msgstr "Alarm ..."
 
-#: knotes.cpp:317
+#: knotes.cpp:319
 msgid "Calendar"
 msgstr "Kalendar"
 
-#: knotes.cpp:319
+#: knotes.cpp:321
 msgid "Mail Note ..."
 msgstr "Po¹alji po¹tom bilje¹ku ..."
 
-#: knotes.cpp:321
+#: knotes.cpp:323
 msgid "Print Note"
 msgstr "Ispi¹i bilje¹ku"
 
-#: knotes.cpp:324
+#: knotes.cpp:326
 msgid "Save Notes"
 msgstr "Spremi bilje¹ke"
 
-#: knotes.cpp:330 knotes.cpp:401 knotes.cpp:1291
+#: knotes.cpp:332
 msgid "3D Frame"
 msgstr "3D Okvir"
 
-#: configdlg.cpp:128 knotes.cpp:331
+#: configdlg.cpp:128 knotes.cpp:333
 msgid "Auto Indent"
 msgstr "Automatska uvlaka"
 
-#: knotes.cpp:333
+#: knotes.cpp:336
 msgid "Font..."
 msgstr "Pismo..."
 
-#: knotes.cpp:334
+#: knotes.cpp:337
 msgid "Colors"
 msgstr "Boje"
 
-#: knotes.cpp:336
+#: knotes.cpp:339
 msgid "Change Defaults ..."
 msgstr "Promjena podrazumijevane vrijednosti ..."
 
-#: knotes.cpp:364
+#: knotes.cpp:340
+msgid "Dock in panel"
+msgstr ""
+
+#: knotes.cpp:368
 msgid "Insert Date"
 msgstr "Umetni datum"
 
-#: knotes.cpp:367
+#: knotes.cpp:371
 msgid "Operations"
 msgstr "Operacije"
 
-#: knotes.cpp:405 knotes.cpp:1281
-msgid "No Frame"
-msgstr "Bez okvira"
-
-#: knotes.cpp:438 knotes.cpp:442 knotes.cpp:636 knotes.cpp:864 knotes.cpp:868
+#: knotes.cpp:445 knotes.cpp:449 knotes.cpp:618 knotes.cpp:845 knotes.cpp:849
 #: timer.cpp:87 timer.cpp:110
 msgid "Note: "
 msgstr "Bilje¹ka: "
 
-#: knotes.cpp:495
+#: knotes.cpp:477
 msgid ""
 "Could not save a KNote.\n"
 "Quit anyways?"
@@ -104,11 +104,11 @@ msgstr ""
 "Ne mogu spremiti KNote.\n"
 "Da svejedno zavr¹im s radom?"
 
-#: knotes.cpp:513
+#: knotes.cpp:495
 msgid "Could not save KNote Alarms\n"
 msgstr "Ne mogu spremiti KNote Alarme\n"
 
-#: knotes.cpp:574 knotes.cpp:679
+#: knotes.cpp:556 knotes.cpp:661
 #, c-format
 msgid ""
 "Could not pipe the contents of this KNote into:\n"
@@ -117,7 +117,7 @@ msgstr ""
 "Ne mogu preusmjeriti sadr¾aj ove KNote u:\n"
 " %s"
 
-#: knotes.cpp:735
+#: knotes.cpp:717
 msgid ""
 "You have exeeded the arbitrary and unjustly set limit of 50 knotes.\n"
 " Please complain to the author."
@@ -125,11 +125,11 @@ msgstr ""
 "Prema¹ili ste odoka i nepravedno odreðeni maksimum od 50 knotes bilje¹ki.\n"
 " Molim, ¾alite se autoru."
 
-#: knotes.cpp:903
+#: knotes.cpp:893
 msgid "Question"
 msgstr "Pitanje"
 
-#: knotes.cpp:904
+#: knotes.cpp:894
 msgid ""
 "Are you sure you want to delete this\n"
 "note permanently?"
@@ -137,7 +137,7 @@ msgstr ""
 "Jeste li sigurni da ¾elite nepovratno obrisati\n"
 "ovu bilje¹ku?"
 
-#: knotes.cpp:1080
+#: knotes.cpp:1072
 #, c-format
 msgid ""
 "Could not load:\n"
@@ -146,11 +146,11 @@ msgstr ""
 "Ne mogu uèitati:\n"
 " %s"
 
-#: knotes.cpp:1332
+#: knotes.cpp:1331
 msgid "KNotes Configuraton"
 msgstr "KNotes Konfiguracija"
 
-#: knotes.cpp:1349
+#: knotes.cpp:1348
 #, c-format
 msgid ""
 "KNotes %s\n"
@@ -175,15 +175,15 @@ msgstr ""
 "\n"
 "\n"
 
-#: configdlg.cpp:46 knotes.cpp:1376
+#: configdlg.cpp:46 knotes.cpp:1375
 msgid "Defaults"
 msgstr "Uobièajeno"
 
-#: knotes.cpp:1377
+#: knotes.cpp:1376
 msgid "More ..."
 msgstr "Jo¹ ..."
 
-#: knotes.cpp:1536
+#: knotes.cpp:1535
 msgid ""
 "KNotes is already waiting\n"
 "for an internet job to finish\n"
@@ -195,11 +195,11 @@ msgstr ""
 "Molim prièekajte njegov kraj\n"
 "Ili prekinite trenutni zadatak."
 
-#: knotes.cpp:1550
+#: knotes.cpp:1549
 msgid "Could not start or find KFM"
 msgstr "Ne mogu pokrenuti ili pronaæi KFM"
 
-#: knotes.cpp:1572
+#: knotes.cpp:1571
 msgid ""
 "Could not save the KNotes.\n"
 "Close anyways?"
@@ -207,7 +207,7 @@ msgstr ""
 "Ne mogu spremiti KNotes.\n"
 "Da svejedno zatvorim?"
 
-#: knotes.cpp:1684
+#: knotes.cpp:1683
 #, c-format
 msgid ""
 "Found an alarm to which the underlying\n"
@@ -224,7 +224,7 @@ msgstr ""
 "\n"
 "Ispravit æu taj problem umjesto vas."
 
-#: knotes.cpp:1692
+#: knotes.cpp:1691
 msgid "Inconsistency"
 msgstr "Nedosljednost"
 
@@ -384,3 +384,6 @@ msgstr "Izlaz"
 #: docking.cpp:95
 msgid "New Knote"
 msgstr "Nova bilje¹ka"
+
+#~ msgid "No Frame"
+#~ msgstr "Bez okvira"

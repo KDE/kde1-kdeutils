@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-18 01:54+0100\n"
+"POT-Creation-Date: 1999-03-05 01:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,93 +14,93 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: knotes.cpp:263
+#: knotes.cpp:265
 msgid "Hello"
 msgstr ""
 
-#: knotes.cpp:301
+#: knotes.cpp:303
 #, fuzzy
 msgid "Text Color..."
 msgstr "Szöveg színe"
 
-#: knotes.cpp:302
+#: knotes.cpp:304
 #, fuzzy
 msgid "Background Color..."
 msgstr "Háttér színe"
 
-#: knotes.cpp:308
+#: knotes.cpp:310
 msgid "New Note"
 msgstr "Új cetli"
 
-#: knotes.cpp:310
+#: knotes.cpp:312
 msgid "Delete Note"
 msgstr "Cetli törlése"
 
-#: knotes.cpp:312
+#: knotes.cpp:314
 #, fuzzy
 msgid "Rename Note..."
 msgstr "Cetli átnevezése"
 
-#: knotes.cpp:314
+#: knotes.cpp:316
 msgid "Alarm ..."
 msgstr "Elõjelzés..."
 
-#: knotes.cpp:317
+#: knotes.cpp:319
 msgid "Calendar"
 msgstr "Naptár"
 
-#: knotes.cpp:319
+#: knotes.cpp:321
 msgid "Mail Note ..."
 msgstr "Cetli feladása..."
 
-#: knotes.cpp:321
+#: knotes.cpp:323
 msgid "Print Note"
 msgstr "Cetli nyomtatása"
 
-#: knotes.cpp:324
+#: knotes.cpp:326
 #, fuzzy
 msgid "Save Notes"
 msgstr "Új cetli"
 
-#: knotes.cpp:330 knotes.cpp:401 knotes.cpp:1291
+#: knotes.cpp:332
 msgid "3D Frame"
 msgstr "3D keret"
 
-#: configdlg.cpp:128 knotes.cpp:331
+#: configdlg.cpp:128 knotes.cpp:333
 msgid "Auto Indent"
 msgstr "Auto-behúzás"
 
-#: knotes.cpp:333
+#: knotes.cpp:336
 #, fuzzy
 msgid "Font..."
 msgstr "Font"
 
-#: knotes.cpp:334
+#: knotes.cpp:337
 msgid "Colors"
 msgstr "Színek"
 
-#: knotes.cpp:336
+#: knotes.cpp:339
 msgid "Change Defaults ..."
 msgstr "Alapért. változtatása..."
 
-#: knotes.cpp:364
+#: knotes.cpp:340
+msgid "Dock in panel"
+msgstr ""
+
+#: knotes.cpp:368
 msgid "Insert Date"
 msgstr "Dátum beillesztése"
 
-#: knotes.cpp:367
+#: knotes.cpp:371
 msgid "Operations"
 msgstr "Tevékenységek"
 
-#: knotes.cpp:405 knotes.cpp:1281
-msgid "No Frame"
-msgstr "Keret nélkül"
-
-#: knotes.cpp:438 knotes.cpp:442 knotes.cpp:636 knotes.cpp:864 knotes.cpp:868
+#: knotes.cpp:445 knotes.cpp:449 knotes.cpp:618 knotes.cpp:845 knotes.cpp:849
 #: timer.cpp:87 timer.cpp:110
 msgid "Note: "
 msgstr ""
 
-#: knotes.cpp:495
+#: knotes.cpp:477
 msgid ""
 "Could not save a KNote.\n"
 "Quit anyways?"
@@ -108,11 +108,11 @@ msgstr ""
 "Nem tudtam elmenteni egy cetlit.\n"
 "Azért kiléphetek?"
 
-#: knotes.cpp:513
+#: knotes.cpp:495
 msgid "Could not save KNote Alarms\n"
 msgstr "Nem tudtam elmenteni a cetlik elõjelzését\n"
 
-#: knotes.cpp:574 knotes.cpp:679
+#: knotes.cpp:556 knotes.cpp:661
 #, c-format
 msgid ""
 "Could not pipe the contents of this KNote into:\n"
@@ -121,7 +121,7 @@ msgstr ""
 "Nem tudtam a cetli tartalmat belepumpalni a\n"
 " %s-be."
 
-#: knotes.cpp:735
+#: knotes.cpp:717
 #, fuzzy
 msgid ""
 "You have exeeded the arbitrary and unjustly set limit of 50 knotes.\n"
@@ -130,11 +130,11 @@ msgstr ""
 "Túllépted a fixen beállított 50 darabos cetli-limitet.\n"
 "Levélbombákat a szerzõ email címére kérünk."
 
-#: knotes.cpp:903
+#: knotes.cpp:893
 msgid "Question"
 msgstr "Kérdés"
 
-#: knotes.cpp:904
+#: knotes.cpp:894
 msgid ""
 "Are you sure you want to delete this\n"
 "note permanently?"
@@ -142,18 +142,18 @@ msgstr ""
 "Tényleg annyira le szeretnéd\n"
 "törölni ezt a cetlit?"
 
-#: knotes.cpp:1080
+#: knotes.cpp:1072
 #, c-format
 msgid ""
 "Could not load:\n"
 " %s"
 msgstr "Nem tudtam betölteni a%s -t... A francba!"
 
-#: knotes.cpp:1332
+#: knotes.cpp:1331
 msgid "KNotes Configuraton"
 msgstr "KNotes beállításai"
 
-#: knotes.cpp:1349
+#: knotes.cpp:1348
 #, c-format
 msgid ""
 "KNotes %s\n"
@@ -168,15 +168,15 @@ msgid ""
 "\n"
 msgstr ""
 
-#: configdlg.cpp:46 knotes.cpp:1376
+#: configdlg.cpp:46 knotes.cpp:1375
 msgid "Defaults"
 msgstr "Alapértékek"
 
-#: knotes.cpp:1377
+#: knotes.cpp:1376
 msgid "More ..."
 msgstr "Még..."
 
-#: knotes.cpp:1536
+#: knotes.cpp:1535
 msgid ""
 "KNotes is already waiting\n"
 "for an internet job to finish\n"
@@ -186,11 +186,11 @@ msgstr ""
 "A KNotes egy iNetes munka befejezésére vár\n"
 "Várj egy picit amíg befejezi, vagy szakítsd meg."
 
-#: knotes.cpp:1550
+#: knotes.cpp:1549
 msgid "Could not start or find KFM"
 msgstr "Nem tudtam elindítani a KFM-et (nem találom?)"
 
-#: knotes.cpp:1572
+#: knotes.cpp:1571
 msgid ""
 "Could not save the KNotes.\n"
 "Close anyways?"
@@ -198,7 +198,7 @@ msgstr ""
 "Nem tudtam elmenteni a cetliket.\n"
 "Azért kiléphetek?"
 
-#: knotes.cpp:1684
+#: knotes.cpp:1683
 #, c-format
 msgid ""
 "Found an alarm to which the underlying\n"
@@ -213,7 +213,7 @@ msgstr ""
 "(%s kéne hogy legyen).\n"
 "Mire ezt olvasod, már rég kijavítottam a hibát."
 
-#: knotes.cpp:1692
+#: knotes.cpp:1691
 msgid "Inconsistency"
 msgstr "Inkonzisztencia"
 
@@ -381,6 +381,9 @@ msgstr ""
 #, fuzzy
 msgid "New Knote"
 msgstr "Új cetli"
+
+#~ msgid "No Frame"
+#~ msgstr "Keret nélkül"
 
 #, fuzzy
 #~ msgid "Hide Note"
