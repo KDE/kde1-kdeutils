@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
-"POT-Creation-Date: 1999-04-06 02:18+0200\n"
+"POT-Creation-Date: 1999-04-10 02:41+0200\n"
 "PO-Revision-Date: 1999-02-09 00:00+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 msgid "Normal:"
 msgstr "Нормальный:"
 
-#: highlight.cpp:1725 kwdialog.cpp:488
+#: highlight.cpp:1725 kwdialog.cpp:495
 msgid "Selected:"
 msgstr "Выделенный:"
 
@@ -232,107 +232,107 @@ msgstr "Выделенный текст"
 msgid "&Prompt On Replace"
 msgstr "Спросить при замене"
 
-#: kwdialog.cpp:166
+#: kwdialog.cpp:167
 msgid "Replace this occurence?"
 msgstr "Заменить все вхождения?"
 
-#: kwdialog.cpp:173
+#: kwdialog.cpp:174
 msgid "&Yes"
 msgstr "Да"
 
-#: kwdialog.cpp:181
+#: kwdialog.cpp:182
 msgid "&No"
 msgstr "Нет"
 
-#: kwdialog.cpp:187
+#: kwdialog.cpp:188
 msgid "&All"
 msgstr "Все"
 
-#: kwdialog.cpp:249
+#: kwdialog.cpp:251
 msgid "&Goto Line:"
 msgstr "Перейти на строчку:"
 
-#: kwdialog.cpp:290
+#: kwdialog.cpp:294
 msgid "Edit Options"
 msgstr "Параметры редактирования"
 
-#: kwdialog.cpp:291
+#: kwdialog.cpp:295
 msgid "Auto &Indent"
 msgstr "Автоотступ"
 
-#: kwdialog.cpp:293
+#: kwdialog.cpp:297
 msgid "&Backspace Indent"
 msgstr "Отступ при забое"
 
-#: kwdialog.cpp:295
+#: kwdialog.cpp:299
 msgid "&Word Wrap"
 msgstr "Разрыв между словами"
 
-#: kwdialog.cpp:297
+#: kwdialog.cpp:301
 msgid "Replace &Tabs"
 msgstr "Заменять табуляции"
 
-#: kwdialog.cpp:299
+#: kwdialog.cpp:303
 msgid "Remove Trailing &Spaces"
 msgstr "Удалять конечные пробелы"
 
-#: kwdialog.cpp:301
+#: kwdialog.cpp:305
 msgid "Wrap &Cursor"
 msgstr "Курсор при разрыве"
 
-#: kwdialog.cpp:303
+#: kwdialog.cpp:307
 msgid "&Auto Brackets"
 msgstr "Автоскобки"
 
-#: kwdialog.cpp:317
+#: kwdialog.cpp:321
 msgid "Select Options"
 msgstr "Параметры выделения"
 
-#: kwdialog.cpp:318
+#: kwdialog.cpp:322
 msgid "&Persistent Selections"
 msgstr "Постоянное выделение"
 
-#: kwdialog.cpp:320
+#: kwdialog.cpp:324
 msgid "&Multiple Selections"
 msgstr "Множественное выделение"
 
-#: kwdialog.cpp:322 toplevel.cpp:233
+#: kwdialog.cpp:326 toplevel.cpp:233
 msgid "&Vertical Selections"
 msgstr "Вертикальное выделение"
 
-#: kwdialog.cpp:324
+#: kwdialog.cpp:328
 msgid "&Delete On Input"
 msgstr "Удалять при вводе"
 
-#: kwdialog.cpp:326
+#: kwdialog.cpp:330
 msgid "&Toggle Old"
 msgstr "Переключать старый"
 
-#: kwdialog.cpp:341
+#: kwdialog.cpp:345
 msgid "Wrap Words At:"
 msgstr "Разрывать слова на:"
 
-#: kwdialog.cpp:347
+#: kwdialog.cpp:351
 msgid "Tab Width:"
 msgstr "Размер табуляции:"
 
-#: kwdialog.cpp:354
+#: kwdialog.cpp:358
 msgid "Undo steps:"
 msgstr "Глубина отката:"
 
-#: kwdialog.cpp:472
+#: kwdialog.cpp:479
 msgid "Background:"
 msgstr "Фон:"
 
-#: kwdialog.cpp:480
+#: kwdialog.cpp:487
 msgid "Text Background:"
 msgstr "Фон текста:"
 
-#: kwdialog.cpp:496
+#: kwdialog.cpp:503
 msgid "Found:"
 msgstr "Найдено:"
 
-#: kwdialog.cpp:504
+#: kwdialog.cpp:511
 msgid "Selected + Found:"
 msgstr "Выделено + Найдено:"
 

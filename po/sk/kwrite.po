@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwrite\n"
-"POT-Creation-Date: 1999-04-06 02:18+0200\n"
+"POT-Creation-Date: 1999-04-10 02:41+0200\n"
 "PO-Revision-Date: 1999-01-01 17:00+0001\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <sk@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 msgid "Normal:"
 msgstr "Normálny:"
 
-#: highlight.cpp:1725 kwdialog.cpp:488
+#: highlight.cpp:1725 kwdialog.cpp:495
 msgid "Selected:"
 msgstr "Zvolený:"
 
@@ -233,107 +233,107 @@ msgstr "&Zvolený text"
 msgid "&Prompt On Replace"
 msgstr "&Pýta» sa pri náhrade"
 
-#: kwdialog.cpp:166
+#: kwdialog.cpp:167
 msgid "Replace this occurence?"
 msgstr "Nahradi» tento výsky»?"
 
-#: kwdialog.cpp:173
+#: kwdialog.cpp:174
 msgid "&Yes"
 msgstr "Án&o"
 
-#: kwdialog.cpp:181
+#: kwdialog.cpp:182
 msgid "&No"
 msgstr "&Nie"
 
-#: kwdialog.cpp:187
+#: kwdialog.cpp:188
 msgid "&All"
 msgstr "&V¹etky"
 
-#: kwdialog.cpp:249
+#: kwdialog.cpp:251
 msgid "&Goto Line:"
 msgstr "&Na riadok:"
 
-#: kwdialog.cpp:290
+#: kwdialog.cpp:294
 msgid "Edit Options"
 msgstr "Editova» nastavenie"
 
-#: kwdialog.cpp:291
+#: kwdialog.cpp:295
 msgid "Auto &Indent"
 msgstr "Automat. &odsadzova»"
 
-#: kwdialog.cpp:293
+#: kwdialog.cpp:297
 msgid "&Backspace Indent"
 msgstr "&Odsadzova» backspace"
 
-#: kwdialog.cpp:295
+#: kwdialog.cpp:299
 msgid "&Word Wrap"
 msgstr "&Udr¾iava» ¹írku"
 
-#: kwdialog.cpp:297
+#: kwdialog.cpp:301
 msgid "Replace &Tabs"
 msgstr "Nahradi» &Taby"
 
-#: kwdialog.cpp:299
+#: kwdialog.cpp:303
 msgid "Remove Trailing &Spaces"
 msgstr "Zmaza» koncové &medzery"
 
-#: kwdialog.cpp:301
+#: kwdialog.cpp:305
 msgid "Wrap &Cursor"
 msgstr "Zarovna» &Kurzor"
 
-#: kwdialog.cpp:303
+#: kwdialog.cpp:307
 msgid "&Auto Brackets"
 msgstr "&Auto brackety"
 
-#: kwdialog.cpp:317
+#: kwdialog.cpp:321
 msgid "Select Options"
 msgstr "Mo¾nosti volenia"
 
-#: kwdialog.cpp:318
+#: kwdialog.cpp:322
 msgid "&Persistent Selections"
 msgstr "&Perzistentné voµby"
 
-#: kwdialog.cpp:320
+#: kwdialog.cpp:324
 msgid "&Multiple Selections"
 msgstr "&Viacnásobné voµby"
 
-#: kwdialog.cpp:322 toplevel.cpp:233
+#: kwdialog.cpp:326 toplevel.cpp:233
 msgid "&Vertical Selections"
 msgstr "&Vertikálne voµby"
 
-#: kwdialog.cpp:324
+#: kwdialog.cpp:328
 msgid "&Delete On Input"
 msgstr "&Zmaza» pri vstupe"
 
-#: kwdialog.cpp:326
+#: kwdialog.cpp:330
 msgid "&Toggle Old"
 msgstr "&Prepnú» starý"
 
-#: kwdialog.cpp:341
+#: kwdialog.cpp:345
 msgid "Wrap Words At:"
 msgstr "Udr¾ova» ¹írku:"
 
-#: kwdialog.cpp:347
+#: kwdialog.cpp:351
 msgid "Tab Width:"
 msgstr "©írka Tabu:"
 
-#: kwdialog.cpp:354
+#: kwdialog.cpp:358
 msgid "Undo steps:"
 msgstr "Kroky undo:"
 
-#: kwdialog.cpp:472
+#: kwdialog.cpp:479
 msgid "Background:"
 msgstr "Pozadie:"
 
-#: kwdialog.cpp:480
+#: kwdialog.cpp:487
 msgid "Text Background:"
 msgstr "Pozadie textu:"
 
-#: kwdialog.cpp:496
+#: kwdialog.cpp:503
 msgid "Found:"
 msgstr "Nájdených:"
 
-#: kwdialog.cpp:504
+#: kwdialog.cpp:511
 msgid "Selected + Found:"
 msgstr "Zvolených+nájdených:"
 
