@@ -1024,6 +1024,7 @@ bool KEdit::format2(QStrList& par, int& upperbound){
   QString pstring;
   QString prefix;
   int right, space_pos;
+  int i;
   int fill_column = fill_column_value;
 
   int templine,tempcol;
@@ -1065,7 +1066,7 @@ bool KEdit::format2(QStrList& par, int& upperbound){
    */
    // first pass: break overfull lines
 
-  for ( int i = 0 ; i < (int)par.count() ; i ++){
+  for (i = 0 ; i < (int)par.count() ; i ++){
     //    printf("par.count %d line %d\n",par.count(),i);
     k = 0;
     l = 0;
@@ -1168,7 +1169,7 @@ bool KEdit::format2(QStrList& par, int& upperbound){
    }
    printf("\n");
    */
-  for ( int i = 0 ; i < (int)par.count() - 1 ; i ++){
+  for (i = 0 ; i < (int)par.count() - 1 ; i ++){
     //    printf("par.count %d line %d\n",par.count(),i);
     int k = 0;
     int l = 0;
@@ -1244,7 +1245,7 @@ bool KEdit::format2(QStrList& par, int& upperbound){
    printf("\n");
    */
    QString prerun;
-   for ( int i = 0 ; i < (int)par.count() ; i ++){
+   for (i = 0 ; i < (int)par.count() ; i ++){
      prerun = prefix + (QString) par.at(i);
      par.remove(i);
      par.insert(i,prerun);

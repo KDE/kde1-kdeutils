@@ -35,7 +35,7 @@
 
 class UrlDlg : public QDialog
 {
-	Q_OBJECT;
+	Q_OBJECT
 
 public:
 

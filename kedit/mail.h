@@ -39,7 +39,7 @@
 
 class Mail : public QDialog
 {
-    Q_OBJECT;
+    Q_OBJECT
 
 public:
 

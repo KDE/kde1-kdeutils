@@ -64,7 +64,7 @@ struct fill_struct{
 
 class FillDlg : public QDialog
 {
-    Q_OBJECT;
+    Q_OBJECT
 
 public:
 
