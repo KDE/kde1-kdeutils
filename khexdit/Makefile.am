@@ -1,6 +1,6 @@
  
-DOCSDIR = $(prefix)/doc/HTML/khexdit
-APPSDIR = $(prefix)/apps/Utilities
+DOCSDIR = $(prefix)/share/doc/HTML/khexdit
+APPSDIR = $(prefix)/share/applnk/Utilities
 
 INCLUDES= @all_includes@
 MOC	= @MOC@
@@ -23,10 +23,10 @@ install-data-local:
 	$(mkinstalldirs) $(DOCSDIR)
 	$(INSTALL_DATA) khexdit.html $(DOCSDIR)
 	$(mkinstalldirs) $(APPSDIR)
-	$(INSTALL_DATA) "Hex Editor.kdelnk" $(APPSDIR)
+	$(INSTALL_DATA) Khexdit.kdelnk $(APPSDIR)
 
 uninstall-local:
 	rm -f $(DOCSDIR)/$(DOCS)
-	rm -f $(APPSDIR)/"Hex Editor.kdelnk"
+	rm -f $(APPSDIR)/Khexdit.kdelnk
 
 

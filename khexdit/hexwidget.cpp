@@ -1,3 +1,9 @@
+#ifdef HAVE_CONFIG_H
+#include <config.h>
+#endif
+
+#include <unistd.h>
+#include <time.h>
 #include <qpopmenu.h>
 #include <qkeycode.h>
 #include <qaccel.h> 
@@ -10,6 +16,7 @@
 #include <ktoolbar.h>
 #include "hexwidget.h"
 #include "klocale.h"
+#include <kiconloader.h>
 
 QList<HexWidget> HexWidget::windowList;
 
@@ -50,37 +57,27 @@ int HexWidget::initMenu() {
   menu->show();
   setMenu(menu);
 
-  QString PIXDIR=kapp->kdedir();
-  PIXDIR += "/lib/pics/toolbar/";
-  QPixmap pixmap;
-  
+  KIconLoader *loader = kapp->getIconLoader();
   toolbar = new KToolBar(this);
-  pixmap.load(PIXDIR + "filenew.xpm");
-  toolbar->insertButton(pixmap,ID_FILE_NEWWIN, TRUE,
-			klocale->translate("New Window"));
-  pixmap.load(PIXDIR + "fileopen.xpm");
-  toolbar->insertButton(pixmap,ID_FILE_OPEN, TRUE, 
+
+  toolbar->insertButton(loader->loadIcon("filenew.xpm"),
+			ID_FILE_NEWWIN, TRUE, klocale->translate("New Window"));
+  toolbar->insertButton(loader->loadIcon("fileopen.xpm"),ID_FILE_OPEN, TRUE, 
 			klocale->translate("Open a file"));
-  pixmap.load(PIXDIR + "filefloppy.xpm");
-  toolbar->insertButton(pixmap,ID_FILE_SAVE, TRUE, 
+  toolbar->insertButton(loader->loadIcon("filefloppy.xpm"), ID_FILE_SAVE, TRUE, 
 			klocale->translate("Save the file"));
   toolbar->insertSeparator();
-  pixmap.load(PIXDIR + "page.xpm");
-  toolbar->insertButton(pixmap,ID_EDIT_CUT, FALSE, 
+  toolbar->insertButton(loader->loadIcon("page.xpm"),ID_EDIT_CUT, FALSE, 
 			klocale->translate("Not implemented"));
-  pixmap.load(PIXDIR + "contents.xpm");
-  toolbar->insertButton(pixmap,ID_EDIT_COPY, FALSE, 
+  toolbar->insertButton(loader->loadIcon("contents.xpm"),ID_EDIT_COPY, FALSE, 
 			klocale->translate("Not implemented"));
-  pixmap.load(PIXDIR + "devious.xpm");
-  toolbar->insertButton(pixmap,ID_EDIT_PASTE, FALSE, 
+  toolbar->insertButton(loader->loadIcon("devious.xpm"),ID_EDIT_PASTE, FALSE, 
 			klocale->translate("Not implemented"));
   toolbar->insertSeparator();
-  pixmap.load(PIXDIR + "fileprint.xpm");
-  toolbar->insertButton(pixmap,ID_FILE_PRINT, FALSE, 
+  toolbar->insertButton(loader->loadIcon("fileprint.xpm"),ID_FILE_PRINT, FALSE, 
 			klocale->translate("Not implemented"));
   toolbar->insertSeparator();
-  pixmap.load(PIXDIR + "help.xpm");
-  toolbar->insertButton(pixmap,ID_HELP_ABOUT, TRUE, 
+  toolbar->insertButton(loader->loadIcon("help.xpm"),ID_HELP_ABOUT, TRUE, 
 			klocale->translate("About Hex Editor"));
 
   addToolBar(toolbar);
