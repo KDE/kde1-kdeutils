@@ -11,10 +11,10 @@
  */
 
 #include <qimage.h>
-#include "../libkab/toplevelwidget.h"
+#include "toplevelwidget.h"
 #include <kapp.h>
-#include "../libkab/jpeg.h"
-#include "../libkab/debug.h"
+#include "jpeg.h"
+#include "debug.h"
 
 extern "C" {
 #include <signal.h>

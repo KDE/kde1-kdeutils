@@ -20,8 +20,7 @@ INCLUDES= @all_includes@
 APPSDIR = $(kde_appsdir)/Utilities
 bin_PROGRAMS = 	kab kabapi_test
 THE_LIBS= -lkfile -lkfm -lkdeui -lkdecore -lqt -lX11 \
-		-lXext @LIBSOCKET@ -ljpeg \
-		../libkab/.libs/libkab.so 
+		-lXext @LIBSOCKET@ -ljpeg -lkab
 
 kab_SOURCES	= main.cc \
 		AddressBookAbout.cpp \
@@ -75,6 +74,9 @@ uninstall-local:
 	-rm -f $(APPSDIR)/kab.kdelnk
 	-rm -f $(kde_icondir)/kab.xpm
 	-rm -f $(kde_minidir)/kab.xpm
+
+%.moc:%.h
+	$(MOC) $< -o $@
 
 toplevelwidget.cc:toplevelwidget.moc
 toplevelwidget.moc:toplevelwidget.h

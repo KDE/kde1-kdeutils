@@ -13,9 +13,9 @@ SHELL = /bin/sh
 srcdir = .
 top_srcdir = ../../..
 prefix = /opt/kde
-exec_prefix = $(prefix)
+exec_prefix = ${prefix}
 
-bindir = $(exec_prefix)/bin
+bindir = /opt/kde/bin
 sbindir = ${exec_prefix}/sbin
 libexecdir = ${exec_prefix}/libexec
 sysconfdir = ${prefix}/etc
@@ -27,9 +27,9 @@ mandir = ${prefix}/man
 includedir = ${prefix}/include
 oldincludedir = /usr/include
 
-pkgdatadir = $(datadir)/kab
-pkglibdir = $(libdir)/kab
-pkgincludedir = $(includedir)/kab
+pkgdatadir = $(datadir)/kdeutils
+pkglibdir = $(libdir)/kdeutils
+pkgincludedir = $(includedir)/kdeutils
 
 top_builddir = ../../..
 
@@ -87,7 +87,7 @@ MICO_LDFLAGS = @MICO_LDFLAGS@
 MOC = /opt/qt/bin/moc
 MSGFMT = /usr/bin/msgfmt
 NM = /usr/bin/nm -B
-PACKAGE = kab
+PACKAGE = kdeutils
 PAMINC = @PAMINC@
 PAMLIBPATHS = @PAMLIBPATHS@
 PAMLIBS = @PAMLIBS@
@@ -97,7 +97,7 @@ QT_INCLUDES = -I/opt/qt/include
 QT_LDFLAGS = -L/opt/qt/lib
 RANLIB = ranlib
 USE_NLS = yes
-VERSION = 0.8
+VERSION = 1.0pre
 XGETTEXT = /usr/bin/xgettext
 XPMINC = @XPMINC@
 XPMLIB = @XPMLIB@
@@ -107,25 +107,25 @@ X_LDFLAGS = -L/usr/X11R6/lib
 all_includes = -I/opt/kde/include -I/opt/qt/include -I/usr/X11R6/include
 all_libraries = -L/opt/kde/lib -L/opt/qt/lib -L/usr/X11R6/lib
 install_root = 
-kde_appsdir = $(prefix)/share/applnk
-kde_bindir = $(exec_prefix)/bin
-kde_cgidir = $(exec_prefix)/cgi-bin
-kde_confdir = $(prefix)/share/config
-kde_datadir = $(prefix)/share/apps
-kde_htmldir = $(prefix)/share/doc/HTML
-kde_icondir = $(prefix)/share/icons
+kde_appsdir = /opt/kde/share/applnk
+kde_bindir = /opt/kde/bin
+kde_cgidir = /opt/kde/cgi-bin
+kde_confdir = /opt/kde/share/config
+kde_datadir = /opt/kde/share/apps
+kde_htmldir = /opt/kde/share/doc/HTML
+kde_icondir = /opt/kde/share/icons
 kde_includes = /opt/kde/include
 kde_libraries = /opt/kde/lib
-kde_locale = $(prefix)/share/locale
-kde_mimedir = $(prefix)/share/mimelnk
-kde_minidir = $(prefix)/share/icons/mini
-kde_partsdir = $(exec_prefix)/parts
-kde_sounddir = $(prefix)/share/sounds
-kde_toolbardir = $(prefix)/share/toolbar
-kde_wallpaperdir = $(prefix)/share/wallpapers
+kde_locale = /opt/kde/share/locale
+kde_mimedir = /opt/kde/share/mimelnk
+kde_minidir = /opt/kde/share/icons/mini
+kde_partsdir = /opt/kde/parts
+kde_sounddir = /opt/kde/share/sounds
+kde_toolbardir = /opt/kde/share/toolbar
+kde_wallpaperdir = /opt/kde/share/wallpapers
 qt_includes = /opt/qt/include
 qt_libraries = /opt/qt/lib
-topdir = /home/Mirko/Arbeitsverzeichnis/kab
+topdir = /home/Mirko/Arbeitsverzeichnis/kde/kdeutils
 x_includes = /usr/X11R6/include
 x_libraries = /usr/X11R6/lib
 
@@ -150,9 +150,9 @@ default: all
 
 .SUFFIXES:
 $(srcdir)/Makefile.in: Makefile.am $(top_srcdir)/configure.in $(ACLOCAL_M4) 
-	cd $(top_srcdir) && $(AUTOMAKE) --gnu --include-deps kab/doc/en/Makefile
+	cd $(top_srcdir) && $(AUTOMAKE) --gnu kab/doc/en/Makefile
 
-Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status
+Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status $(BUILT_SOURCES)
 	cd $(top_builddir) \
 	  && CONFIG_FILES=$(subdir)/$@ CONFIG_HEADERS= $(SHELL) ./config.status
 
@@ -184,6 +184,10 @@ distdir = $(top_builddir)/$(PACKAGE)-$(VERSION)/$(subdir)
 subdir = kab/doc/en
 
 distdir: $(DISTFILES)
+	here=`cd $(top_builddir) && pwd`; \
+	top_distdir=`cd $(top_distdir) && pwd`; \
+	cd $(top_srcdir) \
+	  && $(AUTOMAKE) --include-deps --build-dir=$$here --srcdir-name=$(top_srcdir) --output-dir=$$top_distdir --gnu kab/doc/en/Makefile
 	@for file in $(DISTFILES); do \
 	  d=$(srcdir); \
 	  test -f $(distdir)/$$file \

@@ -1,9 +1,8 @@
 #include <qimage.h>
-// #include "../libkab/kabapi.h"
 #include <kabapi.h>
 #include <iostream.h>
 #include <kapp.h>
-#include "../libkab/jpeg.h"
+#include "jpeg.h"
 
 int main(int argc, char** argv)
 {
