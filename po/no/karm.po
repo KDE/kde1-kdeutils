@@ -2,8 +2,6 @@
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Hans Petter Bieker <zerium@webindex.no>, 1998.
 #
-# $Id$
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/karm\n"
@@ -93,12 +91,11 @@ msgstr "&Oppgave"
 
 #: top.cpp:71
 msgid "&Contents"
-msgstr ""
+msgstr "&Innhold"
 
 #: top.cpp:74
-#, fuzzy
 msgid "&About"
-msgstr "Om "
+msgstr "&Om"
 
 #: top.cpp:85
 msgid "Start Clock"

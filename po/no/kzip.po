@@ -2,8 +2,6 @@
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Hans Petter Bieker <zerium@webindex.no>, 1998.
 #
-# $Id$
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kzip\n"
@@ -21,7 +19,7 @@ msgstr "Legg til filvalg"
 
 #: adddlg.cc:15 extractdlg.cc:72
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: adddlg.cc:22
 msgid "Store Full Path"
@@ -113,7 +111,7 @@ msgstr "Ukjent arkivformat"
 
 #: kzip.cc:389
 msgid "Size"
-msgstr ""
+msgstr "Størrelse"
 
 #: kzip.cc:395
 msgid "Archive directory does not exist."

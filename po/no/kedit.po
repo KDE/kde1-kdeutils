@@ -2,8 +2,6 @@
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Hans Petter Bieker <zerium@webindex.no>, 1998.
 #
-# $Id$
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kedit\n"
@@ -85,7 +83,7 @@ msgstr "&Erstatt"
 
 #: kedit.cpp:267
 msgid "Spellcheck..."
-msgstr ""
+msgstr "Stavekontroll..."
 
 #: kedit.cpp:272
 msgid "&Goto Line..."
@@ -341,115 +339,111 @@ msgstr ""
 
 #: keditcl1.cpp:137
 msgid "The specified File does not exist"
-msgstr ""
+msgstr "Den oppgitte filen eksisterer ikke"
 
 #: keditcl1.cpp:150 keditcl1.cpp:423 keditcl1.cpp:507 keditcl1.cpp:1687
 msgid "Sorry:"
-msgstr ""
+msgstr "Beklager:"
 
 #: keditcl1.cpp:151
 msgid "You have specificated a directory"
-msgstr ""
+msgstr "Du har ikke oppgitt en katalog"
 
 #: keditcl1.cpp:166 keditcl1.cpp:187
 msgid "You do not have read permission to this file."
-msgstr ""
+msgstr "Du har ikke lesetilgang til denne filen."
 
 #: keditcl1.cpp:200
 msgid "An Error occured while trying to open this Document"
-msgstr ""
+msgstr "En feil oppstod under forsøk på å åpne dokumentet"
 
 #: keditcl1.cpp:402 keditcl1.cpp:487 keditcl1.cpp:1629
 msgid "Warning:"
-msgstr ""
+msgstr "Varsel:"
 
 #: keditcl1.cpp:403 keditcl1.cpp:488
-#, fuzzy
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
 msgstr ""
-"Dette dokument er endret.\n"
+"Dette gjeldende dokumentet er endret.\n"
 "Vil du lagre til det?"
 
 #: keditcl1.cpp:424
-#, fuzzy
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
-"Kunne ikke lagre filen.\n"
-"Skrive ut likevel?"
+"Kunne ikke lagre dokumentet.\n"
+"Åpne et nytt dokument likevel?"
 
 #: keditcl1.cpp:508
-#, fuzzy
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
 msgstr ""
-"Kunne ikke lagre filen.\n"
-"Skrive ut likevel?"
+"Kunne ikke lagre dokumentet.\n"
+"Opprette et nytt dokument likvel?"
 
 #: keditcl1.cpp:1546
-#, fuzzy
 msgid "Could not save the document\n"
-msgstr ""
-"Kunne ikke lagre filen.\n"
-"Skrive ut likevel?"
+msgstr "Kunne ikke lagre dokumentet\n"
 
 #: keditcl1.cpp:1630
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
 msgstr ""
+"Et dokument med dete navnet eksisterer allerede\n"
+"Vil du overskrive?"
 
 #: keditcl1.cpp:1688
 msgid "You do not have write permission to this file.\n"
-msgstr ""
+msgstr "Du har ikke skrivetilgang til denne filen.\n"
 
 #: keditcl2.cpp:113 keditcl2.cpp:370 keditcl2.cpp:463
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
 msgstr ""
+"Slutten av dokumentet er nådd.\n"
+"Fortsette fra starten?"
 
 #: keditcl2.cpp:130 keditcl2.cpp:387 keditcl2.cpp:433 keditcl2.cpp:480
 msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
 msgstr ""
+"Starten av dokumentet er nådd.\n"
+"Fortsette fra slutten?"
 
 #: keditcl2.cpp:691 keditcl2.cpp:789
 msgid "Case Sensitive"
-msgstr ""
+msgstr "Avhengig av bokstavstørrelse"
 
 #: keditcl2.cpp:692 keditcl2.cpp:792
 msgid "Find Backwards"
-msgstr ""
+msgstr "Find bakover"
 
 #: keditcl2.cpp:777
-#, fuzzy
 msgid "Find:"
-msgstr "&Finn..."
+msgstr "Finn:"
 
 #: keditcl2.cpp:787
-#, fuzzy
 msgid "Replace with:"
-msgstr "&Erstatt"
+msgstr "Erstatt med:"
 
 #: keditcl2.cpp:801
-#, fuzzy
 msgid "Replace All"
-msgstr "&Erstatt"
+msgstr "Erstatt alle"
 
 #: keditcl2.cpp:898
-#, fuzzy
 msgid "Goto Line"
-msgstr "&Gå til linje..."
+msgstr "Gå til linje"
 
 #: keditcl2.cpp:903
 msgid "Go"
-msgstr ""
+msgstr "Gå"
 
 #: print.cpp:69
 msgid "Print Dialog"
