@@ -2,8 +2,6 @@
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Hans Petter Bieker <zerium@webindex.no>, 1998.
 #
-# $Id$
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kfloppy\n"
@@ -58,9 +56,8 @@ msgid "Create Label:"
 msgstr "Gi diskett navn:"
 
 #: floppy.cpp:148
-#, fuzzy
 msgid "KDE Floppy"
-msgstr "KDE floppy"
+msgstr "KDE-floppy"
 
 #: floppy.cpp:162
 msgid "KDE Floppy Formatter"

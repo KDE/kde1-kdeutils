@@ -1,113 +1,115 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Norwegian translations for KDE Utils, kab
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Hans Petter Bieker <zerium@webindex.no>, 1998.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: KDE UTILS/kab\n"
 "POT-Creation-Date: 1998-10-13 13:36+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
+"Language-Team: no <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Type: text/plain; charset=ISO_8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: AddressBookAbout.cpp:33
 msgid "About addressbook"
-msgstr ""
+msgstr "Om adressebok"
 
 #: AddressBookAbout.cpp:43
 msgid "Image load failure"
-msgstr ""
+msgstr "Bildelasting mislyktes"
 
 #: AddressBookAbout.cpp:44
 msgid "Could not load addressbook logo image!"
-msgstr ""
+msgstr "Kunne ikke laste adressebok-logo!"
 
 #: AddressBookAbout.cpp:46
 msgid ""
 "Here you would see\n"
 "the addressbook logo."
 msgstr ""
+"Her vil du se\n"
+"adresseboklogoen."
+
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
-msgstr ""
+msgstr "Initialisering mislyktes"
 
 #: toplevelwidget.cc:37
 msgid "The programs menubar could not be constructed."
-msgstr ""
+msgstr "Programmenes menylinje kunne ikke bli konstruert."
 
 #: toplevelwidget.cc:45
 msgid "The programs statusbar could not be constructed."
-msgstr ""
+msgstr "Programmenes statuslinje kunne ikke bli konstruert."
 
 #: toplevelwidget.cc:58
 msgid "KDE addressbook."
-msgstr ""
+msgstr "KDE Adressebok."
 
 #: toplevelwidget.cc:76
 msgid "HTML table"
-msgstr ""
+msgstr "HTML-tabell"
 
 #: toplevelwidget.cc:85
 msgid "Export"
-msgstr ""
+msgstr "Eksport"
 
 #: toplevelwidget.cc:87
 msgid "Search &entries"
-msgstr ""
+msgstr "Søk &oppføringer"
 
 #: toplevelwidget.cc:89
 msgid "&Print"
-msgstr ""
+msgstr "&Skriv ut"
 
 #: toplevelwidget.cc:101
 msgid "&Add entry"
-msgstr ""
+msgstr "&Legg til oppføring"
 
 #: toplevelwidget.cc:103
 msgid "&Edit entry"
-msgstr ""
+msgstr "&Rediger oppføring"
 
 #: toplevelwidget.cc:105
 msgid "&Remove entry"
-msgstr ""
+msgstr "&Fjern oppføring"
 
 #: toplevelwidget.cc:117
 msgid "&Mail"
-msgstr ""
+msgstr "&Post"
 
 #: toplevelwidget.cc:119
 msgid "&Talk"
-msgstr ""
+msgstr "&Snakk"
 
 #: toplevelwidget.cc:121
 msgid "&Browse"
-msgstr ""
+msgstr "&Bla gjennom"
 
 #: toplevelwidget.cc:126
 msgid "Help on Addressbook"
-msgstr ""
+msgstr "Hjelp til Adressebok"
 
 #: toplevelwidget.cc:131
 msgid "About Addressbook"
-msgstr ""
+msgstr "Om Adressebok"
 
 #: toplevelwidget.cc:133
 msgid "About &Qt"
-msgstr ""
+msgstr "Om &Qt"
 
 #: toplevelwidget.cc:134
 msgid "About &KDE"
-msgstr ""
+msgstr "Om &KDE"
 
 #: toplevelwidget.cc:141
 msgid "&About"
-msgstr ""
+msgstr "&Om"
 
 #: toplevelwidget.cc:192
 msgid "About Qt"
-msgstr ""
+msgstr "Om Qt"
