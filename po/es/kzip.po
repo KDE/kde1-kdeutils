@@ -1,10 +1,12 @@
 msgid ""
 msgstr ""
+"Content-Type: text/plain; charset=\n"
 "Date: 1997-10-09 11:06:57-0400\n"
 "From: Robert Palmbos <robertp@pbnjelly>\n"
-"Content-Type: text/plain; charset=\n"
 "Xgettext-Options: --keyword=translate -C\n"
-"Files: adddlg.cc ar.cc arch.cc extractdlg.cc karch.cc kfdird.cc ktablistbox.cc kzip.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h extractdlg.h karch.h kfdird.h ktablistbox.h kzip.h lha.h tar.h text.h zip.h\n"
+"Files: adddlg.cc ar.cc arch.cc extractdlg.cc karch.cc kfdird.cc "
+"ktablistbox.cc kzip.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h "
+"extractdlg.h karch.h kfdird.h ktablistbox.h kzip.h lha.h tar.h text.h zip.h\n"
 
 #: adddlg.cc:9
 msgid "Add File Options"
@@ -167,14 +169,20 @@ msgid "Permissions\tOwner/Group\tSize      \tTimeStamp         \tName\t"
 msgstr "Permisos\tPropietario/Grupo\tTamaño      \tFecha         \tNombre\t"
 
 #: lha.h:24
-msgid "Permsissions\tOwner/Group\tPacked      \tSize         \tRatio\tCRC\tTimeStamp     \tName\t"
-msgstr "Permisos\tPropietario/Grupo\tComprimido      \tTamaño         \tTasa\tCRC\tFecha     \tNombre\t"
+msgid ""
+"Permsissions\tOwner/Group\tPacked      \tSize         "
+"\tRatio\tCRC\tTimeStamp     \tName\t"
+msgstr ""
+"Permisos\tPropietario/Grupo\tComprimido      \tTamaño         "
+"\tTasa\tCRC\tFecha     \tNombre\t"
 
 #: tar.h:22
 msgid "Permissions\tOwner/Group\tSize        \tTimeStamp\tName\t"
 msgstr "Permisos\tPropietario/Grupo\tTamaño        \tFecha\tNombre\t"
 
 #: zip.h:24
-msgid "Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
-msgstr "Tamaño     \tMétodo\tTamaño         \tTasa\tFecha     \tHora\tCRC-32\tNombre\t"
-
+msgid ""
+"Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
+msgstr ""
+"Tamaño     \tMétodo\tTamaño         \tTasa\tFecha     "
+"\tHora\tCRC-32\tNombre\t"

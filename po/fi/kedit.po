@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-12-28 19:24+0100\n"
+"POT-Creation-Date: 1997-12-31 01:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,45 +38,9 @@ msgstr "Näytä t&ilarivi"
 msgid "Hide &Status Bar"
 msgstr "Piiloita t&ilarivi"
 
-#: kedit.cpp:138
-msgid "Open..."
-msgstr "Avaa..."
-
-#: kedit.cpp:142
-msgid "Save as..."
-msgstr "Tallenna nimellä ..."
-
-#: kedit.cpp:145 kedit.cpp:306
-msgid "Copy"
-msgstr "Kopioi"
-
-#: kedit.cpp:147 kedit.cpp:311
-msgid "Paste"
-msgstr "Liitä"
-
-#: kedit.cpp:149 kedit.cpp:316
-msgid "Cut"
-msgstr "Leikkaa"
-
 #: kedit.cpp:151
 msgid "Select All"
 msgstr ""
-
-#: kedit.cpp:154
-msgid "Font"
-msgstr ""
-
-#: kedit.cpp:172
-msgid "&Foreground Color"
-msgstr "&Tekstin väri"
-
-#: kedit.cpp:174
-msgid "&Background Color"
-msgstr "T&austan väri"
-
-#: kedit.cpp:177 kedit.cpp:268
-msgid "&Help"
-msgstr "&Ohje"
 
 #: kedit.cpp:180
 msgid "&About..."
@@ -95,18 +59,6 @@ msgstr "&Avaa..."
 msgid "Open Recen&t..."
 msgstr "Avaa &URL ..."
 
-#: kedit.cpp:194
-msgid "&Save"
-msgstr "&Tallenna"
-
-#: kedit.cpp:196
-msgid "S&ave as..."
-msgstr "&Tallenna nimellä ..."
-
-#: kedit.cpp:198
-msgid "&Close"
-msgstr "&Sulje"
-
 #: kedit.cpp:201
 msgid "Open &URL..."
 msgstr "Avaa &URL ..."
@@ -115,10 +67,6 @@ msgstr "Avaa &URL ..."
 msgid "Save to U&RL..."
 msgstr "Tallenna U&RL ..."
 
-#: kedit.cpp:206
-msgid "&Print..."
-msgstr "Tul&osta..."
-
 #: kedit.cpp:209
 msgid "&Mail..."
 msgstr "&Postita..."
@@ -126,22 +74,6 @@ msgstr "&Postita..."
 #: kedit.cpp:213
 msgid "New &Window"
 msgstr "Uusi &ikkuna"
-
-#: kedit.cpp:216
-msgid "E&xit"
-msgstr "&Lopeta"
-
-#: kedit.cpp:220
-msgid "&Copy"
-msgstr "&Kopioi"
-
-#: kedit.cpp:223
-msgid "&Paste"
-msgstr "L&iitä"
-
-#: kedit.cpp:225
-msgid "C&ut"
-msgstr "&Leikkaa"
 
 #: kedit.cpp:227
 msgid "&Select All"
@@ -201,18 +133,6 @@ msgstr "T&ilarivi"
 msgid "Save Options"
 msgstr "Tallenna asetukset"
 
-#: kedit.cpp:264
-msgid "&File"
-msgstr "&Tiedosto"
-
-#: kedit.cpp:265
-msgid "&Edit"
-msgstr "&Muokkaa"
-
-#: kedit.cpp:266
-msgid "&Options"
-msgstr "&Asetukset"
-
 #: kedit.cpp:288
 msgid "New Document"
 msgstr "Uusi asiakirja"
@@ -233,11 +153,6 @@ msgstr "Tulosta asiakirja"
 msgid "Mail Document"
 msgstr "Postita asiakirja"
 
-#: kedit.cpp:448 kedit.cpp:508 kedit.cpp:1456 keditcl2.cpp:690
-#: keditcl2.cpp:797
-msgid "Done"
-msgstr "Valmis"
-
 #: kedit.cpp:533
 msgid "Open Location:"
 msgstr "Avaa sijainti:"
@@ -257,13 +172,6 @@ msgid ""
 msgstr ""
 "Asiakirjaa on muutettu.\n"
 "Haluatko tallentaa sen?"
-
-#: filldlg.cpp:134 kedit.cpp:590 kedit.cpp:745 kedit.cpp:870 kedit.cpp:1140
-#: kedit.cpp:1329 kedit.cpp:1349 kedit.cpp:1366 kedit.cpp:1412 kedit.cpp:1442
-#: kedit.cpp:1461 kedit.cpp:1944 keditcl1.cpp:127 keditcl1.cpp:156
-#: keditcl1.cpp:177 keditcl1.cpp:190 keditcl1.cpp:1470 mail.cpp:95
-msgid "Sorry"
-msgstr "Valitettavasti"
 
 #: kedit.cpp:591 kedit.cpp:746
 msgid ""
@@ -620,6 +528,69 @@ msgstr ""
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr ""
+
+#~ msgid "Open..."
+#~ msgstr "Avaa..."
+
+#~ msgid "Save as..."
+#~ msgstr "Tallenna nimellä ..."
+
+#~ msgid "Copy"
+#~ msgstr "Kopioi"
+
+#~ msgid "Paste"
+#~ msgstr "Liitä"
+
+#~ msgid "Cut"
+#~ msgstr "Leikkaa"
+
+#~ msgid "&Foreground Color"
+#~ msgstr "&Tekstin väri"
+
+#~ msgid "&Background Color"
+#~ msgstr "T&austan väri"
+
+#~ msgid "&Help"
+#~ msgstr "&Ohje"
+
+#~ msgid "&Save"
+#~ msgstr "&Tallenna"
+
+#~ msgid "S&ave as..."
+#~ msgstr "&Tallenna nimellä ..."
+
+#~ msgid "&Close"
+#~ msgstr "&Sulje"
+
+#~ msgid "&Print..."
+#~ msgstr "Tul&osta..."
+
+#~ msgid "E&xit"
+#~ msgstr "&Lopeta"
+
+#~ msgid "&Copy"
+#~ msgstr "&Kopioi"
+
+#~ msgid "&Paste"
+#~ msgstr "L&iitä"
+
+#~ msgid "C&ut"
+#~ msgstr "&Leikkaa"
+
+#~ msgid "&File"
+#~ msgstr "&Tiedosto"
+
+#~ msgid "&Edit"
+#~ msgstr "&Muokkaa"
+
+#~ msgid "&Options"
+#~ msgstr "&Asetukset"
+
+#~ msgid "Done"
+#~ msgstr "Valmis"
+
+#~ msgid "Sorry"
+#~ msgstr "Valitettavasti"
 
 #~ msgid "Could not Save the Changes\n"
 #~ msgstr "Muutoksien tallentaminen epäonnistui\n"

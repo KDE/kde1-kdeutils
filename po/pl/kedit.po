@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-12-28 19:24+0100\n"
+"POT-Creation-Date: 1997-12-31 01:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,47 +30,10 @@ msgstr "Pokaz pasek &stanu"
 msgid "Hide &Status Bar"
 msgstr "Ukryj pasek &stanu"
 
-#: kedit.cpp:138
-msgid "Open..."
-msgstr "Otwórz..."
-
-#: kedit.cpp:142
-msgid "Save as..."
-msgstr "Zachowaj &jako..."
-
-#: kedit.cpp:145 kedit.cpp:306
-msgid "Copy"
-msgstr "Kopiuj"
-
-#: kedit.cpp:147 kedit.cpp:311
-msgid "Paste"
-msgstr "Wklej"
-
-#: kedit.cpp:149 kedit.cpp:316
-msgid "Cut"
-msgstr "Wytnij"
-
 #: kedit.cpp:151
 #, fuzzy
 msgid "Select All"
 msgstr "Zaz&nacz wszystko"
-
-#: kedit.cpp:154
-#, fuzzy
-msgid "Font"
-msgstr "&Czcionka"
-
-#: kedit.cpp:172
-msgid "&Foreground Color"
-msgstr "Kolor te&kstu"
-
-#: kedit.cpp:174
-msgid "&Background Color"
-msgstr "Kolor &t³a"
-
-#: kedit.cpp:177 kedit.cpp:268
-msgid "&Help"
-msgstr "Pomo&c"
 
 #: kedit.cpp:180
 msgid "&About..."
@@ -88,18 +51,6 @@ msgstr "&Otwórz..."
 msgid "Open Recen&t..."
 msgstr "Otwórz poprz&edni..."
 
-#: kedit.cpp:194
-msgid "&Save"
-msgstr "&Zapisz"
-
-#: kedit.cpp:196
-msgid "S&ave as..."
-msgstr "Zapisz &jako..."
-
-#: kedit.cpp:198
-msgid "&Close"
-msgstr "&Zamknij"
-
 #: kedit.cpp:201
 msgid "Open &URL..."
 msgstr "Otwórz &URL..."
@@ -108,10 +59,6 @@ msgstr "Otwórz &URL..."
 msgid "Save to U&RL..."
 msgstr "Zapisz do U&RL..."
 
-#: kedit.cpp:206
-msgid "&Print..."
-msgstr "&Drukuj..."
-
 #: kedit.cpp:209
 msgid "&Mail..."
 msgstr "&Poczta..."
@@ -119,22 +66,6 @@ msgstr "&Poczta..."
 #: kedit.cpp:213
 msgid "New &Window"
 msgstr "Nowe &okno"
-
-#: kedit.cpp:216
-msgid "E&xit"
-msgstr "&Wyj¶cie"
-
-#: kedit.cpp:220
-msgid "&Copy"
-msgstr "&Kopiuj"
-
-#: kedit.cpp:223
-msgid "&Paste"
-msgstr "&Wklej"
-
-#: kedit.cpp:225
-msgid "C&ut"
-msgstr "&Wytnij"
 
 #: kedit.cpp:227
 msgid "&Select All"
@@ -194,18 +125,6 @@ msgstr "Pasek &stanu"
 msgid "Save Options"
 msgstr "Zachowaj opcje"
 
-#: kedit.cpp:264
-msgid "&File"
-msgstr "&Plik"
-
-#: kedit.cpp:265
-msgid "&Edit"
-msgstr "&Edycja"
-
-#: kedit.cpp:266
-msgid "&Options"
-msgstr "&Opcje"
-
 #: kedit.cpp:288
 msgid "New Document"
 msgstr "Nowy dokument"
@@ -226,11 +145,6 @@ msgstr "Drukuj dokument"
 msgid "Mail Document"
 msgstr "Wy¶lij dokument poczt±"
 
-#: kedit.cpp:448 kedit.cpp:508 kedit.cpp:1456 keditcl2.cpp:690
-#: keditcl2.cpp:797
-msgid "Done"
-msgstr "O&K"
-
 #: kedit.cpp:533
 msgid "Open Location:"
 msgstr "Otwórz lokacjê:"
@@ -250,13 +164,6 @@ msgid ""
 msgstr ""
 "Ten dokument zosta³ zmieniony.\n"
 "Czy chcesz go zapisaæ?"
-
-#: filldlg.cpp:134 kedit.cpp:590 kedit.cpp:745 kedit.cpp:870 kedit.cpp:1140
-#: kedit.cpp:1329 kedit.cpp:1349 kedit.cpp:1366 kedit.cpp:1412 kedit.cpp:1442
-#: kedit.cpp:1461 kedit.cpp:1944 keditcl1.cpp:127 keditcl1.cpp:156
-#: keditcl1.cpp:177 keditcl1.cpp:190 keditcl1.cpp:1470 mail.cpp:95
-msgid "Sorry"
-msgstr "Przykro mi"
 
 #: kedit.cpp:591 kedit.cpp:746
 msgid ""
@@ -620,6 +527,73 @@ msgstr "Poczta"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Musisz okre¶liæ adresata"
+
+#~ msgid "Open..."
+#~ msgstr "Otwórz..."
+
+#~ msgid "Save as..."
+#~ msgstr "Zachowaj &jako..."
+
+#~ msgid "Copy"
+#~ msgstr "Kopiuj"
+
+#~ msgid "Paste"
+#~ msgstr "Wklej"
+
+#~ msgid "Cut"
+#~ msgstr "Wytnij"
+
+#, fuzzy
+#~ msgid "Font"
+#~ msgstr "&Czcionka"
+
+#~ msgid "&Foreground Color"
+#~ msgstr "Kolor te&kstu"
+
+#~ msgid "&Background Color"
+#~ msgstr "Kolor &t³a"
+
+#~ msgid "&Help"
+#~ msgstr "Pomo&c"
+
+#~ msgid "&Save"
+#~ msgstr "&Zapisz"
+
+#~ msgid "S&ave as..."
+#~ msgstr "Zapisz &jako..."
+
+#~ msgid "&Close"
+#~ msgstr "&Zamknij"
+
+#~ msgid "&Print..."
+#~ msgstr "&Drukuj..."
+
+#~ msgid "E&xit"
+#~ msgstr "&Wyj¶cie"
+
+#~ msgid "&Copy"
+#~ msgstr "&Kopiuj"
+
+#~ msgid "&Paste"
+#~ msgstr "&Wklej"
+
+#~ msgid "C&ut"
+#~ msgstr "&Wytnij"
+
+#~ msgid "&File"
+#~ msgstr "&Plik"
+
+#~ msgid "&Edit"
+#~ msgstr "&Edycja"
+
+#~ msgid "&Options"
+#~ msgstr "&Opcje"
+
+#~ msgid "Done"
+#~ msgstr "O&K"
+
+#~ msgid "Sorry"
+#~ msgstr "Przykro mi"
 
 #~ msgid "Could not Save the Changes\n"
 #~ msgstr "Nie mo¿na zachowaæ zmian\n"

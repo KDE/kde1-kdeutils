@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
-"POT-Creation-Date: 1997-12-28 19:24+0100\n"
+"POT-Creation-Date: 1997-12-31 01:57+0100\n"
 "PO-Revision-Date: 1997-12-28 19:17+01\n"
 "Last-Translator: Stephan Kulow <coolo@kde.org>\n"
 
@@ -21,45 +21,9 @@ msgstr "Statusleiste zeigen"
 msgid "Hide &Status Bar"
 msgstr "Statusleiste verbergen"
 
-#: kedit.cpp:138
-msgid "Open..."
-msgstr "Öffnen..."
-
-#: kedit.cpp:142
-msgid "Save as..."
-msgstr "Speichern unter..."
-
-#: kedit.cpp:145 kedit.cpp:306
-msgid "Copy"
-msgstr "Kopieren"
-
-#: kedit.cpp:147 kedit.cpp:311
-msgid "Paste"
-msgstr "Einfügen"
-
-#: kedit.cpp:149 kedit.cpp:316
-msgid "Cut"
-msgstr "Ausschneiden"
-
 #: kedit.cpp:151
 msgid "Select All"
 msgstr "Alle auswählen"
-
-#: kedit.cpp:154
-msgid "Font"
-msgstr "Zeichensatz"
-
-#: kedit.cpp:172
-msgid "&Foreground Color"
-msgstr "&Vordergrundfarbe"
-
-#: kedit.cpp:174
-msgid "&Background Color"
-msgstr "&Hintergrundfarbe"
-
-#: kedit.cpp:177 kedit.cpp:268
-msgid "&Help"
-msgstr "&Hilfe"
 
 #: kedit.cpp:180
 msgid "&About..."
@@ -77,18 +41,6 @@ msgstr "Ö&ffnen..."
 msgid "Open Recen&t..."
 msgstr "&Letzte öffnen..."
 
-#: kedit.cpp:194
-msgid "&Save"
-msgstr "&Speichern"
-
-#: kedit.cpp:196
-msgid "S&ave as..."
-msgstr "Speichern &unter..."
-
-#: kedit.cpp:198
-msgid "&Close"
-msgstr "Sch&ließen"
-
 #: kedit.cpp:201
 msgid "Open &URL..."
 msgstr "&URL öffnen"
@@ -97,10 +49,6 @@ msgstr "&URL öffnen"
 msgid "Save to U&RL..."
 msgstr "Unter U&RL speichern..."
 
-#: kedit.cpp:206
-msgid "&Print..."
-msgstr "&Drucken..."
-
 #: kedit.cpp:209
 msgid "&Mail..."
 msgstr "Als &Email versenden..."
@@ -108,22 +56,6 @@ msgstr "Als &Email versenden..."
 #: kedit.cpp:213
 msgid "New &Window"
 msgstr "Neues &Fenster"
-
-#: kedit.cpp:216
-msgid "E&xit"
-msgstr "&Beenden"
-
-#: kedit.cpp:220
-msgid "&Copy"
-msgstr "&Kopieren"
-
-#: kedit.cpp:223
-msgid "&Paste"
-msgstr "&Einfügen"
-
-#: kedit.cpp:225
-msgid "C&ut"
-msgstr "&Ausschneiden"
 
 #: kedit.cpp:227
 msgid "&Select All"
@@ -181,18 +113,6 @@ msgstr "&Statusleiste"
 msgid "Save Options"
 msgstr "Einstellungen sichern"
 
-#: kedit.cpp:264
-msgid "&File"
-msgstr "&Datei"
-
-#: kedit.cpp:265
-msgid "&Edit"
-msgstr "&Bearbeiten"
-
-#: kedit.cpp:266
-msgid "&Options"
-msgstr "&Einstellungen"
-
 #: kedit.cpp:288
 msgid "New Document"
 msgstr "Neues Dokument"
@@ -213,11 +133,6 @@ msgstr "Dokument drucken"
 msgid "Mail Document"
 msgstr "Dokument als Email schicken"
 
-#: kedit.cpp:448 kedit.cpp:508 kedit.cpp:1456 keditcl2.cpp:690
-#: keditcl2.cpp:797
-msgid "Done"
-msgstr "Fertig"
-
 #: kedit.cpp:533
 msgid "Open Location:"
 msgstr "URL öffnen:"
@@ -237,13 +152,6 @@ msgid ""
 msgstr ""
 "Das Dokument wurde verändert!\n"
 "Wollen Sie es speichern?"
-
-#: filldlg.cpp:134 kedit.cpp:590 kedit.cpp:745 kedit.cpp:870 kedit.cpp:1140
-#: kedit.cpp:1329 kedit.cpp:1349 kedit.cpp:1366 kedit.cpp:1412 kedit.cpp:1442
-#: kedit.cpp:1461 kedit.cpp:1944 keditcl1.cpp:127 keditcl1.cpp:156
-#: keditcl1.cpp:177 keditcl1.cpp:190 keditcl1.cpp:1470 mail.cpp:95
-msgid "Sorry"
-msgstr "Sorry"
 
 #: kedit.cpp:591 kedit.cpp:746
 msgid ""
@@ -601,3 +509,4 @@ msgstr "Email"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Sie müssen einen Empfänger eingeben"
+

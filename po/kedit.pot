@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-12-28 19:24+0100\n"
+"POT-Creation-Date: 1997-12-31 01:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,44 +30,8 @@ msgstr ""
 msgid "Hide &Status Bar"
 msgstr ""
 
-#: kedit.cpp:138
-msgid "Open..."
-msgstr ""
-
-#: kedit.cpp:142
-msgid "Save as..."
-msgstr ""
-
-#: kedit.cpp:145 kedit.cpp:306
-msgid "Copy"
-msgstr ""
-
-#: kedit.cpp:147 kedit.cpp:311
-msgid "Paste"
-msgstr ""
-
-#: kedit.cpp:149 kedit.cpp:316
-msgid "Cut"
-msgstr ""
-
 #: kedit.cpp:151
 msgid "Select All"
-msgstr ""
-
-#: kedit.cpp:154
-msgid "Font"
-msgstr ""
-
-#: kedit.cpp:172
-msgid "&Foreground Color"
-msgstr ""
-
-#: kedit.cpp:174
-msgid "&Background Color"
-msgstr ""
-
-#: kedit.cpp:177 kedit.cpp:268
-msgid "&Help"
 msgstr ""
 
 #: kedit.cpp:180
@@ -86,18 +50,6 @@ msgstr ""
 msgid "Open Recen&t..."
 msgstr ""
 
-#: kedit.cpp:194
-msgid "&Save"
-msgstr ""
-
-#: kedit.cpp:196
-msgid "S&ave as..."
-msgstr ""
-
-#: kedit.cpp:198
-msgid "&Close"
-msgstr ""
-
 #: kedit.cpp:201
 msgid "Open &URL..."
 msgstr ""
@@ -106,32 +58,12 @@ msgstr ""
 msgid "Save to U&RL..."
 msgstr ""
 
-#: kedit.cpp:206
-msgid "&Print..."
-msgstr ""
-
 #: kedit.cpp:209
 msgid "&Mail..."
 msgstr ""
 
 #: kedit.cpp:213
 msgid "New &Window"
-msgstr ""
-
-#: kedit.cpp:216
-msgid "E&xit"
-msgstr ""
-
-#: kedit.cpp:220
-msgid "&Copy"
-msgstr ""
-
-#: kedit.cpp:223
-msgid "&Paste"
-msgstr ""
-
-#: kedit.cpp:225
-msgid "C&ut"
 msgstr ""
 
 #: kedit.cpp:227
@@ -190,18 +122,6 @@ msgstr ""
 msgid "Save Options"
 msgstr ""
 
-#: kedit.cpp:264
-msgid "&File"
-msgstr ""
-
-#: kedit.cpp:265
-msgid "&Edit"
-msgstr ""
-
-#: kedit.cpp:266
-msgid "&Options"
-msgstr ""
-
 #: kedit.cpp:288
 msgid "New Document"
 msgstr ""
@@ -222,11 +142,6 @@ msgstr ""
 msgid "Mail Document"
 msgstr ""
 
-#: kedit.cpp:448 kedit.cpp:508 kedit.cpp:1456 keditcl2.cpp:690
-#: keditcl2.cpp:797
-msgid "Done"
-msgstr ""
-
 #: kedit.cpp:533
 msgid "Open Location:"
 msgstr ""
@@ -243,13 +158,6 @@ msgstr ""
 msgid ""
 "This Document has been modified.\n"
 "Would you like to save it?"
-msgstr ""
-
-#: filldlg.cpp:134 kedit.cpp:590 kedit.cpp:745 kedit.cpp:870 kedit.cpp:1140
-#: kedit.cpp:1329 kedit.cpp:1349 kedit.cpp:1366 kedit.cpp:1412 kedit.cpp:1442
-#: kedit.cpp:1461 kedit.cpp:1944 keditcl1.cpp:127 keditcl1.cpp:156
-#: keditcl1.cpp:177 keditcl1.cpp:190 keditcl1.cpp:1470 mail.cpp:95
-msgid "Sorry"
 msgstr ""
 
 #: kedit.cpp:591 kedit.cpp:746

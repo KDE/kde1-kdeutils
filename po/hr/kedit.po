@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-12-28 19:24+0100\n"
+"POT-Creation-Date: 1997-12-31 01:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,47 +30,10 @@ msgstr "Poka¾i s&tatus"
 msgid "Hide &Status Bar"
 msgstr "Sakrij st&atus"
 
-#: kedit.cpp:138
-msgid "Open..."
-msgstr "Otvori..."
-
-#: kedit.cpp:142
-msgid "Save as..."
-msgstr "Snimi kao..."
-
-#: kedit.cpp:145 kedit.cpp:306
-msgid "Copy"
-msgstr "Kopiraj"
-
-#: kedit.cpp:147 kedit.cpp:311
-msgid "Paste"
-msgstr "Umetni"
-
-#: kedit.cpp:149 kedit.cpp:316
-msgid "Cut"
-msgstr "Izre¾i"
-
 #: kedit.cpp:151
 #, fuzzy
 msgid "Select All"
 msgstr "Zamijeni sve"
-
-#: kedit.cpp:154
-#, fuzzy
-msgid "Font"
-msgstr "&Font"
-
-#: kedit.cpp:172
-msgid "&Foreground Color"
-msgstr "Boja s&lova"
-
-#: kedit.cpp:174
-msgid "&Background Color"
-msgstr "&Boja pozadine"
-
-#: kedit.cpp:177 kedit.cpp:268
-msgid "&Help"
-msgstr "&Pomoæ"
 
 #: kedit.cpp:180
 msgid "&About..."
@@ -89,18 +52,6 @@ msgstr "&Otvori..."
 msgid "Open Recen&t..."
 msgstr "Otvori &URL..."
 
-#: kedit.cpp:194
-msgid "&Save"
-msgstr "&Snimi"
-
-#: kedit.cpp:196
-msgid "S&ave as..."
-msgstr "S&nimi kao..."
-
-#: kedit.cpp:198
-msgid "&Close"
-msgstr "Za&tvori"
-
 #: kedit.cpp:201
 msgid "Open &URL..."
 msgstr "Otvori &URL..."
@@ -109,10 +60,6 @@ msgstr "Otvori &URL..."
 msgid "Save to U&RL..."
 msgstr "Snimi u U&RL..."
 
-#: kedit.cpp:206
-msgid "&Print..."
-msgstr "&Pi¹i..."
-
 #: kedit.cpp:209
 msgid "&Mail..."
 msgstr "P&o¹ta..."
@@ -120,22 +67,6 @@ msgstr "P&o¹ta..."
 #: kedit.cpp:213
 msgid "New &Window"
 msgstr "Novi p&rozor"
-
-#: kedit.cpp:216
-msgid "E&xit"
-msgstr "&Zavr¹i"
-
-#: kedit.cpp:220
-msgid "&Copy"
-msgstr "&Kopiraj"
-
-#: kedit.cpp:223
-msgid "&Paste"
-msgstr "&Umetni"
-
-#: kedit.cpp:225
-msgid "C&ut"
-msgstr "&Izre¾i"
 
 #: kedit.cpp:227
 #, fuzzy
@@ -196,18 +127,6 @@ msgstr "S&tatusna linija"
 msgid "Save Options"
 msgstr "Snimi pode¹avanja"
 
-#: kedit.cpp:264
-msgid "&File"
-msgstr "&Datoteka"
-
-#: kedit.cpp:265
-msgid "&Edit"
-msgstr "&Urednik"
-
-#: kedit.cpp:266
-msgid "&Options"
-msgstr "&Pode¹avanja"
-
 #: kedit.cpp:288
 msgid "New Document"
 msgstr "Novi dokument"
@@ -228,11 +147,6 @@ msgstr "Ispi¹i dokument"
 msgid "Mail Document"
 msgstr "Po¹alji dokument po¹tom"
 
-#: kedit.cpp:448 kedit.cpp:508 kedit.cpp:1456 keditcl2.cpp:690
-#: keditcl2.cpp:797
-msgid "Done"
-msgstr "Gotovo"
-
 #: kedit.cpp:533
 msgid "Open Location:"
 msgstr "Otvori lokaciju:"
@@ -252,13 +166,6 @@ msgid ""
 msgstr ""
 "Ovaj dokument je mijenjan.\n"
 "®elite li ga snimiti?"
-
-#: filldlg.cpp:134 kedit.cpp:590 kedit.cpp:745 kedit.cpp:870 kedit.cpp:1140
-#: kedit.cpp:1329 kedit.cpp:1349 kedit.cpp:1366 kedit.cpp:1412 kedit.cpp:1442
-#: kedit.cpp:1461 kedit.cpp:1944 keditcl1.cpp:127 keditcl1.cpp:156
-#: keditcl1.cpp:177 keditcl1.cpp:190 keditcl1.cpp:1470 mail.cpp:95
-msgid "Sorry"
-msgstr "®alim"
 
 #: kedit.cpp:591 kedit.cpp:746
 msgid ""
@@ -621,6 +528,73 @@ msgstr "Po¹ta"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Morate navesti primatelja"
+
+#~ msgid "Open..."
+#~ msgstr "Otvori..."
+
+#~ msgid "Save as..."
+#~ msgstr "Snimi kao..."
+
+#~ msgid "Copy"
+#~ msgstr "Kopiraj"
+
+#~ msgid "Paste"
+#~ msgstr "Umetni"
+
+#~ msgid "Cut"
+#~ msgstr "Izre¾i"
+
+#, fuzzy
+#~ msgid "Font"
+#~ msgstr "&Font"
+
+#~ msgid "&Foreground Color"
+#~ msgstr "Boja s&lova"
+
+#~ msgid "&Background Color"
+#~ msgstr "&Boja pozadine"
+
+#~ msgid "&Help"
+#~ msgstr "&Pomoæ"
+
+#~ msgid "&Save"
+#~ msgstr "&Snimi"
+
+#~ msgid "S&ave as..."
+#~ msgstr "S&nimi kao..."
+
+#~ msgid "&Close"
+#~ msgstr "Za&tvori"
+
+#~ msgid "&Print..."
+#~ msgstr "&Pi¹i..."
+
+#~ msgid "E&xit"
+#~ msgstr "&Zavr¹i"
+
+#~ msgid "&Copy"
+#~ msgstr "&Kopiraj"
+
+#~ msgid "&Paste"
+#~ msgstr "&Umetni"
+
+#~ msgid "C&ut"
+#~ msgstr "&Izre¾i"
+
+#~ msgid "&File"
+#~ msgstr "&Datoteka"
+
+#~ msgid "&Edit"
+#~ msgstr "&Urednik"
+
+#~ msgid "&Options"
+#~ msgstr "&Pode¹avanja"
+
+#~ msgid "Done"
+#~ msgstr "Gotovo"
+
+#~ msgid "Sorry"
+#~ msgstr "®alim"
 
 #~ msgid "Could not Save the Changes\n"
 #~ msgstr "Ne mogu snimiti promjene\n"

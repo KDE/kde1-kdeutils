@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdehelp 0.5.2\n"
-"POT-Creation-Date: 1997-12-28 19:24+0100\n"
+"POT-Creation-Date: 1997-12-31 01:57+0100\n"
 "PO-Revision-Date: 1997-09-21 19:39+MET\n"
 "Last-Translator: Nagy Balazs <julian7@kva.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -29,47 +29,10 @@ msgstr "&Státuszsor megjelenítése"
 msgid "Hide &Status Bar"
 msgstr "S&tátuszsor elrejtése"
 
-#: kedit.cpp:138
-msgid "Open..."
-msgstr "Megnyitás..."
-
-#: kedit.cpp:142
-msgid "Save as..."
-msgstr "Mentés másként..."
-
-#: kedit.cpp:145 kedit.cpp:306
-msgid "Copy"
-msgstr "Másol"
-
-#: kedit.cpp:147 kedit.cpp:311
-msgid "Paste"
-msgstr "Beilleszt"
-
-#: kedit.cpp:149 kedit.cpp:316
-msgid "Cut"
-msgstr "Kivág"
-
 #: kedit.cpp:151
 #, fuzzy
 msgid "Select All"
 msgstr "Mindent cserél"
-
-#: kedit.cpp:154
-#, fuzzy
-msgid "Font"
-msgstr "&Font"
-
-#: kedit.cpp:172
-msgid "&Foreground Color"
-msgstr "&Elõtérszín"
-
-#: kedit.cpp:174
-msgid "&Background Color"
-msgstr "&Háttérszín"
-
-#: kedit.cpp:177 kedit.cpp:268
-msgid "&Help"
-msgstr "&Segítség"
 
 #: kedit.cpp:180
 msgid "&About..."
@@ -88,18 +51,6 @@ msgstr "&Megnyitás..."
 msgid "Open Recen&t..."
 msgstr "&URL megnyitása..."
 
-#: kedit.cpp:194
-msgid "&Save"
-msgstr "M&entés"
-
-#: kedit.cpp:196
-msgid "S&ave as..."
-msgstr "Me&ntés másként..."
-
-#: kedit.cpp:198
-msgid "&Close"
-msgstr "&Bezárás"
-
 #: kedit.cpp:201
 msgid "Open &URL..."
 msgstr "&URL megnyitása..."
@@ -108,10 +59,6 @@ msgstr "&URL megnyitása..."
 msgid "Save to U&RL..."
 msgstr "Mentés U&RL-be..."
 
-#: kedit.cpp:206
-msgid "&Print..."
-msgstr "N&yomtatás..."
-
 #: kedit.cpp:209
 msgid "&Mail..."
 msgstr "&Levél..."
@@ -119,22 +66,6 @@ msgstr "&Levél..."
 #: kedit.cpp:213
 msgid "New &Window"
 msgstr "Új &ablak"
-
-#: kedit.cpp:216
-msgid "E&xit"
-msgstr "&Kilépés"
-
-#: kedit.cpp:220
-msgid "&Copy"
-msgstr "&Másolás"
-
-#: kedit.cpp:223
-msgid "&Paste"
-msgstr "&Beillesztés"
-
-#: kedit.cpp:225
-msgid "C&ut"
-msgstr "&Kivágás"
 
 #: kedit.cpp:227
 #, fuzzy
@@ -195,18 +126,6 @@ msgstr "&Státuszsor"
 msgid "Save Options"
 msgstr "Beállítások mentése"
 
-#: kedit.cpp:264
-msgid "&File"
-msgstr "&File"
-
-#: kedit.cpp:265
-msgid "&Edit"
-msgstr "S&zerkesztés"
-
-#: kedit.cpp:266
-msgid "&Options"
-msgstr "&Beállítások"
-
 #: kedit.cpp:288
 msgid "New Document"
 msgstr "Új dokumentum"
@@ -227,11 +146,6 @@ msgstr "Dokumentum nyomtatása"
 msgid "Mail Document"
 msgstr "Dokumentum postázása"
 
-#: kedit.cpp:448 kedit.cpp:508 kedit.cpp:1456 keditcl2.cpp:690
-#: keditcl2.cpp:797
-msgid "Done"
-msgstr "Kész"
-
 #: kedit.cpp:533
 msgid "Open Location:"
 msgstr "Megnyitandó cím:"
@@ -251,13 +165,6 @@ msgid ""
 msgstr ""
 "A dokumentum megváltozott.\n"
 "Ki akarja menteni?"
-
-#: filldlg.cpp:134 kedit.cpp:590 kedit.cpp:745 kedit.cpp:870 kedit.cpp:1140
-#: kedit.cpp:1329 kedit.cpp:1349 kedit.cpp:1366 kedit.cpp:1412 kedit.cpp:1442
-#: kedit.cpp:1461 kedit.cpp:1944 keditcl1.cpp:127 keditcl1.cpp:156
-#: keditcl1.cpp:177 keditcl1.cpp:190 keditcl1.cpp:1470 mail.cpp:95
-msgid "Sorry"
-msgstr "Elnézést"
 
 #: kedit.cpp:591 kedit.cpp:746
 msgid ""
@@ -620,6 +527,73 @@ msgstr "Küldés"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Kérem, írja be a címzettet"
+
+#~ msgid "Open..."
+#~ msgstr "Megnyitás..."
+
+#~ msgid "Save as..."
+#~ msgstr "Mentés másként..."
+
+#~ msgid "Copy"
+#~ msgstr "Másol"
+
+#~ msgid "Paste"
+#~ msgstr "Beilleszt"
+
+#~ msgid "Cut"
+#~ msgstr "Kivág"
+
+#, fuzzy
+#~ msgid "Font"
+#~ msgstr "&Font"
+
+#~ msgid "&Foreground Color"
+#~ msgstr "&Elõtérszín"
+
+#~ msgid "&Background Color"
+#~ msgstr "&Háttérszín"
+
+#~ msgid "&Help"
+#~ msgstr "&Segítség"
+
+#~ msgid "&Save"
+#~ msgstr "M&entés"
+
+#~ msgid "S&ave as..."
+#~ msgstr "Me&ntés másként..."
+
+#~ msgid "&Close"
+#~ msgstr "&Bezárás"
+
+#~ msgid "&Print..."
+#~ msgstr "N&yomtatás..."
+
+#~ msgid "E&xit"
+#~ msgstr "&Kilépés"
+
+#~ msgid "&Copy"
+#~ msgstr "&Másolás"
+
+#~ msgid "&Paste"
+#~ msgstr "&Beillesztés"
+
+#~ msgid "C&ut"
+#~ msgstr "&Kivágás"
+
+#~ msgid "&File"
+#~ msgstr "&File"
+
+#~ msgid "&Edit"
+#~ msgstr "S&zerkesztés"
+
+#~ msgid "&Options"
+#~ msgstr "&Beállítások"
+
+#~ msgid "Done"
+#~ msgstr "Kész"
+
+#~ msgid "Sorry"
+#~ msgstr "Elnézést"
 
 #~ msgid "Could not Save the Changes\n"
 #~ msgstr "Nem lehet menteni a változásokat\n"

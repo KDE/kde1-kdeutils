@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kedit\n"
-"POT-Creation-Date: 1997-12-28 19:24+0100\n"
+"POT-Creation-Date: 1997-12-31 01:57+0100\n"
 "PO-Revision-Date: 1997-10-19 12:49 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <LL@li.org>\n"
@@ -29,47 +29,10 @@ msgstr "Zapni &statusbar"
 msgid "Hide &Status Bar"
 msgstr "Vypni &statusbar"
 
-#: kedit.cpp:138
-msgid "Open..."
-msgstr "Otevøít..."
-
-#: kedit.cpp:142
-msgid "Save as..."
-msgstr "Ulo¾it jako..."
-
-#: kedit.cpp:145 kedit.cpp:306
-msgid "Copy"
-msgstr "Kopírovat"
-
-#: kedit.cpp:147 kedit.cpp:311
-msgid "Paste"
-msgstr "Vlo¾it"
-
-#: kedit.cpp:149 kedit.cpp:316
-msgid "Cut"
-msgstr "Vyjmout"
-
 #: kedit.cpp:151
 #, fuzzy
 msgid "Select All"
 msgstr "Nahraï v¹e"
-
-#: kedit.cpp:154
-#, fuzzy
-msgid "Font"
-msgstr "&Znaková sada"
-
-#: kedit.cpp:172
-msgid "&Foreground Color"
-msgstr "Barva &textu"
-
-#: kedit.cpp:174
-msgid "&Background Color"
-msgstr "Barva &pozadí"
-
-#: kedit.cpp:177 kedit.cpp:268
-msgid "&Help"
-msgstr "&Nápovìda"
 
 #: kedit.cpp:180
 msgid "&About..."
@@ -88,18 +51,6 @@ msgstr "&Otevøít..."
 msgid "Open Recen&t..."
 msgstr "Otevøi &URL..."
 
-#: kedit.cpp:194
-msgid "&Save"
-msgstr "U&lo¾it"
-
-#: kedit.cpp:196
-msgid "S&ave as..."
-msgstr "Ulo¾it &jako..."
-
-#: kedit.cpp:198
-msgid "&Close"
-msgstr "U&zavøít"
-
 #: kedit.cpp:201
 msgid "Open &URL..."
 msgstr "Otevøi &URL..."
@@ -108,10 +59,6 @@ msgstr "Otevøi &URL..."
 msgid "Save to U&RL..."
 msgstr "Ulo¾ na U&RL..."
 
-#: kedit.cpp:206
-msgid "&Print..."
-msgstr "&Tiskni"
-
 #: kedit.cpp:209
 msgid "&Mail..."
 msgstr "&Po¹ta..."
@@ -119,22 +66,6 @@ msgstr "&Po¹ta..."
 #: kedit.cpp:213
 msgid "New &Window"
 msgstr "No&vé okno"
-
-#: kedit.cpp:216
-msgid "E&xit"
-msgstr "U&konèit"
-
-#: kedit.cpp:220
-msgid "&Copy"
-msgstr "&Kopírovat"
-
-#: kedit.cpp:223
-msgid "&Paste"
-msgstr "&Vlo¾it"
-
-#: kedit.cpp:225
-msgid "C&ut"
-msgstr "Vyjmou&t"
 
 #: kedit.cpp:227
 #, fuzzy
@@ -195,18 +126,6 @@ msgstr "&Statusbar"
 msgid "Save Options"
 msgstr "Ulo¾ nastavení"
 
-#: kedit.cpp:264
-msgid "&File"
-msgstr "&Soubor"
-
-#: kedit.cpp:265
-msgid "&Edit"
-msgstr "Úp&ravy"
-
-#: kedit.cpp:266
-msgid "&Options"
-msgstr "&Mo¾nosti"
-
 #: kedit.cpp:288
 msgid "New Document"
 msgstr "Nový dokument"
@@ -227,11 +146,6 @@ msgstr "Tiskni dokument"
 msgid "Mail Document"
 msgstr "Ode¹li dokument po¹tou"
 
-#: kedit.cpp:448 kedit.cpp:508 kedit.cpp:1456 keditcl2.cpp:690
-#: keditcl2.cpp:797
-msgid "Done"
-msgstr "Hotovo"
-
 #: kedit.cpp:533
 msgid "Open Location:"
 msgstr "Otevøi místo:"
@@ -251,13 +165,6 @@ msgid ""
 msgstr ""
 "Tento dokument byl modifikován.\n"
 "Pøejete si ho ulo¾it?"
-
-#: filldlg.cpp:134 kedit.cpp:590 kedit.cpp:745 kedit.cpp:870 kedit.cpp:1140
-#: kedit.cpp:1329 kedit.cpp:1349 kedit.cpp:1366 kedit.cpp:1412 kedit.cpp:1442
-#: kedit.cpp:1461 kedit.cpp:1944 keditcl1.cpp:127 keditcl1.cpp:156
-#: keditcl1.cpp:177 keditcl1.cpp:190 keditcl1.cpp:1470 mail.cpp:95
-msgid "Sorry"
-msgstr "Sorry"
 
 #: kedit.cpp:591 kedit.cpp:746
 msgid ""
@@ -618,6 +525,73 @@ msgstr "Ode¹li"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Musíte urèit pøíjemce"
+
+#~ msgid "Open..."
+#~ msgstr "Otevøít..."
+
+#~ msgid "Save as..."
+#~ msgstr "Ulo¾it jako..."
+
+#~ msgid "Copy"
+#~ msgstr "Kopírovat"
+
+#~ msgid "Paste"
+#~ msgstr "Vlo¾it"
+
+#~ msgid "Cut"
+#~ msgstr "Vyjmout"
+
+#, fuzzy
+#~ msgid "Font"
+#~ msgstr "&Znaková sada"
+
+#~ msgid "&Foreground Color"
+#~ msgstr "Barva &textu"
+
+#~ msgid "&Background Color"
+#~ msgstr "Barva &pozadí"
+
+#~ msgid "&Help"
+#~ msgstr "&Nápovìda"
+
+#~ msgid "&Save"
+#~ msgstr "U&lo¾it"
+
+#~ msgid "S&ave as..."
+#~ msgstr "Ulo¾it &jako..."
+
+#~ msgid "&Close"
+#~ msgstr "U&zavøít"
+
+#~ msgid "&Print..."
+#~ msgstr "&Tiskni"
+
+#~ msgid "E&xit"
+#~ msgstr "U&konèit"
+
+#~ msgid "&Copy"
+#~ msgstr "&Kopírovat"
+
+#~ msgid "&Paste"
+#~ msgstr "&Vlo¾it"
+
+#~ msgid "C&ut"
+#~ msgstr "Vyjmou&t"
+
+#~ msgid "&File"
+#~ msgstr "&Soubor"
+
+#~ msgid "&Edit"
+#~ msgstr "Úp&ravy"
+
+#~ msgid "&Options"
+#~ msgstr "&Mo¾nosti"
+
+#~ msgid "Done"
+#~ msgstr "Hotovo"
+
+#~ msgid "Sorry"
+#~ msgstr "Sorry"
 
 #~ msgid "Could not Save the Changes\n"
 #~ msgstr "Není mo¾né ulo¾it zmìny\n"
