@@ -87,16 +87,14 @@ msgid "Auto Indent"
 msgstr "Indentation automatique"
 
 #: docking.cpp:71
-#, fuzzy
 msgid "Change Defaults"
 msgstr "Configurer ..."
 
 #: docking.cpp:76
 msgid "Exit Knotes"
-msgstr ""
+msgstr "Sortir de Knotes"
 
 #: docking.cpp:95
-#, fuzzy
 msgid "New Knote"
 msgstr "Nouvelle note"
 

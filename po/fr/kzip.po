@@ -5,7 +5,8 @@ msgstr ""
 "Project-Id-Version: kzip\n"
 "POT-Creation-Date: 1998-05-10 17:22+0200\n"
 "PO-Revision-Date: 1998-02-04 HO:MI+ZONE\n"
-"Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
+"Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
+"Last-Translator: David Faure <David.Faure@insa-lyon.fr>\n"
 "Language-Team: FRENCH <kde-i18n@kde.org>\n"
 
 #: adddlg.cc:11
@@ -66,7 +67,7 @@ msgstr "&Spécifier le répertoire de l'archive"
 
 #: kzip.cc:81
 msgid "Set &Tar Executable..."
-msgstr ""
+msgstr "Choisir le programme &Tar..."
 
 #: kzip.cc:82
 msgid "&File Adding Options..."
@@ -98,16 +99,15 @@ msgstr "Répertoire de l'archive :"
 
 #: kzip.cc:329
 msgid "What runs GNU tar:"
-msgstr ""
+msgstr "Ligne de commande pour GNU tar:"
 
 #: kzip.cc:366 kzip.cc:568
 msgid "Unknown archive format"
 msgstr "Format d'archive inconnu"
 
 #: kzip.cc:392
-#, fuzzy
 msgid "Archive directory does not exist."
-msgstr "Répertoire de l'archive"
+msgstr "Le répertoire de l'archive n'existe pas."
 
 #: kzip.cc:408
 msgid "Archive Directory"
