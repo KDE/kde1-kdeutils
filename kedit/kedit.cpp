@@ -93,8 +93,6 @@ TopLevel::TopLevel (QWidget *, const char *name)
   connect( dropZone, SIGNAL( dropAction( KDNDDropZone *) ), 
 	   this, SLOT( slotDropEvent( KDNDDropZone *) ) );
 
-  connect(mykapp,SIGNAL(saveYourself()),this,SLOT(wm_save_slot()));
-
 
   // Calling resize as is done here will reduce flicker considerably
   // ktoplevelwidget updateRect will be called only twice this way instead of 4 times.
@@ -103,8 +101,10 @@ TopLevel::TopLevel (QWidget *, const char *name)
   // be looked into. ktoolbar <-> ktoplevelwidget
 
   resize(editor_width,editor_height);
-  show();
-  resize(editor_width,editor_height);
+
+  // no show here! (Matthias)
+//   show();
+//   resize(editor_width,editor_height);
 }
 
 
@@ -359,16 +359,17 @@ void TopLevel::setupStatusBar(){
 }
 
 
-void TopLevel::wm_save_slot(){
 
-  KConfig *config = mykapp->getSessionConfig();
-  config->setGroup("restorableFiles");
-  int number = windowList.find(this); /* goes from 0 to n */
-  number ++;  /* need to have 1 to n */
-  QString num;
-  num.setNum(number);
-  config->writeEntry(num.data(),eframe->getName().data());
-  
+//Matthias
+void TopLevel::saveProperties(KConfig* config){
+    config->writeEntry("file",eframe->getName().data());
+}
+
+//Matthias
+void TopLevel::readProperties(KConfig* config){
+    QString file = config->readEntry("file","");
+    if(!file.isEmpty())
+	eframe->loadFile(file,KEdit::OPEN_INSERT);
 }
 
 void TopLevel::copy(){
@@ -1606,16 +1607,9 @@ int main (int argc, char **argv)
       QString number;
 
       while (KTopLevelWidget::canBeRestored(n)) {
-
 	  TopLevel *tl = new TopLevel();
 	  tl->restore(n);
 	  TopLevel::windowList.append( tl );
-
-	  number.setNum(n);
-	  QString file = config->readEntry(number.data(),"");
-printf("%d RESTORING FILE: %s\n",n,file.data());
-	  if(!file.isEmpty())
-	    tl->eframe->loadFile(file,KEdit::OPEN_INSERT);
           n++;
       }
 

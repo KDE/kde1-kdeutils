@@ -175,10 +175,16 @@ private:
     int openMode;
 
     //QString helpurl;
+
+
+    // Session management (Matthias)
+    void saveProperties(KConfig*);
+    void readProperties(KConfig*);
+    
+
     
 public slots:
 
-    void wm_save_slot();
     void set_colors();
     void gotoLine();
     void fill_column_slot();
