@@ -1,3 +1,4 @@
+
 #ifdef HAVE_CONFIG_H
 #include <config.h>
 #endif
@@ -180,7 +181,7 @@ void HexWidget::menuCallback(int item) {
 void HexWidget::unsaved(bool flag)
 {
     debug("setunsaved %d",flag);
-    KWM::setUnsavedDataHint(winId(), flag);
+    setUnsavedData(flag);
 }
 
 void HexWidget::open(const char* fileName, KIND_OF_OPEN kind) 

@@ -52,6 +52,7 @@ void HexFile::init() {
     leftM = &RedMarker;
     rightM = &GreenMarker;
     modified = false;
+    emit unsaved( false );
     scrollV=new QScrollBar(QScrollBar::Vertical,this);
     scrollV->show();
     scrollH=new QScrollBar(QScrollBar::Horizontal,this);
@@ -171,6 +172,7 @@ void HexFile::keyPressEvent (QKeyEvent* e) {
 	    else 
 		hexdata[cury*16+curx+lineoffset] = r & 0x0f | hexvalue(key) << 4;
 	    modified = changed = true;
+	    emit unsaved( true );
 	    relcur++;
 	    if (relcur==2) {
 		relcur = 0;
@@ -181,6 +183,7 @@ void HexFile::keyPressEvent (QKeyEvent* e) {
     } else if (key && e->key()<0x100) {
 	hexdata[cury*16+curx+lineoffset] = key;
 	modified = changed = true;
+	emit unsaved( true );
 	curx++;
     }
     key = e->key();
