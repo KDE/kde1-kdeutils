@@ -100,8 +100,8 @@ knotes:
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
  
-kzip:
-    KZip: A program for modifying archives via a GUI.
+ark:
+    Ark: A program for modifying archives via a GUI.
     Copyright (C) 1997 Robert Palmbos
 
     This program is free software; you can redistribute it and/or modify

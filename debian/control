@@ -8,5 +8,5 @@ Package: kdeutils
 Architecture: any
 Depends: ${shlibs:Depends}, kdebase
 Description: collection of useful kde utilities 
- this collection includes karm kcalc kedit khexdit kjots knotes kzip
+ this collection includes karm kcalc kedit khexdit kjots knotes ark
  (calculator, editor, hex editor ...)
