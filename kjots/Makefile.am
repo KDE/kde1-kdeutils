@@ -16,7 +16,7 @@ kjots_SOURCES = main.cpp\
 BUILT_SOURCES = mKJotsMain.cpp mSubjList.cpp mcpopmenu.cpp mconfdialog.cpp
 DISTCLEANFILES = $(BUILT_SOURCES)
 
-SIBDIRS = icons doc
+SUBDIRS = icons doc
 
 appsdir = $(kde_appsdir)/Utilities
 apps_DATA = Kjots.kdelnk
