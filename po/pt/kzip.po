@@ -1,5 +1,6 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 1997-12-31 15:20+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-10-09 11:06:57-0400\n"
 "From: Robert Palmbos <robertp@pbnjelly>\n"
@@ -8,180 +9,171 @@ msgstr ""
 "ktablistbox.cc kzip.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h "
 "extractdlg.h karch.h kfdird.h ktablistbox.h kzip.h lha.h tar.h text.h zip.h\n"
 
-#: adddlg.cc:9
+#: adddlg.cc:11
 msgid "Add File Options"
 msgstr "Opções de Adicionar Ficheiros"
 
-#: adddlg.cc:13 extractdlg.cc:69
-msgid "Ok"
-msgstr "Ok"
-
-#: adddlg.cc:16 arch.cc:33 extractdlg.cc:73
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: adddlg.cc:20
+#: adddlg.cc:22
 msgid "Store Full Path"
 msgstr "Armazenar Caminho Total"
 
-#: adddlg.cc:23
+#: adddlg.cc:25
 msgid "Only Add Newer Files"
 msgstr "Apenas Adicionar Ficheiros Recentes"
 
-#: extractdlg.cc:7
+#: extractdlg.cc:9
 msgid "Files"
 msgstr "Ficheiros"
 
-#: extractdlg.cc:11
+#: extractdlg.cc:13
 msgid "Extract Options"
 msgstr "Opções de Extracção"
 
-#: extractdlg.cc:15
+#: extractdlg.cc:17
 msgid "Destination"
 msgstr "Destino"
 
-#: extractdlg.cc:23
+#: extractdlg.cc:26
 msgid "Browse..."
 msgstr "Examinar..."
 
-#: extractdlg.cc:30
+#: extractdlg.cc:33
 msgid "Preserve Permissions"
 msgstr "Preservar Permissões"
 
-#: extractdlg.cc:33
+#: extractdlg.cc:36
 msgid "Filenames to Lowercase"
 msgstr "Nome de Ficheiros para Minusculas"
 
-#: extractdlg.cc:36
+#: extractdlg.cc:39
 msgid "All Files"
 msgstr "Todos os Ficheiros"
 
-#: extractdlg.cc:39
+#: extractdlg.cc:42
 msgid "Selected File"
 msgstr "Ficheiro Seleccionado"
 
-#: extractdlg.cc:42
+#: extractdlg.cc:45
 msgid "Pattern"
 msgstr "Padrão"
 
-#: kzip.cc:36
-msgid "&New"
+#: kzip.cc:60
+msgid "New &Window..."
+msgstr ""
+
+#: kzip.cc:62
+#, fuzzy
+msgid "&New..."
 msgstr "&Novo"
 
-#: kzip.cc:37
-msgid "&Open..."
-msgstr "&Abrir..."
-
-#: kzip.cc:39
+#: kzip.cc:65
 msgid "&Extract To..."
 msgstr "&Extrair Para..."
 
-#: kzip.cc:41
-msgid "&Close"
-msgstr "&Fechar"
-
-#: kzip.cc:42
-msgid "E&xit"
-msgstr "Sai&r"
-
-#: kzip.cc:44
+#: kzip.cc:70
 msgid "E&xtract..."
 msgstr "E&xtrair"
 
-#: kzip.cc:45
-msgid "&View"
-msgstr "&Ver"
-
-#: kzip.cc:47
+#: kzip.cc:73
 msgid "&Delete"
 msgstr "&Apagar"
 
-#: kzip.cc:49
+#: kzip.cc:75
 msgid "&Set Archive Directory..."
 msgstr "$Definir Directoria de Arquivo..."
 
-#: kzip.cc:50
+#: kzip.cc:76
 msgid "&File Adding Options..."
 msgstr "Opções de Adição de Ficheiros"
 
-#: kzip.cc:52
-msgid "&Help..."
-msgstr "&Ajuda..."
-
-#: kzip.cc:54
-msgid "&About..."
-msgstr "&Acerca"
-
-#: kzip.cc:56
-msgid "&File"
-msgstr "&Ficheiro"
-
-#: kzip.cc:57
-msgid "&Edit"
-msgstr "&Editar"
-
-#: kzip.cc:58
-msgid "&Options"
-msgstr "&Opções"
-
-#: kzip.cc:60
-msgid "&Help"
-msgstr "&Ajuda"
-
-#: kzip.cc:87
+#: kzip.cc:122
 msgid "Welcome to KZip..."
 msgstr "Bemvindo ao KZip..."
 
-#: kzip.cc:139
+#: kzip.cc:199
 msgid "Can't create archive of that type"
 msgstr "Não posso criar arquivo desse tipo"
 
-#: kzip.cc:160 kzip.cc:194 kzip.cc:201
+#: kzip.cc:220 kzip.cc:257 kzip.cc:265
 msgid "Create or open an archive first"
 msgstr "Crie ou abra um arquivo primeiro"
 
-#: kzip.cc:183
+#: kzip.cc:244
+msgid "Can't add directorys with this archive type"
+msgstr ""
+
+#: kzip.cc:246
 msgid "Error saving to archive"
 msgstr "Erro ao gravar para o arquivo"
 
-#: kzip.cc:212
+#: kzip.cc:276
 msgid "Archive Dir:"
 msgstr "Directoria de Arquivo:"
 
-#: kzip.cc:251 kzip.cc:422
+#: kzip.cc:313 kzip.cc:505
 msgid "Unknown archive format"
 msgstr "Formato de arquivo desconhecido"
 
-#: kzip.cc:286
+#: kzip.cc:349
 msgid "Archive Directory"
 msgstr "Directoria de Arquivo"
 
-#: kzip.cc:327
-msgid "None"
-msgstr "Nenhum"
+#~ msgid "&Open..."
+#~ msgstr "&Abrir..."
 
-#: kzip.cc:362
-msgid "Open With: (program)"
-msgstr "Abrir Com: (program)"
+#~ msgid "&View"
+#~ msgstr "&Ver"
 
-#: ar.h:24
-msgid "Permissions\tOwner/Group\tSize      \tTimeStamp         \tName\t"
-msgstr "Permissões\tDono/Grupo\tTamanho      \tTempo          \tNome\t"
+#~ msgid "Ok"
+#~ msgstr "Ok"
 
-#: lha.h:24
-msgid ""
-"Permsissions\tOwner/Group\tPacked      \tSize         "
-"\tRatio\tCRC\tTimeStamp     \tName\t"
-msgstr ""
-"Permissões\tDono/Grupo\tEmpacotado      \tTamanho      \tRatio\tCRC\tTempo   "
-"     \tNome\t"
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
 
-#: tar.h:22
-msgid "Permissions\tOwner/Group\tSize        \tTimeStamp\tName\t"
-msgstr "Permissões\tDono/Grupo\tTamanho       \tTempo\tNome\t"
+#~ msgid "&Close"
+#~ msgstr "&Fechar"
 
-#: zip.h:24
-msgid ""
-"Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
-msgstr ""
-"Extensão   \tMetodo\tTamanho      \tRatio\tData     \tTempo\tCRC-32\tNome\t"
+#~ msgid "E&xit"
+#~ msgstr "Sai&r"
+
+#~ msgid "&Help..."
+#~ msgstr "&Ajuda..."
+
+#~ msgid "&About..."
+#~ msgstr "&Acerca"
+
+#~ msgid "&File"
+#~ msgstr "&Ficheiro"
+
+#~ msgid "&Edit"
+#~ msgstr "&Editar"
+
+#~ msgid "&Options"
+#~ msgstr "&Opções"
+
+#~ msgid "&Help"
+#~ msgstr "&Ajuda"
+
+#~ msgid "None"
+#~ msgstr "Nenhum"
+
+#~ msgid "Open With: (program)"
+#~ msgstr "Abrir Com: (program)"
+
+#~ msgid "Permissions\tOwner/Group\tSize      \tTimeStamp         \tName\t"
+#~ msgstr "Permissões\tDono/Grupo\tTamanho      \tTempo          \tNome\t"
+
+#~ msgid ""
+#~ "Permsissions\tOwner/Group\tPacked      \tSize         "
+#~ "\tRatio\tCRC\tTimeStamp     \tName\t"
+#~ msgstr ""
+#~ "Permissões\tDono/Grupo\tEmpacotado      \tTamanho      \tRatio\tCRC\tTempo   "
+#~ "     \tNome\t"
+
+#~ msgid "Permissions\tOwner/Group\tSize        \tTimeStamp\tName\t"
+#~ msgstr "Permissões\tDono/Grupo\tTamanho       \tTempo\tNome\t"
+
+#~ msgid ""
+#~ "Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
+#~ msgstr ""
+#~ "Extensão   \tMetodo\tTamanho      \tRatio\tData     \tTempo\tCRC-32\tNome\t"

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1997-12-28 19:16+0100\n"
+"POT-Creation-Date: 1997-12-31 15:20+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-11-16 21:27:00+0100\n"
 "From: didier Belot <dib@avo.fr>\n"
@@ -20,13 +20,6 @@ msgstr "Désactiver"
 #: alarm.cpp:74
 msgid "Set"
 msgstr "Activer"
-
-#: alarm.cpp:152 bwdatetime.cpp:160 bwdatetime.cpp:175 knotes.cpp:435
-#: knotes.cpp:457 knotes.cpp:519 knotes.cpp:614 knotes.cpp:663 knotes.cpp:1000
-#: knotes.cpp:1400 knotes.cpp:1417 knotes.cpp:1431 knotes.cpp:1453
-#: renamedlg.cpp:77 renamedlg.cpp:91
-msgid "Sorry"
-msgstr "Désolé"
 
 #: alarm.cpp:153
 msgid "I am afraid you already missed your appointment."
@@ -59,10 +52,6 @@ msgstr "La date sélectionnée est incorrecte"
 #: configdlg.cpp:50
 msgid "Text Color:"
 msgstr "Couleur du texte"
-
-#: configdlg.cpp:59 configdlg.cpp:73 fontdlg.cpp:49
-msgid "Change"
-msgstr "Changer"
 
 #: configdlg.cpp:64
 msgid "Background Color:"
@@ -101,14 +90,6 @@ msgstr "Police par défaut"
 msgid "Point Size:"
 msgstr "Taille en points:"
 
-#: fontdlg.cpp:81 fontdlg.cpp:131
-msgid "Italic"
-msgstr "Italique"
-
-#: fontdlg.cpp:83 fontdlg.cpp:133
-msgid "Roman"
-msgstr "Roman"
-
 #: knotes.cpp:245
 #, fuzzy
 msgid "Text Color..."
@@ -118,10 +99,6 @@ msgstr "Couleur du texte"
 #, fuzzy
 msgid "Background Color..."
 msgstr "Couleur du fond"
-
-#: knotes.cpp:249
-msgid "Clear"
-msgstr "Effacer"
 
 #: knotes.cpp:252
 msgid "New Note"
@@ -168,10 +145,6 @@ msgstr "Couleurs"
 #: knotes.cpp:277
 msgid "Change Defaults ..."
 msgstr "Configurer..."
-
-#: knotes.cpp:284
-msgid "Options"
-msgstr "Options"
 
 #: knotes.cpp:303
 #, fuzzy
@@ -326,6 +299,24 @@ msgid ""
 msgstr ""
 "Il existe déjà une KNote avec ce nom\n"
 "SVP, choisissez un nom différent"
+
+#~ msgid "Italic"
+#~ msgstr "Italique"
+
+#~ msgid "Roman"
+#~ msgstr "Roman"
+
+#~ msgid "Clear"
+#~ msgstr "Effacer"
+
+#~ msgid "Sorry"
+#~ msgstr "Désolé"
+
+#~ msgid "Change"
+#~ msgstr "Changer"
+
+#~ msgid "Options"
+#~ msgstr "Options"
 
 #~ msgid ""
 #~ "Could not pipe the contents of this KNotes into:\n"

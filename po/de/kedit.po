@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
-"POT-Creation-Date: 1997-12-31 01:57+0100\n"
+"POT-Creation-Date: 1997-12-31 15:20+0100\n"
 "PO-Revision-Date: 1997-12-28 19:17+01\n"
 "Last-Translator: Stephan Kulow <coolo@kde.org>\n"
 
@@ -32,10 +32,6 @@ msgstr "&Info"
 #: kedit.cpp:184
 msgid "Ne&w..."
 msgstr "&Neues Dokument..."
-
-#: kedit.cpp:186
-msgid "&Open..."
-msgstr "Ö&ffnen..."
 
 #: kedit.cpp:189
 msgid "Open Recen&t..."
@@ -283,6 +279,8 @@ msgid ""
 "Malformed URL\n"
 "%s"
 msgstr ""
+"URL hat falsches Format:\n"
+"%s"
 
 #: kedit.cpp:1429
 #, c-format
@@ -328,6 +326,8 @@ msgid ""
 "Can not create:\n"
 "%s"
 msgstr ""
+"Kann nicht erstellen:\n"
+"%s"
 
 #: keditcl1.cpp:128
 msgid "The specified File does not exist"

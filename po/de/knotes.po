@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes\n"
-"POT-Creation-Date: 1997-12-28 19:16+0100\n"
+"POT-Creation-Date: 1997-12-31 15:20+0100\n"
 "PO-Revision-Date: 1997-12-28 19:17+01\n"
 "Last-Translator: Stephan Kulow <coolo@kde.org>\n"
 
@@ -17,13 +17,6 @@ msgstr "Löschen"
 #: alarm.cpp:74
 msgid "Set"
 msgstr "Setzen"
-
-#: alarm.cpp:152 bwdatetime.cpp:160 bwdatetime.cpp:175 knotes.cpp:435
-#: knotes.cpp:457 knotes.cpp:519 knotes.cpp:614 knotes.cpp:663 knotes.cpp:1000
-#: knotes.cpp:1400 knotes.cpp:1417 knotes.cpp:1431 knotes.cpp:1453
-#: renamedlg.cpp:77 renamedlg.cpp:91
-msgid "Sorry"
-msgstr "Sorry"
 
 #: alarm.cpp:153
 msgid "I am afraid you already missed your appointment."
@@ -56,10 +49,6 @@ msgstr "Das angebene Datum ist nicht gültig."
 #: configdlg.cpp:50
 msgid "Text Color:"
 msgstr "Text-Farbe:"
-
-#: configdlg.cpp:59 configdlg.cpp:73 fontdlg.cpp:49
-msgid "Change"
-msgstr "Ändern"
 
 #: configdlg.cpp:64
 msgid "Background Color:"
@@ -97,14 +86,6 @@ msgstr "Gesetzte Standard-Schriftart"
 msgid "Point Size:"
 msgstr "Punkt-Grösse"
 
-#: fontdlg.cpp:81 fontdlg.cpp:131
-msgid "Italic"
-msgstr "Kursiv"
-
-#: fontdlg.cpp:83 fontdlg.cpp:133
-msgid "Roman"
-msgstr "Gerade"
-
 #: knotes.cpp:245
 msgid "Text Color..."
 msgstr "Text-Farbe..."
@@ -112,10 +93,6 @@ msgstr "Text-Farbe..."
 #: knotes.cpp:246
 msgid "Background Color..."
 msgstr "Hintergrund-Farbe..."
-
-#: knotes.cpp:249
-msgid "Clear"
-msgstr "Leeren"
 
 #: knotes.cpp:252
 msgid "New Note"
@@ -160,10 +137,6 @@ msgstr "Farben"
 #: knotes.cpp:277
 msgid "Change Defaults ..."
 msgstr "Standards verändern"
-
-#: knotes.cpp:284
-msgid "Options"
-msgstr "Einstellungen"
 
 #: knotes.cpp:303
 msgid "Hide Note"
@@ -315,3 +288,4 @@ msgid ""
 msgstr ""
 "Eine Notiz mit diesem Namen existiert schon\n"
 "Bitte wählen Sie einen anderen Namen!"
+

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: khexedit 0.4\n"
-"POT-Creation-Date: 1997-11-06 19:25+0100\n"
+"POT-Creation-Date: 1997-12-31 15:20+0100\n"
 "PO-Revision-Date: 1997-11-19 22:50:52+0600\n"
 "Last-Translator: Denis Yu. Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -12,77 +12,44 @@ msgstr ""
 "Content-Type: text/plain; charset=koi8-r\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: hexfile.cpp:118
+#: hexdata.cpp:25
 #, c-format
 msgid "Error opening %s"
 msgstr "Ошибка открытия %s"
 
-#: hexwidget.cpp:52
-#, fuzzy
-msgid "&New Window..."
-msgstr "Новое окно"
-
-#: hexwidget.cpp:54
-msgid "&Open..."
-msgstr "Открыть..."
-
-#: hexwidget.cpp:55
-msgid "&Save"
-msgstr "Записать"
-
-#: hexwidget.cpp:56
+#: hexwidget.cpp:79
 msgid "Save &As..."
 msgstr "Записать как..."
 
-#: hexwidget.cpp:57
-msgid "&Close"
-msgstr "Закрыть"
-
-#: hexwidget.cpp:59
-msgid "&Quit"
-msgstr "Выход"
-
-#: hexwidget.cpp:62
+#: hexwidget.cpp:90
 #, fuzzy
 msgid "&Toggle Toolbar"
 msgstr "Вкл/выкл toolbar"
 
-#: hexwidget.cpp:65
-#, fuzzy
-msgid ""
-"Hex Editor 0.5 \n"
-"\n"
-"by Stephan Kulow  (coolo@itm.mu-luebeck.de)"
+#: hexwidget.cpp:93
+msgid "Hex Editor"
 msgstr ""
-"Hex Editor 0.4 \n"
+
+#: hexwidget.cpp:93
+msgid ""
 "\n"
-"написан Степаном Куловым <coolo@itm.mu-luebeck.de>"
+"\n"
+"by Stephan Kulow"
+msgstr ""
 
-#: hexwidget.cpp:73
-msgid "&File"
-msgstr "Файл"
-
-#: hexwidget.cpp:74
-msgid "&View"
-msgstr "Просмотр"
-
-#: hexwidget.cpp:76
-msgid "&Help"
-msgstr "Помощь"
-
-#: hexwidget.cpp:84
+#: hexwidget.cpp:115
 msgid "New Window"
 msgstr "Новое окно"
 
-#: hexwidget.cpp:88
+#: hexwidget.cpp:119
 msgid "Save the file"
 msgstr "Записать файл"
 
-#: hexwidget.cpp:91 hexwidget.cpp:93 hexwidget.cpp:95 hexwidget.cpp:98
+#: hexwidget.cpp:122 hexwidget.cpp:124 hexwidget.cpp:126 hexwidget.cpp:129
 msgid "Not implemented"
 msgstr "Не реализовано"
 
-#: hexwidget.cpp:127
+#: hexwidget.cpp:158
 #, fuzzy
 msgid ""
 "The current file has been modified.\n"
@@ -92,7 +59,7 @@ msgstr ""
 "\n"
 "Вы желаете его записать ?"
 
-#: hexwidget.cpp:153
+#: hexwidget.cpp:184
 #, fuzzy
 msgid ""
 "The current file has been modified.\n"
@@ -102,7 +69,7 @@ msgstr ""
 "\n"
 "Вы желаете его записать ?"
 
-#: hexwidget.cpp:223
+#: hexwidget.cpp:265
 msgid ""
 "KHexdit is already waiting\n"
 "for an internet job to finish\n"
@@ -116,6 +83,41 @@ msgstr ""
 "Подождите пока оно завершится\n"
 "или остановите его"
 
-#: hexwidget.cpp:232
+#: hexwidget.cpp:273
 msgid "Could not start KFM"
 msgstr "Невозможно запустить KFM"
+
+#, fuzzy
+#~ msgid "&New Window..."
+#~ msgstr "Новое окно"
+
+#~ msgid "&Open..."
+#~ msgstr "Открыть..."
+
+#~ msgid "&View"
+#~ msgstr "Просмотр"
+
+#~ msgid "&Save"
+#~ msgstr "Записать"
+
+#~ msgid "&Close"
+#~ msgstr "Закрыть"
+
+#~ msgid "&Quit"
+#~ msgstr "Выход"
+
+#, fuzzy
+#~ msgid ""
+#~ "Hex Editor 0.5 \n"
+#~ "\n"
+#~ "by Stephan Kulow  (coolo@itm.mu-luebeck.de)"
+#~ msgstr ""
+#~ "Hex Editor 0.4 \n"
+#~ "\n"
+#~ "написан Степаном Куловым <coolo@itm.mu-luebeck.de>"
+
+#~ msgid "&File"
+#~ msgstr "Файл"
+
+#~ msgid "&Help"
+#~ msgstr "Помощь"

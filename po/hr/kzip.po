@@ -1,5 +1,6 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 1997-12-31 15:20+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-10-09 11:06:57-0400\n"
 "From: Robert Palmbos <robertp@pbnjelly>\n"
@@ -8,180 +9,171 @@ msgstr ""
 "ktablistbox.cc kzip.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h "
 "extractdlg.h karch.h kfdird.h ktablistbox.h kzip.h lha.h tar.h text.h zip.h\n"
 
-#: adddlg.cc:9
+#: adddlg.cc:11
 msgid "Add File Options"
 msgstr "Pode¹avanja za dodavanje  datoteka"
 
-#: adddlg.cc:13 extractdlg.cc:69
-msgid "Ok"
-msgstr "U redu"
-
-#: adddlg.cc:16 arch.cc:33 extractdlg.cc:73
-msgid "Cancel"
-msgstr "Odustani"
-
-#: adddlg.cc:20
+#: adddlg.cc:22
 msgid "Store Full Path"
 msgstr "Spremi cijelu stazu"
 
-#: adddlg.cc:23
+#: adddlg.cc:25
 msgid "Only Add Newer Files"
 msgstr "Samo dodaj novije datoteke"
 
-#: extractdlg.cc:7
+#: extractdlg.cc:9
 msgid "Files"
 msgstr "Datoteke"
 
-#: extractdlg.cc:11
+#: extractdlg.cc:13
 msgid "Extract Options"
 msgstr "Pode¹avanja za raspakiranje"
 
-#: extractdlg.cc:15
+#: extractdlg.cc:17
 msgid "Destination"
 msgstr "Odredi¹te"
 
-#: extractdlg.cc:23
+#: extractdlg.cc:26
 msgid "Browse..."
 msgstr "Potra¾i..."
 
-#: extractdlg.cc:30
+#: extractdlg.cc:33
 msgid "Preserve Permissions"
 msgstr "Saèuvaj dozvole"
 
-#: extractdlg.cc:33
+#: extractdlg.cc:36
 msgid "Filenames to Lowercase"
 msgstr "Imena malim slovima"
 
-#: extractdlg.cc:36
+#: extractdlg.cc:39
 msgid "All Files"
 msgstr "Sve datoteke"
 
-#: extractdlg.cc:39
+#: extractdlg.cc:42
 msgid "Selected File"
 msgstr "Izabrana datoteka"
 
-#: extractdlg.cc:42
+#: extractdlg.cc:45
 msgid "Pattern"
 msgstr "Uzorak"
 
-#: kzip.cc:36
-msgid "&New"
+#: kzip.cc:60
+msgid "New &Window..."
+msgstr ""
+
+#: kzip.cc:62
+#, fuzzy
+msgid "&New..."
 msgstr "&Novi"
 
-#: kzip.cc:37
-msgid "&Open..."
-msgstr "&Otvori..."
-
-#: kzip.cc:39
+#: kzip.cc:65
 msgid "&Extract To..."
 msgstr "&Raspakiraj u..."
 
-#: kzip.cc:41
-msgid "&Close"
-msgstr "Za&tvori"
-
-#: kzip.cc:42
-msgid "E&xit"
-msgstr "&Zavr¹i"
-
-#: kzip.cc:44
+#: kzip.cc:70
 msgid "E&xtract..."
 msgstr "&Raspakiraj..."
 
-#: kzip.cc:45
-msgid "&View"
-msgstr "Po&gledaj"
-
-#: kzip.cc:47
+#: kzip.cc:73
 msgid "&Delete"
 msgstr "O&bri¹i"
 
-#: kzip.cc:49
+#: kzip.cc:75
 msgid "&Set Archive Directory..."
 msgstr "Pos&tavi direktorij arhive..."
 
-#: kzip.cc:50
+#: kzip.cc:76
 msgid "&File Adding Options..."
 msgstr "Pode¹avanja dodavanja &datoteka"
 
-#: kzip.cc:52
-msgid "&Help..."
-msgstr "&Pomoæ..."
-
-#: kzip.cc:54
-msgid "&About..."
-msgstr "&O programu..."
-
-#: kzip.cc:56
-msgid "&File"
-msgstr "&Datoteka"
-
-#: kzip.cc:57
-msgid "&Edit"
-msgstr "&Urednik"
-
-#: kzip.cc:58
-msgid "&Options"
-msgstr "P&ode¹avanja"
-
-#: kzip.cc:60
-msgid "&Help"
-msgstr "&Pomoæ"
-
-#: kzip.cc:87
+#: kzip.cc:122
 msgid "Welcome to KZip..."
 msgstr "Dobrodo¹li u KZip..."
 
-#: kzip.cc:139
+#: kzip.cc:199
 msgid "Can't create archive of that type"
 msgstr "Ne mogu naèiniti arhivu te vrste"
 
-#: kzip.cc:160 kzip.cc:194 kzip.cc:201
+#: kzip.cc:220 kzip.cc:257 kzip.cc:265
 msgid "Create or open an archive first"
 msgstr "Prvo naèinite ili otvorite arhivu"
 
-#: kzip.cc:183
+#: kzip.cc:244
+msgid "Can't add directorys with this archive type"
+msgstr ""
+
+#: kzip.cc:246
 msgid "Error saving to archive"
 msgstr "Gre¹ka prilikom snimanja u arhivu"
 
-#: kzip.cc:212
+#: kzip.cc:276
 msgid "Archive Dir:"
 msgstr "Direktorij arhive:"
 
-#: kzip.cc:251 kzip.cc:422
+#: kzip.cc:313 kzip.cc:505
 msgid "Unknown archive format"
 msgstr "Nepoznata vrsta arhive"
 
-#: kzip.cc:286
+#: kzip.cc:349
 msgid "Archive Directory"
 msgstr "Direktorij arhive:"
 
-#: kzip.cc:327
-msgid "None"
-msgstr "Ni¹ta"
+#~ msgid "&Open..."
+#~ msgstr "&Otvori..."
 
-#: kzip.cc:362
-msgid "Open With: (program)"
-msgstr "Otvori s: (program)"
+#~ msgid "&View"
+#~ msgstr "Po&gledaj"
 
-#: ar.h:24
-msgid "Permissions\tOwner/Group\tSize      \tTimeStamp         \tName\t"
-msgstr "Dozvole   \tVlasnik/Grupa\tVelièina    \tVrijeme         \tNaziv\t"
+#~ msgid "Ok"
+#~ msgstr "U redu"
 
-#: lha.h:24
-msgid ""
-"Permsissions\tOwner/Group\tPacked      \tSize         "
-"\tRatio\tCRC\tTimeStamp     \tName\t"
-msgstr ""
-"Dozvole    \tVlasnik/Grupa\tPakirano  \tVelièina     \tOmjer\tCRC\tVrijeme   "
-"    \tNaziv\t "
+#~ msgid "Cancel"
+#~ msgstr "Odustani"
 
-#: tar.h:22
-msgid "Permissions\tOwner/Group\tSize        \tTimeStamp\tName\t"
-msgstr "Dozvole   \tVlasnik/Grupa\tVelièina  \tVrijeme  \tNaziv\t"
+#~ msgid "&Close"
+#~ msgstr "Za&tvori"
 
-#: zip.h:24
-msgid ""
-"Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
-msgstr ""
-"Duljina   \tNaèin \tVelièina     \tOmjer\tDatum    \tVrijeme\tCRC-32\tNaziv\t"
+#~ msgid "E&xit"
+#~ msgstr "&Zavr¹i"
+
+#~ msgid "&Help..."
+#~ msgstr "&Pomoæ..."
+
+#~ msgid "&About..."
+#~ msgstr "&O programu..."
+
+#~ msgid "&File"
+#~ msgstr "&Datoteka"
+
+#~ msgid "&Edit"
+#~ msgstr "&Urednik"
+
+#~ msgid "&Options"
+#~ msgstr "P&ode¹avanja"
+
+#~ msgid "&Help"
+#~ msgstr "&Pomoæ"
+
+#~ msgid "None"
+#~ msgstr "Ni¹ta"
+
+#~ msgid "Open With: (program)"
+#~ msgstr "Otvori s: (program)"
+
+#~ msgid "Permissions\tOwner/Group\tSize      \tTimeStamp         \tName\t"
+#~ msgstr "Dozvole   \tVlasnik/Grupa\tVelièina    \tVrijeme         \tNaziv\t"
+
+#~ msgid ""
+#~ "Permsissions\tOwner/Group\tPacked      \tSize         "
+#~ "\tRatio\tCRC\tTimeStamp     \tName\t"
+#~ msgstr ""
+#~ "Dozvole    \tVlasnik/Grupa\tPakirano  \tVelièina     \tOmjer\tCRC\tVrijeme   "
+#~ "    \tNaziv\t "
+
+#~ msgid "Permissions\tOwner/Group\tSize        \tTimeStamp\tName\t"
+#~ msgstr "Dozvole   \tVlasnik/Grupa\tVelièina  \tVrijeme  \tNaziv\t"
+
+#~ msgid ""
+#~ "Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
+#~ msgstr ""
+#~ "Duljina   \tNaèin \tVelièina     \tOmjer\tDatum    \tVrijeme\tCRC-32\tNaziv\t"

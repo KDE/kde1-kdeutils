@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-11-06 19:25+0100\n"
+"POT-Creation-Date: 1997-12-31 15:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,78 +14,45 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: hexfile.cpp:118
+#: hexdata.cpp:25
 #, c-format
 msgid "Error opening %s"
 msgstr "Virhe avattaessa %s"
 
-#: hexwidget.cpp:52
-#, fuzzy
-msgid "&New Window..."
-msgstr "Uusi ikkuna"
-
-#: hexwidget.cpp:54
-msgid "&Open..."
-msgstr ""
-
-#: hexwidget.cpp:55
-msgid "&Save"
-msgstr ""
-
-#: hexwidget.cpp:56
+#: hexwidget.cpp:79
 msgid "Save &As..."
 msgstr ""
 
-#: hexwidget.cpp:57
-msgid "&Close"
-msgstr ""
-
-#: hexwidget.cpp:59
-msgid "&Quit"
-msgstr ""
-
-#: hexwidget.cpp:62
+#: hexwidget.cpp:90
 #, fuzzy
 msgid "&Toggle Toolbar"
 msgstr "Piilota/Näytä työkalupalkki"
 
-#: hexwidget.cpp:65
+#: hexwidget.cpp:93
 #, fuzzy
+msgid "Hex Editor"
+msgstr "Tietoja"
+
+#: hexwidget.cpp:93
 msgid ""
-"Hex Editor 0.5 \n"
 "\n"
-"by Stephan Kulow  (coolo@itm.mu-luebeck.de)"
+"\n"
+"by Stephan Kulow"
 msgstr ""
-"Ohjelma: khexdit\n"
-"Versio: 0.4\n"
-"\n"
-"Stephan Kulow (coolo@itm.mu-luebeck.de)"
 
-#: hexwidget.cpp:73
-msgid "&File"
-msgstr "&Tiedosto"
-
-#: hexwidget.cpp:74
-msgid "&View"
-msgstr "&Näytä"
-
-#: hexwidget.cpp:76
-msgid "&Help"
-msgstr "&Ohje"
-
-#: hexwidget.cpp:84
+#: hexwidget.cpp:115
 msgid "New Window"
 msgstr "Uusi ikkuna"
 
-#: hexwidget.cpp:88
+#: hexwidget.cpp:119
 msgid "Save the file"
 msgstr "Tallenna tiedosto"
 
-#: hexwidget.cpp:91 hexwidget.cpp:93 hexwidget.cpp:95 hexwidget.cpp:98
+#: hexwidget.cpp:122 hexwidget.cpp:124 hexwidget.cpp:126 hexwidget.cpp:129
 msgid "Not implemented"
 msgstr "Toteuttamatta"
 
-#: hexwidget.cpp:127
+#: hexwidget.cpp:158
 #, fuzzy
 msgid ""
 "The current file has been modified.\n"
@@ -95,7 +62,7 @@ msgstr ""
 "\n"
 "Haluatko tallentaa sen?"
 
-#: hexwidget.cpp:153
+#: hexwidget.cpp:184
 #, fuzzy
 msgid ""
 "The current file has been modified.\n"
@@ -105,7 +72,7 @@ msgstr ""
 "\n"
 "Haluatko tallentaa sen?"
 
-#: hexwidget.cpp:223
+#: hexwidget.cpp:265
 msgid ""
 "KHexdit is already waiting\n"
 "for an internet job to finish\n"
@@ -119,12 +86,33 @@ msgstr ""
 "Odota kunnes tämä on valmis\n"
 "tai lopeta plah plah plah.???.."
 
-#: hexwidget.cpp:232
+#: hexwidget.cpp:273
 msgid "Could not start KFM"
 msgstr "KFM:ää ei voitu käynnistää."
 
-#~ msgid "About Hex Editor"
-#~ msgstr "Tietoja"
+#, fuzzy
+#~ msgid "&New Window..."
+#~ msgstr "Uusi ikkuna"
+
+#~ msgid "&View"
+#~ msgstr "&Näytä"
+
+#, fuzzy
+#~ msgid ""
+#~ "Hex Editor 0.5 \n"
+#~ "\n"
+#~ "by Stephan Kulow  (coolo@itm.mu-luebeck.de)"
+#~ msgstr ""
+#~ "Ohjelma: khexdit\n"
+#~ "Versio: 0.4\n"
+#~ "\n"
+#~ "Stephan Kulow (coolo@itm.mu-luebeck.de)"
+
+#~ msgid "&File"
+#~ msgstr "&Tiedosto"
+
+#~ msgid "&Help"
+#~ msgstr "&Ohje"
 
 #~ msgid "File changed"
 #~ msgstr "Tiedostoa muutettu"

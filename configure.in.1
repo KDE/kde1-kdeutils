@@ -31,8 +31,6 @@ AC_CHECK_LIB(socket, socket, [LIBSOCKET="-lsocket -lnsl"]) dnl for Solaris
 AC_SUBST(LIBSOCKET)
 AC_PATH_KDE
 
-AC_CHECK_RPATH
-
 AC_LANG_CPLUSPLUS
 dnl Checks for libraries. 
 AC_CHECK_LIB(compat, main, [LIBCOMPAT="-lcompat"]) dnl for FreeBSD

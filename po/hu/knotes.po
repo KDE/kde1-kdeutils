@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-12-28 19:16+0100\n"
+"POT-Creation-Date: 1997-12-31 15:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,13 +29,6 @@ msgstr "Kikapcsol"
 #: alarm.cpp:74
 msgid "Set"
 msgstr "Bekapcsol"
-
-#: alarm.cpp:152 bwdatetime.cpp:160 bwdatetime.cpp:175 knotes.cpp:435
-#: knotes.cpp:457 knotes.cpp:519 knotes.cpp:614 knotes.cpp:663 knotes.cpp:1000
-#: knotes.cpp:1400 knotes.cpp:1417 knotes.cpp:1431 knotes.cpp:1453
-#: renamedlg.cpp:77 renamedlg.cpp:91
-msgid "Sorry"
-msgstr "Sajnálom"
 
 #: alarm.cpp:153
 msgid "I am afraid you already missed your appointment."
@@ -68,10 +61,6 @@ msgstr "A kiválasztott dátum érvénytelen"
 #: configdlg.cpp:50
 msgid "Text Color:"
 msgstr "Szöveg színe:"
-
-#: configdlg.cpp:59 configdlg.cpp:73 fontdlg.cpp:49
-msgid "Change"
-msgstr "Változtat"
 
 #: configdlg.cpp:64
 msgid "Background Color:"
@@ -109,14 +98,6 @@ msgstr "Alapértelmezett font beállítása"
 msgid "Point Size:"
 msgstr "Betû mérete:"
 
-#: fontdlg.cpp:81 fontdlg.cpp:131
-msgid "Italic"
-msgstr "Dõlt"
-
-#: fontdlg.cpp:83 fontdlg.cpp:133
-msgid "Roman"
-msgstr ""
-
 #: knotes.cpp:245
 #, fuzzy
 msgid "Text Color..."
@@ -126,10 +107,6 @@ msgstr "Szöveg színe"
 #, fuzzy
 msgid "Background Color..."
 msgstr "Háttér színe"
-
-#: knotes.cpp:249
-msgid "Clear"
-msgstr "Cetlit üresre töröl"
 
 #: knotes.cpp:252
 msgid "New Note"
@@ -176,10 +153,6 @@ msgstr "Színek"
 #: knotes.cpp:277
 msgid "Change Defaults ..."
 msgstr "Alapért. változtatása..."
-
-#: knotes.cpp:284
-msgid "Options"
-msgstr "Lehetõségek"
 
 #: knotes.cpp:303
 #, fuzzy
@@ -329,6 +302,21 @@ msgid ""
 msgstr ""
 "Jajj, de hisz ilyen nevû cetli már van!\n"
 "Légyszives valami más nevet válassz"
+
+#~ msgid "Italic"
+#~ msgstr "Dõlt"
+
+#~ msgid "Clear"
+#~ msgstr "Cetlit üresre töröl"
+
+#~ msgid "Sorry"
+#~ msgstr "Sajnálom"
+
+#~ msgid "Change"
+#~ msgstr "Változtat"
+
+#~ msgid "Options"
+#~ msgstr "Lehetõségek"
 
 #~ msgid ""
 #~ "Could not pipe the contents of this KNotes into:\n"

@@ -1,5 +1,6 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 1997-12-31 15:20+0100\n"
 "PO-Revision-Date: 1997-11-13 12:20+0100\n"
 "Last-Translator: John Zero <johnzero@telnet.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -13,180 +14,168 @@ msgstr ""
 "ktablistbox.cc kzip.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h "
 "extractdlg.h karch.h kfdird.h ktablistbox.h kzip.h lha.h tar.h text.h zip.h\n"
 
-#: adddlg.cc:9
+#: adddlg.cc:11
 msgid "Add File Options"
 msgstr "Beállítások a hozzáadáshoz"
 
-#: adddlg.cc:13 extractdlg.cc:69
-msgid "Ok"
-msgstr ""
-
-#: adddlg.cc:16 arch.cc:33 extractdlg.cc:73
-msgid "Cancel"
-msgstr "Mégsem"
-
-#: adddlg.cc:20
+#: adddlg.cc:22
 msgid "Store Full Path"
 msgstr "Tárold a teljes útvonalat"
 
-#: adddlg.cc:23
+#: adddlg.cc:25
 msgid "Only Add Newer Files"
 msgstr "Csak az újabb file-okat add"
 
-#: extractdlg.cc:7
+#: extractdlg.cc:9
 msgid "Files"
 msgstr "File-ok"
 
-#: extractdlg.cc:11
+#: extractdlg.cc:13
 msgid "Extract Options"
 msgstr "Kitömörítési beállítások"
 
-#: extractdlg.cc:15
+#: extractdlg.cc:17
 msgid "Destination"
 msgstr "Cél"
 
-#: extractdlg.cc:23
+#: extractdlg.cc:26
 msgid "Browse..."
 msgstr "Tallóz..."
 
-#: extractdlg.cc:30
+#: extractdlg.cc:33
 msgid "Preserve Permissions"
 msgstr "Õrizd meg a jogokat"
 
-#: extractdlg.cc:33
+#: extractdlg.cc:36
 msgid "Filenames to Lowercase"
 msgstr "Fileneveket kisbetûssé"
 
-#: extractdlg.cc:36
+#: extractdlg.cc:39
 msgid "All Files"
 msgstr "Minden file"
 
-#: extractdlg.cc:39
+#: extractdlg.cc:42
 msgid "Selected File"
 msgstr "Kiválasztott file"
 
-#: extractdlg.cc:42
+#: extractdlg.cc:45
 msgid "Pattern"
 msgstr "Minta"
 
-#: kzip.cc:36
-msgid "&New"
+#: kzip.cc:60
+msgid "New &Window..."
+msgstr ""
+
+#: kzip.cc:62
+#, fuzzy
+msgid "&New..."
 msgstr "&Új"
 
-#: kzip.cc:37
-msgid "&Open..."
-msgstr "&Megnyit..."
-
-#: kzip.cc:39
+#: kzip.cc:65
 msgid "&Extract To..."
 msgstr "Kitömörítés &helye..."
 
-#: kzip.cc:41
-msgid "&Close"
-msgstr "&Bezár"
-
-#: kzip.cc:42
-msgid "E&xit"
-msgstr "&Kilép"
-
-#: kzip.cc:44
+#: kzip.cc:70
 msgid "E&xtract..."
 msgstr "Ki&tömörít..."
 
-#: kzip.cc:45
-msgid "&View"
-msgstr "&Néz"
-
-#: kzip.cc:47
+#: kzip.cc:73
 msgid "&Delete"
 msgstr "&Töröl"
 
-#: kzip.cc:49
+#: kzip.cc:75
 msgid "&Set Archive Directory..."
 msgstr "&Archív könyvtár beállítása..."
 
-#: kzip.cc:50
+#: kzip.cc:76
 msgid "&File Adding Options..."
 msgstr "&File hozzáadás beállításai..."
 
-#: kzip.cc:52
-msgid "&Help..."
-msgstr "&Segítség..."
-
-#: kzip.cc:54
-msgid "&About..."
-msgstr "&A programról"
-
-#: kzip.cc:56
-msgid "&File"
-msgstr "&File"
-
-#: kzip.cc:57
-msgid "&Edit"
-msgstr "&Szerkeszt"
-
-#: kzip.cc:58
-msgid "&Options"
-msgstr "&Beállítások"
-
-#: kzip.cc:60
-msgid "&Help"
-msgstr "&Segítség"
-
-#: kzip.cc:87
+#: kzip.cc:122
 msgid "Welcome to KZip..."
 msgstr "Üdvözöl a KZip..."
 
-#: kzip.cc:139
+#: kzip.cc:199
 msgid "Can't create archive of that type"
 msgstr "Nade ilyen archív típust én nem tudok csinálni!"
 
-#: kzip.cc:160 kzip.cc:194 kzip.cc:201
+#: kzip.cc:220 kzip.cc:257 kzip.cc:265
 msgid "Create or open an archive first"
 msgstr "Kreálj vagy nyiss meg egy archívumot elõször"
 
-#: kzip.cc:183
+#: kzip.cc:244
+msgid "Can't add directorys with this archive type"
+msgstr ""
+
+#: kzip.cc:246
 msgid "Error saving to archive"
 msgstr "Hiba az archívba mentés közben"
 
-#: kzip.cc:212
+#: kzip.cc:276
 msgid "Archive Dir:"
 msgstr "Archive könyvtár:"
 
-#: kzip.cc:251 kzip.cc:422
+#: kzip.cc:313 kzip.cc:505
 msgid "Unknown archive format"
 msgstr "Ismeretlen archive formátum"
 
-#: kzip.cc:286
+#: kzip.cc:349
 msgid "Archive Directory"
 msgstr "Archive könyvtár"
 
-#: kzip.cc:327
-msgid "None"
-msgstr "Semmi"
+#~ msgid "&Open..."
+#~ msgstr "&Megnyit..."
 
-#: kzip.cc:362
-msgid "Open With: (program)"
-msgstr "Nyisd meg: (programmal)"
+#~ msgid "&View"
+#~ msgstr "&Néz"
 
-#: ar.h:24
-msgid "Permissions\tOwner/Group\tSize      \tTimeStamp         \tName\t"
-msgstr "Jogosultság\tTulaj/Csop.\tMéret     \tDátum/idõ         \tNév \t"
+#~ msgid "Cancel"
+#~ msgstr "Mégsem"
 
-#: lha.h:24
-msgid ""
-"Permsissions\tOwner/Group\tPacked      \tSize         "
-"\tRatio\tCRC\tTimeStamp     \tName\t"
-msgstr ""
-"Jogosultság \tTulaj/Csop.\tTömörítve   \tMéret        "
-"\tArány\tCRC\tDátum/idõ     \tNév \t"
+#~ msgid "&Close"
+#~ msgstr "&Bezár"
 
-#: tar.h:22
-msgid "Permissions\tOwner/Group\tSize        \tTimeStamp\tName\t"
-msgstr "Jogosultság\tTulaj/Csop.\tMéret       \tTimeStamp\tName\t"
+#~ msgid "E&xit"
+#~ msgstr "&Kilép"
 
-#: zip.h:24
-msgid ""
-"Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
-msgstr ""
-"Hossz      \tMód   \tMéret        \tArány\tDátum    \tIdõ \tCRC-32\tNév\t"
+#~ msgid "&Help..."
+#~ msgstr "&Segítség..."
+
+#~ msgid "&About..."
+#~ msgstr "&A programról"
+
+#~ msgid "&File"
+#~ msgstr "&File"
+
+#~ msgid "&Edit"
+#~ msgstr "&Szerkeszt"
+
+#~ msgid "&Options"
+#~ msgstr "&Beállítások"
+
+#~ msgid "&Help"
+#~ msgstr "&Segítség"
+
+#~ msgid "None"
+#~ msgstr "Semmi"
+
+#~ msgid "Open With: (program)"
+#~ msgstr "Nyisd meg: (programmal)"
+
+#~ msgid "Permissions\tOwner/Group\tSize      \tTimeStamp         \tName\t"
+#~ msgstr "Jogosultság\tTulaj/Csop.\tMéret     \tDátum/idõ         \tNév \t"
+
+#~ msgid ""
+#~ "Permsissions\tOwner/Group\tPacked      \tSize         "
+#~ "\tRatio\tCRC\tTimeStamp     \tName\t"
+#~ msgstr ""
+#~ "Jogosultság \tTulaj/Csop.\tTömörítve   \tMéret        "
+#~ "\tArány\tCRC\tDátum/idõ     \tNév \t"
+
+#~ msgid "Permissions\tOwner/Group\tSize        \tTimeStamp\tName\t"
+#~ msgstr "Jogosultság\tTulaj/Csop.\tMéret       \tTimeStamp\tName\t"
+
+#~ msgid ""
+#~ "Length     \tMethod\tSize         \tRatio\tDate     \tTime\tCRC-32\tName\t"
+#~ msgstr ""
+#~ "Hossz      \tMód   \tMéret        \tArány\tDátum    \tIdõ \tCRC-32\tNév\t"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-12-31 01:57+0100\n"
+"POT-Creation-Date: 1997-12-31 15:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,10 +47,6 @@ msgstr "&Info su..."
 #: kedit.cpp:184
 msgid "Ne&w..."
 msgstr "Nuo&vo"
-
-#: kedit.cpp:186
-msgid "&Open..."
-msgstr "&Apri"
 
 #: kedit.cpp:189
 #, fuzzy
@@ -534,6 +530,9 @@ msgstr "Posta"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Un Destinatario deve essere specificato."
+
+#~ msgid "&Open..."
+#~ msgstr "&Apri"
 
 #~ msgid "Open..."
 #~ msgstr "Apri..."

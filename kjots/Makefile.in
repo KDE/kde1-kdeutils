@@ -87,6 +87,8 @@ uninstall:
 	rm -f $(APPSDIR)/Kjots.kdelnk
 	rm -f $(DOCSDIR)/kjots.html	
 
+messages:
+
 ####### Meta objects
 
 mKJotsMain.cpp: KJotsMain.h

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes 0.3\n"
-"POT-Creation-Date: 1997-12-28 19:16+0100\n"
+"POT-Creation-Date: 1997-12-31 15:20+0100\n"
 "PO-Revision-Date: 1997-11-19 22:50:52+0600\n"
 "Last-Translator: Denis Yu. Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -24,13 +24,6 @@ msgstr "Очистить"
 #: alarm.cpp:74
 msgid "Set"
 msgstr "Установить"
-
-#: alarm.cpp:152 bwdatetime.cpp:160 bwdatetime.cpp:175 knotes.cpp:435
-#: knotes.cpp:457 knotes.cpp:519 knotes.cpp:614 knotes.cpp:663 knotes.cpp:1000
-#: knotes.cpp:1400 knotes.cpp:1417 knotes.cpp:1431 knotes.cpp:1453
-#: renamedlg.cpp:77 renamedlg.cpp:91
-msgid "Sorry"
-msgstr "Извините"
 
 #: alarm.cpp:153
 msgid "I am afraid you already missed your appointment."
@@ -63,10 +56,6 @@ msgstr "Вы выбрали недопустимую дату"
 #: configdlg.cpp:50
 msgid "Text Color:"
 msgstr "Цвет Текста:"
-
-#: configdlg.cpp:59 configdlg.cpp:73 fontdlg.cpp:49
-msgid "Change"
-msgstr "Изменить"
 
 #: configdlg.cpp:64
 msgid "Background Color:"
@@ -104,14 +93,6 @@ msgstr "Установить шрифт по умолчанию"
 msgid "Point Size:"
 msgstr "Пунктов:"
 
-#: fontdlg.cpp:81 fontdlg.cpp:131
-msgid "Italic"
-msgstr "Наклонный"
-
-#: fontdlg.cpp:83 fontdlg.cpp:133
-msgid "Roman"
-msgstr "Роман"
-
 #: knotes.cpp:245
 #, fuzzy
 msgid "Text Color..."
@@ -121,10 +102,6 @@ msgstr "Цвет Текста"
 #, fuzzy
 msgid "Background Color..."
 msgstr "Цвет фона"
-
-#: knotes.cpp:249
-msgid "Clear"
-msgstr "Очистить"
 
 #: knotes.cpp:252
 msgid "New Note"
@@ -171,10 +148,6 @@ msgstr "Цвета"
 #: knotes.cpp:277
 msgid "Change Defaults ..."
 msgstr "Изменить установки..."
-
-#: knotes.cpp:284
-msgid "Options"
-msgstr "Опции"
 
 #: knotes.cpp:303
 #, fuzzy
@@ -329,6 +302,24 @@ msgid ""
 msgstr ""
 "Памятка с таким именем уже существует\n"
 "Пожайлуста выберите другое имя."
+
+#~ msgid "Italic"
+#~ msgstr "Наклонный"
+
+#~ msgid "Roman"
+#~ msgstr "Роман"
+
+#~ msgid "Clear"
+#~ msgstr "Очистить"
+
+#~ msgid "Sorry"
+#~ msgstr "Извините"
+
+#~ msgid "Change"
+#~ msgstr "Изменить"
+
+#~ msgid "Options"
+#~ msgstr "Опции"
 
 #~ msgid ""
 #~ "Could not pipe the contents of this KNotes into:\n"
