@@ -1,0 +1,144 @@
+# KLPQ CATALAN TRANSLATION
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Sebastià Pla <sastia@redestb.es>, 1998.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: klpq\n"
+"POT-Creation-Date: 1998-12-08 02:02+0100\n"
+"PO-Revision-Date: 1998-12-17 23:19+0100\n"
+"Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
+"Language-Team: CATALAN <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: main.cpp:176
+msgid "Sorry, can't open your printcap file."
+msgstr "Ho sento, no puc obrir el vostre fitxer printcap."
+
+#: main.cpp:181
+msgid "Sorry, unable to parse your printcap."
+msgstr "Ho sento, no puc analitzar el vostre fitxer printcap."
+
+#: main.cpp:182
+msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
+msgstr "Si us plau, envieu el vostre printcap a Christoph.Neerfeld@home.ivm.de"
+
+#: klpq.cpp:89
+msgid "Printer"
+msgstr "Impressora"
+
+#: klpq.cpp:93
+msgid "Queuing"
+msgstr "S'està enviant a la cua"
+
+#: klpq.cpp:97
+msgid "Printing"
+msgstr "S'està imprimint"
+
+#: klpq.cpp:101
+msgid "Update"
+msgstr "Actualitza"
+
+#: klpq.cpp:119
+msgid "Rank"
+msgstr "Lloc"
+
+#: klpq.cpp:120
+msgid "Owner"
+msgstr "Amo"
+
+#: klpq.cpp:121
+msgid "Job"
+msgstr "Treball"
+
+#: klpq.cpp:123
+msgid "Size"
+msgstr "Mida"
+
+#: klpq.cpp:143 klpq.cpp:218
+msgid "Make Top"
+msgstr "Passa al davant"
+
+#: klpq.cpp:152
+msgid "Auto"
+msgstr "Auto"
+
+#: klpq.cpp:195
+msgid "&Auto update"
+msgstr "&Auto actualitza"
+
+#: klpq.cpp:196
+msgid "&Spooler"
+msgstr "E&spuler"
+
+#: klpq.cpp:203
+msgid "&Config"
+msgstr "&Configura"
+
+#: klpq.cpp:389
+#, c-format
+msgid "Do you really want to remove job No %d"
+msgstr "De veres voleu eliminar el treball num. %d ?"
+
+#: klpq.cpp:409
+#, c-format
+msgid ""
+"Do you really want to move job No\n"
+"%d\n"
+"on top of queue"
+msgstr ""
+"De veres voleu posar el treball num.\n"
+"%d\n"
+"al davant de la cua?"
+
+#: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
+msgid "Permission denied"
+msgstr "S'ha refusat el permís"
+
+#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
+msgid ""
+"This is a privileged command\n"
+"and you do not have permission to execute it."
+msgstr ""
+"Aquesta comanda és privilegiada\n"
+"i no teniu permís per executar-la."
+
+#: ConfAutoUpdate.cpp:10
+msgid "Configure Auto Update"
+msgstr "Configura auto actualització"
+
+#: ConfAutoUpdateData.cpp:17
+msgid "Update frequency in seconds:"
+msgstr "Actualitza la freqüència en segons:"
+
+#: klpqspooler.cpp:197 klpqspooler.cpp:267
+msgid "Can't find your lpc program !"
+msgstr "No puc trobar el vostre programa lpc !"
+
+#: klpqspooler.cpp:198 klpqspooler.cpp:268
+msgid ""
+"Sorry, I can't find your lpc program.\n"
+"Please check the configuration under Config->Spooler."
+msgstr ""
+"Ho sento, no puc trobar el vostre programa lpc.\n"
+"Si us plau, comproveu la configuració amb Configura->Espuler."
+
+#: FirstStart.cpp:21 SpoolerConfig.cpp:21 SpoolerConfigData.cpp:151
+msgid "Select your spooling system"
+msgstr "Seleccioneu el vostre sistema d'espuler."
+
+#: FirstStartData.cpp:42
+msgid ""
+"Please select the spooling system you use. Most systems use the BSD spooler. "
+"So if you don't know which spooler is installed on your system, BSD is "
+"probably a good choice."
+msgstr ""
+"Si us plau, seleccioneu el sistema d'espuler. Gran part de sistemes "
+"fan servir l'espuler BSD. Per tant, si no sabeu quin espuler es instal·lat "
+"al vostre sistema, BSD és una bona tria."
+
+#: SpoolerConfigData.cpp:99
+msgid "Paths of spooling commands:"
+msgstr "Camins de comandes d'espuler:"
