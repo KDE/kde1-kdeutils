@@ -1,7 +1,13 @@
 
+# this variables are needed for rpath support
+kde_libraries = @kde_libraries@
+qt_libraries = @qt_libraries@
+top_builddir = ..
+LIBTOOL = @LIBTOOL@
+KDE_RPATH = @KDE_RPATH@
 
 CXXFLAGS  = @CXXFLAGS@ @all_includes@ -I.. -DHAVE_CONFIG_H 
-LDFLAGS   = @LDFLAGS@ @all_libraries@ -lkdeui -lkdecore -lqt -lXext -lX11
+LDFLAGS   = @LDFLAGS@ @all_libraries@ -lkdeui -lkdecore -lqt -lXext -lX11 -lm
 CC	  = @CXX@
 MOC	  = @MOC@
 
@@ -53,7 +59,7 @@ Makefile: Makefile.in
 	cd .. && CONFIG_FILES=kjots/$@ CONFIG_HEADERS= $(SHELL) ./config.status
 
 $(TARGET): $(SRCMETA) $(OBJECTS)
-	$(CXX) $(OBJECTS) -o $(TARGET) $(LDFLAGS) -lm
+	$(LIBTOOL) --mode=link $(CXX) $(OBJECTS) -o $(TARGET) $(LDFLAGS) $(KDE_RPATH)
 
 depend:
 	@makedepend -I$(INCDIR) $(SOURCES) 2> /dev/null
