@@ -26,6 +26,13 @@ appsdir = $(kde_appsdir)/Applications
 
 EXTRA_DIST = $(apps_DATA)
 
+install-data-local:
+	$(mkinstalldirs) $(kde_minidir)
+	$(INSTALL_DATA) mini-kedit.xpm $(kde_minidir)/kedit.xpm
+
+uninstall-local:
+	-rm -f $(kde_minidir)/kedit.xpm
+
 messages:
 	$(XGETTEXT) -C -ktranslate -ki18n -x $(includedir)/kde.pot $(kedit_SOURCES) && mv messages.po ../po/kedit.pot
 

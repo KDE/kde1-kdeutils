@@ -61,6 +61,9 @@ DISTCLEANFILES = $(BUILTSOURCES)
 messages:
 	$(XGETTEXT) -C -ktranslate -kTRANS -ki18n -x $(includedir)/kde.pot $(kpm_SOURCES) && mv messages.po ../po/kpm.pot
 
+icon_DATA = kpm.xpm
+icondir = $(kde_icondir)
+
 # just install datas here. Use install-exec-local for scripts and etc.
 # the binary itself is already installed from automake
 # use mkinstalldirs, not "install -d"
@@ -69,10 +72,13 @@ messages:
 install-data-local: 
 	$(mkinstalldirs) $(APPSDIR)
 	$(INSTALL_DATA) kpm.kdelnk $(APPSDIR)
+	$(mkinstalldirs) $(kde_minidir)/kpm.xpm
+	$(INSTALL_DATA) mini-xpm $(kde_minidir)
 
 # remove ALL you have installed in install-data-local or install-exec-local
 uninstall-local:
 	-rm -f $(APPSDIR)/kpm.kdelnk
+	-rm -f $(kde_minidir)/kpm.xpm
 
 # add a dependency for every moc file to be full portable
 # I've added a key binding to emacs for this. 
