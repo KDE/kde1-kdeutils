@@ -21,13 +21,14 @@
 #ifndef _HEXFILE_H
 #define _HEXFILE_H
 
+#ifdef HAVE_CONFIG_H
+#include <config.h>
+#endif
+
 #include <qapp.h>
 #include <qscrbar.h> 
 #include <qlist.h>
-
-struct HexCursor {
-    QRect fields[16][2];
-};
+class HexData;
 
 class HexFile : public QWidget {
     Q_OBJECT
@@ -47,7 +48,8 @@ public:
     bool open(const char *filename);
     int save();
     void setFileName(const char *filename);
-    
+    void copyClipBoard();
+
 private:
     QFontMetrics *metrics;
     int maxWidth;
@@ -55,11 +57,8 @@ private:
     bool modified;
     Side sideEdit;
     int curx, cury, relcur;
-    unsigned char *hexdata;
-    unsigned long int data_size;
     int rows,cols;
     QPixmap *datamap;
-    //    QPixmap *pixmap;
     QFont *dispFont;
     long int lineoffset;
     int LineOffset;
@@ -70,10 +69,13 @@ private:
     bool UseBig;
     QScrollBar *scrollV;
     QScrollBar *scrollH;
-    QList<HexCursor> rects;
     unsigned long int currentByte;
     int cursorHeight;
     int cursorPosition;
+    QPoint startDrag, endDrag;
+    bool draging;
+    QPoint *minDrag, *maxDrag;
+    HexData *data;
 
 protected:
     void paintEvent(QPaintEvent*);
@@ -81,6 +83,7 @@ protected:
     void keyPressEvent (QKeyEvent*);
     void mousePressEvent (QMouseEvent*);
     void mouseReleaseEvent (QMouseEvent*);
+    void mouseMoveEvent (QMouseEvent *e);
     void focusInEvent ( QFocusEvent *);
     void focusOutEvent ( QFocusEvent *);
     void fillPixmap();
@@ -93,6 +96,7 @@ protected:
     void changeSide();
     void calcScrolls();
     void calcCurrentByte();
+    QPoint translate(QPoint pos);
 
 public slots:
     void scrolled(int);

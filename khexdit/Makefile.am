@@ -6,8 +6,8 @@ INCLUDES= $(all_includes)
 
 SUBDIRS = doc
 bin_PROGRAMS = 	khexdit
-khexdit_SOURCES	= hexfile.cpp hexwidget.cpp
-noinst_HEADERS = hexfile.h hexwidget.h
+khexdit_SOURCES	= hexdata.cpp hexfile.cpp hexwidget.cpp
+noinst_HEADERS = hexdata.h hexfile.h hexwidget.h
 khexdit_LDADD = $(all_libraries) -lkfm -lkdeui -lkdecore -lqt -lXext -lX11 $(LIBSOCKET)
 khexdit_LDFLAGS = $(LDFLAGS) $(KDE_RPATH)
 
@@ -37,3 +37,6 @@ uninstall-local:
 
 messages:
 	@XGETTEXT@ -C -ktranslate *.cpp -x../../kdelibs/po/kde.pot && mv messages.po ../po/khexdit.pot
+
+edit:
+	xemacs $(khexdit_SOURCES) $(noinst_HEADERS) &

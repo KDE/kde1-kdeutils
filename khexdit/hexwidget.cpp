@@ -38,6 +38,8 @@
 #include "klocale.h"
 #include <kiconloader.h>
 
+#define KHEXDIT_VERSION "0.6"
+
 QList<HexWidget> HexWidget::windowList;
 
 enum { ID_FILE_OPEN = 1,
@@ -79,19 +81,26 @@ int HexWidget::initMenu() {
     file->insertSeparator();
     file->insertItem(  klocale->translate("&Quit"), ID_FILE_QUIT);
     
+    QPopupMenu *edit = new QPopupMenu;
+    edit->insertItem( klocale->translate("&Copy"), ID_EDIT_COPY);
+    edit->insertItem( klocale->translate("&Paste"), ID_EDIT_PASTE);
+    edit->insertItem( klocale->translate("C&ut"), ID_EDIT_CUT);
+
     QPopupMenu *view = new QPopupMenu;
     view->insertItem( klocale->translate("&Toggle Toolbar"), ID_VIEW_TOOLBAR);
     //  view->insertItem( "Toggle Statusbar", ID_VIEW_STATUSBAR);
     
-    QPopupMenu *help = kapp->getHelpMenu(true, klocale->translate("Hex Editor 0.5.1 \n\nby Stephan Kulow  (coolo@itm.mu-luebeck.de)"));
+    QPopupMenu *help = kapp->getHelpMenu(true, QString(klocale->translate("Hex Editor")) + KHEXDIT_VERSION +  klocale->translate("\n\nby Stephan Kulow") + " (coolo@itm.mu)");
 
     connect (file, SIGNAL (activated (int)), SLOT (menuCallback (int)));
+    connect (edit, SIGNAL (activated (int)), SLOT (menuCallback (int)));
     connect (help, SIGNAL (activated (int)), SLOT (menuCallback (int)));
     connect (view, SIGNAL (activated (int)), SLOT (menuCallback (int)));
     
     menu = new KMenuBar( this );
     CHECK_PTR( menu );
     menu->insertItem( klocale->translate("&File"), file );
+    menu->insertItem( klocale->translate("&Edit"), edit);
     menu->insertItem( klocale->translate("&View"), view );
     menu->insertSeparator();
     menu->insertItem( klocale->translate("&Help"), help );
@@ -102,21 +111,22 @@ int HexWidget::initMenu() {
     toolbar = new KToolBar(this);
     
     toolbar->insertButton(loader->loadIcon("filenew.xpm"),
-			  ID_FILE_NEWWIN, TRUE, klocale->translate("New Window"));
-    toolbar->insertButton(loader->loadIcon("fileopen.xpm"),ID_FILE_OPEN, TRUE, 
+			  ID_FILE_NEWWIN, true, 
+			  klocale->translate("New Window"));
+    toolbar->insertButton(loader->loadIcon("fileopen.xpm"),ID_FILE_OPEN, true, 
 			  klocale->translate("Open a file"));
-    toolbar->insertButton(loader->loadIcon("filefloppy.xpm"), ID_FILE_SAVE, TRUE, 
-			  klocale->translate("Save the file"));
+    toolbar->insertButton(loader->loadIcon("filefloppy.xpm"), ID_FILE_SAVE, 
+			  true, klocale->translate("Save the file"));
     toolbar->insertSeparator();
-    toolbar->insertButton(loader->loadIcon("editcut.xpm"),ID_EDIT_CUT, FALSE, 
+    toolbar->insertButton(loader->loadIcon("editcut.xpm"),ID_EDIT_CUT, false, 
 			  klocale->translate("Not implemented"));
-    toolbar->insertButton(loader->loadIcon("editcopy.xpm"),ID_EDIT_COPY, FALSE, 
+    toolbar->insertButton(loader->loadIcon("editcopy.xpm"),ID_EDIT_COPY, false,
 			  klocale->translate("Not implemented"));
-    toolbar->insertButton(loader->loadIcon("editpaste.xpm"),ID_EDIT_PASTE, FALSE, 
-			  klocale->translate("Not implemented"));
+    toolbar->insertButton(loader->loadIcon("editpaste.xpm"),ID_EDIT_PASTE, 
+			  false, klocale->translate("Not implemented"));
     toolbar->insertSeparator();
-    toolbar->insertButton(loader->loadIcon("fileprint.xpm"),ID_FILE_PRINT, FALSE, 
-			  klocale->translate("Not implemented"));
+    toolbar->insertButton(loader->loadIcon("fileprint.xpm"),ID_FILE_PRINT, 
+			  false, klocale->translate("Not implemented"));
     
     addToolBar(toolbar);
     toolbar->setBarPos(KToolBar::Top);
@@ -185,9 +195,14 @@ void HexWidget::menuCallback(int item) {
         kapp->exit();
 	break;
     }
-    
+
+    case ID_EDIT_COPY: {
+	CurrentFile->copyClipBoard();
+	break;
+    }
+
     case ID_VIEW_TOOLBAR: 
-	enableToolBar();
+	enableToolBar(KToolBar::Toggle);
 	break;
 	
     case ID_VIEW_STATUSBAR:
