@@ -84,7 +84,7 @@ msgstr "Chercher de &nouveau"
 
 #: kedit.cpp:266
 msgid "&Replace"
-msgstr "&Remplacer"
+msgstr "&Remplacer..."
 
 #: kedit.cpp:268
 msgid "Spellcheck..."

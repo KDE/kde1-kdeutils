@@ -197,7 +197,7 @@ msgstr "Processus en cours d'exécution"
 
 #: ProcListPage.cpp:49
 msgid "Show Tree"
-msgstr ""
+msgstr "Arborescence"
 
 #: ProcListPage.cpp:60
 msgid "All processes"
