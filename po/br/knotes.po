@@ -1,15 +1,13 @@
-# KTranslator Generated File
 # Breton version of KDE
 # Copyright (C) YEAR Free Software Foundation, Inc.
-# Jañ-Mai Drapier <jdrapier@club-internet.fr>, 1999
+# Jañ-Mai Drapier <jan-mai.drapier@mail.dotcom.fr>, 1999
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: knotes-1.1\n"
 "POT-Creation-Date: 1999-03-09 01:44+0100\n"
-"PO-Revision-Date: 1999-03-05 10:24+0100\n"
-"Last-Translator: Jañ-Mai Drapier <jdrapier@club-internet.fr>\n"
+"PO-Revision-Date: 1999-04-20 16:10+0200\n"
+"Last-Translator: Jañ-Mai Drapier <jan-mai.drapier@mail.dotcom.fr>\n"
 "Language-Team: Brezhoneg <Suav.Icb@wanadoo.fr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso8859-1\n"
@@ -81,7 +79,7 @@ msgstr "Kemmañ dre ziouer..."
 
 #: knotes.cpp:340
 msgid "Dock in panel"
-msgstr ""
+msgstr "Ensoc'hañ er banell"
 
 #: knotes.cpp:368
 msgid "Insert Date"
@@ -373,11 +371,8 @@ msgstr ""
 "Dibabit mar plij un anv all"
 
 #: docking.cpp:48
-#, fuzzy, c-format
 msgid "Could not load %s !"
-msgstr ""
-"Ne m'eus ket  gallet kargañ :\n"
-"%s"
+msgstr "Ne m'eus ket gallet kargañ %s !"
 
 #: docking.cpp:68
 msgid "Change Defaults"
