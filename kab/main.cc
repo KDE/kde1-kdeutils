@@ -19,6 +19,8 @@ extern "C" {
 #include <signal.h>
 	   }
 
+string AuthorEmailAddress="mirko@kde.org"; // static, public
+
 void exit_handler()
 {
   ID(bool GUARD=true);
@@ -46,7 +48,6 @@ int main(int argc, char** argv)
   LG(GUARD, "addressbook main: starting.\n");
   // ########################################################  
   KApplication app(argc, argv, "kab");
-  AuthorEmailAddress="mirko@kde.org"; // static, public
 #ifdef HAVE_LIBJPEG
   QImageIO::defineIOHandler("JFIF","^\377\330\377\340", 
 			    0, read_jpeg_jfif, NULL);
