@@ -63,6 +63,10 @@ install:
 	$(INSTALL_DIR) $(DOCSDIR)
 	$(INSTALL_DATA) kedit.html $(DOCSDIR)
 
+uninstall:
+	rm -f $(BINDIR)/$(TARGET)
+	rm -f $(DOCSDIR)/kedit.html
+
 # dependencies for meta code files
 
 Kedit.moc: Kedit.h
