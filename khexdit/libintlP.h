@@ -86,14 +86,6 @@ extern int _nl_explode_name PARAMS ((char *name, const char **language,
 
 //#line 44 "libgettext.h"
 
-#ifndef PARAMS
-# if __STDC__
-#  define PARAMS(args) args
-# else
-#  define PARAMS(args) ()
-# endif
-#endif
-
 #ifndef NULL
 # if !defined __cplusplus || defined __GNUC__
 #  define NULL ((void *) 0)
@@ -118,15 +110,6 @@ struct _msg_ent
   int _msg_number;
 };
 
-
-#if HAVE_CATGETS
-/* These two variables are defined in the automatically by po-to-tbl.sed
-   generated file `cat-id-tbl.c'.  */
-extern const struct _msg_ent _msg_tbl[];
-extern int _msg_tbl_length;
-#endif
-
-
 /* For automatical extraction of messages sometimes no real
    translation is needed.  Instead the string itself is the result.  */
 #define gettext_noop(Str) (Str)
@@ -135,77 +118,27 @@ extern int _msg_tbl_length;
    LC_MESSAGES locale.  If not found, returns MSGID itself (the default
    text).  */
 extern char *gettext PARAMS ((const char *__msgid));
-extern char *gettext__ PARAMS ((const char *__msgid));
 
 /* Look up MSGID in the DOMAINNAME message catalog for the current
    LC_MESSAGES locale.  */
 extern char *dgettext PARAMS ((const char *__domainname, const char *__msgid));
-extern char *dgettext__ PARAMS ((const char *__domainname,
-				 const char *__msgid));
 
 /* Look up MSGID in the DOMAINNAME message catalog for the current CATEGORY
    locale.  */
 extern char *dcgettext PARAMS ((const char *__domainname, const char *__msgid,
 				int __category));
-extern char *dcgettext__ PARAMS ((const char *__domainname,
-				  const char *__msgid, int __category));
-
 
 /* Set the current default message catalog to DOMAINNAME.
    If DOMAINNAME is null, return the current default.
    If DOMAINNAME is "", reset to the default of "messages".  */
 extern char *textdomain PARAMS ((const char *__domainname));
-extern char *textdomain__ PARAMS ((const char *__domainname));
 
 /* Specify that the DOMAINNAME message catalog will be found
    in DIRNAME rather than in the system locale data base.  */
 extern char *bindtextdomain PARAMS ((const char *__domainname,
-				  const char *__dirname));
-extern char *bindtextdomain__ PARAMS ((const char *__domainname,
-				    const char *__dirname));
+                                  const char *__dirname));  
 
-/* Solaris 2.3 has the gettext function but dcgettext is missing.
-   So we omit this optimization for Solaris 2.3.  BTW, Solaris 2.4
-   has dcgettext.  */
-# if !HAVE_CATGETS && (!HAVE_GETTEXT || HAVE_DCGETTEXT)
-
-#  define gettext(Msgid)						      \
-     dgettext (NULL, Msgid)
-
-#  define dgettext(Domainname, Msgid)					      \
-     dcgettext (Domainname, Msgid, LC_MESSAGES)
-
-#  if defined __GNUC__ && __GNUC__ == 2 && __GNUC_MINOR__ >= 7
-/* This global variable is defined in loadmsgcat.c.  We need a sign,
-   whether a new catalog was loaded, which can be associated with all
-   translations.  */
-extern int _nl_msg_cat_cntr;
-
-#   define dcgettext(Domainname, Msgid, Category)			      \
-  (__extension__							      \
-   ({									      \
-     char *__result;							      \
-     if (__builtin_constant_p (Msgid))					      \
-       {								      \
-	 static char *__translation__;					      \
-	 static int __catalog_counter__;				      \
-	 if (! __translation__ || __catalog_counter__ != _nl_msg_cat_cntr)    \
-	   {								      \
-	     __translation__ =						      \
-	       dcgettext__ ((Domainname), (Msgid), (Category));		      \
-	     __catalog_counter__ = _nl_msg_cat_cntr;			      \
-	   }								      \
-	 __result = __translation__;					      \
-       }								      \
-     else								      \
-       __result = dcgettext__ ((Domainname), (Msgid), (Category));	      \
-     __result;								      \
-    }))
-#  endif
-# endif
-
-#ifdef USE_COMBINED_HEADER
-//#line 28 "gettext.h"
+#ifdef USE_COMBINED_HEADER 
 
 /* The magic number of the GNU message catalog format.  */
 #define _MAGIC 0x950412de
@@ -280,16 +213,6 @@ struct string_desc
   nls_uint32 offset;
 };
 
-// #line 23 "gettextP.h"
-
-#ifndef PARAMS
-# if __STDC__
-#  define PARAMS(args) args
-# else
-#  define PARAMS(args) ()
-# endif
-#endif
-
 #ifndef W
 # define W(flag, data) ((flag) ? SWAP (data) : (data))
 #endif
@@ -299,11 +222,10 @@ static nls_uint32 SWAP PARAMS ((nls_uint32 i));
 
 static inline nls_uint32
 SWAP (i)
-     nls_uint32 i;
+     nls_uint32 i; 
 {
   return (i << 24) | ((i & 0xff00) << 8) | ((i >> 8) & 0xff00) | (i >> 24);
 }
-
 
 struct loaded_domain
 {
@@ -329,14 +251,6 @@ struct loaded_l10nfile *_nl_find_domain PARAMS ((const char *__dirname,
 void _nl_load_domain PARAMS ((struct loaded_l10nfile *__domain));
 
 //#line 22 "hash-string.h"
-
-#ifndef PARAMS
-# if __STDC__
-#  define PARAMS(Args) Args
-# else
-#  define PARAMS(Args) ()
-# endif
-#endif
 
 /* We assume to have `unsigned long int' value with at least 32 bits.  */
 #define HASHWORDBITS 32
@@ -369,4 +283,4 @@ hash_string (str_param)
     }
   return hval;
 }
-#endif /* USE_COMBINED_HEADER */
+#endif

@@ -10,21 +10,45 @@ extern "C" {
 
 #include "translater.h"
 #include <kapp.h>
+#include <Kconfig.h>
+#include <iostream.h>
 
-KTranslater::KTranslater()
+KTranslater::KTranslater( const char *_catalogue )
 {
+  char *buffer;
 
 #ifdef HAVE_SETLOCALE
   /* Set locale via LC_ALL.  */
   setlocale (LC_ALL, "");
 #endif
 
+  if ( ! _catalogue )
+    _catalogue = kapp->appName().data();
+
+  catalogue = new char[ strlen(_catalogue) + 1 ];
+  strcpy(catalogue, _catalogue);
+
+  if (! getenv("LANG") ) {
+    KConfig config;
+    QString languages = "C";
+    config.setGroup("NLS");
+    languages = config.readEntry("Language", &languages);
+    // putenv needs an extra malloc!
+    buffer = new char[languages.length() + 6];
+    sprintf(buffer, "LANG=%s",languages.data());
+    putenv(buffer);
+  }
+    
   /* Set the text message domain.  */
-  bindtextdomain ( kapp->appName().data() , kapp->kdedir() + "/locale");
-  textdomain ( kapp->appName().data() );
+  bindtextdomain ( catalogue , kapp->kdedir() + "/locale");
+}
+
+KTranslater::~KTranslater()
+{
+  delete [] catalogue;
 }
 
 const char *KTranslater::translate(const char *msgid)
 {
-  return gettext(msgid);
+  return dcgettext( catalogue, msgid, LC_MESSAGES);
 }

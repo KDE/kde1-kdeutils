@@ -10,13 +10,13 @@
 #include <ktoolbar.h>
 #include "hexwidget.h"
 #include "translater.h"
+#include <iostream.h>
 
 QList<HexWidget> HexWidget::windowList;
 
 int HexWidget::initMenu() {
 
-  debug( trans.translate("Nothing happens here.") );
-  
+
   windowList.append(this);
   CurrentFile=new HexFile(this);
 

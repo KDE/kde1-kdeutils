@@ -4,8 +4,13 @@
 class KTranslater {
 
 public:
-  KTranslater();
-  const char *translate(const char *msgid);
+    KTranslater( const char *catalogue = 0L );
+    ~KTranslater();
+
+    const char *translate( const char *msgid );
+    
+private:
+    char *catalogue;
 };
 
 #endif
