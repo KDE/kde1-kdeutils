@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KARM\n"
-"POT-Creation-Date: 1998-01-28 09:54+0100\n"
+"POT-Creation-Date: 1998-05-30 17:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,7 +70,7 @@ msgstr "Oletko varma että haluat poistaa tehtävän?"
 msgid "&Yes"
 msgstr "&Kyllä"
 
-#: top.cpp:39 top.cpp:171
+#: top.cpp:39 top.cpp:168
 msgid "clock inactive"
 msgstr "kello pysäytetty"
 
@@ -94,35 +94,31 @@ msgstr "&Pysäytä"
 msgid "&Task"
 msgstr "&Tehtävä"
 
-#: top.cpp:71
-msgid "&Contents"
-msgstr "&Sisältö"
-
 #: top.cpp:85
 msgid "Start Clock"
 msgstr "Käynnistä kello"
 
-#: top.cpp:90
+#: top.cpp:89
 msgid "Stop Clock"
 msgstr "Pysäytä kello"
 
-#: top.cpp:97
+#: top.cpp:95
 msgid "New Task"
 msgstr "Uusi tehtävä"
 
-#: top.cpp:102
+#: top.cpp:99
 msgid "Delete Task"
 msgstr "Tuhoa tehtävä"
 
-#: top.cpp:107
+#: top.cpp:104
 msgid "Edit Task"
 msgstr "Muokkaa tehtävää"
 
-#: top.cpp:145
+#: top.cpp:142
 msgid "About "
 msgstr "Tietoja "
 
-#: top.cpp:146
+#: top.cpp:143
 msgid ""
 " 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
@@ -134,6 +130,9 @@ msgstr ""
 "\n"
 "The K Desktop Environment"
 
-#: top.cpp:164
+#: top.cpp:161
 msgid "clock active"
 msgstr "kello käynnissä"
+
+#~ msgid "&Contents"
+#~ msgstr "&Sisältö"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1998-01-28 09:54+0100\n"
+"POT-Creation-Date: 1998-05-30 17:50+0200\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -62,7 +62,7 @@ msgstr "确定要删除这个任务?"
 msgid "&Yes"
 msgstr "是[&Y]"
 
-#: top.cpp:39 top.cpp:171
+#: top.cpp:39 top.cpp:168
 msgid "clock inactive"
 msgstr "计时器无效"
 
@@ -86,35 +86,31 @@ msgstr "停止[&S]"
 msgid "&Task"
 msgstr "任务[&T]"
 
-#: top.cpp:71
-msgid "&Contents"
-msgstr "内容[&C]"
-
 #: top.cpp:85
 msgid "Start Clock"
 msgstr "开动计时器"
 
-#: top.cpp:90
+#: top.cpp:89
 msgid "Stop Clock"
 msgstr "停止计时器"
 
-#: top.cpp:97
+#: top.cpp:95
 msgid "New Task"
 msgstr "新任务"
 
-#: top.cpp:102
+#: top.cpp:99
 msgid "Delete Task"
 msgstr "删除任务"
 
-#: top.cpp:107
+#: top.cpp:104
 msgid "Edit Task"
 msgstr "编辑任务"
 
-#: top.cpp:145
+#: top.cpp:142
 msgid "About "
 msgstr "关于"
 
-#: top.cpp:146
+#: top.cpp:143
 msgid ""
 " 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
@@ -126,6 +122,9 @@ msgstr ""
 "\n"
 "The K Desktop Environment"
 
-#: top.cpp:164
+#: top.cpp:161
 msgid "clock active"
 msgstr "计时器生效"
+
+#~ msgid "&Contents"
+#~ msgstr "内容[&C]"

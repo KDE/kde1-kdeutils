@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcalc\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-05-30 17:49+0200\n"
 "PO-Revision-Date: 1998-03-20 12:20 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -60,6 +60,10 @@ msgstr "Uhol"
 #: kcalc.cpp:192
 msgid "Base"
 msgstr "Sústava"
+
+#: kcalc.cpp:1524
+msgid "KCalc Configuraton"
+msgstr ""
 
 #: kcalc.cpp:1550
 msgid "Base type: long double\n"

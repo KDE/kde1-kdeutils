@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kfloppy\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-05-30 17:50+0200\n"
 "PO-Revision-Date: 1998-05-14 18:52 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"

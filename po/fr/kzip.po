@@ -5,9 +5,9 @@ msgstr ""
 "Project-Id-Version: kzip\n"
 "POT-Creation-Date: 1998-05-10 17:22+0200\n"
 "PO-Revision-Date: 1998-02-04 HO:MI+ZONE\n"
-"Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
 "Last-Translator: David Faure <David.Faure@insa-lyon.fr>\n"
 "Language-Team: FRENCH <kde-i18n@kde.org>\n"
+"Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
 
 #: adddlg.cc:11
 msgid "Add File Options"

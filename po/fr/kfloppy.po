@@ -1,5 +1,4 @@
 # KTranslator Generated File
-
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -8,14 +7,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
-"PO-Revision-Date: Mon May 18 1998 12:57:11+0200"
-"Last-Translator: David Faure <David.Faure@insa-lyon.fr>"
-"Language-Team: French <fr@li.org>"
-"MIME-Version: 1.0\n"
+"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"PO-Revision-Date: Mon May 18 1998 12:57:11+0200Last-Translator: David Faure "
+"<David.Faure@insa-lyon.fr>Language-Team: French <fr@li.org>MIME-Version: "
+"1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
-"X-Generator: KTranslator v 0.3.0"
+"X-Generator: KTranslator v 0.3.0\n"
 
 #: about.cpp:40
 msgid "About KDE Floppy Formater"
@@ -121,14 +119,15 @@ msgid "Cannot start a new program: fork() failed."
 msgstr "Impossible de démarrer le programme: échec de fork()."
 
 #: floppy.cpp:572 floppy.cpp:700
+#, fuzzy
 msgid ""
 "Cannot access floppy or floppy drive\n"
 "Please insert a floppy and make sure that you\n"
-"have selected a valid floppy drive."
+"have selected a valid floppy drive.\n"
 msgstr ""
 "Impossible d'accéder à la disquette ou au lecteur\n"
-"Insérez une disquette et assurez-vous que vous avez sélectionné "
-"un lecteur de disquettes valide."
+"Insérez une disquette et assurez-vous que vous avez sélectionné un lecteur "
+"de disquettes valide."
 
 #: floppy.cpp:587
 #, c-format

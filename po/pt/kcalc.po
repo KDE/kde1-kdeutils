@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-05-30 17:49+0200\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1998-03-06 23:13:09-0500\n"
@@ -61,6 +61,10 @@ msgstr "Ângulo"
 #: kcalc.cpp:192
 msgid "Base"
 msgstr "Base"
+
+#: kcalc.cpp:1524
+msgid "KCalc Configuraton"
+msgstr ""
 
 #: kcalc.cpp:1550
 msgid "Base type: long double\n"

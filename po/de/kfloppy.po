@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kfloppy\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-05-30 17:50+0200\n"
 "PO-Revision-Date: 1998-05-02 10:25+0100\n"
 "Last-Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
 "Language-Team: German <de@li.org>\n"

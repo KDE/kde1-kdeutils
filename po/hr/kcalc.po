@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-05-30 17:49+0200\n"
 "PO-Revision-Date: 1998-03-15 20:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian\n"
@@ -68,6 +68,10 @@ msgstr "Kut"
 msgid "Base"
 msgstr "Baza"
 
+#: kcalc.cpp:1524
+msgid "KCalc Configuraton"
+msgstr ""
+
 #: kcalc.cpp:1550
 msgid "Base type: long double\n"
 msgstr "Tip baze: long double\n"
@@ -79,10 +83,9 @@ msgid ""
 "recompile KCalc with 'long double' precision enabled. See the README for "
 "details."
 msgstr ""
-"Radi 'slomljenog' glibca, moram smanjiti KCalcovu toènost sa "
-"'long double' u 'double'. Vlasnici sistema sa ispravnim libcom trebaju "
-"prekompajlirati KCalc sa ukljuèenom 'long double' toèno¹æu. Proèitajte "
-"README za vi¹e informacija."
+"Radi 'slomljenog' glibca, moram smanjiti KCalcovu toènost sa 'long double' u "
+"'double'. Vlasnici sistema sa ispravnim libcom trebaju prekompajlirati KCalc "
+"sa ukljuèenom 'long double' toèno¹æu. Proèitajte README za vi¹e informacija."
 
 #: kcalc.cpp:1592
 msgid "Display Font"

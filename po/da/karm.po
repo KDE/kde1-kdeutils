@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karm 0.3\n"
-"POT-Creation-Date: 1998-01-28 09:54+0100\n"
+"POT-Creation-Date: 1998-05-30 17:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Thomas Tanghus <tanghus@earthling.net>\n"
 "Language-Team: da <kde-i18n@kde.org>\n"
@@ -68,7 +68,7 @@ msgstr "Er du sikker på du vil slette dette projekt?"
 msgid "&Yes"
 msgstr "&Ja"
 
-#: top.cpp:39 top.cpp:171
+#: top.cpp:39 top.cpp:168
 msgid "clock inactive"
 msgstr "Uret stoppet"
 
@@ -92,35 +92,31 @@ msgstr "S&top"
 msgid "&Task"
 msgstr "&Projekt"
 
-#: top.cpp:71
-msgid "&Contents"
-msgstr "&Indhold"
-
 #: top.cpp:85
 msgid "Start Clock"
 msgstr "Start Ur"
 
-#: top.cpp:90
+#: top.cpp:89
 msgid "Stop Clock"
 msgstr "Stop Ur"
 
-#: top.cpp:97
+#: top.cpp:95
 msgid "New Task"
 msgstr "Nyt Projekt"
 
-#: top.cpp:102
+#: top.cpp:99
 msgid "Delete Task"
 msgstr "Slet Projekt"
 
-#: top.cpp:107
+#: top.cpp:104
 msgid "Edit Task"
 msgstr "Rediger Projekt"
 
-#: top.cpp:145
+#: top.cpp:142
 msgid "About "
 msgstr "Om "
 
-#: top.cpp:146
+#: top.cpp:143
 msgid ""
 " 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
@@ -132,6 +128,9 @@ msgstr ""
 "\n"
 "The K Desktop Environment"
 
-#: top.cpp:164
+#: top.cpp:161
 msgid "clock active"
 msgstr "Ur startet"
+
+#~ msgid "&Contents"
+#~ msgstr "&Indhold"

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-05-30 17:49+0200\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1998-03-06 22:06:45-0500\n"
 "From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "

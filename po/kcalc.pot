@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-05-30 17:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,6 +64,10 @@ msgstr ""
 
 #: kcalc.cpp:192
 msgid "Base"
+msgstr ""
+
+#: kcalc.cpp:1524
+msgid "KCalc Configuraton"
 msgstr ""
 
 #: kcalc.cpp:1550

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-05-30 17:49+0200\n"
 "PO-Revision-Date: 1998-03-30 21:00+0200\n"
 "Last-Translator: Nikolas Kroupis <nkroup@obelix.ee.duth.gr>\n"
 "Language-Team: GREEK <kde-team@obelix.ee.duth.gr>\n"
@@ -66,6 +66,10 @@ msgstr "Γωνία"
 #: kcalc.cpp:192
 msgid "Base"
 msgstr "Βάση"
+
+#: kcalc.cpp:1524
+msgid "KCalc Configuraton"
+msgstr ""
 
 #: kcalc.cpp:1550
 msgid "Base type: long double\n"

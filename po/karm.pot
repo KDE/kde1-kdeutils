@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-28 09:54+0100\n"
+"POT-Creation-Date: 1998-05-30 17:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,7 +68,7 @@ msgstr ""
 msgid "&Yes"
 msgstr ""
 
-#: top.cpp:39 top.cpp:171
+#: top.cpp:39 top.cpp:168
 msgid "clock inactive"
 msgstr ""
 
@@ -92,35 +92,31 @@ msgstr ""
 msgid "&Task"
 msgstr ""
 
-#: top.cpp:71
-msgid "&Contents"
-msgstr ""
-
 #: top.cpp:85
 msgid "Start Clock"
 msgstr ""
 
-#: top.cpp:90
+#: top.cpp:89
 msgid "Stop Clock"
 msgstr ""
 
-#: top.cpp:97
+#: top.cpp:95
 msgid "New Task"
 msgstr ""
 
-#: top.cpp:102
+#: top.cpp:99
 msgid "Delete Task"
 msgstr ""
 
-#: top.cpp:107
+#: top.cpp:104
 msgid "Edit Task"
 msgstr ""
 
-#: top.cpp:145
+#: top.cpp:142
 msgid "About "
 msgstr ""
 
-#: top.cpp:146
+#: top.cpp:143
 msgid ""
 " 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
@@ -128,6 +124,6 @@ msgid ""
 "The K Desktop Environment"
 msgstr ""
 
-#: top.cpp:164
+#: top.cpp:161
 msgid "clock active"
 msgstr ""

@@ -1,17 +1,19 @@
-
 msgid ""
 msgstr ""
-"Date: 1998-03-06 22:44:34-0500\n"
-"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, <root@petit.cornell.edu>\n"
-"Content-Type: text/plain; charset=\n"
-"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
-"Files: Data.cpp Fonts.cpp FontsData.cpp Misc.cpp MiscData.cpp Paper.cpp PaperData.cpp Printer.cpp PrinterData.cpp about.cpp main.cpp\n"
-
+"POT-Creation-Date: 1998-05-10 17:22+0200\n"
 "PO-Revision-Date: 1998-05-12 23:10+0100\n"
 "Last-Translator: Svein Olav Aasen <svein.aasen@caa.no / soaasen@online.no>\n"
+"Content-Type: text/plain; charset=\n"
+"Date: 1998-03-06 22:44:34-0500\n"
+"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
+"<root@petit.cornell.edu>\n"
+"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
+"Files: Data.cpp Fonts.cpp FontsData.cpp Misc.cpp MiscData.cpp Paper.cpp "
+"PaperData.cpp Printer.cpp PrinterData.cpp about.cpp main.cpp\n"
 "Laungauge-Team: no <LL@li.org>\n"
 
 #: Data.cpp:123 Data.cpp:157 Data.cpp:193
+#, c-format
 msgid ""
 "Unable to print with:\n"
 " %s"
@@ -60,7 +62,8 @@ msgid "Reset"
 msgstr "Resett"
 
 #: MiscData.cpp:113
-msgid "initialize"
+#, fuzzy
+msgid "Initialize"
 msgstr "begynnelse"
 
 #: PrinterData.cpp:41

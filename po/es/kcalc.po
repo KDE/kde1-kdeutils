@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
-"POT-Creation-Date: 1998-05-10 17:22+0200\n"
+"POT-Creation-Date: 1998-05-30 17:49+0200\n"
 "PO-Revision-Date: 1998-05-11 21:29+0200\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 "First-Translator: Jorge Valencia Alvarez <jorgev@est.unileon.es>\n"
@@ -57,6 +57,10 @@ msgstr "Ángulo"
 #: kcalc.cpp:192
 msgid "Base"
 msgstr "Base"
+
+#: kcalc.cpp:1524
+msgid "KCalc Configuraton"
+msgstr ""
 
 #: kcalc.cpp:1550
 msgid "Base type: long double\n"
