@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karm 0.3\n"
 "POT-Creation-Date: 1998-11-18 14:09+0100\n"
-"PO-Revision-Date: 1998-11-08 23:00+0600\n"
+"PO-Revision-Date: 1998-12-21 02:00+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -93,7 +93,7 @@ msgid "&New"
 msgstr "Новый"
 
 #: top.cpp:71
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark 0.5\n"
 "POT-Creation-Date: 1998-11-14 02:05+0100\n"
-"PO-Revision-Date: 1998-11-08 22:29:52+0600\n"
+"PO-Revision-Date: 1998-12-21 02:29:52+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -79,12 +79,11 @@ msgstr "Распаковать..."
 
 #: arkwidget.cc:80
 msgid "&View file"
-msgstr ""
+msgstr "Просмотреть файл"
 
 #: arkwidget.cc:82
-#, fuzzy
 msgid "&Delete file"
-msgstr "Выбранные файлы"
+msgstr "Удалить файл"
 
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
@@ -108,12 +107,11 @@ msgstr "Распаковать..."
 
 #: arkwidget.cc:100
 msgid "View file"
-msgstr ""
+msgstr "Просмотреть файл"
 
 #: arkwidget.cc:102
-#, fuzzy
 msgid "Delete file"
-msgstr "Выбранные файлы"
+msgstr "Удалить файл"
 
 #: arkwidget.cc:114
 msgid "Goto Archive Dir..."

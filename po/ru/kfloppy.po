@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfloppy\n"
 "POT-Creation-Date: 1998-11-17 10:55+0100\n"
-"PO-Revision-Date: 1998-11-08 00:46+0600\n"
+"PO-Revision-Date: 1998-12-21 00:46+0600\n"
 "Last-Translator: Denis pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -69,7 +69,7 @@ msgstr "HD"
 
 #: floppy.cpp:169
 msgid "DD"
-msgstr ""
+msgstr "DD"
 
 #: floppy.cpp:292
 #, c-format
