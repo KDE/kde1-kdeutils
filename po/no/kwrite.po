@@ -74,9 +74,8 @@ msgid "Item Font"
 msgstr "Item-skrifttype"
 
 #: kwview.cpp:1057
-#, fuzzy
 msgid "Vertical Selections On"
-msgstr "&Vertikalt valg"
+msgstr "Vertikalte valg på"
 
 #: kwview.cpp:1116
 msgid "The specified File does not exist"
@@ -462,6 +461,11 @@ msgid ""
 "Jochen Wilhelmy\n"
 "digisnap@cs.tu-berlin.de"
 msgstr ""
+"KWrite 0.98\n"
+"\n"
+"Copyright 1998\n"
+"Jochen Wilhelmy\n"
+"digisnap@cs.tu-berlin.de"
 
 #: toplevel.cpp:272
 msgid "&Bookmarks"

@@ -14,9 +14,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: main.cpp:49
-#, fuzzy
 msgid "Ljet Tool"
-msgstr "KLjetTool"
+msgstr "Ljet-verktøy"
 
 #: main.cpp:69
 msgid "Paper"
@@ -152,6 +151,8 @@ msgid ""
 "Bernd Johannes Wuebben\n"
 "wuebben@kde.org"
 msgstr ""
-
-#~ msgid "Version "
-#~ msgstr "Versjon "
+"Versjon %s\n"
+"\n"
+"Copyright (c) 1997\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
