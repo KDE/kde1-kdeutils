@@ -111,9 +111,6 @@ const char* HexFile::Title() {
 }
 
 int HexFile::save() {
-    QMessageBox::message("Broken", 
-			 "Saving is terrible broken.\nI disabled it.");
-    return 0;
     data->save(filename);
     modified = false;
     emit unsaved( false );

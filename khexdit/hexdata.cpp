@@ -13,7 +13,7 @@ HexData::HexData() {
 int HexData::save(const char *filename) {
     QFile file(filename);
     file.open(IO_Truncate | IO_WriteOnly | IO_Raw);
-    file.writeBlock((char*)hexdata, data_size);
+    file.writeBlock(reinterpret_cast<char*>(hexdata), data_size);
     file.close();
     return 0;
 }
@@ -35,9 +35,20 @@ int HexData::load(const char *Filename) {
 			     i18n("Close"));
 	return -1;
     }
-    hexdata = (unsigned char*)mmap(0, file.size(),  PROT_READ | PROT_WRITE, MAP_PRIVATE,
-				   file.handle(), 0);
+    hexdata = new uchar[file.size()];
     data_size = file.size();
+    uint alr_read = 0;
+    while (alr_read < data_size) {
+	int ret =  file.readBlock(reinterpret_cast<char*>(hexdata),
+				  file.size());
+	if (ret < 0) {
+	    warning("loading failed");
+	    data_size = 0;
+	    delete [] hexdata;
+	    hexdata = 0;
+	}
+	alr_read += ret;
+    }
     return 0;
 }
 
