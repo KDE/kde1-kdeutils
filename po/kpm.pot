@@ -1,0 +1,356 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-06-18 23:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: prefs.C:33
+msgid "Graphic Load Display"
+msgstr ""
+
+#: prefs.C:34
+msgid "Graphic CPU Display"
+msgstr ""
+
+#: prefs.C:35
+msgid "Graphic Memory Display"
+msgstr ""
+
+#: prefs.C:36
+msgid "Graphic Swap Display"
+msgstr ""
+
+#: prefs.C:37
+msgid "Load Graph in Icon"
+msgstr ""
+
+#: prefs.C:38
+msgid "Dock into kpanel"
+msgstr ""
+
+#: prefs.C:43
+msgid "Green/Black Load Graph"
+msgstr ""
+
+#: prefs.C:45
+msgid "Solid filled graph"
+msgstr ""
+
+#: prefs.C:50
+msgid "Host Name Lookup"
+msgstr ""
+
+#: prefs.C:55
+msgid "Auto Save Settings on Exit"
+msgstr ""
+
+#: prefs.C:67
+msgid "Status Bar"
+msgstr ""
+
+#: prefs.C:69
+msgid "Socket Info Window"
+msgstr ""
+
+#: qps.C:84 qps.C:122
+msgid "Renice..."
+msgstr ""
+
+#: qps.C:87
+msgid "Change Scheduling..."
+msgstr ""
+
+#: qps.C:91 qps.C:126
+msgid "Socket Info"
+msgstr ""
+
+#: qps.C:96
+msgid "Iconify"
+msgstr ""
+
+#: qps.C:104 qps.C:128
+msgid "Terminate"
+msgstr ""
+
+#: qps.C:107 qps.C:129
+msgid "Hangup"
+msgstr ""
+
+#: qps.C:110 qps.C:130
+msgid "Interrupt"
+msgstr ""
+
+#: qps.C:113 qps.C:132
+msgid "Kill"
+msgstr ""
+
+#: qps.C:116
+msgid "Other"
+msgstr ""
+
+#: qps.C:123
+msgid "Scheduling..."
+msgstr ""
+
+#: qps.C:133
+msgid "Other signals"
+msgstr ""
+
+#: qps.C:141
+msgid "Remove field"
+msgstr ""
+
+#: qps.C:143
+msgid "Add field..."
+msgstr ""
+
+#: qps.C:147
+msgid "Help on field..."
+msgstr ""
+
+#: qps.C:152
+msgid "Refresh process list"
+msgstr ""
+
+#: qps.C:155
+msgid "All Processes"
+msgstr ""
+
+#: qps.C:156
+msgid "Your Processes"
+msgstr ""
+
+#: qps.C:157
+msgid "Non-Root Processes"
+msgstr ""
+
+#: qps.C:158
+msgid "Running Processes"
+msgstr ""
+
+#: qps.C:160
+msgid "User Fields"
+msgstr ""
+
+#: qps.C:161
+msgid "Jobs Fields"
+msgstr ""
+
+#: qps.C:162
+msgid "Memory Fields"
+msgstr ""
+
+#: qps.C:164
+msgid "Select Fields..."
+msgstr ""
+
+#: qps.C:170
+msgid "Update Period..."
+msgstr ""
+
+#: qps.C:175
+msgid "Show command path"
+msgstr ""
+
+#: qps.C:177
+msgid "Show ressource info"
+msgstr ""
+
+#: qps.C:179
+msgid "Show toolbar"
+msgstr ""
+
+#: qps.C:183
+msgid "Preferences..."
+msgstr ""
+
+#: qps.C:186
+msgid "Save Settings Now"
+msgstr ""
+
+#: qps.C:190
+#, c-format
+msgid ""
+"kpm %sk%s - A Visual Process Manager (KDE Version)\n"
+"\n"
+"© 1997 Mattias Engdegård (f91-men@nada.kth.se)\n"
+"© 1998 Mario Weilguni (mweilguni@kde.org)\n"
+"\n"
+"kpm is the KDE version of qps, written by Matthias\n"
+"Engdegård. The port to KDE was done by Mario\n"
+"Weilguni. If you are interested on the original\n"
+"qps, you can find it at the following location:\n"
+"    ftp://sunsite.unc.edu/pub/linux/system/status\n"
+"\n"
+"This program is published under the GNU General\n"
+"Public License (GNU GPL). See the file COPYING\n"
+"for details about this."
+msgstr ""
+
+#: qps.C:208
+msgid "&Window"
+msgstr ""
+
+#: qps.C:209
+msgid "&Process"
+msgstr ""
+
+#: qps.C:210
+msgid "&Signal"
+msgstr ""
+
+#: qps.C:306
+msgid "SIGQUIT (quit)"
+msgstr ""
+
+#: qps.C:307
+msgid "SIGILL (illegal instruction)"
+msgstr ""
+
+#: qps.C:308
+msgid "SIGABRT (abort)"
+msgstr ""
+
+#: qps.C:309
+msgid "SIGFPE (floating point exception)"
+msgstr ""
+
+#: qps.C:310
+msgid "SIGSEGV (segmentation violation)"
+msgstr ""
+
+#: qps.C:311
+msgid "SIGPIPE (broken pipe)"
+msgstr ""
+
+#: qps.C:312
+msgid "SIGALRM (timer signal)"
+msgstr ""
+
+#: qps.C:313
+msgid "SIGUSR1 (user-defined 1)"
+msgstr ""
+
+#: qps.C:314
+msgid "SIGUSR2 (user-defined 2)"
+msgstr ""
+
+#: qps.C:315
+msgid "SIGCHLD (child death)"
+msgstr ""
+
+#: qps.C:316
+msgid "SIGCONT (continue)"
+msgstr ""
+
+#: qps.C:317
+msgid "SIGSTOP (stop)"
+msgstr ""
+
+#: qps.C:318
+msgid "SIGTSTP (stop from tty)"
+msgstr ""
+
+#: qps.C:319
+msgid "SIGTTIN (tty input)"
+msgstr ""
+
+#: qps.C:320
+msgid "SIGTTOU (tty output)"
+msgstr ""
+
+#: qps.C:620
+#, c-format
+msgid ""
+"You do not have permission to view the\n"
+"open sockets of process %d (%s).\n"
+"Only the owner of the process and the\n"
+"super-user may do that."
+msgstr ""
+
+#: qps.C:625 qps.C:834 qps.C:876 qps.C:882 qps.C:905 qps.C:941 qps.C:985
+msgid "Permission denied"
+msgstr ""
+
+#: qps.C:698
+msgid "qps: change update period"
+msgstr ""
+
+#: qps.C:699
+msgid "New update period:"
+msgstr ""
+
+#: qps.C:714 qps.C:853
+msgid "Invalid input"
+msgstr ""
+
+#: qps.C:715
+msgid ""
+"The time between updates should be a number, optionally followed\n"
+"by a unit (ms, s or min). If no unit is given, seconds is assumed."
+msgstr ""
+
+#: qps.C:829
+#, c-format
+msgid ""
+"You do not have permission to renice the\n"
+"selected process%s.\n"
+"Only the process owner and the super-user\n"
+"are allowed to do that."
+msgstr ""
+
+#: qps.C:843
+msgid "qps: renice process"
+msgstr ""
+
+#: qps.C:844
+msgid "New nice value:"
+msgstr ""
+
+#: qps.C:854
+msgid ""
+"The nice value should be\n"
+"in the range -20 to 20."
+msgstr ""
+
+#: qps.C:871
+#, c-format
+msgid ""
+"You do not have permission to renice process %d (%s).\n"
+"Only the process owner and the super-user are allowed to do that."
+msgstr ""
+
+#: qps.C:883
+msgid "Only the super-user may lower the nice value of a process."
+msgstr ""
+
+#: qps.C:906
+msgid ""
+"Only the super-user may change the\n"
+"scheduling policy and static priority."
+msgstr ""
+
+#: qps.C:936
+#, c-format
+msgid ""
+"You do not have permission to change the\n"
+"scheduling and/or priority of process %d (%s).\n"
+"Only the super-user may do that."
+msgstr ""
+
+#: qps.C:980
+#, c-format
+msgid ""
+"You do not have permission to send a signal to process %d (%s).\n"
+"Only the super-user and the owner of the process may send signals to it."
+msgstr ""
