@@ -8,8 +8,8 @@ SUBDIRS = doc
 bin_PROGRAMS = 	khexdit
 khexdit_SOURCES	= hexdata.cpp hexfile.cpp hexwidget.cpp
 noinst_HEADERS = hexdata.h hexfile.h hexwidget.h
-khexdit_LDADD = $(all_libraries) -lkfile -lkfm -lkdeui -lkdecore -lqt -lXext -lX11 $(LIBSOCKET)
-khexdit_LDFLAGS = $(LDFLAGS) $(KDE_RPATH)
+khexdit_LDADD = $(LIB_KFILE)
+khexdit_LDFLAGS = $(all_libraries) $(KDE_RPATH)
 
 BUILTSOURCES = hexwidget.moc hexfile.moc
 DISTCLEANFILES = hexwidget.moc hexfile.moc
