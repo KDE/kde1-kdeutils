@@ -219,63 +219,63 @@ msgstr "&Boð"
 
 #: qps.C:311
 msgid "SIGQUIT (quit)"
-msgstr ""
+msgstr "SIGQUIT (hætta)"
 
 #: qps.C:312
 msgid "SIGILL (illegal instruction)"
-msgstr ""
+msgstr "SIGILL (ólögleg skipun)"
 
 #: qps.C:313
 msgid "SIGABRT (abort)"
-msgstr ""
+msgstr "SIGABRT (hætta við)"
 
 #: qps.C:314
 msgid "SIGFPE (floating point exception)"
-msgstr ""
+msgstr "SIGFPE (villa í fleytitölureikningum)"
 
 #: qps.C:315
 msgid "SIGSEGV (segmentation violation)"
-msgstr ""
+msgstr "SIGSEGV (ólögleg minnisaðgerð)"
 
 #: qps.C:316
 msgid "SIGPIPE (broken pipe)"
-msgstr ""
+msgstr "SIGPIPE (rofin pípa)"
 
 #: qps.C:317
 msgid "SIGALRM (timer signal)"
-msgstr ""
+msgstr "SIGALRM (klukkutif)"
 
 #: qps.C:318
 msgid "SIGUSR1 (user-defined 1)"
-msgstr ""
+msgstr "SIGUSR1 (notandaboð 1)"
 
 #: qps.C:319
 msgid "SIGUSR2 (user-defined 2)"
-msgstr ""
+msgstr "SIGUSR 2 (notandaboð 2)"
 
 #: qps.C:320
 msgid "SIGCHLD (child death)"
-msgstr ""
+msgstr "SIGCHLD (undirferli dó)"
 
 #: qps.C:321
 msgid "SIGCONT (continue)"
-msgstr ""
+msgstr "SIGCONT (halda áfram)"
 
 #: qps.C:322
 msgid "SIGSTOP (stop)"
-msgstr ""
+msgstr "SIGSTOP (stöðva)"
 
 #: qps.C:323
 msgid "SIGTSTP (stop from tty)"
-msgstr ""
+msgstr "SIGSTP (stöðva frá tty)"
 
 #: qps.C:324
 msgid "SIGTTIN (tty input)"
-msgstr ""
+msgstr "SIGTTIN (tty inntak)"
 
 #: qps.C:325
 msgid "SIGTTOU (tty output)"
-msgstr ""
+msgstr "SIGTTOUT (tty úttak)"
 
 #: qps.C:625
 #, c-format

@@ -62,7 +62,7 @@ msgstr "Stafasett"
 
 #: FontsData.cpp:125
 msgid "Pitch"
-msgstr ""
+msgstr "Halli"
 
 #: FontsData.cpp:141
 msgid "Point Size"
