@@ -7,8 +7,8 @@
 #
 
 
-CXXFLAGS= @CXXFLAGS@ @all_includes@ -DHAVE_CONFIG_H -I.. -I../kfm/libkfm
-LDFLAGS	= @LDFLAGS@ @all_libraries@ -lkfm -lkdecore -lkdeui -lqt -lXext -lX11 @LIBSOCKET@ -L../kfm/libkfm
+CXXFLAGS= @CXXFLAGS@ @all_includes@ -DHAVE_CONFIG_H -I.. 
+LDFLAGS	= @LDFLAGS@ @all_libraries@ -lkfm -lkdecore -lkdeui -lqt -lXext -lX11 @LIBSOCKET@ 
 CXX     = @CXX@
 MOC   	= @MOC@
 
