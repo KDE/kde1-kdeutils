@@ -180,7 +180,6 @@ void HexWidget::menuCallback(int item) {
 
 void HexWidget::unsaved(bool flag)
 {
-    debug("setunsaved %d",flag);
     setUnsavedData(flag);
 }
 
@@ -252,15 +251,13 @@ void HexWidget::openURL(const char *_url, KIND_OF_OPEN _mode)
 
 void HexWidget::saveProperties(KConfig *config )
 {
-    config->setGroup("File");
     config->writeEntry("Name", CurrentFile->Title());
 }
 
 
 void HexWidget::readProperties(KConfig *config)
 {
-    config->setGroup("File");
-    QString entry = config->readEntry("Name"); // no defaul
+    QString entry = config->readEntry("Name"); // no default
     if (entry.isNull())
 	return;
     open(entry, READWRITE );
