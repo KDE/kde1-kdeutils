@@ -1,7 +1,10 @@
+# KDE Config File 
 [KDE Desktop Entry]
+Name=Editor
 Exec=kedit %u
 Icon=kedit.xpm
 DocPath=kedit/kedit.html
 Info=A Simple Text Editor
+Info[de]=Ein einfacher Text-Editor
 Terminal=0
 Type=Application
