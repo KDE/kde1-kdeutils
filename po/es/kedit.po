@@ -338,7 +338,7 @@ msgstr ""
 "KEdit está esperando \n"
 "a que un trabajo de Internet finalice.\n"
 "Por favor, espere hasta que se haya finalizado o, \n"
-"alternativamente, finalice el primero.\n"
+"alternativamente, finalice el primero."
 
 #: kedit.cpp:1128 kedit.cpp:1204
 msgid "Could not start or find KFM"
