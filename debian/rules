@@ -4,7 +4,7 @@
 
 build:
 	dh_testdir
-	( CFLAGS="-O2 -g -Wall" \
+	( CFLAGS="-g -Wall" \
 	  CXXFLAGS="$$CFLAGS" \
 	  ./configure --with-install-root=`pwd`/debian/tmp \
 	  --enable-debug --disable-rpath )
