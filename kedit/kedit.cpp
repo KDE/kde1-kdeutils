@@ -1428,14 +1428,16 @@ void TopLevel::openNetFile( const char *_url, int _mode )
     // Just a usual file ?
     if ( strcmp( u->protocol(), "file" ) == 0 && !u->hasSubProtocol() )
     {
-      QString string;
-      string.sprintf(klocale->translate("Loading '%s'"),u->path() );
-      setGeneralStatusField(string);
-      eframe->loadFile( u->path(), _mode );
-      add_recent_file(u->path());
-      setGeneralStatusField("Done");
-      delete u;
-      return;
+	QString decoded( _url );
+	KURL::decodeURL( decoded );
+	QString string;
+	string.sprintf(klocale->translate("Loading '%s'"),decoded.data() );
+	setGeneralStatusField(string);
+	eframe->loadFile( decoded, _mode );
+	add_recent_file( decoded );
+	setGeneralStatusField("Done");
+	delete u;
+	return;
     }
     
     if ( kfm != 0L )
