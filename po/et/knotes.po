@@ -171,7 +171,6 @@ msgstr ""
 "Abistanud:\n"
 "Matthias Ettrich <ettrich@kde.org>\n"
 "\n"
-""
 
 #: configdlg.cpp:46 knotes.cpp:1376
 msgid "Defaults"
