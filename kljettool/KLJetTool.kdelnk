@@ -1,10 +1,10 @@
 # KDE Config File
 [KDE Desktop Entry]
 Comment[C]=LaserJet Control
-Comment[de]=LaserJet-Konfiguration
 Comment[fi]=LaserJet hallinta
+Comment[de]=LaserJet-Konfiguration
 Comment[pl]=Konfiguracja LasetJet
-Comment[fr]=Contrôle de l'imprimante LaserJet
+Comment[fr]=Contrôle des imprimantes LaserJet
 Comment[hu]=LaserJet Irányító
 Comment[pt]=Comando de impressoras LaserJet
 Comment[sk]=Kontrola LaserJet tlaèiarní
@@ -15,7 +15,7 @@ Protocols=
 Name[C]=KLaserJet
 Name[de]=KLaserJet
 Name[pl]=KLaserJet
-Name[fr]=Contrôle LaserJet
+Name[fr]=KLaserJet
 Name[hu]=LaserJet irányító
 Name[pt]=Comando de LaserJets
 Name[sk]=KLaserJet
