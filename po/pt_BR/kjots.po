@@ -108,26 +108,23 @@ msgstr "por"
 
 #: KJotsMain.cpp:427
 msgid "New"
-msgstr ""
+msgstr "Novo"
 
 #: KJotsMain.cpp:433
-#, fuzzy
 msgid "Previous"
-msgstr "Página anterior:"
+msgstr "Anterior"
 
 #: KJotsMain.cpp:436
-#, fuzzy
 msgid "Next"
-msgstr "Próxima página"
+msgstr "Próxima"
 
 #: KJotsMain.cpp:440
-#, fuzzy
 msgid "Subject List"
-msgstr "Mostrar lista de assuntos"
+msgstr "Lista de assuntos"
 
 #: KJotsMain.cpp:444
 msgid "Exit"
-msgstr ""
+msgstr "Sair"
 
 #: KJotsMain.cpp:616
 msgid "A book with this name already exists."

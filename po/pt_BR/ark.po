@@ -18,9 +18,8 @@ msgid "Only Add Newer Files"
 msgstr "Somente arquivos adicionados recentemente"
 
 #: extractdlg.cc:14
-#, fuzzy
 msgid "Extract"
-msgstr "E&xtrair"
+msgstr "Extrair"
 
 #: extractdlg.cc:28
 msgid "Destination"
@@ -51,9 +50,8 @@ msgid "Pattern"
 msgstr "Padrão"
 
 #: extractdlg.cc:190
-#, fuzzy
 msgid "Extract To"
-msgstr "&Extrair Para..."
+msgstr "Extrair Para"
 
 #: arkwidget.cc:71
 msgid "&New..."
@@ -69,12 +67,11 @@ msgstr "E&xtrair"
 
 #: arkwidget.cc:80
 msgid "&View file"
-msgstr ""
+msgstr "&Ver arquivo"
 
 #: arkwidget.cc:82
-#, fuzzy
 msgid "&Delete file"
-msgstr "Selecionado"
+msgstr "A&pagar arquivo"
 
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
@@ -89,42 +86,36 @@ msgid "&File Adding Options..."
 msgstr "Opções de Adição de &Arquivos"
 
 #: arkwidget.cc:97
-#, fuzzy
 msgid "File Operations"
-msgstr "Opções de Adição de Arquivos"
+msgstr "Opções de Arquivo"
 
 #: arkwidget.cc:99
-#, fuzzy
 msgid "Extract..."
-msgstr "E&xtrair"
+msgstr "Extrair..."
 
 #: arkwidget.cc:100
 msgid "View file"
-msgstr ""
+msgstr "Ver arquivo"
 
 #: arkwidget.cc:102
-#, fuzzy
 msgid "Delete file"
-msgstr "Selecionado"
+msgstr "Apagar arquivo"
 
 #: arkwidget.cc:114
-#, fuzzy
 msgid "Goto Archive Dir..."
-msgstr "&Definir Diretório de Arquivo..."
+msgstr "Ir para diretório de pacote..."
 
 #: arkwidget.cc:117
-#, fuzzy
 msgid "Extract To.."
-msgstr "&Extrair Para..."
+msgstr "Extrair Para..."
 
 #: arkwidget.cc:121
 msgid "Exit"
-msgstr ""
+msgstr "Sair"
 
 #: arkwidget.cc:128
-#, fuzzy
 msgid "Welcome to ark..."
-msgstr "Bem-vindo ao KZip..."
+msgstr "Bem-vindo ao ark..."
 
 #: arkwidget.cc:235
 msgid "Can't create archive of that type"
@@ -143,9 +134,8 @@ msgid "Error saving to archive"
 msgstr "Erro ao gravar para o arquivo"
 
 #: arkwidget.cc:312
-#, fuzzy
 msgid "Archive Dir"
-msgstr "Diretório de Arquivo:"
+msgstr "Diretório de Arquivo"
 
 #: arkwidget.cc:325
 msgid "What runs GNU tar:"
