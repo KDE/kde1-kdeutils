@@ -734,7 +734,7 @@ void HexFile::resizeEvent(QResizeEvent *) {
 			 scrollVWidth,
 			 height()-scrollHHeight);
     
-    datamap->resize(maxWidth*65+20,height()-scrollHHeight);
+    datamap->resize(maxWidth*65+25,height()-scrollHHeight);
     fillPixmap();
     if (width()>datamap->width()+scrollHHeight)
 	horoff=0;
