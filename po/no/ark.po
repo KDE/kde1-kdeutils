@@ -117,7 +117,7 @@ msgstr "Kan ikke lage arkiv av den typen"
 
 #: arkwidget.cc:257
 msgid "Create or open an archive first"
-msgstr "Lag eller epne et arkiv fxrst"
+msgstr "Lag eller åpne et arkiv først"
 
 #: arkwidget.cc:300
 msgid "Can't add directories with this archive type"
