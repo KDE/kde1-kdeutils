@@ -4,8 +4,8 @@ use Shell qw(mv cp mkdir rm) ;
 use File::Find;
 use Cwd;
 
-###$origPwd = `pwd`;
-###chomp $origPwd;
+$origPwd = `pwd`;
+chomp $origPwd;
 
 if (@ARGV && $ARGV[0] eq 'update') {
   @packages = `ls -1d debian/*/DEBIAN`;
@@ -63,21 +63,21 @@ if (@ARGV && $ARGV[0] eq 'update') {
 }
 
 if (@ARGV && $ARGV[0] eq 'echodirs') {
-    print STDOUT "export kde_htmldir=/usr/doc/kde/HTML\n";
-    print STDOUT "export kde_appsdir=/usr/share/applnk\n";
-    print STDOUT "export kde_icondir=/usr/share/icons\n";
-    print STDOUT "export kde_sounddir=/usr/share/sounds\n";
-    print STDOUT "export kde_datadir=/usr/share/apps\n";
-    print STDOUT "export kde_locale=/usr/share/locale\n";
-    print STDOUT "export kde_cgidir=/usr/lib/cgi-bin\n";
-    print STDOUT "export kde_confdir=/etc/kde\n";
-    print STDOUT "export kde_mimedir=/usr/share/mimelnk\n";
-    print STDOUT "export kde_toolbardir=/usr/share/toolbar\n";
-    print STDOUT "export kde_wallpaperdir=/usr/share/wallpaper\n";
-    print STDOUT "export kde_bindir=/usr/bin\n";
-    print STDOUT "export kde_partsdir=/usr/lib/parts\n";
-    print STDOUT "export includedir=/usr/include\n";
-    print STDOUT "export libdir=/usr/lib\n";
+  print STDOUT "export kde_htmldir=/usr/doc/kde/HTML\n";
+  print STDOUT "export kde_appsdir=/usr/share/applnk\n";
+  print STDOUT "export kde_icondir=/usr/share/icons\n";
+  print STDOUT "export kde_sounddir=/usr/share/sounds\n";
+  print STDOUT "export kde_datadir=/usr/share/apps\n";
+  print STDOUT "export kde_locale=/usr/share/locale\n";
+  print STDOUT "export kde_cgidir=/usr/lib/cgi-bin\n";
+  print STDOUT "export kde_confdir=/etc/kde\n";
+  print STDOUT "export kde_mimedir=/usr/share/mimelnk\n";
+  print STDOUT "export kde_toolbardir=/usr/share/toolbar\n";
+  print STDOUT "export kde_wallpaperdir=/usr/share/wallpapers\n";
+  print STDOUT "export kde_bindir=/usr/bin\n";
+  print STDOUT "export kde_partsdir=/usr/lib/parts\n";
+  print STDOUT "export includedir=/usr/include/kde\n";
+  print STDOUT "export libdir=/usr/lib\n";
 
   exit
 }
@@ -96,7 +96,7 @@ if (@ARGV && $ARGV[0]) {
 # Find documentation and install it
 sub docwanted {
         local $dir = $File::Find::dir;
-        $dir =~ s/^$pwd//;
+        $dir =~ s/^$origPwd//;
 	if ($dir =~ /debian/) { return 0 ; }
 	/debian/ or /INSTALL/ and return 0 ;
 	/COPYING/ and return ;
@@ -131,7 +131,7 @@ if (! -d "debian/tmp/usr/share/pixmaps") {
 }
 
 if (@docs) {
-       chdir($pwd);
+       chdir($origPwd);
        cp( "-aP", @docs, "debian/tmp/usr/doc/$package") ;
        if (-f "debian/tmp/usr/doc/$package/ChangeLog") {
 	  mv("debian/tmp/usr/doc/$package/ChangeLog", 
@@ -141,12 +141,12 @@ if (@docs) {
 
 # Create debian/menu files
 
-sub finddesktop {
-	/\.desktop$/ && push @lnkfiles, "$File::Find::dir/$_" ;
+sub findkdelnk {
+	/\.kdelnk$/ && push @lnkfiles, "$File::Find::dir/$_" ;
 }
 
-if (-d "debian/tmp/opt/kde2pre/share/applnk") {
-	find(\&finddesktop,"debian/tmp/opt/kde2pre/share/applnk");
+if (-d "debian/tmp/usr/share/applnk") {
+	find(\&findkdelnk,"debian/tmp/usr/share/applnk");
 }
 
 if (-e "debian/menu.in") {
@@ -164,40 +164,39 @@ open MENU, ">debian/menu" or die "can't open debian/menu : $!\n";
 open MIME, ">debian/mailcap" or die "can't open debian/mailcap : $!\n";
 
 foreach $file (@lnkfiles) {
-	open DESKTOP, $file;
-	undef %desktop;
-	while (<DESKTOP>) {
+	open KDELNK, $file;
+	undef %kdelnk;
+	while (<KDELNK>) {
 		/^#/ && next ;
-		/^\[Desktop Entry\]/ && next ;
 		/^\[KDE Desktop Entry\]/ && next ;
 		/^\s*$/ && next ;
 		chop ;
 		($what,$value) = split /=/ ;
-		$desktop{ucfirst lc $what}=$value;
+		$kdelnk{ucfirst lc $what}=$value;
 	}
-	close DESKTOP;
-	if (defined $desktop{"Type"}) {
-		if ($desktop{"Type"} ne "Application" ) {
+	close KDELNK;
+	if (defined $kdelnk{"Type"}) {
+		if ($kdelnk{"Type"} ne "Application" ) {
 			print STDERR "Type is not Application : $file !\n" ;
 			next ;
 		}
 	} else {
 		print STDERR "has no Type= defaults to Application : $file !\n" ;
 	}
-	if (! defined $desktop{"Exec"}) {
+	if (! defined $kdelnk{"Exec"}) {
 		print STDERR "has no Exec= : $file !\n" ;
 		next ;
 	}
 
-	if (defined $desktop{"Mimetype"} && ! $desktop{"Mimetype"} eq '') {
+	if (defined $kdelnk{"Mimetype"} && ! $kdelnk{"Mimetype"} eq '') {
 
-  	   $execline = $desktop{"Exec"};
+  	   $execline = $kdelnk{"Exec"};
 	   $execline =~ s/%f/%s/;
-	   $execline =~ s/%c/$desktop{"Name"}/;
+	   $execline =~ s/%c/$kdelnk{"Name"}/;
 	   $execline =~ s/%i//;
 	   $execline =~ s/%m//;
 	   $execline =~ s/%u/%s/;
-	   $mimeline = $desktop{"Mimetype"};
+	   $mimeline = $kdelnk{"Mimetype"};
 	   @mimetypes = split(';', $mimeline);
 	   foreach $mimetype (@mimetypes) {
 	   print MIME "$mimetype; $execline;" . 'test=test "$DISPLAY" != ""; priority=7' . "\n";
@@ -205,7 +204,7 @@ foreach $file (@lnkfiles) {
 
 	}
 
-	($prog,)=split / /, $desktop{"Exec"} ;
+	($prog,)=split / /, $kdelnk{"Exec"} ;
 	if (! defined($type{$prog})) {
 		open MENUIN, ">>debian/menu.in" ;
 		print MENUIN "$prog x11 SECTION\n";
@@ -214,24 +213,24 @@ foreach $file (@lnkfiles) {
 	}
 	if ($sect{$prog} eq "NONE") { next ; }
 	$icon="";
-	if (not defined $desktop{"Name"}) {
-		print STDERR "No Name : $package $desktop\n";
+	if (not defined $kdelnk{"Name"}) {
+		print STDERR "No Name : $package $kdelnk\n";
 		next ;
 	}
-	if (defined $desktop{"Icon"}) {
-   	        $icon=$desktop{"Icon"} ;
-		if (! -f "debian/tmp/opt/kde2pre/share/icons/$icon" ) {
+	if (defined $kdelnk{"Icon"}) {
+   	        $icon=$kdelnk{"Icon"} ;
+		if (! -f "debian/tmp/usr/share/icons/$icon" ) {
                    $icon="";
 	        } else {
-	          system("/usr/bin/X11/convert -map /usr/X11R6/include/X11/pixmaps/cmap.xpm debian/tmp/opt/kde2pre/share/icons/$icon debian/tmp/usr/share/pixmaps/$icon");
+	          system("/usr/bin/X11/convert -map /usr/X11R6/include/X11/pixmaps/cmap.xpm debian/tmp/usr/share/icons/$icon debian/tmp/usr/share/pixmaps/$icon");
 	  	  $icon="/usr/share/pixmaps/" . $icon ;
                }
 	}
-	($desktop=$file) =~ s/^.*tmp// ;
+	($kdelnk=$file) =~ s/^.*tmp// ;
 	print MENU "?package($package):\\\n" ;
 	print MENU "	needs=$type{$prog}\\\n" ;
 	print MENU "	section=$sect{$prog}\\\n" ;
-	print MENU "	title=\"$desktop{Name}\"\\\n" ;
+	print MENU "	title=\"$kdelnk{Name}\"\\\n" ;
 	print MENU "	command=$prog\\\n" ;
 	print MENU "	icon=\"$icon\"\n\n" ;
 
