@@ -10,8 +10,8 @@
 
 <title>The KEdit Handbook
 <author>Bernd Johannes Wuebben, <tt/wuebben@kde.org/
-<date>Version 0.5, 20 May 1997
-<abstract>This Handbook describes KEdit Version 0.5
+<date>Version 0.6.3, Dec 6 1997
+<abstract>This Handbook describes KEdit Version 0.6.3
 
 <!-- Table of contents -->
 <toc>
@@ -161,11 +161,13 @@ KEdit honors the following key bindings.
 <item><tt/Control-E/ Move the cursor to the end of the line 
 <item><tt/Control-F/ Move the cursor one character rightwards 
 <item><tt/Control-H/ Delete the character to the left of the cursor 
-<item><tt/Control-K/ Delete to end of line 
+<item><tt/Control-K/ Delete to end of line and place content into the kill-buffer
 <item><tt/Control-N/ Move the cursor one line downwards 
 <item><tt/Control-P/ Move the cursor one line upwards 
 <item><tt/Control-V/ Paste the clipboard text into line edit. 
 <item><tt/Control-X/ Cut the marked text, copy to clipboard. 
+<item><tt/Control-Y/ Yank content of the kill-buffer into the document at the
+                     current cursor position.
 </itemize>
 
 <sect>The Menu Entries
