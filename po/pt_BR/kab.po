@@ -29,7 +29,9 @@ msgstr "Não foi possível carregar a imagem de logotipo do Livro de Endereços."
 msgid ""
 "Here you would see\n"
 "the addressbook logo."
-msgstr "Aqui você veria\n o logotipo do programa."
+msgstr ""
+"Aqui você veria\n"
+" o logotipo do programa."
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"

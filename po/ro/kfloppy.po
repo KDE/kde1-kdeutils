@@ -57,8 +57,9 @@ msgid "Create Label:"
 msgstr "Creazã etichetã:"
 
 #: floppy.cpp:148
-msgid "KDE FLoppy"
-msgstr ""
+#, fuzzy
+msgid "KDE Floppy"
+msgstr "Formator de diskete"
 
 #: floppy.cpp:162
 msgid "KDE Floppy Formatter"

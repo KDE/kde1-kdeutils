@@ -1,19 +1,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdenonbeta\n"
-"POT-Creation-Date: 1998-06-18 22:51+0200\n"
+"POT-Creation-Date: 1998-10-30 12:45+0100\n"
 "PO-Revision-Date: 1998-06-17 21:45+0200\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
-#: main.cpp:208
+#: main.cpp:176
 msgid "Sorry, can't open your printcap file."
 msgstr "Lo siento, no se puede abrir el archivo printcap"
 
-#: main.cpp:213
+#: main.cpp:181
 msgid "Sorry, unable to parse your printcap."
 msgstr "Lo siento, no se puede analizar su printcap."
 
-#: main.cpp:214
+#: main.cpp:182
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
 msgstr ""
 "Por favor mande un email con su printcap a Christoph.Neerfeld@home.ivm.de"
@@ -34,10 +34,6 @@ msgstr "Imprimiendo"
 msgid "Update"
 msgstr "Actualizar"
 
-#: klpq.cpp:105
-msgid "Quit"
-msgstr "Salir"
-
 #: klpq.cpp:119
 msgid "Rank"
 msgstr "Ordenar"
@@ -50,17 +46,9 @@ msgstr "Dueño"
 msgid "Job"
 msgstr "Trabajo"
 
-#: klpq.cpp:122
-msgid "Files"
-msgstr "Ficheros"
-
 #: klpq.cpp:123
 msgid "Size"
 msgstr "Tamaño"
-
-#: klpq.cpp:139 klpq.cpp:217
-msgid "Remove"
-msgstr "Eliminar"
 
 #: klpq.cpp:143 klpq.cpp:218
 msgid "Make Top"
@@ -70,10 +58,6 @@ msgstr "Poner el primero"
 msgid "Auto"
 msgstr "Auto"
 
-#: klpq.cpp:192
-msgid "&Quit"
-msgstr "&Salir"
-
 #: klpq.cpp:195
 msgid "&Auto update"
 msgstr "Actualizar &Automáticamente"
@@ -82,39 +66,28 @@ msgstr "Actualizar &Automáticamente"
 msgid "&Spooler"
 msgstr "&Spooler"
 
-#: klpq.cpp:202
-msgid "&File"
-msgstr "&Fichero"
-
 #: klpq.cpp:203
 msgid "&Config"
 msgstr "&Configuración"
 
-#: klpq.cpp:205
-msgid "&Help"
-msgstr "&Ayuda"
-
-#: klpq.cpp:383
-msgid "Do you realy want to remove job Nr. "
+#: klpq.cpp:389
+#, fuzzy, c-format
+msgid "Do you really want to remove job No %d"
 msgstr "Realmente desea eliminar el trabajo Nr. "
 
-#: klpq.cpp:403
-msgid "Do you realy want to move job Nr.\n"
+#: klpq.cpp:409
+#, fuzzy, c-format
+msgid ""
+"Do you really want to move job No\n"
+"%d\n"
+"on top of queue"
 msgstr "Realmente desea mover el trabajo Nr. \n"
 
-#: klpq.cpp:404
-msgid ""
-"\n"
-"on top of queue"
-msgstr ""
-"\n"
-"al principio de la cola"
-
-#: klpq.cpp:586 klpq.cpp:612 klpq.cpp:638
+#: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
 msgid "Permission denied"
 msgstr "Permiso denegado"
 
-#: klpq.cpp:587 klpq.cpp:613 klpq.cpp:639
+#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
 msgid ""
 "This is a privileged command\n"
 "and you do not have permission to execute it."
@@ -134,15 +107,11 @@ msgstr "Frecuencia de actualización en segundos:"
 msgid "Ok"
 msgstr "Aceptar"
 
-#: ConfAutoUpdateData.cpp:36 SpoolerConfigData.cpp:142
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: klpqspooler.cpp:120 klpqspooler.cpp:190
+#: klpqspooler.cpp:197 klpqspooler.cpp:267
 msgid "Can't find your lpc program !"
 msgstr "¡ No se pudo encontrar el programa lpc !"
 
-#: klpqspooler.cpp:121 klpqspooler.cpp:191
+#: klpqspooler.cpp:198 klpqspooler.cpp:268
 msgid ""
 "Sorry, I can't find your lpc program.\n"
 "Please check the configuration under Config->Spooler."
@@ -167,3 +136,31 @@ msgstr ""
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"
 msgstr "Path de los comandos de spooling:"
+
+#~ msgid "Quit"
+#~ msgstr "Salir"
+
+#~ msgid "Files"
+#~ msgstr "Ficheros"
+
+#~ msgid "Remove"
+#~ msgstr "Eliminar"
+
+#~ msgid "&Quit"
+#~ msgstr "&Salir"
+
+#~ msgid "&File"
+#~ msgstr "&Fichero"
+
+#~ msgid "&Help"
+#~ msgstr "&Ayuda"
+
+#~ msgid ""
+#~ "\n"
+#~ "on top of queue"
+#~ msgstr ""
+#~ "\n"
+#~ "al principio de la cola"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"

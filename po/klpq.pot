@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-08-16 14:59+0200\n"
+"POT-Creation-Date: 1998-10-30 12:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,15 +14,15 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: main.cpp:171
+#: main.cpp:176
 msgid "Sorry, can't open your printcap file."
 msgstr ""
 
-#: main.cpp:176
+#: main.cpp:181
 msgid "Sorry, unable to parse your printcap."
 msgstr ""
 
-#: main.cpp:177
+#: main.cpp:182
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
 msgstr ""
 
@@ -42,10 +42,6 @@ msgstr ""
 msgid "Update"
 msgstr ""
 
-#: klpq.cpp:105
-msgid "Quit"
-msgstr ""
-
 #: klpq.cpp:119
 msgid "Rank"
 msgstr ""
@@ -58,16 +54,8 @@ msgstr ""
 msgid "Job"
 msgstr ""
 
-#: klpq.cpp:122
-msgid "Files"
-msgstr ""
-
 #: klpq.cpp:123
 msgid "Size"
-msgstr ""
-
-#: klpq.cpp:139 klpq.cpp:217
-msgid "Remove"
 msgstr ""
 
 #: klpq.cpp:143 klpq.cpp:218
@@ -78,10 +66,6 @@ msgstr ""
 msgid "Auto"
 msgstr ""
 
-#: klpq.cpp:192
-msgid "&Quit"
-msgstr ""
-
 #: klpq.cpp:195
 msgid "&Auto update"
 msgstr ""
@@ -90,16 +74,8 @@ msgstr ""
 msgid "&Spooler"
 msgstr ""
 
-#: klpq.cpp:202
-msgid "&File"
-msgstr ""
-
 #: klpq.cpp:203
 msgid "&Config"
-msgstr ""
-
-#: klpq.cpp:205
-msgid "&Help"
 msgstr ""
 
 #: klpq.cpp:389
@@ -135,10 +111,6 @@ msgstr ""
 
 #: ConfAutoUpdateData.cpp:32 FirstStartData.cpp:50 SpoolerConfigData.cpp:134
 msgid "Ok"
-msgstr ""
-
-#: ConfAutoUpdateData.cpp:36 SpoolerConfigData.cpp:142
-msgid "Cancel"
 msgstr ""
 
 #: klpqspooler.cpp:197 klpqspooler.cpp:267

@@ -4,19 +4,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
-"POT-Creation-Date: 1998-05-13 12:05+0200\n"
+"POT-Creation-Date: 1998-05-30 17:50+0200\n"
 "PO-Revision-Date: 1998-10-15 15:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
-"Content-Transfer-Encoding: 8bit\n"        
+"Content-Transfer-Encoding: 8bit\n"
 "Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
 "Files: about.cpp floppy.cpp main.cpp\n"
 
 # about.cpp:40
 #: about.cpp:40
-msgid "About KDE Floppy Formater"
+#, fuzzy
+msgid "About KDE Floppy Formatter"
 msgstr "O KDE programu za formatiranje"
 
 # about.cpp:49 floppy.cpp:289 floppy.cpp:336 floppy.cpp:352 floppy.cpp:368 floppy.cpp:475 floppy.cpp:578 floppy.cpp:592 floppy.cpp:707 floppy.cpp:721 floppy.cpp:768 floppy.cpp:777 floppy.cpp:884 floppy.cpp:905 floppy.cpp:929
@@ -68,12 +69,14 @@ msgstr "Naèini Oznaku:"
 
 # floppy.cpp:148
 #: floppy.cpp:148
-msgid "KDE FLoppy"
+#, fuzzy
+msgid "KDE Floppy"
 msgstr "KDE Floppy"
 
 # floppy.cpp:162
 #: floppy.cpp:162
-msgid "KDE Floppy Formater"
+#, fuzzy
+msgid "KDE Floppy Formatter"
 msgstr "KDE program za formatiranje disketa"
 
 # floppy.cpp:222 floppy.cpp:237 floppy.cpp:252 floppy.cpp:267

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klpq\n"
-"POT-Creation-Date: 1998-10-26 11:17+0100\n"
+"POT-Creation-Date: 1998-10-30 12:45+0100\n"
 "PO-Revision-Date: 1998-10-28 21:18 CET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <flidr@kky.zcu.cz>\n"
@@ -45,9 +45,17 @@ msgstr "Aktualizace"
 msgid "Rank"
 msgstr "Poøadí"
 
+#: klpq.cpp:120
+msgid "Owner"
+msgstr ""
+
 #: klpq.cpp:121
 msgid "Job"
 msgstr "Èinnost/práce"
+
+#: klpq.cpp:123
+msgid "Size"
+msgstr ""
 
 #: klpq.cpp:143 klpq.cpp:218
 msgid "Make Top"
@@ -104,6 +112,10 @@ msgstr "Konfigurovat automatickou aktualizaci"
 #: ConfAutoUpdateData.cpp:17
 msgid "Update frequency in seconds:"
 msgstr "Frekvence aktualizace v sekundách:"
+
+#: ConfAutoUpdateData.cpp:32 FirstStartData.cpp:50 SpoolerConfigData.cpp:134
+msgid "Ok"
+msgstr ""
 
 #: klpqspooler.cpp:197 klpqspooler.cpp:267
 msgid "Can't find your lpc program !"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KEDIT\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-10-30 12:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -359,31 +359,31 @@ msgstr ""
 msgid "Spellchecker Options"
 msgstr "Tallenna asetukset"
 
-#: keditcl1.cpp:137
+#: keditcl1.cpp:150
 msgid "The specified File does not exist"
 msgstr "M‰‰ritelty‰ tiedostoa ei ole olemassa"
 
-#: keditcl1.cpp:150 keditcl1.cpp:423 keditcl1.cpp:507 keditcl1.cpp:1690
+#: keditcl1.cpp:163 keditcl1.cpp:441 keditcl1.cpp:525 keditcl1.cpp:1716
 msgid "Sorry:"
 msgstr "Anteeksi:"
 
-#: keditcl1.cpp:151
+#: keditcl1.cpp:164
 msgid "You have specificated a directory"
 msgstr "Olet antanut hakemiston"
 
-#: keditcl1.cpp:166 keditcl1.cpp:187
+#: keditcl1.cpp:179 keditcl1.cpp:200
 msgid "You do not have read permission to this file."
 msgstr "Sinulla ei ole oikeuksia lukea t‰t‰ tiedostoa."
 
-#: keditcl1.cpp:200
+#: keditcl1.cpp:213
 msgid "An Error occured while trying to open this Document"
 msgstr "Asiakirjaa avattaessa tapahtui virhe"
 
-#: keditcl1.cpp:402 keditcl1.cpp:487 keditcl1.cpp:1632
+#: keditcl1.cpp:420 keditcl1.cpp:505 keditcl1.cpp:1658
 msgid "Warning:"
 msgstr "Varoitus:"
 
-#: keditcl1.cpp:403 keditcl1.cpp:488
+#: keditcl1.cpp:421 keditcl1.cpp:506
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -391,7 +391,7 @@ msgstr ""
 "Asiakirjaa on muutettu.\n"
 "Haluatko tallentaa sen?"
 
-#: keditcl1.cpp:424
+#: keditcl1.cpp:442
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -399,7 +399,7 @@ msgstr ""
 "Tiedoston tallennus ep‰onnistui.\n"
 "Avaa kuitenkin uusi asiakirja?"
 
-#: keditcl1.cpp:508
+#: keditcl1.cpp:526
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
@@ -407,11 +407,11 @@ msgstr ""
 "Tiedoston tallennus ep‰onnistui.\n"
 "Luo uusi asiakirja kuitenkin?"
 
-#: keditcl1.cpp:1549
+#: keditcl1.cpp:1575
 msgid "Could not save the document\n"
 msgstr "Tiedoston tallennus ep‰onnistui\n"
 
-#: keditcl1.cpp:1633
+#: keditcl1.cpp:1659
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
@@ -419,7 +419,7 @@ msgstr ""
 "Samalla nimell‰ on jo asiakirja\n"
 "Halutako korvata sen ?"
 
-#: keditcl1.cpp:1691
+#: keditcl1.cpp:1717
 msgid "You do not have write permission to this file.\n"
 msgstr "Sinulla ei ole kirjoitusoikeuksia tiedostoon.\n"
 

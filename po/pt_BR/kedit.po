@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kuser\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-10-30 12:45+0100\n"
 "PO-Revision-Date: 1998-03-23 00:00+0100\n"
 "Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
 
@@ -346,31 +346,31 @@ msgstr ""
 msgid "Spellchecker Options"
 msgstr "Opções de Verificador"
 
-#: keditcl1.cpp:137
+#: keditcl1.cpp:150
 msgid "The specified File does not exist"
 msgstr "O arquivo especificado não existe"
 
-#: keditcl1.cpp:150 keditcl1.cpp:423 keditcl1.cpp:507 keditcl1.cpp:1690
+#: keditcl1.cpp:163 keditcl1.cpp:441 keditcl1.cpp:525 keditcl1.cpp:1716
 msgid "Sorry:"
 msgstr "Desculpe:"
 
-#: keditcl1.cpp:151
+#: keditcl1.cpp:164
 msgid "You have specificated a directory"
 msgstr "Você especificou um diretório"
 
-#: keditcl1.cpp:166 keditcl1.cpp:187
+#: keditcl1.cpp:179 keditcl1.cpp:200
 msgid "You do not have read permission to this file."
 msgstr "Você não tem permissão de leitura para esse arquivo"
 
-#: keditcl1.cpp:200
+#: keditcl1.cpp:213
 msgid "An Error occured while trying to open this Document"
 msgstr "Um erro ocorreu ao tentar abrir esse documento"
 
-#: keditcl1.cpp:402 keditcl1.cpp:487 keditcl1.cpp:1632
+#: keditcl1.cpp:420 keditcl1.cpp:505 keditcl1.cpp:1658
 msgid "Warning:"
 msgstr "Aviso:"
 
-#: keditcl1.cpp:403 keditcl1.cpp:488
+#: keditcl1.cpp:421 keditcl1.cpp:506
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -378,7 +378,7 @@ msgstr ""
 "Este Documento foi modificado.\n"
 "Deseja gravá-lo?"
 
-#: keditcl1.cpp:424
+#: keditcl1.cpp:442
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -386,7 +386,7 @@ msgstr ""
 "Não foi possível gravar o arquivo.\n"
 "Abrir um novo documento mesmo assim ?"
 
-#: keditcl1.cpp:508
+#: keditcl1.cpp:526
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
@@ -394,11 +394,11 @@ msgstr ""
 "Não foi possível gravar o arquivo.\n"
 "Criar um novo documento mesmo assim ?"
 
-#: keditcl1.cpp:1549
+#: keditcl1.cpp:1575
 msgid "Could not save the document\n"
 msgstr "Não foi possível gravar o arquivo.\n"
 
-#: keditcl1.cpp:1633
+#: keditcl1.cpp:1659
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
@@ -406,7 +406,7 @@ msgstr ""
 "Um documento com esse nome já existe.\n"
 "Deseja sobreescrevê-lo ?"
 
-#: keditcl1.cpp:1691
+#: keditcl1.cpp:1717
 msgid "You do not have write permission to this file.\n"
 msgstr "Você não tem permissões de escrita para esse arquivo.\n"
 

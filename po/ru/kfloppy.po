@@ -56,7 +56,7 @@ msgid "Create Label:"
 msgstr "ํลิหม:"
 
 #: floppy.cpp:148
-msgid "KDE FLoppy"
+msgid "KDE Floppy"
 msgstr ""
 
 #: floppy.cpp:162

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kedit 1.0pre2\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-10-30 12:45+0100\n"
 "PO-Revision-Date: 1998-07-19 10:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -359,31 +359,31 @@ msgstr ""
 msgid "Spellchecker Options"
 msgstr "Sekurigu opciojn"
 
-#: keditcl1.cpp:137
+#: keditcl1.cpp:150
 msgid "The specified File does not exist"
 msgstr ""
 
-#: keditcl1.cpp:150 keditcl1.cpp:423 keditcl1.cpp:507 keditcl1.cpp:1690
+#: keditcl1.cpp:163 keditcl1.cpp:441 keditcl1.cpp:525 keditcl1.cpp:1716
 msgid "Sorry:"
 msgstr ""
 
-#: keditcl1.cpp:151
+#: keditcl1.cpp:164
 msgid "You have specificated a directory"
 msgstr ""
 
-#: keditcl1.cpp:166 keditcl1.cpp:187
+#: keditcl1.cpp:179 keditcl1.cpp:200
 msgid "You do not have read permission to this file."
 msgstr ""
 
-#: keditcl1.cpp:200
+#: keditcl1.cpp:213
 msgid "An Error occured while trying to open this Document"
 msgstr ""
 
-#: keditcl1.cpp:402 keditcl1.cpp:487 keditcl1.cpp:1632
+#: keditcl1.cpp:420 keditcl1.cpp:505 keditcl1.cpp:1658
 msgid "Warning:"
 msgstr ""
 
-#: keditcl1.cpp:403 keditcl1.cpp:488
+#: keditcl1.cpp:421 keditcl1.cpp:506
 #, fuzzy
 msgid ""
 "The current Document has been modified.\n"
@@ -392,7 +392,7 @@ msgstr ""
 "Tiu æi dokumento estas þanøita.\n"
 "Æu vi volas sekurigi øin?"
 
-#: keditcl1.cpp:424
+#: keditcl1.cpp:442
 #, fuzzy
 msgid ""
 "Could not save the document.\n"
@@ -401,7 +401,7 @@ msgstr ""
 "Ne eblis sekurigi la dosieron.\n"
 "Æu tamen presi?"
 
-#: keditcl1.cpp:508
+#: keditcl1.cpp:526
 #, fuzzy
 msgid ""
 "Could not save the document.\n"
@@ -410,20 +410,20 @@ msgstr ""
 "Ne eblis sekurigi la dosieron.\n"
 "Æu tamen presi?"
 
-#: keditcl1.cpp:1549
+#: keditcl1.cpp:1575
 #, fuzzy
 msgid "Could not save the document\n"
 msgstr ""
 "Ne eblis sekurigi la dosieron.\n"
 "Æu tamen presi?"
 
-#: keditcl1.cpp:1633
+#: keditcl1.cpp:1659
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
 msgstr ""
 
-#: keditcl1.cpp:1691
+#: keditcl1.cpp:1717
 msgid "You do not have write permission to this file.\n"
 msgstr ""
 

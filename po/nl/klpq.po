@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-18 22:51+0200\n"
+"POT-Creation-Date: 1998-10-30 12:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,17 +15,17 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 # main.cpp:208
-#: main.cpp:208
+#: main.cpp:176
 msgid "Sorry, can't open your printcap file."
 msgstr "Sorry, kan je printcap bestand niet openen."
 
 # main.cpp:213
-#: main.cpp:213
+#: main.cpp:181
 msgid "Sorry, unable to parse your printcap."
 msgstr "Sorry, kan je printcap niet lezen."
 
 # main.cpp:214
-#: main.cpp:214
+#: main.cpp:182
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
 msgstr "Stuur je printcap aub. naar Christoph.Neerfeld@home.ivm.de"
 
@@ -49,11 +49,6 @@ msgstr "Bezig met printen"
 msgid "Update"
 msgstr "Verversen"
 
-# klpq.cpp:105
-#: klpq.cpp:105
-msgid "Quit"
-msgstr "Afsluiten"
-
 # klpq.cpp:119
 #: klpq.cpp:119
 msgid "Rank"
@@ -69,20 +64,10 @@ msgstr "Eigenaar"
 msgid "Job"
 msgstr "Taak"
 
-# klpq.cpp:122
-#: klpq.cpp:122
-msgid "Files"
-msgstr "Bestanden"
-
 # klpq.cpp:123
 #: klpq.cpp:123
 msgid "Size"
 msgstr "Grootte"
-
-# klpq.cpp:139 klpq.cpp:217
-#: klpq.cpp:139 klpq.cpp:217
-msgid "Remove"
-msgstr "Verwijderen"
 
 # klpq.cpp:143 klpq.cpp:218
 #: klpq.cpp:143 klpq.cpp:218
@@ -94,11 +79,6 @@ msgstr "Maak Top"
 msgid "Auto"
 msgstr "Auto"
 
-# klpq.cpp:192
-#: klpq.cpp:192
-msgid "&Quit"
-msgstr "&Afsluiten"
-
 # klpq.cpp:195
 #: klpq.cpp:195
 msgid "&Auto update"
@@ -109,47 +89,33 @@ msgstr "&Automatisch verversen"
 msgid "&Spooler"
 msgstr ""
 
-# klpq.cpp:202
-#: klpq.cpp:202
-msgid "&File"
-msgstr "&Bestand"
-
 # klpq.cpp:203
 #: klpq.cpp:203
 msgid "&Config"
 msgstr "&Configuratie"
 
-# klpq.cpp:205
-#: klpq.cpp:205
-msgid "&Help"
-msgstr "&Help"
-
 # klpq.cpp:383
-#: klpq.cpp:383
-msgid "Do you realy want to remove job Nr. "
+#: klpq.cpp:389
+#, fuzzy, c-format
+msgid "Do you really want to remove job No %d"
 msgstr "Weet je zeker dat je wilt verwijderen taak Nr."
 
 # klpq.cpp:403
-#: klpq.cpp:403
-msgid "Do you realy want to move job Nr.\n"
+#: klpq.cpp:409
+#, fuzzy, c-format
+msgid ""
+"Do you really want to move job No\n"
+"%d\n"
+"on top of queue"
 msgstr "Weet je zeker dat je wilt verplaatsen taak Nr.\n"
 
-# klpq.cpp:404
-#: klpq.cpp:404
-msgid ""
-"\n"
-"on top of queue"
-msgstr ""
-"\n"
-"bovenaan de wachtrij"
-
 # klpq.cpp:586 klpq.cpp:612 klpq.cpp:638
-#: klpq.cpp:586 klpq.cpp:612 klpq.cpp:638
+#: klpq.cpp:557 klpq.cpp:563 klpq.cpp:578
 msgid "Permission denied"
 msgstr "Permissie geweigerd"
 
 # klpq.cpp:587 klpq.cpp:613 klpq.cpp:639
-#: klpq.cpp:587 klpq.cpp:613 klpq.cpp:639
+#: klpq.cpp:558 klpq.cpp:564 klpq.cpp:579
 msgid ""
 "This is a privileged command\n"
 "and you do not have permission to execute it."
@@ -171,18 +137,13 @@ msgstr "Update Frequentie in seconden:"
 msgid "Ok"
 msgstr "Ok"
 
-# ConfAutoUpdateData.cpp:36 SpoolerConfigData.cpp:142
-#: ConfAutoUpdateData.cpp:36 SpoolerConfigData.cpp:142
-msgid "Cancel"
-msgstr "Cancel"
-
 # klpqspooler.cpp:120 klpqspooler.cpp:190
-#: klpqspooler.cpp:120 klpqspooler.cpp:190
+#: klpqspooler.cpp:197 klpqspooler.cpp:267
 msgid "Can't find your lpc program !"
 msgstr "Kan je lpc programma niet vinden!"
 
 # klpqspooler.cpp:121 klpqspooler.cpp:191
-#: klpqspooler.cpp:121 klpqspooler.cpp:191
+#: klpqspooler.cpp:198 klpqspooler.cpp:268
 msgid ""
 "Sorry, I can't find your lpc program.\n"
 "Please check the configuration under Config->Spooler."
@@ -210,3 +171,39 @@ msgstr ""
 #: SpoolerConfigData.cpp:99
 msgid "Paths of spooling commands:"
 msgstr "Pad van spooling commando's:"
+
+# klpq.cpp:105
+#~ msgid "Quit"
+#~ msgstr "Afsluiten"
+
+# klpq.cpp:122
+#~ msgid "Files"
+#~ msgstr "Bestanden"
+
+# klpq.cpp:139 klpq.cpp:217
+#~ msgid "Remove"
+#~ msgstr "Verwijderen"
+
+# klpq.cpp:192
+#~ msgid "&Quit"
+#~ msgstr "&Afsluiten"
+
+# klpq.cpp:202
+#~ msgid "&File"
+#~ msgstr "&Bestand"
+
+# klpq.cpp:205
+#~ msgid "&Help"
+#~ msgstr "&Help"
+
+# klpq.cpp:404
+#~ msgid ""
+#~ "\n"
+#~ "on top of queue"
+#~ msgstr ""
+#~ "\n"
+#~ "bovenaan de wachtrij"
+
+# ConfAutoUpdateData.cpp:36 SpoolerConfigData.cpp:142
+#~ msgid "Cancel"
+#~ msgstr "Cancel"

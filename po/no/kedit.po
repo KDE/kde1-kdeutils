@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kedit\n"
-"POT-Creation-Date: 1998-10-13 13:36+0200\n"
+"POT-Creation-Date: 1998-10-30 12:45+0100\n"
 "PO-Revision-Date: 1998-06-02 14:42+0100\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -354,31 +354,31 @@ msgstr ""
 msgid "Spellchecker Options"
 msgstr "Stavekontrollvalg"
 
-#: keditcl1.cpp:137
+#: keditcl1.cpp:150
 msgid "The specified File does not exist"
 msgstr "Den oppgitte filen eksisterer ikke"
 
-#: keditcl1.cpp:150 keditcl1.cpp:423 keditcl1.cpp:507 keditcl1.cpp:1690
+#: keditcl1.cpp:163 keditcl1.cpp:441 keditcl1.cpp:525 keditcl1.cpp:1716
 msgid "Sorry:"
 msgstr "Beklager:"
 
-#: keditcl1.cpp:151
+#: keditcl1.cpp:164
 msgid "You have specificated a directory"
 msgstr "Du har ikke oppgitt en katalog"
 
-#: keditcl1.cpp:166 keditcl1.cpp:187
+#: keditcl1.cpp:179 keditcl1.cpp:200
 msgid "You do not have read permission to this file."
 msgstr "Du har ikke lesetilgang til denne filen."
 
-#: keditcl1.cpp:200
+#: keditcl1.cpp:213
 msgid "An Error occured while trying to open this Document"
 msgstr "En feil oppstod under forsøk på å åpne dokumentet"
 
-#: keditcl1.cpp:402 keditcl1.cpp:487 keditcl1.cpp:1632
+#: keditcl1.cpp:420 keditcl1.cpp:505 keditcl1.cpp:1658
 msgid "Warning:"
 msgstr "Varsel:"
 
-#: keditcl1.cpp:403 keditcl1.cpp:488
+#: keditcl1.cpp:421 keditcl1.cpp:506
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -386,7 +386,7 @@ msgstr ""
 "Dette gjeldende dokumentet er endret.\n"
 "Vil du lagre til det?"
 
-#: keditcl1.cpp:424
+#: keditcl1.cpp:442
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -394,7 +394,7 @@ msgstr ""
 "Kunne ikke lagre dokumentet.\n"
 "Åpne et nytt dokument likevel?"
 
-#: keditcl1.cpp:508
+#: keditcl1.cpp:526
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
@@ -402,11 +402,11 @@ msgstr ""
 "Kunne ikke lagre dokumentet.\n"
 "Opprette et nytt dokument likvel?"
 
-#: keditcl1.cpp:1549
+#: keditcl1.cpp:1575
 msgid "Could not save the document\n"
 msgstr "Kunne ikke lagre dokumentet\n"
 
-#: keditcl1.cpp:1633
+#: keditcl1.cpp:1659
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
@@ -414,7 +414,7 @@ msgstr ""
 "Et dokument med dete navnet eksisterer allerede\n"
 "Vil du overskrive?"
 
-#: keditcl1.cpp:1691
+#: keditcl1.cpp:1717
 msgid "You do not have write permission to this file.\n"
 msgstr "Du har ikke skrivetilgang til denne filen.\n"
 
