@@ -1,7 +1,6 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-01-25 13:24+0100\n"
-"Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-10-09 11:06:57-0400\n"
 "From: Robert Palmbos <robertp@pbnjelly>\n"
@@ -9,6 +8,7 @@ msgstr ""
 "Files: adddlg.cc ar.cc arch.cc extractdlg.cc karch.cc kfdird.cc "
 "ktablistbox.cc kzip.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h arch.h "
 "extractdlg.h karch.h kfdird.h ktablistbox.h kzip.h lha.h tar.h text.h zip.h\n"
+"Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
 #: adddlg.cc:11
 msgid "Add File Options"
@@ -40,7 +40,7 @@ msgstr "Preservar Permissões"
 
 #: extractdlg.cc:36
 msgid "Filenames to Lowercase"
-msgstr "Nome de Ficheiros para Minusculas"
+msgstr "Nome de Ficheiros para Minúsculas"
 
 #: extractdlg.cc:39
 msgid "All Files"
@@ -72,7 +72,7 @@ msgstr "Opções de Adição de &Ficheiros"
 
 #: kzip.cc:122
 msgid "Welcome to KZip..."
-msgstr "Bemvindo ao KZip..."
+msgstr "Bem-vindo ao KZip..."
 
 #: kzip.cc:228
 msgid "Can't create archive of that type"
@@ -84,7 +84,7 @@ msgstr "Crie ou abra um arquivo primeiro"
 
 #: kzip.cc:273
 msgid "Can't add directories with this archive type"
-msgstr "Impossivel adicionar directorias com este tipo de arquivo"
+msgstr "Impossível adicionar directorias com este tipo de arquivo"
 
 #: kzip.cc:275
 msgid "Error saving to archive"

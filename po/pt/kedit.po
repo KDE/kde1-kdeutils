@@ -99,7 +99,7 @@ msgstr "&Indentação Automática"
 
 #: kedit.cpp:256
 msgid "&Tool Bar"
-msgstr "Barra de &Ferrramentas"
+msgstr "Barra de &Ferramentas"
 
 #: kedit.cpp:258
 msgid "&Status Bar"
@@ -154,7 +154,7 @@ msgid ""
 "Could not save the file.\n"
 "Exit anyways?"
 msgstr ""
-"Não foi possivel gravar o ficheiro.\n"
+"Não foi possível gravar o ficheiro.\n"
 "Sair mesmo assim?"
 
 #: kedit.cpp:638
@@ -195,7 +195,7 @@ msgid ""
 "Could not pipe the contentsof this Document into:\n"
 " %s"
 msgstr ""
-"Não foi possivel enviar pelo pipe os conteudos deste Documento para:\n"
+"Não foi possível enviar pelo pipe os conteúdos deste Documento para:\n"
 "%s"
 
 #: kedit.cpp:960
@@ -226,13 +226,13 @@ msgid ""
 "Could not save the file.\n"
 "Print anyways?"
 msgstr ""
-"Não foi possivel gravar o ficheiro.\n"
+"Não foi possível gravar o ficheiro.\n"
 "Imprimir de qualquer modo?"
 
 #: kedit.cpp:1235
 #, c-format
 msgid "Printing: %s Untitled (Selection)"
-msgstr "Imprimido: % Sem-Titulo (Selecção)"
+msgstr "Imprimindo: %s Sem-Titulo (Selecção)"
 
 #: kedit.cpp:1238
 #, c-format
@@ -271,7 +271,7 @@ msgstr ""
 
 #: kedit.cpp:1368 kedit.cpp:1463
 msgid "Could not start or find KFM"
-msgstr "Não foi possivel iniciar ou encontrar o KFM"
+msgstr "Não foi possível iniciar ou encontrar o KFM"
 
 #: kedit.cpp:1410
 #, c-format
