@@ -1,0 +1,381 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Erez Nir <erez-n@actcom.co.il>, 1998.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"PO-Revision-Date: 1998-12-01 HO:MI+ZONE\n"
+"Last-Translator: Erez Nir <erez-n@actcom.co.il>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-5589-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: kedit.cpp:83 kedit.cpp:1019
+msgid "Show &Tool Bar"
+msgstr "םילכ לגרס גצה"
+
+#: kedit.cpp:85 kedit.cpp:1012
+msgid "Hide &Tool Bar"
+msgstr "םילכ לגרס רתסה"
+
+#: kedit.cpp:88 kedit.cpp:999
+msgid "Show &Status Bar"
+msgstr "בצמ תרוש גצה"
+
+#: kedit.cpp:90 kedit.cpp:992
+msgid "Hide &Status Bar"
+msgstr "בצמ תרוש רתסה"
+
+#: kedit.cpp:152
+msgid "Select All"
+msgstr "לכה רחב"
+
+#: kedit.cpp:183
+msgid "&About..."
+msgstr "תודוא"
+
+#: kedit.cpp:187
+msgid "Ne&w..."
+msgstr "...שדח"
+
+#: kedit.cpp:192
+msgid "Open Recen&t..."
+msgstr "...םינורחא םיכמסמ"
+
+#: kedit.cpp:204
+msgid "Open &URL..."
+msgstr "...רושיק חתפ"
+
+#: kedit.cpp:206
+msgid "Save to U&RL..."
+msgstr "...רושיקל רומש"
+
+#: kedit.cpp:212
+msgid "&Mail..."
+msgstr "...ראודכ חלש"
+
+#: kedit.cpp:216
+msgid "New &Window"
+msgstr "שדח ןולח"
+
+#: kedit.cpp:228
+msgid "&Select All"
+msgstr "לכה רחב"
+
+#: kedit.cpp:231
+msgid "&Insert File"
+msgstr "ץבוק סנכה"
+
+#: kedit.cpp:233
+msgid "Insert &Date"
+msgstr "ךיראת סנכה"
+
+#: kedit.cpp:236
+msgid "&Find..."
+msgstr "...שופיח"
+
+#: kedit.cpp:238
+msgid "Find &Again"
+msgstr "שופיח לע רוזח"
+
+#: kedit.cpp:240
+msgid "&Replace"
+msgstr "הפלחה"
+
+#: kedit.cpp:243
+msgid "&Goto Line..."
+msgstr "...הרושל רובע"
+
+#: kedit.cpp:247
+msgid "&Font"
+msgstr "ןפוג"
+
+#: kedit.cpp:249
+msgid "Colors"
+msgstr "םיעבצ"
+
+#: kedit.cpp:251
+msgid "KEdit &Options..."
+msgstr "...ךרועה תורדגה"
+
+#: kedit.cpp:253
+msgid "Auto &Indent"
+msgstr "יטמוטוא גוריד"
+
+#: kedit.cpp:256
+msgid "&Tool Bar"
+msgstr "םילכ לגרס"
+
+#: kedit.cpp:258
+msgid "&Status Bar"
+msgstr "בצמ תרוש"
+
+#: kedit.cpp:261
+msgid "Save Options"
+msgstr "תורדגה רומש"
+
+#: kedit.cpp:289
+msgid "New Document"
+msgstr "שדח ךמסמ"
+
+#: kedit.cpp:295
+msgid "Open Document"
+msgstr "ךמסמ חתפ"
+
+#: kedit.cpp:300
+msgid "Save Document"
+msgstr "ךמסמ רומש"
+
+#: kedit.cpp:325 print.cpp:88
+msgid "Print Document"
+msgstr "ךמסמ תספדה"
+
+#: kedit.cpp:330
+msgid "Mail Document"
+msgstr "ךמסמ ראודב חלש"
+
+#: kedit.cpp:534
+msgid "Open Location:"
+msgstr "רושיק חתפ"
+
+#: kedit.cpp:548
+msgid "Save to Location:"
+msgstr "רושיקל רומש"
+
+#: kedit.cpp:574 kedit.cpp:637 kedit.cpp:666 kedit.cpp:729 kedit.cpp:1123
+msgid "Message"
+msgstr "העדוה"
+
+#: kedit.cpp:575 kedit.cpp:730
+msgid ""
+"This Document has been modified.\n"
+"Would you like to save it?"
+msgstr ""
+"םייוניש רבע ךמסמה\n"
+"? השדחה הסריגה תא רומשל הצרת םאה"
+#: kedit.cpp:592 kedit.cpp:747
+msgid ""
+"Could not save the file.\n"
+"Exit anyways?"
+msgstr ""
+"ץבוקה תא רומשל היה ןתינ אל\n"
+"? תאז לכב תאצל הצרת םאה"
+#: kedit.cpp:638
+msgid ""
+"There are windows with modified content open.\n"
+"If you exit now, you will loose those changes\n"
+"Quit anyways?"
+msgstr ""
+".הנוש םנכתש םיכמסמ םימייק תונולח רפסמב\n"
+"וללה םייונישה תא דבאת תעכ בוזעת םא\n"
+"?תאז לכב בוזעל הצרת םאה"
+#: kedit.cpp:667
+msgid ""
+"The current document has been modified.\n"
+"Continue anyways ?"
+msgstr ""
+"הנוש יחכונה ךמסמה\n"
+"?ןפוא לכב ךישמהל"
+#: kedit.cpp:808
+#, c-format
+msgid "Wrote: %s"
+msgstr "%s :בתוכ"
+
+#: kedit.cpp:814
+msgid "No changes need to be saved"
+msgstr "הרימשב ךרוצ ןיא ,ךמסמב םייוניש ןיא"
+
+#: kedit.cpp:833
+#, c-format
+msgid "Saved as: %s"
+msgstr ""
+
+#: kedit.cpp:866
+#, c-format
+msgid ""
+"Could not pipe the contentsof this Document into:\n"
+" %s"
+msgstr ""
+"%s :ךותל ךמסמה ןכות תא ריבעהל ןויסנה\n"
+"חילצה אל"
+#: kedit.cpp:960
+msgid "Auto Indent Mode: On"
+msgstr "לעופ : יטמוטוא גוריד"
+
+#: kedit.cpp:962
+msgid "Auto Indent Mode: Off"
+msgstr "לעופ אל :יטמוטוא גוריד"
+
+#: kedit.cpp:1058
+#, c-format
+msgid "Line: %d Col: %d"
+msgstr " %d :הרוש  %d :רוט"
+
+#: kedit.cpp:1124
+msgid ""
+"The current document has been modified.\n"
+"Would you like to save the changes before \n"
+"printing this Document?"
+msgstr ""
+"הנוש יחכונה ךמסמה\n"
+"ינפל םייונישה תא רומשל הצרת םא\n"
+"?ךמסמה תספדה"
+#: kedit.cpp:1142
+msgid ""
+"Could not save the file.\n"
+"Print anyways?"
+msgstr ""
+"ץבוקה תא רומשל ןתינ אל\n"
+"? תאז לכב ספדה"
+#: kedit.cpp:1235
+#, c-format
+msgid "Printing: %s Untitled (Selection)"
+msgstr "(הריחב) םש אלל - %s :סיפדמ"
+
+#: kedit.cpp:1238
+#, c-format
+msgid "Printing: %s Untitled"
+msgstr "םש אלל - %s :סיפדמ"
+
+#: kedit.cpp:1276
+#, c-format
+msgid "Printing: %s"
+msgstr "%s :סיפדמ"
+
+#: kedit.cpp:1286
+#, c-format
+msgid "Printing: %s %s (Selection)"
+msgstr "(הריחב) %s %s :סיפדמ"
+
+#: kedit.cpp:1310
+msgid "Saving ..."
+msgstr "....רמוש"
+
+#: kedit.cpp:1317
+msgid "Loading ..."
+msgstr "....ןעוט"
+
+#: kedit.cpp:1351 kedit.cpp:1444
+msgid ""
+"KEdit is already waiting\n"
+"for an internet job to finish\n"
+"Please wait until has finished\n"
+"Alternatively stop the running one."
+msgstr ""
+"םייתסהל טנרטניא תמישמל ןיתממ ךרועה\n"
+"ןיפוליחל וא המישמה םות דע הכח אנא\n"
+"תיחכונה המישמה תא קספה"
+
+#: kedit.cpp:1368 kedit.cpp:1463
+msgid "Could not start or find KFM"
+msgstr "סקוניל רייס תא אוצמל וא ליעפהל חילצמ אל"
+
+#: kedit.cpp:1410
+#, c-format
+msgid ""
+"Malformed URL\n"
+"%s"
+msgstr ""
+"ויקת אל רושיק\n"
+"%s"
+#: kedit.cpp:1430
+#, c-format
+msgid "Loading '%s'"
+msgstr "'%s' :ןעוט"
+
+#: kedit.cpp:1454
+msgid "Calling KFM"
+msgstr "סקוניל רייס תא ליעפמ"
+
+#: kedit.cpp:1473
+msgid "Starting Job"
+msgstr "המישמ ליחתמ"
+
+#: kedit.cpp:1476
+msgid "Connected"
+msgstr "רבוחמ"
+
+#: kedit.cpp:1478
+msgid "Waiting..."
+msgstr "...ןיתממ"
+
+#: kedit.cpp:1486
+#, c-format
+msgid "Finished '%s'"
+msgstr "'%s' :םייסמ"
+
+#: kedit.cpp:1527
+msgid "New Window"
+msgstr "שדח ןולח"
+
+#: kedit.cpp:1531
+msgid "New Window Created"
+msgstr "רצונ שדח הגוצת ןולח"
+
+#: kedit.cpp:1537
+msgid "Load Command Done"
+msgstr "המייתסה הניעטה תדוקפ"
+
+#: kedit.cpp:1949
+#, c-format
+msgid ""
+"Can not create:\n"
+"%s"
+msgstr ""
+":ץבוקה תא רוציל לוכי אל\n"
+"%s"
+#: print.cpp:66
+msgid "Print Dialog"
+msgstr ""
+
+#: print.cpp:70
+msgid "Print directly using lpr"
+msgstr "ךמסמ תספדה"
+
+#: print.cpp:75
+msgid "Print using Command:"
+msgstr "הספדהה תדוקפב שמתשה"
+
+#: print.cpp:93
+msgid "Print Selection"
+msgstr "הריחב ספדה"
+
+#: filldlg.cpp:31
+msgid "KEdit Options"
+msgstr "ךרועה תויורשפא"
+
+#: filldlg.cpp:36
+msgid "Set Fill-Column at:"
+msgstr "ב יולימה רוט תא עבק"
+
+#: filldlg.cpp:40
+msgid "Word Warp"
+msgstr "תורוש תשילג"
+
+#: filldlg.cpp:44
+msgid "Mail Command:"
+msgstr "ראוד חולשמ תדוקפ"
+
+#: filldlg.cpp:135
+msgid "You must enter an integer."
+msgstr "םלש רפסמ ןיזהל אנ"
+
+#: mail.cpp:37
+msgid "Mail Document to:"
+msgstr ":לא ךמסמ חלש"
+
+#: mail.cpp:55
+msgid "Subject:"
+msgstr ":אשונ"
+
+#: mail.cpp:57
+msgid "Mail"
+msgstr "חלש"
+
+#: mail.cpp:96
+msgid "You must specify a Recipient"
+msgstr "לבקמה תבותכ תאןיזהל ךילע"
