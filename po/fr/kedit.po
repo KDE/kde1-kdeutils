@@ -35,27 +35,27 @@ msgstr "Sélectionner tout"
 
 #: kedit.cpp:183
 msgid "&About..."
-msgstr "A &propos ..."
+msgstr "A &propos..."
 
 #: kedit.cpp:187
 msgid "Ne&w..."
-msgstr "&Nouveau ..."
+msgstr "&Nouveau..."
 
 #: kedit.cpp:192
 msgid "Open Recen&t..."
-msgstr "Récemment ou&vert ..."
+msgstr "Récemment ou&vert..."
 
 #: kedit.cpp:204
 msgid "Open &URL..."
-msgstr "Ouvrir l'&URL ..."
+msgstr "Ouvrir l'&URL..."
 
 #: kedit.cpp:206
 msgid "Save to U&RL..."
-msgstr "Enregistrer sous l'U&RL ..."
+msgstr "Enregistrer sous l'U&RL..."
 
 #: kedit.cpp:212
 msgid "&Mail..."
-msgstr "&Courrier ..."
+msgstr "&Courrier..."
 
 #: kedit.cpp:216
 msgid "New &Window"
@@ -75,11 +75,11 @@ msgstr "Insérer la &date"
 
 #: kedit.cpp:236
 msgid "&Find..."
-msgstr "C&hercher ..."
+msgstr "C&hercher..."
 
 #: kedit.cpp:238
 msgid "Find &Again"
-msgstr "Chercher de &nouveau ..."
+msgstr "Chercher de &nouveau..."
 
 #: kedit.cpp:240
 msgid "&Replace"
@@ -87,7 +87,7 @@ msgstr "&Remplacer"
 
 #: kedit.cpp:243
 msgid "&Goto Line..."
-msgstr "&Aller à la ligne ..."
+msgstr "&Aller à la ligne..."
 
 #: kedit.cpp:247
 msgid "&Font"
@@ -99,7 +99,7 @@ msgstr "Couleurs"
 
 #: kedit.cpp:251
 msgid "KEdit &Options..."
-msgstr "Options ..."
+msgstr "Options..."
 
 #: kedit.cpp:253
 msgid "Auto &Indent"
@@ -258,12 +258,12 @@ msgid "Printing: %s %s (Selection)"
 msgstr "Impression : %s %s (sélection)"
 
 #: kedit.cpp:1310
-msgid "Saving ..."
-msgstr "Enregistrement en cours ..."
+msgid "Saving..."
+msgstr "Enregistrement en cours..."
 
 #: kedit.cpp:1317
-msgid "Loading ..."
-msgstr "Chargement en cours ..."
+msgid "Loading..."
+msgstr "Chargement en cours..."
 
 #: kedit.cpp:1351 kedit.cpp:1444
 msgid ""
@@ -309,7 +309,7 @@ msgstr "Connecté"
 
 #: kedit.cpp:1478
 msgid "Waiting..."
-msgstr "En attente ..."
+msgstr "En attente..."
 
 #: kedit.cpp:1486
 #, c-format

@@ -119,7 +119,6 @@ msgid "Cannot start a new program: fork() failed."
 msgstr "Impossible de démarrer le programme: échec de fork()."
 
 #: floppy.cpp:572 floppy.cpp:700
-#, fuzzy
 msgid ""
 "Cannot access floppy or floppy drive\n"
 "Please insert a floppy and make sure that you\n"
@@ -127,7 +126,7 @@ msgid ""
 msgstr ""
 "Impossible d'accéder à la disquette ou au lecteur\n"
 "Insérez une disquette et assurez-vous que vous avez sélectionné un lecteur "
-"de disquettes valide."
+"de disquettes valide.\n"
 
 #: floppy.cpp:587
 #, c-format
@@ -140,8 +139,8 @@ msgstr ""
 
 #: floppy.cpp:634
 #, c-format
-msgid "Block %d is bad. Continuing ..."
-msgstr "Le block %d est défectueux. Continuons ..."
+msgid "Block %d is bad. Continuing..."
+msgstr "Le block %d est défectueux. Continuons..."
 
 #: floppy.cpp:717
 #, c-format
@@ -168,12 +167,12 @@ msgid "All files were sucessfully erased."
 msgstr "Tous les fichiers ont été effacés avec succès."
 
 #: floppy.cpp:832
-msgid "Creating Filesystem ..."
-msgstr "Création du système de fichiers ..."
+msgid "Creating Filesystem..."
+msgstr "Création du système de fichiers..."
 
 #: floppy.cpp:836
-msgid "Verifying ..."
-msgstr "Vérification ..."
+msgid "Verifying..."
+msgstr "Vérification..."
 
 #: floppy.cpp:881
 msgid ""

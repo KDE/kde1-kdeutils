@@ -20,7 +20,7 @@ msgstr "Erreur lors de l'ouverture de %s"
 
 #: hexwidget.cpp:80
 msgid "Save &As..."
-msgstr "Enregistrer &sous ..."
+msgstr "Enregistrer &sous..."
 
 #: hexwidget.cpp:91
 msgid "&Toggle Toolbar"

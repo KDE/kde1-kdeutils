@@ -88,7 +88,7 @@ msgstr "Indentation automatique"
 
 #: docking.cpp:71
 msgid "Change Defaults"
-msgstr "Configurer ..."
+msgstr "Configurer..."
 
 #: docking.cpp:76
 msgid "Exit Knotes"
@@ -108,11 +108,11 @@ msgstr "Taille en points :"
 
 #: knotes.cpp:300
 msgid "Text Color..."
-msgstr "Couleur du texte ..."
+msgstr "Couleur du texte..."
 
 #: knotes.cpp:301
 msgid "Background Color..."
-msgstr "Couleur de fond ..."
+msgstr "Couleur de fond..."
 
 #: knotes.cpp:307
 msgid "New Note"
@@ -124,28 +124,27 @@ msgstr "Supprimer la note"
 
 #: knotes.cpp:311
 msgid "Rename Note..."
-msgstr "Renommer la note ..."
+msgstr "Renommer la note..."
 
 #: knotes.cpp:313
-msgid "Alarm ..."
-msgstr "Alarme ..."
+msgid "Alarm..."
+msgstr "Alarme..."
 
 #: knotes.cpp:316
 msgid "Calendar"
 msgstr "Calendrier"
 
 #: knotes.cpp:318
-msgid "Mail Note ..."
-msgstr "Expédier la note ..."
+msgid "Mail Note..."
+msgstr "Expédier la note..."
 
 #: knotes.cpp:320
 msgid "Print Note"
 msgstr "Imprimer la note"
 
 #: knotes.cpp:323
-#, fuzzy
 msgid "Save Notes"
-msgstr "Nouvelle note"
+msgstr "Sauvegarder les notes"
 
 #: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1288
 msgid "3D Frame"
@@ -153,15 +152,15 @@ msgstr "Cadre en 3 dimensions"
 
 #: knotes.cpp:332
 msgid "Font..."
-msgstr "Police ..."
+msgstr "Police..."
 
 #: knotes.cpp:333
 msgid "Colors"
 msgstr "Couleurs"
 
 #: knotes.cpp:335
-msgid "Change Defaults ..."
-msgstr "Configurer ..."
+msgid "Change Defaults..."
+msgstr "Configurer..."
 
 #: knotes.cpp:363
 msgid "Insert Date"
@@ -239,8 +238,8 @@ msgid "Defaults"
 msgstr "Par défaut"
 
 #: knotes.cpp:1371
-msgid "More ..."
-msgstr "Plus ..."
+msgid "More..."
+msgstr "Plus..."
 
 #: knotes.cpp:1530
 msgid ""
@@ -289,7 +288,7 @@ msgstr "Inconsistence"
 
 #: mail.cpp:40
 msgid "Mail Note to:"
-msgstr "Envoyer la note à ..."
+msgstr "Envoyer la note à..."
 
 #: mail.cpp:49
 msgid "Subject:"
