@@ -1,17 +1,20 @@
+# Norwegian translations for KDE Utils, kcalc
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Hans Petter Bieker <zerium@webindex.no>, 1998.
+#
+# $Id$
+#
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
-"Content-Type: text/plain; charset=\n"
-"Date: 1998-03-06 23:13:09-0500\n"
-"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
-"<root@petit.cornell.edu>\n"
-"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
-"Files: configdlg.cpp dlabel.cpp fontdlg.cpp kcalc.cpp kcalc_core.cpp "
-"stats.cpp\n"
-"Date: 1998-03-21 12:54-0100\n"
-"Translated by Svein Olav Aasen <soaasen@online.no / svein.aasen@caa.no)\n"
+"Project-Id-Version: KDE UTILS/kcalc\n"
+"POT-Creation-Date: 1998-06-16 14:24+0200\n"
+"PO-Revision-Date: 1998-02-28 15:21+0100\n"
+"Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
+"Language-Team: no <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO_8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
 
-#: configdlg.cpp:56 kcalc.cpp:1591
 msgid "Defaults"
 msgstr "Standardverdier"
 
