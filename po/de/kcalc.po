@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1999-01-13 01:49+0100\n"
-"PO-Revision-Date: 1998-04-21 13:50+0200\n"
+"PO-Revision-Date: 1999-01-13 13:55+MET\n"
 "Last-Translator: Oliver Hensel <oliver.hensel@gmx.de>\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1998-03-06 23:13:09-0500\n"
@@ -38,6 +38,13 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
+"KCalc %s\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@math.cornell.edu\n"
+"wuebben@kde.org\n"
+"Copyright (C) 1996-98\n"
+"\n"
+"\n"
 
 #: kcalc.cpp:1551
 msgid "Base type: long double\n"
@@ -69,10 +76,12 @@ msgid ""
 "KCalc %s\n"
 "Copyright 1997 Bernd Johannes Wuebben <wuebben@kde.org>\n"
 msgstr ""
+"KCalc %s\n"
+"Copyright 1997 Bernd Johannes Wuebben <wuebben@kde.org>\n"
 
 #: kcalc_core.cpp:1111
 msgid "Last stat item erased"
-msgstr ""
+msgstr "Letzte gelöschte Statistik-Position"
 
 #: kcalc_core.cpp:1151
 msgid "Stat Mem cleared"
@@ -80,23 +89,23 @@ msgstr "Statistik-Speicher gelöscht"
 
 #: kcalc_core.cpp:1627
 msgid "Stack processing error - right_op"
-msgstr ""
+msgstr "Stapelverarbeitungsfehler - right_op"
 
 #: kcalc_core.cpp:1635
 msgid "Stack processing error - function"
-msgstr ""
+msgstr "Stapelverarbeitungsfehler - function"
 
 #: kcalc_core.cpp:1644
 msgid "Stack processing error - left_op"
-msgstr ""
+msgstr "Stapelverarbeitungsfehler - left_op"
 
 #: kcalc_core.cpp:1948 kcalc_core.cpp:1956
 msgid "Emergency"
-msgstr ""
+msgstr "Notfall"
 
 #: kcalc_core.cpp:1948 kcalc_core.cpp:1956
 msgid "Stack Error!"
-msgstr ""
+msgstr "Stapelverarbeitungsfehler!"
 
 #: configdlg.cpp:61
 msgid "Foreground Color:"
@@ -153,6 +162,3 @@ msgstr "Fett"
 #: fontdlg.cpp:103 fontdlg.cpp:136
 msgid "Normal"
 msgstr "Normal"
-
-#~ msgid "Base type: double\n"
-#~ msgstr "Type der Basis: double\n"

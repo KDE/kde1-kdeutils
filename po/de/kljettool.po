@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kljettool\n"
 "POT-Creation-Date: 1999-01-11 01:57+0100\n"
-"PO-Revision-Date: 1998-11-14 10:25+0100\n"
+"PO-Revision-Date: 1999-01-13 14:00+MET\n"
 "Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,9 +17,8 @@ msgstr ""
 "PaperData.cpp Printer.cpp PrinterData.cpp about.cpp main.cpp\n"
 
 #: main.cpp:49
-#, fuzzy
 msgid "Ljet Tool"
-msgstr "KLjetTool"
+msgstr "LjetTool"
 
 #: main.cpp:69
 msgid "Paper"
@@ -155,6 +154,8 @@ msgid ""
 "Bernd Johannes Wuebben\n"
 "wuebben@kde.org"
 msgstr ""
-
-#~ msgid "Version "
-#~ msgstr "Version "
+"Version %s\n"
+"\n"
+"Copyright (c) 1997\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"

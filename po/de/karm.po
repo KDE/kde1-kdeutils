@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karm 0.3\n"
 "POT-Creation-Date: 1999-01-11 01:57+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 1999-01-13 13:50+MET\n"
 "Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 "Language-Team: de <kde-i18n@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -103,17 +103,17 @@ msgstr "Uhr läuft"
 
 #: top.cpp:150
 msgid "Preferences"
-msgstr ""
+msgstr "Einstellungen"
 
 #: top.cpp:194
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s %s -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
 msgstr ""
-"%s 0.3 -- Sirtaj Singh Kang\n"
+"%s %s -- Sirtaj Singh Kang\n"
 "taj@kde.org, Okt. 1997\n"
 "\n"
 "K Desktop Environment"
@@ -128,7 +128,7 @@ msgstr "&Projekt"
 
 #: top.cpp:209
 msgid "&Preferences..."
-msgstr ""
+msgstr "&Einstellungen"
 
 #: top.cpp:223
 msgid "S&top"
