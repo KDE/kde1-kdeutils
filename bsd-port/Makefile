@@ -1,7 +1,7 @@
 # New ports collection makefile for:   kdeutils
-# Version required:    Beta4
+# Version required:    1.0
 # Date created:        28 October 1997
-# Whom:                Stefan Eßer <se@freebsd.org>
+# Whom:                Alex Zepeda <garbanzo@hooked.net>
 #
 # $Id$
 #
