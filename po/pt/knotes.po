@@ -11,7 +11,7 @@ msgstr ""
 
 #: knotes.cpp:265
 msgid "Hello"
-msgstr ""
+msgstr "Olá"
 
 #: knotes.cpp:303
 msgid "Text Color..."
@@ -75,7 +75,7 @@ msgstr "Mudar Valores por Omissão ..."
 
 #: knotes.cpp:340
 msgid "Dock in panel"
-msgstr ""
+msgstr "Atracar no painel"
 
 #: knotes.cpp:368
 msgid "Insert Date"
@@ -158,6 +158,16 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
+"KNotes %s\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@math.cornell.edu\n"
+"wuebben@kde.org\n"
+"Copyright (C) 1997\n"
+"\n"
+"Com o contributo de:\n"
+"Matthias Ettrich <ettrich@kde.org>\n"
+"\n"
+"\n"
 
 #: configdlg.cpp:46 knotes.cpp:1375
 msgid "Defaults"
@@ -319,11 +329,11 @@ msgstr "Tempo:"
 
 #: bwdatetime.cpp:85
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #: bwdatetime.cpp:86
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: bwdatetime.cpp:161
 msgid "The Time you selected is invalid"
@@ -358,11 +368,9 @@ msgstr ""
 "Por favor escolha um nome diferente"
 
 #: docking.cpp:48
-#, fuzzy, c-format
+#, c-format
 msgid "Could not load %s !"
-msgstr ""
-"Não conseguir carregar:\n"
-" %s"
+msgstr "Não consegui carregar %s !"
 
 #: docking.cpp:68
 msgid "Change Defaults"
@@ -375,6 +383,3 @@ msgstr "Sair do Knotes"
 #: docking.cpp:92
 msgid "New Knote"
 msgstr "Nova Nota"
-
-#~ msgid "No Frame"
-#~ msgstr "Sem Borda"

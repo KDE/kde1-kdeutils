@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kedit\n"
-"POT-Creation-Date: 1999-04-09 02:19+0200\n"
+"POT-Creation-Date: 1999-03-05 01:58+0100\n"
 "PO-Revision-Date: 1998-01-26 20:00+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt\n"
@@ -126,6 +126,11 @@ msgid ""
 "Bernd Johannes Wuebben\n"
 "wuebben@kde.org"
 msgstr ""
+"KEdit %s\n"
+"\n"
+"Copyright 1997-98\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
 
 #: kedit.cpp:332
 msgid "New Document"
@@ -139,7 +144,7 @@ msgstr "Abrir Documento"
 msgid "Save Document"
 msgstr "Gravar Documento"
 
-#: kedit.cpp:368 print.cpp:103
+#: kedit.cpp:368 print.cpp:91
 msgid "Print Document"
 msgstr "Imprimir Documento"
 
@@ -147,8 +152,8 @@ msgstr "Imprimir Documento"
 msgid "Mail Document"
 msgstr "Enviar Documento por email"
 
-#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:721
-#: keditcl2.cpp:857
+#: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:697
+#: keditcl2.cpp:804
 msgid "Done"
 msgstr "Terminar"
 
@@ -234,7 +239,7 @@ msgstr "Indentação Automática: Desligada"
 msgid "Line: %d Col: %d"
 msgstr "Linha: %d Col: %d"
 
-#: filldlg.cpp:35 kedit.cpp:1147
+#: filldlg.cpp:31 kedit.cpp:1147
 msgid "KEdit Options"
 msgstr "Opções do Editor"
 
@@ -425,7 +430,7 @@ msgid "You do not have write permission to this file.\n"
 msgstr "Não tem permissões de escrita neste ficheiro.\n"
 
 #: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
-#: keditcl2.cpp:688 keditcl2.cpp:714 keditcl2.cpp:838
+#: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
 msgid "Find"
 msgstr "Procurar"
 
@@ -445,67 +450,67 @@ msgstr ""
 "Inicio do documento atingido.\n"
 "Continuar do fim?"
 
-#: keditcl2.cpp:702 keditcl2.cpp:822
+#: keditcl2.cpp:691 keditcl2.cpp:789
 msgid "Case Sensitive"
 msgstr "Destinguir Maiusculas"
 
-#: keditcl2.cpp:705 keditcl2.cpp:827
+#: keditcl2.cpp:692 keditcl2.cpp:792
 msgid "Find Backwards"
 msgstr "Procurar para Trás"
 
-#: keditcl2.cpp:797
+#: keditcl2.cpp:777
 msgid "Find:"
 msgstr "Procurar:"
 
-#: keditcl2.cpp:809
+#: keditcl2.cpp:787
 msgid "Replace with:"
 msgstr "Substituir com:"
 
-#: keditcl2.cpp:851
+#: keditcl2.cpp:801
 msgid "Replace All"
 msgstr "Substituir Tudo"
 
-#: keditcl2.cpp:932
+#: keditcl2.cpp:898
 msgid "Goto Line"
 msgstr "Ir para a Linha"
 
-#: keditcl2.cpp:937
+#: keditcl2.cpp:903
 msgid "Go"
 msgstr "Ir"
 
-#: print.cpp:74
+#: print.cpp:69
 msgid "Print Dialog"
 msgstr "Diálogo de Impressão"
 
-#: print.cpp:80
+#: print.cpp:73
 msgid "Print directly using lpr"
 msgstr "Imprimir usando lpr"
 
-#: print.cpp:88
+#: print.cpp:78
 msgid "Print using Command:"
 msgstr "Imprimir utilizando:"
 
-#: print.cpp:109
+#: print.cpp:96
 msgid "Print Selection"
 msgstr "Imprimir Selecção"
 
-#: filldlg.cpp:46
+#: filldlg.cpp:36
 msgid "Set Fill-Column at:"
 msgstr "Colunas por Linha:"
 
-#: filldlg.cpp:57
+#: filldlg.cpp:40
 msgid "Word Wrap"
 msgstr "Mudança de Linha"
 
-#: filldlg.cpp:63
+#: filldlg.cpp:42
 msgid "Backup Copies"
 msgstr "Cópias de Segurança"
 
-#: filldlg.cpp:75
+#: filldlg.cpp:46
 msgid "Mail Command:"
 msgstr "Comando Mail:"
 
-#: filldlg.cpp:171
+#: filldlg.cpp:140
 msgid "You must enter an integer."
 msgstr "Tem que introduzir um inteiro."
 

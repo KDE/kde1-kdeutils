@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kab\n"
-"POT-Creation-Date: 1999-03-24 02:39+0100\n"
+"POT-Creation-Date: 1999-01-12 01:57+0100\n"
 "PO-Revision-Date: 1998-11-07 00:00+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt\n"
@@ -34,8 +34,8 @@ msgid "written and maintained by"
 msgstr "escrito e mantido por"
 
 #: AddressBookAboutData.cpp:62
-msgid "kab 1.0, May 1999"
-msgstr ""
+msgid "kab 0.9.5, December 1998"
+msgstr "kab 0.0.5, Dezembro 1998"
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"
