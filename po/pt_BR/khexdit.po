@@ -1,0 +1,74 @@
+msgid ""
+msgstr "Project-Id-Version: kuser\n"
+       "POT-Creation-Date: 1998-03-21 18:32+0300\n"
+       "PO-Revision-Date: 1998-03-23 00:00+0100\n"
+       "Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
+
+#: hexdata.cpp:33
+#, c-format
+msgid "Error opening %s"
+msgstr "Erro ao abrir %s"
+
+#: hexwidget.cpp:80
+msgid "Save &As..."
+msgstr "Salvar &Como..."
+
+#: hexwidget.cpp:91
+msgid "&Toggle Toolbar"
+msgstr "&Esconder/Mostrar Barra de Ferramentas"
+
+#: hexwidget.cpp:94
+msgid "Hex Editor"
+msgstr "Editor Hexadecimal"
+
+#: hexwidget.cpp:96
+msgid ""
+"\n"
+"\n"
+"by Stephan Kulow"
+msgstr "\n"
+       "\n"
+       "por Stephan Kulow"
+
+#: hexwidget.cpp:119
+msgid "New Window"
+msgstr "Nova Janela"
+
+#: hexwidget.cpp:123
+msgid "Save the file"
+msgstr "Salvar o arquivo"
+
+#: hexwidget.cpp:126 hexwidget.cpp:128 hexwidget.cpp:130 hexwidget.cpp:133
+msgid "Not implemented"
+msgstr "Não implementado"
+
+#: hexwidget.cpp:164
+msgid ""
+"The current file has been modified.\n"
+"Do you want to save it?"
+msgstr "O arquivo atual foi modificado.\n"
+       "Deseja gravá-lo?"
+
+#: hexwidget.cpp:187
+msgid ""
+"The current file has been modified.\n"
+"Discard your changes?"
+msgstr "O arquivo atual foi modificado.\n"
+       "Perder alterações ?"
+
+#: hexwidget.cpp:268
+msgid ""
+"KHexdit is already waiting\n"
+"for an internet job to finish\n"
+"\n"
+"Wait until this one is finished\n"
+"or stop the running one."
+msgstr "KHexdit está à espera\n"
+       "de que um trabalho internet termine\n"
+       "\n"
+       "Por favor espere que esteja terminado\n"
+       "Opcionalmente termine o que está sendo executado."
+
+#: hexwidget.cpp:276
+msgid "Could not start KFM"
+msgstr "Não foi possível iniciar o KFM"
