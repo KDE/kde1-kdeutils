@@ -1,0 +1,564 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 1999-03-12 14:27+0100\n"
+"Last-Translator: Peter Ivanyi <ivanyi@internet.sk>\n"
+"Content-Type: text/plain; charset=\n"
+"Date: 1997-12-07 12:23:22-0500\n"
+"From: root,,, <root@petit>\n"
+"Xgettext-Options: -C -ktranslate -kktr\n"
+"Files: ktop.cpp memory.cpp settings.cpp cpu.cpp widgets.cpp\n"
+
+#: ktop.cpp:66
+#, fuzzy
+msgid "88888 Processes"
+msgstr "Be¾iace procesy"
+
+#: ktop.cpp:67
+msgid "Memory: 888888 kB used, 888888 kB free"
+msgstr ""
+
+#: ktop.cpp:69
+msgid "Swap: 888888 kB used, 888888 kB free"
+msgstr ""
+
+#: ktop.cpp:76
+#, fuzzy
+msgid "KDE Task Manager"
+msgstr "KDE mana¾ér úloh"
+
+#: ktop.cpp:137
+#, fuzzy, c-format
+msgid "%d Processes"
+msgstr "Be¾iace procesy"
+
+#: ktop.cpp:142
+#, c-format
+msgid "Memory: %d kB used, %d kB free"
+msgstr ""
+
+#: ktop.cpp:147
+#, c-format
+msgid "Swap: %d kB used, %d kB free"
+msgstr ""
+
+#: MainMenu.cpp:51
+#, fuzzy, c-format
+msgid ""
+"KDE Task Manager (KTop) Version %s\n"
+"\n"
+"Copyright:\n"
+"1996 : A. Sanda <alex@darkstar.ping.at>\n"
+"1997 : Ralf Mueller <ralf@bj-ig.de>\n"
+"1997-98 : Bernd Johannes Wuebben <wuebben@kde.org>\n"
+"1998 : Nicolas Leclercq <nicknet@planete.net>\n"
+"1999 : Chris Schlaeger <cs@kde.org>\n"
+msgstr ""
+"KDE Taskmanager Verzia %s\n"
+"\n"
+"Copyright:\n"
+"1996 A. Sanda <alex@darkstar.ping.at>\n"
+"1997 Ralf Mueller <ralf@bj-ig.de>\n"
+"1997-98 Bernd Johannes Wuebben  <wuebben@kde.org>\n"
+"1998 Nicolas Leclercq <nicknet@planete.net>"
+
+#: MainMenu.cpp:64
+msgid "Manual Refresh"
+msgstr ""
+
+#: MainMenu.cpp:65
+#, fuzzy
+msgid "Slow Refresh"
+msgstr "Aktualizova»"
+
+#: MainMenu.cpp:66
+msgid "Medium Refresh"
+msgstr ""
+
+#: MainMenu.cpp:67
+#, fuzzy
+msgid "Fast Refresh"
+msgstr "Aktualizova»"
+
+#: MainMenu.cpp:79
+#, fuzzy
+msgid "&Refresh Rate"
+msgstr "Aktualizácia : Pomalá"
+
+#: MainMenu.cpp:80
+#, fuzzy
+msgid "&Process"
+msgstr "Be¾iace procesy"
+
+#: ProcessMenu.cpp:44
+msgid "Renice Task..."
+msgstr ""
+
+#: ProcessMenu.cpp:47
+msgid "send SIGINT\t(ctrl-c)"
+msgstr "po¹li SIGINT\t(ctrl-c)"
+
+#: ProcessMenu.cpp:48
+msgid "send SIGQUIT\t(core)"
+msgstr "po¹li SIGQUIT\t(core)"
+
+#: ProcessMenu.cpp:49
+msgid "send SIGTERM\t(term.)"
+msgstr "po¹ku SIGTERM\t(ukon.)"
+
+#: ProcessMenu.cpp:50
+msgid "send SIGKILL\t(term.)"
+msgstr "po¹li SIGTERM\t(ukon.)"
+
+#: ProcessMenu.cpp:52
+msgid "send SIGUSR1\t(user1)"
+msgstr "po¹li SIGUSR1\t(u¾ív1)"
+
+#: ProcessMenu.cpp:53
+msgid "send SIGUSR2\t(user2)"
+msgstr "po¹li SIGUSR2\t(u¾ív2)"
+
+#: ProcessMenu.cpp:74 ProcessMenu.cpp:86 ProcessMenu.cpp:150
+#: ProcessMenu.cpp:158 ProcessMenu.cpp:176
+#, fuzzy
+msgid "Task Manager"
+msgstr "KDE mana¾ér úloh"
+
+#: ProcessMenu.cpp:75
+msgid "You need to select a process first!"
+msgstr ""
+
+#: ProcessMenu.cpp:85 ProcessMenu.cpp:149
+#, c-format
+msgid "The process %d is no longer persistent."
+msgstr ""
+
+#: ProcessMenu.cpp:98
+msgid "SIGINT"
+msgstr ""
+
+#: ProcessMenu.cpp:101
+msgid "SIGQUIT"
+msgstr ""
+
+#: ProcessMenu.cpp:104
+msgid "SIGTERM"
+msgstr ""
+
+#: ProcessMenu.cpp:107
+msgid "SIGKILL"
+msgstr ""
+
+#: ProcessMenu.cpp:110
+msgid "SIGUSR1"
+msgstr ""
+
+#: ProcessMenu.cpp:113
+msgid "SIGUSR2"
+msgstr ""
+
+#: ProcessMenu.cpp:116
+msgid "Unkown Signal"
+msgstr ""
+
+#: ProcessMenu.cpp:122
+#, c-format
+msgid ""
+"Send signal %s to process %d?\n"
+"(Process name: %s  Owner: %s)\n"
+msgstr ""
+
+#: ProcessMenu.cpp:126
+msgid "Abort"
+msgstr ""
+
+#: ProcessMenu.cpp:159 ProcessMenu.cpp:177
+msgid ""
+"Renice error...\n"
+"Specified process does not exist\n"
+"or permission denied."
+msgstr ""
+
+#: TaskMan.cpp:80
+msgid "Processes &List"
+msgstr "Zoznam &procesov"
+
+#: TaskMan.cpp:81
+#, fuzzy
+msgid "Performance &Meter"
+msgstr "Výkon"
+
+#: ProcListPage.cpp:42
+#, fuzzy
+msgid "Running Processes"
+msgstr "Be¾iace procesy"
+
+#: ProcListPage.cpp:60
+msgid "All processes"
+msgstr ""
+
+#: ProcListPage.cpp:61
+msgid "System processes"
+msgstr ""
+
+#: ProcListPage.cpp:62
+msgid "User processes"
+msgstr ""
+
+#: ProcListPage.cpp:63
+#, fuzzy
+msgid "Own processes"
+msgstr "Be¾iace procesy"
+
+#: ProcListPage.cpp:79
+msgid "Refresh Now"
+msgstr "Aktualizova»"
+
+#: ProcListPage.cpp:85
+msgid "Kill task"
+msgstr "Ukonèi» úlohu"
+
+#: ProcessList.cpp:227
+msgid "Remove Column"
+msgstr ""
+
+#: ProcessList.cpp:228
+msgid "Add Column"
+msgstr ""
+
+#: ProcessList.cpp:229
+msgid "Help on Column"
+msgstr ""
+
+#: ProcessList.cpp:691 ProcessList.cpp:692
+msgid "Name"
+msgstr "Meno"
+
+#: ProcessList.cpp:695 ProcessList.cpp:696
+msgid "PID"
+msgstr ""
+
+#: ProcessList.cpp:699
+#, fuzzy
+msgid "User ID"
+msgstr "u¾ívID"
+
+#: ProcessList.cpp:700
+msgid "CPU"
+msgstr "CPU"
+
+#: ProcessList.cpp:701
+msgid "Time"
+msgstr "Èas"
+
+#: ProcessList.cpp:702
+msgid "Nice"
+msgstr ""
+
+#: ProcessList.cpp:703
+msgid "Status"
+msgstr "Stav"
+
+#: ProcessList.cpp:704
+msgid "Memory"
+msgstr "Pamä»"
+
+#: ProcessList.cpp:705
+msgid "Resident"
+msgstr ""
+
+#: ProcessList.cpp:706
+msgid "Shared"
+msgstr ""
+
+#: ProcessList.cpp:707
+msgid "Command line"
+msgstr ""
+
+#: OSProcessList.cpp:76 OSProcessList.cpp:103
+msgid ""
+"Cannot open directory '/proc'!\n"
+"The kernel needs to be compiled with support\n"
+"for /proc filesystem enabled!"
+msgstr ""
+
+#: OSProcessList.cpp:126
+msgid ""
+"Cannot read status of processes\n"
+"from /proc/... directories!\n"
+msgstr ""
+
+#: OSProcessList.cpp:276
+msgid "Cannot read status of processes\n"
+msgstr ""
+
+#: OSProcessList.cpp:377
+msgid "Your OS is not supported yet.  Sorry"
+msgstr ""
+
+#: OSProcess.cpp:128 OSProcess.cpp:162 OSProcess.cpp:179
+#, c-format
+msgid "Cannot open %s!\n"
+msgstr ""
+
+#: OSProcess.cpp:130
+msgid "The Process has been terminated!\n"
+msgstr ""
+
+#: OSProcess.cpp:191
+msgid "Run"
+msgstr ""
+
+#: OSProcess.cpp:194
+msgid "Sleep"
+msgstr ""
+
+#: OSProcess.cpp:197
+msgid "Disk"
+msgstr ""
+
+#: OSProcess.cpp:200
+msgid "Zombie"
+msgstr ""
+
+#: OSProcess.cpp:206
+msgid "Swap"
+msgstr ""
+
+#: OSProcess.cpp:209
+msgid "????"
+msgstr ""
+
+#: OSProcess.cpp:328
+#, c-format
+msgid "Could not set new nice level for process %d"
+msgstr ""
+
+#: OSProcess.cpp:342
+#, c-format
+msgid "Cound not send signal %d to process %d"
+msgstr ""
+
+#: PerfMonPage.cpp:49
+#, fuzzy
+msgid "CPU Load History"
+msgstr "História za»a¾enia CPU"
+
+#: PerfMonPage.cpp:52
+#, fuzzy
+msgid "System Load History"
+msgstr "História za»a¾enia CPU"
+
+#: PerfMonPage.cpp:55 PerfMonPage.cpp:113
+#, fuzzy
+msgid "User (%)"
+msgstr "u¾ívID"
+
+#: PerfMonPage.cpp:56 PerfMonPage.cpp:114
+msgid "Nice (%)"
+msgstr ""
+
+#: PerfMonPage.cpp:57 PerfMonPage.cpp:115
+msgid "System (%)"
+msgstr ""
+
+#: PerfMonPage.cpp:64
+#, fuzzy
+msgid "Memory Usage History"
+msgstr "História vyu¾itia pamäte"
+
+#: PerfMonPage.cpp:66
+msgid "Program (kB)"
+msgstr ""
+
+#: PerfMonPage.cpp:67
+#, fuzzy
+msgid "Buffer (kB)"
+msgstr "Bafre:"
+
+#: PerfMonPage.cpp:68
+#, fuzzy
+msgid "Cache (kB)"
+msgstr "Ke¹:"
+
+#: PerfMonPage.cpp:69
+msgid "Swap (kB)"
+msgstr ""
+
+#: PerfMonPage.cpp:109
+#, fuzzy, c-format
+msgid "CPU%d Load History"
+msgstr "História za»a¾enia CPU"
+
+#: OSStatus.cpp:98
+msgid ""
+"Cannot open file '/proc/stat'!\n"
+"The kernel needs to be compiled with support\n"
+"for /proc filesystem enabled!"
+msgstr ""
+
+#: OSStatus.cpp:120 OSStatus.cpp:302 OSStatus.cpp:377
+msgid ""
+"Cannot open file '/proc/meminfo'!\n"
+"The kernel needs to be compiled with support\n"
+"for /proc filesystem enabled!"
+msgstr ""
+
+#: OSStatus.cpp:310
+msgid "Cannot read memory info file '/proc/meminfo'!\n"
+msgstr ""
+
+#: OSStatus.cpp:353
+#, c-format
+msgid ""
+"Cannot read info for %s from file '/proc/stat'!\n"
+"The kernel needs to be compiled with support\n"
+"for /proc filesystem enabled!"
+msgstr ""
+
+#: OSStatus.cpp:385
+msgid "Cannot read swap info from '/proc/meminfo'!\n"
+msgstr ""
+
+#: OSStatus.cpp:574 OSStatus.cpp:587 OSStatus.cpp:614 OSStatus.cpp:623
+msgid ""
+"Your system is not currently supported.\n"
+"Sorry"
+msgstr ""
+
+#: ReniceDlg.cpp:32
+#, fuzzy
+msgid "Renice Process"
+msgstr "Be¾iace procesy"
+
+#: ReniceDlg.cpp:39
+#, c-format
+msgid ""
+"You are about the change the scheduling priority of\n"
+"process %d. Be aware that only the Superuser (root)\n"
+"can decrease the nice level of a process. The smaller\n"
+"the number is the higher is the priority.\n"
+"\n"
+"Please enter the desired nice level:"
+msgstr ""
+
+#~ msgid "StartUp Preferences..."
+#~ msgstr "Poèiatoèné nastavenie"
+
+#, fuzzy
+#~ msgid "KTop Preferences"
+#~ msgstr "Nastavenie KTop"
+
+#~ msgid "Start up page"
+#~ msgstr "©tartovná stránka"
+
+#~ msgid "Processes &Tree"
+#~ msgstr "S&trom procesov"
+
+#~ msgid "&Performance"
+#~ msgstr "&Výkon"
+
+#, fuzzy
+#~ msgid "Refresh rate: Medium"
+#~ msgstr "Aktualizácia : Stredne dlhá"
+
+#, fuzzy
+#~ msgid "Refresh rate: Fast"
+#~ msgstr "Aktualizácia : Rýchla"
+
+#~ msgid "Change Root"
+#~ msgstr "Zmeni» koreò"
+
+#, fuzzy
+#~ msgid "Kill Task"
+#~ msgstr "Ukonèi» úlohu"
+
+#~ msgid "Sort by ID"
+#~ msgstr "Triedi» podµa ID"
+
+#~ msgid "Sort by Name"
+#~ msgstr "Triedi» podµa mena"
+
+#~ msgid "Sort by Owner (UID)"
+#~ msgstr "Triedi» podµa UID"
+
+#~ msgid "CPU load"
+#~ msgstr "Za»a¾enie CPU"
+
+#, fuzzy
+#~ msgid "Swap history"
+#~ msgstr "História za»a¾enia CPU"
+
+#, fuzzy
+#~ msgid "Prior."
+#~ msgstr "Prior"
+
+#~ msgid "VmRss"
+#~ msgstr "VmRss"
+
+#~ msgid "VmLib"
+#~ msgstr "VmLib"
+
+#~ msgid "procID"
+#~ msgstr "procID"
+
+#~ msgid "VmSize"
+#~ msgstr "VmSize"
+
+#~ msgid "Processes List"
+#~ msgstr "Zoznam procesov"
+
+#~ msgid "Processes Tree"
+#~ msgstr "Strom procesov"
+
+#, fuzzy
+#~ msgid "About..."
+#~ msgstr "&O programe..."
+
+#~ msgid ""
+#~ "Could not open kernel memory file. Make sure your ktop binary is installed "
+#~ "sgid kmem.\n"
+#~ "\n"
+#~ "chgrp kmem KDEDIR/bin/ktop\n"
+#~ "chmod 2555 KDEDIR/bin/ktop"
+#~ msgstr ""
+#~ "Nemô¾em otvori» pamä» jadra. Prosím uistite sa, ¾e vá¹ ktop je nain¹talovaný "
+#~ "sgid kmem.\n"
+#~ "\n"
+#~ "chgrp kmem KDEDIR/bin/ktop\n"
+#~ "chmod 2555 KDEDIR/bin/ktop"
+
+#~ msgid "Memory details:"
+#~ msgstr "Detaily o pamäti:"
+
+#~ msgid "Active:"
+#~ msgstr "Aktívne:"
+
+#~ msgid "Inactive:"
+#~ msgstr "Neaktívne:"
+
+#~ msgid "Wired:"
+#~ msgstr "Spojené:"
+
+#~ msgid "Total physical:"
+#~ msgstr "Celková fyzická:"
+
+#~ msgid "Used by kernel:"
+#~ msgstr "Pou¾ívaná jadrom:"
+
+#~ msgid "Swap avail:"
+#~ msgstr "Swap:"
+
+#~ msgid "Swap free:"
+#~ msgstr "Voµný swap:"
+
+#~ msgid "Total virtual:"
+#~ msgstr "Celk. virtuál:"
+
+#~ msgid "About Taskmanager"
+#~ msgstr "O správcovi úloh"
+
+#~ msgid "&Contents"
+#~ msgstr "&Obsah"
+
+#~ msgid "send SIGKILL\t(ukon.)"
+#~ msgstr "po¹li SIGKILL\t(ukon.)"
