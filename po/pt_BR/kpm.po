@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-04-14 02:42+0200\n"
+"POT-Creation-Date: 1999-04-17 02:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,6 +32,10 @@ msgstr "Gráfico de Swap"
 #: prefs.C:37
 msgid "Load Graph in Icon"
 msgstr "Carregar gráfico em ícone"
+
+#: prefs.C:38
+msgid "Dock into kpanel"
+msgstr "Embutir no Painel"
 
 #: prefs.C:43
 msgid "Green/Black Load Graph"
@@ -289,7 +293,7 @@ msgstr ""
 "Somente o dono do processo e o\n"
 "superusuário podem fazê-lo."
 
-#: qps.C:627 qps.C:837 qps.C:879 qps.C:885 qps.C:908 qps.C:944 qps.C:988
+#: qps.C:627 qps.C:836 qps.C:878 qps.C:884 qps.C:907 qps.C:943 qps.C:987
 msgid "Permission denied"
 msgstr "Permissão negada"
 
@@ -301,7 +305,7 @@ msgstr "qps: mudar período de atualização"
 msgid "New update period:"
 msgstr "Novo período de atualização:"
 
-#: qps.C:716 qps.C:856 scheddlg.C:113
+#: qps.C:716 qps.C:855 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Entrada inválida"
 
@@ -313,7 +317,7 @@ msgstr ""
 "O tempo entre atualizações deve ser um número, opcionalmente seguido\n"
 "por uma unidade (ms, s ou min). A unidade padrão é 's' (segundos)."
 
-#: qps.C:832
+#: qps.C:831
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
@@ -326,15 +330,15 @@ msgstr ""
 "Somente o dono do processo e o superusuário\n"
 "podem fazê-lo."
 
-#: qps.C:846
+#: qps.C:845
 msgid "qps: renice process"
 msgstr "qps: re-priorizar processo"
 
-#: qps.C:847
+#: qps.C:846
 msgid "New nice value:"
 msgstr "Novo valor de prioridade:"
 
-#: qps.C:857
+#: qps.C:856
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
@@ -342,7 +346,7 @@ msgstr ""
 "A prioridade deve estar\n"
 "entre -20 e 20."
 
-#: qps.C:874
+#: qps.C:873
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
@@ -351,11 +355,11 @@ msgstr ""
 "Você não tem permissão de repriorizar o processo %d (%s).\n"
 "Somente o dono do processo e o superusuário podem fazê-lo."
 
-#: qps.C:886
+#: qps.C:885
 msgid "Only the super-user may lower the nice value of a process."
 msgstr "Somente o superusuário pode aumentar a prioridade de um processo."
 
-#: qps.C:909
+#: qps.C:908
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
@@ -363,7 +367,7 @@ msgstr ""
 "Somente o superusuári pode mudar a\n"
 "política de agendamento e a prioridade estática."
 
-#: qps.C:939
+#: qps.C:938
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
@@ -374,7 +378,7 @@ msgstr ""
 "agendamento e/ou prioridade doprocesso %d (%s).\n"
 "Somente o superusuário pode fazer isso."
 
-#: qps.C:983
+#: qps.C:982
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"
@@ -410,6 +414,3 @@ msgstr "Prioridade (1-99)"
 #: scheddlg.C:114
 msgid "The priority must be in the range 1..99"
 msgstr "A prioridade deve estar na faixa 1..99"
-
-#~ msgid "Dock into kpanel"
-#~ msgstr "Embutir no Painel"

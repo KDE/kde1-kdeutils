@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwrite 0.98\n"
-"POT-Creation-Date: 1999-04-10 02:41+0200\n"
+"POT-Creation-Date: 1999-04-17 02:13+0200\n"
 "PO-Revision-Date: Wed Mar 31 1999 14:58:52+0100\n"
 "Last-Translator: Marcell Lengyel <miketkf@yahoo.com>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -76,47 +76,47 @@ msgstr "Elem stílusa"
 msgid "Item Font"
 msgstr "Elem betûtípusa"
 
-#: kwview.cpp:1065
+#: kwview.cpp:1069
 msgid "Vertical Selections On"
 msgstr "Függõleges kijelölés be"
 
-#: kwview.cpp:1065
+#: kwview.cpp:1069
 msgid "Vertical Selections Off"
 msgstr "Függõleges kijelölés ki"
 
-#: kwview.cpp:1124
+#: kwview.cpp:1128
 msgid "The specified File does not exist"
 msgstr "A megadott fájl nem létezik"
 
-#: kwview.cpp:1134
+#: kwview.cpp:1138
 msgid "You have specified a directory"
 msgstr "Egy könyvtárat adtál meg"
 
-#: kwview.cpp:1144
+#: kwview.cpp:1148
 msgid "You do not have read permission to this file"
 msgstr "Nincs olvasási jogod erre a fájlra"
 
-#: kwview.cpp:1160 kwview.cpp:1190
+#: kwview.cpp:1164 kwview.cpp:1194
 msgid "An Error occured while trying to open this Document"
 msgstr "Hiba történt a dokumentum megnyitásakor."
 
-#: kwview.cpp:1174
+#: kwview.cpp:1178
 msgid "You do not have write permission to this file"
 msgstr "Nincsen írás jogod erre a fájlra"
 
-#: kwview.cpp:1227
+#: kwview.cpp:1231
 msgid "Loading..."
 msgstr "Betöltés..."
 
-#: kwview.cpp:1235 kwview.cpp:1356
+#: kwview.cpp:1239 kwview.cpp:1360
 msgid "Inserted"
 msgstr "Beszúrva"
 
-#: kwview.cpp:1240 kwview.cpp:1365
+#: kwview.cpp:1244 kwview.cpp:1369
 msgid "Read"
 msgstr "Olvasás"
 
-#: kwview.cpp:1249 kwview.cpp:1307
+#: kwview.cpp:1253 kwview.cpp:1311
 msgid ""
 "KWrite is already waiting\n"
 "for an internet job to finish\n"
@@ -128,23 +128,23 @@ msgstr ""
 "Vagy várd meg amíg ennek\n"
 "vége lesz, vagy állítsd meg."
 
-#: kwview.cpp:1257 kwview.cpp:1315
+#: kwview.cpp:1261 kwview.cpp:1319
 msgid "Waiting for KFM..."
 msgstr "Várakozás a KFM-re..."
 
-#: kwview.cpp:1263 kwview.cpp:1328
+#: kwview.cpp:1267 kwview.cpp:1332
 msgid "Could not start or find KFM"
 msgstr "Nem tudtam elindítani a KFM-et (nem találom?)"
 
-#: kwview.cpp:1290
+#: kwview.cpp:1294
 msgid "Saving..."
 msgstr "Mentés..."
 
-#: kwview.cpp:1298 kwview.cpp:1375
+#: kwview.cpp:1302 kwview.cpp:1379
 msgid "Wrote"
 msgstr "Kiírva"
 
-#: kwview.cpp:1404
+#: kwview.cpp:1408
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -152,7 +152,7 @@ msgstr ""
 "A jelenlegi szöveget módosítottad.\n"
 "Szeretnéd elmenteni?"
 
-#: kwview.cpp:1415
+#: kwview.cpp:1419
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -160,11 +160,11 @@ msgstr ""
 "Nem tudtam elmenteni a szöveget.\n"
 "Azért nyissam meg az újat?"
 
-#: kwview.cpp:1462
+#: kwview.cpp:1466
 msgid "No changes need to be saved"
 msgstr "Nem történt módosítás"
 
-#: kwview.cpp:1483
+#: kwview.cpp:1487
 msgid ""
 "A Document with this Name already exists.\n"
 "Do you want to overwrite it?"
@@ -172,35 +172,35 @@ msgstr ""
 "Már létezik dokumentum ilyen névvel.\n"
 "Felül szeretnéd írni?"
 
-#: kwview.cpp:1686 kwview.cpp:1874
+#: kwview.cpp:1690 kwview.cpp:1878
 msgid "End of document reached"
 msgstr "Elértem a dokumentum végét"
 
-#: kwview.cpp:1687 kwview.cpp:1875
+#: kwview.cpp:1691 kwview.cpp:1879
 msgid "Continue from the beginning"
 msgstr "Folytatás az elejérõl"
 
-#: kwview.cpp:1689 kwview.cpp:1700 kwview.cpp:1710
+#: kwview.cpp:1693 kwview.cpp:1704 kwview.cpp:1714
 msgid "Find"
 msgstr "Keres"
 
-#: kwview.cpp:1697 kwview.cpp:1886
+#: kwview.cpp:1701 kwview.cpp:1890
 msgid "Beginning of document reached"
 msgstr "Elértem a dokumentum elejét"
 
-#: kwview.cpp:1698 kwview.cpp:1887
+#: kwview.cpp:1702 kwview.cpp:1891
 msgid "Continue from the end"
 msgstr "Folyatás a végétõl"
 
-#: kwview.cpp:1711
+#: kwview.cpp:1715
 msgid "Search string not found!"
 msgstr "A keresett szöveg nem található!"
 
-#: kwview.cpp:1859 kwview.cpp:1873 kwview.cpp:1885
+#: kwview.cpp:1863 kwview.cpp:1877 kwview.cpp:1889
 msgid "replace(s) made"
 msgstr "csere volt"
 
-#: kwview.cpp:2000 toplevel.cpp:475
+#: kwview.cpp:2004 toplevel.cpp:477
 msgid "Line"
 msgstr "Sor"
 
@@ -490,6 +490,6 @@ msgstr "Dokumentum megnyitása"
 msgid "Save Document"
 msgstr "Dokumentum mentése"
 
-#: toplevel.cpp:476
+#: toplevel.cpp:478
 msgid "Col"
 msgstr "Oszl"

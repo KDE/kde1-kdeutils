@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwrite-1.1\n"
-"POT-Creation-Date: 1999-04-10 02:41+0200\n"
+"POT-Creation-Date: 1999-04-17 02:13+0200\n"
 "PO-Revision-Date: 1999-03-05 12:37+0100\n"
 "Last-Translator: Jañ-Mai Drapier <jdrapier@club-internet.fr>\n"
 "Language-Team: Brezhoneg <Suav.Icb@wanadoo.fr>\n"
@@ -75,47 +75,47 @@ msgstr "Giz ar mellad"
 msgid "Item Font"
 msgstr "Nodrezh ar mellad"
 
-#: kwview.cpp:1065
+#: kwview.cpp:1069
 msgid "Vertical Selections On"
 msgstr "Diuzadur a-serzh bev"
 
-#: kwview.cpp:1065
+#: kwview.cpp:1069
 msgid "Vertical Selections Off"
 msgstr "Diuzadur a-serzh marv"
 
-#: kwview.cpp:1124
+#: kwview.cpp:1128
 msgid "The specified File does not exist"
 msgstr "Ar restr goulennet n'eus ket anezhañ"
 
-#: kwview.cpp:1134
+#: kwview.cpp:1138
 msgid "You have specified a directory"
 msgstr "Goulennet oc'h eus ur renkell"
 
-#: kwview.cpp:1144
+#: kwview.cpp:1148
 msgid "You do not have read permission to this file"
 msgstr "N'oc'h ket aotreet da lenn ar restr-mañ"
 
-#: kwview.cpp:1160 kwview.cpp:1190
+#: kwview.cpp:1164 kwview.cpp:1194
 msgid "An Error occured while trying to open this Document"
 msgstr "Bez' ez eus bet ur c'hammad en ur glask digeriñ an teul-mañ"
 
-#: kwview.cpp:1174
+#: kwview.cpp:1178
 msgid "You do not have write permission to this file"
 msgstr "N'oc'h ket aotreet da skrivañ ar restr-mañ"
 
-#: kwview.cpp:1227
+#: kwview.cpp:1231
 msgid "Loading..."
 msgstr "O kargañ..."
 
-#: kwview.cpp:1235 kwview.cpp:1356
+#: kwview.cpp:1239 kwview.cpp:1360
 msgid "Inserted"
 msgstr "Ensoc'het"
 
-#: kwview.cpp:1240 kwview.cpp:1365
+#: kwview.cpp:1244 kwview.cpp:1369
 msgid "Read"
 msgstr "Lenn"
 
-#: kwview.cpp:1249 kwview.cpp:1307
+#: kwview.cpp:1253 kwview.cpp:1311
 msgid ""
 "KWrite is already waiting\n"
 "for an internet job to finish\n"
@@ -127,23 +127,23 @@ msgstr ""
 "Gortozit mar plij ez echufe\n"
 "Peotramant paouezit an hini red."
 
-#: kwview.cpp:1257 kwview.cpp:1315
+#: kwview.cpp:1261 kwview.cpp:1319
 msgid "Waiting for KFM..."
 msgstr "O c'hortoz KFM..."
 
-#: kwview.cpp:1263 kwview.cpp:1328
+#: kwview.cpp:1267 kwview.cpp:1332
 msgid "Could not start or find KFM"
 msgstr "Ne m'eus ket gallet loc'hañ pe kavout KFM"
 
-#: kwview.cpp:1290
+#: kwview.cpp:1294
 msgid "Saving..."
 msgstr "Oc'h enrollañ..."
 
-#: kwview.cpp:1298 kwview.cpp:1375
+#: kwview.cpp:1302 kwview.cpp:1379
 msgid "Wrote"
 msgstr "Skrivet"
 
-#: kwview.cpp:1404
+#: kwview.cpp:1408
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -151,7 +151,7 @@ msgstr ""
 "Kemmet eo bet an teul-red.\n"
 "Ha fellout a ra deoc'h e enrollañ ?"
 
-#: kwview.cpp:1415
+#: kwview.cpp:1419
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -159,11 +159,11 @@ msgstr ""
 "Ne m'eus ket gallet enrollañ an teul.\n"
 "Digeriñ un teul nevez evelato ?"
 
-#: kwview.cpp:1462
+#: kwview.cpp:1466
 msgid "No changes need to be saved"
 msgstr "Kemm ebet da enrollañ"
 
-#: kwview.cpp:1483
+#: kwview.cpp:1487
 msgid ""
 "A Document with this Name already exists.\n"
 "Do you want to overwrite it?"
@@ -171,35 +171,35 @@ msgstr ""
 "Bez' ez eus un teul gant an anv-se endeo\n"
 "Hag e fell deoc'h e rasklañ ? "
 
-#: kwview.cpp:1686 kwview.cpp:1874
+#: kwview.cpp:1690 kwview.cpp:1878
 msgid "End of document reached"
 msgstr "Tizhet eo diwezh an teul"
 
-#: kwview.cpp:1687 kwview.cpp:1875
+#: kwview.cpp:1691 kwview.cpp:1879
 msgid "Continue from the beginning"
 msgstr "Kenderc'hel adalek an deroù"
 
-#: kwview.cpp:1689 kwview.cpp:1700 kwview.cpp:1710
+#: kwview.cpp:1693 kwview.cpp:1704 kwview.cpp:1714
 msgid "Find"
 msgstr "Kavout"
 
-#: kwview.cpp:1697 kwview.cpp:1886
+#: kwview.cpp:1701 kwview.cpp:1890
 msgid "Beginning of document reached"
 msgstr "Tizhet eo deroù an teul"
 
-#: kwview.cpp:1698 kwview.cpp:1887
+#: kwview.cpp:1702 kwview.cpp:1891
 msgid "Continue from the end"
 msgstr "Kenderc'hel adalek an diwezh"
 
-#: kwview.cpp:1711
+#: kwview.cpp:1715
 msgid "Search string not found!"
 msgstr "Hedad war glask digavus !"
 
-#: kwview.cpp:1859 kwview.cpp:1873 kwview.cpp:1885
+#: kwview.cpp:1863 kwview.cpp:1877 kwview.cpp:1889
 msgid "replace(s) made"
 msgstr "erlec'hiañ graet"
 
-#: kwview.cpp:2000 toplevel.cpp:475
+#: kwview.cpp:2004 toplevel.cpp:477
 msgid "Line"
 msgstr "Linenn"
 
@@ -489,6 +489,6 @@ msgstr "Digeriñ un teul"
 msgid "Save Document"
 msgstr "Enrollañ an teul"
 
-#: toplevel.cpp:476
+#: toplevel.cpp:478
 msgid "Col"
 msgstr "Bann"

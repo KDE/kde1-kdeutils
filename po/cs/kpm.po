@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpm\n"
-"POT-Creation-Date: 1999-04-14 02:42+0200\n"
+"POT-Creation-Date: 1999-04-17 02:13+0200\n"
 "PO-Revision-Date: 1999-02-04 11:28+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -32,6 +32,10 @@ msgstr "Grafické zobrazení swapu"
 #: prefs.C:37
 msgid "Load Graph in Icon"
 msgstr "Graf zatí¾ení v ikonì"
+
+#: prefs.C:38
+msgid "Dock into kpanel"
+msgstr "Pohltit do panelu"
 
 #: prefs.C:43
 msgid "Green/Black Load Graph"
@@ -290,7 +294,7 @@ msgstr ""
 "Pouze vlastník procesu a superu¾ivatel\n"
 "mohou provést tuto operaci."
 
-#: qps.C:627 qps.C:837 qps.C:879 qps.C:885 qps.C:908 qps.C:944 qps.C:988
+#: qps.C:627 qps.C:836 qps.C:878 qps.C:884 qps.C:907 qps.C:943 qps.C:987
 msgid "Permission denied"
 msgstr "Zakázaný pøístup"
 
@@ -302,7 +306,7 @@ msgstr "qps: zmìna periody obnovování"
 msgid "New update period:"
 msgstr "Nová perioda obnovování:"
 
-#: qps.C:716 qps.C:856 scheddlg.C:113
+#: qps.C:716 qps.C:855 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Neplatný vstup"
 
@@ -314,7 +318,7 @@ msgstr ""
 "Èas mezi obnovováními by mìl být èíslo, které je pøípadnì následováno \n"
 "jednotkou (ms, s nebo min). Není-li uvedeno, budou pou¾ity sekundy."
 
-#: qps.C:832
+#: qps.C:831
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
@@ -327,21 +331,21 @@ msgstr ""
 "Pouze vlastník procesu nebo superu¾ivatel\n"
 "mohou provést tuto operaci."
 
-#: qps.C:846
+#: qps.C:845
 msgid "qps: renice process"
 msgstr "qps: zmìna priority"
 
-#: qps.C:847
+#: qps.C:846
 msgid "New nice value:"
 msgstr "Nová hodnata priority:"
 
-#: qps.C:857
+#: qps.C:856
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
 msgstr "Hodnota by mìla být v rozsahu -20 a¾ 20."
 
-#: qps.C:874
+#: qps.C:873
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
@@ -350,11 +354,11 @@ msgstr ""
 "Nemáte pøístupová práva ke zmìnì priority procesu %d (%s).\n"
 "Pouze vlastník procesu nebo superu¾ivatel mohou provést tuto operaci."
 
-#: qps.C:886
+#: qps.C:885
 msgid "Only the super-user may lower the nice value of a process."
 msgstr "Pouze superu¾ivatel mù¾e sní¾it hodnotu priority procesu."
 
-#: qps.C:909
+#: qps.C:908
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
@@ -362,7 +366,7 @@ msgstr ""
 "Pouze superu¾ivatel mù¾e zmìnit\n"
 "zpùsob plánování a statickou prioritu."
 
-#: qps.C:939
+#: qps.C:938
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
@@ -373,7 +377,7 @@ msgstr ""
 "plánování nebo priority procesu %d (%s).\n"
 "Tuto operaci mù¾e provádìt pouze superu¾ivatel."
 
-#: qps.C:983
+#: qps.C:982
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"
@@ -409,6 +413,3 @@ msgstr "Priorita (1-99):"
 #: scheddlg.C:114
 msgid "The priority must be in the range 1..99"
 msgstr "Priorita musí být v rozsahu 1..99"
-
-#~ msgid "Dock into kpanel"
-#~ msgstr "Pohltit do panelu"

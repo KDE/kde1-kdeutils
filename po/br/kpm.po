@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpm-1.1\n"
-"POT-Creation-Date: 1999-04-14 02:42+0200\n"
+"POT-Creation-Date: 1999-04-17 02:13+0200\n"
 "PO-Revision-Date: 1999-03-04 07:18+0100\n"
 "Last-Translator: Jañ-Mai Drapier <jdrapier@club-internet.fr>\n"
 "Language-Team: Brezhoneg <Suav.Icb@wanadoo.fr>\n"
@@ -34,6 +34,10 @@ msgstr "Diskwel kevregat an disloañ"
 #: prefs.C:37
 msgid "Load Graph in Icon"
 msgstr "Kevregat ar garg arlunet"
+
+#: prefs.C:38
+msgid "Dock into kpanel"
+msgstr "Ensoc'hañ er banell"
 
 #: prefs.C:43
 msgid "Green/Black Load Graph"
@@ -292,7 +296,7 @@ msgstr ""
 "Perc'henn an argerzh ha ar gourarveriad\n"
 "hepken a c'hell en ober."
 
-#: qps.C:627 qps.C:837 qps.C:879 qps.C:885 qps.C:908 qps.C:944 qps.C:988
+#: qps.C:627 qps.C:836 qps.C:878 qps.C:884 qps.C:907 qps.C:943 qps.C:987
 msgid "Permission denied"
 msgstr "Aotre nac'het"
 
@@ -304,7 +308,7 @@ msgstr "qps : kemmet prantad bremanaat"
 msgid "New update period:"
 msgstr "Prantad bremanaat nevez :"
 
-#: qps.C:716 qps.C:856 scheddlg.C:113
+#: qps.C:716 qps.C:855 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Enmont siek"
 
@@ -317,7 +321,7 @@ msgstr ""
 "gant un unvez (ms, s pe min). Ma ne vez spisaet unvez ebet, goulakaet e vije "
 "eilenn."
 
-#: qps.C:832
+#: qps.C:831
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
@@ -330,15 +334,15 @@ msgstr ""
 "Perc'henn an argerzh hag ar gourarveriad hepken\n"
 "zo aotreet d'en ober."
 
-#: qps.C:846
+#: qps.C:845
 msgid "qps: renice process"
 msgstr "qps : 'renice' argerzh"
 
-#: qps.C:847
+#: qps.C:846
 msgid "New nice value:"
 msgstr "Talvoud 'nice' nevez :"
 
-#: qps.C:857
+#: qps.C:856
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
@@ -346,7 +350,7 @@ msgstr ""
 "An talvoud 'nice' a rank\n"
 "bezañ etre -20 ha 20."
 
-#: qps.C:874
+#: qps.C:873
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
@@ -355,11 +359,11 @@ msgstr ""
 "N'oc'h ket aotreet da 'renice' an argerzh %d (%s).\n"
 "Perc'henn an argerzh hag ar gourarveriad hepken a zo aotreet d'en ober."
 
-#: qps.C:886
+#: qps.C:885
 msgid "Only the super-user may lower the nice value of a process."
 msgstr "Ar gourarveriad hepken a c'hell diskenn talvoud 'nice' un argerzh."
 
-#: qps.C:909
+#: qps.C:908
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
@@ -367,7 +371,7 @@ msgstr ""
 "Ar gourarveriad hepken a c'hell kemmañ ar\n"
 "politikerezh steuñvadur hag an tevet digemm."
 
-#: qps.C:939
+#: qps.C:938
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
@@ -378,7 +382,7 @@ msgstr ""
 "ha/pe tevet an argerzh %d (%s).\n"
 "Ar gourarveriad hepken a c'hell en ober."
 
-#: qps.C:983
+#: qps.C:982
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"
@@ -414,6 +418,3 @@ msgstr "Tevet (1..99) :"
 #: scheddlg.C:114
 msgid "The priority must be in the range 1..99"
 msgstr "An tevet a rank bezañ er renkennad 1..99"
-
-#~ msgid "Dock into kpanel"
-#~ msgstr "Ensoc'hañ er banell"
