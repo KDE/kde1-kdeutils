@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: knotes\n"
 "POT-Creation-Date: 1998-01-25 13:24+0100\n"
 "PO-Revision-Date: 1998-01-25 22:07 CET\n"
-"Last-Translator: Bertrand Leconte <B.Leconte@mail.dotcom.fr>\n"
+"Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
 "Language-Team: Français\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; \n"
@@ -95,11 +95,11 @@ msgstr "Taille en points :"
 
 #: knotes.cpp:268
 msgid "Text Color..."
-msgstr "Couleur du texte..."
+msgstr "Couleur du texte ..."
 
 #: knotes.cpp:269
 msgid "Background Color..."
-msgstr "Couleur du fond..."
+msgstr "Couleur de fond ..."
 
 #: knotes.cpp:275
 msgid "New Note"
@@ -111,11 +111,11 @@ msgstr "Supprimer la note"
 
 #: knotes.cpp:279
 msgid "Rename Note..."
-msgstr "Renommer la note..."
+msgstr "Renommer la note ..."
 
 #: knotes.cpp:281
 msgid "Alarm ..."
-msgstr "Alarme..."
+msgstr "Alarme ..."
 
 #: knotes.cpp:284
 msgid "Calendar"
@@ -123,7 +123,7 @@ msgstr "Calendrier"
 
 #: knotes.cpp:286
 msgid "Mail Note ..."
-msgstr "Expédier la note..."
+msgstr "Expédier la note ..."
 
 #: knotes.cpp:288
 msgid "Print Note"
@@ -135,7 +135,7 @@ msgstr "Cadre en 3 dimensions"
 
 #: knotes.cpp:297
 msgid "Font..."
-msgstr "Police..."
+msgstr "Police ..."
 
 #: knotes.cpp:298
 msgid "Colors"
@@ -143,7 +143,7 @@ msgstr "Couleurs"
 
 #: knotes.cpp:300
 msgid "Change Defaults ..."
-msgstr "Configurer..."
+msgstr "Configurer ..."
 
 #: knotes.cpp:326
 msgid "Hide Note"
@@ -172,11 +172,11 @@ msgid ""
 "Quit anyways?"
 msgstr ""
 "Impossible d'enregistrer la note.\n"
-"Voulez-vous néanmoins quitter ?"
+"Désirez-vous néanmoins quitter ?"
 
 #: knotes.cpp:477
 msgid "Could not save KNote Alarms\n"
-msgstr "Impossible d'enregistrer l'alarme KNote\n"
+msgstr "Impossible d'enregistrer les alarmes KNote\n"
 
 #: knotes.cpp:538 knotes.cpp:631
 msgid ""
@@ -191,8 +191,8 @@ msgid ""
 "You have exeeded the arbitrary and unjustly set limit of 50 knotes.\n"
 " Please complain to the author."
 msgstr ""
-"Vous avez atteint la limite arbitraire et injustement fixée à 50 knotes.\n"
-" SVP, plaignez-vous en à l'auteur."
+"Vous avez atteint la limite arbitraire et injustement fixée à 50 KNotes.\n"
+"S'il vous plaît, plaignez-vous en à l'auteur."
 
 #: knotes.cpp:847
 msgid "Question"
@@ -224,7 +224,7 @@ msgstr "Par défaut"
 
 #: knotes.cpp:1309
 msgid "More ..."
-msgstr "Plus..."
+msgstr "Plus ..."
 
 #: knotes.cpp:1456
 msgid ""
@@ -233,10 +233,10 @@ msgid ""
 "Please wait until it has finished\n"
 "Alternatively stop the running one."
 msgstr ""
-"KNotes attend déjà la fin\n"
-"d'une tâche sur réseau\n"
+"KNotes attend déjà la fin d'une tâche\n"
+"utilisant la connexion Internet.\n"
 "Veuillez attendre la fin de cette tâche\n"
-"ou annulez-la manuellement."
+"ou stoppez-la manuellement."
 
 #: knotes.cpp:1470
 msgid "Could not start or find KFM"
@@ -248,7 +248,7 @@ msgid ""
 "Close anyways?"
 msgstr ""
 "Impossible d'enregistrer les KNotes.\n"
-"Voulez-vous malgré tout fermer ?"
+"Désirez-vous malgré tout fermer l'application?"
 
 #: knotes.cpp:1604
 msgid ""
@@ -271,21 +271,20 @@ msgid "Inconsistency"
 msgstr "Inconsistence"
 
 #: mail.cpp:40
-#, fuzzy
 msgid "Mail Note to:"
-msgstr "Expédier la note..."
+msgstr "Envoyer la note à ..."
 
 #: mail.cpp:49
 msgid "Subject:"
-msgstr ""
+msgstr "Sujet :"
 
 #: mail.cpp:51
 msgid "Mail"
-msgstr ""
+msgstr "Expédier"
 
 #: mail.cpp:92
 msgid "You must specify a Recipient"
-msgstr ""
+msgstr "Vous devez préciser un destinataire"
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
@@ -301,12 +300,12 @@ msgid ""
 "Please choose a different name"
 msgstr ""
 "Le nom \"xyalarms\" est réservé pour un usage interne.\n"
-"SVP, choisissez un nom différent"
+"Veuillez choisir un nom différent"
 
 #: renamedlg.cpp:92
 msgid ""
 "A KNotes note with this name already exists\n"
 "Please choose a different name"
 msgstr ""
-"Il existe déjà une note avec ce nom\n"
-"SVP, choisissez un nom différent"
+"Il existe déjà une note de ce nom.\n"
+"Veuillez choisir un nom différent."
