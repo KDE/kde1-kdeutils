@@ -22,3 +22,5 @@ moc_task.cpp
 moc_task.o
 moc_top.cpp
 moc_top.o
+moc_kaccelmenuwatch.cpp
+moc_kaccelmenuwatch.o
