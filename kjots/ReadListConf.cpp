@@ -71,7 +71,7 @@ void writeListConf ( KConfig *conf, QString key, QStrList &list )
   QString str_list;
   QString value;
   int i;
-  for( value = list.first(); value != NULL; value = list.next() )
+  for( value = list.first(); value != ""; value = list.next() )
     {
       for( i = 0; i < (int) value.length(); i++ )
 	{

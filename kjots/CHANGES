@@ -1,3 +1,5 @@
+- now compiles with EGCS   ( Robert Williams )
+
 new in version 0.3.0
 - added lots of keyboard shortcuts
 - added klocale->translate()

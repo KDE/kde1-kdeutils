@@ -884,7 +884,7 @@ void KJotsMain::writeBook()
 	{
 	  if( KMsgBox::yesNo(this, klocale->translate("File exists !"),
 			     klocale->translate("File already exists. \n Do you want to overwrite it ?")) == 2 )
-	    name = NULL;
+	    name = "";
 	}
     }
   QFile ascii_file(name);
@@ -913,7 +913,7 @@ void KJotsMain::writePage()
 	{
 	  if( KMsgBox::yesNo(this, klocale->translate("File exists !"),
 			     klocale->translate("File already exists. \n Do you want to overwrite it ?")) == 2 )
-	    name = NULL;
+	    name = "";
 	}
     }
   QFile ascii_file(name);
