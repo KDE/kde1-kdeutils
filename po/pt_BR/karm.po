@@ -1,8 +1,9 @@
 msgid ""
-msgstr "Project-Id-Version: kuser\n"
-       "POT-Creation-Date: 1998-03-21 18:32+0300\n"
-       "PO-Revision-Date: 1998-03-23 00:00+0100\n"
-       "Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
+msgstr ""
+"Project-Id-Version: kuser\n"
+"POT-Creation-Date: 1998-06-16 14:24+0200\n"
+"PO-Revision-Date: 1998-03-23 00:00+0100\n"
+"Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
 
 #: adddata.cpp:38
 msgid "Task Name"
@@ -24,8 +25,9 @@ msgstr "Karm: Erro de gravação"
 msgid ""
 "There was an error trying to save your data file.\n"
 "Time accumulated this session will NOT be saved!\n"
-msgstr "Houve um erro ao tentar gravar o seu arquivo de dados.\n"
-       "O tempo acumulado nesta sessão não será gravado!\n"
+msgstr ""
+"Houve um erro ao tentar gravar o seu arquivo de dados.\n"
+"O tempo acumulado nesta sessão não será gravado!\n"
 
 #: karm.cpp:119
 msgid "Oh No!"
@@ -59,7 +61,7 @@ msgstr "Tem certeza que quer apagar esta tarefa?"
 msgid "&Yes"
 msgstr "&Sim"
 
-#: top.cpp:39 top.cpp:171
+#: top.cpp:39 top.cpp:168
 msgid "clock inactive"
 msgstr "relógio inativo"
 
@@ -71,10 +73,6 @@ msgstr "Esta sessão:"
 msgid "&Clock"
 msgstr "&Relógio"
 
-#: top.cpp:57
-msgid "&Start"
-msgstr "&Começar"
-
 #: top.cpp:58
 msgid "S&top"
 msgstr "&Parar"
@@ -83,45 +81,48 @@ msgstr "&Parar"
 msgid "&Task"
 msgstr "&Tarefa"
 
-#: top.cpp:71
-msgid "&Contents"
-msgstr "&Conteúdo"
-
 #: top.cpp:85
 msgid "Start Clock"
 msgstr "Iniciar Relógio"
 
-#: top.cpp:90
+#: top.cpp:89
 msgid "Stop Clock"
 msgstr "Parar Relógio"
 
-#: top.cpp:97
+#: top.cpp:95
 msgid "New Task"
 msgstr "Nova Tarefa"
 
-#: top.cpp:102
+#: top.cpp:99
 msgid "Delete Task"
 msgstr "Apagar Tarefa"
 
-#: top.cpp:107
+#: top.cpp:104
 msgid "Edit Task"
 msgstr "Editar Tarefa"
 
-#: top.cpp:145
+#: top.cpp:142
 msgid "About "
 msgstr "Sobre o "
 
-#: top.cpp:146
+#: top.cpp:143
 msgid ""
 " 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
-msgstr " 0.3 -- Sirtaj Singh Kang\n"
-       "taj@kde.org, Oct 1997\n"
-       "\n"
-       "Ambiente de Trabalho K"
+msgstr ""
+" 0.3 -- Sirtaj Singh Kang\n"
+"taj@kde.org, Oct 1997\n"
+"\n"
+"Ambiente de Trabalho K"
 
-#: top.cpp:164
+#: top.cpp:161
 msgid "clock active"
 msgstr "relógio ativo"
+
+#~ msgid "&Start"
+#~ msgstr "&Começar"
+
+#~ msgid "&Contents"
+#~ msgstr "&Conteúdo"

@@ -1,8 +1,9 @@
 msgid ""
-msgstr "Project-Id-Version: kuser\n"
-       "POT-Creation-Date: 1998-03-21 18:32+0300\n"
-       "PO-Revision-Date: 1998-03-23 00:00+0100\n"
-       "Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
+msgstr ""
+"Project-Id-Version: kuser\n"
+"POT-Creation-Date: 1998-06-16 14:24+0200\n"
+"PO-Revision-Date: 1998-03-23 00:00+0100\n"
+"Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
 
 #: adddlg.cc:11
 msgid "Add File Options"
@@ -15,10 +16,6 @@ msgstr "Armazenar Caminho Completo"
 #: adddlg.cc:25
 msgid "Only Add Newer Files"
 msgstr "Somente arquivos adicionados recentemente"
-
-#: extractdlg.cc:9
-msgid "Files"
-msgstr "Arquivos"
 
 #: extractdlg.cc:13
 msgid "Extract Options"
@@ -107,3 +104,6 @@ msgstr "Diretório do arquivo não existe."
 #: kzip.cc:408
 msgid "Archive Directory"
 msgstr "Diretório de Arquivo"
+
+#~ msgid "Files"
+#~ msgstr "Arquivos"
