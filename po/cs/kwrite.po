@@ -459,5 +459,5 @@ msgstr "Ulo¾it dokument"
 
 #: toplevel.cpp:487
 msgid "Col"
-msgstr "Slopec"
+msgstr "Sloupec"
 
