@@ -29,7 +29,7 @@ msgstr "Presisjon:"
 
 #: configdlg.cpp:116
 msgid "Set Fixed Precision at:"
-msgstr "Sett fast presisjon til:"
+msgstr "Sett fast nøyaktighet til:"
 
 #: configdlg.cpp:145
 msgid "Beep on Error"
@@ -79,8 +79,8 @@ msgid ""
 "details."
 msgstr ""
 "PÅ grunn av at glibcs er totalødelagt ble jeg nødt til å redusere KCalcs "
-"persisjon fra 'long double' til 'double'. Eiere av systemer med en "
-"fungerende libc skal rekompilere kCalc med 'long double'-presjons på. Se "
+"nøyaktighet fra 'long double' til 'double'. Eiere av systemer med en "
+"fungerende libc skal rekompilere kCalc med 'long double'-nøyaktighet på. Se "
 "README for detaljer."
 
 #: kcalc.cpp:1592
