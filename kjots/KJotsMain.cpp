@@ -424,24 +424,24 @@ KJotsMain::KJotsMain(const char* name)
   QPixmap temp_pix;
   temp_pix = global_pix_loader->loadIcon("filenew.xpm");
   toolbar->insertButton(temp_pix, 0, SIGNAL(clicked()), this,
-		      SLOT(newEntry()), TRUE, "New");
+		      SLOT(newEntry()), TRUE, i18n("New"));
   temp_pix = global_pix_loader->loadIcon("filedel.xpm");
   toolbar->insertButton(temp_pix, 1, SIGNAL(clicked()), this,
-		      SLOT(deleteEntry()), TRUE, "Delete");
+		      SLOT(deleteEntry()), TRUE, i18n("Delete"));
   temp_pix = global_pix_loader->loadIcon("back.xpm");
   toolbar->insertButton(temp_pix, 2, SIGNAL(clicked()), this,
-		      SLOT(prevEntry()), TRUE, "Previous");
+		      SLOT(prevEntry()), TRUE, i18n("Previous"));
   temp_pix = global_pix_loader->loadIcon("forward.xpm");
   toolbar->insertButton(temp_pix, 3, SIGNAL(clicked()), this,
-		      SLOT(nextEntry()), TRUE, "Next");
+		      SLOT(nextEntry()), TRUE, i18n("Next"));
   toolbar->insertSeparator();
   temp_pix = global_pix_loader->loadIcon("openbook.xpm");
   toolbar->insertButton(temp_pix, 4, SIGNAL(clicked()), this,
-		      SLOT(toggleSubjList()), TRUE, "Subject List");
+		      SLOT(toggleSubjList()), TRUE, i18n("Subject List"));
   toolbar->insertSeparator();
   temp_pix = global_pix_loader->loadIcon("exit.xpm");
   toolbar->insertButton(temp_pix, 5, SIGNAL(clicked()), qApp,
-		      SLOT(quit()), TRUE, "Exit");
+		      SLOT(quit()), TRUE, i18n("Exit"));
   toolbar->setBarPos( (KToolBar::BarPosition) config->readNumEntry("ToolBarPos") );
   addToolBar(toolbar);
   setView(f_main, FALSE);
