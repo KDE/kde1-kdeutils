@@ -144,7 +144,7 @@ msgstr "Postlegg dokument"
 #: kedit.cpp:493 kedit.cpp:581 kedit.cpp:1533 keditcl2.cpp:697
 #: keditcl2.cpp:804
 msgid "Done"
-msgstr ""
+msgstr "Ferdig"
 
 #: kedit.cpp:606
 msgid "Open Location:"
@@ -488,13 +488,12 @@ msgid "Set Fill-Column at:"
 msgstr "Set Fill-Column at:"
 
 #: filldlg.cpp:40
-#, fuzzy
 msgid "Word Wrap"
-msgstr "Ord \"warp\""
+msgstr "Ord-\"warp\""
 
 #: filldlg.cpp:42
 msgid "Backup Copies"
-msgstr ""
+msgstr "Sikkerhetskopier"
 
 #: filldlg.cpp:46
 msgid "Mail Command:"
