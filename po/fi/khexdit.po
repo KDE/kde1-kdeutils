@@ -1,0 +1,89 @@
+
+#: hexfile.cpp:85
+#, c-format
+msgid "Error opening %s"
+msgstr "Virhe avattaessa %s"
+
+#: hexwidget.cpp:23 hexwidget.cpp:60
+msgid "New Window"
+msgstr "Uusi ikkuna"
+
+#: hexwidget.cpp:33
+msgid "Toggle Toolbar"
+msgstr "Piilota/Näytä työkalupalkki"
+
+#: hexwidget.cpp:46
+msgid "&File"
+msgstr "&Tiedosto"
+
+#: hexwidget.cpp:47
+msgid "&View"
+msgstr "&Näytä"
+
+#: hexwidget.cpp:49
+msgid "&Help"
+msgstr "&Ohje"
+
+#: hexwidget.cpp:66
+msgid "Save the file"
+msgstr "Tallenna tiedosto"
+
+#: hexwidget.cpp:70 hexwidget.cpp:73 hexwidget.cpp:76 hexwidget.cpp:80
+msgid "Not implemented"
+msgstr "Toteuttamatta"
+
+#: hexwidget.cpp:84 hexwidget.cpp:171
+msgid "About Hex Editor"
+msgstr "Tietoja"
+
+#: hexwidget.cpp:114
+msgid ""
+"The current file has been modified.\n"
+"\n"
+"Do you want to save it ?"
+msgstr ""
+"Tiedostoa on muokattu.\n"
+"\n"
+"Haluatko tallentaa sen?"
+
+#: hexwidget.cpp:137
+msgid "File changed"
+msgstr "Tiedostoa muutettu"
+
+#: hexwidget.cpp:138
+msgid "Discard your changes?"
+msgstr ""
+
+#: hexwidget.cpp:170
+msgid ""
+"Hex Editor 0.4 \n"
+"\n"
+"by Stephan Kulow  (coolo@itm.mu-luebeck.de)"
+msgstr ""
+"Ohjelma: khexdit\n"
+"Versio: 0.4\n"
+"\n"
+"Stephan Kulow (coolo@itm.mu-luebeck.de)"
+
+#: hexwidget.cpp:202
+msgid "Ok"
+msgstr ""
+
+#: hexwidget.cpp:217
+msgid ""
+"KHexdit is already waiting\n"
+"for an internet job to finish\n"
+"\n"
+"Wait until this one is finished\n"
+"or stop the running one."
+msgstr ""
+"KHexdit odottaa jo\n"
+"internet tehtävän loppumista.\n"
+"\n"
+"Odota kunnes tämä on valmis\n"
+"tai lopeta plah plah plah.???.."
+
+
+#: hexwidget.cpp:227
+msgid "Could not start KFM"
+msgstr "KFM:ää ei voitu käynnistää."
