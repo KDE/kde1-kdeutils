@@ -1,0 +1,69 @@
+####### Makefile for khexdit
+
+####### Install
+ 
+INSTALL = @INSTALL@ -m 0755 
+INSTALL_DATA = @INSTALL@ -m 0644
+INSTALL_DIR = @INSTALL@ -d -m 0755
+ 
+prefix = @prefix@
+KDEINC = $(prefix)/include
+BINDIR = $(prefix)/bin
+LIBDIR = $(prefix)/lib
+PICSDIR = $(LIBDIR)/pics
+DOCSDIR = $(prefix)/doc/HTML
+APPSDIR = $(prefix)/apps/Applications
+
+####### Defines
+
+DEFS	=	-DHAVE_CONFIG_H
+CXXFLAGS=	@CXXFLAGS@ -fno-strength-reduce @all_includes@ -I.. -I.
+LDFLAGS	=	@LDFLAGS@ @all_libraries@  -lkfm -lkdeui -lkdecore -lqt -lX11 -lXext @LIBSOCKET@
+CXX	=	@CXX@
+MOC	=	@MOC@
+
+####### Files
+
+OBJECTS	=	hexwidget.o hexfile.o KToolbar.o KWidget.o kbutton.o KStatusbar.o 
+SRCMETA	=	hexwidget.moc hexfile.moc KToolbar.moc KWidget.moc kbutton.moc KStatusbar.moc
+TARGET	=	khexdit
+DOCS    =	khexdit.html
+
+####### Implicit rules
+.SUFFIXES: .cpp
+
+.cpp.o:
+	$(CXX) $(CXXFLAGS) $(DEFS) -c $<
+
+%.moc: %.h
+	$(MOC) $< -o $@
+
+####### Build rules
+
+all: $(TARGET)
+
+$(TARGET): $(SRCMETA) $(OBJECTS) 
+	$(CXX) $(OBJECTS) -o $(TARGET) $(LDFLAGS)
+
+install: all
+	$(INSTALL_DIR) $(BINDIR)
+	$(INSTALL) $(TARGET) $(BINDIR)
+	$(INSTALL_DIR) $(DOCSDIR)
+	$(INSTALL_DATA) $(DOCS) $(DOCSDIR)
+	$(INSTALL_DIR) $(APPSDIR)
+	$(INSTALL_DATA) khexdit.kdelnk $(APPSDIR)
+	
+uninstall:
+	rm -f $(BINDIR)/$(TARGET)
+	rm -f $(DOCSDIR)/$(DOCS)
+	rm -f $(APPSDIR)/khexdit.kdelnk
+
+clean:
+	-rm -f *.o *.bak *~ *% #*
+	-rm -f $(SRCMETA) $(TARGET)
+
+depend:
+	makedepend -I$(QTDIR)/include -I$(KDEDIR)/include *.cpp 
+
+# DO NOT DELETE THIS LINE -- make depend depends on it.
+

@@ -1,0 +1,6 @@
+[KDE Desktop Entry]
+Exec=khexdit
+Icon=edit.xpm
+DocPath=khexdit.html
+Info=A simple Hex editor
+Terminal=0
