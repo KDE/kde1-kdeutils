@@ -1,5 +1,5 @@
 This directory contains the stuff necesary to build a BSD package out of
-kdelibs.  Remember to make NO_CHECKSUM=yes, otherwise it won't build.
+kdeutils.  Remember to make NO_CHECKSUM=yes, otherwise it won't build.
 
 To get this to work correctly:
 
