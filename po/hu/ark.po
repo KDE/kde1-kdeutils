@@ -1,19 +1,15 @@
+# KTranslator Generated File
+
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-11-14 02:05+0100\n"
-"PO-Revision-Date: 1997-11-13 12:20+0100\n"
-"Last-Translator: John Zero <johnzero@telnet.hu>\n"
+"PO-Revision-Date: Thu Apr 1 1999 10:22:36+0100\n"
+"Last-Translator: Marcell Lengyel <miketkf@yahoo.com>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
-"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-2\n"
 "Content-Transfer-Encoding: 8-bit\n"
 "Date: 1997-10-09 11:06:57-0400\n"
-"From: Robert Palmbos <robertp@pbnjelly>\n"
-"Xgettext-Options: --keyword=translate -C\n"
-"Files: adddlg.cc ar.cc arch.cc extractdlg.cc karch.cc kfdird.cc "
-"ktablistbox.cc arkwidget.cc lha.cc main.cc tar.cc zip.cc adddlg.h ar.h "
-"arch.h extractdlg.h karch.h kfdird.h ktablistbox.h ark.h lha.h tar.h text.h "
-"zip.h\n"
+"X-Generator: KTranslator v 0.4.0"
 
 #: adddlg.cc:11
 msgid "Add File Options"
@@ -25,12 +21,12 @@ msgstr "Tárold a teljes útvonalat"
 
 #: adddlg.cc:24
 msgid "Only Add Newer Files"
-msgstr "Csak az újabb file-okat add"
+msgstr "Csak az újabb fájlokat add"
 
 #: extractdlg.cc:14
-#, fuzzy
+#
 msgid "Extract"
-msgstr "Ki&tömörít..."
+msgstr "Kitömörít"
 
 #: extractdlg.cc:28
 msgid "Destination"
@@ -46,29 +42,29 @@ msgstr "Õrizd meg a jogokat"
 
 #: extractdlg.cc:57
 msgid "Filenames to Lowercase"
-msgstr "Fileneveket kisbetûssé"
+msgstr "Fájlneveket kisbetûssé"
 
 #: extractdlg.cc:68
 msgid "All Files"
-msgstr "Minden file"
+msgstr "Minden fájl"
 
 #: extractdlg.cc:73
 msgid "Selected File"
-msgstr "Kiválasztott file"
+msgstr "Kiválasztott fájl"
 
 #: extractdlg.cc:78
 msgid "Pattern"
 msgstr "Minta"
 
 #: extractdlg.cc:190
-#, fuzzy
+#
 msgid "Extract To"
-msgstr "Kitömörítés &helye..."
+msgstr "Kitömörítés helye"
 
 #: arkwidget.cc:71
-#, fuzzy
+#
 msgid "&New..."
-msgstr "&Új"
+msgstr "&Új..."
 
 #: arkwidget.cc:74
 msgid "&Extract To..."
@@ -79,65 +75,65 @@ msgid "E&xtract..."
 msgstr "Ki&tömörít..."
 
 #: arkwidget.cc:80
-#, fuzzy
+#
 msgid "&View file"
-msgstr "&Néz"
+msgstr "Fá&jl megtekintése"
 
 #: arkwidget.cc:82
-#, fuzzy
+#
 msgid "&Delete file"
-msgstr "&Töröl"
+msgstr "Fájl tö&rlése"
 
 #: arkwidget.cc:84
 msgid "&Set Archive Directory..."
-msgstr "&Archív könyvtár beállítása..."
+msgstr "&Arhív könyvtár beállítása..."
 
 #: arkwidget.cc:85
 msgid "Set &Tar Executable..."
-msgstr ""
+msgstr "&Tar parancs megadása..."
 
 #: arkwidget.cc:86
 msgid "&File Adding Options..."
-msgstr "&File hozzáadás beállításai..."
+msgstr "&Fájl hozzáadás beállításai..."
 
 #: arkwidget.cc:97
-#, fuzzy
+#
 msgid "File Operations"
-msgstr "Beállítások a hozzáadáshoz"
+msgstr "Fájl mûveletek"
 
 #: arkwidget.cc:99
-#, fuzzy
+#
 msgid "Extract..."
-msgstr "Ki&tömörít..."
+msgstr "Kitömörít..."
 
 #: arkwidget.cc:100
 msgid "View file"
-msgstr ""
+msgstr "Fájl megtekintése"
 
 #: arkwidget.cc:102
-#, fuzzy
+#
 msgid "Delete file"
-msgstr "Kiválasztott file"
+msgstr "Fájl törlése"
 
 #: arkwidget.cc:114
-#, fuzzy
+#
 msgid "Goto Archive Dir..."
-msgstr "&Archív könyvtár beállítása..."
+msgstr "Arhív könyvtárba ugrás..."
 
 #: arkwidget.cc:117
-#, fuzzy
+#
 msgid "Extract To.."
-msgstr "Kitömörítés &helye..."
+msgstr "Kitömörítés helye..."
 
 #: arkwidget.cc:121
-#, fuzzy
+#
 msgid "Exit"
-msgstr "&Kilép"
+msgstr "Kilép"
 
 #: arkwidget.cc:128
-#, fuzzy
+#
 msgid "Welcome to ark..."
-msgstr "Üdvözöl a KZip..."
+msgstr "Üdvözöl az ark..."
 
 #: arkwidget.cc:235
 msgid "Can't create archive of that type"
@@ -149,37 +145,37 @@ msgstr "Kreálj vagy nyiss meg egy archívumot elõször"
 
 #: arkwidget.cc:300
 msgid "Can't add directories with this archive type"
-msgstr ""
+msgstr "Ilyen típusú arhív könyvtárakat nem tudok hozzáadni"
 
 #: arkwidget.cc:302
 msgid "Error saving to archive"
 msgstr "Hiba az archívba mentés közben"
 
 #: arkwidget.cc:312
-#, fuzzy
+#
 msgid "Archive Dir"
-msgstr "Archive könyvtár:"
+msgstr "Arhív könyvtár"
 
 #: arkwidget.cc:325
 msgid "What runs GNU tar:"
-msgstr ""
+msgstr "Mi a GNU tar parancs?"
 
 #: arkwidget.cc:376 arkwidget.cc:578
 msgid "Unknown archive format"
-msgstr "Ismeretlen archive formátum"
+msgstr "Ismeretlen arhív formátum"
 
 #: arkwidget.cc:396
 msgid "Size"
-msgstr ""
+msgstr "Méret"
 
 #: arkwidget.cc:402
-#, fuzzy
+#
 msgid "Archive directory does not exist."
-msgstr "Archive könyvtár"
+msgstr "Arhív könyvtár nem létezik."
 
 #: arkwidget.cc:418
 msgid "Archive Directory"
-msgstr "Archive könyvtár"
+msgstr "Arhív könyvtár"
 
 #~ msgid "Files"
 #~ msgstr "File-ok"
