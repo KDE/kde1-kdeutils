@@ -1,6 +1,6 @@
 
 INCLUDES = $(all_includes)
-LDFLAGS   = $(all_libraries)
+LDFLAGS   = $(all_libraries) $(KDE_RPATH)
 LDADD =  -lkdeui -lkdecore -lqt -lXext -lX11 -lm $(LIBSOCKET)
 
 bin_PROGRAMS = kjots
