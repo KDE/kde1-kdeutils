@@ -15,15 +15,15 @@ msgstr "Color del fondo..."
 
 #: knotes.cpp:307
 msgid "New Note"
-msgstr "Nueva nota"
+msgstr "Nueva Nota"
 
 #: knotes.cpp:309
 msgid "Delete Note"
-msgstr "Borrar nota"
+msgstr "Borrar Nota"
 
 #: knotes.cpp:311
 msgid "Rename Note..."
-msgstr "Renombrar nota..."
+msgstr "Renombrar Nota..."
 
 #: knotes.cpp:313
 msgid "Alarm ..."
@@ -227,7 +227,7 @@ msgstr "Familia:"
 
 #: fontdlg.cpp:64
 msgid "Point Size:"
-msgstr "Tamño de punto:"
+msgstr "Tamaño de punto:"
 
 #: fontdlg.cpp:75
 msgid "Style:"
@@ -332,7 +332,7 @@ msgstr "Modificar Opciones"
 
 #: docking.cpp:76
 msgid "Exit Knotes"
-msgstr "Editar KNotes"
+msgstr "Salir de KNotes"
 
 #: docking.cpp:95
 msgid "New Knote"
