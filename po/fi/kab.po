@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KAB\n"
-"POT-Creation-Date: 1999-01-12 01:57+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,9 +38,9 @@ msgstr ""
 msgid "written and maintained by"
 msgstr "tekijä ja ylläpitäjä"
 
-#: AddressBookAboutData.cpp:62
+#: AddressBookAboutData.cpp:61
 msgid "kab 0.9.5, December 1998"
-msgstr ""
+msgstr "kab 0.9.5, Joulukuu 1998"
 
 #: toplevelwidget.cc:35 toplevelwidget.cc:43
 msgid "Initialization failure"

@@ -104,17 +104,17 @@ msgstr "kello käynnissä"
 
 #: top.cpp:150
 msgid "Preferences"
-msgstr ""
+msgstr "Asetukset"
 
 #: top.cpp:194
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s %s -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
 msgstr ""
-"%s 0.3 -- Sirtaj Singh Kang\n"
+"%s %s -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
@@ -129,7 +129,7 @@ msgstr "&Tehtävä"
 
 #: top.cpp:209
 msgid "&Preferences..."
-msgstr ""
+msgstr "&Asetukset..."
 
 #: top.cpp:223
 msgid "S&top"

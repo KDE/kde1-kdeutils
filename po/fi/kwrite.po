@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KWRITE\n"
-"POT-Creation-Date: 1999-01-14 01:57+0100\n"
+"POT-Creation-Date: 1999-01-11 01:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,14 +75,8 @@ msgid "Item Font"
 msgstr "Tyypin kirjasin"
 
 #: kwview.cpp:1057
-#, fuzzy
 msgid "Vertical Selections On"
-msgstr "P&ystyvalinnat"
-
-#: kwview.cpp:1057
-#, fuzzy
-msgid "Vertical Selections Off"
-msgstr "P&ystyvalinnat"
+msgstr "Pystyvalinnat p‰‰ll‰"
 
 #: kwview.cpp:1116
 msgid "The specified File does not exist"
@@ -360,9 +354,8 @@ msgid "&Insert..."
 msgstr "&Liit‰..."
 
 #: toplevel.cpp:169
-#, fuzzy
 msgid "Open Recen&t"
-msgstr "Avaa asiakirja"
+msgstr "Avaa &edellinen"
 
 #: toplevel.cpp:180
 msgid "New &Window"
@@ -468,6 +461,11 @@ msgid ""
 "Jochen Wilhelmy\n"
 "digisnap@cs.tu-berlin.de"
 msgstr ""
+"KWrite 0.98\n"
+"\n"
+"Copyright 1998\n"
+"Jochen Wilhelmy\n"
+"digisnap@cs.tu-berlin.de"
 
 #: toplevel.cpp:272
 msgid "&Bookmarks"
