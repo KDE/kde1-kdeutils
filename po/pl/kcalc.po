@@ -1,12 +1,10 @@
 # KTranslator Generated File
-
-#Major part translated by Piotr Roszatycki <dexter@fnet.pl>
-#Minor latest updates by Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>
-
+# Major part translated by Piotr Roszatycki <dexter@fnet.pl>
+# Minor latest updates by Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>
 msgid ""
 msgstr ""
 "Project-Id-Version: kcalc \n"
-"POT-Creation-Date: 1998-06-16 14:24+0200\n"
+"POT-Creation-Date: 1998-05-30 17:49+0200\n"
 "PO-Revision-Date: 1998-06-23 06:20+0200\n"
 "Last-Translator: Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -78,10 +76,10 @@ msgid ""
 "recompile KCalc with 'long double' precision enabled. See the README for "
 "details."
 msgstr ""
-"Z uwagi na b³êdy w glibc, musia³em zmniejszyæ precyzjê KCalc "
-"z 'long double' do 'double'. Posiadacze systemów z poprawnie dzia³aj±cym "
-"libc powinni zrekompilowaæ KCalc uaktywniaj±c precyzjê 'long double'. "
-"Proszê spojrzeæ do README, by znale¼æ wiêcej szczegó³ów."
+"Z uwagi na b³êdy w glibc, musia³em zmniejszyæ precyzjê KCalc\n"
+"z 'long double' do 'double'. Posiadacze systemów z poprawnie dzia³aj±cym\n"
+"libc powinni zrekompilowaæ KCalc uaktywniaj±c precyzjê 'long double'.\n"
+"Prosze spojrzeæ do README, by znale¼æ wiêcej szczegó³ów."
 
 #: kcalc.cpp:1592
 msgid "Display Font"

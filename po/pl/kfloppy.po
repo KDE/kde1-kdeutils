@@ -1,8 +1,6 @@
 # KTranslator Generated File
-
-#Major part translated by Piotr Roszatycki <dexter@fnet.pl>
-#Minor latest updates by Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>
-
+# Major part translated by Piotr Roszatycki <dexter@fnet.pl>
+# Minor latest updates by Jacek Stolarczyk <jacek@mer.chemia.polsl.gliwice.pl>
 msgid ""
 msgstr ""
 "Project-Id-Version: kfloppy \n"
@@ -39,7 +37,7 @@ msgstr "System plików:"
 
 #: floppy.cpp:108 floppy.cpp:408
 msgid "Format"
-msgstr "Formatuj"
+msgstr "Formatu"
 
 #: floppy.cpp:131
 msgid "Quick Erase"
@@ -174,7 +172,8 @@ msgstr "Weryfikacja ..."
 msgid ""
 "Cannot start a new program\n"
 "fork() failed."
-msgstr "Nie mo¿na uruchomiæ nowego programu\n"
+msgstr ""
+"Nie mo¿na uruchomiæ nowego programu\n"
 "fork() nie powiód³ siê."
 
 #: floppy.cpp:907
