@@ -34,7 +34,7 @@ msgstr ""
 
 #: hexwidget.cpp:119
 msgid "New Window"
-msgstr "Neues &Fenster"
+msgstr "Neues Fenster"
 
 #: hexwidget.cpp:123
 msgid "Save the file"
