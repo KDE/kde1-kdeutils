@@ -1,12 +1,16 @@
-# Icelandic translation.
+# Icelandic translation of kdeutils/kpm.po
 # Copyright (C) 1998 Bjarni R. Einarsson
 # Bjarni R. Einarsson, <bre@mmedia.is>, 1998
 #
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1999-01-26 01:48+0100\n"
-"Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
+"PO-Revision-Date: 1999-02-15 01:04-0500\n"
+"Last-Translator: Thorarinn R. Einarsson <thori@mindspring.com>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso8859-1\n"
+"Content-Transfer-Encoding: iso8859-1\n"
 
 #: prefs.C:33
 msgid "Graphic Load Display"
@@ -30,7 +34,7 @@ msgstr "Álagsmælir í táknmynd"
 
 #: prefs.C:38
 msgid "Dock into kpanel"
-msgstr "Setja í spjaldið"
+msgstr "Setja á spjaldið"
 
 #: prefs.C:43
 msgid "Green/Black Load Graph"
@@ -62,7 +66,7 @@ msgstr "Forgangsraða..."
 
 #: qps.C:92
 msgid "Change Scheduling..."
-msgstr "Forgangsflokkun..."
+msgstr "Breyta forgangsflokkun..."
 
 #: qps.C:96 qps.C:131
 msgid "Socket Info"
@@ -170,10 +174,9 @@ msgstr "Stillingar..."
 
 #: qps.C:191
 msgid "Save Settings Now"
-msgstr "Vista stillingar"
+msgstr "Vista stillingar núna"
 
 #: qps.C:196
-#, fuzzy
 msgid ""
 " - A Visual Process Manager (KDE Version)\n"
 "\n"
@@ -190,18 +193,18 @@ msgid ""
 "Public License (GNU GPL). See the file COPYING\n"
 "for details about this."
 msgstr ""
-"kpm %sk%s - A Visual Process Manager (KDE Version)\n"
+"kpm %sk%s - Myndrænn ferlisstjóri (KDE útgáfa)\n"
 "\n"
 "© 1997 Mattias Engdegård (f91-men@nada.kth.se)\n"
 "© 1998 Mario Weilguni (mweilguni@kde.org)\n"
 "\n"
-"kpm er KDE útgáfan af qps, eftir Matthias\n"
+"kpm er KDE útgáfan af qps eftir Matthias\n"
 "Engdegård.  KDE stuðningur var útfærður af Mario\n"
 "Weilguni. Ef þú hefur áhuga á upphaflega qps\n"
-"forritinu, þá finnurðu það á:\n"
+"forritinu þá finnurðu það á:\n"
 "    ftp://sunsite.unc.edu/pub/linux/system/status\n"
 "\n"
-"Notkun og dreifing þessa forrits er hál GNU GPL\n"
+"Notkun og dreifing þessa forrits er háð GNU GPL\n"
 "skilmálunum.  Skráin COPYING sem fylgir forrits-\n"
 "texta kpm skýrir þetta nánar."
 
@@ -285,10 +288,10 @@ msgid ""
 "Only the owner of the process and the\n"
 "super-user may do that."
 msgstr ""
-"Þú hefur ekki heimildir til að skoða\n"
+"Þú hefur ekki heimild til að skoða\n"
 "opna sökkla ferlisins %d (%s).\n"
 "Einungis eigandi ferlisins og ofurpaurinn\n"
-"hafa heimildir til þess."
+"hafa heimild til þess."
 
 #: qps.C:628 qps.C:837 qps.C:879 qps.C:885 qps.C:908 qps.C:944 qps.C:988
 msgid "Permission denied"
@@ -322,10 +325,10 @@ msgid ""
 "Only the process owner and the super-user\n"
 "are allowed to do that."
 msgstr ""
-"Þú hefur ekki heimildir til að breyta\n"
-"forgangi ferilsins%s.\n"
-"Einungis eigandi ferilsins og ofurpaurinn\n"
-"hafa slíkar heimildir."
+"Þú hefur ekki heimild til að breyta\n"
+"forgangi ferlisins %s.\n"
+"Einungis eigandi ferlisins og ofurpaurinn\n"
+"hafa slíka heimild."
 
 #: qps.C:846
 msgid "qps: renice process"
@@ -354,7 +357,7 @@ msgstr ""
 
 #: qps.C:886
 msgid "Only the super-user may lower the nice value of a process."
-msgstr "Einungis ofurpaurinn getur lækkað forgangstölu ferlis."
+msgstr "Einungis ofurpaurinn getur lækkað forgangsþrep ferlis."
 
 #: qps.C:909
 msgid ""
@@ -373,7 +376,7 @@ msgid ""
 msgstr ""
 "Þú hefur ekki heimildir til að breyta for-\n"
 "gangsflokkun og/eða forgangi ferlisins %d (%s).\n"
-"Einungiss ofurpaurinn hefur þær."
+"Einungis ofurpaurinn hefur þær."
 
 #: qps.C:983
 #, c-format
@@ -385,31 +388,29 @@ msgstr ""
 "Einungis eigandi ferlisins og ofurpaurinn hafa slíkar heimildir."
 
 #: scheddlg.C:22
-#, fuzzy
 msgid "Change scheduling"
-msgstr "Forgangsflokkun..."
+msgstr "Breyta forgangsflokkun"
 
 #: scheddlg.C:28
-#, fuzzy
 msgid "Scheduling Policy"
-msgstr "Forgangsflokkun..."
+msgstr "Flokkunarstefna"
 
 #: scheddlg.C:29
 msgid "SCHED_OTHER (time-sharing)"
-msgstr ""
+msgstr "SCHED_OTHER (jöfn tímaskipting)"
 
 #: scheddlg.C:36
 msgid "SCHED_FIFO (real-time)"
-msgstr ""
+msgstr "SCHED_FIFO (í rauntíma)"
 
 #: scheddlg.C:42
 msgid "SCHED_RR (real-time)"
-msgstr ""
+msgstr "SCHED_RR (í rauntíma m/hámarki)"
 
 #: scheddlg.C:67
 msgid "Priority (1-99):"
-msgstr ""
+msgstr "Forgangsþrep (1-99):"
 
 #: scheddlg.C:114
 msgid "The priority must be in the range 1..99"
-msgstr ""
+msgstr "Forgangsþrep skal vera á bilinu 1..99"

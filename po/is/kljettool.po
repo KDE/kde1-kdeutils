@@ -1,13 +1,16 @@
-# Icelandic translation.
+# Icelandic translation of kljettool.
 # Copyright (C) 1998 Bjarni R. Einarsson
 # Bjarni R. Einarsson, <bre@mmedia.is>, 1998
 #
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1999-01-18 01:54+0100\n"
-"PO-Revision-Date: 1998-02-01 10:35-0500\n"
-"Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
+"PO-Revision-Date: 1999-02-15 00:29-0500\n"
+"Last-Translator: Thorarinn R. Einarsson <thori@mindspring.com>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso8859-1\n"
+"Content-Transfer-Encoding: iso8859-1\n"
 
 # main.cpp:49
 #: main.cpp:49
@@ -46,7 +49,6 @@ msgstr "Línur"
 
 # PrinterData.cpp:56
 #: PaperData.cpp:96
-#, fuzzy
 msgid "Orientation"
 msgstr "Afstaða"
 
@@ -128,7 +130,7 @@ msgstr "Upplausnaraukning"
 # MiscData.cpp:43
 #: MiscData.cpp:43
 msgid "End of Line Mode"
-msgstr "Endar lína"
+msgstr "Línuendahamur"
 
 # MiscData.cpp:65
 #: MiscData.cpp:65
