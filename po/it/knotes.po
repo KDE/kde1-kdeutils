@@ -1,5 +1,4 @@
 # KTranslator Generated File
-
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -15,7 +14,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
-"X-Generator: KTranslator v 0.3.0"
+"X-Generator: KTranslator v 0.3.0\n"
 
 #: alarm.cpp:58
 msgid "Alarm Timer for: %s"
@@ -97,13 +96,13 @@ msgstr "Imposta Font di default"
 msgid "Point Size:"
 msgstr "Dimensioni punto:"
 
-#: knotes.cpp:268
 #
+#: knotes.cpp:268
 msgid "Text Color..."
 msgstr "Colore testo..."
 
-#: knotes.cpp:269
 #
+#: knotes.cpp:269
 msgid "Background Color..."
 msgstr "Colore Sfondo..."
 
@@ -115,8 +114,8 @@ msgstr "Nuova nota"
 msgid "Delete Note"
 msgstr "Cancella Nota"
 
-#: knotes.cpp:279
 #
+#: knotes.cpp:279
 msgid "Rename Note..."
 msgstr "Rinomina Nota..."
 
@@ -140,8 +139,8 @@ msgstr "Stampa Nota"
 msgid "3D Frame"
 msgstr "Frame 3D"
 
-#: knotes.cpp:297
 #
+#: knotes.cpp:297
 msgid "Font..."
 msgstr "Carattere..."
 
@@ -153,8 +152,8 @@ msgstr "Colori"
 msgid "Change Defaults ..."
 msgstr "Cambia parametri di default..."
 
-#: knotes.cpp:326
 #
+#: knotes.cpp:326
 msgid "Hide Note"
 msgstr "Nascondi nota"
 
@@ -195,8 +194,8 @@ msgstr ""
 "Impossibile trasmettere il contenuto di questa Knote a:\n"
 "%s"
 
-#: knotes.cpp:687
 #
+#: knotes.cpp:687
 msgid ""
 "You have exeeded the arbitrary and unjustly set limit of 50 knotes.\n"
 " Please complain to the author."
@@ -279,8 +278,8 @@ msgstr ""
 msgid "Inconsistency"
 msgstr "Inconsistenza"
 
-#: mail.cpp:40
 #
+#: mail.cpp:40
 msgid "Mail Note to:"
 msgstr "Spedisci nota a:"
 
