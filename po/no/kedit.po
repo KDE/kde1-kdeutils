@@ -15,11 +15,11 @@ msgstr ""
 
 #: kedit.cpp:83 kedit.cpp:1019
 msgid "Show &Tool Bar"
-msgstr "Vis &verktøylinje"
+msgstr "Vis v&erktøylinje"
 
 #: kedit.cpp:85 kedit.cpp:1012
 msgid "Hide &Tool Bar"
-msgstr "Skjul &verktøylinje"
+msgstr "Skjul v&erktøylinje"
 
 #: kedit.cpp:88 kedit.cpp:999
 msgid "Show &Status Bar"
@@ -67,7 +67,7 @@ msgstr "&Velg alle"
 
 #: kedit.cpp:231
 msgid "&Insert File"
-msgstr "Sett &inn fil"
+msgstr "Sett inn fi&l"
 
 #: kedit.cpp:233
 msgid "Insert &Date"

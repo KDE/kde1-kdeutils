@@ -55,7 +55,7 @@ msgstr "Mønster"
 
 #: kzip.cc:70
 msgid "&Extract To..."
-msgstr "&Pakk ut til..."
+msgstr "Pakk &ut til..."
 
 #: kzip.cc:75
 msgid "E&xtract..."
