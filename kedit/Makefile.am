@@ -24,6 +24,8 @@ SUBDIRS = docs pixmaps
 apps_DATA = KEdit.kdelnk
 appsdir = $(kde_appsdir)/Applications
 
+EXTRA_DIST = $(apps_DATA)
+
 messages:
 	@XGETTEXT@ -C -ktranslate -x ../../kdelibs/po/kde.pot $(kedit_SOURCES) && mv messages.po ../po/kedit.pot
 

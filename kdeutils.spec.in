@@ -4,13 +4,13 @@ Name: %{name}
 Summary: K Desktop Environment - Utilities
 Version: %{version}
 Release: 1
-Source: ftp.kde.org:/pub/kde/stable/Beta4/distribution/rpm/source/%{name}-%{version}-1.src.tar.gz
+Source: ftp.kde.org:/pub/kde/stable/1.0pre/distribution/rpm/source/%{name}-%{version}-1.src.tar.gz
 Group: X11/KDE/Utilities
 BuildRoot: /tmp/realhot_%{name}
 Copyright: GPL
 Requires: qt >= 1.33
 Distribution: KDE
-Packager: Preston Brown <pbrown@kde.org>
+Packager: Kalle Dalheimer <kalle@kde.org>
 Vendor: The KDE Team
 
 %description
@@ -31,7 +31,7 @@ kzip: archive handling tool
 %prep
 rm -rf $RPM_BUILD_ROOT
 
-%setup -n kdeutils
+%setup -n kdeutils-%{version}
 
 %build
 export KDEDIR=/opt/kde
