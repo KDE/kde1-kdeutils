@@ -19,7 +19,7 @@ KDEINC = $(prefix)/include
 BINDIR = $(prefix)/bin
 LIBDIR = $(prefix)/lib
 APPSDIR = $(prefix)/apps/Utilities
-DOCSDIR = $(prefix)/doc/HTML/kjots
+DOCSDIR = $(prefix)/share/doc/HTML/kjots
 
 ####### Files
 

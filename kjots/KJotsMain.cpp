@@ -364,24 +364,24 @@ KJotsMain::KJotsMain(const char* name)
   toolbar = new KToolBar(this);
   QPixmap temp_pix;
   temp_pix = global_pix_loader->loadIcon("filenew.xpm");
-  toolbar->insertItem(temp_pix, 0, SIGNAL(clicked()), this,
+  toolbar->insertButton(temp_pix, 0, SIGNAL(clicked()), this,
 		      SLOT(newEntry()), TRUE, "New");
   temp_pix = global_pix_loader->loadIcon("filedel.xpm");
-  toolbar->insertItem(temp_pix, 1, SIGNAL(clicked()), this,
+  toolbar->insertButton(temp_pix, 1, SIGNAL(clicked()), this,
 		      SLOT(deleteEntry()), TRUE, "Delete");
   temp_pix = global_pix_loader->loadIcon("back.xpm");
-  toolbar->insertItem(temp_pix, 2, SIGNAL(clicked()), this,
+  toolbar->insertButton(temp_pix, 2, SIGNAL(clicked()), this,
 		      SLOT(prevEntry()), TRUE, "Previous");
   temp_pix = global_pix_loader->loadIcon("forward.xpm");
-  toolbar->insertItem(temp_pix, 3, SIGNAL(clicked()), this,
+  toolbar->insertButton(temp_pix, 3, SIGNAL(clicked()), this,
 		      SLOT(nextEntry()), TRUE, "Next");
   toolbar->insertSeparator();
-  temp_pix = global_pix_loader->loadIcon("OpenBook.xpm");
-  toolbar->insertItem(temp_pix, 4, SIGNAL(clicked()), this,
+  temp_pix = global_pix_loader->loadIcon("openbook.xpm");
+  toolbar->insertButton(temp_pix, 4, SIGNAL(clicked()), this,
 		      SLOT(toggleSubjList()), TRUE, "Subject List");
   toolbar->insertSeparator();
   temp_pix = global_pix_loader->loadIcon("exit.xpm");
-  toolbar->insertItem(temp_pix, 5, SIGNAL(clicked()), qApp,
+  toolbar->insertButton(temp_pix, 5, SIGNAL(clicked()), qApp,
 		      SLOT(quit()), TRUE, "Exit");
   toolbar->setBarPos( (KToolBar::BarPosition) config->readNumEntry("ToolBarPos") );
   addToolBar(toolbar);
@@ -743,7 +743,7 @@ void KJotsMain::startHelp()
 void KJotsMain::about()
 {
   QMessageBox::message( "About", \
-                        "Kjots 0.2.5\n\r(c) by Christoph Neerfeld\n\rChristoph.Neerfeld@mail.bonn.netsurf.de", "Ok" );
+                        "Kjots 0.2.6\n\r(c) by Christoph Neerfeld\n\rChristoph.Neerfeld@bonn.netsurf.de", "Ok" );
 }
 
 void KJotsMain::addToHotlist()

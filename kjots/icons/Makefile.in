@@ -1,7 +1,7 @@
 INSTALL_DATA = @INSTALL@ -m 0644
 INSTALL_DIR = @INSTALL@ -d -m 0755
 PICS = `find . -type f \( -name "*.xpm" -o -name "*.jpg" -o -name "*.xbm" -o -name "*.ppm" -o -name "*.gif" \) -print`
-DESTDIR = @prefix@/lib/pics/toolbar
+DESTDIR = @prefix@/share/apps/kjots/toolbar
 
 all:
  

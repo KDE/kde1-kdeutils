@@ -71,8 +71,12 @@ void SubjList::entryChanged( const char * new_subj)
   if( temp == (QString) new_subj )
     return;
   lb_subj->setAutoUpdate(FALSE);
+  /*
   lb_subj->removeItem(current);            // this looks ridiculous but it's necessary
   lb_subj->insertItem(new_subj, current ); // changeItem does not work properly
+  */
+  lb_subj->changeItem(new_subj, current );
   lb_subj->setCurrentItem(current);
   lb_subj->setAutoUpdate(TRUE);
+  lb_subj->repaint();
 }
