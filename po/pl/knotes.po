@@ -369,8 +369,9 @@ msgstr ""
 "Ta nazwa notatki ju¿ istnieje\n"
 "Proszê wybraæ inn± nazwê"
 
+# c-format
 #: docking.cpp:48
-#c-format
+#, c-format
 msgid "Could not load %s !"
 msgstr "Nie mo¿na za³adowaæ %s !"
 

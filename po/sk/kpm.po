@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpm\n"
-"POT-Creation-Date: 1999-04-12 02:29+0200\n"
+"POT-Creation-Date: 1999-04-14 02:42+0200\n"
 "PO-Revision-Date: 1999-01-01 16:15+0001\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <sk@li.org>\n"
@@ -57,123 +57,123 @@ msgstr "Zobrazenie stav. riadku"
 msgid "Socket Info Window"
 msgstr "Informácie o sockete"
 
-#: qps.C:89 qps.C:127
+#: qps.C:88 qps.C:126
 msgid "Renice..."
 msgstr "Renice..."
 
-#: qps.C:92
+#: qps.C:91
 msgid "Change Scheduling..."
 msgstr "Zmeni» scheduling..."
 
-#: qps.C:96 qps.C:131
+#: qps.C:95 qps.C:130
 msgid "Socket Info"
 msgstr "Info o socketoch"
 
-#: qps.C:101
+#: qps.C:100
 msgid "Iconify"
 msgstr "Ikonifikova»"
 
-#: qps.C:109 qps.C:133
+#: qps.C:108 qps.C:132
 msgid "Terminate"
 msgstr "Ukonèi»"
 
-#: qps.C:112 qps.C:134
+#: qps.C:111 qps.C:133
 msgid "Hangup"
 msgstr "Hangup"
 
-#: qps.C:115 qps.C:135
+#: qps.C:114 qps.C:134
 msgid "Interrupt"
 msgstr "Preru¹i»"
 
-#: qps.C:118 qps.C:137
+#: qps.C:117 qps.C:136
 msgid "Kill"
 msgstr "Zabi»"
 
-#: qps.C:121
+#: qps.C:120
 msgid "Other"
 msgstr "Ostatné"
 
-#: qps.C:128
+#: qps.C:127
 msgid "Scheduling..."
 msgstr "Scheduling..."
 
-#: qps.C:138
+#: qps.C:137
 msgid "Other signals"
 msgstr "Ostatné signály"
 
-#: qps.C:146
+#: qps.C:145
 msgid "Remove field"
 msgstr "Odstráni» polo¾ku"
 
-#: qps.C:148
+#: qps.C:147
 msgid "Add field..."
 msgstr "Prida» polo¾ku..."
 
-#: qps.C:152
+#: qps.C:151
 msgid "Help on field..."
 msgstr "Info o polo¾ke..."
 
-#: qps.C:157
+#: qps.C:156
 msgid "Refresh process list"
 msgstr "Obnovi» zoznam procesov"
 
-#: qps.C:160
+#: qps.C:159
 msgid "All Processes"
 msgstr "V¹etky procesy"
 
-#: qps.C:161
+#: qps.C:160
 msgid "Your Processes"
 msgstr "Va¹e procesy"
 
-#: qps.C:162
+#: qps.C:161
 msgid "Non-Root Processes"
 msgstr "Nerootovské procesy"
 
-#: qps.C:163
+#: qps.C:162
 msgid "Running Processes"
 msgstr "Be¾iace procesy"
 
-#: qps.C:165
+#: qps.C:164
 msgid "User Fields"
 msgstr "U¾ívateµské polo¾ky"
 
-#: qps.C:166
+#: qps.C:165
 msgid "Jobs Fields"
 msgstr "Polo¾ky úloh"
 
-#: qps.C:167
+#: qps.C:166
 msgid "Memory Fields"
 msgstr "Polo¾ky pamäte"
 
-#: qps.C:169
+#: qps.C:168
 msgid "Select Fields..."
 msgstr "Zvoli» polo¾ky..."
 
-#: qps.C:175
+#: qps.C:174
 msgid "Update Period..."
 msgstr "Perióda obnovenia..."
 
-#: qps.C:180
+#: qps.C:179
 msgid "Show command path"
 msgstr "Ukáza» cestu k príkazu"
 
-#: qps.C:182
+#: qps.C:181
 msgid "Show ressource info"
 msgstr "Ukáza» informácie o zdrojoch"
 
-#: qps.C:184
+#: qps.C:183
 msgid "Show toolbar"
 msgstr "Ukáza» panel nástrojov"
 
-#: qps.C:188
+#: qps.C:187
 msgid "Preferences..."
 msgstr "Nastavenie..."
 
-#: qps.C:191
+#: qps.C:190
 msgid "Save Settings Now"
 msgstr "Ulo¾i» nastavenie"
 
-#: qps.C:196
+#: qps.C:195
 msgid ""
 " - A Visual Process Manager (KDE Version)\n"
 "\n"
@@ -205,79 +205,79 @@ msgstr ""
 "Public License (GNU GPL). Pozrite súbor COPYING\n"
 "pre detaily o tejto licencii."
 
-#: qps.C:211
+#: qps.C:210
 msgid "&Window"
 msgstr "&Okno"
 
-#: qps.C:212
+#: qps.C:211
 msgid "&Process"
 msgstr "&Proces"
 
-#: qps.C:213
+#: qps.C:212
 msgid "&Signal"
 msgstr "&Signál"
 
-#: qps.C:309
+#: qps.C:308
 msgid "SIGQUIT (quit)"
 msgstr "SIGQUIT (koniec)"
 
-#: qps.C:310
+#: qps.C:309
 msgid "SIGILL (illegal instruction)"
 msgstr "SIGILL (nesprávna in¹trukcia)"
 
-#: qps.C:311
+#: qps.C:310
 msgid "SIGABRT (abort)"
 msgstr "SIGABRT (zlyhanie)"
 
-#: qps.C:312
+#: qps.C:311
 msgid "SIGFPE (floating point exception)"
 msgstr "SIGFPE (chyba pohyb. rád. èiarky)"
 
-#: qps.C:313
+#: qps.C:312
 msgid "SIGSEGV (segmentation violation)"
 msgstr "SIGSEGV (chyba segmentácie)"
 
-#: qps.C:314
+#: qps.C:313
 msgid "SIGPIPE (broken pipe)"
 msgstr "SIGPIPE (pretrhnutá rúra)"
 
-#: qps.C:315
+#: qps.C:314
 msgid "SIGALRM (timer signal)"
 msgstr "SIGALRM (signál èasovaèa)"
 
-#: qps.C:316
+#: qps.C:315
 msgid "SIGUSR1 (user-defined 1)"
 msgstr "SIGUSR1 (u¾ívateµsky-definovaný 1)"
 
-#: qps.C:317
+#: qps.C:316
 msgid "SIGUSR2 (user-defined 2)"
 msgstr "SIGUSR2 (u¾ívateµsky definovaný 2)"
 
-#: qps.C:318
+#: qps.C:317
 msgid "SIGCHLD (child death)"
 msgstr "SIGCHLD (potomok skonèil)"
 
-#: qps.C:319
+#: qps.C:318
 msgid "SIGCONT (continue)"
 msgstr "SIGCONT (pokraèova»)"
 
-#: qps.C:320
+#: qps.C:319
 msgid "SIGSTOP (stop)"
 msgstr "SIGSTOP (zastavi»)"
 
-#: qps.C:321
+#: qps.C:320
 msgid "SIGTSTP (stop from tty)"
 msgstr "SIGTSTP (zastavi» z tty)"
 
-#: qps.C:322
+#: qps.C:321
 msgid "SIGTTIN (tty input)"
 msgstr "SIGTTIN (vstup z tty)"
 
-#: qps.C:323
+#: qps.C:322
 msgid "SIGTTOU (tty output)"
 msgstr "SIGTTOU (výstup z tty)"
 
-#: qps.C:623
+#: qps.C:622
 #, c-format
 msgid ""
 "You do not have permission to view the\n"
@@ -290,23 +290,23 @@ msgstr ""
 "Iba vlastník procesu a super-u¾ívateµ\n"
 "to mô¾u urobi»."
 
-#: qps.C:628 qps.C:838 qps.C:880 qps.C:886 qps.C:909 qps.C:945 qps.C:989
+#: qps.C:627 qps.C:837 qps.C:879 qps.C:885 qps.C:908 qps.C:944 qps.C:988
 msgid "Permission denied"
 msgstr "Povolenie odmietnuté"
 
-#: qps.C:701
+#: qps.C:700
 msgid "qps: change update period"
 msgstr "qps: zmeni» periódu obnovy"
 
-#: qps.C:702
+#: qps.C:701
 msgid "New update period:"
 msgstr "Nová perióda:"
 
-#: qps.C:717 qps.C:857 scheddlg.C:113
+#: qps.C:716 qps.C:856 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Nesprávny vstup"
 
-#: qps.C:718
+#: qps.C:717
 msgid ""
 "The time between updates should be a number, optionally followed\n"
 "by a unit (ms, s or min). If no unit is given, seconds is assumed."
@@ -314,7 +314,7 @@ msgstr ""
 "Èas medzi obnova by mal by» èíslo, voliteµne nasledované\n"
 "jednotkou (ms, s alebo min). Ak nie je daná jednotka, pou¾ijú sa sekundy."
 
-#: qps.C:833
+#: qps.C:832
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
@@ -327,15 +327,15 @@ msgstr ""
 "Iba vlastník procesu a super-u¾ívateµ\n"
 "to mô¾u spravi»."
 
-#: qps.C:847
+#: qps.C:846
 msgid "qps: renice process"
 msgstr "qps: renice procesu"
 
-#: qps.C:848
+#: qps.C:847
 msgid "New nice value:"
 msgstr "Nová hodnota nice:"
 
-#: qps.C:858
+#: qps.C:857
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
@@ -343,7 +343,7 @@ msgstr ""
 "Hodnota nice by mala by»\n"
 "v rozmedzí -20 a¾ 20."
 
-#: qps.C:875
+#: qps.C:874
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
@@ -352,11 +352,11 @@ msgstr ""
 "Nemáte práva na renice procesu %d (%s).\n"
 "Iba vlastník procesu a super-u¾ívateµ to mô¾u spravi»."
 
-#: qps.C:887
+#: qps.C:886
 msgid "Only the super-user may lower the nice value of a process."
 msgstr "Iba superu¾ívateµ mô¾e zní¾i» nice hodnotu procesu."
 
-#: qps.C:910
+#: qps.C:909
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
@@ -364,7 +364,7 @@ msgstr ""
 "Iba super-u¾ívateµ mô¾e zmeni»\n"
 "stratégiu schedulingu a statickú prioritu."
 
-#: qps.C:940
+#: qps.C:939
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
@@ -375,7 +375,7 @@ msgstr ""
 "prioritu procesu %d (%s).\n"
 "To mô¾e iba superu¾ívateµ."
 
-#: qps.C:984
+#: qps.C:983
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"

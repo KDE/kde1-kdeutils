@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
-"POT-Creation-Date: 1999-04-12 02:29+0200\n"
+"POT-Creation-Date: 1999-04-14 02:42+0200\n"
 "PO-Revision-Date: 1999-01-28 20:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -56,123 +56,123 @@ msgstr "Traka stanja"
 msgid "Socket Info Window"
 msgstr ""
 
-#: qps.C:89 qps.C:127
+#: qps.C:88 qps.C:126
 msgid "Renice..."
 msgstr ""
 
-#: qps.C:92
+#: qps.C:91
 msgid "Change Scheduling..."
 msgstr ""
 
-#: qps.C:96 qps.C:131
+#: qps.C:95 qps.C:130
 msgid "Socket Info"
 msgstr ""
 
-#: qps.C:101
+#: qps.C:100
 msgid "Iconify"
 msgstr "Napravi ga ikonom"
 
-#: qps.C:109 qps.C:133
+#: qps.C:108 qps.C:132
 msgid "Terminate"
 msgstr "Zavr¹i"
 
-#: qps.C:112 qps.C:134
+#: qps.C:111 qps.C:133
 msgid "Hangup"
 msgstr "Prekidanje linije"
 
-#: qps.C:115 qps.C:135
+#: qps.C:114 qps.C:134
 msgid "Interrupt"
 msgstr "Interupt"
 
-#: qps.C:118 qps.C:137
+#: qps.C:117 qps.C:136
 msgid "Kill"
 msgstr "Ubij"
 
-#: qps.C:121
+#: qps.C:120
 msgid "Other"
 msgstr "Ostali"
 
-#: qps.C:128
+#: qps.C:127
 msgid "Scheduling..."
 msgstr ""
 
-#: qps.C:138
+#: qps.C:137
 msgid "Other signals"
 msgstr "Ostali signali"
 
-#: qps.C:146
+#: qps.C:145
 msgid "Remove field"
 msgstr "Ukloni polje"
 
-#: qps.C:148
+#: qps.C:147
 msgid "Add field..."
 msgstr "Dodaj polje"
 
-#: qps.C:152
+#: qps.C:151
 msgid "Help on field..."
 msgstr ""
 
-#: qps.C:157
+#: qps.C:156
 msgid "Refresh process list"
 msgstr "Osvje¾i listu procesa"
 
-#: qps.C:160
+#: qps.C:159
 msgid "All Processes"
 msgstr "Svi procesi"
 
-#: qps.C:161
+#: qps.C:160
 msgid "Your Processes"
 msgstr "Va¹i procesi"
 
-#: qps.C:162
+#: qps.C:161
 msgid "Non-Root Processes"
 msgstr ""
 
-#: qps.C:163
+#: qps.C:162
 msgid "Running Processes"
 msgstr ""
 
-#: qps.C:165
+#: qps.C:164
 msgid "User Fields"
 msgstr ""
 
-#: qps.C:166
+#: qps.C:165
 msgid "Jobs Fields"
 msgstr ""
 
-#: qps.C:167
+#: qps.C:166
 msgid "Memory Fields"
 msgstr ""
 
-#: qps.C:169
+#: qps.C:168
 msgid "Select Fields..."
 msgstr "Izaberi polja..."
 
-#: qps.C:175
+#: qps.C:174
 msgid "Update Period..."
 msgstr "Osvje¾i period..."
 
-#: qps.C:180
+#: qps.C:179
 msgid "Show command path"
 msgstr "Prika¾i putanju naredbe"
 
-#: qps.C:182
+#: qps.C:181
 msgid "Show ressource info"
 msgstr ""
 
-#: qps.C:184
+#: qps.C:183
 msgid "Show toolbar"
 msgstr "Prika¾i traku sa alatima"
 
-#: qps.C:188
+#: qps.C:187
 msgid "Preferences..."
 msgstr "Postavke..."
 
-#: qps.C:191
+#: qps.C:190
 msgid "Save Settings Now"
 msgstr "Spremi postavke odmah"
 
-#: qps.C:196
+#: qps.C:195
 msgid ""
 " - A Visual Process Manager (KDE Version)\n"
 "\n"
@@ -190,79 +190,79 @@ msgid ""
 "for details about this."
 msgstr ""
 
-#: qps.C:211
+#: qps.C:210
 msgid "&Window"
 msgstr "&Prozor"
 
-#: qps.C:212
+#: qps.C:211
 msgid "&Process"
 msgstr "&Proces"
 
-#: qps.C:213
+#: qps.C:212
 msgid "&Signal"
 msgstr "&Signal"
 
-#: qps.C:309
+#: qps.C:308
 msgid "SIGQUIT (quit)"
 msgstr "SIGQUIT (zavr¹i)"
 
-#: qps.C:310
+#: qps.C:309
 msgid "SIGILL (illegal instruction)"
 msgstr "SIGILL (nedozvoljena instrukcija)"
 
-#: qps.C:311
+#: qps.C:310
 msgid "SIGABRT (abort)"
 msgstr "SIGABRT (odustani)"
 
-#: qps.C:312
+#: qps.C:311
 msgid "SIGFPE (floating point exception)"
 msgstr ""
 
-#: qps.C:313
+#: qps.C:312
 msgid "SIGSEGV (segmentation violation)"
 msgstr ""
 
-#: qps.C:314
+#: qps.C:313
 msgid "SIGPIPE (broken pipe)"
 msgstr ""
 
-#: qps.C:315
+#: qps.C:314
 msgid "SIGALRM (timer signal)"
 msgstr ""
 
-#: qps.C:316
+#: qps.C:315
 msgid "SIGUSR1 (user-defined 1)"
 msgstr "SIGUSR1 (korisnièki-definiran 1)"
 
-#: qps.C:317
+#: qps.C:316
 msgid "SIGUSR2 (user-defined 2)"
 msgstr "SIGUSR1 (korisnièki-definiran 2)"
 
-#: qps.C:318
+#: qps.C:317
 msgid "SIGCHLD (child death)"
 msgstr ""
 
-#: qps.C:319
+#: qps.C:318
 msgid "SIGCONT (continue)"
 msgstr "SIGCONT (nastavi)"
 
-#: qps.C:320
+#: qps.C:319
 msgid "SIGSTOP (stop)"
 msgstr "SIGSTOP (stani)"
 
-#: qps.C:321
+#: qps.C:320
 msgid "SIGTSTP (stop from tty)"
 msgstr ""
 
-#: qps.C:322
+#: qps.C:321
 msgid "SIGTTIN (tty input)"
 msgstr ""
 
-#: qps.C:323
+#: qps.C:322
 msgid "SIGTTOU (tty output)"
 msgstr ""
 
-#: qps.C:623
+#: qps.C:622
 #, c-format
 msgid ""
 "You do not have permission to view the\n"
@@ -271,29 +271,29 @@ msgid ""
 "super-user may do that."
 msgstr ""
 
-#: qps.C:628 qps.C:838 qps.C:880 qps.C:886 qps.C:909 qps.C:945 qps.C:989
+#: qps.C:627 qps.C:837 qps.C:879 qps.C:885 qps.C:908 qps.C:944 qps.C:988
 msgid "Permission denied"
 msgstr "Pristup odbijen"
 
-#: qps.C:701
+#: qps.C:700
 msgid "qps: change update period"
 msgstr ""
 
-#: qps.C:702
+#: qps.C:701
 msgid "New update period:"
 msgstr ""
 
-#: qps.C:717 qps.C:857 scheddlg.C:113
+#: qps.C:716 qps.C:856 scheddlg.C:113
 msgid "Invalid input"
 msgstr ""
 
-#: qps.C:718
+#: qps.C:717
 msgid ""
 "The time between updates should be a number, optionally followed\n"
 "by a unit (ms, s or min). If no unit is given, seconds is assumed."
 msgstr ""
 
-#: qps.C:833
+#: qps.C:832
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
@@ -302,38 +302,38 @@ msgid ""
 "are allowed to do that."
 msgstr ""
 
-#: qps.C:847
+#: qps.C:846
 msgid "qps: renice process"
 msgstr ""
 
-#: qps.C:848
+#: qps.C:847
 msgid "New nice value:"
 msgstr ""
 
-#: qps.C:858
+#: qps.C:857
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
 msgstr ""
 
-#: qps.C:875
+#: qps.C:874
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
 "Only the process owner and the super-user are allowed to do that."
 msgstr ""
 
-#: qps.C:887
+#: qps.C:886
 msgid "Only the super-user may lower the nice value of a process."
 msgstr ""
 
-#: qps.C:910
+#: qps.C:909
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
 msgstr ""
 
-#: qps.C:940
+#: qps.C:939
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
@@ -341,7 +341,7 @@ msgid ""
 "Only the super-user may do that."
 msgstr ""
 
-#: qps.C:984
+#: qps.C:983
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpm\n"
-"POT-Creation-Date: 1999-04-12 02:29+0200\n"
+"POT-Creation-Date: 1999-04-14 02:42+0200\n"
 "PO-Revision-Date: 1998-02-09 22:36+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -56,123 +56,123 @@ msgstr "Строка статуса"
 msgid "Socket Info Window"
 msgstr "Окно информации о каналах"
 
-#: qps.C:89 qps.C:127
+#: qps.C:88 qps.C:126
 msgid "Renice..."
 msgstr "Изменить приоритет..."
 
-#: qps.C:92
+#: qps.C:91
 msgid "Change Scheduling..."
 msgstr "Изменить расписание..."
 
-#: qps.C:96 qps.C:131
+#: qps.C:95 qps.C:130
 msgid "Socket Info"
 msgstr "Информация о каналах"
 
-#: qps.C:101
+#: qps.C:100
 msgid "Iconify"
 msgstr "Минимизировать"
 
-#: qps.C:109 qps.C:133
+#: qps.C:108 qps.C:132
 msgid "Terminate"
 msgstr "Закончить"
 
-#: qps.C:112 qps.C:134
+#: qps.C:111 qps.C:133
 msgid "Hangup"
 msgstr "Приостановить"
 
-#: qps.C:115 qps.C:135
+#: qps.C:114 qps.C:134
 msgid "Interrupt"
 msgstr "Прервать"
 
-#: qps.C:118 qps.C:137
+#: qps.C:117 qps.C:136
 msgid "Kill"
 msgstr "Убить"
 
-#: qps.C:121
+#: qps.C:120
 msgid "Other"
 msgstr "Другое"
 
-#: qps.C:128
+#: qps.C:127
 msgid "Scheduling..."
 msgstr "Расписание..."
 
-#: qps.C:138
+#: qps.C:137
 msgid "Other signals"
 msgstr "Другие сигналы..."
 
-#: qps.C:146
+#: qps.C:145
 msgid "Remove field"
 msgstr "Удалить поле"
 
-#: qps.C:148
+#: qps.C:147
 msgid "Add field..."
 msgstr "Добавить поле..."
 
-#: qps.C:152
+#: qps.C:151
 msgid "Help on field..."
 msgstr "Помощь по полям..."
 
-#: qps.C:157
+#: qps.C:156
 msgid "Refresh process list"
 msgstr "Обновить список процессов..."
 
-#: qps.C:160
+#: qps.C:159
 msgid "All Processes"
 msgstr "Все процессы"
 
-#: qps.C:161
+#: qps.C:160
 msgid "Your Processes"
 msgstr "Ваши процессы"
 
-#: qps.C:162
+#: qps.C:161
 msgid "Non-Root Processes"
 msgstr "Процессы не root'а"
 
-#: qps.C:163
+#: qps.C:162
 msgid "Running Processes"
 msgstr "Работающие процессы"
 
-#: qps.C:165
+#: qps.C:164
 msgid "User Fields"
 msgstr "Пользовательские поля"
 
-#: qps.C:166
+#: qps.C:165
 msgid "Jobs Fields"
 msgstr "Поля заданий"
 
-#: qps.C:167
+#: qps.C:166
 msgid "Memory Fields"
 msgstr "Поля памяти"
 
-#: qps.C:169
+#: qps.C:168
 msgid "Select Fields..."
 msgstr "Выбрать поля..."
 
-#: qps.C:175
+#: qps.C:174
 msgid "Update Period..."
 msgstr "Время обновление..."
 
-#: qps.C:180
+#: qps.C:179
 msgid "Show command path"
 msgstr "Показать путь команды"
 
-#: qps.C:182
+#: qps.C:181
 msgid "Show ressource info"
 msgstr "Показать информацию о ресурсах"
 
-#: qps.C:184
+#: qps.C:183
 msgid "Show toolbar"
 msgstr "Показать строку инструментов"
 
-#: qps.C:188
+#: qps.C:187
 msgid "Preferences..."
 msgstr "Настройки..."
 
-#: qps.C:191
+#: qps.C:190
 msgid "Save Settings Now"
 msgstr "Записать настройки"
 
-#: qps.C:196
+#: qps.C:195
 msgid ""
 " - A Visual Process Manager (KDE Version)\n"
 "\n"
@@ -203,79 +203,79 @@ msgstr ""
 "Эта программа опубликована под GNU General\n"
 "Public License (GNU GPL). Более подробно в файле COPYING"
 
-#: qps.C:211
+#: qps.C:210
 msgid "&Window"
 msgstr "Окно"
 
-#: qps.C:212
+#: qps.C:211
 msgid "&Process"
 msgstr "Процесс"
 
-#: qps.C:213
+#: qps.C:212
 msgid "&Signal"
 msgstr "Сигнал"
 
-#: qps.C:309
+#: qps.C:308
 msgid "SIGQUIT (quit)"
 msgstr "SIGQUIT (выход)"
 
-#: qps.C:310
+#: qps.C:309
 msgid "SIGILL (illegal instruction)"
 msgstr "SIGILL (неверная инструкция)"
 
-#: qps.C:311
+#: qps.C:310
 msgid "SIGABRT (abort)"
 msgstr "SIGABRT (прервать)"
 
-#: qps.C:312
+#: qps.C:311
 msgid "SIGFPE (floating point exception)"
 msgstr "SIGFPE (ошибка арифметики с плавающей запятой)"
 
-#: qps.C:313
+#: qps.C:312
 msgid "SIGSEGV (segmentation violation)"
 msgstr "SIGSEGV (ошибка обращения к памяти)"
 
-#: qps.C:314
+#: qps.C:313
 msgid "SIGPIPE (broken pipe)"
 msgstr "SIGPIPE (обованый поток)"
 
-#: qps.C:315
+#: qps.C:314
 msgid "SIGALRM (timer signal)"
 msgstr "SIGALRM (сигнал таймера)"
 
-#: qps.C:316
+#: qps.C:315
 msgid "SIGUSR1 (user-defined 1)"
 msgstr "SIGUSR1 (определенный пользователем 1)"
 
-#: qps.C:317
+#: qps.C:316
 msgid "SIGUSR2 (user-defined 2)"
 msgstr "SIGUSR2 (определенный пользователем 2)"
 
-#: qps.C:318
+#: qps.C:317
 msgid "SIGCHLD (child death)"
 msgstr "SIGCHLD (умер порожденный процесс)"
 
-#: qps.C:319
+#: qps.C:318
 msgid "SIGCONT (continue)"
 msgstr "SIGCONT (продолжить)"
 
-#: qps.C:320
+#: qps.C:319
 msgid "SIGSTOP (stop)"
 msgstr "SIGSTOP (стоп)"
 
-#: qps.C:321
+#: qps.C:320
 msgid "SIGTSTP (stop from tty)"
 msgstr "SIGTSTP (стоп с терминала)"
 
-#: qps.C:322
+#: qps.C:321
 msgid "SIGTTIN (tty input)"
 msgstr "SIGTTIN (ввод с терминала)"
 
-#: qps.C:323
+#: qps.C:322
 msgid "SIGTTOU (tty output)"
 msgstr "SIGTTOU (вывод на терминал)"
 
-#: qps.C:623
+#: qps.C:622
 #, c-format
 msgid ""
 "You do not have permission to view the\n"
@@ -288,23 +288,23 @@ msgstr ""
 "Только владелец процесса и суперпользователь\n"
 "могут делать это."
 
-#: qps.C:628 qps.C:838 qps.C:880 qps.C:886 qps.C:909 qps.C:945 qps.C:989
+#: qps.C:627 qps.C:837 qps.C:879 qps.C:885 qps.C:908 qps.C:944 qps.C:988
 msgid "Permission denied"
 msgstr "Доступ запрещен"
 
-#: qps.C:701
+#: qps.C:700
 msgid "qps: change update period"
 msgstr "qps: изменение периода обновления"
 
-#: qps.C:702
+#: qps.C:701
 msgid "New update period:"
 msgstr "Новый период обновление:"
 
-#: qps.C:717 qps.C:857 scheddlg.C:113
+#: qps.C:716 qps.C:856 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Неверный ввод"
 
-#: qps.C:718
+#: qps.C:717
 msgid ""
 "The time between updates should be a number, optionally followed\n"
 "by a unit (ms, s or min). If no unit is given, seconds is assumed."
@@ -313,7 +313,7 @@ msgstr ""
 "измерений в конце (ms, s или min). Если не задана единица измерения, "
 "принимется секунда."
 
-#: qps.C:833
+#: qps.C:832
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
@@ -326,15 +326,15 @@ msgstr ""
 "Только владелец процесса и суперпользователь\n"
 "могут делать это."
 
-#: qps.C:847
+#: qps.C:846
 msgid "qps: renice process"
 msgstr "qps: изменение приоритета"
 
-#: qps.C:848
+#: qps.C:847
 msgid "New nice value:"
 msgstr "Новое значение приоритета:"
 
-#: qps.C:858
+#: qps.C:857
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
@@ -342,7 +342,7 @@ msgstr ""
 "Значение приоритета должно быть\n"
 "от -20 до 20."
 
-#: qps.C:875
+#: qps.C:874
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
@@ -351,12 +351,12 @@ msgstr ""
 "Вы не имеете права изменять приоритет процесса %d (%s).\n"
 "Только владелец процесса и суперпользователь могут делать это."
 
-#: qps.C:887
+#: qps.C:886
 msgid "Only the super-user may lower the nice value of a process."
 msgstr ""
 "Только суперпользователь может уменьшить значение приоритета у процесса."
 
-#: qps.C:910
+#: qps.C:909
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
@@ -364,7 +364,7 @@ msgstr ""
 "Только суперпользователь может изменять\n"
 "расписание и приоритет."
 
-#: qps.C:940
+#: qps.C:939
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
@@ -375,7 +375,7 @@ msgstr ""
 "расписание и/или приоритет процесса %d (%s).\n"
 "Только суперпользователь может это делать."
 
-#: qps.C:984
+#: qps.C:983
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"

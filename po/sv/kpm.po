@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpm\n"
-"POT-Creation-Date: 1999-04-12 02:29+0200\n"
+"POT-Creation-Date: 1999-04-14 02:42+0200\n"
 "PO-Revision-Date: 1999-01-01 20:33+01:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
@@ -57,123 +57,123 @@ msgstr "Statusrad"
 msgid "Socket Info Window"
 msgstr "Socketinfofönster"
 
-#: qps.C:89 qps.C:127
+#: qps.C:88 qps.C:126
 msgid "Renice..."
 msgstr "Ändra snällhet..."
 
-#: qps.C:92
+#: qps.C:91
 msgid "Change Scheduling..."
 msgstr "Ändra schemaläggning..."
 
-#: qps.C:96 qps.C:131
+#: qps.C:95 qps.C:130
 msgid "Socket Info"
 msgstr "Socketinfo"
 
-#: qps.C:101
+#: qps.C:100
 msgid "Iconify"
 msgstr "Ikonifiera"
 
-#: qps.C:109 qps.C:133
+#: qps.C:108 qps.C:132
 msgid "Terminate"
 msgstr "Avsluta"
 
-#: qps.C:112 qps.C:134
+#: qps.C:111 qps.C:133
 msgid "Hangup"
 msgstr "Lägg på"
 
-#: qps.C:115 qps.C:135
+#: qps.C:114 qps.C:134
 msgid "Interrupt"
 msgstr "Avbryt"
 
-#: qps.C:118 qps.C:137
+#: qps.C:117 qps.C:136
 msgid "Kill"
 msgstr "Döda"
 
-#: qps.C:121
+#: qps.C:120
 msgid "Other"
 msgstr "Annan"
 
-#: qps.C:128
+#: qps.C:127
 msgid "Scheduling..."
 msgstr "Schemaläggning..."
 
-#: qps.C:138
+#: qps.C:137
 msgid "Other signals"
 msgstr "Andra signaler"
 
-#: qps.C:146
+#: qps.C:145
 msgid "Remove field"
 msgstr "Ta bort fält"
 
-#: qps.C:148
+#: qps.C:147
 msgid "Add field..."
 msgstr "Lägg till fält..."
 
-#: qps.C:152
+#: qps.C:151
 msgid "Help on field..."
 msgstr "Hjälp om fält..."
 
-#: qps.C:157
+#: qps.C:156
 msgid "Refresh process list"
 msgstr "Uppdatera processlistan"
 
-#: qps.C:160
+#: qps.C:159
 msgid "All Processes"
 msgstr "Alla processer"
 
-#: qps.C:161
+#: qps.C:160
 msgid "Your Processes"
 msgstr "Dina processer"
 
-#: qps.C:162
+#: qps.C:161
 msgid "Non-Root Processes"
 msgstr "Icke-root-processer"
 
-#: qps.C:163
+#: qps.C:162
 msgid "Running Processes"
 msgstr "Körande processer"
 
-#: qps.C:165
+#: qps.C:164
 msgid "User Fields"
 msgstr "Användarfält"
 
-#: qps.C:166
+#: qps.C:165
 msgid "Jobs Fields"
 msgstr "Jobbfält"
 
-#: qps.C:167
+#: qps.C:166
 msgid "Memory Fields"
 msgstr "Minnesfält"
 
-#: qps.C:169
+#: qps.C:168
 msgid "Select Fields..."
 msgstr "Välj fält..."
 
-#: qps.C:175
+#: qps.C:174
 msgid "Update Period..."
 msgstr "Uppdateringsperiod..."
 
-#: qps.C:180
+#: qps.C:179
 msgid "Show command path"
 msgstr "Visa kommandots sökväg"
 
-#: qps.C:182
+#: qps.C:181
 msgid "Show ressource info"
 msgstr "Visa resursinformation"
 
-#: qps.C:184
+#: qps.C:183
 msgid "Show toolbar"
 msgstr "Visa verktygsrad"
 
-#: qps.C:188
+#: qps.C:187
 msgid "Preferences..."
 msgstr "Inställningar..."
 
-#: qps.C:191
+#: qps.C:190
 msgid "Save Settings Now"
 msgstr "Spara inställningarna nu"
 
-#: qps.C:196
+#: qps.C:195
 #, fuzzy
 msgid ""
 " - A Visual Process Manager (KDE Version)\n"
@@ -206,79 +206,79 @@ msgstr ""
 "Public License (GNU GPL). Se filen COPYING för\n"
 "detaljer angående detta."
 
-#: qps.C:211
+#: qps.C:210
 msgid "&Window"
 msgstr "&Fönster"
 
-#: qps.C:212
+#: qps.C:211
 msgid "&Process"
 msgstr "&Process"
 
-#: qps.C:213
+#: qps.C:212
 msgid "&Signal"
 msgstr "&Signal"
 
-#: qps.C:309
+#: qps.C:308
 msgid "SIGQUIT (quit)"
 msgstr "SIGQUIT (avsluta)"
 
-#: qps.C:310
+#: qps.C:309
 msgid "SIGILL (illegal instruction)"
 msgstr "SIGILL (ogiltig instruktion)"
 
-#: qps.C:311
+#: qps.C:310
 msgid "SIGABRT (abort)"
 msgstr "SIGABRT (avbryt)"
 
-#: qps.C:312
+#: qps.C:311
 msgid "SIGFPE (floating point exception)"
 msgstr "SIGFPE (flyttalsundantag)"
 
-#: qps.C:313
+#: qps.C:312
 msgid "SIGSEGV (segmentation violation)"
 msgstr "SIGSEGV (segmenteringsöverträdelse)"
 
-#: qps.C:314
+#: qps.C:313
 msgid "SIGPIPE (broken pipe)"
 msgstr "SIGPIPE (brutet rör)"
 
-#: qps.C:315
+#: qps.C:314
 msgid "SIGALRM (timer signal)"
 msgstr "SIGALRM (timersignal)"
 
-#: qps.C:316
+#: qps.C:315
 msgid "SIGUSR1 (user-defined 1)"
 msgstr "SIGUSR1 (användardefinierad 1)"
 
-#: qps.C:317
+#: qps.C:316
 msgid "SIGUSR2 (user-defined 2)"
 msgstr "SIGUSR2 (användardefinierad 2)"
 
-#: qps.C:318
+#: qps.C:317
 msgid "SIGCHLD (child death)"
 msgstr "SIGCHLD (barnadödsfall)"
 
-#: qps.C:319
+#: qps.C:318
 msgid "SIGCONT (continue)"
 msgstr "SIGCONT (fortsätt)"
 
-#: qps.C:320
+#: qps.C:319
 msgid "SIGSTOP (stop)"
 msgstr "SIGSTOP (stanna)"
 
-#: qps.C:321
+#: qps.C:320
 msgid "SIGTSTP (stop from tty)"
 msgstr "SIGTSTP (stanna från terminalen)"
 
-#: qps.C:322
+#: qps.C:321
 msgid "SIGTTIN (tty input)"
 msgstr "SIGTTIN (terminalinmatning)"
 
-#: qps.C:323
+#: qps.C:322
 msgid "SIGTTOU (tty output)"
 msgstr "SIGTTOU (terminalutmatning)"
 
-#: qps.C:623
+#: qps.C:622
 #, c-format
 msgid ""
 "You do not have permission to view the\n"
@@ -291,23 +291,23 @@ msgstr ""
 "Endast processens ägare och\n"
 "systemadminstratören får göra det."
 
-#: qps.C:628 qps.C:838 qps.C:880 qps.C:886 qps.C:909 qps.C:945 qps.C:989
+#: qps.C:627 qps.C:837 qps.C:879 qps.C:885 qps.C:908 qps.C:944 qps.C:988
 msgid "Permission denied"
 msgstr "Åtkomst nekades"
 
-#: qps.C:701
+#: qps.C:700
 msgid "qps: change update period"
 msgstr "qps: ändra uppdateringsperiod"
 
-#: qps.C:702
+#: qps.C:701
 msgid "New update period:"
 msgstr "Ny uppdateringsperiod:"
 
-#: qps.C:717 qps.C:857 scheddlg.C:113
+#: qps.C:716 qps.C:856 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Ogiltig inmatning"
 
-#: qps.C:718
+#: qps.C:717
 msgid ""
 "The time between updates should be a number, optionally followed\n"
 "by a unit (ms, s or min). If no unit is given, seconds is assumed."
@@ -315,7 +315,7 @@ msgstr ""
 "Tiden mellan uppdateringarna ska vara ett tal, eventuellt följt av en\n"
 "enhet (ms, s eller min). Om ingen enhet anges underförstås sekunder."
 
-#: qps.C:833
+#: qps.C:832
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
@@ -328,15 +328,15 @@ msgstr ""
 "Endast processens ägare och systemadministratören\n"
 "får göra det."
 
-#: qps.C:847
+#: qps.C:846
 msgid "qps: renice process"
 msgstr "qps: ändra process snällhet"
 
-#: qps.C:848
+#: qps.C:847
 msgid "New nice value:"
 msgstr "Nytt snällhetsvärde:"
 
-#: qps.C:858
+#: qps.C:857
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
@@ -344,7 +344,7 @@ msgstr ""
 "Snällhetsvärdet ska vara\n"
 "i området -20 till 20."
 
-#: qps.C:875
+#: qps.C:874
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
@@ -353,12 +353,12 @@ msgstr ""
 "Du har inte rättighet att ändra snällheten för process %d (%s).\n"
 "Endast processens ägare och systemadministratören för göra det."
 
-#: qps.C:887
+#: qps.C:886
 msgid "Only the super-user may lower the nice value of a process."
 msgstr ""
 "Endast systemadministratören får minska snällhetsvärdet för en process."
 
-#: qps.C:910
+#: qps.C:909
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
@@ -367,7 +367,7 @@ msgstr ""
 "schemaläggningspolicyn och den statiska\n"
 "prioriteten."
 
-#: qps.C:940
+#: qps.C:939
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
@@ -378,7 +378,7 @@ msgstr ""
 "och/eller prioriteten för process %d (%s).\n"
 "Endast systemadministratören för göra det."
 
-#: qps.C:984
+#: qps.C:983
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"
