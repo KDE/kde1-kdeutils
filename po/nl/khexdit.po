@@ -18,7 +18,6 @@ msgstr ""
 # Copyright (C) 1997 Jeroen van der Most <jvdmost@wi.leidenuniv.nl>
 #
 #: hexdata.cpp:33
-#, c-format
 msgid "Error opening %s"
 msgstr "Fout tijdens het openen van %s"
 
@@ -36,26 +35,26 @@ msgstr "Werkbalk aan/uitzetten"
 msgid "Hex Editor"
 msgstr "Informatie over de Hex Editor"
 
-#: hexwidget.cpp:93
+#: hexwidget.cpp:95
 msgid ""
 "\n"
 "\n"
 "by Stephan Kulow"
 msgstr ""
 
-#: hexwidget.cpp:115
+#: hexwidget.cpp:118
 msgid "New Window"
 msgstr "Nieuw Venster"
 
-#: hexwidget.cpp:119
+#: hexwidget.cpp:122
 msgid "Save the file"
 msgstr "Bewaar het bestand"
 
-#: hexwidget.cpp:122 hexwidget.cpp:124 hexwidget.cpp:126 hexwidget.cpp:129
+#: hexwidget.cpp:125 hexwidget.cpp:127 hexwidget.cpp:129 hexwidget.cpp:132
 msgid "Not implemented"
 msgstr "Niet geïmplementeerd"
 
-#: hexwidget.cpp:158
+#: hexwidget.cpp:163
 #, fuzzy
 msgid ""
 "The current file has been modified.\n"
@@ -65,7 +64,7 @@ msgstr ""
 "\n"
 "Wilt u het opslaan?"
 
-#: hexwidget.cpp:184
+#: hexwidget.cpp:189
 #, fuzzy
 msgid ""
 "The current file has been modified.\n"
@@ -75,7 +74,7 @@ msgstr ""
 "\n"
 "Wilt u het opslaan?"
 
-#: hexwidget.cpp:265
+#: hexwidget.cpp:270
 msgid ""
 "KHexdit is already waiting\n"
 "for an internet job to finish\n"
@@ -87,7 +86,7 @@ msgstr ""
 "Wacht tot de huidige taak klaar is\n"
 "of breek hem af."
 
-#: hexwidget.cpp:273
+#: hexwidget.cpp:278
 msgid "Could not start KFM"
 msgstr "KFM kon niet gestart worden"
 

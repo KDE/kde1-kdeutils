@@ -9,7 +9,8 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: iso-8859-2\n"
 "Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
-"Files: configdlg.cpp dlabel.cpp fontdlg.cpp kcalc.cpp kcalc_core.cpp stats.cpp\n"
+"Files: configdlg.cpp dlabel.cpp fontdlg.cpp kcalc.cpp kcalc_core.cpp "
+"stats.cpp\n"
 
 #: configdlg.cpp:48 kcalc.cpp:1567
 msgid "Defaults"
@@ -78,6 +79,3 @@ msgstr "Pismo za prikazivanje"
 #: kcalc_core.cpp:1125
 msgid "Stat Mem cleared"
 msgstr "Stat Mem ispra¾njen"
-
-
-

@@ -6,7 +6,6 @@ msgstr ""
 "Last-Translator: Stephan Kulow <coolo@kde.org>\n"
 
 #: hexdata.cpp:33
-#, c-format
 msgid "Error opening %s"
 msgstr "Fehler beim Öffnen von %s"
 
@@ -22,7 +21,7 @@ msgstr "&Werkzeugleiste ein-/ausblenden"
 msgid "Hex Editor"
 msgstr "Hex-Editor"
 
-#: hexwidget.cpp:93
+#: hexwidget.cpp:95
 msgid ""
 "\n"
 "\n"
@@ -32,19 +31,19 @@ msgstr ""
 "\n"
 "von Stephan Kulow"
 
-#: hexwidget.cpp:115
+#: hexwidget.cpp:118
 msgid "New Window"
 msgstr "Neues &Fenster"
 
-#: hexwidget.cpp:119
+#: hexwidget.cpp:122
 msgid "Save the file"
 msgstr "Aktuelle Datei speichern"
 
-#: hexwidget.cpp:122 hexwidget.cpp:124 hexwidget.cpp:126 hexwidget.cpp:129
+#: hexwidget.cpp:125 hexwidget.cpp:127 hexwidget.cpp:129 hexwidget.cpp:132
 msgid "Not implemented"
 msgstr "Nicht implementiert"
 
-#: hexwidget.cpp:158
+#: hexwidget.cpp:163
 msgid ""
 "The current file has been modified.\n"
 "Do you want to save it?"
@@ -52,7 +51,7 @@ msgstr ""
 "Die Änderungen wurden nicht gespeichert!\n"
 "Wollen Sie sie jetzt speichern?"
 
-#: hexwidget.cpp:184
+#: hexwidget.cpp:189
 msgid ""
 "The current file has been modified.\n"
 "Discard your changes?"
@@ -60,7 +59,7 @@ msgstr ""
 "Die Änderungen wurden nicht gespeichert!\n"
 "Wollen Sie sie jetzt speichern?"
 
-#: hexwidget.cpp:265
+#: hexwidget.cpp:270
 msgid ""
 "KHexdit is already waiting\n"
 "for an internet job to finish\n"
@@ -72,6 +71,6 @@ msgstr ""
 "zur Zeit möglich. Warten Sie, solange der\n"
 "erste läuft, oder beenden Sie ihn!"
 
-#: hexwidget.cpp:273
+#: hexwidget.cpp:278
 msgid "Could not start KFM"
 msgstr "KFM konnte nicht gestartet werden."

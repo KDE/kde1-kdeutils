@@ -6,7 +6,6 @@ msgstr ""
 "Last-Translator: Stephan Kulow <coolo@kde.org>\n"
 
 #: alarm.cpp:58
-#, c-format
 msgid "Alarm Timer for: %s"
 msgstr "Alarm-Einstellungen für: %s"
 
@@ -172,7 +171,6 @@ msgid "Could not save KNote Alarms\n"
 msgstr "Konnte die Alarm-Einstellungen nicht speichern\n"
 
 #: knotes.cpp:538 knotes.cpp:631
-#, c-format
 msgid ""
 "Could not pipe the contents of this KNote into:\n"
 " %s"
@@ -201,7 +199,6 @@ msgstr ""
 "unwiederbringlich löschen möchten?"
 
 #: knotes.cpp:1020
-#, c-format
 msgid ""
 "Could not load:\n"
 " %s"
@@ -245,7 +242,6 @@ msgstr ""
 "Trotzdem schliessen?"
 
 #: knotes.cpp:1604
-#, c-format
 msgid ""
 "Found an alarm to which the underlying\n"
 "KNotes file:\n"
@@ -264,6 +260,23 @@ msgstr ""
 #: knotes.cpp:1612
 msgid "Inconsistency"
 msgstr "Inkonsistenzen"
+
+#: mail.cpp:40
+#, fuzzy
+msgid "Mail Note to:"
+msgstr "Notiz mailen..."
+
+#: mail.cpp:49
+msgid "Subject:"
+msgstr ""
+
+#: mail.cpp:51
+msgid "Mail"
+msgstr ""
+
+#: mail.cpp:92
+msgid "You must specify a Recipient"
+msgstr ""
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"

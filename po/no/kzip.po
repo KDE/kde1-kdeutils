@@ -105,4 +105,3 @@ msgstr "Ukjent arkiv format"
 #: kzip.cc:378
 msgid "Archive Directory"
 msgstr "Arkiv mappe"
-

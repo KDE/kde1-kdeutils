@@ -1,4 +1,3 @@
-
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -16,7 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: hexdata.cpp:33
-#, c-format
 msgid "Error opening %s"
 msgstr "Feil ved åpning av %s"
 
@@ -32,53 +30,56 @@ msgstr "&Toggle verktøylinje"
 msgid "Hex Editor"
 msgstr "Hex Editor"
 
-#: hexwidget.cpp:93
+#: hexwidget.cpp:95
 msgid ""
 "\n"
 "\n"
 "by Stephan Kulow"
-msgstr "\n"
+msgstr ""
+"\n"
 "\n"
 "av Stephan Kulow"
 
-
-#: hexwidget.cpp:115
+#: hexwidget.cpp:118
 msgid "New Window"
 msgstr "Nytt vindu"
 
-#: hexwidget.cpp:119
+#: hexwidget.cpp:122
 msgid "Save the file"
 msgstr "Lagre filen"
 
-#: hexwidget.cpp:122 hexwidget.cpp:124 hexwidget.cpp:126 hexwidget.cpp:129
+#: hexwidget.cpp:125 hexwidget.cpp:127 hexwidget.cpp:129 hexwidget.cpp:132
 msgid "Not implemented"
 msgstr "Ikke implementert"
 
-#: hexwidget.cpp:158
+#: hexwidget.cpp:163
 msgid ""
 "The current file has been modified.\n"
 "Do you want to save it?"
-msgstr "Fil i bruk er endret.\n"
+msgstr ""
+"Fil i bruk er endret.\n"
 "Vil du lagre den?"
 
-#: hexwidget.cpp:184
+#: hexwidget.cpp:189
 msgid ""
 "The current file has been modified.\n"
 "Discard your changes?"
-msgstr "Fil i bruk er endret.\n"
+msgstr ""
+"Fil i bruk er endret.\n"
 "Forkaste endringene?"
 
-#: hexwidget.cpp:265
+#: hexwidget.cpp:270
 msgid ""
 "KHexdit is already waiting\n"
 "for an internet job to finish\n"
 "\n"
 "Wait until this one is finished\n"
 "or stop the running one."
-msgstr "Du kan kun kjøre en internet jobb om gangen.\n"
+msgstr ""
+"Du kan kun kjøre en internet jobb om gangen.\n"
 "Vennligst vent til denne jobb er ferdig\n"
 "eller avslutt jobb som kjøres."
 
-#: hexwidget.cpp:273
+#: hexwidget.cpp:278
 msgid "Could not start KFM"
 msgstr "Kunne ikke starte KFM"

@@ -1,4 +1,3 @@
-
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -155,14 +154,16 @@ msgstr "Melding"
 msgid ""
 "This Document has been modified.\n"
 "Would you like to save it?"
-msgstr "Dette dokument er endret.\n"
+msgstr ""
+"Dette dokument er endret.\n"
 "Vil du lagre til det?"
 
 #: kedit.cpp:592 kedit.cpp:747
 msgid ""
 "Could not save the file.\n"
 "Exit anyways?"
-msgstr "Kunne ikke lagre filen.\n"
+msgstr ""
+"Kunne ikke lagre filen.\n"
 "Avslutte likevel?"
 
 #: kedit.cpp:638
@@ -170,7 +171,8 @@ msgid ""
 "There are windows with modified content open.\n"
 "If you exit now, you will loose those changes\n"
 "Quit anyways?"
-msgstr "Det finnes åpne vindu med endret innhold.\n"
+msgstr ""
+"Det finnes åpne vindu med endret innhold.\n"
 "Hvis du avslutter nå, vil du miste disse endringene\n"
 "Avslutte likevel?"
 
@@ -178,7 +180,8 @@ msgstr "Det finnes åpne vindu med endret innhold.\n"
 msgid ""
 "The current document has been modified.\n"
 "Continue anyways ?"
-msgstr "Dokument i bruk er endret.\n"
+msgstr ""
+"Dokument i bruk er endret.\n"
 "Fortsette likevel ?"
 
 #: kedit.cpp:808
@@ -200,7 +203,8 @@ msgstr "Lagre som: %s"
 msgid ""
 "Could not pipe the contentsof this Document into:\n"
 " %s"
-msgstr "Kunne ikke overføre (\"pipe\") innholdet av dette dokument inn i:\n"
+msgstr ""
+"Kunne ikke overføre (\"pipe\") innholdet av dette dokument inn i:\n"
 " %s"
 
 #: kedit.cpp:960
@@ -221,7 +225,8 @@ msgid ""
 "The current document has been modified.\n"
 "Would you like to save the changes before \n"
 "printing this Document?"
-msgstr "Dokument i bruk er endret.\n"
+msgstr ""
+"Dokument i bruk er endret.\n"
 "Vil du lagre endringene før\n"
 "dette dokumentet skrives ut?"
 
@@ -229,7 +234,8 @@ msgstr "Dokument i bruk er endret.\n"
 msgid ""
 "Could not save the file.\n"
 "Print anyways?"
-msgstr "Kunne ikke lagre filen.\n"
+msgstr ""
+"Kunne ikke lagre filen.\n"
 "Skrive ut likevel?"
 
 #: kedit.cpp:1235
@@ -266,7 +272,8 @@ msgid ""
 "for an internet job to finish\n"
 "Please wait until has finished\n"
 "Alternatively stop the running one."
-msgstr "KEdit venter allerede på at\n"
+msgstr ""
+"KEdit venter allerede på at\n"
 "en internet jobb skal gjøres ferdig\n"
 "Vennligst vent til denne er ferdig\n"
 "Alternativt stopp jobb som kjøres."
@@ -280,7 +287,8 @@ msgstr "Kunne ikke starte eller finne KFM"
 msgid ""
 "Malformed URL\n"
 "%s"
-msgstr "Feil på URL\n"
+msgstr ""
+"Feil på URL\n"
 "%s"
 
 #: kedit.cpp:1430
@@ -326,7 +334,8 @@ msgstr "Innlasting ferdig"
 msgid ""
 "Can not create:\n"
 "%s"
-msgstr "Kan ikke lage:\n"
+msgstr ""
+"Kan ikke lage:\n"
 "%s"
 
 #: print.cpp:66

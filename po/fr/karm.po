@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-23 09:54+0100\n"
+"POT-Creation-Date: 1998-01-28 09:54+0100\n"
 "PO-Revision-Date: 1998-02-16 HO:MI+ZONE\n"
 "Last-Translator: Damien Cola <alliax@mindless.com>\n"
 "Language-Team: FRENCH <FR@li.org>\n"
@@ -19,7 +19,8 @@ msgid "Task Name"
 msgstr "Nom de la tache"
 
 #: adddata.cpp:44
-msgid "Accumulated time (in minutes)"
+#, fuzzy
+msgid "Accumutated time (in minutes)"
 msgstr "Temps accumule (en minutes)"
 
 #: adddlg.cpp:26
@@ -133,7 +134,6 @@ msgstr ""
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"
-
 
 #: top.cpp:164
 msgid "clock active"

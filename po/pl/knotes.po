@@ -7,7 +7,6 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
 #: alarm.cpp:58
-#, c-format
 msgid "Alarm Timer for: %s"
 msgstr "Budzik dla: %s"
 
@@ -173,7 +172,6 @@ msgid "Could not save KNote Alarms\n"
 msgstr "Nie mo¿na zachowaæ budzika\n"
 
 #: knotes.cpp:538 knotes.cpp:631
-#, c-format
 msgid ""
 "Could not pipe the contents of this KNote into:\n"
 " %s"
@@ -202,7 +200,6 @@ msgstr ""
 "ca³kowicie tê notatkê?"
 
 #: knotes.cpp:1020
-#, c-format
 msgid ""
 "Could not load:\n"
 " %s"
@@ -247,7 +244,6 @@ msgstr ""
 "Wyj¶æ, pomimo tego?"
 
 #: knotes.cpp:1604
-#, c-format
 msgid ""
 "Found an alarm to which the underlying\n"
 "KNotes file:\n"
@@ -266,6 +262,23 @@ msgstr ""
 #: knotes.cpp:1612
 msgid "Inconsistency"
 msgstr "Nie¶cis³o¶æ"
+
+#: mail.cpp:40
+#, fuzzy
+msgid "Mail Note to:"
+msgstr "Wy¶lij poczt± notatkê..."
+
+#: mail.cpp:49
+msgid "Subject:"
+msgstr ""
+
+#: mail.cpp:51
+msgid "Mail"
+msgstr ""
+
+#: mail.cpp:92
+msgid "You must specify a Recipient"
+msgstr ""
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"

@@ -1,11 +1,12 @@
-
 msgid ""
 msgstr ""
-"Date: 1998-03-06 23:13:09-0500\n"
-"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, <root@petit.cornell.edu>\n"
 "Content-Type: text/plain; charset=\n"
+"Date: 1998-03-06 23:13:09-0500\n"
+"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
+"<root@petit.cornell.edu>\n"
 "Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
-"Files: configdlg.cpp dlabel.cpp fontdlg.cpp kcalc.cpp kcalc_core.cpp stats.cpp\n"
+"Files: configdlg.cpp dlabel.cpp fontdlg.cpp kcalc.cpp kcalc_core.cpp "
+"stats.cpp\n"
 
 #: configdlg.cpp:48 kcalc.cpp:1567
 msgid "Defaults"

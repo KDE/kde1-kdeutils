@@ -154,14 +154,16 @@ msgstr "Μήνυμα"
 msgid ""
 "This Document has been modified.\n"
 "Would you like to save it?"
-msgstr "Αυτό το έγγραφο τροποποιήθηκε.\n"
+msgstr ""
+"Αυτό το έγγραφο τροποποιήθηκε.\n"
 "Θα θέλατε να αποθηκευτεί;"
 
 #: kedit.cpp:592 kedit.cpp:747
 msgid ""
 "Could not save the file.\n"
 "Exit anyways?"
-msgstr "Το αρχείο δεν αποθηκεύτηκε.\n"
+msgstr ""
+"Το αρχείο δεν αποθηκεύτηκε.\n"
 "Θέλετε να τερματιστεί η εφαρμογή;"
 
 #: kedit.cpp:638
@@ -169,7 +171,8 @@ msgid ""
 "There are windows with modified content open.\n"
 "If you exit now, you will loose those changes\n"
 "Quit anyways?"
-msgstr "Υπάρχουν ανοικτά παράθυρα με τροποποιημένο περιεχόμενο.\n"
+msgstr ""
+"Υπάρχουν ανοικτά παράθυρα με τροποποιημένο περιεχόμενο.\n"
 "Αν τερματιστεί η εφαρμογή τώρα θα χαθούν αυτλες οι αλλαγές.\n"
 "Θέλετε να τερματιστεί η εφαρμογή ούτως ή άλλως;"
 
@@ -177,7 +180,8 @@ msgstr "Υπάρχουν ανοικτά παράθυρα με τροποποιημένο περιεχόμενο.\n"
 msgid ""
 "The current document has been modified.\n"
 "Continue anyways ?"
-msgstr "Το παρόν κείμενο έχει τροποποιηθεί.\n"
+msgstr ""
+"Το παρόν κείμενο έχει τροποποιηθεί.\n"
 "Θέλετε να συνεχίσετε ούτως ή άλλως;"
 
 #: kedit.cpp:808
@@ -197,7 +201,7 @@ msgstr "Αποθηκεύτηκε ως: %s"
 #: kedit.cpp:866
 #, c-format
 msgid ""
-"Could not pipe the contents of this Document into:\n"
+"Could not pipe the contentsof this Document into:\n"
 " %s"
 msgstr ""
 
@@ -219,7 +223,8 @@ msgid ""
 "The current document has been modified.\n"
 "Would you like to save the changes before \n"
 "printing this Document?"
-msgstr "Το τρέχον κείμενο έχει τροποποιηθεί.\n"
+msgstr ""
+"Το τρέχον κείμενο έχει τροποποιηθεί.\n"
 "Θα θέλατε να σώσετε της αλλαγές πριν \n"
 "εκτύπωσετε αυτό το έγγραφο;"
 
@@ -227,7 +232,8 @@ msgstr "Το τρέχον κείμενο έχει τροποποιηθεί.\n"
 msgid ""
 "Could not save the file.\n"
 "Print anyways?"
-msgstr "Το κείμενο δεν αποθηκεύτηκε.\n"
+msgstr ""
+"Το κείμενο δεν αποθηκεύτηκε.\n"
 "Θέλετε να εκτυπωθεί ούτως ή άλλως;"
 
 #: kedit.cpp:1235
@@ -264,7 +270,8 @@ msgid ""
 "for an internet job to finish\n"
 "Please wait until has finished\n"
 "Alternatively stop the running one."
-msgstr "Το KEdit περιμένει\n"
+msgstr ""
+"Το KEdit περιμένει\n"
 "να τελείωσει μια δουλειά του Internet\n"
 "Παρακαλώ να περιμένετε μέχρι να ολοκληρωθεί\n"
 "Διαφορετικά τερματίστε την τρέχουσα."
@@ -278,7 +285,8 @@ msgstr ""
 msgid ""
 "Malformed URL\n"
 "%s"
-msgstr "Λάθος δοσμένο URL\n"
+msgstr ""
+"Λάθος δοσμένο URL\n"
 "%s"
 
 #: kedit.cpp:1430
@@ -324,7 +332,8 @@ msgstr "Ολοκληρόθηκε η εντολή φορτώσεως"
 msgid ""
 "Can not create:\n"
 "%s"
-msgstr "Δεν μπορεσα να δημιουργήσω: \n"
+msgstr ""
+"Δεν μπορεσα να δημιουργήσω: \n"
 "%s"
 
 #: print.cpp:66
@@ -378,5 +387,3 @@ msgstr "Ταχυδρόμησε"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Πρέπει να ορίσετε Παραλήπτη"
-
-

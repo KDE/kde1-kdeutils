@@ -11,10 +11,9 @@ msgstr ""
 "Language-Team: Slovak <bednar@isternet.sk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
-"Content-Transfer-Encoding: 8bit\n"    
+"Content-Transfer-Encoding: 8bit\n"
 
 #: alarm.cpp:58
-#, c-format
 msgid "Alarm Timer for: %s"
 msgstr "Naèasovanie alarmu pre: %s"
 
@@ -180,7 +179,6 @@ msgid "Could not save KNote Alarms\n"
 msgstr "Nemô¾em ulo¾i» alarmy\n"
 
 #: knotes.cpp:538 knotes.cpp:631
-#, c-format
 msgid ""
 "Could not pipe the contents of this KNote into:\n"
 " %s"
@@ -209,7 +207,6 @@ msgstr ""
 "zru¹i» túto poznámku?"
 
 #: knotes.cpp:1020
-#, c-format
 msgid ""
 "Could not load:\n"
 " %s"
@@ -253,7 +250,6 @@ msgstr ""
 "Uzavrie» aj tak?"
 
 #: knotes.cpp:1604
-#, c-format
 msgid ""
 "Found an alarm to which the underlying\n"
 "KNotes file:\n"
@@ -272,6 +268,23 @@ msgstr ""
 #: knotes.cpp:1612
 msgid "Inconsistency"
 msgstr "Poru¹ená následnos»"
+
+#: mail.cpp:40
+#, fuzzy
+msgid "Mail Note to:"
+msgstr "Posla» poznámku po¹tou ..."
+
+#: mail.cpp:49
+msgid "Subject:"
+msgstr ""
+
+#: mail.cpp:51
+msgid "Mail"
+msgstr ""
+
+#: mail.cpp:92
+msgid "You must specify a Recipient"
+msgstr ""
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"

@@ -195,7 +195,8 @@ msgid ""
 "Could not pipe the contentsof this Document into:\n"
 " %s"
 msgstr ""
-"Det var ikke muligt at udføre nedenstående kommando på indholdet af dette dokument:\n"
+"Det var ikke muligt at udføre nedenstående kommando på indholdet af dette "
+"dokument:\n"
 " %s"
 
 #: kedit.cpp:960

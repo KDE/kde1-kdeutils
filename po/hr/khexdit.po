@@ -1,72 +1,70 @@
-#: hexfile.cpp:85
+msgid ""
+msgstr ""
+"Date: 1998-03-06 22:06:45-0500\n"
+"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
+"<root@petit.cornell.edu>\n"
+"Content-Type: text/plain; charset=\n"
+"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
+"Files: hexdata.cpp hexfile.cpp hexwidget.cpp\n"
+
+#: hexdata.cpp:33
 msgid "Error opening %s"
 msgstr "Gre¹ka prilikom otvaranja %s"
 
-#: hexwidget.cpp:23 hexwidget.cpp:60
+#: hexwidget.cpp:79
+msgid "Save &As..."
+msgstr ""
+
+#: hexwidget.cpp:90
+#, fuzzy
+msgid "&Toggle Toolbar"
+msgstr "Uklj./isklj. Alate"
+
+#: hexwidget.cpp:93
+#, fuzzy
+msgid "Hex Editor"
+msgstr "O Hex Editoru"
+
+#: hexwidget.cpp:95
+msgid ""
+"\n"
+"\n"
+"by Stephan Kulow"
+msgstr ""
+
+#: hexwidget.cpp:118
 msgid "New Window"
 msgstr "Novi prozor"
 
-#: hexwidget.cpp:33
-msgid "Toggle Toolbar"
-msgstr "Uklj./isklj. Alate"
-
-#: hexwidget.cpp:46
-msgid "&File"
-msgstr "&Datoteka"
-
-#: hexwidget.cpp:47
-msgid "&View"
-msgstr "Po&gled"
-
-#: hexwidget.cpp:49
-msgid "&Help"
-msgstr "&Pomoæ"
-
-#: hexwidget.cpp:66
+#: hexwidget.cpp:122
 msgid "Save the file"
 msgstr "Spremi datoteku"
 
-#: hexwidget.cpp:70 hexwidget.cpp:73 hexwidget.cpp:76 hexwidget.cpp:80
+#: hexwidget.cpp:125 hexwidget.cpp:127 hexwidget.cpp:129 hexwidget.cpp:132
 msgid "Not implemented"
 msgstr "Nije ugraðeno"
 
-#: hexwidget.cpp:84 hexwidget.cpp:171
-msgid "About Hex Editor"
-msgstr "O Hex Editoru"
-
-#: hexwidget.cpp:114
+#: hexwidget.cpp:163
+#, fuzzy
 msgid ""
 "The current file has been modified.\n"
-"\n"
-"Do you want to save it ?"
+"Do you want to save it?"
 msgstr ""
 "Datoteka je mijenjana.\n"
 "\n"
 "®elite li je spremiti ?"
 
-#: hexwidget.cpp:137
-msgid "File changed"
-msgstr "Datoteka promijenjena"
-
-#: hexwidget.cpp:138
-msgid "Discard your changes?"
-msgstr "®elite li odbaciti promjene?"
-
-#: hexwidget.cpp:170
+#: hexwidget.cpp:189
+#, fuzzy
 msgid ""
-"Hex Editor 0.4 \n"
-"\n"
-"by Stephan Kulow  (coolo@itm.mu-luebeck.de)"
+"The current file has been modified.\n"
+"Discard your changes?"
 msgstr ""
-"Hex Editor 0.4 \n"
+"Datoteka je mijenjana.\n"
 "\n"
-"Stephen Kulow (coolo@itm.mu-luebeck.de)"
+"®elite li je spremiti ?"
 
-#: hexwidget.cpp:202
-msgid "Ok"
-msgstr "U redu"
-
-#: hexwidget.cpp:217
+#: hexwidget.cpp:270
 msgid ""
 "KHexdit is already waiting\n"
 "for an internet job to finish\n"
@@ -77,7 +75,33 @@ msgstr ""
 "KHexedit veæ èeka na jedan posao\n"
 "Èekajte da posao zavr¹i ili ga zaustavite."
 
-
-#: hexwidget.cpp:227
+#: hexwidget.cpp:278
 msgid "Could not start KFM"
 msgstr "Ne mogu pokrenuti KFM"
+
+#~ msgid "&File"
+#~ msgstr "&Datoteka"
+
+#~ msgid "&View"
+#~ msgstr "Po&gled"
+
+#~ msgid "&Help"
+#~ msgstr "&Pomoæ"
+
+#~ msgid "File changed"
+#~ msgstr "Datoteka promijenjena"
+
+#~ msgid "Discard your changes?"
+#~ msgstr "®elite li odbaciti promjene?"
+
+#~ msgid ""
+#~ "Hex Editor 0.4 \n"
+#~ "\n"
+#~ "by Stephan Kulow  (coolo@itm.mu-luebeck.de)"
+#~ msgstr ""
+#~ "Hex Editor 0.4 \n"
+#~ "\n"
+#~ "Stephen Kulow (coolo@itm.mu-luebeck.de)"
+
+#~ msgid "Ok"
+#~ msgstr "U redu"

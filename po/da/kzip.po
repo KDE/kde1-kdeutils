@@ -74,7 +74,8 @@ msgid "Can't create archive of that type"
 msgstr "Kan ikke oprette arkiv af denne type"
 
 #: kzip.cc:249 kzip.cc:286 kzip.cc:294
-msgid "Create or open archive first"
+#, fuzzy
+msgid "Create or open an archive first"
 msgstr "Opret eller åben arkiv først"
 
 #: kzip.cc:273

@@ -15,7 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: hexdata.cpp:33
-#, c-format
 msgid "Error opening %s"
 msgstr "Virhe avattaessa %s"
 
@@ -31,7 +30,7 @@ msgstr "Piilota/N‰yt‰ tyˆkalupalkki"
 msgid "Hex Editor"
 msgstr "Heksadesimaali Editori"
 
-#: hexwidget.cpp:93
+#: hexwidget.cpp:95
 msgid ""
 "\n"
 "\n"
@@ -41,19 +40,19 @@ msgstr ""
 "\n"
 "Stephan Kulow"
 
-#: hexwidget.cpp:115
+#: hexwidget.cpp:118
 msgid "New Window"
 msgstr "Uusi ikkuna"
 
-#: hexwidget.cpp:119
+#: hexwidget.cpp:122
 msgid "Save the file"
 msgstr "Tallenna tiedosto"
 
-#: hexwidget.cpp:122 hexwidget.cpp:124 hexwidget.cpp:126 hexwidget.cpp:129
+#: hexwidget.cpp:125 hexwidget.cpp:127 hexwidget.cpp:129 hexwidget.cpp:132
 msgid "Not implemented"
 msgstr "Toteuttamatta"
 
-#: hexwidget.cpp:158
+#: hexwidget.cpp:163
 msgid ""
 "The current file has been modified.\n"
 "Do you want to save it?"
@@ -62,7 +61,7 @@ msgstr ""
 "\n"
 "Haluatko tallentaa sen?"
 
-#: hexwidget.cpp:184
+#: hexwidget.cpp:189
 msgid ""
 "The current file has been modified.\n"
 "Discard your changes?"
@@ -71,7 +70,7 @@ msgstr ""
 "\n"
 "Hylk‰‰ muutokset?"
 
-#: hexwidget.cpp:265
+#: hexwidget.cpp:270
 msgid ""
 "KHexdit is already waiting\n"
 "for an internet job to finish\n"
@@ -85,6 +84,6 @@ msgstr ""
 "Odota kunnes t‰m‰ on valmis\n"
 "tai keskeyt‰ teht‰v‰."
 
-#: hexwidget.cpp:273
+#: hexwidget.cpp:278
 msgid "Could not start KFM"
 msgstr "KFM:‰‰ ei voitu k‰ynnist‰‰."
