@@ -80,7 +80,7 @@ msgstr "Modifier les valeurs par défaut..."
 
 #: knotes.cpp:340
 msgid "Dock in panel"
-msgstr "Insérer dans le panneau"
+msgstr "Placer sur le tableau de bord"
 
 #: knotes.cpp:368
 msgid "Insert Date"
