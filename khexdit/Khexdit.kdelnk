@@ -9,3 +9,4 @@ DocPath=khexdit/khexdit.html
 Info=A simple Hex editor
 Info[de]=Ein Editor für binäre Dateien
 Terminal=0
+MiniIcon=khexdit.xpm

@@ -32,11 +32,11 @@ install-data-local:
 	$(mkinstalldirs) $(ICONDIR)
 	$(INSTALL_DATA) khexdit.xpm $(ICONDIR)
 	$(mkinstalldirs) $(MINIDIR)
-	$(INSTALL_DATA) mini-khexdit.xpm $(MINIDIR)
+	$(INSTALL_DATA) mini-khexdit.xpm $(MINIDIR)/khexdit.xpm
 
 uninstall-local:
 	rm -f $(DOCSDIR)/$(DOCS)
 	rm -f $(APPSDIR)/Khexdit.kdelnk
 	rm -f $(ICONDIR)/khexdit.xpm
-	rm -f $(MINIDIR)/mini-khexdit.xpm
+	rm -f $(MINIDIR)/khexdit.xpm
 
