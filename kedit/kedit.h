@@ -214,7 +214,7 @@ public slots:
     void file_close();
     void file_save();
     void file_save_as();
-    void about();
+//    void about();
     void helpselected();
     void search();
     void replace();

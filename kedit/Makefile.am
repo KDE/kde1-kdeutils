@@ -7,16 +7,16 @@
 
 INCLUDES = $(all_includes)
 LDFLAGS	= $(all_libraries) $(KDE_RPATH)
-LDADD = -lkfm -lkdecore -lkdeui -lqt -lXext -lX11 $(LIBSOCKET)
+LDADD = -lkfm -lkdecore -lkdeui -lkfile -lqt -lXext -lX11 $(LIBSOCKET)
 
 bin_PROGRAMS = kedit
 
 kedit_SOURCES =	kedit.cpp  keditcl1.cpp keditcl2.cpp print.cpp\
-		filldlg.cpp mail.cpp about.cpp urldlg.cpp
+		filldlg.cpp mail.cpp  urldlg.cpp
 noinst_HEADERS = kedit.h  keditcl.h  print.h\
-		filldlg.h  version.h mail.h about.h urldlg.h
+		filldlg.h  version.h mail.h urldlg.h
 BUILTSOURCES =	kedit.moc  keditcl.moc  print.moc\
-		filldlg.moc mail.moc about.moc urldlg.moc
+		filldlg.moc mail.moc  urldlg.moc
 DISTCLEANFILES = $(BUILTSOURCES)
 
 SUBDIRS = docs pixmaps
@@ -49,9 +49,6 @@ mail.cpp:mail.moc
 mail.moc: mail.h
 	$(MOC) mail.h -o mail.moc
 
-about.cpp:about.moc
-about.moc: about.h
-	$(MOC) about.h -o about.moc
 
 urldlg.cpp:urldlg.moc
 urldlg.moc: urldlg.h

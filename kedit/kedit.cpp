@@ -34,13 +34,14 @@
 #include "kcolordlg.h"
 #include "mail.h"
 #include "keditcl.h"
-#include "about.h"
+
 
 #include "kedit.moc"
 
 #include <klocale.h>
 #include <kstdaccel.h>
 #include <kiconloader.h>
+#include "version.h"
 
 QList<TopLevel> TopLevel::windowList;
 
@@ -105,7 +106,6 @@ TopLevel::~TopLevel (){
 
   delete file;
   delete edit;
-  delete help;
   delete options;
   delete recentpopup;
   delete toolbar;
@@ -177,12 +177,15 @@ void TopLevel::setupMenuBar(){
   colors->insertItem(klocale->translate("&Background Color"),
 		     this, SLOT(set_background_color()));
 
+
+
+	/*
   help->insertItem (klocale->translate("&Help"),
 		    this, 	SLOT(helpselected()));
   help->insertSeparator();
   help->insertItem (klocale->translate("&About..."),
 		    this, 	SLOT(about()));
-
+		    */
   
   file->insertItem (klocale->translate("Ne&w..."),
 		    this, 	SLOT(file_new()), keys.openNew());
@@ -266,7 +269,18 @@ void TopLevel::setupMenuBar(){
   menubar->insertItem (klocale->translate("&Edit"), edit);
   menubar->insertItem (klocale->translate("&Options"), options);
   menubar->insertSeparator(-1);
-  menubar->insertItem (klocale->translate("&Help"), help);
+
+  help = mykapp->getHelpMenu(TRUE, 
+		"\n"\
+		"KEdit "\
+ 	         KEDITVERSION "\n\n"\
+		"Copyright 1997-98\n"\
+                "Bernd Johannes Wuebben\n"\
+                "wuebben@kde.org"
+		);
+
+
+  menubar->insertItem( klocale->translate("&Help"), help);
 
   setMenu(menubar);
   
@@ -923,7 +937,7 @@ void TopLevel::fancyprint(){
   return ;
 }
 */
-
+/*
 void TopLevel::about(){
 
   QDialog *dlg = new About(0);
@@ -938,7 +952,7 @@ void TopLevel::about(){
   dlg->exec();
   delete dlg;
 }
-
+*/
 void TopLevel::helpselected(){
   
   mykapp->invokeHTMLHelp( "" , "" );
