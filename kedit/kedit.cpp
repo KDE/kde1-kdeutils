@@ -1600,7 +1600,7 @@ void TopLevel::readSettings(){
 
 	// let's set the defaults 
 
-	generalFont = QFont ("Courier", 12, QFont::Normal);
+	generalFont = QFont ("courier", 12, QFont::Normal);
 	editor_width = 550;
 	editor_height = 400;
 	hide_statusbar = FALSE;
