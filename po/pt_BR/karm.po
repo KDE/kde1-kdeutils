@@ -86,7 +86,6 @@ msgid "&New"
 msgstr "&Novo"
 
 #: top.cpp:71
-#, fuzzy, c-format
 msgid ""
 "%s 0.3 -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"

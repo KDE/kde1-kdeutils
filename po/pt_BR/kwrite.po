@@ -2,13 +2,12 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1998-11-25 01:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Elvis Pfützenreuter <epx@netville.com.br>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
@@ -16,95 +15,95 @@ msgstr ""
 
 #: highlight.cpp:1427
 msgid "Normal:"
-msgstr ""
+msgstr "Normal:"
 
 #: highlight.cpp:1437 kwdialog.cpp:416
 msgid "Selected:"
-msgstr ""
+msgstr "Selecionado:"
 
 #: highlight.cpp:1444
 msgid "Bold"
-msgstr ""
+msgstr "Negrito"
 
 #: highlight.cpp:1495
 msgid "Family:"
-msgstr ""
+msgstr "Família:"
 
 #: highlight.cpp:1505
 msgid "Size:"
-msgstr ""
+msgstr "Tamanho:"
 
 #: highlight.cpp:1603
 msgid "Default Item Styles"
-msgstr ""
+msgstr "Estilos Padrões de Item"
 
 #: highlight.cpp:1607 highlight.cpp:1678
 msgid "Item:"
-msgstr ""
+msgstr "Item:"
 
 #: highlight.cpp:1625
 msgid "Default Font"
-msgstr ""
+msgstr "Tipo de letra padrão"
 
 #: highlight.cpp:1662
 msgid "Config Select"
-msgstr ""
+msgstr "Configurar Seleção"
 
 #: highlight.cpp:1666
 msgid "Highlight:"
-msgstr ""
+msgstr "Realce:"
 
 #: highlight.cpp:1685
 msgid "Highlight Auto Select"
-msgstr ""
+msgstr "Realçar Auto-Seleção"
 
 #: highlight.cpp:1689
 msgid "File Extensions:"
-msgstr ""
+msgstr "Extensões de Arquivo:"
 
 #: highlight.cpp:1696
 msgid "Mime Types:"
-msgstr ""
+msgstr "Tipos MIME:"
 
 #: highlight.cpp:1703
 msgid "Item Style"
-msgstr ""
+msgstr "Estilo de Item"
 
 #: highlight.cpp:1712
 msgid "Item Font"
-msgstr ""
+msgstr "Tipo de letra de Item"
 
 #: kwview.cpp:1073
 msgid "The specified File does not exist"
-msgstr ""
+msgstr "O arquivo especificado não existe"
 
 #: kwview.cpp:1083
 msgid "You have specified a directory"
-msgstr ""
+msgstr "Você especificou um diretório"
 
 #: kwview.cpp:1093
 msgid "You do not have read permission to this file"
-msgstr ""
+msgstr "Você não tem permissão de leitura a esse arquivo"
 
 #: kwview.cpp:1109 kwview.cpp:1139
 msgid "An Error occured while trying to open this Document"
-msgstr ""
+msgstr "Um erro ocorreu ao tentar abrir este documento"
 
 #: kwview.cpp:1123
 msgid "You do not have write permission to this file"
-msgstr ""
+msgstr "Você não tem permissão de escrita a esse arquivo"
 
 #: kwview.cpp:1176
 msgid "Loading..."
-msgstr ""
+msgstr "Carregando..."
 
 #: kwview.cpp:1184 kwview.cpp:1305
 msgid "Inserted"
-msgstr ""
+msgstr "Inserido"
 
 #: kwview.cpp:1189 kwview.cpp:1314
 msgid "Read"
-msgstr ""
+msgstr "Lido"
 
 #: kwview.cpp:1198 kwview.cpp:1256
 msgid ""
@@ -112,344 +111,344 @@ msgid ""
 "for an internet job to finish\n"
 "Please wait until it has finished\n"
 "Alternatively stop the running one."
-msgstr ""
+msgstr "O KWrite já está esperando\npor um serviço da Internet terminar.\nAguarde até que tenha terminado.\nAlternativamente, pare o serviço corrente."
 
 #: kwview.cpp:1206 kwview.cpp:1264
 msgid "Waiting for KFM..."
-msgstr ""
+msgstr "Aguardando pelo KFM..."
 
 #: kwview.cpp:1212 kwview.cpp:1277
 msgid "Could not start or find KFM"
-msgstr ""
+msgstr "Não pude iniciar ou encontrar o KFM"
 
 #: kwview.cpp:1239
 msgid "Saving..."
-msgstr ""
+msgstr "Salvando..."
 
 #: kwview.cpp:1247 kwview.cpp:1324
 msgid "Wrote"
-msgstr ""
+msgstr "Escreveu"
 
 #: kwview.cpp:1350
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
-msgstr ""
+msgstr "O documento corrente foi modificado.\nVocê gostaria de salvá-lo ?"
 
 #: kwview.cpp:1361
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
-msgstr ""
+msgstr "Não pude salvar o documento.\nAbrir um novo documento ?"
 
 #: kwview.cpp:1408
 msgid "No changes need to be saved"
-msgstr ""
+msgstr "Nenhuma mudança a ser salva"
 
 #: kwview.cpp:1429
 msgid ""
 "A Document with this Name already exists.\n"
 "Do you want to overwrite it?"
-msgstr ""
+msgstr "Já existe um documento com este nome.\nVocê quer sobreescrevê-lo ?"
 
 #: kwview.cpp:1632 kwview.cpp:1820
 msgid "End of document reached"
-msgstr ""
+msgstr "Atingido fim do documento"
 
 #: kwview.cpp:1633 kwview.cpp:1821
 msgid "Continue from the beginning"
-msgstr ""
+msgstr "Continuar do começo"
 
 #: kwview.cpp:1635 kwview.cpp:1646 kwview.cpp:1656
 msgid "Find"
-msgstr ""
+msgstr "Procurar"
 
 #: kwview.cpp:1643 kwview.cpp:1832
 msgid "Beginning of document reached"
-msgstr ""
+msgstr "Início do documento foi atingido"
 
 #: kwview.cpp:1644 kwview.cpp:1833
 msgid "Continue from the end"
-msgstr ""
+msgstr "Continuar do fim"
 
 #: kwview.cpp:1657
 msgid "Search string not found!"
-msgstr ""
+msgstr "Texto não encontrado!"
 
 #: kwview.cpp:1805 kwview.cpp:1819 kwview.cpp:1831
 msgid "replace(s) made"
-msgstr ""
+msgstr "substituições efetuadas"
 
 #: kwview.cpp:1946 toplevel.cpp:489
 msgid "Line"
-msgstr ""
+msgstr "Linha"
 
 #: kwdialog.cpp:30
 msgid "&Text To Find:"
-msgstr ""
+msgstr "&Texto a procurar:"
 
 #: kwdialog.cpp:40
 msgid "&Replace With:"
-msgstr ""
+msgstr "&Substituir Por:"
 
 #: kwdialog.cpp:51
 msgid "&Case Sensitive"
-msgstr ""
+msgstr "&Maiúsculas/minúsculas diferenciadas"
 
 #: kwdialog.cpp:52
 msgid "&Whole Words Only"
-msgstr ""
+msgstr "Somente Palavras &Cheias"
 
 #: kwdialog.cpp:53
 msgid "&From Cursor"
-msgstr ""
+msgstr "&Do cursor"
 
 #: kwdialog.cpp:54
 msgid "Find &Backwards"
-msgstr ""
+msgstr "Procurar para &cima"
 
 #: kwdialog.cpp:55
 msgid "&Selected Text"
-msgstr ""
+msgstr "Texto &Selecionado"
 
 #: kwdialog.cpp:80
 msgid "&Prompt On Replace"
-msgstr ""
+msgstr "&Perguntar ao Substituir"
 
 #: kwdialog.cpp:142
 msgid "Replace this occurence?"
-msgstr ""
+msgstr "Substituir esta ocorrência ?"
 
 #: kwdialog.cpp:147
 msgid "&Yes"
-msgstr ""
+msgstr "&Sim"
 
 #: kwdialog.cpp:154
 msgid "&No"
-msgstr ""
+msgstr "&Não"
 
 #: kwdialog.cpp:159
 msgid "&All"
-msgstr ""
+msgstr "&Tudo"
 
 #: kwdialog.cpp:217
 msgid "&Goto Line:"
-msgstr ""
+msgstr "&Ir para Linha:"
 
 #: kwdialog.cpp:255
 msgid "Edit Options"
-msgstr ""
+msgstr "Opções de Edição"
 
 #: kwdialog.cpp:256
 msgid "Auto &Indent"
-msgstr ""
+msgstr "Auto &Indentar"
 
 #: kwdialog.cpp:257
 msgid "&Backspace Indent"
-msgstr ""
+msgstr "Indentação &Backspace"
 
 #: kwdialog.cpp:258
 msgid "&Word Wrap"
-msgstr ""
+msgstr "&Quebra de linha"
 
 #: kwdialog.cpp:259
 msgid "Replace &Tabs"
-msgstr ""
+msgstr "Substituir &Tabs"
 
 #: kwdialog.cpp:260
 msgid "Remove Trailing &Spaces"
-msgstr ""
+msgstr "Remover espaços &finais"
 
 #: kwdialog.cpp:261
 msgid "Wrap &Cursor"
-msgstr ""
+msgstr "Wrap &Cursor"
 
 #: kwdialog.cpp:262
 msgid "&Auto Brackets"
-msgstr ""
+msgstr "&Auto Colchetes"
 
 #: kwdialog.cpp:290
 msgid "Select Options"
-msgstr ""
+msgstr "Opções de Seleção"
 
 #: kwdialog.cpp:291
 msgid "&Persistent Selections"
-msgstr ""
+msgstr "Seleções &Persistentes"
 
 #: kwdialog.cpp:292
 msgid "&Multiple Selections"
-msgstr ""
+msgstr "Seleções &Múltiplas"
 
 #: kwdialog.cpp:293 toplevel.cpp:250
 msgid "&Vertical Selections"
-msgstr ""
+msgstr "Seleções Ver&ticais"
 
 #: kwdialog.cpp:294
 msgid "&Delete On Input"
-msgstr ""
+msgstr "&Apagar ao digitar"
 
 #: kwdialog.cpp:295
 msgid "&Toggle Old"
-msgstr ""
+msgstr "&Comutar Velho"
 
 #: kwdialog.cpp:322
 msgid "Wrap Words At:"
-msgstr ""
+msgstr "Quebrar frases em:"
 
 #: kwdialog.cpp:332
 msgid "Tab Width:"
-msgstr ""
+msgstr "Largura do Tab:"
 
 #: kwdialog.cpp:342
 msgid "Undo steps:"
-msgstr ""
+msgstr "Desfazer passos:"
 
 #: kwdialog.cpp:402
 msgid "Background:"
-msgstr ""
+msgstr "Fundo:"
 
 #: kwdialog.cpp:409
 msgid "Text Background:"
-msgstr ""
+msgstr "Fundo de texto:"
 
 #: kwdialog.cpp:423
 msgid "Found:"
-msgstr ""
+msgstr "Encontrados:"
 
 #: kwdialog.cpp:430
 msgid "Selected + Found:"
-msgstr ""
+msgstr "Selecionados + Encontrados:"
 
 #: toplevel.cpp:121
 msgid "Message"
-msgstr ""
+msgstr "Mensagem"
 
 #: toplevel.cpp:122
 msgid ""
 "This Document has been modified.\n"
 "Would you like to save it?"
-msgstr ""
+msgstr "Este documento foi modificado.\nDeseja salvá-lo ?"
 
 #: toplevel.cpp:180
 msgid "Ne&w..."
-msgstr ""
+msgstr "&Novo..."
 
 #: toplevel.cpp:182
 msgid "&Insert..."
-msgstr ""
+msgstr "&Inserir..."
 
 #: toplevel.cpp:197
 msgid "New &Window"
-msgstr ""
+msgstr "Nova &Janela"
 
 #: toplevel.cpp:198
 msgid "New &View"
-msgstr ""
+msgstr "Nova &Visão"
 
 #: toplevel.cpp:207
 msgid "&Find..."
-msgstr ""
+msgstr "&Procurar..."
 
 #: toplevel.cpp:208
 msgid "&Replace..."
-msgstr ""
+msgstr "&Substituir por..."
 
 #: toplevel.cpp:209
 msgid "Find &Again"
-msgstr ""
+msgstr "Procurar &Novamente"
 
 #: toplevel.cpp:210
 msgid "&Goto Line..."
-msgstr ""
+msgstr "&Ir para &Linha..."
 
 #: toplevel.cpp:212
 msgid "U&ndo"
-msgstr ""
+msgstr "Desfa&zer"
 
 #: toplevel.cpp:213
 msgid "R&edo"
-msgstr ""
+msgstr "R&efazer"
 
 #: toplevel.cpp:215
 msgid "&Indent"
-msgstr ""
+msgstr "&Indentar"
 
 #: toplevel.cpp:216
 msgid "Uninden&t"
-msgstr ""
+msgstr "Des-inden&tar"
 
 #: toplevel.cpp:220
 msgid "&Select All"
-msgstr ""
+msgstr "&Selecionar Tudo"
 
 #: toplevel.cpp:221
 msgid "&Deselect All"
-msgstr ""
+msgstr "&Des-selecionar Tudo"
 
 #: toplevel.cpp:222
 msgid "In&vert Selection"
-msgstr ""
+msgstr "In&verter Seleção"
 
 #: toplevel.cpp:227
 msgid "&Set Bookmark..."
-msgstr ""
+msgstr "&Configurar favorito..."
 
 #: toplevel.cpp:228
 msgid "&Add Bookmark"
-msgstr ""
+msgstr "&Adicionar Favorito"
 
 #: toplevel.cpp:229
 msgid "&Clear Bookmarks"
-msgstr ""
+msgstr "&Limpar Favoritos"
 
 #: toplevel.cpp:241
 msgid "Set Highlight"
-msgstr ""
+msgstr "Configurar Realce"
 
 #: toplevel.cpp:243
 msgid "&Defaults..."
-msgstr ""
+msgstr "&Padrões..."
 
 #: toplevel.cpp:244
 msgid "&Highlight..."
-msgstr ""
+msgstr "&Realçar..."
 
 #: toplevel.cpp:247
 msgid "&Options..."
-msgstr ""
+msgstr "&Opções..."
 
 #: toplevel.cpp:248
 msgid "&Colors..."
-msgstr ""
+msgstr "&Cores..."
 
 #: toplevel.cpp:251
 msgid "Show &Toolbar"
-msgstr ""
+msgstr "Mostrar &barra de ferramentas"
 
 #: toplevel.cpp:252
 msgid "Show &Statusbar"
-msgstr ""
+msgstr "Mostrar barra de &status"
 
 #: toplevel.cpp:253
 msgid "Save Config"
-msgstr ""
+msgstr "Salvar Configuração"
 
 #: toplevel.cpp:289
 msgid "&Bookmarks"
-msgstr ""
+msgstr "&Favoritos"
 
 #: toplevel.cpp:308
 msgid "New Document"
-msgstr ""
+msgstr "Novo Documento"
 
 #: toplevel.cpp:312
 msgid "Open Document"
-msgstr ""
+msgstr "Abrir Documento"
 
 #: toplevel.cpp:316
 msgid "Save Document"
-msgstr ""
+msgstr "Salvar Documento"
 
 #: toplevel.cpp:490
 msgid "Col"
-msgstr ""
+msgstr "Col"
