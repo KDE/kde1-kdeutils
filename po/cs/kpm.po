@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpm\n"
-"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "PO-Revision-Date: 1998-10-24 21:58 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -307,7 +307,7 @@ msgstr "qps: zmìna periody obnovování"
 msgid "New update period:"
 msgstr "Nová perioda obnovování:"
 
-#: qps.C:719 qps.C:858
+#: qps.C:719 qps.C:858 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Neplatný vstup"
 
@@ -386,3 +386,33 @@ msgid ""
 msgstr ""
 "Nemáte pøístupová práva k poslání signálu procesu %d (%s).\n"
 "pouze superu¾ivatel nebo vlastník procesu mu mohou posílat signály."
+
+#: scheddlg.C:22
+#, fuzzy
+msgid "Change scheduling"
+msgstr "Zmìna plánování..."
+
+#: scheddlg.C:28
+#, fuzzy
+msgid "Scheduling Policy"
+msgstr "Plánování..."
+
+#: scheddlg.C:29
+msgid "SCHED_OTHER (time-sharing)"
+msgstr ""
+
+#: scheddlg.C:36
+msgid "SCHED_FIFO (real-time)"
+msgstr ""
+
+#: scheddlg.C:42
+msgid "SCHED_RR (real-time)"
+msgstr ""
+
+#: scheddlg.C:67
+msgid "Priority (1-99):"
+msgstr ""
+
+#: scheddlg.C:114
+msgid "The priority must be in the range 1..99"
+msgstr ""

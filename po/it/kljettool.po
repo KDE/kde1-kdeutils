@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,6 +37,11 @@ msgstr "Copie"
 #: PaperData.cpp:80
 msgid "Lines"
 msgstr "Linee"
+
+#: PaperData.cpp:96
+#, fuzzy
+msgid "Orientation"
+msgstr "Presentazione"
 
 #: PaperData.cpp:102
 msgid "Portrait"

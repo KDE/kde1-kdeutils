@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kuser\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "PO-Revision-Date: 1998-03-23 00:00+0100\n"
 "Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
 
@@ -32,6 +32,11 @@ msgstr "Cópias"
 #: PaperData.cpp:80
 msgid "Lines"
 msgstr "Linhas"
+
+#: PaperData.cpp:96
+#, fuzzy
+msgid "Orientation"
+msgstr "Apresentação"
 
 #: PaperData.cpp:102
 msgid "Portrait"

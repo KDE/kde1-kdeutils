@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpm\n"
-"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "PO-Revision-Date: 1999-01-01 20:33+01:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
@@ -307,7 +307,7 @@ msgstr "qps: ändra uppdateringsperiod"
 msgid "New update period:"
 msgstr "Ny uppdateringsperiod:"
 
-#: qps.C:719 qps.C:858
+#: qps.C:719 qps.C:858 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Ogiltig inmatning"
 
@@ -391,3 +391,33 @@ msgstr ""
 "Du har inte rättighet att skicka någon signal till process %d (%s).\n"
 "Endast systemadministratören och processens ägare för skicka\n"
 "signaler till den."
+
+#: scheddlg.C:22
+#, fuzzy
+msgid "Change scheduling"
+msgstr "Ändra schemaläggning..."
+
+#: scheddlg.C:28
+#, fuzzy
+msgid "Scheduling Policy"
+msgstr "Schemaläggning..."
+
+#: scheddlg.C:29
+msgid "SCHED_OTHER (time-sharing)"
+msgstr ""
+
+#: scheddlg.C:36
+msgid "SCHED_FIFO (real-time)"
+msgstr ""
+
+#: scheddlg.C:42
+msgid "SCHED_RR (real-time)"
+msgstr ""
+
+#: scheddlg.C:67
+msgid "Priority (1-99):"
+msgstr ""
+
+#: scheddlg.C:114
+msgid "The priority must be in the range 1..99"
+msgstr ""

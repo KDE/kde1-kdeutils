@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KPM\n"
-"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -294,7 +294,7 @@ msgstr "qps: muuta p‰ivitysajanjaksoa"
 msgid "New update period:"
 msgstr "Uusi p‰ivitysjakso:"
 
-#: qps.C:719 qps.C:858
+#: qps.C:719 qps.C:858 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Virheellinen syˆte"
 
@@ -374,3 +374,33 @@ msgid ""
 msgstr ""
 "Sinulla ei ole oikeuksia l‰hett‰‰ signaalia prosessille %d (%s).\n"
 "vain p‰‰k‰ytt‰j‰ sek‰ prosessin omistaja voivat l‰hett‰‰ sille signaaleja."
+
+#: scheddlg.C:22
+#, fuzzy
+msgid "Change scheduling"
+msgstr "Muuta skedulointia..."
+
+#: scheddlg.C:28
+#, fuzzy
+msgid "Scheduling Policy"
+msgstr "Skedulointi..."
+
+#: scheddlg.C:29
+msgid "SCHED_OTHER (time-sharing)"
+msgstr ""
+
+#: scheddlg.C:36
+msgid "SCHED_FIFO (real-time)"
+msgstr ""
+
+#: scheddlg.C:42
+msgid "SCHED_RR (real-time)"
+msgstr ""
+
+#: scheddlg.C:67
+msgid "Priority (1-99):"
+msgstr ""
+
+#: scheddlg.C:114
+msgid "The priority must be in the range 1..99"
+msgstr ""

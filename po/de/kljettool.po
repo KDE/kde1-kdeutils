@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kljettool\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "PO-Revision-Date: 1999-01-13 14:00+MET\n"
 "Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 "Language-Team: German <de@li.org>\n"
@@ -43,6 +43,11 @@ msgstr "Kopien"
 #: PaperData.cpp:80
 msgid "Lines"
 msgstr "Zeilen"
+
+#: PaperData.cpp:96
+#, fuzzy
+msgid "Orientation"
+msgstr "Präsentation"
 
 #: PaperData.cpp:102
 msgid "Portrait"

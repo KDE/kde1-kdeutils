@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "PO-Revision-Date: 1998-05-19 20:21 MET\n"
 "Last-Translator: Peter Iványi <ivanyi@internet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -42,6 +42,11 @@ msgstr "Kópie"
 #: PaperData.cpp:80
 msgid "Lines"
 msgstr "Èiary"
+
+#: PaperData.cpp:96
+#, fuzzy
+msgid "Orientation"
+msgstr "Prezentaèný"
 
 #: PaperData.cpp:102
 msgid "Portrait"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeutils\n"
-"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "PO-Revision-Date: 1998-12-07 18:53+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "Language-Team: Spanish <kde-es@kyb.ml.org>\n"
@@ -301,7 +301,7 @@ msgstr "qps: cambiar perioso de actualización"
 msgid "New update period:"
 msgstr "Nuevo periodo de actualización:"
 
-#: qps.C:719 qps.C:858
+#: qps.C:719 qps.C:858 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Entrada inválida"
 
@@ -383,3 +383,33 @@ msgid ""
 msgstr ""
 "No tiene permiso para enviar una señal al proceso %d (%s).\n"
 "Solo en super-usuario y el dueño del proceso deben enviarle señales."
+
+#: scheddlg.C:22
+#, fuzzy
+msgid "Change scheduling"
+msgstr "Cambiar Planificación..."
+
+#: scheddlg.C:28
+#, fuzzy
+msgid "Scheduling Policy"
+msgstr "Planificación..."
+
+#: scheddlg.C:29
+msgid "SCHED_OTHER (time-sharing)"
+msgstr ""
+
+#: scheddlg.C:36
+msgid "SCHED_FIFO (real-time)"
+msgstr ""
+
+#: scheddlg.C:42
+msgid "SCHED_RR (real-time)"
+msgstr ""
+
+#: scheddlg.C:67
+msgid "Priority (1-99):"
+msgstr ""
+
+#: scheddlg.C:114
+msgid "The priority must be in the range 1..99"
+msgstr ""

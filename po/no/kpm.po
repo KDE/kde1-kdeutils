@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kpm\n"
-"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -306,7 +306,7 @@ msgstr "qps: endret oppdateringsperiode"
 msgid "New update period:"
 msgstr "Ny oppdateringsperiode"
 
-#: qps.C:719 qps.C:858
+#: qps.C:719 qps.C:858 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Uglyldig innmating"
 
@@ -387,3 +387,33 @@ msgid ""
 msgstr ""
 "Du har ikke tilgang til å sende signal til prosess %d (%s).\n"
 "Bare super-bruker og eieren av prosessen kan sende signaler til den."
+
+#: scheddlg.C:22
+#, fuzzy
+msgid "Change scheduling"
+msgstr "Endre kjøreplan..."
+
+#: scheddlg.C:28
+#, fuzzy
+msgid "Scheduling Policy"
+msgstr "Kjøreplan..."
+
+#: scheddlg.C:29
+msgid "SCHED_OTHER (time-sharing)"
+msgstr ""
+
+#: scheddlg.C:36
+msgid "SCHED_FIFO (real-time)"
+msgstr ""
+
+#: scheddlg.C:42
+msgid "SCHED_RR (real-time)"
+msgstr ""
+
+#: scheddlg.C:67
+msgid "Priority (1-99):"
+msgstr ""
+
+#: scheddlg.C:114
+msgid "The priority must be in the range 1..99"
+msgstr ""

@@ -102,9 +102,9 @@ msgid "Preferences"
 msgstr "Ustawienia"
 
 #: top.cpp:194
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"0.3 -- Sirtaj Singh Kang\n"
+"%s %s -- Sirtaj Singh Kang\n"
 "taj@kde.org, Oct 1997\n"
 "\n"
 "The K Desktop Environment"

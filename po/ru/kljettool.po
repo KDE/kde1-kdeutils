@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kljettool\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "PO-Revision-Date: 1998-11-08 23:23+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -40,6 +40,11 @@ msgstr "Копий"
 #: PaperData.cpp:80
 msgid "Lines"
 msgstr "Строк"
+
+#: PaperData.cpp:96
+#, fuzzy
+msgid "Orientation"
+msgstr "Представительский"
 
 #: PaperData.cpp:102
 msgid "Portrait"

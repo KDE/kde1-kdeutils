@@ -1,90 +1,94 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1998-11-26 01:48+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 
-#: knotes.cpp:300
+#: knotes.cpp:263
+msgid "Hello"
+msgstr ""
+
+#: knotes.cpp:301
 msgid "Text Color..."
 msgstr "文字颜色..."
 
-#: knotes.cpp:301
+#: knotes.cpp:302
 msgid "Background Color..."
 msgstr "背景颜色..."
 
-#: knotes.cpp:307
+#: knotes.cpp:308
 msgid "New Note"
 msgstr "新的 Note"
 
-#: knotes.cpp:309
+#: knotes.cpp:310
 msgid "Delete Note"
 msgstr "删除 Note"
 
-#: knotes.cpp:311
+#: knotes.cpp:312
 msgid "Rename Note..."
 msgstr "重新命名 Note ..."
 
-#: knotes.cpp:313
+#: knotes.cpp:314
 msgid "Alarm ..."
 msgstr "闹钟 ..."
 
-#: knotes.cpp:316
+#: knotes.cpp:317
 msgid "Calendar"
 msgstr "日历"
 
-#: knotes.cpp:318
+#: knotes.cpp:319
 msgid "Mail Note ..."
 msgstr "邮寄 Note ..."
 
-#: knotes.cpp:320
+#: knotes.cpp:321
 msgid "Print Note"
 msgstr "打印 Note"
 
 #
-#: knotes.cpp:323
+#: knotes.cpp:324
 msgid "Save Notes"
 msgstr "保存 Notes"
 
-#: knotes.cpp:329 knotes.cpp:400 knotes.cpp:1290
+#: knotes.cpp:330 knotes.cpp:401 knotes.cpp:1291
 msgid "3D Frame"
 msgstr "3D 外框"
 
-#: configdlg.cpp:128 knotes.cpp:330
+#: configdlg.cpp:128 knotes.cpp:331
 msgid "Auto Indent"
 msgstr "自动缩进"
 
-#: knotes.cpp:332
+#: knotes.cpp:333
 msgid "Font..."
 msgstr "字体..."
 
-#: knotes.cpp:333
+#: knotes.cpp:334
 msgid "Colors"
 msgstr "颜色"
 
-#: knotes.cpp:335
+#: knotes.cpp:336
 msgid "Change Defaults ..."
 msgstr "改变默认值 ..."
 
-#: knotes.cpp:363
+#: knotes.cpp:364
 msgid "Insert Date"
 msgstr "插入日期"
 
-#: knotes.cpp:366
+#: knotes.cpp:367
 msgid "Operations"
 msgstr "操作"
 
-#: knotes.cpp:404 knotes.cpp:1280
+#: knotes.cpp:405 knotes.cpp:1281
 msgid "No Frame"
 msgstr "没有外框"
 
-#: knotes.cpp:437 knotes.cpp:441 knotes.cpp:635 knotes.cpp:863 knotes.cpp:867
+#: knotes.cpp:438 knotes.cpp:442 knotes.cpp:636 knotes.cpp:864 knotes.cpp:868
 #: timer.cpp:87 timer.cpp:110
 msgid "Note: "
 msgstr "Note: "
 
-#: knotes.cpp:494
+#: knotes.cpp:495
 msgid ""
 "Could not save a KNote.\n"
 "Quit anyways?"
@@ -92,11 +96,11 @@ msgstr ""
 "无法保存 KNote.\n"
 "直接离开?"
 
-#: knotes.cpp:512
+#: knotes.cpp:513
 msgid "Could not save KNote Alarms\n"
 msgstr "无法保存 KNote 闹钟\n"
 
-#: knotes.cpp:573 knotes.cpp:678
+#: knotes.cpp:574 knotes.cpp:679
 #, c-format
 msgid ""
 "Could not pipe the contents of this KNote into:\n"
@@ -105,23 +109,23 @@ msgstr ""
 "无法将这个 KNote 的内容经由管道输出至:\n"
 " %s"
 
-#: knotes.cpp:734
+#: knotes.cpp:735
 msgid ""
 "You have exeeded the arbitrary and unjustly set limit of 50 knotes.\n"
 " Please complain to the author."
 msgstr "你已经超过了 50 个 knotes 的限制.请向作者询问."
 
-#: knotes.cpp:902
+#: knotes.cpp:903
 msgid "Question"
 msgstr "问题"
 
-#: knotes.cpp:903
+#: knotes.cpp:904
 msgid ""
 "Are you sure you want to delete this\n"
 "note permanently?"
 msgstr "确定要永久的删除这份 Note?"
 
-#: knotes.cpp:1079
+#: knotes.cpp:1080
 #, c-format
 msgid ""
 "Could not load:\n"
@@ -130,19 +134,34 @@ msgstr ""
 "无法载入:\n"
 " %s"
 
-#: knotes.cpp:1331
+#: knotes.cpp:1332
 msgid "KNotes Configuraton"
 msgstr "KNotes 配置"
 
-#: knotes.cpp:1374
+#: knotes.cpp:1349
+#, c-format
+msgid ""
+"KNotes %s\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@math.cornell.edu\n"
+"wuebben@kde.org\n"
+"Copyright (C) 1997\n"
+"\n"
+"With contributions by:\n"
+"Matthias Ettrich <ettrich@kde.org>\n"
+"\n"
+"\n"
+msgstr ""
+
+#: configdlg.cpp:46 knotes.cpp:1376
 msgid "Defaults"
 msgstr "默认"
 
-#: knotes.cpp:1375
+#: knotes.cpp:1377
 msgid "More ..."
 msgstr "更多 ..."
 
-#: knotes.cpp:1534
+#: knotes.cpp:1536
 msgid ""
 "KNotes is already waiting\n"
 "for an internet job to finish\n"
@@ -153,11 +172,11 @@ msgstr ""
 "任务执行完. 请等待它执行完,\n"
 "或者终止正在运行的任务."
 
-#: knotes.cpp:1548
+#: knotes.cpp:1550
 msgid "Could not start or find KFM"
 msgstr "无法运行或找不到 KFM"
 
-#: knotes.cpp:1570
+#: knotes.cpp:1572
 msgid ""
 "Could not save the KNotes.\n"
 "Close anyways?"
@@ -165,7 +184,7 @@ msgstr ""
 "无法保存此份 KNotes.\n"
 "直接关闭?"
 
-#: knotes.cpp:1682
+#: knotes.cpp:1684
 #, c-format
 msgid ""
 "Found an alarm to which the underlying\n"
@@ -181,7 +200,7 @@ msgstr ""
 "\n"
 "我将更正这个错误."
 
-#: knotes.cpp:1690
+#: knotes.cpp:1692
 msgid "Inconsistency"
 msgstr "不一致"
 
@@ -291,6 +310,14 @@ msgstr "年份:"
 #: bwdatetime.cpp:72
 msgid "Time:"
 msgstr "时间:"
+
+#: bwdatetime.cpp:85
+msgid "AM"
+msgstr ""
+
+#: bwdatetime.cpp:86
+msgid "PM"
+msgstr ""
 
 #: bwdatetime.cpp:161
 msgid "The Time you selected is invalid"

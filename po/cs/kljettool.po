@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kljettool\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "PO-Revision-Date: 1998-11-04 08:47+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -41,6 +41,11 @@ msgstr "Poèet kopií"
 #: PaperData.cpp:80
 msgid "Lines"
 msgstr "Poèet øádek"
+
+#: PaperData.cpp:96
+#, fuzzy
+msgid "Orientation"
+msgstr "Prezentaèní"
 
 #: PaperData.cpp:102
 msgid "Portrait"

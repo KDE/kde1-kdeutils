@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator:Andrea Rizzi <rizzi@kde.org>\n"
 "Language-Team: \n"
@@ -285,7 +285,7 @@ msgstr ""
 msgid "New update period:"
 msgstr "Nuovo periodo di aggiornamento:"
 
-#: qps.C:719 qps.C:858
+#: qps.C:719 qps.C:858 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Input non valido"
 
@@ -350,4 +350,32 @@ msgstr ""
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"
 "Only the super-user and the owner of the process may send signals to it."
+msgstr ""
+
+#: scheddlg.C:22
+msgid "Change scheduling"
+msgstr ""
+
+#: scheddlg.C:28
+msgid "Scheduling Policy"
+msgstr ""
+
+#: scheddlg.C:29
+msgid "SCHED_OTHER (time-sharing)"
+msgstr ""
+
+#: scheddlg.C:36
+msgid "SCHED_FIFO (real-time)"
+msgstr ""
+
+#: scheddlg.C:42
+msgid "SCHED_RR (real-time)"
+msgstr ""
+
+#: scheddlg.C:67
+msgid "Priority (1-99):"
+msgstr ""
+
+#: scheddlg.C:114
+msgid "The priority must be in the range 1..99"
 msgstr ""

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kljettool\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "PO-Revision-Date: 1998-12-13 12:59+0100\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
@@ -41,6 +41,11 @@ msgstr "Còpies"
 #: PaperData.cpp:80
 msgid "Lines"
 msgstr "Línies"
+
+#: PaperData.cpp:96
+#, fuzzy
+msgid "Orientation"
+msgstr "Presentació"
 
 #: PaperData.cpp:102
 msgid "Portrait"

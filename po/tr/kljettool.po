@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE 1.0\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "PO-Revision-Date: 1998-06-29 11:00+0200\n"
 "Last-Translator: Kerem ERZURUMLU <kerem@linux.org.tr>\n"
 "Language-Team: Hacettepe Linux Users Group <hacettepe@linux.org.tr>\n"
@@ -42,6 +42,11 @@ msgstr ""
 #: PaperData.cpp:80
 msgid "Lines"
 msgstr ""
+
+#: PaperData.cpp:96
+#, fuzzy
+msgid "Orientation"
+msgstr "Sunum"
 
 #: PaperData.cpp:102
 msgid "Portrait"

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpm\n"
-"POT-Creation-Date: 1998-11-17 10:55+0100\n"
+"POT-Creation-Date: 1999-01-18 01:54+0100\n"
 "PO-Revision-Date: 1998-11-17 10:07+0100\n"
 "Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 "Language-Team: de <LL@li.org>\n"
@@ -306,7 +306,7 @@ msgstr "qps: ändere Update-Intervall"
 msgid "New update period:"
 msgstr "Neues Update-Intervall:"
 
-#: qps.C:719 qps.C:858
+#: qps.C:719 qps.C:858 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Ungültige Eingabe"
 
@@ -390,3 +390,33 @@ msgid ""
 msgstr ""
 "Sie haben keine Berechtigung, ein Signal an Prozeß %d (%s) zu schicken.\n"
 "Nur der Systemadministrator und der Eigentümer des Prozesses können das."
+
+#: scheddlg.C:22
+#, fuzzy
+msgid "Change scheduling"
+msgstr "Ablaufplan (Scheduling) ändern..."
+
+#: scheddlg.C:28
+#, fuzzy
+msgid "Scheduling Policy"
+msgstr "Ablaufplanung (Scheduling)..."
+
+#: scheddlg.C:29
+msgid "SCHED_OTHER (time-sharing)"
+msgstr ""
+
+#: scheddlg.C:36
+msgid "SCHED_FIFO (real-time)"
+msgstr ""
+
+#: scheddlg.C:42
+msgid "SCHED_RR (real-time)"
+msgstr ""
+
+#: scheddlg.C:67
+msgid "Priority (1-99):"
+msgstr ""
+
+#: scheddlg.C:114
+msgid "The priority must be in the range 1..99"
+msgstr ""
