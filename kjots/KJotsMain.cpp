@@ -220,8 +220,9 @@ KJotsMain::KJotsMain(const char* name)
   f_labels->setFrameStyle( 0 );
   
   menubar = new KMenuBar( this, "MenuBar_1" );
-  menubar->setFrameStyle( 34 );
-  menubar->setLineWidth( 2 );
+  // KMenubar is not a FRAME!!! (sven)
+  //menubar->setFrameStyle( 34 );
+  //menubar->setLineWidth( 2 );
 
   s_bar = new QScrollBar( f_main, "ScrollBar_1" );
   s_bar->setMinimumSize( 452, 16 );
