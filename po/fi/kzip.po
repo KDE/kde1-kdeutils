@@ -5,7 +5,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: KZIP\n"
 "POT-Creation-Date: 1998-10-02 01:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
@@ -108,7 +108,7 @@ msgstr "Tuntematon pakkausformaatti"
 
 #: kzip.cc:389
 msgid "Size"
-msgstr ""
+msgstr "Koko"
 
 #: kzip.cc:395
 msgid "Archive directory does not exist."

@@ -5,7 +5,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: KNOTES\n"
 "POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
@@ -232,7 +232,7 @@ msgstr "Aseta vakiokirjasin"
 
 #: fontdlg.cpp:54
 msgid "Family:"
-msgstr ""
+msgstr "Perhe:"
 
 #: fontdlg.cpp:64
 msgid "Point Size:"
@@ -240,20 +240,19 @@ msgstr "Pistekoko:"
 
 #: fontdlg.cpp:75
 msgid "Style:"
-msgstr ""
+msgstr "Tyyli:"
 
 #: fontdlg.cpp:87
-#, fuzzy
 msgid "Weight:"
 msgstr "Korkeus:"
 
 #: fontdlg.cpp:93 fontdlg.cpp:117 fontdlg.cpp:150
 msgid "Bold"
-msgstr ""
+msgstr "Paksunnettu"
 
 #: fontdlg.cpp:95 fontdlg.cpp:119 fontdlg.cpp:152
 msgid "Normal"
-msgstr ""
+msgstr "Normaali"
 
 #: mail.cpp:40
 msgid "Mail Note to:"

@@ -92,12 +92,11 @@ msgstr "&Tehtävä"
 
 #: top.cpp:71
 msgid "&Contents"
-msgstr ""
+msgstr "&Sisältö"
 
 #: top.cpp:74
-#, fuzzy
 msgid "&About"
-msgstr "Tietoja "
+msgstr "&Tietoja "
 
 #: top.cpp:85
 msgid "Start Clock"

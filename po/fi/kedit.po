@@ -5,7 +5,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: KEDIT\n"
 "POT-Creation-Date: 1998-10-01 13:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
@@ -84,7 +84,7 @@ msgstr "K&orvaa"
 
 #: kedit.cpp:267
 msgid "Spellcheck..."
-msgstr ""
+msgstr "Oikeinkirjoitus..."
 
 #: kedit.cpp:272
 msgid "&Goto Line..."
@@ -340,30 +340,29 @@ msgstr ""
 
 #: keditcl1.cpp:137
 msgid "The specified File does not exist"
-msgstr ""
+msgstr "M‰‰ritelty‰ tiedostoa ei ole olemassa"
 
 #: keditcl1.cpp:150 keditcl1.cpp:423 keditcl1.cpp:507 keditcl1.cpp:1687
 msgid "Sorry:"
-msgstr ""
+msgstr "Anteeksi:"
 
 #: keditcl1.cpp:151
 msgid "You have specificated a directory"
-msgstr ""
+msgstr "Olet antanut hakemiston"
 
 #: keditcl1.cpp:166 keditcl1.cpp:187
 msgid "You do not have read permission to this file."
-msgstr ""
+msgstr "Sinulla ei ole oikeuksia lukea t‰t‰ tiedostoa."
 
 #: keditcl1.cpp:200
 msgid "An Error occured while trying to open this Document"
-msgstr ""
+msgstr "Asiakirjaa avattaessa tapahtui virhe"
 
 #: keditcl1.cpp:402 keditcl1.cpp:487 keditcl1.cpp:1629
 msgid "Warning:"
-msgstr ""
+msgstr "Varoitus:"
 
 #: keditcl1.cpp:403 keditcl1.cpp:488
-#, fuzzy
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -372,83 +371,80 @@ msgstr ""
 "Haluatko tallentaa sen?"
 
 #: keditcl1.cpp:424
-#, fuzzy
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
 "Tiedoston tallennus ep‰onnistui.\n"
-"Tulostetaanko kuitenkin?"
+"Avaa kuitenkin uusi asiakirja?"
 
 #: keditcl1.cpp:508
-#, fuzzy
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
 msgstr ""
 "Tiedoston tallennus ep‰onnistui.\n"
-"Tulostetaanko kuitenkin?"
+"Luo uusi asiakirja kuitenkin?"
 
 #: keditcl1.cpp:1546
-#, fuzzy
 msgid "Could not save the document\n"
-msgstr ""
-"Tiedoston tallennus ep‰onnistui.\n"
-"Tulostetaanko kuitenkin?"
+msgstr "Tiedoston tallennus ep‰onnistui\n"
 
 #: keditcl1.cpp:1630
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
 msgstr ""
+"Samalla nimell‰ on jo asiakirja\n"
+"Halutako korvata sen ?"
 
 #: keditcl1.cpp:1688
 msgid "You do not have write permission to this file.\n"
-msgstr ""
+msgstr "Sinulla ei ole kirjoitusoikeuksia tiedostoon.\n"
 
 #: keditcl2.cpp:113 keditcl2.cpp:370 keditcl2.cpp:463
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
 msgstr ""
+"Asiakirjan loppu tavoitettu.\n"
+"Jatka alusta?"
 
 #: keditcl2.cpp:130 keditcl2.cpp:387 keditcl2.cpp:433 keditcl2.cpp:480
 msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
 msgstr ""
+"Asiakirjan alku tavoitettu.\n"
+"Jatka lopusta?"
 
 #: keditcl2.cpp:691 keditcl2.cpp:789
 msgid "Case Sensitive"
-msgstr ""
+msgstr "Huomioi kirjasintaso"
 
 #: keditcl2.cpp:692 keditcl2.cpp:792
 msgid "Find Backwards"
-msgstr ""
+msgstr "Etsi taaksep‰in"
 
 #: keditcl2.cpp:777
-#, fuzzy
 msgid "Find:"
-msgstr "&Etsi..."
+msgstr "Etsi:"
 
 #: keditcl2.cpp:787
-#, fuzzy
 msgid "Replace with:"
-msgstr "K&orvaa"
+msgstr "Korvaa:"
 
 #: keditcl2.cpp:801
-#, fuzzy
 msgid "Replace All"
-msgstr "K&orvaa"
+msgstr "Korvaa kaikki"
 
 #: keditcl2.cpp:898
-#, fuzzy
 msgid "Goto Line"
-msgstr "&Siirry riville ..."
+msgstr "Siirry riville"
 
 #: keditcl2.cpp:903
 msgid "Go"
-msgstr ""
+msgstr "Siirry"
 
 #: print.cpp:69
 msgid "Print Dialog"

@@ -87,7 +87,7 @@ msgstr "Aseta oletuskirjasin"
 
 #: fontdlg.cpp:53
 msgid "Family:"
-msgstr ""
+msgstr "Perhe:"
 
 #: fontdlg.cpp:63
 msgid "Point Size:"
@@ -95,19 +95,17 @@ msgstr "Pistekoko:"
 
 #: fontdlg.cpp:76
 msgid "Style:"
-msgstr ""
+msgstr "Tyyli:"
 
 #: fontdlg.cpp:91
 msgid "Weight:"
-msgstr ""
+msgstr "Paino:"
 
 #: fontdlg.cpp:101 fontdlg.cpp:134
 msgid "Bold"
-msgstr ""
+msgstr "Paksunnettu"
 
 #: fontdlg.cpp:103 fontdlg.cpp:136
 msgid "Normal"
-msgstr ""
+msgstr "Normaali"
 
-#~ msgid "Base type: double\n"
-#~ msgstr "Kantatyyppi: double\n"
