@@ -63,6 +63,7 @@ private:
     QString netFile;
     KToolBar *toolbar; 
     KMenuBar *menu;
+    KDNDDropZone * dropZone;
     /**
        Only one KFM connection should be opened at once. Otherwise kedit could get
        confused. If this is 0L, you may create a new connection to kfm.

@@ -95,7 +95,7 @@ int HexWidget::initMenu() {
     
     kfm = 0L;
     setView(CurrentFile);
-    KDNDDropZone * dropZone = new KDNDDropZone( this , DndURL);
+    dropZone = new KDNDDropZone( this , DndURL);
     connect( dropZone, SIGNAL( dropAction( KDNDDropZone *) ), 
 	     this, SLOT( slotDropEvent( KDNDDropZone *) ) );
     
@@ -276,6 +276,7 @@ HexWidget::HexWidget(const char* file) {
 HexWidget::~HexWidget() {
   //delete toolbar;
   delete CurrentFile;
+  delete dropZone;
   delete kfm;
   //delete menu;
 }
