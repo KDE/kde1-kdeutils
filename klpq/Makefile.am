@@ -1,7 +1,7 @@
 
 INCLUDES = $(all_includes)
 LDFLAGS  = $(all_libraries) $(KDE_RPATH)
-LDADD =  -lkfile -lkfm -lkdeui -lkdecore  -lXext  -lm $(LIB_QT)
+LDADD =  -lkfile -lkfm       -lm $(LIB_KDEUI)
 
 SUBDIRS = doc
 
