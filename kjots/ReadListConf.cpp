@@ -23,7 +23,7 @@
 #include <qstring.h>
 #include <qstrlist.h>
 
-#include <Kconfig.h>
+#include <kconfig.h>
 
 int readListConf ( KConfig *conf, QString key, QStrList &list )
 {

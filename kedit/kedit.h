@@ -60,7 +60,7 @@
 #include <kfm.h>
 #include <kapp.h>
 #include <kurl.h>
-#include <Kconfig.h>
+#include <kconfig.h>
 #include <ktoolbar.h>
 
 #include "kstatusbar.h"
