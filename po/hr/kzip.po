@@ -71,7 +71,7 @@ msgstr "Pos&tavi direktorij arhive..."
 
 #: kzip.cc:81
 msgid "Set &Tar Executable..."
-msgstr ""
+msgstr "Postavi &Tar izvr¹ni program..."
 
 #: kzip.cc:82
 msgid "&File Adding Options..."
@@ -103,16 +103,15 @@ msgstr "Direktorij arhive:"
 
 #: kzip.cc:329
 msgid "What runs GNU tar:"
-msgstr ""
+msgstr "©to pokreæe GNU tar:"
 
 #: kzip.cc:366 kzip.cc:568
 msgid "Unknown archive format"
 msgstr "Nepoznata vrsta arhive"
 
 #: kzip.cc:392
-#, fuzzy
 msgid "Archive directory does not exist."
-msgstr "Direktorij arhive:"
+msgstr "Direktorij arhive ne postoji."
 
 #: kzip.cc:408
 msgid "Archive Directory"

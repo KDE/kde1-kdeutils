@@ -87,16 +87,14 @@ msgid "Auto Indent"
 msgstr "Automatska uvlaka"
 
 #: docking.cpp:71
-#, fuzzy
 msgid "Change Defaults"
 msgstr "Promjena podrazumijevane vrijednosti ..."
 
 #: docking.cpp:76
 msgid "Exit Knotes"
-msgstr ""
+msgstr "Izlaz"
 
 #: docking.cpp:95
-#, fuzzy
 msgid "New Knote"
 msgstr "Nova bilje¹ka"
 
@@ -323,6 +321,3 @@ msgid ""
 msgstr ""
 "KNotes bilje¹ka tog imena veæ postoji\n"
 "Molim, odaberite neko drugo ime"
-
-#~ msgid "Hide Note"
-#~ msgstr "Sakrij bilje¹ku"

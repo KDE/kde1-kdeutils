@@ -79,6 +79,10 @@ msgid ""
 "recompile KCalc with 'long double' precision enabled. See the README for "
 "details."
 msgstr ""
+"Radi 'slomljenog' glibca, moram smanjiti KCalcovu toènost sa "
+"'long double' u 'double'. Vlasnici sistema sa ispravnim libcom trebaju "
+"prekompajlirati KCalc sa ukljuèenom 'long double' toèno¹æu. Proèitajte "
+"README za vi¹e informacija."
 
 #: kcalc.cpp:1592
 msgid "Display Font"
@@ -87,6 +91,3 @@ msgstr "Pismo za prikazivanje"
 #: kcalc_core.cpp:1138
 msgid "Stat Mem cleared"
 msgstr "Stat Mem ispra¾njen"
-
-#~ msgid "Base type: double\n"
-#~ msgstr "Tip baze: double\n"

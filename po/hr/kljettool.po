@@ -78,9 +78,8 @@ msgstr "Poni¹ti"
 
 # MiscData.cpp:113
 #: MiscData.cpp:113
-#, fuzzy
 msgid "Initialize"
-msgstr "inicijalizacija"
+msgstr "Inicijaliziraj"
 
 # PrinterData.cpp:41
 #: PrinterData.cpp:41
