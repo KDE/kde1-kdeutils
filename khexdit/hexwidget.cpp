@@ -111,7 +111,9 @@ void HexWidget::menuCallback(int item) {
   case ID_FILE_OPEN: {
     if (CurrentFile->isModified()) 
       if (QMessageBox::query(trans.translate("Warning"), 
-			     trans.translate("The current file has been modified.\n\nDo you want to save it ?")))
+			     trans.translate("The current file has been modified.\n\nDo you want to save it ?"),
+			     trans.translate("Yes"),
+			     trans.translate("No")))
 	  CurrentFile->save();
     
     QFileDialog *log=new QFileDialog;
