@@ -1,0 +1,14 @@
+# KDE Config File
+[KDE Desktop Entry]
+BinaryPattern=kedit;
+Protocols=file;ftp;http;tar;cgi;
+MimeType=text/english;text/plain;text/x-makefile;text/x-c++hdr;text/x-c++src;text/x-chdr;text/x-csrc;text/x-java;text/x-moc;text/x-pascal;text/x-tcl;text/x-tex;
+Comment=A simple Text Editor
+Comment[de]=Ein einfacher Text-Editor
+Comment[pl]=Prosty edytor tekstu
+Exec=kedit %u
+Icon=kedit.xpm
+TerminalOptions=
+Path=
+Type=Application
+Terminal=0
