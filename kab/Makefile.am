@@ -19,7 +19,7 @@ INCLUDES= @all_includes@
 
 APPSDIR = $(kde_appsdir)/Utilities
 bin_PROGRAMS = 	kab kabapi_test
-THE_LIBS= -lkab -lkfile -lkfm   $(LIB_KIMGIO)   $(LIB_KDEUI) 
+THE_LIBS= -lkab     $(LIB_KIMGIO)   $(LIB_KFILE) 
 kab_SOURCES	= main.cc \
 		AddressBookAbout.cpp \
 		AddressBookAboutData.cpp \
