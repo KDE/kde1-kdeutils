@@ -43,8 +43,7 @@ msgstr "Nýr gluggi"
 msgid "Save the file"
 msgstr "Vista skjali?"
 
-#: hexwidget.cpp:126 hexwidget.cpp:128 hexwidget.cpp:130
-hexwidget.cpp:133
+#: hexwidget.cpp:126 hexwidget.cpp:128 hexwidget.cpp:130 hexwidget.cpp:133
 msgid "Not implemented"
 msgstr "Óútf?rt"
 
@@ -64,12 +63,6 @@ msgstr ""
 "Skjalinu sem ?ú ert a? vinna í hefur veri? breytt.\n"
 "H?tta vi? breytingarnar?"
 
-#: hexwidget.cpp:268
-msgid ""
-"KHexdit is already waiting\n"
-"for an internet job to finish\n"
-"\n"
-"Wait until this one is finished\n"
 msgid ""
 "The current file has been modified.\n"
 "Discard your changes?"
