@@ -389,31 +389,29 @@ msgstr ""
 "Somente o superusuário e o dono do processo podem mandar sinais a ele."
 
 #: scheddlg.C:22
-#, fuzzy
 msgid "Change scheduling"
-msgstr "Mudar agendamento..."
+msgstr "Mudar agendamento"
 
 #: scheddlg.C:28
-#, fuzzy
 msgid "Scheduling Policy"
-msgstr "Agendando..."
+msgstr "Política de Agendamento"
 
 #: scheddlg.C:29
 msgid "SCHED_OTHER (time-sharing)"
-msgstr ""
+msgstr "SCHED_OTHER (time-sharing)"
 
 #: scheddlg.C:36
 msgid "SCHED_FIFO (real-time)"
-msgstr ""
+msgstr "SCHED_FIFO (tempo real)"
 
 #: scheddlg.C:42
 msgid "SCHED_RR (real-time)"
-msgstr ""
+msgstr "SCHED_RR (tempo real)"
 
 #: scheddlg.C:67
 msgid "Priority (1-99):"
-msgstr ""
+msgstr "Prioridade (1-99)"
 
 #: scheddlg.C:114
 msgid "The priority must be in the range 1..99"
-msgstr ""
+msgstr "A prioridade deve estar na faixa 1..99"
