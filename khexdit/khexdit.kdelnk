@@ -3,7 +3,7 @@
 Name=Hex Editor
 Name[de]=Hexeditor
 Name[pl]=HexEdytor
-Exec=khexdit
+Exec=khexdit -caption "%c" -icon "%i" -miniicon "%m" %f
 Icon=khexdit.xpm
 Type=Application
 DocPath=khexdit/index.html
