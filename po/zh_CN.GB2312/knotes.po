@@ -80,16 +80,16 @@ msgid "Auto Indent"
 msgstr "自动缩进"
 
 #: docking.cpp:71
-#, fuzzy
+#
 msgid "Change Defaults"
-msgstr "改变缺省值 ..."
+msgstr "改变缺省值"
 
 #: docking.cpp:76
 msgid "Exit Knotes"
-msgstr ""
+msgstr "退出"
 
 #: docking.cpp:95
-#, fuzzy
+#
 msgid "New Knote"
 msgstr "新的 Note"
 

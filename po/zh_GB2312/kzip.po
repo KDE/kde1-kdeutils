@@ -103,9 +103,9 @@ msgid "Unknown archive format"
 msgstr "未知的压缩文件格式"
 
 #: kzip.cc:392
-#, fuzzy
+#
 msgid "Archive directory does not exist."
-msgstr "压缩文件目录"
+msgstr "压缩文件目录不存在."
 
 #: kzip.cc:408
 msgid "Archive Directory"
