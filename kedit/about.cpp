@@ -67,7 +67,7 @@ About::About(QWidget *parent) : QDialog(parent, "About KEdit", TRUE) {
   b_ok->setGeometry(width()/2-40, height() - 48, 80, 32);
   b_ok->setDefault(TRUE);
   b_ok->setAutoDefault(TRUE);
-  connect(b_ok, SIGNAL(released()),
+  connect(b_ok, SIGNAL(clicked()),
 	  this, SLOT(accept()));
   b_ok->setFocus();
 }
