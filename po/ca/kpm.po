@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpm\n"
-"POT-Creation-Date: 1999-01-26 01:48+0100\n"
+"POT-Creation-Date: 1999-04-12 02:29+0200\n"
 "PO-Revision-Date: 1999-01-29 22:21+0100\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
@@ -32,10 +32,6 @@ msgstr "Monitor gràfic d'intercanvi"
 #: prefs.C:37
 msgid "Load Graph in Icon"
 msgstr "Carrega gràfic a l'icona"
-
-#: prefs.C:38
-msgid "Dock into kpanel"
-msgstr "Encasta al plafó"
 
 #: prefs.C:43
 msgid "Green/Black Load Graph"
@@ -294,7 +290,7 @@ msgstr ""
 "Només el propietari del procés i el\n"
 "super usuari poden fer-ho."
 
-#: qps.C:628 qps.C:837 qps.C:879 qps.C:885 qps.C:908 qps.C:944 qps.C:988
+#: qps.C:628 qps.C:838 qps.C:880 qps.C:886 qps.C:909 qps.C:945 qps.C:989
 msgid "Permission denied"
 msgstr "S'ha denegat el permís"
 
@@ -306,7 +302,7 @@ msgstr "qps: canvia el període d'actualització"
 msgid "New update period:"
 msgstr "Nou període d'actualització:"
 
-#: qps.C:717 qps.C:856 scheddlg.C:113
+#: qps.C:717 qps.C:857 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Entrada no vàlida"
 
@@ -318,7 +314,7 @@ msgstr ""
 "El temps entre actualitzacions ha d'ésser un numero, seguit opcionalment\n"
 "per una unitat (ms, s o min). Si no es dóna cap unitat, s'usen segons."
 
-#: qps.C:832
+#: qps.C:833
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
@@ -331,15 +327,15 @@ msgstr ""
 "Només el propietari del procés i el\n"
 "super usuari poden fer-ho."
 
-#: qps.C:846
+#: qps.C:847
 msgid "qps: renice process"
 msgstr "qps: canvia la prioritat del procés"
 
-#: qps.C:847
+#: qps.C:848
 msgid "New nice value:"
 msgstr "Nou valor nice:"
 
-#: qps.C:857
+#: qps.C:858
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
@@ -347,7 +343,7 @@ msgstr ""
 "El valor nice ha d'estar\n"
 "dins del rang -20 fins a 20."
 
-#: qps.C:874
+#: qps.C:875
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
@@ -356,11 +352,11 @@ msgstr ""
 "No teniu permís per canviar la prioritat del procés %d (%s).\n"
 "Només poden fer-ho el propietari del procés i el super usuari."
 
-#: qps.C:886
+#: qps.C:887
 msgid "Only the super-user may lower the nice value of a process."
 msgstr "Només el super usuari pot rebaixar el valor nice d'un procés."
 
-#: qps.C:909
+#: qps.C:910
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
@@ -368,7 +364,7 @@ msgstr ""
 "Només el super usuari pot canviar\n"
 "la política de planificació i la prioritat estàtica."
 
-#: qps.C:939
+#: qps.C:940
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
@@ -379,7 +375,7 @@ msgstr ""
 "i/o la prioritat del procés %d (%s).\n"
 "Només ho pot fer el super usuari."
 
-#: qps.C:983
+#: qps.C:984
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"
@@ -415,3 +411,6 @@ msgstr "Prioritat (1-99):"
 #: scheddlg.C:114
 msgid "The priority must be in the range 1..99"
 msgstr "La prioritat ha d'estar en el rang 1..99"
+
+#~ msgid "Dock into kpanel"
+#~ msgstr "Encasta al plafó"

@@ -396,7 +396,8 @@ msgstr ""
 
 #: OSStatus.cpp:311
 msgid "Cannot read memory info file '/proc/meminfo'!\n"
-msgstr "No se puede leer el archivo de información de memoria '/proc/meminfo'!\n"
+msgstr ""
+"No se puede leer el archivo de información de memoria '/proc/meminfo'!\n"
 
 #: OSStatus.cpp:354
 #, c-format
@@ -441,4 +442,3 @@ msgstr ""
 "Un número más pequeño es un nivel de prioridad mayor.\n"
 "\n"
 "Por favor introduzca el nivel de ejecución deseado:"
-

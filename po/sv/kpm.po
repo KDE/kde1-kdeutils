@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpm\n"
-"POT-Creation-Date: 1999-01-26 01:48+0100\n"
+"POT-Creation-Date: 1999-04-12 02:29+0200\n"
 "PO-Revision-Date: 1999-01-01 20:33+01:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
@@ -32,10 +32,6 @@ msgstr "Grafisk swapvisare"
 #: prefs.C:37
 msgid "Load Graph in Icon"
 msgstr "Lastgraf i ikonen"
-
-#: prefs.C:38
-msgid "Dock into kpanel"
-msgstr "Docka in i panelen"
 
 #: prefs.C:43
 msgid "Green/Black Load Graph"
@@ -295,7 +291,7 @@ msgstr ""
 "Endast processens ägare och\n"
 "systemadminstratören får göra det."
 
-#: qps.C:628 qps.C:837 qps.C:879 qps.C:885 qps.C:908 qps.C:944 qps.C:988
+#: qps.C:628 qps.C:838 qps.C:880 qps.C:886 qps.C:909 qps.C:945 qps.C:989
 msgid "Permission denied"
 msgstr "Åtkomst nekades"
 
@@ -307,7 +303,7 @@ msgstr "qps: ändra uppdateringsperiod"
 msgid "New update period:"
 msgstr "Ny uppdateringsperiod:"
 
-#: qps.C:717 qps.C:856 scheddlg.C:113
+#: qps.C:717 qps.C:857 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Ogiltig inmatning"
 
@@ -319,7 +315,7 @@ msgstr ""
 "Tiden mellan uppdateringarna ska vara ett tal, eventuellt följt av en\n"
 "enhet (ms, s eller min). Om ingen enhet anges underförstås sekunder."
 
-#: qps.C:832
+#: qps.C:833
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
@@ -332,15 +328,15 @@ msgstr ""
 "Endast processens ägare och systemadministratören\n"
 "får göra det."
 
-#: qps.C:846
+#: qps.C:847
 msgid "qps: renice process"
 msgstr "qps: ändra process snällhet"
 
-#: qps.C:847
+#: qps.C:848
 msgid "New nice value:"
 msgstr "Nytt snällhetsvärde:"
 
-#: qps.C:857
+#: qps.C:858
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
@@ -348,7 +344,7 @@ msgstr ""
 "Snällhetsvärdet ska vara\n"
 "i området -20 till 20."
 
-#: qps.C:874
+#: qps.C:875
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
@@ -357,12 +353,12 @@ msgstr ""
 "Du har inte rättighet att ändra snällheten för process %d (%s).\n"
 "Endast processens ägare och systemadministratören för göra det."
 
-#: qps.C:886
+#: qps.C:887
 msgid "Only the super-user may lower the nice value of a process."
 msgstr ""
 "Endast systemadministratören får minska snällhetsvärdet för en process."
 
-#: qps.C:909
+#: qps.C:910
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
@@ -371,7 +367,7 @@ msgstr ""
 "schemaläggningspolicyn och den statiska\n"
 "prioriteten."
 
-#: qps.C:939
+#: qps.C:940
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
@@ -382,7 +378,7 @@ msgstr ""
 "och/eller prioriteten för process %d (%s).\n"
 "Endast systemadministratören för göra det."
 
-#: qps.C:983
+#: qps.C:984
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"
@@ -421,3 +417,6 @@ msgstr ""
 #: scheddlg.C:114
 msgid "The priority must be in the range 1..99"
 msgstr ""
+
+#~ msgid "Dock into kpanel"
+#~ msgstr "Docka in i panelen"

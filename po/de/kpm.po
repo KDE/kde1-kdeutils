@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpm\n"
-"POT-Creation-Date: 1999-01-26 01:48+0100\n"
+"POT-Creation-Date: 1999-04-12 02:29+0200\n"
 "PO-Revision-Date: 1999-03-12 20:10+MET\n"
 "Last-Translator: Gregor Zumstein <zumstein@ssd.ethz.ch>\n"
 "Language-Team: German <kde-i18n@kde.org>\n"
@@ -32,10 +32,6 @@ msgstr "Graphische Swap-Anzeige"
 #: prefs.C:37
 msgid "Load Graph in Icon"
 msgstr "Lade Graph in Icon"
-
-#: prefs.C:38
-msgid "Dock into kpanel"
-msgstr "An KPanel andocken"
 
 #: prefs.C:43
 msgid "Green/Black Load Graph"
@@ -294,7 +290,7 @@ msgstr ""
 "Nur der Eigentümer des Prozesses und der\n"
 "Systemadministrator haben dieses Recht."
 
-#: qps.C:628 qps.C:837 qps.C:879 qps.C:885 qps.C:908 qps.C:944 qps.C:988
+#: qps.C:628 qps.C:838 qps.C:880 qps.C:886 qps.C:909 qps.C:945 qps.C:989
 msgid "Permission denied"
 msgstr "Berechtigung verweigert"
 
@@ -306,7 +302,7 @@ msgstr "kpm: ändere Update-Intervall"
 msgid "New update period:"
 msgstr "Neues Update-Intervall:"
 
-#: qps.C:717 qps.C:856 scheddlg.C:113
+#: qps.C:717 qps.C:857 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Ungültige Eingabe"
 
@@ -319,7 +315,7 @@ msgstr ""
 "einer Einheit (ms, sec or min). Wenn keine Einheit angegeben wird, gelten "
 "Sekunden."
 
-#: qps.C:832
+#: qps.C:833
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
@@ -332,15 +328,15 @@ msgstr ""
 "Nur der Prozeß-Eigentümer und der Systemadministrator\n"
 "haben dieses Recht."
 
-#: qps.C:846
+#: qps.C:847
 msgid "qps: renice process"
 msgstr "kpm: Ändere Priorität für Prozeß"
 
-#: qps.C:847
+#: qps.C:848
 msgid "New nice value:"
 msgstr "Neuer Prioritätswert:"
 
-#: qps.C:857
+#: qps.C:858
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
@@ -348,7 +344,7 @@ msgstr ""
 "Der Prioritätswert sollte im Bereich\n"
 "zwischen -20 und 20 liegen."
 
-#: qps.C:874
+#: qps.C:875
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
@@ -357,13 +353,13 @@ msgstr ""
 "Sie haben keine Berechtigung, die Priorität für Prozeß %d (%s) zu ändern.\n"
 "Nur der Prozeß-Eigentümer und der Systemadministrator haben dieses Recht."
 
-#: qps.C:886
+#: qps.C:887
 msgid "Only the super-user may lower the nice value of a process."
 msgstr ""
 "Nur der Systemadministrator kann den Prioritätswert eines Prozesses "
 "herabsetzen."
 
-#: qps.C:909
+#: qps.C:910
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
@@ -371,7 +367,7 @@ msgstr ""
 "Nur der Systemadministrator kann die Ablaufplanung\n"
 "(Scheduling) und die festgelegte Priorität ändern."
 
-#: qps.C:939
+#: qps.C:940
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
@@ -382,7 +378,7 @@ msgstr ""
 "(Scheduling) und/oder der Priorität von Prozeß %d (%s).\n"
 "Nur der Systemadministrator hat dieses Recht."
 
-#: qps.C:983
+#: qps.C:984
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"
@@ -418,3 +414,6 @@ msgstr "Priorität (1-99):"
 #: scheddlg.C:114
 msgid "The priority must be in the range 1..99"
 msgstr "Die Priorität muß im Bereich von 1 bis 99 liegen."
+
+#~ msgid "Dock into kpanel"
+#~ msgstr "An KPanel andocken"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpm\n"
-"POT-Creation-Date: 1999-01-26 01:48+0100\n"
+"POT-Creation-Date: 1999-04-12 02:29+0200\n"
 "PO-Revision-Date: 1998-11-02 00:00+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt\n"
@@ -28,10 +28,6 @@ msgstr "Gráfico da Swap"
 #: prefs.C:37
 msgid "Load Graph in Icon"
 msgstr "Gráfico de Carga no Ícone"
-
-#: prefs.C:38
-msgid "Dock into kpanel"
-msgstr "Atracar no painel"
 
 #: prefs.C:43
 msgid "Green/Black Load Graph"
@@ -291,7 +287,7 @@ msgstr ""
 "Apenas o dono do processo e o\n"
 "super utilizador o podem fazer."
 
-#: qps.C:628 qps.C:837 qps.C:879 qps.C:885 qps.C:908 qps.C:944 qps.C:988
+#: qps.C:628 qps.C:838 qps.C:880 qps.C:886 qps.C:909 qps.C:945 qps.C:989
 msgid "Permission denied"
 msgstr "Permissão recusada"
 
@@ -303,7 +299,7 @@ msgstr "Actualizações"
 msgid "New update period:"
 msgstr "Novo periodo:"
 
-#: qps.C:717 qps.C:856 scheddlg.C:113
+#: qps.C:717 qps.C:857 scheddlg.C:113
 msgid "Invalid input"
 msgstr "Valor inválido"
 
@@ -316,7 +312,7 @@ msgstr ""
 "seguido de uma unidade (ms, s, ou min). Se não inserir a unidade\n"
 "serão utilizados segundos"
 
-#: qps.C:832
+#: qps.C:833
 #, c-format
 msgid ""
 "You do not have permission to renice the\n"
@@ -329,15 +325,15 @@ msgstr ""
 "Apenas o dono do processo e o\n"
 "super utilizador o podem fazer."
 
-#: qps.C:846
+#: qps.C:847
 msgid "qps: renice process"
 msgstr "Mudar valor de nice"
 
-#: qps.C:847
+#: qps.C:848
 msgid "New nice value:"
 msgstr "Novo nice:"
 
-#: qps.C:857
+#: qps.C:858
 msgid ""
 "The nice value should be\n"
 "in the range -20 to 20."
@@ -345,7 +341,7 @@ msgstr ""
 "O valor de nice deve estar\n"
 "entre -20 e 20."
 
-#: qps.C:874
+#: qps.C:875
 #, c-format
 msgid ""
 "You do not have permission to renice process %d (%s).\n"
@@ -354,11 +350,11 @@ msgstr ""
 "Não têm permissões para mudar o valor de nice do processo %s (%s).\n"
 "Apenas o dono do processo e o super utilizador o podem fazer."
 
-#: qps.C:886
+#: qps.C:887
 msgid "Only the super-user may lower the nice value of a process."
 msgstr "Apenas o super utilizador pode baixar o valor de nice de um processo."
 
-#: qps.C:909
+#: qps.C:910
 msgid ""
 "Only the super-user may change the\n"
 "scheduling policy and static priority."
@@ -366,7 +362,7 @@ msgstr ""
 "Apenas o super utilizador pode mudar a política\n"
 "de escalonamento e prioridade estática."
 
-#: qps.C:939
+#: qps.C:940
 #, c-format
 msgid ""
 "You do not have permission to change the\n"
@@ -377,7 +373,7 @@ msgstr ""
 "e/ou prioridade do processo %d (%s).\n"
 "Apenas o super utilizador o pode fazer."
 
-#: qps.C:983
+#: qps.C:984
 #, c-format
 msgid ""
 "You do not have permission to send a signal to process %d (%s).\n"
@@ -415,3 +411,6 @@ msgstr ""
 #: scheddlg.C:114
 msgid "The priority must be in the range 1..99"
 msgstr ""
+
+#~ msgid "Dock into kpanel"
+#~ msgstr "Atracar no painel"
