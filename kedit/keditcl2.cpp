@@ -1092,7 +1092,7 @@ void KEdit::spellResult (char *newtext)
 
 void KEdit::spellCleanDone ()
 {
-  kdebug (KDEBUG_WARN, 750, "deleting kspell");
+  kdebug (KDEBUG_INFO, 750, "deleting kspell");
   delete kspell;
 
   emit spellcheck_done();
