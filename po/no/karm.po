@@ -91,7 +91,7 @@ msgstr "&Oppgave"
 
 #: top.cpp:61
 msgid "&New"
-msgstr ""
+msgstr "&Ny"
 
 #: top.cpp:74
 msgid "&About"

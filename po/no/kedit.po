@@ -34,9 +34,8 @@ msgid "Select All"
 msgstr "Velg alle"
 
 #: kedit.cpp:157
-#, fuzzy
 msgid "Font..."
-msgstr "&Finn..."
+msgstr "Skrifttype..."
 
 #: kedit.cpp:201
 msgid "Ne&w..."
@@ -94,15 +93,23 @@ msgstr "Stavekontroll..."
 msgid "&Goto Line..."
 msgstr "&Gå til linje..."
 
+<<<<<<< kedit.po
+#: kedit.cpp:276
+=======
 #: kedit.cpp:277
 #, fuzzy
+>>>>>>> 1.13
 msgid "&Font..."
-msgstr "&Skrifttype"
+msgstr "&Skrifttype..."
 
+<<<<<<< kedit.po
+#: kedit.cpp:278
+=======
 #: kedit.cpp:279
 #, fuzzy
+>>>>>>> 1.13
 msgid "&Colors"
-msgstr "Farger"
+msgstr "&Farger"
 
 #: kedit.cpp:284
 msgid "KEdit &Options..."
@@ -353,10 +360,14 @@ msgstr ""
 "Kan ikke lage:\n"
 "%s"
 
+<<<<<<< kedit.po
+#: kedit.cpp:2059
+=======
 #: kedit.cpp:2073
 #, fuzzy
+>>>>>>> 1.13
 msgid "Spellchecker Options"
-msgstr "Lagre valg"
+msgstr "Stavekontrollvalg"
 
 #: keditcl1.cpp:137
 msgid "The specified File does not exist"
@@ -424,9 +435,8 @@ msgstr "Du har ikke skrivetilgang til denne filen.\n"
 
 #: keditcl2.cpp:112 keditcl2.cpp:129 keditcl2.cpp:369 keditcl2.cpp:386
 #: keditcl2.cpp:685 keditcl2.cpp:694 keditcl2.cpp:795
-#, fuzzy
 msgid "Find"
-msgstr "Finn:"
+msgstr "Finn"
 
 #: keditcl2.cpp:113 keditcl2.cpp:370 keditcl2.cpp:463
 msgid ""

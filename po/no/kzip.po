@@ -55,7 +55,7 @@ msgstr "Mønster"
 
 #: kzip.cc:70
 msgid "&New..."
-msgstr ""
+msgstr "&Ny..."
 
 #: kzip.cc:73
 msgid "&Extract To..."
