@@ -19,8 +19,8 @@ INCLUDES= @all_includes@
 
 APPSDIR = $(kde_appsdir)/Utilities
 bin_PROGRAMS = 	kab kabapi_test
-THE_LIBS= -lkab -lkfile -lkfm -lkdeui -lkdecore -lqt -lXext \
-	-lX11 $(LIBSOCKET) -ljpeg
+THE_LIBS= -lkab -lkfile -lkfm -lkdeui -lkdecore $(LIB_KIMGIO) -lqt -lXext \
+	-lX11 $(LIBSOCKET) $(KDE_RPATH)
 kab_SOURCES	= main.cc \
 		AddressBookAbout.cpp \
 		AddressBookAboutData.cpp \

@@ -12,7 +12,7 @@
 #include <qimage.h>
 #include "toplevelwidget.h"
 #include <kapp.h>
-#include "jpeg.h"
+#include <kimgio.h>
 #include "debug.h"
 
 extern "C" {
@@ -47,15 +47,7 @@ int main(int argc, char** argv)
   // ########################################################  
   KApplication app(argc, argv, "kab");
   AuthorEmailAddress="mirko@kde.org"; // static, public
-#ifdef HAVE_LIBJPEG
-  QImageIO::defineIOHandler("JFIF","^\377\330\377\340", 
-			    0, read_jpeg_jfif, NULL);
-  LG(GUARD, "addressbook main: registered JPEG reader.\n");
-#else
-  L("addressbook main: the JPEG reader has not been "
-    "included in this executable.\n");   
-  CHECK(false);
-#endif
+  kimgioRegister();
   LG(GUARD, "addressbook main: installing signal "
      "handler.\n");
   signal(SIGINT, signal_handler);

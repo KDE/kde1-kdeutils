@@ -2,7 +2,7 @@
 #include <kabapi.h>
 #include <iostream.h>
 #include <kapp.h>
-#include "jpeg.h"
+#include <kimgio.h>
 
 int main(int argc, char** argv)
 {
@@ -11,16 +11,7 @@ int main(int argc, char** argv)
   AddressBook::Entry entry;
   list<AddressBook::Entry> entries;
   string key;
-#ifdef HAVE_LIBJPEG
-  QImageIO::defineIOHandler("JFIF","^\377\330\377\340", 
-			    0, read_jpeg_jfif, NULL);
-  cout << "main: registered JPEG reader." << endl;
-#else
-  cout << 
-    "main: the JPEG reader has not been "
-    "included in this executable." 
-       << endl;   
-#endif
+  kimgioRegister();
   KabAPI api;
   // -----
   cout << "main: starting." << endl;
