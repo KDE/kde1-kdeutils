@@ -27,7 +27,7 @@ clean: debian-clean
 
 debian-clean:
 	dh_testdir
-	-rm -f $(BUILDDIR)/build
+	-rm -f $(BUILDDIR)/build-stamp
 	
 binary-indep:	build
 	dh_testroot
