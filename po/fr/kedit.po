@@ -258,11 +258,13 @@ msgid "Printing: %s %s (Selection)"
 msgstr "Impression : %s %s (sélection)"
 
 #: kedit.cpp:1310
-msgid "Saving..."
+#, fuzzy
+msgid "Saving ..."
 msgstr "Enregistrement en cours..."
 
 #: kedit.cpp:1317
-msgid "Loading..."
+#, fuzzy
+msgid "Loading ..."
 msgstr "Chargement en cours..."
 
 #: kedit.cpp:1351 kedit.cpp:1444

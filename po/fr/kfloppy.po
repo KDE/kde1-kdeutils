@@ -138,8 +138,8 @@ msgstr ""
 "%s"
 
 #: floppy.cpp:634
-#, c-format
-msgid "Block %d is bad. Continuing..."
+#, fuzzy, c-format
+msgid "Block %d is bad. Continuing ..."
 msgstr "Le block %d est défectueux. Continuons..."
 
 #: floppy.cpp:717
@@ -167,11 +167,13 @@ msgid "All files were sucessfully erased."
 msgstr "Tous les fichiers ont été effacés avec succès."
 
 #: floppy.cpp:832
-msgid "Creating Filesystem..."
+#, fuzzy
+msgid "Creating Filesystem ..."
 msgstr "Création du système de fichiers..."
 
 #: floppy.cpp:836
-msgid "Verifying..."
+#, fuzzy
+msgid "Verifying ..."
 msgstr "Vérification..."
 
 #: floppy.cpp:881
