@@ -106,7 +106,8 @@ msgstr "Защита страниц"
 
 #: MiscData.cpp:80
 msgid "Powersave Time"
-msgstr "Время через которое включается\n"
+msgstr ""
+"Время через которое включается\n"
 "режим сохранения энергии"
 
 #: MiscData.cpp:99

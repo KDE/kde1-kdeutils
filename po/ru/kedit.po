@@ -518,4 +518,3 @@ msgstr "Почта"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Вы должны указать получателя"
-

@@ -134,8 +134,8 @@ msgid ""
 "So if you don't know which spooler is installed on your system, BSD is "
 "probably a good choice."
 msgstr ""
-"Выберите, какую систему очереди вы используете. Большинство систем используют "
-"систему очереди BSD. Поэтому, если вы не знаете, выбирайте BSD."
+"Выберите, какую систему очереди вы используете. Большинство систем "
+"используют систему очереди BSD. Поэтому, если вы не знаете, выбирайте BSD."
 
 #: FirstStartData.cpp:50 SpoolerConfigData.cpp:134
 msgid "Ok"

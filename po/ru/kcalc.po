@@ -41,8 +41,8 @@ msgid ""
 msgstr ""
 "Вследствии ошибки в GLIBC я вынужден уменьшить точность KCalc'а с 'long "
 "double' до 'double'. Владельцы систем с работающим GLIBC должны "
-"перекомпилировать KCalc с включенной поддержкой 'long double'. "
-"Смотрите README."
+"перекомпилировать KCalc с включенной поддержкой 'long double'. Смотрите "
+"README."
 
 #: configdlg.cpp:56 kcalc.cpp:1591
 msgid "Defaults"
