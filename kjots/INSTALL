@@ -12,15 +12,12 @@ If you upgrade from a version _before_ 0.2.2:
                      ^ - remove it !
 
 You need:
-- ktoolpics-0.2
 - qt 1.2
-- libkde-970510
+- libkde-970510 or later
 
 do:
 
-- set KDEDIR and QTDIR
-- make 
-- make install
+See the installation instructions for kdeapps.
 
 this will install:
 

@@ -35,12 +35,14 @@
 KJotsMain *main_widget;
 KIconLoader *global_pix_loader;
 
+QString exec_http;
+QString exec_ftp;
+
 int main( int argc, char **argv )
 {
-debug ( "[kjots] started-------------------------" );
+  //debug ( "[kjots] started-------------------------" );
 
   KApplication a( argc, argv, "kjots" );
-  //a.setStyle(WindowsStyle);
 
   QString name = QDir::homeDirPath();
   name += "/.kjots";
@@ -60,17 +62,23 @@ debug ( "[kjots] started-------------------------" );
   config->setGroup("Icons");
   if( !config->hasKey("Path") )
      {
-       temp1 = (QString) getenv("KDEDIR");
+       temp1 = a.kdedir();
        temp1 += "/lib/pics/toolbar";
        config->writeEntry("Path", temp1);
      }
   config->setGroup("kjots");
-  if( !config->hasKey("helpfile") )
-    {
-      temp2 = (QString) getenv("KDEDIR");
-      temp2 += "/doc/HTML/kjots/kjots.html";
-      config->writeEntry("helpfile", temp2);
-    }
+  if( !config->hasKey("execHttp") )
+    config->writeEntry("execHttp", "kfmclient openURL %u");
+  if( !config->hasKey("execFtp") )
+    config->writeEntry("execFtp", "kfmclient openURL %u");
+  if( !config->hasKey("EFontFamily") )
+    config->writeEntry("EFontFamily", "helvetica");
+  if( !config->hasKey("EFontSize") )
+    config->writeEntry("EFontSize", 12);
+  if( !config->hasKey("EFontWeight") )
+    config->writeEntry("EFontWeight", 0);
+  if( !config->hasKey("EFontItalic") )
+    config->writeEntry("EFontItalic", 0);
   global_pix_loader = new KIconLoader( config, "Icons", "Path" );
   KJotsMain jots;
   main_widget = &jots;

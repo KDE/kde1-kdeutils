@@ -28,11 +28,17 @@
 int readListConf ( KConfig *conf, QString key, QStrList &list )
 {
   if( !conf->hasKey( key ) )
-    { debug("readListConf:: key does not exist"); return 0; }
+    { 
+      // debug("readListConf:: key does not exist");
+      return 0;
+    }
   QString str_list, value;
   str_list = conf->readEntry(key);
   if(str_list.isEmpty())
-    { debug("readListConf:: list is empty"); return 0; }
+    {
+      // debug("readListConf:: list is empty"); 
+      return 0; 
+    }
   list.clear();
   int i;
   int len = str_list.length();
@@ -76,8 +82,8 @@ void writeListConf ( KConfig *conf, QString key, QStrList &list )
 	  case '\\':
 	    str_list += '\\';
 	    break;
-	  defaults:
-	    ;
+	    //defaults:
+	    //;
 	  };
 	  str_list += value[i];
 	}

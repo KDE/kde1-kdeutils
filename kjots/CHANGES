@@ -1,3 +1,10 @@
+new in version 0.2.4
+- uses kfontdialog to set the font of the editor widget
+- you may select an URL in your text and press the right mouse button
+  to execute a program with this URL. The program to execute is
+  configurable for http and ftp URLs.
+- some code cleanup
+
 new in version 0.2.3
 - compiles with libkde-970510   NOTE: this version is needed !
 - shouldn't segfault, if you delete pages

@@ -27,13 +27,15 @@ SOURCES = main.cpp\
 KJotsMain.cpp KJotsMainData.cpp\
 SubjList.cpp\
 ReadListConf.cpp\
-cpopmenu.cpp
+cpopmenu.cpp\
+confdialog.cpp
 OBJECTS = main.o\
 KJotsMain.o KJotsMainData.o mKJotsMain.o\
 SubjList.o mSubjList.o\
 ReadListConf.o\
-cpopmenu.o mcpopmenu.o
-SRCMETA = mKJotsMain.cpp mSubjList.cpp mcpopmenu.cpp
+cpopmenu.o mcpopmenu.o\
+confdialog.o mconfdialog.o
+SRCMETA = mKJotsMain.cpp mSubjList.cpp mcpopmenu.cpp mconfdialog.cpp
 TARGET	= kjots
 
 ####### Implicit rules
@@ -89,6 +91,9 @@ mSubjList.cpp: SubjList.h
 
 mcpopmenu.cpp: cpopmenu.h
 	$(MOC) cpopmenu.h -o mcpopmenu.cpp
+
+mconfdialog.cpp: confdialog.h
+	$(MOC) confdialog.h -o mconfdialog.cpp
 
 # DO NOT DELETE THIS LINE -- make depend depends on it.
 

@@ -33,13 +33,13 @@
 #include <qdialog.h>
 #include <qlined.h>
 #include <qbttngrp.h>
-//#include <qradiobt.h>
 
 #include "KJotsMainData.h"
 
 class KJotsMain;
 class SubjList;
 class CPopupMenu;
+class ConfDialog;
 
 class TextEntry
 {
@@ -108,14 +108,14 @@ protected slots:
   void newEntry();
   void deleteEntry();
   void barMoved(int);
-  void normalSize();
-  void mediumSize();
-  void largeSize();
   void startHelp();
   void about();
   void addToHotlist();
   void removeFromHotlist();
   void toggleSubjList();
+  void configure();
+  void configureHide();
+  void updateConfiguration();
   
 protected:
   virtual void resizeEvent ( QResizeEvent *e );
@@ -132,16 +132,14 @@ protected:
   int              current;
   bool             folderOpen;
   QString          current_folder_name;
-  //QString          folder_list_str;
   QStrList         folder_list;
   QStrList         hotlist;
-  //QString          hotlist_str;
   QList<QPushButton> button_list;
   QPopupMenu      *folders;
   QFont            button_font;
   int              unique_id;
   SubjList        *subj_list;
-
+  ConfDialog      *confdiag;
 };
 #endif // KJotsMain_included
 

@@ -32,6 +32,7 @@
 #include <qmlined.h>
 
 #include <kapp.h>
+#include <ktabctl.h>
 
 extern "C" {
 #include <unistd.h>
@@ -41,9 +42,13 @@ extern "C" {
 #include "SubjList.h"
 #include "ReadListConf.h"
 #include "cpopmenu.h"
+#include "confdialog.h"
 
 const unsigned int HOT_LIST_SIZE = 8;
 const unsigned int BUTTON_WIDTH = 56;
+
+extern QString exec_http;
+extern QString exec_ftp;
 
 //----------------------------------------------------------------------
 // ASKFILENAME
@@ -114,20 +119,43 @@ void MyMultiEdit::mousePressEvent( QMouseEvent *e )
 void MyMultiEdit::openUrl()
 {
   QString command;
+  int pos;
   if( hasMarkedText() )
     {
       QString marked = markedText();
       if( marked.left(7) == "http://" )
 	{
-	  command = "kfmclient openURL ";
-	  command += marked;
+	  command = exec_http;
+	  command.detach();
+	  if( (pos = exec_http.find("%u")) == -1 )
+	    {
+	      command += " " + marked + " &";
+	    }
+	  else
+	    {
+	      command.remove(pos, 2);
+	      command = command.insert(pos, marked);
+	      command += " &";
+	    }
 	  system((const char *) command);
+	  //debug("exec: %s", (const char *) command );
 	}
       else if( marked.left(6) == "ftp://" )
 	{
-	  command = "kfmclient openURL ";
-	  command += marked;
+	  command = exec_ftp;
+	  command.detach();
+	  if( (pos = exec_ftp.find("%u")) == -1 )
+	    {
+	      command += " " + marked + " &";
+	    }
+	  else
+	    {
+	      command.remove(pos, 2);
+	      command = command.insert(pos, marked);
+	      command += " &";
+	    }
 	  system((const char *) command);
+	  //debug("exec: %s", (const char *) command );
 	}
     }
 }
@@ -145,15 +173,14 @@ KJotsMain::KJotsMain(QWidget* parent, const char* name)
   button_list.setAutoDelete(TRUE);
   folderOpen = FALSE;
   entrylist.append(new TextEntry);
+  confdiag = NULL;
   subj_list = new SubjList;
   connect( this, SIGNAL(folderChanged(QList<TextEntry> *)), subj_list,
 	   SLOT(rebuildList( QList<TextEntry> *)) );
   connect( this, SIGNAL(entryMoved(int)), subj_list, SLOT( select(int)) );
   connect( subj_list, SIGNAL(entryMoved(int)), this, SLOT( barMoved(int)) );
-  //  connect( subj_list, SIGNAL(selected(int)), this, SLOT( toggleSubjList()) );
-  connect( le_subject, SIGNAL(textChanged(const char *)), subj_list,
+  connect( le_subject, SIGNAL(textChanged(const char *)), subj_list, 
 	   SLOT(entryChanged(const char*)) );
-
   me_text->setEnabled(FALSE);
   le_subject->setEnabled(FALSE);
   current = 0;
@@ -254,10 +281,8 @@ KJotsMain::KJotsMain(QWidget* parent, const char* name)
   edit_menu->insertItem("Copy", me_text, SLOT(copyText()) );
   edit_menu->insertItem("Paste", me_text, SLOT(paste()) );
 
-  QPopupMenu *fonds = new QPopupMenu;
-  fonds->insertItem("Normal size", this, SLOT(normalSize()) );
-  fonds->insertItem("Medium size", this, SLOT(mediumSize()) );
-  fonds->insertItem("Large size", this, SLOT(largeSize()) );
+  QPopupMenu *options = new QPopupMenu;
+  options->insertItem("Config", this, SLOT(configure()) );
 
   QPopupMenu *hotlist = new QPopupMenu;
   hotlist->insertItem("Add current book to hotlist", this, SLOT(addToHotlist()) );
@@ -269,10 +294,12 @@ KJotsMain::KJotsMain(QWidget* parent, const char* name)
 
   menubar->insertItem( "&File", file );
   menubar->insertItem( "&Edit", edit_menu, ALT+Key_E );
-  menubar->insertItem( "F&onts", fonds, ALT+Key_O );
   menubar->insertItem( "Hot&list", hotlist, ALT+Key_L );
+  menubar->insertItem( "&Options", options, ALT+Key_O );
   menubar->insertSeparator();
   menubar->insertItem( "&Help", help, ALT+Key_H );
+
+  updateConfiguration();
 
   QString last_folder = config->readEntry("LastOpenFolder");
   int nr;
@@ -308,7 +335,6 @@ KJotsMain::~KJotsMain()
 void KJotsMain::resizeEvent( QResizeEvent *e )
 {
   f_main->setGeometry( 0, 28, size().width(), size().height() - 28 );
-  int i;
   QPushButton *item;
   int x = bg_top->x()+bg_top->width()-2;
   int y = bg_top->y()+4;
@@ -404,6 +430,7 @@ void KJotsMain::openFolder(int id)
       return;
     }
   current = 0;
+  me_text->deselect();
   me_text->setText(entrylist.first()->text);
   emit folderChanged(&entrylist);
   emit entryMoved(current);
@@ -436,6 +463,7 @@ void KJotsMain::createFolder()
   le_subject->setEnabled(TRUE);
   me_text->setFocus();
   me_text->clear();
+  me_text->deselect();
   TextEntry *new_entry = new TextEntry;
   entrylist.append(new_entry);
   new_entry->subject = "";
@@ -499,6 +527,7 @@ void KJotsMain::deleteFolder()
   folderOpen = FALSE;
   me_text->setEnabled(FALSE);
   me_text->clear();
+  me_text->deselect();
   le_subject->setEnabled(FALSE);
   le_subject->setText("");
   emit folderChanged(&entrylist);
@@ -586,7 +615,7 @@ void KJotsMain::deleteEntry()
   if( current >= (int) entrylist.count() - 1 )
     {
       if( current )
-	current--;
+      current--;
       s_bar->setValue(current);
       s_bar->setRange(0, entrylist.count()-1 );
     }
@@ -614,41 +643,15 @@ void KJotsMain::barMoved( int new_value )
   s_bar->setValue(new_value);
 }
 
-void KJotsMain::normalSize()
-{
-  QFont font(me_text->fontInfo().family(), 10);
-  me_text->setFont(font);
-}
-
-void KJotsMain::mediumSize()
-{
-  QFont font(me_text->fontInfo().family(), 12);
-  me_text->setFont(font);
-}
-
-void KJotsMain::largeSize()
-{
-  QFont font(me_text->fontInfo().family(), 14);
-  me_text->setFont(font);
-}
-
 void KJotsMain::startHelp()
 {
-  KConfig *config = KApplication::getKApplication()->getConfig();
-  config->setGroup("kjots");
-  QString helpfile = "file:";
-  helpfile += config->readEntry("helpfile");
-  if ( fork() == 0 )
-    {
-      execlp( "kdehelp", "kdehelp", (const char *) helpfile, 0 );
-      exit( 1 );
-    }
+  KApplication::getKApplication()->invokeHTMLHelp("kjots/kjots.html", "");
 }
 
 void KJotsMain::about()
 {
   QMessageBox::message( "About", \
-                        "Kjots 0.2.2\n\r(c) by Christoph Neerfeld\n\rChristoph.Neerfeld@mail.bonn.netsurf.de", "Ok" );
+                        "Kjots 0.2.4\n\r(c) by Christoph Neerfeld\n\rChristoph.Neerfeld@mail.bonn.netsurf.de", "Ok" );
 }
 
 void KJotsMain::addToHotlist()
@@ -710,4 +713,33 @@ void KJotsMain::toggleSubjList()
       subj_list->show();
       b_list->setOn(TRUE);
     }
+}
+
+void KJotsMain::configure()
+{
+  if( confdiag )
+    return;
+  confdiag = new ConfDialog;
+  connect( confdiag, SIGNAL(confHide()), this, SLOT(configureHide()) );
+  connect( confdiag, SIGNAL(commitChanges()), this, SLOT(updateConfiguration()) );
+  confdiag->show();
+}
+
+void KJotsMain::configureHide()
+{
+  if( !confdiag )
+    return;
+  delete confdiag;
+  confdiag = NULL;
+}
+
+void KJotsMain::updateConfiguration()
+{
+  KConfig *config = KApplication::getKApplication()->getConfig();
+  config->setGroup("kjots");
+  exec_http = config->readEntry("execHttp");
+  exec_ftp = config->readEntry("execFtp");
+  QFont font( config->readEntry("EFontFamily"), config->readNumEntry("EFontSize"),
+	      config->readNumEntry("EFontWeight"), config->readNumEntry("EFontItalic") );
+  me_text->setFont(font);
 }

@@ -23,7 +23,8 @@
 #include "SubjList.h"
 #include "KJotsMain.h"
 
-SubjList::SubjList( QWidget* parent = NULL, const char* name = NULL )
+//SubjList::SubjList( QWidget* parent = NULL, const char* name = NULL )
+SubjList::SubjList( QWidget*, const char* )
 {
   initMetaObject();
 
@@ -50,7 +51,7 @@ void SubjList::rebuildList( QList<TextEntry> * new_list )
   QListIterator<TextEntry> it(*entrylist);
   it.toFirst();
   TextEntry *item;
-  for ( ; item = it.current(); ++it ) 
+  for ( ; (item = it.current()); ++it ) 
     {
       lb_subj->insertItem(item->subject);
     }
