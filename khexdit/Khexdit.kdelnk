@@ -2,11 +2,13 @@
 [KDE Desktop Entry]
 Name=Hex Editor
 Name[de]=Hexeditor
+Name[pl]=HexEdytor
 Exec=khexdit
 Icon=khexdit.xpm
 Type=Application
 DocPath=khexdit/khexdit.html
 Command=A simple Hex editor
 Command[de]=Ein Editor für binäre Dateien
+Command[pl]=Prosty edytor plików binarnych.
 Terminal=0
 MiniIcon=khexdit.xpm

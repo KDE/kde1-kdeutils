@@ -1,6 +1,8 @@
 # KDE Config File
 [KDE Desktop Entry]
+Name=KJots
 Comment=Note taker
+Comment[pl]=System zarz±dzanie notatkami.
 WmCommand=
 MiniIcon=mini-doc.xpm
 Exec=kjots
