@@ -1,17 +1,22 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
-"Content-Type: text/plain; charset=\n"
-"Date: 1997-11-16 21:27:00+0100\n"
-"From: didier Belot <dib@avo.fr>\n"
-"Xgettext-Options: -C -ktranslate -x ../../kdelibs/po/kde.pot\n"
-"Files: alarm.cpp bwdatetime.cpp configdlg.cpp fontdlg.cpp knotes.cpp "
-"kwmcom.cpp mail.cpp renamedlg.cpp savealarm.cpp spin.cpp timer.cpp\n"
+"Project-Id-Version: knotes\n"
+"PO-Revision-Date: 1998-01-25 22:07 CET\n"
+"Last-Translator: didier Belot <dib@avo.fr>\n"
+"Last-Translator: Bertrand Leconte <B.Leconte@mail.dotcom.fr>\n"
+"Language-Team: Français\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; \n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: alarm.cpp:58
 #, c-format
 msgid "Alarm Timer for: %s"
-msgstr "Alarme pour: %s"
+msgstr "Alarme pour : %s"
 
 #: alarm.cpp:72
 msgid "Unset"
@@ -23,23 +28,23 @@ msgstr "Activer"
 
 #: alarm.cpp:153
 msgid "I am afraid you already missed your appointment."
-msgstr "J'ai bien peur que vous ayez déjà raté votre rendez-vous"
+msgstr "J'ai bien peur que vous ayez déjà raté votre rendez-vous."
 
 #: bwdatetime.cpp:44
 msgid "Day:"
-msgstr "Jour:"
+msgstr "Jour :"
 
 #: bwdatetime.cpp:50
 msgid "Month:"
-msgstr "Mois:"
+msgstr "Mois :"
 
 #: bwdatetime.cpp:57
 msgid "Year:"
-msgstr "Année:"
+msgstr "Année :"
 
 #: bwdatetime.cpp:72
 msgid "Time:"
-msgstr "Heure:"
+msgstr "Heure :"
 
 #: bwdatetime.cpp:161
 msgid "The Time you selected is invalid"
@@ -51,36 +56,35 @@ msgstr "La date sélectionnée est incorrecte"
 
 #: configdlg.cpp:50
 msgid "Text Color:"
-msgstr "Couleur du texte"
+msgstr "Couleur du texte :"
 
 #: configdlg.cpp:64
 msgid "Background Color:"
-msgstr "Couleur du fond"
+msgstr "Couleur du fond :"
 
 #: configdlg.cpp:83
 msgid "Width:"
-msgstr "Larg.:"
+msgstr "Largeur :"
 
 #: configdlg.cpp:93
 msgid "Height:"
-msgstr "Haut.:"
+msgstr "Hauteur :"
 
 #: configdlg.cpp:104
 msgid "Print Command:"
-msgstr "Impression:"
+msgstr "Commande d'impression :"
 
 #: configdlg.cpp:112
-#, fuzzy
 msgid "Mail Command:"
-msgstr "Impression:"
+msgstr "Commande d'émission de messages :"
 
 #: configdlg.cpp:124
 msgid "3d Frame"
-msgstr "Cadre 3d"
+msgstr "Cadre en 3 dimensions"
 
 #: configdlg.cpp:129 knotes.cpp:295
 msgid "Auto Indent"
-msgstr "Indentation auto"
+msgstr "Indentation automatique"
 
 #: fontdlg.cpp:45
 msgid "Set Default Font"
@@ -88,17 +92,15 @@ msgstr "Police par défaut"
 
 #: fontdlg.cpp:64
 msgid "Point Size:"
-msgstr "Taille en points:"
+msgstr "Taille en points :"
 
 #: knotes.cpp:268
-#, fuzzy
 msgid "Text Color..."
-msgstr "Couleur du texte"
+msgstr "Couleur du texte..."
 
 #: knotes.cpp:269
-#, fuzzy
 msgid "Background Color..."
-msgstr "Couleur du fond"
+msgstr "Couleur du fond..."
 
 #: knotes.cpp:275
 msgid "New Note"
@@ -109,9 +111,8 @@ msgid "Delete Note"
 msgstr "Supprimer la note"
 
 #: knotes.cpp:279
-#, fuzzy
 msgid "Rename Note..."
-msgstr "Renommer la note"
+msgstr "Renommer la note..."
 
 #: knotes.cpp:281
 msgid "Alarm ..."
@@ -131,12 +132,11 @@ msgstr "Imprimer la note"
 
 #: knotes.cpp:294 knotes.cpp:365
 msgid "3D Frame"
-msgstr "Cadre 3D"
+msgstr "Cadre en 3 dimensions"
 
 #: knotes.cpp:297
-#, fuzzy
 msgid "Font..."
-msgstr "Police"
+msgstr "Police..."
 
 #: knotes.cpp:298
 msgid "Colors"
@@ -147,9 +147,8 @@ msgid "Change Defaults ..."
 msgstr "Configurer..."
 
 #: knotes.cpp:326
-#, fuzzy
 msgid "Hide Note"
-msgstr "Nouvelle note"
+msgstr "Cacher la note"
 
 #: knotes.cpp:328
 msgid "Insert Date"
@@ -166,7 +165,7 @@ msgstr "Sans cadre"
 #: knotes.cpp:402 knotes.cpp:406 knotes.cpp:600 knotes.cpp:810 knotes.cpp:814
 #: timer.cpp:87 timer.cpp:110
 msgid "Note: "
-msgstr ""
+msgstr "Note : "
 
 #: knotes.cpp:459
 msgid ""
@@ -174,7 +173,7 @@ msgid ""
 "Quit anyways?"
 msgstr ""
 "Impossible d'enregistrer la note.\n"
-"Voulez-vous néanmoins quitter?"
+"Voulez-vous néanmoins quitter ?"
 
 #: knotes.cpp:477
 msgid "Could not save KNote Alarms\n"
@@ -186,11 +185,10 @@ msgid ""
 "Could not pipe the contents of this KNote into:\n"
 " %s"
 msgstr ""
-"Impossible de rediriger le contenu de cette KNote vers:\n"
+"Impossible de rediriger le contenu de cette note vers :\n"
 " %s"
 
 #: knotes.cpp:687
-#, fuzzy
 msgid ""
 "You have exeeded the arbitrary and unjustly set limit of 50 knotes.\n"
 " Please complain to the author."
@@ -208,7 +206,7 @@ msgid ""
 "note permanently?"
 msgstr ""
 "Etes-vous certain de vouloir supprimer cette\n"
-"note définitivement?"
+"note définitivement ?"
 
 #: knotes.cpp:1020
 #, c-format
@@ -216,7 +214,7 @@ msgid ""
 "Could not load:\n"
 " %s"
 msgstr ""
-"Impossible de charger:\n"
+"Impossible de charger :\n"
 " %s"
 
 #: knotes.cpp:1255
@@ -245,7 +243,7 @@ msgstr ""
 
 #: knotes.cpp:1470
 msgid "Could not start or find KFM"
-msgstr "Impossible de trouver ou lancer KFM"
+msgstr "Impossible de trouver ou de lancer KFM"
 
 #: knotes.cpp:1492
 msgid ""
@@ -253,7 +251,7 @@ msgid ""
 "Close anyways?"
 msgstr ""
 "Impossible d'enregistrer les KNotes.\n"
-"Voulez-vous malgré tout fermer?"
+"Voulez-vous malgré tout fermer ?"
 
 #: knotes.cpp:1604
 #, c-format
@@ -265,8 +263,8 @@ msgid ""
 "\n"
 "I will correct the Problem for you."
 msgstr ""
-"Trouvé une alarme pour laquelle le fichier\n"
-"KNotes sous-jacent:\n"
+"J'ai trouvé une alarme pour laquelle le fichier\n"
+"KNotes sous-jacent :\n"
 "%s\n"
 " n'existe plus.\n"
 "\n"
@@ -278,7 +276,7 @@ msgstr "Inconsistence"
 
 #: renamedlg.cpp:39
 msgid "Rename this note to"
-msgstr "Renommer cette note"
+msgstr "Renommer cette note en"
 
 #: renamedlg.cpp:44
 msgid "Rename"
@@ -297,48 +295,5 @@ msgid ""
 "A KNotes note with this name already exists\n"
 "Please choose a different name"
 msgstr ""
-"Il existe déjà une KNote avec ce nom\n"
+"Il existe déjà une note avec ce nom\n"
 "SVP, choisissez un nom différent"
-
-#~ msgid "Italic"
-#~ msgstr "Italique"
-
-#~ msgid "Roman"
-#~ msgstr "Roman"
-
-#~ msgid "Clear"
-#~ msgstr "Effacer"
-
-#~ msgid "Sorry"
-#~ msgstr "Désolé"
-
-#~ msgid "Change"
-#~ msgstr "Changer"
-
-#~ msgid "Options"
-#~ msgstr "Options"
-
-#~ msgid ""
-#~ "Could not pipe the contents of this KNotes into:\n"
-#~ " %s"
-#~ msgstr ""
-#~ "Impossible de rediriger le contenu de ces KNotes vers:\n"
-#~ " %s"
-
-#~ msgid "Mail:"
-#~ msgstr "Cmd. e-mail:"
-
-#~ msgid "You can't delete the last KNote."
-#~ msgstr "Vous ne pouvez supprimer la dernière KNote"
-
-#~ msgid "Mail Note to:"
-#~ msgstr "Expédier la note à:"
-
-#~ msgid "Subject:"
-#~ msgstr "Sujet"
-
-#~ msgid "Mail"
-#~ msgstr "Expédier"
-
-#~ msgid "You must specify a Recipient"
-#~ msgstr "Vous devez spécifier un destinataire"

@@ -3,10 +3,12 @@
 Comment[C]=LaserJet Control
 Comment[fi]=LaserJet hallinta
 Comment[pl]=Konfiguracja LasetJet
+Comment[fr]=Contrôle de l'imprimante LaserJet
 BinaryPattern=ljettool;
 Protocols=
 Name[C]=KLaserJet
 Name[pl]=KLaserJet
+Name[fr]=Contrôle LaserJet
 MimeType=
 Comment=
 DocPath=kljettool/kljettool.html

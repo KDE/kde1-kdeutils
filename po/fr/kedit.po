@@ -1,12 +1,17 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
-"Content-Type: text/plain; charset=\n"
-"Date: 1997-11-16 17:41:32+0100\n"
-"From: didier Belot <dib@avo.fr>\n"
-"Xgettext-Options: -C --keyword=translate -x ../../kdelibs/po/kde.pot\n"
-"Files: kedit.cpp KEdit.cpp print.cpp filldlg.cpp mail.cpp about.cpp "
-"urldlg.cpp\n"
+"Project-Id-Version: kedit\n"
+"PO-Revision-Date: 1998-01-25 22:25 CET\n"
+"Last-Translator: Didier Belot <dib@avo.fr>\n"
+"Last-Translator: Bertrand leconte <B.Leconte@mail.dotcom.fr>\n"
+"Language-Team: Français\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; \n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: kedit.cpp:83 kedit.cpp:1019
 msgid "Show &Tool Bar"
@@ -26,11 +31,11 @@ msgstr "Cacher la barre d'état"
 
 #: kedit.cpp:152
 msgid "Select All"
-msgstr "Selectionner tout"
+msgstr "Sélectionner tout"
 
 #: kedit.cpp:183
 msgid "&About..."
-msgstr "A &propos"
+msgstr "A &propos..."
 
 #: kedit.cpp:187
 msgid "Ne&w..."
@@ -61,7 +66,6 @@ msgid "&Select All"
 msgstr "&Selectionner tout"
 
 #: kedit.cpp:231
-#, fuzzy
 msgid "&Insert File"
 msgstr "Insérer un &fichier"
 
@@ -94,13 +98,12 @@ msgid "Colors"
 msgstr "Couleurs"
 
 #: kedit.cpp:251
-#, fuzzy
 msgid "KEdit &Options..."
-msgstr "Options diverses..."
+msgstr "Options..."
 
 #: kedit.cpp:253
 msgid "Auto &Indent"
-msgstr "Indentation auto"
+msgstr "Indentation automatique"
 
 #: kedit.cpp:256
 msgid "&Tool Bar"
@@ -136,11 +139,11 @@ msgstr "Expédier le document"
 
 #: kedit.cpp:534
 msgid "Open Location:"
-msgstr "Ouvrir l'URL:"
+msgstr "Ouvrir l'URL :"
 
 #: kedit.cpp:548
 msgid "Save to Location:"
-msgstr "Enregistrer à l'URL"
+msgstr "Enregistrer à l'emplacement :"
 
 #: kedit.cpp:574 kedit.cpp:637 kedit.cpp:666 kedit.cpp:729 kedit.cpp:1123
 msgid "Message"
@@ -160,7 +163,7 @@ msgid ""
 "Exit anyways?"
 msgstr ""
 "Impossible d'enregistrer le fichier.\n"
-"Voulez vous quand même quitter ?"
+"Voulez-vous quand même quitter ?"
 
 #: kedit.cpp:638
 msgid ""
@@ -169,7 +172,7 @@ msgid ""
 "Quit anyways?"
 msgstr ""
 "Il y a des fenêtres avec des modifications non enregistrées.\n"
-"Si vous quittez maintenant, les modifications seront perdues .\n"
+"Si vous quittez maintenant, les modifications seront perdues.\n"
 "Voulez-vous quand même quitter ?"
 
 #: kedit.cpp:667
@@ -183,7 +186,7 @@ msgstr ""
 #: kedit.cpp:808
 #, c-format
 msgid "Wrote: %s"
-msgstr "Ecrit: %s"
+msgstr "Ecrit : %s"
 
 #: kedit.cpp:814
 msgid "No changes need to be saved"
@@ -192,7 +195,7 @@ msgstr "Aucun changement nécessitant d'être enregistré"
 #: kedit.cpp:833
 #, c-format
 msgid "Saved as: %s"
-msgstr "Enregistré sous: %s"
+msgstr "Enregistré sous : %s"
 
 #: kedit.cpp:866
 #, c-format
@@ -205,16 +208,16 @@ msgstr ""
 
 #: kedit.cpp:960
 msgid "Auto Indent Mode: On"
-msgstr "Indentation auto: actif"
+msgstr "Indentation automatique : active"
 
 #: kedit.cpp:962
 msgid "Auto Indent Mode: Off"
-msgstr "Indentation auto: inactif"
+msgstr "Indentation automatique : inactive"
 
 #: kedit.cpp:1058
 #, c-format
 msgid "Line: %d Col: %d"
-msgstr "Lig.: %d Col.: %d"
+msgstr "Ligne : %d  Colonne : %d"
 
 #: kedit.cpp:1124
 msgid ""
@@ -237,22 +240,22 @@ msgstr ""
 #: kedit.cpp:1235
 #, c-format
 msgid "Printing: %s Untitled (Selection)"
-msgstr "Impression: %s Sans nom (Sélection)"
+msgstr "Impression : %s Sans nom (Sélection)"
 
 #: kedit.cpp:1238
 #, c-format
 msgid "Printing: %s Untitled"
-msgstr "Impression: %s Sans nom"
+msgstr "Impression : %s Sans nom"
 
 #: kedit.cpp:1276
 #, c-format
 msgid "Printing: %s"
-msgstr "Impression: %s"
+msgstr "Impression : %s"
 
 #: kedit.cpp:1286
 #, c-format
 msgid "Printing: %s %s (Selection)"
-msgstr "Impression: %s % (sélection)"
+msgstr "Impression : %s %s (Sélection)"
 
 #: kedit.cpp:1310
 msgid "Saving ..."
@@ -331,7 +334,7 @@ msgid ""
 "Can not create:\n"
 "%s"
 msgstr ""
-"Impossible de créér:\n"
+"Impossible de créer :\n"
 "%s"
 
 #: print.cpp:66
@@ -344,40 +347,39 @@ msgstr "Imprimer en utilisant lpr directement"
 
 #: print.cpp:75
 msgid "Print using Command:"
-msgstr "Imprimer en utilisant la commande:"
+msgstr "Imprimer en utilisant la commande: "
 
 #: print.cpp:93
 msgid "Print Selection"
 msgstr "Imprimer la sélection"
 
 #: filldlg.cpp:31
-#, fuzzy
 msgid "KEdit Options"
-msgstr "&Options"
+msgstr "Options"
 
 #: filldlg.cpp:36
 msgid "Set Fill-Column at:"
-msgstr "Largeur colonne:"
+msgstr "Largeur colonne :"
 
 #: filldlg.cpp:40
 msgid "Word Warp"
-msgstr "Césure auto"
+msgstr "Césure automatique"
 
 #: filldlg.cpp:44
 msgid "Mail Command:"
-msgstr "Cmd E-Mail:"
+msgstr "Commande d'expédition :"
 
 #: filldlg.cpp:135
 msgid "You must enter an integer."
-msgstr "Vous devez entrer un Nombre."
+msgstr "Vous devez entrer un nombre."
 
 #: mail.cpp:37
 msgid "Mail Document to:"
-msgstr "Expédier le document à:"
+msgstr "Expédier le document à :"
 
 #: mail.cpp:55
 msgid "Subject:"
-msgstr "Sujet:"
+msgstr "Sujet :"
 
 #: mail.cpp:57
 msgid "Mail"
@@ -386,201 +388,3 @@ msgstr "Expédier"
 #: mail.cpp:96
 msgid "You must specify a Recipient"
 msgstr "Vous devez spécifier un destinataire"
-
-#~ msgid "The specified File does not exist"
-#~ msgstr "Le fichier spécifié n'existe pas"
-
-#~ msgid "Sorry:"
-#~ msgstr "Désolé"
-
-#~ msgid "You have specificated a directory"
-#~ msgstr "Vous avez spécifié un répertoire"
-
-#~ msgid "You do not have read permission to this file."
-#~ msgstr "Vous n'avez pas de permission de lecture pour ce fichier"
-
-#~ msgid "An Error occured while trying to open this Document"
-#~ msgstr "Une erreure est survenue pendant la lecture de ce document"
-
-#~ msgid "Select Document to Insert"
-#~ msgstr "Choisissez le document à inclure"
-
-#~ msgid "Warning:"
-#~ msgstr "Attention:"
-
-#~ msgid ""
-#~ "The current Document has been modified.\n"
-#~ "Would you like to save it?"
-#~ msgstr ""
-#~ "Le document actuel a été modifié.\n"
-#~ "Voulez vous l'enregistrer ?"
-
-#~ msgid ""
-#~ "Could not save the document.\n"
-#~ "Open a new document anyways?"
-#~ msgstr ""
-#~ "Impossible d'enregistrer le document.\n"
-#~ "Voulez-vous néanmoins ouvrir un nouveau document?"
-
-#~ msgid "Select Document to Open"
-#~ msgstr "Choisissez le document à ouvrir"
-
-#~ msgid ""
-#~ "Could not save the document.\n"
-#~ "Create a new document anyways?"
-#~ msgstr ""
-#~ "Impossible d'enregistrer le document.\n"
-#~ "Voulez-vous néanmoins créer un nouveau document?"
-
-#~ msgid "Could not save the document\n"
-#~ msgstr "Impossible d'enregistrer le document\n"
-
-#~ msgid "Save Document As"
-#~ msgstr "Enregistrer le document sous"
-
-#~ msgid ""
-#~ "A Document with this Name exists already\n"
-#~ "Do you want to overwrite it ?"
-#~ msgstr ""
-#~ "Un document avec ce nom existe déjà\n"
-#~ "Voulez vous l'écraser ?"
-
-#, fuzzy
-#~ msgid "You do not have write permission to this file.\n"
-#~ msgstr ""
-#~ "Vous n'avez pas les permissions nécessaire pour modifier ce fichier.\n"
-
-#~ msgid "Find"
-#~ msgstr "Chercher"
-
-#~ msgid ""
-#~ "End of document reached.\n"
-#~ "Continue from the beginning?"
-#~ msgstr ""
-#~ "La fin du document est atteinte.\n"
-#~ "Recommencer depuis le début ?"
-
-#~ msgid ""
-#~ "Beginning of document reached.\n"
-#~ "Continue from the end?"
-#~ msgstr ""
-#~ "Le début du document est atteint.\n"
-#~ "Recommencer depuis la fin ?"
-
-#~ msgid "Replace"
-#~ msgstr "Remplacer"
-
-#~ msgid "Case Sensitive"
-#~ msgstr "diff. Maj/min"
-
-#~ msgid "Find Backwards"
-#~ msgstr "En arrière"
-
-#~ msgid "Find:"
-#~ msgstr "Chercher:"
-
-#~ msgid "Replace with:"
-#~ msgstr "Remplacer avec:"
-
-#~ msgid "Replace All"
-#~ msgstr "Remplacer tout"
-
-#~ msgid "Goto Line"
-#~ msgstr "Aller à la ligne"
-
-#~ msgid "Go"
-#~ msgstr "Aller"
-
-#~ msgid "&Open..."
-#~ msgstr "&Ouvrir..."
-
-#~ msgid "Open..."
-#~ msgstr "Ouvrir..."
-
-#~ msgid "Save as..."
-#~ msgstr "Enregistrer sous..."
-
-#~ msgid "Copy"
-#~ msgstr "Copier"
-
-#~ msgid "Paste"
-#~ msgstr "Coller"
-
-#~ msgid "Cut"
-#~ msgstr "Couper"
-
-#~ msgid "Font"
-#~ msgstr "Polices"
-
-#~ msgid "&Foreground Color"
-#~ msgstr "Couleur d'avant plan"
-
-#~ msgid "&Background Color"
-#~ msgstr "Couleur d'arrière plan"
-
-#~ msgid "&Help"
-#~ msgstr "&Aide"
-
-#~ msgid "&Save"
-#~ msgstr "&Enregistrer"
-
-#~ msgid "S&ave as..."
-#~ msgstr "Enregistrer &sous..."
-
-#~ msgid "&Close"
-#~ msgstr "&Fermer"
-
-#~ msgid "&Print..."
-#~ msgstr "Im&primer"
-
-#~ msgid "E&xit"
-#~ msgstr "&Quitter"
-
-#~ msgid "&Copy"
-#~ msgstr "&Copier"
-
-#~ msgid "&Paste"
-#~ msgstr "Co&ller"
-
-#~ msgid "C&ut"
-#~ msgstr "Co&uper"
-
-#~ msgid "&File"
-#~ msgstr "&Fichier"
-
-#~ msgid "&Edit"
-#~ msgstr "&Edition"
-
-#~ msgid "&Options"
-#~ msgstr "&Options"
-
-#~ msgid "Done"
-#~ msgstr "Terminé"
-
-#~ msgid "Sorry"
-#~ msgstr "Désolé"
-
-#, fuzzy
-#~ msgid "Could not Save the Changes\n"
-#~ msgstr "Impossible d'enregistrer le document\n"
-
-#, fuzzy
-#~ msgid "Saved: %s"
-#~ msgstr "Enregistré sous: %s"
-
-#, fuzzy
-#~ msgid "Saved"
-#~ msgstr "&Enregistrer"
-
-#, fuzzy
-#~ msgid ""
-#~ "You have do not have Permission to \n"
-#~ "read this Document"
-#~ msgstr "Vous n'avez pas de permission de lecture pour ce fichier"
-
-#, fuzzy
-#~ msgid "Could not Save the Document"
-#~ msgstr "Impossible d'enregistrer le document\n"
-
-#~ msgid "Miscellaneous Options"
-#~ msgstr "Options diverses"
