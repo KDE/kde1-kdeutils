@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: knotes\n"
 "POT-Creation-Date: 1998-10-30 12:45+0100\n"
 "PO-Revision-Date: 1998-11-13 19:17+01\n"
-"Translator: Stephan Kulow <coolo@kde.org>\n"
 "Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
+"Translator: Stephan Kulow <coolo@kde.org>\n"
 
 #: kedit.cpp:85 kedit.cpp:1091
 msgid "Show &Tool Bar"
