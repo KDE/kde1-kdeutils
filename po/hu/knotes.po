@@ -1,32 +1,35 @@
+# KTranslator Generated File
+
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-03-09 01:44+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 1999-08-27 01:21+0200\n"
+"PO-Revision-Date: Wed Sep 1 1999 14:37:45+0200\n"
+"Last-Translator: Marcell Lengyel <miketkf@yahoo.com>\n"
+"Language-Team: Hungarian <kde-lista@sophia.jpte.hu>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Type: text/plain; charset=iso8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KTranslator v 0.5.0"
 
 #: knotes.cpp:265
 msgid "Hello"
-msgstr ""
+msgstr "Helló"
 
 #: knotes.cpp:303
-#, fuzzy
+#
 msgid "Text Color..."
-msgstr "Szöveg színe"
+msgstr "Szöveg színe..."
 
 #: knotes.cpp:304
-#, fuzzy
+#
 msgid "Background Color..."
-msgstr "Háttér színe"
+msgstr "Háttér színe..."
 
 #: knotes.cpp:310
 msgid "New Note"
@@ -37,9 +40,9 @@ msgid "Delete Note"
 msgstr "Cetli törlése"
 
 #: knotes.cpp:314
-#, fuzzy
+#
 msgid "Rename Note..."
-msgstr "Cetli átnevezése"
+msgstr "Cetli átnevezése..."
 
 #: knotes.cpp:316
 msgid "Alarm ..."
@@ -58,9 +61,9 @@ msgid "Print Note"
 msgstr "Cetli nyomtatása"
 
 #: knotes.cpp:326
-#, fuzzy
+#
 msgid "Save Notes"
-msgstr "Új cetli"
+msgstr "Cetlik mentése"
 
 #: knotes.cpp:332
 msgid "3D Frame"
@@ -71,9 +74,9 @@ msgid "Auto Indent"
 msgstr "Auto-behúzás"
 
 #: knotes.cpp:336
-#, fuzzy
+#
 msgid "Font..."
-msgstr "Font"
+msgstr "Betûtípus..."
 
 #: knotes.cpp:337
 msgid "Colors"
@@ -85,7 +88,7 @@ msgstr "Alapért. változtatása..."
 
 #: knotes.cpp:340
 msgid "Dock in panel"
-msgstr ""
+msgstr "Panelba dokkolás"
 
 #: knotes.cpp:368
 msgid "Insert Date"
@@ -98,7 +101,7 @@ msgstr "Tevékenységek"
 #: knotes.cpp:445 knotes.cpp:449 knotes.cpp:618 knotes.cpp:845 knotes.cpp:849
 #: timer.cpp:87 timer.cpp:110
 msgid "Note: "
-msgstr ""
+msgstr "Jegyzet: "
 
 #: knotes.cpp:477
 msgid ""
@@ -122,7 +125,7 @@ msgstr ""
 " %s-be."
 
 #: knotes.cpp:717
-#, fuzzy
+#
 msgid ""
 "You have exeeded the arbitrary and unjustly set limit of 50 knotes.\n"
 " Please complain to the author."
@@ -147,7 +150,9 @@ msgstr ""
 msgid ""
 "Could not load:\n"
 " %s"
-msgstr "Nem tudtam betölteni a%s -t... A francba!"
+msgstr ""
+"Nem tudtam betölteni:\n"
+"%s"
 
 #: knotes.cpp:1331
 msgid "KNotes Configuraton"
@@ -167,6 +172,16 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
+"Cetlik %s\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@math.cornell.edu\n"
+"wuebben@kde.org\n"
+"Copyright (C) 1997\n"
+"\n"
+"Társszerzõk:\n"
+"Matthias Ettrich <ettrich@kde.org>\n"
+"\n"
+"\n"
 
 #: configdlg.cpp:46 knotes.cpp:1375
 msgid "Defaults"
@@ -209,7 +224,7 @@ msgid ""
 "I will correct the Problem for you."
 msgstr ""
 "Hopp, itt kis bibi van,\n"
-"ehhez az elõjelzéshez nem tartozik file\n"
+"ehhez az elõjelzéshez nem tartozik fájl\n"
 "(%s kéne hogy legyen).\n"
 "Mire ezt olvasod, már rég kijavítottam a hibát."
 
@@ -251,7 +266,7 @@ msgstr "Alapértelmezett font beállítása"
 
 #: fontdlg.cpp:54
 msgid "Family:"
-msgstr ""
+msgstr "Család:"
 
 #: fontdlg.cpp:64
 msgid "Point Size:"
@@ -259,37 +274,37 @@ msgstr "Betû mérete:"
 
 #: fontdlg.cpp:75
 msgid "Style:"
-msgstr ""
+msgstr "Stílus:"
 
 #: fontdlg.cpp:87
-#, fuzzy
+#
 msgid "Weight:"
 msgstr "Magasság:"
 
 #: fontdlg.cpp:93 fontdlg.cpp:117 fontdlg.cpp:150
 msgid "Bold"
-msgstr ""
+msgstr "Félkövér"
 
 #: fontdlg.cpp:95 fontdlg.cpp:119 fontdlg.cpp:152
 msgid "Normal"
-msgstr ""
+msgstr "Normál"
 
 #: mail.cpp:40
-#, fuzzy
+#
 msgid "Mail Note to:"
-msgstr "Cetli feladása..."
+msgstr "Cetli feladása:"
 
 #: mail.cpp:49
 msgid "Subject:"
-msgstr ""
+msgstr "Tárgy:"
 
 #: mail.cpp:51
 msgid "Mail"
-msgstr ""
+msgstr "Feladás"
 
 #: mail.cpp:92
 msgid "You must specify a Recipient"
-msgstr ""
+msgstr "Meg kell adni egy címzettet"
 
 #
 # Translation (C) 1997, John Zero <johnzero@telnet.hu> GNU GPL
@@ -297,7 +312,7 @@ msgstr ""
 #: alarm.cpp:58
 #, c-format
 msgid "Alarm Timer for: %s"
-msgstr "Elõjelzés:"
+msgstr "Elõjelzés: %s"
 
 #: alarm.cpp:72
 msgid "Unset"
@@ -329,11 +344,11 @@ msgstr "Idõ:"
 
 #: bwdatetime.cpp:85
 msgid "AM"
-msgstr ""
+msgstr "De"
 
 #: bwdatetime.cpp:86
 msgid "PM"
-msgstr ""
+msgstr "Du"
 
 #: bwdatetime.cpp:161
 msgid "The Time you selected is invalid"
@@ -369,21 +384,21 @@ msgstr ""
 "Légyszives valami más nevet válassz"
 
 #: docking.cpp:48
-#, fuzzy, c-format
+#, c-format
 msgid "Could not load %s !"
-msgstr "Nem tudtam betölteni a%s -t... A francba!"
+msgstr "Nem tudtam betölteni a %s -t.!"
 
 #: docking.cpp:68
-#, fuzzy
+#
 msgid "Change Defaults"
 msgstr "Alapért. változtatása..."
 
 #: docking.cpp:73
 msgid "Exit Knotes"
-msgstr ""
+msgstr "Kilépés"
 
 #: docking.cpp:92
-#, fuzzy
+#
 msgid "New Knote"
 msgstr "Új cetli"
 
