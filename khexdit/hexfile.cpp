@@ -32,7 +32,7 @@ void HexFile::init() {
     sideEdit = LEFT;
     pixmap=new QPixmap();
     dispFont=new QFont("courier", 14);
-    filename = NULL;
+    filename = 0L;
     setFont(*dispFont);
     setBackgroundColor( QColor( 220, 220, 220));
     metrics = new QFontMetrics(fontMetrics());
@@ -61,6 +61,15 @@ void HexFile::init() {
     show();
 }
 
+HexFile::~HexFile() {
+    delete dispFont;
+    delete pixmap;
+    delete metrics;
+    delete scrollV;
+    delete scrollH;
+    delete [] filename;
+}
+
 const char* HexFile::Title() {
     return filename;
 }
@@ -77,8 +86,8 @@ int HexFile::save() {
 
 void HexFile::setFileName(const char *Filename) {
     delete [] filename;
-    filename=new char[strlen(Filename)+1];
-    strcpy(this->filename,Filename);
+    filename = new char[strlen(Filename)+1];
+    strcpy(this->filename, Filename);
 }
 
 bool HexFile::open(const char *Filename) {
@@ -92,14 +101,13 @@ bool HexFile::open(const char *Filename) {
 	return false;
     }
     delete [] filename;
-    filename=new char[strlen(Filename)+1];
+    filename = new char[strlen(Filename)+1];
     strcpy(this->filename,Filename);
     char *data=new char[file.size()];
     file.readBlock(data,file.size());
     hexdata.duplicate(data,file.size());
     calcScrolls();
-    if (data)
-      delete [] data;
+    delete [] data;
     fillPixmap();
     repaint( false );
     modified = false;
@@ -321,8 +329,7 @@ void HexFile::fillPixmap() {
     int w=0,x;
     char buffer[17];
     char txt[2]=" ";
-    QPainter p;
-    p.begin(pixmap);
+    QPainter p(pixmap);
     p.setFont(*dispFont);
     pixmap->fill(QColor( 220, 220, 220));
     char number[8];
@@ -425,7 +432,6 @@ void HexFile::fillPixmap() {
 	} else break;
     }
     p.drawLine(LineOffset,0,LineOffset,height());
-    p.end();
 }
 
 void HexFile::paintEvent(QPaintEvent *p) {
