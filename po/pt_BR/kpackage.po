@@ -376,7 +376,7 @@ msgstr "Procurar Pacote"
 
 #: search.cpp:31
 msgid "Sub string"
-msgstr "Sub string"
+msgstr "Fragmento de texto"
 
 #: search.cpp:38
 msgid "Wrap search"
