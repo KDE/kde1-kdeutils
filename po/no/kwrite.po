@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/kwrite\n"
-"POT-Creation-Date: 1998-11-25 01:48+0100\n"
+"POT-Creation-Date: 1998-12-16 01:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -13,99 +13,99 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: highlight.cpp:1427
+#: highlight.cpp:1447
 msgid "Normal:"
 msgstr "Normal:"
 
-#: highlight.cpp:1437 kwdialog.cpp:416
+#: highlight.cpp:1457 kwdialog.cpp:416
 msgid "Selected:"
 msgstr "Valgt:"
 
-#: highlight.cpp:1444
+#: highlight.cpp:1464
 msgid "Bold"
 msgstr "Uthevet"
 
-#: highlight.cpp:1495
+#: highlight.cpp:1515
 msgid "Family:"
 msgstr "Familie:"
 
-#: highlight.cpp:1505
+#: highlight.cpp:1525
 msgid "Size:"
 msgstr "Størrelse"
 
-#: highlight.cpp:1603
+#: highlight.cpp:1623
 msgid "Default Item Styles"
 msgstr "Standard stil"
 
-#: highlight.cpp:1607 highlight.cpp:1678
+#: highlight.cpp:1627 highlight.cpp:1698
 msgid "Item:"
 msgstr "Item:"
 
-#: highlight.cpp:1625
+#: highlight.cpp:1645
 msgid "Default Font"
 msgstr "Standard skrifttype"
 
-#: highlight.cpp:1662
+#: highlight.cpp:1682
 msgid "Config Select"
 msgstr "Konfigurer valg"
 
-#: highlight.cpp:1666
+#: highlight.cpp:1686
 msgid "Highlight:"
 msgstr "Opplysing:"
 
-#: highlight.cpp:1685
+#: highlight.cpp:1705
 msgid "Highlight Auto Select"
 msgstr "Velg opplysingstype automatisk"
 
-#: highlight.cpp:1689
+#: highlight.cpp:1709
 msgid "File Extensions:"
 msgstr "Etternavn på fil:"
 
-#: highlight.cpp:1696
+#: highlight.cpp:1716
 msgid "Mime Types:"
 msgstr "Mime-typer:"
 
-#: highlight.cpp:1703
+#: highlight.cpp:1723
 msgid "Item Style"
 msgstr "Item-stil"
 
-#: highlight.cpp:1712
+#: highlight.cpp:1732
 msgid "Item Font"
 msgstr "Item-skrifttype"
 
-#: kwview.cpp:1073
+#: kwview.cpp:1074
 msgid "The specified File does not exist"
 msgstr "Den oppgitte filen eksisterer ikke"
 
-#: kwview.cpp:1083
+#: kwview.cpp:1084
 msgid "You have specified a directory"
 msgstr "Du har oppgitt en katalog"
 
-#: kwview.cpp:1093
+#: kwview.cpp:1094
 msgid "You do not have read permission to this file"
 msgstr "Du har ikke lesetilgang til denen filen"
 
-#: kwview.cpp:1109 kwview.cpp:1139
+#: kwview.cpp:1110 kwview.cpp:1140
 msgid "An Error occured while trying to open this Document"
 msgstr "En feil oppstod under åpning av dokumentet"
 
-#: kwview.cpp:1123
+#: kwview.cpp:1124
 msgid "You do not have write permission to this file"
 msgstr "Du har ikke tilgang til denne filen"
 
-#: kwview.cpp:1176
+#: kwview.cpp:1177
 msgid "Loading..."
 msgstr "Laster"
 
-#: kwview.cpp:1184 kwview.cpp:1305
+#: kwview.cpp:1185 kwview.cpp:1306
 msgid "Inserted"
 msgstr "Satt inn"
 
-#: kwview.cpp:1189 kwview.cpp:1314
+#: kwview.cpp:1190 kwview.cpp:1315
 msgid "Read"
 msgstr "Les"
 
-#: kwview.cpp:1198 kwview.cpp:1256
+#: kwview.cpp:1199 kwview.cpp:1257
 msgid ""
 "KWrite is already waiting\n"
 "for an internet job to finish\n"
@@ -117,23 +117,23 @@ msgstr ""
 "Vennligst vent til den er fullført.\n"
 "Eventuelt kan du stoppe den som kjører."
 
-#: kwview.cpp:1206 kwview.cpp:1264
+#: kwview.cpp:1207 kwview.cpp:1265
 msgid "Waiting for KFM..."
 msgstr "Venter på KFM..."
 
-#: kwview.cpp:1212 kwview.cpp:1277
+#: kwview.cpp:1213 kwview.cpp:1278
 msgid "Could not start or find KFM"
 msgstr "Kunne ikke starte eller finne KFM"
 
-#: kwview.cpp:1239
+#: kwview.cpp:1240
 msgid "Saving..."
 msgstr "Lagrer..."
 
-#: kwview.cpp:1247 kwview.cpp:1324
+#: kwview.cpp:1248 kwview.cpp:1325
 msgid "Wrote"
 msgstr "Skrev"
 
-#: kwview.cpp:1350
+#: kwview.cpp:1351
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -141,7 +141,7 @@ msgstr ""
 "Gjeldende dokument har blitt endret.\n"
 "Vil du lagre?"
 
-#: kwview.cpp:1361
+#: kwview.cpp:1362
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -149,11 +149,11 @@ msgstr ""
 "Kunne ikke lagre dokumentet.\n"
 "Åpne et nytt dokument likevel?"
 
-#: kwview.cpp:1408
+#: kwview.cpp:1409
 msgid "No changes need to be saved"
 msgstr "Ingen endringer som må lagres"
 
-#: kwview.cpp:1429
+#: kwview.cpp:1430
 msgid ""
 "A Document with this Name already exists.\n"
 "Do you want to overwrite it?"
@@ -161,35 +161,35 @@ msgstr ""
 "Et dokument med dette navnet eksisterer allerede.\n"
 "Vil du overskrive?"
 
-#: kwview.cpp:1632 kwview.cpp:1820
+#: kwview.cpp:1633 kwview.cpp:1821
 msgid "End of document reached"
 msgstr "Slutten av dokumentet nådd"
 
-#: kwview.cpp:1633 kwview.cpp:1821
+#: kwview.cpp:1634 kwview.cpp:1822
 msgid "Continue from the beginning"
 msgstr "Fortsett fra starten"
 
-#: kwview.cpp:1635 kwview.cpp:1646 kwview.cpp:1656
+#: kwview.cpp:1636 kwview.cpp:1647 kwview.cpp:1657
 msgid "Find"
 msgstr "Finn"
 
-#: kwview.cpp:1643 kwview.cpp:1832
+#: kwview.cpp:1644 kwview.cpp:1833
 msgid "Beginning of document reached"
 msgstr "Starten av dokumentet ble nådd"
 
-#: kwview.cpp:1644 kwview.cpp:1833
+#: kwview.cpp:1645 kwview.cpp:1834
 msgid "Continue from the end"
 msgstr "Fortsett fra slutten"
 
-#: kwview.cpp:1657
+#: kwview.cpp:1658
 msgid "Search string not found!"
 msgstr "Søkestreng ikke funnet!"
 
-#: kwview.cpp:1805 kwview.cpp:1819 kwview.cpp:1831
+#: kwview.cpp:1806 kwview.cpp:1820 kwview.cpp:1832
 msgid "replace(s) made"
 msgstr "ersatninger gjort"
 
-#: kwview.cpp:1946 toplevel.cpp:489
+#: kwview.cpp:1947 toplevel.cpp:486
 msgid "Line"
 msgstr "Linje"
 
@@ -289,7 +289,7 @@ msgstr "&Fast merking"
 msgid "&Multiple Selections"
 msgstr "&Flere valg"
 
-#: kwdialog.cpp:293 toplevel.cpp:250
+#: kwdialog.cpp:293 toplevel.cpp:247
 msgid "&Vertical Selections"
 msgstr "&Vertikalt valg"
 
@@ -329,11 +329,11 @@ msgstr "Funnet:"
 msgid "Selected + Found:"
 msgstr "Valgt og funnet:"
 
-#: toplevel.cpp:121
+#: toplevel.cpp:118
 msgid "Message"
 msgstr "Melding"
 
-#: toplevel.cpp:122
+#: toplevel.cpp:119
 msgid ""
 "This Document has been modified.\n"
 "Would you like to save it?"
@@ -341,126 +341,126 @@ msgstr ""
 "Dette dokumentet har blitt endret.\n"
 "Vil du lagre det?"
 
-#: toplevel.cpp:180
+#: toplevel.cpp:177
 msgid "Ne&w..."
 msgstr "&Ny..."
 
-#: toplevel.cpp:182
+#: toplevel.cpp:179
 msgid "&Insert..."
 msgstr "&Sett inn..."
 
-#: toplevel.cpp:197
+#: toplevel.cpp:194
 msgid "New &Window"
 msgstr "Nytt &vindu"
 
-#: toplevel.cpp:198
+#: toplevel.cpp:195
 msgid "New &View"
 msgstr "Ny &visning"
 
-#: toplevel.cpp:207
+#: toplevel.cpp:204
 msgid "&Find..."
 msgstr "&Finn..."
 
-#: toplevel.cpp:208
+#: toplevel.cpp:205
 msgid "&Replace..."
 msgstr "&Erstatt..."
 
-#: toplevel.cpp:209
+#: toplevel.cpp:206
 msgid "Find &Again"
 msgstr "Finn &igjen"
 
-#: toplevel.cpp:210
+#: toplevel.cpp:207
 msgid "&Goto Line..."
 msgstr "&Gå til linje..."
 
-#: toplevel.cpp:212
+#: toplevel.cpp:209
 msgid "U&ndo"
 msgstr "&Angre"
 
-#: toplevel.cpp:213
+#: toplevel.cpp:210
 msgid "R&edo"
 msgstr "&Gjør om"
 
-#: toplevel.cpp:215
+#: toplevel.cpp:212
 msgid "&Indent"
 msgstr "&Inntrykk"
 
-#: toplevel.cpp:216
+#: toplevel.cpp:213
 msgid "Uninden&t"
 msgstr "F&jern innrykk"
 
-#: toplevel.cpp:220
+#: toplevel.cpp:217
 msgid "&Select All"
 msgstr "&Merk alt"
 
-#: toplevel.cpp:221
+#: toplevel.cpp:218
 msgid "&Deselect All"
 msgstr "&Fjern merking"
 
-#: toplevel.cpp:222
+#: toplevel.cpp:219
 msgid "In&vert Selection"
 msgstr "&Rykk inn merket tekst"
 
-#: toplevel.cpp:227
+#: toplevel.cpp:224
 msgid "&Set Bookmark..."
 msgstr "&Sett bokmerker..."
 
-#: toplevel.cpp:228
+#: toplevel.cpp:225
 msgid "&Add Bookmark"
 msgstr "&Legg til bokmerker"
 
-#: toplevel.cpp:229
+#: toplevel.cpp:226
 msgid "&Clear Bookmarks"
 msgstr "&Nullstill bokmerker"
 
-#: toplevel.cpp:241
+#: toplevel.cpp:238
 msgid "Set Highlight"
 msgstr "Sett opplysingstype"
 
-#: toplevel.cpp:243
+#: toplevel.cpp:240
 msgid "&Defaults..."
 msgstr "&Standard..."
 
-#: toplevel.cpp:244
+#: toplevel.cpp:241
 msgid "&Highlight..."
 msgstr "&Opplysning..."
 
-#: toplevel.cpp:247
+#: toplevel.cpp:244
 msgid "&Options..."
 msgstr "&Valg..."
 
-#: toplevel.cpp:248
+#: toplevel.cpp:245
 msgid "&Colors..."
 msgstr "&Farger..."
 
-#: toplevel.cpp:251
+#: toplevel.cpp:248
 msgid "Show &Toolbar"
 msgstr "Vis &verktøylinje"
 
-#: toplevel.cpp:252
+#: toplevel.cpp:249
 msgid "Show &Statusbar"
 msgstr "Vis &statuslinje"
 
-#: toplevel.cpp:253
+#: toplevel.cpp:250
 msgid "Save Config"
 msgstr "Lagre konfigurasjon"
 
-#: toplevel.cpp:289
+#: toplevel.cpp:286
 msgid "&Bookmarks"
 msgstr "&Bokmerker"
 
-#: toplevel.cpp:308
+#: toplevel.cpp:305
 msgid "New Document"
 msgstr "Nytt dokument"
 
-#: toplevel.cpp:312
+#: toplevel.cpp:309
 msgid "Open Document"
 msgstr "Åpne dokument"
 
-#: toplevel.cpp:316
+#: toplevel.cpp:313
 msgid "Save Document"
 msgstr "Lagre dokument"
 
-#: toplevel.cpp:490
+#: toplevel.cpp:487
 msgid "Col"
 msgstr "Kol"
