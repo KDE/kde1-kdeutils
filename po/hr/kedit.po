@@ -286,6 +286,8 @@ msgid ""
 "Malformed URL\n"
 "%s"
 msgstr ""
+"Neispravan URL\n"
+"%s"
 
 #: kedit.cpp:1430
 #, c-format
@@ -331,6 +333,8 @@ msgid ""
 "Can not create:\n"
 "%s"
 msgstr ""
+"Ne mogu stvoriti:\n"
+"%s"
 
 #: print.cpp:66
 msgid "Print Dialog"
