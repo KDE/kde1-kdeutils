@@ -1,0 +1,16 @@
+KEdit.moc
+KEdit.o
+Makefile
+about.moc
+about.o
+filldlg.moc
+filldlg.o
+kedit
+kedit.moc
+kedit.o
+mail.moc
+mail.o
+print.moc
+print.o
+urldlg.moc
+urldlg.o

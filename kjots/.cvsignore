@@ -1,0 +1,17 @@
+KJotsMain.o
+Makefile
+Makefile.in
+ReadListConf.o
+SubjList.o
+confdialog.o
+cpopmenu.o
+kjots
+mKJotsMain.o
+mSubjList.o
+main.o
+mconfdialog.o
+mcpopmenu.o
+mKJotsMain.cpp
+mSubjList.cpp
+mconfdialog.cpp
+mcpopmenu.cpp

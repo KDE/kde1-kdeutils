@@ -1,0 +1,8 @@
+.deps
+Makefile
+Makefile.in
+hexfile.moc
+hexfile.o
+hexwidget.moc
+hexwidget.o
+khexedit

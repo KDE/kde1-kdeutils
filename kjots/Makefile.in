@@ -7,7 +7,7 @@ LIBTOOL = @LIBTOOL@
 KDE_RPATH = @KDE_RPATH@
 
 CXXFLAGS  = @CXXFLAGS@ @all_includes@ -I.. -DHAVE_CONFIG_H 
-LDFLAGS   = @LDFLAGS@ @all_libraries@ -lkdeui -lkdecore -lqt -lXext -lX11 -lm
+LDFLAGS   = @LDFLAGS@ @all_libraries@ -lkdeui -lkdecore -lqt -lXext -lX11 -lm @LIBSOCKET@
 CC	  = @CXX@
 MOC	  = @MOC@
 

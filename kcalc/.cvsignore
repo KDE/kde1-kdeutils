@@ -1,0 +1,12 @@
+Makefile
+configdlg.moc
+configdlg.o
+dlabel.moc
+dlabel.o
+fontdlg.moc
+fontdlg.o
+kcalc
+kcalc.moc
+kcalc.o
+kcalc_core.o
+stats.o
