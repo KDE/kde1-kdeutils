@@ -34,7 +34,7 @@ ABTLWidget::ABTLWidget(const char* name)
       QMessageBox::critical
 	(this, i18n("Initialization failure"),
 	 i18n
-	 ("The programs menubar could not be constructed."));
+	 ("The program's menubar could not be constructed."));
       ::exit(-1);
     }
   if(!constructStatusBar())
@@ -42,7 +42,7 @@ ABTLWidget::ABTLWidget(const char* name)
       QMessageBox::critical
 	(this, i18n("Initialization failure"),
 	 i18n
-	 ("The programs statusbar could not be constructed."));
+	 ("The program's statusbar could not be constructed."));
       ::exit(-1);     
     }
   menu->show();
