@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
-"POT-Creation-Date: 1998-11-03 14:32+0100\n"
+"POT-Creation-Date: 1998-11-05 01:55+0100\n"
 "PO-Revision-Date: 1998-11-04 08:50+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -25,118 +25,129 @@ msgstr "Ulo¾it s celou cestou"
 msgid "Only Add Newer Files"
 msgstr "Pøidávat pouze novìj¹í soubory"
 
-#: extractdlg.cc:13
-msgid "Extract Options"
-msgstr "Parametry extrakce"
+#: extractdlg.cc:14
+#, fuzzy
+msgid "Extract"
+msgstr "Extrahovat ..."
 
-#: extractdlg.cc:17
+#: extractdlg.cc:28
 msgid "Destination"
 msgstr "Cílové místo"
 
-#: extractdlg.cc:33
+#: extractdlg.cc:44
+msgid "Extract Options"
+msgstr "Parametry extrakce"
+
+#: extractdlg.cc:52
 msgid "Preserve Permissions"
 msgstr "Zachovat pøístupová práva"
 
-#: extractdlg.cc:36
+#: extractdlg.cc:57
 msgid "Filenames to Lowercase"
 msgstr "Pøevést na malá písmena"
 
-#: extractdlg.cc:39
+#: extractdlg.cc:68
 msgid "All Files"
 msgstr "V¹echny"
 
-#: extractdlg.cc:42
+#: extractdlg.cc:73
 msgid "Selected File"
 msgstr "Vybrané"
 
-#: extractdlg.cc:45
+#: extractdlg.cc:78
 msgid "Pattern"
 msgstr "Maska"
 
-#: arkwidget.cc:70
+#: extractdlg.cc:190
+#, fuzzy
+msgid "Extract To"
+msgstr "Extrahovat do ..."
+
+#: arkwidget.cc:71
 msgid "&New..."
 msgstr "&Nový..."
 
-#: arkwidget.cc:73
+#: arkwidget.cc:74
 msgid "&Extract To..."
 msgstr "&Extrahovat do ..."
 
-#: arkwidget.cc:78
+#: arkwidget.cc:79
 msgid "E&xtract..."
 msgstr "E&xtrahovat ..."
 
-#: arkwidget.cc:83
+#: arkwidget.cc:84
 msgid "&Set Archive Directory..."
 msgstr "Na&stavit adresáø archivu ..."
 
-#: arkwidget.cc:84
+#: arkwidget.cc:85
 msgid "Set &Tar Executable..."
 msgstr "Nastavit program pro &Tar"
 
-#: arkwidget.cc:85
+#: arkwidget.cc:86
 msgid "&File Adding Options..."
 msgstr "Parametry &pøidání souboru ..."
 
-#: arkwidget.cc:96
+#: arkwidget.cc:97
 msgid "File Operations"
 msgstr "Operace se soubory"
 
-#: arkwidget.cc:98
+#: arkwidget.cc:99
 msgid "Extract..."
 msgstr "Extrahovat ..."
 
-#: arkwidget.cc:113
+#: arkwidget.cc:114
 msgid "Goto Archive Dir..."
 msgstr "Jít do adresáøe archivu ..."
 
-#: arkwidget.cc:116
+#: arkwidget.cc:117
 msgid "Extract To.."
 msgstr "Extrahovat do ..."
 
-#: arkwidget.cc:120
+#: arkwidget.cc:121
 msgid "Exit"
 msgstr "Ukonèit"
 
-#: arkwidget.cc:127
+#: arkwidget.cc:128
 msgid "Welcome to ark..."
 msgstr "Vítejte v programu ark ..."
 
-#: arkwidget.cc:234
+#: arkwidget.cc:235
 msgid "Can't create archive of that type"
 msgstr "Nemohu vytvoøit  archive tohoto typu"
 
-#: arkwidget.cc:256
+#: arkwidget.cc:257
 msgid "Create or open an archive first"
 msgstr "Nejprve vytvoøte nebo otevøete archiv"
 
-#: arkwidget.cc:299
+#: arkwidget.cc:300
 msgid "Can't add directories with this archive type"
 msgstr "Nemohu pøidat adresáøe s tímto typem archivu"
 
-#: arkwidget.cc:301
+#: arkwidget.cc:302
 msgid "Error saving to archive"
 msgstr "Chyba pøi ukládání do archivu"
 
-#: arkwidget.cc:311
-msgid "Archive Dir:"
+#: arkwidget.cc:312
+#, fuzzy
+msgid "Archive Dir"
 msgstr "Adresáø archivu:"
 
-#: arkwidget.cc:328
+#: arkwidget.cc:325
 msgid "What runs GNU tar:"
 msgstr "Jaký pøíkaz vykonává GNU tar:"
 
-#: arkwidget.cc:365 arkwidget.cc:567
+#: arkwidget.cc:376 arkwidget.cc:578
 msgid "Unknown archive format"
 msgstr "Neznámý formát archivu"
 
-#: arkwidget.cc:385
+#: arkwidget.cc:396
 msgid "Size"
 msgstr "Velikost"
 
-#: arkwidget.cc:391
+#: arkwidget.cc:402
 msgid "Archive directory does not exist."
 msgstr "Adresáø archivu neexistuje."
 
-#: arkwidget.cc:407
+#: arkwidget.cc:418
 msgid "Archive Directory"
 msgstr "Adresáø archivu"

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-11-03 14:32+0100\n"
+"POT-Creation-Date: 1998-11-05 01:55+0100\n"
 "PO-Revision-Date: 1998-10-18 21:59+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "First-Translator: Robert Palmbos <robertp@pbnjelly>\n"
@@ -17,124 +17,135 @@ msgstr "Guardar el directorio completo"
 msgid "Only Add Newer Files"
 msgstr "Sólo añadir archivos nuevos"
 
-#: extractdlg.cc:13
-msgid "Extract Options"
-msgstr "Opciones de extracción"
+#: extractdlg.cc:14
+#, fuzzy
+msgid "Extract"
+msgstr "E&xtraer..."
 
-#: extractdlg.cc:17
+#: extractdlg.cc:28
 msgid "Destination"
 msgstr "Destino"
 
-#: extractdlg.cc:33
+#: extractdlg.cc:44
+msgid "Extract Options"
+msgstr "Opciones de extracción"
+
+#: extractdlg.cc:52
 msgid "Preserve Permissions"
 msgstr "Conservar permisos"
 
-#: extractdlg.cc:36
+#: extractdlg.cc:57
 msgid "Filenames to Lowercase"
 msgstr "Archivos en minúsculas"
 
-#: extractdlg.cc:39
+#: extractdlg.cc:68
 msgid "All Files"
 msgstr "Todos los archivos"
 
-#: extractdlg.cc:42
+#: extractdlg.cc:73
 msgid "Selected File"
 msgstr "Archivo seleccionado"
 
-#: extractdlg.cc:45
+#: extractdlg.cc:78
 msgid "Pattern"
 msgstr "Plantilla"
 
-#: arkwidget.cc:70
+#: extractdlg.cc:190
+#, fuzzy
+msgid "Extract To"
+msgstr "&Extraer en..."
+
+#: arkwidget.cc:71
 msgid "&New..."
 msgstr "&Nuevo..."
 
-#: arkwidget.cc:73
+#: arkwidget.cc:74
 msgid "&Extract To..."
 msgstr "&Extraer en..."
 
-#: arkwidget.cc:78
+#: arkwidget.cc:79
 msgid "E&xtract..."
 msgstr "E&xtraer..."
 
-#: arkwidget.cc:83
+#: arkwidget.cc:84
 msgid "&Set Archive Directory..."
 msgstr "S&eleccionar directorio de archivos..."
 
-#: arkwidget.cc:84
+#: arkwidget.cc:85
 msgid "Set &Tar Executable..."
 msgstr "Configurar ejecutable tar..."
 
-#: arkwidget.cc:85
+#: arkwidget.cc:86
 msgid "&File Adding Options..."
 msgstr "&Opciones de añadir archivos..."
 
-#: arkwidget.cc:96
+#: arkwidget.cc:97
 #, fuzzy
 msgid "File Operations"
 msgstr "Opciones de añadir archivo"
 
-#: arkwidget.cc:98
+#: arkwidget.cc:99
 #, fuzzy
 msgid "Extract..."
 msgstr "E&xtraer..."
 
-#: arkwidget.cc:113
+#: arkwidget.cc:114
 #, fuzzy
 msgid "Goto Archive Dir..."
 msgstr "S&eleccionar directorio de archivos..."
 
-#: arkwidget.cc:116
+#: arkwidget.cc:117
 #, fuzzy
 msgid "Extract To.."
 msgstr "&Extraer en..."
 
-#: arkwidget.cc:120
+#: arkwidget.cc:121
 msgid "Exit"
 msgstr ""
 
-#: arkwidget.cc:127
+#: arkwidget.cc:128
 #, fuzzy
 msgid "Welcome to ark..."
 msgstr "Bienvenido a KZip..."
 
-#: arkwidget.cc:234
+#: arkwidget.cc:235
 msgid "Can't create archive of that type"
 msgstr "No se puede crear un archivo de ese tipo"
 
-#: arkwidget.cc:256
+#: arkwidget.cc:257
 msgid "Create or open an archive first"
 msgstr "Crear o abrir un archivo primero"
 
-#: arkwidget.cc:299
+#: arkwidget.cc:300
 msgid "Can't add directories with this archive type"
 msgstr "No se pueden añadir directorios con este tipo de archivo"
 
-#: arkwidget.cc:301
+#: arkwidget.cc:302
 msgid "Error saving to archive"
 msgstr "Error guardando en archivo"
 
-#: arkwidget.cc:311
-msgid "Archive Dir:"
+#: arkwidget.cc:312
+#, fuzzy
+msgid "Archive Dir"
 msgstr "Directiorio de archivos:"
 
-#: arkwidget.cc:328
+#: arkwidget.cc:325
 msgid "What runs GNU tar:"
 msgstr "Uso de GNU tar:"
 
-#: arkwidget.cc:365 arkwidget.cc:567
+#: arkwidget.cc:376 arkwidget.cc:578
 msgid "Unknown archive format"
 msgstr "Formato de archivo desconocido"
 
-#: arkwidget.cc:385
+#: arkwidget.cc:396
 msgid "Size"
 msgstr "Tamaño"
 
-#: arkwidget.cc:391
+#: arkwidget.cc:402
 msgid "Archive directory does not exist."
 msgstr "Directorio de archivos no existe."
 
-#: arkwidget.cc:407
+#: arkwidget.cc:418
 msgid "Archive Directory"
 msgstr "Directorio de archivos"
 

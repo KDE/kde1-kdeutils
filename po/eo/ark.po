@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ark 1.0pre2\n"
-"POT-Creation-Date: 1998-11-03 14:32+0100\n"
+"POT-Creation-Date: 1998-11-05 01:55+0100\n"
 "PO-Revision-Date: 1998-07-19 10:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -26,123 +26,134 @@ msgstr "kun plena pado"
 msgid "Only Add Newer Files"
 msgstr "nur pli novajn"
 
-#: extractdlg.cc:13
-msgid "Extract Options"
-msgstr "Elpako-opciojn"
+#: extractdlg.cc:14
+#, fuzzy
+msgid "Extract"
+msgstr "El&paku"
 
-#: extractdlg.cc:17
+#: extractdlg.cc:28
 msgid "Destination"
 msgstr "Celo"
 
-#: extractdlg.cc:33
+#: extractdlg.cc:44
+msgid "Extract Options"
+msgstr "Elpako-opciojn"
+
+#: extractdlg.cc:52
 msgid "Preserve Permissions"
 msgstr "Konservu permesojn"
 
-#: extractdlg.cc:36
+#: extractdlg.cc:57
 msgid "Filenames to Lowercase"
 msgstr "Minuskligu dosiernomojn"
 
-#: extractdlg.cc:39
+#: extractdlg.cc:68
 msgid "All Files"
 msgstr "Æiuj"
 
-#: extractdlg.cc:42
+#: extractdlg.cc:73
 msgid "Selected File"
 msgstr "Elektitaj"
 
-#: extractdlg.cc:45
+#: extractdlg.cc:78
 msgid "Pattern"
 msgstr "laý Þablono"
 
-#: arkwidget.cc:70
+#: extractdlg.cc:190
+#, fuzzy
+msgid "Extract To"
+msgstr "&Elpaku al..."
+
+#: arkwidget.cc:71
 msgid "&New..."
 msgstr ""
 
-#: arkwidget.cc:73
+#: arkwidget.cc:74
 msgid "&Extract To..."
 msgstr "&Elpaku al..."
 
-#: arkwidget.cc:78
+#: arkwidget.cc:79
 msgid "E&xtract..."
 msgstr "El&paku"
 
-#: arkwidget.cc:83
+#: arkwidget.cc:84
 msgid "&Set Archive Directory..."
 msgstr "&Difinu ar¶ivdosierujon..."
 
-#: arkwidget.cc:84
+#: arkwidget.cc:85
 msgid "Set &Tar Executable..."
 msgstr "Difinu &Tar-programon"
 
-#: arkwidget.cc:85
+#: arkwidget.cc:86
 msgid "&File Adding Options..."
 msgstr "&Dosieraldonaj opcioj..."
 
-#: arkwidget.cc:96
+#: arkwidget.cc:97
 #, fuzzy
 msgid "File Operations"
 msgstr "Aldonu dosierojn"
 
-#: arkwidget.cc:98
+#: arkwidget.cc:99
 #, fuzzy
 msgid "Extract..."
 msgstr "El&paku"
 
-#: arkwidget.cc:113
+#: arkwidget.cc:114
 #, fuzzy
 msgid "Goto Archive Dir..."
 msgstr "&Difinu ar¶ivdosierujon..."
 
-#: arkwidget.cc:116
+#: arkwidget.cc:117
 #, fuzzy
 msgid "Extract To.."
 msgstr "&Elpaku al..."
 
-#: arkwidget.cc:120
+#: arkwidget.cc:121
 msgid "Exit"
 msgstr ""
 
-#: arkwidget.cc:127
+#: arkwidget.cc:128
 #, fuzzy
 msgid "Welcome to ark..."
 msgstr "Bonvenon æe KZip"
 
-#: arkwidget.cc:234
+#: arkwidget.cc:235
 msgid "Can't create archive of that type"
 msgstr "Ne eblis krei ar¶ivon de tiu tipo"
 
-#: arkwidget.cc:256
+#: arkwidget.cc:257
 msgid "Create or open an archive first"
 msgstr "Kreu aý malfermu ar¶ivon unue"
 
-#: arkwidget.cc:299
+#: arkwidget.cc:300
 msgid "Can't add directories with this archive type"
 msgstr "Ne eblas aldoni dosierujojn æe tiu ar¶ivtipo"
 
-#: arkwidget.cc:301
+#: arkwidget.cc:302
 msgid "Error saving to archive"
 msgstr "Eraro sekurigante al ar¶ivo"
 
-#: arkwidget.cc:311
-msgid "Archive Dir:"
+#: arkwidget.cc:312
+#, fuzzy
+msgid "Archive Dir"
 msgstr "Ar¶ivo-dosierujo:"
 
-#: arkwidget.cc:328
+#: arkwidget.cc:325
 msgid "What runs GNU tar:"
 msgstr "Kio lanæas GNU-tar"
 
-#: arkwidget.cc:365 arkwidget.cc:567
+#: arkwidget.cc:376 arkwidget.cc:578
 msgid "Unknown archive format"
 msgstr "Nekonata ar¶iv-formo"
 
-#: arkwidget.cc:385
+#: arkwidget.cc:396
 msgid "Size"
 msgstr ""
 
-#: arkwidget.cc:391
+#: arkwidget.cc:402
 msgid "Archive directory does not exist."
 msgstr "Ar¶ivdosierujo ne ekzistas."
 
-#: arkwidget.cc:407
+#: arkwidget.cc:418
 msgid "Archive Directory"
 msgstr "Ar¶ivo-dosierujo"

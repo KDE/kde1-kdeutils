@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE UTILS/ark\n"
-"POT-Creation-Date: 1998-11-03 14:32+0100\n"
+"POT-Creation-Date: 1998-11-05 01:55+0100\n"
 "PO-Revision-Date: 1998-03-02 20:48+0100\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -25,124 +25,135 @@ msgstr "Lagre komplett sti"
 msgid "Only Add Newer Files"
 msgstr "Bare legg til nye filer"
 
-#: extractdlg.cc:13
-msgid "Extract Options"
-msgstr "Dra ut valg"
+#: extractdlg.cc:14
+#, fuzzy
+msgid "Extract"
+msgstr "P&akk ut..."
 
-#: extractdlg.cc:17
+#: extractdlg.cc:28
 msgid "Destination"
 msgstr "Bestemmelsessted"
 
-#: extractdlg.cc:33
+#: extractdlg.cc:44
+msgid "Extract Options"
+msgstr "Dra ut valg"
+
+#: extractdlg.cc:52
 msgid "Preserve Permissions"
 msgstr "Bevar tillatelser"
 
-#: extractdlg.cc:36
+#: extractdlg.cc:57
 msgid "Filenames to Lowercase"
 msgstr "Filnavn med små bokstaver"
 
-#: extractdlg.cc:39
+#: extractdlg.cc:68
 msgid "All Files"
 msgstr "Alle filer"
 
-#: extractdlg.cc:42
+#: extractdlg.cc:73
 msgid "Selected File"
 msgstr "Valgte filer"
 
-#: extractdlg.cc:45
+#: extractdlg.cc:78
 msgid "Pattern"
 msgstr "Mønster"
 
-#: arkwidget.cc:70
+#: extractdlg.cc:190
+#, fuzzy
+msgid "Extract To"
+msgstr "Pakk &ut til..."
+
+#: arkwidget.cc:71
 msgid "&New..."
 msgstr "&Ny..."
 
-#: arkwidget.cc:73
+#: arkwidget.cc:74
 msgid "&Extract To..."
 msgstr "Pakk &ut til..."
 
-#: arkwidget.cc:78
+#: arkwidget.cc:79
 msgid "E&xtract..."
 msgstr "P&akk ut..."
 
-#: arkwidget.cc:83
+#: arkwidget.cc:84
 msgid "&Set Archive Directory..."
 msgstr "&Sett arkiv mappe"
 
-#: arkwidget.cc:84
+#: arkwidget.cc:85
 msgid "Set &Tar Executable..."
 msgstr "Velg &Tar-programfil..."
 
-#: arkwidget.cc:85
+#: arkwidget.cc:86
 msgid "&File Adding Options..."
 msgstr "Valg for &filtillegging..."
 
-#: arkwidget.cc:96
+#: arkwidget.cc:97
 #, fuzzy
 msgid "File Operations"
 msgstr "Legg til filvalg"
 
-#: arkwidget.cc:98
+#: arkwidget.cc:99
 #, fuzzy
 msgid "Extract..."
 msgstr "P&akk ut..."
 
-#: arkwidget.cc:113
+#: arkwidget.cc:114
 #, fuzzy
 msgid "Goto Archive Dir..."
 msgstr "&Sett arkiv mappe"
 
-#: arkwidget.cc:116
+#: arkwidget.cc:117
 #, fuzzy
 msgid "Extract To.."
 msgstr "Pakk &ut til..."
 
-#: arkwidget.cc:120
+#: arkwidget.cc:121
 msgid "Exit"
 msgstr ""
 
-#: arkwidget.cc:127
+#: arkwidget.cc:128
 #, fuzzy
 msgid "Welcome to ark..."
 msgstr "Velkommen til Kzip..."
 
-#: arkwidget.cc:234
+#: arkwidget.cc:235
 msgid "Can't create archive of that type"
 msgstr "Kan ikke lage arkiv av den typen"
 
-#: arkwidget.cc:256
+#: arkwidget.cc:257
 msgid "Create or open an archive first"
 msgstr "Lag eller epne et arkiv fxrst"
 
-#: arkwidget.cc:299
+#: arkwidget.cc:300
 msgid "Can't add directories with this archive type"
 msgstr "Kan ikke legge til mapper med denne arkiv typen"
 
-#: arkwidget.cc:301
+#: arkwidget.cc:302
 msgid "Error saving to archive"
 msgstr "Feil ved lagring til arkiv"
 
-#: arkwidget.cc:311
-msgid "Archive Dir:"
+#: arkwidget.cc:312
+#, fuzzy
+msgid "Archive Dir"
 msgstr "Arkivmappe:"
 
-#: arkwidget.cc:328
+#: arkwidget.cc:325
 msgid "What runs GNU tar:"
 msgstr "Hva kjører GNU tar:"
 
-#: arkwidget.cc:365 arkwidget.cc:567
+#: arkwidget.cc:376 arkwidget.cc:578
 msgid "Unknown archive format"
 msgstr "Ukjent arkivformat"
 
-#: arkwidget.cc:385
+#: arkwidget.cc:396
 msgid "Size"
 msgstr "Størrelse"
 
-#: arkwidget.cc:391
+#: arkwidget.cc:402
 msgid "Archive directory does not exist."
 msgstr "Arkivmappe eksisterer ikke."
 
-#: arkwidget.cc:407
+#: arkwidget.cc:418
 msgid "Archive Directory"
 msgstr "Arkivmappe"
 
