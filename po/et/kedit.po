@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
-# Hasso C. Tepper <heathcliff@iname.com>, 1999.
+# Hasso Tepper <hasso@ewsound.estnet.ee>, 1999.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1999-04-09 02:19+0200\n"
-"PO-Revision-Date: 1999-01-13 HO:MI+ZONE\n"
-"Last-Translator: Hasso C. Tepper <heathcliff@iname.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 1999-06-26 HO:MI+ZONE\n"
+"Last-Translator: Hasso Tepper <hasso@ewsound.estnet.ee>\n"
+"Language-Team: Estonian <linux-ee@eenet.ee>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: ENCODING\n"
@@ -130,6 +130,11 @@ msgid ""
 "Bernd Johannes Wuebben\n"
 "wuebben@kde.org"
 msgstr ""
+"KEdit %s\n"
+"\n"
+"Copyright 1997-98\n"
+"Bernd Johannes Wuebben\n"
+"wuebben@kde.org"
 
 #: kedit.cpp:332
 msgid "New Document"
@@ -205,7 +210,7 @@ msgstr ""
 #: kedit.cpp:880
 #, c-format
 msgid "Wrote: %s"
-msgstr ""
+msgstr "Kirjutatud: %s"
 
 #: kedit.cpp:886
 msgid "No changes need to be saved"
