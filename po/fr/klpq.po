@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klpq 1.0\n"
-"POT-Creation-Date: 1999-01-11 01:57+0100\n"
+"POT-Creation-Date: 1999-01-05 02:02+0100\n"
 "PO-Revision-Date: 1998-12-10 23:15 CET\n"
 "Last-Translator: Francois-Xavier DURANCEAU "
 "<Francois-Xavier.Duranceau@loria.fr>\n"
@@ -14,15 +14,15 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: main.cpp:178
+#: main.cpp:176
 msgid "Sorry, can't open your printcap file."
 msgstr "Désolé, impossible d'ouvrir votre fichier printcap."
 
-#: main.cpp:183
+#: main.cpp:181
 msgid "Sorry, unable to parse your printcap."
 msgstr "Désolé, impossible de comprendre votre fichier printcap."
 
-#: main.cpp:184
+#: main.cpp:182
 msgid "Please email your printcap to Christoph.Neerfeld@home.ivm.de"
 msgstr ""
 "Pourriez-vous envoyer votre fichier printcap a Christoph.Neerfeld@home.ivm.de"
@@ -41,7 +41,7 @@ msgstr "Impression"
 
 #: klpq.cpp:101
 msgid "Update"
-msgstr "Rafraîchir"
+msgstr "Actualiser"
 
 #: klpq.cpp:119
 msgid "Rank"
@@ -82,6 +82,9 @@ msgid ""
 "(C) by Christoph Neerfeld\n"
 "chris@kde.org"
 msgstr ""
+"Klpq %s\n"
+"(C) par Christoph Neerfeld\n"
+"chris@kde.org"
 
 #: klpq.cpp:204
 msgid "&Config"
