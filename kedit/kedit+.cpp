@@ -30,8 +30,7 @@
  
 
 #include "kedit+.h"
-#include "fileselect.h"
-#include "kcolordlg.h"
+#include <kcolordlg.h>
 #include "KEdit.h"
 #include "kedit+.moc"
 #include <qfile.h>
