@@ -13,7 +13,7 @@ If you upgrade from a version _before_ 0.2.2:
 
 You need:
 - qt 1.2
-- libkde-970510 or later
+- libkde-970703 or later
 
 do:
 
@@ -29,4 +29,20 @@ $(KDEDIR)/apps/Utilities/Kjots.kdelnk
 $(KDEDIR)/lib/pics/jots.xpm
 $(KDEDIR)/lib/pics/filedel.xpm
 $(KDEDIR)/lib/pics/OpenBook.xpm
+
+config:
+
+If you don't get the icons in the toolbar then check
+your config files .kderc or .kde/config/kjotsrc
+
+You need a valid entry like:
+[KDE Setup]
+IconPath=$KDEDIR/lib/pics:$KDEDIR/lib/pics/toolbar
+
+Kjots will create a valid entry if it is missing. But if
+there is already such an entry it won't change it.
+
+
+
+
 

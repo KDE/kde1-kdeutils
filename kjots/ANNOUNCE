@@ -1,7 +1,7 @@
 Hi !
 
 New versions of kjots go directly into the kdeapps distribution.
-This is for version 0.2.5.
+This is for version 0.2.6.
 
 What is kjots
 -------------
@@ -15,8 +15,8 @@ paper lying on your desk.
 New in this version
 -------------------
 
-- you may save books and pages to an ascii file
-- more kde conforming due to the use of KTopLevelWidget
+- icons in toolbar should be visible
+
 
 
 Regards.

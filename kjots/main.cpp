@@ -58,12 +58,15 @@ int main( int argc, char **argv )
     }
   QString temp1, temp2;
   KConfig *config = a.getConfig();
-  config->setGroup("Icons");
-  if( !config->hasKey("Path") )
+  config->setGroup("KDE Setup");
+  if( !config->hasKey("IconPath") )
      {
-       temp1 = a.kdedir();
+       temp1 = KApplication::kdedir();
+       temp1 += "/lib/pics:";
+       temp1 += KApplication::kdedir();
        temp1 += "/lib/pics/toolbar";
-       config->writeEntry("Path", temp1);
+       config->writeEntry("IconPath", temp1);
+       config->sync();
      }
   config->setGroup("kjots");
   if( !config->hasKey("execHttp") )
@@ -78,7 +81,7 @@ int main( int argc, char **argv )
     config->writeEntry("EFontWeight", 0);
   if( !config->hasKey("EFontItalic") )
     config->writeEntry("EFontItalic", 0);
-  global_pix_loader = new KIconLoader( config, "Icons", "Path" );
+  global_pix_loader = new KIconLoader();
   KJotsMain jots;
   main_widget = &jots;
   a.setMainWidget( (QWidget *) &jots );
