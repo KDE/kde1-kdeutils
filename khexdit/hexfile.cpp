@@ -22,6 +22,8 @@
 #include <qfile.h> 
 #include <qwidget.h>
 #include <qfontmet.h> 
+#include <unistd.h>
+#include <sys/mman.h>
 #include <stdlib.h>
 #include <qpainter.h>
 #include <qpixmap.h>
@@ -66,7 +68,8 @@ void HexFile::init() {
 	if (maxWidth < metrics->width(t))
 	    maxWidth = metrics->width(t);
     }
-    hexdata.resize(0);
+    hexdata = 0;
+    data_size = 0;
     LineOffset=maxWidth*49+10;
     curx = cury = horoff=lineoffset=0;
     setFocusPolicy(QWidget::TabFocus);
@@ -97,7 +100,7 @@ const char* HexFile::Title() {
 int HexFile::save() {
     QFile file(filename);
     file.open(IO_Truncate | IO_WriteOnly | IO_Raw);
-    file.writeBlock(hexdata.data(),hexdata.size());
+    file.writeBlock(hexdata,data_size);
     file.close();
     modified = false;
     emit unsaved( false );
@@ -123,11 +126,14 @@ bool HexFile::open(const char *Filename) {
     delete [] filename;
     filename = new char[strlen(Filename)+1];
     strcpy(this->filename,Filename);
-    char *data=new char[file.size()];
-    file.readBlock(data,file.size());
-    hexdata.duplicate(data,file.size());
+    hexdata = (char*)mmap(0, file.size(),  PROT_READ | PROT_WRITE, MAP_PRIVATE,
+			  file.handle(), 0);
+    data_size = file.size();
+    lineoffset = 0;
+    curx = 0;
+    cury = 0;
     calcScrolls();
-    delete [] data;
+    debug("open");
     fillPixmap();
     repaint( false );
     modified = false;
@@ -142,7 +148,7 @@ void HexFile::calcScrolls() {
 }
 
 int HexFile::maxLine() {
-    int ml=(hexdata.size() / 16) - rows + 3;
+    int ml=(data_size / 16) - rows + 3;
     return ((ml < 0) ? 0 : ml);
 }
 
@@ -151,8 +157,16 @@ int HexFile::lines() {
 }
 
 void HexFile::scrolled(int line) {
-    lineoffset=line*16;
+    debug("scrolled %d %ld",line, lineoffset);
+    static int old_x = -1 , old_y = -1;
+    int offset = line*16;
+    if (lineoffset == offset && old_y == cury && old_x == curx) 
+	return;
+    lineoffset=offset;
+    old_x = curx;
+    old_y = cury;
     if (!pixmap->isNull()) {
+	debug("scrolled");
 	fillPixmap();
 	repaint( false );
     }
@@ -186,6 +200,7 @@ int hexvalue(int key) {
 void HexFile::keyPressEvent (QKeyEvent* e) {
     int ox=curx;
     int oy=cury;
+    int new_lineoffset = lineoffset;
     int ol=lineoffset;
     bool changed = false;
     int or=relcur;
@@ -198,9 +213,9 @@ void HexFile::keyPressEvent (QKeyEvent* e) {
 	    int r =(unsigned char)hexdata[cury*16+curx+lineoffset];
 	    
 	    if (relcur) 
-		hexdata[cury*16+curx+lineoffset] = r & 0xf0 | hexvalue(key);
+		hexdata[cury*16+curx+new_lineoffset] = r & 0xf0 | hexvalue(key);
 	    else 
-		hexdata[cury*16+curx+lineoffset] = r & 0x0f | hexvalue(key) << 4;
+		hexdata[cury*16+curx+new_lineoffset] = r & 0x0f | hexvalue(key) << 4;
 	    modified = changed = true;
 	    emit unsaved( true );
 	    relcur++;
@@ -211,7 +226,7 @@ void HexFile::keyPressEvent (QKeyEvent* e) {
 	} else
 	    relcur = 0;
     } else if (key && e->key()<0x100) {
-	hexdata[cury*16+curx+lineoffset] = key;
+	hexdata[cury*16+curx+new_lineoffset] = key;
 	modified = changed = true;
 	emit unsaved( true );
 	curx++;
@@ -243,7 +258,7 @@ void HexFile::keyPressEvent (QKeyEvent* e) {
 	break;
     }
     if (curx<0) {
-	if (lineoffset+cury>0) {
+	if (new_lineoffset+cury>0) {
 	    curx=15;
 	    cury--;
 	} else 
@@ -255,28 +270,29 @@ void HexFile::keyPressEvent (QKeyEvent* e) {
     }
     if (cury<0) {
 	cury=0;
-	if (lineoffset>=16) {
-	    lineoffset-=16;
+	if (new_lineoffset>=16) {
+	    new_lineoffset-=16;
 	}
     }
     if (cury>=rows) {
 	cury=rows-1;
-	if (lineoffset/16<maxLine()) {
-	    lineoffset +=16;
+	if (new_lineoffset/16<maxLine()) {
+	    new_lineoffset +=16;
 	}
     }
-    
-    if ((unsigned)(curx + lineoffset + cury *16) >= hexdata.size()) {
+
+    if ((unsigned)(curx + new_lineoffset + cury *16) >= data_size) {
 	curx = ox;
 	cury = oy;
-	lineoffset = ol;
+	new_lineoffset = ol;
 	relcur = or;
     }
-    if (lineoffset != ol) {
-	scrolled(lineoffset/16);
+    if (new_lineoffset != ol) {
+	scrolled(new_lineoffset/16);
 	return;
     }
     if (curx != ox || cury != oy || changed || or!=relcur) {
+	debug("keypressEvent");
 	fillPixmap();
 	repaint( false );
 	return;
@@ -293,7 +309,7 @@ void HexFile::changeSide() {
 }
 
 void HexFile::mousePressEvent (QMouseEvent *e) {
-    if (hexdata.isNull())
+    if (hexdata == 0)
 	return;
     int neux ,neuy, mx ,cx;
     neuy = e->pos().y() / metrics->height();
@@ -327,6 +343,7 @@ void HexFile::mousePressEvent (QMouseEvent *e) {
     }
     cury = neuy;
     curx = neux;
+    debug("mousePressEvent");
     fillPixmap();
     repaint( false );
 }
@@ -344,6 +361,7 @@ void HexFile::focusOutEvent ( QFocusEvent *) {
 }
 
 void HexFile::fillPixmap() {
+    debug("fillPixmap() %ld",lineoffset);
     if (!pixmap || pixmap->isNull())
 	return;
     int w=0,x;
@@ -357,7 +375,7 @@ void HexFile::fillPixmap() {
     for (int y=1;y<=rows;y++) {
 	memset(buffer,' ',17);
 	char offset[10];
-	if (hexdata.size()<=(unsigned)(y-1)*16+lineoffset)
+	if (data_size<=(unsigned)(y-1)*16+lineoffset)
 	    break;
 	if (UseBig)
 	    sprintf(offset,"%08lX ",(y-1)*16+lineoffset);
@@ -372,11 +390,11 @@ void HexFile::fillPixmap() {
 	w=5+9*maxWidth;
 	for (x = 0; x < 8; x++) {
 	    
-	    if (hexdata.size()<=(unsigned)(y-1)*16+2*x+lineoffset)
+	    if (data_size<=(unsigned)(y-1)*16+2*x+lineoffset)
 		break;
 	    unsigned int r1=(unsigned char)hexdata[(y-1)*16+2*x+lineoffset];
 	    unsigned int r2;
-	    if (hexdata.size()<=((unsigned)(y-1)*16+2*x+1+lineoffset))
+	    if (data_size<=((unsigned)(y-1)*16+2*x+1+lineoffset))
 		r2=0; 
 	    else
 		r2=(unsigned char)hexdata[(y-1)*16+2*x+1+lineoffset];
@@ -480,7 +498,7 @@ void HexFile::resizeEvent(QResizeEvent *) {
     if (diff < 0)
 	diff = 0;
     scrollH->setRange(0,diff);
-    scrollH->setSteps(1,diff);
+    scrollH->setSteps(13,diff);
     scrollH->setValue(0);
     scrollH->setGeometry(0,height()-scrollHHeight,
 			 width()-scrollVWidth,scrollHHeight);
@@ -492,6 +510,7 @@ void HexFile::resizeEvent(QResizeEvent *) {
 			 height()-scrollHHeight);
     
     pixmap->resize(maxWidth*65+20,height()-scrollHHeight);
+    debug("resizeEvent");
     fillPixmap();
     if (width()>pixmap->width()+scrollHHeight)
 	horoff=0;

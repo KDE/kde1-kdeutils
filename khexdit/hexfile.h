@@ -39,9 +39,7 @@ public:
     const char* FileName();
     int NormWidth();
     int HorOffset();
-    bool isModified() {
-	return modified;
-    };
+    bool isModified() { return modified; }
     bool open(const char *filename);
     int save();
     void setFileName(const char *filename);
@@ -53,7 +51,8 @@ private:
     bool modified;
     Side sideEdit;
     int curx, cury, relcur;
-    QByteArray hexdata;
+    char *hexdata;
+    unsigned long int data_size;
     int rows,cols;
     QPixmap *pixmap;
     QFont *dispFont;
