@@ -335,7 +335,8 @@ msgid ""
 "Alternatively stop the running one."
 msgstr ""
 "KEdit ji¾ èeká na dokonèení práce s internetem\n"
-"Prosím èekejte na ukonèení, pøípadnì ukonèete probíhající èinnost\n"
+"Prosím èekejte na ukonèení,\n"
+"pøípadnì ukonèete probíhající èinnost"
 
 #: kedit.cpp:1128 kedit.cpp:1204
 msgid "Could not start or find KFM"
