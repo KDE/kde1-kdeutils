@@ -7,7 +7,7 @@
 
 INCLUDES = $(all_includes)
 LDFLAGS	= $(all_libraries) $(KDE_RPATH)
-LDADD = -lkfm -lkdecore -lkdeui -lkfile -lqt -lXext -lX11 $(LIBSOCKET)
+LDADD = -lkfile -lkfm -lkdeui -lkdecore -lqt -lXext -lX11 $(LIBSOCKET)
 
 bin_PROGRAMS = kedit
 
