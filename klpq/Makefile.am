@@ -32,6 +32,16 @@ DISTCLEANFILES = $(BUILT_SOURCES)
 messages:
 	$(XGETTEXT) -C -ktranslate -ki18n -x $(includedir)/kde.pot $(klpq_SOURCES) && mv messages.po ../po/klpq.pot 
 
+install-data-local:
+	$(mkinstalldirs) $(kde_icondir)
+	$(INSTALL_DATA) klpq.xpm $(kde_icondir)
+	$(mkinstalldirs) $(kde_minidir)
+	$(INSTALL_DATA) mini-klpq.xpm $(kde_minidir)/klpq.xpm
+
+uninstall-local:
+	rm -f $(kde_icondir)/klpq.xpm
+	rm -f $(kde_minidir)/klpq.xpm
+
 ####### Meta objects 
 
 klpq.cpp: klpq.moc
