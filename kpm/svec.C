@@ -79,7 +79,7 @@ void Svec<T>::remove(int index)
 template<class T>
 void Svec<T>::sort(int (*compare)(T *a, T *b))
 {
-    qsort(vect, used, sizeof(T), compare);
+    qsort(vect, used, sizeof(T), (int (*)(const void *, const void *))compare);
 }
 
 

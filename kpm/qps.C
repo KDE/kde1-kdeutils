@@ -773,7 +773,6 @@ void Qps::config_change()
   pstable->setAppearance(old_style_tables ?
 			 HeadedTable::macOS7
 			 : HeadedTable::macOS8);
-  pstable->setAppearance(HeadedTable::macOS7);
   details.first();
   Details *d = 0;
   while((d = details.current()) != 0) {

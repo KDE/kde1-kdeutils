@@ -73,9 +73,7 @@ bool Wchan::try_sysmap(const char *path)
 	sysmap_size = sbuf.st_size;
 	unsigned pagesize = getpagesize();
 	int mapsize = (sysmap_size + pagesize - 1) & ~(pagesize - 1);
-	sysmap = (char *)mmap((void *)0, mapsize,
-			      PROT_READ, MAP_SHARED,
-			      fd, 0);
+	sysmap = (char *)mmap(0, mapsize, PROT_READ, MAP_SHARED, fd, 0);
 	close(fd);
      	if(sysmap != (char *)-1)
 	    return TRUE;
