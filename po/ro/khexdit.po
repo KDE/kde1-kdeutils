@@ -11,8 +11,8 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: hexdata.cpp:25
 #, c-format
@@ -21,15 +21,15 @@ msgstr "Eroare la deschiderea %s - ului"
 
 #: hexwidget.cpp:79
 msgid "Save &As..."
-msgstr "S&alveaza in ..."
+msgstr "S&alveazã în ..."
 
 #: hexwidget.cpp:90
 msgid "&Toggle Toolbar"
-msgstr "Bistabil de bara de scule"
+msgstr "Bistabil de barã de scule"
 
 #: hexwidget.cpp:93
 msgid "Hex Editor"
-msgstr "Editor in Hexa"
+msgstr "Editor Hexa"
 
 #: hexwidget.cpp:93
 msgid ""
@@ -37,33 +37,36 @@ msgid ""
 "\n"
 "by Stephan Kulow"
 msgstr ""
+"\n"
+"\n"
+"programat de Stephan Kulow"
 
 #: hexwidget.cpp:115
 msgid "New Window"
-msgstr "Fereastra Noua"
+msgstr "Fereastrã Nouã"
 
 #: hexwidget.cpp:119
 msgid "Save the file"
-msgstr "Salveaza fisierul"
+msgstr "Salveazã fiºierul"
 
 #: hexwidget.cpp:122 hexwidget.cpp:124 hexwidget.cpp:126 hexwidget.cpp:129
 msgid "Not implemented"
-msgstr "Nu e implementata"
+msgstr "Nu este implementatã"
 
 #: hexwidget.cpp:158
 msgid ""
 "The current file has been modified.\n"
 "Do you want to save it?"
 msgstr ""
-"Fisierul curent a fost modificat.\n"
-"Vrei sa il salvez ?"
+"Fiºierul curent a fost modificat.\n"
+"Vrei sã îl salvez ?"
 #: hexwidget.cpp:184
 msgid ""
 "The current file has been modified.\n"
 "Discard your changes?"
 msgstr ""
-"Fisierul curent a fost modificat.\n"
-"Anulez modificarile ?"
+"Fiºierul curent a fost modificat.\n"
+"Anulez modificãrile ?"
 
 #: hexwidget.cpp:265
 msgid ""
@@ -73,10 +76,10 @@ msgid ""
 "Wait until this one is finished\n"
 "or stop the running one."
 msgstr ""
-"KHexedit asteapta deja\n"
-"sa se termine o sarcina de internet\n"
+"KHexedit aºteaptã deja\n"
+"sã se termine o sarcinã de internet\n"
 "\n"
-"Asteapta pana se termina sau opreste-o."
+"Asteaptã pânã se terminã sau opreºte-o."
 
 #: hexwidget.cpp:273
 msgid "Could not start KFM"
