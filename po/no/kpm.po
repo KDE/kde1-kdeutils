@@ -178,7 +178,6 @@ msgid "Save Settings Now"
 msgstr "Lagre valg innstillinger nå"
 
 #: qps.C:196
-#, fuzzy
 msgid ""
 " - A Visual Process Manager (KDE Version)\n"
 "\n"
@@ -195,7 +194,7 @@ msgid ""
 "Public License (GNU GPL). See the file COPYING\n"
 "for details about this."
 msgstr ""
-"kpm %sk%s - En visuell prosessbehandler (KDE Versjon)\n"
+" - En visuell prosessbehandler (KDE-versjon)\n"
 "\n"
 "© 1997 Mattias Engdegård (f91-men@nada.kth.se)\n"
 "© 1998 Mario Weilguni (mweilguni@kde.org)\n"
@@ -206,7 +205,7 @@ msgstr ""
 "qps kan du finne den på følgende sted:\n"
 "    ftp://sunsite.unc.edu/pub/linux/system/status\n"
 "\n"
-"Dette program er gittut under GNU General Public\n"
+"Dette program er gitt ut under GNU General Public\n"
 "License (GNU GPL). Se filen COPYING for detaljer."
 
 #: qps.C:211
