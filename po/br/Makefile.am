@@ -2,7 +2,7 @@
 # This has to be set. The rest should be reusable
 GMOFILES = ark.gmo kab.gmo karm.gmo kcalc.gmo kedit.gmo kfloppy.gmo \
 	khexdit.gmo kjots.gmo klipper.gmo kljettool.gmo klpq.gmo knotes.gmo \
-	kpm.gmo kwrite.gmo	
+	kpm.gmo kwrite.gmo ktop.gmo	
 
 POFILES = $(GMOFILES:.gmo=.po)
 
