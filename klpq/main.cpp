@@ -125,7 +125,8 @@ int main( int argc, char **argv )
 
   bool no_printcap = TRUE;
   int iprintcap=0,nprintcap=1;
-  char pcpath[2][80]={"/etc/printcap", "/usr/local/etc/printcap"};
+  char pcpath[3][80]={"/etc/printers.conf", "/etc/printcap",
+                      "/usr/local/etc/printcap"};
   while (iprintcap <= nprintcap)
     {
       QFile printcap(pcpath[iprintcap]);
