@@ -1,9 +1,11 @@
 # KDE Config File
 [KDE Desktop Entry]
 Name=Process management
+Name[es]=Gestion de procesos
 Name[de]=Prozeß-Management
 Name[no]=Prosessbehandler
 Comment[C]=Process management tool
+Comment[es]=Herramienta de gestión de procesos
 Comment[de]=Prozeß-Management
 Comment[no]=Prosessbehandlingsverktøy
 Comment[pt]=Ferramenta de gestão de processos
