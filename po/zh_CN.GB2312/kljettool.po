@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 1998-06-16 14:24+0200\n"
+"Content-Type: text/plain; charset=\n"
+"Date: 1998-03-06 22:44:34-0500\n"
+"From: Bernd Johannes Wuebben,201 Lincoln Hall,,256-1036, "
+"<root@petit.cornell.edu>\n"
+"Xgettext-Options: -C -ki18n -x../../kdelibs/po/kde.pot\n"
+"Files: Data.cpp Fonts.cpp FontsData.cpp Misc.cpp MiscData.cpp Paper.cpp "
+"PaperData.cpp Printer.cpp PrinterData.cpp about.cpp main.cpp\n"
+
+#: Data.cpp:123 Data.cpp:157 Data.cpp:193
+#, c-format
+msgid ""
+"Unable to print with:\n"
+" %s"
+msgstr ""
+"无法用 %s\n"
+"打印"
+
+#: FontsData.cpp:38
+msgid "Language"
+msgstr "语言"
+
+#: FontsData.cpp:57
+msgid "Symbol Set"
+msgstr "符号集"
+
+#: FontsData.cpp:125
+msgid "Pitch"
+msgstr "点距"
+
+#: FontsData.cpp:141
+msgid "Point Size"
+msgstr "点大小"
+
+#: FontsData.cpp:156
+msgid "points"
+msgstr "点"
+
+#: MiscData.cpp:43
+msgid "End of Line Mode"
+msgstr "行结束模式"
+
+#: MiscData.cpp:65
+msgid "PageProtect"
+msgstr "页保护"
+
+#: MiscData.cpp:80
+msgid "Powersave Time"
+msgstr "节能时间"
+
+#: MiscData.cpp:99
+msgid "Eject"
+msgstr "弹出"
+
+#: MiscData.cpp:106
+msgid "Reset"
+msgstr "复原"
+
+#: MiscData.cpp:113
+msgid "Initialize"
+msgstr "初始化"
+
+#: PrinterData.cpp:41
+msgid "Mode"
+msgstr "模式"
+
+#: PrinterData.cpp:47
+msgid "Economy"
+msgstr "经济"
+
+#: PrinterData.cpp:56
+msgid "Presentation"
+msgstr "表现"
+
+#: PrinterData.cpp:65
+msgid "Resolution"
+msgstr "分辨率"
+
+#: PrinterData.cpp:87
+msgid "Density"
+msgstr "密度"
+
+#: PrinterData.cpp:93 main.cpp:70
+msgid "Printer"
+msgstr "打印机"
+
+#: PrinterData.cpp:99
+msgid "Resolution Enh."
+msgstr "分辨率增强"
+
+#: about.cpp:38
+msgid "About KLJetTool"
+msgstr "关于 KLJetTool"
+
+#: about.cpp:47
+msgid "KLjetTool"
+msgstr "KLjetTool"
+
+#: about.cpp:52
+msgid "Version "
+msgstr "版本 "
+
+#: main.cpp:69
+msgid "Paper"
+msgstr "纸张"
+
+#: main.cpp:71
+msgid "Operations"
+msgstr "操作"
+
+#~ msgid "Fonts"
+#~ msgstr "字体"
