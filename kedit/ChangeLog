@@ -1,6 +1,8 @@
 1999-02-08  Harri Porten  <porten@kde.org>
 
 	* kedit.cpp: quote filename for printing
+        * keditcl1.cpp: translate "Untitled" to trigger "Save As..."
+        dialog when saving.
 
 1998-10-12  Harri Porten  <porten@kde.org>
 
