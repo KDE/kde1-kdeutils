@@ -23,7 +23,6 @@
 
 #include <qmenubar.h>
 #include <qlist.h>
-#include "hexfile.h"
 #include <qpopmenu.h>
 
 #include <kfm.h>
@@ -31,24 +30,7 @@
 #include <kurl.h>
 #include <klocale.h>
 
-#define ID_FILE_OPEN 1
-#define ID_FILE_OPEN_URL 2
-#define ID_FILE_SAVE 3
-#define ID_FILE_SAVEAS 4
-#define ID_FILE_SAVE_URL 5
-#define ID_FILE_CLOSE 6
-#define ID_FILE_NEWWIN 7
-#define ID_FILE_QUIT 8
-#define ID_FILE_PRINT 9
-
-#define ID_EDIT_COPY 50
-#define ID_EDIT_PASTE 51
-#define ID_EDIT_CUT 52
-#define ID_EDIT_SEARCH 53
-#define ID_EDIT_SEARCHAGAIN 54
-
-#define ID_VIEW_TOOLBAR 60
-#define ID_VIEW_STATUSBAR 61
+class HexFile;
 
 class HexWidget : public KTopLevelWidget {
     Q_OBJECT
@@ -64,14 +46,17 @@ public:
     HexWidget(const char*);
     ~HexWidget();
     void open(const char*, KIND_OF_OPEN kind);
+    void open(const char *fileName, const char *url, KIND_OF_OPEN);
     void openURL(const char *fileName, KIND_OF_OPEN kind);
     
-public slots:
+protected slots:
     void menuCallback(int);
     void slotDropEvent( KDNDDropZone * _dropZone );
     virtual void saveProperties(KConfig*);
     virtual void readProperties(KConfig*);
     void unsaved(bool flag);
+    /// Gets signals from KFM
+    void slotKFMFinished();
 
 private:
     QList<HexFile> files;

@@ -23,7 +23,11 @@
 
 #include <qapp.h>
 #include <qscrbar.h> 
-#include <klocale.h>
+#include <qlist.h>
+
+struct HexCursor {
+    QRect fields[16][2];
+};
 
 class HexFile : public QWidget {
     Q_OBJECT
@@ -64,7 +68,8 @@ private:
     bool UseBig;
     QScrollBar *scrollV;
     QScrollBar *scrollH;
-    
+    QList<HexCursor> rects;
+
 protected:
     void paintEvent(QPaintEvent*);
     void resizeEvent(QResizeEvent*);
@@ -74,6 +79,7 @@ protected:
     void focusInEvent ( QFocusEvent *);
     void focusOutEvent ( QFocusEvent *);
     void fillPixmap();
+    int fillLine(QPainter& p, int line);
     void init();
     void changeSide();
     void calcScrolls();

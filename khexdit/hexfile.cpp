@@ -355,114 +355,122 @@ void HexFile::focusOutEvent ( QFocusEvent *) {
     repaint(false);
 }
 
-void HexFile::fillPixmap() {
-    if (!pixmap || pixmap->isNull())
-	return;
+int HexFile::fillLine(QPainter& p, int line) {
     int w=0,x;
     char buffer[17];
     char txt[2]=" ";
-    QPainter p(pixmap);
-    p.setFont(*dispFont);
-    pixmap->fill(QColor( 220, 220, 220));
     char number[8];
+
+    memset(buffer,' ',17);
+    char offset[10];
+    if (data_size<=(unsigned)(line-1)*16+lineoffset)
+	return -1;
+    if (UseBig)
+	sprintf(offset,"%08lX ",(line-1)*16+lineoffset);
+    else
+	sprintf(offset,"%08lx ",(line-1)*16+lineoffset);
+    p.setPen(QColor(0,0,0));
+    for (int i=0;i<9;i++) {
+	txt[0]=offset[i];
+	p.drawText(5+i*maxWidth,line*metrics->height(),txt);
+    }
     
-    for (int y=1;y<=rows;y++) {
-	memset(buffer,' ',17);
-	char offset[10];
-	if (data_size<=(unsigned)(y-1)*16+lineoffset)
+    w=5+9*maxWidth;
+    for (x = 0; x < 8; x++) {
+	
+	if (data_size<=(unsigned)(line-1)*16+2*x+lineoffset)
 	    break;
-	if (UseBig)
-	    sprintf(offset,"%08lX ",(y-1)*16+lineoffset);
+	unsigned int r1=(unsigned char)hexdata[(line-1)*16+2*x+lineoffset];
+	unsigned int r2;
+	if (data_size<=((unsigned)(line-1)*16+2*x+1+lineoffset))
+	    r2=0; 
 	else
-	    sprintf(offset,"%08lx ",(y-1)*16+lineoffset);
-	p.setPen(QColor(0,0,0));
-	for (int i=0;i<9;i++) {
-	    txt[0]=offset[i];
-	    p.drawText(5+i*maxWidth,y*metrics->height(),txt);
+	    r2=(unsigned char)hexdata[(line-1)*16+2*x+1+lineoffset];
+	if (UseBig)
+	    sprintf(number,"%02X%02X ",r1,r2);
+	else
+	    sprintf(number,"%02x%02x ",r1,r2);
+	
+	if (x % 2) 
+	    p.setPen(QColor(0x9f,0x9f,0x20));
+	else
+	    p.setPen(QColor(0x20,0x9f,0x9f));
+	
+	for (int i=0;i<5;i++) {
+	    txt[0]=number[i];
+	    txt[1]=0;
+	    p.drawText(w+i*maxWidth,line*metrics->height(),txt);
 	}
 	
-	w=5+9*maxWidth;
-	for (x = 0; x < 8; x++) {
+	if ((cury == line-1)  && (curx/2 == x)) {
+	    int offw=0;
+	    char hilight[3];
+	    if (curx % 2)
+		offw += 2*maxWidth;
 	    
-	    if (data_size<=(unsigned)(y-1)*16+2*x+lineoffset)
-		break;
-	    unsigned int r1=(unsigned char)hexdata[(y-1)*16+2*x+lineoffset];
-	    unsigned int r2;
-	    if (data_size<=((unsigned)(y-1)*16+2*x+1+lineoffset))
-		r2=0; 
-	    else
-		r2=(unsigned char)hexdata[(y-1)*16+2*x+1+lineoffset];
-	    if (UseBig)
-		sprintf(number,"%02X%02X ",r1,r2);
-	    else
-		sprintf(number,"%02x%02x ",r1,r2);
-	    
-	    if (x % 2) 
-		p.setPen(QColor(0x9f,0x9f,0x20));
-	    else
-		p.setPen(QColor(0x20,0x9f,0x9f));
-	    
-	    for (int i=0;i<5;i++) {
-		txt[0]=number[i];
-		txt[1]=0;
-		p.drawText(w+i*maxWidth,y*metrics->height(),txt);
+	    if (sideEdit==LEFT) {
+		p.setPen(QColor(0xff,0xff,0xff));
+		offw += maxWidth*relcur;
+		
+		hilight[0] = number[(curx % 2)*2 + relcur];
+		hilight[1] = 0;
+	    } else {
+		p.setPen(QColor(0x0,0x0,0x0));
+		hilight[0] = number[ (curx % 2)*2 ];
+		hilight[1] = number[ (curx % 2)*2 + 1 ];
+		hilight[2] = 0;
 	    }
 	    
-	    if ((cury == y-1)  && (curx/2 == x)) {
-		int offw=0;
-		char hilight[3];
-		if (curx % 2)
-		    offw += 2*maxWidth;
-		
-		if (sideEdit==LEFT) {
-		    p.setPen(QColor(0xff,0xff,0xff));
-		    offw += maxWidth*relcur;
-		    
-		    hilight[0] = number[(curx % 2)*2 + relcur];
-		    hilight[1] = 0;
-		} else {
-		    p.setPen(QColor(0x0,0x0,0x0));
-		    hilight[0] = number[ (curx % 2)*2 ];
-		    hilight[1] = number[ (curx % 2)*2 + 1 ];
-		    hilight[2] = 0;
-		}
-		
-		p.fillRect(w+offw,y*metrics->height()-metrics->ascent()+
-			   metrics->underlinePos(),
-			   (1 + (sideEdit==RIGHT))*maxWidth,
-			   metrics->ascent(),
-			   *leftM);
-		p.drawText(w+offw,y*metrics->height(),hilight);
-		
-	    }
+	    p.fillRect(w+offw,line*metrics->height()-metrics->ascent()+
+		       metrics->underlinePos(),
+		       (1 + (sideEdit==RIGHT))*maxWidth,
+		       metrics->ascent(),
+		       *leftM);
+	    p.drawText(w+offw,line*metrics->height(),hilight);
 	    
-	    
-	    w+=5*maxWidth;
-	    if (r1>31)
-		buffer[2*x]=r1;
-	    else 
-		buffer[2*x]='.';
-	    if (r2>31)
-		buffer[2*x+1]=r2;
-	    else 
-		buffer[2*x+1]='.';
 	}
-	if (x) {
-	    buffer[16]=0;
-	    if (cury == y-1) {
-		p.setPen(QColor(0xff,0x0,0));
-		p.fillRect(LineOffset+10+curx*maxWidth,
-			   y*metrics->height()-metrics->ascent()+
-			   metrics->underlinePos(),
-			   maxWidth,
-			   metrics->ascent(),
-			   *rightM);
-	    }
-	    p.setPen(QColor(0x20,0x20,0x80));
-	    p.drawText(LineOffset+10,y*metrics->height(),buffer);
-	    
-	} else break;
+	
+	
+	w+=5*maxWidth;
+	if (r1>31)
+	    buffer[2*x]=r1;
+	else 
+	    buffer[2*x]='.';
+	if (r2>31)
+	    buffer[2*x+1]=r2;
+	else 
+	    buffer[2*x+1]='.';
     }
+    if (x) {
+	buffer[16]=0;
+	if (cury == line-1) {
+	    p.setPen(QColor(0xff,0x0,0));
+	    p.fillRect(LineOffset+10+curx*maxWidth,
+		       line*metrics->height()-metrics->ascent()+
+		       metrics->underlinePos(),
+		       maxWidth,
+		       metrics->ascent(),
+		       *rightM);
+	}
+	p.setPen(QColor(0x20,0x20,0x80));
+	p.drawText(LineOffset+10,line*metrics->height(),buffer);
+	
+    } else return -1;
+
+    return 0;
+}
+
+void HexFile::fillPixmap() {
+    if (!pixmap || pixmap->isNull())
+	return;
+    QPainter p(pixmap);
+    p.setFont(*dispFont);
+    pixmap->fill(QColor(220, 220, 220));
+    int stat = 0;
+
+    for (int y=1; y<=rows && !stat; y++) 
+	stat = fillLine(p, y);
+	
     p.drawLine(LineOffset,0,LineOffset,height());
 }
 

@@ -33,11 +33,33 @@
 #include <qmsgbox.h> 
 #include <ktopwidget.h>
 #include <ktoolbar.h>
+#include "hexfile.h"
 #include "hexwidget.h"
 #include "klocale.h"
 #include <kiconloader.h>
 
 QList<HexWidget> HexWidget::windowList;
+
+enum { ID_FILE_OPEN = 1,
+       ID_FILE_OPEN_URL,
+       ID_FILE_SAVE,
+       ID_FILE_SAVEAS,
+       ID_FILE_SAVE_URL,
+       ID_FILE_CLOSE,
+       ID_FILE_NEWWIN,
+       ID_FILE_QUIT,
+       ID_FILE_PRINT,
+
+       ID_EDIT_COPY = 50,
+       ID_EDIT_PASTE,
+       ID_EDIT_CUT,
+       ID_EDIT_SEARCH,
+       ID_EDIT_SEARCHAGAIN,
+
+       ID_VIEW_TOOLBAR = 60,
+       ID_VIEW_STATUSBAR
+};
+
 
 int HexWidget::initMenu() {
 
@@ -99,7 +121,7 @@ int HexWidget::initMenu() {
     addToolBar(toolbar);
     toolbar->setBarPos(KToolBar::Top);
     toolbar->show();
-    connect(toolbar, SIGNAL(clicked(int)), this, SLOT(menuCallback(int)));
+    connect(toolbar, SIGNAL(clicked(int)), SLOT(menuCallback(int)));
     
     // KStatusBar *stat = new KStatusBar(this);
     // stat->show();
@@ -109,7 +131,7 @@ int HexWidget::initMenu() {
     setView(CurrentFile);
     dropZone = new KDNDDropZone( this , DndURL);
     connect( dropZone, SIGNAL( dropAction( KDNDDropZone *) ), 
-	     this, SLOT( slotDropEvent( KDNDDropZone *) ) );
+	     SLOT( slotDropEvent( KDNDDropZone *) ) );
     
     show();
     return 0;
@@ -123,9 +145,9 @@ void HexWidget::menuCallback(int item) {
     case ID_FILE_OPEN: {
 	if (CurrentFile->isModified()) 
 	    if (QMessageBox::warning(0, klocale->translate("Warning"), 
-				   	klocale->translate("The current file has been modified.\nDo you want to save it?"),
-				   	klocale->translate("Yes"),
-				   	klocale->translate("No")))
+				     klocale->translate("The current file has been modified.\nDo you want to save it?"),
+				     klocale->translate("Yes"),
+				     klocale->translate("No")))
 		CurrentFile->save();
 	
 	QFileDialog *log=new QFileDialog;
@@ -179,22 +201,26 @@ void HexWidget::unsaved(bool flag)
     setUnsavedData(flag);
 }
 
-void HexWidget::open(const char* fileName, KIND_OF_OPEN kind) 
+void HexWidget::open(const char *fileName, const char *url, KIND_OF_OPEN) 
 {
-    if (kind);
-    
-    if (fileName) {                 // got a file name
-	if (!CurrentFile)
-	    CurrentFile = new HexFile(fileName,this);
-	else
-	    CurrentFile->open(fileName);
-	CurrentFile->setFocus();
-	char Caption[300];
-	sprintf(Caption,"%s: %s",kapp->getCaption(),CurrentFile->Title());
-	setCaption(Caption);
-	update();
-    }
-    return;
+    if (!fileName)
+	return;
+
+    if (!CurrentFile)
+	CurrentFile = new HexFile(fileName,this);
+    else
+	CurrentFile->open(fileName); 
+
+    CurrentFile->setFocus();
+    char Caption[300];
+    sprintf(Caption,"%s: %s",kapp->getCaption(), url);
+    setCaption(Caption);
+    update();
+}
+
+void HexWidget::open(const char *fileName, KIND_OF_OPEN kind) 
+{
+    open(fileName, fileName, kind);
 }
 
 void HexWidget::openURL(const char *_url, KIND_OF_OPEN _mode) 
@@ -204,43 +230,63 @@ void HexWidget::openURL(const char *_url, KIND_OF_OPEN _mode)
     netFile.detach();
     KURL u( netFile.data() );
     if ( u.isMalformed())   {
-	QMessageBox::warning (0, klocale->translate("Error"), klocale->translate("Malformed URL"));
+	QMessageBox::warning (0, 
+			      klocale->translate("Error"), 
+			      klocale->translate("Malformed URL"));
 	return;
     }
   
     // Just a usual file ?
-    if ( strcmp( u.protocol(), "file" ) == 0 )
-	{
-	    open( u.path(), _mode );
-	    return;
-	}
+    if ( strcmp( u.protocol(), "file" ) == 0 && !u.hasSubProtocol() ) {
+	QString decoded( u.path() );
+	KURL::decodeURL( decoded );
+	open( decoded, _mode );
+	return;
+    }
     
     
-    if ( kfm != 0L )
-	{
-	    QMessageBox::warning (0, klocale->translate("Error"), 
-				  klocale->translate("KHexdit is already waiting\nfor an internet job to finish\n\nWait until this one is finished\nor stop the running one."));
-	    return;
-	}
+    if ( kfm != 0L ) {
+	QMessageBox::warning (0, klocale->translate("Error"), 
+			      klocale->translate("KHexdit is already waiting\nfor an internet job to finish\n\nWait until this one is finished\nor stop the running one."));
+	return;
+    }
     
     kfm = new KFM;
     
-    if ( !kfm->isOK() )
-	{
-	    QMessageBox::warning (0, klocale->translate("Error"), 
-				  klocale->translate("Could not start KFM"));
-	    delete kfm;
-	    kfm = 0L;
-	    return;
-	}
+    if ( !kfm->isOK() ) {
+	QMessageBox::warning (0, klocale->translate("Error"), 
+			      klocale->translate("Could not start KFM"));
+	delete kfm;
+	kfm = 0L;
+	return;
+    }
     
     tmpFile.sprintf( "file:/tmp/khexdit%i", time( 0L ) );
-    connect( kfm, SIGNAL( finished() ), this, SLOT( slotKFMFinished() ) );
+    connect( kfm, SIGNAL( finished() ), SLOT( slotKFMFinished() ) );
   
     kfm->copy( netFile.data(), tmpFile.data() );
     
     kfmAction = HexWidget::GET;
     //openMode = _mode;
+}
+
+void HexWidget::slotKFMFinished()
+{
+    if ( kfmAction == HexWidget::GET ) {
+	KURL u(tmpFile);
+	QString decoded( u.path() );
+	KURL::decodeURL( decoded );
+	open( decoded, netFile, READWRITE );
+		
+	delete kfm;
+	kfm = 0L;
+    }
+    if ( kfmAction == HexWidget::PUT )
+    {
+	unlink( tmpFile.data() );
+	delete kfm;
+	kfm = 0L;
+    }
 }
 
 void HexWidget::saveProperties(KConfig *config )
@@ -258,92 +304,92 @@ void HexWidget::readProperties(KConfig *config)
 }
 
 HexWidget::HexWidget() {
-  initMenu();
-  setCaption(kapp->getCaption());
+    initMenu();
+    setCaption(kapp->getCaption());
 }
 
 HexWidget::HexWidget(const char* file) {
-  initMenu();
-  openURL(file,READWRITE);
+    initMenu();
+    openURL(file,READWRITE);
 }
 
 HexWidget::~HexWidget() {
-  delete CurrentFile;
-  delete kfm;
+    delete CurrentFile;
+    delete kfm;
 }
 
 void HexWidget::closeEvent ( QCloseEvent *e) {
-  windowList.remove(this);
-  delete toolbar;
-  toolbar = 0L;
-  delete menu;
-  menu = 0L;
-  delete dropZone;
-  dropZone = 0L;
-  if (windowList.isEmpty())
-    kapp->quit();
-  e->accept();
+    windowList.remove(this);
+    delete toolbar;
+    toolbar = 0L;
+    delete menu;
+    menu = 0L;
+    delete dropZone;
+    dropZone = 0L;
+    if (windowList.isEmpty())
+	kapp->quit();
+    e->accept();
 }
 
 void HexWidget::slotDropEvent( KDNDDropZone * _dropZone ) {
-  QStrList & list = _dropZone->getURLList();
+    QStrList & list = _dropZone->getURLList();
   
-  char *s;
-  
-  for ( s = list.first(); s != 0L; s = list.next() )
-    {
-      // Load the first file in this window
-      
-      if ( s == list.getFirst() && !CurrentFile->isModified() ) 
+    char *s;
+    
+    for ( s = list.first(); s != 0L; s = list.next() )
 	{
-	  QString n = s;
-	  if ( n.left(5) != "file:" && n.left(4) == "ftp:" )
-	    openURL( n.data(), READWRITE );
-	  else
-	    openURL( n.data(), READONLY );
-	}
-      else 
-	{
-	  HexWidget *h = new HexWidget();
-	  QString n = s;
-	  if ( n.left(5) != "file:" && n.left(4) == "ftp:" )
-	    h->openURL( n.data(), READWRITE );
-	  else
-	    h->openURL( n.data(), READONLY );
-	}
-    }    
+	    // Load the first file in this window
+	    
+	    if ( s == list.getFirst() && !CurrentFile->isModified() ) 
+		{
+		    QString n = s;
+		    if ( n.left(5) != "file:" && n.left(4) == "ftp:" )
+			openURL( n.data(), READWRITE );
+		    else
+			openURL( n.data(), READONLY );
+		}
+	    else 
+		{
+		    HexWidget *h = new HexWidget();
+		    QString n = s;
+		    if ( n.left(5) != "file:" && n.left(4) == "ftp:" )
+			h->openURL( n.data(), READWRITE );
+		    else
+			h->openURL( n.data(), READONLY );
+		}
+	}    
 }
 
 int main(int argc, char **argv) {
-  KApplication a(argc,argv,"khexdit");  
-
-  if ( a.isRestored() ) {
-      int n = 1;
-      while (KTopLevelWidget::canBeRestored(n)) {
-	  HexWidget *hw = new HexWidget();
-	  hw->restore(n++);
-      }
-  } else
-      if (argc>1) {
-	  for (int i=1; i < argc; i++) {
-	      if (*argv[i] == '-')	/* ignore options */
-		  continue;
-	      
-	      QString f = argv[i];
-	      
-	      if ( f.find( ":/" ) == -1 && f.left(1) != "/" )
-		  {
-		      char buffer[ 1024 ];
-		      getcwd( buffer, 1023 );
-		      f.sprintf( "file:%s/%s", buffer, argv[i] );
-		  }
-	      
-	      new HexWidget(f.data());
-	  }
-      } else 
-	  new HexWidget();
-  
-  return a.exec();
+    KApplication a(argc,argv,"khexdit");  
+    
+    if ( a.isRestored() ) {
+	int n = 1;
+	while (KTopLevelWidget::canBeRestored(n)) {
+	    HexWidget *hw = new HexWidget();
+	    hw->restore(n++);
+	}
+    } else
+	if (argc>1) {
+	    for (int i=1; i < argc; i++) {
+		if (*argv[i] == '-')	/* ignore options */
+		    continue;
+		
+		QString f = argv[i];
+		
+		if ( f.find( ":/" ) == -1 && f.left(1) != "/" )
+		    {
+			char buffer[ 1024 ];
+			getcwd( buffer, 1023 );
+			f.sprintf( "file:%s/%s", buffer, argv[i] );
+		    }
+		
+		new HexWidget(f.data());
+	    }
+	} else 
+	    new HexWidget();
+    
+    return a.exec();
 }
 
 #include "hexwidget.moc"
