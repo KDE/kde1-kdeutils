@@ -92,7 +92,7 @@ msgstr "&Processus"
 
 #: ProcessMenu.cpp:44
 msgid "Renice Task..."
-msgstr "Modifier la gentillesse..."
+msgstr "Modifier la courtoisie (nice)..."
 
 #: ProcessMenu.cpp:47
 msgid "send SIGINT\t(ctrl-c)"
@@ -257,7 +257,7 @@ msgstr "Temps"
 
 #: ProcessList.cpp:702
 msgid "Nice"
-msgstr "Gentillesse"
+msgstr "Nice"
 
 #: ProcessList.cpp:703
 msgid "Status"
@@ -329,7 +329,7 @@ msgstr "????"
 #: OSProcess.cpp:320
 #, c-format
 msgid "Could not set new nice level for process %d"
-msgstr "Impossible de changer la gentillesse du processus %d"
+msgstr "Impossible de changer la courtoisie (nice) du processus %d"
 
 #: OSProcess.cpp:334
 #, c-format
@@ -350,7 +350,7 @@ msgstr "Utilisateur (%)"
 
 #: PerfMonPage.cpp:56 PerfMonPage.cpp:114
 msgid "Nice (%)"
-msgstr "Gentils (%)"
+msgstr "Courtois (%)"
 
 #: PerfMonPage.cpp:57 PerfMonPage.cpp:115
 msgid "System (%)"
@@ -430,7 +430,7 @@ msgstr ""
 
 #: ReniceDlg.cpp:32
 msgid "Renice Process"
-msgstr "Gentillesse du processus"
+msgstr "Courtoisie (nice) du processus"
 
 #: ReniceDlg.cpp:39
 #, c-format
@@ -444,10 +444,10 @@ msgid ""
 msgstr ""
 "Vous allez modifier la priorité d'ordonnancement du\n"
 "processus %d. Uniquement le Super-utilisateur (root)\n"
-"peut diminuer la gentillesse d'un processus. Plus le\n"
+"peut diminuer la courtoisie (nice) d'un processus. Plus le\n"
 "nombre est petit, plus la priorité est élevée.\n"
 "\n"
-"Entrez la valeur de gentillesse désirée :"
+"Entrez la valeur de courtoisie (nice) désirée :"
 
 #~ msgid ""
 #~ "Cannot read status of processes\n"
