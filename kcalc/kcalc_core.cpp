@@ -229,12 +229,12 @@ void QtCalculator::EnterDigit(int data)
     if (DISPLAY_AMOUNT < 0)
       DISPLAY_AMOUNT = decimal_point ? 
 	DISPLAY_AMOUNT - ((CALCAMNT)data / 
-			  POW(current_base, decimal_point++)) :
+			  POW(current_base, (float) decimal_point++)) :
     (current_base * DISPLAY_AMOUNT) - data;
     else
       DISPLAY_AMOUNT = decimal_point ? 
 	DISPLAY_AMOUNT + ((CALCAMNT)data / 
-			  POW(current_base, decimal_point++)) :
+			  POW(current_base, (float) decimal_point++)) :
     (current_base * DISPLAY_AMOUNT) + data;
 
   if (decimal_point){

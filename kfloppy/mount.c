@@ -23,7 +23,7 @@
 #endif 
 */
 
-#include <linux/ext2_fs.h>
+//#include <linux/ext2_fs.h>
 
 #define HAVE_MNTENT_H 1
 /*

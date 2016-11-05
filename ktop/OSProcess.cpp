@@ -52,6 +52,7 @@
 #include <dirent.h>
 #include <pwd.h>
 #include <errno.h>
+#include <unistd.h>
 
 #include <kapp.h>
 
@@ -160,7 +161,7 @@ OSProcess::read(const void* info)
 		   (int*) &pid, &status, (int*) &ppid, (int*) &gid, &ttyNo,
 		   &userTime, &sysTime, &niceLevel, &vm_size, &vm_rss);
 
-	vm_rss = (vm_rss + 3) * PAGE_SIZE;
+	vm_rss = (vm_rss + 3) * getpagesize();
 
 	fclose(fd);
 

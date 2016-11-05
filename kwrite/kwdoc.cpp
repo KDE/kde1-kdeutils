@@ -2297,3 +2297,5 @@ void KWriteDoc::unIndent(KWriteView *view, VConfig &c) {
   }
   recordEnd(view,c);
 }
+
+#include "kwdoc.moc"

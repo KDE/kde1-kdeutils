@@ -2271,5 +2271,4 @@ void KWrite::resizeEvent(QResizeEvent *) {
   kWriteView->updateView(0/*ufNoScroll*/);
 }
 
-
-
+#include "kwview.moc"
