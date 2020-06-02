@@ -2,7 +2,6 @@
 #set(KERNEL_INCLUDE_DIR /usr/src/kernels/4.8.3-300.fc25.x86_64)
 
 include_directories(
-    ${QT_INCLUDE_DIR}
     ${KDE1_INCLUDE_DIR}
 #    ${KERNEL_INCLUDE_DIR}/include
 #    ${KERNEL_INCLUDE_DIR}/arch/x86/include/
@@ -20,7 +19,7 @@ QT1_WRAP_MOC(KFLOPPY_MOC_FILES ${KFLOPPY_MOC})
 
 add_executable(kfloppy ${KFLOPPY_SRCS} ${KFLOPPY_MOC_FILES})
 target_link_libraries(kfloppy
-    ${QT_LIBRARIES}
+    Qt::Qt1
     ${X11_LIBRARIES}
     ${KDE1_KDECORE}
     ${KDE1_KDEUI}
