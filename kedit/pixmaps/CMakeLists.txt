@@ -1,0 +1,6 @@
+install_icon(filenew2.xpm "${KDE1_DATADIR}/kedit/toolbar")
+install_icon(send.xpm "${KDE1_DATADIR}/kedit/toolbar")
+install_icon(kedit.xpm "${KDE1_ICONDIR}")
+install_icon(keditlogo.xpm "${KDE1_DATADIR}/kedit/pics")
+install_icon(mini-kedit.xpm "${KDE1_MINIDIR}")
+install_icon(large-kedit.xpm "${KDE1_ICONDIR}/large")
