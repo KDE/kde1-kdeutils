@@ -74,9 +74,9 @@ int main( int argc, char **argv )
   KConfig *config = a.getConfig();
   config->setGroup("kjots");
   if( !config->hasKey("execHttp") )
-    config->writeEntry("execHttp", "kfmclient openURL %u");
+    config->writeEntry("execHttp", "kfmclient1 openURL %u");
   if( !config->hasKey("execFtp") )
-    config->writeEntry("execFtp", "kfmclient openURL %u");
+    config->writeEntry("execFtp", "kfmclient1 openURL %u");
   if( !config->hasKey("EFontFamily") )
     config->writeEntry("EFontFamily", "helvetica");
   if( !config->hasKey("EFontSize") )
