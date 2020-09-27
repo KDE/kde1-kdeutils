@@ -28,12 +28,6 @@ Svec<T>::Svec(const Svec<T> &s)
 }
 
 template<class T>
-Svec<T>::~Svec()
-{
-    free(vect);
-}
-
-template<class T>
 Svec<T> &Svec<T>::operator=(const Svec<T> &s)
 {
     if(this != &s) {

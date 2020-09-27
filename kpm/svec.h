@@ -14,7 +14,9 @@ class Svec
 public:
     Svec(int max = 16);
     Svec(const Svec<T> &s);
-    ~Svec();
+    ~Svec() {
+        free(vect);
+    }
 
     Svec<T> &operator=(const Svec<T> &s);
     int size() const { return used; };
