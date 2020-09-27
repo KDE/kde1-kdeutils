@@ -213,3 +213,4 @@ void TopLevel::showPopupMenu()
       pQPMmenu->popup(QPoint(g.x(), g.y()));
   }
 }
+#include "toplevel.moc"

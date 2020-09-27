@@ -25,7 +25,7 @@ endif()
 
 add_subdirectory(kfontmanager)
 add_subdirectory(kedit)
-#add_subdirectory(klipper)
+add_subdirectory(klipper)
 #add_subdirectory(karm)
 add_subdirectory(khexdit)
 #add_subdirectory(klpq)
