@@ -200,3 +200,4 @@ void ConfDialog::closeEvent(QCloseEvent *)
   emit confHide();
 }
 
+#include "confdialog.moc"

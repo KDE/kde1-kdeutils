@@ -989,3 +989,4 @@ void KJotsMain::copySelection( )
   me_text->copyText();
   le_subject->setText(QApplication::clipboard()->text());
 }
+#include "KJotsMain.moc"

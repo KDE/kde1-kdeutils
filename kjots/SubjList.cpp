@@ -80,3 +80,5 @@ void SubjList::entryChanged( const char * new_subj)
   lb_subj->setAutoUpdate(TRUE);
   lb_subj->repaint();
 }
+
+#include "SubjList.moc"

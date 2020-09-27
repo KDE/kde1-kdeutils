@@ -68,3 +68,4 @@ void CPopupMenu::setActItem( int it)
   actItem = it;
 }
 
+#include "cpopmenu.moc"
