@@ -25,6 +25,6 @@ target_link_libraries(kedit
 
 install(TARGETS kedit RUNTIME DESTINATION ${KDE1_BINDIR})
 
-install(FILES kedit.kdelnk DESTINATION ${KDE1_DATADIR}/kedit)
+install(FILES KEdit.kdelnk DESTINATION ${KDE1_DATADIR}/kedit)
 
 add_subdirectory(pixmaps)
