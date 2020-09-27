@@ -511,7 +511,7 @@ Cat_time::Cat_time(char *heading, char *explain)
 QString Cat_time::string(Procinfo *p)
 {
     QString s(8);
-    int t = (p->utime + p->stime) / CLK_TCK;
+    int t = (p->utime + p->stime) / CLOCKS_PER_SEC;
     if(t >= 100 * 60) {
 	if(t >= 100 * 3600) {
 	    int d = t / 86400;
@@ -526,7 +526,7 @@ QString Cat_time::string(Procinfo *p)
 	    s.sprintf("%2d:%02dh", h, t / 60);
 	}
     } else if(t < 10) {
-	int hundreds = (p->utime + p->stime) / (CLK_TCK / 100) % 100;
+	int hundreds = (p->utime + p->stime) / (CLOCKS_PER_SEC / 100) % 100;
 	s.sprintf("%1d.%02ds", t, hundreds);
     } else {
 	s.sprintf("%2d:%02d", t / 60, t % 60);
@@ -546,7 +546,7 @@ Cat_start::Cat_start(char *heading, char *explain)
 
 QString Cat_start::string(Procinfo *p)
 {
-    time_t start = p->boot_time + p->starttime / CLK_TCK;
+    time_t start = p->boot_time + p->starttime / CLOCKS_PER_SEC;
     QString s;
     char *ct = ctime(&start);
     if(p->tv.tv_sec - start < 86400) {
@@ -561,8 +561,8 @@ QString Cat_start::string(Procinfo *p)
 
 int Cat_start::compare(Procinfo *a, Procinfo *b)
 {
-    int at = a->boot_time + a->starttime / CLK_TCK;
-    int bt = b->boot_time + b->starttime / CLK_TCK;
+    int at = a->boot_time + a->starttime / CLOCKS_PER_SEC;
+    int bt = b->boot_time + b->starttime / CLOCKS_PER_SEC;
     return at < bt ? 1 : (at > bt ? -1 : 0);
 }
 
@@ -709,8 +709,8 @@ void Proc::refresh()
 	    Procinfo *jp = oldprocs[j];
 	    
 	    // calculate pcpu and wcpu from previous procinfo
-	    int dt = (ip->tv.tv_usec - jp->tv.tv_usec) / (1000000 / CLK_TCK)
-		     + (ip->tv.tv_sec - jp->tv.tv_sec) * CLK_TCK;
+	    int dt = (ip->tv.tv_usec - jp->tv.tv_usec) / (1000000 / CLOCKS_PER_SEC)
+		     + (ip->tv.tv_sec - jp->tv.tv_sec) * CLOCKS_PER_SEC;
 	    int dcpu = ip->stime - jp->stime + ip->utime - jp->utime;
 	    ip->pcpu = 100.0 * dcpu / dt;
 	    if(ip->pcpu > 99.99) ip->pcpu = 99.99;
@@ -726,8 +726,8 @@ void Proc::refresh()
 		ip->details->set_procinfo(ip);
 	} else {
 	    // %cpu first time = (cpu time since start) / (time since start)
-	    int jiffies_since_boot = ip->tv.tv_usec / (1000000 / CLK_TCK)
-		                   + (ip->tv.tv_sec - ip->boot_time) * CLK_TCK;
+	    int jiffies_since_boot = ip->tv.tv_usec / (1000000 / CLOCKS_PER_SEC)
+		                   + (ip->tv.tv_sec - ip->boot_time) * CLOCKS_PER_SEC;
 	    int dt = jiffies_since_boot - ip->starttime;
 	    int dcpu = ip->stime + ip->utime;
 	    ip->pcpu = 100.0 * dcpu / dt;
