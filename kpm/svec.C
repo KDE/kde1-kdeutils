@@ -7,6 +7,7 @@
 // An Svec<T> grows automatically (doubles when full), so that adding
 // elements to the end has an amortized cost of O(1).
 
+#include <qglobal.h>
 #include "svec.h"
 
 template<class T>
