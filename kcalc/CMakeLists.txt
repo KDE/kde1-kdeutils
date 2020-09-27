@@ -12,15 +12,15 @@ set(KCALC_MOC
 
 QT1_WRAP_MOC(MOC_FILES ${KCALC_MOC})
 
-add_executable(kcalc ${KCALC_SRCS} ${MOC_FILES})
-target_link_libraries(kcalc
+add_executable(kcalc1 ${KCALC_SRCS} ${MOC_FILES})
+target_link_libraries(kcalc1
     Qt::Qt1
     ${X11_LIBRARIES}
     ${KDE1_KDECORE}
     ${KDE1_KDEUI}
 )
 
-install(TARGETS kcalc RUNTIME DESTINATION ${KDE1_BINDIR})
+install(TARGETS kcalc1 RUNTIME DESTINATION ${KDE1_BINDIR})
 
 install(FILES kcalc.kdelnk DESTINATION ${KDE1_DATADIR}/kcalc)
 
