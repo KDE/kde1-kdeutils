@@ -108,6 +108,7 @@ TopLevel::~TopLevel()
     delete pQPMmenu;
     delete pQIDclipData;
     delete pQPpic;
+    delete globalKeys;
 }
 
 void TopLevel::mousePressEvent(QMouseEvent *) /*FOLD00*/
