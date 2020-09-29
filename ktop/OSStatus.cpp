@@ -307,14 +307,18 @@ OSStatus::getMemoryInfo(int& total, int& mfree, int& used, int& buffers,
 	}
 
         char *line = NULL;
-        long memtotal = -1, memfree = -1, memavailable = -1, memcached = -1, membuffers = -1;
+        long long memtotal = -1;
+        long long memfree = -1;
+        long long memavailable = -1;
+        long long memcached = -1;
+        long long membuffers = -1;
         // Not the most elegant, but more robust
         for (size_t len = 0; getline(&line, &len, meminfo) != -1;) {
-            sscanf(line, "MemTotal: %ld kB", &memtotal);
-            sscanf(line, "MemFree: %ld kB", &memfree);
-            sscanf(line, "MemAvailable: %ld kB", &memavailable);
-            sscanf(line, "Cached: %ld kB", &memcached);
-            sscanf(line, "Buffers: %ld kB", &membuffers);
+            sscanf(line, "MemTotal: %lld kB", &memtotal);
+            sscanf(line, "MemFree: %lld kB", &memfree);
+            sscanf(line, "MemAvailable: %lld kB", &memavailable);
+            sscanf(line, "Cached: %lld kB", &memcached);
+            sscanf(line, "Buffers: %lld kB", &membuffers);
 
             if (memtotal >= 0 && memfree >= 0 && memavailable >= 0 && memcached >= 0 && membuffers >= 0) {
                 break;
@@ -333,7 +337,7 @@ OSStatus::getMemoryInfo(int& total, int& mfree, int& used, int& buffers,
         total = memtotal / 1024;
         mfree = memfree / 1024;
         buffers = membuffers / 1024;
-        used = (memtotal - memavailable) / 1024;
+        used = (memtotal - memfree) / 1024;
         cached = memcached / 1024;
 
 	return (true);
@@ -388,10 +392,12 @@ OSStatus::getSwapInfo(int& stotal, int& sfree)
 {
 	FILE* meminfo;
 
-	if ((meminfo = fopen("/proc/meminfo", "r")) == NULL)
+        stotal = sfree = 0;
+
+	if ((meminfo = fopen("/proc/swaps", "r")) == NULL)
 	{
 		error = true;
-		errMessage = i18n("Cannot open file \'/proc/meminfo\'!\n"
+		errMessage = i18n("Cannot open file \'/proc/swaps\'!\n"
 						  "The kernel needs to be compiled with support\n"
 						  "for /proc filesystem enabled!");
 		return (false);
@@ -399,13 +405,24 @@ OSStatus::getSwapInfo(int& stotal, int& sfree)
 	if (fscanf(meminfo, "%*[^\n]\n") == EOF)
 	{
 		error = true;
-		errMessage = i18n("Cannot read swap info from \'/proc/meminfo\'!\n");
+		errMessage = i18n("Cannot read swap info from \'/proc/swaps\'!\n");
 		return (false);
 	}
-	fscanf(meminfo, "%*[^\n]\n");
-	fscanf(meminfo, "%*s %d %*d %d\n",
+
+	int read = fscanf(meminfo, "%*s %*s %d %d %*d\n", // Filename, type, size, used, priority
 		   &stotal, &sfree);
 	fclose(meminfo);
+
+        // no swap
+        if (read == EOF) {
+            return(true);
+        }
+
+        if (read != 2) {
+		error = true;
+		errMessage = i18n("Cannot read swap info from \'/proc/swaps\'!\n");
+		return (false);
+        }
 
 	stotal /= 1024;
 	sfree /= 1024;

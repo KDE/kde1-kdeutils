@@ -63,10 +63,12 @@ PerfMonPage::PerfMonPage(QWidget* parent = 0, const char* name = 0)
 	memory = new FancyPlotter(this, "memory_meter",
 							  i18n("Memory Usage History"),
 							  0, physical + swap);
-	memory->addBeam(i18n("Program (kB)"), blue);
-	memory->addBeam(i18n("Buffer (kB)"), green);
-	memory->addBeam(i18n("Cache (kB)"), yellow);
-	memory->addBeam(i18n("Swap (kB)"), red);
+	memory->addBeam(i18n("Program (MB)"), blue);
+	memory->addBeam(i18n("Buffer (MB)"), green);
+	memory->addBeam(i18n("Cache (MB)"), yellow);
+        if (swap) {
+            memory->addBeam(i18n("Swap (MB)"), red);
+        }
 
 	if (noCpus == 1)
 	{
