@@ -144,8 +144,12 @@ TopLevel::timerEvent(QTimerEvent*)
 
 	int sTotal, sFree;
 	osStatus.getSwapInfo(sTotal, sFree);
-	s.sprintf(i18n("Swap: %d kB used, %d kB free"), sTotal - sFree, sFree);
-	statusbar->changeItem(s, 2);
+        if (sTotal) {
+            s.sprintf(i18n("Swap: %d kB used, %d kB free"), sTotal - sFree, sFree);
+            statusbar->changeItem(s, 2);
+        } else {
+            statusbar->changeItem("", 2);
+        }
 }
 
 /*
