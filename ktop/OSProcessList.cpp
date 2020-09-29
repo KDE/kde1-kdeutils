@@ -51,7 +51,7 @@
 
 #include "OSProcessList.h"
 
-#ifdef linux
+#ifdef __linux__
 
 // Code for Linux 2.x
 
@@ -359,6 +359,7 @@ OSProcessList::hasVmLib(void) const
 
 
 #else
+#warning "Unsupported platform"
 
 OSProcessList::OSProcessList()
 {

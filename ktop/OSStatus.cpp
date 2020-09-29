@@ -83,7 +83,7 @@
 // uncomment this line to fake SMP reporting on non SMP systems
 // #define FAKE_SMP 1
 
-#ifdef linux
+#ifdef __linux__
 
 // Code for Linux 2.x
 

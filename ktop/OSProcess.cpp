@@ -59,7 +59,7 @@
 #include "OSProcess.h"
 #include "TimeStampList.h"
 
-#ifdef linux
+#ifdef __linux__
 
 // Code for Linux 2.x
 
@@ -128,15 +128,30 @@ OSProcess::read(const void* info)
     char status;
 	char cbuf[1024];
 	fscanf(fd, "%*s %s", name);
-	fscanf(fd, "%*s %*c %*s");
-	fscanf(fd, "%*s %*d");
-	fscanf(fd, "%*s %*d");
+	fscanf(fd, "%*s %*d"); // umask
+	fscanf(fd, "%*s %*c %*s"); //state
+	fscanf(fd, "%*s %*d"); //tgid
+	fscanf(fd, "%*s %*d"); //ngid
+	fscanf(fd, "%*s %*d"); //pid
+	fscanf(fd, "%*s %*d"); //ppid
+	fscanf(fd, "%*s %*d"); //tracerpid
 	fscanf(fd, "%*s %d %*d %*d %*d", (int*) &uid);
-	fscanf(fd, "%*s %*d %*d %*d %*d");
-	fscanf(fd, "%*s %*d %*d %*d %*d");
+	fscanf(fd, "%*s %*d %*d %*d %*d"); // gid
+	fscanf(fd, "%*s %*d"); //fdsize
+	fscanf(fd, "%*s %*d %*d %*d %*d"); // groups
+	fscanf(fd, "%*s %*d"); //nstgid
+	fscanf(fd, "%*s %*d"); //nspid
+	fscanf(fd, "%*s %*d"); //NSpgid
+	fscanf(fd, "%*s %*d"); //NSsid
+	fscanf(fd, "%*s %*d %*s");	// VmPeak
 	fscanf(fd, "%*s %*d %*s");	// VmSize
 	fscanf(fd, "%*s %*d %*s");	// VmLck
+	fscanf(fd, "%*s %*d %*s");	// VmPin
+	fscanf(fd, "%*s %*d %*s");	// VmHWM
 	fscanf(fd, "%*s %*d %*s");	// VmRSS
+	fscanf(fd, "%*s %*d %*s");	// RssAnon
+	fscanf(fd, "%*s %*d %*s");	// RssFile
+	fscanf(fd, "%*s %*d %*s");	// RssShmem
 	fscanf(fd, "%*s %*d %*s");	// VmData
 	fscanf(fd, "%*s %*d %*s");	// VmStk
 	fscanf(fd, "%*s %*d %*s");	// VmExe
@@ -287,6 +302,8 @@ OSProcess::read(const void* info)
 }
 
 #else
+#warning "No supported platform"
+
 OSProcess::OSProcess(const void* info, TimeStampList* lastTStamps,
                                          TimeStampList* newTStamps)
 {
