@@ -34,6 +34,18 @@ install(FILES KFloppy.kdelnk DESTINATION ${KDE1_APPSDIR}/Utilities)
 install_icon(kfloppy.xpm "${KDE1_DATADIR}/kfloppy")
 install_icon(kfloppylogo.xpm "${KDE1_DATADIR}/kfloppy")
 
+install(FILES
+    doc/kfloppy-1.html
+    doc/kfloppy-2.html
+    doc/kfloppy-3.html
+    doc/kfloppy-4.html
+    doc/kfloppy-5.html
+    doc/kfloppy.html
+    doc/kfloppy.nif
+    doc/kfloppy.sgml
+    doc/logotp3.gif
+    DESTINATION ${KDE1_HTMLDIR}/en/kfloppy)
+
 ######################### Next target ########################
 
 #set(KMKDOSFS_SRCS kmkdosfs.c)

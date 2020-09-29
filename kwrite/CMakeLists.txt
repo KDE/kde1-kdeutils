@@ -31,6 +31,11 @@ install_icon(redo.xpm "${KDE1_DATADIR}/kwrite")
 install_icon(undo.xpm "${KDE1_DATADIR}/kwrite")
 
 install(FILES
-    index.html index-1.html index-2.html index-3.html
-    index-4.html index-5.html logotp3.gif
+    docs/index.html
+    docs/index-1.html
+    docs/index-2.html
+    docs/index-3.html
+    docs/index-4.html
+    docs/index-5.html
+    docs/logotp3.gif
     DESTINATION ${KDE1_HTMLDIR}/en/kwrite1)

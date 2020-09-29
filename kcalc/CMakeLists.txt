@@ -26,3 +26,33 @@ install(FILES kcalc.kdelnk DESTINATION ${KDE1_APPSDIR}/Utilities)
 
 install_icon(kcalc.xpm "${KDE1_DATADIR}/kcalc")
 install_icon(kcalclogo.xpm "${KDE1_DATADIR}/kcalc")
+
+install(FILES
+    doc/index-1.html
+    doc/index-2.html
+    doc/index-3.html
+    doc/index-4.html
+    doc/index-5.html
+    doc/index-6.html
+    doc/index-7.html
+    doc/index-8.html
+    doc/index-9.html
+    doc/index.html
+    doc/logotp3.gif
+    doc/kcalc_on_Aix.txt
+    doc/kcalc_on_OSF.txt
+    DESTINATION ${KDE1_HTMLDIR}/en/kcalc)
+
+install(FILES
+    doc/de/index-1.html
+    doc/de/index-2.html
+    doc/de/index-3.html
+    doc/de/index-4.html
+    doc/de/index-5.html
+    doc/de/index-6.html
+    doc/de/index-7.html
+    doc/de/index-8.html
+    doc/de/index-9.html
+    doc/de/index.html
+    doc/de/logotp3.gif
+    DESTINATION ${KDE1_HTMLDIR}/de/kcalc)

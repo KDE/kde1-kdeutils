@@ -28,3 +28,13 @@ install(TARGETS kedit RUNTIME DESTINATION ${KDE1_BINDIR})
 install(FILES KEdit.kdelnk DESTINATION ${KDE1_APPSDIR}/Applications)
 
 add_subdirectory(pixmaps)
+
+install(FILES
+    docs/index.html
+    docs/index-1.html
+    docs/index-2.html
+    docs/index-3.html
+    docs/index-4.html
+    docs/index-5.html
+    docs/logotp3.gif
+    DESTINATION ${KDE1_HTMLDIR}/en/kedit)

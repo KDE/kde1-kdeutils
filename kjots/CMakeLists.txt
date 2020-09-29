@@ -35,3 +35,11 @@ install(TARGETS kjots RUNTIME DESTINATION ${KDE1_BINDIR})
 install_icon(icons/kjots.xpm "${KDE1_DATADIR}/kjots")
 install(FILES Kjots.kdelnk DESTINATION ${KDE1_APPSDIR}/Utilities)
 add_subdirectory(icons)
+
+install(FILES
+    doc/index.html
+    doc/index-1.html
+    doc/index-2.html
+    doc/index-3.html
+    doc/logotp3.gif
+    DESTINATION ${KDE1_HTMLDIR}/en/kjots)

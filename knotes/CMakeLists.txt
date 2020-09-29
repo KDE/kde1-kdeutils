@@ -44,3 +44,13 @@ install(TARGETS knotes RUNTIME DESTINATION ${KDE1_BINDIR})
 install_icon(knotes.xpm "${KDE1_DATADIR}/knotes")
 install_icon(knoteslogo.xpm "${KDE1_DATADIR}/knotes")
 install(FILES knotes.kdelnk DESTINATION ${KDE1_APPSDIR}/Utilities)
+
+install(FILES
+    docs/index.html
+    docs/index-1.html
+    docs/index-2.html
+    docs/index-3.html
+    docs/index-4.html
+    docs/index-5.html
+    docs/logotp3.gif
+    DESTINATION ${KDE1_HTMLDIR}/en/knotes)
