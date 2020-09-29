@@ -53,6 +53,7 @@
 #include <pwd.h>
 #include <errno.h>
 #include <unistd.h>
+#include <stdlib.h>
 
 #include <kapp.h>
 
@@ -126,40 +127,21 @@ OSProcess::read(const void* info)
 	}
 
     char status;
-	char cbuf[1024];
-	fscanf(fd, "%*s %s", name);
-	fscanf(fd, "%*s %*d"); // umask
-	fscanf(fd, "%*s %*c %*s"); //state
-	fscanf(fd, "%*s %*d"); //tgid
-	fscanf(fd, "%*s %*d"); //ngid
-	fscanf(fd, "%*s %*d"); //pid
-	fscanf(fd, "%*s %*d"); //ppid
-	fscanf(fd, "%*s %*d"); //tracerpid
-	fscanf(fd, "%*s %d %*d %*d %*d", (int*) &uid);
-	fscanf(fd, "%*s %*d %*d %*d %*d"); // gid
-	fscanf(fd, "%*s %*d"); //fdsize
-	fscanf(fd, "%*s %*d %*d %*d %*d"); // groups
-	fscanf(fd, "%*s %*d"); //nstgid
-	fscanf(fd, "%*s %*d"); //nspid
-	fscanf(fd, "%*s %*d"); //NSpgid
-	fscanf(fd, "%*s %*d"); //NSsid
-	fscanf(fd, "%*s %*d %*s");	// VmPeak
-	fscanf(fd, "%*s %*d %*s");	// VmSize
-	fscanf(fd, "%*s %*d %*s");	// VmLck
-	fscanf(fd, "%*s %*d %*s");	// VmPin
-	fscanf(fd, "%*s %*d %*s");	// VmHWM
-	fscanf(fd, "%*s %*d %*s");	// VmRSS
-	fscanf(fd, "%*s %*d %*s");	// RssAnon
-	fscanf(fd, "%*s %*d %*s");	// RssFile
-	fscanf(fd, "%*s %*d %*s");	// RssShmem
-	fscanf(fd, "%*s %*d %*s");	// VmData
-	fscanf(fd, "%*s %*d %*s");	// VmStk
-	fscanf(fd, "%*s %*d %*s");	// VmExe
-	fscanf(fd, "%s %d %*s", cbuf, &vm_lib);	// VmLib
-	if (strcmp(cbuf, "VmLib:") != 0)
-		vm_lib = 0;
-	else
-		vm_lib *= 1024;
+    int nstgid;
+    char *line = NULL;
+    name[0] = 0;
+    for (size_t len = 0; getline(&line, &len, fd) != -1;) {
+	sscanf(line, "Name: %[^\n]", name);
+	sscanf(line, "State: %c %*s", &status);
+	sscanf(line, "Uid: %d %*d %*d %*d", (int*) &uid);
+	sscanf(line, "Gid: %d %*d %*d %*d", (int*) &gid);
+	sscanf(line, "VmSize: %d kB", &vm_size);
+	sscanf(line, "VmRSS: %d kB", &vm_rss);
+	sscanf(line, "VmLib: %d kB", &vm_lib);
+	sscanf(line, "Pid: %d", &pid);
+	sscanf(line, "PPid: %d", &ppid);
+    }
+    free(line);
 
 	fclose(fd);
 
@@ -171,11 +153,42 @@ OSProcess::read(const void* info)
 		return (false);
 	}
 
-	fscanf(fd, "%d %*s %c %d %d %*d %d %*d %*u %*u %*u %*u %*u %d %d"
-		   "%*d %*d %*d %d %*u %*u %*d %u %u",
-		   (int*) &pid, &status, (int*) &ppid, (int*) &gid, &ttyNo,
-		   &userTime, &sysTime, &niceLevel, &vm_size, &vm_rss);
+        QString fmtBuf;
+	fmtBuf.sprintf(
+                "%%*d " // PID
+                "(%s) " // Comm
+                "%%*c " // State
+                "%%*d " // Ppid
+                "%%*d " // Pgrp
+                "%%*d " // Session
+                "%%d "  // ttyno
+                "%%*d " // tpgid
+                "%%*u " // flags
+                "%%*u " // minflt
+                "%%*u " // cminflt
+                "%%*u " // majflt
+                "%%*u " // cmajflt
+                "%%d "  // utime
+                "%%d "  // stime
+		"%%*d " // cutime
+                "%%*d " // cstime
+                "%%*d " // priority
+                "%%d "  // nice
+                "%%*u " // numthreads
+                "%%*u " // itrealvalue
+                "%%*d " // starttime
+                "%%*u", // vsize
+            name);
+	int read = fscanf(fd,
+                fmtBuf.data(),
+		   &ttyNo, &userTime, &sysTime, &niceLevel);
 
+        if (read != 4) {
+            ttyNo = 0;
+            userTime = 0;
+            sysTime = 0;
+            niceLevel = 0;
+        }
 	vm_rss = (vm_rss + 3) * getpagesize();
 
 	fclose(fd);
@@ -187,6 +200,7 @@ OSProcess::read(const void* info)
 		errMessage.sprintf(i18n("Cannot open %s!\n"), buf.data());
 		return (false);
 	}
+	char cbuf[1024];
 	cbuf[0] = '\0';
 	fscanf(fd, "%1023[^\n]", cbuf);
 	cbuf[1023] = '\0';
