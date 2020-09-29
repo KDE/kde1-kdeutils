@@ -356,9 +356,11 @@ OSStatus::readCpuInfo(const char* cpu, int* u, int* s, int* n, int* i)
 
 	rewind(stat);
 
+        unsigned user, nice, system, idle, iowait, irq, softirq, steal, guest, guest_nice;
 	do
 	{
-		if (fscanf(stat, "%32s %d %d %d %d", tag, u, n, s, i) != 5)
+		if (fscanf(stat, "%32s %u %u %u %u %u %u %u %u %u %u", tag, &user, &nice, &system, &idle, &iowait,
+                            &irq, &softirq, &steal, &guest, &guest_nice) != 11)
 		{
 			error = true;
 			errMessage.sprintf(i18n("Cannot read info for %s from file "
@@ -369,6 +371,10 @@ OSStatus::readCpuInfo(const char* cpu, int* u, int* s, int* n, int* i)
 			return (false);
 		}
 	} while (strcmp(tag, cpu));
+        *i = idle + iowait;
+        *n = nice;
+        *u = user;
+        *s = iowait + irq + softirq + steal + guest + guest_nice;
 
 #ifdef FAKE_SMP
 #undef cpu
