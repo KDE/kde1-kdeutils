@@ -24,7 +24,7 @@ install(TARGETS kcalc1 RUNTIME DESTINATION ${KDE1_BINDIR})
 
 install(FILES kcalc.kdelnk DESTINATION ${KDE1_APPSDIR}/Utilities)
 
-install_icon(kcalc.xpm "${KDE1_DATADIR}/kcalc")
+install_icon(kcalc.xpm "${KDE1_ICONDIR}")
 install_icon(kcalclogo.xpm "${KDE1_DATADIR}/kcalc")
 
 install(FILES

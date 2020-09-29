@@ -31,7 +31,7 @@ install(FILES KFloppy.kdelnk DESTINATION ${KDE1_APPSDIR}/Utilities)
 
 
 
-install_icon(kfloppy.xpm "${KDE1_DATADIR}/kfloppy")
+install_icon(kfloppy.xpm "${KDE1_ICONDIR}")
 install_icon(kfloppylogo.xpm "${KDE1_DATADIR}/kfloppy")
 
 install(FILES

@@ -32,7 +32,7 @@ target_link_libraries(kjots
 )
 
 install(TARGETS kjots RUNTIME DESTINATION ${KDE1_BINDIR})
-install_icon(icons/kjots.xpm "${KDE1_DATADIR}/kjots")
+install_icon(icons/kjots.xpm "${KDE1_ICONDIR}")
 install(FILES Kjots.kdelnk DESTINATION ${KDE1_APPSDIR}/Utilities)
 add_subdirectory(icons)
 

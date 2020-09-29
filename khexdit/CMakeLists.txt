@@ -30,7 +30,7 @@ install(TARGETS khexdit RUNTIME DESTINATION ${KDE1_BINDIR})
 
 install(FILES khexdit.kdelnk DESTINATION ${KDE1_APPSDIR}/Utilities)
 
-install_icon(khexdit.xpm "${KDE1_ICONDIR}/khexdit")
+install_icon(khexdit.xpm "${KDE1_ICONDIR}")
 
 install(FILES doc/en/index.html DESTINATION ${KDE1_HTMLDIR}/en/khexdit)
 install(FILES doc/it/index.html DESTINATION ${KDE1_HTMLDIR}/it/khexdit)

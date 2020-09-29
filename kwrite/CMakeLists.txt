@@ -26,7 +26,7 @@ install(TARGETS kwrite1 RUNTIME DESTINATION ${KDE1_BINDIR})
 
 install(FILES kwrite.kdelnk DESTINATION ${KDE1_APPSDIR}/Applications)
 
-install_icon(kwrite.xpm "${KDE1_DATADIR}/kwrite")
+install_icon(kwrite.xpm "${KDE1_ICONDIR}")
 install_icon(redo.xpm "${KDE1_DATADIR}/kwrite")
 install_icon(undo.xpm "${KDE1_DATADIR}/kwrite")
 

@@ -23,5 +23,5 @@ target_link_libraries(klipper
 )
 
 install(TARGETS klipper RUNTIME DESTINATION ${KDE1_BINDIR})
-install_icon(klipper.xpm "${KDE1_DATADIR}/klipper")
+install_icon(klipper.xpm "${KDE1_ICONDIR}")
 install(FILES klipper.kdelnk DESTINATION ${KDE1_APPSDIR}/Utilities)

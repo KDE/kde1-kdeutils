@@ -30,7 +30,7 @@ install(TARGETS ktop RUNTIME DESTINATION ${KDE1_BINDIR})
 
 install(FILES ktop.kdelnk DESTINATION ${KDE1_APPSDIR}/System)
 
-install_icon(ktop.xpm "${KDE1_DATADIR}/ktop")
+install_icon(ktop.xpm "${KDE1_ICONDIR}")
 
 install(FILES
     doc/en/index.html
