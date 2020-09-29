@@ -305,26 +305,36 @@ OSStatus::getMemoryInfo(int& total, int& mfree, int& used, int& buffers,
 						  "for /proc filesystem enabled!");
 		return (false);
 	}
-	if (fscanf(meminfo, "%*[^\n]\n") == EOF)
-	{
-		error = true;
-		errMessage = i18n("Cannot read memory info file \'/proc/meminfo\'!\n");
-		return (false);
-	}
-	/*
-	 * The following works only on systems with 4GB or less. Currently this
-	 * is no problem but what happens if Linus changes his mind?
-	 */
-	fscanf(meminfo, "%*s %d %d %d %*d %d %d\n",
-		   &total, &used, &mfree, &buffers, &cached);
 
-	total /= 1024;
-	mfree /= 1024;
-	used /= 1024;
-	buffers /= 1024;
-	cached /= 1024;
+        char *line = NULL;
+        long memtotal = -1, memfree = -1, memavailable = -1, memcached = -1, membuffers = -1;
+        // Not the most elegant, but more robust
+        for (size_t len = 0; getline(&line, &len, meminfo) != -1;) {
+            sscanf(line, "MemTotal: %ld kB", &memtotal);
+            sscanf(line, "MemFree: %ld kB", &memfree);
+            sscanf(line, "MemAvailable: %ld kB", &memavailable);
+            sscanf(line, "Cached: %ld kB", &memcached);
+            sscanf(line, "Buffers: %ld kB", &membuffers);
 
+            if (memtotal >= 0 && memfree >= 0 && memavailable >= 0 && memcached >= 0 && membuffers >= 0) {
+                break;
+            }
+        }
+
+        free(line);
 	fclose(meminfo);
+
+        if (memtotal < 0 || memfree < 0 || memavailable < 0 || memcached < 0 || membuffers < 0) {
+            error = true;
+            errMessage = i18n("Cannot read memory info file \'/proc/meminfo\'!\n");
+            return (false);
+        }
+
+        total = memtotal / 1024;
+        mfree = memfree / 1024;
+        buffers = membuffers / 1024;
+        used = (memtotal - memavailable) / 1024;
+        cached = memcached / 1024;
 
 	return (true);
 }
