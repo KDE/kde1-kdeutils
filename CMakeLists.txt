@@ -23,7 +23,7 @@ if (CMAKE_COMPILER_IS_GNUCXX)
     set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -Wl,--no-undefined")
 endif()
 
-add_subdirectory(kfontmanager)
+#add_subdirectory(kfontmanager) # It is in kdebase
 add_subdirectory(kedit)
 add_subdirectory(klipper)
 #add_subdirectory(karm)
