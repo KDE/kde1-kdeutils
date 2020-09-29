@@ -159,6 +159,12 @@ void TopLevel::newClipData()
             clipData.append("...");
         }
         long int id = pQPMmenu->insertItem(clipData.simplifyWhiteSpace(), -2, -1); // -2 means unique id, -1 means at end
+        // QIntDict/QGDict doesn't understand negative IDs, it tries to access
+        // memory below what it has allocated.
+        // And insertItem() will always return a negative number (as far down
+        // as int goes), so abs() will be unique.
+        id = std::abs(id);
+
         pQIDclipData->insert(id, data);
     }
 }
