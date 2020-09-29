@@ -28,6 +28,6 @@ target_link_libraries(ktop
 
 install(TARGETS ktop RUNTIME DESTINATION ${KDE1_BINDIR})
 
-install(FILES ktop.kdelnk DESTINATION ${KDE1_DATADIR}/ktop)
+install(FILES ktop.kdelnk DESTINATION ${KDE1_APPSDIR}/System)
 
 install_icon(ktop.xpm "${KDE1_DATADIR}/ktop")

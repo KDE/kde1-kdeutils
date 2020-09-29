@@ -27,7 +27,7 @@ target_link_libraries(kfloppy
 
 install(TARGETS kfloppy RUNTIME DESTINATION ${KDE1_BINDIR})
 
-install(FILES KFloppy.kdelnk DESTINATION ${KDE1_DATADIR}/kfloppy)
+install(FILES KFloppy.kdelnk DESTINATION ${KDE1_APPSDIR}/Utilities)
 
 
 

@@ -69,6 +69,6 @@ target_link_libraries(kpmdocked
 
 install(TARGETS kpm RUNTIME DESTINATION ${KDE1_BINDIR})
 install_icon(icons/kpm.xpm "${KDE1_DATADIR}/kpm")
-install(FILES kpm.kdelnk DESTINATION ${KDE1_DATADIR}/kpm)
+install(FILES kpm.kdelnk DESTINATION ${KDE1_APPSDIR}/Utilities)
 
 install(FILES ${kpm_DOC} DESTINATION ${KDE1_HTMLDIR}/en/kpm)

@@ -24,7 +24,7 @@ target_link_libraries(kwrite1
 
 install(TARGETS kwrite1 RUNTIME DESTINATION ${KDE1_BINDIR})
 
-install(FILES kwrite.kdelnk DESTINATION ${KDE1_DATADIR}/kwrite)
+install(FILES kwrite.kdelnk DESTINATION ${KDE1_APPSDIR}/Applications)
 
 install_icon(kwrite.xpm "${KDE1_DATADIR}/kwrite")
 install_icon(redo.xpm "${KDE1_DATADIR}/kwrite")

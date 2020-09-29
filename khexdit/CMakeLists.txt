@@ -28,6 +28,6 @@ target_link_libraries(khexdit
 
 install(TARGETS khexdit RUNTIME DESTINATION ${KDE1_BINDIR})
 
-install(FILES khexdit.kdelnk DESTINATION ${KDE1_DATADIR}/khexdit)
+install(FILES khexdit.kdelnk DESTINATION ${KDE1_APPSDIR}/Utilities)
 
 install_icon(khexdit.xpm "${KDE1_ICONDIR}/khexdit")

@@ -43,4 +43,4 @@ target_link_libraries(knotes
 install(TARGETS knotes RUNTIME DESTINATION ${KDE1_BINDIR})
 install_icon(knotes.xpm "${KDE1_DATADIR}/knotes")
 install_icon(knoteslogo.xpm "${KDE1_DATADIR}/knotes")
-install(FILES knotes.kdelnk DESTINATION ${KDE1_DATADIR}/knotes)
+install(FILES knotes.kdelnk DESTINATION ${KDE1_APPSDIR}/Utilities)
