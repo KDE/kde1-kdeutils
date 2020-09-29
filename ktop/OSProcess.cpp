@@ -153,6 +153,12 @@ OSProcess::read(const void* info)
 		return (false);
 	}
 
+        for (size_t i=0; i<strlen(name); i++) {
+            if (name[i] == '%') {
+                name[i] = ' '; // better safe than sorry, I guess
+            }
+        }
+
         QString fmtBuf;
 	fmtBuf.sprintf(
                 "%%*d " // PID
