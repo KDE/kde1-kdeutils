@@ -17,15 +17,15 @@ set(KFLOPPY_MOC
 
 QT1_WRAP_MOC(KFLOPPY_MOC_FILES ${KFLOPPY_MOC})
 
-add_executable(kfloppy ${KFLOPPY_SRCS} ${KFLOPPY_MOC_FILES})
-target_link_libraries(kfloppy
+add_executable(kfloppy1 ${KFLOPPY_SRCS} ${KFLOPPY_MOC_FILES})
+target_link_libraries(kfloppy1
     Qt::Qt1
     ${X11_LIBRARIES}
     ${KDE1_KDECORE}
     ${KDE1_KDEUI}
 )
 
-install(TARGETS kfloppy RUNTIME DESTINATION ${KDE1_BINDIR})
+install(TARGETS kfloppy1 RUNTIME DESTINATION ${KDE1_BINDIR})
 
 install(FILES KFloppy.kdelnk DESTINATION ${KDE1_APPSDIR}/Utilities)
 

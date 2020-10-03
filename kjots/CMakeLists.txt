@@ -22,8 +22,8 @@ set(kjots_MOC
 
 QT1_WRAP_MOC(MOC_FILES ${kjots_MOC})
 
-add_executable(kjots ${kjots_SRCS} ${MOC_FILES})
-target_link_libraries(kjots
+add_executable(kjots1 ${kjots_SRCS} ${MOC_FILES})
+target_link_libraries(kjots1
     Qt::Qt1
     ${X11_LIBRARIES}
     ${KDE1_KDECORE}
@@ -31,7 +31,7 @@ target_link_libraries(kjots
     ${KDE1_KFILE}
 )
 
-install(TARGETS kjots RUNTIME DESTINATION ${KDE1_BINDIR})
+install(TARGETS kjots1 RUNTIME DESTINATION ${KDE1_BINDIR})
 install_icon(icons/kjots.xpm "${KDE1_ICONDIR}")
 install(FILES Kjots.kdelnk DESTINATION ${KDE1_APPSDIR}/Utilities)
 add_subdirectory(icons)

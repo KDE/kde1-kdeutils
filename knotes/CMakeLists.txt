@@ -31,8 +31,8 @@ set(knotes_MOC
 
 QT1_WRAP_MOC(MOC_FILES ${knotes_MOC})
 
-add_executable(knotes ${knotes_SRCS} ${MOC_FILES})
-target_link_libraries(knotes
+add_executable(knotes1 ${knotes_SRCS} ${MOC_FILES})
+target_link_libraries(knotes1
     Qt::Qt1
     ${X11_LIBRARIES}
     ${KDE1_KDECORE}
@@ -40,7 +40,7 @@ target_link_libraries(knotes
     ${KDE1_KFM}
 )
 
-install(TARGETS knotes RUNTIME DESTINATION ${KDE1_BINDIR})
+install(TARGETS knotes1 RUNTIME DESTINATION ${KDE1_BINDIR})
 install_icon(knotes.xpm "${KDE1_ICONDIR}")
 install_icon(knoteslogo.xpm "${KDE1_DATADIR}/knotes")
 install(FILES knotes.kdelnk DESTINATION ${KDE1_APPSDIR}/Utilities)

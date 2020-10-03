@@ -1,6 +1,6 @@
 # KDE Config File
 [KDE Desktop Entry]
-Exec=knotes
+Exec=knotes1
 Icon=knotes.xpm
 DocPath=knotes/index.html
 Terminal=0
