@@ -21,7 +21,7 @@ QString Uidstr::name(int uid)
     if(!p) {
 	struct passwd *pw = getpwuid(uid);
 	if(!pw) {
-	    p = (char *)malloc(10);
+	    p = (char *)malloc(100);
 	    sprintf(p, "%d", uid);
 	} else
 	    p = strdup(pw->pw_name);
