@@ -44,3 +44,40 @@ install(FILES
     doc/en/Perfmeter.gif
     doc/en/logotp3.gif
     DESTINATION ${KDE1_HTMLDIR}/en/ktop)
+
+install(FILES
+    pics/X.xpm
+    pics/bash.xpm
+    pics/bsh.xpm
+    pics/c++.xpm
+    pics/cc.xpm
+    pics/console.xpm
+    pics/csh.xpm
+    pics/emacs.xpm
+    pics/g++.xpm
+    pics/gbd.xpm
+    pics/gcc.xpm
+    pics/gdb.xpm
+    pics/init.xpm
+    pics/kaudioserver.xpm
+    pics/kbgndwm.xpm
+    pics/kioslave.xpm
+    pics/kpanel.xpm
+    pics/krootwm.xpm
+    pics/ksh.xpm
+    pics/login.xpm
+    pics/lpd.xpm
+    pics/maudio.xpm
+    pics/nxterm.xpm
+    pics/sh.xpm
+    pics/startkde.xpm
+    pics/startx.xpm
+    pics/tcsh.xpm
+    pics/xconsole.xpm
+    pics/xemacs.xpm
+    pics/xinit.xpm
+    pics/xload.xpm
+    pics/xterm.xpm
+    pics/xxgbd.xpm
+    pics/xxgdb.xpm
+    DESTINATION ${KDE1_DATADIR}/ktop/pics)
