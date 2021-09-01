@@ -1626,7 +1626,7 @@ void KWriteDoc::paintTextLine(QPainter &paint, int line,
   int xc, zc;
 
   y = 0;//line*fontHeight - yPos;
-  if (line >= (int) contents.count()) {
+  if (line < 0 || line >= (int) contents.count()) {
     paint.fillRect(0,y,xEnd - xStart,fontHeight,colors[4]);
     return;
   }
