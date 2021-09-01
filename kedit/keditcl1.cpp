@@ -1505,6 +1505,14 @@ QString KEdit::prefixString(QString string){
 }
 
 void KEdit::mousePressEvent (QMouseEvent* e){
+  if ( e->button() == ScrollUpButton ) {
+      verticalScrollBar()->setValue(verticalScrollBar()->value() - cellHeight());
+      return;
+  }
+  if ( e->button() == ScrollDownButton ) {
+      verticalScrollBar()->setValue(verticalScrollBar()->value() + cellHeight());
+      return;
+  }
 
 
   QMultiLineEdit::mousePressEvent(e);
