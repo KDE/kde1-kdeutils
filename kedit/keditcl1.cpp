@@ -39,6 +39,11 @@
 
 #include "keditcl.moc"
 
+#ifndef QT_SCROLL_SUPPORT
+#define ScrollUpButton 0x40
+#define ScrollDownButton 0x80
+#endif
+
 KEdit::KEdit(KApplication *a, QWidget *_parent, const char *name,
 	     const char *fname) : QMultiLineEdit(_parent, name){
 

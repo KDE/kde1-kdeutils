@@ -24,6 +24,11 @@
 #include <qpixmap.h>
 #include <qwidget.h>
 
+#ifndef QT_SCROLL_SUPPORT
+#define ScrollUpButton 0x40
+#define ScrollDownButton 0x80
+#endif
+
 static QColor background(220,220,200); 
 static QColor selectColor(180,180,180);
 static QBrush RedMarker(QColor(0xff,0,0));
@@ -408,6 +413,10 @@ QPoint HexFile::translate(QPoint pos) {
 
 void HexFile::mouseReleaseEvent (QMouseEvent *e) {
 
+    if ((e->button() == ScrollUpButton) || (e->button() == ScrollDownButton)) {
+        return;
+    }
+
     QPoint pos = translate(e->pos());
     curx = pos.x();
     cury = pos.y();
@@ -424,6 +433,14 @@ void HexFile::mouseReleaseEvent (QMouseEvent *e) {
 }
 
 void HexFile::mousePressEvent (QMouseEvent *e) {
+    if ( e->button() == ScrollUpButton ) {
+        scrollV->subtractLine();
+        return;
+    }
+    if ( e->button() == ScrollDownButton ) {
+        scrollV->addLine();
+        return;
+    }
 
     startDrag = translate(e->pos());
     if (indexOf(startDrag) > data->size()) 
@@ -446,6 +463,9 @@ inline int min(int i, int j) {
 }
 
 void HexFile::mouseMoveEvent ( QMouseEvent *e ) {
+    if ((e->button() == ScrollUpButton) || (e->button() == ScrollDownButton)) {
+        return;
+    }
     QPoint tmp = translate(e->pos());
 
     if (indexOf(tmp) > data->size())
