@@ -49,6 +49,11 @@
 #define NONE -1
 #define INIT_PID 1
 
+#ifndef QT_SCROLL_SUPPORT
+#define ScrollUpButton 0x40
+#define ScrollDownButton 0x80
+#endif
+
 typedef const char* (*KeyFunc)(const char*);
 
 typedef struct
@@ -826,6 +831,14 @@ ProcessList::handleRMBPopup(int item)
 void 
 ProcessList::mousePressEvent(QMouseEvent* e)
 {
+    if ( e->button() == ScrollUpButton ) {
+        scrollBy(0, -50);
+        return;
+    }
+    if ( e->button() == ScrollDownButton ) {
+        scrollBy(0, 50);
+        return;
+    }
 	/*
 	 * I haven't found a better way to catch RMB clicks on the header than
 	 * this hacking of the mousePressEvent function. RMB clicks are dealt
