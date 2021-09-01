@@ -19,6 +19,11 @@
 #include "htable.h"
 #include "svec.C"
 
+#ifndef QT_SCROLL_SUPPORT
+#define ScrollUpButton 0x40
+#define ScrollDownButton 0x80
+#endif
+
 const int TableBody::scroll_delay = 10; // time delay when autoscrolling, in ms
 
 // HeadingTip: tooltips for headings
@@ -294,6 +299,15 @@ void TableBody::updateRow(int row)
 
 void TableBody::mousePressEvent(QMouseEvent *e)
 {
+    if ( e->button() == ScrollUpButton ) {
+        scrollUp();
+        return;
+    }
+    if ( e->button() == ScrollDownButton ) {
+        scrollDown();
+        return;
+    }
+
     int row = findRow(e->pos().y());
     if(row==-1)
       return;
